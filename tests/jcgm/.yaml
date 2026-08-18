@@ -1,0 +1,286 @@
+---
+- id: jcgm..0001
+  identifier:
+    _type: pubid:jcgm:guide
+    number: '100'
+  representations:
+    human: JCGM 100
+    urn: urn:jcgm:100
+  style: v3
+- id: jcgm..0002
+  identifier:
+    _type: pubid:jcgm:guide
+    number: '100'
+    year: '2008'
+  representations:
+    human: JCGM 100:2008
+    urn: urn:jcgm:100:2008
+  style: v3
+- id: jcgm..0003
+  identifier:
+    _type: pubid:jcgm:guide
+    number: '100'
+    year: '2008'
+    languages:
+    - code: en
+      original_code: E
+  representations:
+    human: JCGM 100:2008(E)
+    urn: urn:jcgm:100:2008:en
+  style: v3
+- id: jcgm..0004
+  identifier:
+    _type: pubid:jcgm:amendment
+    number: '1'
+    base:
+      _type: pubid:jcgm:guide
+      number: '100'
+      year: '2008'
+  representations:
+    human: JCGM 100:2008/Amd 1
+    urn: urn:jcgm:100:2008:amendment:1
+  style: v3
+- id: jcgm..0005
+  identifier:
+    _type: pubid:jcgm:amendment
+    number: '1'
+    year: '2025'
+    month: '07'
+    day: '25'
+    base:
+      _type: pubid:jcgm:guide
+      number: '100'
+      year: '2008'
+  representations:
+    human: JCGM 100:2008/Amd 1:2025-07-25
+    urn: urn:jcgm:100:2008:amendment:1:2025
+  style: v3
+- id: jcgm..0006
+  identifier:
+    _type: pubid:jcgm:meeting
+    number: '11'
+    year: '2006'
+  representations:
+    human: JCGM 11st Meeting (2006)
+    urn: urn:jcgm:meeting:11:2006
+  style: v3
+- id: jcgm..0007
+  identifier:
+    _type: pubid:jcgm:meeting
+    number: '12'
+    year: '2007'
+  representations:
+    human: JCGM 12nd Meeting (2007)
+    urn: urn:jcgm:meeting:12:2007
+  style: v3
+- id: jcgm..0008
+  identifier:
+    _type: pubid:jcgm:meeting
+    number: '13'
+    year: '2008'
+  representations:
+    human: JCGM 13rd Meeting (2008)
+    urn: urn:jcgm:meeting:13:2008
+  style: v3
+- id: jcgm..0009
+  identifier:
+    _type: pubid:jcgm:meeting
+    number: '15'
+    year: '2009'
+  representations:
+    human: JCGM 15th Meeting (2009)
+    urn: urn:jcgm:meeting:15:2009
+  style: v3
+- id: jcgm..0010
+  identifier:
+    _type: pubid:jcgm:meeting
+    number: '16'
+    year: '2011'
+  representations:
+    human: JCGM 16th Meeting (2011)
+    urn: urn:jcgm:meeting:16:2011
+  style: v3
+- id: jcgm..0011
+  identifier:
+    _type: pubid:jcgm:meeting
+    number: '17'
+    year: '2012'
+  representations:
+    human: JCGM 17th Meeting (2012)
+    urn: urn:jcgm:meeting:17:2012
+  style: v3
+- id: jcgm..0012
+  identifier:
+    _type: pubid:jcgm:meeting
+    number: '18'
+    year: '2013'
+  representations:
+    human: JCGM 18th Meeting (2013)
+    urn: urn:jcgm:meeting:18:2013
+  style: v3
+- id: jcgm..0013
+  identifier:
+    _type: pubid:jcgm:meeting
+    number: '19'
+    year: '2014'
+  representations:
+    human: JCGM 19th Meeting (2014)
+    urn: urn:jcgm:meeting:19:2014
+  style: v3
+- id: jcgm..0014
+  identifier:
+    _type: pubid:jcgm:guide
+    number: '200'
+    year: '2007'
+    languages:
+    - code: fr
+      original_code: F
+  representations:
+    human: JCGM 200:2007(F)
+    urn: urn:jcgm:200:2007:fr
+  style: v3
+- id: jcgm..0015
+  identifier:
+    _type: pubid:jcgm:corrigendum
+    base:
+      _type: pubid:jcgm:guide
+      number: '200'
+      year: '2008'
+  representations:
+    human: JCGM 200:2008 Corrigendum
+    urn: urn:jcgm:200:2008:corrigendum
+  style: v3
+- id: jcgm..0016
+  identifier:
+    _type: pubid:jcgm:guide
+    number: '200'
+    year: '2008'
+    languages:
+    - code: fr
+      original_code: F
+  representations:
+    human: JCGM 200:2008(F)
+    urn: urn:jcgm:200:2008:fr
+  style: v3
+- id: jcgm..0017
+  identifier:
+    _type: pubid:jcgm:guide
+    number: '200'
+    year: '2012'
+    languages:
+    - code: en
+      original_code: E
+    - code: fr
+      original_code: F
+  representations:
+    human: JCGM 200:2012(E/F)
+    urn: urn:jcgm:200:2012:en,fr
+  style: v3
+- id: jcgm..0018
+  identifier:
+    _type: pubid:jcgm:meeting
+    number: '20'
+    year: '2015'
+  representations:
+    human: JCGM 20th Meeting (2015)
+    urn: urn:jcgm:meeting:20:2015
+  style: v3
+- id: jcgm..0019
+  identifier:
+    _type: pubid:jcgm:meeting
+    number: '21'
+    year: '2017'
+  representations:
+    human: JCGM 21st Meeting (2017)
+    urn: urn:jcgm:meeting:21:2017
+  style: v3
+- id: jcgm..0020
+  identifier:
+    _type: pubid:jcgm:meeting
+    number: '22'
+    year: '2018'
+  representations:
+    human: JCGM 22nd Meeting (2018)
+    urn: urn:jcgm:meeting:22:2018
+  style: v3
+- id: jcgm..0021
+  identifier:
+    _type: pubid:jcgm:meeting
+    number: '23'
+    year: '2020'
+  representations:
+    human: JCGM 23rd Meeting (2020)
+    urn: urn:jcgm:meeting:23:2020
+  style: v3
+- id: jcgm..0022
+  identifier:
+    _type: pubid:jcgm:meeting
+    number: '24'
+    year: '2021'
+  representations:
+    human: JCGM 24th Meeting (2021)
+    urn: urn:jcgm:meeting:24:2021
+  style: v3
+- id: jcgm..0023
+  identifier:
+    _type: pubid:jcgm:meeting
+    number: '25'
+    year: '2022'
+  representations:
+    human: JCGM 25th Meeting (2022)
+    urn: urn:jcgm:meeting:25:2022
+  style: v3
+- id: jcgm..0024
+  identifier:
+    _type: pubid:jcgm:meeting
+    number: '26'
+    year: '2024'
+  representations:
+    human: JCGM 26th Meeting (2024)
+    urn: urn:jcgm:meeting:26:2024
+  style: v3
+- id: jcgm..0025
+  identifier:
+    _type: pubid:jcgm:meeting
+    number: '27'
+    year: '2025'
+  representations:
+    human: JCGM 27th Meeting (2025)
+    urn: urn:jcgm:meeting:27:2025
+  style: v3
+- id: jcgm..0026
+  identifier:
+    _type: pubid:jcgm:guide
+    number: GUM
+  representations:
+    human: JCGM GUM
+    urn: urn:jcgm:GUM
+  style: v3
+- id: jcgm..0027
+  identifier:
+    _type: pubid:jcgm:gum-guide
+    number: '1'
+    year: '2022'
+    month: '11'
+    day: '28'
+  representations:
+    human: JCGM GUM-1:2022-11-28
+    urn: urn:jcgm:gum.1:2022
+  style: v3
+- id: jcgm..0028
+  identifier:
+    _type: pubid:jcgm:gum-guide
+    number: '6'
+    year: '2020'
+  representations:
+    human: JCGM GUM-6:2020
+    urn: urn:jcgm:gum.6:2020
+  style: v3
+- id: jcgm..0029
+  identifier:
+    _type: pubid:jcgm:guide
+    number: VIM-3
+  representations:
+    human: JCGM VIM-3
+    urn: urn:jcgm:VIM-3
+  style: v3

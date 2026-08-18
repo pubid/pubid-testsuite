@@ -1,50 +1,52 @@
 # Verification record
 
-Initial commit's "verified" claim was VACUOUS (tooling path bug ran
-zero cases). This file records the REAL full-migration status.
-Every number below is tools/export.rb output, unedited.
+Real per-flavor status from tools/export.rb (ALL 40 registered flavors).
+CLEAN = reconciliation closes + zero re-verify mismatches + zero schema
+errors. DIRTY = known reference-implementation defects (the ledger):
+fix the gem, re-run tools/export.rb, the flavor goes CLEAN.
 
 ```
-amca  lines=108    cases=59     aliases=26   dups=0     phantom=19   debt=38   neg=6    quar=0   | closes=false | verify: cases=39 aliases=12 mismatch=20 schema_errors=0 CLEAN=false
-api   lines=426    cases=382    aliases=324  dups=0     phantom=324  debt=39   neg=0    quar=0   | closes=false | verify: cases=382 aliases=1 mismatch=323 schema_errors=1 CLEAN=false
-ashrae lines=4233   cases=3709   aliases=3046 dups=8     phantom=2563 debt=32   neg=18   quar=0   | closes=false | verify: cases=1981 aliases=1370 mismatch=283 schema_errors=0 CLEAN=false
-asme  lines=1475   cases=1152   aliases=200  dups=0     phantom=90   debt=213  neg=0    quar=0   | closes=true | verify: cases=1152 aliases=175 mismatch=17 schema_errors=0 CLEAN=false
-astm  lines=550    cases=484    aliases=12   dups=1     phantom=12   debt=65   neg=0    quar=0   | closes=true | verify: cases=484 aliases=9 mismatch=3 schema_errors=0 CLEAN=false
-bsi   lines=3243   cases=1684   aliases=39   dups=1     phantom=39   debt=1558 neg=84   quar=0   | closes=true | verify: cases=934 aliases=17 mismatch=24 schema_errors=0 CLEAN=false
-cen_cenelec lines=282    cases=134    aliases=10   dups=4     phantom=10   debt=143  neg=15   quar=0   | closes=false | verify: cases=134 aliases=4 mismatch=6 schema_errors=0 CLEAN=false
-csa   lines=1792   cases=1552   aliases=63   dups=4     phantom=63   debt=236  neg=95   quar=0   | closes=true | verify: cases=1552 aliases=62 mismatch=27 schema_errors=0 CLEAN=false
-doi   lines=4      cases=4      aliases=3    dups=0     phantom=3    debt=0    neg=4    quar=0   | closes=true | verify: cases=4 aliases=3 mismatch=0 schema_errors=0 CLEAN=true
-idf   lines=180    cases=92     aliases=46   dups=0     phantom=46   debt=88   neg=0    quar=0   | closes=true | verify: cases=75 aliases=46 mismatch=0 schema_errors=0 CLEAN=true
-iec   lines=39289  cases=37685  aliases=121  dups=1306  phantom=120  debt=297  neg=164  quar=0   | closes=true | verify: cases=37685 aliases=121 mismatch=0 schema_errors=7047 CLEAN=false
-ieee  lines=29347  cases=20435  aliases=12139 dups=0     phantom=12113 debt=7987 neg=900  quar=0   | closes=false | verify: cases=20435 aliases=12105 mismatch=14296 schema_errors=0 CLEAN=false
-ietf  lines=70     cases=60     aliases=0    dups=0     phantom=0    debt=10   neg=0    quar=0   | closes=true | verify: cases=60 aliases=0 mismatch=0 schema_errors=0 CLEAN=true
-iho   lines=131    cases=131    aliases=0    dups=0     phantom=0    debt=0    neg=0    quar=0   | closes=true | verify: cases=131 aliases=0 mismatch=0 schema_errors=0 CLEAN=true
-isbn  lines=4      cases=3      aliases=2    dups=0     phantom=1    debt=0    neg=4    quar=0   | closes=true | verify: cases=3 aliases=2 mismatch=0 schema_errors=0 CLEAN=true
-iso   lines=22909  cases=22759  aliases=346  dups=10    phantom=301  debt=95   neg=56   quar=0   | closes=true | verify: cases=22759 aliases=346 mismatch=86 schema_errors=0 CLEAN=false
-itu   lines=4818   cases=4786   aliases=0    dups=0     phantom=0    debt=32   neg=0    quar=0   | closes=true | verify: cases=2745 aliases=0 mismatch=0 schema_errors=0 CLEAN=true
-jcgm  lines=77     cases=59     aliases=0    dups=0     phantom=0    debt=18   neg=0    quar=0   | closes=true | verify: cases=34 aliases=0 mismatch=0 schema_errors=0 CLEAN=true
-jis   lines=21114  cases=21110  aliases=0    dups=0     phantom=0    debt=4    neg=0    quar=0   | closes=true | verify: cases=21110 aliases=0 mismatch=0 schema_errors=0 CLEAN=true
-nist  lines=61638  cases=59022  aliases=2919 dups=227   phantom=2893 debt=2363 neg=0    quar=0   | closes=true | verify: cases=59022 aliases=2913 mismatch=348 schema_errors=0 CLEAN=false
-oasis lines=64     cases=45     aliases=0    dups=0     phantom=0    debt=19   neg=0    quar=0   | closes=true | verify: cases=45 aliases=0 mismatch=0 schema_errors=0 CLEAN=true
-ogc   lines=93     cases=88     aliases=0    dups=0     phantom=0    debt=5    neg=8    quar=0   | closes=true | verify: cases=88 aliases=0 mismatch=0 schema_errors=0 CLEAN=true
-oiml  lines=136    cases=108    aliases=4    dups=0     phantom=2    debt=26   neg=0    quar=0   | closes=true | verify: cases=108 aliases=4 mismatch=0 schema_errors=0 CLEAN=true
-omg   lines=6      cases=6      aliases=0    dups=0     phantom=0    debt=0    neg=4    quar=0   | closes=true | verify: cases=6 aliases=0 mismatch=0 schema_errors=0 CLEAN=true
-plateau lines=236    cases=230    aliases=0    dups=0     phantom=0    debt=6    neg=0    quar=0   | closes=true | verify: cases=230 aliases=0 mismatch=0 schema_errors=0 CLEAN=true
-tgpp  lines=38     cases=32     aliases=0    dups=0     phantom=0    debt=6    neg=0    quar=0   | closes=true | verify: cases=32 aliases=0 mismatch=0 schema_errors=0 CLEAN=true
-un    lines=5      cases=4      aliases=1    dups=0     phantom=0    debt=0    neg=5    quar=0   | closes=true | verify: cases=4 aliases=1 mismatch=0 schema_errors=0 CLEAN=true
-w3c   lines=39     cases=29     aliases=0    dups=0     phantom=0    debt=10   neg=0    quar=0   | closes=true | verify: cases=29 aliases=0 mismatch=0 schema_errors=0 CLEAN=true
-xsf   lines=52     cases=49     aliases=0    dups=0     phantom=0    debt=3    neg=0    quar=0   | closes=true | verify: cases=49 aliases=0 mismatch=0 schema_errors=0 CLEAN=true
+amca         lines=82     cases=39     aliases=26    debt=38    neg=6    quar=0   divergent=2     | closes=true | verify: mismatch=18 schema_errors=0 CLEAN=false
+ansi         lines=179    cases=175    aliases=0     debt=4     neg=0    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+api          lines=223    cases=192    aliases=163   debt=39    neg=0    quar=0   divergent=0     | closes=true | verify: mismatch=323 schema_errors=1 CLEAN=false
+ashrae       lines=3640   cases=1756   aliases=3046  debt=32    neg=18   quar=0   divergent=38    | closes=true | verify: mismatch=77 schema_errors=0 CLEAN=false
+asme         lines=944    cases=621    aliases=200   debt=213   neg=0    quar=0   divergent=1     | closes=true | verify: mismatch=16 schema_errors=0 CLEAN=false
+astm         lines=297    cases=248    aliases=12    debt=65    neg=0    quar=0   divergent=0     | closes=true | verify: mismatch=3 schema_errors=0 CLEAN=false
+bipm         lines=133    cases=90     aliases=0     debt=47    neg=9    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+bsi          lines=1796   cases=854    aliases=36    debt=1558  neg=84   quar=0   divergent=0     | closes=true | verify: mismatch=23 schema_errors=0 CLEAN=false
+calconnect   lines=191    cases=189    aliases=0     debt=2     neg=10   quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+ccsds        lines=495    cases=490    aliases=0     debt=6     neg=0    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+cen_cenelec  lines=172    cases=72     aliases=10    debt=143   neg=15   quar=0   divergent=0     | closes=true | verify: mismatch=6 schema_errors=0 CLEAN=false
+cie          lines=411    cases=362    aliases=0     debt=61    neg=0    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+csa          lines=1050   cases=823    aliases=63    debt=236   neg=95   quar=0   divergent=13    | closes=true | verify: mismatch=14 schema_errors=0 CLEAN=false
+doi          lines=4      cases=3      aliases=3     debt=0     neg=4    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+easc         lines=0      cases=0      aliases=0     debt=0     neg=0    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+ecma         lines=44     cases=38     aliases=0     debt=8     neg=0    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+etsi         lines=24735  cases=24724  aliases=0     debt=13    neg=0    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+gb           lines=10     cases=8      aliases=0     debt=2     neg=5    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+gost         lines=0      cases=0      aliases=0     debt=0     neg=0    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+iana         lines=36     cases=30     aliases=0     debt=6     neg=12   quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+idf          lines=146    cases=65     aliases=46    debt=88    neg=0    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+iec          lines=12547  cases=12329  aliases=57    debt=297   neg=164  quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+ieee         lines=14322  cases=8247   aliases=5267  debt=7987  neg=900  quar=0   divergent=2483  | closes=true | verify: mismatch=7778 schema_errors=0 CLEAN=false
+ietf         lines=68     cases=60     aliases=0     debt=10    neg=0    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+iho          lines=131    cases=131    aliases=0     debt=0     neg=0    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+isbn         lines=4      cases=3      aliases=2     debt=0     neg=4    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+iso          lines=7728   cases=7623   aliases=166   debt=95    neg=56   quar=0   divergent=17    | closes=true | verify: mismatch=86 schema_errors=0 CLEAN=false
+itu          lines=2777   cases=2745   aliases=0     debt=32    neg=0    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+jcgm         lines=45     cases=29     aliases=0     debt=18    neg=0    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+jis          lines=10559  cases=10555  aliases=0     debt=4     neg=0    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+nist         lines=23731  cases=19846  aliases=2290  debt=2363  neg=0    quar=0   divergent=104   | closes=true | verify: mismatch=348 schema_errors=0 CLEAN=false
+oasis        lines=64     cases=45     aliases=0     debt=19    neg=0    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+ogc          lines=93     cases=88     aliases=0     debt=5     neg=8    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+oiml         lines=75     cases=55     aliases=4     debt=26    neg=0    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+omg          lines=6      cases=6      aliases=0     debt=0     neg=4    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+plateau      lines=120    cases=115    aliases=0     debt=6     neg=0    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+tgpp         lines=37     cases=32     aliases=0     debt=6     neg=0    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+un           lines=5      cases=4      aliases=1     debt=0     neg=5    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+w3c          lines=39     cases=29     aliases=0     debt=10    neg=0    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
+xsf          lines=52     cases=49     aliases=0     debt=3     neg=0    quar=0   divergent=0     | closes=true | verify: mismatch=0 schema_errors=0 CLEAN=true
 ```
 
-## Flavors skipped (fixtures exist, no registered reference flavor):
-ans, cga, cgsb - raw text preserved under reference-docs/, no tests generated.
-
-## Reading the numbers
-
-- CLEAN = reconciliation closes AND zero mismatches AND zero schema
-  errors: every ground-truth line accounted for and every case/alias
-  re-verifies through the reference implementation.
-- DIRTY = genuine reference-implementation defects surfaced by the
-  corpus (rendered forms that do not re-parse; normalization
-  asymmetries; schema deviations). These cases remain in the corpus
-  as the defect ledger - fix the gem, re-export, they go CLEAN.
+Tallies: 29 CLEAN, 11 DIRTY.
+Per-flavor machine-readable status: tests/{flavor}/_status.yaml

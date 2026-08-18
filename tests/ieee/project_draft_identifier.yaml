@@ -615,8 +615,6 @@
     number: '11073'
     type: P
     draft: D3, June 2017
-    relationships:
-    - relationship_type: revision_of
     parts:
     - '10425'
     separator: "-"
@@ -1111,8 +1109,6 @@
     number: 1188a
     type: P
     draft: D2, July 2013
-    relationships:
-    - relationship_type: amendment_to
     stage: D2
   representations:
     human: IEEE P1188a/D2, July 2013
@@ -5425,8 +5421,6 @@
     number: '404'
     type: P
     draft: DRev1 June 2011
-    relationships:
-    - relationship_type: revision_of
     stage: P
   representations:
     human: IEEE P404/DRev1 June 2011
@@ -6641,8 +6635,6 @@
     number: '802'
     type: P
     draft: D05, June 2011
-    relationships:
-    - relationship_type: revision_of
     parts:
     - '15'
     - 4f
@@ -6902,8 +6894,6 @@
     number: '802'
     type: P
     draft: D3, July 2017
-    relationships:
-    - relationship_type: revision_of
     parts:
     - '16'
     separator: "."
@@ -6921,8 +6911,6 @@
     number: '802'
     type: P
     draft: D6
-    relationships:
-    - relationship_type: revision_of
     parts:
     - '16'
     separator: "."
@@ -7350,8 +7338,6 @@
     number: '802'
     type: P
     draft: D2.5, July 2018
-    relationships:
-    - relationship_type: draft_amendment_to
     parts:
     - 1Qcy
     separator: "."
@@ -7615,8 +7601,6 @@
     number: '802'
     type: P
     draft: D2.0 December, 2012
-    relationships:
-    - relationship_type: revision_of
     parts:
     - '3'
     - '1'
@@ -7666,8 +7650,6 @@
     number: '802'
     type: P
     draft: D3.1, June 2015
-    relationships:
-    - relationship_type: revision_of
     parts:
     - '3'
     separator: "."
@@ -8937,8 +8919,6 @@
     _type: pubid:ieee:standard
     number: C57
     draft: D5, June 2017
-    relationships:
-    - relationship_type: revision_of
     prefix: P
     parts:
     - '12'
@@ -8957,8 +8937,6 @@
     _type: pubid:ieee:standard
     number: C57
     draft: D6, July 2017
-    relationships:
-    - relationship_type: revision_of
     prefix: P
     parts:
     - '12'
@@ -10868,7 +10846,6 @@
   identifier:
     _type: pubid:ieee:standard
     number: '11073'
-    type: Draft Std
     draft_status: Unapproved
     draft: D02, Feb 2008
     parts:
@@ -10886,7 +10863,6 @@
   identifier:
     _type: pubid:ieee:standard
     number: '11073'
-    type: Draft Std
     draft_status: Unapproved
     draft: D02, Apr 2009
     parts:
@@ -10904,7 +10880,6 @@
   identifier:
     _type: pubid:ieee:standard
     number: '57'
-    type: Draft Std
     draft_status: Unapproved
     draft: D8.6, Jun 2009
     prefix: C

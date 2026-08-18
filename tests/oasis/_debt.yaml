@@ -1,5 +1,5 @@
 ---
-- id: oasis.debt.4519095904824870169
+- id: oasis.debt.2591926522576999570
   input: "# Curated sample of real OASIS identifiers from relaton-data-oasis (~605
     records)."
   expect:
@@ -8,7 +8,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OASIS identifier
     ''# Curated sample of real OASIS identifiers from relaton-data-oasis (~605 records).'':
     Failed to match sequence (PREFIX SLUG) at line 1 char 1.'
-- id: oasis.debt.2479317875387018879
+- id: oasis.debt.1126193724177990355
   input: "# Every line must satisfy parse(x).to_s == x (100%) — the verbatim `original`"
   expect:
     error:
@@ -16,7 +16,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OASIS identifier
     ''# Every line must satisfy parse(x).to_s == x (100%) — the verbatim `original`'':
     Failed to match sequence (PREFIX SLUG) at line 1 char 1.'
-- id: oasis.debt.1627181850458680952
+- id: oasis.debt.2333879056381754269
   input: "# contract guarantees this regardless of how much decomposition succeeds."
   expect:
     error:
@@ -24,7 +24,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OASIS identifier
     ''# contract guarantees this regardless of how much decomposition succeeds.'':
     Failed to match sequence (PREFIX SLUG) at line 1 char 1.'
-- id: oasis.debt.84457451093514991
+- id: oasis.debt.1529375626109285390
   input: "# Covers: bare spec, version forms (v/bare/3-part/glued), the three part"
   expect:
     error:
@@ -32,7 +32,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OASIS identifier
     ''# Covers: bare spec, version forms (v/bare/3-part/glued), the three part'':
     Failed to match sequence (PREFIX SLUG) at line 1 char 1.'
-- id: oasis.debt.736910407767189012
+- id: oasis.debt.700486627499168648
   input: "# spellings, all stage tokens, labels, both fragment orders, and the handful
     of"
   expect:
@@ -41,7 +41,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OASIS identifier
     ''# spellings, all stage tokens, labels, both fragment orders, and the handful
     of'': Failed to match sequence (PREFIX SLUG) at line 1 char 1.'
-- id: oasis.debt.2185353085096881817
+- id: oasis.debt.178884417593096995
   input: "# malformed records (embedded space / stray `]`)."
   expect:
     error:
@@ -49,7 +49,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OASIS identifier
     ''# malformed records (embedded space / stray `]`).'': Failed to match sequence
     (PREFIX SLUG) at line 1 char 1.'
-- id: oasis.debt.4519383841424777751
+- id: oasis.debt.655703023825658578
   input: "# --- bare spec name only ---"
   expect:
     error:
@@ -57,7 +57,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OASIS identifier
     ''# --- bare spec name only ---'': Failed to match sequence (PREFIX SLUG) at line
     1 char 1.'
-- id: oasis.debt.1424960331401519356
+- id: oasis.debt.4204934269712985871
   input: "# --- spec + version ---"
   expect:
     error:
@@ -65,7 +65,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OASIS identifier
     ''# --- spec + version ---'': Failed to match sequence (PREFIX SLUG) at line 1
     char 1.'
-- id: oasis.debt.107326680398769887
+- id: oasis.debt.2244068316204886529
   input: "# --- bare (no v) version ---"
   expect:
     error:
@@ -73,7 +73,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OASIS identifier
     ''# --- bare (no v) version ---'': Failed to match sequence (PREFIX SLUG) at line
     1 char 1.'
-- id: oasis.debt.388044405249692667
+- id: oasis.debt.413901480395725532
   input: "# --- three-component version ---"
   expect:
     error:
@@ -81,7 +81,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OASIS identifier
     ''# --- three-component version ---'': Failed to match sequence (PREFIX SLUG)
     at line 1 char 1.'
-- id: oasis.debt.2375355675537127803
+- id: oasis.debt.3955130370272224296
   input: "# --- spec + version + part (Pt spelling) ---"
   expect:
     error:
@@ -89,7 +89,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OASIS identifier
     ''# --- spec + version + part (Pt spelling) ---'': Failed to match sequence (PREFIX
     SLUG) at line 1 char 1.'
-- id: oasis.debt.1119234662624931219
+- id: oasis.debt.1619417812837432163
   input: "# --- spec + version + stage + part ---"
   expect:
     error:
@@ -97,7 +97,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OASIS identifier
     ''# --- spec + version + stage + part ---'': Failed to match sequence (PREFIX
     SLUG) at line 1 char 1.'
-- id: oasis.debt.2909385839978429616
+- id: oasis.debt.807184907857257727
   input: "# --- part-before-stage order variant ---"
   expect:
     error:
@@ -105,7 +105,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OASIS identifier
     ''# --- part-before-stage order variant ---'': Failed to match sequence (PREFIX
     SLUG) at line 1 char 1.'
-- id: oasis.debt.1154880259339678715
+- id: oasis.debt.2066817471329007618
   input: "# --- label between fragments ---"
   expect:
     error:
@@ -113,7 +113,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OASIS identifier
     ''# --- label between fragments ---'': Failed to match sequence (PREFIX SLUG)
     at line 1 char 1.'
-- id: oasis.debt.3623570284402402925
+- id: oasis.debt.1663728984709682382
   input: "# --- trailing free-text label ---"
   expect:
     error:
@@ -121,7 +121,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OASIS identifier
     ''# --- trailing free-text label ---'': Failed to match sequence (PREFIX SLUG)
     at line 1 char 1.'
-- id: oasis.debt.1549583483343075797
+- id: oasis.debt.3816978661890897051
   input: "# --- stage tokens: CS0x / PS0x ---"
   expect:
     error:
@@ -129,14 +129,14 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OASIS identifier
     ''# --- stage tokens: CS0x / PS0x ---'': Failed to match sequence (PREFIX SLUG)
     at line 1 char 1.'
-- id: oasis.debt.2424439142621146861
+- id: oasis.debt.1529727093825580389
   input: "# --- errata ---"
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OASIS identifier
     ''# --- errata ---'': Failed to match sequence (PREFIX SLUG) at line 1 char 1.'
-- id: oasis.debt.3673350278320943174
+- id: oasis.debt.3081914442548843393
   input: "# --- mixed-case spec names ---"
   expect:
     error:
@@ -144,7 +144,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OASIS identifier
     ''# --- mixed-case spec names ---'': Failed to match sequence (PREFIX SLUG) at
     line 1 char 1.'
-- id: oasis.debt.3423353953258398859
+- id: oasis.debt.125568128273045353
   input: "# --- malformed records (must still round-trip via verbatim original) ---"
   expect:
     error:

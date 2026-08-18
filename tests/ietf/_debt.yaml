@@ -1,5 +1,5 @@
 ---
-- id: ietf.debt.1297578951650578937
+- id: ietf.debt.1681608927323427509
   input: "# IETF BCP (Best Current Practice) - Pass"
   expect:
     error:
@@ -7,7 +7,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse IETF identifier
     ''# IETF BCP (Best Current Practice) - Pass'': Expected one of [RFC, SUBSERIES,
     DRAFT] at line 1 char 1.'
-- id: ietf.debt.4507355243258542028
+- id: ietf.debt.1303415166833867204
   input: "# Sampled from relaton-data-rfcsubseries"
   expect:
     error:
@@ -15,7 +15,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse IETF identifier
     ''# Sampled from relaton-data-rfcsubseries'': Expected one of [RFC, SUBSERIES,
     DRAFT] at line 1 char 1.'
-- id: ietf.debt.4294426065068464298
+- id: ietf.debt.73437244003190448
   input: "# IETF FYI (For Your Information) - Pass"
   expect:
     error:
@@ -23,7 +23,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse IETF identifier
     ''# IETF FYI (For Your Information) - Pass'': Expected one of [RFC, SUBSERIES,
     DRAFT] at line 1 char 1.'
-- id: ietf.debt.4507355243258542028
+- id: ietf.debt.1303415166833867204
   input: "# Sampled from relaton-data-rfcsubseries"
   expect:
     error:
@@ -31,7 +31,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse IETF identifier
     ''# Sampled from relaton-data-rfcsubseries'': Expected one of [RFC, SUBSERIES,
     DRAFT] at line 1 char 1.'
-- id: ietf.debt.3766291766548102294
+- id: ietf.debt.598672674046004330
   input: "# IETF Internet-Drafts - Pass"
   expect:
     error:
@@ -39,7 +39,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse IETF identifier
     ''# IETF Internet-Drafts - Pass'': Expected one of [RFC, SUBSERIES, DRAFT] at
     line 1 char 1.'
-- id: ietf.debt.1059662239897800667
+- id: ietf.debt.1253664712392630875
   input: "# Sampled from relaton-data-ids (incl. digit-tail topic edge cases)"
   expect:
     error:
@@ -47,7 +47,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse IETF identifier
     ''# Sampled from relaton-data-ids (incl. digit-tail topic edge cases)'': Expected
     one of [RFC, SUBSERIES, DRAFT] at line 1 char 1.'
-- id: ietf.debt.1999553698476231790
+- id: ietf.debt.3569958308796608768
   input: "# IETF RFC - Pass"
   expect:
     error:
@@ -55,7 +55,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse IETF identifier
     ''# IETF RFC - Pass'': Expected one of [RFC, SUBSERIES, DRAFT] at line 1 char
     1.'
-- id: ietf.debt.233641900208505953
+- id: ietf.debt.858957052340741304
   input: "# Sampled from relaton-data-rfcs"
   expect:
     error:
@@ -63,7 +63,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse IETF identifier
     ''# Sampled from relaton-data-rfcs'': Expected one of [RFC, SUBSERIES, DRAFT]
     at line 1 char 1.'
-- id: ietf.debt.3721836403386454512
+- id: ietf.debt.2998783613227287390
   input: "# IETF STD (Internet Standard) - Pass"
   expect:
     error:
@@ -71,7 +71,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse IETF identifier
     ''# IETF STD (Internet Standard) - Pass'': Expected one of [RFC, SUBSERIES, DRAFT]
     at line 1 char 1.'
-- id: ietf.debt.4507355243258542028
+- id: ietf.debt.1303415166833867204
   input: "# Sampled from relaton-data-rfcsubseries"
   expect:
     error:

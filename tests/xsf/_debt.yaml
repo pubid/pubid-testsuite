@@ -1,5 +1,5 @@
 ---
-- id: xsf.debt.3763928518239105057
+- id: xsf.debt.4124164295375650811
   input: "# XSF XEP identifiers — Pass"
   expect:
     error:
@@ -7,7 +7,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse XSF identifier
     ''# XSF XEP identifiers — Pass'': Failed to match sequence (''XEP'' '' '' number:DIGITS)
     at line 1 char 1.'
-- id: xsf.debt.810906216665636049
+- id: xsf.debt.4099813504476947495
   input: "# Sample of real ids from relaton-data-xsf (docidentifier content)."
   expect:
     error:
@@ -15,7 +15,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse XSF identifier
     ''# Sample of real ids from relaton-data-xsf (docidentifier content).'': Failed
     to match sequence (''XEP'' '' '' number:DIGITS) at line 1 char 1.'
-- id: xsf.debt.4522446768966916341
+- id: xsf.debt.371690909029688376
   input: '# One identifier per line; "XEP NNNN" with the number zero-padded to 4 digits.'
   expect:
     error:

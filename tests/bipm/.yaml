@@ -1,0 +1,886 @@
+---
+- id: bipm..0001
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: JCRB
+    type_code: ACT
+    number: 10-1
+    year: 2003
+    language: F
+    form: long
+  representations:
+    human: Action 10-1 du JCRB (2003)
+    urn: urn:bipm:jcrb:act:10-1:2003
+  style: v3
+- id: bipm..0002
+  identifier:
+    _type: pubid:bipm:guide
+    group: CCEM
+    number: '1'
+    guide_kind: RSI
+    appendix: '2'
+    part: '4.2'
+  representations:
+    human: BIPM CCEM-GD-RSI-1 Appendix 2 Part 4.2
+  style: v3
+- id: bipm..0003
+  identifier:
+    _type: pubid:bipm:guide
+    group: CCL
+    number: '1'
+    guide_kind: MeP
+    appendix: '2'
+    part: '2.2'
+  representations:
+    human: BIPM CCL-GD-MeP-1 Appendix 2 Part 2.2
+  style: v3
+- id: bipm..0004
+  identifier:
+    _type: pubid:bipm:guide
+    group: CCL
+    number: '2'
+    guide_kind: MeP
+    appendix: '2'
+    part: '2.2'
+  representations:
+    human: BIPM CCL-GD-MeP-2 Appendix 2 Part 2.2
+  style: v3
+- id: bipm..0005
+  identifier:
+    _type: pubid:bipm:guide
+    group: CCL
+    number: '3'
+    guide_kind: MeP
+    appendix: '2'
+    part: '2.3'
+  representations:
+    human: BIPM CCL-GD-MeP-3 Appendix 2 Part 2.3
+  style: v3
+- id: bipm..0006
+  identifier:
+    _type: pubid:bipm:guide
+    group: CCM
+    number: '1'
+    guide_kind: RSI
+    appendix: '2'
+    part: '3.1'
+  representations:
+    human: BIPM CCM-GD-RSI-1 Appendix 2 Part 3.1
+  style: v3
+- id: bipm..0007
+  identifier:
+    _type: pubid:bipm:guide
+    group: CCM
+    number: '2'
+    guide_kind: RSI
+    appendix: '2'
+    part: '3.2'
+  representations:
+    human: BIPM CCM-GD-RSI-2 Appendix 2 Part 3.2
+  style: v3
+- id: bipm..0008
+  identifier:
+    _type: pubid:bipm:mep
+    report_code: BIPM-2019/05
+    appendix: '2'
+    part: '1'
+  representations:
+    human: BIPM Rapport BIPM-2019/05 Appendix 2 Part 1
+  style: v3
+- id: bipm..0009
+  identifier:
+    _type: pubid:bipm:si-brochure
+    language: E
+    edition: 9e
+    version: v3.01
+    years: 2019/2024
+  representations:
+    human: BIPM SI Brochure 9e v3.01 (2019/2024, E)
+    urn: urn:bipm:si-brochure:e:9e:v3.01:2019/2024
+  style: v3
+- id: bipm..0010
+  identifier:
+    _type: pubid:bipm:si-brochure
+    variant: Appendix 3
+  representations:
+    human: BIPM SI Brochure Appendix 3
+    urn: 'urn:bipm:si-brochure::::'
+  style: v3
+- id: bipm..0011
+  identifier:
+    _type: pubid:bipm:si-brochure
+    variant: Concise
+  representations:
+    human: BIPM SI Brochure Concise
+    urn: 'urn:bipm:si-brochure::::'
+  style: v3
+- id: bipm..0012
+  identifier:
+    _type: pubid:bipm:si-brochure
+    variant: FAQ
+  representations:
+    human: BIPM SI Brochure FAQ
+    urn: 'urn:bipm:si-brochure::::'
+  style: v3
+- id: bipm..0013
+  identifier:
+    _type: pubid:bipm:si-brochure
+    language: F
+    edition: 9e
+    version: v3.01
+    years: 2019/2024
+  representations:
+    human: BIPM SI Brochure sur le SI 9e v3.01 (2019/2024, F)
+    urn: urn:bipm:si-brochure:f:9e:v3.01:2019/2024
+  style: v3
+- id: bipm..0014
+  identifier:
+    _type: pubid:bipm:mep
+    mep_code: A1
+    appendix: '2'
+    part: '4.1'
+  representations:
+    human: BIPM SI MEP A1 Appendix 2 Part 4.1
+  style: v3
+- id: bipm..0015
+  identifier:
+    _type: pubid:bipm:mep
+    mep_code: Cd1
+    appendix: '2'
+    part: '7.1'
+  representations:
+    human: BIPM SI MEP Cd1 Appendix 2 Part 7.1
+  style: v3
+- id: bipm..0016
+  identifier:
+    _type: pubid:bipm:mep
+    mep_code: K1
+    appendix: '2'
+    part: '5.1'
+  representations:
+    human: BIPM SI MEP K1 Appendix 2 Part 5.1
+  style: v3
+- id: bipm..0017
+  identifier:
+    _type: pubid:bipm:mep
+    mep_code: KAPRT
+    appendix: '2'
+    annex: '1'
+    part: '1'
+  representations:
+    human: BIPM SI MEP KAPRT Appendix 2 Annex 1 Part 1
+  style: v3
+- id: bipm..0018
+  identifier:
+    _type: pubid:bipm:mep
+    mep_code: KLJNT
+    appendix: '2'
+    annex: '4'
+    part: '1'
+  representations:
+    human: BIPM SI MEP KLJNT Appendix 2 Annex 4 Part 1
+  style: v3
+- id: bipm..0019
+  identifier:
+    _type: pubid:bipm:mep
+    mep_code: KRPRT
+    appendix: '2'
+    annex: '3'
+    part: '1'
+  representations:
+    human: BIPM SI MEP KRPRT Appendix 2 Annex 3 Part 1
+  style: v3
+- id: bipm..0020
+  identifier:
+    _type: pubid:bipm:mep
+    mep_code: KUPRTM
+    appendix: '2'
+    annex: '2'
+    part: '1'
+  representations:
+    human: BIPM SI MEP KUPRTM Appendix 2 Annex 2 Part 1
+  style: v3
+- id: bipm..0021
+  identifier:
+    _type: pubid:bipm:mep
+    mep_code: Kg1
+    appendix: '2'
+    part: '3.1'
+  representations:
+    human: BIPM SI MEP Kg1 Appendix 2 Part 3.1
+  style: v3
+- id: bipm..0022
+  identifier:
+    _type: pubid:bipm:mep
+    mep_code: M1
+    appendix: '2'
+    part: '2.1'
+  representations:
+    human: BIPM SI MEP M1 Appendix 2 Part 2.1
+  style: v3
+- id: bipm..0023
+  identifier:
+    _type: pubid:bipm:mep
+    mep_code: Mol1
+    appendix: '2'
+    part: '6.1'
+  representations:
+    human: BIPM SI MEP Mol1 Appendix 2 Part 6.1
+  style: v3
+- id: bipm..0024
+  identifier:
+    _type: pubid:bipm:mep
+    mep_code: S1
+    appendix: '2'
+    part: '1.1'
+  representations:
+    human: BIPM SI MEP S1 Appendix 2 Part 1.1
+  style: v3
+- id: bipm..0025
+  identifier:
+    _type: pubid:bipm:meeting
+    group: CCAUV
+    number: '10'
+    language: F
+  representations:
+    human: CCAUV 10<sup>e</sup> réunion
+    urn: urn:bipm:ccauv:meeting:10
+  style: v3
+- id: bipm..0026
+  identifier:
+    _type: pubid:bipm:meeting
+    group: CCAUV
+    number: '10'
+    year: 2015
+    language: F
+  representations:
+    human: CCAUV 10<sup>e</sup> réunion (2015)
+    urn: urn:bipm:ccauv:meeting:10:2015
+  style: v3
+- id: bipm..0027
+  identifier:
+    _type: pubid:bipm:meeting
+    group: CCAUV
+    number: '10'
+    year: 2015
+  representations:
+    human: CCAUV 10th Meeting (2015)
+    urn: urn:bipm:ccauv:meeting:10:2015
+  style: v3
+- id: bipm..0028
+  identifier:
+    _type: pubid:bipm:meeting
+    group: CCAUV
+    number: '11'
+    year: 2017
+  representations:
+    human: CCAUV 11st Meeting (2017)
+    urn: urn:bipm:ccauv:meeting:11:2017
+  style: v3
+- id: bipm..0029
+  identifier:
+    _type: pubid:bipm:meeting
+    group: CCAUV
+    number: '12'
+    year: 2019
+  representations:
+    human: CCAUV 12nd Meeting (2019)
+    urn: urn:bipm:ccauv:meeting:12:2019
+  style: v3
+- id: bipm..0030
+  identifier:
+    _type: pubid:bipm:meeting
+    group: CCAUV
+    number: '13'
+    year: 2021
+    language: F
+  representations:
+    human: CCAUV 13<sup>e</sup> réunion (2021)
+    urn: urn:bipm:ccauv:meeting:13:2021
+  style: v3
+- id: bipm..0031
+  identifier:
+    _type: pubid:bipm:meeting
+    group: CCAUV
+    number: '13'
+    year: 2021
+  representations:
+    human: CCAUV 13rd Meeting (2021)
+    urn: urn:bipm:ccauv:meeting:13:2021
+  style: v3
+- id: bipm..0032
+  identifier:
+    _type: pubid:bipm:meeting
+    group: CCAUV
+    number: '1'
+  representations:
+    human: CCAUV 1st Meeting
+    urn: urn:bipm:ccauv:meeting:1
+  style: v3
+- id: bipm..0033
+  identifier:
+    _type: pubid:bipm:meeting
+    group: CCAUV
+    number: '1'
+    year: 1999
+  representations:
+    human: CCAUV 1st Meeting (1999)
+    urn: urn:bipm:ccauv:meeting:1:1999
+  style: v3
+- id: bipm..0034
+  identifier:
+    _type: pubid:bipm:meeting
+    group: CCAUV
+    number: '2'
+    year: 2001
+  representations:
+    human: CCAUV 2nd Meeting (2001)
+    urn: urn:bipm:ccauv:meeting:2:2001
+  style: v3
+- id: bipm..0035
+  identifier:
+    _type: pubid:bipm:meeting
+    group: CCAUV
+    number: '3'
+    year: 2002
+  representations:
+    human: CCAUV 3rd Meeting (2002)
+    urn: urn:bipm:ccauv:meeting:3:2002
+  style: v3
+- id: bipm..0036
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CCEM
+    type_code: REC
+    number: '1'
+    year: 2005
+  representations:
+    human: CCEM REC 1 (2005)
+    urn: urn:bipm:ccem:rec:1:2005
+  style: v3
+- id: bipm..0037
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CCEM
+    type_code: REC
+    number: '1'
+    year: 2005
+    language: F
+  representations:
+    human: CCEM REC 1 (2005, F)
+    urn: urn:bipm:ccem:rec:1:2005
+  style: v3
+- id: bipm..0038
+  identifier:
+    _type: pubid:bipm:guide
+    group: CCEM
+    number: '1'
+    guide_kind: RSI
+  representations:
+    human: CCEM-GD-RSI-1
+  style: v3
+- id: bipm..0039
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CCL
+    type_code: REC
+    number: '1'
+    language: E
+    form: long
+  representations:
+    human: CCL Recommendation 1
+    urn: urn:bipm:ccl:rec:1
+  style: v3
+- id: bipm..0040
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CCL
+    type_code: REC
+    number: '1'
+    year: 2001
+    language: E
+    form: long
+  representations:
+    human: CCL Recommendation 1 (2001)
+    urn: urn:bipm:ccl:rec:1:2001
+  style: v3
+- id: bipm..0041
+  identifier:
+    _type: pubid:bipm:guide
+    group: CCL
+    number: '1'
+    guide_kind: MeP
+  representations:
+    human: CCL-GD-MeP-1
+  style: v3
+- id: bipm..0042
+  identifier:
+    _type: pubid:bipm:guide
+    group: CCL
+    number: '2'
+    guide_kind: MeP
+  representations:
+    human: CCL-GD-MeP-2
+  style: v3
+- id: bipm..0043
+  identifier:
+    _type: pubid:bipm:guide
+    group: CCL
+    number: '3'
+    guide_kind: MeP
+  representations:
+    human: CCL-GD-MeP-3
+  style: v3
+- id: bipm..0044
+  identifier:
+    _type: pubid:bipm:guide
+    group: CCM
+    number: '1'
+    guide_kind: RSI
+  representations:
+    human: CCM-GD-RSI-1
+  style: v3
+- id: bipm..0045
+  identifier:
+    _type: pubid:bipm:guide
+    group: CCM
+    number: '2'
+    guide_kind: RSI
+  representations:
+    human: CCM-GD-RSI-2
+  style: v3
+- id: bipm..0046
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CCTF
+    type_code: REC
+    number: '2'
+  representations:
+    human: CCTF REC 2
+    urn: urn:bipm:cctf:rec:2
+  style: v3
+- id: bipm..0047
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CCTF
+    type_code: REC
+    number: '2'
+    year: 2012
+  representations:
+    human: CCTF REC 2 (2012)
+    urn: urn:bipm:cctf:rec:2:2012
+  style: v3
+- id: bipm..0048
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CCTF
+    type_code: REC
+    number: '2'
+    year: 2012
+    language: E
+  representations:
+    human: CCTF REC 2 (2012, E)
+    urn: urn:bipm:cctf:rec:2:2012
+  style: v3
+- id: bipm..0049
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CCTF
+    type_code: REC
+    number: '2'
+    year: 2012
+    language: F
+  representations:
+    human: CCTF REC 2 (2012, F)
+    urn: urn:bipm:cctf:rec:2:2012
+  style: v3
+- id: bipm..0050
+  identifier:
+    _type: pubid:bipm:meeting
+    group: CGPM
+    number: '17'
+    year: 1983
+  representations:
+    human: CGPM 17th Meeting (1983)
+    urn: urn:bipm:cgpm:meeting:17:1983
+  style: v3
+- id: bipm..0051
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CGPM
+    type_code: DECL
+  representations:
+    human: CGPM DECL
+    urn: 'urn:bipm:cgpm:decl:'
+  style: v3
+- id: bipm..0052
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CGPM
+    type_code: DECL
+    year: 1889
+  representations:
+    human: CGPM DECL (1889)
+    urn: urn:bipm:cgpm:decl::1889
+  style: v3
+- id: bipm..0053
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CGPM
+    type_code: DECL
+    year: 1889
+    language: E
+  representations:
+    human: CGPM DECL (1889, E)
+    urn: urn:bipm:cgpm:decl::1889
+  style: v3
+- id: bipm..0054
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CGPM
+    type_code: RES
+    number: '1'
+    year: 1927
+  representations:
+    human: CGPM RES 1 (1927)
+    urn: urn:bipm:cgpm:res:1:1927
+  style: v3
+- id: bipm..0055
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CGPM
+    type_code: RES
+    number: '1'
+    year: 1948
+  representations:
+    human: CGPM RES 1 (1948)
+    urn: urn:bipm:cgpm:res:1:1948
+  style: v3
+- id: bipm..0056
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CGPM
+    type_code: RES
+    number: '1'
+    year: 1927
+    language: E
+    form: long
+  representations:
+    human: CGPM Resolution 1 (1927)
+    urn: urn:bipm:cgpm:res:1:1927
+  style: v3
+- id: bipm..0057
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CGPM
+    type_code: DECL
+    year: 1889
+    language: E
+    form: long
+  representations:
+    human: CGPM Statement (1889)
+    urn: urn:bipm:cgpm:decl::1889
+  style: v3
+- id: bipm..0058
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CGPM
+    type_code: DECL
+    number: '1'
+    year: 1901
+    language: E
+    form: long
+  representations:
+    human: CGPM Statement 1 (1901)
+    urn: urn:bipm:cgpm:decl:1:1901
+  style: v3
+- id: bipm..0059
+  identifier:
+    _type: pubid:bipm:meeting
+    group: CIPM
+    number: 100-1
+    year: 2011
+  representations:
+    human: CIPM 100-1th Meeting (2011)
+    urn: urn:bipm:cipm:meeting:100-1:2011
+  style: v3
+- id: bipm..0060
+  identifier:
+    _type: pubid:bipm:meeting
+    group: CIPM
+    number: 101-1
+    year: 2012
+  representations:
+    human: CIPM 101-1st Meeting (2012)
+    urn: urn:bipm:cipm:meeting:101-1:2012
+  style: v3
+- id: bipm..0061
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CIPM
+    number: 2005-06
+  representations:
+    human: CIPM 2005-06
+    urn: urn:bipm:cipm::2005-06
+  style: v3
+- id: bipm..0062
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CIPM
+    number: 2005-06
+    year: 2005
+  representations:
+    human: CIPM 2005-06 (2005)
+    urn: urn:bipm:cipm::2005-06:2005
+  style: v3
+- id: bipm..0063
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CIPM
+    type_code: DECL
+    year: 1964
+    language: F
+  representations:
+    human: CIPM DECL (1964, F)
+    urn: urn:bipm:cipm:decl::1964
+  style: v3
+- id: bipm..0064
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: JCRB
+    type_code: ACT
+    number: 10-1
+    year: 2003
+  representations:
+    human: JCRB ACT 10-1 (2003)
+    urn: urn:bipm:jcrb:act:10-1:2003
+  style: v3
+- id: bipm..0065
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: JCRB
+    type_code: ACT
+    number: 10-1
+    year: 2003
+    language: E
+  representations:
+    human: JCRB ACT 10-1 (2003, E)
+    urn: urn:bipm:jcrb:act:10-1:2003
+  style: v3
+- id: bipm..0066
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: JCRB
+    type_code: ACT
+    number: 10-10
+    year: 2003
+  representations:
+    human: JCRB ACT 10-10 (2003)
+    urn: urn:bipm:jcrb:act:10-10:2003
+  style: v3
+- id: bipm..0067
+  identifier:
+    _type: pubid:bipm:metrologia-article
+    volume: 1
+  representations:
+    human: Metrologia 1
+    urn: urn:bipm:metrologia:1
+  style: v3
+- id: bipm..0068
+  identifier:
+    _type: pubid:bipm:metrologia-article
+    volume: 1
+    issue: '1'
+  representations:
+    human: Metrologia 1 1
+    urn: urn:bipm:metrologia:1:1
+  style: v3
+- id: bipm..0069
+  identifier:
+    _type: pubid:bipm:metrologia-article
+    volume: 1
+    issue: '1'
+    article: '15'
+  representations:
+    human: Metrologia 1 1 15
+    urn: urn:bipm:metrologia:1:1:15
+  style: v3
+- id: bipm..0070
+  identifier:
+    _type: pubid:bipm:metrologia-article
+    volume: 1
+    issue: '2'
+  representations:
+    human: Metrologia 1 2
+    urn: urn:bipm:metrologia:1:2
+  style: v3
+- id: bipm..0071
+  identifier:
+    _type: pubid:bipm:metrologia-article
+    volume: 42
+    issue: '3'
+    article: S138
+  representations:
+    human: Metrologia 42 3 S138
+    urn: urn:bipm:metrologia:42:3:S138
+  style: v3
+- id: bipm..0072
+  identifier:
+    _type: pubid:bipm:metrologia-article
+    volume: 51
+  representations:
+    human: Metrologia 51
+    urn: urn:bipm:metrologia:51
+  style: v3
+- id: bipm..0073
+  identifier:
+    _type: pubid:bipm:metrologia-article
+    volume: 51
+    issue: '1'
+    article: '128'
+  representations:
+    human: Metrologia 51 1 128
+    urn: urn:bipm:metrologia:51:1:128
+  style: v3
+- id: bipm..0074
+  identifier:
+    _type: pubid:bipm:metrologia-article
+    volume: 55
+    issue: 1A
+    article: '06007'
+  representations:
+    human: Metrologia 55 1A 06007
+    urn: urn:bipm:metrologia:55:1A:06007
+  style: v3
+- id: bipm..0075
+  identifier:
+    _type: pubid:bipm:metrologia-article
+    volume: 9
+    issue: '4'
+    article: '155'
+  representations:
+    human: Metrologia 9 4 155
+    urn: urn:bipm:metrologia:9:4:155
+  style: v3
+- id: bipm..0076
+  identifier:
+    _type: pubid:bipm:mep
+    report_code: BIPM-2019/05
+  representations:
+    human: Rapport BIPM-2019/05
+  style: v3
+- id: bipm..0077
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CCL
+    type_code: REC
+    number: '1'
+    language: F
+    form: long
+  representations:
+    human: Recommandation 1 du CCL
+    urn: urn:bipm:ccl:rec:1
+  style: v3
+- id: bipm..0078
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CCL
+    type_code: REC
+    number: '1'
+    year: 2001
+    language: F
+    form: long
+  representations:
+    human: Recommandation 1 du CCL (2001)
+    urn: urn:bipm:ccl:rec:1:2001
+  style: v3
+- id: bipm..0079
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CGPM
+    type_code: RES
+    number: '1'
+    year: 1927
+    language: F
+    form: long
+  representations:
+    human: Résolution 1 de la CGPM (1927)
+    urn: urn:bipm:cgpm:res:1:1927
+  style: v3
+- id: bipm..0080
+  identifier:
+    _type: pubid:bipm:mep
+    mep_code: A1
+  representations:
+    human: SI MEP A1
+  style: v3
+- id: bipm..0081
+  identifier:
+    _type: pubid:bipm:mep
+    mep_code: Cd1
+  representations:
+    human: SI MEP Cd1
+  style: v3
+- id: bipm..0082
+  identifier:
+    _type: pubid:bipm:mep
+    mep_code: K1
+  representations:
+    human: SI MEP K1
+  style: v3
+- id: bipm..0083
+  identifier:
+    _type: pubid:bipm:mep
+    mep_code: KAPRT
+  representations:
+    human: SI MEP KAPRT
+  style: v3
+- id: bipm..0084
+  identifier:
+    _type: pubid:bipm:mep
+    mep_code: KLJNT
+  representations:
+    human: SI MEP KLJNT
+  style: v3
+- id: bipm..0085
+  identifier:
+    _type: pubid:bipm:mep
+    mep_code: KRPRT
+  representations:
+    human: SI MEP KRPRT
+  style: v3
+- id: bipm..0086
+  identifier:
+    _type: pubid:bipm:mep
+    mep_code: KUPRTM
+  representations:
+    human: SI MEP KUPRTM
+  style: v3
+- id: bipm..0087
+  identifier:
+    _type: pubid:bipm:mep
+    mep_code: Kg1
+  representations:
+    human: SI MEP Kg1
+  style: v3
+- id: bipm..0088
+  identifier:
+    _type: pubid:bipm:mep
+    mep_code: M1
+  representations:
+    human: SI MEP M1
+  style: v3
+- id: bipm..0089
+  identifier:
+    _type: pubid:bipm:mep
+    mep_code: Mol1
+  representations:
+    human: SI MEP Mol1
+  style: v3
+- id: bipm..0090
+  identifier:
+    _type: pubid:bipm:mep
+    mep_code: S1
+  representations:
+    human: SI MEP S1
+  style: v3

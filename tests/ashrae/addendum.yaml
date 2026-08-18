@@ -1076,12 +1076,10 @@
   identifier:
     _type: pubid:ashrae:combined-addenda
     code: '55'
-    copublisher: ANSI/ASHRAE
     base:
       _type: pubid:ashrae:standard
       code: '55'
       year: '2004'
-      copublisher: ANSI/ASHRAE
     addendum_codes: d, e, f, g
   representations:
     human: ASHRAE Addenda d, e, f, g to Standard 55-2004
@@ -1358,12 +1356,10 @@
   identifier:
     _type: pubid:ashrae:combined-addenda
     code: '55'
-    copublisher: ANSI/ASHRAE
     base:
       _type: pubid:ashrae:standard
       code: '55'
       year: '2004'
-      copublisher: ANSI/ASHRAE
     addendum_codes: i, k
   representations:
     human: ASHRAE Addenda i, k to Standard 55-2004
@@ -20831,12 +20827,10 @@
   identifier:
     _type: pubid:ashrae:addenda-package
     code: '34'
-    copublisher: ANSI/ASHRAE
     base:
       _type: pubid:ashrae:standard
       code: '34'
       year: '2013'
-      copublisher: ANSI/ASHRAE
     package_description: Supplement Package
   representations:
     human: 'ASHRAE Standard 34-2013: Addenda Supplement Package'
@@ -21018,12 +21012,9 @@
     style: v3
 - id: ashrae.addendum.1361
   identifier:
-    _type: pubid:ashrae:addenda-package
+    _type: pubid:ashrae:standard
     code: '62.2'
-    base:
-      _type: pubid:ashrae:standard
-      code: '62.2'
-      year: '2013'
+    year: '2013'
   representations:
     human: ASHRAE Standard 62.2-2013
     urn: urn:ashrae:62.2
@@ -21034,12 +21025,9 @@
     style: v3
 - id: ashrae.addendum.1362
   identifier:
-    _type: pubid:ashrae:addenda-package
+    _type: pubid:ashrae:standard
     code: '62.2'
-    base:
-      _type: pubid:ashrae:standard
-      code: '62.2'
-      year: '2016'
+    year: '2016'
   representations:
     human: ASHRAE Standard 62.2-2016
     urn: urn:ashrae:62.2

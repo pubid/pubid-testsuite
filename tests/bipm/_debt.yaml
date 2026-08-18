@@ -1,5 +1,5 @@
 ---
-- id: bipm.debt.2033464729781611489
+- id: bipm.debt.1559398271080254702
   input: "# BIPM committee documents — Pass"
   expect:
     error:
@@ -8,7 +8,7 @@
     ''# BIPM committee documents — Pass'': Expected one of [METROLOGIA, SI_BROCHURE,
     SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR, GROUP_LEADING] at line 1 char
     1.'
-- id: bipm.debt.2034850659072660383
+- id: bipm.debt.4369897754906681134
   input: "# Sampled verbatim from relaton-data-bipm docidentifier[type=BIPM] content."
   expect:
     error:
@@ -16,7 +16,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse BIPM identifier
     ''# Sampled verbatim from relaton-data-bipm docidentifier[type=BIPM] content.'':
     Expected one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG'
-- id: bipm.debt.1930915841554748281
+- id: bipm.debt.422366578166823484
   input: "# One identifier per line; blank lines and # comments ignored."
   expect:
     error:
@@ -25,7 +25,7 @@
     ''# One identifier per line; blank lines and # comments ignored.'': Expected one
     of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR,
     GROUP_LE'
-- id: bipm.debt.1372381787943772776
+- id: bipm.debt.2530442651100781873
   input: "# --- Short abbreviated key form (no language) ---"
   expect:
     error:
@@ -34,7 +34,7 @@
     ''# --- Short abbreviated key form (no language) ---'': Expected one of [METROLOGIA,
     SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR, GROUP_LEADING]
     at li'
-- id: bipm.debt.1732275381005280199
+- id: bipm.debt.2182367111195765862
   input: "# --- Language suffix (E / F) ---"
   expect:
     error:
@@ -43,7 +43,7 @@
     ''# --- Language suffix (E / F) ---'': Expected one of [METROLOGIA, SI_BROCHURE,
     SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR, GROUP_LEADING] at line 1 char
     1.'
-- id: bipm.debt.4320931163453320112
+- id: bipm.debt.3329151584969519728
   input: "# --- Number-less declarations ---"
   expect:
     error:
@@ -52,7 +52,7 @@
     ''# --- Number-less declarations ---'': Expected one of [METROLOGIA, SI_BROCHURE,
     SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR, GROUP_LEADING] at line 1 char
     1.'
-- id: bipm.debt.3868600749885872697
+- id: bipm.debt.3536920916297401856
   input: "# --- Full English name ---"
   expect:
     error:
@@ -60,7 +60,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse BIPM identifier
     ''# --- Full English name ---'': Expected one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT,
     MEP, GUIDE, COMMITTEE_LONG_FR, GROUP_LEADING] at line 1 char 1.'
-- id: bipm.debt.291796978944393983
+- id: bipm.debt.357537484018940963
   input: '# --- Full French name (connective: "de la" for CGPM, else "du") ---'
   expect:
     error:
@@ -69,7 +69,7 @@
     ''# --- Full French name (connective: "de la" for CGPM, else "du") ---'': Expected
     one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR,
     GR'
-- id: bipm.debt.17850126530647740
+- id: bipm.debt.3801696948412760803
   input: "# --- Bare MRA-interpretation form (no type word) ---"
   expect:
     error:
@@ -78,7 +78,7 @@
     ''# --- Bare MRA-interpretation form (no type word) ---'': Expected one of [METROLOGIA,
     SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR, GROUP_LEADING]
     at'
-- id: bipm.debt.1445579612259259496
+- id: bipm.debt.3570708026857251907
   input: "# --- Partial references (date omitted; year left nil for collection matching)
     ---"
   expect:
@@ -88,7 +88,7 @@
     ''# --- Partial references (date omitted; year left nil for collection matching)
     ---'': Expected one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE,
     COMMITT'
-- id: bipm.debt.2610587486365481825
+- id: bipm.debt.1961866573523024875
   input: "# BIPM Consultative-Committee guides — Pass"
   expect:
     error:
@@ -97,7 +97,7 @@
     ''# BIPM Consultative-Committee guides — Pass'': Expected one of [METROLOGIA,
     SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR, GROUP_LEADING]
     at line 1 ch'
-- id: bipm.debt.1933925735002887330
+- id: bipm.debt.968286313593585220
   input: "# Two spellings, both index-relevant (data/guide-*.yaml): the short docnumber"
   expect:
     error:
@@ -105,7 +105,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse BIPM identifier
     ''# Two spellings, both index-relevant (data/guide-*.yaml): the short docnumber'':
     Expected one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LO'
-- id: bipm.debt.3015241200082698877
+- id: bipm.debt.726257627798784481
   input: '# "<committee>-GD-<kind>-<number>" (kind is MeP or RSI), and the full'
   expect:
     error:
@@ -114,7 +114,7 @@
     ''# "<committee>-GD-<kind>-<number>" (kind is MeP or RSI), and the full'': Expected
     one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR,
     G'
-- id: bipm.debt.890318488389801982
+- id: bipm.debt.190369827981902068
   input: '# "BIPM … Appendix 2 Part N.M" primary-docidentifier content the crawler
     keys'
   expect:
@@ -123,7 +123,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse BIPM identifier
     ''# "BIPM … Appendix 2 Part N.M" primary-docidentifier content the crawler keys'':
     Expected one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LO'
-- id: bipm.debt.185696909576541559
+- id: bipm.debt.1182849211393982559
   input: "# index-v2 on. One per line; blank lines and # comments ignored."
   expect:
     error:
@@ -132,7 +132,7 @@
     ''# index-v2 on. One per line; blank lines and # comments ignored.'': Expected
     one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR,
     GROUP_'
-- id: bipm.debt.4249813988165695964
+- id: bipm.debt.4122355353643970330
   input: "# --- Short docnumber form ---"
   expect:
     error:
@@ -141,7 +141,7 @@
     ''# --- Short docnumber form ---'': Expected one of [METROLOGIA, SI_BROCHURE,
     SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR, GROUP_LEADING] at line 1 char
     1.'
-- id: bipm.debt.1213645152965238835
+- id: bipm.debt.3160411110310799062
   input: "# --- Full primary-docidentifier content (the index-v2 key) ---"
   expect:
     error:
@@ -150,7 +150,7 @@
     ''# --- Full primary-docidentifier content (the index-v2 key) ---'': Expected
     one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR,
     GROUP_L'
-- id: bipm.debt.2581334658133937064
+- id: bipm.debt.3090683596304701714
   input: "# BIPM meeting documents — Pass"
   expect:
     error:
@@ -159,7 +159,7 @@
     ''# BIPM meeting documents — Pass'': Expected one of [METROLOGIA, SI_BROCHURE,
     SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR, GROUP_LEADING] at line 1 char
     1.'
-- id: bipm.debt.2034850659072660383
+- id: bipm.debt.4369897754906681134
   input: "# Sampled verbatim from relaton-data-bipm docidentifier[type=BIPM] content."
   expect:
     error:
@@ -167,7 +167,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse BIPM identifier
     ''# Sampled verbatim from relaton-data-bipm docidentifier[type=BIPM] content.'':
     Expected one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG'
-- id: bipm.debt.1607019046426518541
+- id: bipm.debt.2181946249952652045
   input: "# Ordinals are the naive data forms (11st/12nd/13rd), derived from the first"
   expect:
     error:
@@ -175,7 +175,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse BIPM identifier
     ''# Ordinals are the naive data forms (11st/12nd/13rd), derived from the first'':
     Expected one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LON'
-- id: bipm.debt.3576972115048693593
+- id: bipm.debt.1260125128835315783
   input: "# number component's last digit; ranges keep the first component's ordinal."
   expect:
     error:
@@ -183,7 +183,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse BIPM identifier
     ''# number component''s last digit; ranges keep the first component''s ordinal.'':
     Expected one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG'
-- id: bipm.debt.1196404817751702680
+- id: bipm.debt.2994513274674000918
   input: '# --- English "<n><ord> Meeting (<year>)" ---'
   expect:
     error:
@@ -192,7 +192,7 @@
     ''# --- English "<n><ord> Meeting (<year>)" ---'': Expected one of [METROLOGIA,
     SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR, GROUP_LEADING]
     at line 1 '
-- id: bipm.debt.1726897379266159996
+- id: bipm.debt.108128204192853002
   input: "# --- Meeting ranges (ordinal from first component) ---"
   expect:
     error:
@@ -200,7 +200,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse BIPM identifier
     ''# --- Meeting ranges (ordinal from first component) ---'': Expected one of [METROLOGIA,
     SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR, GROUP_LEADING] '
-- id: bipm.debt.3488987388050699647
+- id: bipm.debt.1712430189463787175
   input: '# --- French "<n><sup>e</sup> réunion (<year>)" ---'
   expect:
     error:
@@ -209,7 +209,7 @@
     ''# --- French "<n><sup>e</sup> réunion (<year>)" ---'': Expected one of [METROLOGIA,
     SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR, GROUP_LEADING]
     at l'
-- id: bipm.debt.1445579612259259496
+- id: bipm.debt.3570708026857251907
   input: "# --- Partial references (date omitted; year left nil for collection matching)
     ---"
   expect:
@@ -219,7 +219,7 @@
     ''# --- Partial references (date omitted; year left nil for collection matching)
     ---'': Expected one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE,
     COMMITT'
-- id: bipm.debt.3941205338716836622
+- id: bipm.debt.3508244052845948573
   input: "# BIPM mises en pratique (MEP) — Pass"
   expect:
     error:
@@ -228,7 +228,7 @@
     ''# BIPM mises en pratique (MEP) — Pass'': Expected one of [METROLOGIA, SI_BROCHURE,
     SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR, GROUP_LEADING] at line 1 char
     1.'
-- id: bipm.debt.2666503117556063796
+- id: bipm.debt.1105052984914440587
   input: "# Two spellings, both index-relevant (data/mep-*.yaml): the short docnumber,
     and"
   expect:
@@ -238,7 +238,7 @@
     ''# Two spellings, both index-relevant (data/mep-*.yaml): the short docnumber,
     and'': Expected one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE,
     COMMITTEE'
-- id: bipm.debt.34828943876890396
+- id: bipm.debt.3451201640134041291
   input: '# the full "BIPM … Appendix 2 [Annex N] Part N.M" primary-docidentifier
     content'
   expect:
@@ -247,7 +247,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse BIPM identifier
     ''# the full "BIPM … Appendix 2 [Annex N] Part N.M" primary-docidentifier content'':
     Expected one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_'
-- id: bipm.debt.3574782459766802391
+- id: bipm.debt.503270254513116813
   input: "# the relaton crawler actually keys index-v2 on. One identifier per line;
     blank"
   expect:
@@ -256,7 +256,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse BIPM identifier
     ''# the relaton crawler actually keys index-v2 on. One identifier per line; blank'':
     Expected one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_'
-- id: bipm.debt.3795491644464300631
+- id: bipm.debt.3008175696292717423
   input: "# lines and # comments ignored."
   expect:
     error:
@@ -265,7 +265,7 @@
     ''# lines and # comments ignored.'': Expected one of [METROLOGIA, SI_BROCHURE,
     SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR, GROUP_LEADING] at line 1 char
     1.'
-- id: bipm.debt.67573338536214754
+- id: bipm.debt.4300240919632041718
   input: "# --- Short docnumber form: standard MEP codes (unit letter(s) + number)
     ---"
   expect:
@@ -274,7 +274,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse BIPM identifier
     ''# --- Short docnumber form: standard MEP codes (unit letter(s) + number) ---'':
     Expected one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LON'
-- id: bipm.debt.3137917417706792738
+- id: bipm.debt.2146417332116513678
   input: "# --- Short docnumber form: alphabetic kelvin MEP codes ---"
   expect:
     error:
@@ -283,7 +283,7 @@
     ''# --- Short docnumber form: alphabetic kelvin MEP codes ---'': Expected one
     of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR,
     GROUP_LEADI'
-- id: bipm.debt.1065161906210697587
+- id: bipm.debt.4420492153246630
   input: "# --- Short docnumber form: report variant ---"
   expect:
     error:
@@ -292,7 +292,7 @@
     ''# --- Short docnumber form: report variant ---'': Expected one of [METROLOGIA,
     SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR, GROUP_LEADING]
     at line 1'
-- id: bipm.debt.1213645152965238835
+- id: bipm.debt.3160411110310799062
   input: "# --- Full primary-docidentifier content (the index-v2 key) ---"
   expect:
     error:
@@ -301,7 +301,7 @@
     ''# --- Full primary-docidentifier content (the index-v2 key) ---'': Expected
     one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR,
     GROUP_L'
-- id: bipm.debt.2806386792209217118
+- id: bipm.debt.852454000201376781
   input: "# BIPM Metrologia journal — Pass"
   expect:
     error:
@@ -310,7 +310,7 @@
     ''# BIPM Metrologia journal — Pass'': Expected one of [METROLOGIA, SI_BROCHURE,
     SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR, GROUP_LEADING] at line 1 char
     1.'
-- id: bipm.debt.2034850659072660383
+- id: bipm.debt.4369897754906681134
   input: "# Sampled verbatim from relaton-data-bipm docidentifier[type=BIPM] content."
   expect:
     error:
@@ -318,7 +318,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse BIPM identifier
     ''# Sampled verbatim from relaton-data-bipm docidentifier[type=BIPM] content.'':
     Expected one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG'
-- id: bipm.debt.1179996578453514595
+- id: bipm.debt.4183529398856714606
   input: '# Forms: "Metrologia <volume>[ <issue>[ <article>]]" (issue/article optional).'
   expect:
     error:
@@ -326,7 +326,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse BIPM identifier
     ''# Forms: "Metrologia <volume>[ <issue>[ <article>]]" (issue/article optional).'':
     Expected one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_L'
-- id: bipm.debt.3439166022668905921
+- id: bipm.debt.4590157205602405587
   input: "# --- Volume only ---"
   expect:
     error:
@@ -334,7 +334,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse BIPM identifier
     ''# --- Volume only ---'': Expected one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT,
     MEP, GUIDE, COMMITTEE_LONG_FR, GROUP_LEADING] at line 1 char 1.'
-- id: bipm.debt.2307433524269454410
+- id: bipm.debt.2227850197233262036
   input: "# --- Volume + issue ---"
   expect:
     error:
@@ -342,7 +342,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse BIPM identifier
     ''# --- Volume + issue ---'': Expected one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT,
     MEP, GUIDE, COMMITTEE_LONG_FR, GROUP_LEADING] at line 1 char 1.'
-- id: bipm.debt.1464215010358603903
+- id: bipm.debt.4054503602989692103
   input: "# --- Volume + issue + article ---"
   expect:
     error:
@@ -351,7 +351,7 @@
     ''# --- Volume + issue + article ---'': Expected one of [METROLOGIA, SI_BROCHURE,
     SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR, GROUP_LEADING] at line 1 char
     1.'
-- id: bipm.debt.2103003244806163749
+- id: bipm.debt.2601914548222682607
   input: "# BIPM SI Brochure — Pass"
   expect:
     error:
@@ -359,7 +359,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse BIPM identifier
     ''# BIPM SI Brochure — Pass'': Expected one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT,
     MEP, GUIDE, COMMITTEE_LONG_FR, GROUP_LEADING] at line 1 char 1.'
-- id: bipm.debt.3027069450853052422
+- id: bipm.debt.335508267520910725
   input: "# The single bespoke SI Brochure record (relaton-data-bipm data/si-brochure.yaml)."
   expect:
     error:
@@ -367,7 +367,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse BIPM identifier
     ''# The single bespoke SI Brochure record (relaton-data-bipm data/si-brochure.yaml).'':
     Expected one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITT'
-- id: bipm.debt.546965569020514151
+- id: bipm.debt.2653819979019079015
   input: '# English drops "sur le SI"; French keeps it.'
   expect:
     error:
@@ -376,7 +376,7 @@
     ''# English drops "sur le SI"; French keeps it.'': Expected one of [METROLOGIA,
     SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR, GROUP_LEADING]
     at line 1 '
-- id: bipm.debt.4211737468858938195
+- id: bipm.debt.122777020512258043
   input: '# Appendix and derived products, keyed on the full "BIPM SI Brochure …"'
   expect:
     error:
@@ -384,7 +384,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse BIPM identifier
     ''# Appendix and derived products, keyed on the full "BIPM SI Brochure …"'': Expected
     one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_LONG_FR,'
-- id: bipm.debt.2041240897421426643
+- id: bipm.debt.4093513008938318085
   input: "# primary-docidentifier content (data/sib-a3.yaml, data/si-brochure-concise.yaml,"
   expect:
     error:
@@ -392,7 +392,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse BIPM identifier
     ''# primary-docidentifier content (data/sib-a3.yaml, data/si-brochure-concise.yaml,'':
     Expected one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTE'
-- id: bipm.debt.2995460716285999394
+- id: bipm.debt.1701828588645319916
   input: '# data/si-brochure-faq.yaml). The bare "SI Brochure Appendix 3" docnumber
     also'
   expect:
@@ -401,7 +401,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse BIPM identifier
     ''# data/si-brochure-faq.yaml). The bare "SI Brochure Appendix 3" docnumber also'':
     Expected one of [METROLOGIA, SI_BROCHURE, SI_BROCHURE_VARIANT, MEP, GUIDE, COMMITTEE_L'
-- id: bipm.debt.855784274590188652
+- id: bipm.debt.4061457911428948019
   input: '# parses but renders back with the "BIPM " prefix, so only the full form
     here.'
   expect:

@@ -459,7 +459,6 @@
     _type: pubid:ashrae:standard
     code: '103'
     year: '2007'
-    copublisher: ANSI/ASHRAE
   representations:
     human: ASHRAE Standard 103-2007
     urn: urn:ashrae:103:2007:standard:copub.ansi/ashrae
@@ -472,7 +471,6 @@
     _type: pubid:ashrae:standard
     code: '103'
     year: '2017'
-    copublisher: ANSI/ASHRAE
   representations:
     human: ASHRAE Standard 103-2017
     urn: urn:ashrae:103:2017:standard:copub.ansi/ashrae
@@ -485,7 +483,6 @@
     _type: pubid:ashrae:standard
     code: '103'
     year: '2022'
-    copublisher: ANSI/ASHRAE
   representations:
     human: ASHRAE Standard 103-2022
     urn: urn:ashrae:103:2022:standard:copub.ansi/ashrae
@@ -499,7 +496,6 @@
     code: '111'
     year: '2008'
     reaffirmed: '2017'
-    copublisher: ANSI/ASHRAE
   representations:
     human: ASHRAE Standard 111-2008 (RA2017)
     urn: urn:ashrae:111:2008:standard:reaff.2017:copub.ansi/ashrae
@@ -512,7 +508,6 @@
     _type: pubid:ashrae:standard
     code: '111'
     year: '2024'
-    copublisher: ANSI/ASHRAE
   representations:
     human: ASHRAE Standard 111-2024
     urn: urn:ashrae:111:2024:standard:copub.ansi/ashrae
@@ -525,7 +520,6 @@
     _type: pubid:ashrae:standard
     code: '161'
     year: '2013'
-    copublisher: ANSI/ASHRAE
   representations:
     human: ASHRAE Standard 161-2013
     urn: urn:ashrae:161:2013:standard:copub.ansi/ashrae
@@ -535,14 +529,9 @@
     style: v3
 - id: ashrae.errata.0010
   identifier:
-    _type: pubid:ashrae:addenda-package
+    _type: pubid:ashrae:standard
     code: '189.1'
-    copublisher: ANSI/ASHRAE/USGBC/IES
-    base:
-      _type: pubid:ashrae:standard
-      code: '189.1'
-      year: '2011'
-      copublisher: ANSI/ASHRAE/USGBC/IES
+    year: '2011'
   representations:
     human: ASHRAE Standard 189.1-2011
     urn: urn:ashrae:189.1:copub.ansi/ashrae/usgbc/ies
@@ -557,7 +546,6 @@
     code: '193'
     year: '2010'
     reaffirmed: '2014'
-    copublisher: ANSI/ASHRAE
   representations:
     human: ASHRAE Standard 193-2010 (RA2014)
     urn: urn:ashrae:193:2010:standard:reaff.2014:copub.ansi/ashrae
@@ -570,7 +558,6 @@
     _type: pubid:ashrae:standard
     code: '199'
     year: '2016'
-    copublisher: ANSI/ASHRAE
   representations:
     human: ASHRAE Standard 199-2016
     urn: urn:ashrae:199:2016:standard:copub.ansi/ashrae
@@ -584,7 +571,6 @@
     code: '20'
     year: '1997'
     reaffirmed: '2006'
-    copublisher: ANSI/ASHRAE
   representations:
     human: ASHRAE Standard 20-1997 (RA2006)
     urn: urn:ashrae:20:1997:standard:reaff.2006:copub.ansi/ashrae
@@ -597,7 +583,6 @@
     _type: pubid:ashrae:standard
     code: '33'
     year: '2016'
-    copublisher: ANSI/ASHRAE
   representations:
     human: ASHRAE Standard 33-2016
     urn: urn:ashrae:33:2016:standard:copub.ansi/ashrae
@@ -607,14 +592,9 @@
     style: v3
 - id: ashrae.errata.0015
   identifier:
-    _type: pubid:ashrae:addenda-package
+    _type: pubid:ashrae:standard
     code: '62.1'
-    copublisher: ANSI/ASHRAE
-    base:
-      _type: pubid:ashrae:standard
-      code: '62.1'
-      year: '2004'
-      copublisher: ANSI/ASHRAE
+    year: '2004'
   representations:
     human: ASHRAE Standard 62.1-2004
     urn: urn:ashrae:62.1:copub.ansi/ashrae
@@ -628,7 +608,6 @@
     _type: pubid:ashrae:standard
     code: '93'
     year: '2003'
-    copublisher: ANSI/ASHRAE
   representations:
     human: ASHRAE Standard 93-2003
     urn: urn:ashrae:93:2003:standard:copub.ansi/ashrae
@@ -641,7 +620,6 @@
     _type: pubid:ashrae:standard
     code: '93'
     year: '2010'
-    copublisher: ANSI/ASHRAE
   representations:
     human: ASHRAE Standard 93-2010
     urn: urn:ashrae:93:2010:standard:copub.ansi/ashrae
@@ -655,7 +633,6 @@
     code: '93'
     year: '2010'
     reaffirmed: '2014'
-    copublisher: ANSI/ASHRAE
   representations:
     human: ASHRAE Standard 93-2010 (RA2014)
     urn: urn:ashrae:93:2010:standard:reaff.2014:copub.ansi/ashrae

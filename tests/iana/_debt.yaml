@@ -1,5 +1,5 @@
 ---
-- id: iana.debt.1842658893401050286
+- id: iana.debt.2142548647171381504
   input: "# IANA protocol registries - Pass (round-trip verbatim)"
   expect:
     error:
@@ -7,7 +7,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse IANA identifier
     ''# IANA protocol registries - Pass (round-trip verbatim)'': Failed to match sequence
     (IANA_PREFIX registry:SLUG (''/'' sub_registry:SLUG)?) at line 1 char 1.'
-- id: iana.debt.4490460235539216865
+- id: iana.debt.1537520965164675163
   input: "# Sampled from relaton-data-iana docidentifier content (type: IANA)."
   expect:
     error:
@@ -16,7 +16,7 @@
     ''# Sampled from relaton-data-iana docidentifier content (type: IANA).'': Failed
     to match sequence (IANA_PREFIX registry:SLUG (''/'' sub_registry:SLUG)?) at line
     1 char 1.'
-- id: iana.debt.3690672039764019164
+- id: iana.debt.4292039811173823570
   input: '# Authoritative printed form: "IANA <slug>[/<sub-slug>]".'
   expect:
     error:
@@ -25,7 +25,7 @@
     ''# Authoritative printed form: "IANA <slug>[/<sub-slug>]".'': Failed to match
     sequence (IANA_PREFIX registry:SLUG (''/'' sub_registry:SLUG)?) at line 1 char
     1.'
-- id: iana.debt.688981152515433160
+- id: iana.debt.4518602701722719044
   input: "# Top registries (no sub-registry)"
   expect:
     error:
@@ -33,7 +33,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse IANA identifier
     ''# Top registries (no sub-registry)'': Failed to match sequence (IANA_PREFIX
     registry:SLUG (''/'' sub_registry:SLUG)?) at line 1 char 1.'
-- id: iana.debt.1180477553813104432
+- id: iana.debt.353151005130453485
   input: "# Sub-registries (single slash)"
   expect:
     error:
@@ -41,7 +41,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse IANA identifier
     ''# Sub-registries (single slash)'': Failed to match sequence (IANA_PREFIX registry:SLUG
     (''/'' sub_registry:SLUG)?) at line 1 char 1.'
-- id: iana.debt.1504657573820842086
+- id: iana.debt.803454437663553724
   input: "# Dotted slugs (version numbers embedded)"
   expect:
     error:

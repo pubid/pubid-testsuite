@@ -1,5 +1,5 @@
 ---
-- id: w3c.debt.2949272135960362619
+- id: w3c.debt.1082329448240318979
   input: "# W3C identifiers — round-trip fixtures"
   expect:
     error:
@@ -7,7 +7,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse W3C identifier
     ''# W3C identifiers — round-trip fixtures'': Failed to match sequence (PREFIX
     TYPE_PART? REST) at line 1 char 1.'
-- id: w3c.debt.208911429129591906
+- id: w3c.debt.3870788433869139562
   input: "# Real printed docidentifier.content strings from relaton-data-w3c."
   expect:
     error:
@@ -15,7 +15,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse W3C identifier
     ''# Real printed docidentifier.content strings from relaton-data-w3c.'': Failed
     to match sequence (PREFIX TYPE_PART? REST) at line 1 char 1.'
-- id: w3c.debt.2910770680518291791
+- id: w3c.debt.363979459899148826
   input: "# One identifier per line; every line must satisfy parse(x).to_s == x."
   expect:
     error:
@@ -23,7 +23,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse W3C identifier
     ''# One identifier per line; every line must satisfy parse(x).to_s == x.'': Failed
     to match sequence (PREFIX TYPE_PART? REST) at line 1 char 1.'
-- id: w3c.debt.2124865303699728390
+- id: w3c.debt.3439569952995269007
   input: "# --- Shape A: type + code + date (one per maturity token) ---"
   expect:
     error:
@@ -31,7 +31,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse W3C identifier
     ''# --- Shape A: type + code + date (one per maturity token) ---'': Failed to
     match sequence (PREFIX TYPE_PART? REST) at line 1 char 1.'
-- id: w3c.debt.4437678216942216135
+- id: w3c.debt.521942449744203198
   input: "# --- Shape C: type + code, no date ---"
   expect:
     error:
@@ -39,7 +39,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse W3C identifier
     ''# --- Shape C: type + code, no date ---'': Failed to match sequence (PREFIX
     TYPE_PART? REST) at line 1 char 1.'
-- id: w3c.debt.3491879756822300084
+- id: w3c.debt.481204211423743419
   input: "# --- Shape B: bare code (incl. codes ending in short digit runs) ---"
   expect:
     error:
@@ -47,7 +47,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse W3C identifier
     ''# --- Shape B: bare code (incl. codes ending in short digit runs) ---'': Failed
     to match sequence (PREFIX TYPE_PART? REST) at line 1 char 1.'
-- id: w3c.debt.3065414995809334410
+- id: w3c.debt.1231201102999963244
   input: "# --- Legacy edge cases ---"
   expect:
     error:
@@ -55,7 +55,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse W3C identifier
     ''# --- Legacy edge cases ---'': Failed to match sequence (PREFIX TYPE_PART? REST)
     at line 1 char 1.'
-- id: w3c.debt.689612031883348236
+- id: w3c.debt.2237911409964060091
   input: "# 6-digit (YYMMDD) date"
   expect:
     error:
@@ -63,7 +63,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse W3C identifier
     ''# 6-digit (YYMMDD) date'': Failed to match sequence (PREFIX TYPE_PART? REST)
     at line 1 char 1.'
-- id: w3c.debt.1034490391435080943
+- id: w3c.debt.1709739777292776681
   input: "# 4-digit (MMDD) legacy date"
   expect:
     error:
@@ -71,7 +71,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse W3C identifier
     ''# 4-digit (MMDD) legacy date'': Failed to match sequence (PREFIX TYPE_PART?
     REST) at line 1 char 1.'
-- id: w3c.debt.2683293826407888964
+- id: w3c.debt.4246199550150817387
   input: "# date baked into code with a .html suffix (stays inside the code)"
   expect:
     error:

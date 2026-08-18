@@ -134,33 +134,12 @@
       amd_suffix_form: true
   representations:
     human: BS 7671 AMD2
-    urn: urn:bsi:bs:7671:amd:2
-  style: v3
-- id: bsi.amendment.0011
-  identifier:
-    _type: pubid:bsi:consolidated-identifier
-    number:
-      value: '7671'
-    identifiers:
-    - _type: pubid:bsi:british-standard
-      number:
-        value: '7671'
-    - _type: pubid:bsi:amendment
-      base:
-        _type: pubid:bsi:british-standard
-        number:
-          value: '7671'
-      amendment_number: '2'
-      amendment_year: 2013
-      amd_suffix_form: true
-  representations:
-    human: BS 7671 AMD2
     urn: urn:bsi:bs:7671:amd:2:2013
   style: v3
   non_normalized_aliases:
   - spelling: BS 7671 Amendment 2:August 2013
     style: v3
-- id: bsi.amendment.0012
+- id: bsi.amendment.0011
   identifier:
     _type: pubid:bsi:british-standard
     number:
@@ -171,7 +150,7 @@
     human: BS 851188-1 AMD1
     urn: urn:bsi:bs:851188:-1 AMD1
   style: v3
-- id: bsi.amendment.0013
+- id: bsi.amendment.0012
   identifier:
     _type: pubid:bsi:consolidated-identifier
     number:

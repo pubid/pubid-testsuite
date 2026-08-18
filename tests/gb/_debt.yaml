@@ -1,5 +1,5 @@
 ---
-- id: gb.debt.1388947605755474777
+- id: gb.debt.4578660448184740210
   input: "# Social-group standard (T/{ORG}) — Chinese typography uses em-dash for
     year"
   expect:
@@ -8,7 +8,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse Chinese Standard
     identifier ''# Social-group standard (T/{ORG}) — Chinese typography uses em-dash
     for year'': Failed to match sequence (PUBLISHER_CODE SPACE NUMBER PART? YEAR ALL_PARTS_F'
-- id: gb.debt.1917493891070848423
+- id: gb.debt.2370235627402297036
   input: "# separator; the parser accepts both forms and normalizes to ASCII dash."
   expect:
     error:

@@ -1,5 +1,5 @@
 ---
-- id: ecma.debt.1055035758956933588
+- id: ecma.debt.2280079754057859324
   input: "# ECMA Memento — Pass"
   expect:
     error:
@@ -7,7 +7,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ECMA identifier
     ''# ECMA Memento — Pass'': Failed to match sequence (PREFIX (TR / MEM / STANDARD))
     at line 1 char 1.'
-- id: ecma.debt.2652869963489075112
+- id: ecma.debt.616681284715823764
   input: "# Sampled from relaton-data-ecma docidentifier `content` values."
   expect:
     error:
@@ -15,7 +15,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ECMA identifier
     ''# Sampled from relaton-data-ecma docidentifier `content` values.'': Failed to
     match sequence (PREFIX (TR / MEM / STANDARD)) at line 1 char 1.'
-- id: ecma.debt.3179271773866178024
+- id: ecma.debt.1134206569349053916
   input: "# The number is the memento year."
   expect:
     error:
@@ -23,7 +23,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ECMA identifier
     ''# The number is the memento year.'': Failed to match sequence (PREFIX (TR /
     MEM / STANDARD)) at line 1 char 1.'
-- id: ecma.debt.1929116497825340730
+- id: ecma.debt.501390122912522311
   input: "# ECMA Standard — Pass"
   expect:
     error:
@@ -31,7 +31,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ECMA identifier
     ''# ECMA Standard — Pass'': Failed to match sequence (PREFIX (TR / MEM / STANDARD))
     at line 1 char 1.'
-- id: ecma.debt.2652869963489075112
+- id: ecma.debt.616681284715823764
   input: "# Sampled from relaton-data-ecma docidentifier `content` values."
   expect:
     error:
@@ -39,7 +39,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ECMA identifier
     ''# Sampled from relaton-data-ecma docidentifier `content` values.'': Failed to
     match sequence (PREFIX (TR / MEM / STANDARD)) at line 1 char 1.'
-- id: ecma.debt.4121673216778788914
+- id: ecma.debt.2872042054413034996
   input: "# Standards split into parts (only ECMA-418 in the data)"
   expect:
     error:
@@ -47,7 +47,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ECMA identifier
     ''# Standards split into parts (only ECMA-418 in the data)'': Failed to match
     sequence (PREFIX (TR / MEM / STANDARD)) at line 1 char 1.'
-- id: ecma.debt.4470335883661564971
+- id: ecma.debt.2244717438552696630
   input: "# ECMA Technical Report — Pass"
   expect:
     error:
@@ -55,7 +55,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ECMA identifier
     ''# ECMA Technical Report — Pass'': Failed to match sequence (PREFIX (TR / MEM
     / STANDARD)) at line 1 char 1.'
-- id: ecma.debt.2652869963489075112
+- id: ecma.debt.616681284715823764
   input: "# Sampled from relaton-data-ecma docidentifier `content` values."
   expect:
     error:

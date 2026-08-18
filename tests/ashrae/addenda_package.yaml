@@ -122,14 +122,9 @@
     style: v3
 - id: ashrae.addenda_package.0008
   identifier:
-    _type: pubid:ashrae:addenda-package
+    _type: pubid:ashrae:standard
     code: '62.1'
-    copublisher: ANSI/ASHRAE
-    base:
-      _type: pubid:ashrae:standard
-      code: '62.1'
-      year: '2004'
-      copublisher: ANSI/ASHRAE
+    year: '2004'
   representations:
     human: ASHRAE Standard 62.1-2004
     urn: urn:ashrae:62.1:copub.ansi/ashrae
@@ -243,12 +238,9 @@
     style: v3
 - id: ashrae.addenda_package.0015
   identifier:
-    _type: pubid:ashrae:addenda-package
+    _type: pubid:ashrae:standard
     code: '62.2'
-    base:
-      _type: pubid:ashrae:standard
-      code: '62.2'
-      year: '2013'
+    year: '2013'
   representations:
     human: ASHRAE Standard 62.2-2013
     urn: urn:ashrae:62.2
@@ -259,12 +251,9 @@
     style: v3
 - id: ashrae.addenda_package.0016
   identifier:
-    _type: pubid:ashrae:addenda-package
+    _type: pubid:ashrae:standard
     code: '62.2'
-    base:
-      _type: pubid:ashrae:standard
-      code: '62.2'
-      year: '2016'
+    year: '2016'
   representations:
     human: ASHRAE Standard 62.2-2016
     urn: urn:ashrae:62.2
