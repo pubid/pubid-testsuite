@@ -1,0 +1,333 @@
+---
+- id: itu.tail_forms.0001
+  identifier:
+    _type: pubid:itu:amendment
+    number: '1'
+    year: '1978'
+    month: '01'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: EMC
+      number: '3'
+      series_dash: true
+      year: '1974'
+  representations:
+    human: ITU-T EMC-3 (1974) Amd. 1 (01/1978)
+    urn: urn:itu:t:EMC-3:1974:1:01/1978
+  style: v3
+- id: itu.tail_forms.0002
+  identifier:
+    _type: pubid:itu:amendment
+    number: '2'
+    year: '1995'
+    month: '01'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: EMC
+      number: '3'
+      series_dash: true
+      year: '1974'
+  representations:
+    human: ITU-T EMC-3 (1974) Amd. 2 (01/1995)
+    urn: urn:itu:t:EMC-3:1974:2:01/1995
+  style: v3
+- id: itu.tail_forms.0003
+  identifier:
+    _type: pubid:itu:amendment
+    number: '1'
+    year: '2009'
+    month: '10'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: EMC
+      number: '5'
+      series_dash: true
+      year: '2003'
+  representations:
+    human: ITU-T EMC-5 (2003) Amd. 1 (10/2009)
+    urn: urn:itu:t:EMC-5:2003:1:10/2009
+  style: v3
+- id: itu.tail_forms.0004
+  identifier:
+    _type: pubid:itu:amendment
+    number: '1'
+    year: '2006'
+    month: '06'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: EMC
+      number: '6'
+      series_dash: true
+      year: '2004'
+  representations:
+    human: ITU-T EMC-6 (2004) Amd. 1 (06/2006)
+    urn: urn:itu:t:EMC-6:2004:1:06/2006
+  style: v3
+- id: itu.tail_forms.0005
+  identifier:
+    _type: pubid:itu:recommendation
+    sector: T
+    series: H
+    number: '350'
+    attachment: true
+    year: '2003'
+    month: '08'
+  representations:
+    human: ITU-T H.350 attachment (08/2003)
+    urn: urn:itu:t:H.350:attachment:08/2003
+  style: v3
+- id: itu.tail_forms.0006
+  identifier:
+    _type: pubid:itu:recommendation
+    sector: T
+    series: H
+    number: '350'
+    subseries: '1'
+    attachment: true
+    year: '2003'
+    month: '08'
+  representations:
+    human: ITU-T H.350.1 attachment (08/2003)
+    urn: urn:itu:t:H.350.1:attachment:08/2003
+  style: v3
+- id: itu.tail_forms.0007
+  identifier:
+    _type: pubid:itu:recommendation
+    sector: T
+    series: H
+    number: '350'
+    subseries: '2'
+    attachment: true
+    year: '2003'
+    month: '08'
+  representations:
+    human: ITU-T H.350.2 attachment (08/2003)
+    urn: urn:itu:t:H.350.2:attachment:08/2003
+  style: v3
+- id: itu.tail_forms.0008
+  identifier:
+    _type: pubid:itu:recommendation
+    sector: T
+    series: H
+    number: '350'
+    subseries: '3'
+    attachment: true
+    year: '2003'
+    month: '08'
+  representations:
+    human: ITU-T H.350.3 attachment (08/2003)
+    urn: urn:itu:t:H.350.3:attachment:08/2003
+  style: v3
+- id: itu.tail_forms.0009
+  identifier:
+    _type: pubid:itu:recommendation
+    sector: T
+    series: H
+    number: '350'
+    subseries: '4'
+    attachment: true
+    year: '2003'
+    month: '08'
+  representations:
+    human: ITU-T H.350.4 attachment (08/2003)
+    urn: urn:itu:t:H.350.4:attachment:08/2003
+  style: v3
+- id: itu.tail_forms.0010
+  identifier:
+    _type: pubid:itu:recommendation
+    sector: T
+    series: H
+    number: '350'
+    subseries: '5'
+    attachment: true
+    year: '2003'
+    month: '08'
+  representations:
+    human: ITU-T H.350.5 attachment (08/2003)
+    urn: urn:itu:t:H.350.5:attachment:08/2003
+  style: v3
+- id: itu.tail_forms.0011
+  identifier:
+    _type: pubid:itu:recommendation
+    sector: T
+    series: H
+    number: '350'
+    subseries: '6'
+    attachment: true
+    year: '2004'
+    month: '03'
+  representations:
+    human: ITU-T H.350.6 attachment (03/2004)
+    urn: urn:itu:t:H.350.6:attachment:03/2004
+  style: v3
+- id: itu.tail_forms.0012
+  identifier:
+    _type: pubid:itu:errata
+    number: '1'
+    year: '2011'
+    month: '12'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: IMPL
+      number: '8'
+      series_dash: true
+      year: '2010'
+  representations:
+    human: ITU-T IMPL-8 (2010) Err. 1 (12/2011)
+    urn: urn:itu:t:IMPL-8:2010:1:12/2011
+  style: v3
+- id: itu.tail_forms.0013
+  identifier:
+    _type: pubid:itu:amendment
+    number: '1'
+    year: '1999'
+    month: '01'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: MES
+      number: '2'
+      series_dash: true
+      year: '1992'
+  representations:
+    human: ITU-T MES-2 (1992) Amd. 1 (01/1999)
+    urn: urn:itu:t:MES-2:1992:1:01/1999
+  style: v3
+- id: itu.tail_forms.0014
+  identifier:
+    _type: pubid:itu:amendment
+    number: '2'
+    year: '2000'
+    month: '01'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: MES
+      number: '2'
+      series_dash: true
+      year: '1992'
+  representations:
+    human: ITU-T MES-2 (1992) Amd. 2 (01/2000)
+    urn: urn:itu:t:MES-2:1992:2:01/2000
+  style: v3
+- id: itu.tail_forms.0015
+  identifier:
+    _type: pubid:itu:amendment
+    number: '3'
+    year: '2000'
+    month: '01'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: MES
+      number: '2'
+      series_dash: true
+      year: '1992'
+  representations:
+    human: ITU-T MES-2 (1992) Amd. 3 (01/2000)
+    urn: urn:itu:t:MES-2:1992:3:01/2000
+  style: v3
+- id: itu.tail_forms.0016
+  identifier:
+    _type: pubid:itu:recommendation
+    sector: T
+    series: Q
+    number: '120'
+    range_end: Q.139
+    year: '1988'
+    month: '11'
+  representations:
+    human: ITU-T Q.120-Q.139 (11/1988)
+    urn: urn:itu:t:Q.120:to-Q.139:11/1988
+  style: v3
+- id: itu.tail_forms.0017
+  identifier:
+    _type: pubid:itu:recommendation
+    sector: T
+    series: Q
+    number: '140'
+    range_end: Q.180
+    year: '1988'
+    month: '11'
+  representations:
+    human: ITU-T Q.140-Q.180 (11/1988)
+    urn: urn:itu:t:Q.140:to-Q.180:11/1988
+  style: v3
+- id: itu.tail_forms.0018
+  identifier:
+    _type: pubid:itu:recommendation
+    sector: T
+    series: Q
+    number: '251'
+    range_end: Q.300
+    year: '1988'
+    month: '11'
+  representations:
+    human: ITU-T Q.251-Q.300 (11/1988)
+    urn: urn:itu:t:Q.251:to-Q.300:11/1988
+  style: v3
+- id: itu.tail_forms.0019
+  identifier:
+    _type: pubid:itu:recommendation
+    sector: T
+    series: Q
+    number: '310'
+    range_end: Q.332
+    year: '1988'
+    month: '11'
+  representations:
+    human: ITU-T Q.310-Q.332 (11/1988)
+    urn: urn:itu:t:Q.310:to-Q.332:11/1988
+  style: v3
+- id: itu.tail_forms.0020
+  identifier:
+    _type: pubid:itu:recommendation
+    sector: T
+    series: Q
+    number: '400'
+    range_end: Q.490
+    year: '1988'
+    month: '11'
+  representations:
+    human: ITU-T Q.400-Q.490 (11/1988)
+    urn: urn:itu:t:Q.400:to-Q.490:11/1988
+  style: v3
+- id: itu.tail_forms.0021
+  identifier:
+    _type: pubid:itu:errata
+    number: '1'
+    year: '2012'
+    month: '07'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: QOS
+      number: '2'
+      series_dash: true
+      year: '2011'
+  representations:
+    human: ITU-T QOS-2 (2011) Err. 1 (07/2012)
+    urn: urn:itu:t:QOS-2:2011:1:07/2012
+  style: v3
+- id: itu.tail_forms.0022
+  identifier:
+    _type: pubid:itu:corrigendum
+    number: '1'
+    year: '2021'
+    month: '04'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: SEC
+      number: QKD
+      series_dash: true
+      year: '2020'
+  representations:
+    human: ITU-T SEC-QKD (2020) Cor. 1 (04/2021)
+    urn: urn:itu:t:SEC-QKD:2020:1:04/2021
+  style: v3

@@ -1,0 +1,28 @@
+---
+- id: jcgm.amendment.0001
+  identifier:
+    _type: pubid:jcgm:amendment
+    number: '1'
+    base:
+      _type: pubid:jcgm:guide
+      number: '100'
+      year: '2008'
+  representations:
+    human: JCGM 100:2008/Amd 1
+    urn: urn:jcgm:100:2008:amendment:1
+  style: v3
+- id: jcgm.amendment.0002
+  identifier:
+    _type: pubid:jcgm:amendment
+    number: '1'
+    year: '2025'
+    month: '07'
+    day: '25'
+    base:
+      _type: pubid:jcgm:guide
+      number: '100'
+      year: '2008'
+  representations:
+    human: JCGM 100:2008/Amd 1:2025-07-25
+    urn: urn:jcgm:100:2008:amendment:1:2025
+  style: v3

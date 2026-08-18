@@ -1,0 +1,61 @@
+---
+- id: etsi.partial.0001
+  identifier:
+    _type: pubid:etsi:etsi-standard
+    type: EN
+    number: 300 175
+  representations:
+    human: ETSI EN 300 175
+    urn: urn:etsi:en:300 175
+  style: v3
+- id: etsi.partial.0002
+  identifier:
+    _type: pubid:etsi:etsi-standard
+    type: EN
+    number: 300 175
+    parts:
+    - '1'
+  representations:
+    human: ETSI EN 300 175-1
+    urn: urn:etsi:en:300 175-1
+  style: v3
+- id: etsi.partial.0003
+  identifier:
+    _type: pubid:etsi:etsi-standard
+    type: GR
+    number: ZSM 009
+    parts:
+    - '3'
+  representations:
+    human: ETSI GR ZSM 009-3
+    urn: urn:etsi:gr:ZSM 009-3
+  style: v3
+- id: etsi.partial.0004
+  identifier:
+    _type: pubid:etsi:etsi-standard
+    type: GS
+    number: ZSM 012
+  representations:
+    human: ETSI GS ZSM 012
+    urn: urn:etsi:gs:ZSM 012
+  style: v3
+- id: etsi.partial.0005
+  identifier:
+    _type: pubid:etsi:etsi-standard
+    type: GTS
+    number: GSM 02.01
+  representations:
+    human: ETSI GTS GSM 02.01
+    urn: urn:etsi:gts:GSM 02.01
+  style: v3
+- id: etsi.partial.0006
+  identifier:
+    _type: pubid:etsi:etsi-standard
+    type: TS
+    number: 102 606
+    parts:
+    - '1'
+  representations:
+    human: ETSI TS 102 606-1
+    urn: urn:etsi:ts:102 606-1
+  style: v3

@@ -1,0 +1,299 @@
+---
+- id: bipm.committee_document.0001
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: JCRB
+    type_code: ACT
+    number: 10-1
+    year: 2003
+    language: F
+    form: long
+  representations:
+    human: Action 10-1 du JCRB (2003)
+    urn: urn:bipm:jcrb:act:10-1:2003
+  style: v3
+- id: bipm.committee_document.0002
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CCEM
+    type_code: REC
+    number: '1'
+    year: 2005
+  representations:
+    human: CCEM REC 1 (2005)
+    urn: urn:bipm:ccem:rec:1:2005
+  style: v3
+- id: bipm.committee_document.0003
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CCEM
+    type_code: REC
+    number: '1'
+    year: 2005
+    language: F
+  representations:
+    human: CCEM REC 1 (2005, F)
+    urn: urn:bipm:ccem:rec:1:2005
+  style: v3
+- id: bipm.committee_document.0004
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CCL
+    type_code: REC
+    number: '1'
+    language: E
+    form: long
+  representations:
+    human: CCL Recommendation 1
+    urn: urn:bipm:ccl:rec:1
+  style: v3
+- id: bipm.committee_document.0005
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CCL
+    type_code: REC
+    number: '1'
+    year: 2001
+    language: E
+    form: long
+  representations:
+    human: CCL Recommendation 1 (2001)
+    urn: urn:bipm:ccl:rec:1:2001
+  style: v3
+- id: bipm.committee_document.0006
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CCTF
+    type_code: REC
+    number: '2'
+  representations:
+    human: CCTF REC 2
+    urn: urn:bipm:cctf:rec:2
+  style: v3
+- id: bipm.committee_document.0007
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CCTF
+    type_code: REC
+    number: '2'
+    year: 2012
+  representations:
+    human: CCTF REC 2 (2012)
+    urn: urn:bipm:cctf:rec:2:2012
+  style: v3
+- id: bipm.committee_document.0008
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CCTF
+    type_code: REC
+    number: '2'
+    year: 2012
+    language: E
+  representations:
+    human: CCTF REC 2 (2012, E)
+    urn: urn:bipm:cctf:rec:2:2012
+  style: v3
+- id: bipm.committee_document.0009
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CCTF
+    type_code: REC
+    number: '2'
+    year: 2012
+    language: F
+  representations:
+    human: CCTF REC 2 (2012, F)
+    urn: urn:bipm:cctf:rec:2:2012
+  style: v3
+- id: bipm.committee_document.0010
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CGPM
+    type_code: DECL
+  representations:
+    human: CGPM DECL
+    urn: 'urn:bipm:cgpm:decl:'
+  style: v3
+- id: bipm.committee_document.0011
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CGPM
+    type_code: DECL
+    year: 1889
+  representations:
+    human: CGPM DECL (1889)
+    urn: urn:bipm:cgpm:decl::1889
+  style: v3
+- id: bipm.committee_document.0012
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CGPM
+    type_code: DECL
+    year: 1889
+    language: E
+  representations:
+    human: CGPM DECL (1889, E)
+    urn: urn:bipm:cgpm:decl::1889
+  style: v3
+- id: bipm.committee_document.0013
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CGPM
+    type_code: RES
+    number: '1'
+    year: 1927
+  representations:
+    human: CGPM RES 1 (1927)
+    urn: urn:bipm:cgpm:res:1:1927
+  style: v3
+- id: bipm.committee_document.0014
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CGPM
+    type_code: RES
+    number: '1'
+    year: 1948
+  representations:
+    human: CGPM RES 1 (1948)
+    urn: urn:bipm:cgpm:res:1:1948
+  style: v3
+- id: bipm.committee_document.0015
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CGPM
+    type_code: RES
+    number: '1'
+    year: 1927
+    language: E
+    form: long
+  representations:
+    human: CGPM Resolution 1 (1927)
+    urn: urn:bipm:cgpm:res:1:1927
+  style: v3
+- id: bipm.committee_document.0016
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CGPM
+    type_code: DECL
+    year: 1889
+    language: E
+    form: long
+  representations:
+    human: CGPM Statement (1889)
+    urn: urn:bipm:cgpm:decl::1889
+  style: v3
+- id: bipm.committee_document.0017
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CGPM
+    type_code: DECL
+    number: '1'
+    year: 1901
+    language: E
+    form: long
+  representations:
+    human: CGPM Statement 1 (1901)
+    urn: urn:bipm:cgpm:decl:1:1901
+  style: v3
+- id: bipm.committee_document.0018
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CIPM
+    number: 2005-06
+  representations:
+    human: CIPM 2005-06
+    urn: urn:bipm:cipm::2005-06
+  style: v3
+- id: bipm.committee_document.0019
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CIPM
+    number: 2005-06
+    year: 2005
+  representations:
+    human: CIPM 2005-06 (2005)
+    urn: urn:bipm:cipm::2005-06:2005
+  style: v3
+- id: bipm.committee_document.0020
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CIPM
+    type_code: DECL
+    year: 1964
+    language: F
+  representations:
+    human: CIPM DECL (1964, F)
+    urn: urn:bipm:cipm:decl::1964
+  style: v3
+- id: bipm.committee_document.0021
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: JCRB
+    type_code: ACT
+    number: 10-1
+    year: 2003
+  representations:
+    human: JCRB ACT 10-1 (2003)
+    urn: urn:bipm:jcrb:act:10-1:2003
+  style: v3
+- id: bipm.committee_document.0022
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: JCRB
+    type_code: ACT
+    number: 10-1
+    year: 2003
+    language: E
+  representations:
+    human: JCRB ACT 10-1 (2003, E)
+    urn: urn:bipm:jcrb:act:10-1:2003
+  style: v3
+- id: bipm.committee_document.0023
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: JCRB
+    type_code: ACT
+    number: 10-10
+    year: 2003
+  representations:
+    human: JCRB ACT 10-10 (2003)
+    urn: urn:bipm:jcrb:act:10-10:2003
+  style: v3
+- id: bipm.committee_document.0024
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CCL
+    type_code: REC
+    number: '1'
+    language: F
+    form: long
+  representations:
+    human: Recommandation 1 du CCL
+    urn: urn:bipm:ccl:rec:1
+  style: v3
+- id: bipm.committee_document.0025
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CCL
+    type_code: REC
+    number: '1'
+    year: 2001
+    language: F
+    form: long
+  representations:
+    human: Recommandation 1 du CCL (2001)
+    urn: urn:bipm:ccl:rec:1:2001
+  style: v3
+- id: bipm.committee_document.0026
+  identifier:
+    _type: pubid:bipm:committee-document
+    group: CGPM
+    type_code: RES
+    number: '1'
+    year: 1927
+    language: F
+    form: long
+  representations:
+    human: Résolution 1 de la CGPM (1927)
+    urn: urn:bipm:cgpm:res:1:1927
+  style: v3

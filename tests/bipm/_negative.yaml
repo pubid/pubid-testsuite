@@ -1,0 +1,46 @@
+---
+- id: bipm.neg.invalid.0001
+  input: BIPM invalid identifiers — must be REJECTED by Pubid::Bipm.
+  expect:
+    error:
+      code: unclassified
+- id: bipm.neg.invalid.0002
+  input: One per line; blank lines and
+  expect:
+    error:
+      code: unclassified
+- id: bipm.neg.invalid.0003
+  input: JCGM is owned by the separate Pubid::Jcgm flavor — BIPM must not parse it.
+  expect:
+    error:
+      code: unclassified
+- id: bipm.neg.invalid.0004
+  input: JCGM 100:2008
+  expect:
+    error:
+      code: unclassified
+- id: bipm.neg.invalid.0005
+  input: JCGM 24th Meeting (2021)
+  expect:
+    error:
+      code: unclassified
+- id: bipm.neg.invalid.0006
+  input: Unknown committee acronym
+  expect:
+    error:
+      code: unclassified
+- id: bipm.neg.invalid.0007
+  input: XXXX REC 1 (2020)
+  expect:
+    error:
+      code: unclassified
+- id: bipm.neg.invalid.0008
+  input: Garbage
+  expect:
+    error:
+      code: unclassified
+- id: bipm.neg.invalid.0009
+  input: not an identifier
+  expect:
+    error:
+      code: unclassified

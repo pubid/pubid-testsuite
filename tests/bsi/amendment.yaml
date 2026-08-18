@@ -1,0 +1,195 @@
+---
+- id: bsi.amendment.0001
+  identifier:
+    _type: pubid:bsi:standalone-amendment
+    amendment_number:
+      value: '11015'
+  representations:
+    human: AMD 11015
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.amendment.0002
+  identifier:
+    _type: pubid:bsi:standalone-amendment
+    amendment_number:
+      value: '16019'
+  representations:
+    human: AMD 16019
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.amendment.0003
+  identifier:
+    _type: pubid:bsi:standalone-amendment
+    amendment_number:
+      value: '6262'
+  representations:
+    human: AMD 6262
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.amendment.0004
+  identifier:
+    _type: pubid:bsi:standalone-amendment
+    amendment_number:
+      value: '7602'
+  representations:
+    human: AMD 7602
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.amendment.0005
+  identifier:
+    _type: pubid:bsi:british-standard
+    number:
+      value: '1377'
+    part:
+      value: 3 AMD1
+  representations:
+    human: BS 1377-3 AMD1
+    urn: urn:bsi:bs:1377:-3 AMD1
+  style: v3
+- id: bsi.amendment.0006
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '500'
+    identifiers:
+    - _type: pubid:bsi:aerospace-standard
+      number:
+        value: '500'
+      prefix: 3L
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:aerospace-standard
+        number:
+          value: '500'
+        prefix: 3L
+      amendment_number: '1'
+      amd_suffix_form: true
+  representations:
+    human: BS 3L 500 AMD1
+    urn: urn:bsi:bs:3l:500:amd:1
+  style: v3
+- id: bsi.amendment.0007
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '6305'
+    date:
+      year: '1992'
+    identifiers:
+    - _type: pubid:bsi:british-standard
+      number:
+        value: '6305'
+      date:
+        year: '1992'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:british-standard
+        number:
+          value: '6305'
+        date:
+          year: '1992'
+      amendment_number: '1'
+      amd_suffix_form: true
+  representations:
+    human: BS 6305:1992 AMD1
+    urn: urn:bsi:bs:6305:1992:amd:1
+  style: v3
+- id: bsi.amendment.0008
+  identifier:
+    _type: pubid:bsi:british-standard
+    number:
+      value: '7291'
+    part:
+      value: 2 AMD1
+  representations:
+    human: BS 7291-2 AMD1
+    urn: urn:bsi:bs:7291:-2 AMD1
+  style: v3
+- id: bsi.amendment.0009
+  identifier:
+    _type: pubid:bsi:british-standard
+    number:
+      value: '7291'
+    part:
+      value: 3 AMD1
+  representations:
+    human: BS 7291-3 AMD1
+    urn: urn:bsi:bs:7291:-3 AMD1
+  style: v3
+- id: bsi.amendment.0010
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '7671'
+    identifiers:
+    - _type: pubid:bsi:british-standard
+      number:
+        value: '7671'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:british-standard
+        number:
+          value: '7671'
+      amendment_number: '2'
+      amd_suffix_form: true
+  representations:
+    human: BS 7671 AMD2
+    urn: urn:bsi:bs:7671:amd:2
+  style: v3
+- id: bsi.amendment.0011
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '7671'
+    identifiers:
+    - _type: pubid:bsi:british-standard
+      number:
+        value: '7671'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:british-standard
+        number:
+          value: '7671'
+      amendment_number: '2'
+      amendment_year: 2013
+      amd_suffix_form: true
+  representations:
+    human: BS 7671 AMD2
+    urn: urn:bsi:bs:7671:amd:2:2013
+  style: v3
+  non_normalized_aliases:
+  - spelling: BS 7671 Amendment 2:August 2013
+    style: v3
+- id: bsi.amendment.0012
+  identifier:
+    _type: pubid:bsi:british-standard
+    number:
+      value: '851188'
+    part:
+      value: 1 AMD1
+  representations:
+    human: BS 851188-1 AMD1
+    urn: urn:bsi:bs:851188:-1 AMD1
+  style: v3
+- id: bsi.amendment.0013
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '94'
+    identifiers:
+    - _type: pubid:bsi:aerospace-standard
+      number:
+        value: '94'
+      prefix: SP
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:aerospace-standard
+        number:
+          value: '94'
+        prefix: SP
+      amendment_number: '2'
+      amd_suffix_form: true
+  representations:
+    human: BS SP 94 AMD2
+    urn: urn:bsi:bs:sp:94:amd:2
+  style: v3

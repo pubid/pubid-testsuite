@@ -1,0 +1,96 @@
+---
+- id: bsi.value_added_publication.0001
+  identifier:
+    _type: pubid:bsi:value-added-publication
+    number:
+      value: '7870'
+    date:
+      year: '2022'
+    base:
+      _type: pubid:bsi:british-standard
+      number:
+        value: '7870'
+      part:
+        value: '2'
+      date:
+        year: '2022'
+    format: TC
+  representations:
+    human: BS 7870-2:2022 - TC
+    urn: urn:bsi:bs:7870:2022
+  style: v3
+- id: bsi.value_added_publication.0002
+  identifier:
+    _type: pubid:bsi:value-added-publication
+    number:
+      value: '8501'
+    date:
+      year: '2002'
+    base:
+      _type: pubid:bsi:british-standard
+      number:
+        value: '8501'
+      date:
+        year: '2002'
+    format: PDF
+  representations:
+    human: BS 8501:2002 PDF
+    urn: urn:bsi:bs:8501:2002
+  style: v3
+- id: bsi.value_added_publication.0003
+  identifier:
+    _type: pubid:bsi:value-added-publication
+    number:
+      value: '103'
+    date:
+      year: '2025'
+    base:
+      _type: pubid:bsi:aerospace-standard
+      number:
+        value: '103'
+      date:
+        year: '2025'
+      prefix: A
+    format: TC
+  representations:
+    human: BS A 103:2025 - TC
+    urn: urn:bsi:bs:103:2025
+  style: v3
+- id: bsi.value_added_publication.0004
+  identifier:
+    _type: pubid:bsi:value-added-publication
+    number:
+      value: '104'
+    date:
+      year: '2025'
+    base:
+      _type: pubid:bsi:aerospace-standard
+      number:
+        value: '104'
+      date:
+        year: '2025'
+      prefix: A
+    format: TC
+  representations:
+    human: BS A 104:2025 - TC
+    urn: urn:bsi:bs:104:2025
+  style: v3
+- id: bsi.value_added_publication.0005
+  identifier:
+    _type: pubid:bsi:value-added-publication
+    number:
+      value: '108'
+    date:
+      year: '2023'
+    base:
+      _type: pubid:bsi:aerospace-standard
+      number:
+        value: '108'
+      date:
+        year: '2023'
+      prefix: A
+    format: TC
+  representations:
+    human: BS A 108:2023 - TC
+    urn: urn:bsi:bs:108:2023
+  style: v3

@@ -1,0 +1,25 @@
+---
+- id: oiml.expert_report.0001
+  identifier:
+    _type: pubid:oiml:expert-report
+    language: E
+    parsed_format: long
+    publisher: OIML
+    number: '5'
+    year: '2015'
+    edition: 6th
+  representations:
+    human: OIML E 5 6th Edition 2015 (E)
+    urn: urn:oiml:e:5:2015:e
+  style: v3
+- id: oiml.expert_report.0002
+  identifier:
+    _type: pubid:oiml:expert-report
+    language: en
+    publisher: OIML
+    number: '5'
+    year: '2015'
+  representations:
+    human: OIML E 5:2015(en)
+    urn: urn:oiml:e:5:2015:en
+  style: v3

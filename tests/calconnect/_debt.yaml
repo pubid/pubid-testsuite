@@ -1,0 +1,18 @@
+---
+- id: calconnect.debt.2996931191171330459
+  input: "# CalConnect Standard - Pass"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse CalConnect
+    ''# CalConnect Standard - Pass'': Failed to match sequence (PUBLISHER (''/'' SERIES)?
+    '' '' NUMBER ('':'' DATE)?) at line 1 char 1.'
+- id: calconnect.debt.3306693049760919061
+  input: "# Sampled from relaton-data-calconnect docidentifier content (187 unique)"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse CalConnect
+    ''# Sampled from relaton-data-calconnect docidentifier content (187 unique)'':
+    Failed to match sequence (PUBLISHER (''/'' SERIES)? '' '' NUMBER ('':'' DATE)?)
+    at line 1 char 1.'

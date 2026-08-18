@@ -1,0 +1,517 @@
+---
+- id: bsi.consolidated_identifier.0001
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '10125'
+    date:
+      year: '2014'
+    identifiers:
+    - _type: pubid:bsi:british-standard
+      number:
+        value: '10125'
+      date:
+        year: '2014'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:british-standard
+        number:
+          value: '10125'
+        date:
+          year: '2014'
+      amendment_number: '1'
+      amendment_year: 2016
+  representations:
+    human: BS 10125:2014+A1:2016
+    urn: urn:bsi:bs:10125:2014:amd:1:2016
+  style: v3
+- id: bsi.consolidated_identifier.0002
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '500'
+    identifiers:
+    - _type: pubid:bsi:aerospace-standard
+      number:
+        value: '500'
+      prefix: 3L
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:aerospace-standard
+        number:
+          value: '500'
+        prefix: 3L
+      amendment_number: '1'
+      amd_suffix_form: true
+  representations:
+    human: BS 3L 500 AMD1
+    urn: urn:bsi:bs:3l:500:amd:1
+  style: v3
+- id: bsi.consolidated_identifier.0003
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '6305'
+    date:
+      year: '1992'
+    identifiers:
+    - _type: pubid:bsi:british-standard
+      number:
+        value: '6305'
+      date:
+        year: '1992'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:british-standard
+        number:
+          value: '6305'
+        date:
+          year: '1992'
+      amendment_number: '1'
+      amd_suffix_form: true
+  representations:
+    human: BS 6305:1992 AMD1
+    urn: urn:bsi:bs:6305:1992:amd:1
+  style: v3
+- id: bsi.consolidated_identifier.0004
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '646'
+    date:
+      year: '1958'
+    identifiers:
+    - _type: pubid:bsi:british-standard
+      number:
+        value: '646'
+      date:
+        year: '1958'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:british-standard
+        number:
+          value: '646'
+        date:
+          year: '1958'
+      amendment_number: '2'
+      amendment_year: 2013
+  representations:
+    human: BS 646:1958+A2:2013
+    urn: urn:bsi:bs:646:1958:amd:2:2013
+  style: v3
+- id: bsi.consolidated_identifier.0005
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '7671'
+    identifiers:
+    - _type: pubid:bsi:british-standard
+      number:
+        value: '7671'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:british-standard
+        number:
+          value: '7671'
+      amendment_number: '2'
+      amd_suffix_form: true
+  representations:
+    human: BS 7671 AMD2
+    urn: urn:bsi:bs:7671:amd:2
+  style: v3
+- id: bsi.consolidated_identifier.0006
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '7671'
+    date:
+      year: '2018'
+    identifiers:
+    - _type: pubid:bsi:british-standard
+      number:
+        value: '7671'
+      date:
+        year: '2018'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:british-standard
+        number:
+          value: '7671'
+        date:
+          year: '2018'
+      amendment_number: '2'
+      amendment_year: 2022
+  representations:
+    human: BS 7671:2018+A2:2022
+    urn: urn:bsi:bs:7671:2018:amd:2:2022
+  style: v3
+- id: bsi.consolidated_identifier.0007
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '7870'
+    part:
+      value: '1'
+    date:
+      year: '2011'
+    identifiers:
+    - _type: pubid:bsi:british-standard
+      number:
+        value: '7870'
+      part:
+        value: '1'
+      date:
+        year: '2011'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:british-standard
+        number:
+          value: '7870'
+        part:
+          value: '1'
+        date:
+          year: '2011'
+      amendment_number: '1'
+      amendment_year: 2022
+  representations:
+    human: BS 7870-1:2011+A1:2022
+    urn: urn:bsi:bs:7870:-1:2011:amd:1:2022
+  style: v3
+- id: bsi.consolidated_identifier.0008
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '242'
+    part:
+      value: A 245
+    date:
+      year: '1974'
+    identifiers:
+    - _type: pubid:bsi:aerospace-standard
+      number:
+        value: '242'
+      part:
+        value: A 245
+      date:
+        year: '1974'
+      prefix: A
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:aerospace-standard
+        number:
+          value: '242'
+        part:
+          value: A 245
+        date:
+          year: '1974'
+        prefix: A
+      amendment_number: '1'
+      amendment_year: 2017
+  representations:
+    human: BS A 242-A 245:1974+A1:2017
+    urn: urn:bsi:bs:a:242:-A 245:1974:amd:1:2017
+  style: v3
+- id: bsi.consolidated_identifier.0009
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '246'
+    part:
+      value: A 249
+    date:
+      year: '1974'
+    identifiers:
+    - _type: pubid:bsi:aerospace-standard
+      number:
+        value: '246'
+      part:
+        value: A 249
+      date:
+        year: '1974'
+      prefix: A
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:aerospace-standard
+        number:
+          value: '246'
+        part:
+          value: A 249
+        date:
+          year: '1974'
+        prefix: A
+      amendment_number: '1'
+      amendment_year: 2017
+  representations:
+    human: BS A 246-A 249:1974+A1:2017
+    urn: urn:bsi:bs:a:246:-A 249:1974:amd:1:2017
+  style: v3
+- id: bsi.consolidated_identifier.0010
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '275'
+    part:
+      value: A 280
+    date:
+      year: '1981'
+    identifiers:
+    - _type: pubid:bsi:aerospace-standard
+      number:
+        value: '275'
+      part:
+        value: A 280
+      date:
+        year: '1981'
+      prefix: A
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:aerospace-standard
+        number:
+          value: '275'
+        part:
+          value: A 280
+        date:
+          year: '1981'
+        prefix: A
+      amendment_number: '2'
+      amendment_year: 2011
+  representations:
+    human: BS A 275-A 280:1981+A2:2011
+    urn: urn:bsi:bs:a:275:-A 280:1981:amd:2:2011
+  style: v3
+- id: bsi.consolidated_identifier.0011
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '11'
+    identifiers:
+    - _type: pubid:bsi:aerospace-standard
+      number:
+        value: '11'
+      prefix: CISPR
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:aerospace-standard
+        number:
+          value: '11'
+        prefix: CISPR
+      amendment_number: '2'
+      amd_suffix_form: true
+  representations:
+    human: BS CISPR 11 AMD2
+    urn: urn:bsi:bs:cispr:11:amd:2
+  style: v3
+- id: bsi.consolidated_identifier.0012
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '107'
+    part:
+      value: '112'
+    date:
+      year: '1954'
+    identifiers:
+    - _type: pubid:bsi:aerospace-standard
+      number:
+        value: '107'
+      part:
+        value: '112'
+      date:
+        year: '1954'
+      prefix: SP
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:aerospace-standard
+        number:
+          value: '107'
+        part:
+          value: '112'
+        date:
+          year: '1954'
+        prefix: SP
+      amendment_number: '5'
+      amendment_year: 2012
+  representations:
+    human: BS SP 107-112:1954+A5:2012
+    urn: urn:bsi:bs:sp:107:-112:1954:amd:5:2012
+  style: v3
+- id: bsi.consolidated_identifier.0013
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '114'
+    date:
+      year: '1955'
+    identifiers:
+    - _type: pubid:bsi:aerospace-standard
+      number:
+        value: '114'
+      date:
+        year: '1955'
+      prefix: SP
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:aerospace-standard
+        number:
+          value: '114'
+        date:
+          year: '1955'
+        prefix: SP
+      amendment_number: '5'
+      amendment_year: 2013
+  representations:
+    human: BS SP 114:1955+A5:2013
+    urn: urn:bsi:bs:sp:114:1955:amd:5:2013
+  style: v3
+- id: bsi.consolidated_identifier.0014
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '119'
+    part:
+      value: '120'
+    date:
+      year: '1957'
+    identifiers:
+    - _type: pubid:bsi:aerospace-standard
+      number:
+        value: '119'
+      part:
+        value: '120'
+      date:
+        year: '1957'
+      prefix: SP
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:aerospace-standard
+        number:
+          value: '119'
+        part:
+          value: '120'
+        date:
+          year: '1957'
+        prefix: SP
+      amendment_number: '2'
+      amendment_year: 2012
+  representations:
+    human: BS SP 119-120:1957+A2:2012
+    urn: urn:bsi:bs:sp:119:-120:1957:amd:2:2012
+  style: v3
+- id: bsi.consolidated_identifier.0015
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '33'
+    part:
+      value: '39'
+    date:
+      year: '1951'
+    identifiers:
+    - _type: pubid:bsi:aerospace-standard
+      number:
+        value: '33'
+      part:
+        value: '39'
+      date:
+        year: '1951'
+      prefix: SP
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:aerospace-standard
+        number:
+          value: '33'
+        part:
+          value: '39'
+        date:
+          year: '1951'
+        prefix: SP
+      amendment_number: '5'
+      amendment_year: 2015
+  representations:
+    human: BS SP 33-39:1951+A5:2015
+    urn: urn:bsi:bs:sp:33:-39:1951:amd:5:2015
+  style: v3
+- id: bsi.consolidated_identifier.0016
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '41'
+    part:
+      value: '46'
+    date:
+      year: '1951'
+    identifiers:
+    - _type: pubid:bsi:aerospace-standard
+      number:
+        value: '41'
+      part:
+        value: '46'
+      date:
+        year: '1951'
+      prefix: SP
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:aerospace-standard
+        number:
+          value: '41'
+        part:
+          value: '46'
+        date:
+          year: '1951'
+        prefix: SP
+      amendment_number: '5'
+      amendment_year: 2012
+  representations:
+    human: BS SP 41-46:1951+A5:2012
+    urn: urn:bsi:bs:sp:41:-46:1951:amd:5:2012
+  style: v3
+- id: bsi.consolidated_identifier.0017
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '94'
+    identifiers:
+    - _type: pubid:bsi:aerospace-standard
+      number:
+        value: '94'
+      prefix: SP
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:aerospace-standard
+        number:
+          value: '94'
+        prefix: SP
+      amendment_number: '2'
+      amd_suffix_form: true
+  representations:
+    human: BS SP 94 AMD2
+    urn: urn:bsi:bs:sp:94:amd:2
+  style: v3
+- id: bsi.consolidated_identifier.0018
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number:
+      value: '94'
+    date:
+      year: '1964'
+    identifiers:
+    - _type: pubid:bsi:aerospace-standard
+      number:
+        value: '94'
+      date:
+        year: '1964'
+      prefix: SP
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:aerospace-standard
+        number:
+          value: '94'
+        date:
+          year: '1964'
+        prefix: SP
+      amendment_number: '2'
+      amendment_year: 2012
+  representations:
+    human: BS SP 94:1964+A2:2012
+    urn: urn:bsi:bs:sp:94:1964:amd:2:2012
+  style: v3

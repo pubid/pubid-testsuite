@@ -1,0 +1,25 @@
+---
+- id: cen_cenelec.european_prestandard.0001
+  identifier:
+    _type: pubid:cencenelec:european-prestandard
+    adopted_identifier:
+      _type: pubid:iso:international-standard
+      number: '11079'
+      year: '1999'
+  representations:
+    human: ENV ISO 11079:1999
+    urn: urn:cen:en
+  roundtrip: false
+  style: v3
+- id: cen_cenelec.european_prestandard.0002
+  identifier:
+    _type: pubid:cencenelec:european-prestandard
+    adopted_identifier:
+      _type: pubid:iso:technical-report
+      number: '13843'
+      year: '2001'
+  representations:
+    human: ENV ISO/TR 13843:2001
+    urn: urn:cen:en
+  roundtrip: false
+  style: v3

@@ -1,0 +1,169 @@
+---
+- id: csa.combined.0001
+  identifier:
+    first:
+      _type: pubid:csa:standard
+      code:
+        value: B138.1
+      year: '2017'
+      year_format: dash
+      has_publisher: true
+      publisher_prefix: CAN/CSA-
+    second:
+      _type: pubid:csa:standard
+      code:
+        value: B138.2
+      year: '2017'
+      year_format: dash
+      has_publisher: true
+      publisher_prefix: CAN/CSA-
+    reaffirmation: '2022'
+    original_reaffirmation_4digit: true
+    separator: "/"
+  representations:
+    human: CAN/CSA-B138.1-17/CAN/CSA-B138.2-17 (R2022)
+  roundtrip: false
+  style: v3
+- id: csa.combined.0002
+  identifier:
+    first:
+      _type: pubid:csa:standard
+      code:
+        value: A123.1
+      year: '2005'
+      year_format: dash
+      has_publisher: true
+      publisher_prefix: CSA
+    second:
+      _type: pubid:csa:standard
+      code:
+        value: A123.5
+      year: '2005'
+      year_format: dash
+    reaffirmation: '2015'
+    original_reaffirmation_4digit: true
+    year_format: dash
+    separator: "/"
+  representations:
+    human: CSA A123.1-05/A123.5-05 (R2015)
+  roundtrip: false
+  style: v3
+- id: csa.combined.0003
+  identifier:
+    first:
+      _type: pubid:csa:standard
+      code:
+        value: A23.1
+      year: '2019'
+      year_format: colon
+      has_publisher: true
+      publisher_prefix: CSA
+    second:
+      _type: pubid:csa:standard
+      code:
+        value: A23.2
+      year: '2019'
+      year_format: colon
+      has_publisher: true
+      publisher_prefix: CSA
+    separator: "/"
+  representations:
+    human: CSA A23.1:19/CSA A23.2:19
+  roundtrip: false
+  style: v3
+- id: csa.combined.0004
+  identifier:
+    first:
+      _type: pubid:csa:standard
+      code:
+        value: A23.1
+      year: '2024'
+      year_format: colon
+      has_publisher: true
+      publisher_prefix: CSA
+    second:
+      _type: pubid:csa:standard
+      code:
+        value: A23.2
+      year: '2024'
+      year_format: colon
+      has_publisher: true
+      publisher_prefix: CSA
+    separator: "/"
+  representations:
+    human: CSA A23.1:24/CSA A23.2:24
+  roundtrip: false
+  style: v3
+- id: csa.combined.0005
+  identifier:
+    first:
+      _type: pubid:csa:standard
+      code:
+        value: A231.1
+      year: '2019'
+      year_format: colon
+      has_publisher: true
+      publisher_prefix: CSA
+    second:
+      _type: pubid:csa:standard
+      code:
+        value: A231.2
+      year: '2019'
+      year_format: colon
+      has_publisher: true
+      publisher_prefix: CSA
+    reaffirmation: '2024'
+    original_reaffirmation_4digit: true
+    separator: "/"
+  representations:
+    human: CSA A231.1:19/CSA A231.2:19 (R2024)
+  roundtrip: false
+  style: v3
+- id: csa.combined.0006
+  identifier:
+    first:
+      _type: pubid:csa:standard
+      code:
+        value: A440.2
+      year: '2022'
+      year_format: colon
+      has_publisher: true
+      publisher_prefix: CSA
+    second:
+      _type: pubid:csa:standard
+      code:
+        value: A440.3
+      year: '2022'
+      year_format: colon
+      has_publisher: true
+      publisher_prefix: CSA
+    separator: "/"
+  representations:
+    human: CSA A440.2:22/CSA A440.3:22
+  roundtrip: false
+  style: v3
+- id: csa.combined.0007
+  identifier:
+    first:
+      _type: pubid:csa:standard
+      code:
+        value: B128.1
+      year: '2006'
+      year_format: colon
+      has_publisher: true
+      publisher_prefix: CSA
+    second:
+      _type: pubid:csa:standard
+      code:
+        value: B128.2
+      year: '2006'
+      year_format: colon
+      has_publisher: true
+      publisher_prefix: CSA
+    reaffirmation: '2021'
+    original_reaffirmation_4digit: true
+    separator: "/"
+  representations:
+    human: CSA B128.1:06/CSA B128.2:06 (R2021)
+  roundtrip: false
+  style: v3

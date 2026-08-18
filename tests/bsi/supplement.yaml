@@ -1,0 +1,422 @@
+---
+- id: bsi.supplement.0001
+  identifier:
+    _type: pubid:bsi:supplement-document
+    base:
+      _type: pubid:bsi:british-standard
+      number:
+        value: '1000'
+      iteration: '9'
+    supplement_number: '1'
+    supplement_year: 1972
+  representations:
+    human: BS 1000[9]:Supplement No. 1:1972
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.supplement.0002
+  identifier:
+    _type: pubid:bsi:supplement-document
+    base:
+      _type: pubid:bsi:british-standard
+      number:
+        value: '1425'
+    supplement_number: '1'
+    supplement_year: 1966
+  representations:
+    human: BS 1425:Supplement No. 1:1966
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.supplement.0003
+  identifier:
+    _type: pubid:bsi:british-standard
+    number:
+      value: '1722'
+    part:
+      value: 1 Supplement No. 1
+    date:
+      year: '1974'
+  representations:
+    human: BS 1722-1 Supplement No. 1:1974
+    urn: urn:bsi:bs:1722:-1 Supplement No. 1:1974
+  style: v3
+- id: bsi.supplement.0004
+  identifier:
+    _type: pubid:bsi:supplement-document
+    base:
+      _type: pubid:bsi:british-standard
+      number:
+        value: '2011'
+      part:
+        value: 3A & B
+    supplement_number: '1'
+    supplement_year: 1980
+  representations:
+    human: BS 2011-3A & B:Supplement No. 1:1980
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.supplement.0005
+  identifier:
+    _type: pubid:bsi:supplement-document
+    base:
+      _type: pubid:bsi:british-standard
+      number:
+        value: '2558'
+    supplement_number: '1'
+    supplement_year: 1968
+  representations:
+    human: BS 2558:Supplement No. 1:1968
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.supplement.0006
+  identifier:
+    _type: pubid:bsi:supplement-document
+    base:
+      _type: pubid:bsi:british-standard
+      number:
+        value: '3363'
+    supplement_number: '1'
+    supplement_year: 1981
+  representations:
+    human: BS 3363:Supplement No. 1:1981
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.supplement.0007
+  identifier:
+    _type: pubid:bsi:supplement-document
+    base:
+      _type: pubid:bsi:british-standard
+      number:
+        value: '3363'
+    supplement_number: '2'
+    supplement_year: 1981
+  representations:
+    human: BS 3363:Supplement No. 2:1981
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.supplement.0008
+  identifier:
+    _type: pubid:bsi:british-standard
+    number:
+      value: '350'
+    part:
+      value: 2 Supplement No. 1
+    date:
+      year: '1967'
+  representations:
+    human: BS 350-2 Supplement No. 1:1967
+    urn: urn:bsi:bs:350:-2 Supplement No. 1:1967
+  style: v3
+- id: bsi.supplement.0009
+  identifier:
+    _type: pubid:bsi:supplement-document
+    base:
+      _type: pubid:bsi:british-standard
+      number:
+        value: '3555'
+    supplement_number: '1'
+    supplement_year: 1968
+  representations:
+    human: BS 3555:Supplement No. 1:1968
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.supplement.0010
+  identifier:
+    _type: pubid:bsi:british-standard
+    number:
+      value: '4006'
+    part:
+      value: 1 Supplement No. 1
+    date:
+      year: '1968'
+  representations:
+    human: BS 4006-1 Supplement No. 1:1968
+    urn: urn:bsi:bs:4006:-1 Supplement No. 1:1968
+  style: v3
+- id: bsi.supplement.0011
+  identifier:
+    _type: pubid:bsi:supplement-document
+    base:
+      _type: pubid:bsi:british-standard
+      number:
+        value: '4285'
+    supplement_number: '1'
+    supplement_year: 1970
+  representations:
+    human: BS 4285:Supplement No. 1:1970
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.supplement.0012
+  identifier:
+    _type: pubid:bsi:british-standard
+    number:
+      value: '449'
+    part:
+      value: 1 Supplement No. 1
+    date:
+      year: '1959'
+  representations:
+    human: BS 449-1 Supplement No. 1:1959
+    urn: urn:bsi:bs:449:-1 Supplement No. 1:1959
+  style: v3
+- id: bsi.supplement.0013
+  identifier:
+    _type: pubid:bsi:supplement-document
+    base:
+      _type: pubid:bsi:british-standard
+      number:
+        value: '4958'
+    supplement_number: '1'
+    supplement_year: 1976
+  representations:
+    human: BS 4958:Supplement No. 1:1976
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.supplement.0014
+  identifier:
+    _type: pubid:bsi:british-standard
+    number:
+      value: '5258'
+    part:
+      value: 1 Supplement 1
+    date:
+      year: '1983'
+  representations:
+    human: BS 5258-1 Supplement 1:1983
+    urn: urn:bsi:bs:5258:-1 Supplement 1:1983
+  style: v3
+- id: bsi.supplement.0015
+  identifier:
+    _type: pubid:bsi:supplement-document
+    base:
+      _type: pubid:bsi:british-standard
+      number:
+        value: '5415'
+      part:
+        value: '2.2'
+    supplement_number: '1'
+    supplement_year: 1986
+  representations:
+    human: BS 5415-2.2:Supplement No. 1:1986
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.supplement.0016
+  identifier:
+    _type: pubid:bsi:british-standard
+    number:
+      value: '5428'
+    part:
+      value: 11 Supplement 1
+    date:
+      year: '1981'
+  representations:
+    human: BS 5428-11 Supplement 1:1981
+    urn: urn:bsi:bs:5428:-11 Supplement 1:1981
+  style: v3
+- id: bsi.supplement.0017
+  identifier:
+    _type: pubid:bsi:supplement-document
+    base:
+      _type: pubid:bsi:british-standard
+      number:
+        value: '546'
+    supplement_number: '1'
+    supplement_year: 1960
+  representations:
+    human: BS 546:Supplement No. 1:1960
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.supplement.0018
+  identifier:
+    _type: pubid:bsi:supplement-document
+    base:
+      _type: pubid:bsi:british-standard
+      number:
+        value: '5728'
+      part:
+        value: '2'
+    supplement_number: '1'
+    supplement_year: 1984
+  representations:
+    human: BS 5728-2:Supplement No. 1:1984
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.supplement.0019
+  identifier:
+    _type: pubid:bsi:british-standard
+    number:
+      value: '5772'
+    part:
+      value: 2 Supplement No. 1
+    date:
+      year: '1981'
+  representations:
+    human: BS 5772-2 Supplement No. 1:1981
+    urn: urn:bsi:bs:5772:-2 Supplement No. 1:1981
+  style: v3
+- id: bsi.supplement.0020
+  identifier:
+    _type: pubid:bsi:british-standard
+    number:
+      value: '5772'
+    part:
+      value: 5 Supplement No. 1
+    date:
+      year: '1981'
+  representations:
+    human: BS 5772-5 Supplement No. 1:1981
+    urn: urn:bsi:bs:5772:-5 Supplement No. 1:1981
+  style: v3
+- id: bsi.supplement.0021
+  identifier:
+    _type: pubid:bsi:british-standard
+    number:
+      value: '5772'
+    part:
+      value: 5 Supplement No. 2
+    date:
+      year: '1982'
+  representations:
+    human: BS 5772-5 Supplement No. 2:1982
+    urn: urn:bsi:bs:5772:-5 Supplement No. 2:1982
+  style: v3
+- id: bsi.supplement.0022
+  identifier:
+    _type: pubid:bsi:british-standard
+    number:
+      value: '5772'
+    part:
+      value: 6 Supplement No. 1
+    date:
+      year: '1981'
+  representations:
+    human: BS 5772-6 Supplement No. 1:1981
+    urn: urn:bsi:bs:5772:-6 Supplement No. 1:1981
+  style: v3
+- id: bsi.supplement.0023
+  identifier:
+    _type: pubid:bsi:british-standard
+    number:
+      value: '5772'
+    part:
+      value: 8 Supplement No. 1
+    date:
+      year: '1981'
+  representations:
+    human: BS 5772-8 Supplement No. 1:1981
+    urn: urn:bsi:bs:5772:-8 Supplement No. 1:1981
+  style: v3
+- id: bsi.supplement.0024
+  identifier:
+    _type: pubid:bsi:british-standard
+    number:
+      value: '5772'
+    part:
+      value: 8 Supplement No. 2
+    date:
+      year: '1982'
+  representations:
+    human: BS 5772-8 Supplement No. 2:1982
+    urn: urn:bsi:bs:5772:-8 Supplement No. 2:1982
+  style: v3
+- id: bsi.supplement.0025
+  identifier:
+    _type: pubid:bsi:british-standard
+    number:
+      value: '970'
+    part:
+      value: 3 Supplement No. 1
+    date:
+      year: '1973'
+  representations:
+    human: BS 970-3 Supplement No. 1:1973
+    urn: urn:bsi:bs:970:-3 Supplement No. 1:1973
+  style: v3
+- id: bsi.supplement.0026
+  identifier:
+    _type: pubid:bsi:supplement-document
+    base:
+      _type: pubid:bsi:british-standard
+      number:
+        value: '50000'
+      flex_prefix: CECC
+    supplement_number: '1'
+    supplement_year: 1983
+  representations:
+    human: BS CECC 50000:Supplement No. 1:1983
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.supplement.0027
+  identifier:
+    _type: pubid:bsi:supplement-document
+    base:
+      _type: pubid:bsi:british-standard
+      number:
+        value: E9111
+    supplement_number: '1'
+    supplement_year: 1976
+  representations:
+    human: BS E9111:Supplement No. 1:1976
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.supplement.0028
+  identifier:
+    _type: pubid:bsi:supplement-document
+    base:
+      _type: pubid:bsi:british-standard
+      number:
+        value: '31'
+      flex_prefix: M
+    supplement_number: '1'
+    supplement_year: 1974
+  representations:
+    human: BS M 31:Supplement No. 1:1974
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.supplement.0029
+  identifier:
+    _type: pubid:bsi:supplement-document
+    base:
+      _type: pubid:bsi:british-standard
+      number:
+        value: '1831'
+      date:
+        year: '1969'
+    supplement_number: '1'
+    supplement_year: 1970
+    reverse_format: true
+  representations:
+    human: Supplement No. 1 (1970) to BS 1831:1969
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.supplement.0030
+  identifier:
+    _type: pubid:bsi:supplement-document
+    base:
+      _type: pubid:bsi:british-standard
+      number:
+        value: '1831'
+      date:
+        year: '1969'
+    supplement_number: '2'
+    supplement_year: 1970
+    reverse_format: true
+  representations:
+    human: Supplement No. 2 (1970) to BS 1831:1969
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.supplement.0031
+  identifier:
+    _type: pubid:bsi:supplement-document
+    base:
+      _type: pubid:bsi:british-standard
+      number:
+        value: '1831'
+      date:
+        year: '1969'
+    supplement_number: '3'
+    supplement_year: 1974
+    reverse_format: true
+  representations:
+    human: Supplement No. 3 (1974) to BS 1831:1969
+    urn: urn:bsi:bs
+  style: v3

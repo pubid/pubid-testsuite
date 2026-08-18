@@ -1,0 +1,230 @@
+---
+- id: cie.identical.0001
+  identifier:
+    _type: pubid:cie:identical
+    number: '006'
+    style: slash
+    year: '1998'
+    iteration: '1'
+    s_prefix: true
+    iso_reference: 16508:1999
+  representations:
+    human: CIE S 006.1/1998 (ISO 16508:1999)
+    urn: urn:cie:identical:s:cie:006.1:1998:sep.slash:iso.16508:1999
+  style: v3
+- id: cie.identical.0002
+  identifier:
+    _type: pubid:cie:identical
+    number: '007'
+    style: slash
+    year: '1998'
+    s_prefix: true
+    iso_reference: 17166:1999
+  representations:
+    human: CIE S 007/1998 (ISO 17166:1999)
+    urn: urn:cie:identical:s:cie:007:1998:sep.slash:iso.17166:1999
+  style: v3
+- id: cie.identical.0003
+  identifier:
+    _type: pubid:cie:identical
+    number: '008'
+    style: legacy
+    year: '2001'
+    s_prefix: true
+    language:
+      code: E
+      format: slash_colon
+    iso_reference: 8995-1:2002(E)
+  representations:
+    human: CIE S 008/E:2001 (ISO 8995-1:2002(E))
+    urn: urn:cie:identical:s:cie:008:2001:e:slash_colon:sep.legacy:iso.8995-1:2002(E)
+  style: v3
+- id: cie.identical.0004
+  identifier:
+    _type: pubid:cie:identical
+    number: '010'
+    year: '2004'
+    s_prefix: true
+    language:
+      code: E
+      format: slash_colon
+    iso_reference: 23539:2005
+  representations:
+    human: CIE S 010/E:2004 (ISO 23539:2005)
+    urn: urn:cie:identical:s:cie:010:2004:e:slash_colon:sep.current:iso.23539:2005
+  style: v3
+- id: cie.identical.0005
+  identifier:
+    _type: pubid:cie:identical
+    number: '011'
+    year: '2003'
+    s_prefix: true
+    language:
+      code: E
+      format: slash_colon
+    iso_reference: 15469:2004(E)
+  representations:
+    human: CIE S 011/E:2003 (ISO 15469:2004(E))
+    urn: urn:cie:identical:s:cie:011:2003:e:slash_colon:sep.current:iso.15469:2004(E)
+  style: v3
+- id: cie.identical.0006
+  identifier:
+    _type: pubid:cie:identical
+    number: '012'
+    year: '2004'
+    s_prefix: true
+    language:
+      code: E
+      format: slash_colon
+    iso_reference: 23603:2005(E)
+  representations:
+    human: CIE S 012/E:2004 (ISO 23603:2005(E))
+    urn: urn:cie:identical:s:cie:012:2004:e:slash_colon:sep.current:iso.23603:2005(E)
+  style: v3
+- id: cie.identical.0007
+  identifier:
+    _type: pubid:cie:identical
+    number: '014'
+    part: '1'
+    year: '2006'
+    s_prefix: true
+    language:
+      code: E
+      format: slash_colon
+    iso_reference: 10527:2007(E)
+  representations:
+    human: CIE S 014-1/E:2006 (ISO 10527:2007(E))
+    urn: urn:cie:identical:s:cie:014-1:2006:e:slash_colon:sep.current:iso.10527:2007(E)
+  style: v3
+- id: cie.identical.0008
+  identifier:
+    _type: pubid:cie:identical
+    number: '014'
+    part: '1'
+    year: '2006'
+    s_prefix: true
+    language:
+      code: E
+      format: slash_colon
+    iso_reference: 11664-1:2007(E)
+  representations:
+    human: CIE S 014-1/E:2006 (ISO 11664-1:2007(E))
+    urn: urn:cie:identical:s:cie:014-1:2006:e:slash_colon:sep.current:iso.11664-1:2007(E)
+  style: v3
+- id: cie.identical.0009
+  identifier:
+    _type: pubid:cie:identical
+    number: '014'
+    part: '2'
+    year: '2006'
+    s_prefix: true
+    language:
+      code: E
+      format: slash_colon
+    iso_reference: 10526:2007(E)
+  representations:
+    human: CIE S 014-2/E:2006 (ISO 10526:2007(E))
+    urn: urn:cie:identical:s:cie:014-2:2006:e:slash_colon:sep.current:iso.10526:2007(E)
+  style: v3
+- id: cie.identical.0010
+  identifier:
+    _type: pubid:cie:identical
+    number: '014'
+    part: '2'
+    year: '2006'
+    s_prefix: true
+    language:
+      code: E
+      format: slash_colon
+    iso_reference: 11664-2:2007(E)
+  representations:
+    human: CIE S 014-2/E:2006 (ISO 11664-2:2007(E))
+    urn: urn:cie:identical:s:cie:014-2:2006:e:slash_colon:sep.current:iso.11664-2:2007(E)
+  style: v3
+- id: cie.identical.0011
+  identifier:
+    _type: pubid:cie:identical
+    number: '014'
+    part: '3'
+    year: '2011'
+    s_prefix: true
+    language:
+      code: E
+      format: slash_colon
+    iso_reference: 11664-3:2012(E)
+  representations:
+    human: CIE S 014-3/E:2011 (ISO 11664-3:2012(E))
+    urn: urn:cie:identical:s:cie:014-3:2011:e:slash_colon:sep.current:iso.11664-3:2012(E)
+  style: v3
+- id: cie.identical.0012
+  identifier:
+    _type: pubid:cie:identical
+    number: '014'
+    part: '4'
+    year: '2007'
+    s_prefix: true
+    language:
+      code: E
+      format: slash_colon
+    iso_reference: 11664-4:2008
+  representations:
+    human: CIE S 014-4/E:2007 (ISO 11664-4:2008)
+    urn: urn:cie:identical:s:cie:014-4:2007:e:slash_colon:sep.current:iso.11664-4:2008
+  style: v3
+- id: cie.identical.0013
+  identifier:
+    _type: pubid:cie:identical
+    number: '014'
+    part: '5'
+    year: '2009'
+    s_prefix: true
+    language:
+      code: E
+      format: slash_colon
+    iso_reference: 11664-5:2009
+  representations:
+    human: CIE S 014-5/E:2009 (ISO 11664-5:2009)
+    urn: urn:cie:identical:s:cie:014-5:2009:e:slash_colon:sep.current:iso.11664-5:2009
+  style: v3
+- id: cie.identical.0014
+  identifier:
+    _type: pubid:cie:identical
+    number: '016'
+    year: '2005'
+    s_prefix: true
+    language:
+      code: E
+      format: slash_colon
+    iso_reference: 8995-3:2006(E)
+  representations:
+    human: CIE S 016/E:2005 (ISO 8995-3:2006(E))
+    urn: urn:cie:identical:s:cie:016:2005:e:slash_colon:sep.current:iso.8995-3:2006(E)
+  style: v3
+- id: cie.identical.0015
+  identifier:
+    _type: pubid:cie:identical
+    number: '019'
+    year: '2006'
+    s_prefix: true
+    language:
+      code: E
+      format: slash_colon
+    iso_reference: 28077:2006
+  representations:
+    human: CIE S 019/E:2006 (ISO 28077:2006)
+    urn: urn:cie:identical:s:cie:019:2006:e:slash_colon:sep.current:iso.28077:2006
+  style: v3
+- id: cie.identical.0016
+  identifier:
+    _type: pubid:cie:identical
+    number: '020'
+    year: '2007'
+    s_prefix: true
+    language:
+      code: E
+      format: slash_colon
+    iso_reference: 30061:2007(E)
+  representations:
+    human: CIE S 020/E:2007 (ISO 30061:2007(E))
+    urn: urn:cie:identical:s:cie:020:2007:e:slash_colon:sep.current:iso.30061:2007(E)
+  style: v3

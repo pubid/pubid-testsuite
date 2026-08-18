@@ -1,0 +1,137 @@
+---
+- id: idf.reviewed_method.0001
+  identifier:
+    _type: pubid:idf:reviewed-method
+    number:
+      value: '208'
+    publisher:
+      body: IDF
+    type:
+      name: Published Reviewed Method
+      abbr: RM
+      type_code: rm
+    stage:
+      name: Published Reviewed Method
+      stage_code: published
+      harmonized_stages:
+      - '60.00'
+      - '60.60'
+      abbr: RM
+    typed_stage:
+      name: Published Reviewed Method
+      code: pubrm
+      type_code: rm
+      stage_code: published
+      abbr:
+      - RM
+      harmonized_stages:
+      - '60.00'
+      - '60.60'
+  representations:
+    human: IDF/RM 208
+    urn: urn:idf:208:rm
+  style: v3
+- id: idf.reviewed_method.0002
+  identifier:
+    _type: pubid:idf:reviewed-method
+    number:
+      value: '233'
+    part:
+      value: '1'
+    date:
+      year: '2017'
+    publisher:
+      body: IDF
+    type:
+      name: Published Reviewed Method
+      abbr: RM
+      type_code: rm
+    stage:
+      name: Published Reviewed Method
+      stage_code: published
+      harmonized_stages:
+      - '60.00'
+      - '60.60'
+      abbr: RM
+    typed_stage:
+      name: Published Reviewed Method
+      code: pubrm
+      type_code: rm
+      stage_code: published
+      abbr:
+      - RM
+      harmonized_stages:
+      - '60.00'
+      - '60.60'
+  representations:
+    human: IDF/RM 233-1:2017
+    urn: urn:idf:233:-1:2017:rm
+  style: v3
+- id: idf.reviewed_method.0003
+  identifier:
+    _type: pubid:idf:reviewed-method
+    number:
+      value: '254'
+    date:
+      year: '2022'
+    publisher:
+      body: IDF
+    type:
+      name: Published Reviewed Method
+      abbr: RM
+      type_code: rm
+    stage:
+      name: Published Reviewed Method
+      stage_code: published
+      harmonized_stages:
+      - '60.00'
+      - '60.60'
+      abbr: RM
+    typed_stage:
+      name: Published Reviewed Method
+      code: pubrm
+      type_code: rm
+      stage_code: published
+      abbr:
+      - RM
+      harmonized_stages:
+      - '60.00'
+      - '60.60'
+  representations:
+    human: IDF/RM 254:2022
+    urn: urn:idf:254:2022:rm
+  style: v3
+- id: idf.reviewed_method.0004
+  identifier:
+    _type: pubid:idf:reviewed-method
+    number:
+      value: '82'
+    date:
+      year: '2004'
+    publisher:
+      body: IDF
+    type:
+      name: Published Reviewed Method
+      abbr: RM
+      type_code: rm
+    stage:
+      name: Published Reviewed Method
+      stage_code: published
+      harmonized_stages:
+      - '60.00'
+      - '60.60'
+      abbr: RM
+    typed_stage:
+      name: Published Reviewed Method
+      code: pubrm
+      type_code: rm
+      stage_code: published
+      abbr:
+      - RM
+      harmonized_stages:
+      - '60.00'
+      - '60.60'
+  representations:
+    human: IDF/RM 82:2004
+    urn: urn:idf:82:2004:rm
+  style: v3

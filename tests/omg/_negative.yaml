@@ -1,0 +1,21 @@
+---
+- id: omg.neg.malformed.0001
+  input: OMG
+  expect:
+    error:
+      code: unclassified
+- id: omg.neg.malformed.0002
+  input: OMG 123
+  expect:
+    error:
+      code: unclassified
+- id: omg.neg.malformed.0003
+  input: foo OMG UML
+  expect:
+    error:
+      code: unclassified
+- id: omg.neg.malformed.0004
+  input: OMGuml
+  expect:
+    error:
+      code: unclassified

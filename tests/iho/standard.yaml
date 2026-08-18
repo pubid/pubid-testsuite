@@ -1,0 +1,825 @@
+---
+- id: iho.standard.0001
+  identifier:
+    _type: pubid:iho:standard
+    number: '100'
+    version: 1.0.0
+  representations:
+    human: IHO S-100 1.0.0
+    urn: urn:iho:s:100:1.0.0
+  style: v3
+- id: iho.standard.0002
+  identifier:
+    _type: pubid:iho:standard
+    number: '100'
+    version: 2.0.0
+  representations:
+    human: IHO S-100 2.0.0
+    urn: urn:iho:s:100:2.0.0
+  style: v3
+- id: iho.standard.0003
+  identifier:
+    _type: pubid:iho:standard
+    number: '100'
+    version: 3.0.0
+  representations:
+    human: IHO S-100 3.0.0
+    urn: urn:iho:s:100:3.0.0
+  style: v3
+- id: iho.standard.0004
+  identifier:
+    _type: pubid:iho:standard
+    number: '100'
+    version: 4.0.0
+  representations:
+    human: IHO S-100 4.0.0
+    urn: urn:iho:s:100:4.0.0
+  style: v3
+- id: iho.standard.0005
+  identifier:
+    _type: pubid:iho:standard
+    number: '100'
+    version: 5.0.0
+  representations:
+    human: IHO S-100 5.0.0
+    urn: urn:iho:s:100:5.0.0
+  style: v3
+- id: iho.standard.0006
+  identifier:
+    _type: pubid:iho:standard
+    number: '100'
+    version: 5.1.0
+  representations:
+    human: IHO S-100 5.1.0
+    urn: urn:iho:s:100:5.1.0
+  style: v3
+- id: iho.standard.0007
+  identifier:
+    _type: pubid:iho:standard
+    number: '100'
+    version: 5.2.0
+  representations:
+    human: IHO S-100 5.2.0
+    urn: urn:iho:s:100:5.2.0
+  style: v3
+- id: iho.standard.0008
+  identifier:
+    _type: pubid:iho:standard
+    number: '101'
+    version: 1.0.0
+  representations:
+    human: IHO S-101 1.0.0
+    urn: urn:iho:s:101:1.0.0
+  style: v3
+- id: iho.standard.0009
+  identifier:
+    _type: pubid:iho:standard
+    number: '101'
+    version: 1.1.0
+  representations:
+    human: IHO S-101 1.1.0
+    urn: urn:iho:s:101:1.1.0
+  style: v3
+- id: iho.standard.0010
+  identifier:
+    _type: pubid:iho:standard
+    number: '101'
+    version: 1.2.0
+  representations:
+    human: IHO S-101 1.2.0
+    urn: urn:iho:s:101:1.2.0
+  style: v3
+- id: iho.standard.0011
+  identifier:
+    _type: pubid:iho:standard
+    number: '101'
+    version: 2.0.0
+  representations:
+    human: IHO S-101 2.0.0
+    urn: urn:iho:s:101:2.0.0
+  style: v3
+- id: iho.standard.0012
+  identifier:
+    _type: pubid:iho:standard
+    number: '102'
+    version: 1.0.0
+  representations:
+    human: IHO S-102 1.0.0
+    urn: urn:iho:s:102:1.0.0
+  style: v3
+- id: iho.standard.0013
+  identifier:
+    _type: pubid:iho:standard
+    number: '102'
+    version: 2.0.0
+  representations:
+    human: IHO S-102 2.0.0
+    urn: urn:iho:s:102:2.0.0
+  style: v3
+- id: iho.standard.0014
+  identifier:
+    _type: pubid:iho:standard
+    number: '102'
+    version: 2.1.0
+  representations:
+    human: IHO S-102 2.1.0
+    urn: urn:iho:s:102:2.1.0
+  style: v3
+- id: iho.standard.0015
+  identifier:
+    _type: pubid:iho:standard
+    number: '102'
+    version: 2.2.0
+  representations:
+    human: IHO S-102 2.2.0
+    urn: urn:iho:s:102:2.2.0
+  style: v3
+- id: iho.standard.0016
+  identifier:
+    _type: pubid:iho:standard
+    number: '102'
+    version: 3.0.0
+  representations:
+    human: IHO S-102 3.0.0
+    urn: urn:iho:s:102:3.0.0
+  style: v3
+- id: iho.standard.0017
+  identifier:
+    _type: pubid:iho:standard
+    number: '104'
+    version: 1.0.0
+  representations:
+    human: IHO S-104 1.0.0
+    urn: urn:iho:s:104:1.0.0
+  style: v3
+- id: iho.standard.0018
+  identifier:
+    _type: pubid:iho:standard
+    number: '104'
+    version: 1.1.0
+  representations:
+    human: IHO S-104 1.1.0
+    urn: urn:iho:s:104:1.1.0
+  style: v3
+- id: iho.standard.0019
+  identifier:
+    _type: pubid:iho:standard
+    number: '104'
+    version: 2.0.0
+  representations:
+    human: IHO S-104 2.0.0
+    urn: urn:iho:s:104:2.0.0
+  style: v3
+- id: iho.standard.0020
+  identifier:
+    _type: pubid:iho:standard
+    number: '11'
+    version: 3.1.0
+  representations:
+    human: IHO S-11 3.1.0
+    urn: urn:iho:s:11:3.1.0
+  style: v3
+- id: iho.standard.0021
+  identifier:
+    _type: pubid:iho:standard
+    number: '111'
+    version: 1.0.0
+  representations:
+    human: IHO S-111 1.0.0
+    urn: urn:iho:s:111:1.0.0
+  style: v3
+- id: iho.standard.0022
+  identifier:
+    _type: pubid:iho:standard
+    number: '111'
+    version: 1.2.0
+  representations:
+    human: IHO S-111 1.2.0
+    urn: urn:iho:s:111:1.2.0
+  style: v3
+- id: iho.standard.0023
+  identifier:
+    _type: pubid:iho:standard
+    number: '111'
+    version: 2.0.0
+  representations:
+    human: IHO S-111 2.0.0
+    urn: urn:iho:s:111:2.0.0
+  style: v3
+- id: iho.standard.0024
+  identifier:
+    _type: pubid:iho:standard
+    number: '12'
+    version: 1.1.0
+  representations:
+    human: IHO S-12 1.1.0
+    urn: urn:iho:s:12:1.1.0
+  style: v3
+- id: iho.standard.0025
+  identifier:
+    _type: pubid:iho:standard
+    number: '121'
+    version: 1.0.0
+  representations:
+    human: IHO S-121 1.0.0
+    urn: urn:iho:s:121:1.0.0
+  style: v3
+- id: iho.standard.0026
+  identifier:
+    _type: pubid:iho:standard
+    number: '122'
+    version: 1.0.0
+  representations:
+    human: IHO S-122 1.0.0
+    urn: urn:iho:s:122:1.0.0
+  style: v3
+- id: iho.standard.0027
+  identifier:
+    _type: pubid:iho:standard
+    number: '123'
+    version: 1.0.0
+  representations:
+    human: IHO S-123 1.0.0
+    urn: urn:iho:s:123:1.0.0
+  style: v3
+- id: iho.standard.0028
+  identifier:
+    _type: pubid:iho:standard
+    number: '124'
+    version: 1.0.0
+  representations:
+    human: IHO S-124 1.0.0
+    urn: urn:iho:s:124:1.0.0
+  style: v3
+- id: iho.standard.0029
+  identifier:
+    _type: pubid:iho:standard
+    number: '124'
+    version: 2.0.0
+  representations:
+    human: IHO S-124 2.0.0
+    urn: urn:iho:s:124:2.0.0
+  style: v3
+- id: iho.standard.0030
+  identifier:
+    _type: pubid:iho:standard
+    number: '127'
+    version: 1.0.0
+  representations:
+    human: IHO S-127 1.0.0
+    urn: urn:iho:s:127:1.0.0
+  style: v3
+- id: iho.standard.0031
+  identifier:
+    _type: pubid:iho:standard
+    number: '128'
+    version: 1.0.0
+  representations:
+    human: IHO S-128 1.0.0
+    urn: urn:iho:s:128:1.0.0
+  style: v3
+- id: iho.standard.0032
+  identifier:
+    _type: pubid:iho:standard
+    number: '128'
+    version: 2.0.0
+  representations:
+    human: IHO S-128 2.0.0
+    urn: urn:iho:s:128:2.0.0
+  style: v3
+- id: iho.standard.0033
+  identifier:
+    _type: pubid:iho:standard
+    number: '129'
+    version: 1.0.0
+  representations:
+    human: IHO S-129 1.0.0
+    urn: urn:iho:s:129:1.0.0
+  style: v3
+- id: iho.standard.0034
+  identifier:
+    _type: pubid:iho:standard
+    number: '129'
+    version: 1.1.0
+  representations:
+    human: IHO S-129 1.1.0
+    urn: urn:iho:s:129:1.1.0
+  style: v3
+- id: iho.standard.0035
+  identifier:
+    _type: pubid:iho:standard
+    number: '129'
+    version: 2.0.0
+  representations:
+    human: IHO S-129 2.0.0
+    urn: urn:iho:s:129:2.0.0
+  style: v3
+- id: iho.standard.0036
+  identifier:
+    _type: pubid:iho:standard
+    number: '130'
+    version: 1.0.0
+  representations:
+    human: IHO S-130 1.0.0
+    urn: urn:iho:s:130:1.0.0
+  style: v3
+- id: iho.standard.0037
+  identifier:
+    _type: pubid:iho:standard
+    number: '131'
+    version: 1.0.0
+  representations:
+    human: IHO S-131 1.0.0
+    urn: urn:iho:s:131:1.0.0
+  style: v3
+- id: iho.standard.0038
+  identifier:
+    _type: pubid:iho:standard
+    number: '158'
+    version: 1.0.0
+  representations:
+    human: IHO S-158 1.0.0
+    urn: urn:iho:s:158:1.0.0
+  style: v3
+- id: iho.standard.0039
+  identifier:
+    _type: pubid:iho:standard
+    number: 158:100
+    version: 1.0.0
+  representations:
+    human: IHO S-158:100 1.0.0
+    urn: urn:iho:s:158:100:1.0.0
+  style: v3
+- id: iho.standard.0040
+  identifier:
+    _type: pubid:iho:standard
+    number: 158:101
+    version: 1.0.0
+  representations:
+    human: IHO S-158:101 1.0.0
+    urn: urn:iho:s:158:101:1.0.0
+  style: v3
+- id: iho.standard.0041
+  identifier:
+    _type: pubid:iho:standard
+    number: 158:130
+    version: 1.0.0
+  representations:
+    human: IHO S-158:130 1.0.0
+    urn: urn:iho:s:158:130:1.0.0
+  style: v3
+- id: iho.standard.0042
+  identifier:
+    _type: pubid:iho:standard
+    number: 158:98
+    version: 1.0.0
+  representations:
+    human: IHO S-158:98 1.0.0
+    urn: urn:iho:s:158:98:1.0.0
+  style: v3
+- id: iho.standard.0043
+  identifier:
+    _type: pubid:iho:standard
+    number: '164'
+    version: 1.0.0
+  representations:
+    human: IHO S-164 1.0.0
+    urn: urn:iho:s:164:1.0.0
+  style: v3
+- id: iho.standard.0044
+  identifier:
+    _type: pubid:iho:standard
+    number: '201'
+    version: 1.0.0
+  representations:
+    human: IHO S-201 1.0.0
+    urn: urn:iho:s:201:1.0.0
+  style: v3
+- id: iho.standard.0045
+  identifier:
+    _type: pubid:iho:standard
+    number: '201'
+    version: 1.1.0
+  representations:
+    human: IHO S-201 1.1.0
+    urn: urn:iho:s:201:1.1.0
+  style: v3
+- id: iho.standard.0046
+  identifier:
+    _type: pubid:iho:standard
+    number: '23'
+    version: 3.0.0
+  representations:
+    human: IHO S-23 3.0.0
+    urn: urn:iho:s:23:3.0.0
+  style: v3
+- id: iho.standard.0047
+  identifier:
+    _type: pubid:iho:standard
+    number: '240'
+    version: 1.0.0
+  representations:
+    human: IHO S-240 1.0.0
+    urn: urn:iho:s:240:1.0.0
+  style: v3
+- id: iho.standard.0048
+  identifier:
+    _type: pubid:iho:standard
+    number: '245'
+    version: 1.0.0
+  representations:
+    human: IHO S-245 1.0.0
+    urn: urn:iho:s:245:1.0.0
+  style: v3
+- id: iho.standard.0049
+  identifier:
+    _type: pubid:iho:standard
+    number: '246'
+    version: 1.0.0
+  representations:
+    human: IHO S-246 1.0.0
+    urn: urn:iho:s:246:1.0.0
+  style: v3
+- id: iho.standard.0050
+  identifier:
+    _type: pubid:iho:standard
+    number: '247'
+    version: 1.0.0
+  representations:
+    human: IHO S-247 1.0.0
+    urn: urn:iho:s:247:1.0.0
+  style: v3
+- id: iho.standard.0051
+  identifier:
+    _type: pubid:iho:standard
+    number: '32'
+    version: 1.0.0
+  representations:
+    human: IHO S-32 1.0.0
+    urn: urn:iho:s:32:1.0.0
+  style: v3
+- id: iho.standard.0052
+  identifier:
+    _type: pubid:iho:standard
+    number: '4'
+    version: 4.8.0
+  representations:
+    human: IHO S-4 4.8.0
+    urn: urn:iho:s:4:4.8.0
+  style: v3
+- id: iho.standard.0053
+  identifier:
+    _type: pubid:iho:standard
+    number: '4'
+    version: 4.9.0
+  representations:
+    human: IHO S-4 4.9.0
+    urn: urn:iho:s:4:4.9.0
+  style: v3
+- id: iho.standard.0054
+  identifier:
+    _type: pubid:iho:standard
+    number: '401'
+    version: 1.0.0
+  representations:
+    human: IHO S-401 1.0.0
+    urn: urn:iho:s:401:1.0.0
+  style: v3
+- id: iho.standard.0055
+  identifier:
+    _type: pubid:iho:standard
+    number: '421'
+    version: 1.0.0
+  representations:
+    human: IHO S-421 1.0.0
+    urn: urn:iho:s:421:1.0.0
+  style: v3
+- id: iho.standard.0056
+  identifier:
+    _type: pubid:iho:standard
+    number: '44'
+    version: 5.0.0
+  representations:
+    human: IHO S-44 5.0.0
+    urn: urn:iho:s:44:5.0.0
+  style: v3
+- id: iho.standard.0057
+  identifier:
+    _type: pubid:iho:standard
+    number: '44'
+    version: 6.1.0
+  representations:
+    human: IHO S-44 6.1.0
+    urn: urn:iho:s:44:6.1.0
+  style: v3
+- id: iho.standard.0058
+  identifier:
+    _type: pubid:iho:standard
+    number: '44'
+    version: 6.2.0
+  representations:
+    human: IHO S-44 6.2.0
+    urn: urn:iho:s:44:6.2.0
+  style: v3
+- id: iho.standard.0059
+  identifier:
+    _type: pubid:iho:standard
+    number: '49'
+    version: 2.0.0
+  representations:
+    human: IHO S-49 2.0.0
+    urn: urn:iho:s:49:2.0.0
+  style: v3
+- id: iho.standard.0060
+  identifier:
+    _type: pubid:iho:standard
+    number: '49'
+    version: 2.1.0
+  representations:
+    human: IHO S-49 2.1.0
+    urn: urn:iho:s:49:2.1.0
+  style: v3
+- id: iho.standard.0061
+  identifier:
+    _type: pubid:iho:standard
+    number: '52'
+    version: 6.1.1
+  representations:
+    human: IHO S-52 6.1.1
+    urn: urn:iho:s:52:6.1.1
+  style: v3
+- id: iho.standard.0062
+  identifier:
+    _type: pubid:iho:standard
+    number: '53'
+    version: 1.0.0
+  representations:
+    human: IHO S-53 1.0.0
+    urn: urn:iho:s:53:1.0.0
+  style: v3
+- id: iho.standard.0063
+  identifier:
+    _type: pubid:iho:standard
+    number: '53'
+    version: 2.0.0
+  representations:
+    human: IHO S-53 2.0.0
+    urn: urn:iho:s:53:2.0.0
+  style: v3
+- id: iho.standard.0064
+  identifier:
+    _type: pubid:iho:standard
+    number: '53'
+    version: 3.0.0
+  representations:
+    human: IHO S-53 3.0.0
+    urn: urn:iho:s:53:3.0.0
+  style: v3
+- id: iho.standard.0065
+  identifier:
+    _type: pubid:iho:standard
+    number: '53'
+    appendix: '1'
+    version: 1.0.0
+  representations:
+    human: IHO S-53 Ap. 1 1.0.0
+    urn: urn:iho:s:53:ap.1:1.0.0
+  style: v3
+- id: iho.standard.0066
+  identifier:
+    _type: pubid:iho:standard
+    number: '57'
+    version: 3.1.0
+  representations:
+    human: IHO S-57 3.1.0
+    urn: urn:iho:s:57:3.1.0
+  style: v3
+- id: iho.standard.0067
+  identifier:
+    _type: pubid:iho:standard
+    number: '58'
+    version: 6.1.0
+  representations:
+    human: IHO S-58 6.1.0
+    urn: urn:iho:s:58:6.1.0
+  style: v3
+- id: iho.standard.0068
+  identifier:
+    _type: pubid:iho:standard
+    number: '58'
+    version: 7.0.0
+  representations:
+    human: IHO S-58 7.0.0
+    urn: urn:iho:s:58:7.0.0
+  style: v3
+- id: iho.standard.0069
+  identifier:
+    _type: pubid:iho:standard
+    number: 5A
+    version: 1.0.2
+  representations:
+    human: IHO S-5A 1.0.2
+    urn: urn:iho:s:5A:1.0.2
+  style: v3
+- id: iho.standard.0070
+  identifier:
+    _type: pubid:iho:standard
+    number: 5B
+    version: 1.0.1
+  representations:
+    human: IHO S-5B 1.0.1
+    urn: urn:iho:s:5B:1.0.1
+  style: v3
+- id: iho.standard.0071
+  identifier:
+    _type: pubid:iho:standard
+    number: '60'
+    version: 3.0.0
+  representations:
+    human: IHO S-60 3.0.0
+    urn: urn:iho:s:60:3.0.0
+  style: v3
+- id: iho.standard.0072
+  identifier:
+    _type: pubid:iho:standard
+    number: '61'
+    version: 1.0.0
+  representations:
+    human: IHO S-61 1.0.0
+    urn: urn:iho:s:61:1.0.0
+  style: v3
+- id: iho.standard.0073
+  identifier:
+    _type: pubid:iho:standard
+    number: '62'
+    version: 1.1.0
+  representations:
+    human: IHO S-62 1.1.0
+    urn: urn:iho:s:62:1.1.0
+  style: v3
+- id: iho.standard.0074
+  identifier:
+    _type: pubid:iho:standard
+    number: '63'
+    version: 1.2.1
+  representations:
+    human: IHO S-63 1.2.1
+    urn: urn:iho:s:63:1.2.1
+  style: v3
+- id: iho.standard.0075
+  identifier:
+    _type: pubid:iho:standard
+    number: '64'
+    version: 3.0.2
+  representations:
+    human: IHO S-64 3.0.2
+    urn: urn:iho:s:64:3.0.2
+  style: v3
+- id: iho.standard.0076
+  identifier:
+    _type: pubid:iho:standard
+    number: '64'
+    version: 3.0.3
+  representations:
+    human: IHO S-64 3.0.3
+    urn: urn:iho:s:64:3.0.3
+  style: v3
+- id: iho.standard.0077
+  identifier:
+    _type: pubid:iho:standard
+    number: '65'
+    version: 2.1.0
+  representations:
+    human: IHO S-65 2.1.0
+    urn: urn:iho:s:65:2.1.0
+  style: v3
+- id: iho.standard.0078
+  identifier:
+    _type: pubid:iho:standard
+    number: '65'
+    appendix: A
+    version: 1.0.0
+  representations:
+    human: IHO S-65 Ap. A 1.0.0
+    urn: urn:iho:s:65:ap.A:1.0.0
+  style: v3
+- id: iho.standard.0079
+  identifier:
+    _type: pubid:iho:standard
+    number: '65'
+    appendix: B
+    version: 1.0.0
+  representations:
+    human: IHO S-65 Ap. B 1.0.0
+    urn: urn:iho:s:65:ap.B:1.0.0
+  style: v3
+- id: iho.standard.0080
+  identifier:
+    _type: pubid:iho:standard
+    number: '65'
+    appendix: B
+    version: 1.1.0
+  representations:
+    human: IHO S-65 Ap. B 1.1.0
+    urn: urn:iho:s:65:ap.B:1.1.0
+  style: v3
+- id: iho.standard.0081
+  identifier:
+    _type: pubid:iho:standard
+    number: '65'
+    appendix: B
+    version: 1.2.0
+  representations:
+    human: IHO S-65 Ap. B 1.2.0
+    urn: urn:iho:s:65:ap.B:1.2.0
+  style: v3
+- id: iho.standard.0082
+  identifier:
+    _type: pubid:iho:standard
+    number: '66'
+    version: 1.1.0
+  representations:
+    human: IHO S-66 1.1.0
+    urn: urn:iho:s:66:1.1.0
+  style: v3
+- id: iho.standard.0083
+  identifier:
+    _type: pubid:iho:standard
+    number: '66'
+    version: 2.0.0
+  representations:
+    human: IHO S-66 2.0.0
+    urn: urn:iho:s:66:2.0.0
+  style: v3
+- id: iho.standard.0084
+  identifier:
+    _type: pubid:iho:standard
+    number: '67'
+    version: 1.0.0
+  representations:
+    human: IHO S-67 1.0.0
+    urn: urn:iho:s:67:1.0.0
+  style: v3
+- id: iho.standard.0085
+  identifier:
+    _type: pubid:iho:standard
+    number: '68'
+    version: 1.1.0
+  representations:
+    human: IHO S-68 1.1.0
+    urn: urn:iho:s:68:1.1.0
+  style: v3
+- id: iho.standard.0086
+  identifier:
+    _type: pubid:iho:standard
+    number: 8A
+    version: 1.0.1
+  representations:
+    human: IHO S-8A 1.0.1
+    urn: urn:iho:s:8A:1.0.1
+  style: v3
+- id: iho.standard.0087
+  identifier:
+    _type: pubid:iho:standard
+    number: 8B
+    version: 1.0.0
+  representations:
+    human: IHO S-8B 1.0.0
+    urn: urn:iho:s:8B:1.0.0
+  style: v3
+- id: iho.standard.0088
+  identifier:
+    _type: pubid:iho:standard
+    number: '97'
+    version: 1.1.0
+  representations:
+    human: IHO S-97 1.1.0
+    urn: urn:iho:s:97:1.1.0
+  style: v3
+- id: iho.standard.0089
+  identifier:
+    _type: pubid:iho:standard
+    number: '98'
+    version: 1.0.0
+  representations:
+    human: IHO S-98 1.0.0
+    urn: urn:iho:s:98:1.0.0
+  style: v3
+- id: iho.standard.0090
+  identifier:
+    _type: pubid:iho:standard
+    number: '99'
+    version: 1.1.0
+  representations:
+    human: IHO S-99 1.1.0
+    urn: urn:iho:s:99:1.1.0
+  style: v3
+- id: iho.standard.0091
+  identifier:
+    _type: pubid:iho:standard
+    number: '99'
+    version: 2.0.0
+  representations:
+    human: IHO S-99 2.0.0
+    urn: urn:iho:s:99:2.0.0
+  style: v3

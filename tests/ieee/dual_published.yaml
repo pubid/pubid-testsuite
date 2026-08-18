@@ -1,0 +1,92 @@
+---
+- id: ieee.dual_published.0001
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '37'
+      publisher: ANSI
+      year: '1973'
+      prefix: C
+      parts:
+      - '61'
+      separator: "."
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '321'
+      year: '1973'
+      stage: Std
+  representations:
+    human: ANSI C37.61-1973 and IEEE Std 321-1973
+    urn: urn:ieee:["ansi", "ieee"]
+  roundtrip: false
+  style: v3
+- id: ieee.dual_published.0002
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '62271'
+      publisher: IEC
+      parts:
+      - '111'
+      separator: "-"
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '37'
+      year: '2018'
+      prefix: C
+      parts:
+      - '60'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEC 62271-111 and IEEE Std C37.60-2018
+    urn: urn:ieee:["iec", "ieee"]
+  roundtrip: false
+  style: v3
+- id: ieee.dual_published.0003
+  identifier:
+    _type: pubid:ieee:standard
+    number: '108'
+    year: '1955'
+    parenthetical_content: AIEE No.450-April 1955!IEEE Std 108-1955 and AIEE No. 450,
+      April 1955
+    stage: Std
+  representations:
+    human: IEEE Std 108-1955 (AIEE No.450-April 1955!IEEE Std 108-1955 and AIEE No.
+      450, April 1955)
+    urn: urn:ieee:ieee:108:1955
+  style: v3
+  non_normalized_aliases:
+  - spelling: "!IEEE Std 108-1955; AIEE No.450-April 1955!IEEE Std 108-1955 and AIEE
+      No. 450, April 1955"
+    style: v3
+- id: ieee.dual_published.0004
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '309'
+      year: '1999'
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '42'
+      publisher: ANSI
+      year: '1999'
+      prefix: "N"
+      parts:
+      - '3'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 309-1999 and ANSI N42.3-1999
+    urn: urn:ieee:["ieee", "ansi"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: "!IEEE Std 309-1999: ANSI N42.3-1999!IEEE Std 309-1999 and ANSI N42.3-1999"
+    style: v3

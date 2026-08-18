@@ -1,0 +1,5799 @@
+---
+- id: ieee.pubid-to-parse.0001
+  identifier:
+    _type: pubid:ieee:multi-numbered-identifier
+  representations:
+    human: ''
+    urn: urn:ieee:ieee
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1299/C62.22.1-1 996
+    style: v3
+- id: ieee.pubid-to-parse.0002
+  identifier:
+    _type: pubid:ieee:interpretation-identifier
+    year: '1992'
+    interpretation: true
+    stage: Std
+  representations:
+    human: " 1003.2-1992/INT"
+    urn: urn:ieee:ieee:interpretation:1003.2:1992
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1003.2-1992/INT, Dec. 1994 Ed.
+    style: v3
+  - spelling: IEEE Std 1003.2-1992/INT, March 1994 Edition
+    style: v3
+- id: ieee.pubid-to-parse.0003
+  identifier:
+    _type: pubid:ieee:interpretation-identifier
+    year: '1992'
+    interpretation: true
+    stage: Std
+  representations:
+    human: " 1003.5-1992/INT"
+    urn: urn:ieee:ieee:interpretation:1003.5:1992
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1003.5-1992/INT Mar 1994
+    style: v3
+- id: ieee.pubid-to-parse.0004
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI
+    year: '1981'
+    relationships:
+    - relationship_type: revision_of
+    reaffirmed: '1992'
+    prefix: C
+    parts:
+    - '47'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C37.47-1981 (R1992)
+    urn: urn:ieee:ansi:C37.47:1981:rel.Revision of ANSI C37.47-1969:reaff.1992
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C37.47-1981 (R1992) (Revision of ANSI C37.47-19969)
+    style: v3
+- id: ieee.pubid-to-parse.0005
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI
+    year: '1989'
+    relationships:
+    - relationship_type: revision_of
+    reaffirmed: '1996'
+    prefix: C
+    parts:
+    - '53'
+    - '1'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C37.53.1-1989 (R1996)
+    urn: urn:ieee:ansi:C37.53.1:1989:rel.Revision of ANSI C37.53.1-1982:reaff.1996
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C37.53.1-1989 (R1996) (Revision of ANSI C37.53.1-1982)
+    style: v3
+- id: ieee.pubid-to-parse.0006
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    publisher: ANSI
+    year: '1993'
+    parenthetical_content: R1998
+    prefix: C
+    parts:
+    - '12'
+    - '22'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C57.12.22-1993 (R1998)
+    urn: urn:ieee:ansi:C57.12.22:1993
+  style: v3
+- id: ieee.pubid-to-parse.0007
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    publisher: ANSI
+    year: '1994'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '12'
+    - '24'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C57.12.24-1994
+    urn: urn:ieee:ansi:C57.12.24:1994:rel.Revision of ANSI C57.12.24/D188
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C57.12.24-1994 (Revision of ANSI C57.12.24-188)
+    style: v3
+- id: ieee.pubid-to-parse.0008
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    publisher: ANSI
+    year: '1990'
+    prefix: C
+    parts:
+    - '12'
+    - '25'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C57.12.25-1990
+    urn: urn:ieee:ansi:C57.12.25:1990
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C57.1 2.25-1990
+    style: v3
+- id: ieee.pubid-to-parse.0009
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    publisher: ANSI
+    year: '1981'
+    parenthetical_content: R1998
+    prefix: C
+    parts:
+    - '12'
+    - '50'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C57.12.50-1981 (R1998)
+    urn: urn:ieee:ansi:C57.12.50:1981
+  style: v3
+- id: ieee.pubid-to-parse.0010
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    publisher: ANSI
+    year: '1987'
+    parenthetical_content: R1998
+    prefix: C
+    parts:
+    - '12'
+    - '55'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C57.12.55-1987 (R1998)
+    urn: urn:ieee:ansi:C57.12.55:1987
+  style: v3
+- id: ieee.pubid-to-parse.0011
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '1996'
+    prefix: C
+    parts:
+    - '022'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.022-1996
+    urn: urn:ieee:ansi:C63.022:1996
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C63.022-1 996
+    style: v3
+- id: ieee.pubid-to-parse.0012
+  identifier:
+    _type: pubid:ieee:standard
+    number: 323AB
+    publisher: ANSI
+    year: '2013'
+    parenthetical_content: Revision and Redesignation of ANSI N323A-1997 and ANSI
+      N323B-2002
+    prefix: "N"
+    stage: Std
+  representations:
+    human: ANSI N323AB-2013 (Revision and Redesignation of ANSI N323A-1997 and ANSI
+      N323B-2002)
+    urn: urn:ieee:ansi:N323AB:2013
+  style: v3
+- id: ieee.pubid-to-parse.0013
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2004'
+    relationships:
+    - relationship_type: reaffirmation_of
+    - relationship_type: redesignation_of
+    prefix: "N"
+    parts:
+    - '18'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.18-2004
+    urn: urn:ieee:ansi:N42.18:2004:rel.Reaffirmation of ANSI N42.18-1980/Redesignation
+      of ANSI N13.10-1974
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI N42.18-2004 (Reaffirmation of ANSI N42.18-1980; Redesignation of
+      ANSI N13.10-1974)
+    style: v3
+- id: ieee.pubid-to-parse.0014
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2006'
+    prefix: "N"
+    parts:
+    - '43'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.43-2006
+    urn: urn:ieee:ansi:N42.43:2006
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI N42.43-2006, Standard
+    style: v3
+- id: ieee.pubid-to-parse.0015
+  identifier:
+    _type: pubid:ieee:standard
+    number: '21'
+    publisher: ANSI/IEEE
+    parts:
+    - '1976'
+    - '11'
+    separator: "-"
+    stage: Std
+  representations:
+    human: ANSI/IEEE 21-1976-11
+    urn: urn:ieee:ansi/ieee:21-1976-11
+  style: v3
+  non_normalized_aliases:
+  - spelling: 'ANSI/IEEE Std: Outdoor Apparatus Bushings'
+    style: v3
+- id: ieee.pubid-to-parse.0016
+  identifier:
+    _type: pubid:ieee:standard
+    number: '336'
+    publisher: ANSI/IEEE
+    year: '1980'
+    parenthetical_content: revision of ANSI/IEEE Std 336-1977
+    stage: Std
+  representations:
+    human: ANSI/IEEE 336-1980 (revision of ANSI/IEEE Std 336-1977)
+    urn: urn:ieee:ansi/ieee:336:1980
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI/IEEE Std 336-1980 (revision of ANSI/IEEE Std 336-1977)
+    style: v3
+- id: ieee.pubid-to-parse.0017
+  identifier:
+    _type: pubid:ieee:standard
+    number: '488'
+    publisher: ANSI/IEEE
+    year: '1978'
+    relationships:
+    - relationship_type: revision_of
+    stage: Std
+  representations:
+    human: ANSI/IEEE 488-1978
+    urn: urn:ieee:ansi/ieee:488:1978:rel.Revision of IEEE Std (ANSI/IEEE 488-1975.
+      Includes supplement IEEE Std 488A-19801)
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI/IEEE Std 488-1978 (Revision of ANSI/IEEE 488-1975. Includes supplement
+      IEEE Std 488A-19801)
+    style: v3
+- id: ieee.pubid-to-parse.0018
+  identifier:
+    _type: pubid:ieee:standard
+    number: '620'
+    publisher: ANSI/IEEE
+    year: '1981'
+    parenthetical_content: Issued April 1981 for trail use
+    stage: Std
+  representations:
+    human: ANSI/IEEE 620-1981 (Issued April 1981 for trail use)
+    urn: urn:ieee:ansi/ieee:620:1981
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI/IEEE Std 620-1981 (Issued April 1981 for trail use)
+    style: v3
+- id: ieee.pubid-to-parse.0019
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    publisher: ANSI/IEEE
+    year: '1999'
+    parenthetical_content: R2003
+    parts:
+    - '11'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI/IEEE 802.11-1999 (R2003)
+    urn: urn:ieee:ansi/ieee:802.11:1999
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI/IEEE Std 802.11, 1999 Edition (R2003)
+    style: v3
+- id: ieee.pubid-to-parse.0020
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    publisher: ANSI/IEEE
+    year: '1998'
+    relationships:
+    - relationship_type: incorporates
+    parts:
+    - '12'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI/IEEE 802.12-1998
+    urn: urn:ieee:ansi/ieee:802.12:1998:rel.incorporates IEEE Std (ANSI/IEEE Stds
+      802.122-1995) and ANSI/IEEE 802.12d-1997
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI/IEEE Std 802.12, 1998 Edition (Incorporating ANSI/IEEE Stds 802.122-1995
+      and ANSI/IEEE Std 802.12d-1997)
+    style: v3
+- id: ieee.pubid-to-parse.0021
+  identifier:
+    _type: pubid:ieee:standard
+    number: '896'
+    publisher: ANSI/IEEE
+    year: '1994'
+    parts:
+    - '1'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI/IEEE 896.1-1994
+    urn: urn:ieee:ansi/ieee:896.1:1994
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI/IEEE Std 896.1-1994,
+    style: v3
+- id: ieee.pubid-to-parse.0022
+  identifier:
+    _type: pubid:ieee:nesc-standard
+    number: '2'
+    year: '1997'
+    prefix: C
+  representations:
+    human: C2-1997 National Electrical Safety Code
+    urn: urn:ieee:ieee:C2:1997
+  style: v3
+  non_normalized_aliases:
+  - spelling: C2-1997 National Electric Safety Code (NESC)
+    style: v3
+- id: ieee.pubid-to-parse.0023
+  identifier:
+    _type: pubid:ieee:nesc-standard
+    number: '2'
+    year: '2012'
+    variant: '{variant: "Redline"@43}'
+    prefix: C
+  representations:
+    human: C2-2012 National Electrical Safety Code
+    urn: urn:ieee:ieee:C2:2012
+  style: v3
+  non_normalized_aliases:
+  - spelling: National Electrical Safety Code, C2-2012 - Redline
+    style: v3
+- id: ieee.pubid-to-parse.0024
+  identifier:
+    _type: pubid:ieee:nesc-standard
+    number: '2'
+    year: '2012'
+    prefix: C
+  representations:
+    human: C2-2012 National Electrical Safety Code
+    urn: urn:ieee:ieee:C2:2012
+  style: v3
+  non_normalized_aliases:
+  - spelling: National Electrical Safety Code, C2-2012
+    style: v3
+- id: ieee.pubid-to-parse.0025
+  identifier:
+    _type: pubid:ieee:iec-ieee-copublished
+    number: '60079'
+    parts:
+    - '30'
+    - '2'
+    separators:
+    - "-"
+    - "-"
+    draft_info: "/D5"
+    iec_year: '2013'
+    date_info: 10/07
+  representations:
+    human: IEC/IEEE 60079-30-2/D5 IEC:2013 10/07
+    urn: urn:ieee:ieee
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC/IEEE 60079-30-2/D5 IEC:2013 (10/07)
+    style: v3
+- id: ieee.pubid-to-parse.0026
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '61850'
+    publisher: IEC
+    type: P
+    copublisher:
+    - IEEE
+    draft: DCDV July 2015
+    parts:
+    - '9'
+    - '3'
+    separator: "-"
+    stage: P
+  representations:
+    human: IEC/IEEE 61850-9-3/DCDV July 2015
+    urn: urn:ieee:iec-ieee:p:61850-9-3:draft./DCDV July 2015
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC/IEEE P61850-9-3_CDV July 2015
+    style: v3
+- id: ieee.pubid-to-parse.0027
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '62582'
+    publisher: IEC
+    type: P
+    copublisher:
+    - IEEE
+    draft: DCDV, March, 2021
+    parts:
+    - '2'
+    separator: "-"
+    stage: P
+  representations:
+    human: IEC/IEEE 62582-2/DCDV, March, 2021
+    urn: urn:ieee:iec-ieee:p:62582-2:draft./DCDV, March, 2021
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC/IEEE P62582-2/CDV, March 2021
+    style: v3
+- id: ieee.pubid-to-parse.0028
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '62582'
+    publisher: IEC
+    type: P
+    copublisher:
+    - IEEE
+    draft: DCDV, March, 2021
+    parts:
+    - '4'
+    separator: "-"
+    stage: P
+  representations:
+    human: IEC/IEEE 62582-4/DCDV, March, 2021
+    urn: urn:ieee:iec-ieee:p:62582-4:draft./DCDV, March, 2021
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC/IEEE P62582-4/CDV, March 2021
+    style: v3
+- id: ieee.pubid-to-parse.0029
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '62582'
+    publisher: IEC
+    type: P
+    copublisher:
+    - IEEE
+    year: '2015'
+    month: July
+    relationships:
+    - relationship_type: amendment_to
+    parts:
+    - '2'
+    - am1
+    separator: "."
+    stage: P
+  representations:
+    human: IEC/IEEE 62582.2.am1, July 2015
+    urn: 'urn:ieee:iec-ieee:p:62582.2.am1:2015:July:rel.Amendment to IEC/IEEE 62582-2:
+      2011'
+  style: v3
+  non_normalized_aliases:
+  - spelling: 'IEC/IEEE P62582-2-am1, July 2015 (Amendment to IEC/IEEE 62582-2: 2011)'
+    style: v3
+- id: ieee.pubid-to-parse.0030
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '63198'
+    publisher: IEC
+    type: P
+    copublisher:
+    - IEEE
+    draft: DCD5.0, January, 2021
+    parts:
+    - '2775'
+    separator: "-"
+    stage: P
+  representations:
+    human: IEC/IEEE 63198-2775/DCD5.0, January, 2021
+    urn: urn:ieee:iec-ieee:p:63198-2775:draft./DCD5.0, January, 2021
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC/IEEE P63198-2775_CD5.0, January 2021
+    style: v3
+- id: ieee.pubid-to-parse.0031
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '82079'
+    publisher: IEC
+    type: P
+    copublisher:
+    - IEEE
+    draft: DED2, February, 2018
+    parts:
+    - '1'
+    separator: "-"
+    stage: P
+  representations:
+    human: IEC/IEEE 82079-1/DED2, February, 2018
+    urn: urn:ieee:iec-ieee:p:82079-1:draft./DED2, February, 2018
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC/IEEE P82079-1/ED2, February 2018
+    style: v3
+- id: ieee.pubid-to-parse.0032
+  identifier:
+    _type: pubid:ieee:iec-ieee-copublished
+    number: CD P62704
+    parts:
+    - 5 ED1
+    separators:
+    - "-"
+  representations:
+    human: IEC/IEEE CD P62704-5 ED1
+    urn: urn:ieee:ieee
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC/IEEE CD P62704-5 ED1, 2018
+    style: v3
+- id: ieee.pubid-to-parse.0033
+  identifier:
+    _type: pubid:ieee:joint-development
+    number: '63195'
+    year: '2020'
+    month: '02'
+    publishers:
+    - IEC
+    - IEEE
+    lead_party: ISO
+    iso_stage: CDV
+    stage: CDV
+  representations:
+    human: IEC/IEEE CDV 63195:2020
+    urn: urn:ieee:iec-ieee:63195:2020:02
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC/IEEE P63195_CDV/V3, February 2020
+    style: v3
+- id: ieee.pubid-to-parse.0034
+  identifier:
+    _type: pubid:ieee:iec-ieee-copublished
+    number: CDV P62704
+    parts:
+    - '2'
+    separators:
+    - "-"
+    draft_info: "/D4"
+  representations:
+    human: IEC/IEEE CDV P62704-2/D4
+    urn: urn:ieee:ieee
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC/IEEE CDV P62704-2/D4, July 2016
+    style: v3
+- id: ieee.pubid-to-parse.0035
+  identifier:
+    _type: pubid:ieee:iec-ieee-copublished
+    number: CDV80005
+    parts:
+    - '3'
+    separators:
+    - "-"
+  representations:
+    human: IEC/IEEE CDV80005-3
+    urn: urn:ieee:ieee
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC/IEEE CDV80005-3, 2016!IEC/IEEE CDV 80005-3, 2016
+    style: v3
+- id: ieee.pubid-to-parse.0036
+  identifier:
+    _type: pubid:ieee:iec-ieee-copublished
+    number: FDIS 60079
+    parts:
+    - '30'
+    - '2'
+    separators:
+    - "-"
+    - "-"
+  representations:
+    human: IEC/IEEE FDIS 60079-30-2
+    urn: urn:ieee:ieee
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC/IEEE FDIS 60079-30-2, 2015
+    style: v3
+- id: ieee.pubid-to-parse.0037
+  identifier:
+    _type: pubid:ieee:iec-ieee-copublished
+    number: FDIS P60079
+    parts:
+    - '30'
+    - '1'
+    separators:
+    - "-"
+    - "-"
+  representations:
+    human: IEC/IEEE FDIS P60079-30-1
+    urn: urn:ieee:ieee
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC/IEEE FDIS P60079-30-1, 2015
+    style: v3
+- id: ieee.pubid-to-parse.0038
+  identifier:
+    _type: pubid:ieee:iec-ieee-copublished
+    number: FDIS P60780
+    parts:
+    - '323'
+    separators:
+    - "-"
+  representations:
+    human: IEC/IEEE FDIS P60780-323
+    urn: urn:ieee:ieee
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC/IEEE FDIS P60780-323, 2015
+    style: v3
+- id: ieee.pubid-to-parse.0039
+  identifier:
+    _type: pubid:ieee:joint-development
+    number: '60780'
+    type: P
+    year: '2014'
+    parts:
+    - '323'
+    separator: "."
+    publishers:
+    - IEC
+    - IEEE
+    lead_party: IEEE
+    stage: P
+  representations:
+    human: IEC/IEEE P60780.323/P-2014
+    urn: urn:ieee:iec-ieee:p:60780.323:2014
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC/IEEE P60780-323, CDV1 2014
+    style: v3
+- id: ieee.pubid-to-parse.0040
+  identifier:
+    _type: pubid:ieee:joint-development
+    number: '62582'
+    type: P
+    year: '2019'
+    month: May
+    parts:
+    - '6'
+    separator: "."
+    publishers:
+    - IEC
+    - IEEE
+    lead_party: IEEE
+    stage: P
+  representations:
+    human: IEC/IEEE P62582.6/P-2019
+    urn: urn:ieee:iec-ieee:p:62582.6:2019:May
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC/IEEE P62582-6, FDIS May 2019
+    style: v3
+- id: ieee.pubid-to-parse.0041
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '1012'
+    type: P
+    draft: D1, January, 2017
+    stage: D1
+  representations:
+    human: IEEE P1012/D1, January, 2017
+    urn: urn:ieee:ieee:p:1012:draft./D1, January, 2017
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P1012 Corrigendum/D1, January 2017
+    style: v3
+- id: ieee.pubid-to-parse.0042
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '1031'
+    type: P
+    draft: D1+1, August, 2010
+    stage: P
+  representations:
+    human: IEEE P1031/D1+1, August, 2010
+    urn: urn:ieee:ieee:p:1031:draft./D1+1, August, 2010
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P1031/D1+1, August 2010
+    style: v3
+- id: ieee.pubid-to-parse.0043
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '1036'
+    type: P
+    draft: D16_Rev3, June 2010
+    stage: P
+  representations:
+    human: IEEE P1036/D16_Rev3, June 2010
+    urn: urn:ieee:ieee:p:1036:draft./D16_Rev3, June 2010
+  style: v3
+- id: ieee.pubid-to-parse.0044
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '1048'
+    type: P
+    draft: D6+1, May 2012
+    stage: P
+  representations:
+    human: IEEE P1048/D6+1, May 2012
+    urn: urn:ieee:ieee:p:1048:draft./D6+1, May 2012
+  style: v3
+- id: ieee.pubid-to-parse.0045
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '1052'
+    type: P
+    year: '2018'
+    draft: D08
+    month: September
+    stage: P
+  representations:
+    human: IEEE P1052/D08, September 2018
+    urn: urn:ieee:ieee:p:1052:2018:draft./D08:September
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P1052/08, September 2018
+    style: v3
+- id: ieee.pubid-to-parse.0046
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '1062'
+    type: P
+    draft: D.19, March, 2015
+    stage: P
+  representations:
+    human: IEEE P1062/D.19, March, 2015
+    urn: urn:ieee:ieee:p:1062:draft./D.19, March, 2015
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P1062/D.19, March 2015
+    style: v3
+- id: ieee.pubid-to-parse.0047
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '1062'
+    type: P
+    draft: D.30, September, 2015
+    stage: P
+  representations:
+    human: IEEE P1062/D.30, September, 2015
+    urn: urn:ieee:ieee:p:1062:draft./D.30, September, 2015
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P1062/D.30, September 2015
+    style: v3
+- id: ieee.pubid-to-parse.0048
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '11073'
+    type: P
+    year: '2015'
+    draft: D04
+    month: November
+    parts:
+    - '10422'
+    separator: "-"
+    stage: P
+  representations:
+    human: IEEE P11073-10422/D04, November 2015
+    urn: urn:ieee:ieee:p:11073-10422:2015:draft./D04:November
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P11073-10422/04, November 2015
+    style: v3
+- id: ieee.pubid-to-parse.0049
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '1149'
+    type: P
+    draft: D2012.e27, September, 2012
+    parts:
+    - '1'
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P1149.1/D2012.e27, September, 2012
+    urn: urn:ieee:ieee:p:1149.1:draft./D2012.e27, September, 2012
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P1149.1/D2012.e27, September 2012
+    style: v3
+- id: ieee.pubid-to-parse.0050
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '1149'
+    type: P
+    draft: D2012.e29, November, 2012
+    parts:
+    - '1'
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P1149.1/D2012.e29, November, 2012
+    urn: urn:ieee:ieee:p:1149.1:draft./D2012.e29, November, 2012
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P1149.1/D2012.e29, November 2012
+    style: v3
+- id: ieee.pubid-to-parse.0051
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '1310'
+    type: P
+    year: '2011'
+    draft: D2
+    revision: '3'
+    month: February
+    stage: D2
+  representations:
+    human: IEEE P1310Rev3/D2, February 2011
+    urn: urn:ieee:ieee:p:1310:2011:draft./D2:February
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P1310.Rev 3/D2, February 2011
+    style: v3
+- id: ieee.pubid-to-parse.0052
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '1377'
+    type: P
+    draft: D11, March, 2012
+    stage: P
+  representations:
+    human: IEEE P1377/D11, March, 2012
+    urn: urn:ieee:ieee:p:1377:draft./D11, March, 2012
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P1377/D11, March 2012 - (Approved Draft)
+    style: v3
+- id: ieee.pubid-to-parse.0053
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '15026'
+    type: P
+    draft: DPub2-2012
+    parts:
+    - '4'
+    separator: "-"
+    stage: P
+  representations:
+    human: IEEE P15026-4/DPub2-2012
+    urn: urn:ieee:ieee:p:15026-4:draft./DPub2-2012
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P15026-4/Pub2-2012
+    style: v3
+- id: ieee.pubid-to-parse.0054
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '1547'
+    type: P
+    draft: D8.0, May 2011
+    parts:
+    - '6'
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P1547.6/D8.0, May 2011
+    urn: urn:ieee:ieee:p:1547.6:draft./D8.0, May 2011
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P1547.6/8.0, May 2011
+    style: v3
+- id: ieee.pubid-to-parse.0055
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '1588'
+    type: P
+    draft: D1.4V4, September, 2018
+    stage: P
+  representations:
+    human: IEEE P1588/D1.4V4, September, 2018
+    urn: urn:ieee:ieee:p:1588:draft./D1.4V4, September, 2018
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P1588/D1.4V4, September 2018
+    style: v3
+- id: ieee.pubid-to-parse.0056
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '15939'
+    type: P
+    stage: P
+  representations:
+    human: IEEE P15939
+    urn: urn:ieee:ieee:p:15939
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P15939_FDIS, 2016
+    style: v3
+- id: ieee.pubid-to-parse.0057
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '1609'
+    type: P
+    draft: D7, June 2012
+    parenthetical_content: Approved Draft
+    parts:
+    - '12'
+    separator: "."
+    stage: D7
+  representations:
+    human: IEEE P1609.12/D7, June 2012 (Approved Draft)
+    urn: urn:ieee:ieee:p:1609.12:draft./D7, June 2012
+  style: v3
+- id: ieee.pubid-to-parse.0058
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '1635'
+    type: P
+    draft: D13, December, 2017
+    ashrae_number: '21'
+    stage: P
+  representations:
+    human: IEEE P1635/D13, December, 2017/ASHRAE Guideline 21
+    urn: urn:ieee:ieee:p:1635:draft./D13, December, 2017:ashrae.21
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P1635/ASHRAE 21/D13, December 2017
+    style: v3
+- id: ieee.pubid-to-parse.0059
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '1680'
+    type: P
+    draft: D7, May 2012
+    parenthetical_content: Approved Draft
+    parts:
+    - '2'
+    separator: "."
+    stage: D7
+  representations:
+    human: IEEE P1680.2/D7, May 2012 (Approved Draft)
+    urn: urn:ieee:ieee:p:1680.2:draft./D7, May 2012
+  style: v3
+- id: ieee.pubid-to-parse.0060
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '1680'
+    type: P
+    draft: D7, May 2012
+    parenthetical_content: Approved Draft
+    parts:
+    - '3'
+    separator: "."
+    stage: D7
+  representations:
+    human: IEEE P1680.3/D7, May 2012 (Approved Draft)
+    urn: urn:ieee:ieee:p:1680.3:draft./D7, May 2012
+  style: v3
+- id: ieee.pubid-to-parse.0061
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '1722'
+    type: P
+    year: '2015'
+    draft: D13
+    revision: '1'
+    month: April
+    stage: P
+  representations:
+    human: IEEE P1722Rev1/D13, April 2015
+    urn: urn:ieee:ieee:p:1722:2015:draft./D13:April
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P1722-rev1/D13, April2015
+    style: v3
+- id: ieee.pubid-to-parse.0062
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '1775'
+    type: P
+    draft: D2.0.0 June 2010
+    stage: P
+  representations:
+    human: IEEE P1775/D2.0.0 June 2010
+    urn: urn:ieee:ieee:p:1775:draft./D2.0.0 June 2010
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P1775/2.0.0 June 2010
+    style: v3
+- id: ieee.pubid-to-parse.0063
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '1862'
+    type: P
+    draft: D6-3, September, 2013
+    stage: P
+  representations:
+    human: IEEE P1862/D6-3, September, 2013
+    urn: urn:ieee:ieee:p:1862:draft./D6-3, September, 2013
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P1862/D6-3, September 2013
+    style: v3
+- id: ieee.pubid-to-parse.0064
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '1862'
+    type: P
+    draft: D6-4, February, 2014
+    stage: P
+  representations:
+    human: IEEE P1862/D6-4, February, 2014
+    urn: urn:ieee:ieee:p:1862:draft./D6-4, February, 2014
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P1862/D6-4, February 2014
+    style: v3
+- id: ieee.pubid-to-parse.0065
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '24748'
+    type: P
+    year: '2015'
+    month: July
+    parts:
+    - '5'
+    - CD3
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P24748.5.CD3, July 2015
+    urn: urn:ieee:ieee:p:24748.5.CD3:2015:July
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P24748-5-CD3-July 2015
+    style: v3
+- id: ieee.pubid-to-parse.0066
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '387'
+    type: P
+    draft: DD2017-01, June 2017
+    stage: P
+  representations:
+    human: IEEE P387/DD2017-01, June 2017
+    urn: urn:ieee:ieee:p:387:draft./DD2017-01, June 2017
+  style: v3
+- id: ieee.pubid-to-parse.0067
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '463'
+    type: P
+    draft: D1+1, May 2013
+    stage: P
+  representations:
+    human: IEEE P463/D1+1, May 2013
+    urn: urn:ieee:ieee:p:463:draft./D1+1, May 2013
+  style: v3
+- id: ieee.pubid-to-parse.0068
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '751'
+    type: P
+    draft: D2+1, May 2018
+    stage: P
+  representations:
+    human: IEEE P751/D2+1, May 2018
+    urn: urn:ieee:ieee:p:751:draft./D2+1, May 2018
+  style: v3
+- id: ieee.pubid-to-parse.0069
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D10.0, August, 2011
+    relationships:
+    - relationship_type: revision_of
+    parts:
+    - '11'
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.11/D10.0, August, 2011
+    urn: urn:ieee:ieee:p:802.11:draft./D10.0, August, 2011:rel.Revision of IEEE Std
+      802.11-2007, IEEE Std (as amended by IEEE Std 802.11k-2008), IEEE Std 802.11r-2008,
+      IEEE Std 802.11y-2008, IEEE Std 802.11w-2009, and IEEE Std 802.11n-2009
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.11-REVmb/D10.0, August 2011 (Revision of IEEE Std 802.11-2007,
+      as amended by IEEE Std 802.11k-2008, IEEE Std 802.11r-2008, IEEE Std 802.11y-2008,
+      IEEE Std 802.11w-2009 and IEEE Std 802.11n-2009)
+    style: v3
+- id: ieee.pubid-to-parse.0070
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D11, October, 2011
+    relationships:
+    - relationship_type: revision_of
+    parts:
+    - '11'
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.11/D11, October, 2011
+    urn: urn:ieee:ieee:p:802.11:draft./D11, October, 2011:rel.Revision of IEEE Std
+      802.11-2007, IEEE Std (as amended by IEEEs 802.11k-2008), IEEE Std 802.11r-2008,
+      IEEE Std 802.11y-2008, IEEE Std 802.11w-2009, IEEE Std 802.11n-2009, IEEE Std
+      802.11p-2010, IEEE Std 802.11z-2010, IEEE Std 802.11v-2011, IEEE Std 802.11u-2011,
+      and IEEE Std 802.11s-2011
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.11-REVmb/D11, October 2011 (Revision of IEEE Std 802.11-2007,
+      as amended by IEEEs 802.11k-2008, 802.11r-2008, 802.11y-2008, 802.11w-2009,
+      802.11n-2009, 802.11p-2010, 802.11z-2010, 802.11v-2011, 802.11u-2011, and 802.11s-2011)
+    style: v3
+- id: ieee.pubid-to-parse.0071
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D12, November, 2011
+    relationships:
+    - relationship_type: revision_of
+    parts:
+    - '11'
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.11/D12, November, 2011
+    urn: urn:ieee:ieee:p:802.11:draft./D12, November, 2011:rel.Revision of IEEE Std
+      802.11-2007, IEEE Std (as amended by IEEEs 802.11k-2008), IEEE Std 802.11r-2008,
+      IEEE Std 802.11y-2008, IEEE Std 802.11w-2009, IEEE Std 802.11n-2009, IEEE Std
+      802.11p-2010, IEEE Std 802.11z-2010, IEEE Std 802.11v-2011, IEEE Std 802.11u-2011,
+      and IEEE Std 802.11s-2011
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.11-REVmb/D12, November 2011 (Revision of IEEE Std 802.11-2007,
+      as amended by IEEEs 802.11k-2008, 802.11r-2008, 802.11y-2008, 802.11w-2009,
+      802.11n-2009, 802.11p-2010, 802.11z-2010, 802.11v-2011, 802.11u-2011, and 802.11s-2011)
+    style: v3
+- id: ieee.pubid-to-parse.0072
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D3.0, June 2014
+    relationships:
+    - relationship_type: revision_of
+    parts:
+    - '11'
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.11/D3.0, June 2014
+    urn: urn:ieee:ieee:p:802.11:draft./D3.0, June 2014:rel.Revision of IEEE Std 802.11-2012
+      as amended by IEEE Std 802.11ae-2012, IEEE Std 802.11aa-2012, IEEE Std 802.11ad-2012,
+      IEEE Std 802.11ac-2013, and IEEE Std 802.11af-2013
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.11-REVmc/D3.0, June 2014 (Revision of IEEE Std 802.11-2012
+      as amended by IEEE Std 802.11ae-2012, IEEE Std 802.11aa-2012, IEEE Std 802.11ad-2012,
+      IEEE Std 802.11ac-2013, and IEEE Std 802.11af-2013)
+    style: v3
+- id: ieee.pubid-to-parse.0073
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D4.0, January, 2015
+    relationships:
+    - relationship_type: revision_of
+    parts:
+    - '11'
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.11/D4.0, January, 2015
+    urn: urn:ieee:ieee:p:802.11:draft./D4.0, January, 2015:rel.Revision of IEEE Std
+      802.11-2012 as amended by IEEE Std 802.11ae-2012, IEEE Std 802.11aa-2012, IEEE
+      Std 802.11ad-2012, IEEE Std 802.11ac-2013, and IEEE Std 802.11af-2013
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.11-REVmc/D4.0, January 2015 (Revision of IEEE Std 802.11-2012
+      as amended by IEEE Std 802.11ae-2012, IEEE Std 802.11aa-2012, IEEE Std 802.11ad-2012,
+      IEEE Std 802.11ac-2013, and IEEE Std 802.11af-2013)
+    style: v3
+- id: ieee.pubid-to-parse.0074
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D5.0, January, 2016
+    relationships:
+    - relationship_type: revision_of
+    parts:
+    - '11'
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.11/D5.0, January, 2016
+    urn: urn:ieee:ieee:p:802.11:draft./D5.0, January, 2016:rel.Revision of IEEE Std
+      802.11-2012 as amended by IEEE Std 802.11ae-2012, IEEE Std 802.11aa-2012, IEEE
+      Std 802.11ad-2012, IEEE Std 802.11ac-2013, and IEEE Std 802.11af-2013
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.11-REVmc/D5.0, January 2016 (Revision of IEEE Std 802.11-2012
+      as amended by IEEE Std 802.11ae-2012, IEEE Std 802.11aa-2012, IEEE Std 802.11ad-2012,
+      IEEE Std 802.11ac-2013, and IEEE Std 802.11af-2013)
+    style: v3
+- id: ieee.pubid-to-parse.0075
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D6.0, March, 2012
+    parenthetical_content: Draft Amendment based on IEEE P802.11REVmb D12.0
+    parts:
+    - 11ad
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.11ad/D6.0, March, 2012 (Draft Amendment based on IEEE P802.11REVmb
+      D12.0)
+    urn: urn:ieee:ieee:p:802.11ad:draft./D6.0, March, 2012
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.11ad/D6.0, March 2012 (Draft Amendment based on IEEE P802.11REVmb
+      D12.0)
+    style: v3
+- id: ieee.pubid-to-parse.0076
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D7.0, April, 2012
+    parenthetical_content: Draft Amendment based on IEEE 802.11-2012
+    parts:
+    - 11ad
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.11ad/D7.0, April, 2012 (Draft Amendment based on IEEE 802.11-2012)
+    urn: urn:ieee:ieee:p:802.11ad:draft./D7.0, April, 2012
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.11ad/D7.0, April 2012 (Draft Amendment based on IEEE 802.11-2012)
+    style: v3
+- id: ieee.pubid-to-parse.0077
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D8.0, May 2012
+    parenthetical_content: Draft Amendment based on IEEE 802.11-2012
+    parts:
+    - 11ad
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.11ad/D8.0, May 2012 (Draft Amendment based on IEEE 802.11-2012)
+    urn: urn:ieee:ieee:p:802.11ad:draft./D8.0, May 2012
+  style: v3
+- id: ieee.pubid-to-parse.0078
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D9.0, July 2012
+    parenthetical_content: Draft Amendment based on IEEE 802.11-2012
+    parts:
+    - 11ad
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.11ad/D9.0, July 2012 (Draft Amendment based on IEEE 802.11-2012)
+    urn: urn:ieee:ieee:p:802.11ad:draft./D9.0, July 2012
+  style: v3
+- id: ieee.pubid-to-parse.0079
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D7.0, March, 2016
+    relationships:
+    - relationship_type: amendment_to
+    parts:
+    - 11ah
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.11ah/D7.0, March, 2016
+    urn: urn:ieee:ieee:p:802.11ah:draft./D7.0, March, 2016:rel.Amendment to IEEE Std
+      802.11/D5.0
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.11ah/D7.0, March2016 (Amendment to IEEE Std 802.11REVmc/D5.0)
+    style: v3
+- id: ieee.pubid-to-parse.0080
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D5.0, February, 2017
+    relationships:
+    - relationship_type: amendment_to
+    parts:
+    - 11aj
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.11aj/D5.0, February, 2017
+    urn: urn:ieee:ieee:p:802.11aj:draft./D5.0, February, 2017:rel.Amendment to IEEE
+      Std (IEEE Std 802.11REVmc 8.0), IEEE Std (as amended by IEEE Std 802.11ah 10.0),
+      IEEE Std (IEEE Std 802.11ai 11.0), IEEE Std (IEEE Std 802.11ak 3.0), and IEEE
+      Std (IEEE Std 802.11aq 7.2)
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.11aj/D5.0, February 2017 (Amendment to IEEE Std 802.11REVmc
+      8.0, as amended by IEEE Std 802.11ah 10.0, IEEE Std 802.11ai 11.0 and IEEE Std
+      802.11ak 3.0 and IEEE Std 802.11aq 7.2)
+    style: v3
+- id: ieee.pubid-to-parse.0081
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    year: '2017'
+    draft: D13.0
+    parts:
+    - 11aqTM
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.11aqTM/D13.0
+    urn: urn:ieee:ieee:p:802.11aqTM:2017:draft./D13.0
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.11aqTM/013.0 October 2017
+    style: v3
+- id: ieee.pubid-to-parse.0082
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D2.0, January, 2019
+    parenthetical_content: amendment to IEEE P802.11/D2.0, as amended by IEEE P802.11ax/D3.3,
+      IEEE P802.11ay/D2.2, and IEEE P802.11az/D0.6
+    parts:
+    - 11ba
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.11ba/D2.0, January, 2019 (amendment to IEEE P802.11/D2.0, as
+      amended by IEEE P802.11ax/D3.3, IEEE P802.11ay/D2.2, and IEEE P802.11az/D0.6)
+    urn: urn:ieee:ieee:p:802.11ba:draft./D2.0, January, 2019
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.11ba/D2.0, January 2019 (amendment to IEEE P802.11REVmd/D2.0,
+      as amended by IEEE P802.11ax/D3.3, IEEE P802.11ay/D2.2, and IEEE P802.11az/D0.6)
+    style: v3
+- id: ieee.pubid-to-parse.0083
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D00, April, 2015
+    relationships:
+    - relationship_type: revision_of
+    parts:
+    - '15'
+    - '4'
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.15.4/D00, April, 2015
+    urn: urn:ieee:ieee:p:802.15.4:draft./D00, April, 2015:rel.Revision of IEEE Std
+      802.15.4-2011
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.15.4-REVc/D00, April 2015 (Revision of IEEE Std 802.15.4-2011)
+    style: v3
+- id: ieee.pubid-to-parse.0084
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D01, October, 2015
+    parts:
+    - '15'
+    - '4'
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.15.4/D01, October, 2015
+    urn: urn:ieee:ieee:p:802.15.4:draft./D01, October, 2015
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.15.4-REVc/D01, October 2015
+    style: v3
+- id: ieee.pubid-to-parse.0085
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D04, October, 2019
+    parts:
+    - '15'
+    - '4'
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.15.4/D04, October, 2019
+    urn: urn:ieee:ieee:p:802.15.4:draft./D04, October, 2019
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.15.4-REVd/D04, October 2019
+    style: v3
+- id: ieee.pubid-to-parse.0086
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D04, September, 2010
+    parts:
+    - '15'
+    - '4'
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.15.4/D04, September, 2010
+    urn: urn:ieee:ieee:p:802.15.4:draft./D04, September, 2010
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.15.4REVi/D04, September, 2010
+    style: v3
+- id: ieee.pubid-to-parse.0087
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D05, February, 2020
+    parts:
+    - '15'
+    - '4'
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.15.4/D05, February, 2020
+    urn: urn:ieee:ieee:p:802.15.4:draft./D05, February, 2020
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.15.4-REVd/D05, February 2020
+    style: v3
+- id: ieee.pubid-to-parse.0088
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D06, March, 2020
+    parts:
+    - '15'
+    - '4'
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.15.4/D06, March, 2020
+    urn: urn:ieee:ieee:p:802.15.4:draft./D06, March, 2020
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.15.4-REVd/D06, March 2020
+    style: v3
+- id: ieee.pubid-to-parse.0089
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D07, April, 2011
+    relationships:
+    - relationship_type: revision_of
+    parts:
+    - '15'
+    - '4'
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.15.4/D07, April, 2011
+    urn: urn:ieee:ieee:p:802.15.4:draft./D07, April, 2011:rel.Revision of IEEE Std
+      802.15.4-2006
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.15.4REVi/D07, April 2011 (Revision of IEEE Std 802.15.4-2006)
+    style: v3
+- id: ieee.pubid-to-parse.0090
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D09, April, 2011
+    relationships:
+    - relationship_type: revision_of
+    parts:
+    - '15'
+    - '4'
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.15.4/D09, April, 2011
+    urn: urn:ieee:ieee:p:802.15.4:draft./D09, April, 2011:rel.Revision of IEEE Std
+      802.15.4-2006
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.15.4REVi/D09, April 2011 (Revision of IEEE Std 802.15.4-2006)
+    style: v3
+- id: ieee.pubid-to-parse.0091
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D4.0, September, 2012
+    parenthetical_content: Amendment of IEEE Std 802.15.4-2011
+    parts:
+    - '15'
+    - 4j
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.15.4j/D4.0, September, 2012 (Amendment of IEEE Std 802.15.4-2011)
+    urn: urn:ieee:ieee:p:802.15.4j:draft./D4.0, September, 2012
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.15.4j/D4.0, September 2012 (Amendment of IEEE Std. 802.15.4-2011)
+    style: v3
+- id: ieee.pubid-to-parse.0092
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D5.0, November, 2012
+    parenthetical_content: Amendment of IEEE Std 802.15.4-2011
+    parts:
+    - '15'
+    - 4j
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.15.4j/D5.0, November, 2012 (Amendment of IEEE Std 802.15.4-2011)
+    urn: urn:ieee:ieee:p:802.15.4j:draft./D5.0, November, 2012
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.15.4j/D5.0, November 2012 (Amendment of IEEE Std. 802.15.4-2011)
+    style: v3
+- id: ieee.pubid-to-parse.0093
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D5 July 2012
+    parenthetical_content: Approved Draft
+    parts:
+    - '16'
+    - 1b
+    separator: "."
+    stage: D4
+  representations:
+    human: IEEE P802.16.1b/D5 July 2012 (Approved Draft)
+    urn: urn:ieee:ieee:p:802.16.1b:draft./D5 July 2012
+  style: v3
+- id: ieee.pubid-to-parse.0094
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D6 July 2012
+    parenthetical_content: Approved Draft
+    parts:
+    - 16p
+    separator: "."
+    stage: D4
+  representations:
+    human: IEEE P802.16p/D6 July 2012 (Approved Draft)
+    urn: urn:ieee:ieee:p:802.16p:draft./D6 July 2012
+  style: v3
+- id: ieee.pubid-to-parse.0095
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D2.1, June 2012
+    parenthetical_content: Approved Draft
+    parts:
+    - 1AC
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.1AC/D2.1, June 2012 (Approved Draft)
+    urn: urn:ieee:ieee:p:802.1AC:draft./D2.1, June 2012
+  style: v3
+- id: ieee.pubid-to-parse.0096
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D0.6
+    relationships:
+    - relationship_type: draft_amendment_to
+    parts:
+    - 1AEbn
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.1AEbn/D0.6
+    urn: urn:ieee:ieee:p:802.1AEbn:draft./D0.6:rel.Draft Amendment to IEEE Std 802.1AE-2006
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AEbn/D0.6 (DRAFT Amendment to IEEE Std 802.1AE-2006)
+    style: v3
+- id: ieee.pubid-to-parse.0097
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D0.8
+    relationships:
+    - relationship_type: draft_amendment_to
+    parts:
+    - 1AEbn
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.1AEbn/D0.8
+    urn: urn:ieee:ieee:p:802.1AEbn:draft./D0.8:rel.Draft Amendment to IEEE Std 802.1AE-2006
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AEbn/D0.8 (DRAFT Amendment to IEEE Std 802.1AE-2006)
+    style: v3
+- id: ieee.pubid-to-parse.0098
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D1.0, June 2012
+    relationships:
+    - relationship_type: draft_amendment_to
+    parts:
+    - 1AEbw
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.1AEbw/D1.0, June 2012
+    urn: urn:ieee:ieee:p:802.1AEbw:draft./D1.0, June 2012:rel.Draft Amendment to IEEE
+      Std 802.1AE2006
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AEbw/D1.0, June 2012 (DRAFT Amendment to IEEE Std 802.1AE2006)
+    style: v3
+- id: ieee.pubid-to-parse.0099
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D1.1, October, 2012
+    relationships:
+    - relationship_type: draft_amendment_to
+    parts:
+    - 1AEbw
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.1AEbw/D1.1, October, 2012
+    urn: urn:ieee:ieee:p:802.1AEbw:draft./D1.1, October, 2012:rel.Draft Amendment
+      to IEEE Std 802.1AE2006
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AEbw/D1.1, October 2012 (DRAFT Amendment to IEEE Std 802.1AE2006)
+    style: v3
+- id: ieee.pubid-to-parse.0100
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D1.6, November, 2016
+    relationships:
+    - relationship_type: draft_amendment_to
+    parts:
+    - 1AEcg
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.1AEcg/D1.6, November, 2016
+    urn: urn:ieee:ieee:p:802.1AEcg:draft./D1.6, November, 2016:rel.Draft Amendment
+      to IEEE Std 802.1AE-2006 as amended by IEEE Std 802.1AEbn-2011 and IEEE Std
+      802.1AEbw-2013
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AEcg/D1.6, November 2016 (Draft Amendment to IEEE 802.1AE-2006
+      as amended by IEEE 802.1AEbn-2011 and IEEE 802.1AEbw-2013)
+    style: v3
+- id: ieee.pubid-to-parse.0101
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D3.3, February, 2012
+    parts:
+    - 1BR
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.1BR/D3.3, February, 2012
+    urn: urn:ieee:ieee:p:802.1BR:draft./D3.3, February, 2012
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1BR/D3.3, February 2012 - (Approved Draft)
+    style: v3
+- id: ieee.pubid-to-parse.0102
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D2.0, July 21 2021
+    parts:
+    - 1CBcv
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.1CBcv/D2.0, July 21 2021
+    urn: urn:ieee:ieee:p:802.1CBcv:draft./D2.0, July 21 2021
+  style: v3
+- id: ieee.pubid-to-parse.0103
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D2.2
+    relationships:
+    - relationship_type: draft_amendment_to
+    parts:
+    - 1Qbb
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.1Qbb/D2.2
+    urn: urn:ieee:ieee:p:802.1Qbb:draft./D2.2:rel.Draft Amendment to IEEE Std 802.1Q/D2005
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1Qbb/D2.2 (DRAFT Amendment to IEEE Std 802.1Q -2005)
+    style: v3
+- id: ieee.pubid-to-parse.0104
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D2.3, May 2010
+    relationships:
+    - relationship_type: draft_amendment_to
+    parts:
+    - 1Qbb
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.1Qbb/D2.3, May 2010
+    urn: urn:ieee:ieee:p:802.1Qbb:draft./D2.3, May 2010:rel.Draft Amendment to IEEE
+      Std 802.1Q/D2005
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1Qbb/D2.3, May 2010 (DRAFT Amendment to IEEE Std 802.1Q -2005)
+    style: v3
+- id: ieee.pubid-to-parse.0105
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D2.2, February, 2012
+    parts:
+    - 1Qbg
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.1Qbg/D2.2, February, 2012
+    urn: urn:ieee:ieee:p:802.1Qbg:draft./D2.2, February, 2012
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1Qbg/D2.2, February 2012 - (Approved Draft)
+    style: v3
+- id: ieee.pubid-to-parse.0106
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    year: '2015'
+    draft: D3.0
+    parts:
+    - 1Qbu
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.1Qbu/D3.0
+    urn: urn:ieee:ieee:p:802.1Qbu:2015:draft./D3.0
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1Qbu/03.0, July 2015
+    style: v3
+- id: ieee.pubid-to-parse.0107
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D2.1, January, 2018
+    parenthetical_content: DRAFT amendment to IEEE Std 802.1Q-2017
+    parts:
+    - 1Qcp
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.1Qcp/D2.1, January, 2018 (DRAFT amendment to IEEE Std 802.1Q-2017)
+    urn: urn:ieee:ieee:p:802.1Qcp:draft./D2.1, January, 2018
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1Qcp/D2.1, January 2018 (DRAFT amendment to IEEE Std 802.1Q-2017)
+    style: v3
+- id: ieee.pubid-to-parse.0108
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D2.2, March, 2018
+    parenthetical_content: DRAFT amendment to IEEE Std 802.1Q-2018
+    parts:
+    - 1Qcp
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.1Qcp/D2.2, March, 2018 (DRAFT amendment to IEEE Std 802.1Q-2018)
+    urn: urn:ieee:ieee:p:802.1Qcp:draft./D2.2, March, 2018
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1Qcp/D2.2, March 2018 (DRAFT amendment to IEEE Std 802.1Q-2018)
+    style: v3
+- id: ieee.pubid-to-parse.0109
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D2.1, February, 2018
+    relationships:
+    - relationship_type: draft_amendment_to
+    parts:
+    - 1Qcy
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.1Qcy/D2.1, February, 2018
+    urn: urn:ieee:ieee:p:802.1Qcy:draft./D2.1, February, 2018:rel.Draft Amendment
+      to IEEE Std 802.1Q-2018
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1Qcy/D2.1, February 2018 (Draft Amendment to IEEE Std 802.1Q-2018)
+    style: v3
+- id: ieee.pubid-to-parse.0110
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D2.3, June 2018
+    relationships:
+    - relationship_type: draft_amendment_to
+    parts:
+    - 1Qcy
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.1Qcy/D2.3, June 2018
+    urn: urn:ieee:ieee:p:802.1Qcy:draft./D2.3, June 2018:rel.Draft Amendment to IEEE
+      Std 802.1Q-2018
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1Qcy/D2.3, June2018 (Draft Amendment to IEEE Std 802.1Q-2018)
+    style: v3
+- id: ieee.pubid-to-parse.0111
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D2.5, July 2018
+    relationships:
+    - relationship_type: draft_amendment_to
+    parts:
+    - 1Qcy
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.1Qcy/D2.5, July 2018
+    urn: urn:ieee:ieee:p:802.1Qcy:draft./D2.5, July 2018:rel.Draft Amendment to IEEE
+      Std 802.1Q-2018
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1Qcy/D2.5, July 2018 (Draft Amendment to IEEE Std 802.1Q-2018)
+    style: v3
+- id: ieee.pubid-to-parse.0112
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D3.0, May 2012
+    parenthetical_content: Approved Draft
+    parts:
+    - '22'
+    - '2'
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.22.2/D3.0, May 2012 (Approved Draft)
+    urn: urn:ieee:ieee:p:802.22.2:draft./D3.0, May 2012
+  style: v3
+- id: ieee.pubid-to-parse.0113
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D3.1, June 2010
+    parenthetical_content: Draft Amendment of IEEE Std 802.3-2008
+    parts:
+    - 3az
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.3az/D3.1, June 2010 (Draft Amendment of IEEE Std 802.3-2008)
+    urn: urn:ieee:ieee:p:802.3az:draft./D3.1, June 2010
+  style: v3
+- id: ieee.pubid-to-parse.0114
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D3.2, July 2010
+    parenthetical_content: Draft Amendment of IEEE Std 802.3-2008
+    parts:
+    - 3az
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.3az/D3.2, July 2010 (Draft Amendment of IEEE Std 802.3-2008)
+    urn: urn:ieee:ieee:p:802.3az:draft./D3.2, July 2010
+  style: v3
+- id: ieee.pubid-to-parse.0115
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D3.1, January, 2016
+    parenthetical_content: Amendment of IEEE Std 802.3-2015 as amended by IEEE Std
+      802.3bw-2015, IEEE Std 802.3by-201X and 802.3bq-201X
+    parts:
+    - 3bp
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.3bp/D3.1, January, 2016 (Amendment of IEEE Std 802.3-2015 as
+      amended by IEEE Std 802.3bw-2015, IEEE Std 802.3by-201X and 802.3bq-201X)
+    urn: urn:ieee:ieee:p:802.3bp:draft./D3.1, January, 2016
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.3bp/D3.1, January 2016 (Amendment of IEEE Std 802.3-2015 as
+      amended by IEEE Std 802.3bw-2015, IEEE Std 802.3by-201X, and IEEE Std 802.3bq-201X)
+    style: v3
+- id: ieee.pubid-to-parse.0116
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D3.2CMP, February, 2016
+    parenthetical_content: Amendment of IEEE Std 802.3-2015 as amended by IEEE Std
+      802.3bw-2015, IEEE Std 802.3by-201X and 802.3bq-201X
+    parts:
+    - 3bp
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.3bp/D3.2CMP, February, 2016 (Amendment of IEEE Std 802.3-2015
+      as amended by IEEE Std 802.3bw-2015, IEEE Std 802.3by-201X and 802.3bq-201X)
+    urn: urn:ieee:ieee:p:802.3bp:draft./D3.2CMP, February, 2016
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.3bp/D3.2CMP, February 2016 (Amendment of IEEE Std 802.3-2015
+      as amended by IEEE Std 802.3bw-2015, IEEE Std 802.3by-201X, and IEEE Std 802.3bq-201X)
+    style: v3
+- id: ieee.pubid-to-parse.0117
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D3.3, March, 2016
+    parenthetical_content: Amendment of IEEE Std 802.3-2015 as amended by IEEE Std
+      802.3bw-2015, IEEE Std 802.3by-201X and 802.3bq-201X
+    parts:
+    - 3bp
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.3bp/D3.3, March, 2016 (Amendment of IEEE Std 802.3-2015 as amended
+      by IEEE Std 802.3bw-2015, IEEE Std 802.3by-201X and 802.3bq-201X)
+    urn: urn:ieee:ieee:p:802.3bp:draft./D3.3, March, 2016
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.3bp/D3.3, March 2016 (Amendment of IEEE Std 802.3-2015 as
+      amended by IEEE Std 802.3bw-2015, IEEE Std 802.3by-201X, and IEEE Std 802.3bq-201X)
+    style: v3
+- id: ieee.pubid-to-parse.0118
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D3.4, April, 2016
+    parenthetical_content: Amendment of IEEE Std 802.3-2015 as amended by IEEE Std
+      802.3bw-2015, IEEE Std 802.3by-201X and 802.3bq-201X
+    parts:
+    - 3bp
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.3bp/D3.4, April, 2016 (Amendment of IEEE Std 802.3-2015 as amended
+      by IEEE Std 802.3bw-2015, IEEE Std 802.3by-201X and 802.3bq-201X)
+    urn: urn:ieee:ieee:p:802.3bp:draft./D3.4, April, 2016
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.3bp/D3.4, April 2016 (Amendment of IEEE Std 802.3-2015 as
+      amended by IEEE Std 802.3bw-2015, IEEE Std 802.3by-201X, and IEEE Std 802.3bq-201X)
+    style: v3
+- id: ieee.pubid-to-parse.0119
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D3.1, February, 2016
+    parenthetical_content: Amendment of IEEE Std 802.3-2015 as amended by IEEE Std
+      802.3bw-2015 and IEEE Std 802.3by-201X
+    parts:
+    - 3bq
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.3bq/D3.1, February, 2016 (Amendment of IEEE Std 802.3-2015 as
+      amended by IEEE Std 802.3bw-2015 and IEEE Std 802.3by-201X)
+    urn: urn:ieee:ieee:p:802.3bq:draft./D3.1, February, 2016
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.3bq/D3.1, February 2016 (Amendment of IEEE Std 802.3-2015
+      as amended by IEEE Std 802.3bw-2015 and IEEE Std 802.3by-201X)
+    style: v3
+- id: ieee.pubid-to-parse.0120
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D3.2, March, 2016
+    parts:
+    - 3bq
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.3bq/D3.2, March, 2016
+    urn: urn:ieee:ieee:p:802.3bq:draft./D3.2, March, 2016
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.3bq/3.2, March 2016
+    style: v3
+- id: ieee.pubid-to-parse.0121
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D3.23.3, July 2017
+    parts:
+    - 3bs
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.3bs/D3.23.3, July 2017
+    urn: urn:ieee:ieee:p:802.3bs:draft./D3.23.3, July 2017
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.3bs(TM)/D3.23.3, July 2017
+    style: v3
+- id: ieee.pubid-to-parse.0122
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    year: '2021'
+    draft: D03.1, February, 2021
+    parts:
+    - 3cv
+    separator: "."
+    stage: P
+  representations:
+    human: IEEE P802.3cv/D03.1, February, 2021
+    urn: urn:ieee:ieee:p:802.3cv:2021:draft./D03.1, February, 2021
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.3cv-2021/03.1, February 2021
+    style: v3
+- id: ieee.pubid-to-parse.0123
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: 802c
+    type: P
+    draft: D2.0, January, 2017
+    relationships:
+    - relationship_type: draft_amendment_to
+    stage: P
+  representations:
+    human: IEEE P802c/D2.0, January, 2017
+    urn: urn:ieee:ieee:p:802c:draft./D2.0, January, 2017:rel.Draft Amendment to IEEE
+      Std 802-2014
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802c/D2.0, January 2017 (Draft Amendment to IEEE Std 802-2014)
+    style: v3
+- id: ieee.pubid-to-parse.0124
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: 802c
+    type: P
+    draft: D2.1, January, 2017
+    relationships:
+    - relationship_type: draft_amendment_to
+    stage: P
+  representations:
+    human: IEEE P802c/D2.1, January, 2017
+    urn: urn:ieee:ieee:p:802c:draft./D2.1, January, 2017:rel.Draft Amendment to IEEE
+      Std 802-2014
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802c/D2.1, January 2017 (Draft Amendment to IEEE Std 802-2014)
+    style: v3
+- id: ieee.pubid-to-parse.0125
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1636'
+    type: STD
+    year: '2009'
+    parenthetical_content: New Trial-Use Standard
+    stage: Std
+  representations:
+    human: IEEE STD 1636-2009 (New Trial-Use Standard)
+    urn: urn:ieee:ieee:std:1636:2009
+  style: v3
+- id: ieee.pubid-to-parse.0126
+  identifier:
+    _type: pubid:ieee:standard
+    number: 323C
+    type: STD
+    year: '2009'
+    parenthetical_content: New Standard
+    prefix: "N"
+    stage: Std
+  representations:
+    human: IEEE STD N323C-2009 (New Standard)
+    urn: urn:ieee:ieee:std:N323C:2009
+  style: v3
+- id: ieee.pubid-to-parse.0127
+  identifier:
+    _type: pubid:ieee:interpretation-identifier
+    year: '1992'
+    base:
+      _type: pubid:ieee:standard
+      number: '1003'
+      year: '1988'
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 1003.1-1988/INT-1992
+    urn: urn:ieee:ieee:interpretation:1992
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1003.1-1988/INT, 1992 Edition
+    style: v3
+- id: ieee.pubid-to-parse.0128
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1003'
+    year: '2016'
+    relationships:
+    - relationship_type: incorporates
+    parts:
+    - '1'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 1003.1-2016
+    urn: urn:ieee:ieee:1003.1:2016:rel.incorporates IEEE Std 1003.1-2008, IEEE Std
+      1003.1-2008/Cor. 1-2013, and IEEE Std 1003.1-2008/Cor. 2-2016
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1003.1, 2016 Edition (incorporates IEEE Std 1003.1-2008, IEEE
+      Std 1003.1-2008/Cor 1-2013, and IEEE Std 1003.1-2008/Cor 2-2016)
+    style: v3
+- id: ieee.pubid-to-parse.0129
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1076'
+    year: '2002'
+    relationships:
+    - relationship_type: revision_of
+    stage: Std
+  representations:
+    human: IEEE Std 1076-2002
+    urn: urn:ieee:ieee:1076:2002:rel.Revision of IEEE Std 1076 and IEEE Std (2002
+      Edn)
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1076-2002 (Revision of IEEE Std 1076, 2002 Edn)
+    style: v3
+- id: ieee.pubid-to-parse.0130
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1076'
+    year: '1990'
+    parts:
+    - CONC
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 1076.CONC-1990
+    urn: urn:ieee:ieee:1076.CONC:1990
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE 1076-CONC-I99O
+    style: v3
+- id: ieee.pubid-to-parse.0131
+  identifier:
+    _type: pubid:ieee:interpretation-identifier
+    year: '1991'
+    base:
+      _type: pubid:ieee:standard
+      number: '1076'
+      stage: Std
+  representations:
+    human: IEEE Std 1076/INT-1991
+    urn: urn:ieee:ieee:interpretation:1991
+  style: v3
+- id: ieee.pubid-to-parse.0132
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1106'
+    year: '2005'
+    relationships:
+    - relationship_type: revision_of
+    reaffirmed: '2011'
+    stage: Std
+  representations:
+    human: IEEE Std 1106-2005 (R2011)
+    urn: urn:ieee:ieee:1106:2005:rel.Revision of IEEE Std 1106-1995:reaff.2011
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1106-2005(R2011) (Revision of IEEE Std 1106-1995)
+    style: v3
+- id: ieee.pubid-to-parse.0133
+  identifier:
+    _type: pubid:ieee:standard
+    number: '11073'
+    year: '2011'
+    relationships:
+    - relationship_type: amendment_to
+    parts:
+    - 30200a
+    separator: "-"
+    stage: Std
+  representations:
+    human: IEEE Std 11073-30200a-2011
+    urn: urn:ieee:ieee:11073-30200a:2011:rel.Amendment to IEEE Std (ISO/IEEE Std 11073-30200:2004)
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 11073-30200a-2011 (Amendment to ISO/IEEE Std 11073-30200:2004)
+    style: v3
+- id: ieee.pubid-to-parse.0134
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1184'
+    year: '2006'
+    relationships:
+    - relationship_type: revision_of
+    reaffirmed: '2011'
+    stage: Std
+  representations:
+    human: IEEE Std 1184-2006 (R2011)
+    urn: urn:ieee:ieee:1184:2006:rel.Revision of IEEE Std 1184-1994:reaff.2011
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1184-2006(R2011) (Revision of IEEE 1184-1994)
+    style: v3
+- id: ieee.pubid-to-parse.0135
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '120'
+      year: '1955'
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '19'
+      publisher: ASME
+      type: PTC
+      year: '1955'
+      parts:
+      - '6'
+      separator: "."
+      stage: P
+  representations:
+    human: IEEE Std 120-1955 and ASME 19.6-1955
+    urn: urn:ieee:["ieee", "asme"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 120-1955; ASME PTC 19.6-1955
+    style: v3
+- id: ieee.pubid-to-parse.0136
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1232'
+    year: '2002'
+    relationships:
+    - relationship_type: revision_of
+    stage: Std
+  representations:
+    human: IEEE Std 1232-2002
+    urn: urn:ieee:ieee:1232:2002:rel.Revision of IEEE Std 1232-1995, IEEE Std 1232.1-1997,
+      and IEEE Std 1232.2-1998
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1232-2002 (Revision of IEEE Std 1232-1995, IEEE Std 1232.1-1997
+      and IEEE Std 1232.2-1998)
+    style: v3
+- id: ieee.pubid-to-parse.0137
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1244'
+    year: '2000'
+    parts:
+    - '2'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 1244.2-2000
+    urn: urn:ieee:ieee:1244.2:2000
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std. 1244.2-2000
+    style: v3
+- id: ieee.pubid-to-parse.0138
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1277'
+    year: '2000'
+    parenthetical_content: Trial Use
+    stage: Std
+  representations:
+    human: IEEE Std 1277-2000 (Trial Use)
+    urn: urn:ieee:ieee:1277:2000
+  style: v3
+- id: ieee.pubid-to-parse.0139
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1298'
+    year: '1992'
+    parenthetical_content: AS 3563.1-1991
+    stage: Std
+  representations:
+    human: IEEE Std 1298-1992 (AS 3563.1-1991)
+    urn: urn:ieee:ieee:1298:1992
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1298-1992; AS 3563.1-1991
+    style: v3
+- id: ieee.pubid-to-parse.0140
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1344'
+    year: '1995'
+    parenthetical_content: R2001
+    stage: Std
+  representations:
+    human: IEEE Std 1344-1995 (R2001)
+    urn: urn:ieee:ieee:1344:1995
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1344-1995(R2001)
+    style: v3
+- id: ieee.pubid-to-parse.0141
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1407'
+    year: '2007'
+    redline: true
+    relationships:
+    - relationship_type: revision_of
+    stage: Std
+  representations:
+    human: IEEE Std 1407-2007 - Redline
+    urn: urn:ieee:ieee:1407:2007:redline:rel.Revision of IEEE Std 1407-1998
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1407 -2007 (Revision of IEEE Std 1407-1998) - Redline
+    style: v3
+- id: ieee.pubid-to-parse.0142
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1453'
+    year: '2004'
+    relationships:
+    - relationship_type: adoption_of
+    stage: Std
+  representations:
+    human: IEEE Std 1453-2004
+    urn: urn:ieee:ieee:1453:2004:rel.Adoption of IEEE Std (CEI/IEC 61000-4-15:1997+A1:2003)
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1453-2004 (Adoption of CEI/IEC 61000-4-15:1997+A1:2003)
+    style: v3
+- id: ieee.pubid-to-parse.0143
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1458'
+    year: '2005'
+    parenthetical_content: R2010
+    stage: Std
+  representations:
+    human: IEEE Std 1458-2005 (R2010)
+    urn: urn:ieee:ieee:1458:2005
+  style: v3
+- id: ieee.pubid-to-parse.0144
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1465'
+    year: '1998'
+    parenthetical_content: R2004
+    nickname: 'Adoption of ISO/IEC 12119: 1994(E)'
+    stage: Std
+  representations:
+    human: 'IEEE Std 1465-1998 (R2004) [Adoption of ISO/IEC 12119: 1994(E)]'
+    urn: 'urn:ieee:ieee:1465:1998:nick.Adoption of ISO/IEC 12119: 1994(E)'
+  style: v3
+  non_normalized_aliases:
+  - spelling: 'IEEE Std 1465-1998(R2004) [Adoption of ISO/IEC 12119: 1994(E)]'
+    style: v3
+- id: ieee.pubid-to-parse.0145
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1484'
+    year: '2004'
+    parenthetical_content: Errata incorporated 24 June 2010
+    parts:
+    - '11'
+    - '1'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 1484.11.1-2004 (Errata incorporated 24 June 2010)
+    urn: urn:ieee:ieee:1484.11.1:2004
+  style: v3
+- id: ieee.pubid-to-parse.0146
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1505'
+    year: '2008'
+    parenthetical_content: Full-Use
+    parts:
+    - '1'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 1505.1-2008 (Full-Use)
+    urn: urn:ieee:ieee:1505.1:2008
+  style: v3
+- id: ieee.pubid-to-parse.0147
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1512'
+    draft: Drev44, Sep 2006
+    parts:
+    - '4'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 1512.4/Drev44, Sep 2006
+    urn: urn:ieee:ieee:1512.4:draft./Drev44, Sep 2006
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Approved Std P1512.4/rev44, Sep 2006
+    style: v3
+- id: ieee.pubid-to-parse.0148
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1517'
+    year: '1999'
+    parenthetical_content: R2004
+    stage: Std
+  representations:
+    human: IEEE Std 1517-1999 (R2004)
+    urn: urn:ieee:ieee:1517:1999
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1517-1999(R2004)
+    style: v3
+- id: ieee.pubid-to-parse.0149
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1521'
+    year: '2003'
+    parenthetical_content: Trial Use
+    stage: Std
+  representations:
+    human: IEEE Std 1521-2003 (Trial Use)
+    urn: urn:ieee:ieee:1521:2003
+  style: v3
+- id: ieee.pubid-to-parse.0150
+  identifier:
+    _type: pubid:ieee:standard
+    number: '15288'
+    year: '2004'
+    relationships:
+    - relationship_type: adoption_of
+    stage: Std
+  representations:
+    human: IEEE Std 15288-2004
+    urn: urn:ieee:ieee:15288:2004:rel.Adoption of IEEE Std (ISO/IEC Std 15288:2002)
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 15288-2004 (Adoption of ISO/IEC Std 15288:2002)
+    style: v3
+- id: ieee.pubid-to-parse.0151
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1541'
+    year: '2002'
+    parenthetical_content: R2008
+    stage: Std
+  representations:
+    human: IEEE Std 1541-2002 (R2008)
+    urn: urn:ieee:ieee:1541:2002
+  style: v3
+- id: ieee.pubid-to-parse.0152
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1588'
+    year: '2019'
+    parenthetical_content: Revision ofIEEE Std 1588-2008
+    stage: Std
+  representations:
+    human: IEEE Std 1588-2019 (Revision ofIEEE Std 1588-2008)
+    urn: urn:ieee:ieee:1588:2019
+  style: v3
+- id: ieee.pubid-to-parse.0153
+  identifier:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:standard
+      number: '159'
+      year: '1972'
+      stage: Std
+    adopted_identifiers:
+    - _type: pubid:ieee:ire
+      number: 7 S2
+      year: '1952'
+  representations:
+    human: IEEE Std 159-1972 (52 IRE 7 S2)
+    urn: urn:ieee:ieee
+  style: v3
+- id: ieee.pubid-to-parse.0154
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1596'
+    year: '1992'
+    parenthetical_content: Adopted by ISO/IEC and redesignated as ISO/IEC 13961:2000
+    stage: Std
+  representations:
+    human: IEEE Std 1596-1992 (Adopted by ISO/IEC and redesignated as ISO/IEC 13961:2000)
+    urn: urn:ieee:ieee:1596:1992
+  style: v3
+- id: ieee.pubid-to-parse.0155
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1635'
+    year: '2012'
+    ashrae_number: '21'
+    ashrae_year: '2012'
+    stage: Std
+  representations:
+    human: IEEE Std 1635-2012/ASHRAE Guideline 21-2012
+    urn: urn:ieee:ieee:1635:2012:ashrae.21-2012
+  style: v3
+- id: ieee.pubid-to-parse.0156
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1635'
+    year: '2018'
+    relationships:
+    - relationship_type: revision_of
+    ashrae_number: '21'
+    ashrae_year: '2018'
+    stage: Std
+  representations:
+    human: IEEE Std 1635-2018/ASHRAE Guideline 21-2018
+    urn: urn:ieee:ieee:1635:2018:ashrae.21-2018:rel.Revision of IEEE Std (IEEE Std
+      1635-2012/ ASHRAE Guideline 21-2012)
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1635-2018/ASHRAE Guideline 21-2018 (Revision of IEEE Std 1635-2012/
+      ASHRAE Guideline 21-2012)
+    style: v3
+- id: ieee.pubid-to-parse.0157
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1636'
+    year: '2009'
+    parenthetical_content: Upgraded to Full Use
+    stage: Std
+  representations:
+    human: IEEE Std 1636-2009 (Upgraded to Full Use)
+    urn: urn:ieee:ieee:1636:2009
+  style: v3
+- id: ieee.pubid-to-parse.0158
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1636'
+    year: '2007'
+    parenthetical_content: Upgraded to Full-Use
+    parts:
+    - '1'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 1636.1-2007 (Upgraded to Full-Use)
+    urn: urn:ieee:ieee:1636.1:2007
+  style: v3
+- id: ieee.pubid-to-parse.0159
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1636'
+    year: '2010'
+    parenthetical_content: Full_Use
+    parts:
+    - '2'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 1636.2-2010 (Full_Use)
+    urn: urn:ieee:ieee:1636.2:2010
+  style: v3
+- id: ieee.pubid-to-parse.0160
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1647'
+    draft: D8+3, December, 2010
+    stage: Std
+  representations:
+    human: IEEE Std 1647/D8+3, December, 2010
+    urn: urn:ieee:ieee:1647:draft./D8+3, December, 2010
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE 1647/D8+3, December 2010
+    style: v3
+- id: ieee.pubid-to-parse.0161
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1671'
+    year: '2006'
+    parenthetical_content: Trial Use
+    stage: Std
+  representations:
+    human: IEEE Std 1671-2006 (Trial Use)
+    urn: urn:ieee:ieee:1671:2006
+  style: v3
+- id: ieee.pubid-to-parse.0162
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1671'
+    year: '2009'
+    parenthetical_content: Full_Use
+    parts:
+    - '1'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 1671.1-2009 (Full_Use)
+    urn: urn:ieee:ieee:1671.1:2009
+  style: v3
+- id: ieee.pubid-to-parse.0163
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1671'
+    year: '2017'
+    relationships:
+    - relationship_type: revision_of
+    parts:
+    - '1'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 1671.1-2017
+    urn: urn:ieee:ieee:1671.1:2017:rel.Revision of IEEE Std 1671.1-2009
+  style: v3
+  non_normalized_aliases:
+  - spelling: EEE Std 1671.1-2017 (Revision of IEEE Std 1671.1&amp;#8208;2009)
+    style: v3
+- id: ieee.pubid-to-parse.0164
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1671'
+    year: '2008'
+    parenthetical_content: Full_Use
+    parts:
+    - '5'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 1671.5-2008 (Full_Use)
+    urn: urn:ieee:ieee:1671.5:2008
+  style: v3
+- id: ieee.pubid-to-parse.0165
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1671'
+    year: '2008'
+    parenthetical_content: Full-Use
+    parts:
+    - '6'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 1671.6-2008 (Full-Use)
+    urn: urn:ieee:ieee:1671.6:2008
+  style: v3
+- id: ieee.pubid-to-parse.0166
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1673'
+    year: '2015'
+    parenthetical_content: 2nd Printing
+    stage: Std
+  representations:
+    human: IEEE Std 1673-2015 (2nd Printing)
+    urn: urn:ieee:ieee:1673:2015
+  style: v3
+- id: ieee.pubid-to-parse.0167
+  identifier:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:standard
+      number: '175'
+      year: '1960'
+      stage: Std
+    adopted_identifiers:
+    - _type: pubid:ieee:ire
+      number: 13 S1
+      year: '1960'
+  representations:
+    human: IEEE Std 175-1960 (60 IRE 13 S1)
+    urn: urn:ieee:ieee
+  style: v3
+- id: ieee.pubid-to-parse.0168
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1857'
+    draft: D1+1, July 2012
+    stage: Std
+  representations:
+    human: IEEE Std 1857/D1+1, July 2012
+    urn: urn:ieee:ieee:1857:draft./D1+1, July 2012
+  style: v3
+  non_normalized_aliases:
+  - spelling: P1857/D1+1, July 2012
+    style: v3
+- id: ieee.pubid-to-parse.0169
+  identifier:
+    _type: pubid:ieee:conformance-identifier
+    number: '01'
+    year: '2014'
+    base:
+      _type: pubid:ieee:standard
+      number: '1904'
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 1904.1/Conformance01-2014
+    urn: urn:ieee:ieee:conformance:2014
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1904.1/Conformance01-2014 (Conformance to IEEE Std 1904.1-2013)
+    style: v3
+- id: ieee.pubid-to-parse.0170
+  identifier:
+    _type: pubid:ieee:conformance-identifier
+    number: '02'
+    year: '2014'
+    base:
+      _type: pubid:ieee:standard
+      number: '1904'
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 1904.1/Conformance02-2014
+    urn: urn:ieee:ieee:conformance:2014
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1904.1(TM)/Conformance02-2014 (Conformance to IEEE Std 1904.1-2013)
+    style: v3
+- id: ieee.pubid-to-parse.0171
+  identifier:
+    _type: pubid:ieee:conformance-identifier
+    number: '03'
+    year: '2014'
+    base:
+      _type: pubid:ieee:standard
+      number: '1904'
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 1904.1/Conformance03-2014
+    urn: urn:ieee:ieee:conformance:2014
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1904.1(TM)/Conformance03-2014 (Conformance to IEEE Std 1904.1-2013)
+    style: v3
+- id: ieee.pubid-to-parse.0172
+  identifier:
+    _type: pubid:ieee:standard
+    number: '242'
+    year: '2001'
+    relationships:
+    - relationship_type: revision_of
+    nickname: IEEE Buff Book
+    stage: Std
+  representations:
+    human: IEEE Std 242-2001 [IEEE Buff Book]
+    urn: urn:ieee:ieee:242:2001:rel.Revision of IEEE Std 242-1986:nick.IEEE Buff Book
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 242-2001 (Revision of IEEE Std 242-1986) [IEEE Buff Book]
+    style: v3
+- id: ieee.pubid-to-parse.0173
+  identifier:
+    _type: pubid:ieee:standard
+    number: '2745'
+    draft: D4+1, April, 2019
+    parts:
+    - '1'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 2745.1/D4+1, April, 2019
+    urn: urn:ieee:ieee:2745.1:draft./D4+1, April, 2019
+  style: v3
+  non_normalized_aliases:
+  - spelling: P2745.1/D4+1, April 2019
+    style: v3
+- id: ieee.pubid-to-parse.0174
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '309'
+      year: '1999'
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '42'
+      publisher: ANSI
+      year: '1999'
+      prefix: "N"
+      parts:
+      - '3'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 309-1999 and ANSI N42.3-1999
+    urn: urn:ieee:["ieee", "ansi"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: 'IEEE Std 309-1999: ANSI N42.3-1999'
+    style: v3
+- id: ieee.pubid-to-parse.0175
+  identifier:
+    _type: pubid:ieee:standard
+    number: '404'
+    year: '2000'
+    relationships:
+    - relationship_type: revision_of
+    stage: Std
+  representations:
+    human: IEEE Std 404-2000
+    urn: urn:ieee:ieee:404:2000:rel.Revision of IEEE Std 404-1993
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 404-2000 (Revision of IEEE Std 404 1993)
+    style: v3
+- id: ieee.pubid-to-parse.0176
+  identifier:
+    _type: pubid:ieee:standard
+    number: '446'
+    year: '1995'
+    nickname: The Orange Book
+    stage: Std
+  representations:
+    human: IEEE Std 446-1995 [The Orange Book]
+    urn: urn:ieee:ieee:446:1995:nick.The Orange Book
+  style: v3
+- id: ieee.pubid-to-parse.0177
+  identifier:
+    _type: pubid:ieee:standard
+    number: '45'
+    year: '1983'
+    parenthetical_content: revision of ANSI/IEEE Std 45-1977
+    stage: Std
+  representations:
+    human: IEEE Std 45-1983 (revision of ANSI/IEEE Std 45-1977)
+    urn: urn:ieee:ieee:45:1983
+  style: v3
+- id: ieee.pubid-to-parse.0178
+  identifier:
+    _type: pubid:ieee:standard
+    number: '493'
+    year: '1997'
+    nickname: IEEE Gold Book
+    stage: Std
+  representations:
+    human: IEEE Std 493-1997 [IEEE Gold Book]
+    urn: urn:ieee:ieee:493:1997:nick.IEEE Gold Book
+  style: v3
+- id: ieee.pubid-to-parse.0179
+  identifier:
+    _type: pubid:ieee:standard
+    number: '551'
+    year: '2006'
+    nickname: The Violet Book
+    stage: Std
+  representations:
+    human: IEEE Std 551-2006 [The Violet Book]
+    urn: urn:ieee:ieee:551:2006:nick.The Violet Book
+  style: v3
+- id: ieee.pubid-to-parse.0180
+  identifier:
+    _type: pubid:ieee:standard
+    number: '600'
+    parenthetical_content: Issued October 1983 for trial use.
+    stage: Std
+  representations:
+    human: IEEE Std 600 (Issued October 1983 for trial use.)
+    urn: urn:ieee:ieee:600
+  style: v3
+- id: ieee.pubid-to-parse.0181
+  identifier:
+    _type: pubid:ieee:standard
+    number: '602'
+    year: '1996'
+    nickname: The White Book
+    stage: Std
+  representations:
+    human: IEEE Std 602-1996 [The White Book]
+    urn: urn:ieee:ieee:602:1996:nick.The White Book
+  style: v3
+- id: ieee.pubid-to-parse.0182
+  identifier:
+    _type: pubid:ieee:standard
+    number: '605'
+    year: '2008'
+    relationships:
+    - relationship_type: revision_of
+    - relationship_type: incorporates
+    stage: Std
+  representations:
+    human: IEEE Std 605-2008
+    urn: urn:ieee:ieee:605:2008:rel.Revision of IEEE Std 605-1998/incorporates IEEE
+      Std 605a-2010
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 605-2008 (Revision of IEEE Std 605-1998 / Incorporates IEEE
+      Std 605a-2010)
+    style: v3
+- id: ieee.pubid-to-parse.0183
+  identifier:
+    _type: pubid:ieee:standard
+    number: '605'
+    year: '2008'
+    redline: true
+    relationships:
+    - relationship_type: revision_of
+    - relationship_type: incorporates
+    stage: Std
+  representations:
+    human: IEEE Std 605-2008 - Redline
+    urn: urn:ieee:ieee:605:2008:redline:rel.Revision of IEEE Std 605-1998/incorporates
+      IEEE Std 605a-2010
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 605-2008 (Revision of IEEE Std 605-1998 / Incorporates IEEE
+      Std 605a-2010) - Redline
+    style: v3
+- id: ieee.pubid-to-parse.0184
+  identifier:
+    _type: pubid:ieee:standard
+    number: '61158'
+    year: '2017'
+    relationships:
+    - relationship_type: adoption_of
+    stage: Std
+  representations:
+    human: IEEE Std 61158-2017
+    urn: urn:ieee:ieee:61158:2017:rel.Adoption of IEEE Std (EPSG DS 301)
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 61158-2017 (Adoption of EPSG DS 301)
+    style: v3
+- id: ieee.pubid-to-parse.0185
+  identifier:
+    _type: pubid:ieee:standard
+    number: '665'
+    year: '1995'
+    relationships:
+    - relationship_type: revision_of
+    reaffirmed: '2001'
+    stage: Std
+  representations:
+    human: IEEE Std 665-1995 (R2001)
+    urn: urn:ieee:ieee:665:1995:rel.Revision of IEEE Std 665-1987:reaff.2001
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 665-1995 (R2001) (Revision of IEEE Std 665-1987)
+    style: v3
+- id: ieee.pubid-to-parse.0186
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    year: '2010'
+    base:
+      _type: pubid:ieee:standard
+      number: '671'
+      year: '1985'
+      nickname: Corrigendum to IEEE Std 671-1985 (Reaff 2008)
+      stage: Std
+  representations:
+    human: IEEE Std 671-1985 [Corrigendum to IEEE Std 671-1985 (Reaff 2008)]/Cor.
+      1-2010
+    urn: urn:ieee:ieee:2010
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 671-1985/Cor 1-2010 [Corrigendum to IEEE Std 671-1985 (Reaff
+      2008)]
+    style: v3
+- id: ieee.pubid-to-parse.0187
+  identifier:
+    _type: pubid:ieee:standard
+    number: '7'
+    year: '2010'
+    redline: true
+    relationships:
+    - relationship_type: revision_of
+    parts:
+    - '4'
+    - '3'
+    - '2'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 7.4.3.2-2010 - Redline
+    urn: urn:ieee:ieee:7.4.3.2:2010:redline:rel.Revision of IEEE Std 7.4.3.2-2003
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 7-4.3.2-2010 (Revision of EEE Std 7-4.3.2-2003) - Redline
+    style: v3
+- id: ieee.pubid-to-parse.0188
+  identifier:
+    _type: pubid:ieee:standard
+    number: '738'
+    year: '2012'
+    relationships:
+    - relationship_type: revision_of
+    - relationship_type: incorporates
+    stage: Std
+  representations:
+    human: IEEE Std 738-2012
+    urn: urn:ieee:ieee:738:2012:rel.Revision of IEEE Std 738-2006/incorporates IEEE
+      Std 738-2012/Cor. 1-2013
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 738-2012 (Revision of IEEE Std 738-2006 - Incorporates IEEE
+      Std 738-2012 Cor 1-2013)
+    style: v3
+- id: ieee.pubid-to-parse.0189
+  identifier:
+    _type: pubid:ieee:standard
+    number: '739'
+    year: '1995'
+    nickname: The Bronze Book
+    stage: Std
+  representations:
+    human: IEEE Std 739-1995 [The Bronze Book]
+    urn: urn:ieee:ieee:739:1995:nick.The Bronze Book
+  style: v3
+- id: ieee.pubid-to-parse.0190
+  identifier:
+    _type: pubid:ieee:standard
+    number: '7438946'
+    stage: Std
+  representations:
+    human: IEEE Std 7438946
+    urn: urn:ieee:ieee:7438946
+  style: v3
+  non_normalized_aliases:
+  - spelling: Nuclear EQ Sourcebook and Supplement
+    style: v3
+- id: ieee.pubid-to-parse.0191
+  identifier:
+    _type: pubid:ieee:standard
+    number: '771'
+    year: '1998'
+    parenthetical_content: R2009
+    stage: Std
+  representations:
+    human: IEEE Std 771-1998 (R2009)
+    urn: urn:ieee:ieee:771:1998
+  style: v3
+- id: ieee.pubid-to-parse.0192
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '802'
+      year: '1993'
+      parts:
+      - 10e
+      separator: "."
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '802'
+      year: '1993'
+      parts:
+      - 10f
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 802.10e-1993 and IEEE Std 802.10f-1993
+    urn: urn:ieee:["ieee", "ieee"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.10e-1993 and IEEE std 802.10f-1993
+    style: v3
+- id: ieee.pubid-to-parse.0193
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '1997'
+    relationships:
+    - relationship_type: supplement_to
+    parts:
+    - 10h
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.10h-1997
+    urn: urn:ieee:ieee:802.10h:1997:rel.Supplement to IEEE Std 802.10-1992
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.10h-1997 (Supplement to IEEE Std 802.10-1 992)
+    style: v3
+- id: ieee.pubid-to-parse.0194
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    draft: D3.0, March, 2010
+    relationships:
+    - relationship_type: revision_of
+    parts:
+    - '11'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.11/D3.0, March, 2010
+    urn: urn:ieee:ieee:802.11:draft./D3.0, March, 2010:rel.Revision of IEEE Std 802.11-2007,
+      IEEE Std (as amended by IEEE Std 802.11k-2008), IEEE Std 802.11r-2008, IEEE
+      Std 802.11y-2008, IEEE Std 802.11w-2009, and IEEE Std 802.11n-2009
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Draft P802.11-REVmb/D3.0, March 2010 (Revision of IEEE Std 802.11-2007,
+      as amended by IEEE Std 802.11k-2008, IEEE Std 802.11r-2008, IEEE Std 802.11y-2008,
+      IEEE Std 802.11w-2009 and IEEE Std 802.11n-2009)
+    style: v3
+- id: ieee.pubid-to-parse.0195
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    draft: D6.0, September, 2010
+    relationships:
+    - relationship_type: revision_of
+    parts:
+    - '11'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.11/D6.0, September, 2010
+    urn: urn:ieee:ieee:802.11:draft./D6.0, September, 2010:rel.Revision of IEEE Std
+      802.11-2007, IEEE Std (as amended by IEEE Std 802.11k-2008), IEEE Std 802.11r-2008,
+      IEEE Std 802.11y-2008, IEEE Std 802.11w-2009, and IEEE Std 802.11n-2009
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Draft P802.11-REVmb/D6.0, September 2010 (Revision of IEEE Std
+      802.11-2007, as amended by IEEE Std 802.11k-2008, IEEE Std 802.11r-2008, IEEE
+      Std 802.11y-2008, IEEE Std 802.11w-2009 and IEEE Std 802.11n-2009)
+    style: v3
+- id: ieee.pubid-to-parse.0196
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    draft: D7.0, February, 2011
+    relationships:
+    - relationship_type: revision_of
+    parts:
+    - '11'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.11/D7.0, February, 2011
+    urn: urn:ieee:ieee:802.11:draft./D7.0, February, 2011:rel.Revision of IEEE Std
+      802.11-2007, IEEE Std (as amended by IEEE Std 802.11k-2008), IEEE Std 802.11r-2008,
+      IEEE Std 802.11y-2008, IEEE Std 802.11w-2009, and IEEE Std 802.11n-2009
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Draft P802.11-REVmb/D7.0, February 2011 (Revision of IEEE Std 802.11-2007,
+      as amended by IEEE Std 802.11k-2008, IEEE Std 802.11r-2008, IEEE Std 802.11y-2008,
+      IEEE Std 802.11w-2009 and IEEE Std 802.11n-2009)
+    style: v3
+- id: ieee.pubid-to-parse.0197
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    draft: D8.0, March, 2011
+    relationships:
+    - relationship_type: revision_of
+    parts:
+    - '11'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.11/D8.0, March, 2011
+    urn: urn:ieee:ieee:802.11:draft./D8.0, March, 2011:rel.Revision of IEEE Std 802.11-2007,
+      IEEE Std (as amended by IEEE Std 802.11k-2008), IEEE Std 802.11r-2008, IEEE
+      Std 802.11y-2008, IEEE Std 802.11w-2009, and IEEE Std 802.11n-2009
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Draft P802.11-REVmb/D8.0, March 2011 (Revision of IEEE Std 802.11-2007,
+      as amended by IEEE Std 802.11k-2008, IEEE Std 802.11r-2008, IEEE Std 802.11y-2008,
+      IEEE Std 802.11w-2009 and IEEE Std 802.11n-2009)
+    style: v3
+- id: ieee.pubid-to-parse.0198
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    draft: D9.0, May 2011
+    relationships:
+    - relationship_type: revision_of
+    parts:
+    - '11'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.11/D9.0, May 2011
+    urn: urn:ieee:ieee:802.11:draft./D9.0, May 2011:rel.Revision of IEEE Std 802.11-2007,
+      IEEE Std (as amended by IEEE Std 802.11k-2008), IEEE Std 802.11r-2008, IEEE
+      Std 802.11y-2008, IEEE Std 802.11w-2009, and IEEE Std 802.11n-2009
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Draft P802.11-REVmb/D9.0, May 2011 (Revision of IEEE Std 802.11-2007,
+      as amended by IEEE Std 802.11k-2008, IEEE Std 802.11r-2008, IEEE Std 802.11y-2008,
+      IEEE Std 802.11w-2009 and IEEE Std 802.11n-2009)
+    style: v3
+- id: ieee.pubid-to-parse.0199
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2013'
+    relationships:
+    - relationship_type: amendment_to
+    parts:
+    - 11ac
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.11ac-2013
+    urn: urn:ieee:ieee:802.11ac:2013:rel.Amendment to IEEE Std 802.11-2012, IEEE Std
+      (as amended by IEEE Std 802.11ae-2012), IEEE Std 802.11aa-2012, and IEEE Std
+      802.11ad-2012
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.11ac&#x2122;-2013 (Amendment to IEEE Std 802.11-2012, as
+      amended by IEEE Std 802.11ae-2012, IEEE Std 802.11aa-2012, and IEEE Std 802.11ad-2012)
+    style: v3
+- id: ieee.pubid-to-parse.0200
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2021'
+    relationships:
+    - relationship_type: amendment_to
+    parts:
+    - 11ay
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.11ay-2021
+    urn: urn:ieee:ieee:802.11ay:2021:rel.Amendment to IEEE Std (IEEE Std 802.11-2020
+      as amendment by IEEE Std 802.11ax-2021)
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.11ay-2021 (Amendment to IEEE Std 802.11-2020 as amendment
+      by IEEE Std 802.11ax-2021)
+    style: v3
+- id: ieee.pubid-to-parse.0201
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2021'
+    relationships:
+    - relationship_type: amendment_to
+    parts:
+    - 11ba
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.11ba-2021
+    urn: urn:ieee:ieee:802.11ba:2021:rel.Amendment to IEEE Std (IEEE Std 802.11-2020
+      as amendment by IEEE Std 802.11ax-2021) and IEEE Std 802.11ay-2021
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.11ba-2021 (Amendment to IEEE Std 802.11-2020 as amendment
+      by IEEE Std 802.11ax-2021, and IEEE Std 802.11ay-2021)
+    style: v3
+- id: ieee.pubid-to-parse.0202
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2019'
+    relationships:
+    - relationship_type: amendment_to
+    parts:
+    - '15'
+    - 10a
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.15.10a-2019
+    urn: urn:ieee:ieee:802.15.10a:2019:rel.Amendment to IEEE Std 802.15.10-2017
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.15.10a-2019 (Amendment to IEEE Std 802.15.10&#x2122;-2017)
+    style: v3
+- id: ieee.pubid-to-parse.0203
+  identifier:
+    _type: pubid:ieee:conformance-identifier
+    number: '01'
+    year: '2003'
+    base:
+      _type: pubid:ieee:standard
+      number: '802'
+      parts:
+      - '16'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 802.16/Conformance01-2003
+    urn: urn:ieee:ieee:conformance:2003
+  style: v3
+- id: ieee.pubid-to-parse.0204
+  identifier:
+    _type: pubid:ieee:conformance-identifier
+    number: '03'
+    year: '2004'
+    base:
+      _type: pubid:ieee:standard
+      number: '802'
+      parts:
+      - '16'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 802.16/Conformance03-2004
+    urn: urn:ieee:ieee:conformance:2004
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.16/Conformance03-2004 (Conformance to IEEE Std 802.16-2001
+      as amended by IEEE Std 802.16a -2003 and IEEE Std 802.16c-2002)
+    style: v3
+- id: ieee.pubid-to-parse.0205
+  identifier:
+    _type: pubid:ieee:conformance-identifier
+    number: '04'
+    year: '2006'
+    base:
+      _type: pubid:ieee:standard
+      number: '802'
+      parts:
+      - '16'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 802.16/Conformance04-2006
+    urn: urn:ieee:ieee:conformance:2006
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.16/Conformance04-2006 (Conformance to IEEE Std 802.16-2004)
+    style: v3
+- id: ieee.pubid-to-parse.0206
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '802'
+      year: '2005'
+      parts:
+      - 16e
+      separator: "."
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:corrigendum
+      number: '1'
+      year: '2005'
+      base:
+        _type: pubid:ieee:standard
+        number: '802'
+        year: '2004'
+        parts:
+        - '16'
+        separator: "."
+        stage: Std
+  representations:
+    human: IEEE Std 802.16e-2005 and IEEE Std 802.16-2004/Cor. 1-2005
+    urn: urn:ieee:["ieee", "ieee"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.16e-2005 and IEEE Std 802.16-2004/Cor 1-2005 (Amendment
+      and Corrigendum to IEEE Std 802.16-2004)
+    style: v3
+- id: ieee.pubid-to-parse.0207
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2011'
+    relationships:
+    - relationship_type: revision_of
+    parts:
+    - '17'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.17-2011
+    urn: urn:ieee:ieee:802.17:2011:rel.Revision of IEEE Std 802.17-2004, IEEE Std
+      (as amended by IEEE Std 802.17b-2007), and IEEE Std 802.17c-2010
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.17-2011 (Revision of IEEE Std 802.17-2004, as amended by
+      IEEE Std 802.17b-2007 and IEEE Std 802.17c-2010)
+    style: v3
+- id: ieee.pubid-to-parse.0208
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2021'
+    relationships:
+    - relationship_type: amendment_to
+    parts:
+    - 1ACct
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.1ACct-2021
+    urn: urn:ieee:ieee:802.1ACct:2021:rel.Amendment to IEEE Std 802.1AC-2016 as amended
+      by IEEE Std 802.1AC-2016/Cor. 1-2018
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.1ACct-2021 (Amendment to EEE Std 802.1AC-2016 as amended
+      by IEEE Std 802.1AC-2016/Cor 1-2018)
+    style: v3
+- id: ieee.pubid-to-parse.0209
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2020'
+    parts:
+    - 1CS
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.1CS-2020
+    urn: urn:ieee:ieee:802.1CS:2020
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.1CS&#x2013;2020
+    style: v3
+- id: ieee.pubid-to-parse.0210
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2003'
+    relationships:
+    - relationship_type: incorporates
+    parts:
+    - 1Q
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.1Q-2003
+    urn: urn:ieee:ieee:802.1Q:2003:rel.incorporates IEEE Std 802.1Q-1998, IEEE Std
+      802.1u-2001, IEEE Std 802.1v-2001, and IEEE Std 802.1s-2002
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.1Q, 2003 Edition (Incorporates IEEE Std 802.1Q-1998, IEEE
+      Std 802.1u-2001, IEEE Std 802.1v-2001, and IEEE Std 802.1s-2002)
+    style: v3
+- id: ieee.pubid-to-parse.0211
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2005'
+    relationships:
+    - relationship_type: incorporates
+    parts:
+    - 1Q
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.1Q-2005
+    urn: urn:ieee:ieee:802.1Q:2005:rel.incorporates IEEE Std 802.1Q1998, IEEE Std
+      802.1u-2001, IEEE Std 802.1v-2001, and IEEE Std 802.1s-2002
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.1Q-2005 (Incorporates IEEE Std 802.1Q1998, IEEE Std 802.1u-2001,
+      IEEE Std 802.1v-2001, and IEEE Std 802.1s-2002)
+    style: v3
+- id: ieee.pubid-to-parse.0212
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2017'
+    relationships:
+    - relationship_type: amendment_to
+    parts:
+    - 1Qch
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.1Qch-2017
+    urn: urn:ieee:ieee:802.1Qch:2017:rel.Amendment to IEEE Std 802.1Q-2014 as amended
+      by IEEE Std 802.1Qca-2015, IEEE Std 802.1Qcd-2015, IEEE Std 802.1Q-2014/Cor.
+      1-2015, IEEE Std 802.1Qbv-2015, IEEE Std 802.1Qbu-2016, IEEE Std 802.1Qbz-2016,
+      and IEEE Std 802.1Qci-2017
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE 802.1Qch-2017 (Amendment to IEEE Std 802.1Q-2014 as amended by
+      IEEE Std 802.1Qca-2015, IEEE Std 802.1Qcd(TM)-2015, IEEE Std 802.1Q-2014/Cor
+      1-2015, IEEE Std 802.1Qbv-2015, IEEE Std 802.1Qbu-2016, IEEE Std 802.1Qbz-2016,
+      and IEEE Std 802.1Qci-2017)
+    style: v3
+- id: ieee.pubid-to-parse.0213
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2020'
+    relationships:
+    - relationship_type: revision_of
+    parts:
+    - 1X
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.1X-2020
+    urn: urn:ieee:ieee:802.1X:2020:rel.Revision of IEEE Std (IEEE Std 802.1X-2010
+      Incorporating IEEE Std 802.1Xbx-2014) and IEEE Std 802.1Xck-2018
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.1X-2020 (Revision of IEEE Std 802.1X-2010 Incorporating
+      IEEE Std 802.1Xbx-2014 and IEEE Std 802.1Xck-2018)
+    style: v3
+- id: ieee.pubid-to-parse.0214
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    draft: D2.2, July 2018
+    relationships:
+    - relationship_type: draft_amendment_to
+    parts:
+    - 1Xck
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.1Xck/D2.2, July 2018
+    urn: urn:ieee:ieee:802.1Xck:draft./D2.2, July 2018:rel.Draft Amendment to IEEE
+      Std 802.1X-2010 as amended by IEEE Std 802.1Xbx-2014
+  style: v3
+  non_normalized_aliases:
+  - spelling: P802.1Xck/D2.2, July 2018 (DRAFT Amendment to IEEE Std 802.1X&#x2013;2010
+      as amended by IEEE Std 802.1Xbx&#x2013;2014)
+    style: v3
+- id: ieee.pubid-to-parse.0215
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2007'
+    relationships:
+    - relationship_type: amendment_to
+    parts:
+    - 1ag
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.1ag-2007
+    urn: urn:ieee:ieee:802.1ag:2007:rel.Amendment to IEEE Std 802.1Q-2005 as amended
+      by IEEE Std 802.1ad-2005 and IEEE Std 802.1ak-2007
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.1ag - 2007 (Amendment to IEEE Std 802.1Q - 2005 as amended
+      by IEEE Std 802.1ad - 2005 and IEEE Std 802.1ak - 2007)
+    style: v3
+- id: ieee.pubid-to-parse.0216
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2009'
+    relationships:
+    - relationship_type: amendment_to
+    parts:
+    - 1aj
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.1aj-2009
+    urn: urn:ieee:ieee:802.1aj:2009:rel.Amendment to IEEE Std 802.1Q-2005
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.1aj-2009 (Amendment to IEEE Std 802.1Q - 2005)
+    style: v3
+- id: ieee.pubid-to-parse.0217
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '1996'
+    relationships:
+    - relationship_type: supplement_to
+    parts:
+    - 1j
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.1j-1996
+    urn: urn:ieee:ieee:802.1j:1996:rel.Supplement to IEEE Std (IEEE Std 802.1 D-1990)
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.1j-1996 (Supplement to IEEE Std 802.1 D-1990)
+    style: v3
+- id: ieee.pubid-to-parse.0218
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2017'
+    relationships:
+    - relationship_type: revision_of
+    parts:
+    - '21'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.21-2017
+    urn: urn:ieee:ieee:802.21:2017:rel.Revision of IEEE Std 802.21-2008 as amended
+      by IEEE Std 802.21a-2012, IEEE Std 802.21b-2012, IEEE Std 802.21c-2014, and
+      IEEE Std 802.21d-2015
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.21-2017 (Revision of IEEE Std 802.21-2008 as amended by
+      IEEE Std 802.21a-2012, IEEE Std 802.21b-2012, IEEE Std 802.21c-2014, and IEEE
+      Std 802.21d-2015)
+    style: v3
+- id: ieee.pubid-to-parse.0219
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2017'
+    redline: true
+    relationships:
+    - relationship_type: revision_of
+    parts:
+    - '21'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.21-2017 - Redline
+    urn: urn:ieee:ieee:802.21:2017:redline:rel.Revision of IEEE Std 802.21-2008 as
+      amended by IEEE Std 802.21a-2012, IEEE Std 802.21b-2012, IEEE Std 802.21c-2014,
+      and IEEE Std 802.21d-2015
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.21-2017 (Revision of IEEE Std 802.21-2008 as amended by
+      IEEE Std 802.21a-2012, IEEE Std 802.21b-2012, IEEE Std 802.21c-2014, and IEEE
+      Std 802.21d-2015) - Redline
+    style: v3
+- id: ieee.pubid-to-parse.0220
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2014'
+    relationships:
+    - relationship_type: amendment_to
+    parts:
+    - 21c
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.21c-2014
+    urn: urn:ieee:ieee:802.21c:2014:rel.Amendment to IEEE Std (IEEE Std IEEE Std 802.21-2008)
+      as amended by IEEE Std 802.21a-2012 and IEEE Std 802.21b-2012
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.21c-2014 (Amendment to IEEE Std IEEE Std 802.21-2008 as
+      amended by IEEE Std 802.21a-2012 and IEEE Std 802.21b-2012)
+    style: v3
+- id: ieee.pubid-to-parse.0221
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2002'
+    relationships:
+    - relationship_type: revision_of
+    parts:
+    - '3'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.3-2002
+    urn: urn:ieee:ieee:802.3:2002:rel.Revision of IEEE Std 802.3 and IEEE Std (2000
+      edn)
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.3-2002 (Revision of IEEE Std 802.3, 2000 edn)
+    style: v3
+- id: ieee.pubid-to-parse.0222
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2005'
+    relationships:
+    - relationship_type: revision_of
+    parts:
+    - '3'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.3-2005
+    urn: urn:ieee:ieee:802.3:2005:rel.Revision of IEEE Std (IEEE Std 802.3-2002 including
+      all approved amendments)
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.3-2005 (Revision of IEEE Std 802.3-2002 including all approved
+      amendments)
+    style: v3
+- id: ieee.pubid-to-parse.0223
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2003'
+    relationships:
+    - relationship_type: amendment_to
+    parts:
+    - 3af
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.3af-2003
+    urn: urn:ieee:ieee:802.3af:2003:rel.Amendment to IEEE Std 802.3-2002 and IEEE
+      Std (including IEEE Std 802.3ae-2002)
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.3af-2003 (Amendment to IEEE Std 802.3-2002, including IEEE
+      Std 802.3ae-2002)
+    style: v3
+- id: ieee.pubid-to-parse.0224
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2004'
+    relationships:
+    - relationship_type: amendment_to
+    parts:
+    - 3ak
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.3ak-2004
+    urn: urn:ieee:ieee:802.3ak:2004:rel.Amendment to IEEE Std 802.3-2002 as amended
+      by IEEE Std (IEEE Stds 802.3ae-2002), IEEE Std 802.3af-2003, and IEEE Std 802.3aj-2003
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.3ak-2004 (Amendment to IEEE Std 802.3-2002 as amended by
+      IEEE Stds 802.3ae-2002, 802.3af-2003 and 802.3aj-2003)
+    style: v3
+- id: ieee.pubid-to-parse.0225
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    draft: D2.1, September, 2010
+    relationships:
+    - relationship_type: draft_amendment_to
+    parts:
+    - 3bf
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.3bf/D2.1, September, 2010
+    urn: urn:ieee:ieee:802.3bf:draft./D2.1, September, 2010:rel.Draft Amendment to
+      IEEE Std 802.3-2008
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Draft P802.3bf/D2.1, September 2010 (Draft Amendment to IEEE Std
+      802.3-2008)
+    style: v3
+- id: ieee.pubid-to-parse.0226
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    draft: D3.0, November, 2010
+    relationships:
+    - relationship_type: draft_amendment_to
+    parts:
+    - 3bf
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.3bf/D3.0, November, 2010
+    urn: urn:ieee:ieee:802.3bf:draft./D3.0, November, 2010:rel.Draft Amendment to
+      IEEE Std 802.3-2008
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Draft P802.3bf/D3.0, November 2010 (Draft Amendment to IEEE Std
+      802.3-2008)
+    style: v3
+- id: ieee.pubid-to-parse.0227
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    draft: D3.1, January, 2011
+    relationships:
+    - relationship_type: draft_amendment_to
+    parts:
+    - 3bf
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.3bf/D3.1, January, 2011
+    urn: urn:ieee:ieee:802.3bf:draft./D3.1, January, 2011:rel.Draft Amendment to IEEE
+      Std 802.3-2008
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Draft P802.3bf/D3.1, January 2011 (Draft Amendment to IEEE Std
+      802.3-2008)
+    style: v3
+- id: ieee.pubid-to-parse.0228
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    draft: D3.2, March, 2011
+    relationships:
+    - relationship_type: draft_amendment_to
+    parts:
+    - 3bf
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.3bf/D3.2, March, 2011
+    urn: urn:ieee:ieee:802.3bf:draft./D3.2, March, 2011:rel.Draft Amendment to IEEE
+      Std 802.3-2008
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Draft P802.3bf/D3.2, March 2011 (Draft Amendment to IEEE Std 802.3-2008)
+    style: v3
+- id: ieee.pubid-to-parse.0229
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2015'
+    relationships:
+    - relationship_type: amendment_to
+    parts:
+    - 3bm
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.3bm-2015
+    urn: urn:ieee:ieee:802.3bm:2015:rel.Amendment to IEEE Std 802.3-2012 as amended
+      by IEEE Std 802.3bk-2013 and IEEE Std 802.3bj-2014
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.3bm-2015 (Amendment to IEEE Std 802.3-2012 as amended by
+      IEEE Std 802.3bk-2013 and IEEE Std 802.3bj-2014 )
+    style: v3
+- id: ieee.pubid-to-parse.0230
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    draft: D3.3, April, 2016
+    parenthetical_content: Amendment of IEEE Std 802.3-2015 as amended by IEEE Std
+      802.3bw-2015 and IEEE Std 802.3by-201X
+    parts:
+    - 3bq
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.3bq/D3.3, April, 2016 (Amendment of IEEE Std 802.3-2015 as
+      amended by IEEE Std 802.3bw-2015 and IEEE Std 802.3by-201X)
+    urn: urn:ieee:ieee:802.3bq:draft./D3.3, April, 2016
+  style: v3
+  non_normalized_aliases:
+  - spelling: P802.3bq/D3.3, April 2016 (Amendment of IEEE Std 802.3-2015 as amended
+      by IEEE Std 802.3bw-2015 and IEEE Std 802.3by-201X)
+    style: v3
+- id: ieee.pubid-to-parse.0231
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2016'
+    relationships:
+    - relationship_type: amendment_to
+    parts:
+    - 3bz
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.3bz-2016
+    urn: urn:ieee:ieee:802.3bz:2016:rel.Amendment to IEEE Std 802.3-2015 as amended
+      by IEEE Std 802.3bw-2015, IEEE Std 802.3by-2016, IEEE Std 802.3bq-2016, IEEE
+      Std 802.3bp-2016, IEEE Std 802.3br-2016, and IEEE Std 802.3bn-2016
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.3bz-2016 (Amendment to IEEE Std 802.3-2015 as amended by
+      IEEE Std 802.3bw-2015, IEEE Std 802.3by(TM)-2016, IEEE Std 802.3bq-2016, IEEE
+      Std 802.3bp-2016, IEEE Std 802.3br-2016, and IEEE Std 802.3bn-2016)
+    style: v3
+- id: ieee.pubid-to-parse.0232
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2017'
+    relationships:
+    - relationship_type: amendment_to
+    parts:
+    - 3cc
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.3cc-2017
+    urn: urn:ieee:ieee:802.3cc:2017:rel.Amendment to IEEE Std 802.3-2015 as amended
+      by IEEE Std 802.3bw-2015, IEEE Std 802.3by-2016, IEEE Std 802.3bq-2016, IEEE
+      Std 802.3bp-2016, IEEE Std 802.3br-2016, IEEE Std 802.3bn-2016, IEEE Std 802.3bz-2016,
+      IEEE Std 802.3bu-2016, IEEE Std 802.3bv-2017, IEEE Std 802.3-2015/Cor. 1-2017,
+      and IEEE Std 802.3bs-2017
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.3cc-2017 (Amendment to IEEE Std 802.3-2015 as amended by
+      IEEE&#x2019;s 802.3bw-2015, 802.3by-2016, 802.3bq-2016, 802.3bp-2016, 802.3br-2016,
+      802.3bn-2016, 802.3bz-2016, 802.3bu-2016, 802.3bv-2017, 802.3-2015/Cor 1-2017,
+      and 802.3bs-2017)
+    style: v3
+- id: ieee.pubid-to-parse.0233
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2021'
+    relationships:
+    - relationship_type: amendment_to
+    parts:
+    - 3ct
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.3ct-2021
+    urn: urn:ieee:ieee:802.3ct:2021:rel.Amendment to IEEE Std 802.3-2018 as amended
+      by IEEE Std 802.3cb-2018, IEEE Std 802.3bt-2018, IEEE Std 802.3cd-2018, IEEE
+      Std 802.3cn-2019, IEEE Std 802.3cg-2019, IEEE Std 802.3cq-2020, IEEE Std 802.3cm-2020,
+      IEEE Std 802.3ch-2020, IEEE Std 802.3ca-2020, IEEE Std 802.3cr-2021, IEEE Std
+      802.3cu-2021, and IEEE Std 802.3cv-2021
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.3ct-2021 (Amendment to IEEE Std 802.3-2018 as amended by
+      IEEE's 802.3cb-2018, 802.3bt-2018, 802.3cd-2018, 802.3cn-2019, 802.3cg-2019,
+      802.3cq-2020, 802.3cm-2020, 802.3ch-2020,802.3ca-2020, 802.3cr-2021, 802.3cu-2021,
+      and 802.3cv-2021)
+    style: v3
+- id: ieee.pubid-to-parse.0234
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2021'
+    relationships:
+    - relationship_type: amendment_to
+    parts:
+    - 3cu
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.3cu-2021
+    urn: urn:ieee:ieee:802.3cu:2021:rel.Amendment to IEEE Std 802.3-2018 and IEEE
+      Std (its approved amendments)
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.3cu-2021 (Amendment to IEEE Std 802.3-2018 and its approved
+      amendments)
+    style: v3
+- id: ieee.pubid-to-parse.0235
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '2021'
+    relationships:
+    - relationship_type: amendment_to
+    parts:
+    - 3cv
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.3cv-2021
+    urn: urn:ieee:ieee:802.3cv:2021:rel.Amendment to IEEE Std 802.3-2018 as amended
+      by IEEE Std 802.3cb-2018, IEEE Std 802.3bt-2018, IEEE Std 802.3cd-2018, IEEE
+      Std 802.3cn-2019, IEEE Std 802.3cg-2019, IEEE Std 802.3cq-2020, IEEE Std 802.3cm-2020,
+      IEEE Std 802.3ch-2020, IEEE Std 802.3ca-2020, IEEE Std 802.3cr-2021, and IEEE
+      Std 802.3cu-2021
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.3cv-2021 (Amendment to IEEE Std 802.3-2018 as amended by
+      IEEE's 802.3cb-2018, 802.3bt-2018, 802.3cd-2018, 802.3cn-2019, 802.3cg-2019,
+      802.3cq-2020, 802.3cm-2020, 802.3ch-2020, 802.3ca-2020, 802.3cr-2021 and 802.3cu-2021
+    style: v3
+- id: ieee.pubid-to-parse.0236
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '1990'
+    relationships:
+    - relationship_type: supplement_to
+    parts:
+    - 3i
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.3i-1990
+    urn: urn:ieee:ieee:802.3i:1990:rel.Supplement to IEEE Std (ISO/IEC 8802-3:1990
+      - ANSI/IEEE Std 802.3-1990 Edition)
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.3i-1990 (Supplement to ISO/IEC 8802-3:1990 - ANSI/IEEE
+      Std 802.3-1990 Edition)
+    style: v3
+- id: ieee.pubid-to-parse.0237
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '802'
+      year: '1995'
+      relationships:
+      - relationship_type: supplement_to
+      parts:
+      - 3u
+      separator: "."
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '802'
+      publisher: ANSI/IEEE
+      year: '1993'
+      parts:
+      - '3'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 802.3u-1995 and ANSI/IEEE 802.3-1993
+    urn: urn:ieee:["ieee", "ansi/ieee"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: 'IEEE Std 802.3u-1995 (Supplement to ISO/IEC 8802-3: 1993; ANSI/IEEE
+      Std 802.3, 1993 Edition)'
+    style: v3
+- id: ieee.pubid-to-parse.0238
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    year: '1993'
+    parts:
+    - 5j
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std 802.5j-1993
+    urn: urn:ieee:ieee:802.5j:1993
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.5j-1993,
+    style: v3
+- id: ieee.pubid-to-parse.0239
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '802'
+      parts:
+      - 5r
+      separator: "."
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '802'
+      year: '1998'
+      parenthetical_content: ISO/IEC 8802-5:1998/Amd.1
+      parts:
+      - 5j
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 802.5r and IEEE Std 802.5j-1998 (ISO/IEC 8802-5:1998/Amd.1)
+    urn: urn:ieee:["ieee", "ieee"]
+  roundtrip: false
+  style: v2
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.5r and IEEE 802.5j, 1998 Edition (ISO/IEC 8802-5:1998/Amd.1)
+    style: v2
+- id: ieee.pubid-to-parse.0240
+  identifier:
+    _type: pubid:ieee:csa-dual-published
+    year: '2017'
+    ieee_identifier:
+      _type: pubid:ieee:standard
+      number: '844'
+      year: '2017'
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+    stage: Std
+  representations:
+    human: 'IEEE Std 844.1-2017/CSA '
+    urn: urn:ieee:ieee:2017
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 844.1-2017/CSA C22.2 No. 293.1-17
+    style: v3
+- id: ieee.pubid-to-parse.0241
+  identifier:
+    _type: pubid:ieee:csa-dual-published
+    year: '2017'
+    ieee_identifier:
+      _type: pubid:ieee:standard
+      number: '844'
+      year: '2017'
+      parts:
+      - '2'
+      separator: "."
+      stage: Std
+    stage: Std
+  representations:
+    human: 'IEEE Std 844.2-2017/CSA '
+    urn: urn:ieee:ieee:2017
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 844.2-2017/CSA C293.2-17
+    style: v3
+- id: ieee.pubid-to-parse.0242
+  identifier:
+    _type: pubid:ieee:csa-dual-published
+    year: '2019'
+    ieee_identifier:
+      _type: pubid:ieee:standard
+      number: '844'
+      year: '2019'
+      parts:
+      - '3'
+      separator: "."
+      stage: Std
+    stage: Std
+  representations:
+    human: 'IEEE Std 844.3-2019/CSA '
+    urn: urn:ieee:ieee:2019
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 844.3-2019/CSA C22.2 No. 293.3:19
+    style: v3
+- id: ieee.pubid-to-parse.0243
+  identifier:
+    _type: pubid:ieee:csa-dual-published
+    year: '2019'
+    ieee_identifier:
+      _type: pubid:ieee:standard
+      number: '844'
+      year: '2019'
+      parts:
+      - '4'
+      separator: "."
+      stage: Std
+    stage: Std
+  representations:
+    human: 'IEEE Std 844.4-2019/CSA '
+    urn: urn:ieee:ieee:2019
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 844.4-2019/CSA C293.4:19
+    style: v3
+- id: ieee.pubid-to-parse.0244
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '960'
+      year: '1989'
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '1177'
+      year: '1989'
+      stage: Std
+  representations:
+    human: IEEE Std 960-1989 and IEEE Std 1177-1989
+    urn: urn:ieee:["ieee", "ieee"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 960-1989, Std 1177-1989
+    style: v3
+- id: ieee.pubid-to-parse.0245
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '960'
+      year: '1993'
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '1177'
+      year: '1993'
+      stage: Std
+  representations:
+    human: IEEE Std 960-1993 and IEEE Std 1177-1993
+    urn: urn:ieee:["ieee", "ieee"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 960-1993, IEEE Std 1177-1993
+    style: v3
+- id: ieee.pubid-to-parse.0246
+  identifier:
+    _type: pubid:ieee:standard
+    number: '135'
+    year: '1997'
+    parenthetical_content: R2006
+    prefix: C
+    parts:
+    - '61'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std C135.61-1997 (R2006)
+    urn: urn:ieee:ieee:C135.61:1997
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C135.61-1997(R2006)
+    style: v3
+- id: ieee.pubid-to-parse.0247
+  identifier:
+    _type: pubid:ieee:standard
+    number: '135'
+    year: '1998'
+    parenthetical_content: R2006
+    prefix: C
+    parts:
+    - '63'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std C135.63-1998 (R2006)
+    urn: urn:ieee:ieee:C135.63:1998
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C135.63-1998(R2006)
+    style: v3
+- id: ieee.pubid-to-parse.0248
+  identifier:
+    _type: pubid:ieee:standard
+    number: '2'
+    year: '2002'
+    prefix: C
+    stage: Std
+  representations:
+    human: IEEE Std C2-2002
+    urn: urn:ieee:ieee:C2:2002
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C2-2002/Preprint
+    style: v3
+- id: ieee.pubid-to-parse.0249
+  identifier:
+    _type: pubid:ieee:standard
+    number: '2'
+    year: '2007'
+    prefix: C
+    stage: Std
+  representations:
+    human: IEEE Std C2-2007
+    urn: urn:ieee:ieee:C2:2007
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C2-2007/Preprint
+    style: v3
+- id: ieee.pubid-to-parse.0250
+  identifier:
+    _type: pubid:ieee:standard
+    number: '2'
+    prefix: C
+    parts:
+    - '2012'
+    - Preprint
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std C2.2012.Preprint
+    urn: urn:ieee:ieee:C2.2012.Preprint
+  style: v3
+  non_normalized_aliases:
+  - spelling: C2-2012-Preprint
+    style: v3
+- id: ieee.pubid-to-parse.0251
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    year: '2006'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '102'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std C37.102-2006
+    urn: urn:ieee:ieee:C37.102:2006:rel.Revision of IEEE Std C37.102-1995
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C37.102-2006 (Revison of IEEE Std C37.102-1995)
+    style: v3
+- id: ieee.pubid-to-parse.0252
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    year: '2006'
+    redline: true
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '102'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std C37.102-2006 - Redline
+    urn: urn:ieee:ieee:C37.102:2006:redline:rel.Revision of IEEE Std C37.102-1995
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C37.102 -2006 (Revision of IEEE Std C37.102-1995) - Redline
+    style: v3
+- id: ieee.pubid-to-parse.0253
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    year: '2012'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '17'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std C37.17-2012
+    urn: urn:ieee:ieee:C37.17:2012:rel.Revision of ANSI C37.17-1997
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C37.17-2012 (Revision of ANSI C37.17-1997 )
+    style: v3
+- id: ieee.pubid-to-parse.0254
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    year: '2001'
+    prefix: C
+    parts:
+    - '20'
+    - '3'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std C37.20.3-2001
+    urn: urn:ieee:ieee:C37.20.3:2001
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C37.20.3-2001 - IEEE Standard for metal-enclosed interrupter
+      switchgear
+    style: v3
+- id: ieee.pubid-to-parse.0255
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    year: '2020'
+    parenthetical_content: Revision ofIEEE Std C37.230-2007
+    prefix: C
+    parts:
+    - '230'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std C37.230-2020 (Revision ofIEEE Std C37.230-2007)
+    urn: urn:ieee:ieee:C37.230:2020
+  style: v3
+- id: ieee.pubid-to-parse.0256
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    year: '2020'
+    redline: true
+    parenthetical_content: Revision ofIEEE Std C37.230-2007
+    prefix: C
+    parts:
+    - '230'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std C37.230-2020 (Revision ofIEEE Std C37.230-2007) - Redline
+    urn: urn:ieee:ieee:C37.230:2020:redline
+  style: v3
+- id: ieee.pubid-to-parse.0257
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    year: '1997'
+    prefix: C
+    parts:
+    - '63'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std C37.63-1997
+    urn: urn:ieee:ieee:C37.63:1997
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C37.63-1 997
+    style: v3
+- id: ieee.pubid-to-parse.0258
+  identifier:
+    _type: pubid:ieee:standard
+    number: '50'
+    year: '2005'
+    relationships:
+    - relationship_type: previously_designated_as
+    prefix: C
+    parts:
+    - '12'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std C50.12-2005
+    urn: urn:ieee:ieee:C50.12:2005:rel.Previously designated as ANSI C50.12-1982
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C50.12-2005 (Previously designated as ANSI C50.12-1982)
+    style: v3
+- id: ieee.pubid-to-parse.0259
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    year: '2018'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '110'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std C57.110-2018
+    urn: urn:ieee:ieee:C57.110:2018:rel.Revision of IEEE Std C57.110-2008
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C57.110&#x2122;-2018 (Revision of IEEE Std C57.110-2008)
+    style: v3
+- id: ieee.pubid-to-parse.0260
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    year: '2016'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '12'
+    - '24'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std C57.12.24-2016
+    urn: urn:ieee:ieee:C57.12.24:2016:rel.Revision of IEEE Std C57.12.24-2009
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C57.12.24-2016 (Revison of IEEE Std C57.12.24-2009)
+    style: v3
+- id: ieee.pubid-to-parse.0261
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    year: '2016'
+    redline: true
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '12'
+    - '24'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std C57.12.24-2016 - Redline
+    urn: urn:ieee:ieee:C57.12.24:2016:redline:rel.Revision of IEEE Std C57.12.24-2009
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C57.12.24-2016 (Revison of IEEE Std C57.12.24-2009) - Redline
+    style: v3
+- id: ieee.pubid-to-parse.0262
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    year: '2009'
+    parenthetical_content: Revision of IEEE Std C57.12.60-1998
+    prefix: C
+    parts:
+    - '12'
+    - '60'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std C57.12.60-2009 (Revision of IEEE Std C57.12.60-1998)
+    urn: urn:ieee:ieee:C57.12.60:2009
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C57.12.60-2009 ( Revision of IEEE Std C57.12.60-1998)
+    style: v3
+- id: ieee.pubid-to-parse.0263
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    year: '2015'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '94'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std C57.94-2015
+    urn: urn:ieee:ieee:C57.94:2015:rel.Revision of IEEE Std C57.94-1982
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C57.94-2015 (Revison of IEEE Std C57.94-1982)
+    style: v3
+- id: ieee.pubid-to-parse.0264
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    year: '2015'
+    redline: true
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '94'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std C57.94-2015 - Redline
+    urn: urn:ieee:ieee:C57.94:2015:redline:rel.Revision of IEEE Std C57.94-1982
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C57.94-2015 (Revison of IEEE Std C57.94-1982) - Redline
+    style: v3
+- id: ieee.pubid-to-parse.0265
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    year: '2008'
+    base:
+      _type: pubid:ieee:standard
+      number: '62'
+      year: '2003'
+      prefix: C
+      parts:
+      - '21'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std C62.21-2003/Cor. 1-2008
+    urn: urn:ieee:ieee:2008
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std. C62.21-2003/Cor 1-2008 (Corrigendum to IEEE Std C62.21-2003)
+    style: v3
+- id: ieee.pubid-to-parse.0266
+  identifier:
+    _type: pubid:ieee:standard
+    number: '62'
+    year: '2010'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '35'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std C62.35-2010
+    urn: urn:ieee:ieee:C62.35:2010:rel.Revision of IEEE Std C62.35-1987
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C62.35- 2010 (Revision of IEEE Std C62.35-1987)
+    style: v3
+- id: ieee.pubid-to-parse.0267
+  identifier:
+    _type: pubid:ieee:standard
+    number: '62'
+    year: '2005'
+    relationships:
+    - relationship_type: revision_of
+    reaffirmed: '2010'
+    prefix: C
+    parts:
+    - '43'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std C62.43-2005 (R2010)
+    urn: urn:ieee:ieee:C62.43:2005:rel.Revision of IEEE Std C62.43-1999:reaff.2010
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C62.43-2005 (R2010) (Revision of IEEE Std C62.43-1999)
+    style: v3
+- id: ieee.pubid-to-parse.0268
+  identifier:
+    _type: pubid:ieee:standard
+    number: C2
+    prefix: P
+    parts:
+    - '2016'
+    - '01'
+    separator: "-"
+    stage: Std
+  representations:
+    human: IEEE Std PC2-2016-01
+    urn: urn:ieee:ieee:PC2-2016-01
+  style: v3
+  non_normalized_aliases:
+  - spelling: Draft National Electrical Safety Code, January 2016
+    style: v3
+- id: ieee.pubid-to-parse.0269
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: C37
+      draft: D1.1, February, 2021
+      prefix: P
+      parts:
+      - '04'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std PC37.04/D1.1, February, 2021/Cor. 1
+    urn: urn:ieee:ieee
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE PC37.04 Cor. 1/D1.1, February 2021
+    style: v3
+- id: ieee.pubid-to-parse.0270
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: C37
+      draft: D1.4, May 2021
+      prefix: P
+      parts:
+      - '04'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std PC37.04/D1.4, May 2021/Cor. 1
+    urn: urn:ieee:ieee
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE PC37.04 Cor. 1/D1.4, May 2021
+    style: v3
+- id: ieee.pubid-to-parse.0271
+  identifier:
+    _type: pubid:ieee:standard
+    number: C37
+    draft: D04, August, 2019
+    prefix: P
+    parts:
+    - '20'
+    - 1a
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std PC37.20.1a/D04, August, 2019
+    urn: urn:ieee:ieee:PC37.20.1a:draft./D04, August, 2019
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE PC37.20.1a/04, August 2019
+    style: v3
+- id: ieee.pubid-to-parse.0272
+  identifier:
+    _type: pubid:ieee:standard
+    number: C37
+    year: '2015'
+    draft: D043
+    revision: '18'
+    prefix: P
+    parts:
+    - '30'
+    - '2'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std PC37.30.2Rev18/D043
+    urn: urn:ieee:ieee:PC37.30.2:2015:draft./D043
+  style: v3
+  non_normalized_aliases:
+  - spelling: PC37.30.2/D043 Rev 18, May 2015
+    style: v3
+- id: ieee.pubid-to-parse.0273
+  identifier:
+    _type: pubid:ieee:standard
+    number: C37
+    year: '2013'
+    draft: D03
+    revision: '8'
+    month: October
+    prefix: P
+    parts:
+    - '30'
+    - '2'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std PC37.30.2Rev8/D03, October 2013
+    urn: urn:ieee:ieee:PC37.30.2:2013:draft./D03:October
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE PC37.30.2/D03 Rev 8, October 2013
+    style: v3
+- id: ieee.pubid-to-parse.0274
+  identifier:
+    _type: pubid:ieee:standard
+    number: C37
+    draft: D6.1, June 2012
+    parenthetical_content: Approved Draft
+    prefix: P
+    parts:
+    - '90'
+    - '1'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Std PC37.90.1/D6.1, June 2012 (Approved Draft)
+    urn: urn:ieee:ieee:PC37.90.1:draft./D6.1, June 2012
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE PC37.90.1/D6.1, June 2012 (Approved Draft)
+    style: v3
+- id: ieee.pubid-to-parse.0275
+  identifier:
+    _type: pubid:ieee:standard
+    number: S-135
+    parenthetical_content: IPCEA P46-426
+    stage: Std
+  representations:
+    human: IEEE Std S-135 (IPCEA P46-426)
+    urn: urn:ieee:ieee:S-135
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE S-135 (IPCEA P46-426)
+    style: v3
+- id: ieee.pubid-to-parse.0276
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1003'
+    type: Draft Std
+    draft_status: Unapproved
+    draft: D5.1, May 2008
+    prefix: P
+    parts:
+    - '1'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Unapproved Draft P1003.1/D5.1, May 2008
+    urn: urn:ieee:ieee:draft.std:P1003.1:draft./D5.1, May 2008:unapproved
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Unapproved Draft Std P1003.1 Draft 5.1, May 2008
+    style: v3
+- id: ieee.pubid-to-parse.0277
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    type: Draft Std
+    draft_status: Unapproved
+    draft: D2.0, Oct 2007
+    prefix: P
+    parts:
+    - '3'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Unapproved Draft P802.3/D2.0, Oct 2007
+    urn: urn:ieee:ieee:draft.std:P802.3:draft./D2.0, Oct 2007:unapproved
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Unapproved Draft Std P802.3/D2.0, Oct 2007.pdf
+    style: v3
+- id: ieee.pubid-to-parse.0278
+  identifier:
+    _type: pubid:ieee:standard
+    number: C37
+    type: Draft Std
+    draft_status: Unapproved
+    draft: D4.0, Mar 2007
+    prefix: P
+    parts:
+    - '235'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Unapproved Draft PC37.235/D4.0, Mar 2007
+    urn: urn:ieee:ieee:draft.std:PC37.235:draft./D4.0, Mar 2007:unapproved
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Unapproved Draft Std PC37.235/D4.0, Mar 2007.pdf
+    style: v3
+- id: ieee.pubid-to-parse.0279
+  identifier:
+    _type: pubid:ieee:standard
+    number: '15289'
+    type: Draft Std
+    draft_status: Unapproved
+    draft: D6
+    prefix: P
+    stage: D4
+  representations:
+    human: IEEE Unapproved P15289/D6
+    urn: urn:ieee:ieee:draft.std:P15289:draft./D6:unapproved
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Unapproved Draft Std P15289, 06
+    style: v3
+- id: ieee.pubid-to-parse.0280
+  identifier:
+    _type: pubid:ieee:standard
+    number: '90003'
+    draft_status: Unapproved
+    draft: D1, Feb 2007
+    prefix: P
+    stage: D1
+  representations:
+    human: IEEE Unapproved P90003/D1, Feb 2007
+    urn: urn:ieee:ieee:P90003:draft./D1, Feb 2007:unapproved
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Unapproved Std P90003/D1, Feb 2007.pdf
+    style: v3
+- id: ieee.pubid-to-parse.0281
+  identifier:
+    _type: pubid:ieee:si-standard
+    number: '10'
+    typed_stage:
+      abbr:
+      - PSI
+      stage_code: draft
+      type_code: SI
+    copublisher:
+    - ASTM
+    year: '2010'
+    draft: D2
+    month: October
+  representations:
+    human: IEEE/ASTM PSI 10/D2, October 2010
+    urn: urn:ieee:ieee-astm:si:10:2010:draft./D2:October
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE PSI 10/D2, October 2010
+    style: v3
+- id: ieee.pubid-to-parse.0282
+  identifier:
+    _type: pubid:ieee:si-standard
+    number: '10'
+    typed_stage:
+      abbr:
+      - PSI
+      stage_code: draft
+      type_code: SI
+    copublisher:
+    - ASTM
+    year: '2015'
+    draft: D2
+    month: October
+  representations:
+    human: IEEE/ASTM PSI 10/D2, October 2015
+    urn: urn:ieee:ieee-astm:si:10:2015:draft./D2:October
+  roundtrip: false
+  style: v3
+- id: ieee.pubid-to-parse.0283
+  identifier:
+    _type: pubid:ieee:si-standard
+    number: '10'
+    typed_stage:
+      abbr:
+      - PSI
+      stage_code: draft
+      type_code: SI
+    copublisher:
+    - ASTM
+    year: '2010'
+    draft: D3
+    month: October
+  representations:
+    human: IEEE/ASTM PSI 10/D3, October 2010
+    urn: urn:ieee:ieee-astm:si:10:2010:draft./D3:October
+  roundtrip: false
+  style: v3
+- id: ieee.pubid-to-parse.0284
+  identifier:
+    _type: pubid:ieee:si-standard
+    number: '10'
+    typed_stage:
+      abbr:
+      - PSI
+      stage_code: draft
+      type_code: SI
+    copublisher:
+    - ASTM
+    year: '2015'
+    draft: D3
+    month: October
+  representations:
+    human: IEEE/ASTM PSI 10/D3, October 2015
+    urn: urn:ieee:ieee-astm:si:10:2015:draft./D3:October
+  roundtrip: false
+  style: v3
+- id: ieee.pubid-to-parse.0285
+  identifier:
+    _type: pubid:ieee:si-standard
+    number: '10'
+    typed_stage:
+      abbr:
+      - SI
+      stage_code: published
+      type_code: SI
+    copublisher:
+    - ASTM
+    year: '1997'
+  representations:
+    human: IEEE/ASTM SI 10-1997
+    urn: urn:ieee:ieee-astm:si:10:1997
+  style: v3
+- id: ieee.pubid-to-parse.0286
+  identifier:
+    _type: pubid:ieee:si-standard
+    number: '10'
+    typed_stage:
+      abbr:
+      - SI
+      stage_code: published
+      type_code: SI
+    copublisher:
+    - ASTM
+    year: '2002'
+    relationships:
+    - relationship_type: revision_of
+  representations:
+    human: IEEE/ASTM SI 10-2002
+    urn: urn:ieee:ieee-astm:si:10:2002:rel.Revision of IEEE/ASTM SI 10-1997
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE/ASTM SI 10-2002 (Revision of IEEE/ASTM SI 10-1997)
+    style: v3
+- id: ieee.pubid-to-parse.0287
+  identifier:
+    _type: pubid:ieee:si-standard
+    number: '10'
+    typed_stage:
+      abbr:
+      - SI
+      stage_code: published
+      type_code: SI
+    copublisher:
+    - ASTM
+    year: '2010'
+    relationships:
+    - relationship_type: revision_of
+  representations:
+    human: IEEE/ASTM SI 10-2010
+    urn: urn:ieee:ieee-astm:si:10:2010:rel.Revision of IEEE/ASTM SI 10-2002
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE/ ASTM SI 10-2010 (Revision of IEEE/ASTM SI 10-2002)
+    style: v3
+- id: ieee.pubid-to-parse.0288
+  identifier:
+    _type: pubid:ieee:si-standard
+    number: '10'
+    typed_stage:
+      abbr:
+      - SI
+      stage_code: published
+      type_code: SI
+    copublisher:
+    - ASTM
+    year: '2016'
+    relationships:
+    - relationship_type: revision_of
+  representations:
+    human: IEEE/ASTM SI 10-2016
+    urn: urn:ieee:ieee-astm:si:10:2016:rel.Revision of IEEE/ASTM SI 10-2010
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE/ASTM SI 10-2016 (Revision of IEEE/ASTM SI 10-2010)
+    style: v3
+- id: ieee.pubid-to-parse.0289
+  identifier:
+    _type: pubid:ieee:standard
+    number: '844'
+    copublisher:
+    - CSA
+    draft: D2, September, 2016
+    parts:
+    - '1'
+    separator: "."
+    stage: D2
+  representations:
+    human: IEEE/CSA P844.1/D2, September, 2016
+    urn: urn:ieee:ieee-csa:844.1:draft./D2, September, 2016
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE/CSA P844.1/293.1/D2, September 2016
+    style: v3
+- id: ieee.pubid-to-parse.0290
+  identifier:
+    _type: pubid:ieee:standard
+    number: '844'
+    copublisher:
+    - CSA
+    draft: D3, February, 2017
+    parts:
+    - '1'
+    separator: "."
+    stage: D2
+  representations:
+    human: IEEE/CSA P844.1/D3, February, 2017
+    urn: urn:ieee:ieee-csa:844.1:draft./D3, February, 2017
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE/CSA P844.1/293.1/D3, February 2017
+    style: v3
+- id: ieee.pubid-to-parse.0291
+  identifier:
+    _type: pubid:ieee:standard
+    number: '844'
+    copublisher:
+    - CSA
+    draft: D4, July 2017
+    parts:
+    - '1'
+    separator: "."
+    stage: D4
+  representations:
+    human: IEEE/CSA P844.1/D4, July 2017
+    urn: urn:ieee:ieee-csa:844.1:draft./D4, July 2017
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE/CSA P844.1/293.1/D4, July 2017
+    style: v3
+- id: ieee.pubid-to-parse.0292
+  identifier:
+    _type: pubid:ieee:standard
+    number: '844'
+    copublisher:
+    - CSA
+    draft: D2, September, 2016
+    parts:
+    - '2'
+    separator: "."
+    stage: D2
+  representations:
+    human: IEEE/CSA P844.2/D2, September, 2016
+    urn: urn:ieee:ieee-csa:844.2:draft./D2, September, 2016
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE/CSA P844.2/293.2/D2, September 2016
+    style: v3
+- id: ieee.pubid-to-parse.0293
+  identifier:
+    _type: pubid:ieee:standard
+    number: '844'
+    copublisher:
+    - CSA
+    draft: D3, February, 2017
+    parts:
+    - '2'
+    separator: "."
+    stage: D2
+  representations:
+    human: IEEE/CSA P844.2/D3, February, 2017
+    urn: urn:ieee:ieee-csa:844.2:draft./D3, February, 2017
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE/CSA P844.2/293.2/D3, February 2017
+    style: v3
+- id: ieee.pubid-to-parse.0294
+  identifier:
+    _type: pubid:ieee:standard
+    number: '12207'
+    copublisher:
+    - EIA
+    year: '1996'
+    parts:
+    - '0'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE/EIA Std 12207.0-1996
+    urn: urn:ieee:ieee-eia:12207.0:1996
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE/EIA 12207.0-1996
+    style: v3
+- id: ieee.pubid-to-parse.0295
+  identifier:
+    _type: pubid:ieee:standard
+    number: '12207'
+    copublisher:
+    - EIA
+    year: '1997'
+    parts:
+    - '1'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE/EIA Std 12207.1-1997
+    urn: urn:ieee:ieee-eia:12207.1:1997
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE/EIA 12207.1-1997
+    style: v3
+- id: ieee.pubid-to-parse.0296
+  identifier:
+    _type: pubid:ieee:standard
+    number: '12207'
+    copublisher:
+    - EIA
+    year: '1997'
+    parts:
+    - '2'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE/EIA Std 12207.2-1997
+    urn: urn:ieee:ieee-eia:12207.2:1997
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE/EIA 12207.2-1997
+    style: v3
+- id: ieee.pubid-to-parse.0297
+  identifier:
+    _type: pubid:ieee:joint-development
+    number: '62582'
+    year: '2017'
+    month: '05'
+    publishers:
+    - IEEE
+    - IEC
+    lead_party: ISO
+    iso_stage: CD2
+    stage: CD
+  representations:
+    human: IEEE/IEC CD 62582:2017
+    urn: urn:ieee:ieee-iec:62582:2017:05
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE/IEC P62582 CD2 proposal, May 2017
+    style: v3
+- id: ieee.pubid-to-parse.0298
+  identifier:
+    _type: pubid:ieee:joint-development
+    number: '42010'
+    year: '2020'
+    month: '04'
+    publishers:
+    - IEEE
+    - ISO
+    - IEC
+    lead_party: ISO
+    iso_stage: CD1
+    stage: CD
+  representations:
+    human: IEEE/ISO/IEC CD 42010:2020
+    urn: urn:ieee:ieee-iso-iec:42010:2020:04
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE/ISO/IEC P42010.CD1-V1.0, April 2020
+    style: v3
+- id: ieee.pubid-to-parse.0299
+  identifier:
+    _type: pubid:ieee:standard
+    number: '10038'
+    publisher: ISO
+    copublisher:
+    - IEC
+    year: '1993'
+    stage: Std
+  representations:
+    human: ISO/IEC 10038-1993
+    urn: urn:ieee:iso-iec:10038:1993
+  style: v3
+  non_normalized_aliases:
+  - spelling: 'ISO/IEC 10038-1993: Information technology-Telecommunications and information
+      exchange between systems - Local area networks - Media access control (MAC)
+      bridges'
+    style: v3
+- id: ieee.pubid-to-parse.0300
+  identifier:
+    _type: pubid:ieee:standard
+    number: '23026'
+    publisher: ISO
+    copublisher:
+    - IEC
+    parenthetical_content: IEEE Std 2001-2002, First edition
+    stage: Std
+  representations:
+    human: ISO/IEC 23026 (IEEE Std 2001-2002, First edition)
+    urn: urn:ieee:iso-iec:23026
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC 23026; IEEE Std 2001-2002, First edition
+    style: v3
+- id: ieee.pubid-to-parse.0301
+  identifier:
+    _type: pubid:ieee:standard
+    number: '13210'
+    publisher: ISO
+    copublisher:
+    - IEC
+    - IEEE
+    year: '1994'
+    stage: Std
+  representations:
+    human: ISO/IEC/IEEE 13210-1994
+    urn: urn:ieee:iso-iec-ieee:13210:1994
+  style: v3
+  non_normalized_aliases:
+  - spelling: 'ISO/IEC13210: 1994 (E) ANSI/IEEE Std 1003.3-1991'
+    style: v3
+- id: ieee.pubid-to-parse.0302
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '15026'
+    publisher: ISO
+    type: P
+    copublisher:
+    - IEC
+    - IEEE
+    draft: D1-CD, February, 2020
+    parts:
+    - '2'
+    separator: "-"
+    stage: P
+  representations:
+    human: ISO/IEC/IEEE 15026-2/D1-CD, February, 2020
+    urn: urn:ieee:iso-iec-ieee:p:15026-2:draft./D1-CD, February, 2020
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC/IEEE P15026-2/D1-CD, February 2020
+    style: v3
+- id: ieee.pubid-to-parse.0303
+  identifier:
+    _type: pubid:ieee:standard
+    number: '16326'
+    publisher: ISO
+    copublisher:
+    - IEC
+    - IEEE
+    parenthetical_content: First edition 2009-12-15
+    stage: Std
+  representations:
+    human: ISO/IEC/IEEE 16326 (First edition 2009-12-15)
+    urn: urn:ieee:iso-iec-ieee:16326
+  style: v3
+- id: ieee.pubid-to-parse.0304
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '16326'
+    publisher: ISO
+    type: P
+    copublisher:
+    - IEC
+    - IEEE
+    draft: D4a
+    parts:
+    - '2017'
+    - '07'
+    separator: "-"
+    stage: P
+  representations:
+    human: ISO/IEC/IEEE 16326-2017-07/D4a
+    urn: urn:ieee:iso-iec-ieee:p:16326-2017-07:draft./D4a
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC/IEEE P16326:201x WD.4a, July 2017
+    style: v3
+- id: ieee.pubid-to-parse.0305
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '16326'
+    publisher: ISO
+    type: P
+    copublisher:
+    - IEC
+    - IEEE
+    draft: D5
+    parts:
+    - '2017'
+    - '12'
+    separator: "-"
+    stage: D4
+  representations:
+    human: ISO/IEC/IEEE 16326-2017-12/D5
+    urn: urn:ieee:iso-iec-ieee:p:16326-2017-12:draft./D5
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC/IEEE P16326:201x WD5, December 2017
+    style: v3
+- id: ieee.pubid-to-parse.0306
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '29119'
+    publisher: ISO
+    type: P
+    copublisher:
+    - IEC
+    - IEEE
+    parts:
+    - '4'
+    - DISMay2013
+    separator: "."
+    stage: P
+  representations:
+    human: ISO/IEC/IEEE 29119.4.DISMay2013
+    urn: urn:ieee:iso-iec-ieee:p:29119.4.DISMay2013
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC/IEEE P29119-4-DISMay2013
+    style: v3
+- id: ieee.pubid-to-parse.0307
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '29119'
+    publisher: ISO
+    type: P
+    copublisher:
+    - IEC
+    - IEEE
+    year: '2015'
+    month: April
+    parts:
+    - '4'
+    - FDIS
+    separator: "."
+    stage: P
+  representations:
+    human: ISO/IEC/IEEE 29119.4.FDIS, April 2015
+    urn: urn:ieee:iso-iec-ieee:p:29119.4.FDIS:2015:April
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC/IEEE P29119-4-FDIS April 2015
+    style: v3
+- id: ieee.pubid-to-parse.0308
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '29119'
+    publisher: ISO
+    type: P
+    copublisher:
+    - IEC
+    - IEEE
+    year: '2014'
+    month: April
+    parts:
+    - '5'
+    - CD1
+    separator: "."
+    stage: P
+  representations:
+    human: ISO/IEC/IEEE 29119.5.CD1, April 2014
+    urn: urn:ieee:iso-iec-ieee:p:29119.5.CD1:2014:April
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC/IEEE P29119-5-CD1 April 2014
+    style: v3
+- id: ieee.pubid-to-parse.0309
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '42020'
+    publisher: ISO
+    type: P
+    copublisher:
+    - IEC
+    - IEEE
+    draft: DV1.9, August, 2018
+    stage: P
+  representations:
+    human: ISO/IEC/IEEE 42020/DV1.9, August, 2018
+    urn: urn:ieee:iso-iec-ieee:p:42020:draft./DV1.9, August, 2018
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC/IEEE P42020/V1.9, August 2018
+    style: v3
+- id: ieee.pubid-to-parse.0310
+  identifier:
+    _type: pubid:ieee:amendment
+    number: '5'
+    year: '2012'
+    base:
+      _type: pubid:ieee:standard
+      number: '802'
+      publisher: ISO
+      copublisher:
+      - IEC
+      - IEEE
+      parts:
+      - '11'
+      separator: "."
+      stage: Std
+  representations:
+    human: ISO/IEC/IEEE 802.11/Amd 5-2012
+    urn: urn:ieee:iso:2012
+  style: v3
+  non_normalized_aliases:
+  - spelling: IS0/IEC/IEEE 8802-11:2012/Amd.5:2015(E) (Adoption of IEEE Std 802.11af-2014)
+    style: v2
+- id: ieee.pubid-to-parse.0311
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    publisher: ISO
+    copublisher:
+    - IEC
+    - IEEE
+    year: '1996'
+    parts:
+    - '9'
+    separator: "."
+    stage: Std
+  representations:
+    human: ISO/IEC/IEEE 802.9-1996
+    urn: urn:ieee:iso-iec-ieee:802.9:1996
+  style: v3
+  non_normalized_aliases:
+  - spelling: 'International Standard ISO/IEC 8802-9: 1996(E) ANSI/IEEE Std 802.9,
+      1996 Edition'
+    style: v3
+- id: ieee.pubid-to-parse.0312
+  identifier:
+    _type: pubid:ieee:joint-development
+    number: '12207'
+    year: '2019'
+    month: '02'
+    parts:
+    - '2'
+    separator: "."
+    publishers:
+    - ISO
+    - IEC
+    - IEEE
+    lead_party: ISO
+    iso_stage: CD2
+    stage: CD
+  representations:
+    human: ISO/IEC/IEEE CD 12207.2:2019
+    urn: urn:ieee:iso-iec-ieee:12207.2:2019:02
+  style: v3
+  non_normalized_aliases:
+  - spelling: 'ISO/IEC/IEEE CD2 P12207-2: 201x(E), February 2019'
+    style: v3
+- id: ieee.pubid-to-parse.0313
+  identifier:
+    _type: pubid:ieee:joint-development
+    number: '15026'
+    parts:
+    - '4'
+    separator: "."
+    publishers:
+    - ISO
+    - IEC
+    - IEEE
+    lead_party: ISO
+    iso_stage: CD3
+    stage: CD
+  representations:
+    human: ISO/IEC/IEEE CD 15026.4
+    urn: urn:ieee:iso-iec-ieee:15026.4
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC/IEEE CD3 P15026-4
+    style: v3
+- id: ieee.pubid-to-parse.0314
+  identifier:
+    _type: pubid:ieee:joint-development
+    number: '21839'
+    year: '2017'
+    month: '10'
+    publishers:
+    - ISO
+    - IEC
+    - IEEE
+    lead_party: ISO
+    iso_stage: CD1
+    stage: CD
+  representations:
+    human: ISO/IEC/IEEE CD 21839:2017
+    urn: urn:ieee:iso-iec-ieee:21839:2017:10
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC/IEEE CD.1 P21839, October 2017
+    style: v3
+- id: ieee.pubid-to-parse.0315
+  identifier:
+    _type: pubid:ieee:joint-development
+    number: '16326'
+    year: '2018'
+    month: '12'
+    publishers:
+    - ISO
+    - IEC
+    - IEEE
+    lead_party: ISO
+    iso_stage: DIS
+    stage: DIS
+  representations:
+    human: ISO/IEC/IEEE DIS 16326:2018
+    urn: urn:ieee:iso-iec-ieee:16326:2018:12
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC/IEEE DIS P16326/201x, December 2018
+    style: v3
+- id: ieee.pubid-to-parse.0316
+  identifier:
+    _type: pubid:ieee:joint-development
+    number: '42020'
+    year: '2017'
+    month: '06'
+    publishers:
+    - ISO
+    - IEC
+    - IEEE
+    lead_party: ISO
+    iso_stage: DIS
+    stage: DIS
+  representations:
+    human: ISO/IEC/IEEE DIS 42020:2017
+    urn: urn:ieee:iso-iec-ieee:42020:2017:06
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC/IEEE DIS P42020:201x(E), June 2017
+    style: v3
+- id: ieee.pubid-to-parse.0317
+  identifier:
+    _type: pubid:ieee:joint-development
+    number: '15288'
+    year: '2007'
+    publishers:
+    - ISO
+    - IEC
+    - IEEE
+    lead_party: ISO
+    iso_stage: FDIS
+    ieee_draft: D3
+    stage: FDIS
+  representations:
+    human: ISO/IEC/IEEE FDIS 15288:2007
+    urn: urn:ieee:iso-iec-ieee:15288:2007
+  style: v3
+  non_normalized_aliases:
+  - spelling: Unapproved Draft Std ISO/IEC FDIS 15288:2007(E) IEEE P15288/D3,
+    style: v3
+- id: ieee.pubid-to-parse.0318
+  identifier:
+    _type: pubid:ieee:standard
+    number: '15026'
+    publisher: ISO
+    copublisher:
+    - IEC
+    - IEEE
+    draft: DDIS January, 2015
+    prefix: P
+    parts:
+    - '3'
+    separator: "-"
+    stage: Std
+  representations:
+    human: ISO/IEC/IEEE P15026-3/DDIS January, 2015
+    urn: urn:ieee:iso-iec-ieee:P15026-3:draft./DDIS January, 2015
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE-P15026-3-DIS-January 2015
+    style: v3
+- id: ieee.pubid-to-parse.0319
+  identifier:
+    _type: pubid:ieee:joint-development
+    number: '21839'
+    type: P
+    parts:
+    - '2019'
+    separator: "."
+    publishers:
+    - ISO
+    - IEC
+    - IEEE
+    lead_party: IEEE
+    stage: P
+  representations:
+    human: ISO/IEC/IEEE P21839.2019/P
+    urn: urn:ieee:iso-iec-ieee:p:21839.2019
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC/IEEE/P21839, 2019(E)
+    style: v3
+- id: ieee.pubid-to-parse.0320
+  identifier:
+    _type: pubid:ieee:joint-development
+    number: '21840'
+    type: P
+    year: '2019'
+    publishers:
+    - ISO
+    - IEC
+    - IEEE
+    lead_party: IEEE
+    stage: P
+  representations:
+    human: ISO/IEC/IEEE P21840/P-2019
+    urn: urn:ieee:iso-iec-ieee:p:21840:2019
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC/IEEE P21840, DIS-2019
+    style: v3
+- id: ieee.pubid-to-parse.0321
+  identifier:
+    _type: pubid:ieee:joint-development
+    number: '42010'
+    type: P
+    parts:
+    - '2019'
+    separator: "."
+    publishers:
+    - ISO
+    - IEC
+    - IEEE
+    lead_party: IEEE
+    ieee_draft: D4
+    stage: P
+  representations:
+    human: ISO/IEC/IEEE P42010.2019/D4
+    urn: urn:ieee:iso-iec-ieee:p:42010.2019
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC/IEEE P42010.WD4:2019(E)
+    style: v3
+- id: ieee.pubid-to-parse.0322
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '57'
+      publisher: USAS
+      year: '1968'
+      relationships:
+      - relationship_type: revision_of
+      prefix: C
+      parts:
+      - '12'
+      - '00'
+      separator: "."
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '57'
+      year: '1966'
+      prefix: C
+      parts:
+      - '12'
+      - 00a
+      separator: "."
+      stage: Std
+  representations:
+    human: USAS C57.12.00-1968 and IEEE Std C57.12.00a-1966
+    urn: urn:ieee:["usas", "ieee"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: USAS C57.12.00-1968 (Revision of C57.12.00-1965 &amp; C57.12.00a-1966)
+    style: v3

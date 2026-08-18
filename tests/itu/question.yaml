@@ -1,0 +1,422 @@
+---
+- id: itu.question.0001
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    number: '118'
+    parts:
+    - '3'
+    study_group: '4'
+    has_colon: true
+  representations:
+    human: 'ITU-R 118-3/4:'
+    urn: urn:itu:r:118-3
+  style: v3
+- id: itu.question.0002
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    number: '148'
+    study_group: '6'
+    has_colon: true
+  representations:
+    human: 'ITU-R 148/6:'
+    urn: urn:itu:r:148
+  style: v3
+- id: itu.question.0003
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    number: '202'
+    parts:
+    - '4'
+    study_group: '1'
+    has_colon: true
+  representations:
+    human: 'ITU-R 202-4/1:'
+    urn: urn:itu:r:202-4
+  style: v3
+- id: itu.question.0004
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    number: '231'
+    parts:
+    - '1'
+    study_group: '7'
+    has_colon: true
+  representations:
+    human: 'ITU-R 231-1/7:'
+    urn: urn:itu:r:231-1
+  style: v3
+- id: itu.question.0005
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    number: '234'
+    parts:
+    - '1'
+    study_group: '7'
+    has_colon: true
+  representations:
+    human: 'ITU-R 234-1/7:'
+    urn: urn:itu:r:234-1
+  style: v3
+- id: itu.question.0006
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    number: '237'
+    study_group: '3'
+    has_colon: true
+  representations:
+    human: 'ITU-R 237/3:'
+    urn: urn:itu:r:237
+  style: v3
+- id: itu.question.0007
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    number: '247'
+    study_group: '7'
+    has_colon: true
+  representations:
+    human: 'ITU-R 247/7:'
+    urn: urn:itu:r:247
+  style: v3
+- id: itu.question.0008
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    number: '265'
+    study_group: '5'
+    has_colon: true
+  representations:
+    human: 'ITU-R 265/5:'
+    urn: urn:itu:r:265
+  style: v3
+- id: itu.question.0009
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    number: '266'
+    study_group: '5'
+    has_colon: true
+  representations:
+    human: 'ITU-R 266/5:'
+    urn: urn:itu:r:266
+  style: v3
+- id: itu.question.0010
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    number: '37'
+    parts:
+    - '7'
+    study_group: '5'
+    has_colon: true
+  representations:
+    human: 'ITU-R 37-7/5:'
+    urn: urn:itu:r:37-7
+  style: v3
+- id: itu.question.0011
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: BO
+    number: '4'
+    study_group: '4'
+    has_bl: true
+  representations:
+    human: ITU-R BO.4/BL/4
+    urn: urn:itu:r:BO.4
+  style: v3
+- id: itu.question.0012
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: BT
+    number: '6'
+    study_group: '132'
+  representations:
+    human: ITU-R BT.6/132
+    urn: urn:itu:r:BT.6
+  style: v3
+- id: itu.question.0013
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: BT
+    number: '6'
+    study_group: '35'
+  representations:
+    human: ITU-R BT.6/35
+    urn: urn:itu:r:BT.6
+  style: v3
+- id: itu.question.0014
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: M
+    number: '4'
+    study_group: '6'
+    has_bl: true
+  representations:
+    human: ITU-R M.4/BL/6
+    urn: urn:itu:r:M.4
+  style: v3
+- id: itu.question.0015
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: M
+    number: '4'
+    study_group: '7'
+    has_bl: true
+  representations:
+    human: ITU-R M.4/BL/7
+    urn: urn:itu:r:M.4
+  style: v3
+- id: itu.question.0016
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: M
+    number: '5'
+    study_group: '325'
+  representations:
+    human: ITU-R M.5/325
+    urn: urn:itu:r:M.5
+  style: v3
+- id: itu.question.0017
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: M
+    number: '5'
+    study_group: '10'
+    has_bl: true
+    has_colon: true
+  representations:
+    human: 'ITU-R M.5/BL/10:'
+    urn: urn:itu:r:M.5
+  style: v3
+- id: itu.question.0018
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: M
+    number: '5'
+    study_group: '16'
+    has_bl: true
+  representations:
+    human: ITU-R M.5/BL/16
+    urn: urn:itu:r:M.5
+  style: v3
+- id: itu.question.0019
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: M
+    number: '5'
+    study_group: '22'
+    has_bl: true
+  representations:
+    human: ITU-R M.5/BL/22
+    urn: urn:itu:r:M.5
+  style: v3
+- id: itu.question.0020
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: M
+    number: '5'
+    study_group: '6'
+    has_bl: true
+    has_colon: true
+  representations:
+    human: 'ITU-R M.5/BL/6:'
+    urn: urn:itu:r:M.5
+  style: v3
+- id: itu.question.0021
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: M
+    number: '5'
+    study_group: '9'
+    has_bl: true
+    has_colon: true
+  representations:
+    human: 'ITU-R M.5/BL/9:'
+    urn: urn:itu:r:M.5
+  style: v3
+- id: itu.question.0022
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: P
+    number: '3'
+    study_group: '94'
+  representations:
+    human: ITU-R P.3/94
+    urn: urn:itu:r:P.3
+  style: v3
+- id: itu.question.0023
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: P
+    number: '3'
+    study_group: '3'
+    has_bl: true
+  representations:
+    human: ITU-R P.3/BL/3
+    urn: urn:itu:r:P.3
+  style: v3
+- id: itu.question.0024
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: P
+    number: '3'
+    study_group: '7'
+    has_bl: true
+  representations:
+    human: ITU-R P.3/BL/7
+    urn: urn:itu:r:P.3
+  style: v3
+- id: itu.question.0025
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: P
+    number: '3'
+    study_group: '1'
+    has_bl: true
+    bracketed: true
+  representations:
+    human: ITU-R P.[3/BL/1]
+    urn: urn:itu:r:P.3
+  style: v3
+- id: itu.question.0026
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: RA
+    number: '7'
+    study_group: '13'
+    has_bl: true
+  representations:
+    human: ITU-R RA.7/BL/13
+    urn: urn:itu:r:RA.7
+  style: v3
+- id: itu.question.0027
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: RA
+    number: '7'
+    study_group: '7'
+    has_bl: true
+    bracketed: true
+  representations:
+    human: ITU-R RA.[7/BL/7]
+    urn: urn:itu:r:RA.7
+  style: v3
+- id: itu.question.0028
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: RS
+    number: '7'
+    study_group: '11'
+    has_bl: true
+    has_colon: true
+  representations:
+    human: 'ITU-R RS.7/BL/11:'
+    urn: urn:itu:r:RS.7
+  style: v3
+- id: itu.question.0029
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: S
+    number: '4'
+    study_group: '2'
+    has_bl: true
+    bracketed: true
+    has_colon: true
+  representations:
+    human: 'ITU-R S.[4/BL/2]:'
+    urn: urn:itu:r:S.4
+  style: v3
+- id: itu.question.0030
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: SM
+    number: '1'
+    study_group: '160'
+  representations:
+    human: ITU-R SM.1/160
+    urn: urn:itu:r:SM.1
+  style: v3
+- id: itu.question.0031
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: SM
+    number: '1'
+    study_group: '161'
+  representations:
+    human: ITU-R SM.1/161
+    urn: urn:itu:r:SM.1
+  style: v3
+- id: itu.question.0032
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: SM
+    number: '1'
+    study_group: '30'
+  representations:
+    human: ITU-R SM.1/30
+    urn: urn:itu:r:SM.1
+  style: v3
+- id: itu.question.0033
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: SM
+    number: '1'
+    study_group: '1'
+    has_bl: true
+  representations:
+    human: ITU-R SM.1/BL/1
+    urn: urn:itu:r:SM.1
+  style: v3
+- id: itu.question.0034
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: SM
+    number: '1'
+    study_group: '9'
+    has_bl: true
+  representations:
+    human: ITU-R SM.1/BL/9
+    urn: urn:itu:r:SM.1
+  style: v3
+- id: itu.question.0035
+  identifier:
+    _type: pubid:itu:question
+    sector: R
+    series: TF
+    number: '7'
+    study_group: '12'
+    has_bl: true
+  representations:
+    human: ITU-R TF.7/BL/12
+    urn: urn:itu:r:TF.7
+  style: v3

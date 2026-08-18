@@ -1,0 +1,261 @@
+---
+- id: itu.debt.3561002246643030580
+  input: "# ITU Annex-to-Special-Publication - Pass"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# ITU Annex-to-Special-Publication - Pass'': Expected one of [COMMON_TEXT_IDENTIFIER,
+    IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.3730591722813145441
+  input: "# Default English rendering only; localized renderings are not round-trip"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# Default English rendering only; localized renderings are not round-trip'':
+    Expected one of [COMMON_TEXT_IDENTIFIER, IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.2186270375204279018
+  input: '# (e.g. "Annexe au BE de l''UIT 1000-F" cannot be re-parsed).'
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# (e.g. "Annexe au BE de l''UIT 1000-F" cannot be re-parsed).'': Expected one
+    of [COMMON_TEXT_IDENTIFIER, IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.701659741859258163
+  input: '# Labelled annexes of Recommendations — "<recommendation> Annex <label>".'
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# Labelled annexes of Recommendations — "<recommendation> Annex <label>".'':
+    Expected one of [COMMON_TEXT_IDENTIFIER, IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.4609873782906594289
+  input: '# The label is a series letter, optionally with a digit ("F3") or a "+"
+    ("C+").'
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# The label is a series letter, optionally with a digit ("F3") or a "+" ("C+").'':
+    Expected one of [COMMON_TEXT_IDENTIFIER, IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.1504831917872446447
+  input: "# The annexed Recommendation may carry its own (earlier) date"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# The annexed Recommendation may carry its own (earlier) date'': Expected one
+    of [COMMON_TEXT_IDENTIFIER, IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.198080028793209813
+  input: "# An annex is a document in its own right, so it can carry a supplement"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# An annex is a document in its own right, so it can carry a supplement'': Expected
+    one of [COMMON_TEXT_IDENTIFIER, IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.271590502779624712
+  input: "# ITU-R Handbook - Pass"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# ITU-R Handbook - Pass'': Expected one of [COMMON_TEXT_IDENTIFIER, IDENTIFIER]
+    at line 1 char 1.'
+- id: itu.debt.3895732503859964135
+  input: "# Round-trip canonical forms: ITU-R <number>.HDB"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# Round-trip canonical forms: ITU-R <number>.HDB'': Expected one of [COMMON_TEXT_IDENTIFIER,
+    IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.1146780908306419351
+  input: "# ITU-R Question - Pass"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# ITU-R Question - Pass'': Expected one of [COMMON_TEXT_IDENTIFIER, IDENTIFIER]
+    at line 1 char 1.'
+- id: itu.debt.4215663955724428219
+  input: "# Round-trip canonical forms. Two families:"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# Round-trip canonical forms. Two families:'': Expected one of [COMMON_TEXT_IDENTIFIER,
+    IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.1161106452680275003
+  input: "#   numeric:        ITU-R <number>(-<part>)/<study-group>:"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''#   numeric:        ITU-R <number>(-<part>)/<study-group>:'': Expected one of
+    [COMMON_TEXT_IDENTIFIER, IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.4159007705208440511
+  input: "#   letter-series:  ITU-R <series>.<number>(/BL)?/<study-group>  (optional
+    [ ] and trailing :)"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''#   letter-series:  ITU-R <series>.<number>(/BL)?/<study-group>  (optional [
+    ] and trailing :)'': Expected one of [COMMON_TEXT_IDENTIFIER, IDENTIFIER] at line
+    1 char 1.'
+- id: itu.debt.3572671363883267298
+  input: "# --- numeric, with part ---"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# --- numeric, with part ---'': Expected one of [COMMON_TEXT_IDENTIFIER, IDENTIFIER]
+    at line 1 char 1.'
+- id: itu.debt.2842501098677857840
+  input: "# --- numeric, no part ---"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# --- numeric, no part ---'': Expected one of [COMMON_TEXT_IDENTIFIER, IDENTIFIER]
+    at line 1 char 1.'
+- id: itu.debt.1707466147239717886
+  input: "# --- letter-series, plain (series.number/study-group) ---"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# --- letter-series, plain (series.number/study-group) ---'': Expected one of
+    [COMMON_TEXT_IDENTIFIER, IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.2746058281733808831
+  input: "# --- letter-series, /BL/ segment ---"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# --- letter-series, /BL/ segment ---'': Expected one of [COMMON_TEXT_IDENTIFIER,
+    IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.724711046541280349
+  input: "# --- letter-series, /BL/ with trailing colon ---"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# --- letter-series, /BL/ with trailing colon ---'': Expected one of [COMMON_TEXT_IDENTIFIER,
+    IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.1841607566841086935
+  input: "# --- letter-series, bracketed ---"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# --- letter-series, bracketed ---'': Expected one of [COMMON_TEXT_IDENTIFIER,
+    IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.1536157801818482625
+  input: "# ITU Recommendation - Pass"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# ITU Recommendation - Pass'': Expected one of [COMMON_TEXT_IDENTIFIER, IDENTIFIER]
+    at line 1 char 1.'
+- id: itu.debt.1209804645202710004
+  input: "# Auto-generated by classify_fixtures.rb"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# Auto-generated by classify_fixtures.rb'': Expected one of [COMMON_TEXT_IDENTIFIER,
+    IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.2081283950317014659
+  input: "# ITU-R Reports — a publication series that numbers independently of"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# ITU-R Reports — a publication series that numbers independently of'': Expected
+    one of [COMMON_TEXT_IDENTIFIER, IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.4606968309437566936
+  input: "# Recommendations, so the leading word is part of the identifier."
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# Recommendations, so the leading word is part of the identifier.'': Expected
+    one of [COMMON_TEXT_IDENTIFIER, IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.3102674962112130622
+  input: '# Byte-exact round-trip forms only; the infix "ITU-R Report BT.2020-1"'
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# Byte-exact round-trip forms only; the infix "ITU-R Report BT.2020-1"'': Expected
+    one of [COMMON_TEXT_IDENTIFIER, IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.1005008322222667184
+  input: "# spelling normalizes to the leading form and lives in report_spec.rb."
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# spelling normalizes to the leading form and lives in report_spec.rb.'': Expected
+    one of [COMMON_TEXT_IDENTIFIER, IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.4589305140884794595
+  input: "# ITU Special Publication (Operational Bulletin) - Pass"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# ITU Special Publication (Operational Bulletin) - Pass'': Expected one of [COMMON_TEXT_IDENTIFIER,
+    IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.1566568272437397869
+  input: "# Round-trip canonical forms only. Legacy forms (ITU-T OB.X,"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# Round-trip canonical forms only. Legacy forms (ITU-T OB.X,'': Expected one
+    of [COMMON_TEXT_IDENTIFIER, IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.1418952250062171206
+  input: '# Operational Bulletin No. X) normalize to "ITU OB No. X" and are'
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# Operational Bulletin No. X) normalize to "ITU OB No. X" and are'': Expected
+    one of [COMMON_TEXT_IDENTIFIER, IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.2802608063901160675
+  input: "# covered by special_publication_spec.rb instead of round-trip fixtures."
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# covered by special_publication_spec.rb instead of round-trip fixtures.'':
+    Expected one of [COMMON_TEXT_IDENTIFIER, IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.4491650232165660013
+  input: '# ITU-T "(V##)" versioned recommendations (rec_name forms from ITU''s own
+    API)'
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# ITU-T "(V##)" versioned recommendations (rec_name forms from ITU''s own API)'':
+    Expected one of [COMMON_TEXT_IDENTIFIER, IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.3652422886446036186
+  input: "# Auto-generated during migration"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# Auto-generated during migration'': Expected one of [COMMON_TEXT_IDENTIFIER,
+    IDENTIFIER] at line 1 char 1.'
+- id: itu.debt.4011256967155434062
+  input: "# Source of truth for all identifiers"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''# Source of truth for all identifiers'': Expected one of [COMMON_TEXT_IDENTIFIER,
+    IDENTIFIER] at line 1 char 1.'

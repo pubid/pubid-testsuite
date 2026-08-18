@@ -1,0 +1,123 @@
+---
+- id: cen_cenelec.guide.0001
+  identifier:
+    _type: pubid:cencenelec:guide
+    number:
+      value: '1'
+    publisher:
+      body: CEN
+    type:
+      abbr: Guide
+  representations:
+    human: CEN Guide 1
+    urn: urn:cen:cen:1
+  style: v3
+- id: cen_cenelec.guide.0002
+  identifier:
+    _type: pubid:cencenelec:guide
+    number:
+      value: '15'
+    publisher:
+      body: CEN
+    type:
+      abbr: Guide
+  representations:
+    human: CEN Guide 15
+    urn: urn:cen:cen:15
+  style: v3
+- id: cen_cenelec.guide.0003
+  identifier:
+    _type: pubid:cencenelec:guide
+    number:
+      value: '18'
+    date:
+      year: '2021'
+    publisher:
+      body: CEN
+    type:
+      abbr: Guide
+  representations:
+    human: CEN Guide 18:2021
+    urn: urn:cen:cen:18:2021
+  style: v3
+- id: cen_cenelec.guide.0004
+  identifier:
+    _type: pubid:cencenelec:guide
+    number:
+      value: '414'
+    date:
+      year: '2014'
+    publisher:
+      body: CEN
+    type:
+      abbr: Guide
+  representations:
+    human: CEN Guide 414:2014
+    urn: urn:cen:cen:414:2014
+  style: v3
+- id: cen_cenelec.guide.0005
+  identifier:
+    _type: pubid:cencenelec:guide
+    number:
+      value: '414'
+    date:
+      year: '2017'
+    publisher:
+      body: CEN
+    type:
+      abbr: Guide
+  representations:
+    human: CEN Guide 414:2017
+    urn: urn:cen:cen:414:2017
+  style: v3
+- id: cen_cenelec.guide.0006
+  identifier:
+    _type: pubid:cencenelec:guide
+    number:
+      value: '25'
+    date:
+      year: '2023'
+    publisher:
+      body: CEN
+    copublishers:
+    - body: CLC
+    type:
+      abbr: Guide
+  representations:
+    human: CEN/CLC Guide 25:2023
+    urn: urn:cen:cen-clc:25:2023
+  style: v3
+- id: cen_cenelec.guide.0007
+  identifier:
+    _type: pubid:cencenelec:guide
+    number:
+      value: '28'
+    date:
+      year: '2014'
+    publisher:
+      body: CEN
+    copublishers:
+    - body: CLC
+    type:
+      abbr: Guide
+  representations:
+    human: CEN/CLC Guide 28:2014
+    urn: urn:cen:cen-clc:28:2014
+  style: v3
+- id: cen_cenelec.guide.0008
+  identifier:
+    _type: pubid:cencenelec:guide
+    number:
+      value: '34'
+    date:
+      year: '2021'
+    publisher:
+      body: CEN
+    copublishers:
+    - body: CLC
+    type:
+      abbr: Guide
+  representations:
+    human: CEN/CLC Guide 34:2021
+    urn: urn:cen:cen-clc:34:2021
+  style: v3

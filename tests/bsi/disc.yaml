@@ -1,0 +1,130 @@
+---
+- id: bsi.disc.0001
+  identifier:
+    _type: pubid:bsi:disc
+    number:
+      value: '0005'
+    date:
+      year: '1995'
+    publisher:
+      body: DISC
+  representations:
+    human: DISC PD 0005:1995
+    urn: urn:bsi:disc:0005:1995
+  style: v3
+- id: bsi.disc.0002
+  identifier:
+    _type: pubid:bsi:disc
+    number:
+      value: '0008'
+    date:
+      year: '1996'
+    publisher:
+      body: DISC
+  representations:
+    human: DISC PD 0008:1996
+    urn: urn:bsi:disc:0008:1996
+  style: v3
+- id: bsi.disc.0003
+  identifier:
+    _type: pubid:bsi:disc
+    number:
+      value: '1999'
+    part:
+      value: '1'
+    date:
+      year: '1998'
+    publisher:
+      body: DISC
+  representations:
+    human: DISC PD 1999-1:1998
+    urn: urn:bsi:disc:1999:-1:1998
+  style: v3
+- id: bsi.disc.0004
+  identifier:
+    _type: pubid:bsi:disc
+    number:
+      value: '1999'
+    part:
+      value: '1'
+    date:
+      year: '2001'
+    publisher:
+      body: DISC
+  representations:
+    human: DISC PD 1999-1:2001
+    urn: urn:bsi:disc:1999:-1:2001
+  style: v3
+- id: bsi.disc.0005
+  identifier:
+    _type: pubid:bsi:disc
+    number:
+      value: '1999'
+    part:
+      value: '2'
+    date:
+      year: '2001'
+    publisher:
+      body: DISC
+  representations:
+    human: DISC PD 1999-2:2001
+    urn: urn:bsi:disc:1999:-2:2001
+  style: v3
+- id: bsi.disc.0006
+  identifier:
+    _type: pubid:bsi:disc
+    number:
+      value: '1999'
+    part:
+      value: '3'
+    date:
+      year: '1999'
+    publisher:
+      body: DISC
+  representations:
+    human: DISC PD 1999-3:1999
+    urn: urn:bsi:disc:1999:-3:1999
+  style: v3
+- id: bsi.disc.0007
+  identifier:
+    _type: pubid:bsi:disc
+    number:
+      value: '1999'
+    part:
+      value: '3'
+    date:
+      year: '2001'
+    publisher:
+      body: DISC
+  representations:
+    human: DISC PD 1999-3:2001
+    urn: urn:bsi:disc:1999:-3:2001
+  style: v3
+- id: bsi.disc.0008
+  identifier:
+    _type: pubid:bsi:disc
+    number:
+      value: '2000'
+    part:
+      value: '2'
+    date:
+      year: '1997'
+    publisher:
+      body: DISC
+  representations:
+    human: DISC PD 2000-2:1997
+    urn: urn:bsi:disc:2000:-2:1997
+  style: v3
+- id: bsi.disc.0009
+  identifier:
+    _type: pubid:bsi:disc
+    number:
+      value: '3004'
+    date:
+      year: '1998'
+    publisher:
+      body: DISC
+  representations:
+    human: DISC PD 3004:1998
+    urn: urn:bsi:disc:3004:1998
+  style: v3

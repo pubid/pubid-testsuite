@@ -1,0 +1,28 @@
+---
+- id: oiml.amendment.0001
+  identifier:
+    _type: pubid:oiml:amendment
+    language: E
+    base:
+      _type: pubid:oiml:recommendation
+      parsed_format: long
+      publisher: OIML
+      number: '138'
+      year: '2007'
+    year: '2009'
+  representations:
+    human: Amendment (2009) to OIML R 138 Edition 2007 (E)
+  style: v3
+- id: oiml.amendment.0002
+  identifier:
+    _type: pubid:oiml:amendment
+    language: E
+    base:
+      _type: pubid:oiml:recommendation
+      publisher: OIML
+      number: '138'
+      year: '2007'
+    year: '2009'
+  representations:
+    human: Amendment (2009) to OIML R 138:2007 (E)
+  style: v3

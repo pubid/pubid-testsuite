@@ -1,0 +1,47 @@
+---
+- id: ogc.debt.99515882194418149
+  input: "# OGC Document identifiers - Pass"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OGC identifier
+    ''# OGC Document identifiers - Pass'': Failed to match sequence (PUBLISHER year:DIGITS
+    ''-'' number:DIGITS REVISION? SPACE?) at line 1 char 1.'
+- id: ogc.debt.2945729599022986175
+  input: "# Auto-generated sample from relaton-data-ogc/index-v1.yaml"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OGC identifier
+    ''# Auto-generated sample from relaton-data-ogc/index-v1.yaml'': Failed to match
+    sequence (PUBLISHER year:DIGITS ''-'' number:DIGITS REVISION? SPACE?) at line
+    1 char 1.'
+- id: ogc.debt.2422033381031282074
+  input: '# NOTE: the upstream index has one non-canonical entry, "11-038R2" (uppercase
+    R,'
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OGC identifier
+    ''# NOTE: the upstream index has one non-canonical entry, "11-038R2" (uppercase
+    R,'': Failed to match sequence (PUBLISHER year:DIGITS ''-'' number:DIGITS REVISION?
+    SPACE?) a'
+- id: ogc.debt.1863956082522228564
+  input: "# unlike every other lowercase-revision id). Pubid normalizes revision case,
+    so"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OGC identifier
+    ''# unlike every other lowercase-revision id). Pubid normalizes revision case,
+    so'': Failed to match sequence (PUBLISHER year:DIGITS ''-'' number:DIGITS REVISION?
+    SPACE?) at'
+- id: ogc.debt.3018957508043123542
+  input: '# the canonical round-tripping form "11-038r2" is used here.'
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse OGC identifier
+    ''# the canonical round-tripping form "11-038r2" is used here.'': Failed to match
+    sequence (PUBLISHER year:DIGITS ''-'' number:DIGITS REVISION? SPACE?) at line
+    1 char 1.'

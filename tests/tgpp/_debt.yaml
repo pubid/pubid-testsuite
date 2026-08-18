@@ -1,0 +1,55 @@
+---
+- id: tgpp.debt.4430591887033640266
+  input: "# 3GPP Technical Report - representative sample"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse 3GPP identifier
+    ''# 3GPP Technical Report - representative sample'': Failed to match sequence
+    (PUBLISHER_PREFIX? TYPE SPACE NUMBER_CORE SUFFIX? PARTS ('':'' RELEASE)? ''/''
+    VERSION) at line '
+- id: tgpp.debt.4065778767997023280
+  input: "# Sampled from relaton-data-3gpp (index-v1.yaml). Covers every release form"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse 3GPP identifier
+    ''# Sampled from relaton-data-3gpp (index-v1.yaml). Covers every release form'':
+    Failed to match sequence (PUBLISHER_PREFIX? TYPE SPACE NUMBER_CORE SUFFIX? PARTS
+    ('':'' REL'
+- id: tgpp.debt.2005390034067702267
+  input: "# (REL-, Ph, UMTS), the 'U' letter suffix and part depths."
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse 3GPP identifier
+    ''# (REL-, Ph, UMTS), the ''U'' letter suffix and part depths.'': Failed to match
+    sequence (PUBLISHER_PREFIX? TYPE SPACE NUMBER_CORE SUFFIX? PARTS ('':'' RELEASE)?
+    ''/'' VERSIO'
+- id: tgpp.debt.3560124160814317139
+  input: "# 3GPP Technical Specification - representative sample"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse 3GPP identifier
+    ''# 3GPP Technical Specification - representative sample'': Failed to match sequence
+    (PUBLISHER_PREFIX? TYPE SPACE NUMBER_CORE SUFFIX? PARTS ('':'' RELEASE)? ''/''
+    VERSION) a'
+- id: tgpp.debt.4065778767997023280
+  input: "# Sampled from relaton-data-3gpp (index-v1.yaml). Covers every release form"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse 3GPP identifier
+    ''# Sampled from relaton-data-3gpp (index-v1.yaml). Covers every release form'':
+    Failed to match sequence (PUBLISHER_PREFIX? TYPE SPACE NUMBER_CORE SUFFIX? PARTS
+    ('':'' REL'
+- id: tgpp.debt.4534573579146280868
+  input: "# (REL-, Ph, Release N), letter suffixes (dcs, ext) and part depths."
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse 3GPP identifier
+    ''# (REL-, Ph, Release N), letter suffixes (dcs, ext) and part depths.'': Failed
+    to match sequence (PUBLISHER_PREFIX? TYPE SPACE NUMBER_CORE SUFFIX? PARTS ('':''
+    RELEASE)? '

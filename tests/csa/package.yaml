@@ -1,0 +1,104 @@
+---
+- id: csa.package.0001
+  identifier:
+    package_keyword: PACKAGE
+    materials_after_keyword: true
+  representations:
+    human: C22.1-15 PACKAGE
+  roundtrip: false
+  style: v3
+- id: csa.package.0002
+  identifier:
+    package_keyword: PACKAGE
+    materials_after_keyword: true
+  representations:
+    human: C22.1-18 PACKAGE
+  roundtrip: false
+  style: v3
+- id: csa.package.0003
+  identifier:
+    package_keyword: PACKAGE
+    materials_after_keyword: true
+  representations:
+    human: C22.10-10 PACKAGE
+  roundtrip: false
+  style: v3
+- id: csa.package.0004
+  identifier:
+    package_keyword: PACKAGE
+    materials_after_keyword: true
+  representations:
+    human: C22.10-18 PACKAGE
+  roundtrip: false
+  style: v3
+- id: csa.package.0005
+  identifier:
+    package_keyword: PACKAGE
+    materials_after_keyword: true
+  representations:
+    human: CSA B108:23 PACKAGE
+  roundtrip: false
+  style: v3
+- id: csa.package.0006
+  identifier:
+    package_materials: SERIES A PACKAGE
+    package_keyword: PACKAGE
+    materials_after_keyword: false
+  representations:
+    human: CSA B137:23 SERIES A PACKAGE
+  roundtrip: false
+  style: v3
+- id: csa.package.0007
+  identifier:
+    package_materials: SERIES B PACKAGE
+    package_keyword: PACKAGE
+    materials_after_keyword: false
+  representations:
+    human: CSA B137:23 SERIES B PACKAGE
+  roundtrip: false
+  style: v3
+- id: csa.package.0008
+  identifier:
+    package_materials: SERIES C PACKAGE
+    package_keyword: PACKAGE
+    materials_after_keyword: false
+  representations:
+    human: CSA B137:23 SERIES C PACKAGE
+  roundtrip: false
+  style: v3
+- id: csa.package.0009
+  identifier:
+    package_materials: SERIES PACKAGE
+    package_keyword: PACKAGE
+    materials_after_keyword: false
+  representations:
+    human: CSA B137:23 SERIES PACKAGE
+  roundtrip: false
+  style: v3
+- id: csa.package.0010
+  identifier:
+    package_materials: Code, Handbook & Training Package
+    package_keyword: PACKAGE
+    materials_after_keyword: false
+  representations:
+    human: CSA B149.1:25 Code, Handbook & Training Package
+  roundtrip: false
+  style: v3
+- id: csa.package.0011
+  identifier:
+    package_materials: "& Training Package"
+    package_keyword: PACKAGE
+    materials_after_keyword: false
+  representations:
+    human: CSA B149.1:25, CSA B149.2:25 & Training Package
+  roundtrip: false
+  style: v3
+- id: csa.package.0012
+  identifier:
+    package_materials: Code & Handbook Package
+    package_keyword: PACKAGE
+    materials_after_keyword: false
+  representations:
+    human: CSA C22.1:24 Code & Handbook Package
+  roundtrip: false
+  style: v3

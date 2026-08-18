@@ -1,0 +1,3853 @@
+---
+- id: ieee.base.0001
+  identifier:
+    _type: pubid:ieee:standard
+    number: '135'
+    publisher: ANSI
+    year: '1979'
+    prefix: C
+    parts:
+    - '14'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C135.14-1979
+    urn: urn:ieee:ansi:C135.14:1979
+  style: v3
+- id: ieee.base.0002
+  identifier:
+    _type: pubid:ieee:standard
+    number: '135'
+    publisher: ANSI
+    year: '1988'
+    prefix: C
+    parts:
+    - '22'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C135.22-1988
+    urn: urn:ieee:ansi:C135.22:1988
+  style: v3
+- id: ieee.base.0003
+  identifier:
+    _type: pubid:ieee:standard
+    number: '135'
+    publisher: ANSI
+    year: '1988'
+    prefix: C
+    parts:
+    - '30'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C135.30-1988
+    urn: urn:ieee:ansi:C135.30:1988
+  style: v3
+- id: ieee.base.0004
+  identifier:
+    _type: pubid:ieee:standard
+    number: '135'
+    publisher: ANSI
+    year: '1988'
+    prefix: C
+    parts:
+    - '31'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C135.31-1988
+    urn: urn:ieee:ansi:C135.31:1988
+  style: v3
+- id: ieee.base.0005
+  identifier:
+    _type: pubid:ieee:standard
+    number: '135'
+    publisher: ANSI
+    year: '1988'
+    prefix: C
+    parts:
+    - '35'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C135.35-1988
+    urn: urn:ieee:ansi:C135.35:1988
+  style: v3
+- id: ieee.base.0006
+  identifier:
+    _type: pubid:ieee:standard
+    number: '135'
+    publisher: ANSI
+    year: '1987'
+    prefix: C
+    parts:
+    - '38'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C135.38-1987
+    urn: urn:ieee:ansi:C135.38:1987
+  style: v3
+- id: ieee.base.0007
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI
+    year: '2000'
+    prefix: C
+    parts:
+    - '06'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C37.06-2000
+    urn: urn:ieee:ansi:C37.06:2000
+  style: v3
+- id: ieee.base.0008
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI
+    year: '2000'
+    prefix: C
+    parts:
+    - '06'
+    - '1'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C37.06.1-2000
+    urn: urn:ieee:ansi:C37.06.1:2000
+  style: v3
+- id: ieee.base.0009
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI
+    year: '1972'
+    prefix: C
+    parts:
+    - '0781'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C37.0781-1972
+    urn: urn:ieee:ansi:C37.0781:1972
+  style: v3
+- id: ieee.base.0010
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI
+    year: '1981'
+    prefix: C
+    parts:
+    - '12'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C37.12-1981
+    urn: urn:ieee:ansi:C37.12:1981
+  style: v3
+- id: ieee.base.0011
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI
+    year: '1991'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '12'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C37.12-1991
+    urn: urn:ieee:ansi:C37.12:1991:rel.Revision of ANSI C37.12-1981
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C37.12-1991 (Revision of ANSI C37.12-1981)
+    style: v3
+- id: ieee.base.0012
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI
+    year: '1989'
+    prefix: C
+    parts:
+    - '121'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C37.121-1989
+    urn: urn:ieee:ansi:C37.121:1989
+  style: v3
+- id: ieee.base.0013
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI
+    year: '2000'
+    prefix: C
+    parts:
+    - '16'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C37.16-2000
+    urn: urn:ieee:ansi:C37.16:2000
+  style: v3
+- id: ieee.base.0014
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI
+    year: '1972'
+    prefix: C
+    parts:
+    - '17'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C37.17-1972
+    urn: urn:ieee:ansi:C37.17:1972
+  style: v3
+- id: ieee.base.0015
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI
+    year: '1997'
+    prefix: C
+    parts:
+    - '17'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C37.17-1997
+    urn: urn:ieee:ansi:C37.17:1997
+  style: v3
+- id: ieee.base.0016
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI
+    year: '1997'
+    prefix: C
+    parts:
+    - '22'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C37.22-1997
+    urn: urn:ieee:ansi:C37.22:1997
+  style: v3
+- id: ieee.base.0017
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI
+    year: '1996'
+    prefix: C
+    parts:
+    - '32'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C37.32-1996
+    urn: urn:ieee:ansi:C37.32:1996
+  style: v3
+- id: ieee.base.0018
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI
+    year: '1996'
+    prefix: C
+    parts:
+    - '42'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C37.42-1996
+    urn: urn:ieee:ansi:C37.42:1996
+  style: v3
+- id: ieee.base.0019
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI
+    year: '2000'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '46'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C37.46-2000
+    urn: urn:ieee:ansi:C37.46:2000:rel.Revision of ANSI C37.46-1981
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C37.46-2000 (Revision of ANSI C37.46-1981)
+    style: v3
+- id: ieee.base.0020
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI
+    year: '2000'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '47'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C37.47-2000
+    urn: urn:ieee:ansi:C37.47:2000:rel.Revision of ANSI C37.47-1981
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C37.47-2000 (Revision of ANSI C37.47-1981)
+    style: v3
+- id: ieee.base.0021
+  identifier:
+    _type: pubid:ieee:standard
+    number: '50'
+    publisher: ANSI
+    year: '1977'
+    prefix: C
+    parts:
+    - '10'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C50.10-1977
+    urn: urn:ieee:ansi:C50.10:1977
+  style: v3
+- id: ieee.base.0022
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    publisher: ANSI
+    year: '1988'
+    prefix: C
+    parts:
+    - '12'
+    - '10'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C57.12.10-1988
+    urn: urn:ieee:ansi:C57.12.10:1988
+  style: v3
+- id: ieee.base.0023
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    publisher: ANSI
+    year: '1997'
+    prefix: C
+    parts:
+    - '12'
+    - '10'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C57.12.10-1997
+    urn: urn:ieee:ansi:C57.12.10:1997
+  style: v3
+- id: ieee.base.0024
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    publisher: ANSI
+    year: '1997'
+    prefix: C
+    parts:
+    - '12'
+    - '20'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C57.12.20-1997
+    urn: urn:ieee:ansi:C57.12.20:1997
+  style: v3
+- id: ieee.base.0025
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    publisher: ANSI
+    year: '1992'
+    prefix: C
+    parts:
+    - '12'
+    - '21'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C57.12.21-1992
+    urn: urn:ieee:ansi:C57.12.21:1992
+  style: v3
+- id: ieee.base.0026
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    publisher: ANSI
+    year: '1993'
+    parenthetical_content: R1998
+    prefix: C
+    parts:
+    - '12'
+    - '22'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C57.12.22-1993 (R1998)
+    urn: urn:ieee:ansi:C57.12.22:1993
+  style: v3
+- id: ieee.base.0027
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    publisher: ANSI
+    year: '2000'
+    prefix: C
+    parts:
+    - '12'
+    - '24'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C57.12.24-2000
+    urn: urn:ieee:ansi:C57.12.24:2000
+  style: v3
+- id: ieee.base.0028
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    publisher: ANSI
+    year: '1990'
+    prefix: C
+    parts:
+    - '12'
+    - '25'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C57.12.25-1990
+    urn: urn:ieee:ansi:C57.12.25:1990
+  style: v3
+- id: ieee.base.0029
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    publisher: ANSI
+    year: '1987'
+    prefix: C
+    parts:
+    - '12'
+    - '26'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C57.12.26-1987
+    urn: urn:ieee:ansi:C57.12.26:1987
+  style: v3
+- id: ieee.base.0030
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    publisher: ANSI
+    year: '1991'
+    prefix: C
+    parts:
+    - '12'
+    - '29'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C57.12.29-1991
+    urn: urn:ieee:ansi:C57.12.29:1991
+  style: v3
+- id: ieee.base.0031
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    publisher: ANSI
+    year: '2000'
+    prefix: C
+    parts:
+    - '12'
+    - '40'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C57.12.40-2000
+    urn: urn:ieee:ansi:C57.12.40:2000
+  style: v3
+- id: ieee.base.0032
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    publisher: ANSI
+    year: '1981'
+    parenthetical_content: R1998
+    prefix: C
+    parts:
+    - '12'
+    - '50'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C57.12.50-1981 (R1998)
+    urn: urn:ieee:ansi:C57.12.50:1981
+  style: v3
+- id: ieee.base.0033
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    publisher: ANSI
+    year: '1981'
+    prefix: C
+    parts:
+    - '12'
+    - '52'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C57.12.52-1981
+    urn: urn:ieee:ansi:C57.12.52:1981
+  style: v3
+- id: ieee.base.0034
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    publisher: ANSI
+    year: '1987'
+    parenthetical_content: R1998
+    prefix: C
+    parts:
+    - '12'
+    - '55'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C57.12.55-1987 (R1998)
+    urn: urn:ieee:ansi:C57.12.55:1987
+  style: v3
+- id: ieee.base.0035
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    publisher: ANSI
+    year: '1987'
+    prefix: C
+    parts:
+    - '12'
+    - '57'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C57.12.57-1987
+    urn: urn:ieee:ansi:C57.12.57:1987
+  style: v3
+- id: ieee.base.0036
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2000'
+    prefix: C
+    parts:
+    - '011'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.011-2000
+    urn: urn:ieee:ansi:C63.011:2000
+  style: v3
+- id: ieee.base.0037
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2009'
+    prefix: C
+    parts:
+    - '10'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.10-2009
+    urn: urn:ieee:ansi:C63.10:2009
+  style: v3
+- id: ieee.base.0038
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2013'
+    prefix: C
+    parts:
+    - '10'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.10-2013
+    urn: urn:ieee:ansi:C63.10:2013
+  style: v3
+- id: ieee.base.0039
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2020'
+    prefix: C
+    parts:
+    - '10'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.10-2020
+    urn: urn:ieee:ansi:C63.10:2020
+  style: v3
+- id: ieee.base.0040
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '1999'
+    prefix: C
+    parts:
+    - '12'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.12-1999
+    urn: urn:ieee:ansi:C63.12:1999
+  style: v3
+- id: ieee.base.0041
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2015'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '12'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.12-2015
+    urn: urn:ieee:ansi:C63.12:2015:rel.Revision of ANSI C63.12-1999
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C63.12-2015 (Revision of ANSI C63.12-1999)
+    style: v3
+- id: ieee.base.0042
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '1991'
+    prefix: C
+    parts:
+    - '13'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.13-1991
+    urn: urn:ieee:ansi:C63.13:1991
+  style: v3
+- id: ieee.base.0043
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '1992'
+    prefix: C
+    parts:
+    - '14'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.14-1992
+    urn: urn:ieee:ansi:C63.14:1992
+  style: v3
+- id: ieee.base.0044
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '1998'
+    prefix: C
+    parts:
+    - '14'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.14-1998
+    urn: urn:ieee:ansi:C63.14:1998
+  style: v3
+- id: ieee.base.0045
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2009'
+    prefix: C
+    parts:
+    - '14'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.14-2009
+    urn: urn:ieee:ansi:C63.14:2009
+  style: v3
+- id: ieee.base.0046
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2014'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '14'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.14-2014
+    urn: urn:ieee:ansi:C63.14:2014:rel.Revision of ANSI C63.14-2009
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C63.14-2014 (Revision of ANSI C63.14-2009)
+    style: v3
+- id: ieee.base.0047
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2010'
+    prefix: C
+    parts:
+    - '15'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.15-2010
+    urn: urn:ieee:ansi:C63.15:2010
+  style: v3
+- id: ieee.base.0048
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2017'
+    prefix: C
+    parts:
+    - '15'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.15-2017
+    urn: urn:ieee:ansi:C63.15:2017
+  style: v3
+- id: ieee.base.0049
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2016'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '16'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.16-2016
+    urn: urn:ieee:ansi:C63.16:2016:rel.Revision of ANSI C63.16-1993
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C63.16-2016 (Revision of ANSI C63.16-1993)
+    style: v3
+- id: ieee.base.0050
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '1998'
+    prefix: C
+    parts:
+    - '17'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.17-1998
+    urn: urn:ieee:ansi:C63.17:1998
+  style: v3
+- id: ieee.base.0051
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2006'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '17'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.17-2006
+    urn: urn:ieee:ansi:C63.17:2006:rel.Revision of ANSI C63.17-1998
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C63.17-2006 (Revision of ANSI C63.17-1998)
+    style: v3
+- id: ieee.base.0052
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2013'
+    prefix: C
+    parts:
+    - '17'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.17-2013
+    urn: urn:ieee:ansi:C63.17:2013
+  style: v3
+- id: ieee.base.0053
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '1997'
+    prefix: C
+    parts:
+    - '18'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.18-1997
+    urn: urn:ieee:ansi:C63.18:1997
+  style: v3
+- id: ieee.base.0054
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2014'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '18'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.18-2014
+    urn: urn:ieee:ansi:C63.18:2014:rel.Revision of ANSI C63.18-1997
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C63.18-2014 (Revision of ANSI C63.18-1997)
+    style: v3
+- id: ieee.base.0055
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2001'
+    prefix: C
+    parts:
+    - '19'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.19-2001
+    urn: urn:ieee:ansi:C63.19:2001
+  style: v3
+- id: ieee.base.0056
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2006'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '19'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.19-2006
+    urn: urn:ieee:ansi:C63.19:2006:rel.Revision of ANSI C63.19-2001
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C63.19-2006 (Revision of ANSI C63.19-2001)
+    style: v3
+- id: ieee.base.0057
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2007'
+    prefix: C
+    parts:
+    - '19'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.19-2007
+    urn: urn:ieee:ansi:C63.19:2007
+  style: v3
+- id: ieee.base.0058
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2019'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '19'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.19-2019
+    urn: urn:ieee:ansi:C63.19:2019:rel.Revision of ANSI C63.19-2011
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C63.19-2019 (Revision of ANSI C63.19-2011)
+    style: v3
+- id: ieee.base.0059
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '1980'
+    prefix: C
+    parts:
+    - '2'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.2-1980
+    urn: urn:ieee:ansi:C63.2:1980
+  style: v3
+- id: ieee.base.0060
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2009'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '2'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.2-2009
+    urn: urn:ieee:ansi:C63.2:2009:rel.Revision of ANSI C63.2-1996
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C63.2-2009 (Revision of ANSI C63.2-1996)
+    style: v3
+- id: ieee.base.0061
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2016'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '2'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.2-2016
+    urn: urn:ieee:ansi:C63.2:2016:rel.Revision of ANSI C63.2-2009
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C63.2-2016 (Revision of ANSI C63.2-2009)
+    style: v3
+- id: ieee.base.0062
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2004'
+    prefix: C
+    parts:
+    - '22'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.22-2004
+    urn: urn:ieee:ansi:C63.22:2004
+  style: v3
+- id: ieee.base.0063
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2012'
+    prefix: C
+    parts:
+    - '23'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.23-2012
+    urn: urn:ieee:ansi:C63.23:2012
+  style: v3
+- id: ieee.base.0064
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2021'
+    prefix: C
+    parts:
+    - '24'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.24-2021
+    urn: urn:ieee:ansi:C63.24:2021
+  style: v3
+- id: ieee.base.0065
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2018'
+    prefix: C
+    parts:
+    - '25'
+    - '1'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.25.1-2018
+    urn: urn:ieee:ansi:C63.25.1:2018
+  style: v3
+- id: ieee.base.0066
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2015'
+    prefix: C
+    parts:
+    - '26'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.26-2015
+    urn: urn:ieee:ansi:C63.26:2015
+  style: v3
+- id: ieee.base.0067
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2017'
+    prefix: C
+    parts:
+    - '27'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.27-2017
+    urn: urn:ieee:ansi:C63.27:2017
+  style: v3
+- id: ieee.base.0068
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2021'
+    prefix: C
+    parts:
+    - '30'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.30-2021
+    urn: urn:ieee:ansi:C63.30:2021
+  style: v3
+- id: ieee.base.0069
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '1988'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '4'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.4-1988
+    urn: urn:ieee:ansi:C63.4:1988:rel.Revision of ANSI C63.4-1981
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C63.4-1988 (Revision of ANSI C63.4-1981)
+    style: v3
+- id: ieee.base.0070
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2001'
+    prefix: C
+    parts:
+    - '4'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.4-2001
+    urn: urn:ieee:ansi:C63.4:2001
+  style: v3
+- id: ieee.base.0071
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2003'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '4'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.4-2003
+    urn: urn:ieee:ansi:C63.4:2003:rel.Revision of ANSI C63.4-2001
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C63.4-2003 (Revision of ANSI C63.4-2001)
+    style: v3
+- id: ieee.base.0072
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2009'
+    prefix: C
+    parts:
+    - '4'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.4-2009
+    urn: urn:ieee:ansi:C63.4:2009
+  style: v3
+- id: ieee.base.0073
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2014'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '4'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.4-2014
+    urn: urn:ieee:ansi:C63.4:2014:rel.Revision of ANSI C63.4-2009
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C63.4-2014 (Revision of ANSI C63.4-2009)
+    style: v3
+- id: ieee.base.0074
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2017'
+    relationships:
+    - relationship_type: amendment_to
+    prefix: C
+    parts:
+    - 4a
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.4a-2017
+    urn: urn:ieee:ansi:C63.4a:2017:rel.Amendment to ANSI C63.4-2014
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C63.4a-2017 (Amendment to ANSI C63.4-2014)
+    style: v3
+- id: ieee.base.0075
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '1988'
+    prefix: C
+    parts:
+    - '5'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.5-1988
+    urn: urn:ieee:ansi:C63.5:1988
+  style: v3
+- id: ieee.base.0076
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '1998'
+    prefix: C
+    parts:
+    - '5'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.5-1998
+    urn: urn:ieee:ansi:C63.5:1998
+  style: v3
+- id: ieee.base.0077
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2004'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '5'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.5-2004
+    urn: urn:ieee:ansi:C63.5:2004:rel.Revision of ANSI C63.5-1998
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C63.5-2004 (Revision of ANSI C63.5-1998)
+    style: v3
+- id: ieee.base.0078
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2006'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '5'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.5-2006
+    urn: urn:ieee:ansi:C63.5:2006:rel.Revision of ANSI C63.4-2004
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C63.5-2006 (Revision of ANSI C63.4-2004)
+    style: v3
+- id: ieee.base.0079
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2017'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '5'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.5-2017
+    urn: urn:ieee:ansi:C63.5:2017:rel.Revision of ANSI C63.5-2005
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C63.5-2017 (Revision of ANSI C63.5-2005)
+    style: v3
+- id: ieee.base.0080
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2005'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '7'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.7-2005
+    urn: urn:ieee:ansi:C63.7:2005:rel.Revision of ANSI C63.7-1992
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C63.7-2005 (Revision of ANSI C63.7-1992)
+    style: v3
+- id: ieee.base.0081
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2015'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '7'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.7-2015
+    urn: urn:ieee:ansi:C63.7:2015:rel.Revision of ANSI C63.7-2005
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI C63.7-2015 (Revision of ANSI C63.7-2005)
+    style: v3
+- id: ieee.base.0082
+  identifier:
+    _type: pubid:ieee:standard
+    number: '63'
+    publisher: ANSI
+    year: '2008'
+    prefix: C
+    parts:
+    - '9'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C63.9-2008
+    urn: urn:ieee:ansi:C63.9:2008
+  style: v3
+- id: ieee.base.0083
+  identifier:
+    _type: pubid:ieee:standard
+    number: '93'
+    publisher: ANSI
+    year: '1999'
+    prefix: C
+    parts:
+    - '1'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C93.1-1999
+    urn: urn:ieee:ansi:C93.1:1999
+  style: v3
+- id: ieee.base.0084
+  identifier:
+    _type: pubid:ieee:standard
+    number: '93'
+    publisher: ANSI
+    year: '1995'
+    prefix: C
+    parts:
+    - '3'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C93.3-1995
+    urn: urn:ieee:ansi:C93.3:1995
+  style: v3
+- id: ieee.base.0085
+  identifier:
+    _type: pubid:ieee:standard
+    number: '93'
+    publisher: ANSI
+    year: '1997'
+    prefix: C
+    parts:
+    - '5'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C93.5-1997
+    urn: urn:ieee:ansi:C93.5:1997
+  style: v3
+- id: ieee.base.0086
+  identifier:
+    _type: pubid:ieee:standard
+    number: '95'
+    publisher: ANSI
+    year: '1982'
+    prefix: C
+    parts:
+    - '2'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI C95.2-1982
+    urn: urn:ieee:ansi:C95.2:1982
+  style: v3
+- id: ieee.base.0087
+  identifier:
+    _type: pubid:ieee:standard
+    number: '322'
+    publisher: ANSI
+    year: '1977'
+    prefix: "N"
+    stage: Std
+  representations:
+    human: ANSI N322-1977
+    urn: urn:ieee:ansi:N322:1977
+  style: v3
+- id: ieee.base.0088
+  identifier:
+    _type: pubid:ieee:standard
+    number: '322'
+    publisher: ANSI
+    year: '1997'
+    prefix: "N"
+    stage: Std
+  representations:
+    human: ANSI N322-1997
+    urn: urn:ieee:ansi:N322:1997
+  style: v3
+- id: ieee.base.0089
+  identifier:
+    _type: pubid:ieee:standard
+    number: 323A
+    publisher: ANSI
+    year: '1997'
+    prefix: "N"
+    stage: Std
+  representations:
+    human: ANSI N323A-1997
+    urn: urn:ieee:ansi:N323A:1997
+  style: v3
+- id: ieee.base.0090
+  identifier:
+    _type: pubid:ieee:standard
+    number: 323AB
+    publisher: ANSI
+    year: '2013'
+    parenthetical_content: Revision and Redesignation of ANSI N323A-1997 and ANSI
+      N323B-2002
+    prefix: "N"
+    stage: Std
+  representations:
+    human: ANSI N323AB-2013 (Revision and Redesignation of ANSI N323A-1997 and ANSI
+      N323B-2002)
+    urn: urn:ieee:ansi:N323AB:2013
+  style: v3
+- id: ieee.base.0091
+  identifier:
+    _type: pubid:ieee:standard
+    number: 323B
+    publisher: ANSI
+    year: '2003'
+    prefix: "N"
+    stage: Std
+  representations:
+    human: ANSI N323B-2003
+    urn: urn:ieee:ansi:N323B:2003
+  style: v3
+- id: ieee.base.0092
+  identifier:
+    _type: pubid:ieee:standard
+    number: 323D
+    publisher: ANSI
+    year: '2002'
+    prefix: "N"
+    stage: Std
+  representations:
+    human: ANSI N323D-2002
+    urn: urn:ieee:ansi:N323D:2002
+  style: v3
+- id: ieee.base.0093
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2004'
+    relationships:
+    - relationship_type: reaffirmation_of
+    prefix: "N"
+    parts:
+    - '13'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.13-2004
+    urn: urn:ieee:ansi:N42.13:2004:rel.Reaffirmation of ANSI N42.13-1986
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI N42.13-2004 (Reaffirmation of ANSI N42.13-1986)
+    style: v3
+- id: ieee.base.0094
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '1999'
+    prefix: "N"
+    parts:
+    - '14'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.14-1999
+    urn: urn:ieee:ansi:N42.14:1999
+  style: v3
+- id: ieee.base.0095
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '1997'
+    prefix: "N"
+    parts:
+    - '15'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.15-1997
+    urn: urn:ieee:ansi:N42.15:1997
+  style: v3
+- id: ieee.base.0096
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '1986'
+    prefix: "N"
+    parts:
+    - '16'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.16-1986
+    urn: urn:ieee:ansi:N42.16:1986
+  style: v3
+- id: ieee.base.0097
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2003'
+    relationships:
+    - relationship_type: revision_of
+    prefix: "N"
+    parts:
+    - 17A
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.17A-2003
+    urn: urn:ieee:ansi:N42.17A:2003:rel.Revision of ANSI N42.17A-1989
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI N42.17A-2003 (Revision of ANSI N42.17A-1989)
+    style: v3
+- id: ieee.base.0098
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2003'
+    relationships:
+    - relationship_type: revision_of
+    prefix: "N"
+    parts:
+    - '20'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.20-2003
+    urn: urn:ieee:ansi:N42.20:2003:rel.Revision of ANSI N42.20-1995
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI N42.20-2003 (Revision of ANSI N42.20-1995)
+    style: v3
+- id: ieee.base.0099
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '1996'
+    prefix: "N"
+    parts:
+    - '23'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.23-1996
+    urn: urn:ieee:ansi:N42.23:1996
+  style: v3
+- id: ieee.base.0100
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '1997'
+    prefix: "N"
+    parts:
+    - '25'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.25-1997
+    urn: urn:ieee:ansi:N42.25:1997
+  style: v3
+- id: ieee.base.0101
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '1999'
+    prefix: "N"
+    parts:
+    - '27'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.27-1999
+    urn: urn:ieee:ansi:N42.27:1999
+  style: v3
+- id: ieee.base.0102
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2002'
+    prefix: "N"
+    parts:
+    - '28'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.28-2002
+    urn: urn:ieee:ansi:N42.28:2002
+  style: v3
+- id: ieee.base.0103
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2002'
+    prefix: "N"
+    parts:
+    - '30'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.30-2002
+    urn: urn:ieee:ansi:N42.30:2002
+  style: v3
+- id: ieee.base.0104
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2003'
+    prefix: "N"
+    parts:
+    - '31'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.31-2003
+    urn: urn:ieee:ansi:N42.31:2003
+  style: v3
+- id: ieee.base.0105
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2003'
+    prefix: "N"
+    parts:
+    - '32'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.32-2003
+    urn: urn:ieee:ansi:N42.32:2003
+  style: v3
+- id: ieee.base.0106
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2006'
+    relationships:
+    - relationship_type: revision_of
+    prefix: "N"
+    parts:
+    - '32'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.32-2006
+    urn: urn:ieee:ansi:N42.32:2006:rel.Revision of ANSI N42.32-2003
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI N42.32-2006 (Revision of ANSI N42.32-2003)
+    style: v3
+- id: ieee.base.0107
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2016'
+    relationships:
+    - relationship_type: revision_of
+    prefix: "N"
+    parts:
+    - '32'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.32-2016
+    urn: urn:ieee:ansi:N42.32:2016:rel.Revision of ANSI N42.32-2006
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI N42.32-2016 (Revision of ANSI N42.32-2006)
+    style: v3
+- id: ieee.base.0108
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2003'
+    prefix: "N"
+    parts:
+    - '33'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.33-2003
+    urn: urn:ieee:ansi:N42.33:2003
+  style: v3
+- id: ieee.base.0109
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2006'
+    relationships:
+    - relationship_type: revision_of
+    prefix: "N"
+    parts:
+    - '33'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.33-2006
+    urn: urn:ieee:ansi:N42.33:2006:rel.Revision of ANSI N42.33-2003
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI N42.33-2006 (Revision of ANSI N42.33-2003)
+    style: v3
+- id: ieee.base.0110
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2003'
+    prefix: "N"
+    parts:
+    - '34'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.34-2003
+    urn: urn:ieee:ansi:N42.34:2003
+  style: v3
+- id: ieee.base.0111
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2006'
+    relationships:
+    - relationship_type: revision_of
+    prefix: "N"
+    parts:
+    - '34'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.34-2006
+    urn: urn:ieee:ansi:N42.34:2006:rel.Revision of ANSI N42.34-2003
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI N42.34-2006 (Revision of ANSI N42.34-2003)
+    style: v3
+- id: ieee.base.0112
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2015'
+    relationships:
+    - relationship_type: revision_of
+    prefix: "N"
+    parts:
+    - '34'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.34-2015
+    urn: urn:ieee:ansi:N42.34:2015:rel.Revision of ANSI N42.34-2006
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI N42.34-2015 (Revision of ANSI N42.34-2006)
+    style: v3
+- id: ieee.base.0113
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2021'
+    relationships:
+    - relationship_type: revision_of
+    prefix: "N"
+    parts:
+    - '34'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.34-2021
+    urn: urn:ieee:ansi:N42.34:2021:rel.Revision of ANSI N42.34-2015
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI N42.34-2021 (Revision of ANSI N42.34-2015)
+    style: v3
+- id: ieee.base.0114
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2020'
+    relationships:
+    - relationship_type: amendment_to
+    prefix: "N"
+    parts:
+    - 34a
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.34a-2020
+    urn: urn:ieee:ansi:N42.34a:2020:rel.Amendment to ANSI N42.34-2015
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI N42.34a-2020 (Amendment to ANSI N42.34-2015)
+    style: v3
+- id: ieee.base.0115
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2004'
+    prefix: "N"
+    parts:
+    - '35'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.35-2004
+    urn: urn:ieee:ansi:N42.35:2004
+  style: v3
+- id: ieee.base.0116
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2006'
+    relationships:
+    - relationship_type: revision_of
+    prefix: "N"
+    parts:
+    - '35'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.35-2006
+    urn: urn:ieee:ansi:N42.35:2006:rel.Revision of ANSI N42.35-2004
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI N42.35-2006 (Revision of ANSI N42.35-2004)
+    style: v3
+- id: ieee.base.0117
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2016'
+    relationships:
+    - relationship_type: revision_of
+    prefix: "N"
+    parts:
+    - '35'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.35-2016
+    urn: urn:ieee:ansi:N42.35:2016:rel.Revision of ANSI N42.35-2006
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI N42.35-2016 (Revision of ANSI N42.35-2006)
+    style: v3
+- id: ieee.base.0118
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2006'
+    prefix: "N"
+    parts:
+    - '37'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.37-2006
+    urn: urn:ieee:ansi:N42.37:2006
+  style: v3
+- id: ieee.base.0119
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2016'
+    relationships:
+    - relationship_type: revision_of
+    prefix: "N"
+    parts:
+    - '37'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.37-2016
+    urn: urn:ieee:ansi:N42.37:2016:rel.Revision of ANSI N42.37-2006
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI N42.37-2016 (Revision of ANSI N42.37-2006)
+    style: v3
+- id: ieee.base.0120
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2006'
+    prefix: "N"
+    parts:
+    - '38'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.38-2006
+    urn: urn:ieee:ansi:N42.38:2006
+  style: v3
+- id: ieee.base.0121
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2015'
+    relationships:
+    - relationship_type: revision_of
+    prefix: "N"
+    parts:
+    - '38'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.38-2015
+    urn: urn:ieee:ansi:N42.38:2015:rel.Revision of ANSI N42.38-2006
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI N42.38-2015 (Revision of ANSI N42.38-2006)
+    style: v3
+- id: ieee.base.0122
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2018'
+    relationships:
+    - relationship_type: amendment_to
+    prefix: "N"
+    parts:
+    - 38a
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.38a-2018
+    urn: urn:ieee:ansi:N42.38a:2018:rel.Amendment to ANSI N42.38-2015
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI N42.38a-2018 (Amendment to ANSI N42.38-2015)
+    style: v3
+- id: ieee.base.0123
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2007'
+    prefix: "N"
+    parts:
+    - '41'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.41-2007
+    urn: urn:ieee:ansi:N42.41:2007
+  style: v3
+- id: ieee.base.0124
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2006'
+    prefix: "N"
+    parts:
+    - '42'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.42-2006
+    urn: urn:ieee:ansi:N42.42:2006
+  style: v3
+- id: ieee.base.0125
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2012'
+    relationships:
+    - relationship_type: revision_of
+    prefix: "N"
+    parts:
+    - '42'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.42-2012
+    urn: urn:ieee:ansi:N42.42:2012:rel.Revision of ANSI N42.42-2006
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI N42.42-2012 (Revision of ANSI N42.42-2006)
+    style: v3
+- id: ieee.base.0126
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2020'
+    relationships:
+    - relationship_type: revision_of
+    prefix: "N"
+    parts:
+    - '42'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.42-2020
+    urn: urn:ieee:ansi:N42.42:2020:rel.Revision of ANSI N42.42-2012
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI N42.42-2020 (Revision of ANSI N42.42-2012)
+    style: v3
+- id: ieee.base.0127
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2006'
+    prefix: "N"
+    parts:
+    - '43'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.43-2006
+    urn: urn:ieee:ansi:N42.43:2006
+  style: v3
+- id: ieee.base.0128
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2016'
+    relationships:
+    - relationship_type: revision_of
+    prefix: "N"
+    parts:
+    - '43'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.43-2016
+    urn: urn:ieee:ansi:N42.43:2016:rel.Revision of ANSI N42.43-2006
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI N42.43-2016 (Revision of ANSI N42.43-2006)
+    style: v3
+- id: ieee.base.0129
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2011'
+    prefix: "N"
+    parts:
+    - '45'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.45-2011
+    urn: urn:ieee:ansi:N42.45:2011
+  style: v3
+- id: ieee.base.0130
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2008'
+    prefix: "N"
+    parts:
+    - '46'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.46-2008
+    urn: urn:ieee:ansi:N42.46:2008
+  style: v3
+- id: ieee.base.0131
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2010'
+    prefix: "N"
+    parts:
+    - '47'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.47-2010
+    urn: urn:ieee:ansi:N42.47:2010
+  style: v3
+- id: ieee.base.0132
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2008'
+    prefix: "N"
+    parts:
+    - '48'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.48-2008
+    urn: urn:ieee:ansi:N42.48:2008
+  style: v3
+- id: ieee.base.0133
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2018'
+    relationships:
+    - relationship_type: revision_of
+    prefix: "N"
+    parts:
+    - '48'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.48-2018
+    urn: urn:ieee:ansi:N42.48:2018:rel.Revision of ANSI N42.48-2008
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI N42.48-2018 (Revision of ANSI N42.48-2008)
+    style: v3
+- id: ieee.base.0134
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2011'
+    prefix: "N"
+    parts:
+    - 49A
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.49A-2011
+    urn: urn:ieee:ansi:N42.49A:2011
+  style: v3
+- id: ieee.base.0135
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2013'
+    prefix: "N"
+    parts:
+    - 49B
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.49B-2013
+    urn: urn:ieee:ansi:N42.49B:2013
+  style: v3
+- id: ieee.base.0136
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '1965'
+    prefix: "N"
+    parts:
+    - '5'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.5-1965
+    urn: urn:ieee:ansi:N42.5:1965
+  style: v3
+- id: ieee.base.0137
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2013'
+    prefix: "N"
+    parts:
+    - '53'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.53-2013
+    urn: urn:ieee:ansi:N42.53:2013
+  style: v3
+- id: ieee.base.0138
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2021'
+    relationships:
+    - relationship_type: revision_of
+    prefix: "N"
+    parts:
+    - '53'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.53-2021
+    urn: urn:ieee:ansi:N42.53:2021:rel.Revision of ANSI N42.53-2013
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI N42.53-2021 (Revision of ANSI N42.53-2013)
+    style: v3
+- id: ieee.base.0139
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2018'
+    prefix: "N"
+    parts:
+    - '54'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.54-2018
+    urn: urn:ieee:ansi:N42.54:2018
+  style: v3
+- id: ieee.base.0140
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2013'
+    prefix: "N"
+    parts:
+    - '55'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.55-2013
+    urn: urn:ieee:ansi:N42.55:2013
+  style: v3
+- id: ieee.base.0141
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    publisher: ANSI
+    year: '2019'
+    prefix: "N"
+    parts:
+    - '60'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N42.60-2019
+    urn: urn:ieee:ansi:N42.60:2019
+  style: v3
+- id: ieee.base.0142
+  identifier:
+    _type: pubid:ieee:standard
+    number: '449'
+    publisher: ANSI
+    year: '1978'
+    prefix: "N"
+    parts:
+    - '1'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI N449.1-1978
+    urn: urn:ieee:ansi:N449.1:1978
+  style: v3
+- id: ieee.base.0143
+  identifier:
+    _type: pubid:ieee:standard
+    number: '152'
+    publisher: ANSI/IEEE
+    year: '1953'
+    stage: Std
+  representations:
+    human: ANSI/IEEE 152-1953
+    urn: urn:ieee:ansi/ieee:152:1953
+  style: v3
+- id: ieee.base.0144
+  identifier:
+    _type: pubid:ieee:standard
+    number: '275'
+    publisher: ANSI/IEEE
+    year: '1981'
+    stage: Std
+  representations:
+    human: ANSI/IEEE 275-1981
+    urn: urn:ieee:ansi/ieee:275:1981
+  style: v3
+- id: ieee.base.0145
+  identifier:
+    _type: pubid:ieee:standard
+    number: '450'
+    publisher: ANSI/IEEE
+    year: '1980'
+    stage: Std
+  representations:
+    human: ANSI/IEEE 450-1980
+    urn: urn:ieee:ansi/ieee:450:1980
+  style: v3
+- id: ieee.base.0146
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI/IEEE
+    year: '1985'
+    relationships:
+    - relationship_type: supplement_to
+    prefix: C
+    parts:
+    - 010b
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI/IEEE C37.010b-1985
+    urn: urn:ieee:ansi/ieee:C37.010b:1985:rel.Supplement to ANSI/IEEE C37.010-1979
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI/IEEE C37.010b-1985 (Supplement to ANSI/IEEE C37.010-1979)
+    style: v3
+- id: ieee.base.0147
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI/IEEE
+    year: '1985'
+    relationships:
+    - relationship_type: supplement_to
+    prefix: C
+    parts:
+    - 010e
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI/IEEE C37.010e-1985
+    urn: urn:ieee:ansi/ieee:C37.010e:1985:rel.Supplement to ANSI/IEEE C37.010-1979
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI/IEEE C37.010e-1985 (Supplement to ANSI/IEEE C37.010-1979)
+    style: v3
+- id: ieee.base.0148
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI/IEEE
+    year: '1979'
+    prefix: C
+    parts:
+    - '012'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI/IEEE C37.012-1979
+    urn: urn:ieee:ansi/ieee:C37.012:1979
+  style: v3
+- id: ieee.base.0149
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI/IEEE
+    year: '1986'
+    prefix: C
+    parts:
+    - 04g
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI/IEEE C37.04g-1986
+    urn: urn:ieee:ansi/ieee:C37.04g:1986
+  style: v3
+- id: ieee.base.0150
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI/IEEE
+    year: '1985'
+    relationships:
+    - relationship_type: supplement_to
+    prefix: C
+    parts:
+    - '09e'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI/IEEE C37.09e-1985
+    urn: urn:ieee:ansi/ieee:C37.09e:1985:rel.Supplement to ANSI/IEEE C37.09-1979
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI/IEEE C37.09e-1985 (Supplement to ANSI/IEEE C37.09-1979)
+    style: v3
+- id: ieee.base.0151
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI/IEEE
+    year: '1979'
+    prefix: C
+    parts:
+    - '1'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI/IEEE C37.1-1979
+    urn: urn:ieee:ansi/ieee:C37.1:1979
+  style: v3
+- id: ieee.base.0152
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI/IEEE
+    year: '1986'
+    relationships:
+    - relationship_type: supplement_to
+    prefix: C
+    parts:
+    - 100b
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI/IEEE C37.100b-1986
+    urn: urn:ieee:ansi/ieee:C37.100b:1986:rel.Supplement to ANSI/IEEE C37.100-1981
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI/IEEE C37.100b-1986 (Supplement to ANSI/IEEE C37.100-1981)
+    style: v3
+- id: ieee.base.0153
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI/IEEE
+    year: '1985'
+    prefix: C
+    parts:
+    - '101'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI/IEEE C37.101-1985
+    urn: urn:ieee:ansi/ieee:C37.101:1985
+  style: v3
+- id: ieee.base.0154
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI/IEEE
+    year: '1979'
+    prefix: C
+    parts:
+    - '14'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI/IEEE C37.14-1979
+    urn: urn:ieee:ansi/ieee:C37.14:1979
+  style: v3
+- id: ieee.base.0155
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI/IEEE
+    year: '1986'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '24'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI/IEEE C37.24-1986
+    urn: urn:ieee:ansi/ieee:C37.24:1986:rel.Revision of ANSI/IEEE C37.24-1971
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI/IEEE C37.24-1986 (Revision of ANSI/IEEE C37.24-1971)
+    style: v3
+- id: ieee.base.0156
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI/IEEE
+    year: '1985'
+    relationships:
+    - relationship_type: supplement_to
+    prefix: C
+    parts:
+    - 30g
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI/IEEE C37.30g-1985
+    urn: urn:ieee:ansi/ieee:C37.30g:1985:rel.Supplement to ANSI/IEEE C37.30-1971
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI/IEEE C37.30g-1985 (Supplement to ANSI/IEEE C37.30-1971)
+    style: v3
+- id: ieee.base.0157
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI/IEEE
+    year: '1984'
+    relationships:
+    - relationship_type: supplement_to
+    prefix: C
+    parts:
+    - 34d
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI/IEEE C37.34d-1984
+    urn: urn:ieee:ansi/ieee:C37.34d:1984:rel.Supplement to ANSI/IEEE C37.34-1971
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI/IEEE C37.34d-1984 (Supplement to ANSI/IEEE C37.34-1971)
+    style: v3
+- id: ieee.base.0158
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI/IEEE
+    year: '1981'
+    prefix: C
+    parts:
+    - '60'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI/IEEE C37.60-1981
+    urn: urn:ieee:ansi/ieee:C37.60:1981
+  style: v3
+- id: ieee.base.0159
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI/IEEE
+    year: '1978'
+    relationships:
+    - relationship_type: revision_of
+    prefix: C
+    parts:
+    - '90'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI/IEEE C37.90-1978
+    urn: urn:ieee:ansi/ieee:C37.90:1978:rel.Revision of ANSI C37.90-1971
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI/IEEE C37.90-1978 (Revision of ANSI C37.90-1971)
+    style: v3
+- id: ieee.base.0160
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ANSI/IEEE
+    year: '1973'
+    prefix: C
+    parts:
+    - '95'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI/IEEE C37.95-1973
+    urn: urn:ieee:ansi/ieee:C37.95:1973
+  style: v3
+- id: ieee.base.0161
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    publisher: ANSI/IEEE
+    year: '1980'
+    prefix: C
+    parts:
+    - '12'
+    - '00'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI/IEEE C57.12.00-1980
+    urn: urn:ieee:ansi/ieee:C57.12.00:1980
+  style: v3
+- id: ieee.base.0162
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    publisher: ANSI/IEEE
+    year: '1986'
+    prefix: C
+    parts:
+    - '98'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI/IEEE C57.98-1986
+    urn: urn:ieee:ansi/ieee:C57.98:1986
+  style: v3
+- id: ieee.base.0163
+  identifier:
+    _type: pubid:ieee:standard
+    number: '62'
+    publisher: ANSI/IEEE
+    year: '1981'
+    prefix: C
+    parts:
+    - '32'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI/IEEE C62.32-1981
+    urn: urn:ieee:ansi/ieee:C62.32:1981
+  style: v3
+- id: ieee.base.0164
+  identifier:
+    _type: pubid:ieee:standard
+    number: '67'
+    publisher: ANSI/IEEE
+    year: '1987'
+    prefix: C
+    parts:
+    - '92'
+    separator: "."
+    stage: Std
+  representations:
+    human: ANSI/IEEE C67.92-1987
+    urn: urn:ieee:ansi/ieee:C67.92:1987
+  style: v3
+- id: ieee.base.0165
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ASA
+    year: '1950'
+    prefix: C
+    parts:
+    - '1'
+    separator: "."
+    stage: Std
+  representations:
+    human: ASA C37.1-1950
+    urn: urn:ieee:asa:C37.1:1950
+  style: v3
+- id: ieee.base.0166
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ASA
+    year: '1957'
+    prefix: C
+    parts:
+    - '11'
+    separator: "."
+    stage: Std
+  representations:
+    human: ASA C37.11-1957
+    urn: urn:ieee:asa:C37.11:1957
+  style: v3
+- id: ieee.base.0167
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ASA
+    year: '1952'
+    prefix: C
+    parts:
+    - '12'
+    separator: "."
+    stage: Std
+  representations:
+    human: ASA C37.12-1952
+    urn: urn:ieee:asa:C37.12:1952
+  style: v3
+- id: ieee.base.0168
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ASA
+    year: '1963'
+    prefix: C
+    parts:
+    - '13'
+    separator: "."
+    stage: Std
+  representations:
+    human: ASA C37.13-1963
+    urn: urn:ieee:asa:C37.13:1963
+  style: v3
+- id: ieee.base.0169
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ASA
+    year: '1963'
+    prefix: C
+    parts:
+    - '19'
+    separator: "."
+    stage: Std
+  representations:
+    human: ASA C37.19-1963
+    urn: urn:ieee:asa:C37.19:1963
+  style: v3
+- id: ieee.base.0170
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ASA
+    year: '1959'
+    prefix: C
+    parts:
+    - '22'
+    separator: "."
+    stage: Std
+  representations:
+    human: ASA C37.22-1959
+    urn: urn:ieee:asa:C37.22:1959
+  style: v3
+- id: ieee.base.0171
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ASA
+    year: '1962'
+    prefix: C
+    parts:
+    - '35'
+    separator: "."
+    stage: Std
+  representations:
+    human: ASA C37.35-1962
+    urn: urn:ieee:asa:C37.35:1962
+  style: v3
+- id: ieee.base.0172
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ASA
+    year: '1962'
+    prefix: C
+    parts:
+    - '40'
+    separator: "."
+    stage: Std
+  representations:
+    human: ASA C37.40-1962
+    urn: urn:ieee:asa:C37.40:1962
+  style: v3
+- id: ieee.base.0173
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ASA
+    year: '1962'
+    prefix: C
+    parts:
+    - '41'
+    separator: "."
+    stage: Std
+  representations:
+    human: ASA C37.41-1962
+    urn: urn:ieee:asa:C37.41:1962
+  style: v3
+- id: ieee.base.0174
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ASA
+    year: '1962'
+    prefix: C
+    parts:
+    - '42'
+    separator: "."
+    stage: Std
+  representations:
+    human: ASA C37.42-1962
+    urn: urn:ieee:asa:C37.42:1962
+  style: v3
+- id: ieee.base.0175
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ASA
+    year: '1962'
+    prefix: C
+    parts:
+    - '43'
+    separator: "."
+    stage: Std
+  representations:
+    human: ASA C37.43-1962
+    urn: urn:ieee:asa:C37.43:1962
+  style: v3
+- id: ieee.base.0176
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    publisher: ASA
+    year: '1962'
+    prefix: C
+    parts:
+    - '45'
+    separator: "."
+    stage: Std
+  representations:
+    human: ASA C37.45-1962
+    urn: urn:ieee:asa:C37.45:1962
+  style: v3
+- id: ieee.base.0177
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    publisher: ASA
+    year: '1958'
+    prefix: C
+    parts:
+    - '12'
+    - '10'
+    separator: "."
+    stage: Std
+  representations:
+    human: ASA C57.12.10-1958
+    urn: urn:ieee:asa:C57.12.10:1958
+  style: v3
+- id: ieee.base.0178
+  identifier:
+    _type: pubid:ieee:standard
+    number: '61671'
+    edition: '1.0'
+    publisher: IEC
+    year: '2016'
+    edition_month: '04'
+    parts:
+    - '2'
+    separator: "-"
+    stage: Std
+  representations:
+    human: IEC 61671-2 Edition 1.0 2016-04
+    urn: urn:ieee:iec:61671-2:2016:ed.1.0
+  style: v3
+- id: ieee.base.0179
+  identifier:
+    _type: pubid:ieee:standard
+    number: '61671'
+    edition: '1.0'
+    publisher: IEC
+    year: '2016'
+    edition_month: '04'
+    parts:
+    - '4'
+    separator: "-"
+    stage: Std
+  representations:
+    human: IEC 61671-4 Edition 1.0 2016-04
+    urn: urn:ieee:iec:61671-4:2016:ed.1.0
+  style: v3
+- id: ieee.base.0180
+  identifier:
+    _type: pubid:ieee:standard
+    number: '61671'
+    edition: '1.0'
+    publisher: IEC
+    year: '2016'
+    edition_month: '04'
+    parts:
+    - '5'
+    separator: "-"
+    stage: Std
+  representations:
+    human: IEC 61671-5 Edition 1.0 2016-04
+    urn: urn:ieee:iec:61671-5:2016:ed.1.0
+  style: v3
+- id: ieee.base.0181
+  identifier:
+    _type: pubid:ieee:standard
+    number: '61671'
+    edition: '1.0'
+    publisher: IEC
+    year: '2016'
+    edition_month: '04'
+    parts:
+    - '6'
+    separator: "-"
+    stage: Std
+  representations:
+    human: IEC 61671-6 Edition 1.0 2016-04
+    urn: urn:ieee:iec:61671-6:2016:ed.1.0
+  style: v3
+- id: ieee.base.0182
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1016'
+    type: STD
+    year: '2009'
+    stage: Std
+  representations:
+    human: IEEE STD 1016-2009
+    urn: urn:ieee:ieee:std:1016:2009
+  style: v3
+- id: ieee.base.0183
+  identifier:
+    _type: pubid:ieee:standard
+    number: '11073'
+    type: STD
+    year: '2008'
+    parts:
+    - '10404'
+    separator: "-"
+    stage: Std
+  representations:
+    human: IEEE STD 11073-10404-2008
+    urn: urn:ieee:ieee:std:11073-10404:2008
+  style: v3
+- id: ieee.base.0184
+  identifier:
+    _type: pubid:ieee:standard
+    number: '11073'
+    type: STD
+    year: '2008'
+    parts:
+    - '10407'
+    separator: "-"
+    stage: Std
+  representations:
+    human: IEEE STD 11073-10407-2008
+    urn: urn:ieee:ieee:std:11073-10407:2008
+  style: v3
+- id: ieee.base.0185
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1139'
+    type: STD
+    year: '2008'
+    stage: Std
+  representations:
+    human: IEEE STD 1139-2008
+    urn: urn:ieee:ieee:std:1139:2008
+  style: v3
+- id: ieee.base.0186
+  identifier:
+    _type: pubid:ieee:standard
+    number: '12207'
+    type: STD
+    year: '2008'
+    stage: Std
+  representations:
+    human: IEEE STD 12207-2008
+    urn: urn:ieee:ieee:std:12207:2008
+  style: v3
+- id: ieee.base.0187
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1407'
+    type: STD
+    year: '2007'
+    relationships:
+    - relationship_type: revision_of
+    stage: Std
+  representations:
+    human: IEEE STD 1407-2007
+    urn: urn:ieee:ieee:std:1407:2007:rel.Revision of IEEE Std 1407-1998
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE STD 1407-2007 (Revision of IEEE Std 1407-1998)
+    style: v3
+- id: ieee.base.0188
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1481'
+    type: STD
+    year: '2009'
+    stage: Std
+  representations:
+    human: IEEE STD 1481-2009
+    urn: urn:ieee:ieee:std:1481:2009
+  style: v3
+- id: ieee.base.0189
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1597'
+    type: STD
+    year: '2008'
+    parts:
+    - '1'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE STD 1597.1-2008
+    urn: urn:ieee:ieee:std:1597.1:2008
+  style: v3
+- id: ieee.base.0190
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1613'
+    type: STD
+    year: '2009'
+    relationships:
+    - relationship_type: revision_of
+    stage: Std
+  representations:
+    human: IEEE STD 1613-2009
+    urn: urn:ieee:ieee:std:1613:2009:rel.Revision of IEEE STD 1613-2003
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE STD 1613-2009 (Revision of IEEE STD 1613-2003)
+    style: v3
+- id: ieee.base.0191
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1636'
+    type: STD
+    year: '2009'
+    parenthetical_content: New Trial-Use Standard
+    stage: Std
+  representations:
+    human: IEEE STD 1636-2009 (New Trial-Use Standard)
+    urn: urn:ieee:ieee:std:1636:2009
+  style: v3
+- id: ieee.base.0192
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1647'
+    type: STD
+    year: '2008'
+    stage: Std
+  representations:
+    human: IEEE STD 1647-2008
+    urn: urn:ieee:ieee:std:1647:2008
+  style: v3
+- id: ieee.base.0193
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1671'
+    type: STD
+    year: '2008'
+    parts:
+    - '2'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE STD 1671.2-2008
+    urn: urn:ieee:ieee:std:1671.2:2008
+  style: v3
+- id: ieee.base.0194
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1800'
+    type: STD
+    year: '2009'
+    stage: Std
+  representations:
+    human: IEEE STD 1800-2009
+    urn: urn:ieee:ieee:std:1800:2009
+  style: v3
+- id: ieee.base.0195
+  identifier:
+    _type: pubid:ieee:standard
+    number: '422'
+    type: STD
+    year: '1977'
+    stage: Std
+  representations:
+    human: IEEE STD 422-1977
+    urn: urn:ieee:ieee:std:422:1977
+  style: v3
+- id: ieee.base.0196
+  identifier:
+    _type: pubid:ieee:standard
+    number: '592'
+    type: STD
+    year: '2007'
+    relationships:
+    - relationship_type: revision_of
+    stage: Std
+  representations:
+    human: IEEE STD 592-2007
+    urn: urn:ieee:ieee:std:592:2007:rel.Revision of IEEE Std 592-1990
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE STD 592-2007 (Revision of IEEE Std 592-1990)
+    style: v3
+- id: ieee.base.0197
+  identifier:
+    _type: pubid:ieee:standard
+    number: '802'
+    type: STD
+    year: '2008'
+    parts:
+    - 11y
+    separator: "-"
+    stage: Std
+  representations:
+    human: IEEE STD 802-11y-2008
+    urn: urn:ieee:ieee:std:802-11y:2008
+  style: v3
+- id: ieee.base.0198
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    type: STD
+    year: '2008'
+    prefix: C
+    parts:
+    - '13'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE STD C37.13-2008
+    urn: urn:ieee:ieee:std:C37.13:2008
+  style: v3
+- id: ieee.base.0199
+  identifier:
+    _type: pubid:ieee:standard
+    number: '37'
+    type: STD
+    year: '2009'
+    prefix: C
+    parts:
+    - '16'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE STD C37.16-2009
+    urn: urn:ieee:ieee:std:C37.16:2009
+  style: v3
+- id: ieee.base.0200
+  identifier:
+    _type: pubid:ieee:standard
+    number: '57'
+    type: STD
+    year: '2009'
+    prefix: C
+    parts:
+    - '12'
+    - '38'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE STD C57.12.38-2009
+    urn: urn:ieee:ieee:std:C57.12.38:2009
+  style: v3
+- id: ieee.base.0201
+  identifier:
+    _type: pubid:ieee:standard
+    number: '62'
+    type: STD
+    year: '2008'
+    prefix: C
+    parts:
+    - 11a
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE STD C62.11a-2008
+    urn: urn:ieee:ieee:std:C62.11a:2008
+  style: v3
+- id: ieee.base.0202
+  identifier:
+    _type: pubid:ieee:standard
+    number: 323C
+    type: STD
+    year: '2009'
+    parenthetical_content: New Standard
+    prefix: "N"
+    stage: Std
+  representations:
+    human: IEEE STD N323C-2009 (New Standard)
+    urn: urn:ieee:ieee:std:N323C:2009
+  style: v3
+- id: ieee.base.0203
+  identifier:
+    _type: pubid:ieee:standard
+    number: '42'
+    type: STD
+    year: '2008'
+    prefix: "N"
+    parts:
+    - '44'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE STD N42.44-2008
+    urn: urn:ieee:ieee:std:N42.44:2008
+  style: v3
+- id: ieee.base.0204
+  identifier:
+    _type: pubid:ieee:standard
+    number: '141'
+    year: '1969'
+    stage: Std
+  representations:
+    human: IEEE Std 141-1969
+    urn: urn:ieee:ieee:141:1969
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 141-1969
+    style: v3
+- id: ieee.base.0205
+  identifier:
+    _type: pubid:ieee:standard
+    number: '142'
+    year: '1956'
+    stage: Std
+  representations:
+    human: IEEE Std 142-1956
+    urn: urn:ieee:ieee:142:1956
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 142-1956
+    style: v3
+- id: ieee.base.0206
+  identifier:
+    _type: pubid:ieee:standard
+    number: '145'
+    year: '1969'
+    stage: Std
+  representations:
+    human: IEEE Std 145-1969
+    urn: urn:ieee:ieee:145:1969
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 145-1969
+    style: v3
+- id: ieee.base.0207
+  identifier:
+    _type: pubid:ieee:standard
+    number: '145'
+    year: '1973'
+    stage: Std
+  representations:
+    human: IEEE Std 145-1973
+    urn: urn:ieee:ieee:145:1973
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 145-1973
+    style: v3
+- id: ieee.base.0208
+  identifier:
+    _type: pubid:ieee:standard
+    number: '148'
+    year: '1959'
+    month: April
+    stage: Std
+  representations:
+    human: IEEE Std 148, April 1959
+    urn: urn:ieee:ieee:148:1959:April
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No. 148, April 1959
+    style: v3
+- id: ieee.base.0209
+  identifier:
+    _type: pubid:ieee:standard
+    number: '151'
+    year: '1965'
+    stage: Std
+  representations:
+    human: IEEE Std 151-1965
+    urn: urn:ieee:ieee:151:1965
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 151-1965
+    style: v3
+- id: ieee.base.0210
+  identifier:
+    _type: pubid:ieee:standard
+    number: '170'
+    year: '1964'
+    stage: Std
+  representations:
+    human: IEEE Std 170-1964
+    urn: urn:ieee:ieee:170:1964
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 170-1964
+    style: v3
+- id: ieee.base.0211
+  identifier:
+    _type: pubid:ieee:standard
+    number: '18'
+    year: '1964'
+    stage: Std
+  representations:
+    human: IEEE Std 18-1964
+    urn: urn:ieee:ieee:18:1964
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 18-1964
+    style: v3
+- id: ieee.base.0212
+  identifier:
+    _type: pubid:ieee:standard
+    number: 182A
+    year: '1964'
+    stage: Std
+  representations:
+    human: IEEE Std 182A-1964
+    urn: urn:ieee:ieee:182A:1964
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 182A-1964
+    style: v3
+- id: ieee.base.0213
+  identifier:
+    _type: pubid:ieee:standard
+    number: '223'
+    year: '1966'
+    stage: Std
+  representations:
+    human: IEEE Std 223-1966
+    urn: urn:ieee:ieee:223:1966
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 223-1966
+    style: v3
+- id: ieee.base.0214
+  identifier:
+    _type: pubid:ieee:standard
+    number: '251'
+    year: '1963'
+    stage: Std
+  representations:
+    human: IEEE Std 251-1963
+    urn: urn:ieee:ieee:251:1963
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 251-1963
+    style: v3
+- id: ieee.base.0215
+  identifier:
+    _type: pubid:ieee:standard
+    number: '252'
+    year: '1963'
+    stage: Std
+  representations:
+    human: IEEE Std 252-1963
+    urn: urn:ieee:ieee:252:1963
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 252-1963
+    style: v3
+- id: ieee.base.0216
+  identifier:
+    _type: pubid:ieee:standard
+    number: '254'
+    year: '1963'
+    stage: Std
+  representations:
+    human: IEEE Std 254-1963
+    urn: urn:ieee:ieee:254:1963
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 254-1963
+    style: v3
+- id: ieee.base.0217
+  identifier:
+    _type: pubid:ieee:standard
+    number: '256'
+    year: '1963'
+    stage: Std
+  representations:
+    human: IEEE Std 256-1963
+    urn: urn:ieee:ieee:256:1963
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 256-1963
+    style: v3
+- id: ieee.base.0218
+  identifier:
+    _type: pubid:ieee:standard
+    number: '257'
+    year: '1964'
+    stage: Std
+  representations:
+    human: IEEE Std 257-1964
+    urn: urn:ieee:ieee:257:1964
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 257-1964
+    style: v3
+- id: ieee.base.0219
+  identifier:
+    _type: pubid:ieee:standard
+    number: '258'
+    year: '1965'
+    stage: Std
+  representations:
+    human: IEEE Std 258-1965
+    urn: urn:ieee:ieee:258:1965
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 258-1965
+    style: v3
+- id: ieee.base.0220
+  identifier:
+    _type: pubid:ieee:standard
+    number: '259'
+    year: '1965'
+    stage: Std
+  representations:
+    human: IEEE Std 259-1965
+    urn: urn:ieee:ieee:259:1965
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 259-1965
+    style: v3
+- id: ieee.base.0221
+  identifier:
+    _type: pubid:ieee:standard
+    number: '261'
+    year: '1965'
+    stage: Std
+  representations:
+    human: IEEE Std 261-1965
+    urn: urn:ieee:ieee:261:1965
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 261-1965
+    style: v3
+- id: ieee.base.0222
+  identifier:
+    _type: pubid:ieee:standard
+    number: '264'
+    year: '1968'
+    stage: Std
+  representations:
+    human: IEEE Std 264-1968
+    urn: urn:ieee:ieee:264:1968
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No. 264-1968
+    style: v3
+- id: ieee.base.0223
+  identifier:
+    _type: pubid:ieee:standard
+    number: '265'
+    year: '1966'
+    stage: Std
+  representations:
+    human: IEEE Std 265-1966
+    urn: urn:ieee:ieee:265:1966
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 265-1966
+    style: v3
+- id: ieee.base.0224
+  identifier:
+    _type: pubid:ieee:standard
+    number: '266'
+    year: '1969'
+    stage: Std
+  representations:
+    human: IEEE Std 266-1969
+    urn: urn:ieee:ieee:266:1969
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 266-1969
+    style: v3
+- id: ieee.base.0225
+  identifier:
+    _type: pubid:ieee:standard
+    number: '268'
+    year: '1966'
+    stage: Std
+  representations:
+    human: IEEE Std 268-1966
+    urn: urn:ieee:ieee:268:1966
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 268-1966
+    style: v3
+- id: ieee.base.0226
+  identifier:
+    _type: pubid:ieee:standard
+    number: '269'
+    year: '1966'
+    stage: Std
+  representations:
+    human: IEEE Std 269-1966
+    urn: urn:ieee:ieee:269:1966
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 269-1966
+    style: v3
+- id: ieee.base.0227
+  identifier:
+    _type: pubid:ieee:standard
+    number: '270'
+    year: '1966'
+    stage: Std
+  representations:
+    human: IEEE Std 270-1966
+    urn: urn:ieee:ieee:270:1966
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 270-1966
+    style: v3
+- id: ieee.base.0228
+  identifier:
+    _type: pubid:ieee:standard
+    number: '275'
+    year: '1966'
+    stage: Std
+  representations:
+    human: IEEE Std 275-1966
+    urn: urn:ieee:ieee:275:1966
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 275-1966
+    style: v3
+- id: ieee.base.0229
+  identifier:
+    _type: pubid:ieee:standard
+    number: '277'
+    year: '1967'
+    stage: Std
+  representations:
+    human: IEEE Std 277-1967
+    urn: urn:ieee:ieee:277:1967
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 277-1967
+    style: v3
+- id: ieee.base.0230
+  identifier:
+    _type: pubid:ieee:standard
+    number: '281'
+    year: '1968'
+    stage: Std
+  representations:
+    human: IEEE Std 281-1968
+    urn: urn:ieee:ieee:281:1968
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 281-1968
+    style: v3
+- id: ieee.base.0231
+  identifier:
+    _type: pubid:ieee:standard
+    number: '282'
+    year: '1968'
+    parenthetical_content: Issued for Trial-Use
+    stage: Std
+  representations:
+    human: IEEE Std 282-1968 (Issued for Trial-Use)
+    urn: urn:ieee:ieee:282:1968
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No. 282-1968 (Issued for Trial-Use)
+    style: v3
+- id: ieee.base.0232
+  identifier:
+    _type: pubid:ieee:standard
+    number: '286'
+    year: '1968'
+    stage: Std
+  representations:
+    human: IEEE Std 286-1968
+    urn: urn:ieee:ieee:286:1968
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 286-1968
+    style: v3
+- id: ieee.base.0233
+  identifier:
+    _type: pubid:ieee:standard
+    number: '297'
+    year: '1969'
+    stage: Std
+  representations:
+    human: IEEE Std 297-1969
+    urn: urn:ieee:ieee:297:1969
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 297-1969
+    style: v3
+- id: ieee.base.0234
+  identifier:
+    _type: pubid:ieee:standard
+    number: '300'
+    year: '1969'
+    parenthetical_content: USAS N42.1-1969
+    stage: Std
+  representations:
+    human: IEEE Std 300-1969 (USAS N42.1-1969)
+    urn: urn:ieee:ieee:300:1969
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 300-1969 (USAS N42.1-1969)
+    style: v3
+- id: ieee.base.0235
+  identifier:
+    _type: pubid:ieee:standard
+    number: '303'
+    year: '1969'
+    stage: Std
+  representations:
+    human: IEEE Std 303-1969
+    urn: urn:ieee:ieee:303:1969
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No. 303-1969
+    style: v3
+- id: ieee.base.0236
+  identifier:
+    _type: pubid:ieee:standard
+    number: '305'
+    year: '1969'
+    stage: Std
+  representations:
+    human: IEEE Std 305-1969
+    urn: urn:ieee:ieee:305:1969
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 305-1969
+    style: v3
+- id: ieee.base.0237
+  identifier:
+    _type: pubid:ieee:standard
+    number: '308'
+    year: '1970'
+    stage: Std
+  representations:
+    human: IEEE Std 308-1970
+    urn: urn:ieee:ieee:308:1970
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 308-1970
+    style: v3
+- id: ieee.base.0238
+  identifier:
+    _type: pubid:ieee:standard
+    number: '323'
+    year: '1971'
+    month: April
+    stage: Std
+  representations:
+    human: IEEE Std 323, April 1971
+    urn: urn:ieee:ieee:323:1971:April
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 323, April 1971
+    style: v3
+- id: ieee.base.0239
+  identifier:
+    _type: pubid:ieee:standard
+    number: '45'
+    year: '1967'
+    stage: Std
+  representations:
+    human: IEEE Std 45-1967
+    urn: urn:ieee:ieee:45:1967
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 45-1967
+    style: v3
+- id: ieee.base.0240
+  identifier:
+    _type: pubid:ieee:standard
+    number: '51'
+    year: '1955'
+    stage: Std
+  representations:
+    human: IEEE Std 51-1955
+    urn: urn:ieee:ieee:51:1955
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 51-1955
+    style: v3
+- id: ieee.base.0241
+  identifier:
+    _type: pubid:ieee:standard
+    number: '77'
+    year: '1965'
+    stage: Std
+  representations:
+    human: IEEE Std 77-1965
+    urn: urn:ieee:ieee:77:1965
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 77-1965
+    style: v3
+- id: ieee.base.0242
+  identifier:
+    _type: pubid:ieee:standard
+    number: '94'
+    year: '1970'
+    stage: Std
+  representations:
+    human: IEEE Std 94-1970
+    urn: urn:ieee:ieee:94:1970
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 94-1970
+    style: v3
+- id: ieee.base.0243
+  identifier:
+    _type: pubid:ieee:standard
+    number: '99'
+    year: '1970'
+    stage: Std
+  representations:
+    human: IEEE Std 99-1970
+    urn: urn:ieee:ieee:99:1970
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE No 99-1970
+    style: v3
+- id: ieee.base.0244
+  identifier:
+    _type: pubid:ieee:standard
+    number: '60255'
+    copublisher:
+    - IEC
+    draft: D7, June 2017
+    prefix: P
+    parts:
+    - '118'
+    - '1'
+    separator: "-"
+    stage: D7
+  representations:
+    human: IEEE/IEC P60255-118-1/D7, June 2017
+    urn: urn:ieee:ieee-iec:P60255-118-1:draft./D7, June 2017
+  style: v3
+- id: ieee.base.0245
+  identifier:
+    _type: pubid:ieee:standard
+    number: '62271'
+    copublisher:
+    - IEC
+    draft: D1, Jul 2018
+    prefix: P
+    parts:
+    - '37'
+    - '013'
+    separator: "-"
+    stage: D1
+  representations:
+    human: IEEE/IEC P62271-37-013/D1, Jul 2018
+    urn: urn:ieee:ieee-iec:P62271-37-013:draft./D1, Jul 2018
+  style: v3
+- id: ieee.base.0246
+  identifier:
+    _type: pubid:ieee:standard
+    number: '2445'
+    copublisher:
+    - NACE
+    draft: D2, May 2018
+    prefix: P
+    stage: D2
+  representations:
+    human: IEEE/NACE P2445/D2, May 2018
+    urn: urn:ieee:ieee-nace:P2445:draft./D2, May 2018
+  style: v3
+- id: ieee.base.0247
+  identifier:
+    _type: pubid:ieee:standard
+    number: '2655'
+    copublisher:
+    - NACE
+    draft: D2, May 2018
+    prefix: P
+    stage: D2
+  representations:
+    human: IEEE/NACE P2655/D2, May 2018
+    urn: urn:ieee:ieee-nace:P2655:draft./D2, May 2018
+  style: v3
+- id: ieee.base.0248
+  identifier:
+    _type: pubid:ieee:standard
+    number: '16326'
+    publisher: ISO
+    copublisher:
+    - IEC
+    - IEEE
+    parenthetical_content: First edition 2009-12-15
+    stage: Std
+  representations:
+    human: ISO/IEC/IEEE 16326 (First edition 2009-12-15)
+    urn: urn:ieee:iso-iec-ieee:16326
+  style: v3

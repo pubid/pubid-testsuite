@@ -1,0 +1,23 @@
+---
+- id: oiml.basic_publication.0001
+  identifier:
+    _type: pubid:oiml:basic-publication
+    publisher: OIML
+    number: '18'
+    year: '2018'
+  representations:
+    human: OIML B 18:2018
+    urn: urn:oiml:b:18:2018
+  style: v3
+- id: oiml.basic_publication.0002
+  identifier:
+    _type: pubid:oiml:basic-publication
+    language: E
+    parsed_format: long
+    publisher: OIML
+    number: '22'
+    year: '2023'
+  representations:
+    human: OIML B 22 Edition 2023 (E)
+    urn: urn:oiml:b:22:2023:e
+  style: v3

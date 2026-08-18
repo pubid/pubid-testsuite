@@ -1,0 +1,51 @@
+---
+- id: iana.debt.1842658893401050286
+  input: "# IANA protocol registries - Pass (round-trip verbatim)"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse IANA identifier
+    ''# IANA protocol registries - Pass (round-trip verbatim)'': Failed to match sequence
+    (IANA_PREFIX registry:SLUG (''/'' sub_registry:SLUG)?) at line 1 char 1.'
+- id: iana.debt.4490460235539216865
+  input: "# Sampled from relaton-data-iana docidentifier content (type: IANA)."
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse IANA identifier
+    ''# Sampled from relaton-data-iana docidentifier content (type: IANA).'': Failed
+    to match sequence (IANA_PREFIX registry:SLUG (''/'' sub_registry:SLUG)?) at line
+    1 char 1.'
+- id: iana.debt.3690672039764019164
+  input: '# Authoritative printed form: "IANA <slug>[/<sub-slug>]".'
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse IANA identifier
+    ''# Authoritative printed form: "IANA <slug>[/<sub-slug>]".'': Failed to match
+    sequence (IANA_PREFIX registry:SLUG (''/'' sub_registry:SLUG)?) at line 1 char
+    1.'
+- id: iana.debt.688981152515433160
+  input: "# Top registries (no sub-registry)"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse IANA identifier
+    ''# Top registries (no sub-registry)'': Failed to match sequence (IANA_PREFIX
+    registry:SLUG (''/'' sub_registry:SLUG)?) at line 1 char 1.'
+- id: iana.debt.1180477553813104432
+  input: "# Sub-registries (single slash)"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse IANA identifier
+    ''# Sub-registries (single slash)'': Failed to match sequence (IANA_PREFIX registry:SLUG
+    (''/'' sub_registry:SLUG)?) at line 1 char 1.'
+- id: iana.debt.1504657573820842086
+  input: "# Dotted slugs (version numbers embedded)"
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse IANA identifier
+    ''# Dotted slugs (version numbers embedded)'': Failed to match sequence (IANA_PREFIX
+    registry:SLUG (''/'' sub_registry:SLUG)?) at line 1 char 1.'

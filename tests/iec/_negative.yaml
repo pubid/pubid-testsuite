@@ -11,7 +11,6 @@
       code: parse_failed
 - id: iec.neg.corrigendum.0003
   input: IEC 60695-2-1/1:1994/COR1:1995
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.guide.0001
   input: IEC Guide - Fail
@@ -25,7 +24,6 @@
       code: parse_failed
 - id: iec.neg.guide.0003
   input: "IEC Guide 115\tED3"
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0001
   input: IEC International Standard - Fail
@@ -39,51 +37,39 @@
       code: parse_failed
 - id: iec.neg.international_standard.0003
   input: IECEE AD-001
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0004
   input: "IECEE AD-001\tED1.6"
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0005
   input: "IECEE AD-001\tED1.7"
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0006
   input: "IECEE AD-003\tED1.2"
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0007
   input: "IECEE AD-004\tED1.2"
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0008
   input: "IECEE AD-005\tED1.1"
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0009
   input: "IECEE AD-007\tED1"
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0010
   input: "IECEE AD-008\tED1"
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0011
   input: "IECEE AD-008-F1\tED1"
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0012
   input: "IECEE AD-008-F2\tED1"
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0013
   input: "IECEE AD-009\tED1"
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0014
   input: "IECEE AD-010\tED1"
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0015
   input: IECEE CAB-G01:2021-07
@@ -92,27 +78,21 @@
       code: parse_failed
 - id: iec.neg.international_standard.0016
   input: "IECEE GD-2053\tED1.2"
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0017
   input: "IECEE GD-2053-F1\tED1.1"
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0018
   input: "IECEE GD-2053-F2\tED1.1"
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0019
   input: "IECEE GD-2065\tED1"
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0020
   input: "IECEE GD-2066\tED1"
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0021
   input: "IECEE GD-5015\tED1"
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0022
   input: IEC CAB-P01
@@ -651,7 +631,6 @@
       code: parse_failed
 - id: iec.neg.international_standard.0129
   input: IECEE AD-001:2024-06(en)
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0130
   input: IECEE OD-2020-F1:2025
@@ -710,7 +689,6 @@
       code: parse_failed
 - id: iec.neg.international_standard.0141
   input: IEC CABPUB01:2022-09, Ed. 1.1
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0142
   input: IEC CABPUB01:2022-09, Ed. 1.1 Redline version
@@ -749,7 +727,6 @@
       code: parse_failed
 - id: iec.neg.international_standard.0149
   input: IEC CA 01:2025-10, Ed. 5.0
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0150
   input: IEC CA 01:2025-10, Ed. 5.0 Redline version
@@ -758,7 +735,6 @@
       code: parse_failed
 - id: iec.neg.international_standard.0151
   input: IECEE 01-S:2025-03, Ed. 5.1
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0152
   input: IECEE 01-S:2025-03, Ed. 5.1 Redline Version
@@ -767,7 +743,6 @@
       code: parse_failed
 - id: iec.neg.international_standard.0153
   input: IECEx 01-S:2025-04, Ed. 3.1
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0154
   input: IECEx 01-S:2022-05, Ed. 2.2 Redline Version
@@ -776,7 +751,6 @@
       code: parse_failed
 - id: iec.neg.international_standard.0155
   input: IECQ 01-S:2024-03, Ed. 3.0
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0156
   input: IECQ 01-S:2024-03, Ed. 3.0 Redline Version
@@ -785,7 +759,6 @@
       code: parse_failed
 - id: iec.neg.international_standard.0157
   input: IECRE 01-S:2025-02 Ed. 5.1
-  style: v3
   notes: fail fixture unexpectedly parsed - reclassify
 - id: iec.neg.international_standard.0158
   input: IECRE 01-S:2025-02, Ed. 5.1 Redline version

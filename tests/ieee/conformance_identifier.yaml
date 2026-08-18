@@ -1,0 +1,17 @@
+---
+- id: ieee.conformance_identifier.0001
+  identifier:
+    _type: pubid:ieee:conformance-identifier
+    number: '01'
+    year: '2003'
+    base:
+      _type: pubid:ieee:standard
+      number: '802'
+      parts:
+      - '16'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 802.16/Conformance01-2003
+    urn: urn:ieee:ieee:conformance:2003
+  style: v3

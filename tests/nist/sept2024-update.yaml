@@ -1,0 +1,1542 @@
+---
+- id: nist.sept2024-update.0001
+  identifier:
+    _type: pubid:nist:federal-information-processing-standards
+    number: 11-1
+    edition:
+      type: e
+      id: '3009'
+    publisher: NBS
+    series: FIPS
+    parsed_format: mr
+  representations:
+    human: FIPS.11-1e3009
+    urn: urn:nist:fips:11-1.e3009.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS.FIPS.11-1-Sep30
+    style: v3
+- id: nist.sept2024-update.0002
+  identifier:
+    _type: pubid:nist:federal-information-processing-standards
+    number: '197'
+    publisher: NIST
+    series: FIPS
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: FIPS.197-upd1
+    urn: urn:nist:fips:197./Upd1.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.FIPS.197-upd1
+    style: v3
+- id: nist.sept2024-update.0003
+  identifier:
+    _type: pubid:nist:federal-information-processing-standards
+    number: 54-1
+    edition:
+      type: e
+      id: '1501'
+    publisher: NIST
+    series: FIPS
+    parsed_format: mr
+  representations:
+    human: FIPS.54-1e1501
+    urn: urn:nist:fips:54-1.e1501.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.FIPS.54-1-Jan15
+    style: v3
+- id: nist.sept2024-update.0004
+  identifier:
+    _type: pubid:nist:federal-information-processing-standards
+    number: 54-1
+    edition:
+      type: e
+      id: '1701'
+    publisher: NIST
+    series: FIPS
+    parsed_format: mr
+  representations:
+    human: FIPS.54-1e1701
+    urn: urn:nist:fips:54-1.e1701.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.FIPS.54-1-Jan17
+    style: v3
+- id: nist.sept2024-update.0005
+  identifier:
+    _type: pubid:nist:circular
+    publisher: NBS
+    series: CIRC
+    supplement:
+      year: '1925'
+      month: Jun
+      month_end: Jun
+      year_end: '1926'
+  representations:
+    human: NBS CIRC supJun1925-Jun1926
+    urn: urn:nist:circ:suppJun1925-Jun1926
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS.CIRC.supJun1925-Jun1926
+    style: v3
+- id: nist.sept2024-update.0006
+  identifier:
+    _type: pubid:nist:circular
+    publisher: NBS
+    series: CIRC
+    supplement:
+      year: '1925'
+      month: Jun
+      month_end: Jun
+      year_end: '1927'
+  representations:
+    human: NBS CIRC supJun1925-Jun1927
+    urn: urn:nist:circ:suppJun1925-Jun1927
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS.CIRC.supJun1925-Jun1927
+    style: v3
+- id: nist.sept2024-update.0007
+  identifier:
+    _type: pubid:nist:crpl-report
+    number: 4-4
+    publisher: NBS
+    series: CRPL
+    parsed_format: mr
+  representations:
+    human: NBS CRPL 4-4
+    urn: urn:nist:crpl:4-4.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS.CRPL.c4-4
+    style: v3
+- id: nist.sept2024-update.0008
+  identifier:
+    _type: pubid:nist:circular
+    publisher: NBS
+    series: CIRC
+    parsed_format: mr
+  representations:
+    human: NBS.CIRC
+    urn: urn:nist:circ:supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS.CIRC.sup
+    style: v3
+- id: nist.sept2024-update.0009
+  identifier:
+    _type: pubid:nist:circular
+    number: '154'
+    publisher: NBS
+    series: CIRC
+    parsed_format: mr
+    supplement:
+      has_revision: true
+  representations:
+    human: NBS.CIRC.154suprev
+    urn: urn:nist:circ:154.supprev
+  style: v3
+- id: nist.sept2024-update.0010
+  identifier:
+    _type: pubid:nist:circular
+    edition:
+      type: e
+      id: '2'
+    publisher: NBS
+    series: CIRC
+    parsed_format: mr
+  representations:
+    human: NBS.CIRCe2
+    urn: urn:nist:circ:e2.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS.CIRC.e2
+    style: v3
+- id: nist.sept2024-update.0011
+  identifier:
+    _type: pubid:nist:technical-note
+    number: '467'
+    part:
+      type: pt
+      value: '1'
+    publisher: NBS
+    series: TN
+    parsed_format: mr
+    addendum: 'true'
+  representations:
+    human: NBS.TN.467pt1.Add.
+    urn: urn:nist:tn:467.pt1.supp.add.
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS.TN.467p1adde1
+    style: v3
+- id: nist.sept2024-update.0012
+  identifier:
+    _type: pubid:nist:technical-note
+    number: '671'
+    publisher: NBS
+    series: TN
+    parsed_format: mr
+  representations:
+    human: NBS.TN.671
+    urn: urn:nist:tn:671.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: nbs.tn.671
+    style: v3
+- id: nist.sept2024-update.0013
+  identifier:
+    _type: pubid:nist:interagency-report
+    number: '8115'
+    edition:
+      type: r
+      id: '1'
+    publisher: NIST
+    series: IR
+    update_component:
+      number: '1'
+      prefix: dash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: dash
+  representations:
+    human: NIST IR 8115r1-upd1
+    urn: urn:nist:ir:8115.r1.-upd1.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.IR.8115r1-upd
+    style: v3
+- id: nist.sept2024-update.0014
+  identifier:
+    _type: pubid:nist:interagency-report
+    number: '8165'
+    publisher: NIST
+    series: IR
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST IR 8165/Upd1
+    urn: urn:nist:ir:8165./Upd1.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.IR.8165-upd1
+    style: v3
+- id: nist.sept2024-update.0015
+  identifier:
+    _type: pubid:nist:interagency-report
+    number: '8170'
+    publisher: NIST
+    series: IR
+    update_component:
+      number: '1'
+      prefix: dash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: dash
+  representations:
+    human: NIST IR 8170-upd1
+    urn: urn:nist:ir:8170.-upd1.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.IR.8170-upd
+    style: v3
+- id: nist.sept2024-update.0016
+  identifier:
+    _type: pubid:nist:interagency-report
+    number: '8211'
+    publisher: NIST
+    series: IR
+    update_component:
+      number: '1'
+      prefix: dash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: dash
+  representations:
+    human: NIST IR 8211-upd1
+    urn: urn:nist:ir:8211.-upd1.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.IR.8211-upd
+    style: v3
+- id: nist.sept2024-update.0017
+  identifier:
+    _type: pubid:nist:interagency-report
+    number: '8259'
+    publisher: NIST
+    series: IR
+    translation_component:
+      code: por
+    parsed_format: mr
+    translation: " por"
+  representations:
+    human: NIST IR 8259 por
+    urn: urn:nist:ir:8259.supp:por
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.IR.8259Apt
+    style: v3
+- id: nist.sept2024-update.0018
+  identifier:
+    _type: pubid:nist:interagency-report
+    number: 8259A
+    publisher: NIST
+    series: IR
+    translation_component:
+      code: spa
+    parsed_format: mr
+    translation: " spa"
+  representations:
+    human: NIST IR 8259A spa
+    urn: urn:nist:ir:8259A.supp:spa
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.IR.8259Aes
+    style: v3
+- id: nist.sept2024-update.0019
+  identifier:
+    _type: pubid:nist:interagency-report
+    number: 8286C
+    publisher: NIST
+    series: IR
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST IR 8286C/Upd1
+    urn: urn:nist:ir:8286C./Upd1.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.IR.8286C-upd1
+    style: v3
+- id: nist.sept2024-update.0020
+  identifier:
+    _type: pubid:nist:interagency-report
+    number: '8290'
+    publisher: NIST
+    series: IR
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST IR 8290/Upd1
+    urn: urn:nist:ir:8290./Upd1.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.IR.8290-upd1
+    style: v3
+- id: nist.sept2024-update.0021
+  identifier:
+    _type: pubid:nist:interagency-report
+    number: '8406'
+    publisher: NIST
+    series: IR
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST IR 8406/Upd1
+    urn: urn:nist:ir:8406./Upd1.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.IR.8406-upd1
+    style: v3
+- id: nist.sept2024-update.0022
+  identifier:
+    _type: pubid:nist:interagency-report
+    number: '8413'
+    publisher: NIST
+    series: IR
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST IR 8413/Upd1
+    urn: urn:nist:ir:8413./Upd1.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.IR.8413-upd1
+    style: v3
+- id: nist.sept2024-update.0023
+  identifier:
+    _type: pubid:nist:interagency-report
+    number: '8450'
+    publisher: NIST
+    series: IR
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST IR 8450/Upd1
+    urn: urn:nist:ir:8450./Upd1.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.IR.8450-upd1
+    style: v3
+- id: nist.sept2024-update.0024
+  identifier:
+    _type: pubid:nist:interagency-report
+    number: '8455'
+    publisher: NIST
+    series: IR
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST IR 8455/Upd1
+    urn: urn:nist:ir:8455./Upd1.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.IR.8455-upd1
+    style: v3
+- id: nist.sept2024-update.0025
+  identifier:
+    _type: pubid:nist:interagency-report
+    number: 85-3273
+    part:
+      type: pt
+      value: '37'
+    publisher: NIST
+    series: IR
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST IR 85-3273pt37/Upd1
+    urn: urn:nist:ir:85-3273.pt37./Upd1.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.IR.85-3273-37-upd1
+    style: v3
+- id: nist.sept2024-update.0026
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-1B
+    publisher: NIST
+    series: MONO
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-1B
+    urn: urn:nist:mono:1-1B.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-1b
+    style: v3
+- id: nist.sept2024-update.0027
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-1C
+    publisher: NIST
+    series: MONO
+    volume: '1'
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-1Cv1
+    urn: urn:nist:mono:1-1C.v1.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-1cv1
+    style: v3
+- id: nist.sept2024-update.0028
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-1C
+    publisher: NIST
+    series: MONO
+    volume: '2'
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-1Cv2
+    urn: urn:nist:mono:1-1C.v2.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-1cv2
+    style: v3
+- id: nist.sept2024-update.0029
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-1D
+    publisher: NIST
+    series: MONO
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-1D
+    urn: urn:nist:mono:1-1D.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-1d
+    style: v3
+- id: nist.sept2024-update.0030
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-1E
+    publisher: NIST
+    series: MONO
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-1E
+    urn: urn:nist:mono:1-1E.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-1e
+    style: v3
+- id: nist.sept2024-update.0031
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-1F
+    publisher: NIST
+    series: MONO
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-1F
+    urn: urn:nist:mono:1-1F.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-1f
+    style: v3
+- id: nist.sept2024-update.0032
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-1G
+    publisher: NIST
+    series: MONO
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-1G
+    urn: urn:nist:mono:1-1G.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-1g
+    style: v3
+- id: nist.sept2024-update.0033
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-1H
+    publisher: NIST
+    series: MONO
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-1H
+    urn: urn:nist:mono:1-1H.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-1h
+    style: v3
+- id: nist.sept2024-update.0034
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-1I
+    publisher: NIST
+    series: MONO
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-1I
+    urn: urn:nist:mono:1-1I.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-1i
+    style: v3
+- id: nist.sept2024-update.0035
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-1J
+    publisher: NIST
+    series: MONO
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-1J
+    urn: urn:nist:mono:1-1J.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-1j
+    style: v3
+- id: nist.sept2024-update.0036
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-2B
+    publisher: NIST
+    series: MONO
+    volume: '1'
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-2Bv1
+    urn: urn:nist:mono:1-2B.v1.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-2bv1
+    style: v3
+- id: nist.sept2024-update.0037
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-2B
+    publisher: NIST
+    series: MONO
+    volume: '2'
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-2Bv2
+    urn: urn:nist:mono:1-2B.v2.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-2bv2
+    style: v3
+- id: nist.sept2024-update.0038
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-3B
+    publisher: NIST
+    series: MONO
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-3B
+    urn: urn:nist:mono:1-3B.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-3b
+    style: v3
+- id: nist.sept2024-update.0039
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-3C
+    publisher: NIST
+    series: MONO
+    volume: '1'
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-3Cv1
+    urn: urn:nist:mono:1-3C.v1.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-3cv1
+    style: v3
+- id: nist.sept2024-update.0040
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-3C
+    publisher: NIST
+    series: MONO
+    volume: '2'
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-3Cv2
+    urn: urn:nist:mono:1-3C.v2.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-3cv2
+    style: v3
+- id: nist.sept2024-update.0041
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-3D
+    publisher: NIST
+    series: MONO
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-3D
+    urn: urn:nist:mono:1-3D.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-3d
+    style: v3
+- id: nist.sept2024-update.0042
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-3E
+    publisher: NIST
+    series: MONO
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-3E
+    urn: urn:nist:mono:1-3E.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-3e
+    style: v3
+- id: nist.sept2024-update.0043
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-4B
+    publisher: NIST
+    series: MONO
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-4B
+    urn: urn:nist:mono:1-4B.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-4b
+    style: v3
+- id: nist.sept2024-update.0044
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-4C
+    publisher: NIST
+    series: MONO
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-4C
+    urn: urn:nist:mono:1-4C.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-4c
+    style: v3
+- id: nist.sept2024-update.0045
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-4D
+    publisher: NIST
+    series: MONO
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-4D
+    urn: urn:nist:mono:1-4D.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-4d
+    style: v3
+- id: nist.sept2024-update.0046
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-5B
+    publisher: NIST
+    series: MONO
+    volume: '1'
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-5Bv1
+    urn: urn:nist:mono:1-5B.v1.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-5bv1
+    style: v3
+- id: nist.sept2024-update.0047
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-5B
+    publisher: NIST
+    series: MONO
+    volume: '2'
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-5Bv2
+    urn: urn:nist:mono:1-5B.v2.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-5bv2
+    style: v3
+- id: nist.sept2024-update.0048
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-5C
+    publisher: NIST
+    series: MONO
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-5C
+    urn: urn:nist:mono:1-5C.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-5c
+    style: v3
+- id: nist.sept2024-update.0049
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-5D
+    publisher: NIST
+    series: MONO
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-5D
+    urn: urn:nist:mono:1-5D.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-5d
+    style: v3
+- id: nist.sept2024-update.0050
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-5E
+    publisher: NIST
+    series: MONO
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-5E
+    urn: urn:nist:mono:1-5E.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-5e
+    style: v3
+- id: nist.sept2024-update.0051
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-5F
+    publisher: NIST
+    series: MONO
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-5F
+    urn: urn:nist:mono:1-5F.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-5f
+    style: v3
+- id: nist.sept2024-update.0052
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-5G
+    publisher: NIST
+    series: MONO
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-5G
+    urn: urn:nist:mono:1-5G.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-5g
+    style: v3
+- id: nist.sept2024-update.0053
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-6B
+    publisher: NIST
+    series: MONO
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-6B
+    urn: urn:nist:mono:1-6B.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-6b
+    style: v3
+- id: nist.sept2024-update.0054
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-6C
+    publisher: NIST
+    series: MONO
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-6C
+    urn: urn:nist:mono:1-6C.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-6c
+    style: v3
+- id: nist.sept2024-update.0055
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-6D
+    publisher: NIST
+    series: MONO
+    volume: '1'
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-6Dv1
+    urn: urn:nist:mono:1-6D.v1.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-6dv1
+    style: v3
+- id: nist.sept2024-update.0056
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-6D
+    publisher: NIST
+    series: MONO
+    volume: '2'
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-6Dv2
+    urn: urn:nist:mono:1-6D.v2.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-6dv2
+    style: v3
+- id: nist.sept2024-update.0057
+  identifier:
+    _type: pubid:nist:monograph
+    number: 1-7B
+    publisher: NIST
+    series: MONO
+    parsed_format: mr
+  representations:
+    human: NIST MONO 1-7B
+    urn: urn:nist:mono:1-7B.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.MONO.1-7b
+    style: v3
+- id: nist.sept2024-update.0058
+  identifier:
+    _type: pubid:nist:dated-document
+    publisher: NIST
+    parsed_format: mr
+    date_year: '2022'
+    date_month: '04'
+    date_day: '15'
+    dated_seq: '001'
+  representations:
+    human: NIST.2022-04-15.001
+    urn: urn:nist:sp:supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: "#NIST.2022-04-15.001"
+    style: v3
+- id: nist.sept2024-update.0059
+  identifier:
+    _type: pubid:nist:dated-document
+    publisher: NIST
+    parsed_format: mr
+    date_year: '2023'
+    date_month: '04'
+    date_day: '07'
+    dated_seq: '001'
+  representations:
+    human: NIST.2023-04-07.001
+    urn: urn:nist:sp:supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: "#NIST.2023-04-07.001"
+    style: v3
+- id: nist.sept2024-update.0060
+  identifier:
+    _type: pubid:nist:identifier
+    number: 100-1
+    publisher: NIST
+    series: AI
+    parsed_format: mr
+  representations:
+    human: NIST.AI.100-1
+    urn: urn:nist:ai:100-1.supp
+  style: v3
+- id: nist.sept2024-update.0061
+  identifier:
+    _type: pubid:nist:identifier
+    number: 100-2
+    edition:
+      type: e
+      id: '2023'
+    publisher: NIST
+    series: AI
+    parsed_format: mr
+  representations:
+    human: NIST.AI.100-2e2023
+    urn: urn:nist:ai:100-2.e2023.supp
+  style: v3
+- id: nist.sept2024-update.0062
+  identifier:
+    _type: pubid:nist:identifier
+    number: 100-3
+    publisher: NIST
+    series: AI
+    parsed_format: mr
+  representations:
+    human: NIST.AI.100-3
+    urn: urn:nist:ai:100-3.supp
+  style: v3
+- id: nist.sept2024-update.0063
+  identifier:
+    _type: pubid:nist:identifier
+    number: 100-48
+    publisher: NIST
+    series: AMS
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST.AMS.100-48-upd1
+    urn: urn:nist:ams:100-48./Upd1.supp
+  style: v3
+- id: nist.sept2024-update.0064
+  identifier:
+    _type: pubid:nist:identifier
+    number: 300-8
+    edition:
+      type: r
+      id: '1'
+    publisher: NIST
+    series: AMS
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST.AMS.300-8r1-upd1
+    urn: urn:nist:ams:300-8.r1./Upd1.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.AMS.300-8r1/upd
+    style: v3
+- id: nist.sept2024-update.0065
+  identifier:
+    _type: pubid:nist:identifier
+    number: 600-13
+    publisher: NIST
+    series: AMS
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST.AMS.600-13-upd1
+    urn: urn:nist:ams:600-13./Upd1.supp
+  style: v3
+- id: nist.sept2024-update.0066
+  identifier:
+    _type: pubid:nist:grant-contractor-report
+    number: 23-045
+    publisher: NIST
+    series: GCR
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST.GCR.23-045-upd1
+    urn: urn:nist:gcr:23-045./Upd1.supp
+  style: v3
+- id: nist.sept2024-update.0067
+  identifier:
+    _type: pubid:nist:handbook
+    number: 105-1
+    edition:
+      type: r
+      id: '2017'
+    publisher: NIST
+    series: HB
+    parsed_format: mr
+  representations:
+    human: NIST.HB.105-1r2017
+    urn: urn:nist:hb:105-1.r2017.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.hb.150-1-2017
+    style: v3
+- id: nist.sept2024-update.0068
+  identifier:
+    _type: pubid:nist:handbook
+    number: '130'
+    edition:
+      type: e
+      id: '2024'
+    publisher: NIST
+    series: HB
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST.HB.130e2024-upd1
+    urn: urn:nist:hb:130.e2024./Upd1.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.HB.130-2024-upd1
+    style: v3
+- id: nist.sept2024-update.0069
+  identifier:
+    _type: pubid:nist:handbook
+    number: '135'
+    edition:
+      type: e
+      id: '2022'
+    publisher: NIST
+    series: HB
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST.HB.135e2022-upd1
+    urn: urn:nist:hb:135.e2022./Upd1.supp
+  style: v3
+- id: nist.sept2024-update.0070
+  identifier:
+    _type: pubid:nist:handbook
+    number: '44'
+    edition:
+      type: e
+      id: '2023'
+    publisher: NIST
+    series: HB
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST.HB.44e2023-upd1
+    urn: urn:nist:hb:44.e2023./Upd1.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.HB.44-2023-upd1
+    style: v3
+- id: nist.sept2024-update.0071
+  identifier:
+    _type: pubid:nist:special-publication
+    number: '1011'
+    publisher: NIST
+    series: SP
+    volume: '1'
+    version_component:
+      value: '2.0'
+    parsed_format: mr
+  representations:
+    human: NIST.SP.1011v1ver2.0
+    urn: urn:nist:sp:1011.v1.ver2.0.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.SP.1011-I-2.0
+    style: v3
+- id: nist.sept2024-update.0072
+  identifier:
+    _type: pubid:nist:special-publication
+    number: '1011'
+    publisher: NIST
+    series: SP
+    volume: '2'
+    version_component:
+      value: '1.0'
+    parsed_format: mr
+  representations:
+    human: NIST.SP.1011v2ver1.0
+    urn: urn:nist:sp:1011.v2.ver1.0.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.SP.1011-II-1.0
+    style: v3
+- id: nist.sept2024-update.0073
+  identifier:
+    _type: pubid:nist:special-publication
+    number: 1900-206
+    publisher: NIST
+    series: SP
+    subseries: '1900'
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST.SP.1900-206-upd1
+    urn: urn:nist:sp:1900-206./Upd1.supp
+  style: v3
+- id: nist.sept2024-update.0074
+  identifier:
+    _type: pubid:nist:special-publication
+    number: 260-227
+    publisher: NIST
+    series: SP
+    subseries: '260'
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST.SP.260-227-upd1
+    urn: urn:nist:sp:260-227./Upd1.supp
+  style: v3
+- id: nist.sept2024-update.0075
+  identifier:
+    _type: pubid:nist:special-publication
+    number: 260-238
+    publisher: NIST
+    series: SP
+    subseries: '260'
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST.SP.260-238-upd1
+    urn: urn:nist:sp:260-238./Upd1.supp
+  style: v3
+- id: nist.sept2024-update.0076
+  identifier:
+    _type: pubid:nist:special-publication
+    number: 500-281
+    publisher: NIST
+    series: SP
+    subseries: '500'
+    version_component:
+      value: '1.0'
+    parsed_format: mr
+  representations:
+    human: NIST.SP.500-281ver1.0
+    urn: urn:nist:sp:500-281.ver1.0.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.SP.500-281-v1.0
+    style: v3
+- id: nist.sept2024-update.0077
+  identifier:
+    _type: pubid:nist:special-publication
+    number: 500-300
+    publisher: NIST
+    series: SP
+    subseries: '500'
+    update_component:
+      number: '1'
+      prefix: dash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: dash
+  representations:
+    human: NIST.SP.500-300-upd1
+    urn: urn:nist:sp:500-300.-upd1.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.SP.500-300-upd
+    style: v3
+- id: nist.sept2024-update.0078
+  identifier:
+    _type: pubid:nist:special-publication
+    number: 800-108
+    edition:
+      type: r
+      id: '1'
+    publisher: NIST
+    series: SP
+    subseries: '800'
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST.SP.800-108r1-upd1
+    urn: urn:nist:sp:800-108.r1./Upd1.supp
+  style: v3
+- id: nist.sept2024-update.0079
+  identifier:
+    _type: pubid:nist:special-publication
+    number: 800-38
+    part:
+      value: E
+    publisher: NIST
+    series: SP
+    subseries: '800'
+    parsed_format: mr
+  representations:
+    human: NIST.SP.800-38E
+    urn: urn:nist:sp:800-38.E.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.SP.800-38e
+    style: v3
+- id: nist.sept2024-update.0080
+  identifier:
+    _type: pubid:nist:special-publication
+    number: 955-S
+    publisher: NIST
+    series: SP
+    translation_component:
+      code: uppl
+    parsed_format: mr
+    translation: " uppl"
+  representations:
+    human: NIST.SP.955-S.uppl
+    urn: urn:nist:sp:955-S.supp:uppl
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.SP.955.Suppl
+    style: v3
+- id: nist.sept2024-update.0081
+  identifier:
+    _type: pubid:nist:special-publication
+    number: 984-4
+    publisher: NIST
+    series: SP
+    parsed_format: mr
+  representations:
+    human: NIST.SP.984-4
+    urn: urn:nist:sp:984-4.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.SP.984.4
+    style: v3
+- id: nist.sept2024-update.0082
+  identifier:
+    _type: pubid:nist:technical-note
+    number: '1648'
+    edition:
+      type: e
+      id: '2009'
+    publisher: NIST
+    series: TN
+    parsed_format: mr
+  representations:
+    human: NIST.TN.1648e2009
+    urn: urn:nist:tn:1648.e2009.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.TN.1648_2009
+    style: v3
+- id: nist.sept2024-update.0083
+  identifier:
+    _type: pubid:nist:technical-note
+    number: '2150'
+    publisher: NIST
+    series: TN
+    update_component:
+      number: '1'
+      year: '2021'
+      month: '02'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      year: '2021'
+      month: '02'
+      prefix: slash
+  representations:
+    human: NIST.TN.2150-upd1-202102
+    urn: urn:nist:tn:2150./Upd1-202102.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.TN.2150-upd
+    style: v3
+- id: nist.sept2024-update.0084
+  identifier:
+    _type: pubid:nist:technical-note
+    number: '2207'
+    publisher: NIST
+    series: TN
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST.TN.2207-upd1
+    urn: urn:nist:tn:2207./Upd1.supp
+  style: v3
+- id: nist.sept2024-update.0085
+  identifier:
+    _type: pubid:nist:technical-note
+    number: '2221'
+    publisher: NIST
+    series: TN
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST.TN.2221-upd1
+    urn: urn:nist:tn:2221./Upd1.supp
+  style: v3
+- id: nist.sept2024-update.0086
+  identifier:
+    _type: pubid:nist:technical-note
+    number: '2228'
+    publisher: NIST
+    series: TN
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST.TN.2228-upd1
+    urn: urn:nist:tn:2228./Upd1.supp
+  style: v3
+- id: nist.sept2024-update.0087
+  identifier:
+    _type: pubid:nist:technical-note
+    number: '2230'
+    publisher: NIST
+    series: TN
+    update_component:
+      number: '1'
+      prefix: slash
+    parsed_format: mr
+    update:
+      number: '1'
+      prefix: slash
+  representations:
+    human: NIST.TN.2230-upd1
+    urn: urn:nist:tn:2230./Upd1.supp
+  style: v3
+- id: nist.sept2024-update.0088
+  identifier:
+    _type: pubid:nist:identifier
+    number: 100-1
+    publisher: NIST
+    series: VTS
+    parsed_format: mr
+  representations:
+    human: NIST.VTS.100-1
+    urn: urn:nist:vts:100-1.supp
+  style: v3
+- id: nist.sept2024-update.0089
+  identifier:
+    _type: pubid:nist:identifier
+    number: 100-2
+    publisher: NIST
+    series: VTS
+    parsed_format: mr
+  representations:
+    human: NIST.VTS.100-2
+    urn: urn:nist:vts:100-2.supp
+  style: v3
+- id: nist.sept2024-update.0090
+  identifier:
+    _type: pubid:nist:identifier
+    number: 100-2
+    publisher: NIST
+    series: VTS
+    parsed_format: mr
+    supplement:
+      number: '1'
+  representations:
+    human: NIST.VTS.100-2sup1
+    urn: urn:nist:vts:100-2.supp-1
+  style: v3
+- id: nist.sept2024-update.0091
+  identifier:
+    _type: pubid:nist:identifier
+    number: 100-3
+    part:
+      type: pt
+      value: '1'
+    publisher: NIST
+    series: VTS
+    parsed_format: mr
+  representations:
+    human: NIST.VTS.100-3pt1
+    urn: urn:nist:vts:100-3.pt1.supp
+  style: v3
+- id: nist.sept2024-update.0092
+  identifier:
+    _type: pubid:nist:identifier
+    number: 100-3
+    part:
+      type: pt
+      value: '2'
+    publisher: NIST
+    series: VTS
+    parsed_format: mr
+  representations:
+    human: NIST.VTS.100-3pt2
+    urn: urn:nist:vts:100-3.pt2.supp
+  style: v3
+- id: nist.sept2024-update.0093
+  identifier:
+    _type: pubid:nist:identifier
+    number: 100-3
+    part:
+      type: pt
+      value: '2'
+    publisher: NIST
+    series: VTS
+    parsed_format: mr
+    supplement:
+      number: '1'
+  representations:
+    human: NIST.VTS.100-3pt2sup1
+    urn: urn:nist:vts:100-3.pt2.supp-1
+  style: v3
+- id: nist.sept2024-update.0094
+  identifier:
+    _type: pubid:nist:identifier
+    number: 200-1
+    publisher: NIST
+    series: VTS
+    parsed_format: mr
+  representations:
+    human: NIST.VTS.200-1
+    urn: urn:nist:vts:200-1.supp
+  style: v3
+- id: nist.sept2024-update.0095
+  identifier:
+    _type: pubid:nist:identifier
+    number: 400-5
+    publisher: NIST
+    series: VTS
+    parsed_format: mr
+  representations:
+    human: NIST.VTS.400-5
+    urn: urn:nist:vts:400-5.supp
+  style: v3
