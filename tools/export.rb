@@ -148,15 +148,21 @@ module Exporter
   def build_case(mod, input)
     identifier = mod.parse(input)
     human = identifier.to_s
-    representations = { "human" => human }
-    begin
-      urn = identifier.to_urn
-      representations["urn"] = urn if urn
+    canonical_obj = begin
+      mod.parse(human)
     rescue StandardError
       nil
     end
-    canonical = begin
-      plainify(mod.parse(human).to_hash)
+    canonical = canonical_obj && plainify(canonical_obj.to_hash)
+    # All recorded expectations come from ONE parse - the canonical
+    # re-parse of the rendered form - so identifier, urn and round-trip
+    # are mutually consistent. The original input feeds only grouping
+    # and the alias list.
+    source = canonical_obj || identifier
+    representations = { "human" => source.to_s }
+    begin
+      urn = source.to_urn
+      representations["urn"] = urn if urn
     rescue StandardError
       nil
     end
@@ -247,7 +253,8 @@ module Exporter
     return { cases: 0, aliases: 0, mismatches: 0, schema_errors: 0 } if mod.nil?
 
     cases = aliases_checked = mismatches = schema_errors = 0
-    Dir[File.join(REPO, "tests", flavor, "*.yaml")].sort.each do |path|
+    Dir[File.join(REPO, "tests", flavor, "*.yaml")].sort
+      .reject { |path| File.basename(path).start_with?("_") }.each do |path|
       YAML.safe_load_file(path).each do |t|
         schema_errors += 1 unless SCHEMA.valid?(t)
         next unless t["identifier"]

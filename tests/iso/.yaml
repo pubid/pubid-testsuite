@@ -13814,7 +13814,7 @@
     year: '2006'
   representations:
     human: ISO 14442:2006
-    urn: urn:iso:std:iso:14442:ed-2
+    urn: urn:iso:std:iso:14442
   style: v3
   non_normalized_aliases:
   - spelling: ISO 14442:2006 Ed 2
@@ -19256,7 +19256,7 @@
     year: '2008'
   representations:
     human: ISO 16001:2008
-    urn: urn:iso:std:iso:16001:ed-1
+    urn: urn:iso:std:iso:16001
   style: v3
   non_normalized_aliases:
   - spelling: ISO 16001:2008 Ed 1
@@ -21001,7 +21001,7 @@
     year: '2002'
   representations:
     human: ISO 16622:2002
-    urn: urn:iso:std:iso:16622:ed-1
+    urn: urn:iso:std:iso:16622
   style: v3
   non_normalized_aliases:
   - spelling: ISO 16622:2002 Ed 1
@@ -22469,7 +22469,7 @@
     year: '2000'
   representations:
     human: ISO 17121:2000
-    urn: urn:iso:std:iso:17121:ed-1
+    urn: urn:iso:std:iso:17121
   style: v3
   non_normalized_aliases:
   - spelling: ISO 17121:2000 Ed 1
@@ -57871,7 +57871,7 @@
     year: '2000'
   representations:
     human: ISO 9652-4:2000
-    urn: urn:iso:std:iso:9652:-4:ed-1
+    urn: urn:iso:std:iso:9652:-4
   style: v3
   non_normalized_aliases:
   - spelling: ISO 9652-4:2000 Ed 1
@@ -58713,6 +58713,17 @@
   identifier:
     _type: pubid:iso:guide
     number: '2'
+  representations:
+    human: ISO Guide 2
+    urn: urn:iso:std:iso:guide:2
+  style: v3
+  non_normalized_aliases:
+  - spelling: Руководства ИСО 2
+    style: v3
+- id: iso..6174
+  identifier:
+    _type: pubid:iso:guide
+    number: '2'
     year: '1976'
   representations:
     human: ISO Guide 2:1976
@@ -58721,7 +58732,7 @@
   non_normalized_aliases:
   - spelling: ISO/GUIDE 2:1976
     style: v3
-- id: iso..6174
+- id: iso..6175
   identifier:
     _type: pubid:iso:guide
     number: '2'
@@ -58733,7 +58744,19 @@
   non_normalized_aliases:
   - spelling: ISO/GUIDE 2:1978
     style: v3
-- id: iso..6175
+- id: iso..6176
+  identifier:
+    _type: pubid:iso:guide
+    number: '34'
+    year: '2009'
+  representations:
+    human: ISO Guide 34:2009
+    urn: urn:iso:std:iso:guide:34
+  style: v3
+  non_normalized_aliases:
+  - spelling: Guide ISO 34:2009
+    style: v3
+- id: iso..6177
   identifier:
     _type: pubid:iso:guide
     number: '73'
@@ -58745,7 +58768,18 @@
     human: ISO Guide 73:2009(fr)
     urn: urn:iso:std:iso:guide:73:fr
   style: v3
-- id: iso..6176
+- id: iso..6178
+  identifier:
+    _type: pubid:iso:guide
+    number: '82'
+  representations:
+    human: ISO Guide 82
+    urn: urn:iso:std:iso:guide:82
+  style: v3
+  non_normalized_aliases:
+  - spelling: Руководства ИСО 82
+    style: v3
+- id: iso..6179
   identifier:
     _type: pubid:iso:international-standard
     number: '52901'
@@ -58756,7 +58790,7 @@
     human: ISO/ASTM 52901:2017
     urn: urn:iso:std:iso-astm:52901
   style: v3
-- id: iso..6177
+- id: iso..6180
   identifier:
     _type: pubid:iso:international-standard
     number: '52902'
@@ -58766,7 +58800,7 @@
     human: ISO/ASTM 52902
     urn: urn:iso:std:iso-astm:52902
   style: v3
-- id: iso..6178
+- id: iso..6181
   identifier:
     _type: pubid:iso:international-standard
     number: '52902'
@@ -58777,7 +58811,7 @@
     human: ISO/ASTM 52902:2019
     urn: urn:iso:std:iso-astm:52902
   style: v3
-- id: iso..6179
+- id: iso..6182
   identifier:
     _type: pubid:iso:international-standard
     number: '52910'
@@ -58788,7 +58822,7 @@
     human: ISO/ASTM 52910:2018
     urn: urn:iso:std:iso-astm:52910
   style: v3
-- id: iso..6180
+- id: iso..6183
   identifier:
     _type: pubid:iso:international-standard
     number: '52910'
@@ -58799,7 +58833,7 @@
     human: ISO/ASTM 52910:2019
     urn: urn:iso:std:iso-astm:52910
   style: v3
-- id: iso..6181
+- id: iso..6184
   identifier:
     _type: pubid:iso:international-standard
     number: '52932'
@@ -58810,7 +58844,7 @@
     human: ISO/ASTM AWI 52932
     urn: urn:iso:std:iso-astm:52932:stage-10.99
   style: v3
-- id: iso..6182
+- id: iso..6185
   identifier:
     _type: pubid:iso:international-standard
     number: '52905'
@@ -58821,7 +58855,7 @@
     human: ISO/ASTM CD 52905
     urn: urn:iso:std:iso-astm:52905:CD
   style: v3
-- id: iso..6183
+- id: iso..6186
   identifier:
     _type: pubid:iso:international-standard
     number: '52920'
@@ -58835,7 +58869,7 @@
     human: ISO/ASTM DIS 52920(fr)
     urn: urn:iso:std:iso-astm:52920:DIS:fr
   style: v3
-- id: iso..6184
+- id: iso..6187
   identifier:
     _type: pubid:iso:technical-report
     number: '52905'
@@ -58846,7 +58880,7 @@
     human: ISO/ASTM DTR 52905
     urn: urn:iso:std:iso-astm:tr:52905:stage-40.00
   style: v3
-- id: iso..6185
+- id: iso..6188
   identifier:
     _type: pubid:iso:technical-report
     number: '52906'
@@ -58856,7 +58890,7 @@
     human: ISO/ASTM TR 52906
     urn: urn:iso:std:iso-astm:tr:52906
   style: v3
-- id: iso..6186
+- id: iso..6189
   identifier:
     _type: pubid:iso:international-standard
     number: '52917'
@@ -58867,7 +58901,7 @@
     human: ISO/ASTM WD 52917
     urn: urn:iso:std:iso-astm:52917:WD
   style: v3
-- id: iso..6187
+- id: iso..6190
   identifier:
     _type: pubid:iso:international-standard
     number: '52941'
@@ -58878,7 +58912,7 @@
     human: ISO/ASTM WD 52941
     urn: urn:iso:std:iso-astm:52941:WD
   style: v3
-- id: iso..6188
+- id: iso..6191
   identifier:
     _type: pubid:iso:international-standard
     number: '14075'
@@ -58887,7 +58921,7 @@
     human: ISO/AWI 14075
     urn: urn:iso:std:iso:14075:stage-10.99
   style: v3
-- id: iso..6189
+- id: iso..6192
   identifier:
     _type: pubid:iso:international-standard
     number: '21001'
@@ -58896,7 +58930,7 @@
     human: ISO/AWI 21001
     urn: urn:iso:std:iso:21001:stage-10.99
   style: v3
-- id: iso..6190
+- id: iso..6193
   identifier:
     _type: pubid:iso:international-standard
     number: '22336'
@@ -58905,7 +58939,7 @@
     human: ISO/AWI 22336
     urn: urn:iso:std:iso:22336:stage-10.99
   style: v3
-- id: iso..6191
+- id: iso..6194
   identifier:
     _type: pubid:iso:international-standard
     number: '37111'
@@ -58914,7 +58948,7 @@
     human: ISO/AWI 37111
     urn: urn:iso:std:iso:37111:stage-10.99
   style: v3
-- id: iso..6192
+- id: iso..6195
   identifier:
     _type: pubid:iso:international-standard
     number: '5477'
@@ -58923,7 +58957,7 @@
     human: ISO/AWI 5477
     urn: urn:iso:std:iso:5477:stage-10.99
   style: v3
-- id: iso..6193
+- id: iso..6196
   identifier:
     _type: pubid:iso:international-standard
     number: '55000'
@@ -58932,7 +58966,7 @@
     human: ISO/AWI 55000
     urn: urn:iso:std:iso:55000:stage-10.99
   style: v3
-- id: iso..6194
+- id: iso..6197
   identifier:
     _type: pubid:iso:international-standard
     number: '6763'
@@ -58941,7 +58975,7 @@
     human: ISO/AWI 6763
     urn: urn:iso:std:iso:6763:stage-10.99
   style: v3
-- id: iso..6195
+- id: iso..6198
   identifier:
     _type: pubid:iso:international-standard
     number: '817'
@@ -58950,7 +58984,7 @@
     human: ISO/AWI 817
     urn: urn:iso:std:iso:817:stage-10.99
   style: v3
-- id: iso..6196
+- id: iso..6199
   identifier:
     _type: pubid:iso:international-standard
     number: '9109'
@@ -58959,7 +58993,7 @@
     human: ISO/AWI 9109
     urn: urn:iso:std:iso:9109:stage-10.99
   style: v3
-- id: iso..6197
+- id: iso..6200
   identifier:
     _type: pubid:iso:pas
     number: '14018'
@@ -58968,7 +59002,7 @@
     human: ISO/AWI PAS 14018
     urn: urn:iso:std:iso:pas:14018:stage-10.99
   style: v3
-- id: iso..6198
+- id: iso..6201
   identifier:
     _type: pubid:iso:pas
     number: '24499'
@@ -58977,7 +59011,7 @@
     human: ISO/AWI PAS 24499
     urn: urn:iso:std:iso:pas:24499:stage-10.99
   style: v3
-- id: iso..6199
+- id: iso..6202
   identifier:
     _type: pubid:iso:pas
     number: '5672'
@@ -58986,7 +59020,7 @@
     human: ISO/AWI PAS 5672
     urn: urn:iso:std:iso:pas:5672:stage-10.99
   style: v3
-- id: iso..6200
+- id: iso..6203
   identifier:
     _type: pubid:iso:pas
     number: '8329'
@@ -58995,7 +59029,7 @@
     human: ISO/AWI PAS 8329
     urn: urn:iso:std:iso:pas:8329:stage-10.99
   style: v3
-- id: iso..6201
+- id: iso..6204
   identifier:
     _type: pubid:iso:pas
     number: '8800'
@@ -59004,7 +59038,7 @@
     human: ISO/AWI PAS 8800
     urn: urn:iso:std:iso:pas:8800:stage-10.99
   style: v3
-- id: iso..6202
+- id: iso..6205
   identifier:
     _type: pubid:iso:pas
     number: '8926'
@@ -59013,7 +59047,7 @@
     human: ISO/AWI PAS 8926
     urn: urn:iso:std:iso:pas:8926:stage-10.99
   style: v3
-- id: iso..6203
+- id: iso..6206
   identifier:
     _type: pubid:iso:international-standard
     number: '14065'
@@ -59027,7 +59061,7 @@
   non_normalized_aliases:
   - spelling: ISO/CD2 14065:2018
     style: v3
-- id: iso..6204
+- id: iso..6207
   identifier:
     _type: pubid:iso:international-standard
     number: '20200'
@@ -59036,7 +59070,7 @@
     human: ISO/CD 20200
     urn: urn:iso:std:iso:20200:CD
   style: v3
-- id: iso..6205
+- id: iso..6208
   identifier:
     _type: pubid:iso:international-standard
     number: '20404'
@@ -59045,7 +59079,7 @@
     human: ISO/CD 20404
     urn: urn:iso:std:iso:20404:CD
   style: v3
-- id: iso..6206
+- id: iso..6209
   identifier:
     _type: pubid:iso:international-standard
     number: '21219'
@@ -59055,7 +59089,7 @@
     human: ISO/CD 21219-17
     urn: urn:iso:std:iso:21219:-17:CD
   style: v3
-- id: iso..6207
+- id: iso..6210
   identifier:
     _type: pubid:iso:international-standard
     number: '22102'
@@ -59064,7 +59098,7 @@
     human: ISO/CD 22102
     urn: urn:iso:std:iso:22102:CD
   style: v3
-- id: iso..6208
+- id: iso..6211
   identifier:
     _type: pubid:iso:international-standard
     number: '22342'
@@ -59073,7 +59107,7 @@
     human: ISO/CD 22342
     urn: urn:iso:std:iso:22342:CD
   style: v3
-- id: iso..6209
+- id: iso..6212
   identifier:
     _type: pubid:iso:international-standard
     number: '23237'
@@ -59082,7 +59116,7 @@
     human: ISO/CD 23237
     urn: urn:iso:std:iso:23237:CD
   style: v3
-- id: iso..6210
+- id: iso..6213
   identifier:
     _type: pubid:iso:international-standard
     number: '23698'
@@ -59091,7 +59125,7 @@
     human: ISO/CD 23698
     urn: urn:iso:std:iso:23698:CD
   style: v3
-- id: iso..6211
+- id: iso..6214
   identifier:
     _type: pubid:iso:international-standard
     number: '24013'
@@ -59100,7 +59134,7 @@
     human: ISO/CD 24013
     urn: urn:iso:std:iso:24013:CD
   style: v3
-- id: iso..6212
+- id: iso..6215
   identifier:
     _type: pubid:iso:international-standard
     number: '24212'
@@ -59110,7 +59144,7 @@
     human: ISO/CD 24212.2
     urn: urn:iso:std:iso:24212:CD.2
   style: v3
-- id: iso..6213
+- id: iso..6216
   identifier:
     _type: pubid:iso:international-standard
     number: '24384'
@@ -59119,7 +59153,7 @@
     human: ISO/CD 24384
     urn: urn:iso:std:iso:24384:CD
   style: v3
-- id: iso..6214
+- id: iso..6217
   identifier:
     _type: pubid:iso:international-standard
     number: '29585'
@@ -59128,7 +59162,7 @@
     human: ISO/CD 29585
     urn: urn:iso:std:iso:29585:CD
   style: v3
-- id: iso..6215
+- id: iso..6218
   identifier:
     _type: pubid:iso:international-standard
     number: '30416'
@@ -59137,7 +59171,7 @@
     human: ISO/CD 30416
     urn: urn:iso:std:iso:30416:CD
   style: v3
-- id: iso..6216
+- id: iso..6219
   identifier:
     _type: pubid:iso:international-standard
     number: '33401'
@@ -59146,7 +59180,7 @@
     human: ISO/CD 33401
     urn: urn:iso:std:iso:33401:CD
   style: v3
-- id: iso..6217
+- id: iso..6220
   identifier:
     _type: pubid:iso:international-standard
     number: '37173'
@@ -59155,7 +59189,7 @@
     human: ISO/CD 37173
     urn: urn:iso:std:iso:37173:CD
   style: v3
-- id: iso..6218
+- id: iso..6221
   identifier:
     _type: pubid:iso:international-standard
     number: '45001'
@@ -59165,7 +59199,7 @@
     human: ISO/CD 45001.2
     urn: urn:iso:std:iso:45001:CD.2
   style: v3
-- id: iso..6219
+- id: iso..6222
   identifier:
     _type: pubid:iso:international-standard
     number: '4631'
@@ -59174,7 +59208,7 @@
     human: ISO/CD 4631
     urn: urn:iso:std:iso:4631:CD
   style: v3
-- id: iso..6220
+- id: iso..6223
   identifier:
     _type: pubid:iso:international-standard
     number: '4865'
@@ -59183,7 +59217,7 @@
     human: ISO/CD 4865
     urn: urn:iso:std:iso:4865:CD
   style: v3
-- id: iso..6221
+- id: iso..6224
   identifier:
     _type: pubid:iso:international-standard
     number: '5114'
@@ -59193,7 +59227,7 @@
     human: ISO/CD 5114-1
     urn: urn:iso:std:iso:5114:-1:CD
   style: v3
-- id: iso..6222
+- id: iso..6225
   identifier:
     _type: pubid:iso:international-standard
     number: '5476'
@@ -59202,7 +59236,7 @@
     human: ISO/CD 5476
     urn: urn:iso:std:iso:5476:CD
   style: v3
-- id: iso..6223
+- id: iso..6226
   identifier:
     _type: pubid:iso:international-standard
     number: '8060'
@@ -59211,7 +59245,7 @@
     human: ISO/CD 8060
     urn: urn:iso:std:iso:8060:CD
   style: v3
-- id: iso..6224
+- id: iso..6227
   identifier:
     _type: pubid:iso:international-standard
     number: '9241'
@@ -59221,7 +59255,7 @@
     human: ISO/CD 9241-221
     urn: urn:iso:std:iso:9241:-221:CD
   style: v3
-- id: iso..6225
+- id: iso..6228
   identifier:
     _type: pubid:iso:pas
     number: '22399'
@@ -59230,7 +59264,7 @@
     human: ISO/CD PAS 22399
     urn: urn:iso:std:iso:pas:22399:CD
   style: v3
-- id: iso..6226
+- id: iso..6229
   identifier:
     _type: pubid:iso:pas
     number: '24019'
@@ -59239,7 +59273,7 @@
     human: ISO/CD PAS 24019
     urn: urn:iso:std:iso:pas:24019:CD
   style: v3
-- id: iso..6227
+- id: iso..6230
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -59269,7 +59303,7 @@
   non_normalized_aliases:
   - spelling: ISO/CEI 10164-5:1993/Amd.1:1995/Cor.1:1996(fr)
     style: v2
-- id: iso..6228
+- id: iso..6231
   identifier:
     _type: pubid:iso:international-standard
     number: '17021'
@@ -59284,7 +59318,7 @@
     human: ISO/CEI 17021-3:2017(fr)
     urn: urn:iso:std:iso-cei:17021:-3:fr
   style: v3
-- id: iso..6229
+- id: iso..6232
   identifier:
     _type: pubid:iso:international-standard
     number: '17024'
@@ -59298,7 +59332,7 @@
     human: ISO/CEI 17024:2012(fr)
     urn: urn:iso:std:iso-cei:17024:fr
   style: v3
-- id: iso..6230
+- id: iso..6233
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -59321,7 +59355,7 @@
   non_normalized_aliases:
   - spelling: ISO/CEI 17025:2005/Cor.1:2006(F)
     style: v2
-- id: iso..6231
+- id: iso..6234
   identifier:
     _type: pubid:iso:international-standard
     number: '27000'
@@ -59335,7 +59369,7 @@
     human: ISO/CEI 27000:2016(fr)
     urn: urn:iso:std:iso-cei:27000:fr
   style: v3
-- id: iso..6232
+- id: iso..6235
   identifier:
     _type: pubid:iso:international-standard
     number: '29500'
@@ -59346,7 +59380,7 @@
     human: ISO/CEI DIS 29500
     urn: urn:iso:std:iso-cei:29500:DIS
   style: v3
-- id: iso..6233
+- id: iso..6236
   identifier:
     _type: pubid:iso:international-standard
     number: '80079'
@@ -59362,7 +59396,7 @@
     human: ISO/CEI DIS 80079-20-2(fr)
     urn: urn:iso:std:iso-cei:80079:-20-2:DIS:fr
   style: v3
-- id: iso..6234
+- id: iso..6237
   identifier:
     _type: pubid:iso:international-standard
     number: '15408'
@@ -59374,7 +59408,7 @@
     human: ISO/CEI FDIS 15408-1
     urn: urn:iso:std:iso-cei:15408:-1:FDIS
   style: v3
-- id: iso..6235
+- id: iso..6238
   identifier:
     _type: pubid:iso:guide
     number: '37'
@@ -59383,12 +59417,12 @@
     - CEI
   representations:
     human: ISO/CEI Guide 37:1995
-    urn: urn:iso:std:iso-cei:37
+    urn: urn:iso:std:iso-cei:guide:37
   style: v3
   non_normalized_aliases:
   - spelling: Guide ISO/CEI 37:1995
     style: v3
-- id: iso..6236
+- id: iso..6239
   identifier:
     _type: pubid:iso:guide
     number: '50'
@@ -59396,12 +59430,12 @@
     - CEI
   representations:
     human: ISO/CEI Guide 50
-    urn: urn:iso:std:iso-cei:50
+    urn: urn:iso:std:iso-cei:guide:50
   style: v3
   non_normalized_aliases:
   - spelling: Guide ISO/CEI 50
     style: v3
-- id: iso..6237
+- id: iso..6240
   identifier:
     _type: pubid:iso:guide
     number: '51'
@@ -59410,12 +59444,12 @@
     - CEI
   representations:
     human: ISO/CEI Guide 51:1999
-    urn: urn:iso:std:iso-cei:51
+    urn: urn:iso:std:iso-cei:guide:51
   style: v3
   non_normalized_aliases:
   - spelling: Guide ISO/CEI 51:1999
     style: v3
-- id: iso..6238
+- id: iso..6241
   identifier:
     _type: pubid:iso:guide
     number: '71'
@@ -59427,12 +59461,12 @@
     - CEI
   representations:
     human: ISO/CEI Guide 71:2001(F)
-    urn: urn:iso:std:iso-cei:71:fr
+    urn: urn:iso:std:iso-cei:guide:71:fr
   style: v3
   non_normalized_aliases:
   - spelling: GUIDE ISO/CEI 71:2001(F)
     style: v3
-- id: iso..6239
+- id: iso..6242
   identifier:
     _type: pubid:iso:international-standard
     number: '10526'
@@ -59443,7 +59477,7 @@
     human: ISO/CIE 10526:1999
     urn: urn:iso:std:iso-cie:10526
   style: v3
-- id: iso..6240
+- id: iso..6243
   identifier:
     _type: pubid:iso:international-standard
     number: '11664'
@@ -59455,7 +59489,7 @@
     human: ISO/CIE 11664-1:2019
     urn: urn:iso:std:iso-cie:11664:-1
   style: v3
-- id: iso..6241
+- id: iso..6244
   identifier:
     _type: pubid:iso:international-standard
     number: '20086'
@@ -59466,7 +59500,7 @@
     human: ISO/CIE 20086:2019
     urn: urn:iso:std:iso-cie:20086
   style: v3
-- id: iso..6242
+- id: iso..6245
   identifier:
     _type: pubid:iso:international-standard
     number: '8995'
@@ -59478,7 +59512,7 @@
     human: ISO/CIE 8995-3:2018
     urn: urn:iso:std:iso-cie:8995:-3
   style: v3
-- id: iso..6243
+- id: iso..6246
   identifier:
     _type: pubid:iso:international-standard
     number: '19476'
@@ -59489,7 +59523,7 @@
     human: ISO/CIE AWI 19476
     urn: urn:iso:std:iso-cie:19476:stage-10.99
   style: v3
-- id: iso..6244
+- id: iso..6247
   identifier:
     _type: pubid:iso:international-standard
     number: '11664'
@@ -59502,7 +59536,7 @@
     human: ISO/CIE DIS 11664-2.2
     urn: urn:iso:std:iso-cie:11664:-2:DIS.2
   style: v3
-- id: iso..6245
+- id: iso..6248
   identifier:
     _type: pubid:iso:international-standard
     number: '23539'
@@ -59513,7 +59547,7 @@
     human: ISO/CIE DIS 23539
     urn: urn:iso:std:iso-cie:23539:DIS
   style: v3
-- id: iso..6246
+- id: iso..6249
   identifier:
     _type: pubid:iso:technical-report
     number: '21783'
@@ -59525,7 +59559,7 @@
     human: ISO/CIE DTR 21783.2
     urn: urn:iso:std:iso-cie:tr:21783:stage-40.00.v2
   style: v3
-- id: iso..6247
+- id: iso..6250
   identifier:
     _type: pubid:iso:technical-report
     number: '21783'
@@ -59535,7 +59569,7 @@
     human: ISO/CIE TR 21783
     urn: urn:iso:std:iso-cie:tr:21783
   style: v3
-- id: iso..6248
+- id: iso..6251
   identifier:
     _type: pubid:iso:international-standard
     number: '12625'
@@ -59550,7 +59584,7 @@
     human: ISO/DIS 12625-1(en,fr)
     urn: urn:iso:std:iso:12625:-1:DIS:en,fr
   style: v3
-- id: iso..6249
+- id: iso..6252
   identifier:
     _type: pubid:iso:international-standard
     number: '16228'
@@ -59563,7 +59597,7 @@
     human: ISO/DIS 16228:2015(F)
     urn: urn:iso:std:iso:16228:DIS:fr
   style: v3
-- id: iso..6250
+- id: iso..6253
   identifier:
     _type: pubid:iso:international-standard
     number: '18218'
@@ -59576,7 +59610,7 @@
     human: ISO/DIS 18218-2(fr)
     urn: urn:iso:std:iso:18218:-2:DIS:fr
   style: v3
-- id: iso..6251
+- id: iso..6254
   identifier:
     _type: pubid:iso:international-standard
     number: '1956'
@@ -59589,7 +59623,7 @@
   non_normalized_aliases:
   - spelling: 'ИСО/ПМС 1956/2 # ПМС is DIS'
     style: v3
-- id: iso..6252
+- id: iso..6255
   identifier:
     _type: pubid:iso:international-standard
     number: '22964'
@@ -59601,7 +59635,7 @@
     human: ISO/DIS 22964(fr)
     urn: urn:iso:std:iso:22964:DIS:fr
   style: v3
-- id: iso..6253
+- id: iso..6256
   identifier:
     _type: pubid:iso:international-standard
     number: '24478'
@@ -59613,7 +59647,7 @@
     human: ISO/DIS 24478(fr)
     urn: urn:iso:std:iso:24478:DIS:fr
   style: v3
-- id: iso..6254
+- id: iso..6257
   identifier:
     _type: pubid:iso:international-standard
     number: '30415'
@@ -59625,7 +59659,7 @@
     human: ISO/DIS 30415(fr)
     urn: urn:iso:std:iso:30415:DIS:fr
   style: v3
-- id: iso..6255
+- id: iso..6258
   identifier:
     _type: pubid:iso:international-standard
     number: '6789'
@@ -59639,7 +59673,7 @@
     human: ISO/DIS 6789-2.2(fr)
     urn: urn:iso:std:iso:6789:-2:DIS.2:fr
   style: v3
-- id: iso..6256
+- id: iso..6259
   identifier:
     _type: pubid:iso:international-standard
     number: '6789'
@@ -59653,7 +59687,7 @@
     human: ISO/DIS 6789-2:2014(F)
     urn: urn:iso:std:iso:6789:-2:DIS:fr
   style: v3
-- id: iso..6257
+- id: iso..6260
   identifier:
     _type: pubid:iso:international-standard
     number: '80000'
@@ -59666,7 +59700,7 @@
     human: ISO/DIS 80000-1(fr)
     urn: urn:iso:std:iso:80000:-1:DIS:fr
   style: v3
-- id: iso..6258
+- id: iso..6261
   identifier:
     _type: pubid:iso:international-standard
     number: '8566'
@@ -59680,7 +59714,7 @@
     human: ISO/DIS 8566-5:2016(F)
     urn: urn:iso:std:iso:8566:-5:DIS:fr
   style: v3
-- id: iso..6259
+- id: iso..6262
   identifier:
     _type: pubid:iso:technical-report
     number: '22126'
@@ -59690,7 +59724,7 @@
     human: ISO/DTR 22126-3
     urn: urn:iso:std:iso:tr:22126:-3:stage-40.00
   style: v3
-- id: iso..6260
+- id: iso..6263
   identifier:
     _type: pubid:iso:technical-report
     number: '22126'
@@ -59700,7 +59734,7 @@
     human: ISO/DTR 22126-5
     urn: urn:iso:std:iso:tr:22126:-5:stage-40.00
   style: v3
-- id: iso..6261
+- id: iso..6264
   identifier:
     _type: pubid:iso:technical-report
     number: '22351'
@@ -59709,7 +59743,7 @@
     human: ISO/DTR 22351
     urn: urn:iso:std:iso:tr:22351:stage-40.00
   style: v3
-- id: iso..6262
+- id: iso..6265
   identifier:
     _type: pubid:iso:technical-report
     number: '22514'
@@ -59720,7 +59754,7 @@
     human: ISO/DTR 22514-9.2
     urn: urn:iso:std:iso:tr:22514:-9:stage-40.00.v2
   style: v3
-- id: iso..6263
+- id: iso..6266
   identifier:
     _type: pubid:iso:technical-report
     number: '23148'
@@ -59729,7 +59763,7 @@
     human: ISO/DTR 23148
     urn: urn:iso:std:iso:tr:23148:stage-40.00
   style: v3
-- id: iso..6264
+- id: iso..6267
   identifier:
     _type: pubid:iso:technical-report
     number: '4763'
@@ -59738,7 +59772,7 @@
     human: ISO/DTR 4763
     urn: urn:iso:std:iso:tr:4763:stage-40.00
   style: v3
-- id: iso..6265
+- id: iso..6268
   identifier:
     _type: pubid:iso:technical-specification
     number: '18759'
@@ -59747,7 +59781,7 @@
     human: ISO/DTS 18759
     urn: urn:iso:std:iso:ts:18759:DTS
   style: v3
-- id: iso..6266
+- id: iso..6269
   identifier:
     _type: pubid:iso:technical-specification
     number: '21328'
@@ -59757,7 +59791,7 @@
     human: ISO/DTS 21328.4
     urn: urn:iso:std:iso:ts:21328:DTS.4
   style: v3
-- id: iso..6267
+- id: iso..6270
   identifier:
     _type: pubid:iso:technical-specification
     number: '21602'
@@ -59766,7 +59800,7 @@
     human: ISO/DTS 21602
     urn: urn:iso:std:iso:ts:21602:DTS
   style: v3
-- id: iso..6268
+- id: iso..6271
   identifier:
     _type: pubid:iso:technical-specification
     number: '23885'
@@ -59776,7 +59810,7 @@
     human: ISO/DTS 23885.3
     urn: urn:iso:std:iso:ts:23885:DTS.3
   style: v3
-- id: iso..6269
+- id: iso..6272
   identifier:
     _type: pubid:iso:technical-specification
     number: '24064'
@@ -59786,7 +59820,7 @@
     human: ISO/DTS 24064.2
     urn: urn:iso:std:iso:ts:24064:DTS.2
   style: v3
-- id: iso..6270
+- id: iso..6273
   identifier:
     _type: pubid:iso:technical-specification
     number: '24420'
@@ -59795,7 +59829,7 @@
     human: ISO/DTS 24420
     urn: urn:iso:std:iso:ts:24420:DTS
   style: v3
-- id: iso..6271
+- id: iso..6274
   identifier:
     _type: pubid:iso:technical-specification
     number: '24519'
@@ -59805,7 +59839,7 @@
     human: ISO/DTS 24519.2
     urn: urn:iso:std:iso:ts:24519:DTS.2
   style: v3
-- id: iso..6272
+- id: iso..6275
   identifier:
     _type: pubid:iso:international-standard
     number: '21420'
@@ -59815,7 +59849,7 @@
     human: ISO/FDIS 21420.2
     urn: urn:iso:std:iso:21420:FDIS.2
   style: v3
-- id: iso..6273
+- id: iso..6276
   identifier:
     _type: pubid:iso:international-standard
     number: '22291'
@@ -59824,7 +59858,7 @@
     human: ISO/FDIS 22291
     urn: urn:iso:std:iso:22291:FDIS
   style: v3
-- id: iso..6274
+- id: iso..6277
   identifier:
     _type: pubid:iso:international-standard
     number: '22868'
@@ -59833,7 +59867,7 @@
     human: ISO/FDIS 22868
     urn: urn:iso:std:iso:22868:FDIS
   style: v3
-- id: iso..6275
+- id: iso..6278
   identifier:
     _type: pubid:iso:international-standard
     number: '26000'
@@ -59849,7 +59883,7 @@
   non_normalized_aliases:
   - spelling: 'ИСО/ОПМС 26000:2010(R) # ОПМС is FDIS'
     style: v3
-- id: iso..6276
+- id: iso..6279
   identifier:
     _type: pubid:iso:international-standard
     number: '28139'
@@ -59858,7 +59892,7 @@
     human: ISO/FDIS 28139
     urn: urn:iso:std:iso:28139:FDIS
   style: v3
-- id: iso..6277
+- id: iso..6280
   identifier:
     _type: pubid:iso:international-standard
     number: '9000'
@@ -59870,40 +59904,6 @@
   style: v3
   non_normalized_aliases:
   - spelling: ИСО/ОПМС 9000:2000
-    style: v3
-- id: iso..6278
-  identifier:
-    _type: pubid:iso:guide
-    number: '2'
-  representations:
-    human: ISO/Guide 2
-    urn: urn:iso:std:iso:2
-  style: v3
-  non_normalized_aliases:
-  - spelling: Руководства ИСО 2
-    style: v3
-- id: iso..6279
-  identifier:
-    _type: pubid:iso:guide
-    number: '34'
-    year: '2009'
-  representations:
-    human: ISO/Guide 34:2009
-    urn: urn:iso:std:iso:34
-  style: v3
-  non_normalized_aliases:
-  - spelling: Guide ISO 34:2009
-    style: v3
-- id: iso..6280
-  identifier:
-    _type: pubid:iso:guide
-    number: '82'
-  representations:
-    human: ISO/Guide 82
-    urn: urn:iso:std:iso:82
-  style: v3
-  non_normalized_aliases:
-  - spelling: Руководства ИСО 82
     style: v3
 - id: iso..6281
   identifier:
@@ -66751,7 +66751,7 @@
       day: '05'
       publisher: IEC
   representations:
-    human: ISO/IEC DIR 1 + IEC SUP:2016-05-05
+    human: ISO/IEC DIR 1 + IEC SUP:2016-05-05-05
     urn: urn:iso:doc:iso-iec:dir:1:iec:sup:2016
   style: v3
   non_normalized_aliases:
@@ -67272,7 +67272,7 @@
     - IEC
   representations:
     human: ISO/IEC Guide 59:1994
-    urn: urn:iso:std:iso-iec:59
+    urn: urn:iso:std:iso-iec:guide:59
   style: v3
   non_normalized_aliases:
   - spelling: Guide ISO/IEC 59:1994
@@ -67307,7 +67307,7 @@
     - IEC
   representations:
     human: ISO/IEC Guide 76
-    urn: urn:iso:std:iso-iec:76
+    urn: urn:iso:std:iso-iec:guide:76
   style: v3
   non_normalized_aliases:
   - spelling: Руководство ИСО/МЭК 76
