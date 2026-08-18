@@ -1,0 +1,869 @@
+---
+- id: iso.iso-pubid-languages.0001
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2012'
+    languages:
+    - code: fr
+      original_code: fr
+    base:
+      _type: pubid:iso:international-standard
+      number: '11783'
+      part: '2'
+      year: '2012'
+  representations:
+    human: ISO 11783-2:2012/Cor 1:2012(fr)
+    urn: urn:iso:std:iso:11783:-2:cor:2012:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 11783-2:2012/Cor.1:2012(fr)
+    style: v2
+- id: iso.iso-pubid-languages.0002
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '11890'
+    part: '1'
+    year: '2007'
+    languages:
+    - code: ru
+      original_code: ru
+  representations:
+    human: ISO 11890-1:2007(ru)
+    urn: urn:iso:std:iso:11890:-1:ru
+  style: v3
+- id: iso.iso-pubid-languages.0003
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '14040'
+    year: '2006'
+    languages:
+    - code: ar
+      original_code: ar
+  representations:
+    human: ISO 14040:2006(ar)
+    urn: urn:iso:std:iso:14040:ar
+  style: v3
+- id: iso.iso-pubid-languages.0004
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2010'
+    languages:
+    - code: ru
+      original_code: ru
+    base:
+      _type: pubid:iso:international-standard
+      number: '1436'
+      year: '2009'
+  representations:
+    human: ISO 1436:2009/Cor 1:2010(ru)
+    urn: urn:iso:std:iso:1436:cor:2010:v1:ru
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 1436:2009/Cor.1:2010(ru)
+    style: v2
+- id: iso.iso-pubid-languages.0005
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '14451'
+    part: '1'
+    year: '2013'
+    languages:
+    - code: en
+      original_code: en
+    - code: fr
+      original_code: fr
+    - code: other
+      original_code: other
+  representations:
+    human: ISO 14451-1:2013(en,fr,other)
+    urn: urn:iso:std:iso:14451:-1:en,fr,other
+  style: v3
+- id: iso.iso-pubid-languages.0006
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '17225'
+    part: '1'
+    year: '2014'
+    languages:
+    - code: ru
+      original_code: R
+  representations:
+    human: ISO 17225-1:2014(R)
+    urn: urn:iso:std:iso:17225:-1:ru
+  style: v3
+- id: iso.iso-pubid-languages.0007
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '17225'
+    part: '1'
+    year: '2014'
+    languages:
+    - code: ru
+      original_code: ru
+  representations:
+    human: ISO 17225-1:2014(ru)
+    urn: urn:iso:std:iso:17225:-1:ru
+  style: v3
+- id: iso.iso-pubid-languages.0008
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2017'
+    languages:
+    - code: fr
+      original_code: F
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/Amd 1:2017(F)
+    urn: urn:iso:std:iso:17301:-1:amd:2017:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 17301-1:2016/Amd.1:2017(F)
+    style: v2
+- id: iso.iso-pubid-languages.0009
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '1891'
+    part: '2'
+    year: '2014'
+    languages:
+    - code: en
+      original_code: en
+    - code: fr
+      original_code: fr
+    - code: ru
+      original_code: ru
+    - code: other
+      original_code: other
+  representations:
+    human: ISO 1891-2:2014(en,fr,ru,other)
+    urn: urn:iso:std:iso:1891:-2:en,fr,ru,other
+  style: v3
+- id: iso.iso-pubid-languages.0010
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '19109'
+    year: '2005'
+    languages:
+    - code: en
+      original_code: E
+  representations:
+    human: ISO 19109:2005(E)
+    urn: urn:iso:std:iso:19109:en
+  style: v3
+- id: iso.iso-pubid-languages.0011
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '19901'
+    part: '3'
+    year: '2014'
+    languages:
+    - code: ru
+      original_code: ru
+  representations:
+    human: ISO 19901-3:2014(ru)
+    urn: urn:iso:std:iso:19901:-3:ru
+  style: v3
+- id: iso.iso-pubid-languages.0012
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '1998'
+    part: '2'
+    year: '1976'
+    languages:
+    - code: en
+      original_code: en
+    - code: fr
+      original_code: fr
+    - code: ru
+      original_code: ru
+  representations:
+    human: ISO 1998-2:1976(en,fr,ru)
+    urn: urn:iso:std:iso:1998:-2:en,fr,ru
+  style: v3
+- id: iso.iso-pubid-languages.0013
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '20251'
+    year: '2016'
+    languages:
+    - code: fr
+      original_code: F
+  representations:
+    human: ISO 20251:2016(F)
+    urn: urn:iso:std:iso:20251:fr
+  style: v3
+- id: iso.iso-pubid-languages.0014
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '20805'
+    year: '2011'
+    languages:
+    - code: ru
+      original_code: ru
+  representations:
+    human: ISO 20805:2011(ru)
+    urn: urn:iso:std:iso:20805:ru
+  style: v3
+- id: iso.iso-pubid-languages.0015
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '21542'
+    year: '2011'
+    languages:
+    - code: fr
+      original_code: F
+  representations:
+    human: ISO 21542:2011(F)
+    urn: urn:iso:std:iso:21542:fr
+  style: v3
+- id: iso.iso-pubid-languages.0016
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '21542'
+    year: '2011'
+    languages:
+    - code: fr
+      original_code: fr
+  representations:
+    human: ISO 21542:2011(fr)
+    urn: urn:iso:std:iso:21542:fr
+  style: v3
+- id: iso.iso-pubid-languages.0017
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '21809'
+    part: '2'
+    year: '2014'
+    languages:
+    - code: ru
+      original_code: ru
+  representations:
+    human: ISO 21809-2:2014(ru)
+    urn: urn:iso:std:iso:21809:-2:ru
+  style: v3
+- id: iso.iso-pubid-languages.0018
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '26000'
+    year: '2010'
+    languages:
+    - code: es
+      original_code: es
+  representations:
+    human: ISO 26000:2010(es)
+    urn: urn:iso:std:iso:26000:es
+  style: v3
+- id: iso.iso-pubid-languages.0019
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '31000'
+    year: '2009'
+    languages:
+    - code: ar
+      original_code: ar
+  representations:
+    human: ISO 31000:2009(ar)
+    urn: urn:iso:std:iso:31000:ar
+  style: v3
+- id: iso.iso-pubid-languages.0020
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '3166'
+    part: '1'
+    year: '2013'
+    languages:
+    - code: en
+      original_code: en
+    - code: fr
+      original_code: fr
+  representations:
+    human: ISO 3166-1:2013(en,fr)
+    urn: urn:iso:std:iso:3166:-1:en,fr
+  style: v3
+- id: iso.iso-pubid-languages.0021
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    languages:
+    - code: fr
+      original_code: fr
+    stage: damd
+    base:
+      _type: pubid:iso:international-standard
+      number: '3183'
+      year: '2012'
+  representations:
+    human: ISO 3183:2012/DAM 1(fr)
+    urn: urn:iso:std:iso:3183:stage-40.00:amd:1:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 3183:2012/DAmd 1(fr)
+    style: v3
+- id: iso.iso-pubid-languages.0022
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '4618'
+    year: '2014'
+    languages:
+    - code: de
+      original_code: de
+  representations:
+    human: ISO 4618:2014(de)
+    urn: urn:iso:std:iso:4618:de
+  style: v3
+- id: iso.iso-pubid-languages.0023
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '4618'
+    year: '2014'
+    languages:
+    - code: ru
+      original_code: ru
+  representations:
+    human: ISO 4618:2014(ru)
+    urn: urn:iso:std:iso:4618:ru
+  style: v3
+- id: iso.iso-pubid-languages.0024
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '5053'
+    part: '1'
+    year: '2015'
+    languages:
+    - code: en
+      original_code: en
+    - code: fr
+      original_code: fr
+  representations:
+    human: ISO 5053-1:2015(en,fr)
+    urn: urn:iso:std:iso:5053:-1:en,fr
+  style: v3
+- id: iso.iso-pubid-languages.0025
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2016'
+    languages:
+    - code: de
+      original_code: de
+    base:
+      _type: pubid:iso:international-standard
+      number: '5492'
+      year: '2008'
+  representations:
+    human: ISO 5492:2008/Amd 1:2016(de)
+    urn: urn:iso:std:iso:5492:amd:2016:v1:de
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 5492:2008/Amd.1:2016(de)
+    style: v2
+- id: iso.iso-pubid-languages.0026
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2016'
+    languages:
+    - code: es
+      original_code: es
+    base:
+      _type: pubid:iso:international-standard
+      number: '5492'
+      year: '2008'
+  representations:
+    human: ISO 5492:2008/Amd 1:2016(es)
+    urn: urn:iso:std:iso:5492:amd:2016:v1:es
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 5492:2008/Amd.1:2016(es)
+    style: v2
+- id: iso.iso-pubid-languages.0027
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2016'
+    languages:
+    - code: fr
+      original_code: fr
+    base:
+      _type: pubid:iso:international-standard
+      number: '5492'
+      year: '2008'
+  representations:
+    human: ISO 5492:2008/Amd 1:2016(fr)
+    urn: urn:iso:std:iso:5492:amd:2016:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 5492:2008/Amd.1:2016(fr)
+    style: v2
+- id: iso.iso-pubid-languages.0028
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2016'
+    languages:
+    - code: ru
+      original_code: ru
+    base:
+      _type: pubid:iso:international-standard
+      number: '5492'
+      year: '2008'
+  representations:
+    human: ISO 5492:2008/Amd 1:2016(ru)
+    urn: urn:iso:std:iso:5492:amd:2016:v1:ru
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 5492:2008/Amd.1:2016(ru)
+    style: v2
+- id: iso.iso-pubid-languages.0029
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '55000'
+    year: '2014'
+    languages:
+    - code: es
+      original_code: es
+  representations:
+    human: ISO 55000:2014(es)
+    urn: urn:iso:std:iso:55000:es
+  style: v3
+- id: iso.iso-pubid-languages.0030
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '6091'
+    year: '2010'
+    languages:
+    - code: ru
+      original_code: ru
+  representations:
+    human: ISO 6091:2010(ru)
+    urn: urn:iso:std:iso:6091:ru
+  style: v3
+- id: iso.iso-pubid-languages.0031
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '8081'
+    year: '2021'
+    languages:
+    - code: fr
+      original_code: fr
+  representations:
+    human: ISO 8081:2021(fr)
+    urn: urn:iso:std:iso:8081:fr
+  style: v3
+- id: iso.iso-pubid-languages.0032
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2013'
+    languages:
+    - code: ru
+      original_code: ru
+    base:
+      _type: pubid:iso:international-standard
+      number: '8637'
+      year: '2010'
+  representations:
+    human: ISO 8637:2010/Amd 1:2013(ru)
+    urn: urn:iso:std:iso:8637:amd:2013:v1:ru
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 8637:2010/Amd.1:2013(ru)
+    style: v2
+- id: iso.iso-pubid-languages.0033
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '52920'
+    languages:
+    - code: fr
+      original_code: fr
+    copublishers:
+    - ASTM
+    stage: dis
+  representations:
+    human: ISO/ASTM DIS 52920(fr)
+    urn: urn:iso:std:iso-astm:52920:DIS:fr
+  style: v3
+- id: iso.iso-pubid-languages.0034
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '12625'
+    part: '1'
+    languages:
+    - code: en
+      original_code: en
+    - code: fr
+      original_code: fr
+    stage: dis
+  representations:
+    human: ISO/DIS 12625-1(en,fr)
+    urn: urn:iso:std:iso:12625:-1:DIS:en,fr
+  style: v3
+- id: iso.iso-pubid-languages.0035
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '16228'
+    year: '2015'
+    languages:
+    - code: fr
+      original_code: F
+    stage: dis
+  representations:
+    human: ISO/DIS 16228:2015(F)
+    urn: urn:iso:std:iso:16228:DIS:fr
+  style: v3
+- id: iso.iso-pubid-languages.0036
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '18218'
+    part: '2'
+    languages:
+    - code: fr
+      original_code: fr
+    stage: dis
+  representations:
+    human: ISO/DIS 18218-2(fr)
+    urn: urn:iso:std:iso:18218:-2:DIS:fr
+  style: v3
+- id: iso.iso-pubid-languages.0037
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '22964'
+    languages:
+    - code: fr
+      original_code: fr
+    stage: dis
+  representations:
+    human: ISO/DIS 22964(fr)
+    urn: urn:iso:std:iso:22964:DIS:fr
+  style: v3
+- id: iso.iso-pubid-languages.0038
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '24478'
+    languages:
+    - code: fr
+      original_code: fr
+    stage: dis
+  representations:
+    human: ISO/DIS 24478(fr)
+    urn: urn:iso:std:iso:24478:DIS:fr
+  style: v3
+- id: iso.iso-pubid-languages.0039
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '30415'
+    languages:
+    - code: fr
+      original_code: fr
+    stage: dis
+  representations:
+    human: ISO/DIS 30415(fr)
+    urn: urn:iso:std:iso:30415:DIS:fr
+  style: v3
+- id: iso.iso-pubid-languages.0040
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '6789'
+    part: '2'
+    stage_iteration: '2'
+    languages:
+    - code: fr
+      original_code: fr
+    stage: dis
+  representations:
+    human: ISO/DIS 6789-2.2(fr)
+    urn: urn:iso:std:iso:6789:-2:DIS.2:fr
+  style: v3
+- id: iso.iso-pubid-languages.0041
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '6789'
+    part: '2'
+    year: '2014'
+    languages:
+    - code: fr
+      original_code: F
+    stage: dis
+  representations:
+    human: ISO/DIS 6789-2:2014(F)
+    urn: urn:iso:std:iso:6789:-2:DIS:fr
+  style: v3
+- id: iso.iso-pubid-languages.0042
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '80000'
+    part: '1'
+    languages:
+    - code: fr
+      original_code: fr
+    stage: dis
+  representations:
+    human: ISO/DIS 80000-1(fr)
+    urn: urn:iso:std:iso:80000:-1:DIS:fr
+  style: v3
+- id: iso.iso-pubid-languages.0043
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '8566'
+    part: '5'
+    year: '2016'
+    languages:
+    - code: fr
+      original_code: F
+    stage: dis
+  representations:
+    human: ISO/DIS 8566-5:2016(F)
+    urn: urn:iso:std:iso:8566:-5:DIS:fr
+  style: v3
+- id: iso.iso-pubid-languages.0044
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2006'
+    languages:
+    - code: fr
+      original_code: F
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '17025'
+      year: '2005'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 17025:2005/Cor 1:2006(F)
+    urn: urn:iso:std:iso-iec:17025:cor:2006:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - input: ISO/IEC 17025:2005/Cor.1:2006(F)
+    style: v2
+- id: iso.iso-pubid-languages.0045
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '17050'
+    part: '1'
+    year: '2004'
+    languages:
+    - code: ar
+      original_code: ar
+    copublishers:
+    - IEC
+  representations:
+    human: ISO/IEC 17050-1:2004(ar)
+    urn: urn:iso:std:iso-iec:17050:-1:ar
+  style: v3
+- id: iso.iso-pubid-languages.0046
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '17050'
+    part: '1'
+    year: '2004'
+    languages:
+    - code: es
+      original_code: es
+    copublishers:
+    - IEC
+  representations:
+    human: ISO/IEC 17050-1:2004(es)
+    urn: urn:iso:std:iso-iec:17050:-1:es
+  style: v3
+- id: iso.iso-pubid-languages.0047
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '2382'
+    part: '36'
+    year: '2019'
+    languages:
+    - code: en
+      original_code: E
+    - code: fr
+      original_code: F
+    copublishers:
+    - IEC
+  representations:
+    human: ISO/IEC 2382-36:2019(E/F)
+    urn: urn:iso:std:iso-iec:2382:-36:en,fr
+  style: v3
+- id: iso.iso-pubid-languages.0048
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '2382'
+    part: '37'
+    year: '2012'
+    languages:
+    - code: ru
+      original_code: ru
+    copublishers:
+    - IEC
+  representations:
+    human: ISO/IEC 2382-37:2012(ru)
+    urn: urn:iso:std:iso-iec:2382:-37:ru
+  style: v3
+- id: iso.iso-pubid-languages.0049
+  identifier:
+    _type: pubid:iso:guide
+    number: '2'
+    year: '2004'
+    languages:
+    - code: en
+      original_code: E
+    - code: fr
+      original_code: F
+    - code: ru
+      original_code: R
+    copublishers:
+    - IEC
+  representations:
+    human: ISO/IEC Guide 2:2004(E/F/R)
+    urn: urn:iso:std:iso-iec:guide:2:en,fr,ru
+  style: v3
+  non_normalized_aliases:
+  - input: ISO/IEC GUIDE 2:2004(E/F/R)
+    style: v3
+- id: iso.iso-pubid-languages.0050
+  identifier:
+    _type: pubid:iso:guide
+    number: '99'
+    year: '2007'
+    languages:
+    - code: ru
+      original_code: ru
+    copublishers:
+    - IEC
+  representations:
+    human: ISO/IEC Guide 99:2007(ru)
+    urn: urn:iso:std:iso-iec:guide:99:ru
+  style: v3
+- id: iso.iso-pubid-languages.0051
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '24765'
+    year: '2017'
+    languages:
+    - code: en
+      original_code: en
+    copublishers:
+    - IEC
+    - IEEE
+  representations:
+    human: ISO/IEC/IEEE 24765:2017(en)
+    urn: urn:iso:std:iso-iec-ieee:24765:en
+  style: v3
+- id: iso.iso-pubid-languages.0052
+  identifier:
+    _type: pubid:iso:pas
+    number: '23263'
+    year: '2019'
+    languages:
+    - code: en
+      original_code: en
+  representations:
+    human: ISO/PAS 23263:2019(en)
+    urn: urn:iso:std:iso:pas:23263:en
+  style: v3
+- id: iso.iso-pubid-languages.0053
+  identifier:
+    _type: pubid:iso:pas
+    number: '45005'
+    year: '2020'
+    languages:
+    - code: en
+      original_code: en
+  representations:
+    human: ISO/PAS 45005:2020(en)
+    urn: urn:iso:std:iso:pas:45005:en
+  style: v3
+- id: iso.iso-pubid-languages.0054
+  identifier:
+    _type: pubid:iso:technical-report
+    number: '10013'
+    year: '2001'
+    languages:
+    - code: ar
+      original_code: ar
+  representations:
+    human: ISO/TR 10013:2001(ar)
+    urn: urn:iso:std:iso:tr:10013:ar
+  style: v3
+- id: iso.iso-pubid-languages.0055
+  identifier:
+    _type: pubid:iso:technical-report
+    number: '18130'
+    year: '2016'
+    languages:
+    - code: fr
+      original_code: F
+  representations:
+    human: ISO/TR 18130:2016(F)
+    urn: urn:iso:std:iso:tr:18130:fr
+  style: v3
+- id: iso.iso-pubid-languages.0056
+  identifier:
+    _type: pubid:iso:technical-specification
+    number: '80004'
+    part: '3'
+    year: '2010'
+    languages:
+    - code: fr
+      original_code: F
+  representations:
+    human: ISO/TS 80004-3:2010(F)
+    urn: urn:iso:std:iso:ts:80004:-3:fr
+  style: v3
+- id: iso.iso-pubid-languages.0057
+  identifier:
+    _type: pubid:iso:technical-specification
+    number: '80004'
+    part: '3'
+    year: '2010'
+    languages:
+    - code: fr
+      original_code: fr
+  representations:
+    human: ISO/TS 80004-3:2010(fr)
+    urn: urn:iso:std:iso:ts:80004:-3:fr
+  style: v3
+- id: iso.iso-pubid-languages.0058
+  identifier:
+    _type: pubid:iso:technology-trends-assessments
+    number: '1'
+    year: '1994'
+    languages:
+    - code: en
+      original_code: en
+  representations:
+    human: ISO/TTA 1:1994(en)
+    urn: urn:iso:std:iso:tta:1:en
+  style: v3
+- id: iso.iso-pubid-languages.0059
+  identifier:
+    _type: pubid:iso:technology-trends-assessments
+    number: '2'
+    year: '1997'
+    languages:
+    - code: en
+      original_code: en
+  representations:
+    human: ISO/TTA 2:1997(en)
+    urn: urn:iso:std:iso:tta:2:en
+  style: v3
+- id: iso.iso-pubid-languages.0060
+  identifier:
+    _type: pubid:iso:technology-trends-assessments
+    number: '3'
+    year: '2001'
+    languages:
+    - code: en
+      original_code: en
+  representations:
+    human: ISO/TTA 3:2001(en)
+    urn: urn:iso:std:iso:tta:3:en
+  style: v3

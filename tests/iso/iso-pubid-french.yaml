@@ -1,0 +1,399 @@
+---
+- id: iso.iso-pubid-french.0001
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '1982'
+    languages:
+    - code: fr
+      original_code: fr
+    base:
+      _type: pubid:iso:international-standard
+      number: '1247'
+      year: '1974'
+  representations:
+    human: ISO 1247:1974/Amd 1:1982(fr)
+    urn: urn:iso:std:iso:1247:amd:1982:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 1247:1974/Amd.1:1982(fr)
+    style: v2
+- id: iso.iso-pubid-french.0002
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2015'
+    languages:
+    - code: fr
+      original_code: fr
+    base:
+      _type: pubid:iso:international-standard
+      number: '13017'
+      year: '2012'
+  representations:
+    human: ISO 13017:2012/Amd 1:2015(fr)
+    urn: urn:iso:std:iso:13017:amd:2015:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 13017:2012/Amd.1:2015(fr)
+    style: v2
+- id: iso.iso-pubid-french.0003
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2001'
+    languages:
+    - code: fr
+      original_code: fr
+    base:
+      _type: pubid:iso:international-standard
+      number: '14687'
+      part: '1'
+      year: '1999'
+  representations:
+    human: ISO 14687-1:1999/Cor 1:2001(fr)
+    urn: urn:iso:std:iso:14687:-1:cor:2001:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 14687-1:1999/Cor.1:2001(fr)
+    style: v2
+- id: iso.iso-pubid-french.0004
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2013'
+    languages:
+    - code: fr
+      original_code: fr
+    base:
+      _type: pubid:iso:international-standard
+      number: '178'
+      year: '2010'
+  representations:
+    human: ISO 178:2010/Amd 1:2013(fr)
+    urn: urn:iso:std:iso:178:amd:2013:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 178:2010/Amd.1:2013(fr)
+    style: v2
+- id: iso.iso-pubid-french.0005
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '5167'
+    part: '5'
+    year: '2016'
+    languages:
+    - code: fr
+      original_code: fr
+  representations:
+    human: ISO 5167-5:2016(fr)
+    urn: urn:iso:std:iso:5167:-5:fr
+  style: v3
+- id: iso.iso-pubid-french.0006
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2015'
+    languages:
+    - code: fr
+      original_code: fr
+    base:
+      _type: pubid:iso:international-standard
+      number: '8624'
+      year: '2011'
+  representations:
+    human: ISO 8624:2011/Amd 1:2015(fr)
+    urn: urn:iso:std:iso:8624:amd:2015:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 8624:2011/Amd.1:2015(fr)
+    style: v2
+- id: iso.iso-pubid-french.0007
+  identifier:
+    _type: pubid:iso:guide
+    number: '73'
+    year: '2009'
+    languages:
+    - code: fr
+      original_code: fr
+  representations:
+    human: ISO Guide 73:2009(fr)
+    urn: urn:iso:std:iso:guide:73:fr
+  style: v3
+- id: iso.iso-pubid-french.0008
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '1996'
+    languages:
+    - code: fr
+      original_code: fr
+    copublishers:
+    - CEI
+    base:
+      _type: pubid:iso:amendment
+      number: '1'
+      year: '1995'
+      copublishers:
+      - CEI
+      base:
+        _type: pubid:iso:international-standard
+        number: '10164'
+        part: '5'
+        year: '1993'
+        copublishers:
+        - CEI
+  representations:
+    human: ISO/CEI 10164-5:1993/Amd 1:1995/Cor 1:1996(fr)
+    urn: urn:iso:std:iso-cei:10164:-5:amd:1995:v1:cor:1996:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - input: ISO/CEI 10164-5:1993/Amd.1:1995/Cor.1:1996(fr)
+    style: v2
+- id: iso.iso-pubid-french.0009
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '17021'
+    part: '3'
+    year: '2017'
+    languages:
+    - code: fr
+      original_code: fr
+    copublishers:
+    - CEI
+  representations:
+    human: ISO/CEI 17021-3:2017(fr)
+    urn: urn:iso:std:iso-cei:17021:-3:fr
+  style: v3
+- id: iso.iso-pubid-french.0010
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '17024'
+    year: '2012'
+    languages:
+    - code: fr
+      original_code: fr
+    copublishers:
+    - CEI
+  representations:
+    human: ISO/CEI 17024:2012(fr)
+    urn: urn:iso:std:iso-cei:17024:fr
+  style: v3
+- id: iso.iso-pubid-french.0011
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2006'
+    languages:
+    - code: fr
+      original_code: F
+    copublishers:
+    - CEI
+    base:
+      _type: pubid:iso:international-standard
+      number: '17025'
+      year: '2005'
+      copublishers:
+      - CEI
+  representations:
+    human: ISO/CEI 17025:2005/Cor 1:2006(F)
+    urn: urn:iso:std:iso-cei:17025:cor:2006:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - input: ISO/CEI 17025:2005/Cor.1:2006(F)
+    style: v2
+- id: iso.iso-pubid-french.0012
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '27000'
+    year: '2016'
+    languages:
+    - code: fr
+      original_code: fr
+    copublishers:
+    - CEI
+  representations:
+    human: ISO/CEI 27000:2016(fr)
+    urn: urn:iso:std:iso-cei:27000:fr
+  style: v3
+- id: iso.iso-pubid-french.0013
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '29500'
+    copublishers:
+    - CEI
+    stage: dis
+  representations:
+    human: ISO/CEI DIS 29500
+    urn: urn:iso:std:iso-cei:29500:DIS
+  style: v3
+- id: iso.iso-pubid-french.0014
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '80079'
+    part: '20'
+    subpart: '2'
+    languages:
+    - code: fr
+      original_code: fr
+    copublishers:
+    - CEI
+    stage: dis
+  representations:
+    human: ISO/CEI DIS 80079-20-2(fr)
+    urn: urn:iso:std:iso-cei:80079:-20-2:DIS:fr
+  style: v3
+- id: iso.iso-pubid-french.0015
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '15408'
+    part: '1'
+    copublishers:
+    - CEI
+    stage: fdis
+  representations:
+    human: ISO/CEI FDIS 15408-1
+    urn: urn:iso:std:iso-cei:15408:-1:FDIS
+  style: v3
+- id: iso.iso-pubid-french.0016
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '37'
+    year: '1995'
+    copublishers:
+    - CEI
+  representations:
+    human: ISO/CEI Guide 37:1995
+    urn: urn:iso:std:iso-cei:37
+  style: v3
+  non_normalized_aliases:
+  - input: Guide ISO/CEI 37:1995
+    style: v3
+- id: iso.iso-pubid-french.0017
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '50'
+    copublishers:
+    - CEI
+  representations:
+    human: ISO/CEI Guide 50
+    urn: urn:iso:std:iso-cei:50
+  style: v3
+  non_normalized_aliases:
+  - input: Guide ISO/CEI 50
+    style: v3
+- id: iso.iso-pubid-french.0018
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '51'
+    year: '1999'
+    copublishers:
+    - CEI
+  representations:
+    human: ISO/CEI Guide 51:1999
+    urn: urn:iso:std:iso-cei:51
+  style: v3
+  non_normalized_aliases:
+  - input: Guide ISO/CEI 51:1999
+    style: v3
+- id: iso.iso-pubid-french.0019
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '71'
+    year: '2001'
+    languages:
+    - code: fr
+      original_code: F
+    copublishers:
+    - CEI
+  representations:
+    human: ISO/CEI Guide 71:2001(F)
+    urn: urn:iso:std:iso-cei:71:fr
+  style: v3
+  non_normalized_aliases:
+  - input: GUIDE ISO/CEI 71:2001(F)
+    style: v3
+- id: iso.iso-pubid-french.0020
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '34'
+    year: '2009'
+  representations:
+    human: ISO/Guide 34:2009
+    urn: urn:iso:std:iso:34
+  style: v3
+  non_normalized_aliases:
+  - input: Guide ISO 34:2009
+    style: v3
+- id: iso.iso-pubid-french.0021
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2006'
+    languages:
+    - code: fr
+      original_code: fr
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '17025'
+      year: '2005'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 17025:2005/Cor 1:2006(fr)
+    urn: urn:iso:std:iso-iec:17025:cor:2006:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - input: ISO/IEC 17025:2005/Cor.1:2006(fr)
+    style: v2
+- id: iso.iso-pubid-french.0022
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2012'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '26300'
+      year: '2006'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 26300:2006/Amd 1:2012
+    urn: urn:iso:std:iso-iec:26300:amd:2012:v1
+  style: v3
+  non_normalized_aliases:
+  - input: ISO/IEC 26300:2006/Amd.1:2012
+    style: v2
+- id: iso.iso-pubid-french.0023
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '59'
+    year: '1994'
+    copublishers:
+    - IEC
+  representations:
+    human: ISO/IEC Guide 59:1994
+    urn: urn:iso:std:iso-iec:59
+  style: v3
+  non_normalized_aliases:
+  - input: Guide ISO/IEC 59:1994
+    style: v3
+- id: iso.iso-pubid-french.0024
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '11073'
+    part: '30200'
+    year: '2004'
+    languages:
+    - code: fr
+      original_code: F
+    copublishers:
+    - IEEE
+  representations:
+    human: ISO/IEEE 11073-30200:2004(F)
+    urn: urn:iso:std:iso-ieee:11073:-30200:fr
+  style: v3

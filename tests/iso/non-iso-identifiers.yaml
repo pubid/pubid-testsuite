@@ -1,0 +1,65 @@
+---
+- id: iso.non-iso-identifiers.0001
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '31010'
+    year: '2019'
+    languages:
+    - code: en
+      original_code: en
+    - code: fr
+      original_code: fr
+    publisher: IEC
+  representations:
+    human: IEC 31010:2019(en,fr)
+    urn: urn:iso:std:iec:31010:en,fr
+  style: v3
+- id: iso.non-iso-identifiers.0002
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    year: '2021'
+    languages:
+    - code: en
+      original_code: en
+    - code: fr
+      original_code: fr
+    publisher: IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '80369'
+      part: '5'
+      year: '2016'
+      publisher: IEC
+  representations:
+    human: IEC 80369-5:2016/Cor 2:2021(en,fr)
+    urn: urn:iso:std:iec:80369:-5:cor:2021:v2:en,fr
+  style: v3
+- id: iso.non-iso-identifiers.0003
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '80601'
+    part: '2'
+    subpart: '60'
+    publisher: IEC
+  representations:
+    human: IEC 80601-2-60
+    urn: urn:iso:std:iec:80601:-2-60
+  style: v3
+- id: iso.non-iso-identifiers.0004
+  identifier:
+    _type: pubid:iso:international-standard
+    number: '80601'
+    part: '2'
+    subpart: '60'
+    year: '2019'
+    languages:
+    - code: en
+      original_code: en
+    - code: fr
+      original_code: fr
+    publisher: IEC
+  representations:
+    human: IEC 80601-2-60:2019(en,fr)
+    urn: urn:iso:std:iec:80601:-2-60:en,fr
+  style: v3

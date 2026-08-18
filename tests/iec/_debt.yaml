@@ -1,0 +1,1105 @@
+---
+- id: iec.debt.3522012278048312205
+  input: IEC 60050-802/COR1/FRAGC1 ED1
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.200734906828450809
+  input: "!IEC CA 01:2025-10!IEC CA 01:2025"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2464516992391217148
+  input: "!IECEE 02:2025-06(en)!IECEE 02:2025"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2031837137537188050
+  input: "!IEC CA 01:2025-10(en)!IEC CA 01:2025"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3522012278048312205
+  input: IEC 60050-802/COR1/FRAGC1 ED1
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1979195300222402354
+  input: IECEE CAB-G01:2021-07
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.378222552770456842
+  input: IEC CAB-P01
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2685567117750428365
+  input: IEC CAB-P02
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1935192085011224890
+  input: "IECEE OD-1000\t4.4"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2103787068341747882
+  input: "IECEE OD-2004\t3.8"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.4463477025245742011
+  input: "IECEE OD-2004-O\t1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.972722605348315944
+  input: "IECEE OD-2004-R\t1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.438694514417907743
+  input: "IECEE OD-2005-2\t1.6"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3293096920812282195
+  input: "IECEE OD-2005-2\t1.7"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2693833103544865832
+  input: "IECEE OD-2006\t4.8"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.4315613448733864296
+  input: "IECEE OD-2006\t4.9"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.736291915710338119
+  input: "IECEE OD-2006-F1\t1.1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2055227266098450141
+  input: "IECEE OD-2006-F2\t1.1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3100593752448070911
+  input: "IECEE OD-2007\t4.2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2142404421581778497
+  input: "IECEE OD-2007-F1\t1.2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3990767729434331166
+  input: "IECEE OD-2007-F2b\t1.1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1995672515871803227
+  input: "IECEE OD-2007-F3\t1.1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2991683458851028589
+  input: "IECEE OD-2011\t2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1351786221731991943
+  input: "IECEE OD-2012\t2.7"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3043156328719769701
+  input: "IECEE OD-2020\t4"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2039981807464091150
+  input: "IECEE OD-2020\t4.1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2338842197518006267
+  input: "IECEE OD-2020-F1\t1.7"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3773829786415576721
+  input: "IECEE OD-2020-F1\t1.8"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1426175916768850781
+  input: "IECEE OD-2020-F2\t2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.4024712562146301760
+  input: "IECEE OD-2020-F2\t2.1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1387322743581746630
+  input: "IECEE OD-2020-F3\t1.3"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3645011947257230820
+  input: "IECEE OD-2020-F3\t1.4"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1535075157807699551
+  input: "IECEE OD-2020-F4\t1.2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.809315227984648673
+  input: "IECEE OD-2020-F5\t1.1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.946793277365713258
+  input: "IECEE OD-2020-F7\t2.2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2060527287409844868
+  input: "IECEE OD-2020-F7\t2.3"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.280647499456821997
+  input: "IECEE OD-2020-F8\t1.4"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.4356105397609334833
+  input: "IECEE OD-2020-F8\t1.5"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3703718897613794724
+  input: "IECEE OD-2021\t2.7"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.4395710228760347304
+  input: "IECEE OD-2021\t3"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.4433058521070642984
+  input: "IECEE OD-2024\t1.3"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1593981179041211753
+  input: "IECEE OD-2024-F1\t1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1334263451628071146
+  input: "IECEE OD-2026\t2.7"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3727508848405702042
+  input: "IECEE OD-2026\t2.8"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.314722827193513149
+  input: "IECEE OD-2026-F1\t1.1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.506664095998488016
+  input: "IECEE OD-2033\t5.2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2984343444935447131
+  input: "IECEE OD-2033\t5.3"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.4512164963992871146
+  input: "IECEE OD-2034\t5.6"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1451081746596147129
+  input: "IECEE OD-2034\t5.7"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.130357345156680292
+  input: "IECEE OD-2034-F1\t1.1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.4309807156183945013
+  input: "IECEE OD-2037\t4.4"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.417843318534163298
+  input: "IECEE OD-2037-F1\t1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.182476698952974706
+  input: "IECEE OD-2037-F2\t1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1878252241884957833
+  input: "IECEE OD-2037-F3\t1.1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1544691774464519951
+  input: "IECEE OD-2037-F3\t1.2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3763032143119098280
+  input: "IECEE OD-2037-F4\t1.2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1701223719634719325
+  input: "IECEE OD-2037-F5\t1.1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1064642804892231466
+  input: "IECEE OD-2039\t2.4"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3983335572931245804
+  input: "IECEE OD-2043\t2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.4019571158135624962
+  input: "IECEE OD-2044\t2.5"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2028042573366330630
+  input: "IECEE OD-2044-1\t1.1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.4138542537726521470
+  input: "IECEE OD-2045\t3.1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2404068465588824528
+  input: "IECEE OD-2048\t1.13"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.4584992878758746757
+  input: "IECEE OD-2048\t1.14"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3919678246279227186
+  input: "IECEE OD-2048-F1\t1.2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3657777284127409459
+  input: "IECEE OD-2048-F2-2\t1.2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.4435660102411692652
+  input: "IECEE OD-2048-F3-2\t1.3"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2207717199178681046
+  input: "IECEE OD-2055\t2.3"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2626033154417696348
+  input: "IECEE OD-2056\t2.2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.4462968604852413964
+  input: "IECEE OD-2059\t3"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2693540738996824009
+  input: "IECEE OD-2061\t2.2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1289093265532492381
+  input: "IECEE OD-2061\t2.3"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3289624079411315264
+  input: "IECEE OD-2064\t2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.4258481555944120765
+  input: "IECEE OD-2067\t1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3156631643873329859
+  input: "IECEE OD-5001\t3.1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2841336452066488592
+  input: "IECEE OD-5001\t4"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3167017314984191365
+  input: "IECEE OD-5001-F1\t2.2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1964716341276638764
+  input: "IECEE OD-5001-F1\t2.3"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2276140279229025338
+  input: "IECEE OD-5002\t4"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1877511316741364067
+  input: "IECEE OD-5002-F1\t2.2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1287700926823564660
+  input: "IECEE OD-5002-F6\t2.2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2218324471633053434
+  input: "IECEE OD-5002-F7\t1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.4455619277699350845
+  input: "IECEE OD-5002-F8\t1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1142538022109380846
+  input: "IECEE OD-5003\t2.2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1753385921399416403
+  input: "IECEE OD-5003-F1\t1.4"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.519805531351705785
+  input: "IECEE OD-5004\t4"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1684990063479951996
+  input: "IECEE OD-5004\t4.1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1870841725617834885
+  input: "IECEE OD-5010\t1.3"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3464035513398445050
+  input: "IECEE OD-5011\t2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.157735461435457068
+  input: "IECEE OD-5012\t1.3"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.9444422416041648
+  input: "IECEE OD-5013\t1.3"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.519058336791989049
+  input: "IECEE OD-5013\t2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.361708214211391902
+  input: "IECEE OD-5014\t1.2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1850383468995350303
+  input: "IECEE OD-5015\t1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2235483376262346697
+  input: "IECEE OD-6007\t1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3422378370852689326
+  input: "IECEE OD-6007-F1\t1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3550903165226928303
+  input: "IECEE OD-6110\t2.1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2907973346587886675
+  input: "IECEE OD-6110-F1\t1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3455081540528029050
+  input: "IECEE OD-6120\t1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3260118743875074343
+  input: "IECEE OD-6120\t1.1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.4279303651943212359
+  input: "IECEE OD-6130\t1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.928939907556690161
+  input: "IECEE OD-6130\t1.1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3421038929306095067
+  input: "IECEE OD-6140\t1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3467087880588858754
+  input: "IECEE OD-6150\t1.1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1671669907030237599
+  input: "IECEE OD-6150-F1\t1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3450144054449351399
+  input: "IECEE OD-6220\t1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.411749761050865582
+  input: "IECEE OD-6220\t1.1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2059452449799112487
+  input: "IECEE OD-6230\t1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3215622312004339513
+  input: "IECEE OD-G-2003\t2.2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3686745439198724928
+  input: "IECEE OD-G-2041\t2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1219911405731658705
+  input: "IECEE OD-G-2058\t1.2"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.4316242988323239124
+  input: "IECEE OD-G-2060\t1.1"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1884622294937076370
+  input: "!IECEE OD-2004:2024-06(en)!IECEE OD 2004:2024-06(en)"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3261184993911661565
+  input: "!IECEE AD-001:2024-06(en)!IECEE AD 001:2024-06(en)"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3449445843981745369
+  input: "!IECEE OD-2020-F1:2025!IECEE OD 2020-F1:2025"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2677779876585115354
+  input: "!IECEE OD-2010!IECEE OD 2010"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3711203446900123215
+  input: "!IECEE OD-2010:2023-06(en)!IECEE OD 2010:2023-06(en)"
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3380980146524071865
+  input: IEC CAB-P01:2023-04, Ed. 2.0
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1449612659071881585
+  input: IEC CAB-P01:2023-04, Ed. 2.0 Redline version
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.4469746496287219056
+  input: IEC CAB-P02:2021-07, Ed. 1.1
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.684551197493384722
+  input: IEC CAB-P02:2021-07, Ed. 1.1 Redline version
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1007385504091631214
+  input: IEC CAB-G01:2025-02, Ed. 2.1
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1536559709127107679
+  input: IEC CAB-G01:2025-02, Ed. 2.1 Redline version
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1533144458292427753
+  input: IEC CAB-G02:2022-09, Ed. 1.1
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2529359646131855805
+  input: IEC CAB-G02:2022-09, Ed. 1.1 Redline version
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1973309133840127843
+  input: IEC CABPUB01:2022-09, Ed. 1.1 Redline version
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1687401963464247585
+  input: IEC CAB-PM01:2022-09, Ed. 2.1
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2513970620209439053
+  input: IEC CAB-PM01:2022-09, Ed. 2.1 Redline version
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.967312661167287072
+  input: IEC CAB Vademecum:2022-09, Ed. 2.1
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1196325990159833064
+  input: IEC CAB Vademecum:2022-09, Ed. 2.1 Redline version
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3991694517469312005
+  input: IEC CAB-RMG01:2022-09, Ed. 1.1
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2303064939507472398
+  input: IEC CAB-RMG01:2022-09, Ed. 1.1 Redline version
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2082858891723031066
+  input: IEC CA 01:2025-10, Ed. 5.0 Redline version
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2240694945853450891
+  input: IECEE 01-S:2025-03, Ed. 5.1 Redline Version
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.2100145982080425196
+  input: IECEx 01-S:2022-05, Ed. 2.2 Redline Version
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.4536863957711051499
+  input: IECQ 01-S:2024-03, Ed. 3.0 Redline Version
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.1230614039592841062
+  input: IECRE 01-S:2025-02, Ed. 5.1 Redline version
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'
+- id: iec.debt.3522012278048312205
+  input: IEC 60050-802/COR1/FRAGC1 ED1
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [WORKING_PROGRAMME_WITH_PUBLISHER,
+    WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
+    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUP'

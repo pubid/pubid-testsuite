@@ -1,0 +1,897 @@
+---
+- id: iso.iso-pubid-supplement-iteration.0001
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    stage_iteration: '2'
+    stage: awi_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/AWI Amd 1.2
+    urn: urn:iso:std:iso:17301:-1:stage-10.99:amd:1:v1.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0002
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    stage_iteration: '2'
+    year: '2022'
+    stage: awi_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/AWI Amd 1.2:2022
+    urn: urn:iso:std:iso:17301:-1:stage-10.99:amd:2022:v1.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0003
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    stage_iteration: '2'
+    stage: awi_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/AWI Amd 2.2
+    urn: urn:iso:std:iso:17301:-1:stage-10.99:amd:2:v1.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0004
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    stage_iteration: '2'
+    year: '2022'
+    stage: awi_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/AWI Amd 2.2:2022
+    urn: urn:iso:std:iso:17301:-1:stage-10.99:amd:2022:v2.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0005
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    stage_iteration: '2'
+    stage: awicor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/AWI Cor 1.2
+    urn: urn:iso:std:iso:17301:-1:stage-10.99:cor:1:v1.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0006
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    stage_iteration: '2'
+    year: '2022'
+    stage: awicor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/AWI Cor 1.2:2022
+    urn: urn:iso:std:iso:17301:-1:stage-10.99:cor:2022:v1.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0007
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    stage_iteration: '2'
+    stage: awicor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/AWI Cor 2.2
+    urn: urn:iso:std:iso:17301:-1:stage-10.99:cor:2:v1.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0008
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    stage_iteration: '2'
+    year: '2022'
+    stage: awicor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/AWI Cor 2.2:2022
+    urn: urn:iso:std:iso:17301:-1:stage-10.99:cor:2022:v2.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0009
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    stage_iteration: '3'
+    stage: committee_draft_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/CD Amd 1.3
+    urn: urn:iso:std:iso:17301:-1:CD.3:amd:1:v1.3
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0010
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    stage_iteration: '3'
+    year: '2022'
+    stage: committee_draft_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/CD Amd 1.3:2022
+    urn: urn:iso:std:iso:17301:-1:CD.3:amd:2022:v1.3
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0011
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    stage_iteration: '3'
+    stage: committee_draft_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/CD Amd 2.3
+    urn: urn:iso:std:iso:17301:-1:CD.3:amd:2:v1.3
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0012
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    stage_iteration: '3'
+    year: '2022'
+    stage: committee_draft_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/CD Amd 2.3:2022
+    urn: urn:iso:std:iso:17301:-1:CD.3:amd:2022:v2.3
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0013
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    stage_iteration: '3'
+    stage: cdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/CD Cor 1.3
+    urn: urn:iso:std:iso:17301:-1:CD.3:cor:1:v1.3
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0014
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    stage_iteration: '3'
+    year: '2022'
+    stage: cdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/CD Cor 1.3:2022
+    urn: urn:iso:std:iso:17301:-1:CD.3:cor:2022:v1.3
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0015
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    stage_iteration: '3'
+    stage: cdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/CD Cor 2.3
+    urn: urn:iso:std:iso:17301:-1:CD.3:cor:2:v1.3
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0016
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    stage_iteration: '3'
+    year: '2022'
+    stage: cdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/CD Cor 2.3:2022
+    urn: urn:iso:std:iso:17301:-1:CD.3:cor:2022:v2.3
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0017
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    stage_iteration: '3'
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/COR 2.3
+    urn: urn:iso:std:iso:17301:-1:cor:2:v1.3
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0018
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    stage_iteration: '3'
+    year: '2002'
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/COR 2.3:2002
+    urn: urn:iso:std:iso:17301:-1:cor:2002:v2.3
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0019
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    stage_iteration: '3'
+    stage: damd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/DAM 1.3
+    urn: urn:iso:std:iso:17301:-1:stage-40.00:amd:1:v1.3
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 17301-1:2016/DAmd 1.3
+    style: v3
+- id: iso.iso-pubid-supplement-iteration.0020
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    stage_iteration: '3'
+    year: '2002'
+    stage: damd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/DAM 1.3:2002
+    urn: urn:iso:std:iso:17301:-1:stage-40.00:amd:2002:v1.3
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 17301-1:2016/DAmd 1.3:2002
+    style: v3
+- id: iso.iso-pubid-supplement-iteration.0021
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    stage_iteration: '3'
+    stage: damd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/DAM 2.3
+    urn: urn:iso:std:iso:17301:-1:stage-40.00:amd:2:v1.3
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 17301-1:2016/DAmd 2.3
+    style: v3
+- id: iso.iso-pubid-supplement-iteration.0022
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    stage_iteration: '3'
+    year: '2002'
+    stage: damd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/DAM 2.3:2002
+    urn: urn:iso:std:iso:17301:-1:stage-40.00:amd:2002:v2.3
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 17301-1:2016/DAmd 2.3:2002
+    style: v3
+- id: iso.iso-pubid-supplement-iteration.0023
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    stage_iteration: '3'
+    stage: dcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/DCOR 1.3
+    urn: urn:iso:std:iso:17301:-1:DCOR.3:cor:1:v1.3
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0024
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    stage_iteration: '3'
+    year: '2002'
+    stage: dcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/DCOR 1.3:2002
+    urn: urn:iso:std:iso:17301:-1:DCOR.3:cor:2002:v1.3
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0025
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    stage_iteration: '3'
+    stage: dcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/DCor 1.3
+    urn: urn:iso:std:iso:17301:-1:DCOR.3:cor:1:v1.3
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0026
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    stage_iteration: '3'
+    year: '2002'
+    stage: dcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/DCor 1.3:2002
+    urn: urn:iso:std:iso:17301:-1:DCOR.3:cor:2002:v1.3
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0027
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    stage_iteration: '3'
+    stage: dcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/DCor 2.3
+    urn: urn:iso:std:iso:17301:-1:DCOR.3:cor:2:v1.3
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0028
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    stage_iteration: '3'
+    year: '2002'
+    stage: dcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/DCor 2.3:2002
+    urn: urn:iso:std:iso:17301:-1:DCOR.3:cor:2002:v2.3
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0029
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    stage_iteration: '3'
+    stage: fdamd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/FDAM 1.3
+    urn: urn:iso:std:iso:17301:-1:FDAM.3:amd:1:v1.3
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 17301-1:2016/FDAmd 1.3
+    style: v3
+- id: iso.iso-pubid-supplement-iteration.0030
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    stage_iteration: '3'
+    year: '2022'
+    stage: fdamd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/FDAM 1.3:2022
+    urn: urn:iso:std:iso:17301:-1:FDAM.3:amd:2022:v1.3
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 17301-1:2016/FDAmd 1.3:2022
+    style: v3
+- id: iso.iso-pubid-supplement-iteration.0031
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    stage_iteration: '3'
+    stage: fdamd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/FDAM 2.3
+    urn: urn:iso:std:iso:17301:-1:FDAM.3:amd:2:v1.3
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 17301-1:2016/FDAmd 2.3
+    style: v3
+- id: iso.iso-pubid-supplement-iteration.0032
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    stage_iteration: '3'
+    year: '2022'
+    stage: fdamd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/FDAM 2.3:2022
+    urn: urn:iso:std:iso:17301:-1:FDAM.3:amd:2022:v2.3
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 17301-1:2016/FDAmd 2.3:2022
+    style: v3
+- id: iso.iso-pubid-supplement-iteration.0033
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    stage_iteration: '3'
+    stage: fdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/FDCOR 1.3
+    urn: urn:iso:std:iso:17301:-1:FDCOR.3:cor:1:v1.3
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0034
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    stage_iteration: '3'
+    year: '2022'
+    stage: fdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/FDCOR 1.3:2022
+    urn: urn:iso:std:iso:17301:-1:FDCOR.3:cor:2022:v1.3
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0035
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    stage_iteration: '3'
+    stage: fdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/FDCOR 2.3
+    urn: urn:iso:std:iso:17301:-1:FDCOR.3:cor:2:v1.3
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 17301-1:2016/FCOR 2.3
+    style: v3
+- id: iso.iso-pubid-supplement-iteration.0036
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    stage_iteration: '3'
+    year: '2022'
+    stage: fdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/FDCOR 2.3:2022
+    urn: urn:iso:std:iso:17301:-1:FDCOR.3:cor:2022:v2.3
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 17301-1:2016/FCOR 2.3:2022
+    style: v3
+- id: iso.iso-pubid-supplement-iteration.0037
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    stage_iteration: '3'
+    stage: fdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/FDCor 1.3
+    urn: urn:iso:std:iso:17301:-1:FDCOR.3:cor:1:v1.3
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0038
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    stage_iteration: '3'
+    year: '2022'
+    stage: fdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/FDCor 1.3:2022
+    urn: urn:iso:std:iso:17301:-1:FDCOR.3:cor:2022:v1.3
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0039
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    stage_iteration: '3'
+    stage: fdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/FDCor 2.3
+    urn: urn:iso:std:iso:17301:-1:FDCOR.3:cor:2:v1.3
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0040
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    stage_iteration: '3'
+    year: '2022'
+    stage: fdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/FDCor 2.3:2022
+    urn: urn:iso:std:iso:17301:-1:FDCOR.3:cor:2022:v2.3
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0041
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    stage_iteration: '2'
+    stage: np_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/NP Amd 1.2
+    urn: urn:iso:std:iso:17301:-1:stage-10.00:amd:1:v1.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0042
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    stage_iteration: '2'
+    year: '2022'
+    stage: np_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/NP Amd 1.2:2022
+    urn: urn:iso:std:iso:17301:-1:stage-10.00:amd:2022:v1.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0043
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    stage_iteration: '2'
+    stage: np_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/NP Amd 2.2
+    urn: urn:iso:std:iso:17301:-1:stage-10.00:amd:2:v1.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0044
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    stage_iteration: '2'
+    year: '2022'
+    stage: np_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/NP Amd 2.2:2022
+    urn: urn:iso:std:iso:17301:-1:stage-10.00:amd:2022:v2.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0045
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    stage_iteration: '2'
+    stage: npcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/NP Cor 1.2
+    urn: urn:iso:std:iso:17301:-1:stage-10.00:cor:1:v1.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0046
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    stage_iteration: '2'
+    year: '2022'
+    stage: npcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/NP Cor 1.2:2022
+    urn: urn:iso:std:iso:17301:-1:stage-10.00:cor:2022:v1.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0047
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    stage_iteration: '2'
+    stage: npcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/NP Cor 2.2
+    urn: urn:iso:std:iso:17301:-1:stage-10.00:cor:2:v1.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0048
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    stage_iteration: '2'
+    year: '2022'
+    stage: npcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/NP Cor 2.2:2022
+    urn: urn:iso:std:iso:17301:-1:stage-10.00:cor:2022:v2.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0049
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    stage_iteration: '2'
+    stage: wd_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/WD Amd 1.2
+    urn: urn:iso:std:iso:17301:-1:stage-20.20:amd:1:v1.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0050
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    stage_iteration: '2'
+    year: '2022'
+    stage: wd_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/WD Amd 1.2:2022
+    urn: urn:iso:std:iso:17301:-1:stage-20.20:amd:2022:v1.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0051
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    stage_iteration: '2'
+    stage: wd_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/WD Amd 2.2
+    urn: urn:iso:std:iso:17301:-1:stage-20.20:amd:2:v1.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0052
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    stage_iteration: '2'
+    year: '2022'
+    stage: wd_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/WD Amd 2.2:2022
+    urn: urn:iso:std:iso:17301:-1:stage-20.20:amd:2022:v2.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0053
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    stage_iteration: '2'
+    stage: wdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/WD Cor 1.2
+    urn: urn:iso:std:iso:17301:-1:stage-20.20:cor:1:v1.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0054
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    stage_iteration: '2'
+    year: '2022'
+    stage: wdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/WD Cor 1.2:2022
+    urn: urn:iso:std:iso:17301:-1:stage-20.20:cor:2022:v1.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0055
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    stage_iteration: '2'
+    stage: wdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/WD Cor 2.2
+    urn: urn:iso:std:iso:17301:-1:stage-20.20:cor:2:v1.2
+  style: v3
+- id: iso.iso-pubid-supplement-iteration.0056
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    stage_iteration: '2'
+    year: '2022'
+    stage: wdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/WD Cor 2.2:2022
+    urn: urn:iso:std:iso:17301:-1:stage-20.20:cor:2022:v2.2
+  style: v3

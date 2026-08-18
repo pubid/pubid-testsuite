@@ -1,0 +1,3974 @@
+---
+- id: iec.corrigendum.0001
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2006'
+    publisher: CISPR
+    base:
+      _type: pubid:iec:international-standard
+      number: '16'
+      part: '1'
+      subpart: '3'
+      year: '2004'
+      publisher: CISPR
+  representations:
+    human: CISPR 16-1-3:2004/COR1:2006
+    urn: urn:iec:std:cispr:16-1-3:2004:::::cor:1:2006
+  style: v3
+- id: iec.corrigendum.0002
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2020'
+    publisher: CISPR
+    base:
+      _type: pubid:iec:international-standard
+      number: '16'
+      part: '1'
+      subpart: '5'
+      year: '2014'
+      publisher: CISPR
+  representations:
+    human: CISPR 16-1-5:2014/COR1:2020
+    urn: urn:iec:std:cispr:16-1-5:2014:::::cor:1:2020
+  style: v3
+- id: iec.corrigendum.0003
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2020'
+    publisher: CISPR
+    base:
+      _type: pubid:iec:international-standard
+      number: '16'
+      part: '2'
+      subpart: '1'
+      year: '2014'
+      publisher: CISPR
+  representations:
+    human: CISPR 16-2-1:2014/COR1:2020
+    urn: urn:iec:std:cispr:16-2-1:2014:::::cor:1:2020
+  style: v3
+- id: iec.corrigendum.0004
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2019'
+    publisher: CISPR
+    base:
+      _type: pubid:iec:amendment
+      number: '2'
+      year: '2018'
+      publisher: CISPR
+      base:
+        _type: pubid:iec:international-standard
+        number: '16'
+        part: '4'
+        subpart: '2'
+        year: '2011'
+        publisher: CISPR
+  representations:
+    human: CISPR 16-4-2:2011/AMD2:2018/COR1:2019
+    urn: urn:iec:std:cispr:16-4-2:2011:::::amd:2:2018::cor:1:2019
+  style: v3
+- id: iec.corrigendum.0005
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2013'
+    publisher: CISPR
+    base:
+      _type: pubid:iec:international-standard
+      number: '16'
+      part: '4'
+      subpart: '2'
+      year: '2011'
+      publisher: CISPR
+  representations:
+    human: CISPR 16-4-2:2011/COR1:2013
+    urn: urn:iec:std:cispr:16-4-2:2011:::::cor:1:2013
+  style: v3
+- id: iec.corrigendum.0006
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2011'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60050'
+      part: '113'
+      year: '2011'
+  representations:
+    human: IEC 60050-113:2011/COR1:2011
+    urn: urn:iec:std:iec:60050-113:2011:::::cor:1:2011
+  style: v3
+- id: iec.corrigendum.0007
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2011'
+    edition:
+      number: '1'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60050'
+      part: '113'
+      year: '2011'
+  representations:
+    human: IEC 60050-113:2011/COR1:2011 ED1
+    urn: urn:iec:std:iec:60050-113:2011:::::cor:1:2011
+  style: v3
+- id: iec.corrigendum.0008
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '1999'
+    edition:
+      number: '2'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60050'
+      part: '351'
+      year: '1998'
+  representations:
+    human: IEC 60050-351:1998/COR1:1999 ED2
+    urn: urn:iec:std:iec:60050-351:1998:::::cor:1:1999
+  style: v3
+- id: iec.corrigendum.0009
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '1992'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60050'
+      part: '702'
+      year: '1992'
+  representations:
+    human: IEC 60050-702:1992/COR1:1992
+    urn: urn:iec:std:iec:60050-702:1992:::::cor:1:1992
+  style: v3
+- id: iec.corrigendum.0010
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '1994'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60050'
+      part: '702'
+      year: '1992'
+  representations:
+    human: IEC 60050-702:1992/COR2:1994
+    urn: urn:iec:std:iec:60050-702:1992:::::cor:2:1994
+  style: v3
+- id: iec.corrigendum.0011
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '1992'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60050'
+      part: '731'
+      year: '1991'
+  representations:
+    human: IEC 60050-731:1991/COR1:1992
+    urn: urn:iec:std:iec:60050-731:1991:::::cor:1:1992
+  style: v3
+- id: iec.corrigendum.0012
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '1995'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60094'
+      part: '2'
+      year: '1994'
+  representations:
+    human: IEC 60094-2:1994/COR1:1995
+    urn: urn:iec:std:iec:60094-2:1994:::::cor:1:1995
+  style: v3
+- id: iec.corrigendum.0013
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '1991'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60268'
+      part: '17'
+      year: '1990'
+  representations:
+    human: IEC 60268-17:1990/COR1:1991
+    urn: urn:iec:std:iec:60268-17:1990:::::cor:1:1991
+  style: v3
+- id: iec.corrigendum.0014
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2012'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60268'
+      part: '7'
+      year: '2010'
+  representations:
+    human: IEC 60268-7:2010/COR1:2012
+    urn: urn:iec:std:iec:60268-7:2010:::::cor:1:2012
+  style: v3
+- id: iec.corrigendum.0015
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2006'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '60287'
+          part: '1'
+          subpart: '1'
+          year: '1994'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '1995'
+        - _type: pubid:iec:amendment
+          number: '2'
+          year: '2001'
+      vap:
+      - CSV
+  representations:
+    human: IEC 60287-1-1:1994+AMD1:1995+AMD2:2001 CSV/COR1:2006
+    urn: urn:iec:std:iec:60287-1-1:1994::csv::plus:amd:1:1995:plus:amd:2:2001::cor:1:2006
+  style: v3
+- id: iec.corrigendum.0016
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '1997'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60315'
+      part: '1'
+      year: '1988'
+  representations:
+    human: IEC 60315-1:1988/COR1:1997
+    urn: urn:iec:std:iec:60315-1:1988:::::cor:1:1997
+  style: v3
+- id: iec.corrigendum.0017
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '1994'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60315'
+      part: '3'
+      year: '1989'
+  representations:
+    human: IEC 60315-3:1989/COR1:1994
+    urn: urn:iec:std:iec:60315-3:1989:::::cor:1:1994
+  style: v3
+- id: iec.corrigendum.0018
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '1997'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60315'
+      part: '6'
+      year: '1991'
+  representations:
+    human: IEC 60315-6:1991/COR1:1997
+    urn: urn:iec:std:iec:60315-6:1991:::::cor:1:1997
+  style: v3
+- id: iec.corrigendum.0019
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2005'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '60335'
+          part: '1'
+          year: '2001'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '2004'
+      vap:
+      - CSV
+  representations:
+    human: IEC 60335-1:2001+AMD1:2004 CSV/COR1:2005
+    urn: urn:iec:std:iec:60335-1:2001::csv::plus:amd:1:2004::cor:1:2005
+  style: v3
+- id: iec.corrigendum.0020
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2014'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '60335'
+          part: '1'
+          year: '2010'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '2013'
+      vap:
+      - CSV
+  representations:
+    human: IEC 60335-1:2010+AMD1:2013 CSV/COR1:2014
+    urn: urn:iec:std:iec:60335-1:2010::csv::plus:amd:1:2013::cor:1:2014
+  style: v3
+- id: iec.corrigendum.0021
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2006'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '60335'
+          part: '2'
+          subpart: '13'
+          year: '2002'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '2004'
+      vap:
+      - CSV
+  representations:
+    human: IEC 60335-2-13:2002+AMD1:2004 CSV/COR1:2006
+    urn: urn:iec:std:iec:60335-2-13:2002::csv::plus:amd:1:2004::cor:1:2006
+  style: v3
+- id: iec.corrigendum.0022
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2015'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '60335'
+          part: '2'
+          subpart: '27'
+          year: '2009'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '2012'
+        - _type: pubid:iec:amendment
+          number: '2'
+          year: '2015'
+      vap:
+      - CSV
+  representations:
+    human: IEC 60335-2-27:2009+AMD1:2012+AMD2:2015 CSV/COR1:2015
+    urn: urn:iec:std:iec:60335-2-27:2009::csv::plus:amd:1:2012:plus:amd:2:2015::cor:1:2015
+  style: v3
+- id: iec.corrigendum.0023
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2007'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '60335'
+          part: '2'
+          subpart: '35'
+          year: '2002'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '2006'
+      vap:
+      - CSV
+  representations:
+    human: IEC 60335-2-35:2002+AMD1:2006 CSV/COR1:2007
+    urn: urn:iec:std:iec:60335-2-35:2002::csv::plus:amd:1:2006::cor:1:2007
+  style: v3
+- id: iec.corrigendum.0024
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2012'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '60335'
+          part: '2'
+          subpart: '7'
+          year: '2008'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '2011'
+      vap:
+      - CSV
+  representations:
+    human: IEC 60335-2-7:2008+AMD1:2011 CSV/COR1:2012
+    urn: urn:iec:std:iec:60335-2-7:2008::csv::plus:amd:1:2011::cor:1:2012
+  style: v3
+- id: iec.corrigendum.0025
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2013'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '60335'
+          part: '2'
+          subpart: '9'
+          year: '2008'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '2012'
+      vap:
+      - CSV
+  representations:
+    human: IEC 60335-2-9:2008+AMD1:2012 CSV/COR1:2013
+    urn: urn:iec:std:iec:60335-2-9:2008::csv::plus:amd:1:2012::cor:1:2013
+  style: v3
+- id: iec.corrigendum.0026
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2018'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '60364'
+          part: '4'
+          subpart: '41'
+          year: '2005'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '2017'
+      vap:
+      - CSV
+  representations:
+    human: IEC 60364-4-41:2005+AMD1:2017 CSV/COR1:2018
+    urn: urn:iec:std:iec:60364-4-41:2005::csv::plus:amd:1:2017::cor:1:2018
+  style: v3
+- id: iec.corrigendum.0027
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2003'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '60529'
+          year: '1989'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '1999'
+      vap:
+      - CSV
+  representations:
+    human: IEC 60529:1989+AMD1:1999 CSV/COR1:2003
+    urn: urn:iec:std:iec:60529:1989::csv::plus:amd:1:1999::cor:1:2003
+  style: v3
+- id: iec.corrigendum.0028
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2007'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '60529'
+          year: '1989'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '1999'
+      vap:
+      - CSV
+  representations:
+    human: IEC 60529:1989+AMD1:1999 CSV/COR2:2007
+    urn: urn:iec:std:iec:60529:1989::csv::plus:amd:1:1999::cor:2:2007
+  style: v3
+- id: iec.corrigendum.0029
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '3'
+    year: '2009'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '60529'
+          year: '1989'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '1999'
+      vap:
+      - CSV
+  representations:
+    human: IEC 60529:1989+AMD1:1999 CSV/COR3:2009
+    urn: urn:iec:std:iec:60529:1989::csv::plus:amd:1:1999::cor:3:2009
+  style: v3
+- id: iec.corrigendum.0030
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2013'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '60529'
+          year: '1989'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '1999'
+        - _type: pubid:iec:amendment
+          number: '2'
+          year: '2013'
+      vap:
+      - CSV
+  representations:
+    human: IEC 60529:1989+AMD1:1999+AMD2:2013 CSV/COR1:2013
+    urn: urn:iec:std:iec:60529:1989::csv::plus:amd:1:1999:plus:amd:2:2013::cor:1:2013
+  style: v3
+- id: iec.corrigendum.0031
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2015'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '60529'
+          year: '1989'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '1999'
+        - _type: pubid:iec:amendment
+          number: '2'
+          year: '2013'
+      vap:
+      - CSV
+  representations:
+    human: IEC 60529:1989+AMD1:1999+AMD2:2013 CSV/COR2:2015
+    urn: urn:iec:std:iec:60529:1989::csv::plus:amd:1:1999:plus:amd:2:2013::cor:2:2015
+  style: v3
+- id: iec.corrigendum.0032
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2012'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '60601'
+          part: '1'
+          year: '2005'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '2012'
+      vap:
+      - CSV
+  representations:
+    human: IEC 60601-1:2005+AMD1:2012 CSV/COR1:2012
+    urn: urn:iec:std:iec:60601-1:2005::csv::plus:amd:1:2012::cor:1:2012
+  style: v3
+- id: iec.corrigendum.0033
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2002'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '60664'
+          part: '1'
+          year: '1992'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '2000'
+        - _type: pubid:iec:amendment
+          number: '2'
+          year: '2002'
+      vap:
+      - CSV
+  representations:
+    human: IEC 60664-1:1992+AMD1:2000+AMD2:2002 CSV/COR1:2002
+    urn: urn:iec:std:iec:60664-1:1992::csv::plus:amd:1:2000:plus:amd:2:2002::cor:1:2002
+  style: v3
+- id: iec.corrigendum.0034
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2008'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '60721'
+          part: '3'
+          subpart: '3'
+          year: '1994'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '1995'
+        - _type: pubid:iec:amendment
+          number: '2'
+          year: '1996'
+      vap:
+      - CSV
+  representations:
+    human: IEC 60721-3-3:1994+AMD1:1995+AMD2:1996 CSV/COR1:2008
+    urn: urn:iec:std:iec:60721-3-3:1994::csv::plus:amd:1:1995:plus:amd:2:1996::cor:1:2008
+  style: v3
+- id: iec.corrigendum.0035
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2018'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60728'
+      part: '113'
+      year: '2018'
+  representations:
+    human: IEC 60728-113:2018/COR1:2018
+    urn: urn:iec:std:iec:60728-113:2018:::::cor:1:2018
+  style: v3
+- id: iec.corrigendum.0036
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2016'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60728'
+      part: '11'
+      year: '2016'
+  representations:
+    human: IEC 60728-11:2016/COR1:2016
+    urn: urn:iec:std:iec:60728-11:2016:::::cor:1:2016
+  style: v3
+- id: iec.corrigendum.0037
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2017'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60728'
+      part: '13'
+      subpart: '1'
+      year: '2017'
+  representations:
+    human: IEC 60728-13-1:2017/COR1:2017
+    urn: urn:iec:std:iec:60728-13-1:2017:::::cor:1:2017
+  style: v3
+- id: iec.corrigendum.0038
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2010'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60728'
+      part: '13'
+      year: '2010'
+  representations:
+    human: IEC 60728-13:2010/COR1:2010
+    urn: urn:iec:std:iec:60728-13:2010:::::cor:1:2010
+  style: v3
+- id: iec.corrigendum.0039
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2022'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '60730'
+          part: '2'
+          subpart: '8'
+          year: '2018'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '2021'
+      vap:
+      - CSV
+  representations:
+    human: IEC 60730-2-8:2018+AMD1:2021 CSV/COR1:2022
+    urn: urn:iec:std:iec:60730-2-8:2018::csv::plus:amd:1:2021::cor:1:2022
+  style: v3
+- id: iec.corrigendum.0040
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2002'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '60947'
+          part: '1'
+          year: '1999'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '2000'
+        - _type: pubid:iec:amendment
+          number: '2'
+          year: '2001'
+      vap:
+      - CSV
+  representations:
+    human: IEC 60947-1:1999+AMD1:2000+AMD2:2001 CSV/COR1:2002
+    urn: urn:iec:std:iec:60947-1:1999::csv::plus:amd:1:2000:plus:amd:2:2001::cor:1:2002
+  style: v3
+- id: iec.corrigendum.0041
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2019'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '60947'
+          part: '2'
+          year: '2016'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '2019'
+      vap:
+      - CSV
+  representations:
+    human: IEC 60947-2:2016+AMD1:2019 CSV/COR1:2019
+    urn: urn:iec:std:iec:60947-2:2016::csv::plus:amd:1:2019::cor:1:2019
+  style: v3
+- id: iec.corrigendum.0042
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2012'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '60947'
+          part: '3'
+          year: '2008'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '2012'
+      vap:
+      - CSV
+  representations:
+    human: IEC 60947-3:2008+AMD1:2012 CSV/COR1:2012
+    urn: urn:iec:std:iec:60947-3:2008::csv::plus:amd:1:2012::cor:1:2012
+  style: v3
+- id: iec.corrigendum.0043
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2009'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '61000'
+          part: '3'
+          subpart: '2'
+          year: '2005'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '2008'
+        - _type: pubid:iec:amendment
+          number: '2'
+          year: '2009'
+      vap:
+      - CSV
+  representations:
+    human: IEC 61000-3-2:2005+AMD1:2008+AMD2:2009 CSV/COR1:2009
+    urn: urn:iec:std:iec:61000-3-2:2005::csv::plus:amd:1:2008:plus:amd:2:2009::cor:1:2009
+  style: v3
+- id: iec.corrigendum.0044
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2012'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '61009'
+          part: '1'
+          year: '2010'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '2012'
+      vap:
+      - CSV
+  representations:
+    human: IEC 61009-1:2010+AMD1:2012 CSV/COR1:2012
+    urn: urn:iec:std:iec:61009-1:2010::csv::plus:amd:1:2012::cor:1:2012
+  style: v3
+- id: iec.corrigendum.0045
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2018'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '61010'
+          part: '031'
+          year: '2015'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '2018'
+      vap:
+      - CSV
+  representations:
+    human: IEC 61010-031:2015+AMD1:2018 CSV/COR1:2018
+    urn: urn:iec:std:iec:61010-031:2015::csv::plus:amd:1:2018::cor:1:2018
+  style: v3
+- id: iec.corrigendum.0046
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2014'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61158'
+      part: '4'
+      subpart: '7'
+      year: '2007'
+  representations:
+    human: IEC 61158-4-7:2007/COR1:2014
+    urn: urn:iec:std:iec:61158-4-7:2007:::::cor:1:2014
+  style: v3
+- id: iec.corrigendum.0047
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '1995'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61237'
+      part: '3'
+      year: '1995'
+  representations:
+    human: IEC 61237-3:1995/COR1:1995
+    urn: urn:iec:std:iec:61237-3:1995:::::cor:1:1995
+  style: v3
+- id: iec.corrigendum.0048
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2011'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61300'
+      part: '2'
+      subpart: '12'
+      year: '2009'
+  representations:
+    human: IEC 61300-2-12:2009/COR1:2011
+    urn: urn:iec:std:iec:61300-2-12:2009:::::cor:1:2011
+  style: v3
+- id: iec.corrigendum.0049
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2020'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61300'
+      part: '2'
+      subpart: '19'
+      year: '2012'
+  representations:
+    human: IEC 61300-2-19:2012/COR1:2020
+    urn: urn:iec:std:iec:61300-2-19:2012:::::cor:1:2020
+  style: v3
+- id: iec.corrigendum.0050
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2010'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61300'
+      part: '2'
+      subpart: '1'
+      year: '2009'
+  representations:
+    human: IEC 61300-2-1:2009/COR1:2010
+    urn: urn:iec:std:iec:61300-2-1:2009:::::cor:1:2010
+  style: v3
+- id: iec.corrigendum.0051
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2013'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61300'
+      part: '2'
+      subpart: '28'
+      year: '2013'
+  representations:
+    human: IEC 61300-2-28:2013/COR1:2013
+    urn: urn:iec:std:iec:61300-2-28:2013:::::cor:1:2013
+  style: v3
+- id: iec.corrigendum.0052
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2022'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61300'
+      part: '2'
+      subpart: '46'
+      year: '2019'
+  representations:
+    human: IEC 61300-2-46:2019/COR1:2022
+    urn: urn:iec:std:iec:61300-2-46:2019:::::cor:1:2022
+  style: v3
+- id: iec.corrigendum.0053
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2015'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61300'
+      part: '2'
+      subpart: '50'
+      year: '2007'
+  representations:
+    human: IEC 61300-2-50:2007/COR1:2015
+    urn: urn:iec:std:iec:61300-2-50:2007:::::cor:1:2015
+  style: v3
+- id: iec.corrigendum.0054
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2015'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61300'
+      part: '2'
+      subpart: '51'
+      year: '2007'
+  representations:
+    human: IEC 61300-2-51:2007/COR1:2015
+    urn: urn:iec:std:iec:61300-2-51:2007:::::cor:1:2015
+  style: v3
+- id: iec.corrigendum.0055
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2015'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61300'
+      part: '3'
+      subpart: '50'
+      year: '2013'
+  representations:
+    human: IEC 61300-3-50:2013/COR1:2015
+    urn: urn:iec:std:iec:61300-3-50:2013:::::cor:1:2015
+  style: v3
+- id: iec.corrigendum.0056
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2015'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61300'
+      part: '3'
+      subpart: '50'
+      year: '2013'
+  representations:
+    human: IEC 61300-3-50:2013/COR2:2015
+    urn: urn:iec:std:iec:61300-3-50:2013:::::cor:2:2015
+  style: v3
+- id: iec.corrigendum.0057
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2016'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '61400'
+          part: '1'
+          year: '2005'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '2010'
+      vap:
+      - CSV
+  representations:
+    human: IEC 61400-1:2005+AMD1:2010 CSV/COR1:2016
+    urn: urn:iec:std:iec:61400-1:2005::csv::plus:amd:1:2010::cor:1:2016
+  style: v3
+- id: iec.corrigendum.0058
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2002'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '61481'
+          year: '2001'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '2002'
+      vap:
+      - CSV
+  representations:
+    human: IEC 61481:2001+AMD1:2002 CSV/COR1:2002
+    urn: urn:iec:std:iec:61481:2001::csv::plus:amd:1:2002::cor:1:2002
+  style: v3
+- id: iec.corrigendum.0059
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '1997'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61603'
+      part: '1'
+      year: '1997'
+  representations:
+    human: IEC 61603-1:1997/COR1:1997
+    urn: urn:iec:std:iec:61603-1:1997:::::cor:1:1997
+  style: v3
+- id: iec.corrigendum.0060
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2003'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '61643'
+          part: '1'
+          year: '1998'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '2001'
+      vap:
+      - CSV
+  representations:
+    human: IEC 61643-1:1998+AMD1:2001 CSV/COR1:2003
+    urn: urn:iec:std:iec:61643-1:1998::csv::plus:amd:1:2001::cor:1:2003
+  style: v3
+- id: iec.corrigendum.0061
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2008'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61753'
+      part: '084'
+      subpart: '2'
+      year: '2007'
+  representations:
+    human: IEC 61753-084-2:2007/COR1:2008
+    urn: urn:iec:std:iec:61753-084-2:2007:::::cor:1:2008
+  style: v3
+- id: iec.corrigendum.0062
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2019'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61753'
+      part: '1'
+      year: '2018'
+  representations:
+    human: IEC 61753-1:2018/COR1:2019
+    urn: urn:iec:std:iec:61753-1:2018:::::cor:1:2019
+  style: v3
+- id: iec.corrigendum.0063
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2014'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61754'
+      part: '15'
+      year: '2009'
+  representations:
+    human: IEC 61754-15:2009/COR1:2014
+    urn: urn:iec:std:iec:61754-15:2009:::::cor:1:2014
+  style: v3
+- id: iec.corrigendum.0064
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2009'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61755'
+      part: '3'
+      subpart: '1'
+      year: '2006'
+  representations:
+    human: IEC 61755-3-1:2006/COR1:2009
+    urn: urn:iec:std:iec:61755-3-1:2006:::::cor:1:2009
+  style: v3
+- id: iec.corrigendum.0065
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2009'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61755'
+      part: '3'
+      subpart: '2'
+      year: '2006'
+  representations:
+    human: IEC 61755-3-2:2006/COR1:2009
+    urn: urn:iec:std:iec:61755-3-2:2006:::::cor:1:2009
+  style: v3
+- id: iec.corrigendum.0066
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2001'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61834'
+      part: '10'
+      year: '2001'
+  representations:
+    human: IEC 61834-10:2001/COR1:2001
+    urn: urn:iec:std:iec:61834-10:2001:::::cor:1:2001
+  style: v3
+- id: iec.corrigendum.0067
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2004'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61937'
+      part: '4'
+      year: '2003'
+  representations:
+    human: IEC 61937-4:2003/COR1:2004
+    urn: urn:iec:std:iec:61937-4:2003:::::cor:1:2004
+  style: v3
+- id: iec.corrigendum.0068
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2014'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61966'
+      part: '2'
+      subpart: '1'
+      year: '1999'
+  representations:
+    human: IEC 61966-2-1:1999/COR1:2014
+    urn: urn:iec:std:iec:61966-2-1:1999:::::cor:1:2014
+  style: v3
+- id: iec.corrigendum.0069
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2003'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61966'
+      part: '2'
+      subpart: '2'
+      year: '2003'
+  representations:
+    human: IEC 61966-2-2:2003/COR1:2003
+    urn: urn:iec:std:iec:61966-2-2:2003:::::cor:1:2003
+  style: v3
+- id: iec.corrigendum.0070
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2006'
+    base:
+      _type: pubid:iec:international-standard
+      number: '61966'
+      part: '2'
+      subpart: '4'
+      year: '2006'
+  representations:
+    human: IEC 61966-2-4:2006/COR1:2006
+    urn: urn:iec:std:iec:61966-2-4:2006:::::cor:1:2006
+  style: v3
+- id: iec.corrigendum.0071
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2008'
+    base:
+      _type: pubid:iec:international-standard
+      number: '62002'
+      part: '1'
+      year: '2008'
+  representations:
+    human: IEC 62002-1:2008/COR1:2008
+    urn: urn:iec:std:iec:62002-1:2008:::::cor:1:2008
+  style: v3
+- id: iec.corrigendum.0072
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2012'
+    base:
+      _type: pubid:iec:international-standard
+      number: '62023'
+      year: '2011'
+  representations:
+    human: IEC 62023:2011/COR1:2012
+    urn: urn:iec:std:iec:62023:2011:::::cor:1:2012
+  style: v3
+- id: iec.corrigendum.0073
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2015'
+    base:
+      _type: pubid:iec:vap-identifier
+      base:
+        _type: pubid:iec:consolidated-identifier
+        identifiers:
+        - _type: pubid:iec:international-standard
+          number: '62061'
+          year: '2005'
+        - _type: pubid:iec:amendment
+          number: '1'
+          year: '2012'
+        - _type: pubid:iec:amendment
+          number: '2'
+          year: '2015'
+      vap:
+      - CSV
+  representations:
+    human: IEC 62061:2005+AMD1:2012+AMD2:2015 CSV/COR1:2015
+    urn: urn:iec:std:iec:62061:2005::csv::plus:amd:1:2012:plus:amd:2:2015::cor:1:2015
+  style: v3
+- id: iec.corrigendum.0074
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2015'
+    base:
+      _type: pubid:iec:international-standard
+      number: '62439'
+      part: '7'
+      year: '2011'
+  representations:
+    human: IEC 62439-7:2011/COR1:2015
+    urn: urn:iec:std:iec:62439-7:2011:::::cor:1:2015
+  style: v3
+- id: iec.corrigendum.0075
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2015'
+    base:
+      _type: pubid:iec:international-standard
+      number: '62443'
+      part: '2'
+      subpart: '4'
+      year: '2015'
+  representations:
+    human: IEC 62443-2-4:2015/COR1:2015
+    urn: urn:iec:std:iec:62443-2-4:2015:::::cor:1:2015
+  style: v3
+- id: iec.corrigendum.0076
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2014'
+    base:
+      _type: pubid:iec:international-standard
+      number: '62443'
+      part: '3'
+      subpart: '3'
+      year: '2013'
+  representations:
+    human: IEC 62443-3-3:2013/COR1:2014
+    urn: urn:iec:std:iec:62443-3-3:2013:::::cor:1:2014
+  style: v3
+- id: iec.corrigendum.0077
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2015'
+    base:
+      _type: pubid:iec:international-standard
+      number: '62459'
+      year: '2010'
+  representations:
+    human: IEC 62459:2010/COR1:2015
+    urn: urn:iec:std:iec:62459:2010:::::cor:1:2015
+  style: v3
+- id: iec.corrigendum.0078
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2021'
+    base:
+      _type: pubid:iec:international-standard
+      number: '62591'
+      year: '2016'
+  representations:
+    human: IEC 62591:2016/COR1:2021
+    urn: urn:iec:std:iec:62591:2016:::::cor:1:2021
+  style: v3
+- id: iec.corrigendum.0079
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2021'
+    base:
+      _type: pubid:iec:international-standard
+      number: '62601'
+      year: '2015'
+  representations:
+    human: IEC 62601:2015/COR1:2021
+    urn: urn:iec:std:iec:62601:2015:::::cor:1:2021
+  style: v3
+- id: iec.corrigendum.0080
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2018'
+    base:
+      _type: pubid:iec:international-standard
+      number: '62702'
+      part: '1'
+      subpart: '1'
+      year: '2016'
+  representations:
+    human: IEC 62702-1-1:2016/COR1:2018
+    urn: urn:iec:std:iec:62702-1-1:2016:::::cor:1:2018
+  style: v3
+- id: iec.corrigendum.0081
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2019'
+    base:
+      _type: pubid:iec:international-standard
+      number: '62881'
+      year: '2018'
+  representations:
+    human: IEC 62881:2018/COR1:2019
+    urn: urn:iec:std:iec:62881:2018:::::cor:1:2019
+  style: v3
+- id: iec.corrigendum.0082
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2021'
+    base:
+      _type: pubid:iec:international-standard
+      number: '62948'
+      year: '2017'
+  representations:
+    human: IEC 62948:2017/COR1:2021
+    urn: urn:iec:std:iec:62948:2017:::::cor:1:2021
+  style: v3
+- id: iec.corrigendum.0083
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2018'
+    base:
+      _type: pubid:iec:international-standard
+      number: '63029'
+      year: '2017'
+  representations:
+    human: IEC 63029:2017/COR1:2018
+    urn: urn:iec:std:iec:63029:2017:::::cor:1:2018
+  style: v3
+- id: iec.corrigendum.0084
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2014'
+    base:
+      _type: pubid:iec:international-standard
+      number: '82045'
+      part: '2'
+      year: '2004'
+  representations:
+    human: IEC 82045-2:2004/COR1:2014
+    urn: urn:iec:std:iec:82045-2:2004:::::cor:1:2014
+  style: v3
+- id: iec.corrigendum.0085
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2008'
+    base:
+      _type: pubid:iec:technical-report
+      number: '61602'
+      year: '1996'
+  representations:
+    human: IEC TR 61602:1996/COR1:2008
+    urn: urn:iec:std:iec:61602:1996:tr::::cor:1:2008
+  style: v3
+- id: iec.corrigendum.0086
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2005'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '10918'
+      part: '1'
+      year: '1994'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 10918-1:1994/COR1:2005
+    urn: urn:iec:std:iso-iec:10918-1:1994:::::cor:1:2005
+  style: v3
+- id: iec.corrigendum.0087
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '1996'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '11172'
+      part: '1'
+      year: '1993'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 11172-1:1993/COR1:1996
+    urn: urn:iec:std:iso-iec:11172-1:1993:::::cor:1:1996
+  style: v3
+- id: iec.corrigendum.0088
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '1999'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '11172'
+      part: '1'
+      year: '1993'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 11172-1:1993/COR2:1999
+    urn: urn:iec:std:iso-iec:11172-1:1993:::::cor:2:1999
+  style: v3
+- id: iec.corrigendum.0089
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '1996'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '11172'
+      part: '2'
+      year: '1993'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 11172-2:1993/COR1:1996
+    urn: urn:iec:std:iso-iec:11172-2:1993:::::cor:1:1996
+  style: v3
+- id: iec.corrigendum.0090
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '1999'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '11172'
+      part: '2'
+      year: '1993'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 11172-2:1993/COR2:1999
+    urn: urn:iec:std:iso-iec:11172-2:1993:::::cor:2:1999
+  style: v3
+- id: iec.corrigendum.0091
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '3'
+    year: '2003'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '11172'
+      part: '2'
+      year: '1993'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 11172-2:1993/COR3:2003
+    urn: urn:iec:std:iso-iec:11172-2:1993:::::cor:3:2003
+  style: v3
+- id: iec.corrigendum.0092
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '4'
+    year: '2006'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '11172'
+      part: '2'
+      year: '1993'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 11172-2:1993/COR4:2006
+    urn: urn:iec:std:iso-iec:11172-2:1993:::::cor:4:2006
+  style: v3
+- id: iec.corrigendum.0093
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '1996'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '11172'
+      part: '3'
+      year: '1993'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 11172-3:1993/COR1:1996
+    urn: urn:iec:std:iso-iec:11172-3:1993:::::cor:1:1996
+  style: v3
+- id: iec.corrigendum.0094
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2007'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '11172'
+      part: '4'
+      year: '1995'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 11172-4:1995/COR1:2007
+    urn: urn:iec:std:iso-iec:11172-4:1995:::::cor:1:2007
+  style: v3
+- id: iec.corrigendum.0095
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '1995'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '11544'
+      year: '1993'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 11544:1993/COR1:1995
+    urn: urn:iec:std:iso-iec:11544:1993:::::cor:1:1995
+  style: v3
+- id: iec.corrigendum.0096
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2001'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '11544'
+      year: '1993'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 11544:1993/COR2:2001
+    urn: urn:iec:std:iso-iec:11544:1993:::::cor:2:2001
+  style: v3
+- id: iec.corrigendum.0097
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '1999'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '13522'
+      part: '5'
+      year: '1997'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 13522-5:1997/COR1:1999
+    urn: urn:iec:std:iso-iec:13522-5:1997:::::cor:1:1999
+  style: v3
+- id: iec.corrigendum.0098
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2020'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '13818'
+      part: '1'
+      year: '2019'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 13818-1:2019/COR1:2020
+    urn: urn:iec:std:iso-iec:13818-1:2019:::::cor:1:2020
+  style: v3
+- id: iec.corrigendum.0099
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2007'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '2'
+      year: '2005'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '13818'
+        part: '4'
+        year: '2004'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 13818-4:2004/AMD2:2005/COR1:2007
+    urn: urn:iec:std:iso-iec:13818-4:2004:::::amd:2:2005::cor:1:2007
+  style: v3
+- id: iec.corrigendum.0100
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2009'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '2'
+      year: '2005'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '13818'
+        part: '4'
+        year: '2004'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 13818-4:2004/AMD2:2005/COR2:2009
+    urn: urn:iec:std:iso-iec:13818-4:2004:::::amd:2:2005::cor:2:2009
+  style: v3
+- id: iec.corrigendum.0101
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2007'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '13818'
+      part: '4'
+      year: '2004'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 13818-4:2004/COR1:2007
+    urn: urn:iec:std:iso-iec:13818-4:2004:::::cor:1:2007
+  style: v3
+- id: iec.corrigendum.0102
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2011'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '13818'
+      part: '4'
+      year: '2004'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 13818-4:2004/COR2:2011
+    urn: urn:iec:std:iso-iec:13818-4:2004:::::cor:2:2011
+  style: v3
+- id: iec.corrigendum.0103
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '3'
+    year: '2012'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '13818'
+      part: '4'
+      year: '2004'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 13818-4:2004/COR3:2012
+    urn: urn:iec:std:iso-iec:13818-4:2004:::::cor:3:2012
+  style: v3
+- id: iec.corrigendum.0104
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2002'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '1'
+      year: '2000'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '13818'
+        part: '6'
+        year: '1998'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 13818-6:1998/AMD1:2000/COR1:2002
+    urn: urn:iec:std:iso-iec:13818-6:1998:::::amd:1:2000::cor:1:2002
+  style: v3
+- id: iec.corrigendum.0105
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '1999'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '13818'
+      part: '6'
+      year: '1998'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 13818-6:1998/COR1:1999
+    urn: urn:iec:std:iso-iec:13818-6:1998:::::cor:1:1999
+  style: v3
+- id: iec.corrigendum.0106
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2002'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '13818'
+      part: '6'
+      year: '1998'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 13818-6:1998/COR2:2002
+    urn: urn:iec:std:iso-iec:13818-6:1998:::::cor:2:2002
+  style: v3
+- id: iec.corrigendum.0107
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2009'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '13818'
+      part: '7'
+      year: '2006'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 13818-7:2006/COR1:2009
+    urn: urn:iec:std:iso-iec:13818-7:2006:::::cor:1:2009
+  style: v3
+- id: iec.corrigendum.0108
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2010'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '13818'
+      part: '7'
+      year: '2006'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 13818-7:2006/COR2:2010
+    urn: urn:iec:std:iso-iec:13818-7:2006:::::cor:2:2010
+  style: v3
+- id: iec.corrigendum.0109
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2015'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '14496'
+      part: '16'
+      year: '2011'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-16:2011/COR1:2015
+    urn: urn:iec:std:iso-iec:14496-16:2011:::::cor:1:2015
+  style: v3
+- id: iec.corrigendum.0110
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2007'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '14496'
+      part: '18'
+      year: '2004'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-18:2004/COR1:2007
+    urn: urn:iec:std:iso-iec:14496-18:2004:::::cor:1:2007
+  style: v3
+- id: iec.corrigendum.0111
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2010'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '14496'
+      part: '20'
+      year: '2008'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-20:2008/COR1:2010
+    urn: urn:iec:std:iso-iec:14496-20:2008:::::cor:1:2010
+  style: v3
+- id: iec.corrigendum.0112
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2007'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '14496'
+      part: '21'
+      year: '2006'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-21:2006/COR1:2007
+    urn: urn:iec:std:iso-iec:14496-21:2006:::::cor:1:2007
+  style: v3
+- id: iec.corrigendum.0113
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2011'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '14496'
+      part: '26'
+      year: '2010'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-26:2010/COR2:2011
+    urn: urn:iec:std:iso-iec:14496-26:2010:::::cor:2:2011
+  style: v3
+- id: iec.corrigendum.0114
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '3'
+    year: '2011'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '14496'
+      part: '26'
+      year: '2010'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-26:2010/COR3:2011
+    urn: urn:iec:std:iso-iec:14496-26:2010:::::cor:3:2011
+  style: v3
+- id: iec.corrigendum.0115
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '4'
+    year: '2011'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '14496'
+      part: '26'
+      year: '2010'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-26:2010/COR4:2011
+    urn: urn:iec:std:iso-iec:14496-26:2010:::::cor:4:2011
+  style: v3
+- id: iec.corrigendum.0116
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '5'
+    year: '2012'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '14496'
+      part: '26'
+      year: '2010'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-26:2010/COR5:2012
+    urn: urn:iec:std:iso-iec:14496-26:2010:::::cor:5:2012
+  style: v3
+- id: iec.corrigendum.0117
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '6'
+    year: '2013'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '14496'
+      part: '26'
+      year: '2010'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-26:2010/COR6:2013
+    urn: urn:iec:std:iso-iec:14496-26:2010:::::cor:6:2013
+  style: v3
+- id: iec.corrigendum.0118
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '7'
+    year: '2013'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '14496'
+      part: '26'
+      year: '2010'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-26:2010/COR7:2013
+    urn: urn:iec:std:iso-iec:14496-26:2010:::::cor:7:2013
+  style: v3
+- id: iec.corrigendum.0119
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '8'
+    year: '2015'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '14496'
+      part: '26'
+      year: '2010'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-26:2010/COR8:2015
+    urn: urn:iec:std:iso-iec:14496-26:2010:::::cor:8:2015
+  style: v3
+- id: iec.corrigendum.0120
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2015'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '2'
+      year: '2011'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '14496'
+        part: '27'
+        year: '2009'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 14496-27:2009/AMD2:2011/COR1:2015
+    urn: urn:iec:std:iso-iec:14496-27:2009:::::amd:2:2011::cor:1:2015
+  style: v3
+- id: iec.corrigendum.0121
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2013'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '14496'
+      part: '28'
+      year: '2012'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-28:2012/COR1:2013
+    urn: urn:iec:std:iso-iec:14496-28:2012:::::cor:1:2013
+  style: v3
+- id: iec.corrigendum.0122
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2014'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '14496'
+      part: '28'
+      year: '2012'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-28:2012/COR2:2014
+    urn: urn:iec:std:iso-iec:14496-28:2012:::::cor:2:2014
+  style: v3
+- id: iec.corrigendum.0123
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2008'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '3'
+      year: '2007'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '14496'
+        part: '2'
+        year: '2004'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 14496-2:2004/AMD3:2007/COR1:2008
+    urn: urn:iec:std:iso-iec:14496-2:2004:::::amd:3:2007::cor:1:2008
+  style: v3
+- id: iec.corrigendum.0124
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2004'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '14496'
+      part: '2'
+      year: '2004'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-2:2004/COR1:2004
+    urn: urn:iec:std:iso-iec:14496-2:2004:::::cor:1:2004
+  style: v3
+- id: iec.corrigendum.0125
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2007'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '14496'
+      part: '2'
+      year: '2004'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-2:2004/COR2:2007
+    urn: urn:iec:std:iso-iec:14496-2:2004:::::cor:2:2007
+  style: v3
+- id: iec.corrigendum.0126
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '3'
+    year: '2008'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '14496'
+      part: '2'
+      year: '2004'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-2:2004/COR3:2008
+    urn: urn:iec:std:iso-iec:14496-2:2004:::::cor:3:2008
+  style: v3
+- id: iec.corrigendum.0127
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '4'
+    year: '2010'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '14496'
+      part: '2'
+      year: '2004'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-2:2004/COR4:2010
+    urn: urn:iec:std:iso-iec:14496-2:2004:::::cor:4:2010
+  style: v3
+- id: iec.corrigendum.0128
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '5'
+    year: '2013'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '14496'
+      part: '2'
+      year: '2004'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-2:2004/COR5:2013
+    urn: urn:iec:std:iso-iec:14496-2:2004:::::cor:5:2013
+  style: v3
+- id: iec.corrigendum.0129
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2005'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '1'
+      year: '2005'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '14496'
+        part: '4'
+        year: '2004'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 14496-4:2004/AMD1:2005/COR1:2005
+    urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:1:2005::cor:1:2005
+  style: v3
+- id: iec.corrigendum.0130
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2008'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '1'
+      year: '2005'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '14496'
+        part: '4'
+        year: '2004'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 14496-4:2004/AMD1:2005/COR2:2008
+    urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:1:2005::cor:2:2008
+  style: v3
+- id: iec.corrigendum.0131
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2012'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '38'
+      year: '2010'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '14496'
+        part: '4'
+        year: '2004'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 14496-4:2004/AMD38:2010/COR1:2012
+    urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:38:2010::cor:1:2012
+  style: v3
+- id: iec.corrigendum.0132
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2007'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '6'
+      year: '2005'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '14496'
+        part: '4'
+        year: '2004'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 14496-4:2004/AMD6:2005/COR1:2007
+    urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:6:2005::cor:1:2007
+  style: v3
+- id: iec.corrigendum.0133
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2007'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '9'
+      year: '2006'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '14496'
+        part: '4'
+        year: '2004'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 14496-4:2004/AMD9:2006/COR1:2007
+    urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:9:2006::cor:1:2007
+  style: v3
+- id: iec.corrigendum.0134
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2012'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '9'
+      year: '2006'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '14496'
+        part: '4'
+        year: '2004'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 14496-4:2004/AMD9:2006/COR2:2012
+    urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:9:2006::cor:2:2012
+  style: v3
+- id: iec.corrigendum.0135
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2005'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '14496'
+      part: '4'
+      year: '2004'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-4:2004/COR1:2005
+    urn: urn:iec:std:iso-iec:14496-4:2004:::::cor:1:2005
+  style: v3
+- id: iec.corrigendum.0136
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2007'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '14496'
+      part: '4'
+      year: '2004'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-4:2004/COR2:2007
+    urn: urn:iec:std:iso-iec:14496-4:2004:::::cor:2:2007
+  style: v3
+- id: iec.corrigendum.0137
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '4'
+    year: '2008'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '14496'
+      part: '4'
+      year: '2004'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-4:2004/COR4:2008
+    urn: urn:iec:std:iso-iec:14496-4:2004:::::cor:4:2008
+  style: v3
+- id: iec.corrigendum.0138
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '7'
+    year: '2010'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '14496'
+      part: '4'
+      year: '2004'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-4:2004/COR7:2010
+    urn: urn:iec:std:iso-iec:14496-4:2004:::::cor:7:2010
+  style: v3
+- id: iec.corrigendum.0139
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2008'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '10'
+      year: '2007'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '14496'
+        part: '5'
+        year: '2001'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 14496-5:2001/AMD10:2007/COR1:2008
+    urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:10:2007::cor:1:2008
+  style: v3
+- id: iec.corrigendum.0140
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2008'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '10'
+      year: '2007'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '14496'
+        part: '5'
+        year: '2001'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 14496-5:2001/AMD10:2007/COR2:2008
+    urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:10:2007::cor:2:2008
+  style: v3
+- id: iec.corrigendum.0141
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '3'
+    year: '2009'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '10'
+      year: '2007'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '14496'
+        part: '5'
+        year: '2001'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 14496-5:2001/AMD10:2007/COR3:2009
+    urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:10:2007::cor:3:2009
+  style: v3
+- id: iec.corrigendum.0142
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '4'
+    year: '2010'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '10'
+      year: '2007'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '14496'
+        part: '5'
+        year: '2001'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 14496-5:2001/AMD10:2007/COR4:2010
+    urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:10:2007::cor:4:2010
+  style: v3
+- id: iec.corrigendum.0143
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '5'
+    year: '2011'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '10'
+      year: '2007'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '14496'
+        part: '5'
+        year: '2001'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 14496-5:2001/AMD10:2007/COR5:2011
+    urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:10:2007::cor:5:2011
+  style: v3
+- id: iec.corrigendum.0144
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '6'
+    year: '2012'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '10'
+      year: '2007'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '14496'
+        part: '5'
+        year: '2001'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 14496-5:2001/AMD10:2007/COR6:2012
+    urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:10:2007::cor:6:2012
+  style: v3
+- id: iec.corrigendum.0145
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2010'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '14'
+      year: '2009'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '14496'
+        part: '5'
+        year: '2001'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 14496-5:2001/AMD14:2009/COR1:2010
+    urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:14:2009::cor:1:2010
+  style: v3
+- id: iec.corrigendum.0146
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2008'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '1'
+      year: '2002'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '14496'
+        part: '5'
+        year: '2001'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 14496-5:2001/AMD1:2002/COR1:2008
+    urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:1:2002::cor:1:2008
+  style: v3
+- id: iec.corrigendum.0147
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2012'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '24'
+      year: '2009'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '14496'
+        part: '5'
+        year: '2001'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 14496-5:2001/AMD24:2009/COR1:2012
+    urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:24:2009::cor:1:2012
+  style: v3
+- id: iec.corrigendum.0148
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2013'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '24'
+      year: '2009'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '14496'
+        part: '5'
+        year: '2001'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 14496-5:2001/AMD24:2009/COR2:2013
+    urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:24:2009::cor:2:2013
+  style: v3
+- id: iec.corrigendum.0149
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '3'
+    year: '2017'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '24'
+      year: '2009'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '14496'
+        part: '5'
+        year: '2001'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 14496-5:2001/AMD24:2009/COR3:2017
+    urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:24:2009::cor:3:2017
+  style: v3
+- id: iec.corrigendum.0150
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2015'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '27'
+      year: '2011'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '14496'
+        part: '5'
+        year: '2001'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 14496-5:2001/AMD27:2011/COR1:2015
+    urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:27:2011::cor:1:2015
+  style: v3
+- id: iec.corrigendum.0151
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2011'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '5'
+      year: '2004'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '14496'
+        part: '5'
+        year: '2001'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 14496-5:2001/AMD5:2004/COR1:2011
+    urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:5:2004::cor:1:2011
+  style: v3
+- id: iec.corrigendum.0152
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2006'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '6'
+      year: '2005'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '14496'
+        part: '5'
+        year: '2001'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 14496-5:2001/AMD6:2005/COR1:2006
+    urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:6:2005::cor:1:2006
+  style: v3
+- id: iec.corrigendum.0153
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2007'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '15444'
+      part: '9'
+      year: '2005'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 15444-9:2005/COR1:2007
+    urn: urn:iec:std:iso-iec:15444-9:2005:::::cor:1:2007
+  style: v3
+- id: iec.corrigendum.0154
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2008'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '15444'
+      part: '9'
+      year: '2005'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 15444-9:2005/COR2:2008
+    urn: urn:iec:std:iso-iec:15444-9:2005:::::cor:2:2008
+  style: v3
+- id: iec.corrigendum.0155
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '3'
+    year: '2011'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '15444'
+      part: '9'
+      year: '2005'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 15444-9:2005/COR3:2011
+    urn: urn:iec:std:iso-iec:15444-9:2005:::::cor:3:2011
+  style: v3
+- id: iec.corrigendum.0156
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2007'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '15938'
+      part: '10'
+      year: '2005'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 15938-10:2005/COR1:2007
+    urn: urn:iec:std:iso-iec:15938-10:2005:::::cor:1:2007
+  style: v3
+- id: iec.corrigendum.0157
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2005'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '1'
+      year: '2005'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '15938'
+        part: '1'
+        year: '2002'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 15938-1:2002/AMD1:2005/COR1:2005
+    urn: urn:iec:std:iso-iec:15938-1:2002:::::amd:1:2005::cor:1:2005
+  style: v3
+- id: iec.corrigendum.0158
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2004'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '15938'
+      part: '1'
+      year: '2002'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 15938-1:2002/COR1:2004
+    urn: urn:iec:std:iso-iec:15938-1:2002:::::cor:1:2004
+  style: v3
+- id: iec.corrigendum.0159
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2005'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '15938'
+      part: '1'
+      year: '2002'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 15938-1:2002/COR2:2005
+    urn: urn:iec:std:iso-iec:15938-1:2002:::::cor:2:2005
+  style: v3
+- id: iec.corrigendum.0160
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2005'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '1'
+      year: '2004'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '15938'
+        part: '3'
+        year: '2002'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 15938-3:2002/AMD1:2004/COR1:2005
+    urn: urn:iec:std:iso-iec:15938-3:2002:::::amd:1:2004::cor:1:2005
+  style: v3
+- id: iec.corrigendum.0161
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2007'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '1'
+      year: '2004'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '15938'
+        part: '3'
+        year: '2002'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 15938-3:2002/AMD1:2004/COR2:2007
+    urn: urn:iec:std:iso-iec:15938-3:2002:::::amd:1:2004::cor:2:2007
+  style: v3
+- id: iec.corrigendum.0162
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2007'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '2'
+      year: '2006'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '15938'
+        part: '3'
+        year: '2002'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 15938-3:2002/AMD2:2006/COR1:2007
+    urn: urn:iec:std:iso-iec:15938-3:2002:::::amd:2:2006::cor:1:2007
+  style: v3
+- id: iec.corrigendum.0163
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2004'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '15938'
+      part: '3'
+      year: '2002'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 15938-3:2002/COR1:2004
+    urn: urn:iec:std:iso-iec:15938-3:2002:::::cor:1:2004
+  style: v3
+- id: iec.corrigendum.0164
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2004'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '15938'
+      part: '5'
+      year: '2003'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 15938-5:2003/COR1:2004
+    urn: urn:iec:std:iso-iec:15938-5:2003:::::cor:1:2004
+  style: v3
+- id: iec.corrigendum.0165
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2008'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '21000'
+      part: '15'
+      year: '2006'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 21000-15:2006/COR1:2008
+    urn: urn:iec:std:iso-iec:21000-15:2006:::::cor:1:2008
+  style: v3
+- id: iec.corrigendum.0166
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2012'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '21000'
+      part: '4'
+      year: '2006'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 21000-4:2006/COR1:2012
+    urn: urn:iec:std:iso-iec:21000-4:2006:::::cor:1:2012
+  style: v3
+- id: iec.corrigendum.0167
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2005'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '21000'
+      part: '6'
+      year: '2004'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 21000-6:2004/COR1:2005
+    urn: urn:iec:std:iso-iec:21000-6:2004:::::cor:1:2005
+  style: v3
+- id: iec.corrigendum.0168
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2007'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '21000'
+      part: '6'
+      year: '2004'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 21000-6:2004/COR2:2007
+    urn: urn:iec:std:iso-iec:21000-6:2004:::::cor:2:2007
+  style: v3
+- id: iec.corrigendum.0169
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2008'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '21000'
+      part: '7'
+      year: '2007'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 21000-7:2007/COR1:2008
+    urn: urn:iec:std:iso-iec:21000-7:2007:::::cor:1:2008
+  style: v3
+- id: iec.corrigendum.0170
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2014'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '23000'
+      part: '10'
+      year: '2012'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23000-10:2012/COR2:2014
+    urn: urn:iec:std:iso-iec:23000-10:2012:::::cor:2:2014
+  style: v3
+- id: iec.corrigendum.0171
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2011'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '1'
+      year: '2010'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '23000'
+        part: '9'
+        year: '2008'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 23000-9:2008/AMD1:2010/COR1:2011
+    urn: urn:iec:std:iso-iec:23000-9:2008:::::amd:1:2010::cor:1:2011
+  style: v3
+- id: iec.corrigendum.0172
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2012'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '1'
+      year: '2010'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '23000'
+        part: '9'
+        year: '2008'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 23000-9:2008/AMD1:2010/COR2:2012
+    urn: urn:iec:std:iso-iec:23000-9:2008:::::amd:1:2010::cor:2:2012
+  style: v3
+- id: iec.corrigendum.0173
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2008'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '23000'
+      part: '9'
+      year: '2008'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23000-9:2008/COR1:2008
+    urn: urn:iec:std:iso-iec:23000-9:2008:::::cor:1:2008
+  style: v3
+- id: iec.corrigendum.0174
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2007'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '23001'
+      part: '1'
+      year: '2006'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23001-1:2006/COR1:2007
+    urn: urn:iec:std:iso-iec:23001-1:2006:::::cor:1:2007
+  style: v3
+- id: iec.corrigendum.0175
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2007'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '23001'
+      part: '1'
+      year: '2006'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23001-1:2006/COR2:2007
+    urn: urn:iec:std:iso-iec:23001-1:2006:::::cor:2:2007
+  style: v3
+- id: iec.corrigendum.0176
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2013'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '1'
+      year: '2008'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '23002'
+        part: '1'
+        year: '2006'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 23002-1:2006/AMD1:2008/COR1:2013
+    urn: urn:iec:std:iso-iec:23002-1:2006:::::amd:1:2008::cor:1:2013
+  style: v3
+- id: iec.corrigendum.0177
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2011'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '1'
+      year: '2008'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '23003'
+        part: '1'
+        year: '2007'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 23003-1:2007/AMD1:2008/COR1:2011
+    urn: urn:iec:std:iso-iec:23003-1:2007:::::amd:1:2008::cor:1:2011
+  style: v3
+- id: iec.corrigendum.0178
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2012'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '1'
+      year: '2008'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '23003'
+        part: '1'
+        year: '2007'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 23003-1:2007/AMD1:2008/COR2:2012
+    urn: urn:iec:std:iso-iec:23003-1:2007:::::amd:1:2008::cor:2:2012
+  style: v3
+- id: iec.corrigendum.0179
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '3'
+    year: '2015'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '1'
+      year: '2008'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '23003'
+        part: '1'
+        year: '2007'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 23003-1:2007/AMD1:2008/COR3:2015
+    urn: urn:iec:std:iso-iec:23003-1:2007:::::amd:1:2008::cor:3:2015
+  style: v3
+- id: iec.corrigendum.0180
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2009'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '2'
+      year: '2008'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '23003'
+        part: '1'
+        year: '2007'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 23003-1:2007/AMD2:2008/COR1:2009
+    urn: urn:iec:std:iso-iec:23003-1:2007:::::amd:2:2008::cor:1:2009
+  style: v3
+- id: iec.corrigendum.0181
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2011'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '2'
+      year: '2008'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '23003'
+        part: '1'
+        year: '2007'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 23003-1:2007/AMD2:2008/COR2:2011
+    urn: urn:iec:std:iso-iec:23003-1:2007:::::amd:2:2008::cor:2:2011
+  style: v3
+- id: iec.corrigendum.0182
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '3'
+    year: '2012'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '2'
+      year: '2008'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '23003'
+        part: '1'
+        year: '2007'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 23003-1:2007/AMD2:2008/COR3:2012
+    urn: urn:iec:std:iso-iec:23003-1:2007:::::amd:2:2008::cor:3:2012
+  style: v3
+- id: iec.corrigendum.0183
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '4'
+    year: '2013'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '2'
+      year: '2008'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '23003'
+        part: '1'
+        year: '2007'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 23003-1:2007/AMD2:2008/COR4:2013
+    urn: urn:iec:std:iso-iec:23003-1:2007:::::amd:2:2008::cor:4:2013
+  style: v3
+- id: iec.corrigendum.0184
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2008'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '23003'
+      part: '1'
+      year: '2007'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23003-1:2007/COR1:2008
+    urn: urn:iec:std:iso-iec:23003-1:2007:::::cor:1:2008
+  style: v3
+- id: iec.corrigendum.0185
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2009'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '23003'
+      part: '1'
+      year: '2007'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23003-1:2007/COR2:2009
+    urn: urn:iec:std:iso-iec:23003-1:2007:::::cor:2:2009
+  style: v3
+- id: iec.corrigendum.0186
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '3'
+    year: '2010'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '23003'
+      part: '1'
+      year: '2007'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23003-1:2007/COR3:2010
+    urn: urn:iec:std:iso-iec:23003-1:2007:::::cor:3:2010
+  style: v3
+- id: iec.corrigendum.0187
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '4'
+    year: '2012'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '23003'
+      part: '1'
+      year: '2007'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23003-1:2007/COR4:2012
+    urn: urn:iec:std:iso-iec:23003-1:2007:::::cor:4:2012
+  style: v3
+- id: iec.corrigendum.0188
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2012'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '1'
+      year: '2012'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '23007'
+        part: '1'
+        year: '2010'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 23007-1:2010/AMD1:2012/COR1:2012
+    urn: urn:iec:std:iso-iec:23007-1:2010:::::amd:1:2012::cor:1:2012
+  style: v3
+- id: iec.corrigendum.0189
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '2'
+    year: '2014'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:amendment
+      number: '1'
+      year: '2012'
+      publisher: ISO
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iec:international-standard
+        number: '23007'
+        part: '1'
+        year: '2010'
+        publisher: ISO
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 23007-1:2010/AMD1:2012/COR2:2014
+    urn: urn:iec:std:iso-iec:23007-1:2010:::::amd:1:2012::cor:2:2014
+  style: v3
+- id: iec.corrigendum.0190
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2017'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '23008'
+      part: '11'
+      year: '2015'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23008-11:2015/COR1:2017
+    urn: urn:iec:std:iso-iec:23008-11:2015:::::cor:1:2017
+  style: v3
+- id: iec.corrigendum.0191
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2020'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '23008'
+      part: '12'
+      year: '2017'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23008-12:2017/COR1:2020
+    urn: urn:iec:std:iso-iec:23008-12:2017:::::cor:1:2020
+  style: v3
+- id: iec.corrigendum.0192
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2012'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:international-standard
+      number: '24800'
+      part: '3'
+      year: '2010'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 24800-3:2010/COR1:2012
+    urn: urn:iec:std:iso-iec:24800-3:2010:::::cor:1:2012
+  style: v3
+- id: iec.corrigendum.0193
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2007'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:technical-report
+      number: '11172'
+      part: '5'
+      year: '1998'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC TR 11172-5:1998/COR1:2007
+    urn: urn:iec:std:iso-iec:11172-5:1998:tr::::cor:1:2007
+  style: v3
+- id: iec.corrigendum.0194
+  identifier:
+    _type: pubid:iec:corrigendum
+    number: '1'
+    year: '2005'
+    publisher: ISO
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iec:technical-report
+      number: '15938'
+      part: '8'
+      year: '2002'
+      publisher: ISO
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC TR 15938-8:2002/COR1:2005
+    urn: urn:iec:std:iso-iec:15938-8:2002:tr::::cor:1:2005
+  style: v3

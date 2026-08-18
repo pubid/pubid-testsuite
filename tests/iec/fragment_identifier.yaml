@@ -1,0 +1,246 @@
+---
+- id: iec.fragment_identifier.0001
+  identifier:
+    _type: pubid:iec:fragment-identifier
+    edition:
+      number: '2'
+    base:
+      _type: pubid:iec:amendment
+      number: '1'
+      base:
+        _type: pubid:iec:international-standard
+        number: '60050'
+        part: '111'
+    fragment_number: '1'
+  representations:
+    human: IEC 60050-111/AMD1/FRAG1 ED2
+    urn: 'urn:iec:std:iec:60050-111::::::amd:1:'
+  style: v3
+- id: iec.fragment_identifier.0002
+  identifier:
+    _type: pubid:iec:fragment-identifier
+    edition:
+      number: '2'
+    base:
+      _type: pubid:iec:amendment
+      number: '2'
+      base:
+        _type: pubid:iec:international-standard
+        number: '60050'
+        part: '121'
+    fragment_number: '1'
+  representations:
+    human: IEC 60050-121/AMD2/FRAG1 ED2
+    urn: 'urn:iec:std:iec:60050-121::::::amd:2:'
+  style: v3
+- id: iec.fragment_identifier.0003
+  identifier:
+    _type: pubid:iec:fragment-identifier
+    edition:
+      number: '2'
+    base:
+      _type: pubid:iec:amendment
+      number: '1'
+      base:
+        _type: pubid:iec:international-standard
+        number: '60050'
+        part: '131'
+    fragment_number: '1'
+  representations:
+    human: IEC 60050-131/AMD1/FRAG1 ED2
+    urn: 'urn:iec:std:iec:60050-131::::::amd:1:'
+  style: v3
+- id: iec.fragment_identifier.0004
+  identifier:
+    _type: pubid:iec:fragment-identifier
+    edition:
+      number: '1'
+    base:
+      _type: pubid:iec:amendment
+      number: '1'
+      base:
+        _type: pubid:iec:international-standard
+        number: '60050'
+        part: '191'
+    fragment_number: '1'
+  representations:
+    human: IEC 60050-191/AMD1/FRAG1 ED1
+    urn: 'urn:iec:std:iec:60050-191::::::amd:1:'
+  style: v3
+- id: iec.fragment_identifier.0005
+  identifier:
+    _type: pubid:iec:fragment-identifier
+    edition:
+      number: '1'
+    base:
+      _type: pubid:iec:amendment
+      number: '2'
+      base:
+        _type: pubid:iec:international-standard
+        number: '60050'
+        part: '191'
+    fragment_number: '2'
+  representations:
+    human: IEC 60050-191/AMD2/FRAG2 ED1
+    urn: 'urn:iec:std:iec:60050-191::::::amd:2:'
+  style: v3
+- id: iec.fragment_identifier.0006
+  identifier:
+    _type: pubid:iec:fragment-identifier
+    edition:
+      number: '2'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60050'
+      part: '191'
+    fragment_number: '1'
+  representations:
+    human: IEC 60050-191/FRAG1 ED2
+    urn: 'urn:iec:std:iec:60050-191::::'
+  style: v3
+- id: iec.fragment_identifier.0007
+  identifier:
+    _type: pubid:iec:fragment-identifier
+    edition:
+      number: '2'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60050'
+      part: '447'
+    fragment_number: '3'
+  representations:
+    human: IEC 60050-447/FRAG3 ED2
+    urn: 'urn:iec:std:iec:60050-447::::'
+  style: v3
+- id: iec.fragment_identifier.0008
+  identifier:
+    _type: pubid:iec:fragment-identifier
+    edition:
+      number: '1'
+    base:
+      _type: pubid:iec:amendment
+      number: '1'
+      base:
+        _type: pubid:iec:international-standard
+        number: '60050'
+        part: '521'
+    fragment_number: '1'
+  representations:
+    human: IEC 60050-521/AMD1/FRAG1 ED1
+    urn: 'urn:iec:std:iec:60050-521::::::amd:1:'
+  style: v3
+- id: iec.fragment_identifier.0009
+  identifier:
+    _type: pubid:iec:fragment-identifier
+    edition:
+      number: '2'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60050'
+      part: '521'
+    fragment_number: '1'
+  representations:
+    human: IEC 60050-521/FRAG1 ED2
+    urn: 'urn:iec:std:iec:60050-521::::'
+  style: v3
+- id: iec.fragment_identifier.0010
+  identifier:
+    _type: pubid:iec:fragment-identifier
+    edition:
+      number: '1'
+    base:
+      _type: pubid:iec:amendment
+      number: '2'
+      base:
+        _type: pubid:iec:international-standard
+        number: '60050'
+        part: '604'
+    fragment_number: '1'
+  representations:
+    human: IEC 60050-604/AMD2/FRAG1 ED1
+    urn: 'urn:iec:std:iec:60050-604::::::amd:2:'
+  style: v3
+- id: iec.fragment_identifier.0011
+  identifier:
+    _type: pubid:iec:fragment-identifier
+    edition:
+      number: '1'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60050'
+      part: '614'
+    fragment_number: '1'
+  representations:
+    human: IEC 60050-614/FRAG1 ED1
+    urn: 'urn:iec:std:iec:60050-614::::'
+  style: v3
+- id: iec.fragment_identifier.0012
+  identifier:
+    _type: pubid:iec:fragment-identifier
+    edition:
+      number: '1'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60050'
+      part: '723'
+    fragment_number: '3'
+  representations:
+    human: IEC 60050-723/FRAG3 ED1
+    urn: 'urn:iec:std:iec:60050-723::::'
+  style: v3
+- id: iec.fragment_identifier.0013
+  identifier:
+    _type: pubid:iec:fragment-identifier
+    edition:
+      number: '1'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60050'
+      part: '807'
+    fragment_number: '2'
+  representations:
+    human: IEC 60050-807/FRAG2 ED1
+    urn: 'urn:iec:std:iec:60050-807::::'
+  style: v3
+- id: iec.fragment_identifier.0014
+  identifier:
+    _type: pubid:iec:fragment-identifier
+    edition:
+      number: '2'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60050'
+      part: '811'
+    fragment_number: '1'
+  representations:
+    human: IEC 60050-811/FRAG1 ED2
+    urn: 'urn:iec:std:iec:60050-811::::'
+  style: v3
+- id: iec.fragment_identifier.0015
+  identifier:
+    _type: pubid:iec:fragment-identifier
+    edition:
+      number: '1'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60050'
+      part: '821'
+    fragment_number: '2'
+  representations:
+    human: IEC 60050-821/FRAG2 ED1
+    urn: 'urn:iec:std:iec:60050-821::::'
+  style: v3
+- id: iec.fragment_identifier.0016
+  identifier:
+    _type: pubid:iec:fragment-identifier
+    edition:
+      number: '1'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60050'
+      part: '891'
+    fragment_number: '1'
+  representations:
+    human: IEC 60050-891/FRAG1 ED1
+    urn: 'urn:iec:std:iec:60050-891::::'
+  style: v3

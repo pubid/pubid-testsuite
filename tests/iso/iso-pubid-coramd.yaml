@@ -1,0 +1,2139 @@
+---
+- id: iso.iso-pubid-coramd.0001
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2015'
+    publisher: IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '62304'
+      year: '2006'
+      publisher: IEC
+  representations:
+    human: IEC 62304:2006/Amd 1:2015
+    urn: urn:iso:std:iec:62304:amd:2015:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0002
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2020'
+    publisher: IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '62366'
+      part: '1'
+      year: '2015'
+      publisher: IEC
+  representations:
+    human: IEC 62366-1:2015/Amd 1:2020
+    urn: urn:iso:std:iec:62366:-1:amd:2020:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0003
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2015'
+    base:
+      _type: pubid:iso:international-standard
+      number: '10231'
+      year: '2003'
+  representations:
+    human: ISO 10231:2003/Amd 1:2015
+    urn: urn:iso:std:iso:10231:amd:2015:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0004
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2002'
+    base:
+      _type: pubid:iso:international-standard
+      number: '10360'
+      part: '1'
+      year: '2000'
+  representations:
+    human: ISO 10360-1:2000/Cor 1:2002
+    urn: urn:iso:std:iso:10360:-1:cor:2002:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0005
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '1998'
+    base:
+      _type: pubid:iso:international-standard
+      number: '105'
+      part: B01
+      year: '1994'
+  representations:
+    human: ISO 105-B01:1994/AMD 1:1998
+    urn: urn:iso:std:iso:105:-B01:amd:1998:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0006
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '1998'
+    base:
+      _type: pubid:iso:international-standard
+      number: '105'
+      part: B02
+      year: '1994'
+  representations:
+    human: ISO 105-B02:1994/AMD 1:1998
+    urn: urn:iso:std:iso:105:-B02:amd:1998:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0007
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    year: '2000'
+    base:
+      _type: pubid:iso:international-standard
+      number: '105'
+      part: B02
+      year: '1994'
+  representations:
+    human: ISO 105-B02:1994/AMD 2:2000
+    urn: urn:iso:std:iso:105:-B02:amd:2000:v2
+  style: v3
+- id: iso.iso-pubid-coramd.0008
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '1995'
+    base:
+      _type: pubid:iso:international-standard
+      number: '105'
+      part: G01
+      year: '1993'
+  representations:
+    human: ISO 105-G01:1993/COR 1:1995
+    urn: urn:iso:std:iso:105:-G01:cor:1995:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0009
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    year: '2009'
+    base:
+      _type: pubid:iso:international-standard
+      number: '105'
+      part: G02
+      year: '1993'
+  representations:
+    human: ISO 105-G02:1993/COR 2:2009
+    urn: urn:iso:std:iso:105:-G02:cor:2009:v2
+  style: v3
+- id: iso.iso-pubid-coramd.0010
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '1998'
+    base:
+      _type: pubid:iso:international-standard
+      number: '105'
+      part: J02
+      year: '1997'
+  representations:
+    human: ISO 105-J02:1997/COR 1:1998
+    urn: urn:iso:std:iso:105:-J02:cor:1998:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0011
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '1999'
+    base:
+      _type: pubid:iso:international-standard
+      number: '105'
+      part: P02
+      year: '1993'
+  representations:
+    human: ISO 105-P02:1993/COR 1:1999
+    urn: urn:iso:std:iso:105:-P02:cor:1999:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0012
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    stage: damd
+    base:
+      _type: pubid:iso:international-standard
+      number: '10993'
+      part: '18'
+      year: '2020'
+  representations:
+    human: ISO 10993-18:2020/DAM 1
+    urn: urn:iso:std:iso:10993:-18:stage-40.00:amd:1:v1
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 10993-18:2020/DAmd 1
+    style: v3
+- id: iso.iso-pubid-coramd.0013
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2006'
+    languages:
+    - code: en
+      original_code: E
+    base:
+      _type: pubid:iso:international-standard
+      number: '10993'
+      part: '4'
+      year: '2002'
+  representations:
+    human: ISO 10993-4:2002/Amd 1:2006(E)
+    urn: urn:iso:std:iso:10993:-4:amd:2006:v1:en
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 10993-4:2002/Amd.1:2006(E)
+    style: v2
+- id: iso.iso-pubid-coramd.0014
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2018'
+    base:
+      _type: pubid:iso:international-standard
+      number: '11070'
+      year: '2014'
+  representations:
+    human: ISO 11070:2014/Amd 1:2018
+    urn: urn:iso:std:iso:11070:amd:2018:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0015
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    stage: fdamd
+    base:
+      _type: pubid:iso:international-standard
+      number: '11137'
+      part: '2'
+      year: '2013'
+  representations:
+    human: ISO 11137-2:2013/FDAM 1
+    urn: urn:iso:std:iso:11137:-2:FDAM:amd:1:v1
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 11137-2:2013/FDAmd 1
+    style: v3
+- id: iso.iso-pubid-coramd.0016
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2021'
+    languages:
+    - code: en
+      original_code: en
+    base:
+      _type: pubid:iso:international-standard
+      number: '13688'
+      year: '2013'
+  representations:
+    human: ISO 13688:2013/Amd 1:2021(en)
+    urn: urn:iso:std:iso:13688:amd:2021:v1:en
+  style: v3
+- id: iso.iso-pubid-coramd.0017
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2021'
+    base:
+      _type: pubid:iso:international-standard
+      number: '14021'
+      year: '2016'
+  representations:
+    human: ISO 14021:2016/Amd 1:2021
+    urn: urn:iso:std:iso:14021:amd:2021:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0018
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    year: '2020'
+    base:
+      _type: pubid:iso:international-standard
+      number: '14044'
+      year: '2006'
+  representations:
+    human: ISO 14044:2006/Amd 2:2020
+    urn: urn:iso:std:iso:14044:amd:2020:v2
+  style: v3
+- id: iso.iso-pubid-coramd.0019
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2021'
+    base:
+      _type: pubid:iso:international-standard
+      number: '14930'
+      year: '2012'
+  representations:
+    human: ISO 14930:2012/Amd 1:2021
+    urn: urn:iso:std:iso:14930:amd:2021:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0020
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '1999'
+    base:
+      _type: pubid:iso:international-standard
+      number: '15022'
+      part: '2'
+      year: '1999'
+  representations:
+    human: ISO 15022-2:1999/Cor 1:1999
+    urn: urn:iso:std:iso:15022:-2:cor:1999:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0021
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2021'
+    base:
+      _type: pubid:iso:international-standard
+      number: '15372'
+      year: '2000'
+  representations:
+    human: ISO 15372:2000/Amd 1:2021
+    urn: urn:iso:std:iso:15372:amd:2021:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0022
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    stage: fdamd
+    base:
+      _type: pubid:iso:international-standard
+      number: '15614'
+      part: '1'
+      year: '2017'
+  representations:
+    human: ISO 15614-1:2017/FDAM 2
+    urn: urn:iso:std:iso:15614:-1:FDAM:amd:2:v1
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 15614-1:2017/FDAmd 2
+    style: v3
+- id: iso.iso-pubid-coramd.0023
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    stage: fdamd
+    base:
+      _type: pubid:iso:international-standard
+      number: '15874'
+      part: '2'
+      year: '2013'
+  representations:
+    human: ISO 15874-2:2013/FDAM 2
+    urn: urn:iso:std:iso:15874:-2:FDAM:amd:2:v1
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 15874-2:2013/FDAmd 2
+    style: v3
+- id: iso.iso-pubid-coramd.0024
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2008'
+    base:
+      _type: pubid:iso:international-standard
+      number: '17615'
+      year: '2007'
+  representations:
+    human: ISO 17615:2007/Cor 1:2008
+    urn: urn:iso:std:iso:17615:cor:2008:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0025
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    base:
+      _type: pubid:iso:international-standard
+      number: '19115'
+      part: '2'
+      year: '2019'
+  representations:
+    human: ISO 19115-2:2019/Amd 1
+    urn: urn:iso:std:iso:19115:-2:amd:1:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0026
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2021'
+    base:
+      _type: pubid:iso:international-standard
+      number: '19135'
+      part: '1'
+      year: '2015'
+  representations:
+    human: ISO 19135-1:2015/Amd 1:2021
+    urn: urn:iso:std:iso:19135:-1:amd:2021:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0027
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2018'
+    base:
+      _type: pubid:iso:international-standard
+      number: '19157'
+      year: '2013'
+  representations:
+    human: ISO 19157:2013/Amd 1:2018
+    urn: urn:iso:std:iso:19157:amd:2018:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0028
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2021'
+    base:
+      _type: pubid:iso:international-standard
+      number: '21709'
+      year: '2020'
+  representations:
+    human: ISO 21709:2020/Amd 1:2021
+    urn: urn:iso:std:iso:21709:amd:2021:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0029
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2009'
+    base:
+      _type: pubid:iso:international-standard
+      number: '22958'
+      year: '2005'
+  representations:
+    human: ISO 22958:2005/Cor 1:2009
+    urn: urn:iso:std:iso:22958:cor:2009:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0030
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2012'
+    base:
+      _type: pubid:iso:international-standard
+      number: '23125'
+      year: '2010'
+  representations:
+    human: ISO 23125:2010/Amd 1:2012
+    urn: urn:iso:std:iso:23125:amd:2012:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0031
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2022'
+    base:
+      _type: pubid:iso:international-standard
+      number: '25424'
+      year: '2018'
+  representations:
+    human: ISO 25424:2018/Amd 1:2022
+    urn: urn:iso:std:iso:25424:amd:2022:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0032
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2007'
+    base:
+      _type: pubid:iso:international-standard
+      number: '2818'
+      year: '1994'
+  representations:
+    human: ISO 2818:1994/Cor 1:2007
+    urn: urn:iso:std:iso:2818:cor:2007:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0033
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2017'
+    base:
+      _type: pubid:iso:international-standard
+      number: '28927'
+      part: '1'
+      year: '2009'
+  representations:
+    human: ISO 28927-1:2009/Amd 1:2017
+    urn: urn:iso:std:iso:28927:-1:amd:2017:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0034
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2007'
+    base:
+      _type: pubid:iso:international-standard
+      number: '294'
+      part: '4'
+      year: '2001'
+  representations:
+    human: ISO 294-4:2001/Cor 1:2007
+    urn: urn:iso:std:iso:294:-4:cor:2007:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0035
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2014'
+    base:
+      _type: pubid:iso:international-standard
+      number: '29767'
+      year: '2008'
+  representations:
+    human: ISO 29767:2008/Amd 1:2014
+    urn: urn:iso:std:iso:29767:amd:2014:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0036
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    stage: fdamd
+    base:
+      _type: pubid:iso:international-standard
+      number: '3164'
+      year: '2013'
+  representations:
+    human: ISO 3164:2013/FDAM 1
+    urn: urn:iso:std:iso:3164:FDAM:amd:1:v1
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 3164:2013/FDAmd 1
+    style: v3
+- id: iso.iso-pubid-coramd.0037
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    stage: fdamd
+    base:
+      _type: pubid:iso:international-standard
+      number: '3245'
+      year: '2015'
+  representations:
+    human: ISO 3245:2015/FDAM 1
+    urn: urn:iso:std:iso:3245:FDAM:amd:1:v1
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 3245:2015/FDAmd 1
+    style: v3
+- id: iso.iso-pubid-coramd.0038
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2007'
+    base:
+      _type: pubid:iso:international-standard
+      number: '3834'
+      part: '5'
+      year: '2005'
+  representations:
+    human: ISO 3834-5:2005/Cor 1:2007
+    urn: urn:iso:std:iso:3834:-5:cor:2007:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0039
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2018'
+    base:
+      _type: pubid:iso:international-standard
+      number: '4918'
+      year: '2016'
+  representations:
+    human: ISO 4918:2016/AMD 1:2018
+    urn: urn:iso:std:iso:4918:amd:2018:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0040
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2006'
+    base:
+      _type: pubid:iso:international-standard
+      number: '5495'
+      year: '2005'
+  representations:
+    human: ISO 5495:2005/Cor 1:2006
+    urn: urn:iso:std:iso:5495:cor:2006:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0041
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2018'
+    base:
+      _type: pubid:iso:international-standard
+      number: '5496'
+      year: '2006'
+  representations:
+    human: ISO 5496:2006/Amd 1:2018
+    urn: urn:iso:std:iso:5496:amd:2018:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0042
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2002'
+    base:
+      _type: pubid:iso:international-standard
+      number: '5725'
+      part: '2'
+      year: '1994'
+  representations:
+    human: ISO 5725-2:1994/Cor 1:2002
+    urn: urn:iso:std:iso:5725:-2:cor:2002:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0043
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2005'
+    base:
+      _type: pubid:iso:international-standard
+      number: '5725'
+      part: '5'
+      year: '1998'
+  representations:
+    human: ISO 5725-5:1998/Cor 1:2005
+    urn: urn:iso:std:iso:5725:-5:cor:2005:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0044
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    stage: fdamd
+    base:
+      _type: pubid:iso:international-standard
+      number: '668'
+      year: '2020'
+  representations:
+    human: ISO 668:2020/FDAM 1
+    urn: urn:iso:std:iso:668:FDAM:amd:1:v1
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 668:2020/FDAmd 1
+    style: v3
+- id: iso.iso-pubid-coramd.0045
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2009'
+    base:
+      _type: pubid:iso:international-standard
+      number: '6709'
+      year: '2008'
+  representations:
+    human: ISO 6709:2008/Cor 1:2009
+    urn: urn:iso:std:iso:6709:cor:2009:v1
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 6709:2008/Cor. 1:2009
+    style: v3
+- id: iso.iso-pubid-coramd.0046
+  identifier:
+    _type: pubid:iso:amendment
+    number: '4'
+    year: '2021'
+    base:
+      _type: pubid:iso:international-standard
+      number: '7010'
+      year: '2019'
+  representations:
+    human: ISO 7010:2019/Amd 4:2021
+    urn: urn:iso:std:iso:7010:amd:2021:v4
+  style: v3
+- id: iso.iso-pubid-coramd.0047
+  identifier:
+    _type: pubid:iso:amendment
+    number: '5'
+    year: '2022'
+    base:
+      _type: pubid:iso:international-standard
+      number: '7010'
+      year: '2019'
+  representations:
+    human: ISO 7010:2019/Amd 5:2022
+    urn: urn:iso:std:iso:7010:amd:2022:v5
+  style: v3
+- id: iso.iso-pubid-coramd.0048
+  identifier:
+    _type: pubid:iso:amendment
+    number: '114'
+    stage: damd
+    base:
+      _type: pubid:iso:international-standard
+      number: '7010'
+      year: '2019'
+  representations:
+    human: ISO 7010:2019/DAM 114
+    urn: urn:iso:std:iso:7010:stage-40.00:amd:114:v1
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 7010:2019/DAmd 114
+    style: v3
+- id: iso.iso-pubid-coramd.0049
+  identifier:
+    _type: pubid:iso:amendment
+    number: '118'
+    stage: damd
+    base:
+      _type: pubid:iso:international-standard
+      number: '7010'
+      year: '2019'
+  representations:
+    human: ISO 7010:2019/DAM 118
+    urn: urn:iso:std:iso:7010:stage-40.00:amd:118:v1
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 7010:2019/DAmd 118
+    style: v3
+- id: iso.iso-pubid-coramd.0050
+  identifier:
+    _type: pubid:iso:amendment
+    number: '124'
+    stage: damd
+    base:
+      _type: pubid:iso:international-standard
+      number: '7010'
+      year: '2019'
+  representations:
+    human: ISO 7010:2019/DAM 124
+    urn: urn:iso:std:iso:7010:stage-40.00:amd:124:v1
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 7010:2019/DAmd 124
+    style: v3
+- id: iso.iso-pubid-coramd.0051
+  identifier:
+    _type: pubid:iso:amendment
+    number: '125'
+    stage: damd
+    base:
+      _type: pubid:iso:international-standard
+      number: '7010'
+      year: '2019'
+  representations:
+    human: ISO 7010:2019/DAM 125
+    urn: urn:iso:std:iso:7010:stage-40.00:amd:125:v1
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 7010:2019/DAmd 125
+    style: v3
+- id: iso.iso-pubid-coramd.0052
+  identifier:
+    _type: pubid:iso:amendment
+    number: '129'
+    stage: damd
+    base:
+      _type: pubid:iso:international-standard
+      number: '7010'
+      year: '2019'
+  representations:
+    human: ISO 7010:2019/DAM 129
+    urn: urn:iso:std:iso:7010:stage-40.00:amd:129:v1
+  style: v3
+  non_normalized_aliases:
+  - input: ISO 7010:2019/DAmd 129
+    style: v3
+- id: iso.iso-pubid-coramd.0053
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    year: '2004'
+    base:
+      _type: pubid:iso:international-standard
+      number: '772'
+      year: '1996'
+  representations:
+    human: ISO 772:1996/Amd 2:2004
+    urn: urn:iso:std:iso:772:amd:2004:v2
+  style: v3
+- id: iso.iso-pubid-coramd.0054
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    year: '2007'
+    base:
+      _type: pubid:iso:international-standard
+      number: '8124'
+      part: '1'
+      year: '2000'
+  representations:
+    human: ISO 8124-1:2000/Amd 2:2007
+    urn: urn:iso:std:iso:8124:-1:amd:2007:v2
+  style: v3
+- id: iso.iso-pubid-coramd.0055
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    year: '2018'
+    base:
+      _type: pubid:iso:international-standard
+      number: '8124'
+      part: '3'
+      year: '2010'
+  representations:
+    human: ISO 8124-3:2010/Amd 2:2018
+    urn: urn:iso:std:iso:8124:-3:amd:2018:v2
+  style: v3
+- id: iso.iso-pubid-coramd.0056
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2020'
+    base:
+      _type: pubid:iso:international-standard
+      number: '8124'
+      part: '7'
+      year: '2015'
+  representations:
+    human: ISO 8124-7:2015/Amd 1:2020
+    urn: urn:iso:std:iso:8124:-7:amd:2020:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0057
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2011'
+    base:
+      _type: pubid:iso:international-standard
+      number: '8968'
+      part: '3'
+      year: '2004'
+  representations:
+    human: ISO 8968-3:2004/Cor 1:2011
+    urn: urn:iso:std:iso:8968:-3:cor:2011:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0058
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    year: '2020'
+    base:
+      _type: pubid:iso:international-standard
+      number: '9660'
+      year: '1988'
+  representations:
+    human: ISO 9660:1988/Amd 2:2020
+    urn: urn:iso:std:iso:9660:amd:2020:v2
+  style: v3
+- id: iso.iso-pubid-coramd.0059
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2021'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '10118'
+      part: '1'
+      year: '2016'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 10118-1:2016/Amd 1:2021
+    urn: urn:iso:std:iso-iec:10118:-1:amd:2021:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0060
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2021'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '10373'
+      part: '6'
+      year: '2020'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 10373-6:2020/Amd 1:2021
+    urn: urn:iso:std:iso-iec:10373:-6:amd:2021:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0061
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    year: '2019'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '10646'
+      year: '2017'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 10646:2017/Amd 2:2019
+    urn: urn:iso:std:iso-iec:10646:amd:2019:v2
+  style: v3
+- id: iso.iso-pubid-coramd.0062
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    copublishers:
+    - IEC
+    stage: committee_draft_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '10646'
+      year: '2020'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 10646:2020/CD Amd 1
+    urn: urn:iso:std:iso-iec:10646:CD:amd:1:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0063
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '1997'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '11572'
+      year: '1997'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 11572:1997/Amd 1:1997
+    urn: urn:iso:std:iso-iec:11572:amd:1997:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0064
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2019'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '11770'
+      part: '4'
+      year: '2017'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 11770-4:2017/Amd 1:2019
+    urn: urn:iso:std:iso-iec:11770:-4:amd:2019:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0065
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    year: '2021'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '11770'
+      part: '4'
+      year: '2017'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 11770-4:2017/Amd 2:2021
+    urn: urn:iso:std:iso-iec:11770:-4:amd:2021:v2
+  style: v3
+- id: iso.iso-pubid-coramd.0066
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    copublishers:
+    - IEC
+    stage: damd
+    base:
+      _type: pubid:iso:international-standard
+      number: '13818'
+      part: '1'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 13818-1/DAM 1
+    urn: urn:iso:std:iso-iec:13818:-1:stage-40.00:amd:1:v1
+  style: v3
+  non_normalized_aliases:
+  - input: ISO/IEC 13818-1/DAmd 1
+    style: v3
+- id: iso.iso-pubid-coramd.0067
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2014'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '13818'
+      part: '1'
+      year: '2013'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 13818-1:2013/Amd 1:2014
+    urn: urn:iso:std:iso-iec:13818:-1:amd:2014:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0068
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2015'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '13818'
+      part: '1'
+      year: '2015'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 13818-1:2015/Amd 1:2015
+    urn: urn:iso:std:iso-iec:13818:-1:amd:2015:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0069
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2017'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:amendment
+      number: '3'
+      year: '2016'
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iso:international-standard
+        number: '13818'
+        part: '1'
+        year: '2015'
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 13818-1:2015/Amd 3:2016/Cor 1:2017
+    urn: urn:iso:std:iso-iec:13818:-1:amd:2016:v3:cor:2017:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0070
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    year: '2017'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '13818'
+      part: '1'
+      year: '2015'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 13818-1:2015/Cor 2:2017
+    urn: urn:iso:std:iso-iec:13818:-1:cor:2017:v2
+  style: v3
+- id: iso.iso-pubid-coramd.0071
+  identifier:
+    _type: pubid:iso:amendment
+    number: '4'
+    copublishers:
+    - IEC
+    stage: committee_draft_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '13818'
+      part: '1'
+      year: '2019'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 13818-1:2019/CD Amd 4
+    urn: urn:iso:std:iso-iec:13818:-1:CD:amd:4:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0072
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2020'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '13818'
+      part: '1'
+      year: '2019'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 13818-1:2019/Cor 1:2020
+    urn: urn:iso:std:iso-iec:13818:-1:cor:2020:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0073
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2020'
+    languages:
+    - code: en
+      original_code: en
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '13818'
+      part: '1'
+      year: '2019'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 13818-1:2019/Cor 1:2020(en)
+    urn: urn:iso:std:iso-iec:13818:-1:cor:2020:v1:en
+  style: v3
+- id: iso.iso-pubid-coramd.0074
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    year: '2010'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '13818'
+      part: '7'
+      year: '2006'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 13818-7:2006/Cor 2:2010
+    urn: urn:iso:std:iso-iec:13818:-7:cor:2010:v2
+  style: v3
+- id: iso.iso-pubid-coramd.0075
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2008'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '14165'
+      part: '122'
+      year: '2005'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14165-122:2005/Amd 1:2008
+    urn: urn:iso:std:iso-iec:14165:-122:amd:2008:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0076
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2021'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '14443'
+      part: '3'
+      year: '2018'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14443-3:2018/Amd 1:2021
+    urn: urn:iso:std:iso-iec:14443:-3:amd:2021:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0077
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    copublishers:
+    - IEC
+    stage: committee_draft_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '14496'
+      part: '10'
+      year: '2020'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-10:2020/CD Amd 1
+    urn: urn:iso:std:iso-iec:14496:-10:CD:amd:1:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0078
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2011'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '14496'
+      part: '15'
+      year: '2010'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-15:2010/Cor 1:2011
+    urn: urn:iso:std:iso-iec:14496:-15:cor:2011:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0079
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2010'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '14496'
+      part: '20'
+      year: '2008'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-20:2008/Cor 1:2010
+    urn: urn:iso:std:iso-iec:14496:-20:cor:2010:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0080
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2007'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '14496'
+      part: '21'
+      year: '2006'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-21:2006/Cor 1:2007
+    urn: urn:iso:std:iso-iec:14496:-21:cor:2007:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0081
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    copublishers:
+    - IEC
+    stage: fdamd
+    base:
+      _type: pubid:iso:international-standard
+      number: '14496'
+      part: '30'
+      year: '2018'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-30:2018/FDAM 1
+    urn: urn:iso:std:iso-iec:14496:-30:FDAM:amd:1:v1
+  style: v3
+  non_normalized_aliases:
+  - input: ISO/IEC 14496-30:2018/FDAmd 1
+    style: v3
+- id: iso.iso-pubid-coramd.0082
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    year: '2010'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '14496'
+      part: '3'
+      year: '2009'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 14496-3:2009/Amd 2:2010
+    urn: urn:iso:std:iso-iec:14496:-3:amd:2010:v2
+  style: v3
+- id: iso.iso-pubid-coramd.0083
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2021'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '1539'
+      part: '1'
+      year: '2018'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 1539-1:2018/Cor 1:2021
+    urn: urn:iso:std:iso-iec:1539:-1:cor:2021:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0084
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2006'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '18000'
+      part: '6'
+      year: '2004'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 18000-6:2004/Amd 1:2006
+    urn: urn:iso:std:iso-iec:18000:-6:amd:2006:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0085
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    copublishers:
+    - IEC
+    stage: committee_draft_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '18013'
+      part: '2'
+      year: '2020'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 18013-2:2020/CD Amd 1
+    urn: urn:iso:std:iso-iec:18013:-2:CD:amd:1:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0086
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2022'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '18013'
+      part: '3'
+      year: '2017'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 18013-3:2017/Amd 1:2022
+    urn: urn:iso:std:iso-iec:18013:-3:amd:2022:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0087
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2021'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '19566'
+      part: '5'
+      year: '2019'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 19566-5:2019/Amd 1:2021
+    urn: urn:iso:std:iso-iec:19566:-5:amd:2021:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0088
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2012'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '19752'
+      year: '2004'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 19752:2004/Cor 1:2012
+    urn: urn:iso:std:iso-iec:19752:cor:2012:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0089
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2014'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '19788'
+      part: '1'
+      year: '2011'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 19788-1:2011/Amd 1:2014
+    urn: urn:iso:std:iso-iec:19788:-1:amd:2014:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0090
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    copublishers:
+    - IEC
+    stage: cdcor
+    base:
+      _type: pubid:iso:amendment
+      number: '1'
+      year: '2015'
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iso:international-standard
+        number: '19794'
+        part: '7'
+        year: '2014'
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 19794-7:2014/AMD 1:2015/CD Cor 1
+    urn: urn:iso:std:iso-iec:19794:-7:amd:2015:v1:CD:cor:1:v1
+  style: v3
+  non_normalized_aliases:
+  - input: ISO/IEC 19794-7:2014/Amd 1:2015/CD Cor 1
+    style: v3
+- id: iso.iso-pubid-coramd.0091
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2012'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '19794'
+      part: '9'
+      year: '2011'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 19794-9:2011/Cor 1:2012
+    urn: urn:iso:std:iso-iec:19794:-9:cor:2012:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0092
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2020'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '20000'
+      part: '2'
+      year: '2019'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 20000-2:2019/Amd 1:2020
+    urn: urn:iso:std:iso-iec:20000:-2:amd:2020:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0093
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '1999'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '2022'
+      year: '1994'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 2022:1994/Cor 1:1999
+    urn: urn:iso:std:iso-iec:2022:cor:1999:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0094
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    copublishers:
+    - IEC
+    stage: cdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '21122'
+      part: '3'
+      year: '2019'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 21122-3:2019/CD Cor 1
+    urn: urn:iso:std:iso-iec:21122:-3:CD:cor:1:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0095
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2021'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '21794'
+      part: '2'
+      year: '2021'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 21794-2:2021/Amd 1:2021
+    urn: urn:iso:std:iso-iec:21794:-2:amd:2021:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0096
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    copublishers:
+    - IEC
+    stage: damd
+    base:
+      _type: pubid:iso:international-standard
+      number: '23000'
+      part: '19'
+      year: '2020'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23000-19:2020/DAM 2
+    urn: urn:iso:std:iso-iec:23000:-19:stage-40.00:amd:2:v1
+  style: v3
+  non_normalized_aliases:
+  - input: ISO/IEC 23000-19:2020/DAmd 2
+    style: v3
+- id: iso.iso-pubid-coramd.0097
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    copublishers:
+    - IEC
+    stage: committee_draft_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '23002'
+      part: '7'
+      year: '2021'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23002-7:2021/CD Amd 1
+    urn: urn:iso:std:iso-iec:23002:-7:CD:amd:1:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0098
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    year: '2008'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '23003'
+      part: '1'
+      year: '2007'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23003-1:2007/Amd 2:2008
+    urn: urn:iso:std:iso-iec:23003:-1:amd:2008:v2
+  style: v3
+- id: iso.iso-pubid-coramd.0099
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    year: '2018'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '23008'
+      part: '2'
+      year: '2017'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23008-2:2017/Amd 2:2018
+    urn: urn:iso:std:iso-iec:23008:-2:amd:2018:v2
+  style: v3
+- id: iso.iso-pubid-coramd.0100
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2021'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '23008'
+      part: '2'
+      year: '2020'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23008-2:2020/Amd 1:2021
+    urn: urn:iso:std:iso-iec:23008:-2:amd:2021:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0101
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    copublishers:
+    - IEC
+    stage: committee_draft_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '23008'
+      part: '2'
+      year: '2020'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23008-2:2020/CD Amd 2
+    urn: urn:iso:std:iso-iec:23008:-2:CD:amd:2:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0102
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2016'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '23008'
+      part: '3'
+      year: '2015'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23008-3:2015/Amd 1:2016
+    urn: urn:iso:std:iso-iec:23008:-3:amd:2016:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0103
+  identifier:
+    _type: pubid:iso:amendment
+    number: '3'
+    year: '2017'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '23008'
+      part: '3'
+      year: '2015'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23008-3:2015/Amd 3:2017
+    urn: urn:iso:std:iso-iec:23008:-3:amd:2017:v3
+  style: v3
+- id: iso.iso-pubid-coramd.0104
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    year: '2015'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '23009'
+      part: '1'
+      year: '2014'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23009-1:2014/Amd 2:2015
+    urn: urn:iso:std:iso-iec:23009:-1:amd:2015:v2
+  style: v3
+- id: iso.iso-pubid-coramd.0105
+  identifier:
+    _type: pubid:iso:amendment
+    number: '2'
+    copublishers:
+    - IEC
+    stage: committee_draft_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '23009'
+      part: '1'
+      year: '2019'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23009-1:2019/CD Amd 2
+    urn: urn:iso:std:iso-iec:23009:-1:CD:amd:2:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0106
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    copublishers:
+    - IEC
+    stage: cdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '23009'
+      part: '5'
+      year: '2017'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23009-5:2017/CD Cor 1
+    urn: urn:iso:std:iso-iec:23009:-5:CD:cor:1:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0107
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    copublishers:
+    - IEC
+    stage: committee_draft_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '23090'
+      part: '2'
+      year: '2021'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23090-2:2021/CD Amd 1
+    urn: urn:iso:std:iso-iec:23090:-2:CD:amd:1:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0108
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    copublishers:
+    - IEC
+    stage: committee_draft_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '23092'
+      part: '4'
+      year: '2020'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 23092-4:2020/CD Amd 1
+    urn: urn:iso:std:iso-iec:23092:-4:CD:amd:1:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0109
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    copublishers:
+    - IEC
+    stage: committee_draft_amd
+    base:
+      _type: pubid:iso:international-standard
+      number: '24760'
+      part: '1'
+      year: '2019'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 24760-1:2019/CD Amd 1
+    urn: urn:iso:std:iso-iec:24760:-1:CD:amd:1:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0110
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    copublishers:
+    - IEC
+    stage: cdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '24824'
+      part: '3'
+      year: '2008'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 24824-3:2008/CD Cor 1
+    urn: urn:iso:std:iso-iec:24824:-3:CD:cor:1:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0111
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2014'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '27001'
+      year: '2013'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 27001:2013/Cor 1:2014
+    urn: urn:iso:std:iso-iec:27001:cor:2014:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0112
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    copublishers:
+    - IEC
+    stage: damd
+    base:
+      _type: pubid:iso:international-standard
+      number: '27001'
+      year: '2013'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 27001:2013/DAM 1
+    urn: urn:iso:std:iso-iec:27001:stage-40.00:amd:1:v1
+  style: v3
+  non_normalized_aliases:
+  - input: ISO/IEC 27001:2013/DAmd 1
+    style: v3
+- id: iso.iso-pubid-coramd.0113
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    copublishers:
+    - IEC
+    stage: cdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '29134'
+      year: '2017'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 29134:2017/CD Cor 1
+    urn: urn:iso:std:iso-iec:29134:CD:cor:1:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0114
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2015'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '29180'
+      year: '2012'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 29180:2012/Cor 1:2015
+    urn: urn:iso:std:iso-iec:29180:cor:2015:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0115
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2018'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '30134'
+      part: '1'
+      year: '2016'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 30134-1:2016/Amd 1:2018
+    urn: urn:iso:std:iso-iec:30134:-1:amd:2018:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0116
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    copublishers:
+    - IEC
+    stage: damd
+    base:
+      _type: pubid:iso:international-standard
+      number: '30193'
+      year: '2020'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 30193:2020/DAM 1
+    urn: urn:iso:std:iso-iec:30193:stage-40.00:amd:1:v1
+  style: v3
+  non_normalized_aliases:
+  - input: ISO/IEC 30193:2020/DAmd 1
+    style: v3
+- id: iso.iso-pubid-coramd.0117
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    copublishers:
+    - IEC
+    stage: cdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '9075'
+      part: '10'
+      year: '2016'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 9075-10:2016/CD Cor 1
+    urn: urn:iso:std:iso-iec:9075:-10:CD:cor:1:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0118
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    copublishers:
+    - IEC
+    stage: cdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '9075'
+      part: '13'
+      year: '2016'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 9075-13:2016/CD Cor 2
+    urn: urn:iso:std:iso-iec:9075:-13:CD:cor:2:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0119
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    year: '2015'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '9075'
+      part: '14'
+      year: '2011'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 9075-14:2011/Cor 2:2015
+    urn: urn:iso:std:iso-iec:9075:-14:cor:2015:v2
+  style: v3
+- id: iso.iso-pubid-coramd.0120
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    copublishers:
+    - IEC
+    stage: cdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '9075'
+      part: '14'
+      year: '2016'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 9075-14:2016/CD Cor 2
+    urn: urn:iso:std:iso-iec:9075:-14:CD:cor:2:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0121
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2019'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '9075'
+      part: '14'
+      year: '2016'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 9075-14:2016/Cor 1:2019
+    urn: urn:iso:std:iso-iec:9075:-14:cor:2019:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0122
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    copublishers:
+    - IEC
+    stage: cdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '9075'
+      part: '15'
+      year: '2019'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 9075-15:2019/CD Cor 1
+    urn: urn:iso:std:iso-iec:9075:-15:CD:cor:1:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0123
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    copublishers:
+    - IEC
+    stage: cdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '9075'
+      part: '1'
+      year: '2016'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 9075-1:2016/CD Cor 1
+    urn: urn:iso:std:iso-iec:9075:-1:CD:cor:1:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0124
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2019'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '9075'
+      part: '4'
+      year: '2016'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 9075-4:2016/Cor 1:2019
+    urn: urn:iso:std:iso-iec:9075:-4:cor:2019:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0125
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2018'
+    copublishers:
+    - IEC
+    - IEEE
+    base:
+      _type: pubid:iso:international-standard
+      number: '8802'
+      part: '21'
+      year: '2018'
+      copublishers:
+      - IEC
+      - IEEE
+  representations:
+    human: ISO/IEC/IEEE 8802-21:2018/Cor 1:2018
+    urn: urn:iso:std:iso-iec-ieee:8802:-21:cor:2018:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0126
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    copublishers:
+    - IEC
+    - IEEE
+    stage: fdamd
+    base:
+      _type: pubid:iso:international-standard
+      number: '8802'
+      part: '3'
+      year: '2021'
+      copublishers:
+      - IEC
+      - IEEE
+  representations:
+    human: ISO/IEC/IEEE 8802-3:2021/FDAM 1
+    urn: urn:iso:std:iso-iec-ieee:8802:-3:FDAM:amd:1:v1
+  style: v3
+  non_normalized_aliases:
+  - input: ISO/IEC/IEEE 8802-3:2021/FDAmd 1
+    style: v3
+- id: iso.iso-pubid-coramd.0127
+  identifier:
+    _type: pubid:iso:amendment
+    number: '10'
+    copublishers:
+    - IEC
+    - IEEE
+    stage: fdamd
+    base:
+      _type: pubid:iso:international-standard
+      number: '8802'
+      part: '3'
+      year: '2021'
+      copublishers:
+      - IEC
+      - IEEE
+  representations:
+    human: ISO/IEC/IEEE 8802-3:2021/FDAM 10
+    urn: urn:iso:std:iso-iec-ieee:8802:-3:FDAM:amd:10:v1
+  style: v3
+  non_normalized_aliases:
+  - input: ISO/IEC/IEEE 8802-3:2021/FDAmd 10
+    style: v3
+- id: iso.iso-pubid-coramd.0128
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2016'
+    copublishers:
+    - IEEE
+    base:
+      _type: pubid:iso:international-standard
+      number: '11073'
+      part: '10418'
+      year: '2014'
+      copublishers:
+      - IEEE
+  representations:
+    human: ISO/IEEE 11073-10418:2014/Cor 1:2016
+    urn: urn:iso:std:iso-ieee:11073:-10418:cor:2016:v1
+  style: v3
+- id: iso.iso-pubid-coramd.0129
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    stage: fdcor
+    base:
+      _type: pubid:iso:technical-report
+      number: '23455'
+      year: '2019'
+  representations:
+    human: ISO/TR 23455:2019/FDCor 1
+    urn: urn:iso:std:iso:tr:23455:FDCOR:cor:1:v1
+  style: v3

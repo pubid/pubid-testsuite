@@ -1,0 +1,519 @@
+---
+- id: iec.iecee.0001
+  identifier:
+    _type: pubid:iec:international-standard
+    number: '01'
+    year: '2025'
+    month: '10'
+    publisher: IEC CA
+  representations:
+    human: IEC CA 01:2025-10
+    urn: 'urn:iec:std:ca:01:2025-10:::'
+  style: v3
+- id: iec.iecee.0002
+  identifier:
+    _type: pubid:iec:international-standard
+    number: '01'
+    year: '2025'
+    month: '10'
+    edition:
+      number: '5.0'
+    publisher: IEC CA
+  representations:
+    human: IEC CA 01:2025-10 ED5.0
+    urn: 'urn:iec:std:ca:01:2025-10:::'
+  style: v3
+  non_normalized_aliases:
+  - input: IEC CA 01:2025-10, Ed. 5.0
+    style: v3
+- id: iec.iecee.0003
+  identifier:
+    _type: pubid:iec:international-standard
+    number: '01'
+    year: '2025'
+    month: '10'
+    languages:
+    - code: en
+      original_code: en
+    publisher: IEC CA
+  representations:
+    human: IEC CA 01:2025-10(en)
+    urn: urn:iec:std:ca:01:2025-10:::en
+  style: v3
+- id: iec.iecee.0004
+  identifier:
+    _type: pubid:iec:international-standard
+    number: PUB01
+    year: '2022'
+    month: '09'
+    edition:
+      number: '1.1'
+    publisher: IEC CAB
+  representations:
+    human: IEC CAB PUB01:2022-09 ED1.1
+  style: v3
+  non_normalized_aliases:
+  - input: IEC CABPUB01:2022-09, Ed. 1.1
+    style: v3
+- id: iec.iecee.0005
+  identifier:
+    _type: pubid:iec:guide
+    number: '115'
+    edition:
+      number: '3'
+  representations:
+    human: IEC GUIDE 115 ED3
+    urn: 'urn:iec:std:iec:115::guide::'
+  style: v3
+  non_normalized_aliases:
+  - input: "IEC Guide 115\tED3"
+    style: v3
+- id: iec.iecee.0006
+  identifier:
+    _type: pubid:iec:international-standard
+    number: '01'
+    part: S
+    edition:
+      number: '5.1'
+    publisher: IECEE
+  representations:
+    human: IECEE 01-S ED5.1
+    urn: 'urn:iec:std:iecee:01-::::'
+  style: v3
+- id: iec.iecee.0007
+  identifier:
+    _type: pubid:iec:international-standard
+    number: '01'
+    part: S
+    year: '2025'
+    month: '03'
+    edition:
+      number: '5.1'
+    publisher: IECEE
+  representations:
+    human: IECEE 01-S:2025-03 ED5.1
+    urn: 'urn:iec:std:iecee:01-::::'
+  style: v3
+  non_normalized_aliases:
+  - input: IECEE 01-S:2025-03, Ed. 5.1
+    style: v3
+- id: iec.iecee.0008
+  identifier:
+    _type: pubid:iec:international-standard
+    number: '02'
+    edition:
+      number: '24'
+    publisher: IECEE
+  representations:
+    human: IECEE 02 ED24
+    urn: 'urn:iec:std:iecee:02::::'
+  style: v3
+- id: iec.iecee.0009
+  identifier:
+    _type: pubid:iec:international-standard
+    number: '02'
+    edition:
+      number: '25'
+    publisher: IECEE
+  representations:
+    human: IECEE 02 ED25
+    urn: 'urn:iec:std:iecee:02::::'
+  style: v3
+- id: iec.iecee.0010
+  identifier:
+    _type: pubid:iec:international-standard
+    number: '02'
+    part: '1'
+    edition:
+      number: '11'
+    publisher: IECEE
+  representations:
+    human: IECEE 02-1 ED11
+    urn: 'urn:iec:std:iecee:02-1::::'
+  style: v3
+- id: iec.iecee.0011
+  identifier:
+    _type: pubid:iec:international-standard
+    number: '02'
+    part: '1'
+    edition:
+      number: '12'
+    publisher: IECEE
+  representations:
+    human: IECEE 02-1 ED12
+    urn: 'urn:iec:std:iecee:02-1::::'
+  style: v3
+- id: iec.iecee.0012
+  identifier:
+    _type: pubid:iec:international-standard
+    number: '02'
+    part: '2'
+    edition:
+      number: '12'
+    publisher: IECEE
+  representations:
+    human: IECEE 02-2 ED12
+    urn: 'urn:iec:std:iecee:02-2::::'
+  style: v3
+- id: iec.iecee.0013
+  identifier:
+    _type: pubid:iec:international-standard
+    number: '02'
+    part: '2'
+    edition:
+      number: '13'
+    publisher: IECEE
+  representations:
+    human: IECEE 02-2 ED13
+    urn: 'urn:iec:std:iecee:02-2::::'
+  style: v3
+- id: iec.iecee.0014
+  identifier:
+    _type: pubid:iec:international-standard
+    number: '02'
+    part: '3'
+    edition:
+      number: '8'
+    publisher: IECEE
+  representations:
+    human: IECEE 02-3 ED8
+    urn: 'urn:iec:std:iecee:02-3::::'
+  style: v3
+- id: iec.iecee.0015
+  identifier:
+    _type: pubid:iec:international-standard
+    number: '02'
+    year: '2025'
+    month: '06'
+    languages:
+    - code: en
+      original_code: en
+    publisher: IECEE
+  representations:
+    human: IECEE 02:2025-06(en)
+    urn: urn:iec:std:iecee:02:2025-06:::en
+  style: v3
+- id: iec.iecee.0016
+  identifier:
+    _type: pubid:iec:international-standard
+    number: '06'
+    edition:
+      number: '1.1'
+    publisher: IECEE
+  representations:
+    human: IECEE 06 ED1.1
+    urn: 'urn:iec:std:iecee:06::::'
+  style: v3
+- id: iec.iecee.0017
+  identifier:
+    _type: pubid:iec:international-standard
+    number: '06'
+    edition:
+      number: '1.2'
+    publisher: IECEE
+  representations:
+    human: IECEE 06 ED1.2
+    urn: 'urn:iec:std:iecee:06::::'
+  style: v3
+- id: iec.iecee.0018
+  identifier:
+    _type: pubid:iec:international-standard
+    number: AD
+    part: '001'
+    publisher: IECEE
+  representations:
+    human: IECEE AD-001
+  style: v3
+- id: iec.iecee.0019
+  identifier:
+    _type: pubid:iec:international-standard
+    number: AD
+    part: '001'
+    edition:
+      number: '1.6'
+    publisher: IECEE
+  representations:
+    human: IECEE AD-001 ED1.6
+  style: v3
+  non_normalized_aliases:
+  - input: "IECEE AD-001\tED1.6"
+    style: v3
+- id: iec.iecee.0020
+  identifier:
+    _type: pubid:iec:international-standard
+    number: AD
+    part: '001'
+    edition:
+      number: '1.7'
+    publisher: IECEE
+  representations:
+    human: IECEE AD-001 ED1.7
+  style: v3
+  non_normalized_aliases:
+  - input: "IECEE AD-001\tED1.7"
+    style: v3
+- id: iec.iecee.0021
+  identifier:
+    _type: pubid:iec:international-standard
+    number: AD
+    part: '003'
+    edition:
+      number: '1.2'
+    publisher: IECEE
+  representations:
+    human: IECEE AD-003 ED1.2
+  style: v3
+  non_normalized_aliases:
+  - input: "IECEE AD-003\tED1.2"
+    style: v3
+- id: iec.iecee.0022
+  identifier:
+    _type: pubid:iec:international-standard
+    number: AD
+    part: '004'
+    edition:
+      number: '1.2'
+    publisher: IECEE
+  representations:
+    human: IECEE AD-004 ED1.2
+  style: v3
+  non_normalized_aliases:
+  - input: "IECEE AD-004\tED1.2"
+    style: v3
+- id: iec.iecee.0023
+  identifier:
+    _type: pubid:iec:international-standard
+    number: AD
+    part: '005'
+    edition:
+      number: '1.1'
+    publisher: IECEE
+  representations:
+    human: IECEE AD-005 ED1.1
+  style: v3
+  non_normalized_aliases:
+  - input: "IECEE AD-005\tED1.1"
+    style: v3
+- id: iec.iecee.0024
+  identifier:
+    _type: pubid:iec:international-standard
+    number: AD
+    part: '007'
+    edition:
+      number: '1'
+    publisher: IECEE
+  representations:
+    human: IECEE AD-007 ED1
+  style: v3
+  non_normalized_aliases:
+  - input: "IECEE AD-007\tED1"
+    style: v3
+- id: iec.iecee.0025
+  identifier:
+    _type: pubid:iec:international-standard
+    number: AD
+    part: '008'
+    edition:
+      number: '1'
+    publisher: IECEE
+  representations:
+    human: IECEE AD-008 ED1
+  style: v3
+  non_normalized_aliases:
+  - input: "IECEE AD-008\tED1"
+    style: v3
+- id: iec.iecee.0026
+  identifier:
+    _type: pubid:iec:international-standard
+    number: AD
+    part: '008'
+    subpart: F1
+    edition:
+      number: '1'
+    publisher: IECEE
+  representations:
+    human: IECEE AD-008-F1 ED1
+  style: v3
+  non_normalized_aliases:
+  - input: "IECEE AD-008-F1\tED1"
+    style: v3
+- id: iec.iecee.0027
+  identifier:
+    _type: pubid:iec:international-standard
+    number: AD
+    part: '008'
+    subpart: F2
+    edition:
+      number: '1'
+    publisher: IECEE
+  representations:
+    human: IECEE AD-008-F2 ED1
+  style: v3
+  non_normalized_aliases:
+  - input: "IECEE AD-008-F2\tED1"
+    style: v3
+- id: iec.iecee.0028
+  identifier:
+    _type: pubid:iec:international-standard
+    number: AD
+    part: '009'
+    edition:
+      number: '1'
+    publisher: IECEE
+  representations:
+    human: IECEE AD-009 ED1
+  style: v3
+  non_normalized_aliases:
+  - input: "IECEE AD-009\tED1"
+    style: v3
+- id: iec.iecee.0029
+  identifier:
+    _type: pubid:iec:international-standard
+    number: AD
+    part: '010'
+    edition:
+      number: '1'
+    publisher: IECEE
+  representations:
+    human: IECEE AD-010 ED1
+  style: v3
+  non_normalized_aliases:
+  - input: "IECEE AD-010\tED1"
+    style: v3
+- id: iec.iecee.0030
+  identifier:
+    _type: pubid:iec:international-standard
+    number: GD
+    part: '2053'
+    edition:
+      number: '1.2'
+    publisher: IECEE
+  representations:
+    human: IECEE GD-2053 ED1.2
+  style: v3
+  non_normalized_aliases:
+  - input: "IECEE GD-2053\tED1.2"
+    style: v3
+- id: iec.iecee.0031
+  identifier:
+    _type: pubid:iec:international-standard
+    number: GD
+    part: '2053'
+    subpart: F1
+    edition:
+      number: '1.1'
+    publisher: IECEE
+  representations:
+    human: IECEE GD-2053-F1 ED1.1
+  style: v3
+  non_normalized_aliases:
+  - input: "IECEE GD-2053-F1\tED1.1"
+    style: v3
+- id: iec.iecee.0032
+  identifier:
+    _type: pubid:iec:international-standard
+    number: GD
+    part: '2053'
+    subpart: F2
+    edition:
+      number: '1.1'
+    publisher: IECEE
+  representations:
+    human: IECEE GD-2053-F2 ED1.1
+  style: v3
+  non_normalized_aliases:
+  - input: "IECEE GD-2053-F2\tED1.1"
+    style: v3
+- id: iec.iecee.0033
+  identifier:
+    _type: pubid:iec:international-standard
+    number: GD
+    part: '2065'
+    edition:
+      number: '1'
+    publisher: IECEE
+  representations:
+    human: IECEE GD-2065 ED1
+  style: v3
+  non_normalized_aliases:
+  - input: "IECEE GD-2065\tED1"
+    style: v3
+- id: iec.iecee.0034
+  identifier:
+    _type: pubid:iec:international-standard
+    number: GD
+    part: '2066'
+    edition:
+      number: '1'
+    publisher: IECEE
+  representations:
+    human: IECEE GD-2066 ED1
+  style: v3
+  non_normalized_aliases:
+  - input: "IECEE GD-2066\tED1"
+    style: v3
+- id: iec.iecee.0035
+  identifier:
+    _type: pubid:iec:international-standard
+    number: GD
+    part: '5015'
+    edition:
+      number: '1'
+    publisher: IECEE
+  representations:
+    human: IECEE GD-5015 ED1
+  style: v3
+  non_normalized_aliases:
+  - input: "IECEE GD-5015\tED1"
+    style: v3
+- id: iec.iecee.0036
+  identifier:
+    _type: pubid:iec:international-standard
+    number: '01'
+    part: S
+    year: '2025'
+    month: '04'
+    edition:
+      number: '3.1'
+    publisher: IECEx
+  representations:
+    human: IECEx 01-S:2025-04 ED3.1
+    urn: 'urn:iec:std:iecex:01-::::'
+  style: v3
+  non_normalized_aliases:
+  - input: IECEx 01-S:2025-04, Ed. 3.1
+    style: v3
+- id: iec.iecee.0037
+  identifier:
+    _type: pubid:iec:international-standard
+    number: '01'
+    part: S
+    year: '2024'
+    month: '03'
+    edition:
+      number: '3.0'
+    publisher: IECQ
+  representations:
+    human: IECQ 01-S:2024-03 ED3.0
+    urn: 'urn:iec:std:iecq:01-::::'
+  style: v3
+  non_normalized_aliases:
+  - input: IECQ 01-S:2024-03, Ed. 3.0
+    style: v3
+- id: iec.iecee.0038
+  identifier:
+    _type: pubid:iec:international-standard
+    number: '01'
+    part: S
+    year: '2025'
+    month: '02'
+    edition:
+      number: '5.1'
+    publisher: IECRE
+  representations:
+    human: IECRE 01-S:2025-02 ED5.1
+    urn: 'urn:iec:std:iecre:01-::::'
+  style: v3
+  non_normalized_aliases:
+  - input: IECRE 01-S:2025-02 Ed. 5.1
+    style: v3
