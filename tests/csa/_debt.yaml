@@ -1,753 +1,174 @@
 ---
-- id: csa.debt.3321151609441447472
-  input: "!CAN/CSA-C22.2 NO. 60601-1-6:11 + A1:15 + A2:21 (R2021) (CONSOLIDATED)!CAN/CSA-C22.2-60601-1-6:11
-    + A1:15 + A2:21 (R2021)"
+- id: csa.debt.a69cc68fad8d
+  input: CAN/CSA-IWA 18:17 (R2022)
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1587041767044193798
-  input: "!CAN/CSA-C22.2 NO. 60601-1-8:08 + A1:14 + A2:21 (R2023) (CONSOLIDATED)!CAN/CSA-C22.2-60601-1-8:08
-    + A1:14 + A2:21 (R2023)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4438944687116017690
-  input: "!CAN/CSA-C22.2 NO. 60601-1-9:15 + A1:15 + A2:21 (CONSOLIDATED) (R2024)!CAN/CSA-C22.2-60601-1-9:15
-    + A1:15 + A2:21 (R2024)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2531493334328622385
-  input: "!CAN/CSA-C22.2 NO. 60601-1:14 + A2:22 (R2022) (CONSOLIDATED)!CAN/CSA-C22.2-60601-1:14
-    + A2:22 (R2022)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.438290067473731926
-  input: "!CAN/CSA-C22.2 NO. 60601-2-4:12 + A1:19 (R2021) (CONSOLIDATED)!CAN/CSA-C22.2-60601-2-4:12
-    + A1:19 (R2021)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2436069969781206918
-  input: "!CAN/CSA-C22.2 NO. 60601-1-6:11/A1:15 (R2021)!CAN/CSA C22.2 NO. 60601-1-6:11/A1:15
-    (R2021)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2057442179455283851
-  input: "!CAN/CSA-C22.2 NO. 60601-1-6:11/A2:21 (R2021)!CAN/CSA C22.2 NO. 60601-1-6:11/A2:21
-    (R2021)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.990518414352516106
-  input: "!CAN/CSA-C22.2 NO. 60601-1-8:08/A1:14 (R2023)!CAN/CSA C22.2 NO. 60601-1-8:08/A1:14
-    (R2023)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4386274440177351624
-  input: "!CAN/CSA-C22.2 NO. 60601-1-8:08/A2:21 (R2023)!CAN/CSA C22.2 NO. 60601-1-8:08/A2:21
-    (R2023)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2059374045990406657
-  input: "!CAN/CSA-C22.2 NO. 60601-1-9:15/A2:21 (R2024)!CAN/CSA C22.2 NO. 60601-1-9:15/A2:21
-    (R2024)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.384031408501317270
-  input: "!CAN/CSA-C22.2 NO. 60601-1:14/A2:22 (R2022)!CAN/CSA C22.2 NO. 60601-1:14/A2:22
-    (R2022)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.769692746478495792
-  input: "!CAN/CSA-C22.2 NO. 60601-2-10:14/A1:18 (R2023)!CAN/CSA C22.2 NO. 60601-2-10:14/A1:18
-    (R2023)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3266996106678986898
-  input: "!CAN/CSA-C22.2 NO. 60601-2-10:14/A2:23 (R2023)!CAN/CSA C22.2 NO. 60601-2-10:14/A2:23
-    (R2023)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3245095628804378099
-  input: "!CAN/CSA-C22.2 NO. 60601-2-3:14 (R2023)/A2:24!CAN/CSA C22.2 NO. 60601-2-3:14/A2:24
-    (R2023)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2059924850019497537
-  input: "!CAN/CSA-C22.2 NO. 60601-2-3:14/A1:18 (R2023)!CAN/CSA C22.2 NO. 60601-2-3:14/A1:18
-    (R2023)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3625703113768934684
-  input: "!CAN/CSA-C22.2 NO. 60601-2-45:11 (R2021)/A2:23!CAN/CSA C22.2 NO. 60601-2-45:11/A2:23
-    (R2021)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.393728733209227952
-  input: "!CAN/CSA-C22.2 NO. 60601-2-45:11/A1:17 (R2021)!CAN/CSA C22.2 NO. 60601-2-45:11/A1:17
-    (R2021)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1131538518898882685
-  input: "!CAN/CSA-C22.2 NO. 60601-2-6:14 (R2023)/A2:24!CAN/CSA C22.2 NO. 60601-2-6:14/A2:24
-    (R2023)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.225632764432548915
-  input: "!CAN/CSA-C22.2 NO. 60601-2-6:14/A1:18 (R2023)!CAN/CSA C22.2 NO. 60601-2-6:14/A1:18
-    (R2023)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2189437673708390016
-  input: "!CAN/CSA-C22.2 NO. 62841-2-1:18/A1:23 (R2023)!CAN/CSA C22.2 NO. 62841-2-1:18/A1:23
-    (R2023)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.819165363753587114
-  input: "!CAN/CSA-C22.2 NO. 62841-2-11:17/A1:20 (R2021)!CAN/CSA C22.2 NO. 62841-2-11:17/A1:20
-    (R2021)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2822513765764288818
-  input: "!CAN/CSA-C22.2 NO. 62841-3-1:16 (R2021)/A1:22!CAN/CSA C22.2 NO. 62841-3-1:16/A1:22
-    (R2021)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2545663117527374136
-  input: "!CAN/CSA-C22.2 NO. 62841-3-10:16 (R2021)/A1:23!CAN/CSA C22.2 NO. 62841-3-10:16/A1:23
-    (R2021)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3332798530751313464
-  input: "!CAN/CSA-C22.2 NO. 62841-3-4:16 (R2021)/A2:25!CAN/CSA C22.2 NO. 62841-3-4:16/A2:25
-    (R2021)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.724945306001406574
-  input: "!CAN/CSA-C22.2 NO. 62841-3-4:16/A1:19 (R2021)!CAN/CSA C22.2 NO. 62841-3-4:16/A1:19
-    (R2021)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3026005791606884413
-  input: "!CAN/CSA-C22.2 NO. 62841-3-6:16 (R2020)/A1:23!CAN/CSA C22.2 NO. 62841-3-6:16/A1:23
-    (R2020)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4142929476446595423
-  input: "!CAN/CSA-CEI/IEC 61000-4-28-01/A2:10 (R2022)!CAN/CSA-IEC 61000-4-28-01/A2:10
-    (R2022)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3856953511886421865
-  input: "!CAN/CSA-E1029-2-3-94/A1:06 (R2022)!CAN/CSA E1029-2-3-94/A1:06 (R2022)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4157703115022806257
-  input: "!CAN/CSA-E1029-2-4-94/A1:06 (R2022)!CAN/CSA E1029-2-4-94/A1:06 (R2022)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.147196217725617113
-  input: "!CAN/CSA-E60335-2-6:18/A1:20 (R2023)!CAN/CSA E60335-2-6:18/A1:20 (R2023)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4385193609078885830
-  input: "!CAN/CSA-E60730-2-9:18 (R2023)/A2:24!CAN/CSA E60730-2-9:18/A2:24 (R2023)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1230826631039791706
-  input: "!CAN/CSA-CEI/IEC 1000-1-1-97 (R2023)!CAN/CSA-IEC 1000-1-1-97 (R2023)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3013014719475052038
-  input: "!CAN/CSA-CEI/IEC 1000-2-1-97 (R2023)!CAN/CSA-IEC 1000-2-1-97 (R2023)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1616627745057228004
-  input: "!CAN/CSA-CEI/IEC 1160-96 (R2001)!CAN/CSA-IEC 1160-96 (R2001)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3279478069369877953
-  input: "!CAN/CSA-CEI/IEC 1258-98 (R2002)!CAN/CSA-IEC 1258-98 (R2002)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.35764169628685013
-  input: "!CAN/CSA-CEI/IEC 1288-1-98 (R2012)!CAN/CSA-IEC 1288-1-98 (R2012)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1782039818823133859
-  input: "!CAN/CSA-CEI/IEC 1288-2-98 (R2012)!CAN/CSA-IEC 1288-2-98 (R2012)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3679130936225574746
-  input: "!CAN/CSA-CEI/IEC 1289-1-98 (R2012)!CAN/CSA-IEC 1289-1-98 (R2012)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.182931723659327835
-  input: "!CAN/CSA-CEI/IEC 1289-2-98 (R2012)!CAN/CSA-IEC 1289-2-98 (R2012)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.231399653510983020
-  input: "!CAN/CSA-CEI/IEC 300-2-97 (R2002)!CAN/CSA-IEC 300-2-97 (R2002)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3686430362009376837
-  input: "!CAN/CSA-CEI/IEC 300-3-9-97 (R2006)!CAN/CSA-IEC 300-3-9-97 (R2006)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.12550248527905307
-  input: "!CAN/CSA-CEI/IEC 61000-2-4:04 (R2022)!CAN/CSA-IEC 61000-2-4:04 (R2022)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.992734348758155552
-  input: "!CAN/CSA-CEI/IEC 61000-2-6:04 (R2022)!CAN/CSA-IEC 61000-2-6:04 (R2022)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.157016556720003642
-  input: "!CAN/CSA-CEI/IEC 61000-2-8:04 (R2022)!CAN/CSA-IEC 61000-2-8:04 (R2022)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3713628320409796721
-  input: "!CAN/CSA-CEI/IEC 61000-4-14-01 (R2022)!CAN/CSA-IEC 61000-4-14-01 (R2022)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.512368184979731278
-  input: "!CAN/CSA-CEI/IEC 61000-4-28-01 (R2022)!CAN/CSA-IEC 61000-4-28-01 (R2022)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1518879376852107030
-  input: "!CAN/CSA-ISO GUIDE 64-98 (R2007)!CAN/CSA-ISO Guide 64-98 (R2007)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1167764712982725106
-  input: "!CAN/CSA-ISO IWA 18:17 (R2022)!CAN/CSA-IWA 18:17 (R2022)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2834741582971834085
-  input: "!CAN/CSA-CEI/IEC 61000-4-14-01/A1:03 (R2022)!CAN/CSA-IEC 61000-4-14-01/A1:03
-    (R2022)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2234255144449067069
-  input: "!CAN/CSA-CEI/IEC 61000-4-14-01/A2:10 (R2022)!CAN/CSA-IEC 61000-4-14-01/A2:10
-    (R2022)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.262277701874550718
-  input: "!CAN/CSA-CEI/IEC 61000-4-28-01/A1:03 (R2022)!CAN/CSA-IEC 61000-4-28-01/A1:03
-    (R2022)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4056074993497262247
-  input: "!CSA C22.2 NO. 125-M1984 (R2004)!CSA C22.2 NO. 125-M84(R2004)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3608561355400893805
-  input: "!CSA C22.2 NO. 142-M1987 (R2014)!CSA C22.2 NO. 142-M87(R2014)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3350000347061257862
-  input: "!CSA C22.2 NO. 151-M1986 (R2009)!CSA C22.2 NO. 151-M86(R2009)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.180701752779995559
-  input: "!CSA C22.2 NO. 168-M1981 (R2004)!CSA C22.2 NO. 168-M81(R2004)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2775603095316300851
-  input: "!CSA C22.2 NO. 183.1-M1982 (R2018)!CSA C22.2 NO. 183.1-M82(R2018)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.989170959861678131
-  input: "!CSA C22.2 NO. 183.2-M1983 (R2018)!CSA C22.2 NO. 183.2-M83(R2018)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.274056488420340186
-  input: "!CSA C22.2 NO. 200-M1985 (R2004)!CSA C22.2 NO. 200-M85(R2004)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3037032287907390194
-  input: "!CSA C22.2 NO. 45-M1981 (R2008)!CSA C22.2 NO. 45-M81(R2008)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4336965677477363445
-  input: "!CSA C22.2 NO. 6-M1984 (R2000)!CSA C22.2 NO. 6-M84(R2000)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.728397148216595729
-  input: "!CSA C22.2 NO. 66-1988 (R2001)!CSA C22.2 NO. 66-88(R2001)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.844092287540876638
-  input: "!CSA C22.2 NO. 73-1953 (R2013)!CSA C22.2 NO. 73-53(R2013)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3232584398987353870
-  input: "!CSA C22.2 NO. 98-1954 (R2012)!CSA C22.2 NO. 98-54(R2012)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3398801387234355403
-  input: "!CSA C22.3 NO. 4-1974 (R2020)!CSA C22.3 NO. 4-74(R2020)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.502470838138204397
+- id: csa.debt.51625bf3449c
   input: CSA N285.0:23/CSA N285.6 SERIES:23
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''second'' value is a ''Pubid::Csa::Identifiers::Series'' but should be a ''Pubid::Csa::Identifiers::Standard'''
-- id: csa.debt.444743378694416869
-  input: "!CSA ISO/IEC 9797-1:12 (R2021)/A1:25!CSA ISO/IEC 9797-1:12/A1:25 (R2021)"
+- id: csa.debt.d1070cc05872
+  input: CAN/CSA-CEI/IEC CISPR 13-09 (R2014)
   expect:
     error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4020054500094414520
-  input: "!CAN/CSA-CEI/IEC CISPR 13-09 (R2014)!"
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
+    for nil'
+- id: csa.debt.d16926182db3
+  input: CAN/CSA-CEI/IEC CISPR 20:08 (R2018)
   expect:
     error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.991975049595784456
-  input: "!CAN/CSA-CEI/IEC CISPR 20:08 (R2018)!"
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
+    for nil'
+- id: csa.debt.1c97b3bd258e
+  input: CAN/CSA-IEC CISPR 16-1-1:18 (R2023)
   expect:
     error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3418184387509668349
-  input: "!CAN/CSA-IEC CISPR 16-1-1:18 (R2023)!"
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
+    for nil'
+- id: csa.debt.c164dd2859af
+  input: CAN/CSA-IEC CISPR 16-2-3:18 (R2023)
   expect:
     error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4334843324849343536
-  input: "!CAN/CSA-IEC CISPR 16-2-3:18 (R2023)!"
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
+    for nil'
+- id: csa.debt.043197687f56
+  input: CAN/CSA-ISO 10993.11-98 (R2003)
   expect:
     error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1989668813009354210
-  input: "!CAN/CSA-ISO 10993.11-98 (R2003)!"
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
+    for nil'
+- id: csa.debt.c69c6736852f
+  input: CAN/CSA-ISO 10993.12-98 (R2002)
   expect:
     error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1618413643747916875
-  input: "!CAN/CSA-ISO 10993.12-98 (R2002)!"
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
+    for nil'
+- id: csa.debt.8e616c4c9e26
+  input: CAN/CSA-ISO 10993.2-97 (R2009)
   expect:
     error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1634001678043616851
-  input: "!CAN/CSA-ISO 10993.2-97 (R2009)!"
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
+    for nil'
+- id: csa.debt.f0e6f6234be5
+  input: CAN/CSA-ISO 10993.3-97 (R2009)
   expect:
     error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2853416112715300251
-  input: "!CAN/CSA-ISO 10993.3-97 (R2009)!"
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
+    for nil'
+- id: csa.debt.3913d28f3019
+  input: CAN/CSA-ISO 10993.4-97 (R2006)
   expect:
     error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.179554798231270142
-  input: "!CAN/CSA-ISO 10993.4-97 (R2006)!"
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
+    for nil'
+- id: csa.debt.6a965f185e2c
+  input: CAN/CSA-ISO 10993.6-97 (R2009)
   expect:
     error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.435880898082990612
-  input: "!CAN/CSA-ISO 10993.6-97 (R2009)!"
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
+    for nil'
+- id: csa.debt.cb67d9f8c282
+  input: CAN/CSA-ISO 10993.7-98 (R2009)
   expect:
     error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.554955416531393654
-  input: "!CAN/CSA-ISO 10993.7-98 (R2009)!"
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
+    for nil'
+- id: csa.debt.841aa86bc2e9
+  input: CAN/CSA-ISO 5841.1-97 (R2001)
   expect:
     error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1559253157968172495
-  input: "!CAN/CSA-ISO 5841.1-97 (R2001)!"
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
+    for nil'
+- id: csa.debt.68bebfbf2269
+  input: CAN/CSA-ISO 9703.1-97 (R2006)
   expect:
     error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3831692789801237353
-  input: "!CAN/CSA-ISO 9703.1-97 (R2006)!"
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
+    for nil'
+- id: csa.debt.6ab88ac5370b
+  input: CAN/CSA-ISO 9703.2-97 (R2006)
   expect:
     error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.441986547127810772
-  input: "!CAN/CSA-ISO 9703.2-97 (R2006)!"
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
+    for nil'
+- id: csa.debt.1a4c5b383c40
+  input: CAN/CSA-ISO/IEC 10179A-96 (R2014)
   expect:
     error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1448294239910195990
-  input: "!CAN/CSA-ISO/IEC 10179A-96 (R2014)!"
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
+    for nil'
+- id: csa.debt.0e32b6da2b71
+  input: CAN/CSA-ISO/IEC 10179B-96 (R2014)
   expect:
     error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.976101689068251094
-  input: "!CAN/CSA-ISO/IEC 10179B-96 (R2014)!"
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
+    for nil'
+- id: csa.debt.653928afde46
+  input: CAN/CSA-ISO/IEC 10279A-94 (R2013)
   expect:
     error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2881281788955066462
-  input: "!CAN/CSA-ISO/IEC 10279A-94 (R2013)!"
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
+    for nil'
+- id: csa.debt.7c302cf4e6b1
+  input: CAN/CSA-ISO/IEC 10742A-94 (R2013)
   expect:
     error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2786808092534866096
-  input: "!CAN/CSA-ISO/IEC 10742A-94 (R2013)!"
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
+    for nil'
+- id: csa.debt.6913b4e8b53f
+  input: CAN/CSA-ISO/IEC 10742B-94 (R2013)
   expect:
     error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1559314549354449463
-  input: "!CAN/CSA-ISO/IEC 10742B-94 (R2013)!"
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
+    for nil'
+- id: csa.debt.47d94a1c7dbd
+  input: CAN/CSA-ISO/IEC 10742C-94 (R2013)
   expect:
     error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1245459111721133877
-  input: "!CAN/CSA-ISO/IEC 10742C-94 (R2013)!"
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
+    for nil'
+- id: csa.debt.1e9fa3e5efa4
+  input: CAN/CSA-ISO/IEC 10747A-95 (R2013)
   expect:
     error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1795507645124303991
-  input: "!CAN/CSA-ISO/IEC 10747A-95 (R2013)!"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3753716143198954201
-  input: "!CSA C108.1.2-M1981 (R2013)!CSA C108.1.2-M1981(R2013)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4051344941944106999
-  input: "!CSA C273.4-M1978 (R2003)!CSA C273.4-M1978(R2003)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.502470838138204397
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
+    for nil'
+- id: csa.debt.51625bf3449c
   input: CSA N285.0:23/CSA N285.6 SERIES:23
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''second'' value is a ''Pubid::Csa::Identifiers::Series'' but should be a ''Pubid::Csa::Identifiers::Standard'''
-- id: csa.debt.2277007357866701530
+- id: csa.debt.a33cc413eae3
   input: CSA C22.2 NO. 231SP-M1990 (R1996)
   expect:
     error:
@@ -755,15 +176,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3737437705864521417
-  input: "!B651HB-18!CSA B651HB:18"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
-    SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
-    SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4517759155311426155
+- id: csa.debt.780ef9217b8c
   input: CAN/CSA-C22.2 NO. 231 SERIES-M89 (R2001)
   expect:
     error:
@@ -771,7 +184,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3421495358510476123
+- id: csa.debt.e74b6ada746f
   input: CAN/CSA-C22.2 NO. 60079-18A:16 (R2021)
   expect:
     error:
@@ -779,7 +192,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3513611606901709321
+- id: csa.debt.36d60b5c1b25
   input: CAN/CSA-C22.2 NO. 60079-7A:16 (R2021)
   expect:
     error:
@@ -787,42 +200,42 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.420691918255414979
+- id: csa.debt.596f3abb85fc
   input: CAN/CSA-C22.2 NO. 60601-1-6:11 + A1:15 + A2:21 (R2021) (CONSOLIDATED)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::Csa::Identifiers::Cec'' but should be a ''Pubid::Csa::Identifiers::Standard'''
-- id: csa.debt.2178084142528806308
+- id: csa.debt.e5f5b98d788f
   input: CAN/CSA-C22.2 NO. 60601-1-8:08 + A1:14 + A2:21 (R2023) (CONSOLIDATED)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::Csa::Identifiers::Cec'' but should be a ''Pubid::Csa::Identifiers::Standard'''
-- id: csa.debt.4051107331695820057
+- id: csa.debt.dcb8f4ed48b1
   input: CAN/CSA-C22.2 NO. 60601-1-9:15 + A1:15 + A2:21 (CONSOLIDATED) (R2024)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::Csa::Identifiers::Cec'' but should be a ''Pubid::Csa::Identifiers::Standard'''
-- id: csa.debt.4446831167886449250
+- id: csa.debt.3fbc17cbaa43
   input: CAN/CSA-C22.2 NO. 60601-1:14 + A2:22 (R2022) (CONSOLIDATED)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::Csa::Identifiers::Cec'' but should be a ''Pubid::Csa::Identifiers::Standard'''
-- id: csa.debt.4362821042486757767
+- id: csa.debt.b466e6f14161
   input: CAN/CSA-C22.2 NO. 60601-2-4:12 + A1:19 (R2021) (CONSOLIDATED)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::Csa::Identifiers::Cec'' but should be a ''Pubid::Csa::Identifiers::Standard'''
-- id: csa.debt.920653148727822830
+- id: csa.debt.1bf7d14eb5a3
   input: CAN/CSA-C22.2 NO. 60601-2-4A:12 (R2021)
   expect:
     error:
@@ -830,7 +243,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3409294019449683122
+- id: csa.debt.92b237236f4d
   input: CAN/CSA-C22.2 NO. 60601-2-52A:11 (R2021)
   expect:
     error:
@@ -838,7 +251,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1351851205075885504
+- id: csa.debt.4e327e909666
   input: CAN/CSA-C22.2 NO. 60601-2-8A:12 (R2021)
   expect:
     error:
@@ -846,7 +259,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3598808494941376122
+- id: csa.debt.5e9bfd368505
   input: CAN/CSA-C22.2 NO. 60745-2-1-04/A1:10 (R2023)
   expect:
     error:
@@ -854,7 +267,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1601621924299677208
+- id: csa.debt.38ea87273d68
   input: CAN/CSA-C22.2 NO. 60745-2-11-04/A1:09 (R2023)
   expect:
     error:
@@ -862,7 +275,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1219592516784478336
+- id: csa.debt.5f607a792d2b
   input: CAN/CSA-C22.2 NO. 60745-2-14-04/A1:07 (R2023)
   expect:
     error:
@@ -870,7 +283,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1753671564233506544
+- id: csa.debt.aaff36183f3b
   input: CAN/CSA-C22.2 NO. 60745-2-14-04/A2:11 (R2023)
   expect:
     error:
@@ -878,7 +291,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3611645170193499565
+- id: csa.debt.7689f4099363
   input: CAN/CSA-C22.2 NO. 60745-2-2-04/A1:09 (R2023)
   expect:
     error:
@@ -886,7 +299,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.982645302792583529
+- id: csa.debt.77482a9a5f10
   input: CAN/CSA-C22.2 NO. 60745-2-3-07/A1:13 + A2:13 (R2022)
   expect:
     error:
@@ -894,7 +307,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3756726401058187018
+- id: csa.debt.f45c936f5fa9
   input: CAN/CSA-C22.2 NO. 60745-2-4-04/A1:09 (R2023)
   expect:
     error:
@@ -902,7 +315,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.908974301299720583
+- id: csa.debt.fa64f92b225d
   input: CAN/CSA-C22.2 NO. 60745-2-6-04/A1:06 (R2023)
   expect:
     error:
@@ -910,7 +323,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3745102644904514601
+- id: csa.debt.31f36b19d8b8
   input: CAN/CSA-C22.2 NO. 60745-2-6-04/A2:09 (R2023)
   expect:
     error:
@@ -918,7 +331,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4555780987458672522
+- id: csa.debt.003cb86dc63a
   input: CAN/CSA-C22.2 NO. 60745-2-8-04/A1:09 (R2023)
   expect:
     error:
@@ -926,7 +339,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4151681955343457369
+- id: csa.debt.2a34658fd4d6
   input: CAN/CSA-C22.2 NO. 60745-2-9-04/A1:09 (R2023)
   expect:
     error:
@@ -934,7 +347,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.892697178454046421
+- id: csa.debt.22746e5d1de5
   input: CAN/CSA-C22.2 NO. 60950-1A-07 (R2021)
   expect:
     error:
@@ -942,7 +355,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4321993148804162895
+- id: csa.debt.0b86f5207418
   input: CAN/CSA-C22.2 NO. 60950-1B-07 (R2021)
   expect:
     error:
@@ -950,7 +363,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2795272632216809920
+- id: csa.debt.bb3d772afa5c
   input: CAN/CSA-C22.2 NO. 61010-1-12/A1:18 (R2022)
   expect:
     error:
@@ -958,7 +371,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2128826239368890366
+- id: csa.debt.da703cc41fd0
   input: CAN/CSA-C22.2 NO. 61010-2-042-98(R03)PDF
   expect:
     error:
@@ -966,7 +379,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4002675064216892362
+- id: csa.debt.5cdf5a183255
   input: CAN/CSA-C22.2 NO. 61010-2-043-98(R03)PDF
   expect:
     error:
@@ -974,7 +387,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2266625059958442456
+- id: csa.debt.d6bd6f9d6abb
   input: CAN/CSA-C61000-2-12:04 (R2023)
   expect:
     error:
@@ -982,7 +395,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.248465039315216618
+- id: csa.debt.f46950dac9fb
   input: CAN/CSA-C61000-3-13-09 (R2022)
   expect:
     error:
@@ -990,21 +403,21 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3356384830286388757
+- id: csa.debt.d1070cc05872
   input: CAN/CSA-CEI/IEC CISPR 13-09 (R2014)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
     for nil'
-- id: csa.debt.108619069814010327
+- id: csa.debt.d16926182db3
   input: CAN/CSA-CEI/IEC CISPR 20:08 (R2018)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
     for nil'
-- id: csa.debt.1265704364499674549
+- id: csa.debt.919b0e287080
   input: CAN/CSA-E335-2-18-94 (R2001)
   expect:
     error:
@@ -1012,7 +425,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2821351656294182885
+- id: csa.debt.9e8b38043b10
   input: CAN/CSA-E335-2-19-94 (R2001)
   expect:
     error:
@@ -1020,7 +433,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4454757000027390905
+- id: csa.debt.f28f1adc5fbe
   input: CAN/CSA-E335-2-20-94 (R2001)
   expect:
     error:
@@ -1028,7 +441,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.37046145502583633
+- id: csa.debt.56bd46924e5f
   input: CAN/CSA-E335-2-33-94 (R2004)
   expect:
     error:
@@ -1036,7 +449,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.18379392929387093
+- id: csa.debt.aeb4a876be16
   input: CAN/CSA-E335-2-57-94 (R2004)
   expect:
     error:
@@ -1044,7 +457,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2519752556283008948
+- id: csa.debt.2b8a4af62430
   input: CAN/CSA-E335-2-63-94 (R2004)
   expect:
     error:
@@ -1052,7 +465,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4354713036324187786
+- id: csa.debt.df86fc807bdb
   input: CAN/CSA-E335-2-66-95 (R2005)
   expect:
     error:
@@ -1060,7 +473,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.667678361654722183
+- id: csa.debt.5828cbad0cc7
   input: CAN/CSA-E598-2-10-98 (R2017)
   expect:
     error:
@@ -1068,7 +481,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4445158304564302283
+- id: csa.debt.1cccdf389b72
   input: CAN/CSA-E598-2-17-98 (R2017)
   expect:
     error:
@@ -1076,7 +489,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1165778310799728071
+- id: csa.debt.1aee7e5bdbfe
   input: CAN/CSA-E598-2-19-98 (R2017)
   expect:
     error:
@@ -1084,7 +497,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2847134809310838229
+- id: csa.debt.aa31e3513066
   input: CAN/CSA-E60335-2-14:05 (R2023)
   expect:
     error:
@@ -1092,7 +505,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1836608566026327557
+- id: csa.debt.1d0045899f21
   input: CAN/CSA-E60335-2-26:13 (R2022)
   expect:
     error:
@@ -1100,7 +513,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4385286198000410116
+- id: csa.debt.5ec3d1a344f6
   input: CAN/CSA-E60335-2-30:13 (R2022)
   expect:
     error:
@@ -1108,7 +521,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1776821079208118951
+- id: csa.debt.57c3cecf6bf9
   input: CAN/CSA-E60335-2-30:13 + A1:21 + A2:21 (2022) (CONSOLIDATED)
   expect:
     error:
@@ -1116,7 +529,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3305095781714193692
+- id: csa.debt.3ffaa5edfe58
   input: CAN/CSA-E60335-2-30:13/A1:21 (R2022)
   expect:
     error:
@@ -1124,7 +537,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2579751160423692922
+- id: csa.debt.e3a3fbd36ad7
   input: CAN/CSA-E60335-2-30:13/A2:21 (R2022)
   expect:
     error:
@@ -1132,7 +545,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.795624615009231461
+- id: csa.debt.7c8e915ebe08
   input: CAN/CSA-E60335-2-53:05 (R2023)
   expect:
     error:
@@ -1140,7 +553,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.34461517383211541
+- id: csa.debt.f40bb64df41c
   input: CAN/CSA-E60335-2-58-01 (R2006)
   expect:
     error:
@@ -1148,7 +561,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1358239260833151203
+- id: csa.debt.31832e404aef
   input: CAN/CSA-E60335-2-62-01 (R2006)
   expect:
     error:
@@ -1156,7 +569,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4131347053752103922
+- id: csa.debt.c91a155c39fd
   input: CAN/CSA-E60335-2-71-06
   expect:
     error:
@@ -1164,7 +577,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2199212548716225339
+- id: csa.debt.323ba63443e8
   input: CAN/CSA-E60335-2-79:09 (R2023)
   expect:
     error:
@@ -1172,7 +585,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.810969945611339943
+- id: csa.debt.e5a91c6165e0
   input: CAN/CSA-E60730-2-10:13 (R2023)
   expect:
     error:
@@ -1180,21 +593,21 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1616918326934465368
+- id: csa.debt.1c97b3bd258e
   input: CAN/CSA-IEC CISPR 16-1-1:18 (R2023)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
     for nil'
-- id: csa.debt.1665726961804291633
+- id: csa.debt.c164dd2859af
   input: CAN/CSA-IEC CISPR 16-2-3:18 (R2023)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
     for nil'
-- id: csa.debt.1137543959531523914
+- id: csa.debt.2763bd41bdf9
   input: CAN/CSA-IEC/TR 62443-2-3:17 (R2022)
   expect:
     error:
@@ -1202,7 +615,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.2128367470324801292
+- id: csa.debt.58c7115a11da
   input: CAN/CSA-IEC/TR 62443-3-1:17 (R2022)
   expect:
     error:
@@ -1210,7 +623,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.1291515251391935008
+- id: csa.debt.de1b8f54c5dd
   input: CAN/CSA-IEC/TS 62443-1-1:17 (R2022)
   expect:
     error:
@@ -1218,126 +631,126 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4273811600550607502
+- id: csa.debt.043197687f56
   input: CAN/CSA-ISO 10993.11-98 (R2003)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
     for nil'
-- id: csa.debt.1032587271660459677
+- id: csa.debt.c69c6736852f
   input: CAN/CSA-ISO 10993.12-98 (R2002)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
     for nil'
-- id: csa.debt.3250188559437160394
+- id: csa.debt.8e616c4c9e26
   input: CAN/CSA-ISO 10993.2-97 (R2009)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
     for nil'
-- id: csa.debt.2305576531912021935
+- id: csa.debt.f0e6f6234be5
   input: CAN/CSA-ISO 10993.3-97 (R2009)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
     for nil'
-- id: csa.debt.473297820552755169
+- id: csa.debt.3913d28f3019
   input: CAN/CSA-ISO 10993.4-97 (R2006)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
     for nil'
-- id: csa.debt.4050701351125897540
+- id: csa.debt.6a965f185e2c
   input: CAN/CSA-ISO 10993.6-97 (R2009)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
     for nil'
-- id: csa.debt.4590555292249690760
+- id: csa.debt.cb67d9f8c282
   input: CAN/CSA-ISO 10993.7-98 (R2009)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
     for nil'
-- id: csa.debt.1786980950788091831
+- id: csa.debt.841aa86bc2e9
   input: CAN/CSA-ISO 5841.1-97 (R2001)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
     for nil'
-- id: csa.debt.795062645680837080
+- id: csa.debt.68bebfbf2269
   input: CAN/CSA-ISO 9703.1-97 (R2006)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
     for nil'
-- id: csa.debt.1732113306822310595
+- id: csa.debt.6ab88ac5370b
   input: CAN/CSA-ISO 9703.2-97 (R2006)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
     for nil'
-- id: csa.debt.391013352134982355
+- id: csa.debt.1a4c5b383c40
   input: CAN/CSA-ISO/IEC 10179A-96 (R2014)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
     for nil'
-- id: csa.debt.1306704314451082655
+- id: csa.debt.0e32b6da2b71
   input: CAN/CSA-ISO/IEC 10179B-96 (R2014)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
     for nil'
-- id: csa.debt.3614728967228230285
+- id: csa.debt.653928afde46
   input: CAN/CSA-ISO/IEC 10279A-94 (R2013)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
     for nil'
-- id: csa.debt.3769817596282366412
+- id: csa.debt.7c302cf4e6b1
   input: CAN/CSA-ISO/IEC 10742A-94 (R2013)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
     for nil'
-- id: csa.debt.1895951832291671501
+- id: csa.debt.6913b4e8b53f
   input: CAN/CSA-ISO/IEC 10742B-94 (R2013)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
     for nil'
-- id: csa.debt.3103440271525494542
+- id: csa.debt.47d94a1c7dbd
   input: CAN/CSA-ISO/IEC 10742C-94 (R2013)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
     for nil'
-- id: csa.debt.1581858141940274729
+- id: csa.debt.1e9fa3e5efa4
   input: CAN/CSA-ISO/IEC 10747A-95 (R2013)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''to_hash''
     for nil'
-- id: csa.debt.289851530667817273
+- id: csa.debt.e08fa871c16a
   input: CSA A440S1:19 (R2022)
   expect:
     error:
@@ -1345,7 +758,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4330318146808034999
+- id: csa.debt.702cbda76e71
   input: CSA A440S1:25
   expect:
     error:
@@ -1353,7 +766,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4359189687283323472
+- id: csa.debt.55577c462f52
   input: CSA AMERICA INTERIM REQUIREMENT 1.09
   expect:
     error:
@@ -1361,7 +774,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.208544777505457214
+- id: csa.debt.78cb966b6aa3
   input: CSA B125.5:22/IAPMO Z600-2022
   expect:
     error:
@@ -1369,7 +782,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3475850970782363568
+- id: csa.debt.29c147685e06
   input: CSA/ANSI B22734:23
   expect:
     error:
@@ -1377,7 +790,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4217110166068120974
+- id: csa.debt.ae90ab763360
   input: CSA/ANSI LNG 3.10:22
   expect:
     error:
@@ -1385,7 +798,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3331246928477102167
+- id: csa.debt.478a432c4cdb
   input: CSA/ANSI PRD 1:20
   expect:
     error:
@@ -1393,7 +806,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.3745997562216260906
+- id: csa.debt.ab8abdf52446
   input: CSA/ANSI Z83.11:25/CSA 1.8:25
   expect:
     error:
@@ -1401,7 +814,7 @@
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [ISO_IEC_ADOPTION,
     SERIES_IDENTIFIER, CEC_IDENTIFIER, BUNDLED_IDENTIFIER, COMBINED_SLASH, COMBINED_COMMA,
     SINGLE_IDENTIFIER, CODE_ONLY_IDENTIFIER] at line 1 char 1.'
-- id: csa.debt.4166719356198913774
+- id: csa.debt.c92d706e6e68
   input: CSA/ANSI 3.21:19 (R2024)
   expect:
     error:

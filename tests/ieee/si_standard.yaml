@@ -1,5 +1,5 @@
 ---
-- id: ieee.si_standard.8125
+- id: ieee.si_standard.9215
   identifier:
     _type: pubid:ieee:si-standard
     number: '10'
@@ -21,7 +21,7 @@
   non_normalized_aliases:
   - spelling: IEEE PSI 10/D2, October 2010
     style: v3
-- id: ieee.si_standard.8126
+- id: ieee.si_standard.9216
   identifier:
     _type: pubid:ieee:si-standard
     number: '10'
@@ -40,7 +40,7 @@
     urn: urn:ieee:ieee-astm:si:10:2015:draft./D2:October
   roundtrip: false
   style: v3
-- id: ieee.si_standard.8127
+- id: ieee.si_standard.9217
   identifier:
     _type: pubid:ieee:si-standard
     number: '10'
@@ -59,7 +59,7 @@
     urn: urn:ieee:ieee-astm:si:10:2010:draft./D3:October
   roundtrip: false
   style: v3
-- id: ieee.si_standard.8128
+- id: ieee.si_standard.9218
   identifier:
     _type: pubid:ieee:si-standard
     number: '10'
@@ -78,7 +78,7 @@
     urn: urn:ieee:ieee-astm:si:10:2015:draft./D3:October
   roundtrip: false
   style: v3
-- id: ieee.si_standard.8129
+- id: ieee.si_standard.9219
   identifier:
     _type: pubid:ieee:si-standard
     number: '10'
@@ -94,7 +94,10 @@
     human: IEEE/ASTM SI 10-1997
     urn: urn:ieee:ieee-astm:si:10:1997
   style: v3
-- id: ieee.si_standard.8130
+  non_normalized_aliases:
+  - spelling: IEEE/ASTM SI 10 -1997
+    style: v3
+- id: ieee.si_standard.9220
   identifier:
     _type: pubid:ieee:si-standard
     number: '10'
@@ -111,9 +114,11 @@
     urn: urn:ieee:ieee-astm:si:10:2002
   style: v3
   non_normalized_aliases:
+  - spelling: IEEE/ASTM SI 10 -2002 (Revision of IEEE/ASTM SI 10 -1997)
+    style: v3
   - spelling: IEEE/ASTM SI 10-2002 (Revision of IEEE/ASTM SI 10-1997)
     style: v3
-- id: ieee.si_standard.8131
+- id: ieee.si_standard.9221
   identifier:
     _type: pubid:ieee:si-standard
     number: '10'
@@ -132,7 +137,9 @@
   non_normalized_aliases:
   - spelling: IEEE/ ASTM SI 10-2010 (Revision of IEEE/ASTM SI 10-2002)
     style: v3
-- id: ieee.si_standard.8132
+  - spelling: IEEE/ASTM SI 10 -2010 (Revision of IEEE/ASTM SI 10 -2002)
+    style: v3
+- id: ieee.si_standard.9222
   identifier:
     _type: pubid:ieee:si-standard
     number: '10'
@@ -149,5 +156,7 @@
     urn: urn:ieee:ieee-astm:si:10:2016
   style: v3
   non_normalized_aliases:
+  - spelling: IEEE/ASTM SI 10 -2016 (Revision of IEEE/ASTM SI 10 -2010)
+    style: v3
   - spelling: IEEE/ASTM SI 10-2016 (Revision of IEEE/ASTM SI 10-2010)
     style: v3

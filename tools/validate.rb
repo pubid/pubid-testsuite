@@ -37,26 +37,31 @@ module Validator
 
   # pass/full: '#' lines are comments. fail: '#' lines wrap identifiers
   # as '#ID# Error...' - data only when a second '#' exists.
+  # Line semantics identical to tools/export.rb: '#' lines are comments
+  # (fail files wrap '#ID# Error...', data only with a second '#');
+  # '!' lines are classifier annotations '!ORIGINAL!NORMALIZED' - each
+  # non-empty half is a candidate identifier.
   def plain_lines(paths)
     paths.flat_map do |path|
-      File.readlines(path).map(&:strip).reject do |l|
-        l.empty? || l.start_with?("#")
+      File.readlines(path).flat_map do |raw|
+        line = raw.strip
+        next [] if line.empty?
+        if line.start_with?("!")
+          fixed = line.split("!").map(&:strip).reject(&:empty?).last
+          fixed ? [fixed] : []
+        elsif line.start_with?("#")
+          next [] if line.split("#").size < 3
+          input = line.sub(/\A#/, "").split("#", 2).first.to_s.strip
+          input.empty? ? [] : [input]
+        else
+          [line]
+        end
       end
     end
   end
 
   def fail_lines(paths)
-    paths.flat_map do |path|
-      File.readlines(path).filter_map do |raw|
-        line = raw.strip
-        next if line.empty?
-        next line unless line.start_with?("#")
-        next if line.split("#").size < 3
-
-        input = line.sub(/\A#/, "").split("#", 2).first.to_s.strip
-        input unless input.empty?
-      end
-    end
+    plain_lines(paths)
   end
 
   def fixture_paths(flavor, categories)

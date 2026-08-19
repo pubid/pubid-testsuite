@@ -1,1600 +1,198 @@
 ---
-- id: asme.debt.282903431122711953
-  input: "!ASME B30.3-20XX (Proposed revision of ASME B30.1-2020)!ASME B30.3-20XX
-    (Revision of ASME B30.1-2020)"
+- id: asme.debt.3e73382c623c
+  input: ASME BPVC.CC.BPV..I
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.2755660062532919340
-  input: "!ASME PCC-1–20XX (Revision of ASME PCC-1–2022)!ASME PCC-1-20XX (Revision
-    of ASME PCC-1-2022)"
+- id: asme.debt.3e73382c623c
+  input: ASME BPVC.CC.BPV..I
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.764364005266037442
-  input: "!ASME BPVC COMPLETE CODE BIND-2019!ASME BPVC COMPLETE CODE BIND"
+- id: asme.debt.3e73382c623c
+  input: ASME BPVC.CC.BPV..I
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.3608849081087254293
-  input: "!ASME BPVC COMPLETE CODE BIND-2021!ASME BPVC COMPLETE CODE BIND"
+- id: asme.debt.26e4ab44f1a5
+  input: ASME BPVC.CC.BPV..IV
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.4549673205014770848
-  input: "!ASME BPVC COMPLETE CODE BIND-2023!ASME BPVC COMPLETE CODE BIND"
+- id: asme.debt.26e4ab44f1a5
+  input: ASME BPVC.CC.BPV..IV
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.3000470722260755899
-  input: "!ASME BPVC-CC-BPV-2019!ASME BPVC-CC-BPV"
+- id: asme.debt.26e4ab44f1a5
+  input: ASME BPVC.CC.BPV..IV
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.1235014392928812116
-  input: "!ASME BPVC-CC-NUC-2019!ASME BPVC-CC-NUC"
+- id: asme.debt.45acadbad293
+  input: ASME BPVC.CC.BPV..VIII
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.4517589921991231723
-  input: "!ASME BPVC.CC.BPV-2021!ASME BPVC.CC.BPV"
+- id: asme.debt.45acadbad293
+  input: ASME BPVC.CC.BPV..VIII
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.2858295077066281948
-  input: "!ASME BPVC.CC.BPV-2023!ASME BPVC.CC.BPV"
+- id: asme.debt.45acadbad293
+  input: ASME BPVC.CC.BPV..VIII
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.1803788064306802129
-  input: "!ASME BPVC.CC.BPV-2025!ASME BPVC.CC.BPV"
+- id: asme.debt.0490e74ec310
+  input: ASME BPVC.CC.NC..III
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.2705930560754076509
-  input: "!ASME BPVC.CC.BPV.I-2019!ASME BPVC.CC.BPV..I"
+- id: asme.debt.0490e74ec310
+  input: ASME BPVC.CC.NC..III
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.2545442412354148709
-  input: "!ASME BPVC.CC.BPV.I-2021!ASME BPVC.CC.BPV..I"
+- id: asme.debt.0490e74ec310
+  input: ASME BPVC.CC.NC..III
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.1469924234105360344
-  input: "!ASME BPVC.CC.BPV.I-2023!ASME BPVC.CC.BPV..I"
+- id: asme.debt.84c693fbf1fa
+  input: ASME BPVC.CC.NC..XI
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.361258436774369395
-  input: "!ASME BPVC.CC.BPV.IV-2019!ASME BPVC.CC.BPV..IV"
+- id: asme.debt.84c693fbf1fa
+  input: ASME BPVC.CC.NC..XI
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.2849881388608991093
-  input: "!ASME BPVC.CC.BPV.IV-2021!ASME BPVC.CC.BPV..IV"
+- id: asme.debt.70cc85f94e19
+  input: ASME BPVC.SSC.
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.1048675393077019252
-  input: "!ASME BPVC.CC.BPV.IV-2023!ASME BPVC.CC.BPV..IV"
+- id: asme.debt.70cc85f94e19
+  input: ASME BPVC.SSC.
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.1698681233430091522
-  input: "!ASME BPVC.CC.BPV.VIII-2019!ASME BPVC.CC.BPV..VIII"
+- id: asme.debt.720293f39408
+  input: ASME PTC19.3 TW-2010
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.1137357509065042640
-  input: "!ASME BPVC.CC.BPV.VIII-2021!ASME BPVC.CC.BPV..VIII"
+- id: asme.debt.55a55c66c70c
+  input: ASME PTC19.3 TW-2016
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.106498942313013924
-  input: "!ASME BPVC.CC.BPV.VIII-2023!ASME BPVC.CC.BPV..VIII"
+- id: asme.debt.b01a05336c65
+  input: ASME TRA17.1-8.4-2013
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.3080572902149150151
-  input: "!ASME BPVC.CC.NC-2019!ASME BPVC.CC.NC"
+- id: asme.debt.3fd623654ea0
+  input: ASME TRA17.1-8.4-2020
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.667344279794806427
-  input: "!ASME BPVC.CC.NC-2021!ASME BPVC.CC.NC"
+- id: asme.debt.2cb375c19e41
+  input: CSA B44.10 /ASME A17.10-2024
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.1125103095841802099
-  input: "!ASME BPVC.CC.NC-2023!ASME BPVC.CC.NC"
+- id: asme.debt.cde413fadec4
+  input: ISO/ASME-2015
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.2331645140586214394
-  input: "!ASME BPVC.CC.NC-2025!ASME BPVC.CC.NC"
+- id: asme.debt.915398568e48
+  input: ISO/ASME-2019
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.3808235226392552980
-  input: "!ASME BPVC.CC.NC.III-2019!ASME BPVC.CC.NC..III"
+- id: asme.debt.368ab5a0be4a
+  input: API 579-2 /ASME PTB-14-2009
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
     API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
     1 char 1.'
-- id: asme.debt.907978257306230335
-  input: "!ASME BPVC.CC.NC.III-2021!ASME BPVC.CC.NC..III"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4554383432633157589
-  input: "!ASME BPVC.CC.NC.III-2023!ASME BPVC.CC.NC..III"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3479947297476302718
-  input: "!ASME BPVC.CC.NC.XI-2019!ASME BPVC.CC.NC..XI"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3799454722570258062
-  input: "!ASME BPVC.CC.NC.XI-2023!ASME BPVC.CC.NC..XI"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3248776201464947680
-  input: "!ASME BPVC.I-2021!ASME BPVC.I"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2994264702614975230
-  input: "!ASME BPVC.I-2023!ASME BPVC.I"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1698173800378953424
-  input: "!ASME BPVC.I-2025!ASME BPVC.I"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3585962184977059539
-  input: "!ASME BPVC.II.A-2021!ASME BPVC.II.A"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2741093897258033442
-  input: "!ASME BPVC.II.A-2023!ASME BPVC.II.A"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3166986806646813441
-  input: "!ASME BPVC.II.A-2025!ASME BPVC.II.A"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1067533045044374894
-  input: "!ASME BPVC.II.B-2021!ASME BPVC.II.B"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2230074374098800307
-  input: "!ASME BPVC.II.B-2023!ASME BPVC.II.B"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.970003339790345811
-  input: "!ASME BPVC.II.B-2025!ASME BPVC.II.B"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.399292625602215347
-  input: "!ASME BPVC.II.C-2021!ASME BPVC.II.C"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4467473308676822683
-  input: "!ASME BPVC.II.C-2023!ASME BPVC.II.C"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.636746193394981512
-  input: "!ASME BPVC.II.C-2025!ASME BPVC.II.C"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3017841583227000118
-  input: "!ASME BPVC.II.D.C-2021!ASME BPVC.II.D.C"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3492004904893152881
-  input: "!ASME BPVC.II.D.C-2023!ASME BPVC.II.D.C"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1030998531444090980
-  input: "!ASME BPVC.II.D.C-2025!ASME BPVC.II.D.C"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2713019766324286656
-  input: "!ASME BPVC.II.D.M-2021!ASME BPVC.II.D.M"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2094501883869584571
-  input: "!ASME BPVC.II.D.M-2023!ASME BPVC.II.D.M"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2639581620371767435
-  input: "!ASME BPVC.II.D.M-2025!ASME BPVC.II.D.M"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4397485605609571722
-  input: "!ASME BPVC.III.1.NB-2015!ASME BPVC.III.1.NB"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.438851330427742455
-  input: "!ASME BPVC.III.1.NB-2017!ASME BPVC.III.1.NB"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1388202269290740959
-  input: "!ASME BPVC.III.1.NB-2019!ASME BPVC.III.1.NB"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1228047378644582686
-  input: "!ASME BPVC.III.1.NB-2021!ASME BPVC.III.1.NB"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4275428642217379376
-  input: "!ASME BPVC.III.1.NB-2023!ASME BPVC.III.1.NB"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4423013010775111885
-  input: "!ASME BPVC.III.1.NB-2025!ASME BPVC.III.1.NB"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.376283262557582448
-  input: "!ASME BPVC.III.1.NC-2013!ASME BPVC.III.1.NC"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1091481981837834893
-  input: "!ASME BPVC.III.1.NC-2017!ASME BPVC.III.1.NC"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2634232995936870708
-  input: "!ASME BPVC.III.1.NC-2019!ASME BPVC.III.1.NC"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1867840789909966773
-  input: "!ASME BPVC.III.1.NCD-2021!ASME BPVC.III.1.NCD"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1672508536628900033
-  input: "!ASME BPVC.III.1.NCD-2023!ASME BPVC.III.1.NCD"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2371259737088655342
-  input: "!ASME BPVC.III.1.NCD-2025!ASME BPVC.III.1.NCD"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3261367829408942052
-  input: "!ASME BPVC.III.1.ND-2017!ASME BPVC.III.1.ND"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.801030767980628353
-  input: "!ASME BPVC.III.1.ND-2019!ASME BPVC.III.1.ND"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2963694166034254189
-  input: "!ASME BPVC.III.1.NE-2017!ASME BPVC.III.1.NE"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3601446483391685346
-  input: "!ASME BPVC.III.1.NE-2019!ASME BPVC.III.1.NE"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.647599251592282201
-  input: "!ASME BPVC.III.1.NE-2021!ASME BPVC.III.1.NE"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2297677330051518568
-  input: "!ASME BPVC.III.1.NE-2023!ASME BPVC.III.1.NE"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4165673869496384601
-  input: "!ASME BPVC.III.1.NE-2025!ASME BPVC.III.1.NE"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2156636725728281271
-  input: "!ASME BPVC.III.1.NF-2017!ASME BPVC.III.1.NF"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4538227729539381702
-  input: "!ASME BPVC.III.1.NF-2019!ASME BPVC.III.1.NF"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1928136568548127115
-  input: "!ASME BPVC.III.1.NF-2021!ASME BPVC.III.1.NF"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1835336950518385484
-  input: "!ASME BPVC.III.1.NF-2023!ASME BPVC.III.1.NF"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1699185857386885721
-  input: "!ASME BPVC.III.1.NF-2025!ASME BPVC.III.1.NF"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1461880511481371905
-  input: "!ASME BPVC.III.1.NG-2019!ASME BPVC.III.1.NG"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1891580752425148366
-  input: "!ASME BPVC.III.1.NG-2021!ASME BPVC.III.1.NG"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2487613399759798505
-  input: "!ASME BPVC.III.1.NG-2023!ASME BPVC.III.1.NG"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4418866346279284163
-  input: "!ASME BPVC.III.1.NG-2025!ASME BPVC.III.1.NG"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1156500678214339677
-  input: "!ASME BPVC.III.2-2017!ASME BPVC.III.2"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2705611551128239528
-  input: "!ASME BPVC.III.2-2019!ASME BPVC.III.2"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2155989552467942990
-  input: "!ASME BPVC.III.2-2021!ASME BPVC.III.2"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.252645738718956296
-  input: "!ASME BPVC.III.2-2023!ASME BPVC.III.2"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4388025482725346970
-  input: "!ASME BPVC.III.2-2025!ASME BPVC.III.2"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1498775574873220873
-  input: "!ASME BPVC.III.3-2017!ASME BPVC.III.3"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.382422136575771863
-  input: "!ASME BPVC.III.3-2019!ASME BPVC.III.3"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.386932954098605419
-  input: "!ASME BPVC.III.3-2021!ASME BPVC.III.3"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1693656066187439466
-  input: "!ASME BPVC.III.3-2023!ASME BPVC.III.3"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.160344156141275403
-  input: "!ASME BPVC.III.3-2025!ASME BPVC.III.3"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1438491841904399537
-  input: "!ASME BPVC.III.4-2023!ASME BPVC.III.4"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.360697927146775580
-  input: "!ASME BPVC.III.4-2025!ASME BPVC.III.4"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1806512067414283415
-  input: "!ASME BPVC.III.5-2015!ASME BPVC.III.5"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.957541409292684148
-  input: "!ASME BPVC.III.5-2017!ASME BPVC.III.5"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.368341989877695555
-  input: "!ASME BPVC.III.5-2019!ASME BPVC.III.5"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4390563681977927187
-  input: "!ASME BPVC.III.5-2021!ASME BPVC.III.5"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2776559353464256761
-  input: "!ASME BPVC.III.5-2023!ASME BPVC.III.5"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2561118354883619202
-  input: "!ASME BPVC.III.5-2025!ASME BPVC.III.5"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3933030055148961389
-  input: "!ASME BPVC.III.A-2015!ASME BPVC.III.A"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3903021939865962694
-  input: "!ASME BPVC.III.A-2017!ASME BPVC.III.A"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3092618989035895919
-  input: "!ASME BPVC.III.A-2019!ASME BPVC.III.A"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.519217360664677691
-  input: "!ASME BPVC.III.A-2021!ASME BPVC.III.A"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1142404571081203201
-  input: "!ASME BPVC.III.A-2023!ASME BPVC.III.A"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1128469076834581938
-  input: "!ASME BPVC.III.A-2025!ASME BPVC.III.A"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3936289005816271449
-  input: "!ASME BPVC.III.NCA-2017!ASME BPVC.III.NCA"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1086180396568536635
-  input: "!ASME BPVC.III.NCA-2019!ASME BPVC.III.NCA"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1661553311073991368
-  input: "!ASME BPVC.III.NCA-2021!ASME BPVC.III.NCA"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3717999377887140117
-  input: "!ASME BPVC.III.NCA-2023!ASME BPVC.III.NCA"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.696413970221859704
-  input: "!ASME BPVC.III.NCA-2025!ASME BPVC.III.NCA"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.920554632482334759
-  input: "!ASME BPVC.IV-2017!ASME BPVC.IV"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.127968038438544658
-  input: "!ASME BPVC.IV-2021!ASME BPVC.IV"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4135579182327937863
-  input: "!ASME BPVC.IV-2023!ASME BPVC.IV"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3615978085984935506
-  input: "!ASME BPVC.IV-2025!ASME BPVC.IV"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3816601061021395890
-  input: "!ASME BPVC.IX-2021!ASME BPVC.IX"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.356926855145742022
-  input: "!ASME BPVC.IX-2023!ASME BPVC.IX"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3161706298462253008
-  input: "!ASME BPVC.IX-2025!ASME BPVC.IX"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1839163516438510531
-  input: "!ASME BPVC.SSC.XI.II.V.IX-2021!ASME BPVC.SSC."
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2390608884376377222
-  input: "!ASME BPVC.SSC.XI.II.V.IX-2023!ASME BPVC.SSC."
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1899616164137819598
-  input: "!ASME BPVC.V-2021!ASME BPVC.V"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4115135542806834744
-  input: "!ASME BPVC.V-2023!ASME BPVC.V"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4315081186306758792
-  input: "!ASME BPVC.V-2025!ASME BPVC.V"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.622632750255077258
-  input: "!ASME BPVC.VI-2017!ASME BPVC.VI"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1569833876534370111
-  input: "!ASME BPVC.VI-2021!ASME BPVC.VI"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3682013602892391693
-  input: "!ASME BPVC.VI-2023!ASME BPVC.VI"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2943527393514961049
-  input: "!ASME BPVC.VI-2025!ASME BPVC.VI"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4440296607934138653
-  input: "!ASME BPVC.VII-2017!ASME BPVC.VII"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.229900680204831976
-  input: "!ASME BPVC.VII-2019!ASME BPVC.VII"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3710367667195214146
-  input: "!ASME BPVC.VII-2021!ASME BPVC.VII"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2942031319142797094
-  input: "!ASME BPVC.VII-2023!ASME BPVC.VII"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2051814297736605497
-  input: "!ASME BPVC.VII-2025!ASME BPVC.VII"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2797331716651084622
-  input: "!ASME BPVC.VIII.1-2019!ASME BPVC.VIII.1"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3243169381617598819
-  input: "!ASME BPVC.VIII.1-2021!ASME BPVC.VIII.1"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3154861873455451862
-  input: "!ASME BPVC.VIII.1-2023!ASME BPVC.VIII.1"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3733439885897499009
-  input: "!ASME BPVC.VIII.1-2025!ASME BPVC.VIII.1"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1018300021600328522
-  input: "!ASME BPVC.VIII.1_ES-2013!ASME BPVC.VIII.1_ES"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.703965110471443652
-  input: "!ASME BPVC.VIII.2-2021!ASME BPVC.VIII.2"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3540503747784782674
-  input: "!ASME BPVC.VIII.2-2023!ASME BPVC.VIII.2"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1787361731640735759
-  input: "!ASME BPVC.VIII.2-2025!ASME BPVC.VIII.2"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.155445799499043788
-  input: "!ASME BPVC.VIII.3-2021!ASME BPVC.VIII.3"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3636118905702219304
-  input: "!ASME BPVC.VIII.3-2023!ASME BPVC.VIII.3"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1398690275639632599
-  input: "!ASME BPVC.VIII.3-2025!ASME BPVC.VIII.3"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2721358991786628811
-  input: "!ASME BPVC.X-2021!ASME BPVC.X"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3659890412902617086
-  input: "!ASME BPVC.X-2023!ASME BPVC.X"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.361227723537236946
-  input: "!ASME BPVC.X-2025!ASME BPVC.X"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.467459730015635845
-  input: "!ASME BPVC.XI.1-2019!ASME BPVC.XI.1"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1986312624894723119
-  input: "!ASME BPVC.XI.1-2021!ASME BPVC.XI.1"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.546496132225033390
-  input: "!ASME BPVC.XI.1-2023!ASME BPVC.XI.1"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1990287927243726175
-  input: "!ASME BPVC.XI.1-2025!ASME BPVC.XI.1"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3584417987525449022
-  input: "!ASME BPVC.XI.2-2019!ASME BPVC.XI.2"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1206848884078098707
-  input: "!ASME BPVC.XI.2-2021!ASME BPVC.XI.2"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.947318264109122703
-  input: "!ASME BPVC.XI.2-2023!ASME BPVC.XI.2"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1696982406058017083
-  input: "!ASME BPVC.XI.2-2025!ASME BPVC.XI.2"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3839798180879279097
-  input: "!ASME BPVC.XII-2021!ASME BPVC.XII"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4156671764081474394
-  input: "!ASME BPVC.XII-2023!ASME BPVC.XII"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.238947782157178741
-  input: "!ASME BPVC.XII-2025!ASME BPVC.XII"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.836567646362865342
-  input: "!ASME BPVC.XIII-2021!ASME BPVC.XIII"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.338194034458105504
-  input: "!ASME BPVC.XIII-2023!ASME BPVC.XIII"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4555457717570776492
-  input: "!ASME BPVC.XIII-2025!ASME BPVC.XIII"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4434678050690280553
-  input: "!ASME PTC 1-2015!ASME PTC1-2015"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1639453401045548595
-  input: "!ASME PTC 1-2022!ASME PTC1-2022"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3346271110736062120
-  input: "!ASME PTC 12.2-2010!ASME PTC12.2-2010"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.602652631409257535
-  input: "!ASME PTC 12.3-1997!ASME PTC12.3-1997"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4107704655132359021
-  input: "!ASME PTC 13-2018!ASME PTC13-2018"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1993143064055317905
-  input: "!ASME PTC 17-1973!ASME PTC17-1973"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3176351519610701441
-  input: "!ASME PTC 19.1-2018!ASME PTC19.1-2018"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4081230322535020718
-  input: "!ASME PTC 19.10-1981!ASME PTC19.10-1981"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1147369200322898495
-  input: "!ASME PTC 19.11-2008!ASME PTC19.11-2008"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1252531836748028546
-  input: "!ASME PTC 19.2-2010!ASME PTC19.2-2010"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.337417174237727404
-  input: "!ASME PTC 19.3 TW-2010!ASME PTC19.3 TW-2010"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1876676297431510136
-  input: "!ASME PTC 19.3 TW-2016!ASME PTC19.3 TW-2016"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3898515252068850772
-  input: "!ASME PTC 19.3-1974!ASME PTC19.3-1974"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.600379598959152945
-  input: "!ASME PTC 19.3-2024!ASME PTC19.3-2024"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4117059010569092204
-  input: "!ASME PTC 22-2005!ASME PTC22-2005"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1513544534435615833
-  input: "!ASME PTC 22-2014!ASME PTC22-2014"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2197290474501751096
-  input: "!ASME PTC 22-2023!ASME PTC22-2023"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.672239755638150324
-  input: "!ASME PTC 25-2014!ASME PTC25-2014"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4516445648122545582
-  input: "!ASME PTC 25-2018!ASME PTC25-2018"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3103276564903180838
-  input: "!ASME PTC 25-2023!ASME PTC25-2023"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4256365136928291232
-  input: "!ASME PTC 30-1991!ASME PTC30-1991"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3867564692837756799
-  input: "!ASME PTC 4-2013!ASME PTC4-2013"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3202507594324310341
-  input: "!ASME PTC 4.3-2017!ASME PTC4.3-2017"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.469277647797152948
-  input: "!ASME PTC 4.4-2008!ASME PTC4.4-2008"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1414587502487491547
-  input: "!ASME PTC 4.4-2023!ASME PTC4.4-2023"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2700470354386268972
-  input: "!ASME PTC 46-1996!ASME PTC46-1996"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.585376661598165270
-  input: "!ASME PTC 46-2015!ASME PTC46-2015"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2724498918154483695
-  input: "!ASME PTC 6-2004!ASME PTC6-2004"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2757485910164250590
-  input: "!ASME PTC 6.2-2011!ASME PTC6.2-2011"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.385384695344138853
-  input: "!ASME PTC PM-2010!ASME PTCPM-2010"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4219609478180816746
-  input: "!ASME TR A17.1-8.4-2013!ASME TRA17.1-8.4-2013"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.728347118778974206
-  input: "!ASME TR A17.1-8.4-2020!ASME TRA17.1-8.4-2020"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4154282548812383076
-  input: "!ASME V V 10-2019!ASME V&V10-2019"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3906688155907501612
-  input: "!ASME V V 10.1-2012!ASME V&V10.1-2012"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1296586471344081504
-  input: "!ASME V V 20-2009!ASME V&V20-2009"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4109516312681002559
-  input: "!ASME V V 40-2018!ASME V&V40-2018"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.682282767591171137
-  input: "!ASME VVUQ 20.1-2024!ASME VVUQ20.1-2024"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4571799910637043131
-  input: "!ASME B31.8 (SPANISH)-2016!ASME B31.8-2016 (SPANISH)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3543077182393914421
-  input: "!ASME Y14.5 (SPANISH)-2009!ASME Y14.5-2009 (SPANISH)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2855250105177674299
-  input: "!CSA B44.10/ASME A17.10-2024!CSA B44.10 /ASME A17.10-2024"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1693875509954675426
-  input: "!ISO/ASME 14414-2015!ISO/ASME-2015"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.393980199714989611
-  input: "!ISO/ASME 14414-2019!ISO/ASME-2019"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1978904476184831753
-  input: "!API 579-2/ASME PTB-14-2009!API 579-2 /ASME PTB-14-2009"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.2013753899185427907
-  input: "!API 579-2/ASME PTB-14-2023!API 579-2 /ASME PTB-14-2023"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3350425696482767241
-  input: "!ASME V&V 10-2019!ASME V&V10-2019"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.4201611623471370400
-  input: "!ASME V&V 10.1-2012!ASME V&V10.1-2012"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.3835301732227108449
-  input: "!ASME V&V 20-2009!ASME V&V20-2009"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CSA_ASME_IDENTIFIER,
-    API_ASME_IDENTIFIER, ISO_ASME_IDENTIFIER, ASME_ANS_IDENTIFIER, STANDARD] at line
-    1 char 1.'
-- id: asme.debt.1685282183651490215
-  input: "!ASME V&V 40-2018!ASME V&V40-2018"
+- id: asme.debt.5bc4ab557cf7
+  input: API 579-2 /ASME PTB-14-2023
   expect:
     error:
       code: parse_failed

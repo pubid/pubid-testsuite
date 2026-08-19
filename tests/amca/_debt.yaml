@@ -1,219 +1,117 @@
 ---
-- id: amca.debt.600053715398938687
-  input: "!AMCA 99 JW Interp!AMCA 99 – JW"
+- id: amca.debt.54a852e0afbe
+  input: AMCA 99 – JW
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!AMCA 99 JW Interp!AMCA 99 – JW'': Expected one of [INTERPRETATION_IDENTIFIER,
-    PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.3102986414066601354
-  input: "!AMCA 99 KB Interp!AMCA 99 – KB"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!AMCA 99 KB Interp!AMCA 99 – KB'': Expected one of [INTERPRETATION_IDENTIFIER,
-    PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.3056480906397931549
-  input: "!AMCA 99 RG Interp!AMCA 99 – RG"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!AMCA 99 RG Interp!AMCA 99 – RG'': Expected one of [INTERPRETATION_IDENTIFIER,
-    PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.3930994945031820158
-  input: "!AMCA 204 AW Interp!AMCA 204 – AW"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!AMCA 204 AW Interp!AMCA 204 – AW'': Expected one of [INTERPRETATION_IDENTIFIER,
-    PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.1294923229688477718
-  input: "!ANSI/AMCA 204 Interp!ANSI/AMCA 204"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!ANSI/AMCA 204 Interp!ANSI/AMCA 204'': Expected one of [INTERPRETATION_IDENTIFIER,
-    PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.60434976027306381
-  input: "!AMCA 208 AH Interp!AMCA 208 – AH"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!AMCA 208 AH Interp!AMCA 208 – AH'': Expected one of [INTERPRETATION_IDENTIFIER,
-    PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.4550458437893217314
-  input: "!AMCA 511 Interp!AMCA 511"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!AMCA 511 Interp!AMCA 511'': Expected one of [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER,
+    ''AMCA 99 – JW'': Expected one of [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER,
     STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.369263785047516424
-  input: "!AMCA Publication 211-22 (Rev. 01-23)!AMCA Publication 211 -22"
+- id: amca.debt.2e31d01cb709
+  input: AMCA 99 – KB
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!AMCA Publication 211-22 (Rev. 01-23)!AMCA Publication 211 -22'': Expected one
-    of [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at
-    line 1 cha'
-- id: amca.debt.1596151029153307544
-  input: "!AMCA Publication 311-16!AMCA Publication 311 -16"
+    ''AMCA 99 – KB'': Expected one of [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER,
+    STANDARD_IDENTIFIER] at line 1 char 1.'
+- id: amca.debt.42e0025f551f
+  input: AMCA 99 – RG
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!AMCA Publication 311-16!AMCA Publication 311 -16'': Expected one of [INTERPRETATION_IDENTIFIER,
+    ''AMCA 99 – RG'': Expected one of [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER,
+    STANDARD_IDENTIFIER] at line 1 char 1.'
+- id: amca.debt.c4feb260e545
+  input: AMCA 204 – AW
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
+    ''AMCA 204 – AW'': Expected one of [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER,
+    STANDARD_IDENTIFIER] at line 1 char 1.'
+- id: amca.debt.e814b0daf0a5
+  input: AMCA 208 – AH
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
+    ''AMCA 208 – AH'': Expected one of [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER,
+    STANDARD_IDENTIFIER] at line 1 char 1.'
+- id: amca.debt.78826f801612
+  input: AMCA Publication 211 -22
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
+    ''AMCA Publication 211 -22'': Expected one of [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER,
+    STANDARD_IDENTIFIER] at line 1 char 1.'
+- id: amca.debt.2f07651cb7fd
+  input: AMCA Publication 311 -16
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
+    ''AMCA Publication 311 -16'': Expected one of [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER,
+    STANDARD_IDENTIFIER] at line 1 char 1.'
+- id: amca.debt.21ffabce03da
+  input: AMCA Publication 511 -21
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
+    ''AMCA Publication 511 -21'': Expected one of [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER,
+    STANDARD_IDENTIFIER] at line 1 char 1.'
+- id: amca.debt.18b1c70a7d17
+  input: AMCA Publication 611 -15
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
+    ''AMCA Publication 611 -15'': Expected one of [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER,
+    STANDARD_IDENTIFIER] at line 1 char 1.'
+- id: amca.debt.0e4a3ac05974
+  input: AMCA Publication 1011 -03 (2010)
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
+    ''AMCA Publication 1011 -03 (2010)'': Expected one of [INTERPRETATION_IDENTIFIER,
     PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.2788693656345202589
-  input: "!AMCA Publication 511-21 (Rev. 12-22)!AMCA Publication 511 -21"
+- id: amca.debt.915ec8ff909a
+  input: AMCA Publication 203 -90 (2011)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!AMCA Publication 511-21 (Rev. 12-22)!AMCA Publication 511 -21'': Expected one
-    of [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at
-    line 1 cha'
-- id: amca.debt.883307063922851667
-  input: "!AMCA Publication 611-15!AMCA Publication 611 -15"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!AMCA Publication 611-15!AMCA Publication 611 -15'': Expected one of [INTERPRETATION_IDENTIFIER,
+    ''AMCA Publication 203 -90 (2011)'': Expected one of [INTERPRETATION_IDENTIFIER,
     PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.3101553149172123705
-  input: "!AMCA Publication 1011-03 (R2010)!AMCA Publication 1011 -03 (2010)"
+- id: amca.debt.c311abfd8925
+  input: AMCA Publication 222 -16
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!AMCA Publication 1011-03 (R2010)!AMCA Publication 1011 -03 (2010)'': Expected
-    one of [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER]
-    at line 1'
-- id: amca.debt.2125494586392108931
-  input: "!AMCA Publication 203-90 (R2011)!AMCA Publication 203 -90 (2011)"
+    ''AMCA Publication 222 -16'': Expected one of [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER,
+    STANDARD_IDENTIFIER] at line 1 char 1.'
+- id: amca.debt.7514cc3a8b1a
+  input: AMCA Publication 501 -17
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!AMCA Publication 203-90 (R2011)!AMCA Publication 203 -90 (2011)'': Expected
-    one of [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER]
-    at line 1 c'
-- id: amca.debt.981921788914983553
-  input: "!AMCA Publication 222-16!AMCA Publication 222 -16"
+    ''AMCA Publication 501 -17'': Expected one of [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER,
+    STANDARD_IDENTIFIER] at line 1 char 1.'
+- id: amca.debt.b4a31bd83066
+  input: AMCA Standard 803 -02 (2008)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!AMCA Publication 222-16!AMCA Publication 222 -16'': Expected one of [INTERPRETATION_IDENTIFIER,
+    ''AMCA Standard 803 -02 (2008)'': Expected one of [INTERPRETATION_IDENTIFIER,
     PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.398285266397124794
-  input: "!AMCA Publication 501-17!AMCA Publication 501 -17"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!AMCA Publication 501-17!AMCA Publication 501 -17'': Expected one of [INTERPRETATION_IDENTIFIER,
-    PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.2127137927822927888
-  input: "!ANSI/AMCA 210-16 /ASHRAE 51-16!ANSI/AMCA Standard 210-16"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!ANSI/AMCA 210-16 /ASHRAE 51-16!ANSI/AMCA Standard 210-16'': Expected one of
-    [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line
-    1 char 1.'
-- id: amca.debt.1155181680766859095
-  input: "!ANSI/AMCA 220-21!ANSI/AMCA Standard 220-21"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!ANSI/AMCA 220-21!ANSI/AMCA Standard 220-21'': Expected one of [INTERPRETATION_IDENTIFIER,
-    PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.3600433791658738640
-  input: "!ANSI/AMCA 230-23!ANSI/AMCA Standard 230-23"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!ANSI/AMCA 230-23!ANSI/AMCA Standard 230-23'': Expected one of [INTERPRETATION_IDENTIFIER,
-    PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.2930517878344646791
-  input: "!ANSI/AMCA 240-22!ANSI/AMCA Standard 240-22"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!ANSI/AMCA 240-22!ANSI/AMCA Standard 240-22'': Expected one of [INTERPRETATION_IDENTIFIER,
-    PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.3700915464764076981
-  input: "!ANSI/AMCA 250-22!ANSI/AMCA Standard 250-22"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!ANSI/AMCA 250-22!ANSI/AMCA Standard 250-22'': Expected one of [INTERPRETATION_IDENTIFIER,
-    PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.387677735507169315
-  input: "!ANSI/AMCA 260-20!ANSI/AMCA Standard 260-20"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!ANSI/AMCA 260-20!ANSI/AMCA Standard 260-20'': Expected one of [INTERPRETATION_IDENTIFIER,
-    PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.3472764403058978444
-  input: "!ANSI/AMCA 300-14!ANSI/AMCA Standard 300-14"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!ANSI/AMCA 300-14!ANSI/AMCA Standard 300-14'': Expected one of [INTERPRETATION_IDENTIFIER,
-    PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.4096228787581060236
-  input: "!ANSI/AMCA 500-D-18!ANSI/AMCA Standard 500-D-18"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!ANSI/AMCA 500-D-18!ANSI/AMCA Standard 500-D-18'': Expected one of [INTERPRETATION_IDENTIFIER,
-    PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.2720404961314839594
-  input: "!ANSI/AMCA 500-L-23!ANSI/AMCA Standard 500-L-23"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!ANSI/AMCA 500-L-23!ANSI/AMCA Standard 500-L-23'': Expected one of [INTERPRETATION_IDENTIFIER,
-    PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.883393864329582846
-  input: "!ANSI/AMCA 610-19!ANSI/AMCA Standard 610-19"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!ANSI/AMCA 610-19!ANSI/AMCA Standard 610-19'': Expected one of [INTERPRETATION_IDENTIFIER,
-    PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.2534697226743636155
-  input: "!AMCA Standard 803-02 (R2008)!AMCA Standard 803 -02 (2008)"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
-    ''!AMCA Standard 803-02 (R2008)!AMCA Standard 803 -02 (2008)'': Expected one of
-    [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line
-    1 char 1.'
-- id: amca.debt.2821164930557185944
+- id: amca.debt.d08c2611b105
   input: AMCA 204 – 1
   expect:
     error:
@@ -221,7 +119,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
     ''AMCA 204 – 1'': Expected one of [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER,
     STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.1058466419940884680
+- id: amca.debt.56da3bbf24fd
   input: AMCA 204 – 2
   expect:
     error:
@@ -229,7 +127,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
     ''AMCA 204 – 2'': Expected one of [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER,
     STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.343959866246175246
+- id: amca.debt.be8c5ac3531c
   input: AMCA 204 – 3
   expect:
     error:
@@ -237,7 +135,7 @@
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
     ''AMCA 204 – 3'': Expected one of [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER,
     STANDARD_IDENTIFIER] at line 1 char 1.'
-- id: amca.debt.3247668111389841739
+- id: amca.debt.110a477ce337
   input: ANSI/AMCA Standard 210-25 / ASHRAE 51-25
   expect:
     error:

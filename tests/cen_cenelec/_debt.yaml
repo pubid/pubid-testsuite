@@ -1,141 +1,124 @@
 ---
-- id: cen_cenelec.debt.3922209454295370002
-  input: "!EN ISO 13485:2016/AC:2016# (first corrigendum)!EN ISO 13485:2016"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse CEN identifier
-    ''!EN ISO 13485:2016/AC:2016# (first corrigendum)!EN ISO 13485:2016'': Expected
-    one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)?
-    (SPACE TYPE'
-- id: cen_cenelec.debt.128674325653119672
-  input: "!EN ISO 13485:2016/AC:2017# (second corrigendum)!EN ISO 13485:2016"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse CEN identifier
-    ''!EN ISO 13485:2016/AC:2017# (second corrigendum)!EN ISO 13485:2016'': Expected
-    one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)?
-    (SPACE TYP'
-- id: cen_cenelec.debt.4417263547879520307
-  input: "!EN ISO 13485:2016/AC:2018# (third corrigendum)!EN ISO 13485:2016"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse CEN identifier
-    ''!EN ISO 13485:2016/AC:2018# (third corrigendum)!EN ISO 13485:2016'': Expected
-    one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)?
-    (SPACE TYPE'
-- id: cen_cenelec.debt.2533845632619563808
-  input: "!EN IEC 62368-1:2020+A11:2020!EN IEC 62368-1:2020"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse CEN identifier
-    ''!EN IEC 62368-1:2020+A11:2020!EN IEC 62368-1:2020'': Expected one of [FRAGMENT_IDENTIFIER,
-    (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)? '
-- id: cen_cenelec.debt.3110217558482891302
-  input: "!EN ISO 10077-1:2006+AC:2009+AC2:2009!EN ISO 10077-1:2006"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse CEN identifier
-    ''!EN ISO 10077-1:2006+AC:2009+AC2:2009!EN ISO 10077-1:2006'': Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH'
-- id: cen_cenelec.debt.2923715641272242106
-  input: "!EN ISO 13485:2016/AC:2016!EN ISO 13485:2016"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse CEN identifier
-    ''!EN ISO 13485:2016/AC:2016!EN ISO 13485:2016'': Expected one of [FRAGMENT_IDENTIFIER,
-    (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)?
-    (SPAC'
-- id: cen_cenelec.debt.4178235903768500643
-  input: "!EN ISO 13485:2016/AC:2017!EN ISO 13485:2016"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse CEN identifier
-    ''!EN ISO 13485:2016/AC:2017!EN ISO 13485:2016'': Expected one of [FRAGMENT_IDENTIFIER,
-    (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)?
-    (SPAC'
-- id: cen_cenelec.debt.4220835022632416615
-  input: "!EN ISO 13485:2016/AC:2018!EN ISO 13485:2016"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse CEN identifier
-    ''!EN ISO 13485:2016/AC:2018!EN ISO 13485:2016'': Expected one of [FRAGMENT_IDENTIFIER,
-    (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)?
-    (SPAC'
-- id: cen_cenelec.debt.4212955449948752616
-  input: EN ISO 14090:2019
+- id: cen_cenelec.debt.c8243d86b0b7
+  input: EN ISO 13485:2016
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.146844316981445495
-  input: EN ISO 17292
+- id: cen_cenelec.debt.c8243d86b0b7
+  input: EN ISO 13485:2016
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.4402053381528731916
-  input: EN ISO 17292:2004
+- id: cen_cenelec.debt.c8243d86b0b7
+  input: EN ISO 13485:2016
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.3082748815976017320
-  input: EN ISO 13485:2016/Amd 1:2016
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
-    ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.886131838743986752
-  input: EN IEC 55014-2:2021
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
-    ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.1396215223284497819
-  input: EN IEC 62115:2020
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
-    ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.1097145779560149762
+- id: cen_cenelec.debt.e6b8f9f6e5b4
   input: EN IEC 62368-1:2020
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.2687013441636746131
+- id: cen_cenelec.debt.0283d5abe13e
+  input: EN ISO 10077-1:2006
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
+    ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
+- id: cen_cenelec.debt.c8243d86b0b7
+  input: EN ISO 13485:2016
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
+    ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
+- id: cen_cenelec.debt.c8243d86b0b7
+  input: EN ISO 13485:2016
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
+    ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
+- id: cen_cenelec.debt.c8243d86b0b7
+  input: EN ISO 13485:2016
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
+    ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
+- id: cen_cenelec.debt.e6f5583b677b
+  input: EN ISO 14090:2019
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
+    ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
+- id: cen_cenelec.debt.709b0da215cd
+  input: EN ISO 17292
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
+    ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
+- id: cen_cenelec.debt.3dc5e19fc351
+  input: EN ISO 17292:2004
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
+    ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
+- id: cen_cenelec.debt.2af1e4ee5665
+  input: EN ISO 13485:2016/Amd 1:2016
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
+    ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
+- id: cen_cenelec.debt.ba54347f7f20
+  input: EN IEC 55014-2:2021
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
+    ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
+- id: cen_cenelec.debt.45cbcd47fb0d
+  input: EN IEC 62115:2020
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
+    ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
+- id: cen_cenelec.debt.e6b8f9f6e5b4
+  input: EN IEC 62368-1:2020
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
+    ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
+- id: cen_cenelec.debt.dbcbe37f9516
   input: CR ISO 13434:1999
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.4089399511670655794
-  input: "!HD IEC 60364-8-81 ED1!HD IEC 60364-8-81"
+- id: cen_cenelec.debt.db544e58755b
+  input: HD IEC 60364-8-81
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse CEN identifier
-    ''!HD IEC 60364-8-81 ED1!HD IEC 60364-8-81'': Expected one of [FRAGMENT_IDENTIFIER,
-    (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)?
-    (SPACE NU'
-- id: cen_cenelec.debt.1216553489422882642
+  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
+    ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
+- id: cen_cenelec.debt.da355e33f0fe
   input: EN 60335-1:2012/A1
   expect:
     error:
@@ -143,7 +126,7 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.2295807293594154731
+- id: cen_cenelec.debt.0f9a2607653d
   input: EN 60335-1:2012/A2:2019
   expect:
     error:
@@ -151,7 +134,7 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.453484143105669883
+- id: cen_cenelec.debt.d2c9b14e26bb
   input: EN 60335-1:2012/A14
   expect:
     error:
@@ -159,7 +142,7 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.3273993157324316547
+- id: cen_cenelec.debt.f6ca09f06638
   input: EN 60335-1:2012/A15
   expect:
     error:
@@ -167,7 +150,7 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.2715479486018254429
+- id: cen_cenelec.debt.8865fc65d917
   input: EN 934-6:2002/A1:2006
   expect:
     error:
@@ -175,51 +158,49 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.3408760015498647444
+- id: cen_cenelec.debt.68cd7f699167
   input: EN 196-3:2005+A1:2008
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''parts''
     for an instance of Pubid::CenCenelec::Identifiers::EuropeanNorm'
-- id: cen_cenelec.debt.4504996573964792479
-  input: "!EN 527­2:2016+A1:2019!EN 527-2:2016+A1:2019"
+- id: cen_cenelec.debt.372841a74b64
+  input: EN 527-2:2016+A1:2019
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse CEN identifier
-    ''!EN 527­2:2016+A1:2019!EN 527-2:2016+A1:2019'': Expected one of [FRAGMENT_IDENTIFIER,
-    (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)?
-    (SPAC'
-- id: cen_cenelec.debt.3003151497785955241
+  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''parts''
+    for an instance of Pubid::CenCenelec::Identifiers::EuropeanNorm'
+- id: cen_cenelec.debt.52720287c69a
   input: EN 934-3:2009+A1:2012
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''parts''
     for an instance of Pubid::CenCenelec::Identifiers::EuropeanNorm'
-- id: cen_cenelec.debt.4456629371767965253
+- id: cen_cenelec.debt.c1898e8123ea
   input: HD 60269-3:2010+A2:2022
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''parts''
     for an instance of Pubid::CenCenelec::Identifiers::HarmonizationDocument'
-- id: cen_cenelec.debt.2497043749459338790
+- id: cen_cenelec.debt.d990fc6f318e
   input: HD 60269-2:2013+A1:2022
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''parts''
     for an instance of Pubid::CenCenelec::Identifiers::HarmonizationDocument'
-- id: cen_cenelec.debt.4544518937684952105
+- id: cen_cenelec.debt.c72c5bd093a4
   input: HD 60269-2:2013+A2:2024
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''parts''
     for an instance of Pubid::CenCenelec::Identifiers::HarmonizationDocument'
-- id: cen_cenelec.debt.327623589401047562
+- id: cen_cenelec.debt.a97b473aeb1d
   input: EN 60335-1:2012/AC:2014
   expect:
     error:
@@ -227,7 +208,7 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.2355931121604609198
+- id: cen_cenelec.debt.5bdbff0f0ad2
   input: EN 14891:2012/AC:2012
   expect:
     error:
@@ -235,7 +216,7 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.3194762061802678125
+- id: cen_cenelec.debt.35d0da441448
   input: EN 14891:2007/AC2:2009
   expect:
     error:
@@ -243,7 +224,7 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.2554617039891673767
+- id: cen_cenelec.debt.4e1fb1fe38c7
   input: EN 196-1:1987/AC2:1989
   expect:
     error:
@@ -251,7 +232,7 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.3420333169152829043
+- id: cen_cenelec.debt.b43c869df2c7
   input: EN 61375-2-3:2016/AC2:2017
   expect:
     error:
@@ -259,7 +240,7 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.2097706699155560718
+- id: cen_cenelec.debt.facbe6bc67b3
   input: EN 61375-2-3:2015/AC:2016-11
   expect:
     error:
@@ -267,88 +248,52 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.2975471161985037072
-  input: "!FprEN 50600‑2‑4!FprEN 50600-2-4"
+- id: cen_cenelec.debt.43c56d9858d8
+  input: ENV/ENV 50166
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse CEN identifier
-    ''!FprEN 50600‑2‑4!FprEN 50600-2-4'': Expected one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX
-    / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)? (SPACE NUMBER
-    PAR'
-- id: cen_cenelec.debt.1067770808309745649
-  input: "!ENV 50166!ENV/ENV 50166"
+    ''ENV/ENV 50166'': Expected one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER)
+    (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)?
+    SUPPLEME'
+- id: cen_cenelec.debt.2a21a6c1750a
+  input: ENV/ENV 41112:1991
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse CEN identifier
-    ''!ENV 50166!ENV/ENV 50166'': Expected one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX
-    / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)? (SPACE NUMBER
-    PARTS YEAR?'
-- id: cen_cenelec.debt.3505699840614912865
-  input: "!ENV 41112:1991!ENV/ENV 41112:1991"
+    ''ENV/ENV 41112:1991'': Expected one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX /
+    PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)? (SPACE NUMBER PARTS
+    YEAR?)? SUP'
+- id: cen_cenelec.debt.d0c53c2ba845
+  input: ENV/ENV 41511:1991
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse CEN identifier
-    ''!ENV 41112:1991!ENV/ENV 41112:1991'': Expected one of [FRAGMENT_IDENTIFIER,
-    (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)?
-    (SPACE NUMBER P'
-- id: cen_cenelec.debt.3923917167102959164
-  input: "!ENV 41511:1991!ENV/ENV 41511:1991"
+    ''ENV/ENV 41511:1991'': Expected one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX /
+    PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)? (SPACE NUMBER PARTS
+    YEAR?)? SUP'
+- id: cen_cenelec.debt.f89de964df76
+  input: ENV/ENV 206:1992
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse CEN identifier
-    ''!ENV 41511:1991!ENV/ENV 41511:1991'': Expected one of [FRAGMENT_IDENTIFIER,
-    (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)?
-    (SPACE NUMBER P'
-- id: cen_cenelec.debt.648662684879572616
-  input: "!ENV 206:1992!ENV/ENV 206:1992"
+    ''ENV/ENV 206:1992'': Expected one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER)
+    (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)?
+    SUPPL'
+- id: cen_cenelec.debt.d098c801691b
+  input: EN 60038/A1 FRAG2
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse CEN identifier
-    ''!ENV 206:1992!ENV/ENV 206:1992'': Expected one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX
-    / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)? (SPACE NUMBER
-    PARTS'
-- id: cen_cenelec.debt.2906417826758528853
-  input: "!EN 60038 AMD1 FRAG2!EN 60038/A1 FRAG2"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse CEN identifier
-    ''!EN 60038 AMD1 FRAG2!EN 60038/A1 FRAG2'': Expected one of [FRAGMENT_IDENTIFIER,
-    (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)?
-    (SPACE NUMB'
-- id: cen_cenelec.debt.2317087799998278177
-  input: "!CLC GUIDE 1!CLC Guide 1"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse CEN identifier
-    ''!CLC GUIDE 1!CLC Guide 1'': Expected one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX
-    / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)? (SPACE NUMBER
-    PARTS YEAR?'
-- id: cen_cenelec.debt.1524259010257182912
-  input: "!CLC GUIDE 1:2022!CLC Guide 1:2022"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse CEN identifier
-    ''!CLC GUIDE 1:2022!CLC Guide 1:2022'': Expected one of [FRAGMENT_IDENTIFIER,
-    (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)?
-    (SPACE NUMBER P'
-- id: cen_cenelec.debt.3172104208172409937
-  input: "!CEN-CLC Guide 32:2016!CEN/CLC Guide 32:2016"
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse CEN identifier
-    ''!CEN-CLC Guide 32:2016!CEN/CLC Guide 32:2016'': Expected one of [FRAGMENT_IDENTIFIER,
-    (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)?
-    (SPAC'
-- id: cen_cenelec.debt.1216553489422882642
+    ''EN 60038/A1 FRAG2'': Expected one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER)
+    (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)?
+    SUPP'
+- id: cen_cenelec.debt.da355e33f0fe
   input: EN 60335-1:2012/A1
   expect:
     error:
@@ -356,7 +301,7 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.2295807293594154731
+- id: cen_cenelec.debt.0f9a2607653d
   input: EN 60335-1:2012/A2:2019
   expect:
     error:
@@ -364,7 +309,7 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.453484143105669883
+- id: cen_cenelec.debt.d2c9b14e26bb
   input: EN 60335-1:2012/A14
   expect:
     error:
@@ -372,7 +317,7 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.3273993157324316547
+- id: cen_cenelec.debt.f6ca09f06638
   input: EN 60335-1:2012/A15
   expect:
     error:
@@ -380,7 +325,7 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.2715479486018254429
+- id: cen_cenelec.debt.8865fc65d917
   input: EN 934-6:2002/A1:2006
   expect:
     error:
@@ -388,7 +333,7 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.327623589401047562
+- id: cen_cenelec.debt.a97b473aeb1d
   input: EN 60335-1:2012/AC:2014
   expect:
     error:
@@ -396,7 +341,7 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.2355931121604609198
+- id: cen_cenelec.debt.5bdbff0f0ad2
   input: EN 14891:2012/AC:2012
   expect:
     error:
@@ -404,7 +349,7 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.3194762061802678125
+- id: cen_cenelec.debt.35d0da441448
   input: EN 14891:2007/AC2:2009
   expect:
     error:
@@ -412,7 +357,7 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.2554617039891673767
+- id: cen_cenelec.debt.4e1fb1fe38c7
   input: EN 196-1:1987/AC2:1989
   expect:
     error:
@@ -420,7 +365,7 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.3420333169152829043
+- id: cen_cenelec.debt.b43c869df2c7
   input: EN 61375-2-3:2016/AC2:2017
   expect:
     error:
@@ -428,7 +373,7 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.2097706699155560718
+- id: cen_cenelec.debt.facbe6bc67b3
   input: EN 61375-2-3:2015/AC:2016-11
   expect:
     error:
@@ -436,63 +381,63 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.1713689835013552029
+- id: cen_cenelec.debt.5c642a0151dc
   input: EN ISO 13485:2016/AC:2016# (first corrigendum)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.1853533632728955020
+- id: cen_cenelec.debt.624fa675eeac
   input: EN ISO 13485:2016/AC:2017# (second corrigendum)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.2298832348692377647
+- id: cen_cenelec.debt.14a5a13cb159
   input: EN ISO 13485:2016/AC:2018# (third corrigendum)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.3408760015498647444
+- id: cen_cenelec.debt.68cd7f699167
   input: EN 196-3:2005+A1:2008
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''parts''
     for an instance of Pubid::CenCenelec::Identifiers::EuropeanNorm'
-- id: cen_cenelec.debt.636067261733766780
+- id: cen_cenelec.debt.51dd44032b1b
   input: EN 527­2:2016+A1:2019
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''parts''
     for an instance of Pubid::CenCenelec::Identifiers::EuropeanNorm'
-- id: cen_cenelec.debt.3003151497785955241
+- id: cen_cenelec.debt.52720287c69a
   input: EN 934-3:2009+A1:2012
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''parts''
     for an instance of Pubid::CenCenelec::Identifiers::EuropeanNorm'
-- id: cen_cenelec.debt.487523359265546803
+- id: cen_cenelec.debt.0c68561c0d85
   input: EN IEC 62368-1:2020+A11:2020
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.883794047866844137
+- id: cen_cenelec.debt.71b0d6c81d51
   input: EN ISO 10077-1:2006+AC:2009+AC2:2009
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.4444093958188389258
+- id: cen_cenelec.debt.128a287f39c9
   input: EN 60038 AMD1 FRAG2
   expect:
     error:
@@ -500,77 +445,77 @@
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''base'' value is a ''Pubid::CenCenelec::Identifiers::EuropeanNorm'' but should
     be a ''Pubid::CenCenelec::Identifiers::Base'''
-- id: cen_cenelec.debt.4557389681567843672
+- id: cen_cenelec.debt.afa40e6b4b60
   input: EN ISO 13485:2016/AC:2016
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.3113051243343149543
+- id: cen_cenelec.debt.cc17a1db0a02
   input: EN ISO 13485:2016/AC:2017
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.205133553597460744
+- id: cen_cenelec.debt.a9af80d4a017
   input: EN ISO 13485:2016/AC:2018
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.4212955449948752616
+- id: cen_cenelec.debt.e6f5583b677b
   input: EN ISO 14090:2019
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.146844316981445495
+- id: cen_cenelec.debt.709b0da215cd
   input: EN ISO 17292
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.4402053381528731916
+- id: cen_cenelec.debt.3dc5e19fc351
   input: EN ISO 17292:2004
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.3082748815976017320
+- id: cen_cenelec.debt.2af1e4ee5665
   input: EN ISO 13485:2016/Amd 1:2016
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.886131838743986752
+- id: cen_cenelec.debt.ba54347f7f20
   input: EN IEC 55014-2:2021
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.1396215223284497819
+- id: cen_cenelec.debt.45cbcd47fb0d
   input: EN IEC 62115:2020
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.1097145779560149762
+- id: cen_cenelec.debt.e6b8f9f6e5b4
   input: EN IEC 62368-1:2020
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.3597473564310149759
+- id: cen_cenelec.debt.7912269d0f5c
   input: CECC 16000:1979
   expect:
     error:
@@ -579,7 +524,7 @@
     ''CECC 16000:1979'': Expected one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER)
     (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)?
     SUPPLE'
-- id: cen_cenelec.debt.3112497117058270660
+- id: cen_cenelec.debt.db5c9dda470a
   input: CECC 16100:1980
   expect:
     error:
@@ -588,14 +533,14 @@
     ''CECC 16100:1980'': Expected one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER)
     (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)?
     SUPPLE'
-- id: cen_cenelec.debt.2687013441636746131
+- id: cen_cenelec.debt.dbcbe37f9516
   input: CR ISO 13434:1999
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.4011603820168656419
+- id: cen_cenelec.debt.242d25cddad1
   input: HD 384.7.711 S1:2003
   expect:
     error:
@@ -604,35 +549,35 @@
     ''HD 384.7.711 S1:2003'': Expected one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX
     / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)? (SPACE NUMBER
     PARTS YEAR?)? S'
-- id: cen_cenelec.debt.4456629371767965253
+- id: cen_cenelec.debt.c1898e8123ea
   input: HD 60269-3:2010+A2:2022
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''parts''
     for an instance of Pubid::CenCenelec::Identifiers::HarmonizationDocument'
-- id: cen_cenelec.debt.4456629371767965253
+- id: cen_cenelec.debt.c1898e8123ea
   input: HD 60269-3:2010+A2:2022
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''parts''
     for an instance of Pubid::CenCenelec::Identifiers::HarmonizationDocument'
-- id: cen_cenelec.debt.2497043749459338790
+- id: cen_cenelec.debt.d990fc6f318e
   input: HD 60269-2:2013+A1:2022
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''parts''
     for an instance of Pubid::CenCenelec::Identifiers::HarmonizationDocument'
-- id: cen_cenelec.debt.2497043749459338790
+- id: cen_cenelec.debt.d990fc6f318e
   input: HD 60269-2:2013+A1:2022
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''parts''
     for an instance of Pubid::CenCenelec::Identifiers::HarmonizationDocument'
-- id: cen_cenelec.debt.679078123393556218
+- id: cen_cenelec.debt.fecdf5fd7842
   input: HD 629.3 S1:2024
   expect:
     error:
@@ -641,7 +586,7 @@
     ''HD 629.3 S1:2024'': Expected one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER)
     (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)?
     SUPPL'
-- id: cen_cenelec.debt.1677368579573291372
+- id: cen_cenelec.debt.77b409ab64bb
   input: HD 629.2 S3:2024
   expect:
     error:
@@ -650,14 +595,14 @@
     ''HD 629.2 S3:2024'': Expected one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER)
     (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)?
     SUPPL'
-- id: cen_cenelec.debt.1256050454696101346
+- id: cen_cenelec.debt.1734526acca9
   input: HD IEC 60364-8-81 ED1
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
     ''publisher'' value is a ''Array'' but should be a ''Pubid::Components::Publisher'''
-- id: cen_cenelec.debt.1656642208472168338
+- id: cen_cenelec.debt.f67d561eb9a1
   input: HD 60364-8-82 (AS BS 7671)
   expect:
     error:
@@ -666,14 +611,14 @@
     ''HD 60364-8-82 (AS BS 7671)'': Expected one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX
     / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)? (SPACE NUMBER
     PARTS YEA'
-- id: cen_cenelec.debt.4544518937684952105
+- id: cen_cenelec.debt.c72c5bd093a4
   input: HD 60269-2:2013+A2:2024
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''parts''
     for an instance of Pubid::CenCenelec::Identifiers::HarmonizationDocument'
-- id: cen_cenelec.debt.3636239831432047353
+- id: cen_cenelec.debt.78ffc73b8a18
   input: HD 629.1 S3:2019
   expect:
     error:
@@ -682,7 +627,7 @@
     ''HD 629.1 S3:2019'': Expected one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER)
     (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)?
     SUPPL'
-- id: cen_cenelec.debt.1326692632826846261
+- id: cen_cenelec.debt.8da03366d8c5
   input: HD 60364-8-1:2019 - TC
   expect:
     error:
@@ -691,7 +636,7 @@
     ''HD 60364-8-1:2019 - TC'': Expected one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX
     / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)? (SPACE NUMBER
     PARTS YEAR?)?'
-- id: cen_cenelec.debt.1326692632826846261
+- id: cen_cenelec.debt.8da03366d8c5
   input: HD 60364-8-1:2019 - TC
   expect:
     error:
@@ -700,7 +645,7 @@
     ''HD 60364-8-1:2019 - TC'': Expected one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX
     / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)? (SPACE NUMBER
     PARTS YEAR?)?'
-- id: cen_cenelec.debt.3493461173134205212
+- id: cen_cenelec.debt.0c9218772e92
   input: HD 60364-8-2:2011+A11:2019 - TC
   expect:
     error:
@@ -709,7 +654,7 @@
     ''HD 60364-8-2:2011+A11:2019 - TC'': Expected one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX
     / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)? (SPACE NUMBER
     PART'
-- id: cen_cenelec.debt.3493461173134205212
+- id: cen_cenelec.debt.0c9218772e92
   input: HD 60364-8-2:2011+A11:2019 - TC
   expect:
     error:
@@ -718,7 +663,7 @@
     ''HD 60364-8-2:2011+A11:2019 - TC'': Expected one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX
     / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)? (SPACE NUMBER
     PART'
-- id: cen_cenelec.debt.3342010376267428953
+- id: cen_cenelec.debt.faa85d950bd9
   input: HD 60269-2 AMD2
   expect:
     error:
@@ -727,35 +672,35 @@
     ''HD 60269-2 AMD2'': Expected one of [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER)
     (SPACE ADOPTED_STRING)? (SPACE TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)?
     SUPPLE'
-- id: cen_cenelec.debt.4456629371767965253
+- id: cen_cenelec.debt.c1898e8123ea
   input: HD 60269-3:2010+A2:2022
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''parts''
     for an instance of Pubid::CenCenelec::Identifiers::HarmonizationDocument'
-- id: cen_cenelec.debt.4456629371767965253
+- id: cen_cenelec.debt.c1898e8123ea
   input: HD 60269-3:2010+A2:2022
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''parts''
     for an instance of Pubid::CenCenelec::Identifiers::HarmonizationDocument'
-- id: cen_cenelec.debt.2497043749459338790
+- id: cen_cenelec.debt.d990fc6f318e
   input: HD 60269-2:2013+A1:2022
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''parts''
     for an instance of Pubid::CenCenelec::Identifiers::HarmonizationDocument'
-- id: cen_cenelec.debt.2497043749459338790
+- id: cen_cenelec.debt.d990fc6f318e
   input: HD 60269-2:2013+A1:2022
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''parts''
     for an instance of Pubid::CenCenelec::Identifiers::HarmonizationDocument'
-- id: cen_cenelec.debt.723969621376273513
+- id: cen_cenelec.debt.fbaf53b4c9dc
   input: HD 60269-3 AMD2
   expect:
     error:

@@ -1,0 +1,2377 @@
+---
+- id: ashrae.debt.260da0ff0309
+  input: ANSI/ASHRAE Addendum a to ASHRAE Standard -2024
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ANSI/ASHRAE Addendum a to ASHRAE Standard -2024'': Expected one of [ERRATA_IDENTIFIER,
+    INTERPRETATION_IDENTIFIER, COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACK'
+- id: ashrae.debt.84452308cb1c
+  input: ANSI/ASHRAE Addendum b to ASHRAE Standard -2024
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ANSI/ASHRAE Addendum b to ASHRAE Standard -2024'': Expected one of [ERRATA_IDENTIFIER,
+    INTERPRETATION_IDENTIFIER, COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACK'
+- id: ashrae.debt.2085557d031b
+  input: ANSI/ASHRAE Addendum c to ASHRAE Standard -2024
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ANSI/ASHRAE Addendum c to ASHRAE Standard -2024'': Expected one of [ERRATA_IDENTIFIER,
+    INTERPRETATION_IDENTIFIER, COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACK'
+- id: ashrae.debt.f8f3dc7d7d9a
+  input: ANSI/ASHRAE Addendum d to ASHRAE Standard -2024
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ANSI/ASHRAE Addendum d to ASHRAE Standard -2024'': Expected one of [ERRATA_IDENTIFIER,
+    INTERPRETATION_IDENTIFIER, COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACK'
+- id: ashrae.debt.30c7d570022b
+  input: ANSI/ASHRAE Addendum e to ASHRAE Standard -2024
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ANSI/ASHRAE Addendum e to ASHRAE Standard -2024'': Expected one of [ERRATA_IDENTIFIER,
+    INTERPRETATION_IDENTIFIER, COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACK'
+- id: ashrae.debt.42bce2fad57b
+  input: ANSI/ASHRAE Addendum f to ASHRAE Standard -2024
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ANSI/ASHRAE Addendum f to ASHRAE Standard -2024'': Expected one of [ERRATA_IDENTIFIER,
+    INTERPRETATION_IDENTIFIER, COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACK'
+- id: ashrae.debt.9c0a9dd57696
+  input: ANSI/ASHRAE Addendum g to ASHRAE Standard -2024
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ANSI/ASHRAE Addendum g to ASHRAE Standard -2024'': Expected one of [ERRATA_IDENTIFIER,
+    INTERPRETATION_IDENTIFIER, COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACK'
+- id: ashrae.debt.ecb0ff8cc725
+  input: ANSI/ASHRAE Addendum h to ASHRAE Standard -2024
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ANSI/ASHRAE Addendum h to ASHRAE Standard -2024'': Expected one of [ERRATA_IDENTIFIER,
+    INTERPRETATION_IDENTIFIER, COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACK'
+- id: ashrae.debt.c8279f8f0330
+  input: ANSI/ASHRAE Addendum i to ASHRAE Standard -2024
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ANSI/ASHRAE Addendum i to ASHRAE Standard -2024'': Expected one of [ERRATA_IDENTIFIER,
+    INTERPRETATION_IDENTIFIER, COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACK'
+- id: ashrae.debt.710e60745c8c
+  input: ANSI/ASHRAE Addendum j to ASHRAE Standard -2024
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ANSI/ASHRAE Addendum j to ASHRAE Standard -2024'': Expected one of [ERRATA_IDENTIFIER,
+    INTERPRETATION_IDENTIFIER, COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACK'
+- id: ashrae.debt.92eedc09230a
+  input: ANSI/ASHRAE Addendum k to ASHRAE Standard -2024
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ANSI/ASHRAE Addendum k to ASHRAE Standard -2024'': Expected one of [ERRATA_IDENTIFIER,
+    INTERPRETATION_IDENTIFIER, COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACK'
+- id: ashrae.debt.b89061a21236
+  input: ANSI/ASHRAE Addendum h to ASHRAE Standard 55-2004
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ANSI/ASHRAE Addendum h to ASHRAE Standard 55-2004'': Expected one of [ERRATA_IDENTIFIER,
+    INTERPRETATION_IDENTIFIER, COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PA'
+- id: ashrae.debt.342279cb3cad
+  input: ANSI/ASHRAE Addendum j to ASHRAE Standard 55-2004
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ANSI/ASHRAE Addendum j to ASHRAE Standard 55-2004'': Expected one of [ERRATA_IDENTIFIER,
+    INTERPRETATION_IDENTIFIER, COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PA'
+- id: ashrae.debt.03ea919e539c
+  input: ANSI/ASHRAE Addendum r to ASHRAE Standard -2022
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ANSI/ASHRAE Addendum r to ASHRAE Standard -2022'': Expected one of [ERRATA_IDENTIFIER,
+    INTERPRETATION_IDENTIFIER, COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACK'
+- id: ashrae.debt.d77ca4b82c22
+  input: ANSI/ASHRAE Addendum s to ASHRAE Standard -2022
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ANSI/ASHRAE Addendum s to ASHRAE Standard -2022'': Expected one of [ERRATA_IDENTIFIER,
+    INTERPRETATION_IDENTIFIER, COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACK'
+- id: ashrae.debt.f33f9cf21388
+  input: ANSI/ASHRAE Addendum t to ASHRAE Standard -2022
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ANSI/ASHRAE Addendum t to ASHRAE Standard -2022'': Expected one of [ERRATA_IDENTIFIER,
+    INTERPRETATION_IDENTIFIER, COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACK'
+- id: ashrae.debt.9492a31fe53f
+  input: ANSI/ASHRAE Addendum u to ASHRAE Standard -2022
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ANSI/ASHRAE Addendum u to ASHRAE Standard -2022'': Expected one of [ERRATA_IDENTIFIER,
+    INTERPRETATION_IDENTIFIER, COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACK'
+- id: ashrae.debt.82f26abf56b2
+  input: ASHRAE Addenda m, addendum_codev to Standard 34-2007
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Addenda m, addendum_codev to Standard 34-2007'': Expected one of [ERRATA_IDENTIFIER,
+    INTERPRETATION_IDENTIFIER, COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA'
+- id: ashrae.debt.d5c8162b6fe5
+  input: ASHRAE Addenda a, b to Standard -2007
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Addenda a, b to Standard -2007'': Expected one of [ERRATA_IDENTIFIER,
+    INTERPRETATION_IDENTIFIER, COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTI'
+- id: ashrae.debt.5543f4310714
+  input: ASHRAE Addenda a to Standard -2020
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Addenda a to Standard -2020'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIE'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.ca93e4d6dd35
+  input: ASHRAE Standard  Errata
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard  Errata'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.eb338cbc086f
+  input: ASHRAE Standard
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PACKAGE_'
+- id: ashrae.debt.c8657dcbaa6c
+  input: ASHRAE Standard -2018
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard -2018'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PA'
+- id: ashrae.debt.d52e9348266f
+  input: ASHRAE Standard -2025
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard -2025'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PA'
+- id: ashrae.debt.d7d9871fd21e
+  input: ASHRAE Standard -2023
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard -2023'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PA'
+- id: ashrae.debt.26d8784744de
+  input: ASHRAE Standard -2024
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard -2024'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PA'
+- id: ashrae.debt.d7d9871fd21e
+  input: ASHRAE Standard -2023
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard -2023'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PA'
+- id: ashrae.debt.7f2cf9c0b431
+  input: ASHRAE Standard -2020
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ASHRAE identifier
+    ''ASHRAE Standard -2020'': Expected one of [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER,
+    COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER, ADDENDA_PA'

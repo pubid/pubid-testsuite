@@ -1,26 +1,19 @@
 ---
-- id: api.debt.3082971022165229840
-  input: "!API MPMP CH 10.10!API MPMS CH 10.10"
+- id: api.debt.c8e5998f6a39
+  input: API
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [COMBINED_IDENTIFIER,
     MPMS_IDENTIFIER, TYPED_IDENTIFIER, TYPELESS_IDENTIFIER] at line 1 char 1.'
-- id: api.debt.3167402417594514150
-  input: "!API RP 554, Part 2!API RP 554"
+- id: api.debt.debc18832198
+  input: https://www.apiwebstore.org/standards
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [COMBINED_IDENTIFIER,
     MPMS_IDENTIFIER, TYPED_IDENTIFIER, TYPELESS_IDENTIFIER] at line 1 char 1.'
-- id: api.debt.3526457104722703760
-  input: "!API COS 1-07/RP 75, 4th edition!API"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [COMBINED_IDENTIFIER,
-    MPMS_IDENTIFIER, TYPED_IDENTIFIER, TYPELESS_IDENTIFIER] at line 1 char 1.'
-- id: api.debt.4470206039871296897
+- id: api.debt.ceb2937c760b
   input: API COS 1-07/RP 75, 4th edition
   expect:
     error:

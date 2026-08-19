@@ -1,9 +1,0 @@
----
-- id: etsi.debt.475652423187699852
-  input: "!ETSI ETS 300 092-1/A1/C1 ed.1 (1994-04)!ETSI ETS 300 092-1/C1 ed.1 (1994-04)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Failed to match sequence
-    (ETSI_PREFIX TYPE SPACE NUMBER MINOR? PARTS SUPPLEMENTS? (SPACE VERSION_OR_EDITION)?
-    (SPACE DATE_PART)?) at line 1 char 1.'

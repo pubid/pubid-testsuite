@@ -1,5 +1,21 @@
 ---
-- id: ieee.amendment.8215
+- id: ieee.amendment.7006
+  identifier:
+    _type: pubid:ieee:amendment
+    number: '3'
+    base:
+      _type: pubid:ieee:standard
+      number: '8802'
+      year: '1994'
+      parts:
+      - '2'
+      separator: "-"
+      stage: Std
+  representations:
+    human: IEEE Std 8802-2-1994/Amd 3
+    urn: urn:ieee:ieee
+  style: v3
+- id: ieee.amendment.9345
   identifier:
     _type: pubid:ieee:amendment
     number: '5'

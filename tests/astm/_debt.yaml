@@ -1,94 +1,49 @@
 ---
-- id: astm.debt.1780616708210575498
-  input: "!ASTM ADJF3504-EA!ADJF3504-EA"
+- id: astm.debt.53e2bf6b3957
+  input: ASTM DS55S-S4-EB
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [RESEARCH_REPORT,
     TECHNICAL_REPORT, MANUAL, MONOGRAPH, DATA_SERIES, WORK_IN_PROGRESS, ADJUNCT, STANDARD]
     at line 1 char 1.'
-- id: astm.debt.1682919528481578845
-  input: "!ASTM ADJG0088DVD!ADJG0088DVD"
+- id: astm.debt.aeec6ca8dba3
+  input: ASTM DS55S-S10-EB
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [RESEARCH_REPORT,
     TECHNICAL_REPORT, MANUAL, MONOGRAPH, DATA_SERIES, WORK_IN_PROGRESS, ADJUNCT, STANDARD]
     at line 1 char 1.'
-- id: astm.debt.2412077933061680427
-  input: "!ASTM DS55S4-EB!ASTM DS55S-S4-EB"
+- id: astm.debt.49aa40a6d9cc
+  input: ASTM DS55S-S1-EB
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [RESEARCH_REPORT,
     TECHNICAL_REPORT, MANUAL, MONOGRAPH, DATA_SERIES, WORK_IN_PROGRESS, ADJUNCT, STANDARD]
     at line 1 char 1.'
-- id: astm.debt.4074220010145621554
-  input: "!ASTM DS55S10-EB!ASTM DS55S-S10-EB"
+- id: astm.debt.2d134b89fc8f
+  input: A3.1Designation (mandatory)—The ASTM designation, assigned by Headquarters
+    on submittal for approval, consists of the following sequential
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [RESEARCH_REPORT,
     TECHNICAL_REPORT, MANUAL, MONOGRAPH, DATA_SERIES, WORK_IN_PROGRESS, ADJUNCT, STANDARD]
     at line 1 char 1.'
-- id: astm.debt.482151462732800367
-  input: "!ASTM DS55S1-EB!ASTM DS55S-S1-EB"
+- id: astm.debt.698803239b2d
+  input: A3.2.1After the designation, a hyphen is followed by the last two numbers
+    of the year of acceptance or of last revision. If the standard is
   expect:
     error:
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [RESEARCH_REPORT,
     TECHNICAL_REPORT, MANUAL, MONOGRAPH, DATA_SERIES, WORK_IN_PROGRESS, ADJUNCT, STANDARD]
     at line 1 char 1.'
-- id: astm.debt.2573492281907992190
-  input: "!ASTM C627-18(2024) # this is c0627-18r24!ASTM C627-18(2024)"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [RESEARCH_REPORT,
-    TECHNICAL_REPORT, MANUAL, MONOGRAPH, DATA_SERIES, WORK_IN_PROGRESS, ADJUNCT, STANDARD]
-    at line 1 char 1.'
-- id: astm.debt.910101391912467561
-  input: "!ISO/ASTMTR52916-EB # or parse using ISO: ISO/ASTM TR 52916!ISO/ASTMTR52916-EB"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [RESEARCH_REPORT,
-    TECHNICAL_REPORT, MANUAL, MONOGRAPH, DATA_SERIES, WORK_IN_PROGRESS, ADJUNCT, STANDARD]
-    at line 1 char 1.'
-- id: astm.debt.4130636058827734775
-  input: "!ASTM TR1-EB!TR1-EB"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [RESEARCH_REPORT,
-    TECHNICAL_REPORT, MANUAL, MONOGRAPH, DATA_SERIES, WORK_IN_PROGRESS, ADJUNCT, STANDARD]
-    at line 1 char 1.'
-- id: astm.debt.1523293298641441997
-  input: "!ASTM TR2-EB!TR2-EB"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [RESEARCH_REPORT,
-    TECHNICAL_REPORT, MANUAL, MONOGRAPH, DATA_SERIES, WORK_IN_PROGRESS, ADJUNCT, STANDARD]
-    at line 1 char 1.'
-- id: astm.debt.4025569216149606710
-  input: "!ASTM TR4-EB!TR4-EB"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [RESEARCH_REPORT,
-    TECHNICAL_REPORT, MANUAL, MONOGRAPH, DATA_SERIES, WORK_IN_PROGRESS, ADJUNCT, STANDARD]
-    at line 1 char 1.'
-- id: astm.debt.3677815406665957580
-  input: "!ASTM TR3-EB!TR3-EB"
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [RESEARCH_REPORT,
-    TECHNICAL_REPORT, MANUAL, MONOGRAPH, DATA_SERIES, WORK_IN_PROGRESS, ADJUNCT, STANDARD]
-    at line 1 char 1.'
-- id: astm.debt.1392779490405137821
-  input: "!ASTM TR5-EB!TR5-EB"
+- id: astm.debt.2a54cd3f8e46
+  input: A3.2.3For editorial changes that do not change the year designation, a note
+    is inserted before the text to indicate the location and date
   expect:
     error:
       code: parse_failed

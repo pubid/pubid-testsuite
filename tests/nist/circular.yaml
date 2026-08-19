@@ -1347,6 +1347,8 @@
     style: v3
   - spelling: NBS CIRC 154supprev
     style: v3
+  - spelling: NBS CIRC 154suprev
+    style: v3
 - id: nist.circular.0684
   identifier:
     _type: pubid:nist:circular
@@ -9605,13 +9607,24 @@
     publisher: NBS
     series: CIRC
     parsed_format: mr
+  representations:
+    human: NBS.CIRC.154
+    urn: urn:nist:circ:154.supp
+  style: v3
+- id: nist.circular.12113
+  identifier:
+    _type: pubid:nist:circular
+    number: '154'
+    publisher: NBS
+    series: CIRC
+    parsed_format: mr
     supplement:
       has_revision: true
   representations:
     human: NBS.CIRC.154suprev
     urn: urn:nist:circ:154.supprev
   style: v3
-- id: nist.circular.12113
+- id: nist.circular.12114
   identifier:
     _type: pubid:nist:circular
     edition:

@@ -1,0 +1,9 @@
+---
+- id: itu.debt.bbed5b6793eb
+  input: ITU-T "(V
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ITU identifier
+    ''ITU-T "(V'': Expected one of [COMMON_TEXT_IDENTIFIER, IDENTIFIER] at line 1
+    char 1.'

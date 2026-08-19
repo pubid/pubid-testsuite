@@ -23,6 +23,7 @@ require "pubid"
 require "yaml"
 require "json"
 require "set"
+require "digest"
 require "fileutils"
 begin
   require "json_schemer"
@@ -68,17 +69,45 @@ module Exporter
     hash.to_s.include?("bundled_identifier") && hash.to_s.include?("month")
   end
 
-  def lines_from(path, fail_format: false)
-    File.readlines(path).filter_map do |raw|
+  # Fixture line semantics (identical in tools/validate.rb):
+  # - '#' lines: comments in pass/full; in fail files they wrap
+  #   identifiers as '#ID# Error...' (data only when a second '#' exists).
+  # - '!' lines: the classifier's failure annotation
+  #   '!ORIGINAL!NORMALIZED' - each non-empty half is a candidate
+  #   identifier (parsed halves become cases/aliases; unparsed halves
+  #   debt with the decoded input - never the glued blob).
+  # Fixture line semantics (identical in tools/validate.rb):
+  # - '#' lines: comments (fail files wrap '#ID# Error...', data only
+  #   with a second '#').
+  # - '!' lines: fix/normalize directives '!RAW!FIXED' - the classifier's
+  #   pending update_codes. The FIXED half is the data line; the RAW=>FIXED
+  #   pair is exported to tests/{flavor}/_normalization.yaml.
+  def lines_from(path, _fail_format = false)
+    File.readlines(path).flat_map do |raw|
       line = raw.strip
-      next if line.empty?
-      if line.start_with?("#")
-        next unless fail_format        # pass/full: comments
-        next if line.split("#").size < 3 # fail headers: no wrapped id
+      next [] if line.empty?
+      if line.start_with?("!")
+        fixed = line.split("!").map(&:strip).reject(&:empty?).last
+        fixed ? [fixed] : []
+      elsif line.start_with?("#")
+        next [] if line.split("#").size < 3
         input = line.sub(/\A#/, "").split("#", 2).first.to_s.strip
-        next input unless input.empty?
+        input.empty? ? [] : [input]
       else
-        next line
+        [line]
+      end
+    end
+  end
+
+  # Pending normalization rules '!RAW!FIXED' from the raw fixtures.
+  def normalization_pairs(pass_files)
+    pass_files.flat_map do |path|
+      File.readlines(path).filter_map do |raw|
+        line = raw.strip
+        next unless line.start_with?("!")
+
+        halves = line.split("!").map(&:strip).reject(&:empty?)
+        { "from" => halves.first, "to" => halves.last } if halves.size == 2
       end
     end
   end
@@ -119,7 +148,7 @@ module Exporter
         stats[:fixture_lines].add(input)
         record, error = build_case(mod, input)
         if error
-          debt << { "id" => "#{flavor}.debt.#{input.hash.abs}",
+          debt << { "id" => "#{flavor}.debt.#{Digest::SHA256.hexdigest(input)[0, 12]}",
                     "input" => input,
                     "expect" => { "error" => { "code" => error[0] } },
                     "notes" => error[1] }
@@ -139,6 +168,10 @@ module Exporter
       File.write(File.join(out, "#{type}.yaml"), YAML.dump(type_cases))
     end
     File.write(File.join(out, "_debt.yaml"), YAML.dump(debt)) if debt.any?
+    pairs = normalization_pairs(pass_files)
+    if pairs.any?
+      File.write(File.join(out, "_normalization.yaml"), YAML.dump(pairs))
+    end
 
     negatives = []
     fail_files = roots.flat_map { |r| Dir[File.join(r, "fail", "*.txt")] }.uniq
