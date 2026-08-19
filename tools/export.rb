@@ -128,7 +128,10 @@ module Exporter
     FileUtils.mkdir_p(out)
     # Full-regeneration semantics: stale files from earlier formats must
     # not survive beside fresh ones.
-    Dir[File.join(out, "*.yaml")].each { |old_file| File.delete(old_file) }
+    # _status.yaml is curated ledger state, not generated output - never delete it
+    Dir[File.join(out, "*.yaml")].each do |old_file|
+      File.delete(old_file) unless File.basename(old_file) == "_status.yaml"
+    end
     dotfile = File.join(out, ".yaml")
     File.delete(dotfile) if File.exist?(dotfile)
     stats = { cases: 0, aliases: 0, duplicates: 0, phantom: 0, debt: 0,
