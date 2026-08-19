@@ -42,3 +42,21 @@ implementation): `rake conformance:generate[flavor]` and
 PUBID_TESTS_PATH). Regeneration is deterministic; diffs are reviewed in
 PRs. Data changes land here via PR; never edit `tests/` by hand without
 regeneration parity.
+
+## Validation
+
+The corpus validates itself without the pubid gem:
+
+    rake validate          # identity: corpus == reference-docs fixtures (tools/validate.rb)
+    rake schema            # every case against schema/test.schema.yaml (tools/validate_schema.rb)
+    rake all               # both
+
+CI (`.github/workflows/validate.yml`) runs both on every push/PR.
+Status: VALIDATION PASS 40/40 flavors; SCHEMA VALIDATION PASS (94,095 documents).
+
+## Consumers
+
+The pubid gem consumes this corpus as its conformance suite:
+`PUBID_TESTS_PATH` (or a sibling checkout) + `rake conformance:run`.
+CLEAN flavors hard-gate; DIRTY flavors report as the known defect ledger
+(`tests/{flavor}/_status.yaml`).
