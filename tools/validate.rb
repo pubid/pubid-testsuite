@@ -23,6 +23,7 @@
 # Exits nonzero on any violation.
 
 require "yaml"
+require_relative "fixture_line"
 require "set"
 require "open3"
 
@@ -43,19 +44,10 @@ module Validator
   # non-empty half is a candidate identifier.
   def plain_lines(paths)
     paths.flat_map do |path|
-      File.readlines(path).flat_map do |raw|
-        line = raw.strip
-        next [] if line.empty?
-        if line.start_with?("!")
-          fixed = line.split("!").map(&:strip).reject(&:empty?).last
-          fixed ? [fixed] : []
-        elsif line.start_with?("#")
-          next [] if line.split("#").size < 3
-          input = line.sub(/\A#/, "").split("#", 2).first.to_s.strip
-          input.empty? ? [] : [input]
-        else
-          [line]
-        end
+      cat = File.basename(File.dirname(path)).to_sym
+      File.readlines(path).filter_map do |raw|
+        PubidTests::FixtureLine.new(raw, flavor: :unknown,
+                                    category: cat).identifier
       end
     end
   end
