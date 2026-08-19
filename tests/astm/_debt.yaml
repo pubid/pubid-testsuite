@@ -1,28 +1,4 @@
 ---
-- id: astm.debt.53e2bf6b3957
-  input: ASTM DS55S-S4-EB
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [RESEARCH_REPORT,
-    TECHNICAL_REPORT, MANUAL, MONOGRAPH, DATA_SERIES, WORK_IN_PROGRESS, ADJUNCT, STANDARD]
-    at line 1 char 1.'
-- id: astm.debt.aeec6ca8dba3
-  input: ASTM DS55S-S10-EB
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [RESEARCH_REPORT,
-    TECHNICAL_REPORT, MANUAL, MONOGRAPH, DATA_SERIES, WORK_IN_PROGRESS, ADJUNCT, STANDARD]
-    at line 1 char 1.'
-- id: astm.debt.49aa40a6d9cc
-  input: ASTM DS55S-S1-EB
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [RESEARCH_REPORT,
-    TECHNICAL_REPORT, MANUAL, MONOGRAPH, DATA_SERIES, WORK_IN_PROGRESS, ADJUNCT, STANDARD]
-    at line 1 char 1.'
 - id: astm.debt.2d134b89fc8f
   input: A3.1Designation (mandatory)—The ASTM designation, assigned by Headquarters
     on submittal for approval, consists of the following sequential

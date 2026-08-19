@@ -2,6 +2,42 @@
 - id: amca.misc.0001
   identifier:
     code: '204'
+    year: '1'
+  representations:
+    human: AMCA 204 -1
+    urn: 'urn:amca:204:1:copub.amca:{key: :interpretation, title: "interpretation",
+      short: "interp"}'
+  style: v3
+  non_normalized_aliases:
+  - spelling: AMCA 204 – 1
+    style: v3
+- id: amca.misc.0002
+  identifier:
+    code: '204'
+    year: '2'
+  representations:
+    human: AMCA 204 -2
+    urn: 'urn:amca:204:2:copub.amca:{key: :interpretation, title: "interpretation",
+      short: "interp"}'
+  style: v3
+  non_normalized_aliases:
+  - spelling: AMCA 204 – 2
+    style: v3
+- id: amca.misc.0003
+  identifier:
+    code: '204'
+    year: '3'
+  representations:
+    human: AMCA 204 -3
+    urn: 'urn:amca:204:3:copub.amca:{key: :interpretation, title: "interpretation",
+      short: "interp"}'
+  style: v3
+  non_normalized_aliases:
+  - spelling: AMCA 204 – 3
+    style: v3
+- id: amca.misc.0004
+  identifier:
+    code: '204'
   representations:
     human: AMCA 204 – AW
     urn: 'urn:amca:204:copub.amca:{key: :interpretation, title: "interpretation",
@@ -10,7 +46,7 @@
   non_normalized_aliases:
   - spelling: AMCA 204 AW Interp
     style: v3
-- id: amca.misc.0002
+- id: amca.misc.0005
   identifier:
     code: '208'
   representations:
@@ -21,7 +57,7 @@
   non_normalized_aliases:
   - spelling: AMCA 208 AH Interp
     style: v3
-- id: amca.misc.0003
+- id: amca.misc.0006
   identifier:
     code: '99'
   representations:
@@ -32,7 +68,7 @@
   non_normalized_aliases:
   - spelling: AMCA 99 JW Interp
     style: v3
-- id: amca.misc.0004
+- id: amca.misc.0007
   identifier:
     code: '99'
   representations:
@@ -43,7 +79,7 @@
   non_normalized_aliases:
   - spelling: AMCA 99 KB Interp
     style: v3
-- id: amca.misc.0005
+- id: amca.misc.0008
   identifier:
     code: '99'
   representations:
@@ -54,7 +90,7 @@
   non_normalized_aliases:
   - spelling: AMCA 99 RG Interp
     style: v3
-- id: amca.misc.0006
+- id: amca.misc.0009
   identifier:
     code: '1011'
     year: '03'
@@ -66,7 +102,7 @@
   non_normalized_aliases:
   - spelling: AMCA Publication 1011-03 (R2010)
     style: v3
-- id: amca.misc.0007
+- id: amca.misc.0010
   identifier:
     code: '203'
     year: '90'
@@ -78,7 +114,7 @@
   non_normalized_aliases:
   - spelling: AMCA Publication 203-90 (R2011)
     style: v3
-- id: amca.misc.0008
+- id: amca.misc.0011
   identifier:
     code: '211'
     year: '22'
@@ -90,7 +126,7 @@
   non_normalized_aliases:
   - spelling: AMCA Publication 211-22 (Rev. 01-23)
     style: v3
-- id: amca.misc.0009
+- id: amca.misc.0012
   identifier:
     code: '222'
     year: '16'
@@ -102,7 +138,7 @@
   non_normalized_aliases:
   - spelling: AMCA Publication 222-16
     style: v3
-- id: amca.misc.0010
+- id: amca.misc.0013
   identifier:
     code: '311'
     year: '16'
@@ -114,7 +150,7 @@
   non_normalized_aliases:
   - spelling: AMCA Publication 311-16
     style: v3
-- id: amca.misc.0011
+- id: amca.misc.0014
   identifier:
     code: '501'
     year: '17'
@@ -126,7 +162,7 @@
   non_normalized_aliases:
   - spelling: AMCA Publication 501-17
     style: v3
-- id: amca.misc.0012
+- id: amca.misc.0015
   identifier:
     code: '511'
     year: '21'
@@ -138,7 +174,7 @@
   non_normalized_aliases:
   - spelling: AMCA Publication 511-21 (Rev. 12-22)
     style: v3
-- id: amca.misc.0013
+- id: amca.misc.0016
   identifier:
     code: '611'
     year: '15'

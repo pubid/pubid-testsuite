@@ -4564,10 +4564,10 @@
     publisher: ASME
     code:
       designator: BPE
-      number: "-2012"
+    year: '2012'
   representations:
     human: ASME BPE-2012
-    urn: urn:asme:asme:BPE-2012
+    urn: urn:asme:asme:BPE:2012
   style: v3
 - id: asme.standard.0378
   identifier:
@@ -4575,10 +4575,10 @@
     publisher: ASME
     code:
       designator: BPE
-      number: "-2014"
+    year: '2014'
   representations:
     human: ASME BPE-2014
-    urn: urn:asme:asme:BPE-2014
+    urn: urn:asme:asme:BPE:2014
   style: v3
 - id: asme.standard.0379
   identifier:
@@ -4586,10 +4586,10 @@
     publisher: ASME
     code:
       designator: BPE
-      number: "-2016"
+    year: '2016'
   representations:
     human: ASME BPE-2016
-    urn: urn:asme:asme:BPE-2016
+    urn: urn:asme:asme:BPE:2016
   style: v3
 - id: asme.standard.0380
   identifier:
@@ -4597,10 +4597,10 @@
     publisher: ASME
     code:
       designator: BPE
-      number: "-2019"
+    year: '2019'
   representations:
     human: ASME BPE-2019
-    urn: urn:asme:asme:BPE-2019
+    urn: urn:asme:asme:BPE:2019
   style: v3
 - id: asme.standard.0381
   identifier:
@@ -4608,10 +4608,10 @@
     publisher: ASME
     code:
       designator: BPE
-      number: "-2022"
+    year: '2022'
   representations:
     human: ASME BPE-2022
-    urn: urn:asme:asme:BPE-2022
+    urn: urn:asme:asme:BPE:2022
   style: v3
 - id: asme.standard.0382
   identifier:
@@ -4619,10 +4619,10 @@
     publisher: ASME
     code:
       designator: BPE
-      number: "-2024"
+    year: '2024'
   representations:
     human: ASME BPE-2024
-    urn: urn:asme:asme:BPE-2024
+    urn: urn:asme:asme:BPE:2024
   style: v3
 - id: asme.standard.0383
   identifier:
@@ -4634,14 +4634,40 @@
     human: ASME BPVC COMPLETE CODE BIND
     urn: urn:asme:asme:BPVC COMPLETE CODE BIND
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC COMPLETE CODE BIND-2019
-    style: v3
-  - spelling: ASME BPVC COMPLETE CODE BIND-2021
-    style: v3
-  - spelling: ASME BPVC COMPLETE CODE BIND-2023
-    style: v3
 - id: asme.standard.0384
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC COMPLETE CODE BIND
+    year: '2019'
+  representations:
+    human: ASME BPVC COMPLETE CODE BIND-2019
+    urn: urn:asme:asme:BPVC COMPLETE CODE BIND:2019
+  style: v3
+- id: asme.standard.0385
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC COMPLETE CODE BIND
+    year: '2021'
+  representations:
+    human: ASME BPVC COMPLETE CODE BIND-2021
+    urn: urn:asme:asme:BPVC COMPLETE CODE BIND:2021
+  style: v3
+- id: asme.standard.0386
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC COMPLETE CODE BIND
+    year: '2023'
+  representations:
+    human: ASME BPVC COMPLETE CODE BIND-2023
+    urn: urn:asme:asme:BPVC COMPLETE CODE BIND:2023
+  style: v3
+- id: asme.standard.0387
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -4651,10 +4677,18 @@
     human: ASME BPVC-CC-BPV
     urn: urn:asme:asme:BPVC-CC-BPV
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC-CC-BPV-2019
-    style: v3
-- id: asme.standard.0385
+- id: asme.standard.0388
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC-CC-BPV
+    year: '2019'
+  representations:
+    human: ASME BPVC-CC-BPV-2019
+    urn: urn:asme:asme:BPVC-CC-BPV:2019
+  style: v3
+- id: asme.standard.0389
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -4664,10 +4698,18 @@
     human: ASME BPVC-CC-NUC
     urn: urn:asme:asme:BPVC-CC-NUC
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC-CC-NUC-2019
-    style: v3
-- id: asme.standard.0386
+- id: asme.standard.0390
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC-CC-NUC
+    year: '2019'
+  representations:
+    human: ASME BPVC-CC-NUC-2019
+    urn: urn:asme:asme:BPVC-CC-NUC:2019
+  style: v3
+- id: asme.standard.0391
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -4677,65 +4719,139 @@
     human: ASME BPVC.CC.BPV
     urn: urn:asme:asme:BPVC.CC.BPV
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.CC.BPV-2021
-    style: v3
-  - spelling: ASME BPVC.CC.BPV-2023
-    style: v3
-  - spelling: ASME BPVC.CC.BPV-2025
-    style: v3
-- id: asme.standard.0387
+- id: asme.standard.0392
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
     code:
-      designator: BPVC.CC.BPV..I
+      designator: BPVC.CC.BPV
+    year: '2021'
   representations:
-    human: ASME BPVC.CC.BPV..I
-    urn: urn:asme:asme:BPVC.CC.BPV..I
+    human: ASME BPVC.CC.BPV-2021
+    urn: urn:asme:asme:BPVC.CC.BPV:2021
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.CC.BPV.I-2019
-    style: v3
-  - spelling: ASME BPVC.CC.BPV.I-2021
-    style: v3
-  - spelling: ASME BPVC.CC.BPV.I-2023
-    style: v3
-- id: asme.standard.0388
+- id: asme.standard.0393
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
     code:
-      designator: BPVC.CC.BPV..IV
+      designator: BPVC.CC.BPV
+    year: '2023'
   representations:
-    human: ASME BPVC.CC.BPV..IV
-    urn: urn:asme:asme:BPVC.CC.BPV..IV
+    human: ASME BPVC.CC.BPV-2023
+    urn: urn:asme:asme:BPVC.CC.BPV:2023
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.CC.BPV.IV-2019
-    style: v3
-  - spelling: ASME BPVC.CC.BPV.IV-2021
-    style: v3
-  - spelling: ASME BPVC.CC.BPV.IV-2023
-    style: v3
-- id: asme.standard.0389
+- id: asme.standard.0394
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
     code:
-      designator: BPVC.CC.BPV..VIII
+      designator: BPVC.CC.BPV
+    year: '2025'
   representations:
-    human: ASME BPVC.CC.BPV..VIII
-    urn: urn:asme:asme:BPVC.CC.BPV..VIII
+    human: ASME BPVC.CC.BPV-2025
+    urn: urn:asme:asme:BPVC.CC.BPV:2025
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.CC.BPV.VIII-2019
-    style: v3
-  - spelling: ASME BPVC.CC.BPV.VIII-2021
-    style: v3
-  - spelling: ASME BPVC.CC.BPV.VIII-2023
-    style: v3
-- id: asme.standard.0390
+- id: asme.standard.0395
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.CC.BPV.I
+    year: '2019'
+  representations:
+    human: ASME BPVC.CC.BPV.I-2019
+    urn: urn:asme:asme:BPVC.CC.BPV.I:2019
+  style: v3
+- id: asme.standard.0396
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.CC.BPV.I
+    year: '2021'
+  representations:
+    human: ASME BPVC.CC.BPV.I-2021
+    urn: urn:asme:asme:BPVC.CC.BPV.I:2021
+  style: v3
+- id: asme.standard.0397
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.CC.BPV.I
+    year: '2023'
+  representations:
+    human: ASME BPVC.CC.BPV.I-2023
+    urn: urn:asme:asme:BPVC.CC.BPV.I:2023
+  style: v3
+- id: asme.standard.0398
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.CC.BPV.IV
+    year: '2019'
+  representations:
+    human: ASME BPVC.CC.BPV.IV-2019
+    urn: urn:asme:asme:BPVC.CC.BPV.IV:2019
+  style: v3
+- id: asme.standard.0399
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.CC.BPV.IV
+    year: '2021'
+  representations:
+    human: ASME BPVC.CC.BPV.IV-2021
+    urn: urn:asme:asme:BPVC.CC.BPV.IV:2021
+  style: v3
+- id: asme.standard.0400
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.CC.BPV.IV
+    year: '2023'
+  representations:
+    human: ASME BPVC.CC.BPV.IV-2023
+    urn: urn:asme:asme:BPVC.CC.BPV.IV:2023
+  style: v3
+- id: asme.standard.0401
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.CC.BPV.VIII
+    year: '2019'
+  representations:
+    human: ASME BPVC.CC.BPV.VIII-2019
+    urn: urn:asme:asme:BPVC.CC.BPV.VIII:2019
+  style: v3
+- id: asme.standard.0402
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.CC.BPV.VIII
+    year: '2021'
+  representations:
+    human: ASME BPVC.CC.BPV.VIII-2021
+    urn: urn:asme:asme:BPVC.CC.BPV.VIII:2021
+  style: v3
+- id: asme.standard.0403
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.CC.BPV.VIII
+    year: '2023'
+  representations:
+    human: ASME BPVC.CC.BPV.VIII-2023
+    urn: urn:asme:asme:BPVC.CC.BPV.VIII:2023
+  style: v3
+- id: asme.standard.0404
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -4745,48 +4861,106 @@
     human: ASME BPVC.CC.NC
     urn: urn:asme:asme:BPVC.CC.NC
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.CC.NC-2019
-    style: v3
-  - spelling: ASME BPVC.CC.NC-2021
-    style: v3
-  - spelling: ASME BPVC.CC.NC-2023
-    style: v3
-  - spelling: ASME BPVC.CC.NC-2025
-    style: v3
-- id: asme.standard.0391
+- id: asme.standard.0405
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
     code:
-      designator: BPVC.CC.NC..III
+      designator: BPVC.CC.NC
+    year: '2019'
   representations:
-    human: ASME BPVC.CC.NC..III
-    urn: urn:asme:asme:BPVC.CC.NC..III
+    human: ASME BPVC.CC.NC-2019
+    urn: urn:asme:asme:BPVC.CC.NC:2019
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.CC.NC.III-2019
-    style: v3
-  - spelling: ASME BPVC.CC.NC.III-2021
-    style: v3
-  - spelling: ASME BPVC.CC.NC.III-2023
-    style: v3
-- id: asme.standard.0392
+- id: asme.standard.0406
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
     code:
-      designator: BPVC.CC.NC..XI
+      designator: BPVC.CC.NC
+    year: '2021'
   representations:
-    human: ASME BPVC.CC.NC..XI
-    urn: urn:asme:asme:BPVC.CC.NC..XI
+    human: ASME BPVC.CC.NC-2021
+    urn: urn:asme:asme:BPVC.CC.NC:2021
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.CC.NC.XI-2019
-    style: v3
-  - spelling: ASME BPVC.CC.NC.XI-2023
-    style: v3
-- id: asme.standard.0393
+- id: asme.standard.0407
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.CC.NC
+    year: '2023'
+  representations:
+    human: ASME BPVC.CC.NC-2023
+    urn: urn:asme:asme:BPVC.CC.NC:2023
+  style: v3
+- id: asme.standard.0408
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.CC.NC
+    year: '2025'
+  representations:
+    human: ASME BPVC.CC.NC-2025
+    urn: urn:asme:asme:BPVC.CC.NC:2025
+  style: v3
+- id: asme.standard.0409
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.CC.NC.III
+    year: '2019'
+  representations:
+    human: ASME BPVC.CC.NC.III-2019
+    urn: urn:asme:asme:BPVC.CC.NC.III:2019
+  style: v3
+- id: asme.standard.0410
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.CC.NC.III
+    year: '2021'
+  representations:
+    human: ASME BPVC.CC.NC.III-2021
+    urn: urn:asme:asme:BPVC.CC.NC.III:2021
+  style: v3
+- id: asme.standard.0411
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.CC.NC.III
+    year: '2023'
+  representations:
+    human: ASME BPVC.CC.NC.III-2023
+    urn: urn:asme:asme:BPVC.CC.NC.III:2023
+  style: v3
+- id: asme.standard.0412
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.CC.NC.XI
+    year: '2019'
+  representations:
+    human: ASME BPVC.CC.NC.XI-2019
+    urn: urn:asme:asme:BPVC.CC.NC.XI:2019
+  style: v3
+- id: asme.standard.0413
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.CC.NC.XI
+    year: '2023'
+  representations:
+    human: ASME BPVC.CC.NC.XI-2023
+    urn: urn:asme:asme:BPVC.CC.NC.XI:2023
+  style: v3
+- id: asme.standard.0414
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -4796,14 +4970,40 @@
     human: ASME BPVC.I
     urn: urn:asme:asme:BPVC.I
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.I-2021
-    style: v3
-  - spelling: ASME BPVC.I-2023
-    style: v3
-  - spelling: ASME BPVC.I-2025
-    style: v3
-- id: asme.standard.0394
+- id: asme.standard.0415
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.I
+    year: '2021'
+  representations:
+    human: ASME BPVC.I-2021
+    urn: urn:asme:asme:BPVC.I:2021
+  style: v3
+- id: asme.standard.0416
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.I
+    year: '2023'
+  representations:
+    human: ASME BPVC.I-2023
+    urn: urn:asme:asme:BPVC.I:2023
+  style: v3
+- id: asme.standard.0417
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.I
+    year: '2025'
+  representations:
+    human: ASME BPVC.I-2025
+    urn: urn:asme:asme:BPVC.I:2025
+  style: v3
+- id: asme.standard.0418
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -4813,14 +5013,40 @@
     human: ASME BPVC.II.A
     urn: urn:asme:asme:BPVC.II.A
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.II.A-2021
-    style: v3
-  - spelling: ASME BPVC.II.A-2023
-    style: v3
-  - spelling: ASME BPVC.II.A-2025
-    style: v3
-- id: asme.standard.0395
+- id: asme.standard.0419
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.II.A
+    year: '2021'
+  representations:
+    human: ASME BPVC.II.A-2021
+    urn: urn:asme:asme:BPVC.II.A:2021
+  style: v3
+- id: asme.standard.0420
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.II.A
+    year: '2023'
+  representations:
+    human: ASME BPVC.II.A-2023
+    urn: urn:asme:asme:BPVC.II.A:2023
+  style: v3
+- id: asme.standard.0421
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.II.A
+    year: '2025'
+  representations:
+    human: ASME BPVC.II.A-2025
+    urn: urn:asme:asme:BPVC.II.A:2025
+  style: v3
+- id: asme.standard.0422
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -4830,14 +5056,40 @@
     human: ASME BPVC.II.B
     urn: urn:asme:asme:BPVC.II.B
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.II.B-2021
-    style: v3
-  - spelling: ASME BPVC.II.B-2023
-    style: v3
-  - spelling: ASME BPVC.II.B-2025
-    style: v3
-- id: asme.standard.0396
+- id: asme.standard.0423
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.II.B
+    year: '2021'
+  representations:
+    human: ASME BPVC.II.B-2021
+    urn: urn:asme:asme:BPVC.II.B:2021
+  style: v3
+- id: asme.standard.0424
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.II.B
+    year: '2023'
+  representations:
+    human: ASME BPVC.II.B-2023
+    urn: urn:asme:asme:BPVC.II.B:2023
+  style: v3
+- id: asme.standard.0425
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.II.B
+    year: '2025'
+  representations:
+    human: ASME BPVC.II.B-2025
+    urn: urn:asme:asme:BPVC.II.B:2025
+  style: v3
+- id: asme.standard.0426
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -4847,14 +5099,40 @@
     human: ASME BPVC.II.C
     urn: urn:asme:asme:BPVC.II.C
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.II.C-2021
-    style: v3
-  - spelling: ASME BPVC.II.C-2023
-    style: v3
-  - spelling: ASME BPVC.II.C-2025
-    style: v3
-- id: asme.standard.0397
+- id: asme.standard.0427
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.II.C
+    year: '2021'
+  representations:
+    human: ASME BPVC.II.C-2021
+    urn: urn:asme:asme:BPVC.II.C:2021
+  style: v3
+- id: asme.standard.0428
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.II.C
+    year: '2023'
+  representations:
+    human: ASME BPVC.II.C-2023
+    urn: urn:asme:asme:BPVC.II.C:2023
+  style: v3
+- id: asme.standard.0429
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.II.C
+    year: '2025'
+  representations:
+    human: ASME BPVC.II.C-2025
+    urn: urn:asme:asme:BPVC.II.C:2025
+  style: v3
+- id: asme.standard.0430
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -4864,14 +5142,40 @@
     human: ASME BPVC.II.D.C
     urn: urn:asme:asme:BPVC.II.D.C
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.II.D.C-2021
-    style: v3
-  - spelling: ASME BPVC.II.D.C-2023
-    style: v3
-  - spelling: ASME BPVC.II.D.C-2025
-    style: v3
-- id: asme.standard.0398
+- id: asme.standard.0431
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.II.D.C
+    year: '2021'
+  representations:
+    human: ASME BPVC.II.D.C-2021
+    urn: urn:asme:asme:BPVC.II.D.C:2021
+  style: v3
+- id: asme.standard.0432
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.II.D.C
+    year: '2023'
+  representations:
+    human: ASME BPVC.II.D.C-2023
+    urn: urn:asme:asme:BPVC.II.D.C:2023
+  style: v3
+- id: asme.standard.0433
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.II.D.C
+    year: '2025'
+  representations:
+    human: ASME BPVC.II.D.C-2025
+    urn: urn:asme:asme:BPVC.II.D.C:2025
+  style: v3
+- id: asme.standard.0434
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -4881,14 +5185,40 @@
     human: ASME BPVC.II.D.M
     urn: urn:asme:asme:BPVC.II.D.M
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.II.D.M-2021
-    style: v3
-  - spelling: ASME BPVC.II.D.M-2023
-    style: v3
-  - spelling: ASME BPVC.II.D.M-2025
-    style: v3
-- id: asme.standard.0399
+- id: asme.standard.0435
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.II.D.M
+    year: '2021'
+  representations:
+    human: ASME BPVC.II.D.M-2021
+    urn: urn:asme:asme:BPVC.II.D.M:2021
+  style: v3
+- id: asme.standard.0436
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.II.D.M
+    year: '2023'
+  representations:
+    human: ASME BPVC.II.D.M-2023
+    urn: urn:asme:asme:BPVC.II.D.M:2023
+  style: v3
+- id: asme.standard.0437
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.II.D.M
+    year: '2025'
+  representations:
+    human: ASME BPVC.II.D.M-2025
+    urn: urn:asme:asme:BPVC.II.D.M:2025
+  style: v3
+- id: asme.standard.0438
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -4898,20 +5228,73 @@
     human: ASME BPVC.III.1.NB
     urn: urn:asme:asme:BPVC.III.1.NB
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.III.1.NB-2015
-    style: v3
-  - spelling: ASME BPVC.III.1.NB-2017
-    style: v3
-  - spelling: ASME BPVC.III.1.NB-2019
-    style: v3
-  - spelling: ASME BPVC.III.1.NB-2021
-    style: v3
-  - spelling: ASME BPVC.III.1.NB-2023
-    style: v3
-  - spelling: ASME BPVC.III.1.NB-2025
-    style: v3
-- id: asme.standard.0400
+- id: asme.standard.0439
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NB
+    year: '2015'
+  representations:
+    human: ASME BPVC.III.1.NB-2015
+    urn: urn:asme:asme:BPVC.III.1.NB:2015
+  style: v3
+- id: asme.standard.0440
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NB
+    year: '2017'
+  representations:
+    human: ASME BPVC.III.1.NB-2017
+    urn: urn:asme:asme:BPVC.III.1.NB:2017
+  style: v3
+- id: asme.standard.0441
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NB
+    year: '2019'
+  representations:
+    human: ASME BPVC.III.1.NB-2019
+    urn: urn:asme:asme:BPVC.III.1.NB:2019
+  style: v3
+- id: asme.standard.0442
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NB
+    year: '2021'
+  representations:
+    human: ASME BPVC.III.1.NB-2021
+    urn: urn:asme:asme:BPVC.III.1.NB:2021
+  style: v3
+- id: asme.standard.0443
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NB
+    year: '2023'
+  representations:
+    human: ASME BPVC.III.1.NB-2023
+    urn: urn:asme:asme:BPVC.III.1.NB:2023
+  style: v3
+- id: asme.standard.0444
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NB
+    year: '2025'
+  representations:
+    human: ASME BPVC.III.1.NB-2025
+    urn: urn:asme:asme:BPVC.III.1.NB:2025
+  style: v3
+- id: asme.standard.0445
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -4921,14 +5304,40 @@
     human: ASME BPVC.III.1.NC
     urn: urn:asme:asme:BPVC.III.1.NC
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.III.1.NC-2013
-    style: v3
-  - spelling: ASME BPVC.III.1.NC-2017
-    style: v3
-  - spelling: ASME BPVC.III.1.NC-2019
-    style: v3
-- id: asme.standard.0401
+- id: asme.standard.0446
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NC
+    year: '2013'
+  representations:
+    human: ASME BPVC.III.1.NC-2013
+    urn: urn:asme:asme:BPVC.III.1.NC:2013
+  style: v3
+- id: asme.standard.0447
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NC
+    year: '2017'
+  representations:
+    human: ASME BPVC.III.1.NC-2017
+    urn: urn:asme:asme:BPVC.III.1.NC:2017
+  style: v3
+- id: asme.standard.0448
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NC
+    year: '2019'
+  representations:
+    human: ASME BPVC.III.1.NC-2019
+    urn: urn:asme:asme:BPVC.III.1.NC:2019
+  style: v3
+- id: asme.standard.0449
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -4938,14 +5347,40 @@
     human: ASME BPVC.III.1.NCD
     urn: urn:asme:asme:BPVC.III.1.NCD
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.III.1.NCD-2021
-    style: v3
-  - spelling: ASME BPVC.III.1.NCD-2023
-    style: v3
-  - spelling: ASME BPVC.III.1.NCD-2025
-    style: v3
-- id: asme.standard.0402
+- id: asme.standard.0450
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NCD
+    year: '2021'
+  representations:
+    human: ASME BPVC.III.1.NCD-2021
+    urn: urn:asme:asme:BPVC.III.1.NCD:2021
+  style: v3
+- id: asme.standard.0451
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NCD
+    year: '2023'
+  representations:
+    human: ASME BPVC.III.1.NCD-2023
+    urn: urn:asme:asme:BPVC.III.1.NCD:2023
+  style: v3
+- id: asme.standard.0452
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NCD
+    year: '2025'
+  representations:
+    human: ASME BPVC.III.1.NCD-2025
+    urn: urn:asme:asme:BPVC.III.1.NCD:2025
+  style: v3
+- id: asme.standard.0453
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -4955,12 +5390,29 @@
     human: ASME BPVC.III.1.ND
     urn: urn:asme:asme:BPVC.III.1.ND
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.III.1.ND-2017
-    style: v3
-  - spelling: ASME BPVC.III.1.ND-2019
-    style: v3
-- id: asme.standard.0403
+- id: asme.standard.0454
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.ND
+    year: '2017'
+  representations:
+    human: ASME BPVC.III.1.ND-2017
+    urn: urn:asme:asme:BPVC.III.1.ND:2017
+  style: v3
+- id: asme.standard.0455
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.ND
+    year: '2019'
+  representations:
+    human: ASME BPVC.III.1.ND-2019
+    urn: urn:asme:asme:BPVC.III.1.ND:2019
+  style: v3
+- id: asme.standard.0456
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -4970,18 +5422,62 @@
     human: ASME BPVC.III.1.NE
     urn: urn:asme:asme:BPVC.III.1.NE
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.III.1.NE-2017
-    style: v3
-  - spelling: ASME BPVC.III.1.NE-2019
-    style: v3
-  - spelling: ASME BPVC.III.1.NE-2021
-    style: v3
-  - spelling: ASME BPVC.III.1.NE-2023
-    style: v3
-  - spelling: ASME BPVC.III.1.NE-2025
-    style: v3
-- id: asme.standard.0404
+- id: asme.standard.0457
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NE
+    year: '2017'
+  representations:
+    human: ASME BPVC.III.1.NE-2017
+    urn: urn:asme:asme:BPVC.III.1.NE:2017
+  style: v3
+- id: asme.standard.0458
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NE
+    year: '2019'
+  representations:
+    human: ASME BPVC.III.1.NE-2019
+    urn: urn:asme:asme:BPVC.III.1.NE:2019
+  style: v3
+- id: asme.standard.0459
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NE
+    year: '2021'
+  representations:
+    human: ASME BPVC.III.1.NE-2021
+    urn: urn:asme:asme:BPVC.III.1.NE:2021
+  style: v3
+- id: asme.standard.0460
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NE
+    year: '2023'
+  representations:
+    human: ASME BPVC.III.1.NE-2023
+    urn: urn:asme:asme:BPVC.III.1.NE:2023
+  style: v3
+- id: asme.standard.0461
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NE
+    year: '2025'
+  representations:
+    human: ASME BPVC.III.1.NE-2025
+    urn: urn:asme:asme:BPVC.III.1.NE:2025
+  style: v3
+- id: asme.standard.0462
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -4991,18 +5487,62 @@
     human: ASME BPVC.III.1.NF
     urn: urn:asme:asme:BPVC.III.1.NF
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.III.1.NF-2017
-    style: v3
-  - spelling: ASME BPVC.III.1.NF-2019
-    style: v3
-  - spelling: ASME BPVC.III.1.NF-2021
-    style: v3
-  - spelling: ASME BPVC.III.1.NF-2023
-    style: v3
-  - spelling: ASME BPVC.III.1.NF-2025
-    style: v3
-- id: asme.standard.0405
+- id: asme.standard.0463
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NF
+    year: '2017'
+  representations:
+    human: ASME BPVC.III.1.NF-2017
+    urn: urn:asme:asme:BPVC.III.1.NF:2017
+  style: v3
+- id: asme.standard.0464
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NF
+    year: '2019'
+  representations:
+    human: ASME BPVC.III.1.NF-2019
+    urn: urn:asme:asme:BPVC.III.1.NF:2019
+  style: v3
+- id: asme.standard.0465
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NF
+    year: '2021'
+  representations:
+    human: ASME BPVC.III.1.NF-2021
+    urn: urn:asme:asme:BPVC.III.1.NF:2021
+  style: v3
+- id: asme.standard.0466
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NF
+    year: '2023'
+  representations:
+    human: ASME BPVC.III.1.NF-2023
+    urn: urn:asme:asme:BPVC.III.1.NF:2023
+  style: v3
+- id: asme.standard.0467
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NF
+    year: '2025'
+  representations:
+    human: ASME BPVC.III.1.NF-2025
+    urn: urn:asme:asme:BPVC.III.1.NF:2025
+  style: v3
+- id: asme.standard.0468
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5012,16 +5552,51 @@
     human: ASME BPVC.III.1.NG
     urn: urn:asme:asme:BPVC.III.1.NG
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.III.1.NG-2019
-    style: v3
-  - spelling: ASME BPVC.III.1.NG-2021
-    style: v3
-  - spelling: ASME BPVC.III.1.NG-2023
-    style: v3
-  - spelling: ASME BPVC.III.1.NG-2025
-    style: v3
-- id: asme.standard.0406
+- id: asme.standard.0469
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NG
+    year: '2019'
+  representations:
+    human: ASME BPVC.III.1.NG-2019
+    urn: urn:asme:asme:BPVC.III.1.NG:2019
+  style: v3
+- id: asme.standard.0470
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NG
+    year: '2021'
+  representations:
+    human: ASME BPVC.III.1.NG-2021
+    urn: urn:asme:asme:BPVC.III.1.NG:2021
+  style: v3
+- id: asme.standard.0471
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NG
+    year: '2023'
+  representations:
+    human: ASME BPVC.III.1.NG-2023
+    urn: urn:asme:asme:BPVC.III.1.NG:2023
+  style: v3
+- id: asme.standard.0472
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.1.NG
+    year: '2025'
+  representations:
+    human: ASME BPVC.III.1.NG-2025
+    urn: urn:asme:asme:BPVC.III.1.NG:2025
+  style: v3
+- id: asme.standard.0473
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5031,18 +5606,62 @@
     human: ASME BPVC.III.2
     urn: urn:asme:asme:BPVC.III.2
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.III.2-2017
-    style: v3
-  - spelling: ASME BPVC.III.2-2019
-    style: v3
-  - spelling: ASME BPVC.III.2-2021
-    style: v3
-  - spelling: ASME BPVC.III.2-2023
-    style: v3
-  - spelling: ASME BPVC.III.2-2025
-    style: v3
-- id: asme.standard.0407
+- id: asme.standard.0474
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.2
+    year: '2017'
+  representations:
+    human: ASME BPVC.III.2-2017
+    urn: urn:asme:asme:BPVC.III.2:2017
+  style: v3
+- id: asme.standard.0475
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.2
+    year: '2019'
+  representations:
+    human: ASME BPVC.III.2-2019
+    urn: urn:asme:asme:BPVC.III.2:2019
+  style: v3
+- id: asme.standard.0476
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.2
+    year: '2021'
+  representations:
+    human: ASME BPVC.III.2-2021
+    urn: urn:asme:asme:BPVC.III.2:2021
+  style: v3
+- id: asme.standard.0477
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.2
+    year: '2023'
+  representations:
+    human: ASME BPVC.III.2-2023
+    urn: urn:asme:asme:BPVC.III.2:2023
+  style: v3
+- id: asme.standard.0478
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.2
+    year: '2025'
+  representations:
+    human: ASME BPVC.III.2-2025
+    urn: urn:asme:asme:BPVC.III.2:2025
+  style: v3
+- id: asme.standard.0479
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5052,18 +5671,62 @@
     human: ASME BPVC.III.3
     urn: urn:asme:asme:BPVC.III.3
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.III.3-2017
-    style: v3
-  - spelling: ASME BPVC.III.3-2019
-    style: v3
-  - spelling: ASME BPVC.III.3-2021
-    style: v3
-  - spelling: ASME BPVC.III.3-2023
-    style: v3
-  - spelling: ASME BPVC.III.3-2025
-    style: v3
-- id: asme.standard.0408
+- id: asme.standard.0480
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.3
+    year: '2017'
+  representations:
+    human: ASME BPVC.III.3-2017
+    urn: urn:asme:asme:BPVC.III.3:2017
+  style: v3
+- id: asme.standard.0481
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.3
+    year: '2019'
+  representations:
+    human: ASME BPVC.III.3-2019
+    urn: urn:asme:asme:BPVC.III.3:2019
+  style: v3
+- id: asme.standard.0482
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.3
+    year: '2021'
+  representations:
+    human: ASME BPVC.III.3-2021
+    urn: urn:asme:asme:BPVC.III.3:2021
+  style: v3
+- id: asme.standard.0483
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.3
+    year: '2023'
+  representations:
+    human: ASME BPVC.III.3-2023
+    urn: urn:asme:asme:BPVC.III.3:2023
+  style: v3
+- id: asme.standard.0484
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.3
+    year: '2025'
+  representations:
+    human: ASME BPVC.III.3-2025
+    urn: urn:asme:asme:BPVC.III.3:2025
+  style: v3
+- id: asme.standard.0485
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5073,12 +5736,29 @@
     human: ASME BPVC.III.4
     urn: urn:asme:asme:BPVC.III.4
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.III.4-2023
-    style: v3
-  - spelling: ASME BPVC.III.4-2025
-    style: v3
-- id: asme.standard.0409
+- id: asme.standard.0486
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.4
+    year: '2023'
+  representations:
+    human: ASME BPVC.III.4-2023
+    urn: urn:asme:asme:BPVC.III.4:2023
+  style: v3
+- id: asme.standard.0487
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.4
+    year: '2025'
+  representations:
+    human: ASME BPVC.III.4-2025
+    urn: urn:asme:asme:BPVC.III.4:2025
+  style: v3
+- id: asme.standard.0488
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5088,20 +5768,73 @@
     human: ASME BPVC.III.5
     urn: urn:asme:asme:BPVC.III.5
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.III.5-2015
-    style: v3
-  - spelling: ASME BPVC.III.5-2017
-    style: v3
-  - spelling: ASME BPVC.III.5-2019
-    style: v3
-  - spelling: ASME BPVC.III.5-2021
-    style: v3
-  - spelling: ASME BPVC.III.5-2023
-    style: v3
-  - spelling: ASME BPVC.III.5-2025
-    style: v3
-- id: asme.standard.0410
+- id: asme.standard.0489
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.5
+    year: '2015'
+  representations:
+    human: ASME BPVC.III.5-2015
+    urn: urn:asme:asme:BPVC.III.5:2015
+  style: v3
+- id: asme.standard.0490
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.5
+    year: '2017'
+  representations:
+    human: ASME BPVC.III.5-2017
+    urn: urn:asme:asme:BPVC.III.5:2017
+  style: v3
+- id: asme.standard.0491
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.5
+    year: '2019'
+  representations:
+    human: ASME BPVC.III.5-2019
+    urn: urn:asme:asme:BPVC.III.5:2019
+  style: v3
+- id: asme.standard.0492
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.5
+    year: '2021'
+  representations:
+    human: ASME BPVC.III.5-2021
+    urn: urn:asme:asme:BPVC.III.5:2021
+  style: v3
+- id: asme.standard.0493
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.5
+    year: '2023'
+  representations:
+    human: ASME BPVC.III.5-2023
+    urn: urn:asme:asme:BPVC.III.5:2023
+  style: v3
+- id: asme.standard.0494
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.5
+    year: '2025'
+  representations:
+    human: ASME BPVC.III.5-2025
+    urn: urn:asme:asme:BPVC.III.5:2025
+  style: v3
+- id: asme.standard.0495
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5111,20 +5844,73 @@
     human: ASME BPVC.III.A
     urn: urn:asme:asme:BPVC.III.A
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.III.A-2015
-    style: v3
-  - spelling: ASME BPVC.III.A-2017
-    style: v3
-  - spelling: ASME BPVC.III.A-2019
-    style: v3
-  - spelling: ASME BPVC.III.A-2021
-    style: v3
-  - spelling: ASME BPVC.III.A-2023
-    style: v3
-  - spelling: ASME BPVC.III.A-2025
-    style: v3
-- id: asme.standard.0411
+- id: asme.standard.0496
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.A
+    year: '2015'
+  representations:
+    human: ASME BPVC.III.A-2015
+    urn: urn:asme:asme:BPVC.III.A:2015
+  style: v3
+- id: asme.standard.0497
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.A
+    year: '2017'
+  representations:
+    human: ASME BPVC.III.A-2017
+    urn: urn:asme:asme:BPVC.III.A:2017
+  style: v3
+- id: asme.standard.0498
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.A
+    year: '2019'
+  representations:
+    human: ASME BPVC.III.A-2019
+    urn: urn:asme:asme:BPVC.III.A:2019
+  style: v3
+- id: asme.standard.0499
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.A
+    year: '2021'
+  representations:
+    human: ASME BPVC.III.A-2021
+    urn: urn:asme:asme:BPVC.III.A:2021
+  style: v3
+- id: asme.standard.0500
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.A
+    year: '2023'
+  representations:
+    human: ASME BPVC.III.A-2023
+    urn: urn:asme:asme:BPVC.III.A:2023
+  style: v3
+- id: asme.standard.0501
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.A
+    year: '2025'
+  representations:
+    human: ASME BPVC.III.A-2025
+    urn: urn:asme:asme:BPVC.III.A:2025
+  style: v3
+- id: asme.standard.0502
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5134,18 +5920,62 @@
     human: ASME BPVC.III.NCA
     urn: urn:asme:asme:BPVC.III.NCA
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.III.NCA-2017
-    style: v3
-  - spelling: ASME BPVC.III.NCA-2019
-    style: v3
-  - spelling: ASME BPVC.III.NCA-2021
-    style: v3
-  - spelling: ASME BPVC.III.NCA-2023
-    style: v3
-  - spelling: ASME BPVC.III.NCA-2025
-    style: v3
-- id: asme.standard.0412
+- id: asme.standard.0503
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.NCA
+    year: '2017'
+  representations:
+    human: ASME BPVC.III.NCA-2017
+    urn: urn:asme:asme:BPVC.III.NCA:2017
+  style: v3
+- id: asme.standard.0504
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.NCA
+    year: '2019'
+  representations:
+    human: ASME BPVC.III.NCA-2019
+    urn: urn:asme:asme:BPVC.III.NCA:2019
+  style: v3
+- id: asme.standard.0505
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.NCA
+    year: '2021'
+  representations:
+    human: ASME BPVC.III.NCA-2021
+    urn: urn:asme:asme:BPVC.III.NCA:2021
+  style: v3
+- id: asme.standard.0506
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.NCA
+    year: '2023'
+  representations:
+    human: ASME BPVC.III.NCA-2023
+    urn: urn:asme:asme:BPVC.III.NCA:2023
+  style: v3
+- id: asme.standard.0507
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.III.NCA
+    year: '2025'
+  representations:
+    human: ASME BPVC.III.NCA-2025
+    urn: urn:asme:asme:BPVC.III.NCA:2025
+  style: v3
+- id: asme.standard.0508
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5155,16 +5985,51 @@
     human: ASME BPVC.IV
     urn: urn:asme:asme:BPVC.IV
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.IV-2017
-    style: v3
-  - spelling: ASME BPVC.IV-2021
-    style: v3
-  - spelling: ASME BPVC.IV-2023
-    style: v3
-  - spelling: ASME BPVC.IV-2025
-    style: v3
-- id: asme.standard.0413
+- id: asme.standard.0509
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.IV
+    year: '2017'
+  representations:
+    human: ASME BPVC.IV-2017
+    urn: urn:asme:asme:BPVC.IV:2017
+  style: v3
+- id: asme.standard.0510
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.IV
+    year: '2021'
+  representations:
+    human: ASME BPVC.IV-2021
+    urn: urn:asme:asme:BPVC.IV:2021
+  style: v3
+- id: asme.standard.0511
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.IV
+    year: '2023'
+  representations:
+    human: ASME BPVC.IV-2023
+    urn: urn:asme:asme:BPVC.IV:2023
+  style: v3
+- id: asme.standard.0512
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.IV
+    year: '2025'
+  representations:
+    human: ASME BPVC.IV-2025
+    urn: urn:asme:asme:BPVC.IV:2025
+  style: v3
+- id: asme.standard.0513
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5174,29 +6039,68 @@
     human: ASME BPVC.IX
     urn: urn:asme:asme:BPVC.IX
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.IX-2021
-    style: v3
-  - spelling: ASME BPVC.IX-2023
-    style: v3
-  - spelling: ASME BPVC.IX-2025
-    style: v3
-- id: asme.standard.0414
+- id: asme.standard.0514
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
     code:
-      designator: BPVC.SSC.
+      designator: BPVC.IX
+    year: '2021'
   representations:
-    human: ASME BPVC.SSC.
-    urn: urn:asme:asme:BPVC.SSC.
+    human: ASME BPVC.IX-2021
+    urn: urn:asme:asme:BPVC.IX:2021
+  style: v3
+- id: asme.standard.0515
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.IX
+    year: '2023'
+  representations:
+    human: ASME BPVC.IX-2023
+    urn: urn:asme:asme:BPVC.IX:2023
+  style: v3
+- id: asme.standard.0516
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.IX
+    year: '2025'
+  representations:
+    human: ASME BPVC.IX-2025
+    urn: urn:asme:asme:BPVC.IX:2025
+  style: v3
+- id: asme.standard.0517
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.SSC
+    year: '2021'
+  representations:
+    human: ASME BPVC.SSC-2021
+    urn: urn:asme:asme:BPVC.SSC:2021
   style: v3
   non_normalized_aliases:
   - spelling: ASME BPVC.SSC.XI.II.V.IX-2021
     style: v3
+- id: asme.standard.0518
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.SSC
+    year: '2023'
+  representations:
+    human: ASME BPVC.SSC-2023
+    urn: urn:asme:asme:BPVC.SSC:2023
+  style: v3
+  non_normalized_aliases:
   - spelling: ASME BPVC.SSC.XI.II.V.IX-2023
     style: v3
-- id: asme.standard.0415
+- id: asme.standard.0519
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5206,14 +6110,40 @@
     human: ASME BPVC.V
     urn: urn:asme:asme:BPVC.V
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.V-2021
-    style: v3
-  - spelling: ASME BPVC.V-2023
-    style: v3
-  - spelling: ASME BPVC.V-2025
-    style: v3
-- id: asme.standard.0416
+- id: asme.standard.0520
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.V
+    year: '2021'
+  representations:
+    human: ASME BPVC.V-2021
+    urn: urn:asme:asme:BPVC.V:2021
+  style: v3
+- id: asme.standard.0521
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.V
+    year: '2023'
+  representations:
+    human: ASME BPVC.V-2023
+    urn: urn:asme:asme:BPVC.V:2023
+  style: v3
+- id: asme.standard.0522
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.V
+    year: '2025'
+  representations:
+    human: ASME BPVC.V-2025
+    urn: urn:asme:asme:BPVC.V:2025
+  style: v3
+- id: asme.standard.0523
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5223,16 +6153,51 @@
     human: ASME BPVC.VI
     urn: urn:asme:asme:BPVC.VI
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.VI-2017
-    style: v3
-  - spelling: ASME BPVC.VI-2021
-    style: v3
-  - spelling: ASME BPVC.VI-2023
-    style: v3
-  - spelling: ASME BPVC.VI-2025
-    style: v3
-- id: asme.standard.0417
+- id: asme.standard.0524
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.VI
+    year: '2017'
+  representations:
+    human: ASME BPVC.VI-2017
+    urn: urn:asme:asme:BPVC.VI:2017
+  style: v3
+- id: asme.standard.0525
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.VI
+    year: '2021'
+  representations:
+    human: ASME BPVC.VI-2021
+    urn: urn:asme:asme:BPVC.VI:2021
+  style: v3
+- id: asme.standard.0526
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.VI
+    year: '2023'
+  representations:
+    human: ASME BPVC.VI-2023
+    urn: urn:asme:asme:BPVC.VI:2023
+  style: v3
+- id: asme.standard.0527
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.VI
+    year: '2025'
+  representations:
+    human: ASME BPVC.VI-2025
+    urn: urn:asme:asme:BPVC.VI:2025
+  style: v3
+- id: asme.standard.0528
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5242,18 +6207,62 @@
     human: ASME BPVC.VII
     urn: urn:asme:asme:BPVC.VII
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.VII-2017
-    style: v3
-  - spelling: ASME BPVC.VII-2019
-    style: v3
-  - spelling: ASME BPVC.VII-2021
-    style: v3
-  - spelling: ASME BPVC.VII-2023
-    style: v3
-  - spelling: ASME BPVC.VII-2025
-    style: v3
-- id: asme.standard.0418
+- id: asme.standard.0529
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.VII
+    year: '2017'
+  representations:
+    human: ASME BPVC.VII-2017
+    urn: urn:asme:asme:BPVC.VII:2017
+  style: v3
+- id: asme.standard.0530
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.VII
+    year: '2019'
+  representations:
+    human: ASME BPVC.VII-2019
+    urn: urn:asme:asme:BPVC.VII:2019
+  style: v3
+- id: asme.standard.0531
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.VII
+    year: '2021'
+  representations:
+    human: ASME BPVC.VII-2021
+    urn: urn:asme:asme:BPVC.VII:2021
+  style: v3
+- id: asme.standard.0532
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.VII
+    year: '2023'
+  representations:
+    human: ASME BPVC.VII-2023
+    urn: urn:asme:asme:BPVC.VII:2023
+  style: v3
+- id: asme.standard.0533
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.VII
+    year: '2025'
+  representations:
+    human: ASME BPVC.VII-2025
+    urn: urn:asme:asme:BPVC.VII:2025
+  style: v3
+- id: asme.standard.0534
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5263,16 +6272,51 @@
     human: ASME BPVC.VIII.1
     urn: urn:asme:asme:BPVC.VIII.1
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.VIII.1-2019
-    style: v3
-  - spelling: ASME BPVC.VIII.1-2021
-    style: v3
-  - spelling: ASME BPVC.VIII.1-2023
-    style: v3
-  - spelling: ASME BPVC.VIII.1-2025
-    style: v3
-- id: asme.standard.0419
+- id: asme.standard.0535
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.VIII.1
+    year: '2019'
+  representations:
+    human: ASME BPVC.VIII.1-2019
+    urn: urn:asme:asme:BPVC.VIII.1:2019
+  style: v3
+- id: asme.standard.0536
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.VIII.1
+    year: '2021'
+  representations:
+    human: ASME BPVC.VIII.1-2021
+    urn: urn:asme:asme:BPVC.VIII.1:2021
+  style: v3
+- id: asme.standard.0537
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.VIII.1
+    year: '2023'
+  representations:
+    human: ASME BPVC.VIII.1-2023
+    urn: urn:asme:asme:BPVC.VIII.1:2023
+  style: v3
+- id: asme.standard.0538
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.VIII.1
+    year: '2025'
+  representations:
+    human: ASME BPVC.VIII.1-2025
+    urn: urn:asme:asme:BPVC.VIII.1:2025
+  style: v3
+- id: asme.standard.0539
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5282,10 +6326,18 @@
     human: ASME BPVC.VIII.1_ES
     urn: urn:asme:asme:BPVC.VIII.1_ES
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.VIII.1_ES-2013
-    style: v3
-- id: asme.standard.0420
+- id: asme.standard.0540
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.VIII.1_ES
+    year: '2013'
+  representations:
+    human: ASME BPVC.VIII.1_ES-2013
+    urn: urn:asme:asme:BPVC.VIII.1_ES:2013
+  style: v3
+- id: asme.standard.0541
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5295,14 +6347,40 @@
     human: ASME BPVC.VIII.2
     urn: urn:asme:asme:BPVC.VIII.2
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.VIII.2-2021
-    style: v3
-  - spelling: ASME BPVC.VIII.2-2023
-    style: v3
-  - spelling: ASME BPVC.VIII.2-2025
-    style: v3
-- id: asme.standard.0421
+- id: asme.standard.0542
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.VIII.2
+    year: '2021'
+  representations:
+    human: ASME BPVC.VIII.2-2021
+    urn: urn:asme:asme:BPVC.VIII.2:2021
+  style: v3
+- id: asme.standard.0543
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.VIII.2
+    year: '2023'
+  representations:
+    human: ASME BPVC.VIII.2-2023
+    urn: urn:asme:asme:BPVC.VIII.2:2023
+  style: v3
+- id: asme.standard.0544
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.VIII.2
+    year: '2025'
+  representations:
+    human: ASME BPVC.VIII.2-2025
+    urn: urn:asme:asme:BPVC.VIII.2:2025
+  style: v3
+- id: asme.standard.0545
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5312,14 +6390,40 @@
     human: ASME BPVC.VIII.3
     urn: urn:asme:asme:BPVC.VIII.3
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.VIII.3-2021
-    style: v3
-  - spelling: ASME BPVC.VIII.3-2023
-    style: v3
-  - spelling: ASME BPVC.VIII.3-2025
-    style: v3
-- id: asme.standard.0422
+- id: asme.standard.0546
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.VIII.3
+    year: '2021'
+  representations:
+    human: ASME BPVC.VIII.3-2021
+    urn: urn:asme:asme:BPVC.VIII.3:2021
+  style: v3
+- id: asme.standard.0547
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.VIII.3
+    year: '2023'
+  representations:
+    human: ASME BPVC.VIII.3-2023
+    urn: urn:asme:asme:BPVC.VIII.3:2023
+  style: v3
+- id: asme.standard.0548
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.VIII.3
+    year: '2025'
+  representations:
+    human: ASME BPVC.VIII.3-2025
+    urn: urn:asme:asme:BPVC.VIII.3:2025
+  style: v3
+- id: asme.standard.0549
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5329,14 +6433,40 @@
     human: ASME BPVC.X
     urn: urn:asme:asme:BPVC.X
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.X-2021
-    style: v3
-  - spelling: ASME BPVC.X-2023
-    style: v3
-  - spelling: ASME BPVC.X-2025
-    style: v3
-- id: asme.standard.0423
+- id: asme.standard.0550
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.X
+    year: '2021'
+  representations:
+    human: ASME BPVC.X-2021
+    urn: urn:asme:asme:BPVC.X:2021
+  style: v3
+- id: asme.standard.0551
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.X
+    year: '2023'
+  representations:
+    human: ASME BPVC.X-2023
+    urn: urn:asme:asme:BPVC.X:2023
+  style: v3
+- id: asme.standard.0552
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.X
+    year: '2025'
+  representations:
+    human: ASME BPVC.X-2025
+    urn: urn:asme:asme:BPVC.X:2025
+  style: v3
+- id: asme.standard.0553
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5346,16 +6476,51 @@
     human: ASME BPVC.XI.1
     urn: urn:asme:asme:BPVC.XI.1
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.XI.1-2019
-    style: v3
-  - spelling: ASME BPVC.XI.1-2021
-    style: v3
-  - spelling: ASME BPVC.XI.1-2023
-    style: v3
-  - spelling: ASME BPVC.XI.1-2025
-    style: v3
-- id: asme.standard.0424
+- id: asme.standard.0554
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.XI.1
+    year: '2019'
+  representations:
+    human: ASME BPVC.XI.1-2019
+    urn: urn:asme:asme:BPVC.XI.1:2019
+  style: v3
+- id: asme.standard.0555
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.XI.1
+    year: '2021'
+  representations:
+    human: ASME BPVC.XI.1-2021
+    urn: urn:asme:asme:BPVC.XI.1:2021
+  style: v3
+- id: asme.standard.0556
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.XI.1
+    year: '2023'
+  representations:
+    human: ASME BPVC.XI.1-2023
+    urn: urn:asme:asme:BPVC.XI.1:2023
+  style: v3
+- id: asme.standard.0557
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.XI.1
+    year: '2025'
+  representations:
+    human: ASME BPVC.XI.1-2025
+    urn: urn:asme:asme:BPVC.XI.1:2025
+  style: v3
+- id: asme.standard.0558
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5365,16 +6530,51 @@
     human: ASME BPVC.XI.2
     urn: urn:asme:asme:BPVC.XI.2
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.XI.2-2019
-    style: v3
-  - spelling: ASME BPVC.XI.2-2021
-    style: v3
-  - spelling: ASME BPVC.XI.2-2023
-    style: v3
-  - spelling: ASME BPVC.XI.2-2025
-    style: v3
-- id: asme.standard.0425
+- id: asme.standard.0559
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.XI.2
+    year: '2019'
+  representations:
+    human: ASME BPVC.XI.2-2019
+    urn: urn:asme:asme:BPVC.XI.2:2019
+  style: v3
+- id: asme.standard.0560
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.XI.2
+    year: '2021'
+  representations:
+    human: ASME BPVC.XI.2-2021
+    urn: urn:asme:asme:BPVC.XI.2:2021
+  style: v3
+- id: asme.standard.0561
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.XI.2
+    year: '2023'
+  representations:
+    human: ASME BPVC.XI.2-2023
+    urn: urn:asme:asme:BPVC.XI.2:2023
+  style: v3
+- id: asme.standard.0562
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.XI.2
+    year: '2025'
+  representations:
+    human: ASME BPVC.XI.2-2025
+    urn: urn:asme:asme:BPVC.XI.2:2025
+  style: v3
+- id: asme.standard.0563
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5384,14 +6584,40 @@
     human: ASME BPVC.XII
     urn: urn:asme:asme:BPVC.XII
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.XII-2021
-    style: v3
-  - spelling: ASME BPVC.XII-2023
-    style: v3
-  - spelling: ASME BPVC.XII-2025
-    style: v3
-- id: asme.standard.0426
+- id: asme.standard.0564
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.XII
+    year: '2021'
+  representations:
+    human: ASME BPVC.XII-2021
+    urn: urn:asme:asme:BPVC.XII:2021
+  style: v3
+- id: asme.standard.0565
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.XII
+    year: '2023'
+  representations:
+    human: ASME BPVC.XII-2023
+    urn: urn:asme:asme:BPVC.XII:2023
+  style: v3
+- id: asme.standard.0566
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.XII
+    year: '2025'
+  representations:
+    human: ASME BPVC.XII-2025
+    urn: urn:asme:asme:BPVC.XII:2025
+  style: v3
+- id: asme.standard.0567
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5401,14 +6627,40 @@
     human: ASME BPVC.XIII
     urn: urn:asme:asme:BPVC.XIII
   style: v3
-  non_normalized_aliases:
-  - spelling: ASME BPVC.XIII-2021
-    style: v3
-  - spelling: ASME BPVC.XIII-2023
-    style: v3
-  - spelling: ASME BPVC.XIII-2025
-    style: v3
-- id: asme.standard.0427
+- id: asme.standard.0568
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.XIII
+    year: '2021'
+  representations:
+    human: ASME BPVC.XIII-2021
+    urn: urn:asme:asme:BPVC.XIII:2021
+  style: v3
+- id: asme.standard.0569
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.XIII
+    year: '2023'
+  representations:
+    human: ASME BPVC.XIII-2023
+    urn: urn:asme:asme:BPVC.XIII:2023
+  style: v3
+- id: asme.standard.0570
+  identifier:
+    _type: pubid:asme:standard
+    publisher: ASME
+    code:
+      designator: BPVC.XIII
+    year: '2025'
+  representations:
+    human: ASME BPVC.XIII-2025
+    urn: urn:asme:asme:BPVC.XIII:2025
+  style: v3
+- id: asme.standard.0571
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5420,7 +6672,7 @@
     human: ASME BTH-1-2008
     urn: urn:asme:asme:BTH-1:2008
   style: v3
-- id: asme.standard.0428
+- id: asme.standard.0572
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5432,7 +6684,7 @@
     human: ASME BTH-1-2011
     urn: urn:asme:asme:BTH-1:2011
   style: v3
-- id: asme.standard.0429
+- id: asme.standard.0573
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5444,7 +6696,7 @@
     human: ASME BTH-1-2014
     urn: urn:asme:asme:BTH-1:2014
   style: v3
-- id: asme.standard.0430
+- id: asme.standard.0574
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5456,7 +6708,7 @@
     human: ASME BTH-1-2017
     urn: urn:asme:asme:BTH-1:2017
   style: v3
-- id: asme.standard.0431
+- id: asme.standard.0575
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5468,7 +6720,7 @@
     human: ASME BTH-1-2020
     urn: urn:asme:asme:BTH-1:2020
   style: v3
-- id: asme.standard.0432
+- id: asme.standard.0576
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5480,7 +6732,7 @@
     human: ASME BTH-1-2023
     urn: urn:asme:asme:BTH-1:2023
   style: v3
-- id: asme.standard.0433
+- id: asme.standard.0577
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5492,7 +6744,7 @@
     human: ASME CA-1-2013
     urn: urn:asme:asme:CA-1:2013
   style: v3
-- id: asme.standard.0434
+- id: asme.standard.0578
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5504,7 +6756,7 @@
     human: ASME CA-1-2020
     urn: urn:asme:asme:CA-1:2020
   style: v3
-- id: asme.standard.0435
+- id: asme.standard.0579
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5516,7 +6768,7 @@
     human: ASME CA-1-2022
     urn: urn:asme:asme:CA-1:2022
   style: v3
-- id: asme.standard.0436
+- id: asme.standard.0580
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5528,7 +6780,7 @@
     human: ASME CA-1-2025
     urn: urn:asme:asme:CA-1:2025
   style: v3
-- id: asme.standard.0437
+- id: asme.standard.0581
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5540,7 +6792,7 @@
     human: ASME CSD-1-2009
     urn: urn:asme:asme:CSD-1:2009
   style: v3
-- id: asme.standard.0438
+- id: asme.standard.0582
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5552,7 +6804,7 @@
     human: ASME CSD-1-2012
     urn: urn:asme:asme:CSD-1:2012
   style: v3
-- id: asme.standard.0439
+- id: asme.standard.0583
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5564,7 +6816,7 @@
     human: ASME CSD-1-2015
     urn: urn:asme:asme:CSD-1:2015
   style: v3
-- id: asme.standard.0440
+- id: asme.standard.0584
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5576,7 +6828,7 @@
     human: ASME CSD-1-2018
     urn: urn:asme:asme:CSD-1:2018
   style: v3
-- id: asme.standard.0441
+- id: asme.standard.0585
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5588,7 +6840,7 @@
     human: ASME CSD-1-2021
     urn: urn:asme:asme:CSD-1:2021
   style: v3
-- id: asme.standard.0442
+- id: asme.standard.0586
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5600,7 +6852,7 @@
     human: ASME CSD-1-2024
     urn: urn:asme:asme:CSD-1:2024
   style: v3
-- id: asme.standard.0443
+- id: asme.standard.0587
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5612,7 +6864,7 @@
     human: ASME EA-3-2009
     urn: urn:asme:asme:EA-3:2009
   style: v3
-- id: asme.standard.0444
+- id: asme.standard.0588
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5624,7 +6876,7 @@
     human: ASME FFS-1-2016
     urn: urn:asme:asme:FFS-1:2016
   style: v3
-- id: asme.standard.0445
+- id: asme.standard.0589
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5636,7 +6888,7 @@
     human: ASME FFS-1-2021
     urn: urn:asme:asme:FFS-1:2021
   style: v3
-- id: asme.standard.0446
+- id: asme.standard.0590
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5648,7 +6900,7 @@
     human: ASME HRT-1-2016
     urn: urn:asme:asme:HRT-1:2016
   style: v3
-- id: asme.standard.0447
+- id: asme.standard.0591
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5660,7 +6912,7 @@
     human: ASME HST-2-2018
     urn: urn:asme:asme:HST-2:2018
   style: v3
-- id: asme.standard.0448
+- id: asme.standard.0592
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5672,7 +6924,7 @@
     human: ASME HST-2-2023
     urn: urn:asme:asme:HST-2:2023
   style: v3
-- id: asme.standard.0449
+- id: asme.standard.0593
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5684,7 +6936,7 @@
     human: ASME HST-5-2020
     urn: urn:asme:asme:HST-5:2020
   style: v3
-- id: asme.standard.0450
+- id: asme.standard.0594
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5696,7 +6948,7 @@
     human: ASME HST-5-2024
     urn: urn:asme:asme:HST-5:2024
   style: v3
-- id: asme.standard.0451
+- id: asme.standard.0595
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5708,7 +6960,7 @@
     human: ASME MFC-3M-1989
     urn: urn:asme:asme:MFC-3M:1989
   style: v3
-- id: asme.standard.0452
+- id: asme.standard.0596
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5720,7 +6972,7 @@
     human: ASME MFC-3M-2004
     urn: urn:asme:asme:MFC-3M:2004
   style: v3
-- id: asme.standard.0453
+- id: asme.standard.0597
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5732,7 +6984,7 @@
     human: ASME MFC-5.1-2011
     urn: urn:asme:asme:MFC-5.1:2011
   style: v3
-- id: asme.standard.0454
+- id: asme.standard.0598
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5744,7 +6996,7 @@
     human: ASME N511-2007
     urn: urn:asme:asme:N511:2007
   style: v3
-- id: asme.standard.0455
+- id: asme.standard.0599
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5756,7 +7008,7 @@
     human: ASME N511-2017
     urn: urn:asme:asme:N511:2017
   style: v3
-- id: asme.standard.0456
+- id: asme.standard.0600
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5768,7 +7020,7 @@
     human: ASME N511-2022
     urn: urn:asme:asme:N511:2022
   style: v3
-- id: asme.standard.0457
+- id: asme.standard.0601
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5780,7 +7032,7 @@
     human: ASME NM.1-2018
     urn: urn:asme:asme:NM.1:2018
   style: v3
-- id: asme.standard.0458
+- id: asme.standard.0602
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5792,7 +7044,7 @@
     human: ASME NM.1-2020
     urn: urn:asme:asme:NM.1:2020
   style: v3
-- id: asme.standard.0459
+- id: asme.standard.0603
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5804,7 +7056,7 @@
     human: ASME NM.1-2022
     urn: urn:asme:asme:NM.1:2022
   style: v3
-- id: asme.standard.0460
+- id: asme.standard.0604
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5816,7 +7068,7 @@
     human: ASME NM.2-2018
     urn: urn:asme:asme:NM.2:2018
   style: v3
-- id: asme.standard.0461
+- id: asme.standard.0605
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5828,7 +7080,7 @@
     human: ASME NM.2-2020
     urn: urn:asme:asme:NM.2:2020
   style: v3
-- id: asme.standard.0462
+- id: asme.standard.0606
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5840,7 +7092,7 @@
     human: ASME NM.2-2022
     urn: urn:asme:asme:NM.2:2022
   style: v3
-- id: asme.standard.0463
+- id: asme.standard.0607
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5852,7 +7104,7 @@
     human: ASME NM.3.1-2018
     urn: urn:asme:asme:NM.3.1:2018
   style: v3
-- id: asme.standard.0464
+- id: asme.standard.0608
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5864,7 +7116,7 @@
     human: ASME NM.3.1-2020
     urn: urn:asme:asme:NM.3.1:2020
   style: v3
-- id: asme.standard.0465
+- id: asme.standard.0609
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5876,7 +7128,7 @@
     human: ASME NM.3.1-2022
     urn: urn:asme:asme:NM.3.1:2022
   style: v3
-- id: asme.standard.0466
+- id: asme.standard.0610
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5888,7 +7140,7 @@
     human: ASME NM.3.2-2018
     urn: urn:asme:asme:NM.3.2:2018
   style: v3
-- id: asme.standard.0467
+- id: asme.standard.0611
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5900,7 +7152,7 @@
     human: ASME NM.3.2-2020
     urn: urn:asme:asme:NM.3.2:2020
   style: v3
-- id: asme.standard.0468
+- id: asme.standard.0612
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5912,7 +7164,7 @@
     human: ASME NM.3.2-2022
     urn: urn:asme:asme:NM.3.2:2022
   style: v3
-- id: asme.standard.0469
+- id: asme.standard.0613
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5924,7 +7176,7 @@
     human: ASME NM.3.3-2018
     urn: urn:asme:asme:NM.3.3:2018
   style: v3
-- id: asme.standard.0470
+- id: asme.standard.0614
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5936,7 +7188,7 @@
     human: ASME NM.3.3-2020
     urn: urn:asme:asme:NM.3.3:2020
   style: v3
-- id: asme.standard.0471
+- id: asme.standard.0615
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5948,7 +7200,7 @@
     human: ASME NM.3.3-2022
     urn: urn:asme:asme:NM.3.3:2022
   style: v3
-- id: asme.standard.0472
+- id: asme.standard.0616
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5960,7 +7212,7 @@
     human: ASME NML-1-2019
     urn: urn:asme:asme:NML-1:2019
   style: v3
-- id: asme.standard.0473
+- id: asme.standard.0617
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5972,7 +7224,7 @@
     human: ASME NML-1-2024
     urn: urn:asme:asme:NML-1:2024
   style: v3
-- id: asme.standard.0474
+- id: asme.standard.0618
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5984,7 +7236,7 @@
     human: ASME NOG-1-2004
     urn: urn:asme:asme:NOG-1:2004
   style: v3
-- id: asme.standard.0475
+- id: asme.standard.0619
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -5996,7 +7248,7 @@
     human: ASME NOG-1-2015
     urn: urn:asme:asme:NOG-1:2015
   style: v3
-- id: asme.standard.0476
+- id: asme.standard.0620
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6008,7 +7260,7 @@
     human: ASME NOG-1-2020
     urn: urn:asme:asme:NOG-1:2020
   style: v3
-- id: asme.standard.0477
+- id: asme.standard.0621
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6020,7 +7272,7 @@
     human: ASME NQA-1-2012
     urn: urn:asme:asme:NQA-1:2012
   style: v3
-- id: asme.standard.0478
+- id: asme.standard.0622
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6032,7 +7284,7 @@
     human: ASME NQA-1-2015
     urn: urn:asme:asme:NQA-1:2015
   style: v3
-- id: asme.standard.0479
+- id: asme.standard.0623
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6044,7 +7296,7 @@
     human: ASME NQA-1-2017
     urn: urn:asme:asme:NQA-1:2017
   style: v3
-- id: asme.standard.0480
+- id: asme.standard.0624
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6056,7 +7308,7 @@
     human: ASME NQA-1-2019
     urn: urn:asme:asme:NQA-1:2019
   style: v3
-- id: asme.standard.0481
+- id: asme.standard.0625
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6068,7 +7320,7 @@
     human: ASME NQA-1-2022
     urn: urn:asme:asme:NQA-1:2022
   style: v3
-- id: asme.standard.0482
+- id: asme.standard.0626
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6080,7 +7332,7 @@
     human: ASME NQA-1-2024
     urn: urn:asme:asme:NQA-1:2024
   style: v3
-- id: asme.standard.0483
+- id: asme.standard.0627
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6092,7 +7344,7 @@
     human: ASME NUM-1-2016
     urn: urn:asme:asme:NUM-1:2016
   style: v3
-- id: asme.standard.0484
+- id: asme.standard.0628
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6104,51 +7356,51 @@
     human: ASME NUM-1-2023
     urn: urn:asme:asme:NUM-1:2023
   style: v3
-- id: asme.standard.0485
+- id: asme.standard.0629
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
     code:
       designator: OM
-      number: "-2012"
+    year: '2012'
   representations:
     human: ASME OM-2012
-    urn: urn:asme:asme:OM-2012
+    urn: urn:asme:asme:OM:2012
   style: v3
-- id: asme.standard.0486
+- id: asme.standard.0630
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
     code:
       designator: OM
-      number: "-2017"
+    year: '2017'
   representations:
     human: ASME OM-2017
-    urn: urn:asme:asme:OM-2017
+    urn: urn:asme:asme:OM:2017
   style: v3
-- id: asme.standard.0487
+- id: asme.standard.0631
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
     code:
       designator: OM
-      number: "-2020"
+    year: '2020'
   representations:
     human: ASME OM-2020
-    urn: urn:asme:asme:OM-2020
+    urn: urn:asme:asme:OM:2020
   style: v3
-- id: asme.standard.0488
+- id: asme.standard.0632
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
     code:
       designator: OM
-      number: "-2022"
+    year: '2022'
   representations:
     human: ASME OM-2022
-    urn: urn:asme:asme:OM-2022
+    urn: urn:asme:asme:OM:2022
   style: v3
-- id: asme.standard.0489
+- id: asme.standard.0633
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6160,7 +7412,7 @@
     human: ASME P30.1-2014
     urn: urn:asme:asme:P30.1:2014
   style: v3
-- id: asme.standard.0490
+- id: asme.standard.0634
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6172,7 +7424,7 @@
     human: ASME P30.1-2019
     urn: urn:asme:asme:P30.1:2019
   style: v3
-- id: asme.standard.0491
+- id: asme.standard.0635
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6184,40 +7436,40 @@
     human: ASME P30.1-2024
     urn: urn:asme:asme:P30.1:2024
   style: v3
-- id: asme.standard.0492
+- id: asme.standard.0636
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
     code:
       designator: PASE
-      number: "-2014"
+    year: '2014'
   representations:
     human: ASME PASE-2014
-    urn: urn:asme:asme:PASE-2014
+    urn: urn:asme:asme:PASE:2014
   style: v3
-- id: asme.standard.0493
+- id: asme.standard.0637
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
     code:
       designator: PASE
-      number: "-2019"
+    year: '2019'
   representations:
     human: ASME PASE-2019
-    urn: urn:asme:asme:PASE-2019
+    urn: urn:asme:asme:PASE:2019
   style: v3
-- id: asme.standard.0494
+- id: asme.standard.0638
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
     code:
       designator: PASE
-      number: "-2024"
+    year: '2024'
   representations:
     human: ASME PASE-2024
-    urn: urn:asme:asme:PASE-2024
+    urn: urn:asme:asme:PASE:2024
   style: v3
-- id: asme.standard.0495
+- id: asme.standard.0639
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6229,7 +7481,7 @@
     human: ASME PCC-1-2000
     urn: urn:asme:asme:PCC-1:2000
   style: v3
-- id: asme.standard.0496
+- id: asme.standard.0640
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6241,7 +7493,7 @@
     human: ASME PCC-1-2013
     urn: urn:asme:asme:PCC-1:2013
   style: v3
-- id: asme.standard.0497
+- id: asme.standard.0641
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6253,7 +7505,7 @@
     human: ASME PCC-1-2019
     urn: urn:asme:asme:PCC-1:2019
   style: v3
-- id: asme.standard.0498
+- id: asme.standard.0642
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6265,7 +7517,7 @@
     human: ASME PCC-1-2022
     urn: urn:asme:asme:PCC-1:2022
   style: v3
-- id: asme.standard.0499
+- id: asme.standard.0643
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6281,7 +7533,7 @@
   non_normalized_aliases:
   - spelling: ASME PCC-1–20XX (Revision of ASME PCC-1–2022)
     style: v3
-- id: asme.standard.0500
+- id: asme.standard.0644
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6293,7 +7545,7 @@
     human: ASME PCC-2-2015
     urn: urn:asme:asme:PCC-2:2015
   style: v3
-- id: asme.standard.0501
+- id: asme.standard.0645
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6305,7 +7557,7 @@
     human: ASME PCC-2-2018
     urn: urn:asme:asme:PCC-2:2018
   style: v3
-- id: asme.standard.0502
+- id: asme.standard.0646
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6317,7 +7569,7 @@
     human: ASME PCC-2-2022
     urn: urn:asme:asme:PCC-2:2022
   style: v3
-- id: asme.standard.0503
+- id: asme.standard.0647
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6329,7 +7581,7 @@
     human: ASME PCC-3-2017
     urn: urn:asme:asme:PCC-3:2017
   style: v3
-- id: asme.standard.0504
+- id: asme.standard.0648
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6341,7 +7593,7 @@
     human: ASME PCC-3-2022
     urn: urn:asme:asme:PCC-3:2022
   style: v3
-- id: asme.standard.0505
+- id: asme.standard.0649
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6353,7 +7605,7 @@
     human: ASME PDS-1.1-2013
     urn: urn:asme:asme:PDS-1.1:2013
   style: v3
-- id: asme.standard.0506
+- id: asme.standard.0650
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6365,7 +7617,7 @@
     human: ASME PDS-1.1-2023
     urn: urn:asme:asme:PDS-1.1:2023
   style: v3
-- id: asme.standard.0507
+- id: asme.standard.0651
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6377,7 +7629,7 @@
     human: ASME PTB-5-2013
     urn: urn:asme:asme:PTB-5:2013
   style: v3
-- id: asme.standard.0508
+- id: asme.standard.0652
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6389,7 +7641,7 @@
     human: ASME PTB-5-2019
     urn: urn:asme:asme:PTB-5:2019
   style: v3
-- id: asme.standard.0509
+- id: asme.standard.0653
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6404,7 +7656,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 1-2015
     style: v3
-- id: asme.standard.0510
+- id: asme.standard.0654
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6419,7 +7671,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 1-2022
     style: v3
-- id: asme.standard.0511
+- id: asme.standard.0655
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6434,7 +7686,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 12.2-2010
     style: v3
-- id: asme.standard.0512
+- id: asme.standard.0656
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6449,7 +7701,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 12.3-1997
     style: v3
-- id: asme.standard.0513
+- id: asme.standard.0657
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6464,7 +7716,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 13-2018
     style: v3
-- id: asme.standard.0514
+- id: asme.standard.0658
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6479,7 +7731,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 17-1973
     style: v3
-- id: asme.standard.0515
+- id: asme.standard.0659
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6494,7 +7746,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 19.1-2018
     style: v3
-- id: asme.standard.0516
+- id: asme.standard.0660
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6509,7 +7761,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 19.10-1981
     style: v3
-- id: asme.standard.0517
+- id: asme.standard.0661
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6524,7 +7776,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 19.11-2008
     style: v3
-- id: asme.standard.0518
+- id: asme.standard.0662
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6539,7 +7791,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 19.2-2010
     style: v3
-- id: asme.standard.0519
+- id: asme.standard.0663
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6555,7 +7807,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 19.3 TW-2010
     style: v3
-- id: asme.standard.0520
+- id: asme.standard.0664
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6571,7 +7823,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 19.3 TW-2016
     style: v3
-- id: asme.standard.0521
+- id: asme.standard.0665
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6586,7 +7838,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 19.3-1974
     style: v3
-- id: asme.standard.0522
+- id: asme.standard.0666
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6601,7 +7853,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 19.3-2024
     style: v3
-- id: asme.standard.0523
+- id: asme.standard.0667
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6616,7 +7868,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 22-2005
     style: v3
-- id: asme.standard.0524
+- id: asme.standard.0668
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6631,7 +7883,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 22-2014
     style: v3
-- id: asme.standard.0525
+- id: asme.standard.0669
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6646,7 +7898,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 22-2023
     style: v3
-- id: asme.standard.0526
+- id: asme.standard.0670
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6661,7 +7913,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 25-2014
     style: v3
-- id: asme.standard.0527
+- id: asme.standard.0671
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6676,7 +7928,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 25-2018
     style: v3
-- id: asme.standard.0528
+- id: asme.standard.0672
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6691,7 +7943,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 25-2023
     style: v3
-- id: asme.standard.0529
+- id: asme.standard.0673
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6706,7 +7958,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 30-1991
     style: v3
-- id: asme.standard.0530
+- id: asme.standard.0674
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6721,7 +7973,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 4-2013
     style: v3
-- id: asme.standard.0531
+- id: asme.standard.0675
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6736,7 +7988,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 4.3-2017
     style: v3
-- id: asme.standard.0532
+- id: asme.standard.0676
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6751,7 +8003,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 4.4-2008
     style: v3
-- id: asme.standard.0533
+- id: asme.standard.0677
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6766,7 +8018,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 4.4-2023
     style: v3
-- id: asme.standard.0534
+- id: asme.standard.0678
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6781,7 +8033,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 46-1996
     style: v3
-- id: asme.standard.0535
+- id: asme.standard.0679
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6796,7 +8048,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 46-2015
     style: v3
-- id: asme.standard.0536
+- id: asme.standard.0680
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6811,7 +8063,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 6-2004
     style: v3
-- id: asme.standard.0537
+- id: asme.standard.0681
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6826,7 +8078,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC 6.2-2011
     style: v3
-- id: asme.standard.0538
+- id: asme.standard.0682
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6841,7 +8093,7 @@
   non_normalized_aliases:
   - spelling: ASME PTC PM-2010
     style: v3
-- id: asme.standard.0539
+- id: asme.standard.0683
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6853,7 +8105,7 @@
     human: ASME PVHO-1-2007
     urn: urn:asme:asme:PVHO-1:2007
   style: v3
-- id: asme.standard.0540
+- id: asme.standard.0684
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6865,7 +8117,7 @@
     human: ASME PVHO-1-2012
     urn: urn:asme:asme:PVHO-1:2012
   style: v3
-- id: asme.standard.0541
+- id: asme.standard.0685
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6877,7 +8129,7 @@
     human: ASME PVHO-1-2016
     urn: urn:asme:asme:PVHO-1:2016
   style: v3
-- id: asme.standard.0542
+- id: asme.standard.0686
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6889,7 +8141,7 @@
     human: ASME PVHO-1-2019
     urn: urn:asme:asme:PVHO-1:2019
   style: v3
-- id: asme.standard.0543
+- id: asme.standard.0687
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6901,7 +8153,7 @@
     human: ASME PVHO-1-2023
     urn: urn:asme:asme:PVHO-1:2023
   style: v3
-- id: asme.standard.0544
+- id: asme.standard.0688
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6913,7 +8165,7 @@
     human: ASME PVHO-2-2003
     urn: urn:asme:asme:PVHO-2:2003
   style: v3
-- id: asme.standard.0545
+- id: asme.standard.0689
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6925,7 +8177,7 @@
     human: ASME PVHO-2-2012
     urn: urn:asme:asme:PVHO-2:2012
   style: v3
-- id: asme.standard.0546
+- id: asme.standard.0690
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6937,7 +8189,7 @@
     human: ASME PVHO-2-2016
     urn: urn:asme:asme:PVHO-2:2016
   style: v3
-- id: asme.standard.0547
+- id: asme.standard.0691
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6949,7 +8201,7 @@
     human: ASME PVHO-2-2019
     urn: urn:asme:asme:PVHO-2:2019
   style: v3
-- id: asme.standard.0548
+- id: asme.standard.0692
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6961,7 +8213,7 @@
     human: ASME PVHO-2-2025
     urn: urn:asme:asme:PVHO-2:2025
   style: v3
-- id: asme.standard.0549
+- id: asme.standard.0693
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6973,7 +8225,7 @@
     human: ASME QAI-1-2010
     urn: urn:asme:asme:QAI-1:2010
   style: v3
-- id: asme.standard.0550
+- id: asme.standard.0694
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6985,7 +8237,7 @@
     human: ASME QAI-1-2016
     urn: urn:asme:asme:QAI-1:2016
   style: v3
-- id: asme.standard.0551
+- id: asme.standard.0695
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -6997,7 +8249,7 @@
     human: ASME QAI-1-2018
     urn: urn:asme:asme:QAI-1:2018
   style: v3
-- id: asme.standard.0552
+- id: asme.standard.0696
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7009,7 +8261,7 @@
     human: ASME QAI-1-2023
     urn: urn:asme:asme:QAI-1:2023
   style: v3
-- id: asme.standard.0553
+- id: asme.standard.0697
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7021,7 +8273,7 @@
     human: ASME QAI-1-2025
     urn: urn:asme:asme:QAI-1:2025
   style: v3
-- id: asme.standard.0554
+- id: asme.standard.0698
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7033,7 +8285,7 @@
     human: ASME QEI-1-2013
     urn: urn:asme:asme:QEI-1:2013
   style: v3
-- id: asme.standard.0555
+- id: asme.standard.0699
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7045,7 +8297,7 @@
     human: ASME QEI-1-2018
     urn: urn:asme:asme:QEI-1:2018
   style: v3
-- id: asme.standard.0556
+- id: asme.standard.0700
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7057,7 +8309,7 @@
     human: ASME QEI-1-2024
     urn: urn:asme:asme:QEI-1:2024
   style: v3
-- id: asme.standard.0557
+- id: asme.standard.0701
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7069,7 +8321,7 @@
     human: ASME QME-1-2002
     urn: urn:asme:asme:QME-1:2002
   style: v3
-- id: asme.standard.0558
+- id: asme.standard.0702
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7081,7 +8333,7 @@
     human: ASME QME-1-2007
     urn: urn:asme:asme:QME-1:2007
   style: v3
-- id: asme.standard.0559
+- id: asme.standard.0703
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7093,7 +8345,7 @@
     human: ASME QME-1-2012
     urn: urn:asme:asme:QME-1:2012
   style: v3
-- id: asme.standard.0560
+- id: asme.standard.0704
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7105,7 +8357,7 @@
     human: ASME QME-1-2017
     urn: urn:asme:asme:QME-1:2017
   style: v3
-- id: asme.standard.0561
+- id: asme.standard.0705
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7117,7 +8369,7 @@
     human: ASME QME-1-2023
     urn: urn:asme:asme:QME-1:2023
   style: v3
-- id: asme.standard.0562
+- id: asme.standard.0706
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7129,7 +8381,7 @@
     human: ASME QME-1-2025
     urn: urn:asme:asme:QME-1:2025
   style: v3
-- id: asme.standard.0563
+- id: asme.standard.0707
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7141,7 +8393,7 @@
     human: ASME RA-S-1.3-2017
     urn: urn:asme:asme:RA-S-1.3:2017
   style: v3
-- id: asme.standard.0564
+- id: asme.standard.0708
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7153,7 +8405,7 @@
     human: ASME RA-S-1.3-2025
     urn: urn:asme:asme:RA-S-1.3:2025
   style: v3
-- id: asme.standard.0565
+- id: asme.standard.0709
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7165,7 +8417,7 @@
     human: ASME RT-1-2015
     urn: urn:asme:asme:RT-1:2015
   style: v3
-- id: asme.standard.0566
+- id: asme.standard.0710
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7177,7 +8429,7 @@
     human: ASME RT-1-2020
     urn: urn:asme:asme:RT-1:2020
   style: v3
-- id: asme.standard.0567
+- id: asme.standard.0711
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7189,7 +8441,7 @@
     human: ASME RT-2-2014
     urn: urn:asme:asme:RT-2:2014
   style: v3
-- id: asme.standard.0568
+- id: asme.standard.0712
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7201,7 +8453,7 @@
     human: ASME RT-2-2021
     urn: urn:asme:asme:RT-2:2021
   style: v3
-- id: asme.standard.0569
+- id: asme.standard.0713
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7213,7 +8465,7 @@
     human: ASME RTP-1-2017
     urn: urn:asme:asme:RTP-1:2017
   style: v3
-- id: asme.standard.0570
+- id: asme.standard.0714
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7225,7 +8477,7 @@
     human: ASME RTP-1-2019
     urn: urn:asme:asme:RTP-1:2019
   style: v3
-- id: asme.standard.0571
+- id: asme.standard.0715
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7237,7 +8489,7 @@
     human: ASME RTP-1-2021
     urn: urn:asme:asme:RTP-1:2021
   style: v3
-- id: asme.standard.0572
+- id: asme.standard.0716
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7249,7 +8501,7 @@
     human: ASME RTP-1-2023
     urn: urn:asme:asme:RTP-1:2023
   style: v3
-- id: asme.standard.0573
+- id: asme.standard.0717
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7261,7 +8513,7 @@
     human: ASME RTP-1-2025
     urn: urn:asme:asme:RTP-1:2025
   style: v3
-- id: asme.standard.0574
+- id: asme.standard.0718
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7273,7 +8525,7 @@
     human: ASME STS-1-2021
     urn: urn:asme:asme:STS-1:2021
   style: v3
-- id: asme.standard.0575
+- id: asme.standard.0719
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7285,7 +8537,7 @@
     human: ASME TDP-1-1998
     urn: urn:asme:asme:TDP-1:1998
   style: v3
-- id: asme.standard.0576
+- id: asme.standard.0720
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7297,7 +8549,7 @@
     human: ASME TDP-1-2013
     urn: urn:asme:asme:TDP-1:2013
   style: v3
-- id: asme.standard.0577
+- id: asme.standard.0721
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7309,7 +8561,7 @@
     human: ASME TDP-1-2023
     urn: urn:asme:asme:TDP-1:2023
   style: v3
-- id: asme.standard.0578
+- id: asme.standard.0722
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7321,7 +8573,7 @@
     human: ASME TES-1-2020
     urn: urn:asme:asme:TES-1:2020
   style: v3
-- id: asme.standard.0579
+- id: asme.standard.0723
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7333,7 +8585,7 @@
     human: ASME TES-1-2023
     urn: urn:asme:asme:TES-1:2023
   style: v3
-- id: asme.standard.0580
+- id: asme.standard.0724
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7348,7 +8600,7 @@
   non_normalized_aliases:
   - spelling: ASME TR A17.1-8.4-2013
     style: v3
-- id: asme.standard.0581
+- id: asme.standard.0725
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7363,7 +8615,7 @@
   non_normalized_aliases:
   - spelling: ASME TR A17.1-8.4-2020
     style: v3
-- id: asme.standard.0582
+- id: asme.standard.0726
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7380,7 +8632,7 @@
     style: v3
   - spelling: ASME V&V 10-2019
     style: v3
-- id: asme.standard.0583
+- id: asme.standard.0727
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7397,7 +8649,7 @@
     style: v3
   - spelling: ASME V&V 10.1-2012
     style: v3
-- id: asme.standard.0584
+- id: asme.standard.0728
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7414,7 +8666,7 @@
     style: v3
   - spelling: ASME V&V 20-2009
     style: v3
-- id: asme.standard.0585
+- id: asme.standard.0729
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7431,7 +8683,7 @@
     style: v3
   - spelling: ASME V&V 40-2018
     style: v3
-- id: asme.standard.0586
+- id: asme.standard.0730
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7446,7 +8698,7 @@
   non_normalized_aliases:
   - spelling: ASME VVUQ 20.1-2024
     style: v3
-- id: asme.standard.0587
+- id: asme.standard.0731
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7458,7 +8710,7 @@
     human: ASME Y14.1-2020
     urn: urn:asme:asme:Y14.1:2020
   style: v3
-- id: asme.standard.0588
+- id: asme.standard.0732
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7470,7 +8722,7 @@
     human: ASME Y14.100-2004
     urn: urn:asme:asme:Y14.100:2004
   style: v3
-- id: asme.standard.0589
+- id: asme.standard.0733
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7482,7 +8734,7 @@
     human: ASME Y14.100-2013
     urn: urn:asme:asme:Y14.100:2013
   style: v3
-- id: asme.standard.0590
+- id: asme.standard.0734
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7494,7 +8746,7 @@
     human: ASME Y14.100-2017
     urn: urn:asme:asme:Y14.100:2017
   style: v3
-- id: asme.standard.0591
+- id: asme.standard.0735
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7506,7 +8758,7 @@
     human: ASME Y14.2-2008
     urn: urn:asme:asme:Y14.2:2008
   style: v3
-- id: asme.standard.0592
+- id: asme.standard.0736
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7518,7 +8770,7 @@
     human: ASME Y14.2-2014
     urn: urn:asme:asme:Y14.2:2014
   style: v3
-- id: asme.standard.0593
+- id: asme.standard.0737
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7530,7 +8782,7 @@
     human: ASME Y14.24-2020
     urn: urn:asme:asme:Y14.24:2020
   style: v3
-- id: asme.standard.0594
+- id: asme.standard.0738
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7542,7 +8794,7 @@
     human: ASME Y14.3-2012
     urn: urn:asme:asme:Y14.3:2012
   style: v3
-- id: asme.standard.0595
+- id: asme.standard.0739
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7554,7 +8806,7 @@
     human: ASME Y14.34-2013
     urn: urn:asme:asme:Y14.34:2013
   style: v3
-- id: asme.standard.0596
+- id: asme.standard.0740
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7566,7 +8818,7 @@
     human: ASME Y14.35-2014
     urn: urn:asme:asme:Y14.35:2014
   style: v3
-- id: asme.standard.0597
+- id: asme.standard.0741
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7578,7 +8830,7 @@
     human: ASME Y14.36-1996
     urn: urn:asme:asme:Y14.36:1996
   style: v3
-- id: asme.standard.0598
+- id: asme.standard.0742
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7590,7 +8842,7 @@
     human: ASME Y14.36-2018
     urn: urn:asme:asme:Y14.36:2018
   style: v3
-- id: asme.standard.0599
+- id: asme.standard.0743
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7602,7 +8854,7 @@
     human: ASME Y14.37-2012
     urn: urn:asme:asme:Y14.37:2012
   style: v3
-- id: asme.standard.0600
+- id: asme.standard.0744
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7614,7 +8866,7 @@
     human: ASME Y14.37-2019
     urn: urn:asme:asme:Y14.37:2019
   style: v3
-- id: asme.standard.0601
+- id: asme.standard.0745
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7626,7 +8878,7 @@
     human: ASME Y14.38-2019
     urn: urn:asme:asme:Y14.38:2019
   style: v3
-- id: asme.standard.0602
+- id: asme.standard.0746
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7638,7 +8890,7 @@
     human: ASME Y14.41-2012
     urn: urn:asme:asme:Y14.41:2012
   style: v3
-- id: asme.standard.0603
+- id: asme.standard.0747
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7650,7 +8902,7 @@
     human: ASME Y14.41-2019
     urn: urn:asme:asme:Y14.41:2019
   style: v3
-- id: asme.standard.0604
+- id: asme.standard.0748
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7663,7 +8915,7 @@
     human: ASME Y14.41-202X (Revision of ASME Y14.41-2019)
     urn: urn:asme:asme:Y14.41:202X:prev.(Revision of ASME Y14.41-2019)
   style: v3
-- id: asme.standard.0605
+- id: asme.standard.0749
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7675,7 +8927,7 @@
     human: ASME Y14.43-2011
     urn: urn:asme:asme:Y14.43:2011
   style: v3
-- id: asme.standard.0606
+- id: asme.standard.0750
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7688,7 +8940,7 @@
     human: ASME Y14.43-20XX [Revision of ASME Y14.43-2011 (R2020)]
     urn: urn:asme:asme:Y14.43:20XX:revnote.[Revision of ASME Y14.43-2011 (R2020)]
   style: v3
-- id: asme.standard.0607
+- id: asme.standard.0751
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7700,7 +8952,7 @@
     human: ASME Y14.5-1994
     urn: urn:asme:asme:Y14.5:1994
   style: v3
-- id: asme.standard.0608
+- id: asme.standard.0752
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7712,7 +8964,7 @@
     human: ASME Y14.5-2009
     urn: urn:asme:asme:Y14.5:2009
   style: v3
-- id: asme.standard.0609
+- id: asme.standard.0753
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7728,7 +8980,7 @@
   non_normalized_aliases:
   - spelling: ASME Y14.5 (SPANISH)-2009
     style: v3
-- id: asme.standard.0610
+- id: asme.standard.0754
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7740,7 +8992,7 @@
     human: ASME Y14.5-2018
     urn: urn:asme:asme:Y14.5:2018
   style: v3
-- id: asme.standard.0611
+- id: asme.standard.0755
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7752,7 +9004,7 @@
     human: ASME Y14.5.1-1994
     urn: urn:asme:asme:Y14.5.1:1994
   style: v3
-- id: asme.standard.0612
+- id: asme.standard.0756
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7764,7 +9016,7 @@
     human: ASME Y14.5.1-2019
     urn: urn:asme:asme:Y14.5.1:2019
   style: v3
-- id: asme.standard.0613
+- id: asme.standard.0757
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7776,7 +9028,7 @@
     human: ASME Y14.6-2001
     urn: urn:asme:asme:Y14.6:2001
   style: v3
-- id: asme.standard.0614
+- id: asme.standard.0758
   identifier:
     _type: pubid:asme:standard
     publisher: ASME
@@ -7788,7 +9040,7 @@
     human: ASME Y14.8-2022
     urn: urn:asme:asme:Y14.8:2022
   style: v3
-- id: asme.standard.0615
+- id: asme.standard.0759
   identifier:
     _type: pubid:asme:standard
     publisher: ASME/ANS
@@ -7801,7 +9053,7 @@
     human: ASME/ANS RA-S-1.1-2022
     urn: urn:asme:asme/ans:RA-S-1.1:2022:joint.asme/ans
   style: v3
-- id: asme.standard.0616
+- id: asme.standard.0760
   identifier:
     _type: pubid:asme:standard
     publisher: ASME/ANS
@@ -7814,7 +9066,7 @@
     human: ASME/ANS RA-S-1.1-2024
     urn: urn:asme:asme/ans:RA-S-1.1:2024:joint.asme/ans
   style: v3
-- id: asme.standard.0617
+- id: asme.standard.0761
   identifier:
     _type: pubid:asme:standard
     publisher: ASME/ANS
@@ -7827,7 +9079,7 @@
     human: ASME/ANS RA-S-1.2-2014
     urn: urn:asme:asme/ans:RA-S-1.2:2014:joint.asme/ans
   style: v3
-- id: asme.standard.0618
+- id: asme.standard.0762
   identifier:
     _type: pubid:asme:standard
     publisher: ASME/ANS
@@ -7840,7 +9092,7 @@
     human: ASME/ANS RA-S-1.2-2024
     urn: urn:asme:asme/ans:RA-S-1.2:2024:joint.asme/ans
   style: v3
-- id: asme.standard.0619
+- id: asme.standard.0763
   identifier:
     _type: pubid:asme:standard
     publisher: CSA/ASME
@@ -7858,7 +9110,7 @@
   non_normalized_aliases:
   - spelling: CSA B44.10/ASME A17.10-2024
     style: v3
-- id: asme.standard.0620
+- id: asme.standard.0764
   identifier:
     _type: pubid:asme:standard
     publisher: ISO/ASME
@@ -7871,7 +9123,7 @@
   non_normalized_aliases:
   - spelling: ISO/ASME 14414-2015
     style: v3
-- id: asme.standard.0621
+- id: asme.standard.0765
   identifier:
     _type: pubid:asme:standard
     publisher: ISO/ASME

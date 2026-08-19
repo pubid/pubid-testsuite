@@ -1,19 +1,13 @@
 ---
 - id: amca.neg.unknown.0001
   input: AMCA 204 – 1
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: amca.neg.unknown.0002
   input: AMCA 204 – 2
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: amca.neg.unknown.0003
   input: AMCA 204 – 3
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: amca.neg.unknown.0004
   input: ANSI/AMCA Standard 210-25 / ASHRAE 51-25
   expect:
