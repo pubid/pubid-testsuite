@@ -1,60 +1,25 @@
 ---
 - id: iana.neg.registry.0001
-  input: IANA - Fail (must NOT parse)
-  expect:
-    error:
-      code: unclassified
-- id: iana.neg.registry.0002
-  input: The grammar requires a non-empty slug and forbids spaces inside slugs,
-  expect:
-    error:
-      code: unclassified
-- id: iana.neg.registry.0003
-  input: a leading slash, a trailing slash, and more than one slash.
-  expect:
-    error:
-      code: unclassified
-- id: iana.neg.registry.0004
-  input: space inside the slug
-  expect:
-    error:
-      code: unclassified
-- id: iana.neg.registry.0005
   input: foo bar
   expect:
     error:
       code: unclassified
-- id: iana.neg.registry.0006
+- id: iana.neg.registry.0002
   input: IANA foo bar
   expect:
     error:
       code: unclassified
-- id: iana.neg.registry.0007
-  input: leading slash
-  expect:
-    error:
-      code: unclassified
-- id: iana.neg.registry.0008
+- id: iana.neg.registry.0003
   input: "/lowpan_nhc"
   expect:
     error:
       code: unclassified
-- id: iana.neg.registry.0009
-  input: trailing slash
-  expect:
-    error:
-      code: unclassified
-- id: iana.neg.registry.0010
+- id: iana.neg.registry.0004
   input: _6lowpan-parameters/
   expect:
     error:
       code: unclassified
-- id: iana.neg.registry.0011
-  input: more than one slash (max depth is 1)
-  expect:
-    error:
-      code: unclassified
-- id: iana.neg.registry.0012
+- id: iana.neg.registry.0005
   input: a/b/c
   expect:
     error:

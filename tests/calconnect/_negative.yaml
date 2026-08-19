@@ -1,50 +1,40 @@
 ---
 - id: calconnect.neg.standard.0001
-  input: CalConnect Standard - Fail (malformed, must not parse)
-  expect:
-    error:
-      code: unclassified
-- id: calconnect.neg.standard.0002
-  input: Auto-authored for grammar boundary coverage
-  expect:
-    error:
-      code: unclassified
-- id: calconnect.neg.standard.0003
   input: 'CC 18011:'
   expect:
     error:
       code: unclassified
-- id: calconnect.neg.standard.0004
+- id: calconnect.neg.standard.0002
   input: CC18011:2018
   expect:
     error:
       code: unclassified
-- id: calconnect.neg.standard.0005
+- id: calconnect.neg.standard.0003
   input: XX 18011:2018
   expect:
     error:
       code: unclassified
-- id: calconnect.neg.standard.0006
+- id: calconnect.neg.standard.0004
   input: CC/DIR:2019
   expect:
     error:
       code: unclassified
-- id: calconnect.neg.standard.0007
+- id: calconnect.neg.standard.0005
   input: 18011:2018
   expect:
     error:
       code: unclassified
-- id: calconnect.neg.standard.0008
+- id: calconnect.neg.standard.0006
   input: CC -:2018
   expect:
     error:
       code: unclassified
-- id: calconnect.neg.standard.0009
+- id: calconnect.neg.standard.0007
   input: CC .:2018
   expect:
     error:
       code: unclassified
-- id: calconnect.neg.standard.0010
+- id: calconnect.neg.standard.0008
   input: CC/A 0812-1-2:2008
   expect:
     error:

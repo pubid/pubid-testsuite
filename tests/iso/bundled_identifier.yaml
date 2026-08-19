@@ -1,5 +1,5 @@
 ---
-- id: iso.bundled_identifier.0001
+- id: iso.bundled_identifier.6816
   identifier:
     _type: pubid:iso:bundled-identifier
     base:
@@ -11,15 +11,16 @@
     - _type: pubid:iso:directives-supplement
       year: '2016'
       month: '05'
+      day: '05'
       publisher: IEC
   representations:
-    human: ISO/IEC DIR 1 + IEC SUP:2016-05-05
+    human: ISO/IEC DIR 1 + IEC SUP:2016-05-05-05
     urn: urn:iso:doc:iso-iec:dir:1:iec:sup:2016
   style: v3
   non_normalized_aliases:
   - spelling: ISO/IEC DIR 1 + IEC SUP:2016-05
     style: v3
-- id: iso.bundled_identifier.0002
+- id: iso.bundled_identifier.6822
   identifier:
     _type: pubid:iso:bundled-identifier
     base:
@@ -36,3 +37,6 @@
     human: ISO/IEC DIR 1:2022 + IEC SUP:2022
     urn: urn:iso:doc:iso-iec:dir:1:2022:iec:sup:2022
   style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC Directives, Part 1:2022 + IEC Supplement:2022
+    style: v3

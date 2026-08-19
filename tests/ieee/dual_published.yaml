@@ -1,5 +1,5 @@
 ---
-- id: ieee.dual_published.0001
+- id: ieee.dual_published.0107
   identifier:
     _type: pubid:ieee:dual-published
     first_identifier:
@@ -22,7 +22,136 @@
     urn: urn:ieee:["ansi", "ieee"]
   roundtrip: false
   style: v3
-- id: ieee.dual_published.0002
+- id: ieee.dual_published.0471
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '802'
+      publisher: ANSI/IEEE
+      parts:
+      - 3p
+      separator: "."
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '802'
+      parts:
+      - 3q
+      separator: "."
+      stage: Std
+  representations:
+    human: ANSI/IEEE 802.3p and IEEE Std 802.3q
+    urn: urn:ieee:["ansi/ieee", "ieee"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: ANSI/IEEE Std 802.3p and Std 802.3q
+    style: v3
+- id: ieee.dual_published.0616
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '60076'
+      edition: '1.0'
+      publisher: IEC
+      year: '2011'
+      edition_month: '12'
+      parts:
+      - '21'
+      separator: "-"
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '57'
+      prefix: C
+      parts:
+      - '15'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEC 60076-21 Edition 1.0 2011-12 and IEEE Std C57.15
+    urn: urn:ieee:["iec", "ieee"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC 60076-21:2011 Edition 1.0 2011-12 IEEE Std C57.15
+    style: v3
+- id: ieee.dual_published.0622
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '62014'
+      publisher: IEC
+      parts:
+      - '5'
+      separator: "-"
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '1734'
+      year: '2011'
+      stage: Std
+  representations:
+    human: IEC 62014-5 and IEEE Std 1734-2011
+    urn: urn:ieee:["iec", "ieee"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC 62014-5 IEEE Std 1734-2011
+    style: v3
+- id: ieee.dual_published.0623
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '62032'
+      publisher: IEC
+      year: '2005'
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '57'
+      year: '2005'
+      prefix: C
+      parts:
+      - '135'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEC 62032-2005 and IEEE Std C57.135-2005
+    urn: urn:ieee:["iec", "ieee"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC 62032-2005 IEEE C57.135-2005
+    style: v3
+- id: ieee.dual_published.0624
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '62270'
+      edition: '2.0'
+      publisher: IEC
+      year: '2013'
+      edition_month: '09'
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '1249'
+      stage: Std
+  representations:
+    human: IEC 62270 Edition 2.0 2013-09 and IEEE Std 1249
+    urn: urn:ieee:["iec", "ieee"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC 62270 Edition 2.0 2013-09 IEEE Std 1249
+    style: v3
+- id: ieee.dual_published.0625
   identifier:
     _type: pubid:ieee:dual-published
     first_identifier:
@@ -47,24 +176,203 @@
     urn: urn:ieee:["iec", "ieee"]
   roundtrip: false
   style: v3
-- id: ieee.dual_published.0003
+- id: ieee.dual_published.0626
   identifier:
-    _type: pubid:ieee:standard
-    number: '108'
-    year: '1955'
-    parenthetical_content: AIEE No.450-April 1955!IEEE Std 108-1955 and AIEE No. 450,
-      April 1955
-    stage: Std
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '62530'
+      edition: '2.0'
+      publisher: IEC
+      year: '2011'
+      edition_month: '05'
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '1800'
+      stage: Std
   representations:
-    human: IEEE Std 108-1955 (AIEE No.450-April 1955!IEEE Std 108-1955 and AIEE No.
-      450, April 1955)
-    urn: urn:ieee:ieee:108:1955
+    human: IEC 62530 Edition 2.0 2011-05 and IEEE Std 1800
+    urn: urn:ieee:["iec", "ieee"]
+  roundtrip: false
   style: v3
   non_normalized_aliases:
-  - spelling: "!IEEE Std 108-1955; AIEE No.450-April 1955!IEEE Std 108-1955 and AIEE
-      No. 450, April 1955"
+  - spelling: IEC 62530 Edition 2.0 2011-05 IEEE Std 1800
     style: v3
-- id: ieee.dual_published.0004
+- id: ieee.dual_published.0627
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '62624'
+      edition: '1.0'
+      publisher: IEC
+      year: '2009'
+      edition_month: '08'
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '1650'
+      stage: Std
+  representations:
+    human: IEC 62624 Edition 1.0 2009-08 and IEEE Std 1650
+    urn: urn:ieee:["iec", "ieee"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC 62624 Edition 1.0 2009-08 IEEE Std 1650
+    style: v3
+- id: ieee.dual_published.0628
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '63003'
+      edition: '1.0'
+      publisher: IEC
+      year: '2015'
+      edition_month: '12'
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '1505'
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEC 63003 Edition 1.0 2015-12 and IEEE Std 1505.1
+    urn: urn:ieee:["iec", "ieee"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC 63003 Edition 1.0 2015-12 IEEE Std 1505.1
+    style: v3
+- id: ieee.dual_published.0629
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '63004'
+      edition: '1.0'
+      publisher: IEC
+      year: '2015'
+      edition_month: '12'
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '1505'
+      stage: Std
+  representations:
+    human: IEC 63004 Edition 1.0 2015-12 and IEEE Std 1505
+    urn: urn:ieee:["iec", "ieee"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC 63004 Edition 1.0 2015-12 IEEE Std 1505
+    style: v3
+- id: ieee.dual_published.0630
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '63147'
+      edition: '1.0'
+      publisher: IEC
+      year: '2017'
+      edition_month: '12'
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '497'
+      stage: Std
+  representations:
+    human: IEC 63147 Edition 1.0 2017-12 and IEEE Std 497
+    urn: urn:ieee:["iec", "ieee"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC 63147 Edition 1.0 2017-12 IEEE Std 497
+    style: v3
+- id: ieee.dual_published.3544
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '1076'
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '61691'
+      edition: '1.0'
+      publisher: IEC
+      year: '2009'
+      edition_month: '12'
+      parts:
+      - '6'
+      separator: "-"
+      stage: Std
+  representations:
+    human: IEEE Std 1076.1 and IEC 61691-6 Edition 1.0 2009-12
+    urn: urn:ieee:["ieee", "iec"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1076.1 IEC 61691-6 Edition 1.0 2009-12
+    style: v3
+- id: ieee.dual_published.3780
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '120'
+      year: '1955'
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '19'
+      publisher: ASME
+      year: '1955'
+      parts:
+      - '6'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 120-1955 and ASME 19.6-1955
+    urn: urn:ieee:["ieee", "asme"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 120-1955; ASME PTC 19.6-1955
+    style: v3
+- id: ieee.dual_published.3862
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '1249'
+      year: '2013'
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '62270'
+      edition: '2.0'
+      publisher: IEC
+      year: '2013'
+      edition_month: '09'
+      stage: Std
+  representations:
+    human: IEEE Std 1249-2013 and IEC 62270 Edition 2.0 2013-09
+    urn: urn:ieee:["ieee", "iec"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1249-2013 IEC 62270 Edition 2.0 2013-09
+    style: v3
+- id: ieee.dual_published.5054
   identifier:
     _type: pubid:ieee:dual-published
     first_identifier:
@@ -89,4 +397,222 @@
   style: v3
   non_normalized_aliases:
   - spelling: "!IEEE Std 309-1999: ANSI N42.3-1999!IEEE Std 309-1999 and ANSI N42.3-1999"
+    style: v3
+  - spelling: 'IEEE Std 309-1999: ANSI N42.3-1999'
+    style: v3
+- id: ieee.dual_published.5626
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '802'
+      year: '1993'
+      parts:
+      - 10e
+      separator: "."
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '802'
+      year: '1993'
+      parts:
+      - 10f
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 802.10e-1993 and IEEE Std 802.10f-1993
+    urn: urn:ieee:["ieee", "ieee"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.10e-1993 and IEEE std 802.10f-1993
+    style: v3
+- id: ieee.dual_published.5738
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '802'
+      year: '2005'
+      parts:
+      - 16e
+      separator: "."
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:corrigendum
+      number: '1'
+      year: '2005'
+      base:
+        _type: pubid:ieee:standard
+        number: '802'
+        year: '2004'
+        parts:
+        - '16'
+        separator: "."
+        stage: Std
+  representations:
+    human: IEEE Std 802.16e-2005 and IEEE Std 802.16-2004/Cor. 1-2005
+    urn: urn:ieee:["ieee", "ieee"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.16e-2005 and IEEE Std 802.16-2004/Cor 1-2005 (Amendment
+      and Corrigendum to IEEE Std 802.16-2004)
+    style: v3
+- id: ieee.dual_published.5952
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '802'
+      year: '1995'
+      parts:
+      - 3u
+      separator: "."
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '802'
+      publisher: ANSI/IEEE
+      year: '1993'
+      parts:
+      - '3'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 802.3u-1995 and ANSI/IEEE 802.3-1993
+    urn: urn:ieee:["ieee", "ansi/ieee"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: 'IEEE Std 802.3u-1995 (Supplement to ISO/IEC 8802-3: 1993; ANSI/IEEE
+      Std 802.3, 1993 Edition)'
+    style: v3
+- id: ieee.dual_published.5959
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '802'
+      parts:
+      - 5r
+      separator: "."
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '802'
+      year: '1998'
+      parenthetical_content: ISO/IEC 8802-5:1998/Amd.1
+      parts:
+      - 5j
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 802.5r and IEEE Std 802.5j-1998 (ISO/IEC 8802-5:1998/Amd.1)
+    urn: urn:ieee:["ieee", "ieee"]
+  roundtrip: false
+  style: v2
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.5r and IEEE 802.5j, 1998 Edition (ISO/IEC 8802-5:1998/Amd.1)
+    style: v2
+- id: ieee.dual_published.5964
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '802'
+      year: '1993'
+      parts:
+      - 6c
+      separator: "."
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '802'
+      year: '1993'
+      parts:
+      - 6h
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 802.6c-1993 and IEEE Std 802.6h-1993
+    urn: urn:ieee:["ieee", "ieee"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.6c-1993 and Std 802.6h-1993
+    style: v3
+- id: ieee.dual_published.6105
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '960'
+      year: '1989'
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '1177'
+      year: '1989'
+      stage: Std
+  representations:
+    human: IEEE Std 960-1989 and IEEE Std 1177-1989
+    urn: urn:ieee:["ieee", "ieee"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 960-1989, Std 1177-1989
+    style: v3
+- id: ieee.dual_published.6107
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '960'
+      year: '1993'
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '1177'
+      year: '1993'
+      stage: Std
+  representations:
+    human: IEEE Std 960-1993 and IEEE Std 1177-1993
+    urn: urn:ieee:["ieee", "ieee"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 960-1993, IEEE Std 1177-1993
+    style: v3
+- id: ieee.dual_published.8245
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:standard
+      number: '57'
+      publisher: USAS
+      year: '1968'
+      prefix: C
+      parts:
+      - '12'
+      - '00'
+      separator: "."
+      stage: Std
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '57'
+      year: '1966'
+      prefix: C
+      parts:
+      - '12'
+      - 00a
+      separator: "."
+      stage: Std
+  representations:
+    human: USAS C57.12.00-1968 and IEEE Std C57.12.00a-1966
+    urn: urn:ieee:["usas", "ieee"]
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: USAS C57.12.00-1968 (Revision of C57.12.00-1965 &amp; C57.12.00a-1966)
     style: v3

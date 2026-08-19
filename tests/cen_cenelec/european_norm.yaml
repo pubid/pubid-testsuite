@@ -1,5 +1,5 @@
 ---
-- id: cen_cenelec.european_norm.0001
+- id: cen_cenelec.european_norm.0042
   identifier:
     _type: pubid:cencenelec:european-norm
     number:
@@ -10,7 +10,7 @@
     human: EN 1177:2008
     urn: urn:cen:en:1177:2008
   style: v3
-- id: cen_cenelec.european_norm.0002
+- id: cen_cenelec.european_norm.0043
   identifier:
     _type: pubid:cencenelec:european-norm
     number:
@@ -21,7 +21,7 @@
     human: EN 1177:2018
     urn: urn:cen:en:1177:2018
   style: v3
-- id: cen_cenelec.european_norm.0003
+- id: cen_cenelec.european_norm.0044
   identifier:
     _type: pubid:cencenelec:european-norm
     number:
@@ -34,7 +34,7 @@
     human: EN 12464-1:2011
     urn: urn:cen:en:12464-1:2011
   style: v3
-- id: cen_cenelec.european_norm.0004
+- id: cen_cenelec.european_norm.0045
   identifier:
     _type: pubid:cencenelec:european-norm
     number:
@@ -47,7 +47,7 @@
     human: EN 13501-1:2018
     urn: urn:cen:en:13501-1:2018
   style: v3
-- id: cen_cenelec.european_norm.0005
+- id: cen_cenelec.european_norm.0046
   identifier:
     _type: pubid:cencenelec:european-norm
     number:
@@ -58,7 +58,7 @@
     human: EN 14885:2018
     urn: urn:cen:en:14885:2018
   style: v3
-- id: cen_cenelec.european_norm.0006
+- id: cen_cenelec.european_norm.0047
   identifier:
     _type: pubid:cencenelec:european-norm
     number:
@@ -67,7 +67,7 @@
     human: EN 15038
     urn: urn:cen:en:15038
   style: v3
-- id: cen_cenelec.european_norm.0007
+- id: cen_cenelec.european_norm.0048
   identifier:
     _type: pubid:cencenelec:european-norm
     number:
@@ -80,7 +80,7 @@
     human: EN 16602-60-15:2014
     urn: urn:cen:en:16602-60-15:2014
   style: v3
-- id: cen_cenelec.european_norm.0008
+- id: cen_cenelec.european_norm.0049
   identifier:
     _type: pubid:cencenelec:european-norm
     number:
@@ -91,7 +91,7 @@
     human: EN 17355:2020
     urn: urn:cen:en:17355:2020
   style: v3
-- id: cen_cenelec.european_norm.0009
+- id: cen_cenelec.european_norm.0050
   identifier:
     _type: pubid:cencenelec:european-norm
     number:
@@ -104,7 +104,7 @@
     human: EN 196-3:2016
     urn: urn:cen:en:196-3:2016
   style: v3
-- id: cen_cenelec.european_norm.0010
+- id: cen_cenelec.european_norm.0051
   identifier:
     _type: pubid:cencenelec:european-norm
     number:
@@ -113,7 +113,7 @@
     human: EN 228
     urn: urn:cen:en:228
   style: v3
-- id: cen_cenelec.european_norm.0011
+- id: cen_cenelec.european_norm.0052
   identifier:
     _type: pubid:cencenelec:european-norm
     number:
@@ -124,7 +124,7 @@
     human: EN 228:2008
     urn: urn:cen:en:228:2008
   style: v3
-- id: cen_cenelec.european_norm.0012
+- id: cen_cenelec.european_norm.0053
   identifier:
     _type: pubid:cencenelec:european-norm
     number:
@@ -137,7 +137,7 @@
     human: EN 455-2:2015
     urn: urn:cen:en:455-2:2015
   style: v3
-- id: cen_cenelec.european_norm.0013
+- id: cen_cenelec.european_norm.0062
   identifier:
     _type: pubid:cencenelec:european-norm
     number:
@@ -179,7 +179,7 @@
     human: FprEN 16114:2011
     urn: urn:cen:en:16114:2011:stage.final_proposal
   style: v3
-- id: cen_cenelec.european_norm.0014
+- id: cen_cenelec.european_norm.0063
   identifier:
     _type: pubid:cencenelec:european-norm
     number:
@@ -221,7 +221,52 @@
     human: FprEN 16798-3
     urn: urn:cen:en:16798-3:stage.final_proposal
   style: v3
-- id: cen_cenelec.european_norm.0015
+- id: cen_cenelec.european_norm.0064
+  identifier:
+    _type: pubid:cencenelec:european-norm
+    number:
+      value: '50600'
+    part:
+      value: 2-4
+    type:
+      name: Final Proposal European Norm
+      abbr: FprEN
+      type_code: en
+    stage:
+      name: Final Proposal European Norm
+      stage_code: final_proposal
+      harmonized_stages:
+      - '40.00'
+      - '40.20'
+      - '40.60'
+      - '40.92'
+      - '40.97'
+      - '40.98'
+      - '40.99'
+      abbr: FprEN
+    typed_stage:
+      name: Final Proposal European Norm
+      code: fpren
+      type_code: en
+      stage_code: final_proposal
+      abbr:
+      - FprEN
+      harmonized_stages:
+      - '40.00'
+      - '40.20'
+      - '40.60'
+      - '40.92'
+      - '40.97'
+      - '40.98'
+      - '40.99'
+  representations:
+    human: FprEN 50600-2-4
+    urn: urn:cen:en:50600-2-4:stage.final_proposal
+  style: v3
+  non_normalized_aliases:
+  - spelling: FprEN 50600‑2‑4
+    style: v3
+- id: cen_cenelec.european_norm.0067
   identifier:
     _type: pubid:cencenelec:european-norm
     number:
@@ -265,7 +310,7 @@
     human: prEN 12464-1:2019
     urn: urn:cen:en:12464-1:2019:stage.proposal
   style: v3
-- id: cen_cenelec.european_norm.0016
+- id: cen_cenelec.european_norm.0068
   identifier:
     _type: pubid:cencenelec:european-norm
     number:
@@ -307,7 +352,7 @@
     human: prEN 13241-1
     urn: urn:cen:en:13241-1:stage.proposal
   style: v3
-- id: cen_cenelec.european_norm.0017
+- id: cen_cenelec.european_norm.0069
   identifier:
     _type: pubid:cencenelec:european-norm
     number:
@@ -351,7 +396,7 @@
     human: prEN 13241-1:2013
     urn: urn:cen:en:13241-1:2013:stage.proposal
   style: v3
-- id: cen_cenelec.european_norm.0018
+- id: cen_cenelec.european_norm.0070
   identifier:
     _type: pubid:cencenelec:european-norm
     number:
@@ -393,7 +438,7 @@
     human: prEN 14885:2020
     urn: urn:cen:en:14885:2020:stage.proposal
   style: v3
-- id: cen_cenelec.european_norm.0019
+- id: cen_cenelec.european_norm.0071
   identifier:
     _type: pubid:cencenelec:european-norm
     number:
@@ -435,7 +480,7 @@
     human: prEN 15038:2004
     urn: urn:cen:en:15038:2004:stage.proposal
   style: v3
-- id: cen_cenelec.european_norm.0020
+- id: cen_cenelec.european_norm.0072
   identifier:
     _type: pubid:cencenelec:european-norm
     number:

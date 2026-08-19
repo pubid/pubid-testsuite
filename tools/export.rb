@@ -72,10 +72,14 @@ module Exporter
     File.readlines(path).filter_map do |raw|
       line = raw.strip
       next if line.empty?
-      next line unless fail_format && line.start_with?("#")
-
-      input = line.sub(/\A#/, "").split("#", 2).first.to_s.strip
-      input unless input.empty?
+      if line.start_with?("#")
+        next unless fail_format        # pass/full: comments
+        next if line.split("#").size < 3 # fail headers: no wrapped id
+        input = line.sub(/\A#/, "").split("#", 2).first.to_s.strip
+        next input unless input.empty?
+      else
+        next line
+      end
     end
   end
 
@@ -93,6 +97,11 @@ module Exporter
 
     out = File.join(REPO, "tests", flavor)
     FileUtils.mkdir_p(out)
+    # Full-regeneration semantics: stale files from earlier formats must
+    # not survive beside fresh ones.
+    Dir[File.join(out, "*.yaml")].each { |old_file| File.delete(old_file) }
+    dotfile = File.join(out, ".yaml")
+    File.delete(dotfile) if File.exist?(dotfile)
     stats = { cases: 0, aliases: 0, duplicates: 0, phantom: 0, debt: 0,
               negatives: 0, quarantined: 0, divergent: 0,
               fixture_lines: Set.new, covered: Set.new, debt_inputs: Set.new }
@@ -212,8 +221,7 @@ module Exporter
 
   # An identity is filed under its own outermost type key.
   def type_of(record)
-    record["identifier"].to_s[/pubid:[a-z0-9_]+:([a-z0-9_-]+)\)/, 1]
-      .to_s.tr("-", "_")
+    record["identifier"]["_type"].to_s.split(":").last.tr("-", "_")
   rescue StandardError
     "misc"
   end

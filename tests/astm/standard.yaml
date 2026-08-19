@@ -1,5 +1,5 @@
 ---
-- id: astm.standard.0001
+- id: astm.standard.0008
   identifier:
     _type: pubid:astm:standard
     code:
@@ -10,7 +10,7 @@
     human: ASTM A240/A240M
     urn: urn:astm:std:A240M
   style: v3
-- id: astm.standard.0002
+- id: astm.standard.0009
   identifier:
     _type: pubid:astm:standard
     code:
@@ -22,7 +22,7 @@
     human: ASTM A36/A36M-19
     urn: urn:astm:std:A36M:19
   style: v3
-- id: astm.standard.0003
+- id: astm.standard.0010
   identifier:
     _type: pubid:astm:standard
     code:
@@ -33,7 +33,7 @@
     human: ASTM A693/A693M
     urn: urn:astm:std:A693M
   style: v3
-- id: astm.standard.0004
+- id: astm.standard.0011
   identifier:
     _type: pubid:astm:standard
     code:
@@ -44,7 +44,7 @@
     human: ASTM A829/A829M
     urn: urn:astm:std:A829M
   style: v3
-- id: astm.standard.0005
+- id: astm.standard.0012
   identifier:
     _type: pubid:astm:standard
     code:
@@ -56,7 +56,7 @@
     human: ASTM A871/A871M-20
     urn: urn:astm:std:A871M:20
   style: v3
-- id: astm.standard.0006
+- id: astm.standard.0013
   identifier:
     _type: pubid:astm:standard
     code:
@@ -69,7 +69,7 @@
     human: ASTM A945/A945M-16(2021)
     urn: urn:astm:std:A945M:16:reapp.2021
   style: v3
-- id: astm.standard.0007
+- id: astm.standard.0016
   identifier:
     _type: pubid:astm:standard
     edition: '1'
@@ -81,7 +81,7 @@
     human: ASTM C1028-07e1
     urn: urn:astm:std:C1028:07:e1
   style: v3
-- id: astm.standard.0008
+- id: astm.standard.0017
   identifier:
     _type: pubid:astm:standard
     code:
@@ -92,7 +92,7 @@
     human: ASTM C1870-18
     urn: urn:astm:std:C1870:18
   style: v3
-- id: astm.standard.0009
+- id: astm.standard.0018
   identifier:
     _type: pubid:astm:standard
     code:
@@ -104,7 +104,7 @@
     human: ASTM C1870-18(2024)
     urn: urn:astm:std:C1870:18:reapp.2024
   style: v3
-- id: astm.standard.0010
+- id: astm.standard.0019
   identifier:
     _type: pubid:astm:standard
     code:
@@ -116,7 +116,7 @@
     human: ASTM C483-95(2000)
     urn: urn:astm:std:C483:95:reapp.2000
   style: v3
-- id: astm.standard.0011
+- id: astm.standard.0020
   identifier:
     _type: pubid:astm:standard
     code:
@@ -128,7 +128,22 @@
     human: ASTM C502-16(2025)
     urn: urn:astm:std:C502:16:reapp.2025
   style: v3
-- id: astm.standard.0012
+- id: astm.standard.0021
+  identifier:
+    _type: pubid:astm:standard
+    code:
+      letter: C
+      number: '627'
+    year: '2018'
+    reapproval: '2024'
+  representations:
+    human: ASTM C627-18(2024)
+    urn: urn:astm:std:C627:18:reapp.2024
+  style: v3
+  non_normalized_aliases:
+  - spelling: 'ASTM C627-18(2024) # this is c0627-18r24'
+    style: v3
+- id: astm.standard.0022
   identifier:
     _type: pubid:astm:standard
     code:
@@ -141,7 +156,7 @@
     human: ASTM D1683/D1683M-17(2018)
     urn: urn:astm:std:D1683M:17:reapp.2018
   style: v3
-- id: astm.standard.0013
+- id: astm.standard.0023
   identifier:
     _type: pubid:astm:standard
     code:
@@ -153,7 +168,7 @@
     human: ASTM D1776/D1776M-20
     urn: urn:astm:std:D1776M:20
   style: v3
-- id: astm.standard.0014
+- id: astm.standard.0024
   identifier:
     _type: pubid:astm:standard
     code:
@@ -164,7 +179,7 @@
     human: ASTM D2148-22
     urn: urn:astm:std:D2148:22
   style: v3
-- id: astm.standard.0015
+- id: astm.standard.0025
   identifier:
     _type: pubid:astm:standard
     code:
@@ -175,7 +190,7 @@
     human: ASTM D3578-19
     urn: urn:astm:std:D3578:19
   style: v3
-- id: astm.standard.0016
+- id: astm.standard.0026
   identifier:
     _type: pubid:astm:standard
     edition: '1'
@@ -189,7 +204,7 @@
     human: ASTM D3745/D3745M-95(2015)e1
     urn: urn:astm:std:D3745M:95:reapp.2015:e1
   style: v3
-- id: astm.standard.0017
+- id: astm.standard.0027
   identifier:
     _type: pubid:astm:standard
     code:
@@ -200,7 +215,7 @@
     human: ASTM D5034-21
     urn: urn:astm:std:D5034:21
   style: v3
-- id: astm.standard.0018
+- id: astm.standard.0028
   identifier:
     _type: pubid:astm:standard
     code:
@@ -211,7 +226,7 @@
     human: ASTM D5250-19
     urn: urn:astm:std:D5250:19
   style: v3
-- id: astm.standard.0019
+- id: astm.standard.0029
   identifier:
     _type: pubid:astm:standard
     code:
@@ -223,7 +238,7 @@
     human: ASTM D5587-15(2019)
     urn: urn:astm:std:D5587:15:reapp.2019
   style: v3
-- id: astm.standard.0020
+- id: astm.standard.0030
   identifier:
     _type: pubid:astm:standard
     code:
@@ -234,7 +249,7 @@
     human: ASTM D5733-99
     urn: urn:astm:std:D5733:99
   style: v3
-- id: astm.standard.0021
+- id: astm.standard.0031
   identifier:
     _type: pubid:astm:standard
     code:
@@ -247,7 +262,7 @@
     human: ASTM D5994/D5994M-10(2021)
     urn: urn:astm:std:D5994M:10:reapp.2021
   style: v3
-- id: astm.standard.0022
+- id: astm.standard.0032
   identifier:
     _type: pubid:astm:standard
     code:
@@ -258,7 +273,7 @@
     human: ASTM D6319-19
     urn: urn:astm:std:D6319:19
   style: v3
-- id: astm.standard.0023
+- id: astm.standard.0033
   identifier:
     _type: pubid:astm:standard
     code:
@@ -269,7 +284,7 @@
     human: ASTM D6701-21
     urn: urn:astm:std:D6701:21
   style: v3
-- id: astm.standard.0024
+- id: astm.standard.0034
   identifier:
     _type: pubid:astm:standard
     code:
@@ -280,7 +295,7 @@
     human: ASTM D6977-19
     urn: urn:astm:std:D6977:19
   style: v3
-- id: astm.standard.0025
+- id: astm.standard.0035
   identifier:
     _type: pubid:astm:standard
     code:
@@ -291,7 +306,7 @@
     human: ASTM D751-19
     urn: urn:astm:std:D751:19
   style: v3
-- id: astm.standard.0026
+- id: astm.standard.0069
   identifier:
     _type: pubid:astm:standard
     code:
@@ -303,7 +318,7 @@
     human: ASTM E1104-98(2016)
     urn: urn:astm:std:E1104:98:reapp.2016
   style: v3
-- id: astm.standard.0027
+- id: astm.standard.0070
   identifier:
     _type: pubid:astm:standard
     code:
@@ -314,7 +329,7 @@
     human: ASTM E1174-13
     urn: urn:astm:std:E1174:13
   style: v3
-- id: astm.standard.0028
+- id: astm.standard.0071
   identifier:
     _type: pubid:astm:standard
     code:
@@ -325,7 +340,7 @@
     human: ASTM E1838-17
     urn: urn:astm:std:E1838:17
   style: v3
-- id: astm.standard.0029
+- id: astm.standard.0072
   identifier:
     _type: pubid:astm:standard
     code:
@@ -336,7 +351,7 @@
     human: ASTM E2011-21
     urn: urn:astm:std:E2011:21
   style: v3
-- id: astm.standard.0030
+- id: astm.standard.0073
   identifier:
     _type: pubid:astm:standard
     code:
@@ -347,7 +362,7 @@
     human: ASTM E2613-14
     urn: urn:astm:std:E2613:14
   style: v3
-- id: astm.standard.0031
+- id: astm.standard.0074
   identifier:
     _type: pubid:astm:standard
     code:
@@ -358,7 +373,7 @@
     human: ASTM E2755-15
     urn: urn:astm:std:E2755:15
   style: v3
-- id: astm.standard.0032
+- id: astm.standard.0075
   identifier:
     _type: pubid:astm:standard
     code:
@@ -369,7 +384,7 @@
     human: ASTM E2870-19
     urn: urn:astm:std:E2870:19
   style: v3
-- id: astm.standard.0033
+- id: astm.standard.0076
   identifier:
     _type: pubid:astm:standard
     code:
@@ -381,7 +396,7 @@
     human: ASTM E2938-15(2023)
     urn: urn:astm:std:E2938:15:reapp.2023
   style: v3
-- id: astm.standard.0034
+- id: astm.standard.0077
   identifier:
     _type: pubid:astm:standard
     code:
@@ -392,7 +407,7 @@
     human: ASTM E3058-16
     urn: urn:astm:std:E3058:16
   style: v3
-- id: astm.standard.0035
+- id: astm.standard.0078
   identifier:
     _type: pubid:astm:standard
     edition: '1'
@@ -404,7 +419,7 @@
     human: ASTM E3239-21e1
     urn: urn:astm:std:E3239:21:e1
   style: v3
-- id: astm.standard.0036
+- id: astm.standard.0079
   identifier:
     _type: pubid:astm:standard
     code:
@@ -415,7 +430,7 @@
     human: ASTM F1494-14
     urn: urn:astm:std:F1494:14
   style: v3
-- id: astm.standard.0037
+- id: astm.standard.0080
   identifier:
     _type: pubid:astm:standard
     code:
@@ -427,7 +442,7 @@
     human: ASTM F1671/F1671M-13
     urn: urn:astm:std:F1671M:13
   style: v3
-- id: astm.standard.0038
+- id: astm.standard.0081
   identifier:
     _type: pubid:astm:standard
     code:
@@ -439,7 +454,7 @@
     human: ASTM F1862/F1862M-17
     urn: urn:astm:std:F1862M:17
   style: v3
-- id: astm.standard.0039
+- id: astm.standard.0082
   identifier:
     _type: pubid:astm:standard
     code:
@@ -450,7 +465,7 @@
     human: ASTM F1868-17
     urn: urn:astm:std:F1868:17
   style: v3
-- id: astm.standard.0040
+- id: astm.standard.0083
   identifier:
     _type: pubid:astm:standard
     code:
@@ -461,7 +476,7 @@
     human: ASTM F2100-21
     urn: urn:astm:std:F2100:21
   style: v3
-- id: astm.standard.0041
+- id: astm.standard.0084
   identifier:
     _type: pubid:astm:standard
     code:
@@ -472,7 +487,7 @@
     human: ASTM F2101-19
     urn: urn:astm:std:F2101:19
   style: v3
-- id: astm.standard.0042
+- id: astm.standard.0085
   identifier:
     _type: pubid:astm:standard
     code:
@@ -485,7 +500,7 @@
     human: ASTM F2299/F2299M-03(2017)
     urn: urn:astm:std:F2299M:03:reapp.2017
   style: v3
-- id: astm.standard.0043
+- id: astm.standard.0086
   identifier:
     _type: pubid:astm:standard
     code:
@@ -496,7 +511,7 @@
     human: ASTM F2407-21
     urn: urn:astm:std:F2407:21
   style: v3
-- id: astm.standard.0044
+- id: astm.standard.0087
   identifier:
     _type: pubid:astm:standard
     code:
@@ -507,7 +522,7 @@
     human: ASTM F3387-19
     urn: urn:astm:std:F3387:19
   style: v3
-- id: astm.standard.0045
+- id: astm.standard.0088
   identifier:
     _type: pubid:astm:standard
     code:
@@ -518,7 +533,7 @@
     human: ASTM F3407-20
     urn: urn:astm:std:F3407:20
   style: v3
-- id: astm.standard.0046
+- id: astm.standard.0089
   identifier:
     _type: pubid:astm:standard
     code:

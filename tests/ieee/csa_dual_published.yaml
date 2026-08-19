@@ -1,5 +1,25 @@
 ---
-- id: ieee.csa_dual_published.0001
+- id: ieee.csa_dual_published.6035
+  identifier:
+    _type: pubid:ieee:csa-dual-published
+    year: '2017'
+    ieee_identifier:
+      _type: pubid:ieee:standard
+      number: '844'
+      year: '2017'
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+    stage: Std
+  representations:
+    human: 'IEEE Std 844.1-2017/CSA '
+    urn: urn:ieee:ieee:2017
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 844.1-2017/CSA C22.2 No. 293.1-17
+    style: v3
+- id: ieee.csa_dual_published.6036
   identifier:
     _type: pubid:ieee:csa-dual-published
     year: '2017'
@@ -19,7 +39,27 @@
   non_normalized_aliases:
   - spelling: IEEE Std 844.2-2017/CSA C293.2-17
     style: v3
-- id: ieee.csa_dual_published.0002
+- id: ieee.csa_dual_published.6037
+  identifier:
+    _type: pubid:ieee:csa-dual-published
+    year: '2019'
+    ieee_identifier:
+      _type: pubid:ieee:standard
+      number: '844'
+      year: '2019'
+      parts:
+      - '3'
+      separator: "."
+      stage: Std
+    stage: Std
+  representations:
+    human: 'IEEE Std 844.3-2019/CSA '
+    urn: urn:ieee:ieee:2019
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 844.3-2019/CSA C22.2 No. 293.3:19
+    style: v3
+- id: ieee.csa_dual_published.6038
   identifier:
     _type: pubid:ieee:csa-dual-published
     year: '2019'

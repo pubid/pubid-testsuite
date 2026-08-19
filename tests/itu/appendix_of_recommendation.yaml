@@ -1,5 +1,5 @@
 ---
-- id: itu.appendix_of_recommendation.0001
+- id: itu.appendix_of_recommendation.2282
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: I
@@ -14,7 +14,7 @@
     human: ITU-T G.101 App. I (05/2000)
     urn: urn:itu:t:G.101:appendix:i:05/2000
   style: v3
-- id: itu.appendix_of_recommendation.0002
+- id: itu.appendix_of_recommendation.2283
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: I
@@ -29,7 +29,7 @@
     human: ITU-T G.113 App. I (05/2002)
     urn: urn:itu:t:G.113:appendix:i:05/2002
   style: v3
-- id: itu.appendix_of_recommendation.0003
+- id: itu.appendix_of_recommendation.2284
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: I
@@ -44,7 +44,7 @@
     human: ITU-T G.113 App. I (09/1999)
     urn: urn:itu:t:G.113:appendix:i:09/1999
   style: v3
-- id: itu.appendix_of_recommendation.0004
+- id: itu.appendix_of_recommendation.2285
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: I
@@ -59,7 +59,7 @@
     human: ITU-T G.113 App. I (10/2001)
     urn: urn:itu:t:G.113:appendix:i:10/2001
   style: v3
-- id: itu.appendix_of_recommendation.0005
+- id: itu.appendix_of_recommendation.2286
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: I
@@ -74,7 +74,7 @@
     human: ITU-T G.113 App. I (12/1998)
     urn: urn:itu:t:G.113:appendix:i:12/1998
   style: v3
-- id: itu.appendix_of_recommendation.0006
+- id: itu.appendix_of_recommendation.2287
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: II
@@ -89,7 +89,7 @@
     human: ITU-T G.131 App. II (09/1999)
     urn: urn:itu:t:G.131:appendix:ii:09/1999
   style: v3
-- id: itu.appendix_of_recommendation.0007
+- id: itu.appendix_of_recommendation.2289
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: I
@@ -104,7 +104,7 @@
     human: ITU-T G.711 App. I (09/1999)
     urn: urn:itu:t:G.711:appendix:i:09/1999
   style: v3
-- id: itu.appendix_of_recommendation.0008
+- id: itu.appendix_of_recommendation.2290
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: II
@@ -119,7 +119,7 @@
     human: ITU-T G.711 App. II (02/2000)
     urn: urn:itu:t:G.711:appendix:ii:02/2000
   style: v3
-- id: itu.appendix_of_recommendation.0009
+- id: itu.appendix_of_recommendation.2292
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: II
@@ -135,7 +135,7 @@
     human: ITU-T G.722 (1988) App. II (11/1988)
     urn: urn:itu:t:G.722:1988:appendix:ii:11/1988
   style: v3
-- id: itu.appendix_of_recommendation.0010
+- id: itu.appendix_of_recommendation.2293
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: III
@@ -151,7 +151,7 @@
     human: ITU-T G.722 (1988) App. III (11/2006)
     urn: urn:itu:t:G.722:1988:appendix:iii:11/2006
   style: v3
-- id: itu.appendix_of_recommendation.0011
+- id: itu.appendix_of_recommendation.2294
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: IV
@@ -167,7 +167,7 @@
     human: ITU-T G.722 (1988) App. IV (07/2007)
     urn: urn:itu:t:G.722:1988:appendix:iv:07/2007
   style: v3
-- id: itu.appendix_of_recommendation.0012
+- id: itu.appendix_of_recommendation.2295
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: IV
@@ -183,7 +183,7 @@
     human: ITU-T G.722 (1988) App. IV (11/2006)
     urn: urn:itu:t:G.722:1988:appendix:iv:11/2006
   style: v3
-- id: itu.appendix_of_recommendation.0013
+- id: itu.appendix_of_recommendation.2296
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: IV
@@ -199,7 +199,7 @@
     human: ITU-T G.722 (1988) App. IV (11/2009)
     urn: urn:itu:t:G.722:1988:appendix:iv:11/2009
   style: v3
-- id: itu.appendix_of_recommendation.0014
+- id: itu.appendix_of_recommendation.2299
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: I
@@ -215,27 +215,7 @@
     human: ITU-T G.722.2 App. I (01/2002)
     urn: urn:itu:t:G.722.2:appendix:i:01/2002
   style: v3
-- id: itu.appendix_of_recommendation.0015
-  identifier:
-    _type: pubid:itu:amendment
-    number: '1'
-    year: '2003'
-    month: '07'
-    base:
-      _type: pubid:itu:appendix-of-recommendation
-      number: I
-      year: '2002'
-      base:
-        _type: pubid:itu:recommendation
-        sector: T
-        series: G
-        number: '722'
-        subseries: '2'
-  representations:
-    human: ITU-T G.722.2 App. I (2002) Amd. 1 (07/2003)
-    urn: urn:itu:t:G.722.2:appendix:i:2002:1:07/2003
-  style: v3
-- id: itu.appendix_of_recommendation.0016
+- id: itu.appendix_of_recommendation.2301
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: II
@@ -251,7 +231,7 @@
     human: ITU-T G.726 App. II test vectors (03/1991)
     urn: urn:itu:t:G.726:appendix:ii:testvectors:03/1991
   style: v3
-- id: itu.appendix_of_recommendation.0017
+- id: itu.appendix_of_recommendation.2302
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: III
@@ -266,7 +246,7 @@
     human: ITU-T G.726 App. III (05/1994)
     urn: urn:itu:t:G.726:appendix:iii:05/1994
   style: v3
-- id: itu.appendix_of_recommendation.0018
+- id: itu.appendix_of_recommendation.2303
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: I
@@ -282,7 +262,7 @@
     human: ITU-T G.727 App. I test vectors (03/1991)
     urn: urn:itu:t:G.727:appendix:i:testvectors:03/1991
   style: v3
-- id: itu.appendix_of_recommendation.0019
+- id: itu.appendix_of_recommendation.2304
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: II
@@ -297,7 +277,7 @@
     human: ITU-T G.727 App. II (05/1994)
     urn: urn:itu:t:G.727:appendix:ii:05/1994
   style: v3
-- id: itu.appendix_of_recommendation.0020
+- id: itu.appendix_of_recommendation.2305
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: I
@@ -313,7 +293,7 @@
     human: ITU-T G.728 App. I Software (07/1995)
     urn: urn:itu:t:G.728:appendix:i:software:07/1995
   style: v3
-- id: itu.appendix_of_recommendation.0021
+- id: itu.appendix_of_recommendation.2306
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: II
@@ -328,7 +308,7 @@
     human: ITU-T G.728 App. II (11/1995)
     urn: urn:itu:t:G.728:appendix:ii:11/1995
   style: v3
-- id: itu.appendix_of_recommendation.0022
+- id: itu.appendix_of_recommendation.2310
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: I
@@ -343,7 +323,7 @@
     human: ITU-T G.729 App. I (06/2001)
     urn: urn:itu:t:G.729:appendix:i:06/2001
   style: v3
-- id: itu.appendix_of_recommendation.0023
+- id: itu.appendix_of_recommendation.2311
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: II
@@ -358,7 +338,7 @@
     human: ITU-T G.729 App. II (08/2005)
     urn: urn:itu:t:G.729:appendix:ii:08/2005
   style: v3
-- id: itu.appendix_of_recommendation.0024
+- id: itu.appendix_of_recommendation.2312
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: III
@@ -373,7 +353,7 @@
     human: ITU-T G.729 App. III (08/2005)
     urn: urn:itu:t:G.729:appendix:iii:08/2005
   style: v3
-- id: itu.appendix_of_recommendation.0025
+- id: itu.appendix_of_recommendation.2313
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: I
@@ -388,7 +368,7 @@
     human: ITU-T G.764 App. I (11/1995)
     urn: urn:itu:t:G.764:appendix:i:11/1995
   style: v3
-- id: itu.appendix_of_recommendation.0026
+- id: itu.appendix_of_recommendation.2314
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: I
@@ -403,7 +383,7 @@
     human: ITU-T G.765 App. I (11/1995)
     urn: urn:itu:t:G.765:appendix:i:11/1995
   style: v3
-- id: itu.appendix_of_recommendation.0027
+- id: itu.appendix_of_recommendation.2325
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: I
@@ -418,7 +398,7 @@
     human: ITU-T H.263 App. I (03/1997)
     urn: urn:itu:t:H.263:appendix:i:03/1997
   style: v3
-- id: itu.appendix_of_recommendation.0028
+- id: itu.appendix_of_recommendation.2326
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: II
@@ -433,7 +413,7 @@
     human: ITU-T H.263 App. II (06/2001)
     urn: urn:itu:t:H.263:appendix:ii:06/2001
   style: v3
-- id: itu.appendix_of_recommendation.0029
+- id: itu.appendix_of_recommendation.2327
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: III
@@ -448,7 +428,7 @@
     human: ITU-T H.263 App. III (06/2001)
     urn: urn:itu:t:H.263:appendix:iii:06/2001
   style: v3
-- id: itu.appendix_of_recommendation.0030
+- id: itu.appendix_of_recommendation.2344
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: I
@@ -466,7 +446,7 @@
     human: ITU-T L.255/L.17 App. I (02/1997)
     urn: urn:itu:t:L.255:appendix:i:02/1997
   style: v3
-- id: itu.appendix_of_recommendation.0031
+- id: itu.appendix_of_recommendation.2399
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: I
@@ -481,7 +461,7 @@
     human: ITU-T P.50 App. I (02/1998)
     urn: urn:itu:t:P.50:appendix:i:02/1998
   style: v3
-- id: itu.appendix_of_recommendation.0032
+- id: itu.appendix_of_recommendation.2400
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: III
@@ -496,7 +476,7 @@
     human: ITU-T P.561 App. III (02/1998)
     urn: urn:itu:t:P.561:appendix:iii:02/1998
   style: v3
-- id: itu.appendix_of_recommendation.0033
+- id: itu.appendix_of_recommendation.2465
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: I
@@ -511,7 +491,7 @@
     human: ITU-T Q.812 App. I (03/1999)
     urn: urn:itu:t:Q.812:appendix:i:03/1999
   style: v3
-- id: itu.appendix_of_recommendation.0034
+- id: itu.appendix_of_recommendation.2521
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: III
@@ -526,7 +506,7 @@
     human: ITU-T V.18 App. III (09/1998)
     urn: urn:itu:t:V.18:appendix:iii:09/1998
   style: v3
-- id: itu.appendix_of_recommendation.0035
+- id: itu.appendix_of_recommendation.2522
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: IV
@@ -541,7 +521,7 @@
     human: ITU-T V.18 App. IV (09/1998)
     urn: urn:itu:t:V.18:appendix:iv:09/1998
   style: v3
-- id: itu.appendix_of_recommendation.0036
+- id: itu.appendix_of_recommendation.2554
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: VI
@@ -556,7 +536,7 @@
     human: ITU-T V.42 App. VI (11/2000)
     urn: urn:itu:t:V.42:appendix:vi:11/2000
   style: v3
-- id: itu.appendix_of_recommendation.0037
+- id: itu.appendix_of_recommendation.2558
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: II
@@ -571,7 +551,7 @@
     human: ITU-T V.75 App. II (02/1998)
     urn: urn:itu:t:V.75:appendix:ii:02/1998
   style: v3
-- id: itu.appendix_of_recommendation.0038
+- id: itu.appendix_of_recommendation.2731
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: I
@@ -586,7 +566,7 @@
     human: ITU-T Z.100 App. I (03/1993)
     urn: urn:itu:t:Z.100:appendix:i:03/1993
   style: v3
-- id: itu.appendix_of_recommendation.0039
+- id: itu.appendix_of_recommendation.2732
   identifier:
     _type: pubid:itu:appendix-of-recommendation
     number: II

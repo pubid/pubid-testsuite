@@ -1,0 +1,39 @@
+---
+- id: cen_cenelec.european_specification.0060
+  identifier:
+    _type: pubid:cencenelec:european-specification
+    number:
+      value: '59008'
+    part:
+      value: '1'
+    date:
+      year: '2000'
+    publisher:
+      body: ES
+  representations:
+    human: ES/ES 59008-1:2000
+    urn: urn:cen:es:59008-1:2000
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: ES 59008-1:2000
+    style: v3
+- id: cen_cenelec.european_specification.0061
+  identifier:
+    _type: pubid:cencenelec:european-specification
+    number:
+      value: '59008'
+    part:
+      value: 6-1
+    date:
+      year: '1999'
+    publisher:
+      body: ES
+  representations:
+    human: ES/ES 59008-6-1:1999
+    urn: urn:cen:es:59008-6-1:1999
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: ES 59008-6-1:1999
+    style: v3

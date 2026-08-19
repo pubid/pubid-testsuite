@@ -1,5 +1,5 @@
 ---
-- id: iso.corrigendum.0001
+- id: iso.corrigendum.0011
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -20,7 +20,7 @@
     human: IEC 80369-5:2016/Cor 2:2021(en,fr)
     urn: urn:iso:std:iec:80369:-5:cor:2021:v2:en,fr
   style: v3
-- id: iso.corrigendum.0002
+- id: iso.corrigendum.0083
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -34,7 +34,7 @@
     human: ISO 10303-111:2007/NP Cor 2
     urn: urn:iso:std:iso:10303:-111:stage-10.00:cor:2:v1
   style: v3
-- id: iso.corrigendum.0003
+- id: iso.corrigendum.0118
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -48,7 +48,7 @@
     human: ISO 10360-1:2000/Cor 1:2002
     urn: urn:iso:std:iso:10360:-1:cor:2002:v1
   style: v3
-- id: iso.corrigendum.0004
+- id: iso.corrigendum.0150
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -62,7 +62,7 @@
     human: ISO 10414-2:2011/NP Cor 1
     urn: urn:iso:std:iso:10414:-2:stage-10.00:cor:1:v1
   style: v3
-- id: iso.corrigendum.0005
+- id: iso.corrigendum.0249
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -76,7 +76,7 @@
     human: ISO 105-G01:1993/COR 1:1995
     urn: urn:iso:std:iso:105:-G01:cor:1995:v1
   style: v3
-- id: iso.corrigendum.0006
+- id: iso.corrigendum.0251
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -90,7 +90,7 @@
     human: ISO 105-G02:1993/COR 2:2009
     urn: urn:iso:std:iso:105:-G02:cor:2009:v2
   style: v3
-- id: iso.corrigendum.0007
+- id: iso.corrigendum.0256
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -104,7 +104,7 @@
     human: ISO 105-J02:1997/COR 1:1998
     urn: urn:iso:std:iso:105:-J02:cor:1998:v1
   style: v3
-- id: iso.corrigendum.0008
+- id: iso.corrigendum.0261
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -118,7 +118,27 @@
     human: ISO 105-P02:1993/COR 1:1999
     urn: urn:iso:std:iso:105:-P02:cor:1999:v1
   style: v3
-- id: iso.corrigendum.0009
+- id: iso.corrigendum.0789
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2012'
+    languages:
+    - code: fr
+      original_code: fr
+    base:
+      _type: pubid:iso:international-standard
+      number: '11783'
+      part: '2'
+      year: '2012'
+  representations:
+    human: ISO 11783-2:2012/Cor 1:2012(fr)
+    urn: urn:iso:std:iso:11783:-2:cor:2012:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO 11783-2:2012/Cor.1:2012(fr)
+    style: v2
+- id: iso.corrigendum.0873
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -131,7 +151,7 @@
     human: ISO 12128:1995/CD Cor 1
     urn: urn:iso:std:iso:12128:CD:cor:1:v1
   style: v3
-- id: iso.corrigendum.0010
+- id: iso.corrigendum.1175
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -144,7 +164,7 @@
     human: ISO 13431:1999/AWI Cor 1
     urn: urn:iso:std:iso:13431:stage-10.99:cor:1:v1
   style: v3
-- id: iso.corrigendum.0011
+- id: iso.corrigendum.1176
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -157,7 +177,46 @@
     human: ISO 13431:1999/WD Cor 1
     urn: urn:iso:std:iso:13431:stage-20.20:cor:1:v1
   style: v3
-- id: iso.corrigendum.0012
+- id: iso.corrigendum.1427
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2010'
+    languages:
+    - code: ru
+      original_code: ru
+    base:
+      _type: pubid:iso:international-standard
+      number: '1436'
+      year: '2009'
+  representations:
+    human: ISO 1436:2009/Cor 1:2010(ru)
+    urn: urn:iso:std:iso:1436:cor:2010:v1:ru
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO 1436:2009/Cor.1:2010(ru)
+    style: v2
+- id: iso.corrigendum.1553
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2001'
+    languages:
+    - code: fr
+      original_code: fr
+    base:
+      _type: pubid:iso:international-standard
+      number: '14687'
+      part: '1'
+      year: '1999'
+  representations:
+    human: ISO 14687-1:1999/Cor 1:2001(fr)
+    urn: urn:iso:std:iso:14687:-1:cor:2001:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO 14687-1:1999/Cor.1:2001(fr)
+    style: v2
+- id: iso.corrigendum.1683
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -171,7 +230,7 @@
     human: ISO 15022-2:1999/Cor 1:1999
     urn: urn:iso:std:iso:15022:-2:cor:1999:v1
   style: v3
-- id: iso.corrigendum.0013
+- id: iso.corrigendum.2454
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -186,7 +245,7 @@
     human: ISO 17301-1:2016/AWI Cor 1.2
     urn: urn:iso:std:iso:17301:-1:stage-10.99:cor:1:v1.2
   style: v3
-- id: iso.corrigendum.0014
+- id: iso.corrigendum.2455
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -202,7 +261,7 @@
     human: ISO 17301-1:2016/AWI Cor 1.2:2022
     urn: urn:iso:std:iso:17301:-1:stage-10.99:cor:2022:v1.2
   style: v3
-- id: iso.corrigendum.0015
+- id: iso.corrigendum.2456
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -217,7 +276,7 @@
     human: ISO 17301-1:2016/AWI Cor 2.2
     urn: urn:iso:std:iso:17301:-1:stage-10.99:cor:2:v1.2
   style: v3
-- id: iso.corrigendum.0016
+- id: iso.corrigendum.2457
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -233,7 +292,7 @@
     human: ISO 17301-1:2016/AWI Cor 2.2:2022
     urn: urn:iso:std:iso:17301:-1:stage-10.99:cor:2022:v2.2
   style: v3
-- id: iso.corrigendum.0017
+- id: iso.corrigendum.2463
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -248,7 +307,7 @@
     human: ISO 17301-1:2016/CD Cor 1.3
     urn: urn:iso:std:iso:17301:-1:CD.3:cor:1:v1.3
   style: v3
-- id: iso.corrigendum.0018
+- id: iso.corrigendum.2464
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -264,7 +323,7 @@
     human: ISO 17301-1:2016/CD Cor 1.3:2022
     urn: urn:iso:std:iso:17301:-1:CD.3:cor:2022:v1.3
   style: v3
-- id: iso.corrigendum.0019
+- id: iso.corrigendum.2465
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -279,7 +338,7 @@
     human: ISO 17301-1:2016/CD Cor 2.3
     urn: urn:iso:std:iso:17301:-1:CD.3:cor:2:v1.3
   style: v3
-- id: iso.corrigendum.0020
+- id: iso.corrigendum.2466
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -295,7 +354,7 @@
     human: ISO 17301-1:2016/CD Cor 2.3:2022
     urn: urn:iso:std:iso:17301:-1:CD.3:cor:2022:v2.3
   style: v3
-- id: iso.corrigendum.0021
+- id: iso.corrigendum.2467
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -309,7 +368,7 @@
     human: ISO 17301-1:2016/COR 2.3
     urn: urn:iso:std:iso:17301:-1:cor:2:v1.3
   style: v3
-- id: iso.corrigendum.0022
+- id: iso.corrigendum.2468
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -324,7 +383,7 @@
     human: ISO 17301-1:2016/COR 2.3:2002
     urn: urn:iso:std:iso:17301:-1:cor:2002:v2.3
   style: v3
-- id: iso.corrigendum.0023
+- id: iso.corrigendum.2473
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -339,7 +398,7 @@
     human: ISO 17301-1:2016/DCOR 1.3
     urn: urn:iso:std:iso:17301:-1:DCOR.3:cor:1:v1.3
   style: v3
-- id: iso.corrigendum.0024
+- id: iso.corrigendum.2474
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -355,7 +414,7 @@
     human: ISO 17301-1:2016/DCOR 1.3:2002
     urn: urn:iso:std:iso:17301:-1:DCOR.3:cor:2002:v1.3
   style: v3
-- id: iso.corrigendum.0025
+- id: iso.corrigendum.2475
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -370,7 +429,7 @@
     human: ISO 17301-1:2016/DCor 1.3
     urn: urn:iso:std:iso:17301:-1:DCOR.3:cor:1:v1.3
   style: v3
-- id: iso.corrigendum.0026
+- id: iso.corrigendum.2476
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -386,7 +445,7 @@
     human: ISO 17301-1:2016/DCor 1.3:2002
     urn: urn:iso:std:iso:17301:-1:DCOR.3:cor:2002:v1.3
   style: v3
-- id: iso.corrigendum.0027
+- id: iso.corrigendum.2477
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -401,7 +460,7 @@
     human: ISO 17301-1:2016/DCor 2.3
     urn: urn:iso:std:iso:17301:-1:DCOR.3:cor:2:v1.3
   style: v3
-- id: iso.corrigendum.0028
+- id: iso.corrigendum.2478
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -417,7 +476,7 @@
     human: ISO 17301-1:2016/DCor 2.3:2002
     urn: urn:iso:std:iso:17301:-1:DCOR.3:cor:2002:v2.3
   style: v3
-- id: iso.corrigendum.0029
+- id: iso.corrigendum.2483
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -432,7 +491,7 @@
     human: ISO 17301-1:2016/FDCOR 1.3
     urn: urn:iso:std:iso:17301:-1:FDCOR.3:cor:1:v1.3
   style: v3
-- id: iso.corrigendum.0030
+- id: iso.corrigendum.2484
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -448,7 +507,44 @@
     human: ISO 17301-1:2016/FDCOR 1.3:2022
     urn: urn:iso:std:iso:17301:-1:FDCOR.3:cor:2022:v1.3
   style: v3
-- id: iso.corrigendum.0031
+- id: iso.corrigendum.2485
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    stage_iteration: '3'
+    stage: fdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/FDCOR 2.3
+    urn: urn:iso:std:iso:17301:-1:FDCOR.3:cor:2:v1.3
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO 17301-1:2016/FCOR 2.3
+    style: v3
+- id: iso.corrigendum.2486
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    stage_iteration: '3'
+    year: '2022'
+    stage: fdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/FDCOR 2.3:2022
+    urn: urn:iso:std:iso:17301:-1:FDCOR.3:cor:2022:v2.3
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO 17301-1:2016/FCOR 2.3:2022
+    style: v3
+- id: iso.corrigendum.2487
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -463,7 +559,7 @@
     human: ISO 17301-1:2016/FDCor 1.3
     urn: urn:iso:std:iso:17301:-1:FDCOR.3:cor:1:v1.3
   style: v3
-- id: iso.corrigendum.0032
+- id: iso.corrigendum.2488
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -479,7 +575,7 @@
     human: ISO 17301-1:2016/FDCor 1.3:2022
     urn: urn:iso:std:iso:17301:-1:FDCOR.3:cor:2022:v1.3
   style: v3
-- id: iso.corrigendum.0033
+- id: iso.corrigendum.2489
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -494,7 +590,7 @@
     human: ISO 17301-1:2016/FDCor 2.3
     urn: urn:iso:std:iso:17301:-1:FDCOR.3:cor:2:v1.3
   style: v3
-- id: iso.corrigendum.0034
+- id: iso.corrigendum.2490
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -510,7 +606,7 @@
     human: ISO 17301-1:2016/FDCor 2.3:2022
     urn: urn:iso:std:iso:17301:-1:FDCOR.3:cor:2022:v2.3
   style: v3
-- id: iso.corrigendum.0035
+- id: iso.corrigendum.2495
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -525,7 +621,7 @@
     human: ISO 17301-1:2016/NP Cor 1.2
     urn: urn:iso:std:iso:17301:-1:stage-10.00:cor:1:v1.2
   style: v3
-- id: iso.corrigendum.0036
+- id: iso.corrigendum.2496
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -541,7 +637,7 @@
     human: ISO 17301-1:2016/NP Cor 1.2:2022
     urn: urn:iso:std:iso:17301:-1:stage-10.00:cor:2022:v1.2
   style: v3
-- id: iso.corrigendum.0037
+- id: iso.corrigendum.2497
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -556,7 +652,7 @@
     human: ISO 17301-1:2016/NP Cor 2.2
     urn: urn:iso:std:iso:17301:-1:stage-10.00:cor:2:v1.2
   style: v3
-- id: iso.corrigendum.0038
+- id: iso.corrigendum.2498
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -572,7 +668,7 @@
     human: ISO 17301-1:2016/NP Cor 2.2:2022
     urn: urn:iso:std:iso:17301:-1:stage-10.00:cor:2022:v2.2
   style: v3
-- id: iso.corrigendum.0039
+- id: iso.corrigendum.2503
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -587,7 +683,7 @@
     human: ISO 17301-1:2016/WD Cor 1.2
     urn: urn:iso:std:iso:17301:-1:stage-20.20:cor:1:v1.2
   style: v3
-- id: iso.corrigendum.0040
+- id: iso.corrigendum.2504
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -603,7 +699,7 @@
     human: ISO 17301-1:2016/WD Cor 1.2:2022
     urn: urn:iso:std:iso:17301:-1:stage-20.20:cor:2022:v1.2
   style: v3
-- id: iso.corrigendum.0041
+- id: iso.corrigendum.2505
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -618,7 +714,7 @@
     human: ISO 17301-1:2016/WD Cor 2.2
     urn: urn:iso:std:iso:17301:-1:stage-20.20:cor:2:v1.2
   style: v3
-- id: iso.corrigendum.0042
+- id: iso.corrigendum.2506
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -634,7 +730,7 @@
     human: ISO 17301-1:2016/WD Cor 2.2:2022
     urn: urn:iso:std:iso:17301:-1:stage-20.20:cor:2022:v2.2
   style: v3
-- id: iso.corrigendum.0043
+- id: iso.corrigendum.2580
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -647,7 +743,7 @@
     human: ISO 17615:2007/Cor 1:2008
     urn: urn:iso:std:iso:17615:cor:2008:v1
   style: v3
-- id: iso.corrigendum.0044
+- id: iso.corrigendum.3981
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -660,7 +756,7 @@
     human: ISO 22958:2005/Cor 1:2009
     urn: urn:iso:std:iso:22958:cor:2009:v1
   style: v3
-- id: iso.corrigendum.0045
+- id: iso.corrigendum.4418
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -673,7 +769,7 @@
     human: ISO 2818:1994/Cor 1:2007
     urn: urn:iso:std:iso:2818:cor:2007:v1
   style: v3
-- id: iso.corrigendum.0046
+- id: iso.corrigendum.4505
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -687,7 +783,7 @@
     human: ISO 294-4:2001/Cor 1:2007
     urn: urn:iso:std:iso:294:-4:cor:2007:v1
   style: v3
-- id: iso.corrigendum.0047
+- id: iso.corrigendum.4755
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -701,7 +797,7 @@
     human: ISO 3822-3:1997/PWI Cor 1
     urn: urn:iso:std:iso:3822:-3:stage-00.00:cor:1:v1
   style: v3
-- id: iso.corrigendum.0048
+- id: iso.corrigendum.4763
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -715,7 +811,7 @@
     human: ISO 3834-5:2005/Cor 1:2007
     urn: urn:iso:std:iso:3834:-5:cor:2007:v1
   style: v3
-- id: iso.corrigendum.0049
+- id: iso.corrigendum.4767
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -729,7 +825,7 @@
     human: ISO 3864-2:2004/CD Cor 1
     urn: urn:iso:std:iso:3864:-2:CD:cor:1:v1
   style: v3
-- id: iso.corrigendum.0050
+- id: iso.corrigendum.5084
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -742,7 +838,7 @@
     human: ISO 5495:2005/Cor 1:2006
     urn: urn:iso:std:iso:5495:cor:2006:v1
   style: v3
-- id: iso.corrigendum.0051
+- id: iso.corrigendum.5117
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -756,7 +852,7 @@
     human: ISO 5725-2:1994/Cor 1:2002
     urn: urn:iso:std:iso:5725:-2:cor:2002:v1
   style: v3
-- id: iso.corrigendum.0052
+- id: iso.corrigendum.5118
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -770,7 +866,23 @@
     human: ISO 5725-5:1998/Cor 1:2005
     urn: urn:iso:std:iso:5725:-5:cor:2005:v1
   style: v3
-- id: iso.corrigendum.0053
+- id: iso.corrigendum.5311
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2009'
+    base:
+      _type: pubid:iso:international-standard
+      number: '6709'
+      year: '2008'
+  representations:
+    human: ISO 6709:2008/Cor 1:2009
+    urn: urn:iso:std:iso:6709:cor:2009:v1
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO 6709:2008/Cor. 1:2009
+    style: v3
+- id: iso.corrigendum.5860
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -784,7 +896,27 @@
     human: ISO 8968-3:2004/Cor 1:2011
     urn: urn:iso:std:iso:8968:-3:cor:2011:v1
   style: v3
-- id: iso.corrigendum.0054
+- id: iso.corrigendum.6071
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    year: '2013'
+    languages:
+    - code: fr
+      original_code: F
+    base:
+      _type: pubid:iso:international-standard
+      number: '9606'
+      part: '1'
+      year: '2012'
+  representations:
+    human: ISO 9606-1:2012/Cor 2:2013(F)
+    urn: urn:iso:std:iso:9606:-1:cor:2013:v2:fr
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO 9606-1:2012/Cor.2:2013(F)
+    style: v2
+- id: iso.corrigendum.6072
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -801,7 +933,81 @@
     human: ISO 9606-1:2012/Cor 2:2013(fr)
     urn: urn:iso:std:iso:9606:-1:cor:2013:v2:fr
   style: v3
-- id: iso.corrigendum.0055
+- id: iso.corrigendum.6230
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '1996'
+    languages:
+    - code: fr
+      original_code: fr
+    copublishers:
+    - CEI
+    base:
+      _type: pubid:iso:amendment
+      number: '1'
+      year: '1995'
+      copublishers:
+      - CEI
+      base:
+        _type: pubid:iso:international-standard
+        number: '10164'
+        part: '5'
+        year: '1993'
+        copublishers:
+        - CEI
+  representations:
+    human: ISO/CEI 10164-5:1993/Amd 1:1995/Cor 1:1996(fr)
+    urn: urn:iso:std:iso-cei:10164:-5:amd:1995:v1:cor:1996:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/CEI 10164-5:1993/Amd.1:1995/Cor.1:1996(fr)
+    style: v2
+- id: iso.corrigendum.6233
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2006'
+    languages:
+    - code: fr
+      original_code: F
+    copublishers:
+    - CEI
+    base:
+      _type: pubid:iso:international-standard
+      number: '17025'
+      year: '2005'
+      copublishers:
+      - CEI
+  representations:
+    human: ISO/CEI 17025:2005/Cor 1:2006(F)
+    urn: urn:iso:std:iso-cei:17025:cor:2006:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/CEI 17025:2005/Cor.1:2006(F)
+    style: v2
+- id: iso.corrigendum.6299
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '2'
+    copublishers:
+    - IEC
+    stage: cdcor
+    base:
+      _type: pubid:iso:international-standard
+      number: '10646'
+      part: '1'
+      year: '1993'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 10646-1:1993/CD Cor 2
+    urn: urn:iso:std:iso-iec:10646:-1:CD:cor:2:v1
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC 10646-1:1993/pDCOR.2
+    style: v3
+- id: iso.corrigendum.6319
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -825,7 +1031,7 @@
     human: ISO/IEC 13818-1:2015/Amd 3:2016/Cor 1:2017
     urn: urn:iso:std:iso-iec:13818:-1:amd:2016:v3:cor:2017:v1
   style: v3
-- id: iso.corrigendum.0056
+- id: iso.corrigendum.6320
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -843,7 +1049,7 @@
     human: ISO/IEC 13818-1:2015/Cor 2:2017
     urn: urn:iso:std:iso-iec:13818:-1:cor:2017:v2
   style: v3
-- id: iso.corrigendum.0057
+- id: iso.corrigendum.6322
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -861,7 +1067,7 @@
     human: ISO/IEC 13818-1:2019/Cor 1:2020
     urn: urn:iso:std:iso-iec:13818:-1:cor:2020:v1
   style: v3
-- id: iso.corrigendum.0058
+- id: iso.corrigendum.6323
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -882,7 +1088,7 @@
     human: ISO/IEC 13818-1:2019/Cor 1:2020(en)
     urn: urn:iso:std:iso-iec:13818:-1:cor:2020:v1:en
   style: v3
-- id: iso.corrigendum.0059
+- id: iso.corrigendum.6325
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -900,7 +1106,7 @@
     human: ISO/IEC 13818-7:2006/Cor 2:2010
     urn: urn:iso:std:iso-iec:13818:-7:cor:2010:v2
   style: v3
-- id: iso.corrigendum.0060
+- id: iso.corrigendum.6336
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -917,7 +1123,7 @@
     human: ISO/IEC 14496-12/DCOR 1
     urn: urn:iso:std:iso-iec:14496:-12:DCOR:cor:1:v1
   style: v3
-- id: iso.corrigendum.0061
+- id: iso.corrigendum.6338
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -935,7 +1141,7 @@
     human: ISO/IEC 14496-15:2010/Cor 1:2011
     urn: urn:iso:std:iso-iec:14496:-15:cor:2011:v1
   style: v3
-- id: iso.corrigendum.0062
+- id: iso.corrigendum.6340
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -953,7 +1159,7 @@
     human: ISO/IEC 14496-20:2008/Cor 1:2010
     urn: urn:iso:std:iso-iec:14496:-20:cor:2010:v1
   style: v3
-- id: iso.corrigendum.0063
+- id: iso.corrigendum.6341
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -971,7 +1177,7 @@
     human: ISO/IEC 14496-21:2006/Cor 1:2007
     urn: urn:iso:std:iso-iec:14496:-21:cor:2007:v1
   style: v3
-- id: iso.corrigendum.0064
+- id: iso.corrigendum.6367
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -989,7 +1195,7 @@
     human: ISO/IEC 1539-1:2018/Cor 1:2021
     urn: urn:iso:std:iso-iec:1539:-1:cor:2021:v1
   style: v3
-- id: iso.corrigendum.0065
+- id: iso.corrigendum.6369
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -1007,7 +1213,80 @@
     human: ISO/IEC 15408-2:1999/CD Cor 1
     urn: urn:iso:std:iso-iec:15408:-2:CD:cor:1:v1
   style: v3
-- id: iso.corrigendum.0066
+- id: iso.corrigendum.6405
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    copublishers:
+    - IEC
+    stage: cdcor
+    base:
+      _type: pubid:iso:amendment
+      number: '5'
+      year: '2010'
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iso:international-standard
+        number: '15938'
+        part: '7'
+        year: '2003'
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 15938-7:2003/AMD 5:2010/CD Cor 1
+    urn: urn:iso:std:iso-iec:15938:-7:amd:2010:v5:CD:cor:1:v1
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC 15938-7:2003/Amd 5:2010/CD Cor 1
+    style: v3
+- id: iso.corrigendum.6437
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2006'
+    languages:
+    - code: fr
+      original_code: F
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '17025'
+      year: '2005'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 17025:2005/Cor 1:2006(F)
+    urn: urn:iso:std:iso-iec:17025:cor:2006:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC 17025:2005/Cor.1:2006(F)
+    style: v2
+- id: iso.corrigendum.6438
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    year: '2006'
+    languages:
+    - code: fr
+      original_code: fr
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '17025'
+      year: '2005'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 17025:2005/Cor 1:2006(fr)
+    urn: urn:iso:std:iso-iec:17025:cor:2006:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC 17025:2005/Cor.1:2006(fr)
+    style: v2
+- id: iso.corrigendum.6485
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -1024,7 +1303,34 @@
     human: ISO/IEC 19752:2004/Cor 1:2012
     urn: urn:iso:std:iso-iec:19752:cor:2012:v1
   style: v3
-- id: iso.corrigendum.0067
+- id: iso.corrigendum.6502
+  identifier:
+    _type: pubid:iso:corrigendum
+    number: '1'
+    copublishers:
+    - IEC
+    stage: cdcor
+    base:
+      _type: pubid:iso:amendment
+      number: '1'
+      year: '2015'
+      copublishers:
+      - IEC
+      base:
+        _type: pubid:iso:international-standard
+        number: '19794'
+        part: '7'
+        year: '2014'
+        copublishers:
+        - IEC
+  representations:
+    human: ISO/IEC 19794-7:2014/AMD 1:2015/CD Cor 1
+    urn: urn:iso:std:iso-iec:19794:-7:amd:2015:v1:CD:cor:1:v1
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC 19794-7:2014/Amd 1:2015/CD Cor 1
+    style: v3
+- id: iso.corrigendum.6503
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -1042,7 +1348,7 @@
     human: ISO/IEC 19794-9:2011/Cor 1:2012
     urn: urn:iso:std:iso-iec:19794:-9:cor:2012:v1
   style: v3
-- id: iso.corrigendum.0068
+- id: iso.corrigendum.6531
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -1059,7 +1365,7 @@
     human: ISO/IEC 2022:1994/Cor 1:1999
     urn: urn:iso:std:iso-iec:2022:cor:1999:v1
   style: v3
-- id: iso.corrigendum.0069
+- id: iso.corrigendum.6545
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -1077,7 +1383,7 @@
     human: ISO/IEC 21122-3:2019/CD Cor 1
     urn: urn:iso:std:iso-iec:21122:-3:CD:cor:1:v1
   style: v3
-- id: iso.corrigendum.0070
+- id: iso.corrigendum.6594
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -1095,7 +1401,7 @@
     human: ISO/IEC 23009-5:2017/CD Cor 1
     urn: urn:iso:std:iso-iec:23009:-5:CD:cor:1:v1
   style: v3
-- id: iso.corrigendum.0071
+- id: iso.corrigendum.6647
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -1113,7 +1419,7 @@
     human: ISO/IEC 24824-3:2008/CD Cor 1
     urn: urn:iso:std:iso-iec:24824:-3:CD:cor:1:v1
   style: v3
-- id: iso.corrigendum.0072
+- id: iso.corrigendum.6670
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -1130,7 +1436,7 @@
     human: ISO/IEC 26300:2006/DCOR 2
     urn: urn:iso:std:iso-iec:26300:DCOR:cor:2:v1
   style: v3
-- id: iso.corrigendum.0073
+- id: iso.corrigendum.6686
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -1147,7 +1453,7 @@
     human: ISO/IEC 27001:2013/Cor 1:2014
     urn: urn:iso:std:iso-iec:27001:cor:2014:v1
   style: v3
-- id: iso.corrigendum.0074
+- id: iso.corrigendum.6695
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -1164,7 +1470,7 @@
     human: ISO/IEC 27019:2017/CD Cor 1
     urn: urn:iso:std:iso-iec:27019:CD:cor:1:v1
   style: v3
-- id: iso.corrigendum.0075
+- id: iso.corrigendum.6724
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -1182,7 +1488,7 @@
     human: ISO/IEC 29120-1:2015/CD Cor 1
     urn: urn:iso:std:iso-iec:29120:-1:CD:cor:1:v1
   style: v3
-- id: iso.corrigendum.0076
+- id: iso.corrigendum.6727
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -1199,7 +1505,7 @@
     human: ISO/IEC 29134:2017/CD Cor 1
     urn: urn:iso:std:iso-iec:29134:CD:cor:1:v1
   style: v3
-- id: iso.corrigendum.0077
+- id: iso.corrigendum.6731
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -1216,7 +1522,7 @@
     human: ISO/IEC 29180:2012/Cor 1:2015
     urn: urn:iso:std:iso-iec:29180:cor:2015:v1
   style: v3
-- id: iso.corrigendum.0078
+- id: iso.corrigendum.6771
   identifier:
     _type: pubid:iso:corrigendum
     number: '3'
@@ -1233,7 +1539,7 @@
     human: ISO/IEC 8825-1/DCOR 3
     urn: urn:iso:std:iso-iec:8825:-1:DCOR:cor:3:v1
   style: v3
-- id: iso.corrigendum.0079
+- id: iso.corrigendum.6772
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -1251,7 +1557,7 @@
     human: ISO/IEC 8825-5:2015/CD Cor 1
     urn: urn:iso:std:iso-iec:8825:-5:CD:cor:1:v1
   style: v3
-- id: iso.corrigendum.0080
+- id: iso.corrigendum.6775
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -1269,7 +1575,7 @@
     human: ISO/IEC 9075-10:2016/CD Cor 1
     urn: urn:iso:std:iso-iec:9075:-10:CD:cor:1:v1
   style: v3
-- id: iso.corrigendum.0081
+- id: iso.corrigendum.6776
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -1287,7 +1593,7 @@
     human: ISO/IEC 9075-13:2016/CD Cor 2
     urn: urn:iso:std:iso-iec:9075:-13:CD:cor:2:v1
   style: v3
-- id: iso.corrigendum.0082
+- id: iso.corrigendum.6777
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -1305,7 +1611,7 @@
     human: ISO/IEC 9075-14:2011/Cor 2:2015
     urn: urn:iso:std:iso-iec:9075:-14:cor:2015:v2
   style: v3
-- id: iso.corrigendum.0083
+- id: iso.corrigendum.6778
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -1323,7 +1629,7 @@
     human: ISO/IEC 9075-14:2016/CD Cor 2
     urn: urn:iso:std:iso-iec:9075:-14:CD:cor:2:v1
   style: v3
-- id: iso.corrigendum.0084
+- id: iso.corrigendum.6779
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -1341,7 +1647,7 @@
     human: ISO/IEC 9075-14:2016/Cor 1:2019
     urn: urn:iso:std:iso-iec:9075:-14:cor:2019:v1
   style: v3
-- id: iso.corrigendum.0085
+- id: iso.corrigendum.6780
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -1359,7 +1665,7 @@
     human: ISO/IEC 9075-15:2019/CD Cor 1
     urn: urn:iso:std:iso-iec:9075:-15:CD:cor:1:v1
   style: v3
-- id: iso.corrigendum.0086
+- id: iso.corrigendum.6781
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -1377,7 +1683,7 @@
     human: ISO/IEC 9075-1:2011/NP Cor 2
     urn: urn:iso:std:iso-iec:9075:-1:stage-10.00:cor:2:v1
   style: v3
-- id: iso.corrigendum.0087
+- id: iso.corrigendum.6782
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -1395,7 +1701,7 @@
     human: ISO/IEC 9075-1:2016/CD Cor 1
     urn: urn:iso:std:iso-iec:9075:-1:CD:cor:1:v1
   style: v3
-- id: iso.corrigendum.0088
+- id: iso.corrigendum.6783
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -1413,7 +1719,7 @@
     human: ISO/IEC 9075-2:2016/CD Cor 2
     urn: urn:iso:std:iso-iec:9075:-2:CD:cor:2:v1
   style: v3
-- id: iso.corrigendum.0089
+- id: iso.corrigendum.6784
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -1431,7 +1737,7 @@
     human: ISO/IEC 9075-3:2016/CD Cor 1
     urn: urn:iso:std:iso-iec:9075:-3:CD:cor:1:v1
   style: v3
-- id: iso.corrigendum.0090
+- id: iso.corrigendum.6785
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -1449,7 +1755,7 @@
     human: ISO/IEC 9075-4:2016/Cor 1:2019
     urn: urn:iso:std:iso-iec:9075:-4:cor:2019:v1
   style: v3
-- id: iso.corrigendum.0091
+- id: iso.corrigendum.6791
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -1467,7 +1773,7 @@
     human: ISO/IEC 9594-8:2017/CD Cor 1
     urn: urn:iso:std:iso-iec:9594:-8:CD:cor:1:v1
   style: v3
-- id: iso.corrigendum.0092
+- id: iso.corrigendum.6858
   identifier:
     _type: pubid:iso:corrigendum
     number: '2'
@@ -1485,7 +1791,7 @@
     human: ISO/IEC ISP 10611-4:1997/CD Cor 2
     urn: urn:iso:std:iso-iec:isp:10611:-4:CD:cor:2:v1
   style: v3
-- id: iso.corrigendum.0093
+- id: iso.corrigendum.7046
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -1505,7 +1811,7 @@
     human: ISO/IEC/IEEE 8802-21:2018/Cor 1:2018
     urn: urn:iso:std:iso-iec-ieee:8802:-21:cor:2018:v1
   style: v3
-- id: iso.corrigendum.0094
+- id: iso.corrigendum.7055
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'
@@ -1523,7 +1829,7 @@
     human: ISO/IEEE 11073-10418:2014/Cor 1:2016
     urn: urn:iso:std:iso-ieee:11073:-10418:cor:2016:v1
   style: v3
-- id: iso.corrigendum.0095
+- id: iso.corrigendum.7319
   identifier:
     _type: pubid:iso:corrigendum
     number: '1'

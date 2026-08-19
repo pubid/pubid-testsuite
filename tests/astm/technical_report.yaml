@@ -1,5 +1,5 @@
 ---
-- id: astm.technical_report.0001
+- id: astm.technical_report.0237
   identifier:
     _type: pubid:astm:technical-report
     publisher: ISO/ASTM
@@ -10,7 +10,7 @@
     human: ISO/ASTMTR52905-EB
     urn: urn:iso/astm:std:52905
   style: v3
-- id: astm.technical_report.0002
+- id: astm.technical_report.0238
   identifier:
     _type: pubid:astm:technical-report
     publisher: ISO/ASTM
@@ -21,7 +21,7 @@
     human: ISO/ASTMTR52906-EB
     urn: urn:iso/astm:std:52906
   style: v3
-- id: astm.technical_report.0003
+- id: astm.technical_report.0239
   identifier:
     _type: pubid:astm:technical-report
     publisher: ISO/ASTM
@@ -32,7 +32,7 @@
     human: ISO/ASTMTR52912-EB
     urn: urn:iso/astm:std:52912
   style: v3
-- id: astm.technical_report.0004
+- id: astm.technical_report.0240
   identifier:
     _type: pubid:astm:technical-report
     publisher: ISO/ASTM
@@ -43,7 +43,21 @@
     human: ISO/ASTMTR52913-EB
     urn: urn:iso/astm:std:52913
   style: v3
-- id: astm.technical_report.0005
+- id: astm.technical_report.0241
+  identifier:
+    _type: pubid:astm:technical-report
+    publisher: ISO/ASTM
+    code:
+      number: '52916'
+    format_suffix: "-EB"
+  representations:
+    human: ISO/ASTMTR52916-EB
+    urn: urn:iso/astm:std:52916
+  style: v3
+  non_normalized_aliases:
+  - spelling: 'ISO/ASTMTR52916-EB # or parse using ISO: ISO/ASTM TR 52916'
+    style: v3
+- id: astm.technical_report.0242
   identifier:
     _type: pubid:astm:technical-report
     publisher: ISO/ASTM
@@ -54,7 +68,7 @@
     human: ISO/ASTMTR52917-EB
     urn: urn:iso/astm:std:52917
   style: v3
-- id: astm.technical_report.0006
+- id: astm.technical_report.0243
   identifier:
     _type: pubid:astm:technical-report
     publisher: ISO/ASTM
@@ -65,3 +79,68 @@
     human: ISO/ASTMTR52952-EB
     urn: urn:iso/astm:std:52952
   style: v3
+- id: astm.technical_report.0244
+  identifier:
+    _type: pubid:astm:technical-report
+    code:
+      number: '1'
+    format_suffix: "-EB"
+  representations:
+    human: TR1-EB
+    urn: urn:astm:std:1
+  style: v3
+  non_normalized_aliases:
+  - spelling: ASTM TR1-EB
+    style: v3
+- id: astm.technical_report.0245
+  identifier:
+    _type: pubid:astm:technical-report
+    code:
+      number: '2'
+    format_suffix: "-EB"
+  representations:
+    human: TR2-EB
+    urn: urn:astm:std:2
+  style: v3
+  non_normalized_aliases:
+  - spelling: ASTM TR2-EB
+    style: v3
+- id: astm.technical_report.0246
+  identifier:
+    _type: pubid:astm:technical-report
+    code:
+      number: '3'
+    format_suffix: "-EB"
+  representations:
+    human: TR3-EB
+    urn: urn:astm:std:3
+  style: v3
+  non_normalized_aliases:
+  - spelling: ASTM TR3-EB
+    style: v3
+- id: astm.technical_report.0247
+  identifier:
+    _type: pubid:astm:technical-report
+    code:
+      number: '4'
+    format_suffix: "-EB"
+  representations:
+    human: TR4-EB
+    urn: urn:astm:std:4
+  style: v3
+  non_normalized_aliases:
+  - spelling: ASTM TR4-EB
+    style: v3
+- id: astm.technical_report.0248
+  identifier:
+    _type: pubid:astm:technical-report
+    code:
+      number: '5'
+    format_suffix: "-EB"
+  representations:
+    human: TR5-EB
+    urn: urn:astm:std:5
+  style: v3
+  non_normalized_aliases:
+  - spelling: ASTM TR5-EB
+    style: v3

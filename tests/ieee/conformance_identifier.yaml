@@ -1,5 +1,62 @@
 ---
-- id: ieee.conformance_identifier.0001
+- id: ieee.conformance_identifier.4766
+  identifier:
+    _type: pubid:ieee:conformance-identifier
+    number: '01'
+    year: '2014'
+    base:
+      _type: pubid:ieee:standard
+      number: '1904'
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 1904.1/Conformance01-2014
+    urn: urn:ieee:ieee:conformance:2014
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1904.1/Conformance01-2014 (Conformance to IEEE Std 1904.1-2013)
+    style: v3
+- id: ieee.conformance_identifier.4767
+  identifier:
+    _type: pubid:ieee:conformance-identifier
+    number: '02'
+    year: '2014'
+    base:
+      _type: pubid:ieee:standard
+      number: '1904'
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 1904.1/Conformance02-2014
+    urn: urn:ieee:ieee:conformance:2014
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1904.1(TM)/Conformance02-2014 (Conformance to IEEE Std 1904.1-2013)
+    style: v3
+- id: ieee.conformance_identifier.4768
+  identifier:
+    _type: pubid:ieee:conformance-identifier
+    number: '03'
+    year: '2014'
+    base:
+      _type: pubid:ieee:standard
+      number: '1904'
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 1904.1/Conformance03-2014
+    urn: urn:ieee:ieee:conformance:2014
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1904.1(TM)/Conformance03-2014 (Conformance to IEEE Std 1904.1-2013)
+    style: v3
+- id: ieee.conformance_identifier.5733
   identifier:
     _type: pubid:ieee:conformance-identifier
     number: '01'
@@ -15,3 +72,42 @@
     human: IEEE Std 802.16/Conformance01-2003
     urn: urn:ieee:ieee:conformance:2003
   style: v3
+- id: ieee.conformance_identifier.5734
+  identifier:
+    _type: pubid:ieee:conformance-identifier
+    number: '03'
+    year: '2004'
+    base:
+      _type: pubid:ieee:standard
+      number: '802'
+      parts:
+      - '16'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 802.16/Conformance03-2004
+    urn: urn:ieee:ieee:conformance:2004
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.16/Conformance03-2004 (Conformance to IEEE Std 802.16-2001
+      as amended by IEEE Std 802.16a -2003 and IEEE Std 802.16c-2002)
+    style: v3
+- id: ieee.conformance_identifier.5735
+  identifier:
+    _type: pubid:ieee:conformance-identifier
+    number: '04'
+    year: '2006'
+    base:
+      _type: pubid:ieee:standard
+      number: '802'
+      parts:
+      - '16'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 802.16/Conformance04-2006
+    urn: urn:ieee:ieee:conformance:2006
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.16/Conformance04-2006 (Conformance to IEEE Std 802.16-2004)
+    style: v3

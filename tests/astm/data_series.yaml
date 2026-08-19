@@ -1,5 +1,5 @@
 ---
-- id: astm.data_series.0001
+- id: astm.data_series.0036
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -10,7 +10,7 @@
     human: ASTM DS11-S1-EB
     urn: urn:astm:std:11-S1
   style: v3
-- id: astm.data_series.0002
+- id: astm.data_series.0037
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -21,7 +21,7 @@
     human: ASTM DS25A-EB
     urn: urn:astm:std:25A
   style: v3
-- id: astm.data_series.0003
+- id: astm.data_series.0038
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -32,7 +32,7 @@
     human: ASTM DS37A-EB
     urn: urn:astm:std:37A
   style: v3
-- id: astm.data_series.0004
+- id: astm.data_series.0039
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -43,7 +43,7 @@
     human: ASTM DS39B-EB
     urn: urn:astm:std:39B
   style: v3
-- id: astm.data_series.0005
+- id: astm.data_series.0040
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -53,7 +53,7 @@
     human: ASTM DS40-EB
     urn: urn:astm:std:40
   style: v3
-- id: astm.data_series.0006
+- id: astm.data_series.0041
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -64,7 +64,7 @@
     human: ASTM DS45A-EB
     urn: urn:astm:std:45A
   style: v3
-- id: astm.data_series.0007
+- id: astm.data_series.0042
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -74,7 +74,7 @@
     human: ASTM DS46-EB
     urn: urn:astm:std:46
   style: v3
-- id: astm.data_series.0008
+- id: astm.data_series.0043
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -84,7 +84,7 @@
     human: ASTM DS47-EB
     urn: urn:astm:std:47
   style: v3
-- id: astm.data_series.0009
+- id: astm.data_series.0044
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -95,7 +95,7 @@
     human: ASTM DS48A-EB
     urn: urn:astm:std:48A
   style: v3
-- id: astm.data_series.0010
+- id: astm.data_series.0045
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -106,7 +106,7 @@
     human: ASTM DS4B-EB
     urn: urn:astm:std:4B
   style: v3
-- id: astm.data_series.0011
+- id: astm.data_series.0046
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -116,7 +116,7 @@
     human: ASTM DS50-EB
     urn: urn:astm:std:50
   style: v3
-- id: astm.data_series.0012
+- id: astm.data_series.0047
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -127,7 +127,7 @@
     human: ASTM DS51HOL-EB
     urn: urn:astm:std:51
   style: v3
-- id: astm.data_series.0013
+- id: astm.data_series.0048
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -137,7 +137,7 @@
     human: ASTM DS52-EB
     urn: urn:astm:std:52
   style: v3
-- id: astm.data_series.0014
+- id: astm.data_series.0049
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -148,7 +148,7 @@
     human: ASTM DS53A-EB
     urn: urn:astm:std:53A
   style: v3
-- id: astm.data_series.0015
+- id: astm.data_series.0050
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -158,7 +158,52 @@
     human: ASTM DS54-EB
     urn: urn:astm:std:54
   style: v3
-- id: astm.data_series.0016
+- id: astm.data_series.0051
+  identifier:
+    _type: pubid:astm:data-series
+    code:
+      number: '55'
+      suffix: S
+      subseries: '1'
+    format_suffix: "-EB"
+  representations:
+    human: ASTM DS55S-S1-EB
+    urn: urn:astm:std:55S-S1
+  style: v3
+  non_normalized_aliases:
+  - spelling: ASTM DS55S1-EB
+    style: v3
+- id: astm.data_series.0052
+  identifier:
+    _type: pubid:astm:data-series
+    code:
+      number: '55'
+      suffix: S
+      subseries: '10'
+    format_suffix: "-EB"
+  representations:
+    human: ASTM DS55S-S10-EB
+    urn: urn:astm:std:55S-S10
+  style: v3
+  non_normalized_aliases:
+  - spelling: ASTM DS55S10-EB
+    style: v3
+- id: astm.data_series.0053
+  identifier:
+    _type: pubid:astm:data-series
+    code:
+      number: '55'
+      suffix: S
+      subseries: '4'
+    format_suffix: "-EB"
+  representations:
+    human: ASTM DS55S-S4-EB
+    urn: urn:astm:std:55S-S4
+  style: v3
+  non_normalized_aliases:
+  - spelling: ASTM DS55S4-EB
+    style: v3
+- id: astm.data_series.0054
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -168,7 +213,7 @@
     human: ASTM DS57-EB
     urn: urn:astm:std:57
   style: v3
-- id: astm.data_series.0017
+- id: astm.data_series.0055
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -178,7 +223,7 @@
     human: ASTM DS58-EB
     urn: urn:astm:std:58
   style: v3
-- id: astm.data_series.0018
+- id: astm.data_series.0056
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -188,7 +233,7 @@
     human: ASTM DS59-EB
     urn: urn:astm:std:59
   style: v3
-- id: astm.data_series.0019
+- id: astm.data_series.0057
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -198,7 +243,7 @@
     human: ASTM DS60-EB
     urn: urn:astm:std:60
   style: v3
-- id: astm.data_series.0020
+- id: astm.data_series.0058
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -208,7 +253,7 @@
     human: ASTM DS61-EB
     urn: urn:astm:std:61
   style: v3
-- id: astm.data_series.0021
+- id: astm.data_series.0059
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -218,7 +263,7 @@
     human: ASTM DS62-EB
     urn: urn:astm:std:62
   style: v3
-- id: astm.data_series.0022
+- id: astm.data_series.0060
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -228,7 +273,7 @@
     human: ASTM DS63-EB
     urn: urn:astm:std:63
   style: v3
-- id: astm.data_series.0023
+- id: astm.data_series.0061
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -238,7 +283,7 @@
     human: ASTM DS64-EB
     urn: urn:astm:std:64
   style: v3
-- id: astm.data_series.0024
+- id: astm.data_series.0062
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -248,7 +293,7 @@
     human: ASTM DS65-EB
     urn: urn:astm:std:65
   style: v3
-- id: astm.data_series.0025
+- id: astm.data_series.0063
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -259,7 +304,7 @@
     human: ASTM DS67C-EB
     urn: urn:astm:std:67C
   style: v3
-- id: astm.data_series.0026
+- id: astm.data_series.0064
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -270,7 +315,7 @@
     human: ASTM DS67D-EB
     urn: urn:astm:std:67D
   style: v3
-- id: astm.data_series.0027
+- id: astm.data_series.0065
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -280,7 +325,7 @@
     human: ASTM DS68-EB
     urn: urn:astm:std:68
   style: v3
-- id: astm.data_series.0028
+- id: astm.data_series.0066
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -291,7 +336,7 @@
     human: ASTM DS7-S1-EB
     urn: urn:astm:std:7-S1
   style: v3
-- id: astm.data_series.0029
+- id: astm.data_series.0067
   identifier:
     _type: pubid:astm:data-series
     code:
@@ -301,7 +346,7 @@
     human: ASTM DS71-EB
     urn: urn:astm:std:71
   style: v3
-- id: astm.data_series.0030
+- id: astm.data_series.0068
   identifier:
     _type: pubid:astm:data-series
     code:

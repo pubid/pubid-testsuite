@@ -1,5 +1,17 @@
 ---
-- id: api.mpms.0001
+- id: api.mpms.0163
+  identifier:
+    _type: pubid:api:mpms
+    chapter: '10'
+    section: '10'
+  representations:
+    human: API MPMS CH 10.10
+    urn: urn:api:std
+  style: v3
+  non_normalized_aliases:
+  - spelling: API MPMP CH 10.10
+    style: v3
+- id: api.mpms.0164
   identifier:
     _type: pubid:api:mpms
     chapter: '10'
@@ -8,7 +20,7 @@
     human: API MPMS CH 10.9
     urn: urn:api:std
   style: v3
-- id: api.mpms.0002
+- id: api.mpms.0165
   identifier:
     _type: pubid:api:mpms
     chapter: '11'
@@ -18,7 +30,7 @@
     human: API MPMS CH 11.2.5
     urn: urn:api:std
   style: v3
-- id: api.mpms.0003
+- id: api.mpms.0166
   identifier:
     _type: pubid:api:mpms
     chapter: '12'
@@ -27,7 +39,7 @@
     human: API MPMS CH 12.2
     urn: urn:api:std
   style: v3
-- id: api.mpms.0004
+- id: api.mpms.0167
   identifier:
     _type: pubid:api:mpms
     chapter: '12'
@@ -37,7 +49,7 @@
     human: API MPMS CH 12.4.1
     urn: urn:api:std
   style: v3
-- id: api.mpms.0005
+- id: api.mpms.0168
   identifier:
     _type: pubid:api:mpms
     chapter: '14'
@@ -46,7 +58,7 @@
     human: API MPMS CH 14.14
     urn: urn:api:std
   style: v3
-- id: api.mpms.0006
+- id: api.mpms.0169
   identifier:
     _type: pubid:api:mpms
     chapter: '14'
@@ -56,7 +68,7 @@
     human: API MPMS CH 14.3.2
     urn: urn:api:std
   style: v3
-- id: api.mpms.0007
+- id: api.mpms.0170
   identifier:
     _type: pubid:api:mpms
     chapter: '14'
@@ -65,7 +77,7 @@
     human: API MPMS CH 14.4
     urn: urn:api:std
   style: v3
-- id: api.mpms.0008
+- id: api.mpms.0171
   identifier:
     _type: pubid:api:mpms
     chapter: '17'
@@ -75,7 +87,7 @@
     human: API MPMS CH 17.10.2
     urn: urn:api:std
   style: v3
-- id: api.mpms.0009
+- id: api.mpms.0172
   identifier:
     _type: pubid:api:mpms
     chapter: '17'
@@ -84,7 +96,7 @@
     human: API MPMS CH 17.11
     urn: urn:api:std
   style: v3
-- id: api.mpms.0010
+- id: api.mpms.0173
   identifier:
     _type: pubid:api:mpms
     chapter: '17'
@@ -93,7 +105,7 @@
     human: API MPMS CH 17.12
     urn: urn:api:std
   style: v3
-- id: api.mpms.0011
+- id: api.mpms.0174
   identifier:
     _type: pubid:api:mpms
     chapter: '17'
@@ -102,7 +114,7 @@
     human: API MPMS CH 17.5
     urn: urn:api:std
   style: v3
-- id: api.mpms.0012
+- id: api.mpms.0175
   identifier:
     _type: pubid:api:mpms
     chapter: '17'
@@ -111,7 +123,7 @@
     human: API MPMS CH 17.8
     urn: urn:api:std
   style: v3
-- id: api.mpms.0013
+- id: api.mpms.0176
   identifier:
     _type: pubid:api:mpms
     chapter: '19'
@@ -120,7 +132,7 @@
     human: API MPMS CH 19.4
     urn: urn:api:std
   style: v3
-- id: api.mpms.0014
+- id: api.mpms.0177
   identifier:
     _type: pubid:api:mpms
     chapter: '19'
@@ -129,7 +141,7 @@
     human: API MPMS CH 19.5
     urn: urn:api:std
   style: v3
-- id: api.mpms.0015
+- id: api.mpms.0178
   identifier:
     _type: pubid:api:mpms
     chapter: '2'
@@ -138,7 +150,7 @@
     human: API MPMS CH 2.4
     urn: urn:api:std
   style: v3
-- id: api.mpms.0016
+- id: api.mpms.0179
   identifier:
     _type: pubid:api:mpms
     chapter: '20'
@@ -147,7 +159,7 @@
     human: API MPMS CH 20.3
     urn: urn:api:std
   style: v3
-- id: api.mpms.0017
+- id: api.mpms.0180
   identifier:
     _type: pubid:api:mpms
     chapter: '22'
@@ -156,7 +168,7 @@
     human: API MPMS CH 22.3
     urn: urn:api:std
   style: v3
-- id: api.mpms.0018
+- id: api.mpms.0181
   identifier:
     _type: pubid:api:mpms
     chapter: '22'
@@ -165,7 +177,7 @@
     human: API MPMS CH 22.4
     urn: urn:api:std
   style: v3
-- id: api.mpms.0019
+- id: api.mpms.0182
   identifier:
     _type: pubid:api:mpms
     chapter: '22'
@@ -174,7 +186,7 @@
     human: API MPMS CH 22.5
     urn: urn:api:std
   style: v3
-- id: api.mpms.0020
+- id: api.mpms.0183
   identifier:
     _type: pubid:api:mpms
     chapter: '3'
@@ -183,7 +195,7 @@
     human: API MPMS CH 3.1A
     urn: urn:api:std
   style: v3
-- id: api.mpms.0021
+- id: api.mpms.0184
   identifier:
     _type: pubid:api:mpms
     chapter: '3'
@@ -192,7 +204,7 @@
     human: API MPMS CH 3.2
     urn: urn:api:std
   style: v3
-- id: api.mpms.0022
+- id: api.mpms.0185
   identifier:
     _type: pubid:api:mpms
     chapter: '4'
@@ -202,7 +214,7 @@
     human: API MPMS CH 4.9.3
     urn: urn:api:std
   style: v3
-- id: api.mpms.0023
+- id: api.mpms.0186
   identifier:
     _type: pubid:api:mpms
     chapter: '5'
@@ -211,7 +223,7 @@
     human: API MPMS CH 5.8
     urn: urn:api:std
   style: v3
-- id: api.mpms.0024
+- id: api.mpms.0187
   identifier:
     _type: pubid:api:mpms
     chapter: '6'
@@ -220,7 +232,7 @@
     human: API MPMS CH 6.4A
     urn: urn:api:std
   style: v3
-- id: api.mpms.0025
+- id: api.mpms.0188
   identifier:
     _type: pubid:api:mpms
     chapter: '7'
@@ -229,7 +241,7 @@
     human: API MPMS CH 7.1
     urn: urn:api:std
   style: v3
-- id: api.mpms.0026
+- id: api.mpms.0189
   identifier:
     _type: pubid:api:mpms
     chapter: '7'
@@ -238,7 +250,7 @@
     human: API MPMS CH 7.2
     urn: urn:api:std
   style: v3
-- id: api.mpms.0027
+- id: api.mpms.0190
   identifier:
     _type: pubid:api:mpms
     chapter: '8'
@@ -247,7 +259,7 @@
     human: API MPMS CH 8.3
     urn: urn:api:std
   style: v3
-- id: api.mpms.0028
+- id: api.mpms.0191
   identifier:
     _type: pubid:api:mpms
     chapter: '8'
@@ -256,7 +268,7 @@
     human: API MPMS CH 8.4
     urn: urn:api:std
   style: v3
-- id: api.mpms.0029
+- id: api.mpms.0192
   identifier:
     _type: pubid:api:mpms
     chapter: '9'

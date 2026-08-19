@@ -1,16 +1,4 @@
 ---
-- id: api.bulletin.0001
-  identifier:
-    _type: pubid:api:bulletin
-    number:
-      value: 11L2
-  representations:
-    human: API
-    urn: urn:api:std:11L2
-  style: v3
-  non_normalized_aliases:
-  - spelling: API BULL 11L2
-    style: v3
 - id: api.bulletin.0002
   identifier:
     _type: pubid:api:bulletin
@@ -58,4 +46,16 @@
   style: v3
   non_normalized_aliases:
   - spelling: API BULL 4785
+    style: v3
+- id: api.bulletin.0038
+  identifier:
+    _type: pubid:api:bulletin
+    number:
+      value: 11L2
+  representations:
+    human: API
+    urn: urn:api:std:11L2
+  style: v3
+  non_normalized_aliases:
+  - spelling: API BULL 11L2
     style: v3

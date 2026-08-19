@@ -1,5 +1,5 @@
 ---
-- id: oiml.recommendation.0001
+- id: oiml.recommendation.0018
   identifier:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -8,7 +8,7 @@
     human: OIML R 106
     urn: urn:oiml:r:106
   style: v3
-- id: oiml.recommendation.0002
+- id: oiml.recommendation.0019
   identifier:
     _type: pubid:oiml:recommendation
     language: E
@@ -18,7 +18,7 @@
     human: OIML R 106(E)
     urn: urn:oiml:r:106:e
   style: v3
-- id: oiml.recommendation.0003
+- id: oiml.recommendation.0020
   identifier:
     _type: pubid:oiml:recommendation
     language: F
@@ -28,7 +28,7 @@
     human: OIML R 106(F)
     urn: urn:oiml:r:106:f
   style: v3
-- id: oiml.recommendation.0004
+- id: oiml.recommendation.0021
   identifier:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -39,7 +39,7 @@
     human: OIML R 117-1:2019
     urn: urn:oiml:r:117-1:2019
   style: v3
-- id: oiml.recommendation.0005
+- id: oiml.recommendation.0022
   identifier:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -50,7 +50,7 @@
     human: OIML R 117-2:2019
     urn: urn:oiml:r:117-2:2019
   style: v3
-- id: oiml.recommendation.0006
+- id: oiml.recommendation.0023
   identifier:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -61,7 +61,7 @@
     human: OIML R 117-3:2019
     urn: urn:oiml:r:117-3:2019
   style: v3
-- id: oiml.recommendation.0007
+- id: oiml.recommendation.0024
   identifier:
     _type: pubid:oiml:recommendation
     language: E
@@ -74,7 +74,23 @@
     human: OIML R 134-2 Edition 2004 (E)
     urn: urn:oiml:r:134-2:2004:e
   style: v3
-- id: oiml.recommendation.0008
+- id: oiml.recommendation.0025
+  identifier:
+    _type: pubid:oiml:recommendation
+    language: E
+    parsed_format: short_with_space
+    publisher: OIML
+    number: '134'
+    part: '2'
+    year: '2004'
+  representations:
+    human: OIML R 134-2:2004 (E)
+    urn: urn:oiml:r:134-2:2004:e
+  style: v3
+  non_normalized_aliases:
+  - spelling: 'OIML R 134-2: 2004 (E)'
+    style: v3
+- id: oiml.recommendation.0026
   identifier:
     _type: pubid:oiml:recommendation
     language: E
@@ -86,7 +102,7 @@
     human: OIML R 138 Edition 2007 (E)
     urn: urn:oiml:r:138:2007:e
   style: v3
-- id: oiml.recommendation.0009
+- id: oiml.recommendation.0027
   identifier:
     _type: pubid:oiml:recommendation
     language: E
@@ -99,7 +115,7 @@
     human: OIML R 144-1 Edition 2013 (E)
     urn: urn:oiml:r:144-1:2013:e
   style: v3
-- id: oiml.recommendation.0010
+- id: oiml.recommendation.0028
   identifier:
     _type: pubid:oiml:recommendation
     language: E
@@ -111,7 +127,7 @@
     human: OIML R 15 Edition 1974 (E)
     urn: urn:oiml:r:15:1974:e
   style: v3
-- id: oiml.recommendation.0011
+- id: oiml.recommendation.0029
   identifier:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -122,7 +138,7 @@
     human: OIML R 201 1WD
     urn: urn:oiml:r:201:wd:1
   style: v3
-- id: oiml.recommendation.0012
+- id: oiml.recommendation.0030
   identifier:
     _type: pubid:oiml:recommendation
     language: E
@@ -134,7 +150,7 @@
     human: OIML R 4 Edition 1972 (E)
     urn: urn:oiml:r:4:1972:e
   style: v3
-- id: oiml.recommendation.0013
+- id: oiml.recommendation.0031
   identifier:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -145,7 +161,7 @@
     human: OIML R 49-1:2013
     urn: urn:oiml:r:49-1:2013
   style: v3
-- id: oiml.recommendation.0014
+- id: oiml.recommendation.0032
   identifier:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -156,7 +172,7 @@
     human: OIML R 49-2:2013
     urn: urn:oiml:r:49-2:2013
   style: v3
-- id: oiml.recommendation.0015
+- id: oiml.recommendation.0033
   identifier:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -167,7 +183,7 @@
     human: OIML R 49-3:2013
     urn: urn:oiml:r:49-3:2013
   style: v3
-- id: oiml.recommendation.0016
+- id: oiml.recommendation.0034
   identifier:
     _type: pubid:oiml:recommendation
     language: E
@@ -179,7 +195,7 @@
     human: OIML R 49-3:2013(E)
     urn: urn:oiml:r:49-3:2013:e
   style: v3
-- id: oiml.recommendation.0017
+- id: oiml.recommendation.0035
   identifier:
     _type: pubid:oiml:recommendation
     language: F
@@ -191,7 +207,7 @@
     human: OIML R 49-3:2013(F)
     urn: urn:oiml:r:49-3:2013:f
   style: v3
-- id: oiml.recommendation.0018
+- id: oiml.recommendation.0036
   identifier:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -201,7 +217,7 @@
     human: OIML R 50:2014
     urn: urn:oiml:r:50:2014
   style: v3
-- id: oiml.recommendation.0019
+- id: oiml.recommendation.0037
   identifier:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -211,7 +227,7 @@
     human: OIML R 51:2006
     urn: urn:oiml:r:51:2006
   style: v3
-- id: oiml.recommendation.0020
+- id: oiml.recommendation.0038
   identifier:
     _type: pubid:oiml:recommendation
     language: E
@@ -223,7 +239,7 @@
     human: OIML R 6 Edition 1989 (E)
     urn: urn:oiml:r:6:1989:e
   style: v3
-- id: oiml.recommendation.0021
+- id: oiml.recommendation.0042
   identifier:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -233,7 +249,23 @@
     human: OIML R 61:2017
     urn: urn:oiml:r:61:2017
   style: v3
-- id: oiml.recommendation.0022
+- id: oiml.recommendation.0043
+  identifier:
+    _type: pubid:oiml:recommendation
+    language: E
+    parsed_format: long
+    publisher: OIML
+    number: '76'
+    part: '1'
+    year: '1992'
+  representations:
+    human: OIML R 76-1 Edition 1992 (E)
+    urn: urn:oiml:r:76-1:1992:e
+  style: v3
+  non_normalized_aliases:
+  - spelling: OIML R 76-1, edition 1992 (E)
+    style: v3
+- id: oiml.recommendation.0044
   identifier:
     _type: pubid:oiml:recommendation
     language: E
@@ -246,7 +278,10 @@
     human: OIML R 76-2 Edition 1993 (E)
     urn: urn:oiml:r:76-2:1993:e
   style: v3
-- id: oiml.recommendation.0023
+  non_normalized_aliases:
+  - spelling: OIML R 76-2, edition 1993 (E)
+    style: v3
+- id: oiml.recommendation.0045
   identifier:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -256,7 +291,7 @@
     human: OIML R 76:2006
     urn: urn:oiml:r:76:2006
   style: v3
-- id: oiml.recommendation.0024
+- id: oiml.recommendation.0046
   identifier:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -266,7 +301,7 @@
     human: OIML R 79:2015
     urn: urn:oiml:r:79:2015
   style: v3
-- id: oiml.recommendation.0025
+- id: oiml.recommendation.0047
   identifier:
     _type: pubid:oiml:recommendation
     publisher: OIML
@@ -276,7 +311,7 @@
     human: OIML R 87:2016
     urn: urn:oiml:r:87:2016
   style: v3
-- id: oiml.recommendation.0026
+- id: oiml.recommendation.0048
   identifier:
     _type: pubid:oiml:recommendation
     publisher: OIML

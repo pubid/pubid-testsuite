@@ -1,5 +1,5 @@
 ---
-- id: nist.circular.0001
+- id: nist.circular.0568
   identifier:
     _type: pubid:nist:circular
     number: '1'
@@ -9,7 +9,7 @@
     human: NBS CIRC 1
     urn: urn:nist:circ:1.supp
   style: v3
-- id: nist.circular.0002
+- id: nist.circular.0569
   identifier:
     _type: pubid:nist:circular
     number: '10'
@@ -19,7 +19,7 @@
     human: NBS CIRC 10
     urn: urn:nist:circ:10.supp
   style: v3
-- id: nist.circular.0003
+- id: nist.circular.0570
   identifier:
     _type: pubid:nist:circular
     number: '100'
@@ -29,7 +29,7 @@
     human: NBS CIRC 100
     urn: urn:nist:circ:100.supp
   style: v3
-- id: nist.circular.0004
+- id: nist.circular.0571
   identifier:
     _type: pubid:nist:circular
     number: '100'
@@ -42,7 +42,7 @@
     human: NBS CIRC 100e2
     urn: urn:nist:circ:100.e2.supp
   style: v3
-- id: nist.circular.0005
+- id: nist.circular.0572
   identifier:
     _type: pubid:nist:circular
     number: '101'
@@ -52,7 +52,7 @@
     human: NBS CIRC 101
     urn: urn:nist:circ:101.supp
   style: v3
-- id: nist.circular.0006
+- id: nist.circular.0573
   identifier:
     _type: pubid:nist:circular
     number: '101'
@@ -65,7 +65,23 @@
     human: NBS CIRC 101e2
     urn: urn:nist:circ:101.e2.supp
   style: v3
-- id: nist.circular.0007
+- id: nist.circular.0574
+  identifier:
+    _type: pubid:nist:circular
+    number: '101'
+    edition:
+      type: e
+      id: '2'
+    publisher: NBS
+    series: CIRC
+  representations:
+    human: NBS CIRC 101e2sup
+    urn: urn:nist:circ:101.e2
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 101e2supp
+    style: v3
+- id: nist.circular.0575
   identifier:
     _type: pubid:nist:circular
     number: '102'
@@ -75,7 +91,7 @@
     human: NBS CIRC 102
     urn: urn:nist:circ:102.supp
   style: v3
-- id: nist.circular.0008
+- id: nist.circular.0576
   identifier:
     _type: pubid:nist:circular
     number: '102'
@@ -88,7 +104,7 @@
     human: NBS CIRC 102e2
     urn: urn:nist:circ:102.e2.supp
   style: v3
-- id: nist.circular.0009
+- id: nist.circular.0577
   identifier:
     _type: pubid:nist:circular
     number: '103'
@@ -98,7 +114,7 @@
     human: NBS CIRC 103
     urn: urn:nist:circ:103.supp
   style: v3
-- id: nist.circular.0010
+- id: nist.circular.0578
   identifier:
     _type: pubid:nist:circular
     number: '103'
@@ -111,7 +127,7 @@
     human: NBS CIRC 103e2
     urn: urn:nist:circ:103.e2.supp
   style: v3
-- id: nist.circular.0011
+- id: nist.circular.0579
   identifier:
     _type: pubid:nist:circular
     number: '103'
@@ -124,7 +140,7 @@
     human: NBS CIRC 103e3
     urn: urn:nist:circ:103.e3.supp
   style: v3
-- id: nist.circular.0012
+- id: nist.circular.0580
   identifier:
     _type: pubid:nist:circular
     number: '103'
@@ -137,7 +153,7 @@
     human: NBS CIRC 103e4
     urn: urn:nist:circ:103.e4.supp
   style: v3
-- id: nist.circular.0013
+- id: nist.circular.0581
   identifier:
     _type: pubid:nist:circular
     number: '104'
@@ -147,7 +163,7 @@
     human: NBS CIRC 104
     urn: urn:nist:circ:104.supp
   style: v3
-- id: nist.circular.0014
+- id: nist.circular.0582
   identifier:
     _type: pubid:nist:circular
     number: '104'
@@ -160,7 +176,7 @@
     human: NBS CIRC 104e2
     urn: urn:nist:circ:104.e2.supp
   style: v3
-- id: nist.circular.0015
+- id: nist.circular.0583
   identifier:
     _type: pubid:nist:circular
     number: '105'
@@ -170,7 +186,7 @@
     human: NBS CIRC 105
     urn: urn:nist:circ:105.supp
   style: v3
-- id: nist.circular.0016
+- id: nist.circular.0584
   identifier:
     _type: pubid:nist:circular
     number: '105'
@@ -183,7 +199,7 @@
     human: NBS CIRC 105e2
     urn: urn:nist:circ:105.e2.supp
   style: v3
-- id: nist.circular.0017
+- id: nist.circular.0585
   identifier:
     _type: pubid:nist:circular
     number: '106'
@@ -193,7 +209,7 @@
     human: NBS CIRC 106
     urn: urn:nist:circ:106.supp
   style: v3
-- id: nist.circular.0018
+- id: nist.circular.0586
   identifier:
     _type: pubid:nist:circular
     number: '107'
@@ -203,7 +219,7 @@
     human: NBS CIRC 107
     urn: urn:nist:circ:107.supp
   style: v3
-- id: nist.circular.0019
+- id: nist.circular.0587
   identifier:
     _type: pubid:nist:circular
     number: '108'
@@ -213,7 +229,7 @@
     human: NBS CIRC 108
     urn: urn:nist:circ:108.supp
   style: v3
-- id: nist.circular.0020
+- id: nist.circular.0588
   identifier:
     _type: pubid:nist:circular
     number: '109'
@@ -223,7 +239,7 @@
     human: NBS CIRC 109
     urn: urn:nist:circ:109.supp
   style: v3
-- id: nist.circular.0021
+- id: nist.circular.0589
   identifier:
     _type: pubid:nist:circular
     number: '10'
@@ -236,7 +252,7 @@
     human: NBS CIRC 10e2
     urn: urn:nist:circ:10.e2.supp
   style: v3
-- id: nist.circular.0022
+- id: nist.circular.0590
   identifier:
     _type: pubid:nist:circular
     number: '10'
@@ -249,7 +265,7 @@
     human: NBS CIRC 10e3
     urn: urn:nist:circ:10.e3.supp
   style: v3
-- id: nist.circular.0023
+- id: nist.circular.0591
   identifier:
     _type: pubid:nist:circular
     number: '10'
@@ -262,7 +278,7 @@
     human: NBS CIRC 10e4
     urn: urn:nist:circ:10.e4.supp
   style: v3
-- id: nist.circular.0024
+- id: nist.circular.0592
   identifier:
     _type: pubid:nist:circular
     number: '11'
@@ -272,7 +288,7 @@
     human: NBS CIRC 11
     urn: urn:nist:circ:11.supp
   style: v3
-- id: nist.circular.0025
+- id: nist.circular.0593
   identifier:
     _type: pubid:nist:circular
     number: '110'
@@ -282,7 +298,7 @@
     human: NBS CIRC 110
     urn: urn:nist:circ:110.supp
   style: v3
-- id: nist.circular.0026
+- id: nist.circular.0594
   identifier:
     _type: pubid:nist:circular
     number: '111'
@@ -292,7 +308,7 @@
     human: NBS CIRC 111
     urn: urn:nist:circ:111.supp
   style: v3
-- id: nist.circular.0027
+- id: nist.circular.0595
   identifier:
     _type: pubid:nist:circular
     number: '111'
@@ -305,7 +321,7 @@
     human: NBS CIRC 111e2
     urn: urn:nist:circ:111.e2.supp
   style: v3
-- id: nist.circular.0028
+- id: nist.circular.0596
   identifier:
     _type: pubid:nist:circular
     number: '111'
@@ -318,7 +334,7 @@
     human: NBS CIRC 111e3
     urn: urn:nist:circ:111.e3.supp
   style: v3
-- id: nist.circular.0029
+- id: nist.circular.0597
   identifier:
     _type: pubid:nist:circular
     number: '112'
@@ -328,7 +344,7 @@
     human: NBS CIRC 112
     urn: urn:nist:circ:112.supp
   style: v3
-- id: nist.circular.0030
+- id: nist.circular.0598
   identifier:
     _type: pubid:nist:circular
     number: '113'
@@ -338,7 +354,7 @@
     human: NBS CIRC 113
     urn: urn:nist:circ:113.supp
   style: v3
-- id: nist.circular.0031
+- id: nist.circular.0599
   identifier:
     _type: pubid:nist:circular
     number: '113'
@@ -351,7 +367,7 @@
     human: NBS CIRC 113e2
     urn: urn:nist:circ:113.e2.supp
   style: v3
-- id: nist.circular.0032
+- id: nist.circular.0600
   identifier:
     _type: pubid:nist:circular
     number: '114'
@@ -361,7 +377,7 @@
     human: NBS CIRC 114
     urn: urn:nist:circ:114.supp
   style: v3
-- id: nist.circular.0033
+- id: nist.circular.0601
   identifier:
     _type: pubid:nist:circular
     number: '114'
@@ -374,7 +390,7 @@
     human: NBS CIRC 114e2
     urn: urn:nist:circ:114.e2.supp
   style: v3
-- id: nist.circular.0034
+- id: nist.circular.0602
   identifier:
     _type: pubid:nist:circular
     number: '115'
@@ -384,7 +400,7 @@
     human: NBS CIRC 115
     urn: urn:nist:circ:115.supp
   style: v3
-- id: nist.circular.0035
+- id: nist.circular.0603
   identifier:
     _type: pubid:nist:circular
     number: '115'
@@ -397,7 +413,7 @@
     human: NBS CIRC 115e2
     urn: urn:nist:circ:115.e2.supp
   style: v3
-- id: nist.circular.0036
+- id: nist.circular.0604
   identifier:
     _type: pubid:nist:circular
     number: '115'
@@ -410,7 +426,7 @@
     human: NBS CIRC 115e3
     urn: urn:nist:circ:115.e3.supp
   style: v3
-- id: nist.circular.0037
+- id: nist.circular.0605
   identifier:
     _type: pubid:nist:circular
     number: '116'
@@ -420,7 +436,7 @@
     human: NBS CIRC 116
     urn: urn:nist:circ:116.supp
   style: v3
-- id: nist.circular.0038
+- id: nist.circular.0606
   identifier:
     _type: pubid:nist:circular
     number: '117'
@@ -430,7 +446,7 @@
     human: NBS CIRC 117
     urn: urn:nist:circ:117.supp
   style: v3
-- id: nist.circular.0039
+- id: nist.circular.0607
   identifier:
     _type: pubid:nist:circular
     number: '117'
@@ -443,7 +459,7 @@
     human: NBS CIRC 117e2
     urn: urn:nist:circ:117.e2.supp
   style: v3
-- id: nist.circular.0040
+- id: nist.circular.0608
   identifier:
     _type: pubid:nist:circular
     number: '118'
@@ -453,7 +469,7 @@
     human: NBS CIRC 118
     urn: urn:nist:circ:118.supp
   style: v3
-- id: nist.circular.0041
+- id: nist.circular.0609
   identifier:
     _type: pubid:nist:circular
     number: '119'
@@ -463,7 +479,23 @@
     human: NBS CIRC 119
     urn: urn:nist:circ:119.supp
   style: v3
-- id: nist.circular.0042
+- id: nist.circular.0610
+  identifier:
+    _type: pubid:nist:circular
+    number: '11'
+    edition:
+      type: e
+      id: '1911'
+    publisher: NBS
+    series: CIRC
+  representations:
+    human: NBS CIRC 11e1911
+    urn: urn:nist:circ:11.e1911.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 11-1911
+    style: v3
+- id: nist.circular.0611
   identifier:
     _type: pubid:nist:circular
     number: '11'
@@ -476,7 +508,24 @@
     human: NBS CIRC 11e2
     urn: urn:nist:circ:11.e2.supp
   style: v3
-- id: nist.circular.0043
+- id: nist.circular.0612
+  identifier:
+    _type: pubid:nist:circular
+    number: '11'
+    edition:
+      type: e
+      id: '2'
+      additional_text: '1915'
+    publisher: NBS
+    series: CIRC
+  representations:
+    human: NBS CIRC 11e2.1915
+    urn: urn:nist:circ:11.e2.1915.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 11e2-1915
+    style: v3
+- id: nist.circular.0613
   identifier:
     _type: pubid:nist:circular
     number: '11'
@@ -489,7 +538,24 @@
     human: NBS CIRC 11e3
     urn: urn:nist:circ:11.e3.supp
   style: v3
-- id: nist.circular.0044
+- id: nist.circular.0614
+  identifier:
+    _type: pubid:nist:circular
+    number: '11'
+    edition:
+      type: e
+      id: '3'
+      additional_text: '1917'
+    publisher: NBS
+    series: CIRC
+  representations:
+    human: NBS CIRC 11e3.1917
+    urn: urn:nist:circ:11.e3.1917.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 11e3-1917
+    style: v3
+- id: nist.circular.0615
   identifier:
     _type: pubid:nist:circular
     number: '11'
@@ -502,7 +568,7 @@
     human: NBS CIRC 11e4
     urn: urn:nist:circ:11.e4.supp
   style: v3
-- id: nist.circular.0045
+- id: nist.circular.0616
   identifier:
     _type: pubid:nist:circular
     number: '11'
@@ -515,7 +581,7 @@
     human: NBS CIRC 11e5
     urn: urn:nist:circ:11.e5.supp
   style: v3
-- id: nist.circular.0046
+- id: nist.circular.0617
   identifier:
     _type: pubid:nist:circular
     number: '11'
@@ -528,7 +594,7 @@
     human: NBS CIRC 11e6
     urn: urn:nist:circ:11.e6.supp
   style: v3
-- id: nist.circular.0047
+- id: nist.circular.0618
   identifier:
     _type: pubid:nist:circular
     number: '12'
@@ -538,7 +604,7 @@
     human: NBS CIRC 12
     urn: urn:nist:circ:12.supp
   style: v3
-- id: nist.circular.0048
+- id: nist.circular.0619
   identifier:
     _type: pubid:nist:circular
     number: '120'
@@ -548,7 +614,7 @@
     human: NBS CIRC 120
     urn: urn:nist:circ:120.supp
   style: v3
-- id: nist.circular.0049
+- id: nist.circular.0620
   identifier:
     _type: pubid:nist:circular
     number: '121'
@@ -558,7 +624,7 @@
     human: NBS CIRC 121
     urn: urn:nist:circ:121.supp
   style: v3
-- id: nist.circular.0050
+- id: nist.circular.0621
   identifier:
     _type: pubid:nist:circular
     number: '122'
@@ -568,7 +634,7 @@
     human: NBS CIRC 122
     urn: urn:nist:circ:122.supp
   style: v3
-- id: nist.circular.0051
+- id: nist.circular.0622
   identifier:
     _type: pubid:nist:circular
     number: '122'
@@ -581,7 +647,7 @@
     human: NBS CIRC 122e2
     urn: urn:nist:circ:122.e2.supp
   style: v3
-- id: nist.circular.0052
+- id: nist.circular.0623
   identifier:
     _type: pubid:nist:circular
     number: '123'
@@ -591,7 +657,7 @@
     human: NBS CIRC 123
     urn: urn:nist:circ:123.supp
   style: v3
-- id: nist.circular.0053
+- id: nist.circular.0624
   identifier:
     _type: pubid:nist:circular
     number: '123'
@@ -604,7 +670,7 @@
     human: NBS CIRC 123e2
     urn: urn:nist:circ:123.e2.supp
   style: v3
-- id: nist.circular.0054
+- id: nist.circular.0625
   identifier:
     _type: pubid:nist:circular
     number: '124'
@@ -614,7 +680,7 @@
     human: NBS CIRC 124
     urn: urn:nist:circ:124.supp
   style: v3
-- id: nist.circular.0055
+- id: nist.circular.0626
   identifier:
     _type: pubid:nist:circular
     number: '125'
@@ -624,7 +690,7 @@
     human: NBS CIRC 125
     urn: urn:nist:circ:125.supp
   style: v3
-- id: nist.circular.0056
+- id: nist.circular.0627
   identifier:
     _type: pubid:nist:circular
     number: '126'
@@ -634,7 +700,7 @@
     human: NBS CIRC 126
     urn: urn:nist:circ:126.supp
   style: v3
-- id: nist.circular.0057
+- id: nist.circular.0628
   identifier:
     _type: pubid:nist:circular
     number: '127'
@@ -644,7 +710,7 @@
     human: NBS CIRC 127
     urn: urn:nist:circ:127.supp
   style: v3
-- id: nist.circular.0058
+- id: nist.circular.0629
   identifier:
     _type: pubid:nist:circular
     number: '128'
@@ -654,7 +720,7 @@
     human: NBS CIRC 128
     urn: urn:nist:circ:128.supp
   style: v3
-- id: nist.circular.0059
+- id: nist.circular.0630
   identifier:
     _type: pubid:nist:circular
     number: '128'
@@ -667,7 +733,7 @@
     human: NBS CIRC 128e2
     urn: urn:nist:circ:128.e2.supp
   style: v3
-- id: nist.circular.0060
+- id: nist.circular.0631
   identifier:
     _type: pubid:nist:circular
     number: '129'
@@ -677,7 +743,7 @@
     human: NBS CIRC 129
     urn: urn:nist:circ:129.supp
   style: v3
-- id: nist.circular.0061
+- id: nist.circular.0632
   identifier:
     _type: pubid:nist:circular
     number: '13'
@@ -687,7 +753,7 @@
     human: NBS CIRC 13
     urn: urn:nist:circ:13.supp
   style: v3
-- id: nist.circular.0062
+- id: nist.circular.0633
   identifier:
     _type: pubid:nist:circular
     number: '130'
@@ -697,7 +763,7 @@
     human: NBS CIRC 130
     urn: urn:nist:circ:130.supp
   style: v3
-- id: nist.circular.0063
+- id: nist.circular.0634
   identifier:
     _type: pubid:nist:circular
     number: '130'
@@ -710,7 +776,7 @@
     human: NBS CIRC 130e2
     urn: urn:nist:circ:130.e2.supp
   style: v3
-- id: nist.circular.0064
+- id: nist.circular.0635
   identifier:
     _type: pubid:nist:circular
     number: '131'
@@ -720,7 +786,7 @@
     human: NBS CIRC 131
     urn: urn:nist:circ:131.supp
   style: v3
-- id: nist.circular.0065
+- id: nist.circular.0636
   identifier:
     _type: pubid:nist:circular
     number: '132'
@@ -730,7 +796,7 @@
     human: NBS CIRC 132
     urn: urn:nist:circ:132.supp
   style: v3
-- id: nist.circular.0066
+- id: nist.circular.0637
   identifier:
     _type: pubid:nist:circular
     number: '132'
@@ -743,7 +809,7 @@
     human: NBS CIRC 132e2
     urn: urn:nist:circ:132.e2.supp
   style: v3
-- id: nist.circular.0067
+- id: nist.circular.0638
   identifier:
     _type: pubid:nist:circular
     number: '133'
@@ -753,7 +819,7 @@
     human: NBS CIRC 133
     urn: urn:nist:circ:133.supp
   style: v3
-- id: nist.circular.0068
+- id: nist.circular.0639
   identifier:
     _type: pubid:nist:circular
     number: '134'
@@ -763,7 +829,7 @@
     human: NBS CIRC 134
     urn: urn:nist:circ:134.supp
   style: v3
-- id: nist.circular.0069
+- id: nist.circular.0640
   identifier:
     _type: pubid:nist:circular
     number: '134'
@@ -776,7 +842,7 @@
     human: NBS CIRC 134e2
     urn: urn:nist:circ:134.e2.supp
   style: v3
-- id: nist.circular.0070
+- id: nist.circular.0641
   identifier:
     _type: pubid:nist:circular
     number: '135'
@@ -786,7 +852,7 @@
     human: NBS CIRC 135
     urn: urn:nist:circ:135.supp
   style: v3
-- id: nist.circular.0071
+- id: nist.circular.0642
   identifier:
     _type: pubid:nist:circular
     number: '136'
@@ -796,7 +862,7 @@
     human: NBS CIRC 136
     urn: urn:nist:circ:136.supp
   style: v3
-- id: nist.circular.0072
+- id: nist.circular.0643
   identifier:
     _type: pubid:nist:circular
     number: '136'
@@ -809,7 +875,7 @@
     human: NBS CIRC 136e2
     urn: urn:nist:circ:136.e2.supp
   style: v3
-- id: nist.circular.0073
+- id: nist.circular.0644
   identifier:
     _type: pubid:nist:circular
     number: '137'
@@ -819,7 +885,7 @@
     human: NBS CIRC 137
     urn: urn:nist:circ:137.supp
   style: v3
-- id: nist.circular.0074
+- id: nist.circular.0645
   identifier:
     _type: pubid:nist:circular
     number: '138'
@@ -829,7 +895,7 @@
     human: NBS CIRC 138
     urn: urn:nist:circ:138.supp
   style: v3
-- id: nist.circular.0075
+- id: nist.circular.0646
   identifier:
     _type: pubid:nist:circular
     number: '139'
@@ -839,7 +905,7 @@
     human: NBS CIRC 139
     urn: urn:nist:circ:139.supp
   style: v3
-- id: nist.circular.0076
+- id: nist.circular.0647
   identifier:
     _type: pubid:nist:circular
     number: '139'
@@ -852,7 +918,7 @@
     human: NBS CIRC 139e2
     urn: urn:nist:circ:139.e2.supp
   style: v3
-- id: nist.circular.0077
+- id: nist.circular.0648
   identifier:
     _type: pubid:nist:circular
     number: '13'
@@ -865,7 +931,7 @@
     human: NBS CIRC 13e10
     urn: urn:nist:circ:13.e10.supp
   style: v3
-- id: nist.circular.0078
+- id: nist.circular.0649
   identifier:
     _type: pubid:nist:circular
     number: '13'
@@ -878,7 +944,25 @@
     human: NBS CIRC 13e11
     urn: urn:nist:circ:13.e11.supp
   style: v3
-- id: nist.circular.0079
+- id: nist.circular.0650
+  identifier:
+    _type: pubid:nist:circular
+    number: '13'
+    edition:
+      type: e
+      id: '11'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      year: '1928'
+  representations:
+    human: NBS CIRC 13e11sup1928
+    urn: urn:nist:circ:13.e11.supp-1928
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 13e11supp1928
+    style: v3
+- id: nist.circular.0651
   identifier:
     _type: pubid:nist:circular
     number: '13'
@@ -891,7 +975,7 @@
     human: NBS CIRC 13e2
     urn: urn:nist:circ:13.e2.supp
   style: v3
-- id: nist.circular.0080
+- id: nist.circular.0652
   identifier:
     _type: pubid:nist:circular
     number: '13'
@@ -905,7 +989,10 @@
     human: NBS CIRC 13e2.June1908
     urn: urn:nist:circ:13.e2.June1908.supp
   style: v3
-- id: nist.circular.0081
+  non_normalized_aliases:
+  - spelling: NBS CIRC 13e2revJune1908
+    style: v3
+- id: nist.circular.0653
   identifier:
     _type: pubid:nist:circular
     number: '13'
@@ -918,7 +1005,7 @@
     human: NBS CIRC 13e3
     urn: urn:nist:circ:13.e3.supp
   style: v3
-- id: nist.circular.0082
+- id: nist.circular.0654
   identifier:
     _type: pubid:nist:circular
     number: '13'
@@ -931,7 +1018,7 @@
     human: NBS CIRC 13e4
     urn: urn:nist:circ:13.e4.supp
   style: v3
-- id: nist.circular.0083
+- id: nist.circular.0655
   identifier:
     _type: pubid:nist:circular
     number: '13'
@@ -944,7 +1031,7 @@
     human: NBS CIRC 13e5
     urn: urn:nist:circ:13.e5.supp
   style: v3
-- id: nist.circular.0084
+- id: nist.circular.0656
   identifier:
     _type: pubid:nist:circular
     number: '13'
@@ -957,7 +1044,7 @@
     human: NBS CIRC 13e6
     urn: urn:nist:circ:13.e6.supp
   style: v3
-- id: nist.circular.0085
+- id: nist.circular.0657
   identifier:
     _type: pubid:nist:circular
     number: '13'
@@ -970,7 +1057,7 @@
     human: NBS CIRC 13e7
     urn: urn:nist:circ:13.e7.supp
   style: v3
-- id: nist.circular.0086
+- id: nist.circular.0658
   identifier:
     _type: pubid:nist:circular
     number: '13'
@@ -983,7 +1070,7 @@
     human: NBS CIRC 13e8
     urn: urn:nist:circ:13.e8.supp
   style: v3
-- id: nist.circular.0087
+- id: nist.circular.0659
   identifier:
     _type: pubid:nist:circular
     number: '13'
@@ -996,7 +1083,7 @@
     human: NBS CIRC 13e9
     urn: urn:nist:circ:13.e9.supp
   style: v3
-- id: nist.circular.0088
+- id: nist.circular.0660
   identifier:
     _type: pubid:nist:circular
     number: '14'
@@ -1006,7 +1093,7 @@
     human: NBS CIRC 14
     urn: urn:nist:circ:14.supp
   style: v3
-- id: nist.circular.0089
+- id: nist.circular.0661
   identifier:
     _type: pubid:nist:circular
     number: '140'
@@ -1016,7 +1103,7 @@
     human: NBS CIRC 140
     urn: urn:nist:circ:140.supp
   style: v3
-- id: nist.circular.0090
+- id: nist.circular.0662
   identifier:
     _type: pubid:nist:circular
     number: '140'
@@ -1029,7 +1116,7 @@
     human: NBS CIRC 140e2
     urn: urn:nist:circ:140.e2.supp
   style: v3
-- id: nist.circular.0091
+- id: nist.circular.0663
   identifier:
     _type: pubid:nist:circular
     number: '141'
@@ -1039,7 +1126,7 @@
     human: NBS CIRC 141
     urn: urn:nist:circ:141.supp
   style: v3
-- id: nist.circular.0092
+- id: nist.circular.0664
   identifier:
     _type: pubid:nist:circular
     number: '142'
@@ -1049,7 +1136,7 @@
     human: NBS CIRC 142
     urn: urn:nist:circ:142.supp
   style: v3
-- id: nist.circular.0093
+- id: nist.circular.0665
   identifier:
     _type: pubid:nist:circular
     number: '143'
@@ -1059,7 +1146,7 @@
     human: NBS CIRC 143
     urn: urn:nist:circ:143.supp
   style: v3
-- id: nist.circular.0094
+- id: nist.circular.0666
   identifier:
     _type: pubid:nist:circular
     number: '144'
@@ -1069,7 +1156,7 @@
     human: NBS CIRC 144
     urn: urn:nist:circ:144.supp
   style: v3
-- id: nist.circular.0095
+- id: nist.circular.0667
   identifier:
     _type: pubid:nist:circular
     number: '145'
@@ -1079,7 +1166,7 @@
     human: NBS CIRC 145
     urn: urn:nist:circ:145.supp
   style: v3
-- id: nist.circular.0096
+- id: nist.circular.0668
   identifier:
     _type: pubid:nist:circular
     number: '146'
@@ -1089,7 +1176,7 @@
     human: NBS CIRC 146
     urn: urn:nist:circ:146.supp
   style: v3
-- id: nist.circular.0097
+- id: nist.circular.0669
   identifier:
     _type: pubid:nist:circular
     number: '147'
@@ -1099,7 +1186,7 @@
     human: NBS CIRC 147
     urn: urn:nist:circ:147.supp
   style: v3
-- id: nist.circular.0098
+- id: nist.circular.0670
   identifier:
     _type: pubid:nist:circular
     number: '148'
@@ -1109,7 +1196,7 @@
     human: NBS CIRC 148
     urn: urn:nist:circ:148.supp
   style: v3
-- id: nist.circular.0099
+- id: nist.circular.0671
   identifier:
     _type: pubid:nist:circular
     number: '149'
@@ -1119,7 +1206,7 @@
     human: NBS CIRC 149
     urn: urn:nist:circ:149.supp
   style: v3
-- id: nist.circular.0100
+- id: nist.circular.0672
   identifier:
     _type: pubid:nist:circular
     number: '14'
@@ -1132,7 +1219,7 @@
     human: NBS CIRC 14e2
     urn: urn:nist:circ:14.e2.supp
   style: v3
-- id: nist.circular.0101
+- id: nist.circular.0673
   identifier:
     _type: pubid:nist:circular
     number: '14'
@@ -1145,7 +1232,7 @@
     human: NBS CIRC 14e3
     urn: urn:nist:circ:14.e3.supp
   style: v3
-- id: nist.circular.0102
+- id: nist.circular.0674
   identifier:
     _type: pubid:nist:circular
     number: '14'
@@ -1158,7 +1245,7 @@
     human: NBS CIRC 14e4
     urn: urn:nist:circ:14.e4.supp
   style: v3
-- id: nist.circular.0103
+- id: nist.circular.0675
   identifier:
     _type: pubid:nist:circular
     number: '14'
@@ -1171,7 +1258,7 @@
     human: NBS CIRC 14e5
     urn: urn:nist:circ:14.e5.supp
   style: v3
-- id: nist.circular.0104
+- id: nist.circular.0676
   identifier:
     _type: pubid:nist:circular
     number: '15'
@@ -1181,7 +1268,7 @@
     human: NBS CIRC 15
     urn: urn:nist:circ:15.supp
   style: v3
-- id: nist.circular.0105
+- id: nist.circular.0677
   identifier:
     _type: pubid:nist:circular
     number: '15'
@@ -1195,7 +1282,7 @@
     human: NBS CIRC 15-April1909
     urn: urn:nist:circ:15.-April1909.supp
   style: v3
-- id: nist.circular.0106
+- id: nist.circular.0678
   identifier:
     _type: pubid:nist:circular
     number: '150'
@@ -1205,7 +1292,7 @@
     human: NBS CIRC 150
     urn: urn:nist:circ:150.supp
   style: v3
-- id: nist.circular.0107
+- id: nist.circular.0679
   identifier:
     _type: pubid:nist:circular
     number: '151'
@@ -1215,7 +1302,7 @@
     human: NBS CIRC 151
     urn: urn:nist:circ:151.supp
   style: v3
-- id: nist.circular.0108
+- id: nist.circular.0680
   identifier:
     _type: pubid:nist:circular
     number: '152'
@@ -1225,7 +1312,7 @@
     human: NBS CIRC 152
     urn: urn:nist:circ:152.supp
   style: v3
-- id: nist.circular.0109
+- id: nist.circular.0681
   identifier:
     _type: pubid:nist:circular
     number: '153'
@@ -1235,7 +1322,7 @@
     human: NBS CIRC 153
     urn: urn:nist:circ:153.supp
   style: v3
-- id: nist.circular.0110
+- id: nist.circular.0682
   identifier:
     _type: pubid:nist:circular
     number: '154'
@@ -1245,7 +1332,22 @@
     human: NBS CIRC 154
     urn: urn:nist:circ:154.supp
   style: v3
-- id: nist.circular.0111
+- id: nist.circular.0683
+  identifier:
+    _type: pubid:nist:circular
+    number: '154'
+    publisher: NBS
+    series: CIRC
+  representations:
+    human: NBS CIRC 154sup
+    urn: urn:nist:circ:154
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 154supp
+    style: v3
+  - spelling: NBS CIRC 154supprev
+    style: v3
+- id: nist.circular.0684
   identifier:
     _type: pubid:nist:circular
     number: '155'
@@ -1255,7 +1357,7 @@
     human: NBS CIRC 155
     urn: urn:nist:circ:155.supp
   style: v3
-- id: nist.circular.0112
+- id: nist.circular.0685
   identifier:
     _type: pubid:nist:circular
     number: '156'
@@ -1265,7 +1367,7 @@
     human: NBS CIRC 156
     urn: urn:nist:circ:156.supp
   style: v3
-- id: nist.circular.0113
+- id: nist.circular.0686
   identifier:
     _type: pubid:nist:circular
     number: '157'
@@ -1275,7 +1377,7 @@
     human: NBS CIRC 157
     urn: urn:nist:circ:157.supp
   style: v3
-- id: nist.circular.0114
+- id: nist.circular.0687
   identifier:
     _type: pubid:nist:circular
     number: '158'
@@ -1285,7 +1387,7 @@
     human: NBS CIRC 158
     urn: urn:nist:circ:158.supp
   style: v3
-- id: nist.circular.0115
+- id: nist.circular.0688
   identifier:
     _type: pubid:nist:circular
     number: '159'
@@ -1295,7 +1397,7 @@
     human: NBS CIRC 159
     urn: urn:nist:circ:159.supp
   style: v3
-- id: nist.circular.0116
+- id: nist.circular.0689
   identifier:
     _type: pubid:nist:circular
     number: '15'
@@ -1308,7 +1410,7 @@
     human: NBS CIRC 15e2
     urn: urn:nist:circ:15.e2.supp
   style: v3
-- id: nist.circular.0117
+- id: nist.circular.0690
   identifier:
     _type: pubid:nist:circular
     number: '15'
@@ -1321,7 +1423,7 @@
     human: NBS CIRC 15e3
     urn: urn:nist:circ:15.e3.supp
   style: v3
-- id: nist.circular.0118
+- id: nist.circular.0691
   identifier:
     _type: pubid:nist:circular
     number: '16'
@@ -1331,7 +1433,7 @@
     human: NBS CIRC 16
     urn: urn:nist:circ:16.supp
   style: v3
-- id: nist.circular.0119
+- id: nist.circular.0692
   identifier:
     _type: pubid:nist:circular
     number: '160'
@@ -1341,7 +1443,7 @@
     human: NBS CIRC 160
     urn: urn:nist:circ:160.supp
   style: v3
-- id: nist.circular.0120
+- id: nist.circular.0693
   identifier:
     _type: pubid:nist:circular
     number: '161'
@@ -1351,7 +1453,7 @@
     human: NBS CIRC 161
     urn: urn:nist:circ:161.supp
   style: v3
-- id: nist.circular.0121
+- id: nist.circular.0694
   identifier:
     _type: pubid:nist:circular
     number: '162'
@@ -1361,7 +1463,7 @@
     human: NBS CIRC 162
     urn: urn:nist:circ:162.supp
   style: v3
-- id: nist.circular.0122
+- id: nist.circular.0695
   identifier:
     _type: pubid:nist:circular
     number: '163'
@@ -1371,7 +1473,7 @@
     human: NBS CIRC 163
     urn: urn:nist:circ:163.supp
   style: v3
-- id: nist.circular.0123
+- id: nist.circular.0696
   identifier:
     _type: pubid:nist:circular
     number: '164'
@@ -1381,7 +1483,7 @@
     human: NBS CIRC 164
     urn: urn:nist:circ:164.supp
   style: v3
-- id: nist.circular.0124
+- id: nist.circular.0697
   identifier:
     _type: pubid:nist:circular
     number: '165'
@@ -1391,7 +1493,7 @@
     human: NBS CIRC 165
     urn: urn:nist:circ:165.supp
   style: v3
-- id: nist.circular.0125
+- id: nist.circular.0698
   identifier:
     _type: pubid:nist:circular
     number: '165'
@@ -1404,7 +1506,7 @@
     human: NBS CIRC 165e2
     urn: urn:nist:circ:165.e2.supp
   style: v3
-- id: nist.circular.0126
+- id: nist.circular.0699
   identifier:
     _type: pubid:nist:circular
     number: '166'
@@ -1414,7 +1516,7 @@
     human: NBS CIRC 166
     urn: urn:nist:circ:166.supp
   style: v3
-- id: nist.circular.0127
+- id: nist.circular.0700
   identifier:
     _type: pubid:nist:circular
     number: '167'
@@ -1424,7 +1526,7 @@
     human: NBS CIRC 167
     urn: urn:nist:circ:167.supp
   style: v3
-- id: nist.circular.0128
+- id: nist.circular.0701
   identifier:
     _type: pubid:nist:circular
     number: '168'
@@ -1434,7 +1536,7 @@
     human: NBS CIRC 168
     urn: urn:nist:circ:168.supp
   style: v3
-- id: nist.circular.0129
+- id: nist.circular.0702
   identifier:
     _type: pubid:nist:circular
     number: '169'
@@ -1444,7 +1546,7 @@
     human: NBS CIRC 169
     urn: urn:nist:circ:169.supp
   style: v3
-- id: nist.circular.0130
+- id: nist.circular.0703
   identifier:
     _type: pubid:nist:circular
     number: '16'
@@ -1457,7 +1559,7 @@
     human: NBS CIRC 16e2
     urn: urn:nist:circ:16.e2.supp
   style: v3
-- id: nist.circular.0131
+- id: nist.circular.0704
   identifier:
     _type: pubid:nist:circular
     number: '16'
@@ -1470,7 +1572,7 @@
     human: NBS CIRC 16e3
     urn: urn:nist:circ:16.e3.supp
   style: v3
-- id: nist.circular.0132
+- id: nist.circular.0705
   identifier:
     _type: pubid:nist:circular
     number: '16'
@@ -1483,7 +1585,7 @@
     human: NBS CIRC 16e4
     urn: urn:nist:circ:16.e4.supp
   style: v3
-- id: nist.circular.0133
+- id: nist.circular.0706
   identifier:
     _type: pubid:nist:circular
     number: '16'
@@ -1496,7 +1598,7 @@
     human: NBS CIRC 16e5
     urn: urn:nist:circ:16.e5.supp
   style: v3
-- id: nist.circular.0134
+- id: nist.circular.0707
   identifier:
     _type: pubid:nist:circular
     number: '17'
@@ -1506,7 +1608,7 @@
     human: NBS CIRC 17
     urn: urn:nist:circ:17.supp
   style: v3
-- id: nist.circular.0135
+- id: nist.circular.0708
   identifier:
     _type: pubid:nist:circular
     number: '170'
@@ -1516,7 +1618,7 @@
     human: NBS CIRC 170
     urn: urn:nist:circ:170.supp
   style: v3
-- id: nist.circular.0136
+- id: nist.circular.0709
   identifier:
     _type: pubid:nist:circular
     number: '171'
@@ -1526,7 +1628,7 @@
     human: NBS CIRC 171
     urn: urn:nist:circ:171.supp
   style: v3
-- id: nist.circular.0137
+- id: nist.circular.0710
   identifier:
     _type: pubid:nist:circular
     number: '172'
@@ -1536,7 +1638,7 @@
     human: NBS CIRC 172
     urn: urn:nist:circ:172.supp
   style: v3
-- id: nist.circular.0138
+- id: nist.circular.0711
   identifier:
     _type: pubid:nist:circular
     number: '173'
@@ -1546,7 +1648,7 @@
     human: NBS CIRC 173
     urn: urn:nist:circ:173.supp
   style: v3
-- id: nist.circular.0139
+- id: nist.circular.0712
   identifier:
     _type: pubid:nist:circular
     number: '174'
@@ -1556,7 +1658,7 @@
     human: NBS CIRC 174
     urn: urn:nist:circ:174.supp
   style: v3
-- id: nist.circular.0140
+- id: nist.circular.0713
   identifier:
     _type: pubid:nist:circular
     number: '175'
@@ -1566,7 +1668,7 @@
     human: NBS CIRC 175
     urn: urn:nist:circ:175.supp
   style: v3
-- id: nist.circular.0141
+- id: nist.circular.0714
   identifier:
     _type: pubid:nist:circular
     number: '176'
@@ -1576,7 +1678,7 @@
     human: NBS CIRC 176
     urn: urn:nist:circ:176.supp
   style: v3
-- id: nist.circular.0142
+- id: nist.circular.0715
   identifier:
     _type: pubid:nist:circular
     number: '177'
@@ -1586,7 +1688,7 @@
     human: NBS CIRC 177
     urn: urn:nist:circ:177.supp
   style: v3
-- id: nist.circular.0143
+- id: nist.circular.0716
   identifier:
     _type: pubid:nist:circular
     number: '178'
@@ -1596,7 +1698,7 @@
     human: NBS CIRC 178
     urn: urn:nist:circ:178.supp
   style: v3
-- id: nist.circular.0144
+- id: nist.circular.0717
   identifier:
     _type: pubid:nist:circular
     number: '179'
@@ -1606,7 +1708,7 @@
     human: NBS CIRC 179
     urn: urn:nist:circ:179.supp
   style: v3
-- id: nist.circular.0145
+- id: nist.circular.0718
   identifier:
     _type: pubid:nist:circular
     number: '17'
@@ -1619,7 +1721,7 @@
     human: NBS CIRC 17e2
     urn: urn:nist:circ:17.e2.supp
   style: v3
-- id: nist.circular.0146
+- id: nist.circular.0719
   identifier:
     _type: pubid:nist:circular
     number: '17'
@@ -1632,7 +1734,7 @@
     human: NBS CIRC 17e3
     urn: urn:nist:circ:17.e3.supp
   style: v3
-- id: nist.circular.0147
+- id: nist.circular.0720
   identifier:
     _type: pubid:nist:circular
     number: '17'
@@ -1645,7 +1747,7 @@
     human: NBS CIRC 17e4
     urn: urn:nist:circ:17.e4.supp
   style: v3
-- id: nist.circular.0148
+- id: nist.circular.0721
   identifier:
     _type: pubid:nist:circular
     number: '18'
@@ -1655,7 +1757,7 @@
     human: NBS CIRC 18
     urn: urn:nist:circ:18.supp
   style: v3
-- id: nist.circular.0149
+- id: nist.circular.0722
   identifier:
     _type: pubid:nist:circular
     number: '180'
@@ -1665,7 +1767,7 @@
     human: NBS CIRC 180
     urn: urn:nist:circ:180.supp
   style: v3
-- id: nist.circular.0150
+- id: nist.circular.0723
   identifier:
     _type: pubid:nist:circular
     number: '181'
@@ -1675,7 +1777,7 @@
     human: NBS CIRC 181
     urn: urn:nist:circ:181.supp
   style: v3
-- id: nist.circular.0151
+- id: nist.circular.0724
   identifier:
     _type: pubid:nist:circular
     number: '182'
@@ -1685,7 +1787,7 @@
     human: NBS CIRC 182
     urn: urn:nist:circ:182.supp
   style: v3
-- id: nist.circular.0152
+- id: nist.circular.0725
   identifier:
     _type: pubid:nist:circular
     number: '183'
@@ -1695,7 +1797,7 @@
     human: NBS CIRC 183
     urn: urn:nist:circ:183.supp
   style: v3
-- id: nist.circular.0153
+- id: nist.circular.0726
   identifier:
     _type: pubid:nist:circular
     number: '184'
@@ -1705,7 +1807,7 @@
     human: NBS CIRC 184
     urn: urn:nist:circ:184.supp
   style: v3
-- id: nist.circular.0154
+- id: nist.circular.0727
   identifier:
     _type: pubid:nist:circular
     number: '185'
@@ -1715,7 +1817,7 @@
     human: NBS CIRC 185
     urn: urn:nist:circ:185.supp
   style: v3
-- id: nist.circular.0155
+- id: nist.circular.0728
   identifier:
     _type: pubid:nist:circular
     number: '186'
@@ -1725,7 +1827,7 @@
     human: NBS CIRC 186
     urn: urn:nist:circ:186.supp
   style: v3
-- id: nist.circular.0156
+- id: nist.circular.0729
   identifier:
     _type: pubid:nist:circular
     number: '186'
@@ -1738,7 +1840,7 @@
     human: NBS CIRC 186e2
     urn: urn:nist:circ:186.e2.supp
   style: v3
-- id: nist.circular.0157
+- id: nist.circular.0730
   identifier:
     _type: pubid:nist:circular
     number: '187'
@@ -1748,7 +1850,7 @@
     human: NBS CIRC 187
     urn: urn:nist:circ:187.supp
   style: v3
-- id: nist.circular.0158
+- id: nist.circular.0731
   identifier:
     _type: pubid:nist:circular
     number: '187'
@@ -1761,7 +1863,7 @@
     human: NBS CIRC 187e2
     urn: urn:nist:circ:187.e2.supp
   style: v3
-- id: nist.circular.0159
+- id: nist.circular.0732
   identifier:
     _type: pubid:nist:circular
     number: '188'
@@ -1771,7 +1873,7 @@
     human: NBS CIRC 188
     urn: urn:nist:circ:188.supp
   style: v3
-- id: nist.circular.0160
+- id: nist.circular.0733
   identifier:
     _type: pubid:nist:circular
     number: '188'
@@ -1784,7 +1886,7 @@
     human: NBS CIRC 188e2
     urn: urn:nist:circ:188.e2.supp
   style: v3
-- id: nist.circular.0161
+- id: nist.circular.0734
   identifier:
     _type: pubid:nist:circular
     number: '189'
@@ -1794,7 +1896,7 @@
     human: NBS CIRC 189
     urn: urn:nist:circ:189.supp
   style: v3
-- id: nist.circular.0162
+- id: nist.circular.0735
   identifier:
     _type: pubid:nist:circular
     number: '18'
@@ -1807,7 +1909,7 @@
     human: NBS CIRC 18e2
     urn: urn:nist:circ:18.e2.supp
   style: v3
-- id: nist.circular.0163
+- id: nist.circular.0736
   identifier:
     _type: pubid:nist:circular
     number: '19'
@@ -1817,7 +1919,7 @@
     human: NBS CIRC 19
     urn: urn:nist:circ:19.supp
   style: v3
-- id: nist.circular.0164
+- id: nist.circular.0737
   identifier:
     _type: pubid:nist:circular
     number: '190'
@@ -1827,7 +1929,7 @@
     human: NBS CIRC 190
     urn: urn:nist:circ:190.supp
   style: v3
-- id: nist.circular.0165
+- id: nist.circular.0738
   identifier:
     _type: pubid:nist:circular
     number: '191'
@@ -1837,7 +1939,7 @@
     human: NBS CIRC 191
     urn: urn:nist:circ:191.supp
   style: v3
-- id: nist.circular.0166
+- id: nist.circular.0739
   identifier:
     _type: pubid:nist:circular
     number: '192'
@@ -1847,7 +1949,7 @@
     human: NBS CIRC 192
     urn: urn:nist:circ:192.supp
   style: v3
-- id: nist.circular.0167
+- id: nist.circular.0740
   identifier:
     _type: pubid:nist:circular
     number: '193'
@@ -1857,7 +1959,7 @@
     human: NBS CIRC 193
     urn: urn:nist:circ:193.supp
   style: v3
-- id: nist.circular.0168
+- id: nist.circular.0741
   identifier:
     _type: pubid:nist:circular
     number: '194'
@@ -1867,7 +1969,7 @@
     human: NBS CIRC 194
     urn: urn:nist:circ:194.supp
   style: v3
-- id: nist.circular.0169
+- id: nist.circular.0742
   identifier:
     _type: pubid:nist:circular
     number: '195'
@@ -1877,7 +1979,7 @@
     human: NBS CIRC 195
     urn: urn:nist:circ:195.supp
   style: v3
-- id: nist.circular.0170
+- id: nist.circular.0743
   identifier:
     _type: pubid:nist:circular
     number: '196'
@@ -1887,7 +1989,7 @@
     human: NBS CIRC 196
     urn: urn:nist:circ:196.supp
   style: v3
-- id: nist.circular.0171
+- id: nist.circular.0744
   identifier:
     _type: pubid:nist:circular
     number: '196'
@@ -1900,7 +2002,7 @@
     human: NBS CIRC 196e2
     urn: urn:nist:circ:196.e2.supp
   style: v3
-- id: nist.circular.0172
+- id: nist.circular.0745
   identifier:
     _type: pubid:nist:circular
     number: '197'
@@ -1910,7 +2012,7 @@
     human: NBS CIRC 197
     urn: urn:nist:circ:197.supp
   style: v3
-- id: nist.circular.0173
+- id: nist.circular.0746
   identifier:
     _type: pubid:nist:circular
     number: '197'
@@ -1923,7 +2025,7 @@
     human: NBS CIRC 197e2
     urn: urn:nist:circ:197.e2.supp
   style: v3
-- id: nist.circular.0174
+- id: nist.circular.0747
   identifier:
     _type: pubid:nist:circular
     number: '198'
@@ -1933,7 +2035,7 @@
     human: NBS CIRC 198
     urn: urn:nist:circ:198.supp
   style: v3
-- id: nist.circular.0175
+- id: nist.circular.0748
   identifier:
     _type: pubid:nist:circular
     number: '199'
@@ -1943,7 +2045,7 @@
     human: NBS CIRC 199
     urn: urn:nist:circ:199.supp
   style: v3
-- id: nist.circular.0176
+- id: nist.circular.0749
   identifier:
     _type: pubid:nist:circular
     number: '19'
@@ -1956,7 +2058,7 @@
     human: NBS CIRC 19e2
     urn: urn:nist:circ:19.e2.supp
   style: v3
-- id: nist.circular.0177
+- id: nist.circular.0750
   identifier:
     _type: pubid:nist:circular
     number: '19'
@@ -1969,7 +2071,7 @@
     human: NBS CIRC 19e3
     urn: urn:nist:circ:19.e3.supp
   style: v3
-- id: nist.circular.0178
+- id: nist.circular.0751
   identifier:
     _type: pubid:nist:circular
     number: '19'
@@ -1982,7 +2084,7 @@
     human: NBS CIRC 19e4
     urn: urn:nist:circ:19.e4.supp
   style: v3
-- id: nist.circular.0179
+- id: nist.circular.0752
   identifier:
     _type: pubid:nist:circular
     number: '19'
@@ -1995,7 +2097,7 @@
     human: NBS CIRC 19e5
     urn: urn:nist:circ:19.e5.supp
   style: v3
-- id: nist.circular.0180
+- id: nist.circular.0753
   identifier:
     _type: pubid:nist:circular
     number: '19'
@@ -2008,7 +2110,20 @@
     human: NBS CIRC 19e6
     urn: urn:nist:circ:19.e6.supp
   style: v3
-- id: nist.circular.0181
+- id: nist.circular.0754
+  identifier:
+    _type: pubid:nist:circular
+    number: '19'
+    publisher: NBS
+    series: CIRC
+  representations:
+    human: NBS CIRC 19sup
+    urn: urn:nist:circ:19
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 19supp
+    style: v3
+- id: nist.circular.0755
   identifier:
     _type: pubid:nist:circular
     number: '2'
@@ -2018,7 +2133,7 @@
     human: NBS CIRC 2
     urn: urn:nist:circ:2.supp
   style: v3
-- id: nist.circular.0182
+- id: nist.circular.0756
   identifier:
     _type: pubid:nist:circular
     number: '20'
@@ -2028,7 +2143,7 @@
     human: NBS CIRC 20
     urn: urn:nist:circ:20.supp
   style: v3
-- id: nist.circular.0183
+- id: nist.circular.0757
   identifier:
     _type: pubid:nist:circular
     number: '200'
@@ -2038,7 +2153,7 @@
     human: NBS CIRC 200
     urn: urn:nist:circ:200.supp
   style: v3
-- id: nist.circular.0184
+- id: nist.circular.0758
   identifier:
     _type: pubid:nist:circular
     number: '201'
@@ -2048,7 +2163,7 @@
     human: NBS CIRC 201
     urn: urn:nist:circ:201.supp
   style: v3
-- id: nist.circular.0185
+- id: nist.circular.0759
   identifier:
     _type: pubid:nist:circular
     number: '202'
@@ -2058,7 +2173,7 @@
     human: NBS CIRC 202
     urn: urn:nist:circ:202.supp
   style: v3
-- id: nist.circular.0186
+- id: nist.circular.0760
   identifier:
     _type: pubid:nist:circular
     number: '203'
@@ -2068,7 +2183,7 @@
     human: NBS CIRC 203
     urn: urn:nist:circ:203.supp
   style: v3
-- id: nist.circular.0187
+- id: nist.circular.0761
   identifier:
     _type: pubid:nist:circular
     number: '204'
@@ -2078,7 +2193,7 @@
     human: NBS CIRC 204
     urn: urn:nist:circ:204.supp
   style: v3
-- id: nist.circular.0188
+- id: nist.circular.0762
   identifier:
     _type: pubid:nist:circular
     number: '205'
@@ -2088,7 +2203,7 @@
     human: NBS CIRC 205
     urn: urn:nist:circ:205.supp
   style: v3
-- id: nist.circular.0189
+- id: nist.circular.0763
   identifier:
     _type: pubid:nist:circular
     number: '206'
@@ -2098,7 +2213,7 @@
     human: NBS CIRC 206
     urn: urn:nist:circ:206.supp
   style: v3
-- id: nist.circular.0190
+- id: nist.circular.0764
   identifier:
     _type: pubid:nist:circular
     number: '207'
@@ -2108,7 +2223,7 @@
     human: NBS CIRC 207
     urn: urn:nist:circ:207.supp
   style: v3
-- id: nist.circular.0191
+- id: nist.circular.0765
   identifier:
     _type: pubid:nist:circular
     number: '208'
@@ -2118,7 +2233,7 @@
     human: NBS CIRC 208
     urn: urn:nist:circ:208.supp
   style: v3
-- id: nist.circular.0192
+- id: nist.circular.0766
   identifier:
     _type: pubid:nist:circular
     number: '209'
@@ -2128,7 +2243,7 @@
     human: NBS CIRC 209
     urn: urn:nist:circ:209.supp
   style: v3
-- id: nist.circular.0193
+- id: nist.circular.0767
   identifier:
     _type: pubid:nist:circular
     number: '209'
@@ -2141,7 +2256,7 @@
     human: NBS CIRC 209e2
     urn: urn:nist:circ:209.e2.supp
   style: v3
-- id: nist.circular.0194
+- id: nist.circular.0768
   identifier:
     _type: pubid:nist:circular
     number: '20'
@@ -2154,7 +2269,7 @@
     human: NBS CIRC 20e2
     urn: urn:nist:circ:20.e2.supp
   style: v3
-- id: nist.circular.0195
+- id: nist.circular.0769
   identifier:
     _type: pubid:nist:circular
     number: '21'
@@ -2164,7 +2279,7 @@
     human: NBS CIRC 21
     urn: urn:nist:circ:21.supp
   style: v3
-- id: nist.circular.0196
+- id: nist.circular.0770
   identifier:
     _type: pubid:nist:circular
     number: '210'
@@ -2174,7 +2289,7 @@
     human: NBS CIRC 210
     urn: urn:nist:circ:210.supp
   style: v3
-- id: nist.circular.0197
+- id: nist.circular.0771
   identifier:
     _type: pubid:nist:circular
     number: '211'
@@ -2184,7 +2299,7 @@
     human: NBS CIRC 211
     urn: urn:nist:circ:211.supp
   style: v3
-- id: nist.circular.0198
+- id: nist.circular.0772
   identifier:
     _type: pubid:nist:circular
     number: '212'
@@ -2194,7 +2309,7 @@
     human: NBS CIRC 212
     urn: urn:nist:circ:212.supp
   style: v3
-- id: nist.circular.0199
+- id: nist.circular.0773
   identifier:
     _type: pubid:nist:circular
     number: '213'
@@ -2204,7 +2319,7 @@
     human: NBS CIRC 213
     urn: urn:nist:circ:213.supp
   style: v3
-- id: nist.circular.0200
+- id: nist.circular.0774
   identifier:
     _type: pubid:nist:circular
     number: '214'
@@ -2214,7 +2329,7 @@
     human: NBS CIRC 214
     urn: urn:nist:circ:214.supp
   style: v3
-- id: nist.circular.0201
+- id: nist.circular.0775
   identifier:
     _type: pubid:nist:circular
     number: '215'
@@ -2224,7 +2339,7 @@
     human: NBS CIRC 215
     urn: urn:nist:circ:215.supp
   style: v3
-- id: nist.circular.0202
+- id: nist.circular.0776
   identifier:
     _type: pubid:nist:circular
     number: '216'
@@ -2234,7 +2349,7 @@
     human: NBS CIRC 216
     urn: urn:nist:circ:216.supp
   style: v3
-- id: nist.circular.0203
+- id: nist.circular.0777
   identifier:
     _type: pubid:nist:circular
     number: '217'
@@ -2244,7 +2359,7 @@
     human: NBS CIRC 217
     urn: urn:nist:circ:217.supp
   style: v3
-- id: nist.circular.0204
+- id: nist.circular.0778
   identifier:
     _type: pubid:nist:circular
     number: '218'
@@ -2254,7 +2369,7 @@
     human: NBS CIRC 218
     urn: urn:nist:circ:218.supp
   style: v3
-- id: nist.circular.0205
+- id: nist.circular.0779
   identifier:
     _type: pubid:nist:circular
     number: '219'
@@ -2264,7 +2379,7 @@
     human: NBS CIRC 219
     urn: urn:nist:circ:219.supp
   style: v3
-- id: nist.circular.0206
+- id: nist.circular.0780
   identifier:
     _type: pubid:nist:circular
     number: '22'
@@ -2274,7 +2389,7 @@
     human: NBS CIRC 22
     urn: urn:nist:circ:22.supp
   style: v3
-- id: nist.circular.0207
+- id: nist.circular.0781
   identifier:
     _type: pubid:nist:circular
     number: '220'
@@ -2284,7 +2399,7 @@
     human: NBS CIRC 220
     urn: urn:nist:circ:220.supp
   style: v3
-- id: nist.circular.0208
+- id: nist.circular.0782
   identifier:
     _type: pubid:nist:circular
     number: '221'
@@ -2294,7 +2409,7 @@
     human: NBS CIRC 221
     urn: urn:nist:circ:221.supp
   style: v3
-- id: nist.circular.0209
+- id: nist.circular.0783
   identifier:
     _type: pubid:nist:circular
     number: '222'
@@ -2304,7 +2419,7 @@
     human: NBS CIRC 222
     urn: urn:nist:circ:222.supp
   style: v3
-- id: nist.circular.0210
+- id: nist.circular.0784
   identifier:
     _type: pubid:nist:circular
     number: '223'
@@ -2314,7 +2429,7 @@
     human: NBS CIRC 223
     urn: urn:nist:circ:223.supp
   style: v3
-- id: nist.circular.0211
+- id: nist.circular.0785
   identifier:
     _type: pubid:nist:circular
     number: '224'
@@ -2324,7 +2439,7 @@
     human: NBS CIRC 224
     urn: urn:nist:circ:224.supp
   style: v3
-- id: nist.circular.0212
+- id: nist.circular.0786
   identifier:
     _type: pubid:nist:circular
     number: '225'
@@ -2334,7 +2449,7 @@
     human: NBS CIRC 225
     urn: urn:nist:circ:225.supp
   style: v3
-- id: nist.circular.0213
+- id: nist.circular.0787
   identifier:
     _type: pubid:nist:circular
     number: '226'
@@ -2344,7 +2459,7 @@
     human: NBS CIRC 226
     urn: urn:nist:circ:226.supp
   style: v3
-- id: nist.circular.0214
+- id: nist.circular.0788
   identifier:
     _type: pubid:nist:circular
     number: '227'
@@ -2354,7 +2469,7 @@
     human: NBS CIRC 227
     urn: urn:nist:circ:227.supp
   style: v3
-- id: nist.circular.0215
+- id: nist.circular.0789
   identifier:
     _type: pubid:nist:circular
     number: '228'
@@ -2364,7 +2479,7 @@
     human: NBS CIRC 228
     urn: urn:nist:circ:228.supp
   style: v3
-- id: nist.circular.0216
+- id: nist.circular.0790
   identifier:
     _type: pubid:nist:circular
     number: '229'
@@ -2374,7 +2489,7 @@
     human: NBS CIRC 229
     urn: urn:nist:circ:229.supp
   style: v3
-- id: nist.circular.0217
+- id: nist.circular.0791
   identifier:
     _type: pubid:nist:circular
     number: '22'
@@ -2387,7 +2502,7 @@
     human: NBS CIRC 22e2
     urn: urn:nist:circ:22.e2.supp
   style: v3
-- id: nist.circular.0218
+- id: nist.circular.0792
   identifier:
     _type: pubid:nist:circular
     number: '23'
@@ -2397,7 +2512,7 @@
     human: NBS CIRC 23
     urn: urn:nist:circ:23.supp
   style: v3
-- id: nist.circular.0219
+- id: nist.circular.0793
   identifier:
     _type: pubid:nist:circular
     number: '230'
@@ -2407,7 +2522,7 @@
     human: NBS CIRC 230
     urn: urn:nist:circ:230.supp
   style: v3
-- id: nist.circular.0220
+- id: nist.circular.0794
   identifier:
     _type: pubid:nist:circular
     number: '231'
@@ -2417,7 +2532,7 @@
     human: NBS CIRC 231
     urn: urn:nist:circ:231.supp
   style: v3
-- id: nist.circular.0221
+- id: nist.circular.0795
   identifier:
     _type: pubid:nist:circular
     number: '232'
@@ -2427,7 +2542,7 @@
     human: NBS CIRC 232
     urn: urn:nist:circ:232.supp
   style: v3
-- id: nist.circular.0222
+- id: nist.circular.0796
   identifier:
     _type: pubid:nist:circular
     number: '233'
@@ -2437,7 +2552,7 @@
     human: NBS CIRC 233
     urn: urn:nist:circ:233.supp
   style: v3
-- id: nist.circular.0223
+- id: nist.circular.0797
   identifier:
     _type: pubid:nist:circular
     number: '234'
@@ -2447,7 +2562,7 @@
     human: NBS CIRC 234
     urn: urn:nist:circ:234.supp
   style: v3
-- id: nist.circular.0224
+- id: nist.circular.0798
   identifier:
     _type: pubid:nist:circular
     number: '235'
@@ -2457,7 +2572,7 @@
     human: NBS CIRC 235
     urn: urn:nist:circ:235.supp
   style: v3
-- id: nist.circular.0225
+- id: nist.circular.0799
   identifier:
     _type: pubid:nist:circular
     number: '236'
@@ -2467,7 +2582,7 @@
     human: NBS CIRC 236
     urn: urn:nist:circ:236.supp
   style: v3
-- id: nist.circular.0226
+- id: nist.circular.0800
   identifier:
     _type: pubid:nist:circular
     number: '237'
@@ -2477,7 +2592,7 @@
     human: NBS CIRC 237
     urn: urn:nist:circ:237.supp
   style: v3
-- id: nist.circular.0227
+- id: nist.circular.0801
   identifier:
     _type: pubid:nist:circular
     number: '238'
@@ -2487,7 +2602,7 @@
     human: NBS CIRC 238
     urn: urn:nist:circ:238.supp
   style: v3
-- id: nist.circular.0228
+- id: nist.circular.0802
   identifier:
     _type: pubid:nist:circular
     number: '239'
@@ -2497,7 +2612,7 @@
     human: NBS CIRC 239
     urn: urn:nist:circ:239.supp
   style: v3
-- id: nist.circular.0229
+- id: nist.circular.0803
   identifier:
     _type: pubid:nist:circular
     number: '239'
@@ -2510,7 +2625,7 @@
     human: NBS CIRC 239e2
     urn: urn:nist:circ:239.e2.supp
   style: v3
-- id: nist.circular.0230
+- id: nist.circular.0804
   identifier:
     _type: pubid:nist:circular
     number: '24'
@@ -2520,7 +2635,7 @@
     human: NBS CIRC 24
     urn: urn:nist:circ:24.supp
   style: v3
-- id: nist.circular.0231
+- id: nist.circular.0805
   identifier:
     _type: pubid:nist:circular
     number: '240'
@@ -2530,7 +2645,7 @@
     human: NBS CIRC 240
     urn: urn:nist:circ:240.supp
   style: v3
-- id: nist.circular.0232
+- id: nist.circular.0806
   identifier:
     _type: pubid:nist:circular
     number: '241'
@@ -2540,7 +2655,7 @@
     human: NBS CIRC 241
     urn: urn:nist:circ:241.supp
   style: v3
-- id: nist.circular.0233
+- id: nist.circular.0807
   identifier:
     _type: pubid:nist:circular
     number: '241'
@@ -2553,7 +2668,7 @@
     human: NBS CIRC 241e2
     urn: urn:nist:circ:241.e2.supp
   style: v3
-- id: nist.circular.0234
+- id: nist.circular.0808
   identifier:
     _type: pubid:nist:circular
     number: '242'
@@ -2563,7 +2678,7 @@
     human: NBS CIRC 242
     urn: urn:nist:circ:242.supp
   style: v3
-- id: nist.circular.0235
+- id: nist.circular.0809
   identifier:
     _type: pubid:nist:circular
     number: '242'
@@ -2576,7 +2691,7 @@
     human: NBS CIRC 242e2
     urn: urn:nist:circ:242.e2.supp
   style: v3
-- id: nist.circular.0236
+- id: nist.circular.0810
   identifier:
     _type: pubid:nist:circular
     number: '243'
@@ -2586,7 +2701,7 @@
     human: NBS CIRC 243
     urn: urn:nist:circ:243.supp
   style: v3
-- id: nist.circular.0237
+- id: nist.circular.0811
   identifier:
     _type: pubid:nist:circular
     number: '243'
@@ -2599,7 +2714,7 @@
     human: NBS CIRC 243e2
     urn: urn:nist:circ:243.e2.supp
   style: v3
-- id: nist.circular.0238
+- id: nist.circular.0812
   identifier:
     _type: pubid:nist:circular
     number: '244'
@@ -2609,7 +2724,7 @@
     human: NBS CIRC 244
     urn: urn:nist:circ:244.supp
   style: v3
-- id: nist.circular.0239
+- id: nist.circular.0813
   identifier:
     _type: pubid:nist:circular
     number: '245'
@@ -2619,7 +2734,7 @@
     human: NBS CIRC 245
     urn: urn:nist:circ:245.supp
   style: v3
-- id: nist.circular.0240
+- id: nist.circular.0814
   identifier:
     _type: pubid:nist:circular
     number: '246'
@@ -2629,7 +2744,7 @@
     human: NBS CIRC 246
     urn: urn:nist:circ:246.supp
   style: v3
-- id: nist.circular.0241
+- id: nist.circular.0815
   identifier:
     _type: pubid:nist:circular
     number: '247'
@@ -2639,7 +2754,7 @@
     human: NBS CIRC 247
     urn: urn:nist:circ:247.supp
   style: v3
-- id: nist.circular.0242
+- id: nist.circular.0816
   identifier:
     _type: pubid:nist:circular
     number: '248'
@@ -2649,7 +2764,7 @@
     human: NBS CIRC 248
     urn: urn:nist:circ:248.supp
   style: v3
-- id: nist.circular.0243
+- id: nist.circular.0817
   identifier:
     _type: pubid:nist:circular
     number: '249'
@@ -2659,7 +2774,7 @@
     human: NBS CIRC 249
     urn: urn:nist:circ:249.supp
   style: v3
-- id: nist.circular.0244
+- id: nist.circular.0818
   identifier:
     _type: pubid:nist:circular
     number: '24'
@@ -2672,7 +2787,7 @@
     human: NBS CIRC 24e2
     urn: urn:nist:circ:24.e2.supp
   style: v3
-- id: nist.circular.0245
+- id: nist.circular.0819
   identifier:
     _type: pubid:nist:circular
     number: '24'
@@ -2685,7 +2800,7 @@
     human: NBS CIRC 24e3
     urn: urn:nist:circ:24.e3.supp
   style: v3
-- id: nist.circular.0246
+- id: nist.circular.0820
   identifier:
     _type: pubid:nist:circular
     number: '24'
@@ -2698,7 +2813,23 @@
     human: NBS CIRC 24e4
     urn: urn:nist:circ:24.e4.supp
   style: v3
-- id: nist.circular.0247
+- id: nist.circular.0821
+  identifier:
+    _type: pubid:nist:circular
+    number: '24'
+    edition:
+      type: e
+      id: '4'
+    publisher: NBS
+    series: CIRC
+  representations:
+    human: NBS CIRC 24e4sup
+    urn: urn:nist:circ:24.e4
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 24e4supp
+    style: v3
+- id: nist.circular.0822
   identifier:
     _type: pubid:nist:circular
     number: '24'
@@ -2711,7 +2842,7 @@
     human: NBS CIRC 24e5
     urn: urn:nist:circ:24.e5.supp
   style: v3
-- id: nist.circular.0248
+- id: nist.circular.0823
   identifier:
     _type: pubid:nist:circular
     number: '24'
@@ -2724,7 +2855,7 @@
     human: NBS CIRC 24e6
     urn: urn:nist:circ:24.e6.supp
   style: v3
-- id: nist.circular.0249
+- id: nist.circular.0824
   identifier:
     _type: pubid:nist:circular
     number: '24'
@@ -2737,7 +2868,155 @@
     human: NBS CIRC 24e7
     urn: urn:nist:circ:24.e7.supp
   style: v3
-- id: nist.circular.0250
+- id: nist.circular.0825
+  identifier:
+    _type: pubid:nist:circular
+    number: '24'
+    edition:
+      type: e
+      id: '7'
+    publisher: NBS
+    series: CIRC
+  representations:
+    human: NBS CIRC 24e7sup
+    urn: urn:nist:circ:24.e7
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC sup
+    style: v3
+- id: nist.circular.0826
+  identifier:
+    _type: pubid:nist:circular
+    number: '24'
+    edition:
+      type: e
+      id: '7'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      number: '2'
+  representations:
+    human: NBS CIRC 24e7sup2
+    urn: urn:nist:circ:24.e7.supp-2
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC supJun1925-Jun1926
+    style: v3
+  - spelling: NBS.CIRC.supJun1925-Jun1926
+    style: v3
+- id: nist.circular.0827
+  identifier:
+    _type: pubid:nist:circular
+    number: '24'
+    edition:
+      type: e
+      id: '7'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      number: '3'
+  representations:
+    human: NBS CIRC 24e7sup3
+    urn: urn:nist:circ:24.e7.supp-3
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC supJun1925-Jun1927
+    style: v3
+  - spelling: NBS.CIRC.supJun1925-Jun1927
+    style: v3
+- id: nist.circular.0828
+  identifier:
+    _type: pubid:nist:circular
+    number: '24'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      number: '1'
+  representations:
+    human: NBS CIRC 24sup1
+    urn: urn:nist:circ:24.supp-1
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 24supp1
+    style: v3
+- id: nist.circular.0829
+  identifier:
+    _type: pubid:nist:circular
+    number: '24'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      number: '2'
+  representations:
+    human: NBS CIRC 24sup2
+    urn: urn:nist:circ:24.supp-2
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 24supp2
+    style: v3
+- id: nist.circular.0830
+  identifier:
+    _type: pubid:nist:circular
+    number: '24'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      number: '3'
+  representations:
+    human: NBS CIRC 24sup3
+    urn: urn:nist:circ:24.supp-3
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 24supp3
+    style: v3
+- id: nist.circular.0831
+  identifier:
+    _type: pubid:nist:circular
+    number: '24'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      number: '4'
+  representations:
+    human: NBS CIRC 24sup4
+    urn: urn:nist:circ:24.supp-4
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 24supp4
+    style: v3
+- id: nist.circular.0832
+  identifier:
+    _type: pubid:nist:circular
+    number: '24'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      year: '1924'
+      month: Jan
+  representations:
+    human: NBS CIRC 24supJan1924
+    urn: urn:nist:circ:24.suppJan1924
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 24suppJan1924
+    style: v3
+- id: nist.circular.0833
+  identifier:
+    _type: pubid:nist:circular
+    number: '24'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      year: '1922'
+      month: July
+  representations:
+    human: NBS CIRC 24supJuly1922
+    urn: urn:nist:circ:24.suppJuly1922
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 24suppJuly1922
+    style: v3
+- id: nist.circular.0834
   identifier:
     _type: pubid:nist:circular
     number: '25'
@@ -2747,7 +3026,7 @@
     human: NBS CIRC 25
     urn: urn:nist:circ:25.supp
   style: v3
-- id: nist.circular.0251
+- id: nist.circular.0835
   identifier:
     _type: pubid:nist:circular
     number: '250'
@@ -2757,7 +3036,7 @@
     human: NBS CIRC 250
     urn: urn:nist:circ:250.supp
   style: v3
-- id: nist.circular.0252
+- id: nist.circular.0836
   identifier:
     _type: pubid:nist:circular
     number: '251'
@@ -2767,7 +3046,7 @@
     human: NBS CIRC 251
     urn: urn:nist:circ:251.supp
   style: v3
-- id: nist.circular.0253
+- id: nist.circular.0837
   identifier:
     _type: pubid:nist:circular
     number: '252'
@@ -2777,7 +3056,7 @@
     human: NBS CIRC 252
     urn: urn:nist:circ:252.supp
   style: v3
-- id: nist.circular.0254
+- id: nist.circular.0838
   identifier:
     _type: pubid:nist:circular
     number: '253'
@@ -2787,7 +3066,7 @@
     human: NBS CIRC 253
     urn: urn:nist:circ:253.supp
   style: v3
-- id: nist.circular.0255
+- id: nist.circular.0839
   identifier:
     _type: pubid:nist:circular
     number: '254'
@@ -2797,7 +3076,7 @@
     human: NBS CIRC 254
     urn: urn:nist:circ:254.supp
   style: v3
-- id: nist.circular.0256
+- id: nist.circular.0840
   identifier:
     _type: pubid:nist:circular
     number: '255'
@@ -2807,7 +3086,7 @@
     human: NBS CIRC 255
     urn: urn:nist:circ:255.supp
   style: v3
-- id: nist.circular.0257
+- id: nist.circular.0841
   identifier:
     _type: pubid:nist:circular
     number: '256'
@@ -2817,7 +3096,7 @@
     human: NBS CIRC 256
     urn: urn:nist:circ:256.supp
   style: v3
-- id: nist.circular.0258
+- id: nist.circular.0842
   identifier:
     _type: pubid:nist:circular
     number: '256'
@@ -2830,7 +3109,7 @@
     human: NBS CIRC 256e2
     urn: urn:nist:circ:256.e2.supp
   style: v3
-- id: nist.circular.0259
+- id: nist.circular.0843
   identifier:
     _type: pubid:nist:circular
     number: '257'
@@ -2840,7 +3119,7 @@
     human: NBS CIRC 257
     urn: urn:nist:circ:257.supp
   style: v3
-- id: nist.circular.0260
+- id: nist.circular.0844
   identifier:
     _type: pubid:nist:circular
     number: '258'
@@ -2850,7 +3129,7 @@
     human: NBS CIRC 258
     urn: urn:nist:circ:258.supp
   style: v3
-- id: nist.circular.0261
+- id: nist.circular.0845
   identifier:
     _type: pubid:nist:circular
     number: '258'
@@ -2863,7 +3142,7 @@
     human: NBS CIRC 258e2
     urn: urn:nist:circ:258.e2.supp
   style: v3
-- id: nist.circular.0262
+- id: nist.circular.0846
   identifier:
     _type: pubid:nist:circular
     number: '259'
@@ -2873,7 +3152,87 @@
     human: NBS CIRC 259
     urn: urn:nist:circ:259.supp
   style: v3
-- id: nist.circular.0263
+- id: nist.circular.0847
+  identifier:
+    _type: pubid:nist:circular
+    number: '25'
+    edition:
+      type: e
+      id: '1924'
+    publisher: NBS
+    series: CIRC
+  representations:
+    human: NBS CIRC 25e1924sup
+    urn: urn:nist:circ:25.e1924
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 25suppe1924
+    style: v3
+- id: nist.circular.0848
+  identifier:
+    _type: pubid:nist:circular
+    number: '25'
+    edition:
+      type: e
+      id: '1925'
+    publisher: NBS
+    series: CIRC
+  representations:
+    human: NBS CIRC 25e1925sup
+    urn: urn:nist:circ:25.e1925
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 25suppe1925
+    style: v3
+- id: nist.circular.0849
+  identifier:
+    _type: pubid:nist:circular
+    number: '25'
+    edition:
+      type: e
+      id: '1927'
+    publisher: NBS
+    series: CIRC
+  representations:
+    human: NBS CIRC 25e1927sup
+    urn: urn:nist:circ:25.e1927
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 25suppe1927
+    style: v3
+- id: nist.circular.0850
+  identifier:
+    _type: pubid:nist:circular
+    number: '25'
+    edition:
+      type: e
+      id: '1928'
+    publisher: NBS
+    series: CIRC
+  representations:
+    human: NBS CIRC 25e1928sup
+    urn: urn:nist:circ:25.e1928
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 25suppe1928
+    style: v3
+- id: nist.circular.0851
+  identifier:
+    _type: pubid:nist:circular
+    number: '25'
+    edition:
+      type: e
+      id: '1929'
+    publisher: NBS
+    series: CIRC
+  representations:
+    human: NBS CIRC 25e1929sup
+    urn: urn:nist:circ:25.e1929
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 25suppe1929
+    style: v3
+- id: nist.circular.0852
   identifier:
     _type: pubid:nist:circular
     number: '25'
@@ -2886,7 +3245,7 @@
     human: NBS CIRC 25e2
     urn: urn:nist:circ:25.e2.supp
   style: v3
-- id: nist.circular.0264
+- id: nist.circular.0853
   identifier:
     _type: pubid:nist:circular
     number: '25'
@@ -2899,7 +3258,7 @@
     human: NBS CIRC 25e3
     urn: urn:nist:circ:25.e3.supp
   style: v3
-- id: nist.circular.0265
+- id: nist.circular.0854
   identifier:
     _type: pubid:nist:circular
     number: '25'
@@ -2912,7 +3271,7 @@
     human: NBS CIRC 25e4
     urn: urn:nist:circ:25.e4.supp
   style: v3
-- id: nist.circular.0266
+- id: nist.circular.0855
   identifier:
     _type: pubid:nist:circular
     number: '25'
@@ -2925,7 +3284,7 @@
     human: NBS CIRC 25e5
     urn: urn:nist:circ:25.e5.supp
   style: v3
-- id: nist.circular.0267
+- id: nist.circular.0856
   identifier:
     _type: pubid:nist:circular
     number: '25'
@@ -2938,7 +3297,7 @@
     human: NBS CIRC 25e6
     urn: urn:nist:circ:25.e6.supp
   style: v3
-- id: nist.circular.0268
+- id: nist.circular.0857
   identifier:
     _type: pubid:nist:circular
     number: '25'
@@ -2951,7 +3310,7 @@
     human: NBS CIRC 25e7
     urn: urn:nist:circ:25.e7.supp
   style: v3
-- id: nist.circular.0269
+- id: nist.circular.0858
   identifier:
     _type: pubid:nist:circular
     number: '25'
@@ -2964,7 +3323,7 @@
     human: NBS CIRC 25e8
     urn: urn:nist:circ:25.e8.supp
   style: v3
-- id: nist.circular.0270
+- id: nist.circular.0859
   identifier:
     _type: pubid:nist:circular
     number: '25'
@@ -2977,7 +3336,7 @@
     human: NBS CIRC 25e9
     urn: urn:nist:circ:25.e9.supp
   style: v3
-- id: nist.circular.0271
+- id: nist.circular.0860
   identifier:
     _type: pubid:nist:circular
     number: '25'
@@ -2988,7 +3347,95 @@
     human: NBS CIRC 25insert
     urn: urn:nist:circ:25.supp.insert
   style: v3
-- id: nist.circular.0272
+- id: nist.circular.0861
+  identifier:
+    _type: pubid:nist:circular
+    number: '25'
+    publisher: NBS
+    series: CIRC
+  representations:
+    human: NBS CIRC 25sup
+    urn: urn:nist:circ:25
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 25supp
+    style: v3
+- id: nist.circular.0862
+  identifier:
+    _type: pubid:nist:circular
+    number: '25'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      year: '1924'
+  representations:
+    human: NBS CIRC 25sup1924
+    urn: urn:nist:circ:25.supp-1924
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 25supp-1924
+    style: v3
+- id: nist.circular.0863
+  identifier:
+    _type: pubid:nist:circular
+    number: '25'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      year: '1925'
+  representations:
+    human: NBS CIRC 25sup1925
+    urn: urn:nist:circ:25.supp-1925
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 25supp-1925
+    style: v3
+- id: nist.circular.0864
+  identifier:
+    _type: pubid:nist:circular
+    number: '25'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      year: '1927'
+  representations:
+    human: NBS CIRC 25sup1927
+    urn: urn:nist:circ:25.supp-1927
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 25supp-1927
+    style: v3
+- id: nist.circular.0865
+  identifier:
+    _type: pubid:nist:circular
+    number: '25'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      year: '1928'
+  representations:
+    human: NBS CIRC 25sup1928
+    urn: urn:nist:circ:25.supp-1928
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 25supp-1928
+    style: v3
+- id: nist.circular.0866
+  identifier:
+    _type: pubid:nist:circular
+    number: '25'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      year: '1929'
+  representations:
+    human: NBS CIRC 25sup1929
+    urn: urn:nist:circ:25.supp-1929
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 25supp-1929
+    style: v3
+- id: nist.circular.0867
   identifier:
     _type: pubid:nist:circular
     number: '26'
@@ -2998,7 +3445,7 @@
     human: NBS CIRC 26
     urn: urn:nist:circ:26.supp
   style: v3
-- id: nist.circular.0273
+- id: nist.circular.0868
   identifier:
     _type: pubid:nist:circular
     number: '260'
@@ -3008,7 +3455,7 @@
     human: NBS CIRC 260
     urn: urn:nist:circ:260.supp
   style: v3
-- id: nist.circular.0274
+- id: nist.circular.0869
   identifier:
     _type: pubid:nist:circular
     number: '261'
@@ -3018,7 +3465,7 @@
     human: NBS CIRC 261
     urn: urn:nist:circ:261.supp
   style: v3
-- id: nist.circular.0275
+- id: nist.circular.0870
   identifier:
     _type: pubid:nist:circular
     number: '261'
@@ -3031,7 +3478,7 @@
     human: NBS CIRC 261e2
     urn: urn:nist:circ:261.e2.supp
   style: v3
-- id: nist.circular.0276
+- id: nist.circular.0871
   identifier:
     _type: pubid:nist:circular
     number: '262'
@@ -3041,7 +3488,7 @@
     human: NBS CIRC 262
     urn: urn:nist:circ:262.supp
   style: v3
-- id: nist.circular.0277
+- id: nist.circular.0872
   identifier:
     _type: pubid:nist:circular
     number: '263'
@@ -3051,7 +3498,7 @@
     human: NBS CIRC 263
     urn: urn:nist:circ:263.supp
   style: v3
-- id: nist.circular.0278
+- id: nist.circular.0873
   identifier:
     _type: pubid:nist:circular
     number: '264'
@@ -3061,7 +3508,7 @@
     human: NBS CIRC 264
     urn: urn:nist:circ:264.supp
   style: v3
-- id: nist.circular.0279
+- id: nist.circular.0874
   identifier:
     _type: pubid:nist:circular
     number: '264'
@@ -3074,7 +3521,7 @@
     human: NBS CIRC 264e2
     urn: urn:nist:circ:264.e2.supp
   style: v3
-- id: nist.circular.0280
+- id: nist.circular.0875
   identifier:
     _type: pubid:nist:circular
     number: '265'
@@ -3084,7 +3531,7 @@
     human: NBS CIRC 265
     urn: urn:nist:circ:265.supp
   style: v3
-- id: nist.circular.0281
+- id: nist.circular.0876
   identifier:
     _type: pubid:nist:circular
     number: '265'
@@ -3097,7 +3544,7 @@
     human: NBS CIRC 265e2
     urn: urn:nist:circ:265.e2.supp
   style: v3
-- id: nist.circular.0282
+- id: nist.circular.0877
   identifier:
     _type: pubid:nist:circular
     number: '266'
@@ -3107,7 +3554,7 @@
     human: NBS CIRC 266
     urn: urn:nist:circ:266.supp
   style: v3
-- id: nist.circular.0283
+- id: nist.circular.0878
   identifier:
     _type: pubid:nist:circular
     number: '267'
@@ -3117,7 +3564,7 @@
     human: NBS CIRC 267
     urn: urn:nist:circ:267.supp
   style: v3
-- id: nist.circular.0284
+- id: nist.circular.0879
   identifier:
     _type: pubid:nist:circular
     number: '268'
@@ -3127,7 +3574,7 @@
     human: NBS CIRC 268
     urn: urn:nist:circ:268.supp
   style: v3
-- id: nist.circular.0285
+- id: nist.circular.0880
   identifier:
     _type: pubid:nist:circular
     number: '269'
@@ -3137,7 +3584,7 @@
     human: NBS CIRC 269
     urn: urn:nist:circ:269.supp
   style: v3
-- id: nist.circular.0286
+- id: nist.circular.0881
   identifier:
     _type: pubid:nist:circular
     number: '26'
@@ -3150,7 +3597,7 @@
     human: NBS CIRC 26e2
     urn: urn:nist:circ:26.e2.supp
   style: v3
-- id: nist.circular.0287
+- id: nist.circular.0882
   identifier:
     _type: pubid:nist:circular
     number: '26'
@@ -3163,7 +3610,7 @@
     human: NBS CIRC 26e3
     urn: urn:nist:circ:26.e3.supp
   style: v3
-- id: nist.circular.0288
+- id: nist.circular.0883
   identifier:
     _type: pubid:nist:circular
     number: '26'
@@ -3176,7 +3623,7 @@
     human: NBS CIRC 26e4
     urn: urn:nist:circ:26.e4.supp
   style: v3
-- id: nist.circular.0289
+- id: nist.circular.0884
   identifier:
     _type: pubid:nist:circular
     number: '27'
@@ -3186,7 +3633,7 @@
     human: NBS CIRC 27
     urn: urn:nist:circ:27.supp
   style: v3
-- id: nist.circular.0290
+- id: nist.circular.0885
   identifier:
     _type: pubid:nist:circular
     number: '270'
@@ -3196,7 +3643,7 @@
     human: NBS CIRC 270
     urn: urn:nist:circ:270.supp
   style: v3
-- id: nist.circular.0291
+- id: nist.circular.0886
   identifier:
     _type: pubid:nist:circular
     number: '271'
@@ -3206,7 +3653,7 @@
     human: NBS CIRC 271
     urn: urn:nist:circ:271.supp
   style: v3
-- id: nist.circular.0292
+- id: nist.circular.0887
   identifier:
     _type: pubid:nist:circular
     number: '272'
@@ -3216,7 +3663,7 @@
     human: NBS CIRC 272
     urn: urn:nist:circ:272.supp
   style: v3
-- id: nist.circular.0293
+- id: nist.circular.0888
   identifier:
     _type: pubid:nist:circular
     number: '273'
@@ -3226,7 +3673,7 @@
     human: NBS CIRC 273
     urn: urn:nist:circ:273.supp
   style: v3
-- id: nist.circular.0294
+- id: nist.circular.0889
   identifier:
     _type: pubid:nist:circular
     number: '274'
@@ -3236,7 +3683,7 @@
     human: NBS CIRC 274
     urn: urn:nist:circ:274.supp
   style: v3
-- id: nist.circular.0295
+- id: nist.circular.0890
   identifier:
     _type: pubid:nist:circular
     number: '275'
@@ -3246,7 +3693,7 @@
     human: NBS CIRC 275
     urn: urn:nist:circ:275.supp
   style: v3
-- id: nist.circular.0296
+- id: nist.circular.0891
   identifier:
     _type: pubid:nist:circular
     number: '276'
@@ -3256,7 +3703,7 @@
     human: NBS CIRC 276
     urn: urn:nist:circ:276.supp
   style: v3
-- id: nist.circular.0297
+- id: nist.circular.0892
   identifier:
     _type: pubid:nist:circular
     number: '277'
@@ -3266,7 +3713,7 @@
     human: NBS CIRC 277
     urn: urn:nist:circ:277.supp
   style: v3
-- id: nist.circular.0298
+- id: nist.circular.0893
   identifier:
     _type: pubid:nist:circular
     number: '278'
@@ -3276,7 +3723,7 @@
     human: NBS CIRC 278
     urn: urn:nist:circ:278.supp
   style: v3
-- id: nist.circular.0299
+- id: nist.circular.0894
   identifier:
     _type: pubid:nist:circular
     number: '279'
@@ -3286,7 +3733,7 @@
     human: NBS CIRC 279
     urn: urn:nist:circ:279.supp
   style: v3
-- id: nist.circular.0300
+- id: nist.circular.0895
   identifier:
     _type: pubid:nist:circular
     number: '27'
@@ -3299,7 +3746,7 @@
     human: NBS CIRC 27e2
     urn: urn:nist:circ:27.e2.supp
   style: v3
-- id: nist.circular.0301
+- id: nist.circular.0896
   identifier:
     _type: pubid:nist:circular
     number: '28'
@@ -3309,7 +3756,7 @@
     human: NBS CIRC 28
     urn: urn:nist:circ:28.supp
   style: v3
-- id: nist.circular.0302
+- id: nist.circular.0897
   identifier:
     _type: pubid:nist:circular
     number: '280'
@@ -3319,7 +3766,7 @@
     human: NBS CIRC 280
     urn: urn:nist:circ:280.supp
   style: v3
-- id: nist.circular.0303
+- id: nist.circular.0898
   identifier:
     _type: pubid:nist:circular
     number: '281'
@@ -3329,7 +3776,7 @@
     human: NBS CIRC 281
     urn: urn:nist:circ:281.supp
   style: v3
-- id: nist.circular.0304
+- id: nist.circular.0899
   identifier:
     _type: pubid:nist:circular
     number: '282'
@@ -3339,7 +3786,7 @@
     human: NBS CIRC 282
     urn: urn:nist:circ:282.supp
   style: v3
-- id: nist.circular.0305
+- id: nist.circular.0900
   identifier:
     _type: pubid:nist:circular
     number: '283'
@@ -3349,7 +3796,7 @@
     human: NBS CIRC 283
     urn: urn:nist:circ:283.supp
   style: v3
-- id: nist.circular.0306
+- id: nist.circular.0901
   identifier:
     _type: pubid:nist:circular
     number: '284'
@@ -3359,7 +3806,7 @@
     human: NBS CIRC 284
     urn: urn:nist:circ:284.supp
   style: v3
-- id: nist.circular.0307
+- id: nist.circular.0902
   identifier:
     _type: pubid:nist:circular
     number: '285'
@@ -3369,7 +3816,7 @@
     human: NBS CIRC 285
     urn: urn:nist:circ:285.supp
   style: v3
-- id: nist.circular.0308
+- id: nist.circular.0903
   identifier:
     _type: pubid:nist:circular
     number: '286'
@@ -3379,7 +3826,7 @@
     human: NBS CIRC 286
     urn: urn:nist:circ:286.supp
   style: v3
-- id: nist.circular.0309
+- id: nist.circular.0904
   identifier:
     _type: pubid:nist:circular
     number: '287'
@@ -3389,7 +3836,7 @@
     human: NBS CIRC 287
     urn: urn:nist:circ:287.supp
   style: v3
-- id: nist.circular.0310
+- id: nist.circular.0905
   identifier:
     _type: pubid:nist:circular
     number: '288'
@@ -3399,7 +3846,7 @@
     human: NBS CIRC 288
     urn: urn:nist:circ:288.supp
   style: v3
-- id: nist.circular.0311
+- id: nist.circular.0906
   identifier:
     _type: pubid:nist:circular
     number: '288'
@@ -3412,7 +3859,7 @@
     human: NBS CIRC 288e2
     urn: urn:nist:circ:288.e2.supp
   style: v3
-- id: nist.circular.0312
+- id: nist.circular.0907
   identifier:
     _type: pubid:nist:circular
     number: '289'
@@ -3422,7 +3869,7 @@
     human: NBS CIRC 289
     urn: urn:nist:circ:289.supp
   style: v3
-- id: nist.circular.0313
+- id: nist.circular.0908
   identifier:
     _type: pubid:nist:circular
     number: '29'
@@ -3432,7 +3879,7 @@
     human: NBS CIRC 29
     urn: urn:nist:circ:29.supp
   style: v3
-- id: nist.circular.0314
+- id: nist.circular.0909
   identifier:
     _type: pubid:nist:circular
     number: '290'
@@ -3442,7 +3889,7 @@
     human: NBS CIRC 290
     urn: urn:nist:circ:290.supp
   style: v3
-- id: nist.circular.0315
+- id: nist.circular.0910
   identifier:
     _type: pubid:nist:circular
     number: '291'
@@ -3452,7 +3899,7 @@
     human: NBS CIRC 291
     urn: urn:nist:circ:291.supp
   style: v3
-- id: nist.circular.0316
+- id: nist.circular.0911
   identifier:
     _type: pubid:nist:circular
     number: '292'
@@ -3462,7 +3909,7 @@
     human: NBS CIRC 292
     urn: urn:nist:circ:292.supp
   style: v3
-- id: nist.circular.0317
+- id: nist.circular.0912
   identifier:
     _type: pubid:nist:circular
     number: '293'
@@ -3472,7 +3919,7 @@
     human: NBS CIRC 293
     urn: urn:nist:circ:293.supp
   style: v3
-- id: nist.circular.0318
+- id: nist.circular.0913
   identifier:
     _type: pubid:nist:circular
     number: '294'
@@ -3482,7 +3929,7 @@
     human: NBS CIRC 294
     urn: urn:nist:circ:294.supp
   style: v3
-- id: nist.circular.0319
+- id: nist.circular.0914
   identifier:
     _type: pubid:nist:circular
     number: '295'
@@ -3492,7 +3939,7 @@
     human: NBS CIRC 295
     urn: urn:nist:circ:295.supp
   style: v3
-- id: nist.circular.0320
+- id: nist.circular.0915
   identifier:
     _type: pubid:nist:circular
     number: '296'
@@ -3502,7 +3949,7 @@
     human: NBS CIRC 296
     urn: urn:nist:circ:296.supp
   style: v3
-- id: nist.circular.0321
+- id: nist.circular.0916
   identifier:
     _type: pubid:nist:circular
     number: '297'
@@ -3512,7 +3959,7 @@
     human: NBS CIRC 297
     urn: urn:nist:circ:297.supp
   style: v3
-- id: nist.circular.0322
+- id: nist.circular.0917
   identifier:
     _type: pubid:nist:circular
     number: '297'
@@ -3525,7 +3972,7 @@
     human: NBS CIRC 297e2
     urn: urn:nist:circ:297.e2.supp
   style: v3
-- id: nist.circular.0323
+- id: nist.circular.0918
   identifier:
     _type: pubid:nist:circular
     number: '298'
@@ -3535,7 +3982,7 @@
     human: NBS CIRC 298
     urn: urn:nist:circ:298.supp
   style: v3
-- id: nist.circular.0324
+- id: nist.circular.0919
   identifier:
     _type: pubid:nist:circular
     number: '298'
@@ -3548,7 +3995,7 @@
     human: NBS CIRC 298e2
     urn: urn:nist:circ:298.e2.supp
   style: v3
-- id: nist.circular.0325
+- id: nist.circular.0920
   identifier:
     _type: pubid:nist:circular
     number: '299'
@@ -3558,7 +4005,7 @@
     human: NBS CIRC 299
     urn: urn:nist:circ:299.supp
   style: v3
-- id: nist.circular.0326
+- id: nist.circular.0921
   identifier:
     _type: pubid:nist:circular
     number: '299'
@@ -3571,7 +4018,7 @@
     human: NBS CIRC 299e2
     urn: urn:nist:circ:299.e2.supp
   style: v3
-- id: nist.circular.0327
+- id: nist.circular.0922
   identifier:
     _type: pubid:nist:circular
     number: '2'
@@ -3584,7 +4031,7 @@
     human: NBS CIRC 2e3
     urn: urn:nist:circ:2.e3.supp
   style: v3
-- id: nist.circular.0328
+- id: nist.circular.0923
   identifier:
     _type: pubid:nist:circular
     number: '2'
@@ -3597,7 +4044,7 @@
     human: NBS CIRC 2e4
     urn: urn:nist:circ:2.e4.supp
   style: v3
-- id: nist.circular.0329
+- id: nist.circular.0924
   identifier:
     _type: pubid:nist:circular
     number: '2'
@@ -3610,7 +4057,7 @@
     human: NBS CIRC 2e5
     urn: urn:nist:circ:2.e5.supp
   style: v3
-- id: nist.circular.0330
+- id: nist.circular.0925
   identifier:
     _type: pubid:nist:circular
     number: '3'
@@ -3620,7 +4067,7 @@
     human: NBS CIRC 3
     urn: urn:nist:circ:3.supp
   style: v3
-- id: nist.circular.0331
+- id: nist.circular.0926
   identifier:
     _type: pubid:nist:circular
     number: '30'
@@ -3630,7 +4077,7 @@
     human: NBS CIRC 30
     urn: urn:nist:circ:30.supp
   style: v3
-- id: nist.circular.0332
+- id: nist.circular.0927
   identifier:
     _type: pubid:nist:circular
     number: '300'
@@ -3640,7 +4087,7 @@
     human: NBS CIRC 300
     urn: urn:nist:circ:300.supp
   style: v3
-- id: nist.circular.0333
+- id: nist.circular.0928
   identifier:
     _type: pubid:nist:circular
     number: '301'
@@ -3650,7 +4097,7 @@
     human: NBS CIRC 301
     urn: urn:nist:circ:301.supp
   style: v3
-- id: nist.circular.0334
+- id: nist.circular.0929
   identifier:
     _type: pubid:nist:circular
     number: '302'
@@ -3660,7 +4107,7 @@
     human: NBS CIRC 302
     urn: urn:nist:circ:302.supp
   style: v3
-- id: nist.circular.0335
+- id: nist.circular.0930
   identifier:
     _type: pubid:nist:circular
     number: '303'
@@ -3670,7 +4117,7 @@
     human: NBS CIRC 303
     urn: urn:nist:circ:303.supp
   style: v3
-- id: nist.circular.0336
+- id: nist.circular.0931
   identifier:
     _type: pubid:nist:circular
     number: '304'
@@ -3680,7 +4127,7 @@
     human: NBS CIRC 304
     urn: urn:nist:circ:304.supp
   style: v3
-- id: nist.circular.0337
+- id: nist.circular.0932
   identifier:
     _type: pubid:nist:circular
     number: '305'
@@ -3690,7 +4137,7 @@
     human: NBS CIRC 305
     urn: urn:nist:circ:305.supp
   style: v3
-- id: nist.circular.0338
+- id: nist.circular.0933
   identifier:
     _type: pubid:nist:circular
     number: '306'
@@ -3700,7 +4147,7 @@
     human: NBS CIRC 306
     urn: urn:nist:circ:306.supp
   style: v3
-- id: nist.circular.0339
+- id: nist.circular.0934
   identifier:
     _type: pubid:nist:circular
     number: '307'
@@ -3710,7 +4157,7 @@
     human: NBS CIRC 307
     urn: urn:nist:circ:307.supp
   style: v3
-- id: nist.circular.0340
+- id: nist.circular.0935
   identifier:
     _type: pubid:nist:circular
     number: '308'
@@ -3720,7 +4167,7 @@
     human: NBS CIRC 308
     urn: urn:nist:circ:308.supp
   style: v3
-- id: nist.circular.0341
+- id: nist.circular.0936
   identifier:
     _type: pubid:nist:circular
     number: '309'
@@ -3730,7 +4177,7 @@
     human: NBS CIRC 309
     urn: urn:nist:circ:309.supp
   style: v3
-- id: nist.circular.0342
+- id: nist.circular.0937
   identifier:
     _type: pubid:nist:circular
     number: '30'
@@ -3743,7 +4190,7 @@
     human: NBS CIRC 30e2
     urn: urn:nist:circ:30.e2.supp
   style: v3
-- id: nist.circular.0343
+- id: nist.circular.0938
   identifier:
     _type: pubid:nist:circular
     number: '31'
@@ -3753,7 +4200,7 @@
     human: NBS CIRC 31
     urn: urn:nist:circ:31.supp
   style: v3
-- id: nist.circular.0344
+- id: nist.circular.0939
   identifier:
     _type: pubid:nist:circular
     number: '310'
@@ -3763,7 +4210,7 @@
     human: NBS CIRC 310
     urn: urn:nist:circ:310.supp
   style: v3
-- id: nist.circular.0345
+- id: nist.circular.0940
   identifier:
     _type: pubid:nist:circular
     number: '311'
@@ -3773,7 +4220,7 @@
     human: NBS CIRC 311
     urn: urn:nist:circ:311.supp
   style: v3
-- id: nist.circular.0346
+- id: nist.circular.0941
   identifier:
     _type: pubid:nist:circular
     number: '312'
@@ -3783,7 +4230,7 @@
     human: NBS CIRC 312
     urn: urn:nist:circ:312.supp
   style: v3
-- id: nist.circular.0347
+- id: nist.circular.0942
   identifier:
     _type: pubid:nist:circular
     number: '313'
@@ -3793,7 +4240,7 @@
     human: NBS CIRC 313
     urn: urn:nist:circ:313.supp
   style: v3
-- id: nist.circular.0348
+- id: nist.circular.0943
   identifier:
     _type: pubid:nist:circular
     number: '314'
@@ -3803,7 +4250,7 @@
     human: NBS CIRC 314
     urn: urn:nist:circ:314.supp
   style: v3
-- id: nist.circular.0349
+- id: nist.circular.0944
   identifier:
     _type: pubid:nist:circular
     number: '315'
@@ -3813,7 +4260,7 @@
     human: NBS CIRC 315
     urn: urn:nist:circ:315.supp
   style: v3
-- id: nist.circular.0350
+- id: nist.circular.0945
   identifier:
     _type: pubid:nist:circular
     number: '316'
@@ -3823,7 +4270,7 @@
     human: NBS CIRC 316
     urn: urn:nist:circ:316.supp
   style: v3
-- id: nist.circular.0351
+- id: nist.circular.0946
   identifier:
     _type: pubid:nist:circular
     number: '317'
@@ -3833,7 +4280,7 @@
     human: NBS CIRC 317
     urn: urn:nist:circ:317.supp
   style: v3
-- id: nist.circular.0352
+- id: nist.circular.0947
   identifier:
     _type: pubid:nist:circular
     number: '318'
@@ -3843,7 +4290,7 @@
     human: NBS CIRC 318
     urn: urn:nist:circ:318.supp
   style: v3
-- id: nist.circular.0353
+- id: nist.circular.0948
   identifier:
     _type: pubid:nist:circular
     number: '319'
@@ -3853,7 +4300,7 @@
     human: NBS CIRC 319
     urn: urn:nist:circ:319.supp
   style: v3
-- id: nist.circular.0354
+- id: nist.circular.0949
   identifier:
     _type: pubid:nist:circular
     number: '319'
@@ -3866,7 +4313,7 @@
     human: NBS CIRC 319e2
     urn: urn:nist:circ:319.e2.supp
   style: v3
-- id: nist.circular.0355
+- id: nist.circular.0950
   identifier:
     _type: pubid:nist:circular
     number: '319'
@@ -3879,7 +4326,7 @@
     human: NBS CIRC 319e3
     urn: urn:nist:circ:319.e3.supp
   style: v3
-- id: nist.circular.0356
+- id: nist.circular.0951
   identifier:
     _type: pubid:nist:circular
     number: '31'
@@ -3892,7 +4339,7 @@
     human: NBS CIRC 31e2
     urn: urn:nist:circ:31.e2.supp
   style: v3
-- id: nist.circular.0357
+- id: nist.circular.0952
   identifier:
     _type: pubid:nist:circular
     number: '31'
@@ -3905,7 +4352,7 @@
     human: NBS CIRC 31e3
     urn: urn:nist:circ:31.e3.supp
   style: v3
-- id: nist.circular.0358
+- id: nist.circular.0953
   identifier:
     _type: pubid:nist:circular
     number: '31'
@@ -3918,7 +4365,7 @@
     human: NBS CIRC 31e4
     urn: urn:nist:circ:31.e4.supp
   style: v3
-- id: nist.circular.0359
+- id: nist.circular.0954
   identifier:
     _type: pubid:nist:circular
     number: '32'
@@ -3928,7 +4375,7 @@
     human: NBS CIRC 32
     urn: urn:nist:circ:32.supp
   style: v3
-- id: nist.circular.0360
+- id: nist.circular.0955
   identifier:
     _type: pubid:nist:circular
     number: '320'
@@ -3938,7 +4385,7 @@
     human: NBS CIRC 320
     urn: urn:nist:circ:320.supp
   style: v3
-- id: nist.circular.0361
+- id: nist.circular.0956
   identifier:
     _type: pubid:nist:circular
     number: '321'
@@ -3948,7 +4395,7 @@
     human: NBS CIRC 321
     urn: urn:nist:circ:321.supp
   style: v3
-- id: nist.circular.0362
+- id: nist.circular.0957
   identifier:
     _type: pubid:nist:circular
     number: '322'
@@ -3958,7 +4405,7 @@
     human: NBS CIRC 322
     urn: urn:nist:circ:322.supp
   style: v3
-- id: nist.circular.0363
+- id: nist.circular.0958
   identifier:
     _type: pubid:nist:circular
     number: '323'
@@ -3968,7 +4415,7 @@
     human: NBS CIRC 323
     urn: urn:nist:circ:323.supp
   style: v3
-- id: nist.circular.0364
+- id: nist.circular.0959
   identifier:
     _type: pubid:nist:circular
     number: '324'
@@ -3978,7 +4425,7 @@
     human: NBS CIRC 324
     urn: urn:nist:circ:324.supp
   style: v3
-- id: nist.circular.0365
+- id: nist.circular.0960
   identifier:
     _type: pubid:nist:circular
     number: '325'
@@ -3988,7 +4435,7 @@
     human: NBS CIRC 325
     urn: urn:nist:circ:325.supp
   style: v3
-- id: nist.circular.0366
+- id: nist.circular.0961
   identifier:
     _type: pubid:nist:circular
     number: '326'
@@ -3998,7 +4445,7 @@
     human: NBS CIRC 326
     urn: urn:nist:circ:326.supp
   style: v3
-- id: nist.circular.0367
+- id: nist.circular.0962
   identifier:
     _type: pubid:nist:circular
     number: '327'
@@ -4008,7 +4455,7 @@
     human: NBS CIRC 327
     urn: urn:nist:circ:327.supp
   style: v3
-- id: nist.circular.0368
+- id: nist.circular.0963
   identifier:
     _type: pubid:nist:circular
     number: '328'
@@ -4018,7 +4465,7 @@
     human: NBS CIRC 328
     urn: urn:nist:circ:328.supp
   style: v3
-- id: nist.circular.0369
+- id: nist.circular.0964
   identifier:
     _type: pubid:nist:circular
     number: '329'
@@ -4028,7 +4475,7 @@
     human: NBS CIRC 329
     urn: urn:nist:circ:329.supp
   style: v3
-- id: nist.circular.0370
+- id: nist.circular.0965
   identifier:
     _type: pubid:nist:circular
     number: '32'
@@ -4041,7 +4488,7 @@
     human: NBS CIRC 32e2
     urn: urn:nist:circ:32.e2.supp
   style: v3
-- id: nist.circular.0371
+- id: nist.circular.0966
   identifier:
     _type: pubid:nist:circular
     number: '32'
@@ -4054,7 +4501,7 @@
     human: NBS CIRC 32e3
     urn: urn:nist:circ:32.e3.supp
   style: v3
-- id: nist.circular.0372
+- id: nist.circular.0967
   identifier:
     _type: pubid:nist:circular
     number: '32'
@@ -4067,7 +4514,7 @@
     human: NBS CIRC 32e4
     urn: urn:nist:circ:32.e4.supp
   style: v3
-- id: nist.circular.0373
+- id: nist.circular.0968
   identifier:
     _type: pubid:nist:circular
     number: '33'
@@ -4077,7 +4524,7 @@
     human: NBS CIRC 33
     urn: urn:nist:circ:33.supp
   style: v3
-- id: nist.circular.0374
+- id: nist.circular.0969
   identifier:
     _type: pubid:nist:circular
     number: '330'
@@ -4087,7 +4534,7 @@
     human: NBS CIRC 330
     urn: urn:nist:circ:330.supp
   style: v3
-- id: nist.circular.0375
+- id: nist.circular.0970
   identifier:
     _type: pubid:nist:circular
     number: '331'
@@ -4097,7 +4544,7 @@
     human: NBS CIRC 331
     urn: urn:nist:circ:331.supp
   style: v3
-- id: nist.circular.0376
+- id: nist.circular.0971
   identifier:
     _type: pubid:nist:circular
     number: '332'
@@ -4107,7 +4554,7 @@
     human: NBS CIRC 332
     urn: urn:nist:circ:332.supp
   style: v3
-- id: nist.circular.0377
+- id: nist.circular.0972
   identifier:
     _type: pubid:nist:circular
     number: '333'
@@ -4117,7 +4564,7 @@
     human: NBS CIRC 333
     urn: urn:nist:circ:333.supp
   style: v3
-- id: nist.circular.0378
+- id: nist.circular.0973
   identifier:
     _type: pubid:nist:circular
     number: '333'
@@ -4130,7 +4577,7 @@
     human: NBS CIRC 333e2
     urn: urn:nist:circ:333.e2.supp
   style: v3
-- id: nist.circular.0379
+- id: nist.circular.0974
   identifier:
     _type: pubid:nist:circular
     number: '334'
@@ -4140,7 +4587,7 @@
     human: NBS CIRC 334
     urn: urn:nist:circ:334.supp
   style: v3
-- id: nist.circular.0380
+- id: nist.circular.0975
   identifier:
     _type: pubid:nist:circular
     number: '335'
@@ -4150,7 +4597,7 @@
     human: NBS CIRC 335
     urn: urn:nist:circ:335.supp
   style: v3
-- id: nist.circular.0381
+- id: nist.circular.0976
   identifier:
     _type: pubid:nist:circular
     number: '336'
@@ -4160,7 +4607,7 @@
     human: NBS CIRC 336
     urn: urn:nist:circ:336.supp
   style: v3
-- id: nist.circular.0382
+- id: nist.circular.0977
   identifier:
     _type: pubid:nist:circular
     number: '337'
@@ -4170,7 +4617,7 @@
     human: NBS CIRC 337
     urn: urn:nist:circ:337.supp
   style: v3
-- id: nist.circular.0383
+- id: nist.circular.0978
   identifier:
     _type: pubid:nist:circular
     number: '338'
@@ -4180,7 +4627,7 @@
     human: NBS CIRC 338
     urn: urn:nist:circ:338.supp
   style: v3
-- id: nist.circular.0384
+- id: nist.circular.0979
   identifier:
     _type: pubid:nist:circular
     number: '339'
@@ -4190,7 +4637,7 @@
     human: NBS CIRC 339
     urn: urn:nist:circ:339.supp
   style: v3
-- id: nist.circular.0385
+- id: nist.circular.0980
   identifier:
     _type: pubid:nist:circular
     number: '33'
@@ -4203,7 +4650,7 @@
     human: NBS CIRC 33e2
     urn: urn:nist:circ:33.e2.supp
   style: v3
-- id: nist.circular.0386
+- id: nist.circular.0981
   identifier:
     _type: pubid:nist:circular
     number: '33'
@@ -4216,7 +4663,7 @@
     human: NBS CIRC 33e3
     urn: urn:nist:circ:33.e3.supp
   style: v3
-- id: nist.circular.0387
+- id: nist.circular.0982
   identifier:
     _type: pubid:nist:circular
     number: '33'
@@ -4229,7 +4676,7 @@
     human: NBS CIRC 33e4
     urn: urn:nist:circ:33.e4.supp
   style: v3
-- id: nist.circular.0388
+- id: nist.circular.0983
   identifier:
     _type: pubid:nist:circular
     number: '34'
@@ -4239,7 +4686,7 @@
     human: NBS CIRC 34
     urn: urn:nist:circ:34.supp
   style: v3
-- id: nist.circular.0389
+- id: nist.circular.0984
   identifier:
     _type: pubid:nist:circular
     number: '340'
@@ -4249,7 +4696,7 @@
     human: NBS CIRC 340
     urn: urn:nist:circ:340.supp
   style: v3
-- id: nist.circular.0390
+- id: nist.circular.0985
   identifier:
     _type: pubid:nist:circular
     number: '341'
@@ -4259,7 +4706,7 @@
     human: NBS CIRC 341
     urn: urn:nist:circ:341.supp
   style: v3
-- id: nist.circular.0391
+- id: nist.circular.0986
   identifier:
     _type: pubid:nist:circular
     number: '342'
@@ -4269,7 +4716,7 @@
     human: NBS CIRC 342
     urn: urn:nist:circ:342.supp
   style: v3
-- id: nist.circular.0392
+- id: nist.circular.0987
   identifier:
     _type: pubid:nist:circular
     number: '343'
@@ -4279,7 +4726,7 @@
     human: NBS CIRC 343
     urn: urn:nist:circ:343.supp
   style: v3
-- id: nist.circular.0393
+- id: nist.circular.0988
   identifier:
     _type: pubid:nist:circular
     number: '344'
@@ -4289,7 +4736,7 @@
     human: NBS CIRC 344
     urn: urn:nist:circ:344.supp
   style: v3
-- id: nist.circular.0394
+- id: nist.circular.0989
   identifier:
     _type: pubid:nist:circular
     number: '345'
@@ -4299,7 +4746,7 @@
     human: NBS CIRC 345
     urn: urn:nist:circ:345.supp
   style: v3
-- id: nist.circular.0395
+- id: nist.circular.0990
   identifier:
     _type: pubid:nist:circular
     number: '346'
@@ -4309,7 +4756,7 @@
     human: NBS CIRC 346
     urn: urn:nist:circ:346.supp
   style: v3
-- id: nist.circular.0396
+- id: nist.circular.0991
   identifier:
     _type: pubid:nist:circular
     number: '347'
@@ -4319,7 +4766,7 @@
     human: NBS CIRC 347
     urn: urn:nist:circ:347.supp
   style: v3
-- id: nist.circular.0397
+- id: nist.circular.0992
   identifier:
     _type: pubid:nist:circular
     number: '348'
@@ -4329,7 +4776,7 @@
     human: NBS CIRC 348
     urn: urn:nist:circ:348.supp
   style: v3
-- id: nist.circular.0398
+- id: nist.circular.0993
   identifier:
     _type: pubid:nist:circular
     number: '349'
@@ -4339,7 +4786,7 @@
     human: NBS CIRC 349
     urn: urn:nist:circ:349.supp
   style: v3
-- id: nist.circular.0399
+- id: nist.circular.0994
   identifier:
     _type: pubid:nist:circular
     number: '34'
@@ -4352,7 +4799,7 @@
     human: NBS CIRC 34e2
     urn: urn:nist:circ:34.e2.supp
   style: v3
-- id: nist.circular.0400
+- id: nist.circular.0995
   identifier:
     _type: pubid:nist:circular
     number: '34'
@@ -4365,7 +4812,7 @@
     human: NBS CIRC 34e3
     urn: urn:nist:circ:34.e3.supp
   style: v3
-- id: nist.circular.0401
+- id: nist.circular.0996
   identifier:
     _type: pubid:nist:circular
     number: '35'
@@ -4375,7 +4822,7 @@
     human: NBS CIRC 35
     urn: urn:nist:circ:35.supp
   style: v3
-- id: nist.circular.0402
+- id: nist.circular.0997
   identifier:
     _type: pubid:nist:circular
     number: '350'
@@ -4385,7 +4832,7 @@
     human: NBS CIRC 350
     urn: urn:nist:circ:350.supp
   style: v3
-- id: nist.circular.0403
+- id: nist.circular.0998
   identifier:
     _type: pubid:nist:circular
     number: '351'
@@ -4395,7 +4842,7 @@
     human: NBS CIRC 351
     urn: urn:nist:circ:351.supp
   style: v3
-- id: nist.circular.0404
+- id: nist.circular.0999
   identifier:
     _type: pubid:nist:circular
     number: '352'
@@ -4405,7 +4852,7 @@
     human: NBS CIRC 352
     urn: urn:nist:circ:352.supp
   style: v3
-- id: nist.circular.0405
+- id: nist.circular.1000
   identifier:
     _type: pubid:nist:circular
     number: '353'
@@ -4415,7 +4862,7 @@
     human: NBS CIRC 353
     urn: urn:nist:circ:353.supp
   style: v3
-- id: nist.circular.0406
+- id: nist.circular.1001
   identifier:
     _type: pubid:nist:circular
     number: '354'
@@ -4425,7 +4872,7 @@
     human: NBS CIRC 354
     urn: urn:nist:circ:354.supp
   style: v3
-- id: nist.circular.0407
+- id: nist.circular.1002
   identifier:
     _type: pubid:nist:circular
     number: '355'
@@ -4435,7 +4882,7 @@
     human: NBS CIRC 355
     urn: urn:nist:circ:355.supp
   style: v3
-- id: nist.circular.0408
+- id: nist.circular.1003
   identifier:
     _type: pubid:nist:circular
     number: '356'
@@ -4445,7 +4892,7 @@
     human: NBS CIRC 356
     urn: urn:nist:circ:356.supp
   style: v3
-- id: nist.circular.0409
+- id: nist.circular.1004
   identifier:
     _type: pubid:nist:circular
     number: '357'
@@ -4455,7 +4902,7 @@
     human: NBS CIRC 357
     urn: urn:nist:circ:357.supp
   style: v3
-- id: nist.circular.0410
+- id: nist.circular.1005
   identifier:
     _type: pubid:nist:circular
     number: '358'
@@ -4465,7 +4912,7 @@
     human: NBS CIRC 358
     urn: urn:nist:circ:358.supp
   style: v3
-- id: nist.circular.0411
+- id: nist.circular.1006
   identifier:
     _type: pubid:nist:circular
     number: '359'
@@ -4475,7 +4922,7 @@
     human: NBS CIRC 359
     urn: urn:nist:circ:359.supp
   style: v3
-- id: nist.circular.0412
+- id: nist.circular.1007
   identifier:
     _type: pubid:nist:circular
     number: '35'
@@ -4488,7 +4935,7 @@
     human: NBS CIRC 35e2
     urn: urn:nist:circ:35.e2.supp
   style: v3
-- id: nist.circular.0413
+- id: nist.circular.1008
   identifier:
     _type: pubid:nist:circular
     number: '35'
@@ -4501,7 +4948,7 @@
     human: NBS CIRC 35e3
     urn: urn:nist:circ:35.e3.supp
   style: v3
-- id: nist.circular.0414
+- id: nist.circular.1009
   identifier:
     _type: pubid:nist:circular
     number: '36'
@@ -4511,7 +4958,7 @@
     human: NBS CIRC 36
     urn: urn:nist:circ:36.supp
   style: v3
-- id: nist.circular.0415
+- id: nist.circular.1010
   identifier:
     _type: pubid:nist:circular
     number: '360'
@@ -4521,7 +4968,7 @@
     human: NBS CIRC 360
     urn: urn:nist:circ:360.supp
   style: v3
-- id: nist.circular.0416
+- id: nist.circular.1011
   identifier:
     _type: pubid:nist:circular
     number: '361'
@@ -4531,7 +4978,7 @@
     human: NBS CIRC 361
     urn: urn:nist:circ:361.supp
   style: v3
-- id: nist.circular.0417
+- id: nist.circular.1012
   identifier:
     _type: pubid:nist:circular
     number: '362'
@@ -4541,7 +4988,7 @@
     human: NBS CIRC 362
     urn: urn:nist:circ:362.supp
   style: v3
-- id: nist.circular.0418
+- id: nist.circular.1013
   identifier:
     _type: pubid:nist:circular
     number: '363'
@@ -4551,7 +4998,7 @@
     human: NBS CIRC 363
     urn: urn:nist:circ:363.supp
   style: v3
-- id: nist.circular.0419
+- id: nist.circular.1014
   identifier:
     _type: pubid:nist:circular
     number: '364'
@@ -4561,7 +5008,7 @@
     human: NBS CIRC 364
     urn: urn:nist:circ:364.supp
   style: v3
-- id: nist.circular.0420
+- id: nist.circular.1015
   identifier:
     _type: pubid:nist:circular
     number: '365'
@@ -4571,7 +5018,7 @@
     human: NBS CIRC 365
     urn: urn:nist:circ:365.supp
   style: v3
-- id: nist.circular.0421
+- id: nist.circular.1016
   identifier:
     _type: pubid:nist:circular
     number: '366'
@@ -4581,7 +5028,7 @@
     human: NBS CIRC 366
     urn: urn:nist:circ:366.supp
   style: v3
-- id: nist.circular.0422
+- id: nist.circular.1017
   identifier:
     _type: pubid:nist:circular
     number: '367'
@@ -4591,7 +5038,7 @@
     human: NBS CIRC 367
     urn: urn:nist:circ:367.supp
   style: v3
-- id: nist.circular.0423
+- id: nist.circular.1018
   identifier:
     _type: pubid:nist:circular
     number: '368'
@@ -4601,7 +5048,7 @@
     human: NBS CIRC 368
     urn: urn:nist:circ:368.supp
   style: v3
-- id: nist.circular.0424
+- id: nist.circular.1019
   identifier:
     _type: pubid:nist:circular
     number: '369'
@@ -4611,7 +5058,7 @@
     human: NBS CIRC 369
     urn: urn:nist:circ:369.supp
   style: v3
-- id: nist.circular.0425
+- id: nist.circular.1020
   identifier:
     _type: pubid:nist:circular
     number: '37'
@@ -4621,7 +5068,7 @@
     human: NBS CIRC 37
     urn: urn:nist:circ:37.supp
   style: v3
-- id: nist.circular.0426
+- id: nist.circular.1021
   identifier:
     _type: pubid:nist:circular
     number: '370'
@@ -4631,7 +5078,7 @@
     human: NBS CIRC 370
     urn: urn:nist:circ:370.supp
   style: v3
-- id: nist.circular.0427
+- id: nist.circular.1022
   identifier:
     _type: pubid:nist:circular
     number: '371'
@@ -4641,7 +5088,7 @@
     human: NBS CIRC 371
     urn: urn:nist:circ:371.supp
   style: v3
-- id: nist.circular.0428
+- id: nist.circular.1023
   identifier:
     _type: pubid:nist:circular
     number: '372'
@@ -4651,7 +5098,7 @@
     human: NBS CIRC 372
     urn: urn:nist:circ:372.supp
   style: v3
-- id: nist.circular.0429
+- id: nist.circular.1024
   identifier:
     _type: pubid:nist:circular
     number: '373'
@@ -4661,7 +5108,7 @@
     human: NBS CIRC 373
     urn: urn:nist:circ:373.supp
   style: v3
-- id: nist.circular.0430
+- id: nist.circular.1025
   identifier:
     _type: pubid:nist:circular
     number: '374'
@@ -4671,7 +5118,7 @@
     human: NBS CIRC 374
     urn: urn:nist:circ:374.supp
   style: v3
-- id: nist.circular.0431
+- id: nist.circular.1026
   identifier:
     _type: pubid:nist:circular
     number: '375'
@@ -4681,7 +5128,7 @@
     human: NBS CIRC 375
     urn: urn:nist:circ:375.supp
   style: v3
-- id: nist.circular.0432
+- id: nist.circular.1027
   identifier:
     _type: pubid:nist:circular
     number: '376'
@@ -4691,7 +5138,7 @@
     human: NBS CIRC 376
     urn: urn:nist:circ:376.supp
   style: v3
-- id: nist.circular.0433
+- id: nist.circular.1028
   identifier:
     _type: pubid:nist:circular
     number: '377'
@@ -4701,7 +5148,7 @@
     human: NBS CIRC 377
     urn: urn:nist:circ:377.supp
   style: v3
-- id: nist.circular.0434
+- id: nist.circular.1029
   identifier:
     _type: pubid:nist:circular
     number: '378'
@@ -4711,7 +5158,7 @@
     human: NBS CIRC 378
     urn: urn:nist:circ:378.supp
   style: v3
-- id: nist.circular.0435
+- id: nist.circular.1030
   identifier:
     _type: pubid:nist:circular
     number: '379'
@@ -4721,7 +5168,7 @@
     human: NBS CIRC 379
     urn: urn:nist:circ:379.supp
   style: v3
-- id: nist.circular.0436
+- id: nist.circular.1031
   identifier:
     _type: pubid:nist:circular
     number: '37'
@@ -4734,7 +5181,7 @@
     human: NBS CIRC 37e2
     urn: urn:nist:circ:37.e2.supp
   style: v3
-- id: nist.circular.0437
+- id: nist.circular.1032
   identifier:
     _type: pubid:nist:circular
     number: '38'
@@ -4744,7 +5191,7 @@
     human: NBS CIRC 38
     urn: urn:nist:circ:38.supp
   style: v3
-- id: nist.circular.0438
+- id: nist.circular.1033
   identifier:
     _type: pubid:nist:circular
     number: '380'
@@ -4754,7 +5201,7 @@
     human: NBS CIRC 380
     urn: urn:nist:circ:380.supp
   style: v3
-- id: nist.circular.0439
+- id: nist.circular.1034
   identifier:
     _type: pubid:nist:circular
     number: '381'
@@ -4764,7 +5211,7 @@
     human: NBS CIRC 381
     urn: urn:nist:circ:381.supp
   style: v3
-- id: nist.circular.0440
+- id: nist.circular.1035
   identifier:
     _type: pubid:nist:circular
     number: '382'
@@ -4774,7 +5221,7 @@
     human: NBS CIRC 382
     urn: urn:nist:circ:382.supp
   style: v3
-- id: nist.circular.0441
+- id: nist.circular.1036
   identifier:
     _type: pubid:nist:circular
     number: '383'
@@ -4784,7 +5231,7 @@
     human: NBS CIRC 383
     urn: urn:nist:circ:383.supp
   style: v3
-- id: nist.circular.0442
+- id: nist.circular.1037
   identifier:
     _type: pubid:nist:circular
     number: '384'
@@ -4794,7 +5241,7 @@
     human: NBS CIRC 384
     urn: urn:nist:circ:384.supp
   style: v3
-- id: nist.circular.0443
+- id: nist.circular.1038
   identifier:
     _type: pubid:nist:circular
     number: '385'
@@ -4804,7 +5251,7 @@
     human: NBS CIRC 385
     urn: urn:nist:circ:385.supp
   style: v3
-- id: nist.circular.0444
+- id: nist.circular.1039
   identifier:
     _type: pubid:nist:circular
     number: '386'
@@ -4814,7 +5261,7 @@
     human: NBS CIRC 386
     urn: urn:nist:circ:386.supp
   style: v3
-- id: nist.circular.0445
+- id: nist.circular.1040
   identifier:
     _type: pubid:nist:circular
     number: '387'
@@ -4824,7 +5271,7 @@
     human: NBS CIRC 387
     urn: urn:nist:circ:387.supp
   style: v3
-- id: nist.circular.0446
+- id: nist.circular.1041
   identifier:
     _type: pubid:nist:circular
     number: '388'
@@ -4834,7 +5281,7 @@
     human: NBS CIRC 388
     urn: urn:nist:circ:388.supp
   style: v3
-- id: nist.circular.0447
+- id: nist.circular.1042
   identifier:
     _type: pubid:nist:circular
     number: '389'
@@ -4844,7 +5291,7 @@
     human: NBS CIRC 389
     urn: urn:nist:circ:389.supp
   style: v3
-- id: nist.circular.0448
+- id: nist.circular.1043
   identifier:
     _type: pubid:nist:circular
     number: '38'
@@ -4857,7 +5304,7 @@
     human: NBS CIRC 38e2
     urn: urn:nist:circ:38.e2.supp
   style: v3
-- id: nist.circular.0449
+- id: nist.circular.1044
   identifier:
     _type: pubid:nist:circular
     number: '38'
@@ -4870,7 +5317,7 @@
     human: NBS CIRC 38e3
     urn: urn:nist:circ:38.e3.supp
   style: v3
-- id: nist.circular.0450
+- id: nist.circular.1045
   identifier:
     _type: pubid:nist:circular
     number: '38'
@@ -4883,7 +5330,7 @@
     human: NBS CIRC 38e4
     urn: urn:nist:circ:38.e4.supp
   style: v3
-- id: nist.circular.0451
+- id: nist.circular.1046
   identifier:
     _type: pubid:nist:circular
     number: '38'
@@ -4896,7 +5343,20 @@
     human: NBS CIRC 38e5
     urn: urn:nist:circ:38.e5.supp
   style: v3
-- id: nist.circular.0452
+- id: nist.circular.1047
+  identifier:
+    _type: pubid:nist:circular
+    number: '38'
+    publisher: NBS
+    series: CIRC
+  representations:
+    human: NBS CIRC 38sup
+    urn: urn:nist:circ:38
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 38supp
+    style: v3
+- id: nist.circular.1048
   identifier:
     _type: pubid:nist:circular
     number: '39'
@@ -4906,7 +5366,7 @@
     human: NBS CIRC 39
     urn: urn:nist:circ:39.supp
   style: v3
-- id: nist.circular.0453
+- id: nist.circular.1049
   identifier:
     _type: pubid:nist:circular
     number: '390'
@@ -4916,7 +5376,7 @@
     human: NBS CIRC 390
     urn: urn:nist:circ:390.supp
   style: v3
-- id: nist.circular.0454
+- id: nist.circular.1050
   identifier:
     _type: pubid:nist:circular
     number: '391'
@@ -4926,7 +5386,7 @@
     human: NBS CIRC 391
     urn: urn:nist:circ:391.supp
   style: v3
-- id: nist.circular.0455
+- id: nist.circular.1051
   identifier:
     _type: pubid:nist:circular
     number: '392'
@@ -4936,7 +5396,7 @@
     human: NBS CIRC 392
     urn: urn:nist:circ:392.supp
   style: v3
-- id: nist.circular.0456
+- id: nist.circular.1052
   identifier:
     _type: pubid:nist:circular
     number: '393'
@@ -4946,7 +5406,7 @@
     human: NBS CIRC 393
     urn: urn:nist:circ:393.supp
   style: v3
-- id: nist.circular.0457
+- id: nist.circular.1053
   identifier:
     _type: pubid:nist:circular
     number: '394'
@@ -4956,7 +5416,7 @@
     human: NBS CIRC 394
     urn: urn:nist:circ:394.supp
   style: v3
-- id: nist.circular.0458
+- id: nist.circular.1054
   identifier:
     _type: pubid:nist:circular
     number: '395'
@@ -4966,7 +5426,7 @@
     human: NBS CIRC 395
     urn: urn:nist:circ:395.supp
   style: v3
-- id: nist.circular.0459
+- id: nist.circular.1055
   identifier:
     _type: pubid:nist:circular
     number: '396'
@@ -4976,7 +5436,7 @@
     human: NBS CIRC 396
     urn: urn:nist:circ:396.supp
   style: v3
-- id: nist.circular.0460
+- id: nist.circular.1056
   identifier:
     _type: pubid:nist:circular
     number: '397'
@@ -4986,7 +5446,7 @@
     human: NBS CIRC 397
     urn: urn:nist:circ:397.supp
   style: v3
-- id: nist.circular.0461
+- id: nist.circular.1057
   identifier:
     _type: pubid:nist:circular
     number: '398'
@@ -4996,7 +5456,67 @@
     human: NBS CIRC 398
     urn: urn:nist:circ:398.supp
   style: v3
-- id: nist.circular.0462
+- id: nist.circular.1058
+  identifier:
+    _type: pubid:nist:circular
+    number: '398'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      year: '1937'
+  representations:
+    human: NBS CIRC 398sup1937
+    urn: urn:nist:circ:398.supp-1937
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 398supp1937
+    style: v3
+- id: nist.circular.1059
+  identifier:
+    _type: pubid:nist:circular
+    number: '398'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      year: '1940'
+  representations:
+    human: NBS CIRC 398sup1940
+    urn: urn:nist:circ:398.supp-1940
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 398supp1940
+    style: v3
+- id: nist.circular.1060
+  identifier:
+    _type: pubid:nist:circular
+    number: '398'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      year: '1942'
+  representations:
+    human: NBS CIRC 398sup1942
+    urn: urn:nist:circ:398.supp-1942
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 398supp1942
+    style: v3
+- id: nist.circular.1061
+  identifier:
+    _type: pubid:nist:circular
+    number: '398'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      year: '1951'
+  representations:
+    human: NBS CIRC 398sup1951
+    urn: urn:nist:circ:398.supp-1951
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 398supp1951
+    style: v3
+- id: nist.circular.1062
   identifier:
     _type: pubid:nist:circular
     number: '399'
@@ -5006,7 +5526,7 @@
     human: NBS CIRC 399
     urn: urn:nist:circ:399.supp
   style: v3
-- id: nist.circular.0463
+- id: nist.circular.1063
   identifier:
     _type: pubid:nist:circular
     number: '3'
@@ -5019,7 +5539,7 @@
     human: NBS CIRC 3e2
     urn: urn:nist:circ:3.e2.supp
   style: v3
-- id: nist.circular.0464
+- id: nist.circular.1064
   identifier:
     _type: pubid:nist:circular
     number: '3'
@@ -5032,7 +5552,7 @@
     human: NBS CIRC 3e3
     urn: urn:nist:circ:3.e3.supp
   style: v3
-- id: nist.circular.0465
+- id: nist.circular.1065
   identifier:
     _type: pubid:nist:circular
     number: '4'
@@ -5042,7 +5562,7 @@
     human: NBS CIRC 4
     urn: urn:nist:circ:4.supp
   style: v3
-- id: nist.circular.0466
+- id: nist.circular.1066
   identifier:
     _type: pubid:nist:circular
     number: '40'
@@ -5052,7 +5572,7 @@
     human: NBS CIRC 40
     urn: urn:nist:circ:40.supp
   style: v3
-- id: nist.circular.0467
+- id: nist.circular.1067
   identifier:
     _type: pubid:nist:circular
     number: '400'
@@ -5062,7 +5582,7 @@
     human: NBS CIRC 400
     urn: urn:nist:circ:400.supp
   style: v3
-- id: nist.circular.0468
+- id: nist.circular.1068
   identifier:
     _type: pubid:nist:circular
     number: '401'
@@ -5072,7 +5592,7 @@
     human: NBS CIRC 401
     urn: urn:nist:circ:401.supp
   style: v3
-- id: nist.circular.0469
+- id: nist.circular.1069
   identifier:
     _type: pubid:nist:circular
     number: '402'
@@ -5082,7 +5602,7 @@
     human: NBS CIRC 402
     urn: urn:nist:circ:402.supp
   style: v3
-- id: nist.circular.0470
+- id: nist.circular.1070
   identifier:
     _type: pubid:nist:circular
     number: '403'
@@ -5092,7 +5612,7 @@
     human: NBS CIRC 403
     urn: urn:nist:circ:403.supp
   style: v3
-- id: nist.circular.0471
+- id: nist.circular.1071
   identifier:
     _type: pubid:nist:circular
     number: '404'
@@ -5102,7 +5622,7 @@
     human: NBS CIRC 404
     urn: urn:nist:circ:404.supp
   style: v3
-- id: nist.circular.0472
+- id: nist.circular.1072
   identifier:
     _type: pubid:nist:circular
     number: '405'
@@ -5112,7 +5632,7 @@
     human: NBS CIRC 405
     urn: urn:nist:circ:405.supp
   style: v3
-- id: nist.circular.0473
+- id: nist.circular.1073
   identifier:
     _type: pubid:nist:circular
     number: '406'
@@ -5122,7 +5642,7 @@
     human: NBS CIRC 406
     urn: urn:nist:circ:406.supp
   style: v3
-- id: nist.circular.0474
+- id: nist.circular.1074
   identifier:
     _type: pubid:nist:circular
     number: '407'
@@ -5132,7 +5652,7 @@
     human: NBS CIRC 407
     urn: urn:nist:circ:407.supp
   style: v3
-- id: nist.circular.0475
+- id: nist.circular.1075
   identifier:
     _type: pubid:nist:circular
     number: '408'
@@ -5142,7 +5662,7 @@
     human: NBS CIRC 408
     urn: urn:nist:circ:408.supp
   style: v3
-- id: nist.circular.0476
+- id: nist.circular.1076
   identifier:
     _type: pubid:nist:circular
     number: '409'
@@ -5152,7 +5672,7 @@
     human: NBS CIRC 409
     urn: urn:nist:circ:409.supp
   style: v3
-- id: nist.circular.0477
+- id: nist.circular.1077
   identifier:
     _type: pubid:nist:circular
     number: '40'
@@ -5165,7 +5685,7 @@
     human: NBS CIRC 40e2
     urn: urn:nist:circ:40.e2.supp
   style: v3
-- id: nist.circular.0478
+- id: nist.circular.1078
   identifier:
     _type: pubid:nist:circular
     number: '40'
@@ -5178,7 +5698,7 @@
     human: NBS CIRC 40e3
     urn: urn:nist:circ:40.e3.supp
   style: v3
-- id: nist.circular.0479
+- id: nist.circular.1079
   identifier:
     _type: pubid:nist:circular
     number: '41'
@@ -5188,7 +5708,7 @@
     human: NBS CIRC 41
     urn: urn:nist:circ:41.supp
   style: v3
-- id: nist.circular.0480
+- id: nist.circular.1080
   identifier:
     _type: pubid:nist:circular
     number: '410'
@@ -5198,7 +5718,20 @@
     human: NBS CIRC 410
     urn: urn:nist:circ:410.supp
   style: v3
-- id: nist.circular.0481
+- id: nist.circular.1081
+  identifier:
+    _type: pubid:nist:circular
+    number: '410'
+    publisher: NBS
+    series: CIRC
+  representations:
+    human: NBS CIRC 410sup
+    urn: urn:nist:circ:410
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 410supp
+    style: v3
+- id: nist.circular.1082
   identifier:
     _type: pubid:nist:circular
     number: '411'
@@ -5208,7 +5741,7 @@
     human: NBS CIRC 411
     urn: urn:nist:circ:411.supp
   style: v3
-- id: nist.circular.0482
+- id: nist.circular.1083
   identifier:
     _type: pubid:nist:circular
     number: '412'
@@ -5218,7 +5751,7 @@
     human: NBS CIRC 412
     urn: urn:nist:circ:412.supp
   style: v3
-- id: nist.circular.0483
+- id: nist.circular.1084
   identifier:
     _type: pubid:nist:circular
     number: '413'
@@ -5228,7 +5761,7 @@
     human: NBS CIRC 413
     urn: urn:nist:circ:413.supp
   style: v3
-- id: nist.circular.0484
+- id: nist.circular.1085
   identifier:
     _type: pubid:nist:circular
     number: '414'
@@ -5238,7 +5771,7 @@
     human: NBS CIRC 414
     urn: urn:nist:circ:414.supp
   style: v3
-- id: nist.circular.0485
+- id: nist.circular.1086
   identifier:
     _type: pubid:nist:circular
     number: '415'
@@ -5248,7 +5781,7 @@
     human: NBS CIRC 415
     urn: urn:nist:circ:415.supp
   style: v3
-- id: nist.circular.0486
+- id: nist.circular.1087
   identifier:
     _type: pubid:nist:circular
     number: '416'
@@ -5258,7 +5791,7 @@
     human: NBS CIRC 416
     urn: urn:nist:circ:416.supp
   style: v3
-- id: nist.circular.0487
+- id: nist.circular.1088
   identifier:
     _type: pubid:nist:circular
     number: '417'
@@ -5268,7 +5801,7 @@
     human: NBS CIRC 417
     urn: urn:nist:circ:417.supp
   style: v3
-- id: nist.circular.0488
+- id: nist.circular.1089
   identifier:
     _type: pubid:nist:circular
     number: '418'
@@ -5278,7 +5811,7 @@
     human: NBS CIRC 418
     urn: urn:nist:circ:418.supp
   style: v3
-- id: nist.circular.0489
+- id: nist.circular.1090
   identifier:
     _type: pubid:nist:circular
     number: '419'
@@ -5288,7 +5821,7 @@
     human: NBS CIRC 419
     urn: urn:nist:circ:419.supp
   style: v3
-- id: nist.circular.0490
+- id: nist.circular.1091
   identifier:
     _type: pubid:nist:circular
     number: '41'
@@ -5301,7 +5834,7 @@
     human: NBS CIRC 41e2
     urn: urn:nist:circ:41.e2.supp
   style: v3
-- id: nist.circular.0491
+- id: nist.circular.1092
   identifier:
     _type: pubid:nist:circular
     number: '41'
@@ -5314,7 +5847,7 @@
     human: NBS CIRC 41e3
     urn: urn:nist:circ:41.e3.supp
   style: v3
-- id: nist.circular.0492
+- id: nist.circular.1093
   identifier:
     _type: pubid:nist:circular
     number: '42'
@@ -5324,7 +5857,7 @@
     human: NBS CIRC 42
     urn: urn:nist:circ:42.supp
   style: v3
-- id: nist.circular.0493
+- id: nist.circular.1094
   identifier:
     _type: pubid:nist:circular
     number: '420'
@@ -5334,7 +5867,7 @@
     human: NBS CIRC 420
     urn: urn:nist:circ:420.supp
   style: v3
-- id: nist.circular.0494
+- id: nist.circular.1095
   identifier:
     _type: pubid:nist:circular
     number: '421'
@@ -5344,7 +5877,7 @@
     human: NBS CIRC 421
     urn: urn:nist:circ:421.supp
   style: v3
-- id: nist.circular.0495
+- id: nist.circular.1096
   identifier:
     _type: pubid:nist:circular
     number: '422'
@@ -5354,7 +5887,7 @@
     human: NBS CIRC 422
     urn: urn:nist:circ:422.supp
   style: v3
-- id: nist.circular.0496
+- id: nist.circular.1097
   identifier:
     _type: pubid:nist:circular
     number: '423'
@@ -5364,7 +5897,7 @@
     human: NBS CIRC 423
     urn: urn:nist:circ:423.supp
   style: v3
-- id: nist.circular.0497
+- id: nist.circular.1098
   identifier:
     _type: pubid:nist:circular
     number: '424'
@@ -5374,7 +5907,7 @@
     human: NBS CIRC 424
     urn: urn:nist:circ:424.supp
   style: v3
-- id: nist.circular.0498
+- id: nist.circular.1099
   identifier:
     _type: pubid:nist:circular
     number: '425'
@@ -5384,7 +5917,7 @@
     human: NBS CIRC 425
     urn: urn:nist:circ:425.supp
   style: v3
-- id: nist.circular.0499
+- id: nist.circular.1100
   identifier:
     _type: pubid:nist:circular
     number: '426'
@@ -5394,7 +5927,7 @@
     human: NBS CIRC 426
     urn: urn:nist:circ:426.supp
   style: v3
-- id: nist.circular.0500
+- id: nist.circular.1101
   identifier:
     _type: pubid:nist:circular
     number: '427'
@@ -5404,7 +5937,7 @@
     human: NBS CIRC 427
     urn: urn:nist:circ:427.supp
   style: v3
-- id: nist.circular.0501
+- id: nist.circular.1102
   identifier:
     _type: pubid:nist:circular
     number: '428'
@@ -5414,7 +5947,7 @@
     human: NBS CIRC 428
     urn: urn:nist:circ:428.supp
   style: v3
-- id: nist.circular.0502
+- id: nist.circular.1103
   identifier:
     _type: pubid:nist:circular
     number: '429'
@@ -5424,7 +5957,7 @@
     human: NBS CIRC 429
     urn: urn:nist:circ:429.supp
   style: v3
-- id: nist.circular.0503
+- id: nist.circular.1104
   identifier:
     _type: pubid:nist:circular
     number: '42'
@@ -5437,7 +5970,7 @@
     human: NBS CIRC 42e2
     urn: urn:nist:circ:42.e2.supp
   style: v3
-- id: nist.circular.0504
+- id: nist.circular.1105
   identifier:
     _type: pubid:nist:circular
     number: '43'
@@ -5447,7 +5980,7 @@
     human: NBS CIRC 43
     urn: urn:nist:circ:43.supp
   style: v3
-- id: nist.circular.0505
+- id: nist.circular.1106
   identifier:
     _type: pubid:nist:circular
     number: '430'
@@ -5457,7 +5990,7 @@
     human: NBS CIRC 430
     urn: urn:nist:circ:430.supp
   style: v3
-- id: nist.circular.0506
+- id: nist.circular.1107
   identifier:
     _type: pubid:nist:circular
     number: '431'
@@ -5467,7 +6000,7 @@
     human: NBS CIRC 431
     urn: urn:nist:circ:431.supp
   style: v3
-- id: nist.circular.0507
+- id: nist.circular.1108
   identifier:
     _type: pubid:nist:circular
     number: '432'
@@ -5477,7 +6010,7 @@
     human: NBS CIRC 432
     urn: urn:nist:circ:432.supp
   style: v3
-- id: nist.circular.0508
+- id: nist.circular.1109
   identifier:
     _type: pubid:nist:circular
     number: '433'
@@ -5487,7 +6020,7 @@
     human: NBS CIRC 433
     urn: urn:nist:circ:433.supp
   style: v3
-- id: nist.circular.0509
+- id: nist.circular.1110
   identifier:
     _type: pubid:nist:circular
     number: '434'
@@ -5497,7 +6030,7 @@
     human: NBS CIRC 434
     urn: urn:nist:circ:434.supp
   style: v3
-- id: nist.circular.0510
+- id: nist.circular.1111
   identifier:
     _type: pubid:nist:circular
     number: '435'
@@ -5507,7 +6040,7 @@
     human: NBS CIRC 435
     urn: urn:nist:circ:435.supp
   style: v3
-- id: nist.circular.0511
+- id: nist.circular.1112
   identifier:
     _type: pubid:nist:circular
     number: '436'
@@ -5517,7 +6050,7 @@
     human: NBS CIRC 436
     urn: urn:nist:circ:436.supp
   style: v3
-- id: nist.circular.0512
+- id: nist.circular.1113
   identifier:
     _type: pubid:nist:circular
     number: '437'
@@ -5527,7 +6060,7 @@
     human: NBS CIRC 437
     urn: urn:nist:circ:437.supp
   style: v3
-- id: nist.circular.0513
+- id: nist.circular.1114
   identifier:
     _type: pubid:nist:circular
     number: '438'
@@ -5537,7 +6070,7 @@
     human: NBS CIRC 438
     urn: urn:nist:circ:438.supp
   style: v3
-- id: nist.circular.0514
+- id: nist.circular.1115
   identifier:
     _type: pubid:nist:circular
     number: '439'
@@ -5547,7 +6080,7 @@
     human: NBS CIRC 439
     urn: urn:nist:circ:439.supp
   style: v3
-- id: nist.circular.0515
+- id: nist.circular.1116
   identifier:
     _type: pubid:nist:circular
     number: '43'
@@ -5560,7 +6093,7 @@
     human: NBS CIRC 43e2
     urn: urn:nist:circ:43.e2.supp
   style: v3
-- id: nist.circular.0516
+- id: nist.circular.1117
   identifier:
     _type: pubid:nist:circular
     number: '44'
@@ -5570,7 +6103,7 @@
     human: NBS CIRC 44
     urn: urn:nist:circ:44.supp
   style: v3
-- id: nist.circular.0517
+- id: nist.circular.1118
   identifier:
     _type: pubid:nist:circular
     number: '440'
@@ -5580,7 +6113,20 @@
     human: NBS CIRC 440
     urn: urn:nist:circ:440.supp
   style: v3
-- id: nist.circular.0518
+- id: nist.circular.1119
+  identifier:
+    _type: pubid:nist:circular
+    number: '440'
+    publisher: NBS
+    series: CIRC
+  representations:
+    human: NBS CIRC 440sup
+    urn: urn:nist:circ:440
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 440supp
+    style: v3
+- id: nist.circular.1120
   identifier:
     _type: pubid:nist:circular
     number: '441'
@@ -5590,7 +6136,7 @@
     human: NBS CIRC 441
     urn: urn:nist:circ:441.supp
   style: v3
-- id: nist.circular.0519
+- id: nist.circular.1121
   identifier:
     _type: pubid:nist:circular
     number: '442'
@@ -5600,7 +6146,7 @@
     human: NBS CIRC 442
     urn: urn:nist:circ:442.supp
   style: v3
-- id: nist.circular.0520
+- id: nist.circular.1122
   identifier:
     _type: pubid:nist:circular
     number: '443'
@@ -5610,7 +6156,7 @@
     human: NBS CIRC 443
     urn: urn:nist:circ:443.supp
   style: v3
-- id: nist.circular.0521
+- id: nist.circular.1123
   identifier:
     _type: pubid:nist:circular
     number: '444'
@@ -5620,7 +6166,7 @@
     human: NBS CIRC 444
     urn: urn:nist:circ:444.supp
   style: v3
-- id: nist.circular.0522
+- id: nist.circular.1124
   identifier:
     _type: pubid:nist:circular
     number: '445'
@@ -5630,7 +6176,7 @@
     human: NBS CIRC 445
     urn: urn:nist:circ:445.supp
   style: v3
-- id: nist.circular.0523
+- id: nist.circular.1125
   identifier:
     _type: pubid:nist:circular
     number: '446'
@@ -5640,7 +6186,7 @@
     human: NBS CIRC 446
     urn: urn:nist:circ:446.supp
   style: v3
-- id: nist.circular.0524
+- id: nist.circular.1126
   identifier:
     _type: pubid:nist:circular
     number: '447'
@@ -5650,7 +6196,7 @@
     human: NBS CIRC 447
     urn: urn:nist:circ:447.supp
   style: v3
-- id: nist.circular.0525
+- id: nist.circular.1127
   identifier:
     _type: pubid:nist:circular
     number: '448'
@@ -5660,7 +6206,7 @@
     human: NBS CIRC 448
     urn: urn:nist:circ:448.supp
   style: v3
-- id: nist.circular.0526
+- id: nist.circular.1128
   identifier:
     _type: pubid:nist:circular
     number: '449'
@@ -5670,7 +6216,7 @@
     human: NBS CIRC 449
     urn: urn:nist:circ:449.supp
   style: v3
-- id: nist.circular.0527
+- id: nist.circular.1129
   identifier:
     _type: pubid:nist:circular
     number: '44'
@@ -5683,7 +6229,7 @@
     human: NBS CIRC 44e2
     urn: urn:nist:circ:44.e2.supp
   style: v3
-- id: nist.circular.0528
+- id: nist.circular.1130
   identifier:
     _type: pubid:nist:circular
     number: '45'
@@ -5693,7 +6239,7 @@
     human: NBS CIRC 45
     urn: urn:nist:circ:45.supp
   style: v3
-- id: nist.circular.0529
+- id: nist.circular.1131
   identifier:
     _type: pubid:nist:circular
     number: '450'
@@ -5703,7 +6249,7 @@
     human: NBS CIRC 450
     urn: urn:nist:circ:450.supp
   style: v3
-- id: nist.circular.0530
+- id: nist.circular.1132
   identifier:
     _type: pubid:nist:circular
     number: '451'
@@ -5713,7 +6259,7 @@
     human: NBS CIRC 451
     urn: urn:nist:circ:451.supp
   style: v3
-- id: nist.circular.0531
+- id: nist.circular.1133
   identifier:
     _type: pubid:nist:circular
     number: '452'
@@ -5723,7 +6269,7 @@
     human: NBS CIRC 452
     urn: urn:nist:circ:452.supp
   style: v3
-- id: nist.circular.0532
+- id: nist.circular.1134
   identifier:
     _type: pubid:nist:circular
     number: '453'
@@ -5733,7 +6279,7 @@
     human: NBS CIRC 453
     urn: urn:nist:circ:453.supp
   style: v3
-- id: nist.circular.0533
+- id: nist.circular.1135
   identifier:
     _type: pubid:nist:circular
     number: '454'
@@ -5743,7 +6289,7 @@
     human: NBS CIRC 454
     urn: urn:nist:circ:454.supp
   style: v3
-- id: nist.circular.0534
+- id: nist.circular.1136
   identifier:
     _type: pubid:nist:circular
     number: '455'
@@ -5753,7 +6299,7 @@
     human: NBS CIRC 455
     urn: urn:nist:circ:455.supp
   style: v3
-- id: nist.circular.0535
+- id: nist.circular.1137
   identifier:
     _type: pubid:nist:circular
     number: '456'
@@ -5763,7 +6309,7 @@
     human: NBS CIRC 456
     urn: urn:nist:circ:456.supp
   style: v3
-- id: nist.circular.0536
+- id: nist.circular.1138
   identifier:
     _type: pubid:nist:circular
     number: '457'
@@ -5773,7 +6319,7 @@
     human: NBS CIRC 457
     urn: urn:nist:circ:457.supp
   style: v3
-- id: nist.circular.0537
+- id: nist.circular.1139
   identifier:
     _type: pubid:nist:circular
     number: '458'
@@ -5783,7 +6329,7 @@
     human: NBS CIRC 458
     urn: urn:nist:circ:458.supp
   style: v3
-- id: nist.circular.0538
+- id: nist.circular.1140
   identifier:
     _type: pubid:nist:circular
     number: '459'
@@ -5793,7 +6339,7 @@
     human: NBS CIRC 459
     urn: urn:nist:circ:459.supp
   style: v3
-- id: nist.circular.0539
+- id: nist.circular.1141
   identifier:
     _type: pubid:nist:circular
     number: '46'
@@ -5803,7 +6349,7 @@
     human: NBS CIRC 46
     urn: urn:nist:circ:46.supp
   style: v3
-- id: nist.circular.0540
+- id: nist.circular.1142
   identifier:
     _type: pubid:nist:circular
     number: '460'
@@ -5813,7 +6359,52 @@
     human: NBS CIRC 460
     urn: urn:nist:circ:460.supp
   style: v3
-- id: nist.circular.0541
+- id: nist.circular.1143
+  identifier:
+    _type: pubid:nist:circular
+    number: '460'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      year: '1958'
+  representations:
+    human: NBS CIRC 460sup1958
+    urn: urn:nist:circ:460.supp-1958
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 460supp1958
+    style: v3
+- id: nist.circular.1144
+  identifier:
+    _type: pubid:nist:circular
+    number: '460'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      year: '1961'
+  representations:
+    human: NBS CIRC 460sup1961
+    urn: urn:nist:circ:460.supp-1961
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 460supp1961
+    style: v3
+- id: nist.circular.1145
+  identifier:
+    _type: pubid:nist:circular
+    number: '460'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      year: '1962'
+  representations:
+    human: NBS CIRC 460sup1962
+    urn: urn:nist:circ:460.supp-1962
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 460supp1962
+    style: v3
+- id: nist.circular.1146
   identifier:
     _type: pubid:nist:circular
     number: '461'
@@ -5823,7 +6414,7 @@
     human: NBS CIRC 461
     urn: urn:nist:circ:461.supp
   style: v3
-- id: nist.circular.0542
+- id: nist.circular.1147
   identifier:
     _type: pubid:nist:circular
     number: '462'
@@ -5833,7 +6424,7 @@
     human: NBS CIRC 462
     urn: urn:nist:circ:462.supp
   style: v3
-- id: nist.circular.0543
+- id: nist.circular.1148
   identifier:
     _type: pubid:nist:circular
     number: '463'
@@ -5843,7 +6434,7 @@
     human: NBS CIRC 463
     urn: urn:nist:circ:463.supp
   style: v3
-- id: nist.circular.0544
+- id: nist.circular.1149
   identifier:
     _type: pubid:nist:circular
     number: '464'
@@ -5853,7 +6444,7 @@
     human: NBS CIRC 464
     urn: urn:nist:circ:464.supp
   style: v3
-- id: nist.circular.0545
+- id: nist.circular.1150
   identifier:
     _type: pubid:nist:circular
     number: '465'
@@ -5863,7 +6454,7 @@
     human: NBS CIRC 465
     urn: urn:nist:circ:465.supp
   style: v3
-- id: nist.circular.0546
+- id: nist.circular.1151
   identifier:
     _type: pubid:nist:circular
     number: '466'
@@ -5873,7 +6464,7 @@
     human: NBS CIRC 466
     urn: urn:nist:circ:466.supp
   style: v3
-- id: nist.circular.0547
+- id: nist.circular.1152
   identifier:
     _type: pubid:nist:circular
     number: '467'
@@ -5884,7 +6475,7 @@
     human: NBS CIRC 467v1
     urn: urn:nist:circ:467.v1.supp
   style: v3
-- id: nist.circular.0548
+- id: nist.circular.1153
   identifier:
     _type: pubid:nist:circular
     number: '467'
@@ -5895,7 +6486,7 @@
     human: NBS CIRC 467v2
     urn: urn:nist:circ:467.v2.supp
   style: v3
-- id: nist.circular.0549
+- id: nist.circular.1154
   identifier:
     _type: pubid:nist:circular
     number: '467'
@@ -5906,7 +6497,7 @@
     human: NBS CIRC 467v3
     urn: urn:nist:circ:467.v3.supp
   style: v3
-- id: nist.circular.0550
+- id: nist.circular.1155
   identifier:
     _type: pubid:nist:circular
     number: '468'
@@ -5916,7 +6507,7 @@
     human: NBS CIRC 468
     urn: urn:nist:circ:468.supp
   style: v3
-- id: nist.circular.0551
+- id: nist.circular.1156
   identifier:
     _type: pubid:nist:circular
     number: '469'
@@ -5926,7 +6517,7 @@
     human: NBS CIRC 469
     urn: urn:nist:circ:469.supp
   style: v3
-- id: nist.circular.0552
+- id: nist.circular.1157
   identifier:
     _type: pubid:nist:circular
     number: '46'
@@ -5939,7 +6530,7 @@
     human: NBS CIRC 46e2
     urn: urn:nist:circ:46.e2.supp
   style: v3
-- id: nist.circular.0553
+- id: nist.circular.1158
   identifier:
     _type: pubid:nist:circular
     number: '46'
@@ -5952,7 +6543,7 @@
     human: NBS CIRC 46e3
     urn: urn:nist:circ:46.e3.supp
   style: v3
-- id: nist.circular.0554
+- id: nist.circular.1159
   identifier:
     _type: pubid:nist:circular
     number: '47'
@@ -5962,7 +6553,7 @@
     human: NBS CIRC 47
     urn: urn:nist:circ:47.supp
   style: v3
-- id: nist.circular.0555
+- id: nist.circular.1160
   identifier:
     _type: pubid:nist:circular
     number: '470'
@@ -5972,7 +6563,7 @@
     human: NBS CIRC 470
     urn: urn:nist:circ:470.supp
   style: v3
-- id: nist.circular.0556
+- id: nist.circular.1161
   identifier:
     _type: pubid:nist:circular
     number: '471'
@@ -5982,7 +6573,7 @@
     human: NBS CIRC 471
     urn: urn:nist:circ:471.supp
   style: v3
-- id: nist.circular.0557
+- id: nist.circular.1162
   identifier:
     _type: pubid:nist:circular
     number: '472'
@@ -5992,7 +6583,7 @@
     human: NBS CIRC 472
     urn: urn:nist:circ:472.supp
   style: v3
-- id: nist.circular.0558
+- id: nist.circular.1163
   identifier:
     _type: pubid:nist:circular
     number: '474'
@@ -6002,7 +6593,7 @@
     human: NBS CIRC 474
     urn: urn:nist:circ:474.supp
   style: v3
-- id: nist.circular.0559
+- id: nist.circular.1164
   identifier:
     _type: pubid:nist:circular
     number: '475'
@@ -6012,7 +6603,7 @@
     human: NBS CIRC 475
     urn: urn:nist:circ:475.supp
   style: v3
-- id: nist.circular.0560
+- id: nist.circular.1165
   identifier:
     _type: pubid:nist:circular
     number: '476'
@@ -6022,7 +6613,7 @@
     human: NBS CIRC 476
     urn: urn:nist:circ:476.supp
   style: v3
-- id: nist.circular.0561
+- id: nist.circular.1166
   identifier:
     _type: pubid:nist:circular
     number: '477'
@@ -6032,7 +6623,7 @@
     human: NBS CIRC 477
     urn: urn:nist:circ:477.supp
   style: v3
-- id: nist.circular.0562
+- id: nist.circular.1167
   identifier:
     _type: pubid:nist:circular
     number: '478'
@@ -6042,7 +6633,7 @@
     human: NBS CIRC 478
     urn: urn:nist:circ:478.supp
   style: v3
-- id: nist.circular.0563
+- id: nist.circular.1168
   identifier:
     _type: pubid:nist:circular
     number: '479'
@@ -6052,7 +6643,20 @@
     human: NBS CIRC 479
     urn: urn:nist:circ:479.supp
   style: v3
-- id: nist.circular.0564
+- id: nist.circular.1169
+  identifier:
+    _type: pubid:nist:circular
+    number: '47'
+    publisher: NBS
+    series: CIRC
+  representations:
+    human: NBS CIRC 47sup
+    urn: urn:nist:circ:47
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 47supp
+    style: v3
+- id: nist.circular.1170
   identifier:
     _type: pubid:nist:circular
     number: '48'
@@ -6062,7 +6666,7 @@
     human: NBS CIRC 48
     urn: urn:nist:circ:48.supp
   style: v3
-- id: nist.circular.0565
+- id: nist.circular.1171
   identifier:
     _type: pubid:nist:circular
     number: '480'
@@ -6072,7 +6676,7 @@
     human: NBS CIRC 480
     urn: urn:nist:circ:480.supp
   style: v3
-- id: nist.circular.0566
+- id: nist.circular.1172
   identifier:
     _type: pubid:nist:circular
     number: '481'
@@ -6082,7 +6686,7 @@
     human: NBS CIRC 481
     urn: urn:nist:circ:481.supp
   style: v3
-- id: nist.circular.0567
+- id: nist.circular.1173
   identifier:
     _type: pubid:nist:circular
     number: '482'
@@ -6092,7 +6696,7 @@
     human: NBS CIRC 482
     urn: urn:nist:circ:482.supp
   style: v3
-- id: nist.circular.0568
+- id: nist.circular.1174
   identifier:
     _type: pubid:nist:circular
     number: '483'
@@ -6102,7 +6706,7 @@
     human: NBS CIRC 483
     urn: urn:nist:circ:483.supp
   style: v3
-- id: nist.circular.0569
+- id: nist.circular.1175
   identifier:
     _type: pubid:nist:circular
     number: '484'
@@ -6112,7 +6716,7 @@
     human: NBS CIRC 484
     urn: urn:nist:circ:484.supp
   style: v3
-- id: nist.circular.0570
+- id: nist.circular.1176
   identifier:
     _type: pubid:nist:circular
     number: '485'
@@ -6122,7 +6726,7 @@
     human: NBS CIRC 485
     urn: urn:nist:circ:485.supp
   style: v3
-- id: nist.circular.0571
+- id: nist.circular.1177
   identifier:
     _type: pubid:nist:circular
     number: '486'
@@ -6132,7 +6736,7 @@
     human: NBS CIRC 486
     urn: urn:nist:circ:486.supp
   style: v3
-- id: nist.circular.0572
+- id: nist.circular.1178
   identifier:
     _type: pubid:nist:circular
     number: '487'
@@ -6142,7 +6746,7 @@
     human: NBS CIRC 487
     urn: urn:nist:circ:487.supp
   style: v3
-- id: nist.circular.0573
+- id: nist.circular.1179
   identifier:
     _type: pubid:nist:circular
     number: '488'
@@ -6153,7 +6757,7 @@
     human: NBS CIRC 488sec1
     urn: urn:nist:circ:488.supp.sec1
   style: v3
-- id: nist.circular.0574
+- id: nist.circular.1180
   identifier:
     _type: pubid:nist:circular
     number: '488'
@@ -6164,7 +6768,7 @@
     human: NBS CIRC 488sec2
     urn: urn:nist:circ:488.supp.sec2
   style: v3
-- id: nist.circular.0575
+- id: nist.circular.1181
   identifier:
     _type: pubid:nist:circular
     number: '488'
@@ -6175,7 +6779,7 @@
     human: NBS CIRC 488sec3
     urn: urn:nist:circ:488.supp.sec3
   style: v3
-- id: nist.circular.0576
+- id: nist.circular.1182
   identifier:
     _type: pubid:nist:circular
     number: '488'
@@ -6186,7 +6790,7 @@
     human: NBS CIRC 488sec4
     urn: urn:nist:circ:488.supp.sec4
   style: v3
-- id: nist.circular.0577
+- id: nist.circular.1183
   identifier:
     _type: pubid:nist:circular
     number: '488'
@@ -6197,7 +6801,7 @@
     human: NBS CIRC 488sec5
     urn: urn:nist:circ:488.supp.sec5
   style: v3
-- id: nist.circular.0578
+- id: nist.circular.1184
   identifier:
     _type: pubid:nist:circular
     number: '489'
@@ -6207,7 +6811,7 @@
     human: NBS CIRC 489
     urn: urn:nist:circ:489.supp
   style: v3
-- id: nist.circular.0579
+- id: nist.circular.1185
   identifier:
     _type: pubid:nist:circular
     number: '48'
@@ -6220,7 +6824,7 @@
     human: NBS CIRC 48e2
     urn: urn:nist:circ:48.e2.supp
   style: v3
-- id: nist.circular.0580
+- id: nist.circular.1186
   identifier:
     _type: pubid:nist:circular
     number: '49'
@@ -6230,7 +6834,7 @@
     human: NBS CIRC 49
     urn: urn:nist:circ:49.supp
   style: v3
-- id: nist.circular.0581
+- id: nist.circular.1187
   identifier:
     _type: pubid:nist:circular
     number: '490'
@@ -6240,7 +6844,7 @@
     human: NBS CIRC 490
     urn: urn:nist:circ:490.supp
   style: v3
-- id: nist.circular.0582
+- id: nist.circular.1188
   identifier:
     _type: pubid:nist:circular
     number: '491'
@@ -6250,7 +6854,7 @@
     human: NBS CIRC 491
     urn: urn:nist:circ:491.supp
   style: v3
-- id: nist.circular.0583
+- id: nist.circular.1189
   identifier:
     _type: pubid:nist:circular
     number: '492'
@@ -6260,7 +6864,7 @@
     human: NBS CIRC 492
     urn: urn:nist:circ:492.supp
   style: v3
-- id: nist.circular.0584
+- id: nist.circular.1190
   identifier:
     _type: pubid:nist:circular
     number: '493'
@@ -6270,7 +6874,7 @@
     human: NBS CIRC 493
     urn: urn:nist:circ:493.supp
   style: v3
-- id: nist.circular.0585
+- id: nist.circular.1191
   identifier:
     _type: pubid:nist:circular
     number: '494'
@@ -6280,7 +6884,7 @@
     human: NBS CIRC 494
     urn: urn:nist:circ:494.supp
   style: v3
-- id: nist.circular.0586
+- id: nist.circular.1192
   identifier:
     _type: pubid:nist:circular
     number: '495'
@@ -6290,7 +6894,7 @@
     human: NBS CIRC 495
     urn: urn:nist:circ:495.supp
   style: v3
-- id: nist.circular.0587
+- id: nist.circular.1193
   identifier:
     _type: pubid:nist:circular
     number: '496'
@@ -6300,7 +6904,7 @@
     human: NBS CIRC 496
     urn: urn:nist:circ:496.supp
   style: v3
-- id: nist.circular.0588
+- id: nist.circular.1194
   identifier:
     _type: pubid:nist:circular
     number: '497'
@@ -6310,7 +6914,7 @@
     human: NBS CIRC 497
     urn: urn:nist:circ:497.supp
   style: v3
-- id: nist.circular.0589
+- id: nist.circular.1195
   identifier:
     _type: pubid:nist:circular
     number: '498'
@@ -6320,7 +6924,7 @@
     human: NBS CIRC 498
     urn: urn:nist:circ:498.supp
   style: v3
-- id: nist.circular.0590
+- id: nist.circular.1196
   identifier:
     _type: pubid:nist:circular
     number: '499'
@@ -6330,7 +6934,52 @@
     human: NBS CIRC 499
     urn: urn:nist:circ:499.supp
   style: v3
-- id: nist.circular.0591
+- id: nist.circular.1197
+  identifier:
+    _type: pubid:nist:circular
+    number: '499'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      number: '1'
+  representations:
+    human: NBS CIRC 499sup1
+    urn: urn:nist:circ:499.supp-1
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 499supp1
+    style: v3
+- id: nist.circular.1198
+  identifier:
+    _type: pubid:nist:circular
+    number: '499'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      number: '2'
+  representations:
+    human: NBS CIRC 499sup2
+    urn: urn:nist:circ:499.supp-2
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 499supp2
+    style: v3
+- id: nist.circular.1199
+  identifier:
+    _type: pubid:nist:circular
+    number: '499'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      number: '3'
+  representations:
+    human: NBS CIRC 499sup3
+    urn: urn:nist:circ:499.supp-3
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 499supp3
+    style: v3
+- id: nist.circular.1200
   identifier:
     _type: pubid:nist:circular
     number: '49'
@@ -6343,7 +6992,7 @@
     human: NBS CIRC 49e2
     urn: urn:nist:circ:49.e2.supp
   style: v3
-- id: nist.circular.0592
+- id: nist.circular.1201
   identifier:
     _type: pubid:nist:circular
     number: '4'
@@ -6356,7 +7005,7 @@
     human: NBS CIRC 4e2
     urn: urn:nist:circ:4.e2.supp
   style: v3
-- id: nist.circular.0593
+- id: nist.circular.1202
   identifier:
     _type: pubid:nist:circular
     number: '5'
@@ -6366,7 +7015,7 @@
     human: NBS CIRC 5
     urn: urn:nist:circ:5.supp
   style: v3
-- id: nist.circular.0594
+- id: nist.circular.1203
   identifier:
     _type: pubid:nist:circular
     number: '50'
@@ -6376,7 +7025,7 @@
     human: NBS CIRC 50
     urn: urn:nist:circ:50.supp
   style: v3
-- id: nist.circular.0595
+- id: nist.circular.1204
   identifier:
     _type: pubid:nist:circular
     number: '500'
@@ -6386,7 +7035,7 @@
     human: NBS CIRC 500
     urn: urn:nist:circ:500.supp
   style: v3
-- id: nist.circular.0596
+- id: nist.circular.1205
   identifier:
     _type: pubid:nist:circular
     number: '501'
@@ -6396,7 +7045,7 @@
     human: NBS CIRC 501
     urn: urn:nist:circ:501.supp
   style: v3
-- id: nist.circular.0597
+- id: nist.circular.1206
   identifier:
     _type: pubid:nist:circular
     number: '502'
@@ -6406,7 +7055,7 @@
     human: NBS CIRC 502
     urn: urn:nist:circ:502.supp
   style: v3
-- id: nist.circular.0598
+- id: nist.circular.1207
   identifier:
     _type: pubid:nist:circular
     number: '503'
@@ -6416,7 +7065,7 @@
     human: NBS CIRC 503
     urn: urn:nist:circ:503.supp
   style: v3
-- id: nist.circular.0599
+- id: nist.circular.1208
   identifier:
     _type: pubid:nist:circular
     number: '505'
@@ -6426,7 +7075,7 @@
     human: NBS CIRC 505
     urn: urn:nist:circ:505.supp
   style: v3
-- id: nist.circular.0600
+- id: nist.circular.1209
   identifier:
     _type: pubid:nist:circular
     number: '506'
@@ -6436,7 +7085,7 @@
     human: NBS CIRC 506
     urn: urn:nist:circ:506.supp
   style: v3
-- id: nist.circular.0601
+- id: nist.circular.1210
   identifier:
     _type: pubid:nist:circular
     number: '507'
@@ -6446,7 +7095,7 @@
     human: NBS CIRC 507
     urn: urn:nist:circ:507.supp
   style: v3
-- id: nist.circular.0602
+- id: nist.circular.1211
   identifier:
     _type: pubid:nist:circular
     number: '508'
@@ -6456,7 +7105,7 @@
     human: NBS CIRC 508
     urn: urn:nist:circ:508.supp
   style: v3
-- id: nist.circular.0603
+- id: nist.circular.1212
   identifier:
     _type: pubid:nist:circular
     number: '509'
@@ -6466,7 +7115,7 @@
     human: NBS CIRC 509
     urn: urn:nist:circ:509.supp
   style: v3
-- id: nist.circular.0604
+- id: nist.circular.1213
   identifier:
     _type: pubid:nist:circular
     number: '50'
@@ -6479,7 +7128,7 @@
     human: NBS CIRC 50e2
     urn: urn:nist:circ:50.e2.supp
   style: v3
-- id: nist.circular.0605
+- id: nist.circular.1214
   identifier:
     _type: pubid:nist:circular
     number: '51'
@@ -6489,7 +7138,7 @@
     human: NBS CIRC 51
     urn: urn:nist:circ:51.supp
   style: v3
-- id: nist.circular.0606
+- id: nist.circular.1215
   identifier:
     _type: pubid:nist:circular
     number: '510'
@@ -6499,7 +7148,37 @@
     human: NBS CIRC 510
     urn: urn:nist:circ:510.supp
   style: v3
-- id: nist.circular.0607
+- id: nist.circular.1216
+  identifier:
+    _type: pubid:nist:circular
+    number: '510'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      number: '1'
+  representations:
+    human: NBS CIRC 510sup1
+    urn: urn:nist:circ:510.supp-1
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 510supp1
+    style: v3
+- id: nist.circular.1217
+  identifier:
+    _type: pubid:nist:circular
+    number: '510'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      number: '2'
+  representations:
+    human: NBS CIRC 510sup2
+    urn: urn:nist:circ:510.supp-2
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 510supp2
+    style: v3
+- id: nist.circular.1218
   identifier:
     _type: pubid:nist:circular
     number: '511'
@@ -6509,7 +7188,7 @@
     human: NBS CIRC 511
     urn: urn:nist:circ:511.supp
   style: v3
-- id: nist.circular.0608
+- id: nist.circular.1219
   identifier:
     _type: pubid:nist:circular
     number: '512'
@@ -6519,7 +7198,7 @@
     human: NBS CIRC 512
     urn: urn:nist:circ:512.supp
   style: v3
-- id: nist.circular.0609
+- id: nist.circular.1220
   identifier:
     _type: pubid:nist:circular
     number: '513'
@@ -6529,7 +7208,7 @@
     human: NBS CIRC 513
     urn: urn:nist:circ:513.supp
   style: v3
-- id: nist.circular.0610
+- id: nist.circular.1221
   identifier:
     _type: pubid:nist:circular
     number: '514'
@@ -6539,7 +7218,7 @@
     human: NBS CIRC 514
     urn: urn:nist:circ:514.supp
   style: v3
-- id: nist.circular.0611
+- id: nist.circular.1222
   identifier:
     _type: pubid:nist:circular
     number: '515'
@@ -6549,7 +7228,7 @@
     human: NBS CIRC 515
     urn: urn:nist:circ:515.supp
   style: v3
-- id: nist.circular.0612
+- id: nist.circular.1223
   identifier:
     _type: pubid:nist:circular
     number: '516'
@@ -6559,7 +7238,7 @@
     human: NBS CIRC 516
     urn: urn:nist:circ:516.supp
   style: v3
-- id: nist.circular.0613
+- id: nist.circular.1224
   identifier:
     _type: pubid:nist:circular
     number: '517'
@@ -6569,7 +7248,7 @@
     human: NBS CIRC 517
     urn: urn:nist:circ:517.supp
   style: v3
-- id: nist.circular.0614
+- id: nist.circular.1225
   identifier:
     _type: pubid:nist:circular
     number: '518'
@@ -6579,7 +7258,7 @@
     human: NBS CIRC 518
     urn: urn:nist:circ:518.supp
   style: v3
-- id: nist.circular.0615
+- id: nist.circular.1226
   identifier:
     _type: pubid:nist:circular
     number: '519'
@@ -6589,7 +7268,7 @@
     human: NBS CIRC 519
     urn: urn:nist:circ:519.supp
   style: v3
-- id: nist.circular.0616
+- id: nist.circular.1227
   identifier:
     _type: pubid:nist:circular
     number: '52'
@@ -6599,7 +7278,7 @@
     human: NBS CIRC 52
     urn: urn:nist:circ:52.supp
   style: v3
-- id: nist.circular.0617
+- id: nist.circular.1228
   identifier:
     _type: pubid:nist:circular
     number: '520'
@@ -6609,7 +7288,7 @@
     human: NBS CIRC 520
     urn: urn:nist:circ:520.supp
   style: v3
-- id: nist.circular.0618
+- id: nist.circular.1229
   identifier:
     _type: pubid:nist:circular
     number: '521'
@@ -6619,7 +7298,7 @@
     human: NBS CIRC 521
     urn: urn:nist:circ:521.supp
   style: v3
-- id: nist.circular.0619
+- id: nist.circular.1230
   identifier:
     _type: pubid:nist:circular
     number: '522'
@@ -6629,7 +7308,7 @@
     human: NBS CIRC 522
     urn: urn:nist:circ:522.supp
   style: v3
-- id: nist.circular.0620
+- id: nist.circular.1231
   identifier:
     _type: pubid:nist:circular
     number: '523'
@@ -6639,7 +7318,7 @@
     human: NBS CIRC 523
     urn: urn:nist:circ:523.supp
   style: v3
-- id: nist.circular.0621
+- id: nist.circular.1232
   identifier:
     _type: pubid:nist:circular
     number: '524'
@@ -6649,7 +7328,7 @@
     human: NBS CIRC 524
     urn: urn:nist:circ:524.supp
   style: v3
-- id: nist.circular.0622
+- id: nist.circular.1233
   identifier:
     _type: pubid:nist:circular
     number: '525'
@@ -6659,7 +7338,7 @@
     human: NBS CIRC 525
     urn: urn:nist:circ:525.supp
   style: v3
-- id: nist.circular.0623
+- id: nist.circular.1234
   identifier:
     _type: pubid:nist:circular
     number: '526'
@@ -6669,7 +7348,7 @@
     human: NBS CIRC 526
     urn: urn:nist:circ:526.supp
   style: v3
-- id: nist.circular.0624
+- id: nist.circular.1235
   identifier:
     _type: pubid:nist:circular
     number: '527'
@@ -6679,7 +7358,7 @@
     human: NBS CIRC 527
     urn: urn:nist:circ:527.supp
   style: v3
-- id: nist.circular.0625
+- id: nist.circular.1236
   identifier:
     _type: pubid:nist:circular
     number: '528'
@@ -6689,7 +7368,7 @@
     human: NBS CIRC 528
     urn: urn:nist:circ:528.supp
   style: v3
-- id: nist.circular.0626
+- id: nist.circular.1237
   identifier:
     _type: pubid:nist:circular
     number: '529'
@@ -6699,7 +7378,7 @@
     human: NBS CIRC 529
     urn: urn:nist:circ:529.supp
   style: v3
-- id: nist.circular.0627
+- id: nist.circular.1238
   identifier:
     _type: pubid:nist:circular
     number: '52'
@@ -6712,7 +7391,7 @@
     human: NBS CIRC 52e2
     urn: urn:nist:circ:52.e2.supp
   style: v3
-- id: nist.circular.0628
+- id: nist.circular.1239
   identifier:
     _type: pubid:nist:circular
     number: '53'
@@ -6722,7 +7401,7 @@
     human: NBS CIRC 53
     urn: urn:nist:circ:53.supp
   style: v3
-- id: nist.circular.0629
+- id: nist.circular.1240
   identifier:
     _type: pubid:nist:circular
     number: '530'
@@ -6732,7 +7411,7 @@
     human: NBS CIRC 530
     urn: urn:nist:circ:530.supp
   style: v3
-- id: nist.circular.0630
+- id: nist.circular.1241
   identifier:
     _type: pubid:nist:circular
     number: '531'
@@ -6742,7 +7421,7 @@
     human: NBS CIRC 531
     urn: urn:nist:circ:531.supp
   style: v3
-- id: nist.circular.0631
+- id: nist.circular.1242
   identifier:
     _type: pubid:nist:circular
     number: '532'
@@ -6752,7 +7431,7 @@
     human: NBS CIRC 532
     urn: urn:nist:circ:532.supp
   style: v3
-- id: nist.circular.0632
+- id: nist.circular.1243
   identifier:
     _type: pubid:nist:circular
     number: '533'
@@ -6762,7 +7441,7 @@
     human: NBS CIRC 533
     urn: urn:nist:circ:533.supp
   style: v3
-- id: nist.circular.0633
+- id: nist.circular.1244
   identifier:
     _type: pubid:nist:circular
     number: '534'
@@ -6772,7 +7451,7 @@
     human: NBS CIRC 534
     urn: urn:nist:circ:534.supp
   style: v3
-- id: nist.circular.0634
+- id: nist.circular.1245
   identifier:
     _type: pubid:nist:circular
     number: '535'
@@ -6782,7 +7461,7 @@
     human: NBS CIRC 535
     urn: urn:nist:circ:535.supp
   style: v3
-- id: nist.circular.0635
+- id: nist.circular.1246
   identifier:
     _type: pubid:nist:circular
     number: '536'
@@ -6792,7 +7471,7 @@
     human: NBS CIRC 536
     urn: urn:nist:circ:536.supp
   style: v3
-- id: nist.circular.0636
+- id: nist.circular.1247
   identifier:
     _type: pubid:nist:circular
     number: '537'
@@ -6802,7 +7481,7 @@
     human: NBS CIRC 537
     urn: urn:nist:circ:537.supp
   style: v3
-- id: nist.circular.0637
+- id: nist.circular.1248
   identifier:
     _type: pubid:nist:circular
     number: '538'
@@ -6812,7 +7491,7 @@
     human: NBS CIRC 538
     urn: urn:nist:circ:538.supp
   style: v3
-- id: nist.circular.0638
+- id: nist.circular.1249
   identifier:
     _type: pubid:nist:circular
     number: '539'
@@ -6823,7 +7502,7 @@
     human: NBS CIRC 539v1
     urn: urn:nist:circ:539.v1.supp
   style: v3
-- id: nist.circular.0639
+- id: nist.circular.1250
   identifier:
     _type: pubid:nist:circular
     number: '539'
@@ -6834,7 +7513,7 @@
     human: NBS CIRC 539v10
     urn: urn:nist:circ:539.v10.supp
   style: v3
-- id: nist.circular.0640
+- id: nist.circular.1251
   identifier:
     _type: pubid:nist:circular
     number: '539'
@@ -6845,7 +7524,7 @@
     human: NBS CIRC 539v2
     urn: urn:nist:circ:539.v2.supp
   style: v3
-- id: nist.circular.0641
+- id: nist.circular.1252
   identifier:
     _type: pubid:nist:circular
     number: '539'
@@ -6856,7 +7535,7 @@
     human: NBS CIRC 539v3
     urn: urn:nist:circ:539.v3.supp
   style: v3
-- id: nist.circular.0642
+- id: nist.circular.1253
   identifier:
     _type: pubid:nist:circular
     number: '539'
@@ -6867,7 +7546,7 @@
     human: NBS CIRC 539v4
     urn: urn:nist:circ:539.v4.supp
   style: v3
-- id: nist.circular.0643
+- id: nist.circular.1254
   identifier:
     _type: pubid:nist:circular
     number: '539'
@@ -6878,7 +7557,7 @@
     human: NBS CIRC 539v5
     urn: urn:nist:circ:539.v5.supp
   style: v3
-- id: nist.circular.0644
+- id: nist.circular.1255
   identifier:
     _type: pubid:nist:circular
     number: '539'
@@ -6889,7 +7568,7 @@
     human: NBS CIRC 539v6
     urn: urn:nist:circ:539.v6.supp
   style: v3
-- id: nist.circular.0645
+- id: nist.circular.1256
   identifier:
     _type: pubid:nist:circular
     number: '539'
@@ -6900,7 +7579,7 @@
     human: NBS CIRC 539v7
     urn: urn:nist:circ:539.v7.supp
   style: v3
-- id: nist.circular.0646
+- id: nist.circular.1257
   identifier:
     _type: pubid:nist:circular
     number: '539'
@@ -6911,7 +7590,7 @@
     human: NBS CIRC 539v8
     urn: urn:nist:circ:539.v8.supp
   style: v3
-- id: nist.circular.0647
+- id: nist.circular.1258
   identifier:
     _type: pubid:nist:circular
     number: '539'
@@ -6922,7 +7601,7 @@
     human: NBS CIRC 539v9
     urn: urn:nist:circ:539.v9.supp
   style: v3
-- id: nist.circular.0648
+- id: nist.circular.1259
   identifier:
     _type: pubid:nist:circular
     number: '54'
@@ -6932,7 +7611,7 @@
     human: NBS CIRC 54
     urn: urn:nist:circ:54.supp
   style: v3
-- id: nist.circular.0649
+- id: nist.circular.1260
   identifier:
     _type: pubid:nist:circular
     number: '540'
@@ -6942,7 +7621,7 @@
     human: NBS CIRC 540
     urn: urn:nist:circ:540.supp
   style: v3
-- id: nist.circular.0650
+- id: nist.circular.1261
   identifier:
     _type: pubid:nist:circular
     number: '541'
@@ -6952,7 +7631,7 @@
     human: NBS CIRC 541
     urn: urn:nist:circ:541.supp
   style: v3
-- id: nist.circular.0651
+- id: nist.circular.1262
   identifier:
     _type: pubid:nist:circular
     number: '542'
@@ -6962,7 +7641,7 @@
     human: NBS CIRC 542
     urn: urn:nist:circ:542.supp
   style: v3
-- id: nist.circular.0652
+- id: nist.circular.1263
   identifier:
     _type: pubid:nist:circular
     number: '543'
@@ -6972,7 +7651,7 @@
     human: NBS CIRC 543
     urn: urn:nist:circ:543.supp
   style: v3
-- id: nist.circular.0653
+- id: nist.circular.1264
   identifier:
     _type: pubid:nist:circular
     number: '544'
@@ -6982,7 +7661,7 @@
     human: NBS CIRC 544
     urn: urn:nist:circ:544.supp
   style: v3
-- id: nist.circular.0654
+- id: nist.circular.1265
   identifier:
     _type: pubid:nist:circular
     number: '545'
@@ -6992,7 +7671,7 @@
     human: NBS CIRC 545
     urn: urn:nist:circ:545.supp
   style: v3
-- id: nist.circular.0655
+- id: nist.circular.1266
   identifier:
     _type: pubid:nist:circular
     number: '546'
@@ -7002,7 +7681,7 @@
     human: NBS CIRC 546
     urn: urn:nist:circ:546.supp
   style: v3
-- id: nist.circular.0656
+- id: nist.circular.1267
   identifier:
     _type: pubid:nist:circular
     number: '547'
@@ -7012,7 +7691,7 @@
     human: NBS CIRC 547
     urn: urn:nist:circ:547.supp
   style: v3
-- id: nist.circular.0657
+- id: nist.circular.1268
   identifier:
     _type: pubid:nist:circular
     number: '548'
@@ -7022,7 +7701,7 @@
     human: NBS CIRC 548
     urn: urn:nist:circ:548.supp
   style: v3
-- id: nist.circular.0658
+- id: nist.circular.1269
   identifier:
     _type: pubid:nist:circular
     number: '549'
@@ -7032,7 +7711,7 @@
     human: NBS CIRC 549
     urn: urn:nist:circ:549.supp
   style: v3
-- id: nist.circular.0659
+- id: nist.circular.1270
   identifier:
     _type: pubid:nist:circular
     number: '54'
@@ -7045,7 +7724,7 @@
     human: NBS CIRC 54e2
     urn: urn:nist:circ:54.e2.supp
   style: v3
-- id: nist.circular.0660
+- id: nist.circular.1271
   identifier:
     _type: pubid:nist:circular
     number: '54'
@@ -7056,7 +7735,7 @@
     human: NBS CIRC 54index
     urn: urn:nist:circ:54.supp.index
   style: v3
-- id: nist.circular.0661
+- id: nist.circular.1272
   identifier:
     _type: pubid:nist:circular
     number: '55'
@@ -7066,7 +7745,7 @@
     human: NBS CIRC 55
     urn: urn:nist:circ:55.supp
   style: v3
-- id: nist.circular.0662
+- id: nist.circular.1273
   identifier:
     _type: pubid:nist:circular
     number: '550'
@@ -7076,7 +7755,7 @@
     human: NBS CIRC 550
     urn: urn:nist:circ:550.supp
   style: v3
-- id: nist.circular.0663
+- id: nist.circular.1274
   identifier:
     _type: pubid:nist:circular
     number: '551'
@@ -7086,7 +7765,7 @@
     human: NBS CIRC 551
     urn: urn:nist:circ:551.supp
   style: v3
-- id: nist.circular.0664
+- id: nist.circular.1275
   identifier:
     _type: pubid:nist:circular
     number: '552'
@@ -7096,7 +7775,7 @@
     human: NBS CIRC 552
     urn: urn:nist:circ:552.supp
   style: v3
-- id: nist.circular.0665
+- id: nist.circular.1276
   identifier:
     _type: pubid:nist:circular
     number: '552'
@@ -7109,7 +7788,7 @@
     human: NBS CIRC 552e2
     urn: urn:nist:circ:552.e2.supp
   style: v3
-- id: nist.circular.0666
+- id: nist.circular.1277
   identifier:
     _type: pubid:nist:circular
     number: '552'
@@ -7122,7 +7801,7 @@
     human: NBS CIRC 552e3
     urn: urn:nist:circ:552.e3.supp
   style: v3
-- id: nist.circular.0667
+- id: nist.circular.1278
   identifier:
     _type: pubid:nist:circular
     number: '553'
@@ -7132,7 +7811,7 @@
     human: NBS CIRC 553
     urn: urn:nist:circ:553.supp
   style: v3
-- id: nist.circular.0668
+- id: nist.circular.1279
   identifier:
     _type: pubid:nist:circular
     number: '554'
@@ -7142,7 +7821,7 @@
     human: NBS CIRC 554
     urn: urn:nist:circ:554.supp
   style: v3
-- id: nist.circular.0669
+- id: nist.circular.1280
   identifier:
     _type: pubid:nist:circular
     number: '555'
@@ -7152,7 +7831,7 @@
     human: NBS CIRC 555
     urn: urn:nist:circ:555.supp
   style: v3
-- id: nist.circular.0670
+- id: nist.circular.1281
   identifier:
     _type: pubid:nist:circular
     number: '556'
@@ -7162,7 +7841,7 @@
     human: NBS CIRC 556
     urn: urn:nist:circ:556.supp
   style: v3
-- id: nist.circular.0671
+- id: nist.circular.1282
   identifier:
     _type: pubid:nist:circular
     number: '557'
@@ -7172,7 +7851,7 @@
     human: NBS CIRC 557
     urn: urn:nist:circ:557.supp
   style: v3
-- id: nist.circular.0672
+- id: nist.circular.1283
   identifier:
     _type: pubid:nist:circular
     number: '558'
@@ -7182,7 +7861,7 @@
     human: NBS CIRC 558
     urn: urn:nist:circ:558.supp
   style: v3
-- id: nist.circular.0673
+- id: nist.circular.1284
   identifier:
     _type: pubid:nist:circular
     number: '559'
@@ -7192,7 +7871,7 @@
     human: NBS CIRC 559
     urn: urn:nist:circ:559.supp
   style: v3
-- id: nist.circular.0674
+- id: nist.circular.1285
   identifier:
     _type: pubid:nist:circular
     number: '56'
@@ -7202,7 +7881,7 @@
     human: NBS CIRC 56
     urn: urn:nist:circ:56.supp
   style: v3
-- id: nist.circular.0675
+- id: nist.circular.1286
   identifier:
     _type: pubid:nist:circular
     number: '560'
@@ -7212,7 +7891,7 @@
     human: NBS CIRC 560
     urn: urn:nist:circ:560.supp
   style: v3
-- id: nist.circular.0676
+- id: nist.circular.1287
   identifier:
     _type: pubid:nist:circular
     number: '561'
@@ -7222,7 +7901,7 @@
     human: NBS CIRC 561
     urn: urn:nist:circ:561.supp
   style: v3
-- id: nist.circular.0677
+- id: nist.circular.1288
   identifier:
     _type: pubid:nist:circular
     number: '562'
@@ -7232,7 +7911,22 @@
     human: NBS CIRC 562
     urn: urn:nist:circ:562.supp
   style: v3
-- id: nist.circular.0678
+- id: nist.circular.1289
+  identifier:
+    _type: pubid:nist:circular
+    number: '562'
+    publisher: NBS
+    series: CIRC
+    supplement:
+      number: '1'
+  representations:
+    human: NBS CIRC 562sup1
+    urn: urn:nist:circ:562.supp-1
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 562supp1
+    style: v3
+- id: nist.circular.1290
   identifier:
     _type: pubid:nist:circular
     number: '563'
@@ -7242,7 +7936,7 @@
     human: NBS CIRC 563
     urn: urn:nist:circ:563.supp
   style: v3
-- id: nist.circular.0679
+- id: nist.circular.1291
   identifier:
     _type: pubid:nist:circular
     number: '564'
@@ -7252,7 +7946,7 @@
     human: NBS CIRC 564
     urn: urn:nist:circ:564.supp
   style: v3
-- id: nist.circular.0680
+- id: nist.circular.1292
   identifier:
     _type: pubid:nist:circular
     number: '565'
@@ -7262,7 +7956,7 @@
     human: NBS CIRC 565
     urn: urn:nist:circ:565.supp
   style: v3
-- id: nist.circular.0681
+- id: nist.circular.1293
   identifier:
     _type: pubid:nist:circular
     number: '566'
@@ -7272,7 +7966,7 @@
     human: NBS CIRC 566
     urn: urn:nist:circ:566.supp
   style: v3
-- id: nist.circular.0682
+- id: nist.circular.1294
   identifier:
     _type: pubid:nist:circular
     number: '567'
@@ -7282,7 +7976,7 @@
     human: NBS CIRC 567
     urn: urn:nist:circ:567.supp
   style: v3
-- id: nist.circular.0683
+- id: nist.circular.1295
   identifier:
     _type: pubid:nist:circular
     number: '568'
@@ -7292,7 +7986,7 @@
     human: NBS CIRC 568
     urn: urn:nist:circ:568.supp
   style: v3
-- id: nist.circular.0684
+- id: nist.circular.1296
   identifier:
     _type: pubid:nist:circular
     number: '569'
@@ -7302,7 +7996,7 @@
     human: NBS CIRC 569
     urn: urn:nist:circ:569.supp
   style: v3
-- id: nist.circular.0685
+- id: nist.circular.1297
   identifier:
     _type: pubid:nist:circular
     number: '56'
@@ -7315,7 +8009,7 @@
     human: NBS CIRC 56e2
     urn: urn:nist:circ:56.e2.supp
   style: v3
-- id: nist.circular.0686
+- id: nist.circular.1298
   identifier:
     _type: pubid:nist:circular
     number: '57'
@@ -7325,7 +8019,7 @@
     human: NBS CIRC 57
     urn: urn:nist:circ:57.supp
   style: v3
-- id: nist.circular.0687
+- id: nist.circular.1299
   identifier:
     _type: pubid:nist:circular
     number: '570'
@@ -7335,7 +8029,7 @@
     human: NBS CIRC 570
     urn: urn:nist:circ:570.supp
   style: v3
-- id: nist.circular.0688
+- id: nist.circular.1300
   identifier:
     _type: pubid:nist:circular
     number: '571'
@@ -7345,7 +8039,7 @@
     human: NBS CIRC 571
     urn: urn:nist:circ:571.supp
   style: v3
-- id: nist.circular.0689
+- id: nist.circular.1301
   identifier:
     _type: pubid:nist:circular
     number: '572'
@@ -7355,7 +8049,7 @@
     human: NBS CIRC 572
     urn: urn:nist:circ:572.supp
   style: v3
-- id: nist.circular.0690
+- id: nist.circular.1302
   identifier:
     _type: pubid:nist:circular
     number: '573'
@@ -7365,7 +8059,7 @@
     human: NBS CIRC 573
     urn: urn:nist:circ:573.supp
   style: v3
-- id: nist.circular.0691
+- id: nist.circular.1303
   identifier:
     _type: pubid:nist:circular
     number: '574'
@@ -7375,7 +8069,7 @@
     human: NBS CIRC 574
     urn: urn:nist:circ:574.supp
   style: v3
-- id: nist.circular.0692
+- id: nist.circular.1304
   identifier:
     _type: pubid:nist:circular
     number: '575'
@@ -7385,7 +8079,7 @@
     human: NBS CIRC 575
     urn: urn:nist:circ:575.supp
   style: v3
-- id: nist.circular.0693
+- id: nist.circular.1305
   identifier:
     _type: pubid:nist:circular
     number: '576'
@@ -7395,7 +8089,7 @@
     human: NBS CIRC 576
     urn: urn:nist:circ:576.supp
   style: v3
-- id: nist.circular.0694
+- id: nist.circular.1306
   identifier:
     _type: pubid:nist:circular
     number: '577'
@@ -7405,7 +8099,7 @@
     human: NBS CIRC 577
     urn: urn:nist:circ:577.supp
   style: v3
-- id: nist.circular.0695
+- id: nist.circular.1307
   identifier:
     _type: pubid:nist:circular
     number: '578'
@@ -7415,7 +8109,7 @@
     human: NBS CIRC 578
     urn: urn:nist:circ:578.supp
   style: v3
-- id: nist.circular.0696
+- id: nist.circular.1308
   identifier:
     _type: pubid:nist:circular
     number: '579'
@@ -7425,7 +8119,7 @@
     human: NBS CIRC 579
     urn: urn:nist:circ:579.supp
   style: v3
-- id: nist.circular.0697
+- id: nist.circular.1309
   identifier:
     _type: pubid:nist:circular
     number: '57'
@@ -7438,7 +8132,7 @@
     human: NBS CIRC 57e2
     urn: urn:nist:circ:57.e2.supp
   style: v3
-- id: nist.circular.0698
+- id: nist.circular.1310
   identifier:
     _type: pubid:nist:circular
     number: '58'
@@ -7448,7 +8142,7 @@
     human: NBS CIRC 58
     urn: urn:nist:circ:58.supp
   style: v3
-- id: nist.circular.0699
+- id: nist.circular.1311
   identifier:
     _type: pubid:nist:circular
     number: '580'
@@ -7458,7 +8152,7 @@
     human: NBS CIRC 580
     urn: urn:nist:circ:580.supp
   style: v3
-- id: nist.circular.0700
+- id: nist.circular.1312
   identifier:
     _type: pubid:nist:circular
     number: '581'
@@ -7468,7 +8162,7 @@
     human: NBS CIRC 581
     urn: urn:nist:circ:581.supp
   style: v3
-- id: nist.circular.0701
+- id: nist.circular.1313
   identifier:
     _type: pubid:nist:circular
     number: '582'
@@ -7478,7 +8172,7 @@
     human: NBS CIRC 582
     urn: urn:nist:circ:582.supp
   style: v3
-- id: nist.circular.0702
+- id: nist.circular.1314
   identifier:
     _type: pubid:nist:circular
     number: '583'
@@ -7488,7 +8182,20 @@
     human: NBS CIRC 583
     urn: urn:nist:circ:583.supp
   style: v3
-- id: nist.circular.0703
+- id: nist.circular.1315
+  identifier:
+    _type: pubid:nist:circular
+    number: '583'
+    publisher: NBS
+    series: CIRC
+  representations:
+    human: NBS CIRC 583sup
+    urn: urn:nist:circ:583
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 583supp
+    style: v3
+- id: nist.circular.1316
   identifier:
     _type: pubid:nist:circular
     number: '584'
@@ -7498,7 +8205,7 @@
     human: NBS CIRC 584
     urn: urn:nist:circ:584.supp
   style: v3
-- id: nist.circular.0704
+- id: nist.circular.1317
   identifier:
     _type: pubid:nist:circular
     number: '585'
@@ -7508,7 +8215,7 @@
     human: NBS CIRC 585
     urn: urn:nist:circ:585.supp
   style: v3
-- id: nist.circular.0705
+- id: nist.circular.1318
   identifier:
     _type: pubid:nist:circular
     number: '586'
@@ -7518,7 +8225,7 @@
     human: NBS CIRC 586
     urn: urn:nist:circ:586.supp
   style: v3
-- id: nist.circular.0706
+- id: nist.circular.1319
   identifier:
     _type: pubid:nist:circular
     number: '587'
@@ -7528,7 +8235,7 @@
     human: NBS CIRC 587
     urn: urn:nist:circ:587.supp
   style: v3
-- id: nist.circular.0707
+- id: nist.circular.1320
   identifier:
     _type: pubid:nist:circular
     number: '588'
@@ -7538,7 +8245,7 @@
     human: NBS CIRC 588
     urn: urn:nist:circ:588.supp
   style: v3
-- id: nist.circular.0708
+- id: nist.circular.1321
   identifier:
     _type: pubid:nist:circular
     number: '589'
@@ -7548,7 +8255,7 @@
     human: NBS CIRC 589
     urn: urn:nist:circ:589.supp
   style: v3
-- id: nist.circular.0709
+- id: nist.circular.1322
   identifier:
     _type: pubid:nist:circular
     number: '58'
@@ -7561,7 +8268,7 @@
     human: NBS CIRC 58e2
     urn: urn:nist:circ:58.e2.supp
   style: v3
-- id: nist.circular.0710
+- id: nist.circular.1323
   identifier:
     _type: pubid:nist:circular
     number: '59'
@@ -7571,7 +8278,7 @@
     human: NBS CIRC 59
     urn: urn:nist:circ:59.supp
   style: v3
-- id: nist.circular.0711
+- id: nist.circular.1324
   identifier:
     _type: pubid:nist:circular
     number: '590'
@@ -7581,7 +8288,7 @@
     human: NBS CIRC 590
     urn: urn:nist:circ:590.supp
   style: v3
-- id: nist.circular.0712
+- id: nist.circular.1325
   identifier:
     _type: pubid:nist:circular
     number: '591'
@@ -7591,7 +8298,7 @@
     human: NBS CIRC 591
     urn: urn:nist:circ:591.supp
   style: v3
-- id: nist.circular.0713
+- id: nist.circular.1326
   identifier:
     _type: pubid:nist:circular
     number: '592'
@@ -7601,7 +8308,7 @@
     human: NBS CIRC 592
     urn: urn:nist:circ:592.supp
   style: v3
-- id: nist.circular.0714
+- id: nist.circular.1327
   identifier:
     _type: pubid:nist:circular
     number: '593'
@@ -7611,7 +8318,7 @@
     human: NBS CIRC 593
     urn: urn:nist:circ:593.supp
   style: v3
-- id: nist.circular.0715
+- id: nist.circular.1328
   identifier:
     _type: pubid:nist:circular
     number: '594'
@@ -7621,7 +8328,7 @@
     human: NBS CIRC 594
     urn: urn:nist:circ:594.supp
   style: v3
-- id: nist.circular.0716
+- id: nist.circular.1329
   identifier:
     _type: pubid:nist:circular
     number: '595'
@@ -7631,7 +8338,7 @@
     human: NBS CIRC 595
     urn: urn:nist:circ:595.supp
   style: v3
-- id: nist.circular.0717
+- id: nist.circular.1330
   identifier:
     _type: pubid:nist:circular
     number: '596'
@@ -7641,7 +8348,7 @@
     human: NBS CIRC 596
     urn: urn:nist:circ:596.supp
   style: v3
-- id: nist.circular.0718
+- id: nist.circular.1331
   identifier:
     _type: pubid:nist:circular
     number: '597'
@@ -7651,7 +8358,7 @@
     human: NBS CIRC 597
     urn: urn:nist:circ:597.supp
   style: v3
-- id: nist.circular.0719
+- id: nist.circular.1332
   identifier:
     _type: pubid:nist:circular
     number: '598'
@@ -7661,7 +8368,7 @@
     human: NBS CIRC 598
     urn: urn:nist:circ:598.supp
   style: v3
-- id: nist.circular.0720
+- id: nist.circular.1333
   identifier:
     _type: pubid:nist:circular
     number: '599'
@@ -7671,7 +8378,7 @@
     human: NBS CIRC 599
     urn: urn:nist:circ:599.supp
   style: v3
-- id: nist.circular.0721
+- id: nist.circular.1334
   identifier:
     _type: pubid:nist:circular
     number: '5'
@@ -7684,7 +8391,7 @@
     human: NBS CIRC 5e2
     urn: urn:nist:circ:5.e2.supp
   style: v3
-- id: nist.circular.0722
+- id: nist.circular.1335
   identifier:
     _type: pubid:nist:circular
     number: '5'
@@ -7697,7 +8404,7 @@
     human: NBS CIRC 5e3
     urn: urn:nist:circ:5.e3.supp
   style: v3
-- id: nist.circular.0723
+- id: nist.circular.1336
   identifier:
     _type: pubid:nist:circular
     number: '6'
@@ -7707,7 +8414,7 @@
     human: NBS CIRC 6
     urn: urn:nist:circ:6.supp
   style: v3
-- id: nist.circular.0724
+- id: nist.circular.1337
   identifier:
     _type: pubid:nist:circular
     number: '60'
@@ -7717,7 +8424,7 @@
     human: NBS CIRC 60
     urn: urn:nist:circ:60.supp
   style: v3
-- id: nist.circular.0725
+- id: nist.circular.1338
   identifier:
     _type: pubid:nist:circular
     number: '600'
@@ -7727,7 +8434,7 @@
     human: NBS CIRC 600
     urn: urn:nist:circ:600.supp
   style: v3
-- id: nist.circular.0726
+- id: nist.circular.1339
   identifier:
     _type: pubid:nist:circular
     number: '601'
@@ -7737,7 +8444,7 @@
     human: NBS CIRC 601
     urn: urn:nist:circ:601.supp
   style: v3
-- id: nist.circular.0727
+- id: nist.circular.1340
   identifier:
     _type: pubid:nist:circular
     number: '602'
@@ -7747,7 +8454,7 @@
     human: NBS CIRC 602
     urn: urn:nist:circ:602.supp
   style: v3
-- id: nist.circular.0728
+- id: nist.circular.1341
   identifier:
     _type: pubid:nist:circular
     number: '603'
@@ -7757,7 +8464,7 @@
     human: NBS CIRC 603
     urn: urn:nist:circ:603.supp
   style: v3
-- id: nist.circular.0729
+- id: nist.circular.1342
   identifier:
     _type: pubid:nist:circular
     number: '60'
@@ -7770,7 +8477,7 @@
     human: NBS CIRC 60e2
     urn: urn:nist:circ:60.e2.supp
   style: v3
-- id: nist.circular.0730
+- id: nist.circular.1343
   identifier:
     _type: pubid:nist:circular
     number: '61'
@@ -7780,7 +8487,7 @@
     human: NBS CIRC 61
     urn: urn:nist:circ:61.supp
   style: v3
-- id: nist.circular.0731
+- id: nist.circular.1344
   identifier:
     _type: pubid:nist:circular
     number: '61'
@@ -7793,7 +8500,7 @@
     human: NBS CIRC 61e2
     urn: urn:nist:circ:61.e2.supp
   style: v3
-- id: nist.circular.0732
+- id: nist.circular.1345
   identifier:
     _type: pubid:nist:circular
     number: '62'
@@ -7803,7 +8510,7 @@
     human: NBS CIRC 62
     urn: urn:nist:circ:62.supp
   style: v3
-- id: nist.circular.0733
+- id: nist.circular.1346
   identifier:
     _type: pubid:nist:circular
     number: '62'
@@ -7816,7 +8523,7 @@
     human: NBS CIRC 62e2
     urn: urn:nist:circ:62.e2.supp
   style: v3
-- id: nist.circular.0734
+- id: nist.circular.1347
   identifier:
     _type: pubid:nist:circular
     number: '62'
@@ -7829,7 +8536,7 @@
     human: NBS CIRC 62e3
     urn: urn:nist:circ:62.e3.supp
   style: v3
-- id: nist.circular.0735
+- id: nist.circular.1348
   identifier:
     _type: pubid:nist:circular
     number: '63'
@@ -7839,7 +8546,7 @@
     human: NBS CIRC 63
     urn: urn:nist:circ:63.supp
   style: v3
-- id: nist.circular.0736
+- id: nist.circular.1349
   identifier:
     _type: pubid:nist:circular
     number: '64'
@@ -7849,7 +8556,7 @@
     human: NBS CIRC 64
     urn: urn:nist:circ:64.supp
   style: v3
-- id: nist.circular.0737
+- id: nist.circular.1350
   identifier:
     _type: pubid:nist:circular
     number: '65'
@@ -7859,7 +8566,7 @@
     human: NBS CIRC 65
     urn: urn:nist:circ:65.supp
   style: v3
-- id: nist.circular.0738
+- id: nist.circular.1351
   identifier:
     _type: pubid:nist:circular
     number: '66'
@@ -7869,7 +8576,7 @@
     human: NBS CIRC 66
     urn: urn:nist:circ:66.supp
   style: v3
-- id: nist.circular.0739
+- id: nist.circular.1352
   identifier:
     _type: pubid:nist:circular
     number: '67'
@@ -7879,7 +8586,7 @@
     human: NBS CIRC 67
     urn: urn:nist:circ:67.supp
   style: v3
-- id: nist.circular.0740
+- id: nist.circular.1353
   identifier:
     _type: pubid:nist:circular
     number: '68'
@@ -7889,7 +8596,7 @@
     human: NBS CIRC 68
     urn: urn:nist:circ:68.supp
   style: v3
-- id: nist.circular.0741
+- id: nist.circular.1354
   identifier:
     _type: pubid:nist:circular
     number: '69'
@@ -7899,7 +8606,7 @@
     human: NBS CIRC 69
     urn: urn:nist:circ:69.supp
   style: v3
-- id: nist.circular.0742
+- id: nist.circular.1355
   identifier:
     _type: pubid:nist:circular
     number: '6'
@@ -7912,7 +8619,7 @@
     human: NBS CIRC 6e2
     urn: urn:nist:circ:6.e2.supp
   style: v3
-- id: nist.circular.0743
+- id: nist.circular.1356
   identifier:
     _type: pubid:nist:circular
     number: '6'
@@ -7925,7 +8632,7 @@
     human: NBS CIRC 6e3
     urn: urn:nist:circ:6.e3.supp
   style: v3
-- id: nist.circular.0744
+- id: nist.circular.1357
   identifier:
     _type: pubid:nist:circular
     number: '6'
@@ -7938,7 +8645,7 @@
     human: NBS CIRC 6e4
     urn: urn:nist:circ:6.e4.supp
   style: v3
-- id: nist.circular.0745
+- id: nist.circular.1358
   identifier:
     _type: pubid:nist:circular
     number: '6'
@@ -7951,7 +8658,7 @@
     human: NBS CIRC 6e5
     urn: urn:nist:circ:6.e5.supp
   style: v3
-- id: nist.circular.0746
+- id: nist.circular.1359
   identifier:
     _type: pubid:nist:circular
     number: '6'
@@ -7964,7 +8671,7 @@
     human: NBS CIRC 6e6
     urn: urn:nist:circ:6.e6.supp
   style: v3
-- id: nist.circular.0747
+- id: nist.circular.1360
   identifier:
     _type: pubid:nist:circular
     number: '6'
@@ -7977,7 +8684,7 @@
     human: NBS CIRC 6e7
     urn: urn:nist:circ:6.e7.supp
   style: v3
-- id: nist.circular.0748
+- id: nist.circular.1361
   identifier:
     _type: pubid:nist:circular
     number: '7'
@@ -7987,7 +8694,7 @@
     human: NBS CIRC 7
     urn: urn:nist:circ:7.supp
   style: v3
-- id: nist.circular.0749
+- id: nist.circular.1362
   identifier:
     _type: pubid:nist:circular
     number: '70'
@@ -7997,7 +8704,7 @@
     human: NBS CIRC 70
     urn: urn:nist:circ:70.supp
   style: v3
-- id: nist.circular.0750
+- id: nist.circular.1363
   identifier:
     _type: pubid:nist:circular
     number: '71'
@@ -8007,7 +8714,7 @@
     human: NBS CIRC 71
     urn: urn:nist:circ:71.supp
   style: v3
-- id: nist.circular.0751
+- id: nist.circular.1364
   identifier:
     _type: pubid:nist:circular
     number: '72'
@@ -8017,7 +8724,7 @@
     human: NBS CIRC 72
     urn: urn:nist:circ:72.supp
   style: v3
-- id: nist.circular.0752
+- id: nist.circular.1365
   identifier:
     _type: pubid:nist:circular
     number: '73'
@@ -8027,7 +8734,7 @@
     human: NBS CIRC 73
     urn: urn:nist:circ:73.supp
   style: v3
-- id: nist.circular.0753
+- id: nist.circular.1366
   identifier:
     _type: pubid:nist:circular
     number: '73'
@@ -8040,7 +8747,7 @@
     human: NBS CIRC 73e2
     urn: urn:nist:circ:73.e2.supp
   style: v3
-- id: nist.circular.0754
+- id: nist.circular.1367
   identifier:
     _type: pubid:nist:circular
     number: '74'
@@ -8050,7 +8757,23 @@
     human: NBS CIRC 74
     urn: urn:nist:circ:74.supp
   style: v3
-- id: nist.circular.0755
+- id: nist.circular.1368
+  identifier:
+    _type: pubid:nist:circular
+    number: '74'
+    edition:
+      type: e
+      id: '1937'
+    publisher: NBS
+    series: CIRC
+  representations:
+    human: NBS CIRC 74e1937
+    urn: urn:nist:circ:74.e1937.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS CIRC 74-1937
+    style: v3
+- id: nist.circular.1369
   identifier:
     _type: pubid:nist:circular
     number: '74'
@@ -8063,7 +8786,7 @@
     human: NBS CIRC 74e2
     urn: urn:nist:circ:74.e2.supp
   style: v3
-- id: nist.circular.0756
+- id: nist.circular.1370
   identifier:
     _type: pubid:nist:circular
     number: '74'
@@ -8074,7 +8797,7 @@
     human: NBS CIRC 74errata
     urn: urn:nist:circ:74.supp.errata
   style: v3
-- id: nist.circular.0757
+- id: nist.circular.1371
   identifier:
     _type: pubid:nist:circular
     number: '75'
@@ -8084,7 +8807,7 @@
     human: NBS CIRC 75
     urn: urn:nist:circ:75.supp
   style: v3
-- id: nist.circular.0758
+- id: nist.circular.1372
   identifier:
     _type: pubid:nist:circular
     number: '76'
@@ -8094,7 +8817,7 @@
     human: NBS CIRC 76
     urn: urn:nist:circ:76.supp
   style: v3
-- id: nist.circular.0759
+- id: nist.circular.1373
   identifier:
     _type: pubid:nist:circular
     number: '77'
@@ -8104,7 +8827,7 @@
     human: NBS CIRC 77
     urn: urn:nist:circ:77.supp
   style: v3
-- id: nist.circular.0760
+- id: nist.circular.1374
   identifier:
     _type: pubid:nist:circular
     number: '78'
@@ -8114,7 +8837,7 @@
     human: NBS CIRC 78
     urn: urn:nist:circ:78.supp
   style: v3
-- id: nist.circular.0761
+- id: nist.circular.1375
   identifier:
     _type: pubid:nist:circular
     number: '78'
@@ -8127,7 +8850,7 @@
     human: NBS CIRC 78e2
     urn: urn:nist:circ:78.e2.supp
   style: v3
-- id: nist.circular.0762
+- id: nist.circular.1376
   identifier:
     _type: pubid:nist:circular
     number: '79'
@@ -8137,7 +8860,7 @@
     human: NBS CIRC 79
     urn: urn:nist:circ:79.supp
   style: v3
-- id: nist.circular.0763
+- id: nist.circular.1377
   identifier:
     _type: pubid:nist:circular
     number: '79'
@@ -8150,7 +8873,7 @@
     human: NBS CIRC 79e2
     urn: urn:nist:circ:79.e2.supp
   style: v3
-- id: nist.circular.0764
+- id: nist.circular.1378
   identifier:
     _type: pubid:nist:circular
     number: '7'
@@ -8163,7 +8886,7 @@
     human: NBS CIRC 7e2
     urn: urn:nist:circ:7.e2.supp
   style: v3
-- id: nist.circular.0765
+- id: nist.circular.1379
   identifier:
     _type: pubid:nist:circular
     number: '7'
@@ -8176,7 +8899,7 @@
     human: NBS CIRC 7e3
     urn: urn:nist:circ:7.e3.supp
   style: v3
-- id: nist.circular.0766
+- id: nist.circular.1380
   identifier:
     _type: pubid:nist:circular
     number: '7'
@@ -8189,7 +8912,7 @@
     human: NBS CIRC 7e4
     urn: urn:nist:circ:7.e4.supp
   style: v3
-- id: nist.circular.0767
+- id: nist.circular.1381
   identifier:
     _type: pubid:nist:circular
     number: '7'
@@ -8202,7 +8925,7 @@
     human: NBS CIRC 7e5
     urn: urn:nist:circ:7.e5.supp
   style: v3
-- id: nist.circular.0768
+- id: nist.circular.1382
   identifier:
     _type: pubid:nist:circular
     number: '8'
@@ -8212,7 +8935,7 @@
     human: NBS CIRC 8
     urn: urn:nist:circ:8.supp
   style: v3
-- id: nist.circular.0769
+- id: nist.circular.1383
   identifier:
     _type: pubid:nist:circular
     number: '80'
@@ -8222,7 +8945,7 @@
     human: NBS CIRC 80
     urn: urn:nist:circ:80.supp
   style: v3
-- id: nist.circular.0770
+- id: nist.circular.1384
   identifier:
     _type: pubid:nist:circular
     number: '80'
@@ -8235,7 +8958,7 @@
     human: NBS CIRC 80e2
     urn: urn:nist:circ:80.e2.supp
   style: v3
-- id: nist.circular.0771
+- id: nist.circular.1385
   identifier:
     _type: pubid:nist:circular
     number: '81'
@@ -8245,7 +8968,7 @@
     human: NBS CIRC 81
     urn: urn:nist:circ:81.supp
   style: v3
-- id: nist.circular.0772
+- id: nist.circular.1386
   identifier:
     _type: pubid:nist:circular
     number: '81'
@@ -8258,7 +8981,7 @@
     human: NBS CIRC 81e2
     urn: urn:nist:circ:81.e2.supp
   style: v3
-- id: nist.circular.0773
+- id: nist.circular.1387
   identifier:
     _type: pubid:nist:circular
     number: '82'
@@ -8268,7 +8991,7 @@
     human: NBS CIRC 82
     urn: urn:nist:circ:82.supp
   style: v3
-- id: nist.circular.0774
+- id: nist.circular.1388
   identifier:
     _type: pubid:nist:circular
     number: '82'
@@ -8281,7 +9004,7 @@
     human: NBS CIRC 82e2
     urn: urn:nist:circ:82.e2.supp
   style: v3
-- id: nist.circular.0775
+- id: nist.circular.1389
   identifier:
     _type: pubid:nist:circular
     number: '82'
@@ -8294,7 +9017,7 @@
     human: NBS CIRC 82e3
     urn: urn:nist:circ:82.e3.supp
   style: v3
-- id: nist.circular.0776
+- id: nist.circular.1390
   identifier:
     _type: pubid:nist:circular
     number: '83'
@@ -8304,7 +9027,7 @@
     human: NBS CIRC 83
     urn: urn:nist:circ:83.supp
   style: v3
-- id: nist.circular.0777
+- id: nist.circular.1391
   identifier:
     _type: pubid:nist:circular
     number: '84'
@@ -8314,7 +9037,7 @@
     human: NBS CIRC 84
     urn: urn:nist:circ:84.supp
   style: v3
-- id: nist.circular.0778
+- id: nist.circular.1392
   identifier:
     _type: pubid:nist:circular
     number: '84'
@@ -8327,7 +9050,7 @@
     human: NBS CIRC 84e2
     urn: urn:nist:circ:84.e2.supp
   style: v3
-- id: nist.circular.0779
+- id: nist.circular.1393
   identifier:
     _type: pubid:nist:circular
     number: '85'
@@ -8337,7 +9060,7 @@
     human: NBS CIRC 85
     urn: urn:nist:circ:85.supp
   style: v3
-- id: nist.circular.0780
+- id: nist.circular.1394
   identifier:
     _type: pubid:nist:circular
     number: '85'
@@ -8350,7 +9073,7 @@
     human: NBS CIRC 85e2
     urn: urn:nist:circ:85.e2.supp
   style: v3
-- id: nist.circular.0781
+- id: nist.circular.1395
   identifier:
     _type: pubid:nist:circular
     number: '86'
@@ -8360,7 +9083,7 @@
     human: NBS CIRC 86
     urn: urn:nist:circ:86.supp
   style: v3
-- id: nist.circular.0782
+- id: nist.circular.1396
   identifier:
     _type: pubid:nist:circular
     number: '86'
@@ -8373,7 +9096,7 @@
     human: NBS CIRC 86e2
     urn: urn:nist:circ:86.e2.supp
   style: v3
-- id: nist.circular.0783
+- id: nist.circular.1397
   identifier:
     _type: pubid:nist:circular
     number: '86'
@@ -8386,7 +9109,7 @@
     human: NBS CIRC 86e3
     urn: urn:nist:circ:86.e3.supp
   style: v3
-- id: nist.circular.0784
+- id: nist.circular.1398
   identifier:
     _type: pubid:nist:circular
     number: '87'
@@ -8396,7 +9119,7 @@
     human: NBS CIRC 87
     urn: urn:nist:circ:87.supp
   style: v3
-- id: nist.circular.0785
+- id: nist.circular.1399
   identifier:
     _type: pubid:nist:circular
     number: '87'
@@ -8409,7 +9132,7 @@
     human: NBS CIRC 87e2
     urn: urn:nist:circ:87.e2.supp
   style: v3
-- id: nist.circular.0786
+- id: nist.circular.1400
   identifier:
     _type: pubid:nist:circular
     number: '88'
@@ -8419,7 +9142,7 @@
     human: NBS CIRC 88
     urn: urn:nist:circ:88.supp
   style: v3
-- id: nist.circular.0787
+- id: nist.circular.1401
   identifier:
     _type: pubid:nist:circular
     number: '88'
@@ -8432,7 +9155,7 @@
     human: NBS CIRC 88e2
     urn: urn:nist:circ:88.e2.supp
   style: v3
-- id: nist.circular.0788
+- id: nist.circular.1402
   identifier:
     _type: pubid:nist:circular
     number: '89'
@@ -8442,7 +9165,7 @@
     human: NBS CIRC 89
     urn: urn:nist:circ:89.supp
   style: v3
-- id: nist.circular.0789
+- id: nist.circular.1403
   identifier:
     _type: pubid:nist:circular
     number: '89'
@@ -8455,7 +9178,7 @@
     human: NBS CIRC 89e2
     urn: urn:nist:circ:89.e2.supp
   style: v3
-- id: nist.circular.0790
+- id: nist.circular.1404
   identifier:
     _type: pubid:nist:circular
     number: '89'
@@ -8468,7 +9191,7 @@
     human: NBS CIRC 89e3
     urn: urn:nist:circ:89.e3.supp
   style: v3
-- id: nist.circular.0791
+- id: nist.circular.1405
   identifier:
     _type: pubid:nist:circular
     number: '8'
@@ -8481,7 +9204,7 @@
     human: NBS CIRC 8e2
     urn: urn:nist:circ:8.e2.supp
   style: v3
-- id: nist.circular.0792
+- id: nist.circular.1406
   identifier:
     _type: pubid:nist:circular
     number: '8'
@@ -8494,7 +9217,7 @@
     human: NBS CIRC 8e3
     urn: urn:nist:circ:8.e3.supp
   style: v3
-- id: nist.circular.0793
+- id: nist.circular.1407
   identifier:
     _type: pubid:nist:circular
     number: '8'
@@ -8507,7 +9230,7 @@
     human: NBS CIRC 8e4
     urn: urn:nist:circ:8.e4.supp
   style: v3
-- id: nist.circular.0794
+- id: nist.circular.1408
   identifier:
     _type: pubid:nist:circular
     number: '9'
@@ -8517,7 +9240,7 @@
     human: NBS CIRC 9
     urn: urn:nist:circ:9.supp
   style: v3
-- id: nist.circular.0795
+- id: nist.circular.1409
   identifier:
     _type: pubid:nist:circular
     number: '90'
@@ -8527,7 +9250,7 @@
     human: NBS CIRC 90
     urn: urn:nist:circ:90.supp
   style: v3
-- id: nist.circular.0796
+- id: nist.circular.1410
   identifier:
     _type: pubid:nist:circular
     number: '90'
@@ -8540,7 +9263,7 @@
     human: NBS CIRC 90e2
     urn: urn:nist:circ:90.e2.supp
   style: v3
-- id: nist.circular.0797
+- id: nist.circular.1411
   identifier:
     _type: pubid:nist:circular
     number: '91'
@@ -8550,7 +9273,7 @@
     human: NBS CIRC 91
     urn: urn:nist:circ:91.supp
   style: v3
-- id: nist.circular.0798
+- id: nist.circular.1412
   identifier:
     _type: pubid:nist:circular
     number: '91'
@@ -8563,7 +9286,7 @@
     human: NBS CIRC 91e2
     urn: urn:nist:circ:91.e2.supp
   style: v3
-- id: nist.circular.0799
+- id: nist.circular.1413
   identifier:
     _type: pubid:nist:circular
     number: '92'
@@ -8573,7 +9296,7 @@
     human: NBS CIRC 92
     urn: urn:nist:circ:92.supp
   style: v3
-- id: nist.circular.0800
+- id: nist.circular.1414
   identifier:
     _type: pubid:nist:circular
     number: '93'
@@ -8583,7 +9306,7 @@
     human: NBS CIRC 93
     urn: urn:nist:circ:93.supp
   style: v3
-- id: nist.circular.0801
+- id: nist.circular.1415
   identifier:
     _type: pubid:nist:circular
     number: '93'
@@ -8596,7 +9319,7 @@
     human: NBS CIRC 93e2
     urn: urn:nist:circ:93.e2.supp
   style: v3
-- id: nist.circular.0802
+- id: nist.circular.1416
   identifier:
     _type: pubid:nist:circular
     number: '93'
@@ -8609,7 +9332,7 @@
     human: NBS CIRC 93e3
     urn: urn:nist:circ:93.e3.supp
   style: v3
-- id: nist.circular.0803
+- id: nist.circular.1417
   identifier:
     _type: pubid:nist:circular
     number: '94'
@@ -8619,7 +9342,7 @@
     human: NBS CIRC 94
     urn: urn:nist:circ:94.supp
   style: v3
-- id: nist.circular.0804
+- id: nist.circular.1418
   identifier:
     _type: pubid:nist:circular
     number: '94'
@@ -8632,7 +9355,7 @@
     human: NBS CIRC 94e2
     urn: urn:nist:circ:94.e2.supp
   style: v3
-- id: nist.circular.0805
+- id: nist.circular.1419
   identifier:
     _type: pubid:nist:circular
     number: '94'
@@ -8645,7 +9368,7 @@
     human: NBS CIRC 94e3
     urn: urn:nist:circ:94.e3.supp
   style: v3
-- id: nist.circular.0806
+- id: nist.circular.1420
   identifier:
     _type: pubid:nist:circular
     number: '95'
@@ -8655,7 +9378,7 @@
     human: NBS CIRC 95
     urn: urn:nist:circ:95.supp
   style: v3
-- id: nist.circular.0807
+- id: nist.circular.1421
   identifier:
     _type: pubid:nist:circular
     number: '95'
@@ -8668,7 +9391,7 @@
     human: NBS CIRC 95e2
     urn: urn:nist:circ:95.e2.supp
   style: v3
-- id: nist.circular.0808
+- id: nist.circular.1422
   identifier:
     _type: pubid:nist:circular
     number: '96'
@@ -8678,7 +9401,7 @@
     human: NBS CIRC 96
     urn: urn:nist:circ:96.supp
   style: v3
-- id: nist.circular.0809
+- id: nist.circular.1423
   identifier:
     _type: pubid:nist:circular
     number: '97'
@@ -8688,7 +9411,7 @@
     human: NBS CIRC 97
     urn: urn:nist:circ:97.supp
   style: v3
-- id: nist.circular.0810
+- id: nist.circular.1424
   identifier:
     _type: pubid:nist:circular
     number: '97'
@@ -8701,7 +9424,7 @@
     human: NBS CIRC 97e2
     urn: urn:nist:circ:97.e2.supp
   style: v3
-- id: nist.circular.0811
+- id: nist.circular.1425
   identifier:
     _type: pubid:nist:circular
     number: '97'
@@ -8714,7 +9437,7 @@
     human: NBS CIRC 97e3
     urn: urn:nist:circ:97.e3.supp
   style: v3
-- id: nist.circular.0812
+- id: nist.circular.1426
   identifier:
     _type: pubid:nist:circular
     number: '98'
@@ -8724,7 +9447,7 @@
     human: NBS CIRC 98
     urn: urn:nist:circ:98.supp
   style: v3
-- id: nist.circular.0813
+- id: nist.circular.1427
   identifier:
     _type: pubid:nist:circular
     number: '98'
@@ -8737,7 +9460,7 @@
     human: NBS CIRC 98e2
     urn: urn:nist:circ:98.e2.supp
   style: v3
-- id: nist.circular.0814
+- id: nist.circular.1428
   identifier:
     _type: pubid:nist:circular
     number: '99'
@@ -8747,7 +9470,7 @@
     human: NBS CIRC 99
     urn: urn:nist:circ:99.supp
   style: v3
-- id: nist.circular.0815
+- id: nist.circular.1429
   identifier:
     _type: pubid:nist:circular
     number: '9'
@@ -8760,7 +9483,7 @@
     human: NBS CIRC 9e2
     urn: urn:nist:circ:9.e2.supp
   style: v3
-- id: nist.circular.0816
+- id: nist.circular.1430
   identifier:
     _type: pubid:nist:circular
     number: '9'
@@ -8773,7 +9496,7 @@
     human: NBS CIRC 9e3
     urn: urn:nist:circ:9.e3.supp
   style: v3
-- id: nist.circular.0817
+- id: nist.circular.1431
   identifier:
     _type: pubid:nist:circular
     number: '9'
@@ -8786,7 +9509,7 @@
     human: NBS CIRC 9e4
     urn: urn:nist:circ:9.e4.supp
   style: v3
-- id: nist.circular.0818
+- id: nist.circular.1432
   identifier:
     _type: pubid:nist:circular
     number: '9'
@@ -8799,7 +9522,7 @@
     human: NBS CIRC 9e5
     urn: urn:nist:circ:9.e5.supp
   style: v3
-- id: nist.circular.0819
+- id: nist.circular.1433
   identifier:
     _type: pubid:nist:circular
     number: '9'
@@ -8812,7 +9535,7 @@
     human: NBS CIRC 9e6
     urn: urn:nist:circ:9.e6.supp
   style: v3
-- id: nist.circular.0820
+- id: nist.circular.1434
   identifier:
     _type: pubid:nist:circular
     number: '9'
@@ -8825,7 +9548,7 @@
     human: NBS CIRC 9e7
     urn: urn:nist:circ:9.e7.supp
   style: v3
-- id: nist.circular.0821
+- id: nist.circular.1435
   identifier:
     _type: pubid:nist:circular
     number: '9'
@@ -8838,3 +9561,69 @@
     human: NBS CIRC 9e8
     urn: urn:nist:circ:9.e8.supp
   style: v3
+- id: nist.circular.1436
+  identifier:
+    _type: pubid:nist:circular
+    publisher: NBS
+    series: CIRC
+    supplement:
+      year: '1925'
+      year_end: '1926'
+  representations:
+    human: NBS CIRC sup1925-1926
+    urn: urn:nist:circ:supp1925-1926
+  style: v3
+- id: nist.circular.1437
+  identifier:
+    _type: pubid:nist:circular
+    publisher: NBS
+    series: CIRC
+    supplement:
+      year: '1925'
+      year_end: '1927'
+  representations:
+    human: NBS CIRC sup1925-1927
+    urn: urn:nist:circ:supp1925-1927
+  style: v3
+- id: nist.circular.12111
+  identifier:
+    _type: pubid:nist:circular
+    publisher: NBS
+    series: CIRC
+    parsed_format: mr
+  representations:
+    human: NBS.CIRC
+    urn: urn:nist:circ:supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS.CIRC.sup
+    style: v3
+- id: nist.circular.12112
+  identifier:
+    _type: pubid:nist:circular
+    number: '154'
+    publisher: NBS
+    series: CIRC
+    parsed_format: mr
+    supplement:
+      has_revision: true
+  representations:
+    human: NBS.CIRC.154suprev
+    urn: urn:nist:circ:154.supprev
+  style: v3
+- id: nist.circular.12113
+  identifier:
+    _type: pubid:nist:circular
+    edition:
+      type: e
+      id: '2'
+    publisher: NBS
+    series: CIRC
+    parsed_format: mr
+  representations:
+    human: NBS.CIRCe2
+    urn: urn:nist:circ:e2.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NBS.CIRC.e2
+    style: v3

@@ -1,5 +1,5 @@
 ---
-- id: iso.amendment.0001
+- id: iso.amendment.0009
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -14,7 +14,7 @@
     human: IEC 62304:2006/Amd 1:2015
     urn: urn:iso:std:iec:62304:amd:2015:v1
   style: v3
-- id: iso.amendment.0002
+- id: iso.amendment.0010
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -30,7 +30,7 @@
     human: IEC 62366-1:2015/Amd 1:2020
     urn: urn:iso:std:iec:62366:-1:amd:2020:v1
   style: v3
-- id: iso.amendment.0003
+- id: iso.amendment.0060
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -43,7 +43,7 @@
     human: ISO 10231:2003/Amd 1:2015
     urn: urn:iso:std:iso:10231:amd:2015:v1
   style: v3
-- id: iso.amendment.0004
+- id: iso.amendment.0196
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -57,7 +57,7 @@
     human: ISO 105-B01:1994/AMD 1:1998
     urn: urn:iso:std:iso:105:-B01:amd:1998:v1
   style: v3
-- id: iso.amendment.0005
+- id: iso.amendment.0199
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -71,7 +71,7 @@
     human: ISO 105-B02:1994/AMD 1:1998
     urn: urn:iso:std:iso:105:-B02:amd:1998:v1
   style: v3
-- id: iso.amendment.0006
+- id: iso.amendment.0200
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -85,7 +85,7 @@
     human: ISO 105-B02:1994/AMD 2:2000
     urn: urn:iso:std:iso:105:-B02:amd:2000:v2
   style: v3
-- id: iso.amendment.0007
+- id: iso.amendment.0354
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -99,7 +99,7 @@
     human: ISO 10791-6:2014/PWI Amd 1
     urn: urn:iso:std:iso:10791:-6:stage-00.00:amd:1:v1
   style: v3
-- id: iso.amendment.0008
+- id: iso.amendment.0428
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -116,7 +116,27 @@
   non_normalized_aliases:
   - spelling: ISO 10993-18:2020/DAmd 1
     style: v3
-- id: iso.amendment.0009
+- id: iso.amendment.0440
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2006'
+    languages:
+    - code: en
+      original_code: E
+    base:
+      _type: pubid:iso:international-standard
+      number: '10993'
+      part: '4'
+      year: '2002'
+  representations:
+    human: ISO 10993-4:2002/Amd 1:2006(E)
+    urn: urn:iso:std:iso:10993:-4:amd:2006:v1:en
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO 10993-4:2002/Amd.1:2006(E)
+    style: v2
+- id: iso.amendment.0464
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -129,7 +149,7 @@
     human: ISO 11070:2014/Amd 1:2018
     urn: urn:iso:std:iso:11070:amd:2018:v1
   style: v3
-- id: iso.amendment.0010
+- id: iso.amendment.0543
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -146,7 +166,7 @@
   non_normalized_aliases:
   - spelling: ISO 11137-2:2013/FDAmd 1
     style: v3
-- id: iso.amendment.0011
+- id: iso.amendment.0603
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -159,7 +179,7 @@
     human: ISO 11311:2011/AWI Amd 1
     urn: urn:iso:std:iso:11311:stage-10.99:amd:1:v1
   style: v3
-- id: iso.amendment.0012
+- id: iso.amendment.0814
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -173,7 +193,7 @@
     human: ISO 11855-1:2021/WD Amd 1
     urn: urn:iso:std:iso:11855:-1:stage-20.20:amd:1:v1
   style: v3
-- id: iso.amendment.0013
+- id: iso.amendment.0815
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -187,7 +207,7 @@
     human: ISO 11855-2:2021/AWI Amd 1
     urn: urn:iso:std:iso:11855:-2:stage-10.99:amd:1:v1
   style: v3
-- id: iso.amendment.0014
+- id: iso.amendment.0816
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -201,7 +221,45 @@
     human: ISO 11855-5:2021/AWI Amd 1
     urn: urn:iso:std:iso:11855:-5:stage-10.99:amd:1:v1
   style: v3
-- id: iso.amendment.0015
+- id: iso.amendment.0944
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '1982'
+    languages:
+    - code: fr
+      original_code: fr
+    base:
+      _type: pubid:iso:international-standard
+      number: '1247'
+      year: '1974'
+  representations:
+    human: ISO 1247:1974/Amd 1:1982(fr)
+    urn: urn:iso:std:iso:1247:amd:1982:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO 1247:1974/Amd.1:1982(fr)
+    style: v2
+- id: iso.amendment.1050
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2015'
+    languages:
+    - code: fr
+      original_code: fr
+    base:
+      _type: pubid:iso:international-standard
+      number: '13017'
+      year: '2012'
+  representations:
+    human: ISO 13017:2012/Amd 1:2015(fr)
+    urn: urn:iso:std:iso:13017:amd:2015:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO 13017:2012/Amd.1:2015(fr)
+    style: v2
+- id: iso.amendment.1253
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -217,7 +275,7 @@
     human: ISO 13688:2013/Amd 1:2021(en)
     urn: urn:iso:std:iso:13688:amd:2021:v1:en
   style: v3
-- id: iso.amendment.0016
+- id: iso.amendment.1332
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -230,7 +288,7 @@
     human: ISO 14021:2016/Amd 1:2021
     urn: urn:iso:std:iso:14021:amd:2021:v1
   style: v3
-- id: iso.amendment.0017
+- id: iso.amendment.1338
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -243,7 +301,7 @@
     human: ISO 14044:2006/Amd 2:2020
     urn: urn:iso:std:iso:14044:amd:2020:v2
   style: v3
-- id: iso.amendment.0018
+- id: iso.amendment.1635
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -256,7 +314,7 @@
     human: ISO 14930:2012/Amd 1:2021
     urn: urn:iso:std:iso:14930:amd:2021:v1
   style: v3
-- id: iso.amendment.0019
+- id: iso.amendment.1664
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -275,7 +333,7 @@
   non_normalized_aliases:
   - spelling: ISO 15002:2008/DAmd 2(fr)
     style: v3
-- id: iso.amendment.0020
+- id: iso.amendment.1665
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -292,7 +350,7 @@
     human: ISO 15002:2008/DAM 2:2020(F)
     urn: urn:iso:std:iso:15002:stage-40.00:amd:2020:v2:fr
   style: v3
-- id: iso.amendment.0021
+- id: iso.amendment.1783
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -305,7 +363,7 @@
     human: ISO 15372:2000/Amd 1:2021
     urn: urn:iso:std:iso:15372:amd:2021:v1
   style: v3
-- id: iso.amendment.0022
+- id: iso.amendment.1851
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -322,7 +380,7 @@
   non_normalized_aliases:
   - spelling: ISO 15614-1:2017/FDAmd 2
     style: v3
-- id: iso.amendment.0023
+- id: iso.amendment.1968
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -339,7 +397,7 @@
   non_normalized_aliases:
   - spelling: ISO 15874-2:2013/FDAmd 2
     style: v3
-- id: iso.amendment.0024
+- id: iso.amendment.1969
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -353,7 +411,7 @@
     human: ISO 15874-3:2013/DAM 2
     urn: urn:iso:std:iso:15874:-3:stage-40.00:amd:2:v1
   style: v3
-- id: iso.amendment.0025
+- id: iso.amendment.1970
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -371,7 +429,7 @@
     human: ISO 15874-3:2013/DAM 2:2020(E)
     urn: urn:iso:std:iso:15874:-3:stage-40.00:amd:2020:v2:en
   style: v3
-- id: iso.amendment.0026
+- id: iso.amendment.2450
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -386,7 +444,7 @@
     human: ISO 17301-1:2016/AWI Amd 1.2
     urn: urn:iso:std:iso:17301:-1:stage-10.99:amd:1:v1.2
   style: v3
-- id: iso.amendment.0027
+- id: iso.amendment.2451
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -402,7 +460,7 @@
     human: ISO 17301-1:2016/AWI Amd 1.2:2022
     urn: urn:iso:std:iso:17301:-1:stage-10.99:amd:2022:v1.2
   style: v3
-- id: iso.amendment.0028
+- id: iso.amendment.2452
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -417,7 +475,7 @@
     human: ISO 17301-1:2016/AWI Amd 2.2
     urn: urn:iso:std:iso:17301:-1:stage-10.99:amd:2:v1.2
   style: v3
-- id: iso.amendment.0029
+- id: iso.amendment.2453
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -433,7 +491,27 @@
     human: ISO 17301-1:2016/AWI Amd 2.2:2022
     urn: urn:iso:std:iso:17301:-1:stage-10.99:amd:2022:v2.2
   style: v3
-- id: iso.amendment.0030
+- id: iso.amendment.2458
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2017'
+    languages:
+    - code: fr
+      original_code: F
+    base:
+      _type: pubid:iso:international-standard
+      number: '17301'
+      part: '1'
+      year: '2016'
+  representations:
+    human: ISO 17301-1:2016/Amd 1:2017(F)
+    urn: urn:iso:std:iso:17301:-1:amd:2017:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO 17301-1:2016/Amd.1:2017(F)
+    style: v2
+- id: iso.amendment.2459
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -448,7 +526,7 @@
     human: ISO 17301-1:2016/CD Amd 1.3
     urn: urn:iso:std:iso:17301:-1:CD.3:amd:1:v1.3
   style: v3
-- id: iso.amendment.0031
+- id: iso.amendment.2460
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -464,7 +542,7 @@
     human: ISO 17301-1:2016/CD Amd 1.3:2022
     urn: urn:iso:std:iso:17301:-1:CD.3:amd:2022:v1.3
   style: v3
-- id: iso.amendment.0032
+- id: iso.amendment.2461
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -479,7 +557,7 @@
     human: ISO 17301-1:2016/CD Amd 2.3
     urn: urn:iso:std:iso:17301:-1:CD.3:amd:2:v1.3
   style: v3
-- id: iso.amendment.0033
+- id: iso.amendment.2462
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -495,7 +573,7 @@
     human: ISO 17301-1:2016/CD Amd 2.3:2022
     urn: urn:iso:std:iso:17301:-1:CD.3:amd:2022:v2.3
   style: v3
-- id: iso.amendment.0034
+- id: iso.amendment.2469
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -513,7 +591,7 @@
   non_normalized_aliases:
   - spelling: ISO 17301-1:2016/DAmd 1.3
     style: v3
-- id: iso.amendment.0035
+- id: iso.amendment.2470
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -532,7 +610,7 @@
   non_normalized_aliases:
   - spelling: ISO 17301-1:2016/DAmd 1.3:2002
     style: v3
-- id: iso.amendment.0036
+- id: iso.amendment.2471
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -550,7 +628,7 @@
   non_normalized_aliases:
   - spelling: ISO 17301-1:2016/DAmd 2.3
     style: v3
-- id: iso.amendment.0037
+- id: iso.amendment.2472
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -569,7 +647,7 @@
   non_normalized_aliases:
   - spelling: ISO 17301-1:2016/DAmd 2.3:2002
     style: v3
-- id: iso.amendment.0038
+- id: iso.amendment.2479
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -587,7 +665,7 @@
   non_normalized_aliases:
   - spelling: ISO 17301-1:2016/FDAmd 1.3
     style: v3
-- id: iso.amendment.0039
+- id: iso.amendment.2480
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -606,7 +684,7 @@
   non_normalized_aliases:
   - spelling: ISO 17301-1:2016/FDAmd 1.3:2022
     style: v3
-- id: iso.amendment.0040
+- id: iso.amendment.2481
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -624,7 +702,7 @@
   non_normalized_aliases:
   - spelling: ISO 17301-1:2016/FDAmd 2.3
     style: v3
-- id: iso.amendment.0041
+- id: iso.amendment.2482
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -643,7 +721,7 @@
   non_normalized_aliases:
   - spelling: ISO 17301-1:2016/FDAmd 2.3:2022
     style: v3
-- id: iso.amendment.0042
+- id: iso.amendment.2491
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -658,7 +736,7 @@
     human: ISO 17301-1:2016/NP Amd 1.2
     urn: urn:iso:std:iso:17301:-1:stage-10.00:amd:1:v1.2
   style: v3
-- id: iso.amendment.0043
+- id: iso.amendment.2492
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -674,7 +752,7 @@
     human: ISO 17301-1:2016/NP Amd 1.2:2022
     urn: urn:iso:std:iso:17301:-1:stage-10.00:amd:2022:v1.2
   style: v3
-- id: iso.amendment.0044
+- id: iso.amendment.2493
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -689,7 +767,7 @@
     human: ISO 17301-1:2016/NP Amd 2.2
     urn: urn:iso:std:iso:17301:-1:stage-10.00:amd:2:v1.2
   style: v3
-- id: iso.amendment.0045
+- id: iso.amendment.2494
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -705,7 +783,7 @@
     human: ISO 17301-1:2016/NP Amd 2.2:2022
     urn: urn:iso:std:iso:17301:-1:stage-10.00:amd:2022:v2.2
   style: v3
-- id: iso.amendment.0046
+- id: iso.amendment.2499
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -720,7 +798,7 @@
     human: ISO 17301-1:2016/WD Amd 1.2
     urn: urn:iso:std:iso:17301:-1:stage-20.20:amd:1:v1.2
   style: v3
-- id: iso.amendment.0047
+- id: iso.amendment.2500
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -736,7 +814,7 @@
     human: ISO 17301-1:2016/WD Amd 1.2:2022
     urn: urn:iso:std:iso:17301:-1:stage-20.20:amd:2022:v1.2
   style: v3
-- id: iso.amendment.0048
+- id: iso.amendment.2501
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -751,7 +829,7 @@
     human: ISO 17301-1:2016/WD Amd 2.2
     urn: urn:iso:std:iso:17301:-1:stage-20.20:amd:2:v1.2
   style: v3
-- id: iso.amendment.0049
+- id: iso.amendment.2502
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -767,7 +845,26 @@
     human: ISO 17301-1:2016/WD Amd 2.2:2022
     urn: urn:iso:std:iso:17301:-1:stage-20.20:amd:2022:v2.2
   style: v3
-- id: iso.amendment.0050
+- id: iso.amendment.2677
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2013'
+    languages:
+    - code: fr
+      original_code: fr
+    base:
+      _type: pubid:iso:international-standard
+      number: '178'
+      year: '2010'
+  representations:
+    human: ISO 178:2010/Amd 1:2013(fr)
+    urn: urn:iso:std:iso:178:amd:2013:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO 178:2010/Amd.1:2013(fr)
+    style: v2
+- id: iso.amendment.2755
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -780,7 +877,7 @@
     human: ISO 18362:2016/PRF Amd 1
     urn: urn:iso:std:iso:18362:stage-50.00:amd:1:v1
   style: v3
-- id: iso.amendment.0051
+- id: iso.amendment.2933
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -793,7 +890,7 @@
     human: ISO 19110:2005/FDAM 1
     urn: urn:iso:std:iso:19110:FDAM:amd:1:v1
   style: v3
-- id: iso.amendment.0052
+- id: iso.amendment.2934
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -806,7 +903,7 @@
     human: ISO 19115-2:2019/Amd 1
     urn: urn:iso:std:iso:19115:-2:amd:1:v1
   style: v3
-- id: iso.amendment.0053
+- id: iso.amendment.2935
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -819,7 +916,7 @@
     human: ISO 19115:2003/PWI Amd 1
     urn: urn:iso:std:iso:19115:stage-00.00:amd:1:v1
   style: v3
-- id: iso.amendment.0054
+- id: iso.amendment.2936
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -833,7 +930,7 @@
     human: ISO 19135-1:2015/Amd 1:2021
     urn: urn:iso:std:iso:19135:-1:amd:2021:v1
   style: v3
-- id: iso.amendment.0055
+- id: iso.amendment.2940
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -846,7 +943,7 @@
     human: ISO 19157:2013/Amd 1:2018
     urn: urn:iso:std:iso:19157:amd:2018:v1
   style: v3
-- id: iso.amendment.0056
+- id: iso.amendment.3132
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -859,7 +956,7 @@
     human: ISO 20038:2017/AWI Amd 1
     urn: urn:iso:std:iso:20038:stage-10.99:amd:1:v1
   style: v3
-- id: iso.amendment.0057
+- id: iso.amendment.3149
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -873,7 +970,7 @@
     human: ISO 20138-2:2019/WD Amd 1
     urn: urn:iso:std:iso:20138:-2:stage-20.20:amd:1:v1
   style: v3
-- id: iso.amendment.0058
+- id: iso.amendment.3656
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -886,7 +983,7 @@
     human: ISO 21709:2020/Amd 1:2021
     urn: urn:iso:std:iso:21709:amd:2021:v1
   style: v3
-- id: iso.amendment.0059
+- id: iso.amendment.3720
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -900,7 +997,7 @@
     human: ISO 21940-11:2016/PRF Amd 1
     urn: urn:iso:std:iso:21940:-11:stage-50.00:amd:1:v1
   style: v3
-- id: iso.amendment.0060
+- id: iso.amendment.3721
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -914,7 +1011,7 @@
     human: ISO 21940-14:2012/PRF Amd 1
     urn: urn:iso:std:iso:21940:-14:stage-50.00:amd:1:v1
   style: v3
-- id: iso.amendment.0061
+- id: iso.amendment.3726
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -927,7 +1024,7 @@
     human: ISO 21978:2021/WD Amd 1
     urn: urn:iso:std:iso:21978:stage-20.20:amd:1:v1
   style: v3
-- id: iso.amendment.0062
+- id: iso.amendment.4016
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -940,7 +1037,7 @@
     human: ISO 23125:2010/Amd 1:2012
     urn: urn:iso:std:iso:23125:amd:2012:v1
   style: v3
-- id: iso.amendment.0063
+- id: iso.amendment.4117
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -953,7 +1050,7 @@
     human: ISO 23591:2021/PWI Amd 1
     urn: urn:iso:std:iso:23591:stage-00.00:amd:1:v1
   style: v3
-- id: iso.amendment.0064
+- id: iso.amendment.4319
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -966,7 +1063,7 @@
     human: ISO 25424:2018/Amd 1:2022
     urn: urn:iso:std:iso:25424:amd:2022:v1
   style: v3
-- id: iso.amendment.0065
+- id: iso.amendment.4331
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -979,7 +1076,7 @@
     human: ISO 25862:2019/AWI Amd 1
     urn: urn:iso:std:iso:25862:stage-10.99:amd:1:v1
   style: v3
-- id: iso.amendment.0066
+- id: iso.amendment.4394
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -995,7 +1092,7 @@
     human: ISO 27608:2010/DAM 1(en)
     urn: urn:iso:std:iso:27608:stage-40.00:amd:1:v1:en
   style: v3
-- id: iso.amendment.0067
+- id: iso.amendment.4466
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1009,7 +1106,7 @@
     human: ISO 28927-1:2009/Amd 1:2017
     urn: urn:iso:std:iso:28927:-1:amd:2017:v1
   style: v3
-- id: iso.amendment.0068
+- id: iso.amendment.4532
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1022,7 +1119,7 @@
     human: ISO 29767:2008/Amd 1:2014
     urn: urn:iso:std:iso:29767:amd:2014:v1
   style: v3
-- id: iso.amendment.0069
+- id: iso.amendment.4554
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1035,7 +1132,7 @@
     human: ISO 30401:2018/PRF Amd 1
     urn: urn:iso:std:iso:30401:stage-50.00:amd:1:v1
   style: v3
-- id: iso.amendment.0070
+- id: iso.amendment.4572
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1051,7 +1148,7 @@
   non_normalized_aliases:
   - spelling: ISO 3164:2013/FDAmd 1
     style: v3
-- id: iso.amendment.0071
+- id: iso.amendment.4587
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1070,7 +1167,7 @@
   non_normalized_aliases:
   - spelling: ISO 3183:2012/DAmd 1(fr)
     style: v3
-- id: iso.amendment.0072
+- id: iso.amendment.4595
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1086,7 +1183,7 @@
   non_normalized_aliases:
   - spelling: ISO 3245:2015/FDAmd 1
     style: v3
-- id: iso.amendment.0073
+- id: iso.amendment.4876
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1101,7 +1198,7 @@
     human: ISO 4254-1:2005/FDAM 1:2007
     urn: urn:iso:std:iso:4254:-1:FDAM:amd:2007:v1
   style: v3
-- id: iso.amendment.0074
+- id: iso.amendment.4993
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1114,7 +1211,7 @@
     human: ISO 4918:2016/AMD 1:2018
     urn: urn:iso:std:iso:4918:amd:2018:v1
   style: v3
-- id: iso.amendment.0075
+- id: iso.amendment.5026
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -1134,7 +1231,7 @@
   non_normalized_aliases:
   - spelling: ISO 5149-1:2014/DAmd 2(fr)
     style: v3
-- id: iso.amendment.0076
+- id: iso.amendment.5027
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -1152,7 +1249,83 @@
     human: ISO 5149-1:2014/DAM 2:2019(F)
     urn: urn:iso:std:iso:5149:-1:stage-40.00:amd:2019:v2:fr
   style: v3
-- id: iso.amendment.0077
+- id: iso.amendment.5079
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2016'
+    languages:
+    - code: de
+      original_code: de
+    base:
+      _type: pubid:iso:international-standard
+      number: '5492'
+      year: '2008'
+  representations:
+    human: ISO 5492:2008/Amd 1:2016(de)
+    urn: urn:iso:std:iso:5492:amd:2016:v1:de
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO 5492:2008/Amd.1:2016(de)
+    style: v2
+- id: iso.amendment.5080
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2016'
+    languages:
+    - code: es
+      original_code: es
+    base:
+      _type: pubid:iso:international-standard
+      number: '5492'
+      year: '2008'
+  representations:
+    human: ISO 5492:2008/Amd 1:2016(es)
+    urn: urn:iso:std:iso:5492:amd:2016:v1:es
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO 5492:2008/Amd.1:2016(es)
+    style: v2
+- id: iso.amendment.5081
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2016'
+    languages:
+    - code: fr
+      original_code: fr
+    base:
+      _type: pubid:iso:international-standard
+      number: '5492'
+      year: '2008'
+  representations:
+    human: ISO 5492:2008/Amd 1:2016(fr)
+    urn: urn:iso:std:iso:5492:amd:2016:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO 5492:2008/Amd.1:2016(fr)
+    style: v2
+- id: iso.amendment.5082
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2016'
+    languages:
+    - code: ru
+      original_code: ru
+    base:
+      _type: pubid:iso:international-standard
+      number: '5492'
+      year: '2008'
+  representations:
+    human: ISO 5492:2008/Amd 1:2016(ru)
+    urn: urn:iso:std:iso:5492:amd:2016:v1:ru
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO 5492:2008/Amd.1:2016(ru)
+    style: v2
+- id: iso.amendment.5086
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1165,7 +1338,7 @@
     human: ISO 5496:2006/Amd 1:2018
     urn: urn:iso:std:iso:5496:amd:2018:v1
   style: v3
-- id: iso.amendment.0078
+- id: iso.amendment.5303
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1181,7 +1354,7 @@
     human: ISO 668:2013/DAM 1(en)
     urn: urn:iso:std:iso:668:stage-40.00:amd:1:v1:en
   style: v3
-- id: iso.amendment.0079
+- id: iso.amendment.5304
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1197,7 +1370,7 @@
   non_normalized_aliases:
   - spelling: ISO 668:2020/FDAmd 1
     style: v3
-- id: iso.amendment.0080
+- id: iso.amendment.5375
   identifier:
     _type: pubid:iso:amendment
     number: '4'
@@ -1210,7 +1383,7 @@
     human: ISO 7010:2019/Amd 4:2021
     urn: urn:iso:std:iso:7010:amd:2021:v4
   style: v3
-- id: iso.amendment.0081
+- id: iso.amendment.5376
   identifier:
     _type: pubid:iso:amendment
     number: '5'
@@ -1223,7 +1396,7 @@
     human: ISO 7010:2019/Amd 5:2022
     urn: urn:iso:std:iso:7010:amd:2022:v5
   style: v3
-- id: iso.amendment.0082
+- id: iso.amendment.5377
   identifier:
     _type: pubid:iso:amendment
     number: '114'
@@ -1239,7 +1412,7 @@
   non_normalized_aliases:
   - spelling: ISO 7010:2019/DAmd 114
     style: v3
-- id: iso.amendment.0083
+- id: iso.amendment.5378
   identifier:
     _type: pubid:iso:amendment
     number: '118'
@@ -1255,7 +1428,7 @@
   non_normalized_aliases:
   - spelling: ISO 7010:2019/DAmd 118
     style: v3
-- id: iso.amendment.0084
+- id: iso.amendment.5379
   identifier:
     _type: pubid:iso:amendment
     number: '124'
@@ -1271,7 +1444,7 @@
   non_normalized_aliases:
   - spelling: ISO 7010:2019/DAmd 124
     style: v3
-- id: iso.amendment.0085
+- id: iso.amendment.5380
   identifier:
     _type: pubid:iso:amendment
     number: '125'
@@ -1287,7 +1460,7 @@
   non_normalized_aliases:
   - spelling: ISO 7010:2019/DAmd 125
     style: v3
-- id: iso.amendment.0086
+- id: iso.amendment.5381
   identifier:
     _type: pubid:iso:amendment
     number: '129'
@@ -1303,7 +1476,7 @@
   non_normalized_aliases:
   - spelling: ISO 7010:2019/DAmd 129
     style: v3
-- id: iso.amendment.0087
+- id: iso.amendment.5418
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -1321,7 +1494,7 @@
     human: ISO 7207-2:2011/DAM 2:2019(F)
     urn: urn:iso:std:iso:7207:-2:stage-40.00:amd:2019:v2:fr
   style: v3
-- id: iso.amendment.0088
+- id: iso.amendment.5495
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -1334,7 +1507,7 @@
     human: ISO 772:1996/Amd 2:2004
     urn: urn:iso:std:iso:772:amd:2004:v2
   style: v3
-- id: iso.amendment.0089
+- id: iso.amendment.5632
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -1348,7 +1521,7 @@
     human: ISO 8124-1:2000/Amd 2:2007
     urn: urn:iso:std:iso:8124:-1:amd:2007:v2
   style: v3
-- id: iso.amendment.0090
+- id: iso.amendment.5633
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -1362,7 +1535,7 @@
     human: ISO 8124-3:2010/Amd 2:2018
     urn: urn:iso:std:iso:8124:-3:amd:2018:v2
   style: v3
-- id: iso.amendment.0091
+- id: iso.amendment.5634
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1376,7 +1549,7 @@
     human: ISO 8124-3:2020/PWI Amd 1
     urn: urn:iso:std:iso:8124:-3:stage-00.00:amd:1:v1
   style: v3
-- id: iso.amendment.0092
+- id: iso.amendment.5636
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1390,7 +1563,45 @@
     human: ISO 8124-7:2015/Amd 1:2020
     urn: urn:iso:std:iso:8124:-7:amd:2020:v1
   style: v3
-- id: iso.amendment.0093
+- id: iso.amendment.5792
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2015'
+    languages:
+    - code: fr
+      original_code: fr
+    base:
+      _type: pubid:iso:international-standard
+      number: '8624'
+      year: '2011'
+  representations:
+    human: ISO 8624:2011/Amd 1:2015(fr)
+    urn: urn:iso:std:iso:8624:amd:2015:v1:fr
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO 8624:2011/Amd.1:2015(fr)
+    style: v2
+- id: iso.amendment.5796
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2013'
+    languages:
+    - code: ru
+      original_code: ru
+    base:
+      _type: pubid:iso:international-standard
+      number: '8637'
+      year: '2010'
+  representations:
+    human: ISO 8637:2010/Amd 1:2013(ru)
+    urn: urn:iso:std:iso:8637:amd:2013:v1:ru
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO 8637:2010/Amd.1:2013(ru)
+    style: v2
+- id: iso.amendment.5823
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1406,7 +1617,7 @@
     human: ISO 8727:1997/DAM 1(en)
     urn: urn:iso:std:iso:8727:stage-40.00:amd:1:v1:en
   style: v3
-- id: iso.amendment.0094
+- id: iso.amendment.5911
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1420,7 +1631,7 @@
     human: ISO 9022-4:2014/WD Amd 1
     urn: urn:iso:std:iso:9022:-4:stage-20.20:amd:1:v1
   style: v3
-- id: iso.amendment.0095
+- id: iso.amendment.6088
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -1433,7 +1644,7 @@
     human: ISO 9660:1988/Amd 2:2020
     urn: urn:iso:std:iso:9660:amd:2020:v2
   style: v3
-- id: iso.amendment.0096
+- id: iso.amendment.6282
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1451,7 +1662,7 @@
     human: ISO/IEC 10118-1:2016/Amd 1:2021
     urn: urn:iso:std:iso-iec:10118:-1:amd:2021:v1
   style: v3
-- id: iso.amendment.0097
+- id: iso.amendment.6293
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1469,7 +1680,7 @@
     human: ISO/IEC 10373-6:2020/Amd 1:2021
     urn: urn:iso:std:iso-iec:10373:-6:amd:2021:v1
   style: v3
-- id: iso.amendment.0098
+- id: iso.amendment.6300
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -1486,7 +1697,7 @@
     human: ISO/IEC 10646:2017/Amd 2:2019
     urn: urn:iso:std:iso-iec:10646:amd:2019:v2
   style: v3
-- id: iso.amendment.0099
+- id: iso.amendment.6301
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1503,7 +1714,7 @@
     human: ISO/IEC 10646:2020/CD Amd 1
     urn: urn:iso:std:iso-iec:10646:CD:amd:1:v1
   style: v3
-- id: iso.amendment.0100
+- id: iso.amendment.6303
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1520,7 +1731,7 @@
     human: ISO/IEC 11572:1997/Amd 1:1997
     urn: urn:iso:std:iso-iec:11572:amd:1997:v1
   style: v3
-- id: iso.amendment.0101
+- id: iso.amendment.6304
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1538,7 +1749,7 @@
     human: ISO/IEC 11770-4:2017/Amd 1:2019
     urn: urn:iso:std:iso-iec:11770:-4:amd:2019:v1
   style: v3
-- id: iso.amendment.0102
+- id: iso.amendment.6305
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -1556,7 +1767,7 @@
     human: ISO/IEC 11770-4:2017/Amd 2:2021
     urn: urn:iso:std:iso-iec:11770:-4:amd:2021:v2
   style: v3
-- id: iso.amendment.0103
+- id: iso.amendment.6316
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1576,7 +1787,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC 13818-1/DAmd 1
     style: v3
-- id: iso.amendment.0104
+- id: iso.amendment.6317
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1594,7 +1805,7 @@
     human: ISO/IEC 13818-1:2013/Amd 1:2014
     urn: urn:iso:std:iso-iec:13818:-1:amd:2014:v1
   style: v3
-- id: iso.amendment.0105
+- id: iso.amendment.6318
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1612,7 +1823,7 @@
     human: ISO/IEC 13818-1:2015/Amd 1:2015
     urn: urn:iso:std:iso-iec:13818:-1:amd:2015:v1
   style: v3
-- id: iso.amendment.0106
+- id: iso.amendment.6321
   identifier:
     _type: pubid:iso:amendment
     number: '4'
@@ -1630,7 +1841,7 @@
     human: ISO/IEC 13818-1:2019/CD Amd 4
     urn: urn:iso:std:iso-iec:13818:-1:CD:amd:4:v1
   style: v3
-- id: iso.amendment.0107
+- id: iso.amendment.6330
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1648,7 +1859,7 @@
     human: ISO/IEC 14165-122:2005/Amd 1:2008
     urn: urn:iso:std:iso-iec:14165:-122:amd:2008:v1
   style: v3
-- id: iso.amendment.0108
+- id: iso.amendment.6333
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1666,7 +1877,7 @@
     human: ISO/IEC 14443-3:2018/Amd 1:2021
     urn: urn:iso:std:iso-iec:14443:-3:amd:2021:v1
   style: v3
-- id: iso.amendment.0109
+- id: iso.amendment.6334
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1687,7 +1898,7 @@
     human: ISO/IEC 14496-10:2014/FPDAM 1(en)
     urn: urn:iso:std:iso-iec:14496:-10:FDAM:amd:1:v1:en
   style: v3
-- id: iso.amendment.0110
+- id: iso.amendment.6335
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1705,7 +1916,7 @@
     human: ISO/IEC 14496-10:2020/CD Amd 1
     urn: urn:iso:std:iso-iec:14496:-10:CD:amd:1:v1
   style: v3
-- id: iso.amendment.0111
+- id: iso.amendment.6337
   identifier:
     _type: pubid:iso:amendment
     number: '4'
@@ -1722,7 +1933,7 @@
     human: ISO/IEC 14496-12/PDAM 4
     urn: urn:iso:std:iso-iec:14496:-12:CD:amd:4:v1
   style: v3
-- id: iso.amendment.0112
+- id: iso.amendment.6339
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -1744,7 +1955,7 @@
     human: ISO/IEC 14496-15:2019/DAM 2:2020(E)
     urn: urn:iso:std:iso-iec:14496:-15:stage-40.00:amd:2020:v2:en
   style: v3
-- id: iso.amendment.0113
+- id: iso.amendment.6342
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1765,7 +1976,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC 14496-30:2018/FDAmd 1
     style: v3
-- id: iso.amendment.0114
+- id: iso.amendment.6344
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -1783,7 +1994,7 @@
     human: ISO/IEC 14496-3:2009/Amd 2:2010
     urn: urn:iso:std:iso-iec:14496:-3:amd:2010:v2
   style: v3
-- id: iso.amendment.0115
+- id: iso.amendment.6452
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1801,7 +2012,7 @@
     human: ISO/IEC 18000-6:2004/Amd 1:2006
     urn: urn:iso:std:iso-iec:18000:-6:amd:2006:v1
   style: v3
-- id: iso.amendment.0116
+- id: iso.amendment.6454
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1819,7 +2030,7 @@
     human: ISO/IEC 18013-2:2020/CD Amd 1
     urn: urn:iso:std:iso-iec:18013:-2:CD:amd:1:v1
   style: v3
-- id: iso.amendment.0117
+- id: iso.amendment.6455
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1837,7 +2048,7 @@
     human: ISO/IEC 18013-3:2017/Amd 1:2022
     urn: urn:iso:std:iso-iec:18013:-3:amd:2022:v1
   style: v3
-- id: iso.amendment.0118
+- id: iso.amendment.6483
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1855,7 +2066,7 @@
     human: ISO/IEC 19566-5:2019/Amd 1:2021
     urn: urn:iso:std:iso-iec:19566:-5:amd:2021:v1
   style: v3
-- id: iso.amendment.0119
+- id: iso.amendment.6484
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -1873,7 +2084,7 @@
     human: ISO/IEC 19566-5:2019/WD Amd 2
     urn: urn:iso:std:iso-iec:19566:-5:stage-20.20:amd:2:v1
   style: v3
-- id: iso.amendment.0120
+- id: iso.amendment.6497
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1891,7 +2102,7 @@
     human: ISO/IEC 19788-1:2011/Amd 1:2014
     urn: urn:iso:std:iso-iec:19788:-1:amd:2014:v1
   style: v3
-- id: iso.amendment.0121
+- id: iso.amendment.6498
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1912,7 +2123,7 @@
     human: ISO/IEC 19788-2:2011/FPDAM 1(en)
     urn: urn:iso:std:iso-iec:19788:-2:FDAM:amd:1:v1:en
   style: v3
-- id: iso.amendment.0122
+- id: iso.amendment.6524
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1929,7 +2140,7 @@
     human: ISO/IEC 19944:2017/PDAM 1
     urn: urn:iso:std:iso-iec:19944:CD:amd:1:v1
   style: v3
-- id: iso.amendment.0123
+- id: iso.amendment.6527
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1947,7 +2158,7 @@
     human: ISO/IEC 20000-2:2019/Amd 1:2020
     urn: urn:iso:std:iso-iec:20000:-2:amd:2020:v1
   style: v3
-- id: iso.amendment.0124
+- id: iso.amendment.6544
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1965,7 +2176,7 @@
     human: ISO/IEC 21122-2:2019/AWI Amd 1
     urn: urn:iso:std:iso-iec:21122:-2:stage-10.99:amd:1:v1
   style: v3
-- id: iso.amendment.0125
+- id: iso.amendment.6549
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -1983,7 +2194,7 @@
     human: ISO/IEC 21794-2:2021/Amd 1:2021
     urn: urn:iso:std:iso-iec:21794:-2:amd:2021:v1
   style: v3
-- id: iso.amendment.0126
+- id: iso.amendment.6561
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -2004,7 +2215,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC 23000-19:2020/DAmd 2
     style: v3
-- id: iso.amendment.0127
+- id: iso.amendment.6562
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -2025,7 +2236,7 @@
     human: ISO/IEC 23001-8:2013/FPDAM 2(en)
     urn: urn:iso:std:iso-iec:23001:-8:FDAM:amd:2:v1:en
   style: v3
-- id: iso.amendment.0128
+- id: iso.amendment.6563
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -2046,7 +2257,7 @@
     human: ISO/IEC 23001-9:2014/FPDAM 1(en)
     urn: urn:iso:std:iso-iec:23001:-9:FDAM:amd:1:v1:en
   style: v3
-- id: iso.amendment.0129
+- id: iso.amendment.6566
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -2064,7 +2275,7 @@
     human: ISO/IEC 23002-7:2021/CD Amd 1
     urn: urn:iso:std:iso-iec:23002:-7:CD:amd:1:v1
   style: v3
-- id: iso.amendment.0130
+- id: iso.amendment.6567
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -2082,7 +2293,7 @@
     human: ISO/IEC 23003-1:2007/Amd 2:2008
     urn: urn:iso:std:iso-iec:23003:-1:amd:2008:v2
   style: v3
-- id: iso.amendment.0131
+- id: iso.amendment.6568
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -2100,7 +2311,7 @@
     human: ISO/IEC 23003-4:2020/PRF Amd 1
     urn: urn:iso:std:iso-iec:23003:-4:stage-50.00:amd:1:v1
   style: v3
-- id: iso.amendment.0132
+- id: iso.amendment.6577
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -2121,7 +2332,7 @@
     human: ISO/IEC 23008-1:2014/FPDAM 2(en)
     urn: urn:iso:std:iso-iec:23008:-1:FDAM:amd:2:v1:en
   style: v3
-- id: iso.amendment.0133
+- id: iso.amendment.6578
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -2139,7 +2350,7 @@
     human: ISO/IEC 23008-2:2017/Amd 2:2018
     urn: urn:iso:std:iso-iec:23008:-2:amd:2018:v2
   style: v3
-- id: iso.amendment.0134
+- id: iso.amendment.6579
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -2157,7 +2368,7 @@
     human: ISO/IEC 23008-2:2020/Amd 1:2021
     urn: urn:iso:std:iso-iec:23008:-2:amd:2021:v1
   style: v3
-- id: iso.amendment.0135
+- id: iso.amendment.6580
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -2175,7 +2386,7 @@
     human: ISO/IEC 23008-2:2020/CD Amd 2
     urn: urn:iso:std:iso-iec:23008:-2:CD:amd:2:v1
   style: v3
-- id: iso.amendment.0136
+- id: iso.amendment.6581
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -2193,7 +2404,7 @@
     human: ISO/IEC 23008-3:2015/Amd 1:2016
     urn: urn:iso:std:iso-iec:23008:-3:amd:2016:v1
   style: v3
-- id: iso.amendment.0137
+- id: iso.amendment.6582
   identifier:
     _type: pubid:iso:amendment
     number: '3'
@@ -2211,7 +2422,7 @@
     human: ISO/IEC 23008-3:2015/Amd 3:2017
     urn: urn:iso:std:iso-iec:23008:-3:amd:2017:v3
   style: v3
-- id: iso.amendment.0138
+- id: iso.amendment.6587
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -2228,7 +2439,7 @@
     human: ISO/IEC 23008-8/PDAM 1
     urn: urn:iso:std:iso-iec:23008:-8:CD:amd:1:v1
   style: v3
-- id: iso.amendment.0139
+- id: iso.amendment.6589
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -2246,7 +2457,7 @@
     human: ISO/IEC 23009-1:2014/Amd 2:2015
     urn: urn:iso:std:iso-iec:23009:-1:amd:2015:v2
   style: v3
-- id: iso.amendment.0140
+- id: iso.amendment.6590
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -2264,7 +2475,7 @@
     human: ISO/IEC 23009-1:2019/CD Amd 2
     urn: urn:iso:std:iso-iec:23009:-1:CD:amd:2:v1
   style: v3
-- id: iso.amendment.0141
+- id: iso.amendment.6597
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -2282,7 +2493,7 @@
     human: ISO/IEC 23090-2:2021/CD Amd 1
     urn: urn:iso:std:iso-iec:23090:-2:CD:amd:1:v1
   style: v3
-- id: iso.amendment.0142
+- id: iso.amendment.6598
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -2300,7 +2511,7 @@
     human: ISO/IEC 23091-3:2018/PRF Amd 1
     urn: urn:iso:std:iso-iec:23091:-3:stage-50.00:amd:1:v1
   style: v3
-- id: iso.amendment.0143
+- id: iso.amendment.6600
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -2318,7 +2529,7 @@
     human: ISO/IEC 23092-4:2020/CD Amd 1
     urn: urn:iso:std:iso-iec:23092:-4:CD:amd:1:v1
   style: v3
-- id: iso.amendment.0144
+- id: iso.amendment.6627
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -2336,7 +2547,27 @@
     human: ISO/IEC 24760-1:2019/CD Amd 1
     urn: urn:iso:std:iso-iec:24760:-1:CD:amd:1:v1
   style: v3
-- id: iso.amendment.0145
+- id: iso.amendment.6669
+  identifier:
+    _type: pubid:iso:amendment
+    number: '1'
+    year: '2012'
+    copublishers:
+    - IEC
+    base:
+      _type: pubid:iso:international-standard
+      number: '26300'
+      year: '2006'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC 26300:2006/Amd 1:2012
+    urn: urn:iso:std:iso-iec:26300:amd:2012:v1
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC 26300:2006/Amd.1:2012
+    style: v2
+- id: iso.amendment.6687
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -2356,7 +2587,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC 27001:2013/DAmd 1
     style: v3
-- id: iso.amendment.0146
+- id: iso.amendment.6692
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -2373,7 +2604,7 @@
     human: ISO/IEC 27006:2015/PDAM 1
     urn: urn:iso:std:iso-iec:27006:CD:amd:1:v1
   style: v3
-- id: iso.amendment.0147
+- id: iso.amendment.6749
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -2391,7 +2622,7 @@
     human: ISO/IEC 30134-1:2016/Amd 1:2018
     urn: urn:iso:std:iso-iec:30134:-1:amd:2018:v1
   style: v3
-- id: iso.amendment.0148
+- id: iso.amendment.6755
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -2411,7 +2642,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC 30193:2020/DAmd 1
     style: v3
-- id: iso.amendment.0149
+- id: iso.amendment.6761
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -2429,7 +2660,7 @@
     human: ISO/IEC 39794-4:2019/WD Amd 1
     urn: urn:iso:std:iso-iec:39794:-4:stage-20.20:amd:1:v1
   style: v3
-- id: iso.amendment.0150
+- id: iso.amendment.6834
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -2453,7 +2684,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC DIS 23008-1/DAmd 2(en)
     style: v3
-- id: iso.amendment.0151
+- id: iso.amendment.6835
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -2475,7 +2706,7 @@
     human: ISO/IEC DIS 23008-1/DAM 2:2021(E)
     urn: urn:iso:std:iso-iec:23008:-1:stage-40.00:amd:2021:v2:en
   style: v3
-- id: iso.amendment.0152
+- id: iso.amendment.6836
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -2493,7 +2724,7 @@
     human: ISO/IEC DIS 23008-1/WD Amd 1
     urn: urn:iso:std:iso-iec:23008:-1:stage-20.20:amd:1:v1
   style: v3
-- id: iso.amendment.0153
+- id: iso.amendment.6837
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -2511,7 +2742,7 @@
     human: ISO/IEC DIS 23090-18/WD Amd 1
     urn: urn:iso:std:iso-iec:23090:-18:stage-20.20:amd:1:v1
   style: v3
-- id: iso.amendment.0154
+- id: iso.amendment.6838
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -2529,7 +2760,7 @@
     human: ISO/IEC DIS 23090-7/WD Amd 1
     urn: urn:iso:std:iso-iec:23090:-7:stage-20.20:amd:1:v1
   style: v3
-- id: iso.amendment.0155
+- id: iso.amendment.6844
   identifier:
     _type: pubid:iso:amendment
     number: '2'
@@ -2547,7 +2778,7 @@
     human: ISO/IEC FDIS 23009-1/WD Amd 2
     urn: urn:iso:std:iso-iec:23009:-1:stage-20.20:amd:2:v1
   style: v3
-- id: iso.amendment.0156
+- id: iso.amendment.7050
   identifier:
     _type: pubid:iso:amendment
     number: '1'
@@ -2570,7 +2801,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE 8802-3:2021/FDAmd 1
     style: v3
-- id: iso.amendment.0157
+- id: iso.amendment.7051
   identifier:
     _type: pubid:iso:amendment
     number: '10'
@@ -2593,7 +2824,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE 8802-3:2021/FDAmd 10
     style: v3
-- id: iso.amendment.0158
+- id: iso.amendment.7052
   identifier:
     _type: pubid:iso:amendment
     number: '11'

@@ -1,5 +1,5 @@
 ---
-- id: cen_cenelec.european_prestandard.0001
+- id: cen_cenelec.european_prestandard.0054
   identifier:
     _type: pubid:cencenelec:european-prestandard
     adopted_identifier:
@@ -11,7 +11,7 @@
     urn: urn:cen:en
   roundtrip: false
   style: v3
-- id: cen_cenelec.european_prestandard.0002
+- id: cen_cenelec.european_prestandard.0055
   identifier:
     _type: pubid:cencenelec:european-prestandard
     adopted_identifier:
@@ -23,3 +23,69 @@
     urn: urn:cen:en
   roundtrip: false
   style: v3
+- id: cen_cenelec.european_prestandard.0056
+  identifier:
+    _type: pubid:cencenelec:european-prestandard
+    number:
+      value: '206'
+    date:
+      year: '1992'
+    publisher:
+      body: ENV
+  representations:
+    human: ENV/ENV 206:1992
+    urn: urn:cen:env:206:1992
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: ENV 206:1992
+    style: v3
+- id: cen_cenelec.european_prestandard.0057
+  identifier:
+    _type: pubid:cencenelec:european-prestandard
+    number:
+      value: '41112'
+    date:
+      year: '1991'
+    publisher:
+      body: ENV
+  representations:
+    human: ENV/ENV 41112:1991
+    urn: urn:cen:env:41112:1991
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: ENV 41112:1991
+    style: v3
+- id: cen_cenelec.european_prestandard.0058
+  identifier:
+    _type: pubid:cencenelec:european-prestandard
+    number:
+      value: '41511'
+    date:
+      year: '1991'
+    publisher:
+      body: ENV
+  representations:
+    human: ENV/ENV 41511:1991
+    urn: urn:cen:env:41511:1991
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: ENV 41511:1991
+    style: v3
+- id: cen_cenelec.european_prestandard.0059
+  identifier:
+    _type: pubid:cencenelec:european-prestandard
+    number:
+      value: '50166'
+    publisher:
+      body: ENV
+  representations:
+    human: ENV/ENV 50166
+    urn: urn:cen:env:50166
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: ENV 50166
+    style: v3

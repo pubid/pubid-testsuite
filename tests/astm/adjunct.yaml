@@ -2,12 +2,36 @@
 - id: astm.adjunct.0001
   identifier:
     _type: pubid:astm:adjunct
+    designation: F3504
+    ea_suffix: true
+  representations:
+    human: ADJF3504-EA
+    urn: urn:astm:std
+  style: v3
+  non_normalized_aliases:
+  - spelling: ASTM ADJF3504-EA
+    style: v3
+- id: astm.adjunct.0002
+  identifier:
+    _type: pubid:astm:adjunct
+    designation: G0088
+    dvd_suffix: true
+  representations:
+    human: ADJG0088DVD
+    urn: urn:astm:std
+  style: v3
+  non_normalized_aliases:
+  - spelling: ASTM ADJG0088DVD
+    style: v3
+- id: astm.adjunct.0014
+  identifier:
+    _type: pubid:astm:adjunct
     designation: C062702
   representations:
     human: ASTM ADJC062702
     urn: urn:astm:std
   style: v3
-- id: astm.adjunct.0002
+- id: astm.adjunct.0015
   identifier:
     _type: pubid:astm:adjunct
     designation: D2148
