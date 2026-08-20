@@ -8,8 +8,13 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.4"
-      - run: gem install json_schemer
+      # No gems: the validators and provenance generator are gem-free and
+      # must keep passing with plain ruby, before bundle install.
       - name: Corpus identity (validate.rb)
         run: ruby tools/validate.rb
-      - name: Corpus schema (validate_schema.rb)
+      - name: Corpus structure (validate_schema.rb: schema subset, provenance integrity, README drift)
         run: ruby tools/validate_schema.rb
+      - name: Tool-guard spec suite
+        run: |
+          bundle install
+          bundle exec rspec

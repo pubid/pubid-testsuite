@@ -60,3 +60,8 @@ The pubid gem consumes this corpus as its conformance suite:
 `PUBID_TESTS_PATH` (or a sibling checkout) + `rake conformance:run`.
 CLEAN flavors hard-gate; DIRTY flavors report as the known defect ledger
 (`tests/{flavor}/_status.yaml`).
+
+## By the numbers
+
+<!-- counts:flavors=40 --> flavors · <!-- counts:cases=94089 --> cases.
+The structure validator recomputes these and fails on drift.
