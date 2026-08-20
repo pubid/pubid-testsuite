@@ -1,4 +1,4 @@
-# pubid-tests
+# pubid-testsuite
 
 Reference tests for PubID identifiers: the language-neutral, YAML-readable
 test library every PubID implementation (Ruby gem, pubid-ts, ...) must pass,
@@ -39,7 +39,7 @@ plus the raw ground-truth text it derives from.
 Generation and execution live in the pubid gem (the reference
 implementation): `rake conformance:generate[flavor]` and
 `rake conformance:run`, targeting this repo (sibling checkout or
-PUBID_TESTS_PATH). Regeneration is deterministic; diffs are reviewed in
+PUBID_TESTSUITE_PATH). Regeneration is deterministic; diffs are reviewed in
 PRs. Data changes land here via PR; never edit `tests/` by hand without
 regeneration parity.
 
@@ -57,7 +57,7 @@ Status: VALIDATION PASS 40/40 flavors; SCHEMA VALIDATION PASS (94,095 documents)
 ## Consumers
 
 The pubid gem consumes this corpus as its conformance suite:
-`PUBID_TESTS_PATH` (or a sibling checkout) + `rake conformance:run`.
+`PUBID_TESTSUITE_PATH` (or a sibling checkout) + `rake conformance:run`.
 CLEAN flavors hard-gate; DIRTY flavors report as the known defect ledger
 (`tests/{flavor}/_status.yaml`).
 

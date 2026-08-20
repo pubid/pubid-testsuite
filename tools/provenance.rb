@@ -58,7 +58,7 @@ counts["negatives"] = Dir[File.join(tests, "*", "_negative.yaml")].sum do |path|
 end
 
 manifest = {
-  "schema" => "pubid-tests/provenance/1",
+  "schema" => "pubid-testsuite/provenance/1",
   "generated_by" => "tools/provenance.rb - do not edit",
   "generator" => {
     "exporter" => "tools/export.rb",

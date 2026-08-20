@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-# Export the pubid-tests corpus. Reads raw ground truth
+# Export the pubid-testsuite corpus. Reads raw ground truth
 # (reference-docs/{flavor}/**/{pass,full,fail}/*.txt), parses every line
 # with the pubid reference implementation, writes tests/{flavor}/*.yaml,
 # then verifies by re-parsing and validates every record against

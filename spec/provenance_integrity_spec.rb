@@ -4,7 +4,7 @@ RSpec.describe "provenance manifest" do
   let(:manifest) { YAML.safe_load_file(File.expand_path("../tests/provenance.yaml", __dir__)) }
 
   it "exists and stamps its schema" do
-    expect(manifest["schema"]).to eq("pubid-tests/provenance/1")
+    expect(manifest["schema"]).to eq("pubid-testsuite/provenance/1")
   end
 
   it "records the oracle gem and the generator" do
