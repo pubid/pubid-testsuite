@@ -43,13 +43,15 @@
 - id: ashrae.combined_addenda.0021
   identifier:
     _type: pubid:ashrae:combined-addenda
+    code: '127'
     base:
       _type: pubid:ashrae:standard
+      code: '127'
       year: '2020'
     addendum_codes: a
   representations:
-    human: ASHRAE Addenda a to Standard -2020
-    urn: urn:ashrae
+    human: ASHRAE Addenda a to Standard 127-2020
+    urn: urn:ashrae:127
   style: v3
   non_normalized_aliases:
   - spelling: ASHRAE Addenda a to 127-2020
@@ -73,13 +75,15 @@
 - id: ashrae.combined_addenda.0023
   identifier:
     _type: pubid:ashrae:combined-addenda
+    code: '105'
     base:
       _type: pubid:ashrae:standard
+      code: '105'
       year: '2007'
     addendum_codes: a, b
   representations:
-    human: ASHRAE Addenda a, b to Standard -2007
-    urn: urn:ashrae
+    human: ASHRAE Addenda a, b to Standard 105-2007
+    urn: urn:ashrae:105
   style: v3
   non_normalized_aliases:
   - spelling: ASHRAE Addenda a and b to 105-2007

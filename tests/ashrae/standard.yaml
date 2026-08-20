@@ -178,85 +178,13 @@
 - id: ashrae.standard.1397
   identifier:
     _type: pubid:ashrae:standard
-    year: '2018'
-    copublisher: ANSI/ASHRAE/ACCA
-  representations:
-    human: ASHRAE Standard -2018
-    urn: urn:ashrae:2018:standard:copub.ansi/ashrae/acca
-  style: v3
-  non_normalized_aliases:
-  - spelling: ANSI/ASHRAE/ACCA 180-2018
-    style: v3
-- id: ashrae.standard.1398
-  identifier:
-    _type: pubid:ashrae:standard
-    year: '2020'
-    copublisher: ANSI/ASHRAE/SMACNA
-  representations:
-    human: ASHRAE Standard -2020
-    urn: urn:ashrae:2020:standard:copub.ansi/ashrae/smacna
-  style: v3
-  non_normalized_aliases:
-  - spelling: ANSI/ASHRAE/SMACNA 126-2020
-    style: v3
-- id: ashrae.standard.1399
-  identifier:
-    _type: pubid:ashrae:standard
-    year: '2023'
-    copublisher: ANSI/ASHRAE/IBPSA
-  representations:
-    human: ASHRAE Standard -2023
-    urn: urn:ashrae:2023:standard:copub.ansi/ashrae/ibpsa
-  style: v3
-  non_normalized_aliases:
-  - spelling: ANSI/ASHRAE/IBPSA 205-2023
-    style: v3
-- id: ashrae.standard.1400
-  identifier:
-    _type: pubid:ashrae:standard
-    year: '2023'
-    copublisher: ANSI/ASHRAE/NIBS
-  representations:
-    human: ASHRAE Standard -2023
-    urn: urn:ashrae:2023:standard:copub.ansi/ashrae/nibs
-  style: v3
-  non_normalized_aliases:
-  - spelling: ANSI/ASHRAE/NIBS 224-2023
-    style: v3
-- id: ashrae.standard.1401
-  identifier:
-    _type: pubid:ashrae:standard
-    year: '2024'
-    copublisher: ANSI/ASHRAE/IES
-  representations:
-    human: ASHRAE Standard -2024
-    urn: urn:ashrae:2024:standard:copub.ansi/ashrae/ies
-  style: v3
-  non_normalized_aliases:
-  - spelling: ANSI/ASHRAE/IES 100-2024
-    style: v3
-- id: ashrae.standard.1402
-  identifier:
-    _type: pubid:ashrae:standard
-    year: '2025'
-    copublisher: ANSI/ASHRAE/ASHE
-  representations:
-    human: ASHRAE Standard -2025
-    urn: urn:ashrae:2025:standard:copub.ansi/ashrae/ashe
-  style: v3
-  non_normalized_aliases:
-  - spelling: ANSI/ASHRAE/ASHE 170-2025
-    style: v3
-- id: ashrae.standard.1403
-  identifier:
-    _type: pubid:ashrae:standard
     code: '100'
     year: '2015'
   representations:
     human: ASHRAE Standard 100-2015
     urn: urn:ashrae:100:2015:standard
   style: v3
-- id: ashrae.standard.1404
+- id: ashrae.standard.1398
   identifier:
     _type: pubid:ashrae:standard
     code: '100'
@@ -265,7 +193,7 @@
     human: ASHRAE Standard 100-2018
     urn: urn:ashrae:100:2018:standard
   style: v3
-- id: ashrae.standard.1405
+- id: ashrae.standard.1399
   identifier:
     _type: pubid:ashrae:standard
     code: '100'
@@ -274,7 +202,10 @@
     human: ASHRAE Standard 100-2024
     urn: urn:ashrae:100:2024:standard
   style: v3
-- id: ashrae.standard.1406
+  non_normalized_aliases:
+  - spelling: ANSI/ASHRAE/IES 100-2024
+    style: v3
+- id: ashrae.standard.1400
   identifier:
     _type: pubid:ashrae:standard
     code: '101'
@@ -283,7 +214,7 @@
     human: ASHRAE Standard 101-1981
     urn: urn:ashrae:101:1981:standard
   style: v3
-- id: ashrae.standard.1407
+- id: ashrae.standard.1401
   identifier:
     _type: pubid:ashrae:standard
     code: '102'
@@ -296,7 +227,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE Standard 102-1983(RA 89)
     style: v3
-- id: ashrae.standard.1408
+- id: ashrae.standard.1402
   identifier:
     _type: pubid:ashrae:standard
     code: '103'
@@ -305,7 +236,7 @@
     human: ASHRAE Standard 103-1993
     urn: urn:ashrae:103:1993:standard
   style: v3
-- id: ashrae.standard.1409
+- id: ashrae.standard.1403
   identifier:
     _type: pubid:ashrae:standard
     code: '103'
@@ -317,7 +248,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 103-2007 (May 10, 2022) (PDF)
     style: v3
-- id: ashrae.standard.1410
+- id: ashrae.standard.1404
   identifier:
     _type: pubid:ashrae:standard
     code: '103'
@@ -329,7 +260,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 103-2017 (August 26, 2025) (PDF)
     style: v3
-- id: ashrae.standard.1411
+- id: ashrae.standard.1405
   identifier:
     _type: pubid:ashrae:standard
     code: '103'
@@ -343,7 +274,7 @@
     style: v3
   - spelling: ANSI/ASHRAE Standard 103-2022 (August 26, 2025) (PDF)
     style: v3
-- id: ashrae.standard.1412
+- id: ashrae.standard.1406
   identifier:
     _type: pubid:ashrae:standard
     code: '105'
@@ -352,7 +283,7 @@
     human: ASHRAE Standard 105-2021
     urn: urn:ashrae:105:2021:standard
   style: v3
-- id: ashrae.standard.1413
+- id: ashrae.standard.1407
   identifier:
     _type: pubid:ashrae:standard
     code: '106'
@@ -361,7 +292,7 @@
     human: ASHRAE Standard 106-1984
     urn: urn:ashrae:106:1984:standard
   style: v3
-- id: ashrae.standard.1414
+- id: ashrae.standard.1408
   identifier:
     _type: pubid:ashrae:standard
     code: '109'
@@ -374,7 +305,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE Standard 109-1986 (RA 2003)
     style: v3
-- id: ashrae.standard.1415
+- id: ashrae.standard.1409
   identifier:
     _type: pubid:ashrae:standard
     code: '110'
@@ -386,7 +317,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 110-1995
     style: v3
-- id: ashrae.standard.1416
+- id: ashrae.standard.1410
   identifier:
     _type: pubid:ashrae:standard
     code: '110'
@@ -401,7 +332,7 @@
     style: v3
   - spelling: ASHRAE Standard 110-2016 RA 2025
     style: v3
-- id: ashrae.standard.1417
+- id: ashrae.standard.1411
   identifier:
     _type: pubid:ashrae:standard
     code: '111'
@@ -416,7 +347,7 @@
     style: v3
   - spelling: ASHRAE Standard 111-2008 (RA 2017)
     style: v3
-- id: ashrae.standard.1418
+- id: ashrae.standard.1412
   identifier:
     _type: pubid:ashrae:standard
     code: '111'
@@ -430,7 +361,7 @@
     style: v3
   - spelling: ANSI/ASHRAE Standard 111-2024 (September 5, 2025) (PDF)
     style: v3
-- id: ashrae.standard.1419
+- id: ashrae.standard.1413
   identifier:
     _type: pubid:ashrae:standard
     code: '113'
@@ -442,7 +373,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 113-2022
     style: v3
-- id: ashrae.standard.1420
+- id: ashrae.standard.1414
   identifier:
     _type: pubid:ashrae:standard
     code: '114'
@@ -451,7 +382,7 @@
     human: ASHRAE Standard 114-1986
     urn: urn:ashrae:114:1986:standard
   style: v3
-- id: ashrae.standard.1421
+- id: ashrae.standard.1415
   identifier:
     _type: pubid:ashrae:standard
     code: '116'
@@ -464,7 +395,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE Standard 116-1995 (RA 2005)
     style: v3
-- id: ashrae.standard.1422
+- id: ashrae.standard.1416
   identifier:
     _type: pubid:ashrae:standard
     code: '116'
@@ -473,7 +404,7 @@
     human: ASHRAE Standard 116-2010
     urn: urn:ashrae:116:2010:standard
   style: v3
-- id: ashrae.standard.1423
+- id: ashrae.standard.1417
   identifier:
     _type: pubid:ashrae:standard
     code: '117'
@@ -482,7 +413,7 @@
     human: ASHRAE Standard 117-2002
     urn: urn:ashrae:117:2002:standard
   style: v3
-- id: ashrae.standard.1424
+- id: ashrae.standard.1418
   identifier:
     _type: pubid:ashrae:standard
     code: '118.1'
@@ -494,7 +425,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 118.1-2022
     style: v3
-- id: ashrae.standard.1425
+- id: ashrae.standard.1419
   identifier:
     _type: pubid:ashrae:standard
     code: '118.2'
@@ -503,7 +434,7 @@
     human: ASHRAE Standard 118.2-2022
     urn: urn:ashrae:118.2:2022:standard
   style: v3
-- id: ashrae.standard.1426
+- id: ashrae.standard.1420
   identifier:
     _type: pubid:ashrae:standard
     code: '119'
@@ -516,7 +447,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE Standard 119-1988 (RA 2004)
     style: v3
-- id: ashrae.standard.1427
+- id: ashrae.standard.1421
   identifier:
     _type: pubid:ashrae:standard
     code: '12'
@@ -525,7 +456,7 @@
     human: ASHRAE Standard 12-1975
     urn: urn:ashrae:12:1975:standard
   style: v3
-- id: ashrae.standard.1428
+- id: ashrae.standard.1422
   identifier:
     _type: pubid:ashrae:standard
     code: '120'
@@ -537,7 +468,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 120-2022
     style: v3
-- id: ashrae.standard.1429
+- id: ashrae.standard.1423
   identifier:
     _type: pubid:ashrae:standard
     code: '124'
@@ -546,7 +477,7 @@
     human: ASHRAE Standard 124-2007
     urn: urn:ashrae:124:2007:standard
   style: v3
-- id: ashrae.standard.1430
+- id: ashrae.standard.1424
   identifier:
     _type: pubid:ashrae:standard
     code: '124'
@@ -559,7 +490,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 124-2007 (RA 2016)
     style: v3
-- id: ashrae.standard.1431
+- id: ashrae.standard.1425
   identifier:
     _type: pubid:ashrae:standard
     code: '125'
@@ -568,7 +499,7 @@
     human: ASHRAE Standard 125-2020
     urn: urn:ashrae:125:2020:standard
   style: v3
-- id: ashrae.standard.1432
+- id: ashrae.standard.1426
   identifier:
     _type: pubid:ashrae:standard
     code: '126'
@@ -577,7 +508,10 @@
     human: ASHRAE Standard 126-2020
     urn: urn:ashrae:126:2020:standard
   style: v3
-- id: ashrae.standard.1433
+  non_normalized_aliases:
+  - spelling: ANSI/ASHRAE/SMACNA 126-2020
+    style: v3
+- id: ashrae.standard.1427
   identifier:
     _type: pubid:ashrae:standard
     code: '127'
@@ -586,7 +520,7 @@
     human: ASHRAE Standard 127-2020
     urn: urn:ashrae:127:2020:standard
   style: v3
-- id: ashrae.standard.1434
+- id: ashrae.standard.1428
   identifier:
     _type: pubid:ashrae:standard
     code: '128'
@@ -598,7 +532,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 128-2018
     style: v3
-- id: ashrae.standard.1435
+- id: ashrae.standard.1429
   identifier:
     _type: pubid:ashrae:standard
     code: '129'
@@ -611,7 +545,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE Standard 129-1997 (RA 2002)
     style: v3
-- id: ashrae.standard.1436
+- id: ashrae.standard.1430
   identifier:
     _type: pubid:ashrae:standard
     code: '13'
@@ -620,7 +554,7 @@
     human: ASHRAE Standard 13-1969
     urn: urn:ashrae:13:1969:standard
   style: v3
-- id: ashrae.standard.1437
+- id: ashrae.standard.1431
   identifier:
     _type: pubid:ashrae:standard
     code: '130'
@@ -632,7 +566,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 130-2025
     style: v3
-- id: ashrae.standard.1438
+- id: ashrae.standard.1432
   identifier:
     _type: pubid:ashrae:standard
     code: '133'
@@ -644,7 +578,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 133-2024
     style: v3
-- id: ashrae.standard.1439
+- id: ashrae.standard.1433
   identifier:
     _type: pubid:ashrae:standard
     code: '134'
@@ -657,7 +591,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 134-2005 (RA 2014)
     style: v3
-- id: ashrae.standard.1440
+- id: ashrae.standard.1434
   identifier:
     _type: pubid:ashrae:standard
     code: '135'
@@ -669,7 +603,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 135-2001
     style: v3
-- id: ashrae.standard.1441
+- id: ashrae.standard.1435
   identifier:
     _type: pubid:ashrae:standard
     code: '135'
@@ -681,7 +615,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 135-2004
     style: v3
-- id: ashrae.standard.1442
+- id: ashrae.standard.1436
   identifier:
     _type: pubid:ashrae:standard
     code: '135'
@@ -693,7 +627,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 135-2008
     style: v3
-- id: ashrae.standard.1443
+- id: ashrae.standard.1437
   identifier:
     _type: pubid:ashrae:standard
     code: '135'
@@ -705,7 +639,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 135-2010
     style: v3
-- id: ashrae.standard.1444
+- id: ashrae.standard.1438
   identifier:
     _type: pubid:ashrae:standard
     code: '135'
@@ -717,7 +651,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 135-2012
     style: v3
-- id: ashrae.standard.1445
+- id: ashrae.standard.1439
   identifier:
     _type: pubid:ashrae:standard
     code: '135'
@@ -729,7 +663,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 135-2016
     style: v3
-- id: ashrae.standard.1446
+- id: ashrae.standard.1440
   identifier:
     _type: pubid:ashrae:standard
     code: '135'
@@ -743,7 +677,7 @@
     style: v3
   - spelling: Interpretations for Standard 135-2020
     style: v3
-- id: ashrae.standard.1447
+- id: ashrae.standard.1441
   identifier:
     _type: pubid:ashrae:standard
     code: '135'
@@ -757,7 +691,7 @@
     style: v3
   - spelling: Interpretations for Standard 135-2024
     style: v3
-- id: ashrae.standard.1448
+- id: ashrae.standard.1442
   identifier:
     _type: pubid:ashrae:standard
     code: '135.1'
@@ -769,7 +703,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 135.1-2019
     style: v3
-- id: ashrae.standard.1449
+- id: ashrae.standard.1443
   identifier:
     _type: pubid:ashrae:standard
     code: '135.1'
@@ -781,7 +715,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 135.1-2023
     style: v3
-- id: ashrae.standard.1450
+- id: ashrae.standard.1444
   identifier:
     _type: pubid:ashrae:standard
     code: '136'
@@ -790,7 +724,7 @@
     human: ASHRAE Standard 136-1993
     urn: urn:ashrae:136:1993:standard
   style: v3
-- id: ashrae.standard.1451
+- id: ashrae.standard.1445
   identifier:
     _type: pubid:ashrae:standard
     code: '137'
@@ -800,7 +734,7 @@
     human: ASHRAE Standard 137-2013 (RA2017)
     urn: urn:ashrae:137:2013:standard:reaff.2017
   style: v3
-- id: ashrae.standard.1452
+- id: ashrae.standard.1446
   identifier:
     _type: pubid:ashrae:standard
     code: '138'
@@ -812,7 +746,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 138-2021
     style: v3
-- id: ashrae.standard.1453
+- id: ashrae.standard.1447
   identifier:
     _type: pubid:ashrae:standard
     code: '139'
@@ -824,7 +758,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 139-2022
     style: v3
-- id: ashrae.standard.1454
+- id: ashrae.standard.1448
   identifier:
     _type: pubid:ashrae:standard
     code: '14'
@@ -833,7 +767,7 @@
     human: ASHRAE Standard 14-1980
     urn: urn:ashrae:14:1980:standard
   style: v3
-- id: ashrae.standard.1456
+- id: ashrae.standard.1450
   identifier:
     _type: pubid:ashrae:standard
     code: '140'
@@ -842,7 +776,7 @@
     human: ASHRAE Standard 140-2023
     urn: urn:ashrae:140:2023:standard
   style: v3
-- id: ashrae.standard.1457
+- id: ashrae.standard.1451
   identifier:
     _type: pubid:ashrae:standard
     code: '143'
@@ -854,7 +788,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 143-2024
     style: v3
-- id: ashrae.standard.1458
+- id: ashrae.standard.1452
   identifier:
     _type: pubid:ashrae:standard
     code: '145.1'
@@ -863,7 +797,7 @@
     human: ASHRAE Standard 145.1-2015
     urn: urn:ashrae:145.1:2015:standard
   style: v3
-- id: ashrae.standard.1459
+- id: ashrae.standard.1453
   identifier:
     _type: pubid:ashrae:standard
     code: '145.1'
@@ -875,7 +809,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 145.1-2024
     style: v3
-- id: ashrae.standard.1460
+- id: ashrae.standard.1454
   identifier:
     _type: pubid:ashrae:standard
     code: '145.2'
@@ -887,7 +821,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 145.2-2025
     style: v3
-- id: ashrae.standard.1461
+- id: ashrae.standard.1455
   identifier:
     _type: pubid:ashrae:standard
     code: 145.4P
@@ -895,7 +829,7 @@
     human: ASHRAE Standard 145.4P
     urn: urn:ashrae:145.4P:standard
   style: v3
-- id: ashrae.standard.1462
+- id: ashrae.standard.1456
   identifier:
     _type: pubid:ashrae:standard
     code: '146'
@@ -907,7 +841,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 146-2020
     style: v3
-- id: ashrae.standard.1463
+- id: ashrae.standard.1457
   identifier:
     _type: pubid:ashrae:standard
     code: '147'
@@ -919,7 +853,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 147-2013
     style: v3
-- id: ashrae.standard.1464
+- id: ashrae.standard.1458
   identifier:
     _type: pubid:ashrae:standard
     code: '147'
@@ -928,7 +862,7 @@
     human: ASHRAE Standard 147-2019
     urn: urn:ashrae:147:2019:standard
   style: v3
-- id: ashrae.standard.1465
+- id: ashrae.standard.1459
   identifier:
     _type: pubid:ashrae:standard
     code: '149'
@@ -937,7 +871,7 @@
     human: ASHRAE Standard 149-2013
     urn: urn:ashrae:149:2013:standard
   style: v3
-- id: ashrae.standard.1466
+- id: ashrae.standard.1460
   identifier:
     _type: pubid:ashrae:standard
     code: '15'
@@ -945,7 +879,7 @@
     human: ASHRAE Standard 15
     urn: urn:ashrae:15:standard
   style: v3
-- id: ashrae.standard.1467
+- id: ashrae.standard.1461
   identifier:
     _type: pubid:ashrae:standard
     code: '15'
@@ -954,7 +888,7 @@
     human: ASHRAE Standard 15-1994
     urn: urn:ashrae:15:1994:standard
   style: v3
-- id: ashrae.standard.1468
+- id: ashrae.standard.1462
   identifier:
     _type: pubid:ashrae:standard
     code: '15'
@@ -963,7 +897,7 @@
     human: ASHRAE Standard 15-2001
     urn: urn:ashrae:15:2001:standard
   style: v3
-- id: ashrae.standard.1469
+- id: ashrae.standard.1463
   identifier:
     _type: pubid:ashrae:standard
     code: '15'
@@ -972,7 +906,7 @@
     human: ASHRAE Standard 15-2004
     urn: urn:ashrae:15:2004:standard
   style: v3
-- id: ashrae.standard.1470
+- id: ashrae.standard.1464
   identifier:
     _type: pubid:ashrae:standard
     code: '15'
@@ -981,7 +915,7 @@
     human: ASHRAE Standard 15-2007
     urn: urn:ashrae:15:2007:standard
   style: v3
-- id: ashrae.standard.1472
+- id: ashrae.standard.1466
   identifier:
     _type: pubid:ashrae:standard
     code: '15'
@@ -990,7 +924,7 @@
     human: ASHRAE Standard 15-2010
     urn: urn:ashrae:15:2010:standard
   style: v3
-- id: ashrae.standard.1474
+- id: ashrae.standard.1468
   identifier:
     _type: pubid:ashrae:standard
     code: '15'
@@ -999,7 +933,7 @@
     human: ASHRAE Standard 15-2013
     urn: urn:ashrae:15:2013:standard
   style: v3
-- id: ashrae.standard.1475
+- id: ashrae.standard.1469
   identifier:
     _type: pubid:ashrae:standard
     code: '15'
@@ -1008,7 +942,7 @@
     human: ASHRAE Standard 15-2016
     urn: urn:ashrae:15:2016:standard
   style: v3
-- id: ashrae.standard.1476
+- id: ashrae.standard.1470
   identifier:
     _type: pubid:ashrae:standard
     code: '15'
@@ -1017,7 +951,7 @@
     human: ASHRAE Standard 15-2019
     urn: urn:ashrae:15:2019:standard
   style: v3
-- id: ashrae.standard.1477
+- id: ashrae.standard.1471
   identifier:
     _type: pubid:ashrae:standard
     code: '15'
@@ -1026,7 +960,7 @@
     human: ASHRAE Standard 15-2022
     urn: urn:ashrae:15:2022:standard
   style: v3
-- id: ashrae.standard.1478
+- id: ashrae.standard.1472
   identifier:
     _type: pubid:ashrae:standard
     code: '15'
@@ -1038,7 +972,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 15-2024
     style: v3
-- id: ashrae.standard.1479
+- id: ashrae.standard.1473
   identifier:
     _type: pubid:ashrae:standard
     code: '15.2'
@@ -1050,7 +984,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 15.2-2022
     style: v3
-- id: ashrae.standard.1480
+- id: ashrae.standard.1474
   identifier:
     _type: pubid:ashrae:standard
     code: '15.2'
@@ -1062,7 +996,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 15.2-2024
     style: v3
-- id: ashrae.standard.1481
+- id: ashrae.standard.1475
   identifier:
     _type: pubid:ashrae:standard
     code: '150'
@@ -1071,7 +1005,7 @@
     human: ASHRAE Standard 150-2019
     urn: urn:ashrae:150:2019:standard
   style: v3
-- id: ashrae.standard.1482
+- id: ashrae.standard.1476
   identifier:
     _type: pubid:ashrae:standard
     code: '151'
@@ -1080,7 +1014,7 @@
     human: ASHRAE Standard 151-2010
     urn: urn:ashrae:151:2010:standard
   style: v3
-- id: ashrae.standard.1483
+- id: ashrae.standard.1477
   identifier:
     _type: pubid:ashrae:standard
     code: '152'
@@ -1089,7 +1023,7 @@
     human: ASHRAE Standard 152-2014
     urn: urn:ashrae:152:2014:standard
   style: v3
-- id: ashrae.standard.1484
+- id: ashrae.standard.1478
   identifier:
     _type: pubid:ashrae:standard
     code: '153'
@@ -1101,7 +1035,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 153-2021
     style: v3
-- id: ashrae.standard.1485
+- id: ashrae.standard.1479
   identifier:
     _type: pubid:ashrae:standard
     code: '154'
@@ -1110,7 +1044,7 @@
     human: ASHRAE Standard 154-2016
     urn: urn:ashrae:154:2016:standard
   style: v3
-- id: ashrae.standard.1486
+- id: ashrae.standard.1480
   identifier:
     _type: pubid:ashrae:standard
     code: '154'
@@ -1122,7 +1056,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 154-2022
     style: v3
-- id: ashrae.standard.1487
+- id: ashrae.standard.1481
   identifier:
     _type: pubid:ashrae:standard
     code: '155'
@@ -1131,7 +1065,7 @@
     human: ASHRAE Standard 155-2024
     urn: urn:ashrae:155:2024:standard
   style: v3
-- id: ashrae.standard.1488
+- id: ashrae.standard.1482
   identifier:
     _type: pubid:ashrae:standard
     code: '158.1'
@@ -1143,7 +1077,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 158.1-2024
     style: v3
-- id: ashrae.standard.1489
+- id: ashrae.standard.1483
   identifier:
     _type: pubid:ashrae:standard
     code: '158.2'
@@ -1152,7 +1086,7 @@
     human: ASHRAE Standard 158.2-2018
     urn: urn:ashrae:158.2:2018:standard
   style: v3
-- id: ashrae.standard.1490
+- id: ashrae.standard.1484
   identifier:
     _type: pubid:ashrae:standard
     code: '158.2'
@@ -1164,7 +1098,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 158.2-2024
     style: v3
-- id: ashrae.standard.1491
+- id: ashrae.standard.1485
   identifier:
     _type: pubid:ashrae:standard
     code: '16'
@@ -1177,7 +1111,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE Standard 16-1983 (RA 2009)
     style: v3
-- id: ashrae.standard.1492
+- id: ashrae.standard.1486
   identifier:
     _type: pubid:ashrae:standard
     code: '16'
@@ -1189,7 +1123,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 16-2016
     style: v3
-- id: ashrae.standard.1493
+- id: ashrae.standard.1487
   identifier:
     _type: pubid:ashrae:standard
     code: '160'
@@ -1201,7 +1135,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 160-2021
     style: v3
-- id: ashrae.standard.1494
+- id: ashrae.standard.1488
   identifier:
     _type: pubid:ashrae:standard
     code: '161'
@@ -1213,7 +1147,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 161-2013 (May 10, 2016) (PDF)
     style: v3
-- id: ashrae.standard.1495
+- id: ashrae.standard.1489
   identifier:
     _type: pubid:ashrae:standard
     code: '161'
@@ -1222,7 +1156,7 @@
     human: ASHRAE Standard 161-2018
     urn: urn:ashrae:161:2018:standard
   style: v3
-- id: ashrae.standard.1496
+- id: ashrae.standard.1490
   identifier:
     _type: pubid:ashrae:standard
     code: '161'
@@ -1231,7 +1165,7 @@
     human: ASHRAE Standard 161-2023
     urn: urn:ashrae:161:2023:standard
   style: v3
-- id: ashrae.standard.1497
+- id: ashrae.standard.1491
   identifier:
     _type: pubid:ashrae:standard
     code: '161'
@@ -1243,7 +1177,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 161-2024
     style: v3
-- id: ashrae.standard.1498
+- id: ashrae.standard.1492
   identifier:
     _type: pubid:ashrae:standard
     code: '164.1'
@@ -1252,7 +1186,7 @@
     human: ASHRAE Standard 164.1-2012
     urn: urn:ashrae:164.1:2012:standard
   style: v3
-- id: ashrae.standard.1499
+- id: ashrae.standard.1493
   identifier:
     _type: pubid:ashrae:standard
     code: '164.1'
@@ -1265,7 +1199,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 164.1-2012 (RA16)
     style: v3
-- id: ashrae.standard.1500
+- id: ashrae.standard.1494
   identifier:
     _type: pubid:ashrae:standard
     code: '164.2'
@@ -1274,7 +1208,7 @@
     human: ASHRAE Standard 164.2-2012
     urn: urn:ashrae:164.2:2012:standard
   style: v3
-- id: ashrae.standard.1501
+- id: ashrae.standard.1495
   identifier:
     _type: pubid:ashrae:standard
     code: '164.2'
@@ -1287,7 +1221,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 164.2-2012 (RA16)
     style: v3
-- id: ashrae.standard.1502
+- id: ashrae.standard.1496
   identifier:
     _type: pubid:ashrae:standard
     code: '164.3'
@@ -1299,7 +1233,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 164.3-2015
     style: v3
-- id: ashrae.standard.1503
+- id: ashrae.standard.1497
   identifier:
     _type: pubid:ashrae:standard
     code: '164.3'
@@ -1309,7 +1243,7 @@
     human: ASHRAE Standard 164.3-2015R
     urn: urn:ashrae:164.3:2015:standard:r
   style: v3
-- id: ashrae.standard.1504
+- id: ashrae.standard.1498
   identifier:
     _type: pubid:ashrae:standard
     code: '164.4'
@@ -1321,7 +1255,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 164.4-2021
     style: v3
-- id: ashrae.standard.1505
+- id: ashrae.standard.1499
   identifier:
     _type: pubid:ashrae:standard
     code: '169'
@@ -1333,7 +1267,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 169-2021
     style: v3
-- id: ashrae.standard.1506
+- id: ashrae.standard.1500
   identifier:
     _type: pubid:ashrae:standard
     code: '17'
@@ -1345,7 +1279,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 17-2022
     style: v3
-- id: ashrae.standard.1507
+- id: ashrae.standard.1501
   identifier:
     _type: pubid:ashrae:standard
     code: '170'
@@ -1357,7 +1291,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 170-2008
     style: v3
-- id: ashrae.standard.1508
+- id: ashrae.standard.1502
   identifier:
     _type: pubid:ashrae:standard
     code: '170'
@@ -1366,7 +1300,7 @@
     human: ASHRAE Standard 170-2013
     urn: urn:ashrae:170:2013:standard
   style: v3
-- id: ashrae.standard.1509
+- id: ashrae.standard.1503
   identifier:
     _type: pubid:ashrae:standard
     code: '170'
@@ -1375,7 +1309,7 @@
     human: ASHRAE Standard 170-2017
     urn: urn:ashrae:170:2017:standard
   style: v3
-- id: ashrae.standard.1510
+- id: ashrae.standard.1504
   identifier:
     _type: pubid:ashrae:standard
     code: '170'
@@ -1387,7 +1321,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 170-2021
     style: v3
-- id: ashrae.standard.1511
+- id: ashrae.standard.1505
   identifier:
     _type: pubid:ashrae:standard
     code: '170'
@@ -1396,7 +1330,10 @@
     human: ASHRAE Standard 170-2025
     urn: urn:ashrae:170:2025:standard
   style: v3
-- id: ashrae.standard.1512
+  non_normalized_aliases:
+  - spelling: ANSI/ASHRAE/ASHE 170-2025
+    style: v3
+- id: ashrae.standard.1506
   identifier:
     _type: pubid:ashrae:standard
     code: '171'
@@ -1408,7 +1345,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 171-2017
     style: v3
-- id: ashrae.standard.1513
+- id: ashrae.standard.1507
   identifier:
     _type: pubid:ashrae:standard
     code: '172'
@@ -1417,7 +1354,7 @@
     human: ASHRAE Standard 172-2017
     urn: urn:ashrae:172:2017:standard
   style: v3
-- id: ashrae.standard.1514
+- id: ashrae.standard.1508
   identifier:
     _type: pubid:ashrae:standard
     code: '172'
@@ -1429,7 +1366,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 172-2024
     style: v3
-- id: ashrae.standard.1515
+- id: ashrae.standard.1509
   identifier:
     _type: pubid:ashrae:standard
     code: '173'
@@ -1444,7 +1381,7 @@
     style: v3
   - spelling: ASHRAE Standard 173-2012 (RA 2016)
     style: v3
-- id: ashrae.standard.1516
+- id: ashrae.standard.1510
   identifier:
     _type: pubid:ashrae:standard
     code: '174'
@@ -1456,7 +1393,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 174-2022
     style: v3
-- id: ashrae.standard.1517
+- id: ashrae.standard.1511
   identifier:
     _type: pubid:ashrae:standard
     code: '18'
@@ -1469,7 +1406,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE Standard 18-2008 (RA 2013)
     style: v3
-- id: ashrae.standard.1518
+- id: ashrae.standard.1512
   identifier:
     _type: pubid:ashrae:standard
     code: '180'
@@ -1481,7 +1418,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 180-2008
     style: v3
-- id: ashrae.standard.1519
+- id: ashrae.standard.1513
   identifier:
     _type: pubid:ashrae:standard
     code: '180'
@@ -1491,9 +1428,11 @@
     urn: urn:ashrae:180:2018:standard
   style: v3
   non_normalized_aliases:
+  - spelling: ANSI/ASHRAE/ACCA 180-2018
+    style: v3
   - spelling: Interpretations for Standard 180-2018
     style: v3
-- id: ashrae.standard.1520
+- id: ashrae.standard.1514
   identifier:
     _type: pubid:ashrae:standard
     code: '181'
@@ -1505,7 +1444,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 181-2023
     style: v3
-- id: ashrae.standard.1521
+- id: ashrae.standard.1515
   identifier:
     _type: pubid:ashrae:standard
     code: '182'
@@ -1517,7 +1456,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 182-2020
     style: v3
-- id: ashrae.standard.1522
+- id: ashrae.standard.1516
   identifier:
     _type: pubid:ashrae:standard
     code: '183'
@@ -1530,7 +1469,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE Standard 183-2007 (RA 2017)
     style: v3
-- id: ashrae.standard.1523
+- id: ashrae.standard.1517
   identifier:
     _type: pubid:ashrae:standard
     code: '183'
@@ -1543,7 +1482,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE Standard 183-2007 (RA 2020)
     style: v3
-- id: ashrae.standard.1524
+- id: ashrae.standard.1518
   identifier:
     _type: pubid:ashrae:standard
     code: '183'
@@ -1555,7 +1494,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE/ACCA Standard 183-2024
     style: v3
-- id: ashrae.standard.1525
+- id: ashrae.standard.1519
   identifier:
     _type: pubid:ashrae:standard
     code: '184'
@@ -1567,7 +1506,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 184-2020
     style: v3
-- id: ashrae.standard.1526
+- id: ashrae.standard.1520
   identifier:
     _type: pubid:ashrae:standard
     code: '185.1'
@@ -1579,7 +1518,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 185.1-2015
     style: v3
-- id: ashrae.standard.1527
+- id: ashrae.standard.1521
   identifier:
     _type: pubid:ashrae:standard
     code: '185.1'
@@ -1588,7 +1527,7 @@
     human: ASHRAE Standard 185.1-2020
     urn: urn:ashrae:185.1:2020:standard
   style: v3
-- id: ashrae.standard.1528
+- id: ashrae.standard.1522
   identifier:
     _type: pubid:ashrae:standard
     code: '185.2'
@@ -1597,7 +1536,7 @@
     human: ASHRAE Standard 185.2-2014
     urn: urn:ashrae:185.2:2014:standard
   style: v3
-- id: ashrae.standard.1529
+- id: ashrae.standard.1523
   identifier:
     _type: pubid:ashrae:standard
     code: '185.2'
@@ -1609,7 +1548,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 185.2-2020
     style: v3
-- id: ashrae.standard.1530
+- id: ashrae.standard.1524
   identifier:
     _type: pubid:ashrae:standard
     code: '185.4'
@@ -1621,7 +1560,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 185.4-2024
     style: v3
-- id: ashrae.standard.1531
+- id: ashrae.standard.1525
   identifier:
     _type: pubid:ashrae:standard
     code: 185.5P
@@ -1629,7 +1568,7 @@
     human: ASHRAE Standard 185.5P
     urn: urn:ashrae:185.5P:standard
   style: v3
-- id: ashrae.standard.1532
+- id: ashrae.standard.1526
   identifier:
     _type: pubid:ashrae:standard
     code: '188'
@@ -1641,7 +1580,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 188-2015
     style: v3
-- id: ashrae.standard.1533
+- id: ashrae.standard.1527
   identifier:
     _type: pubid:ashrae:standard
     code: '188'
@@ -1653,7 +1592,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 188-2018
     style: v3
-- id: ashrae.standard.1534
+- id: ashrae.standard.1528
   identifier:
     _type: pubid:ashrae:standard
     code: '188'
@@ -1665,7 +1604,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 188-2021
     style: v3
-- id: ashrae.standard.1535
+- id: ashrae.standard.1529
   identifier:
     _type: pubid:ashrae:standard
     code: '189.1'
@@ -1677,7 +1616,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 189.1-2009
     style: v3
-- id: ashrae.standard.1536
+- id: ashrae.standard.1530
   identifier:
     _type: pubid:ashrae:standard
     code: '189.1'
@@ -1692,7 +1631,7 @@
     style: v3
   - spelling: Interpretations for Standard 189.1-2011
     style: v3
-- id: ashrae.standard.1537
+- id: ashrae.standard.1531
   identifier:
     _type: pubid:ashrae:standard
     code: '189.1'
@@ -1701,7 +1640,7 @@
     human: ASHRAE Standard 189.1-2014
     urn: urn:ashrae:189.1:2014:standard
   style: v3
-- id: ashrae.standard.1538
+- id: ashrae.standard.1532
   identifier:
     _type: pubid:ashrae:standard
     code: '189.1'
@@ -1710,7 +1649,7 @@
     human: ASHRAE Standard 189.1-2017
     urn: urn:ashrae:189.1:2017:standard
   style: v3
-- id: ashrae.standard.1539
+- id: ashrae.standard.1533
   identifier:
     _type: pubid:ashrae:standard
     code: '189.1'
@@ -1719,7 +1658,7 @@
     human: ASHRAE Standard 189.1-2020
     urn: urn:ashrae:189.1:2020:standard
   style: v3
-- id: ashrae.standard.1540
+- id: ashrae.standard.1534
   identifier:
     _type: pubid:ashrae:standard
     code: '189.1'
@@ -1731,7 +1670,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE/ICC/USGBC/IES Standard 189.1-2023
     style: v3
-- id: ashrae.standard.1541
+- id: ashrae.standard.1535
   identifier:
     _type: pubid:ashrae:standard
     code: '189.3'
@@ -1743,7 +1682,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE/ASHE Standard 189.3-2021
     style: v3
-- id: ashrae.standard.1542
+- id: ashrae.standard.1536
   identifier:
     _type: pubid:ashrae:standard
     code: '189.3'
@@ -1755,7 +1694,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE/ASHE Standard 189.3-2025
     style: v3
-- id: ashrae.standard.1543
+- id: ashrae.standard.1537
   identifier:
     _type: pubid:ashrae:standard
     code: '190'
@@ -1767,7 +1706,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 190-2020
     style: v3
-- id: ashrae.standard.1544
+- id: ashrae.standard.1538
   identifier:
     _type: pubid:ashrae:standard
     code: '193'
@@ -1780,7 +1719,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 193-2010 (RA 2014) (October 20, 2014) (PDF)
     style: v3
-- id: ashrae.standard.1545
+- id: ashrae.standard.1539
   identifier:
     _type: pubid:ashrae:standard
     code: '193'
@@ -1793,7 +1732,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE Standard 193-2010 (RA 2024)
     style: v3
-- id: ashrae.standard.1546
+- id: ashrae.standard.1540
   identifier:
     _type: pubid:ashrae:standard
     code: '194'
@@ -1805,7 +1744,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 194-2025
     style: v3
-- id: ashrae.standard.1547
+- id: ashrae.standard.1541
   identifier:
     _type: pubid:ashrae:standard
     code: '195'
@@ -1817,7 +1756,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 195-2024
     style: v3
-- id: ashrae.standard.1548
+- id: ashrae.standard.1542
   identifier:
     _type: pubid:ashrae:standard
     code: '198'
@@ -1829,7 +1768,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 198-2013
     style: v3
-- id: ashrae.standard.1549
+- id: ashrae.standard.1543
   identifier:
     _type: pubid:ashrae:standard
     code: '198'
@@ -1842,7 +1781,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 198-2013R
     style: v3
-- id: ashrae.standard.1550
+- id: ashrae.standard.1544
   identifier:
     _type: pubid:ashrae:standard
     code: '199'
@@ -1854,7 +1793,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 199-2016 (February 2, 2017) (PDF)
     style: v3
-- id: ashrae.standard.1551
+- id: ashrae.standard.1545
   identifier:
     _type: pubid:ashrae:standard
     code: '20'
@@ -1867,7 +1806,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 20-1997 (RA 2006) (February 27, 2016) (PDF)
     style: v3
-- id: ashrae.standard.1552
+- id: ashrae.standard.1546
   identifier:
     _type: pubid:ashrae:standard
     code: '20'
@@ -1879,7 +1818,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 20-2019
     style: v3
-- id: ashrae.standard.1553
+- id: ashrae.standard.1547
   identifier:
     _type: pubid:ashrae:standard
     code: '200'
@@ -1891,7 +1830,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 200-2024
     style: v3
-- id: ashrae.standard.1554
+- id: ashrae.standard.1548
   identifier:
     _type: pubid:ashrae:standard
     code: '201'
@@ -1904,7 +1843,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE/NEMA Standard 201-2016 (RA2020)
     style: v3
-- id: ashrae.standard.1555
+- id: ashrae.standard.1549
   identifier:
     _type: pubid:ashrae:standard
     code: '202'
@@ -1913,7 +1852,7 @@
     human: ASHRAE Standard 202-2018
     urn: urn:ashrae:202:2018:standard
   style: v3
-- id: ashrae.standard.1556
+- id: ashrae.standard.1550
   identifier:
     _type: pubid:ashrae:standard
     code: '202'
@@ -1922,7 +1861,7 @@
     human: ASHRAE Standard 202-2024
     urn: urn:ashrae:202:2024:standard
   style: v3
-- id: ashrae.standard.1557
+- id: ashrae.standard.1551
   identifier:
     _type: pubid:ashrae:standard
     code: '203'
@@ -1931,7 +1870,7 @@
     human: ASHRAE Standard 203-2018
     urn: urn:ashrae:203:2018:standard
   style: v3
-- id: ashrae.standard.1558
+- id: ashrae.standard.1552
   identifier:
     _type: pubid:ashrae:standard
     code: '203'
@@ -1944,7 +1883,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 203-2018 (RA 2021)
     style: v3
-- id: ashrae.standard.1559
+- id: ashrae.standard.1553
   identifier:
     _type: pubid:ashrae:standard
     code: '204'
@@ -1956,7 +1895,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 204-2020
     style: v3
-- id: ashrae.standard.1560
+- id: ashrae.standard.1554
   identifier:
     _type: pubid:ashrae:standard
     code: '205'
@@ -1965,7 +1904,10 @@
     human: ASHRAE Standard 205-2023
     urn: urn:ashrae:205:2023:standard
   style: v3
-- id: ashrae.standard.1561
+  non_normalized_aliases:
+  - spelling: ANSI/ASHRAE/IBPSA 205-2023
+    style: v3
+- id: ashrae.standard.1555
   identifier:
     _type: pubid:ashrae:standard
     code: '206'
@@ -1977,7 +1919,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 206-2024
     style: v3
-- id: ashrae.standard.1562
+- id: ashrae.standard.1556
   identifier:
     _type: pubid:ashrae:standard
     code: '207'
@@ -1986,7 +1928,7 @@
     human: ASHRAE Standard 207-2021
     urn: urn:ashrae:207:2021:standard
   style: v3
-- id: ashrae.standard.1563
+- id: ashrae.standard.1557
   identifier:
     _type: pubid:ashrae:standard
     code: '207'
@@ -1998,7 +1940,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 207-2025
     style: v3
-- id: ashrae.standard.1564
+- id: ashrae.standard.1558
   identifier:
     _type: pubid:ashrae:standard
     code: '209'
@@ -2010,7 +1952,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 209-2018
     style: v3
-- id: ashrae.standard.1565
+- id: ashrae.standard.1559
   identifier:
     _type: pubid:ashrae:standard
     code: '211'
@@ -2022,7 +1964,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 211-2018
     style: v3
-- id: ashrae.standard.1566
+- id: ashrae.standard.1560
   identifier:
     _type: pubid:ashrae:standard
     code: '211'
@@ -2035,7 +1977,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE Standard 211-2018 (RA 2023)
     style: v3
-- id: ashrae.standard.1567
+- id: ashrae.standard.1561
   identifier:
     _type: pubid:ashrae:standard
     code: '212'
@@ -2044,7 +1986,7 @@
     human: ASHRAE Standard 212-2019
     urn: urn:ashrae:212:2019:standard
   style: v3
-- id: ashrae.standard.1568
+- id: ashrae.standard.1562
   identifier:
     _type: pubid:ashrae:standard
     code: '214'
@@ -2053,7 +1995,7 @@
     human: ASHRAE Standard 214-2017
     urn: urn:ashrae:214:2017:standard
   style: v3
-- id: ashrae.standard.1569
+- id: ashrae.standard.1563
   identifier:
     _type: pubid:ashrae:standard
     code: '214'
@@ -2066,7 +2008,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 214-2017 (RA 2023)
     style: v3
-- id: ashrae.standard.1570
+- id: ashrae.standard.1564
   identifier:
     _type: pubid:ashrae:standard
     code: '215'
@@ -2081,7 +2023,7 @@
     style: v3
   - spelling: ASHRAE Standard 215-2018 (RA 2021)
     style: v3
-- id: ashrae.standard.1571
+- id: ashrae.standard.1565
   identifier:
     _type: pubid:ashrae:standard
     code: '217'
@@ -2090,7 +2032,7 @@
     human: ASHRAE Standard 217-2020
     urn: urn:ashrae:217:2020:standard
   style: v3
-- id: ashrae.standard.1572
+- id: ashrae.standard.1566
   identifier:
     _type: pubid:ashrae:standard
     code: '218'
@@ -2102,7 +2044,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 218-2019
     style: v3
-- id: ashrae.standard.1573
+- id: ashrae.standard.1567
   identifier:
     _type: pubid:ashrae:standard
     code: '219'
@@ -2114,7 +2056,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 219-2021
     style: v3
-- id: ashrae.standard.1574
+- id: ashrae.standard.1568
   identifier:
     _type: pubid:ashrae:standard
     code: '22'
@@ -2125,7 +2067,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 22
     style: v3
-- id: ashrae.standard.1575
+- id: ashrae.standard.1569
   identifier:
     _type: pubid:ashrae:standard
     code: '22'
@@ -2134,7 +2076,7 @@
     human: ASHRAE Standard 22-2023
     urn: urn:ashrae:22:2023:standard
   style: v3
-- id: ashrae.standard.1576
+- id: ashrae.standard.1570
   identifier:
     _type: pubid:ashrae:standard
     code: '221'
@@ -2146,7 +2088,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 221-2020
     style: v3
-- id: ashrae.standard.1577
+- id: ashrae.standard.1571
   identifier:
     _type: pubid:ashrae:standard
     code: '222'
@@ -2155,7 +2097,7 @@
     human: ASHRAE Standard 222-2025
     urn: urn:ashrae:222:2025:standard
   style: v3
-- id: ashrae.standard.1578
+- id: ashrae.standard.1572
   identifier:
     _type: pubid:ashrae:standard
     code: '224'
@@ -2164,7 +2106,10 @@
     human: ASHRAE Standard 224-2023
     urn: urn:ashrae:224:2023:standard
   style: v3
-- id: ashrae.standard.1579
+  non_normalized_aliases:
+  - spelling: ANSI/ASHRAE/NIBS 224-2023
+    style: v3
+- id: ashrae.standard.1573
   identifier:
     _type: pubid:ashrae:standard
     code: '225'
@@ -2173,7 +2118,7 @@
     human: ASHRAE Standard 225-2020
     urn: urn:ashrae:225:2020:standard
   style: v3
-- id: ashrae.standard.1580
+- id: ashrae.standard.1574
   identifier:
     _type: pubid:ashrae:standard
     code: '225'
@@ -2186,7 +2131,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE Standard 225-2020 (RA 2025)
     style: v3
-- id: ashrae.standard.1581
+- id: ashrae.standard.1575
   identifier:
     _type: pubid:ashrae:standard
     code: '228'
@@ -2198,7 +2143,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 228-2023
     style: v3
-- id: ashrae.standard.1582
+- id: ashrae.standard.1576
   identifier:
     _type: pubid:ashrae:standard
     code: '23'
@@ -2207,7 +2152,7 @@
     human: ASHRAE Standard 23-2005
     urn: urn:ashrae:23:2005:standard
   style: v3
-- id: ashrae.standard.1583
+- id: ashrae.standard.1577
   identifier:
     _type: pubid:ashrae:standard
     code: '23'
@@ -2216,7 +2161,7 @@
     human: ASHRAE Standard 23-2022
     urn: urn:ashrae:23:2022:standard
   style: v3
-- id: ashrae.standard.1584
+- id: ashrae.standard.1578
   identifier:
     _type: pubid:ashrae:standard
     code: '23.1'
@@ -2225,7 +2170,7 @@
     human: ASHRAE Standard 23.1-2010
     urn: urn:ashrae:23.1:2010:standard
   style: v3
-- id: ashrae.standard.1585
+- id: ashrae.standard.1579
   identifier:
     _type: pubid:ashrae:standard
     code: '23.1'
@@ -2234,7 +2179,7 @@
     human: ASHRAE Standard 23.1-2019
     urn: urn:ashrae:23.1:2019:standard
   style: v3
-- id: ashrae.standard.1586
+- id: ashrae.standard.1580
   identifier:
     _type: pubid:ashrae:standard
     code: '23.2'
@@ -2243,7 +2188,7 @@
     human: ASHRAE Standard 23.2-2019
     urn: urn:ashrae:23.2:2019:standard
   style: v3
-- id: ashrae.standard.1587
+- id: ashrae.standard.1581
   identifier:
     _type: pubid:ashrae:standard
     code: '230'
@@ -2255,7 +2200,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 230-2022
     style: v3
-- id: ashrae.standard.1588
+- id: ashrae.standard.1582
   identifier:
     _type: pubid:ashrae:standard
     code: '232'
@@ -2267,7 +2212,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE/IBPSA Standard 232-2024
     style: v3
-- id: ashrae.standard.1589
+- id: ashrae.standard.1583
   identifier:
     _type: pubid:ashrae:standard
     code: '24'
@@ -2279,7 +2224,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 24-2025
     style: v3
-- id: ashrae.standard.1590
+- id: ashrae.standard.1584
   identifier:
     _type: pubid:ashrae:standard
     code: '241'
@@ -2288,7 +2233,7 @@
     human: ASHRAE Standard 241-2023
     urn: urn:ashrae:241:2023:standard
   style: v3
-- id: ashrae.standard.1591
+- id: ashrae.standard.1585
   identifier:
     _type: pubid:ashrae:standard
     code: 244P
@@ -2296,7 +2241,7 @@
     human: ASHRAE Standard 244P
     urn: urn:ashrae:244P:standard
   style: v3
-- id: ashrae.standard.1592
+- id: ashrae.standard.1586
   identifier:
     _type: pubid:ashrae:standard
     code: 245P
@@ -2304,7 +2249,7 @@
     human: ASHRAE Standard 245P
     urn: urn:ashrae:245P:standard
   style: v3
-- id: ashrae.standard.1593
+- id: ashrae.standard.1587
   identifier:
     _type: pubid:ashrae:standard
     code: '25'
@@ -2317,7 +2262,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE Standard 25-2001 (RA 2006)
     style: v3
-- id: ashrae.standard.1594
+- id: ashrae.standard.1588
   identifier:
     _type: pubid:ashrae:standard
     code: '25'
@@ -2329,7 +2274,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 25-2018
     style: v3
-- id: ashrae.standard.1595
+- id: ashrae.standard.1589
   identifier:
     _type: pubid:ashrae:standard
     code: '26'
@@ -2342,7 +2287,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 26-2010 (RA2020)
     style: v3
-- id: ashrae.standard.1596
+- id: ashrae.standard.1590
   identifier:
     _type: pubid:ashrae:standard
     code: '28'
@@ -2357,7 +2302,7 @@
     style: v3
   - spelling: ASHRAE Standard 28-1996 (RA 2020)
     style: v3
-- id: ashrae.standard.1597
+- id: ashrae.standard.1591
   identifier:
     _type: pubid:ashrae:standard
     code: '29'
@@ -2370,7 +2315,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE Standard 29-1988 (RA 2005)
     style: v3
-- id: ashrae.standard.1598
+- id: ashrae.standard.1592
   identifier:
     _type: pubid:ashrae:standard
     code: '29'
@@ -2382,7 +2327,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 29-2024
     style: v3
-- id: ashrae.standard.1599
+- id: ashrae.standard.1593
   identifier:
     _type: pubid:ashrae:standard
     code: '30'
@@ -2391,7 +2336,7 @@
     human: ASHRAE Standard 30-2025
     urn: urn:ashrae:30:2025:standard
   style: v3
-- id: ashrae.standard.1600
+- id: ashrae.standard.1594
   identifier:
     _type: pubid:ashrae:standard
     code: '32'
@@ -2404,7 +2349,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE Standard 32-1986 (RA 90)
     style: v3
-- id: ashrae.standard.1601
+- id: ashrae.standard.1595
   identifier:
     _type: pubid:ashrae:standard
     code: '32.1'
@@ -2413,7 +2358,7 @@
     human: ASHRAE Standard 32.1-2004
     urn: urn:ashrae:32.1:2004:standard
   style: v3
-- id: ashrae.standard.1602
+- id: ashrae.standard.1596
   identifier:
     _type: pubid:ashrae:standard
     code: '32.1'
@@ -2425,7 +2370,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 32.1-2022
     style: v3
-- id: ashrae.standard.1603
+- id: ashrae.standard.1597
   identifier:
     _type: pubid:ashrae:standard
     code: '32.2'
@@ -2434,7 +2379,7 @@
     human: ASHRAE Standard 32.2-2018
     urn: urn:ashrae:32.2:2018:standard
   style: v3
-- id: ashrae.standard.1604
+- id: ashrae.standard.1598
   identifier:
     _type: pubid:ashrae:standard
     code: '32.2'
@@ -2447,7 +2392,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 32.2-2018 (RA 2022)
     style: v3
-- id: ashrae.standard.1605
+- id: ashrae.standard.1599
   identifier:
     _type: pubid:ashrae:standard
     code: '33'
@@ -2459,7 +2404,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 33-2016 (May 4, 2020) (PDF)
     style: v3
-- id: ashrae.standard.1606
+- id: ashrae.standard.1600
   identifier:
     _type: pubid:ashrae:standard
     code: '34'
@@ -2468,7 +2413,7 @@
     human: ASHRAE Standard 34-1978
     urn: urn:ashrae:34:1978:standard
   style: v3
-- id: ashrae.standard.1607
+- id: ashrae.standard.1601
   identifier:
     _type: pubid:ashrae:standard
     code: '34'
@@ -2477,7 +2422,7 @@
     human: ASHRAE Standard 34-1989
     urn: urn:ashrae:34:1989:standard
   style: v3
-- id: ashrae.standard.1608
+- id: ashrae.standard.1602
   identifier:
     _type: pubid:ashrae:standard
     code: '34'
@@ -2486,7 +2431,7 @@
     human: ASHRAE Standard 34-1992
     urn: urn:ashrae:34:1992:standard
   style: v3
-- id: ashrae.standard.1609
+- id: ashrae.standard.1603
   identifier:
     _type: pubid:ashrae:standard
     code: '34'
@@ -2495,7 +2440,7 @@
     human: ASHRAE Standard 34-1997
     urn: urn:ashrae:34:1997:standard
   style: v3
-- id: ashrae.standard.1610
+- id: ashrae.standard.1604
   identifier:
     _type: pubid:ashrae:standard
     code: '34'
@@ -2504,7 +2449,7 @@
     human: ASHRAE Standard 34-2001
     urn: urn:ashrae:34:2001:standard
   style: v3
-- id: ashrae.standard.1611
+- id: ashrae.standard.1605
   identifier:
     _type: pubid:ashrae:standard
     code: '34'
@@ -2513,7 +2458,7 @@
     human: ASHRAE Standard 34-2004
     urn: urn:ashrae:34:2004:standard
   style: v3
-- id: ashrae.standard.1613
+- id: ashrae.standard.1607
   identifier:
     _type: pubid:ashrae:standard
     code: '34'
@@ -2522,7 +2467,7 @@
     human: ASHRAE Standard 34-2007
     urn: urn:ashrae:34:2007:standard
   style: v3
-- id: ashrae.standard.1614
+- id: ashrae.standard.1608
   identifier:
     _type: pubid:ashrae:standard
     code: '34'
@@ -2531,7 +2476,7 @@
     human: ASHRAE Standard 34-2010
     urn: urn:ashrae:34:2010:standard
   style: v3
-- id: ashrae.standard.1615
+- id: ashrae.standard.1609
   identifier:
     _type: pubid:ashrae:standard
     code: '34'
@@ -2540,7 +2485,7 @@
     human: ASHRAE Standard 34-2013
     urn: urn:ashrae:34:2013:standard
   style: v3
-- id: ashrae.standard.1617
+- id: ashrae.standard.1611
   identifier:
     _type: pubid:ashrae:standard
     code: '34'
@@ -2549,7 +2494,7 @@
     human: ASHRAE Standard 34-2016
     urn: urn:ashrae:34:2016:standard
   style: v3
-- id: ashrae.standard.1618
+- id: ashrae.standard.1612
   identifier:
     _type: pubid:ashrae:standard
     code: '34'
@@ -2558,7 +2503,7 @@
     human: ASHRAE Standard 34-2019
     urn: urn:ashrae:34:2019:standard
   style: v3
-- id: ashrae.standard.1619
+- id: ashrae.standard.1613
   identifier:
     _type: pubid:ashrae:standard
     code: '34'
@@ -2567,7 +2512,7 @@
     human: ASHRAE Standard 34-2022
     urn: urn:ashrae:34:2022:standard
   style: v3
-- id: ashrae.standard.1620
+- id: ashrae.standard.1614
   identifier:
     _type: pubid:ashrae:standard
     code: '34'
@@ -2579,7 +2524,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 34-2024
     style: v3
-- id: ashrae.standard.1621
+- id: ashrae.standard.1615
   identifier:
     _type: pubid:ashrae:standard
     code: '35'
@@ -2589,7 +2534,7 @@
     human: ASHRAE Standard 35-2014 (RA2024)
     urn: urn:ashrae:35:2014:standard:reaff.2024
   style: v3
-- id: ashrae.standard.1622
+- id: ashrae.standard.1616
   identifier:
     _type: pubid:ashrae:standard
     code: '36'
@@ -2598,7 +2543,7 @@
     human: ASHRAE Standard 36-1972
     urn: urn:ashrae:36:1972:standard
   style: v3
-- id: ashrae.standard.1623
+- id: ashrae.standard.1617
   identifier:
     _type: pubid:ashrae:standard
     code: '37'
@@ -2607,7 +2552,7 @@
     human: ASHRAE Standard 37-1978
     urn: urn:ashrae:37:1978:standard
   style: v3
-- id: ashrae.standard.1624
+- id: ashrae.standard.1618
   identifier:
     _type: pubid:ashrae:standard
     code: '37'
@@ -2616,7 +2561,7 @@
     human: ASHRAE Standard 37-2005
     urn: urn:ashrae:37:2005:standard
   style: v3
-- id: ashrae.standard.1625
+- id: ashrae.standard.1619
   identifier:
     _type: pubid:ashrae:standard
     code: '37'
@@ -2625,7 +2570,7 @@
     human: ASHRAE Standard 37-2024
     urn: urn:ashrae:37:2024:standard
   style: v3
-- id: ashrae.standard.1626
+- id: ashrae.standard.1620
   identifier:
     _type: pubid:ashrae:standard
     code: '40'
@@ -2638,7 +2583,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 40-2014R
     style: v3
-- id: ashrae.standard.1627
+- id: ashrae.standard.1621
   identifier:
     _type: pubid:ashrae:standard
     code: '40'
@@ -2650,7 +2595,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 40-2025
     style: v3
-- id: ashrae.standard.1628
+- id: ashrae.standard.1622
   identifier:
     _type: pubid:ashrae:standard
     code: '41.1'
@@ -2663,7 +2608,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE Standard 41.1-1986 (RA 2001)
     style: v3
-- id: ashrae.standard.1629
+- id: ashrae.standard.1623
   identifier:
     _type: pubid:ashrae:standard
     code: '41.1'
@@ -2673,7 +2618,7 @@
     human: ASHRAE Standard 41.1-2020R
     urn: urn:ashrae:41.1:2020:standard:r
   style: v3
-- id: ashrae.standard.1630
+- id: ashrae.standard.1624
   identifier:
     _type: pubid:ashrae:standard
     code: '41.1'
@@ -2685,7 +2630,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 41.1-2024
     style: v3
-- id: ashrae.standard.1631
+- id: ashrae.standard.1625
   identifier:
     _type: pubid:ashrae:standard
     code: '41.10'
@@ -2695,7 +2640,7 @@
     human: ASHRAE Standard 41.10-2020R
     urn: urn:ashrae:41.10:2020:standard:r
   style: v3
-- id: ashrae.standard.1632
+- id: ashrae.standard.1626
   identifier:
     _type: pubid:ashrae:standard
     code: '41.10'
@@ -2707,7 +2652,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 41.10-2024.
     style: v3
-- id: ashrae.standard.1633
+- id: ashrae.standard.1627
   identifier:
     _type: pubid:ashrae:standard
     code: '41.11'
@@ -2717,7 +2662,7 @@
     human: ASHRAE Standard 41.11-2020R
     urn: urn:ashrae:41.11:2020:standard:r
   style: v3
-- id: ashrae.standard.1634
+- id: ashrae.standard.1628
   identifier:
     _type: pubid:ashrae:standard
     code: '41.11'
@@ -2726,7 +2671,7 @@
     human: ASHRAE Standard 41.11-2023
     urn: urn:ashrae:41.11:2023:standard
   style: v3
-- id: ashrae.standard.1635
+- id: ashrae.standard.1629
   identifier:
     _type: pubid:ashrae:standard
     code: '41.13'
@@ -2734,7 +2679,7 @@
     human: ASHRAE Standard 41.13
     urn: urn:ashrae:41.13:standard
   style: v3
-- id: ashrae.standard.1636
+- id: ashrae.standard.1630
   identifier:
     _type: pubid:ashrae:standard
     code: '41.13'
@@ -2746,7 +2691,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 41.13-2023
     style: v3
-- id: ashrae.standard.1637
+- id: ashrae.standard.1631
   identifier:
     _type: pubid:ashrae:standard
     code: '41.2'
@@ -2759,7 +2704,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE Standard 41.2-1987 (RA 1992)
     style: v3
-- id: ashrae.standard.1638
+- id: ashrae.standard.1632
   identifier:
     _type: pubid:ashrae:standard
     code: '41.2'
@@ -2771,7 +2716,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 41.2-2022
     style: v3
-- id: ashrae.standard.1639
+- id: ashrae.standard.1633
   identifier:
     _type: pubid:ashrae:standard
     code: '41.3'
@@ -2780,7 +2725,7 @@
     human: ASHRAE Standard 41.3-2022
     urn: urn:ashrae:41.3:2022:standard
   style: v3
-- id: ashrae.standard.1640
+- id: ashrae.standard.1634
   identifier:
     _type: pubid:ashrae:standard
     code: '41.4'
@@ -2792,7 +2737,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 41.4-2015
     style: v3
-- id: ashrae.standard.1641
+- id: ashrae.standard.1635
   identifier:
     _type: pubid:ashrae:standard
     code: '41.4'
@@ -2802,7 +2747,7 @@
     human: ASHRAE Standard 41.4-2015R
     urn: urn:ashrae:41.4:2015:standard:r
   style: v3
-- id: ashrae.standard.1642
+- id: ashrae.standard.1636
   identifier:
     _type: pubid:ashrae:standard
     code: '41.5'
@@ -2811,7 +2756,7 @@
     human: ASHRAE Standard 41.5-1975
     urn: urn:ashrae:41.5:1975:standard
   style: v3
-- id: ashrae.standard.1643
+- id: ashrae.standard.1637
   identifier:
     _type: pubid:ashrae:standard
     code: '41.6'
@@ -2824,7 +2769,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE Standard 41.6-1994 (RA 2001)
     style: v3
-- id: ashrae.standard.1644
+- id: ashrae.standard.1638
   identifier:
     _type: pubid:ashrae:standard
     code: '41.6'
@@ -2836,7 +2781,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 41.6-2025
     style: v3
-- id: ashrae.standard.1645
+- id: ashrae.standard.1639
   identifier:
     _type: pubid:ashrae:standard
     code: '41.7'
@@ -2848,7 +2793,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 41.7-2025
     style: v3
-- id: ashrae.standard.1646
+- id: ashrae.standard.1640
   identifier:
     _type: pubid:ashrae:standard
     code: '41.8'
@@ -2860,7 +2805,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 41.8-2023
     style: v3
-- id: ashrae.standard.1647
+- id: ashrae.standard.1641
   identifier:
     _type: pubid:ashrae:standard
     code: '41.8'
@@ -2870,7 +2815,7 @@
     human: ASHRAE Standard 41.8-2023 (RA2019)
     urn: urn:ashrae:41.8:2023:standard:reaff.2019
   style: v3
-- id: ashrae.standard.1648
+- id: ashrae.standard.1642
   identifier:
     _type: pubid:ashrae:standard
     code: '41.9'
@@ -2879,7 +2824,7 @@
     human: ASHRAE Standard 41.9-2000
     urn: urn:ashrae:41.9:2000:standard
   style: v3
-- id: ashrae.standard.1649
+- id: ashrae.standard.1643
   identifier:
     _type: pubid:ashrae:standard
     code: '41.9'
@@ -2891,7 +2836,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 41.9-2025
     style: v3
-- id: ashrae.standard.1650
+- id: ashrae.standard.1644
   identifier:
     _type: pubid:ashrae:standard
     code: '45'
@@ -2900,7 +2845,7 @@
     human: ASHRAE Standard 45-1986
     urn: urn:ashrae:45:1986:standard
   style: v3
-- id: ashrae.standard.1651
+- id: ashrae.standard.1645
   identifier:
     _type: pubid:ashrae:standard
     code: '47'
@@ -2909,7 +2854,7 @@
     human: ASHRAE Standard 47-1969
     urn: urn:ashrae:47:1969:standard
   style: v3
-- id: ashrae.standard.1652
+- id: ashrae.standard.1646
   identifier:
     _type: pubid:ashrae:standard
     code: '51'
@@ -2918,7 +2863,7 @@
     human: ASHRAE Standard 51-1999
     urn: urn:ashrae:51:1999:standard
   style: v3
-- id: ashrae.standard.1653
+- id: ashrae.standard.1647
   identifier:
     _type: pubid:ashrae:standard
     code: '51'
@@ -2932,7 +2877,7 @@
     style: v3
   - spelling: ASHRAE Standard 51-2016 (AMCA 210-16)
     style: v3
-- id: ashrae.standard.1654
+- id: ashrae.standard.1648
   identifier:
     _type: pubid:ashrae:standard
     code: '514'
@@ -2941,7 +2886,7 @@
     human: ASHRAE Standard 514-2023
     urn: urn:ashrae:514:2023:standard
   style: v3
-- id: ashrae.standard.1655
+- id: ashrae.standard.1649
   identifier:
     _type: pubid:ashrae:standard
     code: '52.1'
@@ -2953,7 +2898,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 52.1-1992
     style: v3
-- id: ashrae.standard.1656
+- id: ashrae.standard.1650
   identifier:
     _type: pubid:ashrae:standard
     code: '52.2'
@@ -2965,7 +2910,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 52.2-1999
     style: v3
-- id: ashrae.standard.1658
+- id: ashrae.standard.1652
   identifier:
     _type: pubid:ashrae:standard
     code: '52.2'
@@ -2977,7 +2922,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 52.2-2007
     style: v3
-- id: ashrae.standard.1660
+- id: ashrae.standard.1654
   identifier:
     _type: pubid:ashrae:standard
     code: '52.2'
@@ -2989,7 +2934,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 52.2-2012
     style: v3
-- id: ashrae.standard.1662
+- id: ashrae.standard.1656
   identifier:
     _type: pubid:ashrae:standard
     code: '52.2'
@@ -2998,7 +2943,7 @@
     human: ASHRAE Standard 52.2-2017
     urn: urn:ashrae:52.2:2017:standard
   style: v3
-- id: ashrae.standard.1663
+- id: ashrae.standard.1657
   identifier:
     _type: pubid:ashrae:standard
     code: '52.2'
@@ -3010,7 +2955,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 52.2-2025
     style: v3
-- id: ashrae.standard.1664
+- id: ashrae.standard.1658
   identifier:
     _type: pubid:ashrae:standard
     code: '53.1'
@@ -3019,7 +2964,7 @@
     human: ASHRAE Standard 53.1-1946
     urn: urn:ashrae:53.1:1946:standard
   style: v3
-- id: ashrae.standard.1665
+- id: ashrae.standard.1659
   identifier:
     _type: pubid:ashrae:standard
     code: '55'
@@ -3028,7 +2973,7 @@
     human: ASHRAE Standard 55-1992
     urn: urn:ashrae:55:1992:standard
   style: v3
-- id: ashrae.standard.1666
+- id: ashrae.standard.1660
   identifier:
     _type: pubid:ashrae:standard
     code: '55'
@@ -3040,7 +2985,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 55-2004
     style: v3
-- id: ashrae.standard.1667
+- id: ashrae.standard.1661
   identifier:
     _type: pubid:ashrae:standard
     code: '55'
@@ -3052,7 +2997,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 55-2010
     style: v3
-- id: ashrae.standard.1668
+- id: ashrae.standard.1662
   identifier:
     _type: pubid:ashrae:standard
     code: '55'
@@ -3061,7 +3006,7 @@
     human: ASHRAE Standard 55-2013
     urn: urn:ashrae:55:2013:standard
   style: v3
-- id: ashrae.standard.1669
+- id: ashrae.standard.1663
   identifier:
     _type: pubid:ashrae:standard
     code: '55'
@@ -3070,7 +3015,7 @@
     human: ASHRAE Standard 55-2017
     urn: urn:ashrae:55:2017:standard
   style: v3
-- id: ashrae.standard.1670
+- id: ashrae.standard.1664
   identifier:
     _type: pubid:ashrae:standard
     code: '55'
@@ -3082,7 +3027,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 55-2020
     style: v3
-- id: ashrae.standard.1671
+- id: ashrae.standard.1665
   identifier:
     _type: pubid:ashrae:standard
     code: '55'
@@ -3091,7 +3036,7 @@
     human: ASHRAE Standard 55-2023
     urn: urn:ashrae:55:2023:standard
   style: v3
-- id: ashrae.standard.1672
+- id: ashrae.standard.1666
   identifier:
     _type: pubid:ashrae:standard
     code: '58'
@@ -3101,7 +3046,7 @@
     human: ASHRAE Standard 58-1986 (RA2014)
     urn: urn:ashrae:58:1986:standard:reaff.2014
   style: v3
-- id: ashrae.standard.1673
+- id: ashrae.standard.1667
   identifier:
     _type: pubid:ashrae:standard
     code: '62'
@@ -3110,7 +3055,7 @@
     human: ASHRAE Standard 62-1981
     urn: urn:ashrae:62:1981:standard
   style: v3
-- id: ashrae.standard.1674
+- id: ashrae.standard.1668
   identifier:
     _type: pubid:ashrae:standard
     code: '62'
@@ -3122,7 +3067,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 62-1989
     style: v3
-- id: ashrae.standard.1675
+- id: ashrae.standard.1669
   identifier:
     _type: pubid:ashrae:standard
     code: '62'
@@ -3134,7 +3079,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 62-1999
     style: v3
-- id: ashrae.standard.1676
+- id: ashrae.standard.1670
   identifier:
     _type: pubid:ashrae:standard
     code: '62'
@@ -3146,7 +3091,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 62-2001
     style: v3
-- id: ashrae.standard.1677
+- id: ashrae.standard.1671
   identifier:
     _type: pubid:ashrae:standard
     code: '62.1'
@@ -3161,7 +3106,7 @@
     style: v3
   - spelling: Interpretations for Standard 62.1-2004
     style: v3
-- id: ashrae.standard.1680
+- id: ashrae.standard.1674
   identifier:
     _type: pubid:ashrae:standard
     code: '62.1'
@@ -3173,7 +3118,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 62.1-2010
     style: v3
-- id: ashrae.standard.1682
+- id: ashrae.standard.1676
   identifier:
     _type: pubid:ashrae:standard
     code: '62.1'
@@ -3185,7 +3130,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 62.1-2013
     style: v3
-- id: ashrae.standard.1684
+- id: ashrae.standard.1678
   identifier:
     _type: pubid:ashrae:standard
     code: '62.1'
@@ -3197,7 +3142,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 62.1-2016
     style: v3
-- id: ashrae.standard.1685
+- id: ashrae.standard.1679
   identifier:
     _type: pubid:ashrae:standard
     code: '62.1'
@@ -3209,7 +3154,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 62.1-2019
     style: v3
-- id: ashrae.standard.1686
+- id: ashrae.standard.1680
   identifier:
     _type: pubid:ashrae:standard
     code: '62.1'
@@ -3221,7 +3166,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 62.1-2022
     style: v3
-- id: ashrae.standard.1687
+- id: ashrae.standard.1681
   identifier:
     _type: pubid:ashrae:standard
     code: '62.2'
@@ -3233,7 +3178,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 62.2-2003
     style: v3
-- id: ashrae.standard.1688
+- id: ashrae.standard.1682
   identifier:
     _type: pubid:ashrae:standard
     code: '62.2'
@@ -3245,7 +3190,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 62.2-2004
     style: v3
-- id: ashrae.standard.1690
+- id: ashrae.standard.1684
   identifier:
     _type: pubid:ashrae:standard
     code: '62.2'
@@ -3257,7 +3202,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 62.2-2007
     style: v3
-- id: ashrae.standard.1692
+- id: ashrae.standard.1686
   identifier:
     _type: pubid:ashrae:standard
     code: '62.2'
@@ -3269,7 +3214,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 62.2-2010
     style: v3
-- id: ashrae.standard.1694
+- id: ashrae.standard.1688
   identifier:
     _type: pubid:ashrae:standard
     code: '62.2'
@@ -3282,7 +3227,7 @@
   - spelling: 2015 Addenda Supplement Package to Standard 62.2-2013 (includes Addenda
       a, b, d, e, f, g, and t) (February 26, 2015)
     style: v3
-- id: ashrae.standard.1695
+- id: ashrae.standard.1689
   identifier:
     _type: pubid:ashrae:standard
     code: '62.2'
@@ -3296,7 +3241,7 @@
     style: v3
   - spelling: Interpretations for Standard 62.2-2016
     style: v3
-- id: ashrae.standard.1696
+- id: ashrae.standard.1690
   identifier:
     _type: pubid:ashrae:standard
     code: '62.2'
@@ -3308,7 +3253,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 62.2-2019
     style: v3
-- id: ashrae.standard.1697
+- id: ashrae.standard.1691
   identifier:
     _type: pubid:ashrae:standard
     code: '62.2'
@@ -3320,7 +3265,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 62.2-2022
     style: v3
-- id: ashrae.standard.1698
+- id: ashrae.standard.1692
   identifier:
     _type: pubid:ashrae:standard
     code: '62.2'
@@ -3329,7 +3274,7 @@
     human: ASHRAE Standard 62.2-2025
     urn: urn:ashrae:62.2:2025:standard
   style: v3
-- id: ashrae.standard.1699
+- id: ashrae.standard.1693
   identifier:
     _type: pubid:ashrae:standard
     code: '63.1'
@@ -3342,7 +3287,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE Standard 63.1-1995 (RA 2001)
     style: v3
-- id: ashrae.standard.1700
+- id: ashrae.standard.1694
   identifier:
     _type: pubid:ashrae:standard
     code: '63.2'
@@ -3354,7 +3299,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 63.2-2024
     style: v3
-- id: ashrae.standard.1701
+- id: ashrae.standard.1695
   identifier:
     _type: pubid:ashrae:standard
     code: '64'
@@ -3363,7 +3308,7 @@
     human: ASHRAE Standard 64-2020
     urn: urn:ashrae:64:2020:standard
   style: v3
-- id: ashrae.standard.1702
+- id: ashrae.standard.1696
   identifier:
     _type: pubid:ashrae:standard
     code: '68'
@@ -3375,7 +3320,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE Standard 68-1997 (ANSI/AMCA 330-97)
     style: v3
-- id: ashrae.standard.1703
+- id: ashrae.standard.1697
   identifier:
     _type: pubid:ashrae:standard
     code: '69'
@@ -3384,7 +3329,7 @@
     human: ASHRAE Standard 69-1990
     urn: urn:ashrae:69:1990:standard
   style: v3
-- id: ashrae.standard.1704
+- id: ashrae.standard.1698
   identifier:
     _type: pubid:ashrae:standard
     code: '70'
@@ -3396,7 +3341,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 70-2023
     style: v3
-- id: ashrae.standard.1705
+- id: ashrae.standard.1699
   identifier:
     _type: pubid:ashrae:standard
     code: '71'
@@ -3405,7 +3350,7 @@
     human: ASHRAE Standard 71-1973
     urn: urn:ashrae:71:1973:standard
   style: v3
-- id: ashrae.standard.1706
+- id: ashrae.standard.1700
   identifier:
     _type: pubid:ashrae:standard
     code: '72'
@@ -3417,7 +3362,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 72-2005
     style: v3
-- id: ashrae.standard.1707
+- id: ashrae.standard.1701
   identifier:
     _type: pubid:ashrae:standard
     code: '72'
@@ -3426,7 +3371,7 @@
     human: ASHRAE Standard 72-2024
     urn: urn:ashrae:72:2024:standard
   style: v3
-- id: ashrae.standard.1708
+- id: ashrae.standard.1702
   identifier:
     _type: pubid:ashrae:standard
     code: '74'
@@ -3435,7 +3380,7 @@
     human: ASHRAE Standard 74-1988
     urn: urn:ashrae:74:1988:standard
   style: v3
-- id: ashrae.standard.1709
+- id: ashrae.standard.1703
   identifier:
     _type: pubid:ashrae:standard
     code: '78'
@@ -3450,7 +3395,7 @@
     style: v3
   - spelling: ASHRAE Standard 78-1985 (RA 2017)
     style: v3
-- id: ashrae.standard.1710
+- id: ashrae.standard.1704
   identifier:
     _type: pubid:ashrae:standard
     code: '79'
@@ -3462,7 +3407,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 79-2024
     style: v3
-- id: ashrae.standard.1711
+- id: ashrae.standard.1705
   identifier:
     _type: pubid:ashrae:standard
     code: '83'
@@ -3471,7 +3416,7 @@
     human: ASHRAE Standard 83-1985
     urn: urn:ashrae:83:1985:standard
   style: v3
-- id: ashrae.standard.1712
+- id: ashrae.standard.1706
   identifier:
     _type: pubid:ashrae:standard
     code: '84'
@@ -3480,7 +3425,7 @@
     human: ASHRAE Standard 84-2020
     urn: urn:ashrae:84:2020:standard
   style: v3
-- id: ashrae.standard.1713
+- id: ashrae.standard.1707
   identifier:
     _type: pubid:ashrae:standard
     code: '84'
@@ -3492,7 +3437,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 84-2024
     style: v3
-- id: ashrae.standard.1714
+- id: ashrae.standard.1708
   identifier:
     _type: pubid:ashrae:standard
     code: '85'
@@ -3501,7 +3446,7 @@
     human: ASHRAE Standard 85-1978
     urn: urn:ashrae:85:1978:standard
   style: v3
-- id: ashrae.standard.1715
+- id: ashrae.standard.1709
   identifier:
     _type: pubid:ashrae:standard
     code: '86'
@@ -3516,7 +3461,7 @@
     style: v3
   - spelling: ASHRAE Standard 86-2013 (RA 2016)
     style: v3
-- id: ashrae.standard.1716
+- id: ashrae.standard.1710
   identifier:
     _type: pubid:ashrae:standard
     code: '87.1'
@@ -3525,7 +3470,7 @@
     human: ASHRAE Standard 87.1-1992
     urn: urn:ashrae:87.1:1992:standard
   style: v3
-- id: ashrae.standard.1717
+- id: ashrae.standard.1711
   identifier:
     _type: pubid:ashrae:standard
     code: '87.2'
@@ -3534,7 +3479,7 @@
     human: ASHRAE Standard 87.2-2009
     urn: urn:ashrae:87.2:2009:standard
   style: v3
-- id: ashrae.standard.1718
+- id: ashrae.standard.1712
   identifier:
     _type: pubid:ashrae:standard
     code: '87.3'
@@ -3544,7 +3489,7 @@
     human: ASHRAE Standard 87.3-2001 (RA2010)
     urn: urn:ashrae:87.3:2001:standard:reaff.2010
   style: v3
-- id: ashrae.standard.1719
+- id: ashrae.standard.1713
   identifier:
     _type: pubid:ashrae:standard
     code: '90'
@@ -3553,7 +3498,7 @@
     human: ASHRAE Standard 90-1975
     urn: urn:ashrae:90:1975:standard
   style: v3
-- id: ashrae.standard.1720
+- id: ashrae.standard.1714
   identifier:
     _type: pubid:ashrae:standard
     code: '90.1'
@@ -3561,7 +3506,7 @@
     human: ASHRAE Standard 90.1
     urn: urn:ashrae:90.1:standard
   style: v3
-- id: ashrae.standard.1721
+- id: ashrae.standard.1715
   identifier:
     _type: pubid:ashrae:standard
     code: '90.1'
@@ -3573,7 +3518,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 90.1-1989
     style: v3
-- id: ashrae.standard.1722
+- id: ashrae.standard.1716
   identifier:
     _type: pubid:ashrae:standard
     code: '90.1'
@@ -3585,7 +3530,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 90.1-1999
     style: v3
-- id: ashrae.standard.1723
+- id: ashrae.standard.1717
   identifier:
     _type: pubid:ashrae:standard
     code: '90.1'
@@ -3597,7 +3542,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 90.1-2001
     style: v3
-- id: ashrae.standard.1724
+- id: ashrae.standard.1718
   identifier:
     _type: pubid:ashrae:standard
     code: '90.1'
@@ -3606,7 +3551,7 @@
     human: ASHRAE Standard 90.1-2004
     urn: urn:ashrae:90.1:2004:standard
   style: v3
-- id: ashrae.standard.1726
+- id: ashrae.standard.1720
   identifier:
     _type: pubid:ashrae:standard
     code: '90.1'
@@ -3615,7 +3560,7 @@
     human: ASHRAE Standard 90.1-2007
     urn: urn:ashrae:90.1:2007:standard
   style: v3
-- id: ashrae.standard.1728
+- id: ashrae.standard.1722
   identifier:
     _type: pubid:ashrae:standard
     code: '90.1'
@@ -3624,7 +3569,7 @@
     human: ASHRAE Standard 90.1-2010
     urn: urn:ashrae:90.1:2010:standard
   style: v3
-- id: ashrae.standard.1730
+- id: ashrae.standard.1724
   identifier:
     _type: pubid:ashrae:standard
     code: '90.1'
@@ -3633,7 +3578,7 @@
     human: ASHRAE Standard 90.1-2013
     urn: urn:ashrae:90.1:2013:standard
   style: v3
-- id: ashrae.standard.1732
+- id: ashrae.standard.1726
   identifier:
     _type: pubid:ashrae:standard
     code: '90.1'
@@ -3642,7 +3587,7 @@
     human: ASHRAE Standard 90.1-2016
     urn: urn:ashrae:90.1:2016:standard
   style: v3
-- id: ashrae.standard.1733
+- id: ashrae.standard.1727
   identifier:
     _type: pubid:ashrae:standard
     code: '90.1'
@@ -3651,7 +3596,7 @@
     human: ASHRAE Standard 90.1-2019
     urn: urn:ashrae:90.1:2019:standard
   style: v3
-- id: ashrae.standard.1734
+- id: ashrae.standard.1728
   identifier:
     _type: pubid:ashrae:standard
     code: '90.1'
@@ -3660,7 +3605,7 @@
     human: ASHRAE Standard 90.1-2022
     urn: urn:ashrae:90.1:2022:standard
   style: v3
-- id: ashrae.standard.1736
+- id: ashrae.standard.1730
   identifier:
     _type: pubid:ashrae:standard
     code: '90.2'
@@ -3669,7 +3614,7 @@
     human: ASHRAE Standard 90.2-2007
     urn: urn:ashrae:90.2:2007:standard
   style: v3
-- id: ashrae.standard.1737
+- id: ashrae.standard.1731
   identifier:
     _type: pubid:ashrae:standard
     code: '90.2'
@@ -3681,7 +3626,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 90.2-2018
     style: v3
-- id: ashrae.standard.1738
+- id: ashrae.standard.1732
   identifier:
     _type: pubid:ashrae:standard
     code: '90.2'
@@ -3693,7 +3638,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE/IES Standard 90.2-2024
     style: v3
-- id: ashrae.standard.1739
+- id: ashrae.standard.1733
   identifier:
     _type: pubid:ashrae:standard
     code: '90.4'
@@ -3705,7 +3650,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 90.4-2016
     style: v3
-- id: ashrae.standard.1740
+- id: ashrae.standard.1734
   identifier:
     _type: pubid:ashrae:standard
     code: '90.4'
@@ -3714,7 +3659,7 @@
     human: ASHRAE Standard 90.4-2019
     urn: urn:ashrae:90.4:2019:standard
   style: v3
-- id: ashrae.standard.1741
+- id: ashrae.standard.1735
   identifier:
     _type: pubid:ashrae:standard
     code: '90.4'
@@ -3726,7 +3671,7 @@
   non_normalized_aliases:
   - spelling: Interpretations for Standard 90.4-2022
     style: v3
-- id: ashrae.standard.1742
+- id: ashrae.standard.1736
   identifier:
     _type: pubid:ashrae:standard
     code: '90.4'
@@ -3735,7 +3680,7 @@
     human: ASHRAE Standard 90.4-2025
     urn: urn:ashrae:90.4:2025:standard
   style: v3
-- id: ashrae.standard.1743
+- id: ashrae.standard.1737
   identifier:
     _type: pubid:ashrae:standard
     code: 90A,B,C
@@ -3743,7 +3688,7 @@
     human: ASHRAE Standard 90A,B,C
     urn: urn:ashrae:90A,B,C:standard
   style: v3
-- id: ashrae.standard.1744
+- id: ashrae.standard.1738
   identifier:
     _type: pubid:ashrae:standard
     code: '91'
@@ -3756,7 +3701,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE Standard 91-1976 (RA 89)
     style: v3
-- id: ashrae.standard.1745
+- id: ashrae.standard.1739
   identifier:
     _type: pubid:ashrae:standard
     code: '93'
@@ -3765,7 +3710,7 @@
     human: ASHRAE Standard 93-1977
     urn: urn:ashrae:93:1977:standard
   style: v3
-- id: ashrae.standard.1746
+- id: ashrae.standard.1740
   identifier:
     _type: pubid:ashrae:standard
     code: '93'
@@ -3777,7 +3722,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 93-2003 (June 2, 2003) (PDF)
     style: v3
-- id: ashrae.standard.1747
+- id: ashrae.standard.1741
   identifier:
     _type: pubid:ashrae:standard
     code: '93'
@@ -3789,7 +3734,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 93-2010 (October 9, 2013) (PDF)
     style: v3
-- id: ashrae.standard.1748
+- id: ashrae.standard.1742
   identifier:
     _type: pubid:ashrae:standard
     code: '93'
@@ -3804,7 +3749,7 @@
     style: v3
   - spelling: ASHRAE Standard 93-2010 (RA 2014)
     style: v3
-- id: ashrae.standard.1749
+- id: ashrae.standard.1743
   identifier:
     _type: pubid:ashrae:standard
     code: '94.1'
@@ -3813,7 +3758,7 @@
     human: ASHRAE Standard 94.1-2010
     urn: urn:ashrae:94.1:2010:standard
   style: v3
-- id: ashrae.standard.1750
+- id: ashrae.standard.1744
   identifier:
     _type: pubid:ashrae:standard
     code: '94.2'
@@ -3822,7 +3767,7 @@
     human: ASHRAE Standard 94.2-2010
     urn: urn:ashrae:94.2:2010:standard
   style: v3
-- id: ashrae.standard.1751
+- id: ashrae.standard.1745
   identifier:
     _type: pubid:ashrae:standard
     code: '94.3'
@@ -3831,7 +3776,7 @@
     human: ASHRAE Standard 94.3-2010
     urn: urn:ashrae:94.3:2010:standard
   style: v3
-- id: ashrae.standard.1752
+- id: ashrae.standard.1746
   identifier:
     _type: pubid:ashrae:standard
     code: '95'
@@ -3844,7 +3789,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE 95-1981 (RA 87)
     style: v3
-- id: ashrae.standard.1753
+- id: ashrae.standard.1747
   identifier:
     _type: pubid:ashrae:standard
     code: '96'
@@ -3857,7 +3802,7 @@
   non_normalized_aliases:
   - spelling: ASHRAE Standard 96-1980 (RA 89)
     style: v3
-- id: ashrae.standard.1754
+- id: ashrae.standard.1748
   identifier:
     _type: pubid:ashrae:standard
     code: '97'
@@ -3867,7 +3812,7 @@
     human: ASHRAE Standard 97-2007 (RA2017)
     urn: urn:ashrae:97:2007:standard:reaff.2017
   style: v3
-- id: ashrae.standard.1755
+- id: ashrae.standard.1749
   identifier:
     _type: pubid:ashrae:standard
     code: '97'
@@ -3880,7 +3825,7 @@
   non_normalized_aliases:
   - spelling: ANSI/ASHRAE Standard 97-2017(RA2017)
     style: v3
-- id: ashrae.standard.1756
+- id: ashrae.standard.1750
   identifier:
     _type: pubid:ashrae:standard
     code: '99'
