@@ -4,13 +4,16 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      # Default checkout: the testsuite repo itself (this workflow).
       - uses: actions/checkout@v4
-      # Sibling checkout: the pubid gem, for the rawCopy fixture comparison.
+        with:
+          # Ensure byte-identical raw files between the gem and testsuite
+          # checkouts so the rawCopy diff does not flag line-ending drift.
+          autocrlf: false
       - uses: actions/checkout@v4
         with:
           repository: pubid/pubid
           path: pubid
+          autocrlf: false
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.4"
