@@ -12,7 +12,7 @@ jobs:
       # must keep passing with plain ruby, before bundle install.
       - name: Corpus identity (validate.rb)
         run: ruby tools/validate.rb
-      - name: Corpus structure (validate_schema.rb: schema subset, provenance integrity, README drift)
+      - name: Corpus structure (validate_schema.rb; schema subset, provenance integrity, README drift)
         run: ruby tools/validate_schema.rb
       - name: Tool-guard spec suite
         run: |
