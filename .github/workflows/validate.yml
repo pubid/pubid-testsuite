@@ -4,6 +4,9 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
+      # Default checkout: the testsuite repo itself (this workflow).
+      - uses: actions/checkout@v4
+      # Sibling checkout: the pubid gem, for the rawCopy fixture comparison.
       - uses: actions/checkout@v4
         with:
           repository: pubid/pubid
