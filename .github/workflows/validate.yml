@@ -5,12 +5,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          repository: pubid/pubid
+          path: pubid
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.4"
       # No gems: the validators and provenance generator are gem-free and
       # must keep passing with plain ruby, before bundle install.
+      # PUBID_GEM_PATH points at the pubid gem's spec/fixtures so validate.rb
+      # can rawCopy-diff the gem-side reference tree against the testsuite's
+      # reference-docs tree.
       - name: Corpus identity (validate.rb)
+        env:
+          PUBID_GEM_PATH: ${{ github.workspace }}/pubid
         run: ruby tools/validate.rb
       - name: Corpus structure (validate_schema.rb; schema subset, provenance integrity, README drift)
         run: ruby tools/validate_schema.rb
