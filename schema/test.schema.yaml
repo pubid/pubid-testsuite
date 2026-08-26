@@ -63,6 +63,12 @@ properties:
     maxLength: 1000
   notes:
     type: string
+  review:
+    type: string
+    description: >-
+      The expectation itself is uncertain; flagged for human verification.
+      Implementations report it in the review quadrant and never gate on
+      it. Resolution is recorded in tests/_contracts.yaml.
 anyOf:
   - required: [identifier, representations]
   - required: [expect]

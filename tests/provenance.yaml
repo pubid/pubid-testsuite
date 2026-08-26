@@ -8,23 +8,22 @@ generator:
   exporter_sha256: c283ca9cc3344659c265c03a161b10982dc58fb77a23f3bf580c5fd40f7642c5
 oracle:
   gem: pubid
-  commit: be515cf9d4b1725bfdb3dd3d06fd94972dec9e38
+  commit: 6083796ae5d650660a8244781db3b373e7ff5056
   clean: false
   dirty_paths:
-  - ".github/workflows/conformance.yml"
-  - lib/pubid/conformance/generator.rb
+  - lib/pubid/conformance.rb
   - lib/pubid/conformance/runner.rb
-  - lib/tasks/conformance.rake
   - spec/pubid/conformance_corpus_spec.rb
-  - spec/pubid/nist/nbs_identity_spec.rb
+  - lib/pubid/conformance/pending.rb
 repository:
-  commit: c26b9735489feddae6b4168fc0b722cae1b4cbc9
+  commit: 594245f6e10b38391b27282298ab900c33618fd1
   clean: false
   dirty_paths:
-  - README.md
-  - spec/provenance_integrity_spec.rb
-  - tools/export.rb
-  - tools/provenance.rb
+  - schema/test.schema.yaml
+  - tests/ieee/iec_ieee_copublished.yaml
+  - tests/ieee/project_draft_identifier.yaml
+  - tests/ieee/standard.yaml
+  - tests/_contracts.yaml
 ruby:
   version: 3.4.8
 counts:
@@ -485,8 +484,8 @@ payloads:
   sha256: 9efed8841d3edaa229e5d557d0242d2d58a37babca2b6e453922df4948b26265
   bytes: 18073
 - path: ieee/iec_ieee_copublished.yaml
-  sha256: cefc39e057e219dcc3040b8e20e5aa78f2443ac46c6c0b15a1339aed44546e35
-  bytes: 31873
+  sha256: 8ea0468bf00e4c486e6b11f717deaaf65165c905149927d76a706c5d16a055c3
+  bytes: 32587
 - path: ieee/interpretation_identifier.yaml
   sha256: 2ee3c9a5a405d7de4754e9dca11df72db896c41f9274c94a63b81a6419215b0f
   bytes: 2740
@@ -509,14 +508,14 @@ payloads:
   sha256: 24e50b3a281c5e13c2eae5527cf25ce57b7889223a64382de797424ec15a5329
   bytes: 757
 - path: ieee/project_draft_identifier.yaml
-  sha256: b85889d657e989e70f7689ac916c71a9abe6bdf7c44ea8d51f0e0904f8dda459
-  bytes: 1007390
+  sha256: b13bc5c23cbf140a8e2dcc1437416b90a1cca748667edd323cf99aa6e6d0ad7b
+  bytes: 1007594
 - path: ieee/si_standard.yaml
   sha256: a03b2f1caaf14e687cd50a79816d22aea9ffce9f9e790833fcd60e9823e30b55
   bytes: 3696
 - path: ieee/standard.yaml
-  sha256: 1d4350f4efb70ad98ede1b3dd098ef3dee283fa53cca64bade099dc000f0abdb
-  bytes: 2124206
+  sha256: 7a2ca2d44456ed01d784e9224f8438c81acfc76d9e8ca8b4698a6c005252574a
+  bytes: 2126348
 - path: ietf/bcp.yaml
   sha256: 762c036d5d41c7ae5665332f079b595966493c1bbb91ab922bd6de6939498c10
   bytes: 988
