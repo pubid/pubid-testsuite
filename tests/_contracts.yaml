@@ -7,6 +7,7 @@
 ---
 - id: C1
   status: ruled-corrected-pending
+  issue: https://github.com/pubid/pubid-testsuite/issues/2
   ruling: "2026-08-26: There is no such thing as DFDIS. The designator is
     hallucinated; FDIS is a stage, not a draft version."
   affected: corpus rows whose canonical embeds DFDIS (draft/draft_info
@@ -18,6 +19,7 @@
     target form is confirmed (the raw records carry FDIS-stage drafts)
 - id: C2
   status: open
+  issue: https://github.com/pubid/pubid-testsuite/issues/3
   question: ieee corpus groups "<status> Draft [Std] [P]<n>/D<x>" spellings
     under bare-status canonicals, while issues #205/#209 pin a fabricated
     "/D1" and "Draft" retention for status spellings. Mutually exclusive.
@@ -27,15 +29,27 @@
     from the trailing month).
 - id: C3
   status: open
+  issue: https://github.com/pubid/pubid-testsuite/issues/4
   question: are ieee copublished print tails - "(MM/DD)" and
     "(Revision of ...)" - non-identity noise (corpus canonicals drop them)
     or identity (pre-backtrack renders carried the narrative)?
 - id: C4
   status: open
+  issue: https://github.com/pubid/pubid-testsuite/issues/5
   question: is bare "NBS.CIRC" (urn:nist:circ:supp) the correct canonical
-    for the whole-series supplement, vs "NBS.CIRC.sup"?
+    for the whole-series supplement, vs "NBS.CIRC.sup"? And should the
+    edition form be the dotted "NBS.CIRC.e2" (attested raw record) rather
+    than the glued "NBS.CIRCe2" (old-render artifact)?
 - id: C5
   status: open
+  issue: https://github.com/pubid/pubid-testsuite/issues/5
   question: nist corpus groups "154supprev"/"154suprev" as aliases of plain
     "154sup" (revision folds away in the short form) while the mr form
     keeps it ("NBS.CIRC.154suprev"). Confirm the asymmetry is intended.
+- id: C6
+  status: open
+  issue: https://github.com/pubid/pubid-testsuite/issues/6
+  question: cen_cenelec canonicals "ENV/ENV 206:1992" / "ES/ES 59008-1:2000"
+    are doubled-render artifacts - the raw records carry the single-token
+    forms ("ENV 206:1992"), kept as aliases. Confirm the corrected
+    single-token canonicals.
