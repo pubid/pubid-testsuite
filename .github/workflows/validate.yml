@@ -7,13 +7,14 @@ jobs:
       - uses: actions/checkout@v4
         with:
           autocrlf: false
-      # Sibling checkout: the pubid gem, pinned to the SHA the testsuite's
-      # baseline backtrack restored. Default branch (main) carries work
-      # unrelated to this initiative and breaks the rawCopy fixture diff.
+      # Sibling checkout: the pubid gem, pinned to the branch the testsuite's
+      # baseline backtrack restored (ssot/schema-foundations @ 6083796a).
+      # Default branch (main) carries work unrelated to this initiative and
+      # breaks the rawCopy fixture diff.
       - uses: actions/checkout@v4
         with:
           repository: pubid/pubid
-          ref: 6083796a
+          ref: ssot/schema-foundations
           path: pubid
           autocrlf: false
       - uses: ruby/setup-ruby@v1
