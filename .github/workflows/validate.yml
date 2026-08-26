@@ -6,12 +6,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          # Ensure byte-identical raw files between the gem and testsuite
-          # checkouts so the rawCopy diff does not flag line-ending drift.
           autocrlf: false
+      # Sibling checkout: the pubid gem, pinned to the SHA the testsuite's
+      # baseline backtrack restored. Default branch (main) carries work
+      # unrelated to this initiative and breaks the rawCopy fixture diff.
       - uses: actions/checkout@v4
         with:
           repository: pubid/pubid
+          ref: 6083796a
           path: pubid
           autocrlf: false
       - uses: ruby/setup-ruby@v1
