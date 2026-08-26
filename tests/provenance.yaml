@@ -5,31 +5,43 @@ schema: pubid-testsuite/provenance/1
 generated_by: tools/provenance.rb - do not edit
 generator:
   exporter: tools/export.rb
-  exporter_sha256: c283ca9cc3344659c265c03a161b10982dc58fb77a23f3bf580c5fd40f7642c5
+  exporter_sha256: f2a035b973c749ded88f7cf184dd49773b789e937fe3e02764c99f5b94d0e79a
 oracle:
   gem: pubid
-  commit: 6083796ae5d650660a8244781db3b373e7ff5056
+  commit: 190d69458373d507f04b0474f46de48f43e48f14
   clean: false
   dirty_paths:
-  - lib/pubid/conformance.rb
-  - lib/pubid/conformance/runner.rb
-  - spec/pubid/conformance_corpus_spec.rb
-  - lib/pubid/conformance/pending.rb
+  - spec/fixtures/cie/identifiers/full/conference.txt
 repository:
-  commit: 594245f6e10b38391b27282298ab900c33618fd1
+  commit: f1ab39e058f41ce61b7aa37e38b1bcc2da33ba33
   clean: false
   dirty_paths:
-  - schema/test.schema.yaml
-  - tests/ieee/iec_ieee_copublished.yaml
-  - tests/ieee/project_draft_identifier.yaml
-  - tests/ieee/standard.yaml
-  - tests/_contracts.yaml
+  - reference-docs/cie/identifiers/full/conference.txt
+  - reference-docs/ietf/identifiers/pass/bcp.txt
+  - reference-docs/ietf/identifiers/pass/fyi.txt
+  - reference-docs/ietf/identifiers/pass/rfc.txt
+  - reference-docs/ietf/identifiers/pass/std.txt
+  - tests/api/_debt.yaml
+  - tests/astm/_debt.yaml
+  - tests/bipm/_debt.yaml
+  - tests/bipm/mep.yaml
+  - tests/bipm/metrologia_article.yaml
+  - tests/bipm/si_brochure.yaml
+  - tests/iana/registry.yaml
+  - tests/ietf/bcp.yaml
+  - tests/ietf/fyi.yaml
+  - tests/ietf/internet_draft.yaml
+  - tests/ietf/rfc.yaml
+  - tests/ietf/std.yaml
+  - tests/itu/_debt.yaml
+  - tests/nist/_debt.yaml
+  - tools/export.rb
 ruby:
   version: 3.4.8
 counts:
   flavors: 40
-  payloads: 306
-  cases: 94089
+  payloads: 303
+  cases: 96555
   aliases: 11193
   negatives: 1348
 payloads:
@@ -52,8 +64,8 @@ payloads:
   sha256: '096b3c0c9e2d162857c261871a65ac4e75ab4a6a2302f0ac6ed3fb19b5fdcb49'
   bytes: 46110
 - path: api/_debt.yaml
-  sha256: a13a2c23ffe3176222c7a9d7fa4c3e92bf162bf9f422cab12aa691f7700e739f
-  bytes: 864
+  sha256: 6c053e5f676e09925906d75b3f6bfdd9fdcadf9455de42f309ff5833e3a55feb
+  bytes: 563
 - path: api/_normalization.yaml
   sha256: 17db83d13bb5194caf15366c2d3b9f148e0258626dd0347ec08e81cab8b22d93
   bytes: 148
@@ -120,9 +132,6 @@ payloads:
 - path: asme/standard.yaml
   sha256: d21e68c6188405ff75c399c65697f34e65d94d7756f8578dfad20dfc86278757
   bytes: 197065
-- path: astm/_debt.yaml
-  sha256: 4422acea183a22695e570dc007f2bb2a32324f994d458a08509a2a07afd7b63a
-  bytes: 1320
 - path: astm/_normalization.yaml
   sha256: e3b47f363ab118d472de683d900ff5d56d36471a4a538273a4e4074fe9b99b9b
   bytes: 565
@@ -153,9 +162,6 @@ payloads:
 - path: astm/work_in_progress.yaml
   sha256: caceab4dfbb1a703becb4c7342a610b683ad9645e875fd8a5d23fb85843b8095
   bytes: 607
-- path: bipm/_debt.yaml
-  sha256: b324e6ab8f799938659a2ff616fda38c31e0dcf37e7b9140579b84148e3d65c4
-  bytes: 1122
 - path: bipm/_negative.yaml
   sha256: 37cf5ab258130666be94ca74830e68309c8139d3d907320443c94c187babb063
   bytes: 524
@@ -169,14 +175,14 @@ payloads:
   sha256: aa21d977f21a7a1bf6c2363f502f863db1206002a8d08bb4bdc2eb5bb3f3dd22
   bytes: 3174
 - path: bipm/mep.yaml
-  sha256: 7f2079fe05985273a6b7db4b94ea18007807bf361896b8c57fc4c9fbbad68c83
-  bytes: 3996
+  sha256: 990bb2d09b5c25c6b69ddb5c55735baf3a7a31e89dcfb2f161da07c0e3a54609
+  bytes: 4410
 - path: bipm/metrologia_article.yaml
-  sha256: d3753fbf83e4da313458a1dbccd4ef899f1339f4065c474573d3e54990a74cf8
-  bytes: 1999
+  sha256: de94310e09126248db92a6733f22ae065968babb83e8db6ff3e77026f73bcb8c
+  bytes: 2017
 - path: bipm/si_brochure.yaml
-  sha256: 5bbacf117022406e4fa7b2d92a1c7ba439a1b8614f815e4b870fb0bc5592842e
-  bytes: 1176
+  sha256: 36d1086fd936b273e26c6353b1801e6d3d2396d9c1e73f93552c96916a28bd88
+  bytes: 1265
 - path: bsi/_debt.yaml
   sha256: 4bb078c3d9b277dd89cf860b0dc96cf61d575542682a10ddc5721f671435023c
   bytes: 415703
@@ -382,8 +388,8 @@ payloads:
   sha256: d0f6e1bc8d7e6e674e360fe6e9132c015d1c3bf69605a7ae052f0888443db595
   bytes: 486
 - path: iana/registry.yaml
-  sha256: c9172a4b2adacc40b1919fb8ac5629b72b2208766df84c84ddbe8b4b1c6993ee
-  bytes: 7450
+  sha256: 2077673fe12fb728fc31ede8ff56117265cdcea5d35925aa6470a3fe07d56251
+  bytes: 7390
 - path: idf/_normalization.yaml
   sha256: 9a74c406a697854440289218d246d05d9df27ac2ca54175646e97a8040da8722
   bytes: 2713
@@ -517,20 +523,20 @@ payloads:
   sha256: 7a2ca2d44456ed01d784e9224f8438c81acfc76d9e8ca8b4698a6c005252574a
   bytes: 2126348
 - path: ietf/bcp.yaml
-  sha256: 762c036d5d41c7ae5665332f079b595966493c1bbb91ab922bd6de6939498c10
-  bytes: 988
+  sha256: 5550f54365fa3abe45c266d956fc5c0bc239fb1e652ca3abc845ea1d8d5bf764
+  bytes: 36048
 - path: ietf/fyi.yaml
-  sha256: 7ecbf44bef81aef0ee3ecd506a1e63d0dc6bdcb1d7740c3f1b5b488fdd7b050c
-  bytes: 988
+  sha256: 8ec558a40b6462fb419fb5049e5d8217452058611312f6ca14a88f566dc6051a
+  bytes: 5416
 - path: ietf/internet_draft.yaml
-  sha256: 20e04cabaefe510ab9c378383a9fd52a388d359fdfa30f1f30301120234ad31c
-  bytes: 6779
+  sha256: '096c4e2216faf1f9983947a7602e74abc9e7e0c8c3eb648a1b521da621976138'
+  bytes: 576309
 - path: ietf/rfc.yaml
-  sha256: bba5768330deb8b3deb91e2887a463d027392af2ceb874c0bf425b76f65fd6b1
-  bytes: 2489
+  sha256: 052b2b9cd92ed30cebce97bb855092ae47c74c8240c712456434d694c3130260
+  bytes: 2646
 - path: ietf/std.yaml
-  sha256: ae0cebf5e179effdf649633f11dca4395332d62351c0f8c139d54848e13aa232
-  bytes: 988
+  sha256: 3a320f9cb2fdacb6bdc169971c2bb4300db7c0a986592886e5f2ceda0125ba01
+  bytes: 14041
 - path: iho/bibliographic.yaml
   sha256: d469074a9c67c69b0191b24d16264189d594298412c965e8a333c69790004464
   bytes: 2181
@@ -603,9 +609,6 @@ payloads:
 - path: iso/technology_trends_assessments.yaml
   sha256: 5d950a17b481e31be9f189548d9e9f9281c21fc0a8e5e39c9b2a4549069b0fb7
   bytes: 2244
-- path: itu/_debt.yaml
-  sha256: 392c9f27726ed171d76a073db0c01ab22e985d68516b412320b87355285b4777
-  bytes: 278
 - path: itu/addendum.yaml
   sha256: 00f7c22a9475989f743f0c5df082404bb2164117d4acd42a5170dbd9eab87b95
   bytes: 7798
@@ -667,8 +670,8 @@ payloads:
   sha256: 62d926adca128a9be3bac00f19cde6fec4020c705623611814d3a96fdd4eec43
   bytes: 2668160
 - path: nist/_debt.yaml
-  sha256: 57b7d8258a91a234573c9ed85d223e3b8f9a7255b86bbebfc58cd8d78987132c
-  bytes: 2959
+  sha256: 692a7539a4246f3133680d6368b08571880a0c68a14fa169549e818bd5c39bb9
+  bytes: 1114
 - path: nist/_normalization.yaml
   sha256: f5adb110fbd572c2e42b5c5bf28fb05db3822d57ee19f3306d9fba1b0d9ac1f5
   bytes: 103310
@@ -854,8 +857,8 @@ curated:
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
 - path: bsi/_status.yaml
-  sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
-  bytes: 59
+  sha256: 84d0a798aa802dcbfb930570ae87c0897196c9dcde30f6eaecf5ce9b30100dc9
+  bytes: 61
 - path: calconnect/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
@@ -863,14 +866,14 @@ curated:
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
 - path: cen_cenelec/_status.yaml
-  sha256: 5ade2c802106d6165bbc544d144e34c7a58da36e32035b156460a9de3b172005
-  bytes: 60
+  sha256: 27632963f1cf60b11da2abc4e7c8359d41d6a64b65a93903769bf71aacfe5963
+  bytes: 61
 - path: cie/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
 - path: csa/_status.yaml
-  sha256: f36abab99a9a4190f0240eaf219fa69b9813a963db0bde98c327fee2044c5349
-  bytes: 60
+  sha256: 8d77a4f11ce57cc44a6b8020d8012c6accecb42099483c13591c7aea974fef7e
+  bytes: 62
 - path: doi/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
@@ -899,8 +902,8 @@ curated:
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
 - path: ieee/_status.yaml
-  sha256: e7efa63bd2e20c946f493041677534b79b7ac14bb2dbd0d773cc395741f006dc
-  bytes: 62
+  sha256: 4377ecc8d79417a2a52d5f9a08611228e290292e927918023d3b100f385e3d11
+  bytes: 233
 - path: ietf/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59

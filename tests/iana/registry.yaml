@@ -2,7 +2,7 @@
 - id: iana.registry.0001
   identifier:
     _type: pubid:iana:registry
-    registry: _6lowpan-parameters
+    number: _6lowpan-parameters
   representations:
     human: IANA _6lowpan-parameters
     urn: urn:iana:_6lowpan-parameters
@@ -10,8 +10,8 @@
 - id: iana.registry.0002
   identifier:
     _type: pubid:iana:registry
-    registry: _6lowpan-parameters
     sub_registry: critical-6lowpan-routing-header-type
+    number: _6lowpan-parameters
   representations:
     human: IANA _6lowpan-parameters/critical-6lowpan-routing-header-type
     urn: urn:iana:_6lowpan-parameters:critical-6lowpan-routing-header-type
@@ -19,8 +19,8 @@
 - id: iana.registry.0003
   identifier:
     _type: pubid:iana:registry
-    registry: _6lowpan-parameters
     sub_registry: esc-extension-types
+    number: _6lowpan-parameters
   representations:
     human: IANA _6lowpan-parameters/esc-extension-types
     urn: urn:iana:_6lowpan-parameters:esc-extension-types
@@ -28,8 +28,8 @@
 - id: iana.registry.0004
   identifier:
     _type: pubid:iana:registry
-    registry: _6lowpan-parameters
     sub_registry: lowpan_nhc
+    number: _6lowpan-parameters
   representations:
     human: IANA _6lowpan-parameters/lowpan_nhc
     urn: urn:iana:_6lowpan-parameters:lowpan_nhc
@@ -37,7 +37,7 @@
 - id: iana.registry.0005
   identifier:
     _type: pubid:iana:registry
-    registry: _6tisch
+    number: _6tisch
   representations:
     human: IANA _6tisch
     urn: urn:iana:_6tisch
@@ -45,8 +45,8 @@
 - id: iana.registry.0006
   identifier:
     _type: pubid:iana:registry
-    registry: _6tisch
     sub_registry: _6tisch-6p-version-numbers
+    number: _6tisch
   representations:
     human: IANA _6tisch/_6tisch-6p-version-numbers
     urn: urn:iana:_6tisch:_6tisch-6p-version-numbers
@@ -54,8 +54,8 @@
 - id: iana.registry.0007
   identifier:
     _type: pubid:iana:registry
-    registry: _6tisch
     sub_registry: _6tisch-cojp-unsupported-configuration-codes
+    number: _6tisch
   representations:
     human: IANA _6tisch/_6tisch-cojp-unsupported-configuration-codes
     urn: urn:iana:_6tisch:_6tisch-cojp-unsupported-configuration-codes
@@ -63,7 +63,7 @@
 - id: iana.registry.0008
   identifier:
     _type: pubid:iana:registry
-    registry: calipso
+    number: calipso
   representations:
     human: IANA calipso
     urn: urn:iana:calipso
@@ -71,7 +71,7 @@
 - id: iana.registry.0009
   identifier:
     _type: pubid:iana:registry
-    registry: eap-sake-parameters
+    number: eap-sake-parameters
   representations:
     human: IANA eap-sake-parameters
     urn: urn:iana:eap-sake-parameters
@@ -79,7 +79,7 @@
 - id: iana.registry.0010
   identifier:
     _type: pubid:iana:registry
-    registry: eapsimaka-numbers
+    number: eapsimaka-numbers
   representations:
     human: IANA eapsimaka-numbers
     urn: urn:iana:eapsimaka-numbers
@@ -87,8 +87,8 @@
 - id: iana.registry.0011
   identifier:
     _type: pubid:iana:registry
-    registry: eapsimaka-numbers
     sub_registry: trusted-non-3gpp-access
+    number: eapsimaka-numbers
   representations:
     human: IANA eapsimaka-numbers/trusted-non-3gpp-access
     urn: urn:iana:eapsimaka-numbers:trusted-non-3gpp-access
@@ -96,7 +96,7 @@
 - id: iana.registry.0012
   identifier:
     _type: pubid:iana:registry
-    registry: ecml-parameters
+    number: ecml-parameters
   representations:
     human: IANA ecml-parameters
     urn: urn:iana:ecml-parameters
@@ -104,7 +104,7 @@
 - id: iana.registry.0013
   identifier:
     _type: pubid:iana:registry
-    registry: edhoc
+    number: edhoc
   representations:
     human: IANA edhoc
     urn: urn:iana:edhoc
@@ -112,8 +112,8 @@
 - id: iana.registry.0014
   identifier:
     _type: pubid:iana:registry
-    registry: edhoc
     sub_registry: edhoc-cipher-suites
+    number: edhoc
   representations:
     human: IANA edhoc/edhoc-cipher-suites
     urn: urn:iana:edhoc:edhoc-cipher-suites
@@ -121,8 +121,8 @@
 - id: iana.registry.0015
   identifier:
     _type: pubid:iana:registry
-    registry: idna-tables-11.0.0
     sub_registry: idna-tables-context
+    number: idna-tables-11.0.0
   representations:
     human: IANA idna-tables-11.0.0/idna-tables-context
     urn: urn:iana:idna-tables-11.0.0:idna-tables-context
@@ -130,8 +130,8 @@
 - id: iana.registry.0016
   identifier:
     _type: pubid:iana:registry
-    registry: idna-tables-6.2.0
     sub_registry: idna-tables-context
+    number: idna-tables-6.2.0
   representations:
     human: IANA idna-tables-6.2.0/idna-tables-context
     urn: urn:iana:idna-tables-6.2.0:idna-tables-context
@@ -139,7 +139,7 @@
 - id: iana.registry.0017
   identifier:
     _type: pubid:iana:registry
-    registry: idna-tables-9.0.0
+    number: idna-tables-9.0.0
   representations:
     human: IANA idna-tables-9.0.0
     urn: urn:iana:idna-tables-9.0.0
@@ -147,8 +147,8 @@
 - id: iana.registry.0018
   identifier:
     _type: pubid:iana:registry
-    registry: ieee-std-802.15.4-ietf-ie-subtype-ids
     sub_registry: ieee-std-802.15.4-ietf-ie-subtype-ids-1
+    number: ieee-std-802.15.4-ietf-ie-subtype-ids
   representations:
     human: IANA ieee-std-802.15.4-ietf-ie-subtype-ids/ieee-std-802.15.4-ietf-ie-subtype-ids-1
     urn: urn:iana:ieee-std-802.15.4-ietf-ie-subtype-ids:ieee-std-802.15.4-ietf-ie-subtype-ids-1
@@ -156,7 +156,7 @@
 - id: iana.registry.0019
   identifier:
     _type: pubid:iana:registry
-    registry: owamp-parameters
+    number: owamp-parameters
   representations:
     human: IANA owamp-parameters
     urn: urn:iana:owamp-parameters
@@ -164,7 +164,7 @@
 - id: iana.registry.0020
   identifier:
     _type: pubid:iana:registry
-    registry: rtspv2-parameters
+    number: rtspv2-parameters
   representations:
     human: IANA rtspv2-parameters
     urn: urn:iana:rtspv2-parameters
@@ -172,8 +172,8 @@
 - id: iana.registry.0021
   identifier:
     _type: pubid:iana:registry
-    registry: sip-parameters
     sub_registry: sip-parameters-13
+    number: sip-parameters
   representations:
     human: IANA sip-parameters/sip-parameters-13
     urn: urn:iana:sip-parameters:sip-parameters-13
@@ -181,8 +181,8 @@
 - id: iana.registry.0022
   identifier:
     _type: pubid:iana:registry
-    registry: smi-numbers
     sub_registry: smi-numbers-18
+    number: smi-numbers
   representations:
     human: IANA smi-numbers/smi-numbers-18
     urn: urn:iana:smi-numbers:smi-numbers-18
@@ -190,8 +190,8 @@
 - id: iana.registry.0023
   identifier:
     _type: pubid:iana:registry
-    registry: ssh-parameters
     sub_registry: ssh-parameters-20
+    number: ssh-parameters
   representations:
     human: IANA ssh-parameters/ssh-parameters-20
     urn: urn:iana:ssh-parameters:ssh-parameters-20
@@ -199,8 +199,8 @@
 - id: iana.registry.0024
   identifier:
     _type: pubid:iana:registry
-    registry: stamp-tlv-types
     sub_registry: stamp-synchronization-sources
+    number: stamp-tlv-types
   representations:
     human: IANA stamp-tlv-types/stamp-synchronization-sources
     urn: urn:iana:stamp-tlv-types:stamp-synchronization-sources
@@ -208,7 +208,7 @@
 - id: iana.registry.0025
   identifier:
     _type: pubid:iana:registry
-    registry: stun-parameters
+    number: stun-parameters
   representations:
     human: IANA stun-parameters
     urn: urn:iana:stun-parameters
@@ -216,8 +216,8 @@
 - id: iana.registry.0026
   identifier:
     _type: pubid:iana:registry
-    registry: suit
     sub_registry: suit-commands
+    number: suit
   representations:
     human: IANA suit/suit-commands
     urn: urn:iana:suit:suit-commands
@@ -225,7 +225,7 @@
 - id: iana.registry.0027
   identifier:
     _type: pubid:iana:registry
-    registry: tcp-header-flags
+    number: tcp-header-flags
   representations:
     human: IANA tcp-header-flags
     urn: urn:iana:tcp-header-flags
@@ -233,8 +233,8 @@
 - id: iana.registry.0028
   identifier:
     _type: pubid:iana:registry
-    registry: tcp-parameters
     sub_registry: tcp-parameters-1
+    number: tcp-parameters
   representations:
     human: IANA tcp-parameters/tcp-parameters-1
     urn: urn:iana:tcp-parameters:tcp-parameters-1
@@ -242,8 +242,8 @@
 - id: iana.registry.0029
   identifier:
     _type: pubid:iana:registry
-    registry: te-types
     sub_registry: rfc-4973-experimental-te-lsa-types
+    number: te-types
   representations:
     human: IANA te-types/rfc-4973-experimental-te-lsa-types
     urn: urn:iana:te-types:rfc-4973-experimental-te-lsa-types
@@ -251,8 +251,8 @@
 - id: iana.registry.0030
   identifier:
     _type: pubid:iana:registry
-    registry: teap-parameters
     sub_registry: status-codes
+    number: teap-parameters
   representations:
     human: IANA teap-parameters/status-codes
     urn: urn:iana:teap-parameters:status-codes
