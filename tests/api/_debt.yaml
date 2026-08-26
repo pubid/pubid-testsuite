@@ -6,13 +6,6 @@
       code: parse_failed
   notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [COMBINED_IDENTIFIER,
     MPMS_IDENTIFIER, TYPED_IDENTIFIER, TYPELESS_IDENTIFIER] at line 1 char 1.'
-- id: api.debt.debc18832198
-  input: https://www.apiwebstore.org/standards
-  expect:
-    error:
-      code: parse_failed
-  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [COMBINED_IDENTIFIER,
-    MPMS_IDENTIFIER, TYPED_IDENTIFIER, TYPELESS_IDENTIFIER] at line 1 char 1.'
 - id: api.debt.ceb2937c760b
   input: API COS 1-07/RP 75, 4th edition
   expect:

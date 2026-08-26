@@ -25,6 +25,7 @@ require "json"
 require "set"
 require "digest"
 require "fileutils"
+require_relative "fixture_line"
 begin
   require "json_schemer"
 rescue LoadError
@@ -76,26 +77,15 @@ module Exporter
   #   '!ORIGINAL!NORMALIZED' - each non-empty half is a candidate
   #   identifier (parsed halves become cases/aliases; unparsed halves
   #   debt with the decoded input - never the glued blob).
-  # Fixture line semantics (identical in tools/validate.rb):
-  # - '#' lines: comments (fail files wrap '#ID# Error...', data only
-  #   with a second '#').
-  # - '!' lines: fix/normalize directives '!RAW!FIXED' - the classifier's
-  #   pending update_codes. The FIXED half is the data line; the RAW=>FIXED
-  #   pair is exported to tests/{flavor}/_normalization.yaml.
-  def lines_from(path, _fail_format = false)
-    File.readlines(path).flat_map do |raw|
-      line = raw.strip
-      next [] if line.empty?
-      if line.start_with?("!")
-        fixed = line.split("!").map(&:strip).reject(&:empty?).last
-        fixed ? [fixed] : []
-      elsif line.start_with?("#")
-        next [] if line.split("#").size < 3
-        input = line.sub(/\A#/, "").split("#", 2).first.to_s.strip
-        input.empty? ? [] : [input]
-      else
-        [line]
-      end
+  # Fixture line semantics live in PubidTests::FixtureLine (shared with
+  # tools/validate.rb): '#' lines are comments in pass/full files; only
+  # fail files wrap data as '#ID# Error...'. '!' lines are fix/normalize
+  # directives '!RAW!FIXED'.
+  def lines_from(path)
+    category = File.basename(File.dirname(path)).to_sym
+    File.readlines(path).filter_map do |raw|
+      PubidTests::FixtureLine.new(raw, flavor: :unknown,
+                                  category: category).identifier
     end
   end
 
@@ -103,11 +93,8 @@ module Exporter
   def normalization_pairs(pass_files)
     pass_files.flat_map do |path|
       File.readlines(path).filter_map do |raw|
-        line = raw.strip
-        next unless line.start_with?("!")
-
-        halves = line.split("!").map(&:strip).reject(&:empty?)
-        { "from" => halves.first, "to" => halves.last } if halves.size == 2
+        PubidTests::FixtureLine.new(raw, flavor: :unknown,
+                                    category: :pass).normalization_pair
       end
     end
   end
@@ -180,7 +167,7 @@ module Exporter
     fail_files = roots.flat_map { |r| Dir[File.join(r, "fail", "*.txt")] }.uniq
     fail_files.each do |path|
       type = File.basename(path, ".txt")
-      lines_from(path, fail_format: true).each_with_index do |input, i|
+      lines_from(path).each_with_index do |input, i|
         stats[:negatives] += 1
         negatives << negative_case(mod, format("%s.neg.%s.%04d",
                                                flavor, type, i + 1), input)

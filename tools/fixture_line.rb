@@ -3,6 +3,12 @@
 module PubidTests
   # Domain model for one raw line from a reference-doc fixture file.
   # Decoding semantics live HERE and nowhere else.
+  #
+  # '#' lines are comments in pass/full files. Only fail files wrap
+  # data as '#ID# Error...' - there (and only there) the input between
+  # the first two '#' segments is data. Prose comments that merely
+  # contain a '#' (issue refs like pubid/pubid#152, method refs like
+  # Builder#split_draft_version) are comments, never data.
   class FixtureLine
     attr_reader :raw, :flavor, :category
 
@@ -17,7 +23,9 @@ module PubidTests
     end
 
     def comment?
-      raw.start_with?("#") && raw.split("#").size < 3
+      return false unless raw.start_with?("#")
+
+      wrapped_data? ? false : true
     end
 
     def directive?
@@ -46,6 +54,10 @@ module PubidTests
     end
 
     private
+
+    def wrapped_data?
+      category == :fail && raw.split("#").size >= 3
+    end
 
     def halves
       @halves ||= raw.split("!").map(&:strip).reject(&:empty?)
