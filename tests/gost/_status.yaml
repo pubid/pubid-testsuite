@@ -1,4 +1,12 @@
 ---
-clean: true
-known_mismatches: 0
+clean: false
+known_mismatches: 1
 known_schema_errors: 0
+notes: >-
+  Ledger: gost.harmonized.0018 (ГОСТ Р 58155-type adoption wrapping an
+  ASTM identifier) serializes its canonical hash nondeterministically
+  under full multi-flavor load - passes in isolation, diverges in whole
+  corpus runs. Root cause uncharacterized (suspected lutaml attribute
+  memoization sensitivity to GC/timing); PR-queue item, not a corpus
+  expectation error. 197 other cases are stable; flip back to clean
+  once the serialization bug is fixed.

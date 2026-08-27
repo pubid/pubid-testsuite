@@ -8,41 +8,54 @@ generator:
   exporter_sha256: f2a035b973c749ded88f7cf184dd49773b789e937fe3e02764c99f5b94d0e79a
 oracle:
   gem: pubid
-  commit: 190d69458373d507f04b0474f46de48f43e48f14
+  commit: 0ddbfd76d7ab2040109e5908c00b7ca5fa272659
   clean: false
   dirty_paths:
-  - spec/fixtures/cie/identifiers/full/conference.txt
+  - lib/pubid/conformance/corpus.rb
+  - lib/pubid/conformance/runner.rb
+  - spec/fixtures/easc/identifiers/pass/pmg.txt
+  - spec/fixtures/easc/identifiers/pass/rmg.txt
+  - spec/fixtures/easc/pmg.txt
+  - spec/fixtures/easc/rmg.txt
+  - spec/fixtures/gost/adoption-reference.txt
+  - spec/fixtures/gost/copublisher.txt
+  - spec/fixtures/gost/identical-adoption.txt
+  - spec/fixtures/gost/identifiers/pass/adoption-reference.txt
+  - spec/fixtures/gost/identifiers/pass/copublisher.txt
+  - spec/fixtures/gost/identifiers/pass/identical-adoption.txt
+  - spec/fixtures/gost/identifiers/pass/interstate-standard.txt
+  - spec/fixtures/gost/identifiers/pass/national-standard.txt
+  - spec/fixtures/gost/interstate-standard.txt
+  - spec/fixtures/gost/national-standard.txt
+  - spec/integration/ccsds_spec.rb
+  - spec/integration/etsi_spec.rb
+  - spec/integration/ieee_spec.rb
+  - spec/integration/iso_spec.rb
 repository:
-  commit: f1ab39e058f41ce61b7aa37e38b1bcc2da33ba33
+  commit: '0765079fa53f475c3057b66e19cb81542783a14c'
   clean: false
   dirty_paths:
-  - reference-docs/cie/identifiers/full/conference.txt
-  - reference-docs/ietf/identifiers/pass/bcp.txt
-  - reference-docs/ietf/identifiers/pass/fyi.txt
-  - reference-docs/ietf/identifiers/pass/rfc.txt
-  - reference-docs/ietf/identifiers/pass/std.txt
-  - tests/api/_debt.yaml
-  - tests/astm/_debt.yaml
-  - tests/bipm/_debt.yaml
-  - tests/bipm/mep.yaml
-  - tests/bipm/metrologia_article.yaml
-  - tests/bipm/si_brochure.yaml
-  - tests/iana/registry.yaml
-  - tests/ietf/bcp.yaml
-  - tests/ietf/fyi.yaml
-  - tests/ietf/internet_draft.yaml
-  - tests/ietf/rfc.yaml
-  - tests/ietf/std.yaml
-  - tests/itu/_debt.yaml
-  - tests/nist/_debt.yaml
-  - tools/export.rb
+  - reference-docs/easc/pmg.txt -> reference-docs/easc/identifiers/pass/pmg.txt
+  - reference-docs/easc/rmg.txt -> reference-docs/easc/identifiers/pass/rmg.txt
+  - reference-docs/gost/adoption-reference.txt -> reference-docs/gost/identifiers/pass/adoption-reference.txt
+  - reference-docs/gost/copublisher.txt -> reference-docs/gost/identifiers/pass/copublisher.txt
+  - reference-docs/gost/identical-adoption.txt -> reference-docs/gost/identifiers/pass/identical-adoption.txt
+  - reference-docs/gost/interstate-standard.txt -> reference-docs/gost/identifiers/pass/interstate-standard.txt
+  - reference-docs/gost/national-standard.txt -> reference-docs/gost/identifiers/pass/national-standard.txt
+  - tests/easc/pmg.yaml
+  - tests/easc/rmg.yaml
+  - tests/gost/_debt.yaml
+  - tests/gost/harmonized.yaml
+  - tests/gost/identical_adoption.yaml
+  - tests/gost/interstate_standard.yaml
+  - tests/gost/national_standard.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 40
-  payloads: 303
-  cases: 96555
-  aliases: 11193
+  payloads: 310
+  cases: 96920
+  aliases: 11392
   negatives: 1348
 payloads:
 - path: amca/_debt.yaml
@@ -357,6 +370,12 @@ payloads:
 - path: doi/resource.yaml
   sha256: 31d7941c4e1465fde00e1ab92469a9a222bce84a214bf35f59fb9ad766e97878
   bytes: 848
+- path: easc/pmg.yaml
+  sha256: 47cb7a8ca643373f23f783974a2f7dcfe618a84bb58358961b8f6c2f33d2d2da
+  bytes: 10990
+- path: easc/rmg.yaml
+  sha256: 7c292db89cc73660b2eb93de580eea9526a4de9a330cf7bce3288c6575e11699
+  bytes: 21958
 - path: ecma/memento.yaml
   sha256: 8215ae3fe6669ada9acceec5f9f0b848827e0d5ed375bc50a649223a22ff94bf
   bytes: 1534
@@ -384,6 +403,21 @@ payloads:
 - path: gb/standard.yaml
   sha256: 469bef14988dc66e35e2f7a95dbae42b5eed428e488803dfa0ea6cbfb80ed3bb
   bytes: 1665
+- path: gost/_debt.yaml
+  sha256: 875e5df494632036b9db12887cafeb66f92812876a992ccdd19ff6eb6d73a8ba
+  bytes: 284
+- path: gost/harmonized.yaml
+  sha256: 9e22655fe291b75579c835682e6efc098a10e342143e5eee50a683598290cf40
+  bytes: 23286
+- path: gost/identical_adoption.yaml
+  sha256: 1c54edb105f4af2f30ebbc7861f134cf3b37bbfc7372fd9c4c5949d302cd1cff
+  bytes: 5453
+- path: gost/interstate_standard.yaml
+  sha256: 57de68b23191350729acf0bec8a1f0ed290656522785388efd26d8fefe37cdbf
+  bytes: 29171
+- path: gost/national_standard.yaml
+  sha256: 0aeb19fb44c24beca6502891652f06a3182217d8806ee8672278cbcbefd8d4f8
+  bytes: 14632
 - path: iana/_negative.yaml
   sha256: d0f6e1bc8d7e6e674e360fe6e9132c015d1c3bf69605a7ae052f0888443db595
   bytes: 486
