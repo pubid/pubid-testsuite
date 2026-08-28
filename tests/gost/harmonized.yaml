@@ -564,6 +564,46 @@
 - id: gost.harmonized.0080
   identifier:
     _type: pubid:gost:harmonized
+    number: '35292'
+    year: '2025'
+    base:
+      _type: pubid:gost:interstate-standard
+      number: '35292'
+      year: '2025'
+    adopted_identifiers:
+    - _type: pubid:cencenelec:consolidated-identifier
+      number: '14988'
+      publisher:
+      - EN
+      year: 2017
+      identifiers:
+      - _type: pubid:cencenelec:european-norm
+        number:
+          value: '14988'
+        date:
+          year: '2017'
+      - _type: pubid:cencenelec:amendment
+        publisher:
+        - EN
+        base:
+          _type: pubid:cencenelec:european-norm
+          number:
+            value: '14988'
+          date:
+            year: '2017'
+        amendment_number: '1'
+        amendment_year: 2020
+  representations:
+    human: GOST 35292-2025 (EN 14988:2017+A1:2020)
+    urn: urn:gost:std:35292:2025
+  roundtrip: false
+  style: v3
+  non_normalized_aliases:
+  - spelling: ГОСТ 35292-2025 (EN 14988:2017+A1:2020)
+    style: v3
+- id: gost.harmonized.0081
+  identifier:
+    _type: pubid:gost:harmonized
     number: '35293'
     year: '2025'
     base:
@@ -583,7 +623,7 @@
   non_normalized_aliases:
   - spelling: ГОСТ 35293-2025 (EN 12227:2010)
     style: v3
-- id: gost.harmonized.0081
+- id: gost.harmonized.0082
   identifier:
     _type: pubid:gost:harmonized
     number: '35294.2'
@@ -603,7 +643,7 @@
   non_normalized_aliases:
   - spelling: 'ГОСТ 35294.2-2025 (ISO 8124-2: 2023)'
     style: v3
-- id: gost.harmonized.0082
+- id: gost.harmonized.0083
   identifier:
     _type: pubid:gost:harmonized
     number: '35298'
@@ -623,7 +663,7 @@
   non_normalized_aliases:
   - spelling: ГОСТ 35298-2025 (ISO 23767:2021)
     style: v3
-- id: gost.harmonized.0083
+- id: gost.harmonized.0084
   identifier:
     _type: pubid:gost:harmonized
     number: '35302'
@@ -647,7 +687,7 @@
   non_normalized_aliases:
   - spelling: ГОСТ 35302-2025 (EN 14315-1:2013)
     style: v3
-- id: gost.harmonized.0085
+- id: gost.harmonized.0086
   identifier:
     _type: pubid:gost:harmonized
     number: '35306.10'
@@ -671,7 +711,7 @@
   non_normalized_aliases:
   - spelling: ГОСТ 35306.10-2025 (EN 71-10:2005)
     style: v3
-- id: gost.harmonized.0086
+- id: gost.harmonized.0087
   identifier:
     _type: pubid:gost:harmonized
     number: '35306.11'
@@ -695,7 +735,7 @@
   non_normalized_aliases:
   - spelling: ГОСТ 35306.11-2025 (EN 71-11:2005)
     style: v3
-- id: gost.harmonized.0087
+- id: gost.harmonized.0088
   identifier:
     _type: pubid:gost:harmonized
     number: '35307.1'
@@ -719,7 +759,7 @@
   non_normalized_aliases:
   - spelling: ГОСТ 35307.1-2025 (EN 50332-1:2013)
     style: v3
-- id: gost.harmonized.0088
+- id: gost.harmonized.0089
   identifier:
     _type: pubid:gost:harmonized
     number: '35311.1'
@@ -743,7 +783,7 @@
   non_normalized_aliases:
   - spelling: ГОСТ 35311.1-2025 (EN 1129-1:1995)
     style: v3
-- id: gost.harmonized.0089
+- id: gost.harmonized.0090
   identifier:
     _type: pubid:gost:harmonized
     number: '35311.2'
@@ -767,7 +807,7 @@
   non_normalized_aliases:
   - spelling: ГОСТ 35311.2-2025 (EN 1129-2:1995)
     style: v3
-- id: gost.harmonized.0094
+- id: gost.harmonized.0095
   identifier:
     _type: pubid:gost:harmonized
     number: '6032'
@@ -786,7 +826,7 @@
   non_normalized_aliases:
   - spelling: ГОСТ 6032 (ISO 3651-1:1998)
     style: v3
-- id: gost.harmonized.0095
+- id: gost.harmonized.0096
   identifier:
     _type: pubid:gost:harmonized
     number: '6829'
@@ -804,7 +844,7 @@
   non_normalized_aliases:
   - spelling: ГОСТ 6829-2015 (UNECE STANDARD FFV-57:2010)
     style: v3
-- id: gost.harmonized.0097
+- id: gost.harmonized.0098
   identifier:
     _type: pubid:gost:harmonized
     number: '6996'
@@ -822,7 +862,7 @@
   non_normalized_aliases:
   - spelling: ГОСТ 6996 (ИСО 4136-89)
     style: v3
-- id: gost.harmonized.0099
+- id: gost.harmonized.0100
   identifier:
     _type: pubid:gost:harmonized
     number: '7177'
@@ -840,7 +880,7 @@
   non_normalized_aliases:
   - spelling: ГОСТ 7177-2015 (UNECE STANDARD FFV-37:2012)
     style: v3
-- id: gost.harmonized.0100
+- id: gost.harmonized.0101
   identifier:
     _type: pubid:gost:harmonized
     number: '7178'
@@ -858,7 +898,7 @@
   non_normalized_aliases:
   - spelling: ГОСТ 7178-2015 (UNECE STANDARD FFV-23:2012)
     style: v3
-- id: gost.harmonized.0103
+- id: gost.harmonized.0104
   identifier:
     _type: pubid:gost:harmonized
     number: '7967'
@@ -876,7 +916,7 @@
   non_normalized_aliases:
   - spelling: ГОСТ 7967-2015 (UNECE STANDARD FFV-09:2012)
     style: v3
-- id: gost.harmonized.0107
+- id: gost.harmonized.0108
   identifier:
     _type: pubid:gost:harmonized
     number: '8929'

@@ -1,4 +1,11 @@
 ---
-clean: true
-known_mismatches: 0
+clean: false
+known_mismatches: 1
 known_schema_errors: 0
+notes: >-
+  Ledger: gost.harmonized.0080 (GOST 35292-2025 (EN 14988:2017+A1:2020))
+  parses and serializes (PR-I fixed: cen ConsolidatedIdentifier member
+  widening + parts nil-safety) but from_hash raises
+  Lutaml::Model::InvalidFormatError on the nested adopted consolidated
+  id - deserialize path only, PR-queue item. The remaining 198 cases
+  pass. Flip to clean once from_hash handles the nesting.

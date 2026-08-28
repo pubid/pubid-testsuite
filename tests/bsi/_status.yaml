@@ -1,4 +1,13 @@
 ---
 clean: false
-known_mismatches: 20
+known_mismatches: 0
 known_schema_errors: 0
+notes: >-
+  Ledger (2026-08-28): the 20 adopted_european_norm pending markers were
+  removed - all satisfied by the cen_cenelec member-type widening
+  (pubid ssot branch). NOT flipped clean: 42 addendum_document cases
+  (double-space "Addendum No.  1" forms) parse in the conformance
+  runner's process but fail under rspec's load order - the parse
+  outcome is process-shape dependent (systemic load-order instability,
+  PR-queue top item). Flip to clean once parse/serialize is
+  registration-order independent.

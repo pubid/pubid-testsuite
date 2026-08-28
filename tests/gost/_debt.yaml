@@ -1,8 +1,0 @@
----
-- id: gost.debt.f1c846f64811
-  input: ГОСТ 35292-2025 (EN 14988:2017+A1:2020)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: NoMethodError: undefined method ''parts''
-    for an instance of Pubid::CenCenelec::Identifiers::EuropeanNorm'

@@ -90,6 +90,20 @@ module Exporter
   end
 
   # Pending normalization rules '!RAW!FIXED' from the raw fixtures.
+  # review flags are curated (contract-linked, e.g. tests/_contracts.yaml
+  # C1); the regenerator carries them across by canonical human form.
+  def preserved_reviews(out)
+    Dir[File.join(out, "*.yaml")].flat_map do |path|
+      next [] if File.basename(path).start_with?("_")
+
+      Array(YAML.safe_load_file(path)).filter_map do |doc|
+        next if doc.is_a?(String) || doc["review"].to_s.empty?
+
+        [doc.dig("representations", "human"), doc["review"]]
+      end
+    end.to_h
+  end
+
   def normalization_pairs(pass_files)
     pass_files.flat_map do |path|
       File.readlines(path).filter_map do |raw|
@@ -113,6 +127,10 @@ module Exporter
 
     out = File.join(REPO, "tests", flavor)
     FileUtils.mkdir_p(out)
+    # Curated review flags are contract-linked and hand-applied; harvest
+    # them (keyed by canonical human form, stable where sequence ids are
+    # not) before the full-regeneration cleanup deletes the old payloads.
+    review_map = preserved_reviews(out)
     # Full-regeneration semantics: stale files from earlier formats must
     # not survive beside fresh ones.
     # _status.yaml is curated ledger state, not generated output - never delete it
@@ -151,7 +169,7 @@ module Exporter
         (groups[key] ||= { "record" => record, "inputs" => [] })["inputs"] << input
       end
     end
-    cases = finalize(groups, flavor, nil, stats)
+    cases = finalize(groups, flavor, nil, stats, review_map)
     by_type = Hash.new { |h, k| h[k] = [] }
     cases.each { |c| by_type[type_of(c)] << c }
     by_type.each do |type, type_cases|
@@ -249,13 +267,14 @@ module Exporter
     "misc"
   end
 
-  def finalize(groups, flavor, _type, stats)
+  def finalize(groups, flavor, _type, stats, review_map = {})
     groups.values.sort_by { |g| g["record"]["representations"]["human"] }
           .each_with_index.map do |group, index|
       record = group["record"]
       canonical = record["representations"]["human"]
       record["id"] = format("%s.%s.%04d", flavor, type_of(record), index + 1)
       record["style"] = style_for(canonical) if record["identifier"]
+      record["review"] = review_map[canonical] if review_map.key?(canonical)
       inputs = group["inputs"]
       stats[:duplicates] += [inputs.count(canonical) - 1, 0].max
       stats[:phantom] += 1 unless inputs.include?(canonical)
