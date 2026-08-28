@@ -1,0 +1,25 @@
+---
+- id: nist.debt.7fd9719c983a
+  input: NBS.CIRCe2
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CIRC_SUPPLEMENT_IDENTIFIER,
+    DATED_IDENTIFIER, MR_IDENTIFIER, RESEARCH_LIBRARY_IDENTIFIER, COMPOUND_SERIES
+    (SPACE / DOT) OLD_STAGE? REPORT_NUMBER? FIPS_DATE? PARTS{0, } DRAFT? TRANSLAT'
+- id: nist.debt.5cfe44b989db
+  input: NBS.CIRC
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CIRC_SUPPLEMENT_IDENTIFIER,
+    DATED_IDENTIFIER, MR_IDENTIFIER, RESEARCH_LIBRARY_IDENTIFIER, COMPOUND_SERIES
+    (SPACE / DOT) OLD_STAGE? REPORT_NUMBER? FIPS_DATE? PARTS{0, } DRAFT? TRANSLAT'
+- id: nist.debt.747af497a2c1
+  input: NBS.TN.467pt1.Add.
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [CIRC_SUPPLEMENT_IDENTIFIER,
+    DATED_IDENTIFIER, MR_IDENTIFIER, RESEARCH_LIBRARY_IDENTIFIER, COMPOUND_SERIES
+    (SPACE / DOT) OLD_STAGE? REPORT_NUMBER? FIPS_DATE? PARTS{0, } DRAFT? TRANSLAT'

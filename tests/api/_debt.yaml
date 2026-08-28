@@ -1,0 +1,15 @@
+---
+- id: api.debt.c8e5998f6a39
+  input: API
+  expect:
+    error:
+      code: parse_failed
+  notes: 'unparsed ground-truth fixture: Parslet::ParseFailed: Expected one of [COMBINED_IDENTIFIER,
+    MPMS_IDENTIFIER, TYPED_IDENTIFIER, TYPELESS_IDENTIFIER] at line 1 char 1.'
+- id: api.debt.ceb2937c760b
+  input: API COS 1-07/RP 75, 4th edition
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
+    ''number'' value is a ''Parslet::Slice'' but should be a ''Pubid::Components::Code'''

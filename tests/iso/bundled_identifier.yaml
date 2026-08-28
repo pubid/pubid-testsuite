@@ -1,0 +1,38 @@
+---
+- id: iso.bundled_identifier.6816
+  identifier:
+    _type: pubid:iso:bundled-identifier
+    base:
+      _type: pubid:iso:directives
+      number: '1'
+      copublishers:
+      - IEC
+    supplements:
+    - _type: pubid:iso:directives-supplement
+      year: '2016'
+      month: '05'
+      publisher: IEC
+  representations:
+    human: ISO/IEC DIR 1 + IEC SUP:2016-05
+    urn: urn:iso:doc:iso-iec:dir:1:iec:sup:2016
+  style: v3
+- id: iso.bundled_identifier.6822
+  identifier:
+    _type: pubid:iso:bundled-identifier
+    base:
+      _type: pubid:iso:directives
+      number: '1'
+      year: '2022'
+      copublishers:
+      - IEC
+    supplements:
+    - _type: pubid:iso:directives-supplement
+      year: '2022'
+      publisher: IEC
+  representations:
+    human: ISO/IEC DIR 1:2022 + IEC SUP:2022
+    urn: urn:iso:doc:iso-iec:dir:1:2022:iec:sup:2022
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC Directives, Part 1:2022 + IEC Supplement:2022
+    style: v3

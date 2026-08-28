@@ -1,0 +1,75 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://pubid.com/tests/case-1.0.0.yaml
+title: pubid-tests corpus case
+description: >-
+  One case in the language-independent test library. Canonical cases carry
+  the reference implementation's own canonical serialization as a plain
+  mapping (identifier), every proper rendering (representations), and old
+  spellings once (non_normalized_aliases). Debt and negative records carry
+  neutral error codes - never implementation class names.
+type: object
+required: [id]
+additionalProperties: false
+properties:
+  id:
+    type: string
+    pattern: '^[a-z0-9][a-z0-9._-]*$'
+  style:
+    enum: [v1, v2, v3]
+  identifier:
+    type: object
+    properties:
+      _type:
+        type: string
+        pattern: '^pubid:[a-z0-9_]+:[a-z0-9_-]+$'
+    additionalProperties: true
+  representations:
+    type: object
+    required: [human]
+    additionalProperties: false
+    properties:
+      human:
+        type: string
+        maxLength: 1000
+      urn:
+        type: string
+  non_normalized_aliases:
+    type: array
+    items:
+      type: object
+      required: [spelling, style]
+      additionalProperties: false
+      properties:
+        spelling:
+          type: string
+        style:
+          enum: [v1, v2, v3]
+  roundtrip:
+    const: false
+  expect:
+    type: object
+    required: [error]
+    additionalProperties: false
+    properties:
+      error:
+        type: object
+        required: [code]
+        additionalProperties: false
+        properties:
+          code:
+            enum: [parse_failed, invalid_argument, unclassified]
+  input:
+    type: string
+    maxLength: 1000
+  notes:
+    type: string
+  review:
+    type: string
+    description: >-
+      The expectation itself is uncertain; flagged for human verification.
+      Implementations report it in the review quadrant and never gate on
+      it. Resolution is recorded in tests/_contracts.yaml.
+anyOf:
+  - required: [identifier, representations]
+  - required: [expect]
+  - required: [notes]

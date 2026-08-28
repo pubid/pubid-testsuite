@@ -1,0 +1,11 @@
+---
+- id: iso.neg.international_standard.0001
+  input: EN 12643:2014
+  expect:
+    error:
+      code: parse_failed
+- id: iso.neg.technical_specification.0001
+  input: CEN/TS 15370-1:2006
+  expect:
+    error:
+      code: parse_failed

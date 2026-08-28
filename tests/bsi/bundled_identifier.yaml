@@ -1,0 +1,600 @@
+---
+- id: bsi.bundled_identifier.0063
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '1580'
+    - _type: pubid:bsi:identifier
+      number:
+        value: '1580'
+      part:
+        value: '1'
+    - _type: pubid:bsi:identifier
+      number:
+        value: '1580'
+      part:
+        value: '2'
+    common_year:
+      year: '1962'
+    bundle_type: Parts
+  representations:
+    human: BS 1580:Parts 1 and 2:1962
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.bundled_identifier.0121
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '2316'
+    - _type: pubid:bsi:identifier
+      number:
+        value: '2316'
+      part:
+        value: '1'
+    - _type: pubid:bsi:identifier
+      number:
+        value: '2316'
+      part:
+        value: '2'
+    common_year:
+      year: '1968'
+    bundle_type: Parts
+  representations:
+    human: BS 2316:Parts 1 and 2:1968
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.bundled_identifier.0125
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '2521'
+    - _type: pubid:bsi:identifier
+      number:
+        value: '2523'
+    separators:
+    - " and "
+    common_year:
+      year: '1966'
+  representations:
+    human: BS 2521 and 2523:1966
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.bundled_identifier.0126
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '2521'
+    - _type: pubid:bsi:identifier
+      number:
+        value: '2522'
+    - _type: pubid:bsi:identifier
+      number:
+        value: '2523'
+    - _type: pubid:bsi:identifier
+      number:
+        value: '2524'
+    separators:
+    - ","
+    - ","
+    - " and "
+    common_year:
+      year: '1954'
+  representations:
+    human: BS 2521,2522,2523 and 2524:1954
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.bundled_identifier.0128
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '2637'
+    - _type: pubid:bsi:identifier
+      number:
+        value: '2638'
+    separators:
+    - " and "
+    common_year:
+      year: '1956'
+  representations:
+    human: BS 2637 and 2638:1956
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.bundled_identifier.0217
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '68'
+      prefix: 2SP
+    - _type: pubid:bsi:identifier
+      number:
+        value: '71'
+      prefix: 2SP
+      explicit_prefix: true
+      explicit_publisher: true
+    separators:
+    - " to "
+    common_year:
+      year: '1973'
+  representations:
+    human: BS 2SP 68 to BS 2SP 71:1973
+    urn: urn:bsi:bs
+  roundtrip: false
+  style: v3
+- id: bsi.bundled_identifier.0246
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '3382'
+    - _type: pubid:bsi:identifier
+      number:
+        value: '3382'
+      part:
+        value: '1'
+    - _type: pubid:bsi:identifier
+      number:
+        value: '3382'
+      part:
+        value: '2'
+    common_year:
+      year: '1961'
+    bundle_type: Parts
+  representations:
+    human: BS 3382:Parts 1 and 2:1961
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.bundled_identifier.0362
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '4048'
+    - _type: pubid:bsi:identifier
+      number:
+        value: '4048'
+      part:
+        value: '1'
+    - _type: pubid:bsi:identifier
+      number:
+        value: '4048'
+      part:
+        value: '2'
+    common_year:
+      year: '1966'
+    bundle_type: Parts
+  representations:
+    human: BS 4048:Parts 1 and 2:1966
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.bundled_identifier.0514
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '558'
+    - _type: pubid:bsi:identifier
+      number:
+        value: '564'
+    separators:
+    - " and "
+    common_year:
+      year: '1970'
+  representations:
+    human: BS 558 and 564:1970
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.bundled_identifier.0569
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '9070'
+    - _type: pubid:bsi:identifier
+      number:
+        value: '9070'
+      part:
+        value: '1'
+    - _type: pubid:bsi:identifier
+      number:
+        value: '9070'
+      part:
+        value: '2'
+    common_year:
+      year: '1969'
+    bundle_type: Sections
+  representations:
+    human: BS 9070:Sections 1 and 2:1969
+    urn: urn:bsi:bs
+  style: v3
+- id: bsi.bundled_identifier.0572
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '9113'
+      part:
+        value: N001
+      space_separated_part: true
+    - _type: pubid:bsi:identifier
+      number:
+        value: '004'
+    separators:
+    - " to "
+    common_year:
+      year: '1973'
+  representations:
+    human: BS 9113 N001 to 004:1973
+    urn: urn:bsi:bs
+  roundtrip: false
+  style: v3
+- id: bsi.bundled_identifier.0574
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '9131'
+      part:
+        value: N001
+      space_separated_part: true
+    - _type: pubid:bsi:identifier
+      number:
+        value: '016'
+    separators:
+    - " to "
+    common_year:
+      year: '1974'
+  representations:
+    human: BS 9131 N001 to 016:1974
+    urn: urn:bsi:bs
+  roundtrip: false
+  style: v3
+- id: bsi.bundled_identifier.0777
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '10'
+      prefix: SP
+    - _type: pubid:bsi:identifier
+      number:
+        value: '11'
+      prefix: SP
+    separators:
+    - " & "
+    common_year:
+      year: '1949'
+  representations:
+    human: BS SP 10 & 11:1949
+    urn: urn:bsi:bs
+  roundtrip: false
+  style: v3
+- id: bsi.bundled_identifier.0781
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '115'
+      prefix: SP
+    - _type: pubid:bsi:identifier
+      number:
+        value: '117'
+      prefix: SP
+    separators:
+    - " to "
+    common_year:
+      year: '1956'
+  representations:
+    human: BS SP 115 to 117:1956
+    urn: urn:bsi:bs
+  roundtrip: false
+  style: v3
+- id: bsi.bundled_identifier.0784
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '122'
+      prefix: SP
+    - _type: pubid:bsi:identifier
+      number:
+        value: '125'
+      prefix: SP
+    separators:
+    - " TO "
+    common_year:
+      year: '2016'
+  representations:
+    human: BS SP 122 TO 125:2016
+    urn: urn:bsi:bs
+  roundtrip: false
+  style: v3
+- id: bsi.bundled_identifier.0785
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '122'
+      prefix: SP
+    - _type: pubid:bsi:identifier
+      number:
+        value: '125'
+      prefix: SP
+    separators:
+    - " to "
+    common_year:
+      year: '1958'
+  representations:
+    human: BS SP 122 to 125:1958
+    urn: urn:bsi:bs
+  roundtrip: false
+  style: v3
+- id: bsi.bundled_identifier.0786
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '126'
+      prefix: SP
+    - _type: pubid:bsi:identifier
+      number:
+        value: '127'
+      prefix: SP
+    separators:
+    - " & "
+    common_year:
+      year: '1959'
+  representations:
+    human: BS SP 126 & 127:1959
+    urn: urn:bsi:bs
+  roundtrip: false
+  style: v3
+- id: bsi.bundled_identifier.0787
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '134'
+      prefix: SP
+    - _type: pubid:bsi:identifier
+      number:
+        value: '138'
+      prefix: SP
+      explicit_prefix: true
+    separators:
+    - " to "
+    common_year:
+      year: '1968'
+  representations:
+    human: BS SP 134 to SP 138:1968
+    urn: urn:bsi:bs
+  roundtrip: false
+  style: v3
+- id: bsi.bundled_identifier.0788
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '139'
+      prefix: SP
+    - _type: pubid:bsi:identifier
+      number:
+        value: '140'
+      prefix: SP
+      explicit_prefix: true
+    separators:
+    - " and "
+    common_year:
+      year: '1969'
+  representations:
+    human: BS SP 139 and SP 140:1969
+    urn: urn:bsi:bs
+  roundtrip: false
+  style: v3
+- id: bsi.bundled_identifier.0789
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '13'
+      prefix: SP
+    - _type: pubid:bsi:identifier
+      number:
+        value: '14'
+      prefix: SP
+    - _type: pubid:bsi:identifier
+      number:
+        value: '15'
+      prefix: SP
+    - _type: pubid:bsi:identifier
+      number:
+        value: '16'
+      prefix: SP
+    separators:
+    - "; "
+    - "; "
+    - " and "
+    common_year:
+      year: '1949'
+  representations:
+    human: BS SP 13; 14; 15 and 16:1949
+    urn: urn:bsi:bs
+  roundtrip: false
+  style: v3
+- id: bsi.bundled_identifier.0794
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '28'
+      prefix: SP
+    - _type: pubid:bsi:identifier
+      number:
+        value: '29'
+      prefix: SP
+    separators:
+    - " and "
+    common_year:
+      year: '1951'
+  representations:
+    human: BS SP 28 and 29:1951
+    urn: urn:bsi:bs
+  roundtrip: false
+  style: v3
+- id: bsi.bundled_identifier.0797
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '49'
+      prefix: SP
+    - _type: pubid:bsi:identifier
+      number:
+        value: '50'
+      prefix: SP
+      explicit_prefix: true
+      explicit_publisher: true
+    separators:
+    - " and "
+    common_year:
+      year: '1953'
+  representations:
+    human: BS SP 49 and BS SP 50:1953
+    urn: urn:bsi:bs
+  roundtrip: false
+  style: v3
+- id: bsi.bundled_identifier.0798
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '51'
+      prefix: SP
+    - _type: pubid:bsi:identifier
+      number:
+        value: '52'
+      prefix: SP
+    separators:
+    - " and "
+    common_year:
+      year: '1953'
+  representations:
+    human: BS SP 51 and 52:1953
+    urn: urn:bsi:bs
+  roundtrip: false
+  style: v3
+- id: bsi.bundled_identifier.0799
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '55'
+      prefix: SP
+    - _type: pubid:bsi:identifier
+      number:
+        value: '56'
+      prefix: SP
+      explicit_prefix: true
+    separators:
+    - " and "
+    common_year:
+      year: '1953'
+  representations:
+    human: BS SP 55 and SP 56:1953
+    urn: urn:bsi:bs
+  roundtrip: false
+  style: v3
+- id: bsi.bundled_identifier.0800
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '57'
+      prefix: SP
+    - _type: pubid:bsi:identifier
+      number:
+        value: '58'
+      prefix: SP
+    separators:
+    - " and "
+    common_year:
+      year: '1955'
+  representations:
+    human: BS SP 57 and 58:1955
+    urn: urn:bsi:bs
+  roundtrip: false
+  style: v3
+- id: bsi.bundled_identifier.0801
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '59'
+      prefix: SP
+    - _type: pubid:bsi:identifier
+      number:
+        value: '60'
+      prefix: SP
+      explicit_prefix: true
+    separators:
+    - " and "
+    common_year:
+      year: '1955'
+  representations:
+    human: BS SP 59 and SP 60:1955
+    urn: urn:bsi:bs
+  roundtrip: false
+  style: v3
+- id: bsi.bundled_identifier.0803
+  identifier:
+    _type: pubid:bsi:bundled-identifier
+    identifiers:
+    - _type: pubid:bsi:identifier
+      number:
+        value: '66'
+      prefix: SP
+    - _type: pubid:bsi:identifier
+      number:
+        value: '67'
+      prefix: SP
+      explicit_prefix: true
+    separators:
+    - " and "
+    common_year:
+      year: '1955'
+  representations:
+    human: BS SP 66 and SP 67:1955
+    urn: urn:bsi:bs
+  roundtrip: false
+  style: v3

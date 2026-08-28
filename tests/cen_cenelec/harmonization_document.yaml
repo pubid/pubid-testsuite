@@ -1,0 +1,29 @@
+---
+- id: cen_cenelec.harmonization_document.0065
+  identifier:
+    _type: pubid:cencenelec:harmonization-document
+    number:
+      value: '60269'
+    part:
+      value: '3'
+    publisher:
+      body: HD
+  representations:
+    human: HD 60269-3
+    urn: urn:cen:hd:60269-3
+  roundtrip: false
+  style: v3
+- id: cen_cenelec.harmonization_document.0066
+  identifier:
+    _type: pubid:cencenelec:harmonization-document
+    number:
+      value: '60364'
+    part:
+      value: 7-725
+    publisher:
+      body: HD
+  representations:
+    human: HD 60364-7-725
+    urn: urn:cen:hd:60364-7-725
+  roundtrip: false
+  style: v3

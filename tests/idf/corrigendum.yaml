@@ -1,0 +1,61 @@
+---
+- id: idf.corrigendum.0008
+  identifier:
+    _type: pubid:idf:corrigendum
+    number:
+      value: '1'
+    date:
+      year: '2009'
+    type:
+      name: Corrigendum
+      abbr: COR
+      type_code: cor
+    stage:
+      name: Corrigendum
+      stage_code: published
+      abbr: COR
+    typed_stage:
+      name: Corrigendum
+      code: published
+      type_code: cor
+      stage_code: published
+      abbr:
+      - COR
+      short_abbr: COR
+      long_abbr: COR
+    base:
+      _type: pubid:idf:international-standard
+      number:
+        value: '148'
+      part:
+        value: '1'
+      date:
+        year: '2008'
+      publisher:
+        body: IDF
+      type:
+        name: International Standard
+        type_code: is
+      stage:
+        name: International Standard
+        stage_code: published
+        harmonized_stages:
+        - '60.00'
+        - '60.60'
+      typed_stage:
+        name: International Standard
+        code: is
+        type_code: is
+        stage_code: published
+        abbr:
+        - ''
+        harmonized_stages:
+        - '60.00'
+        - '60.60'
+  representations:
+    human: IDF 148-1:2008/COR 1:2009
+    urn: urn:idf:1:2009:cor:cor:1
+  style: v3
+  non_normalized_aliases:
+  - spelling: IDF 148-1:2008 / COR 1:2009
+    style: v3

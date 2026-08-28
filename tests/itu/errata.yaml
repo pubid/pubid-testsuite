@@ -1,0 +1,55 @@
+---
+- id: itu.errata.2298
+  identifier:
+    _type: pubid:itu:errata
+    number: '1'
+    year: '2003'
+    month: '07'
+    base:
+      _type: pubid:itu:annex-of-recommendation
+      number: B
+      year: '2002'
+      base:
+        _type: pubid:itu:recommendation
+        sector: T
+        series: G
+        number: '722'
+        subseries: '2'
+  representations:
+    human: ITU-T G.722.2 Annex B (2002) Err. 1 (07/2003)
+    urn: urn:itu:t:G.722.2:annex:b:2002:1:07/2003
+  style: v3
+- id: itu.errata.2342
+  identifier:
+    _type: pubid:itu:errata
+    number: '1'
+    year: '2011'
+    month: '12'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: IMPL
+      number: '8'
+      series_dash: true
+      year: '2010'
+  representations:
+    human: ITU-T IMPL-8 (2010) Err. 1 (12/2011)
+    urn: urn:itu:t:IMPL-8:2010:1:12/2011
+  style: v3
+- id: itu.errata.2470
+  identifier:
+    _type: pubid:itu:errata
+    number: '1'
+    year: '2012'
+    month: '07'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: QOS
+      number: '2'
+      series_dash: true
+      year: '2011'
+  representations:
+    human: ITU-T QOS-2 (2011) Err. 1 (07/2012)
+    urn: urn:itu:t:QOS-2:2011:1:07/2012
+  style: v3

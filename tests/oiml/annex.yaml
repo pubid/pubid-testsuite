@@ -1,0 +1,39 @@
+---
+- id: oiml.annex.0042
+  identifier:
+    _type: pubid:oiml:annex
+    language: E
+    base:
+      _type: pubid:oiml:recommendation
+      publisher: OIML
+      number: '60'
+    year: '2013'
+    letter: A
+  representations:
+    human: OIML R 60 Annex A Edition 2013 (E)
+  style: v3
+- id: oiml.annex.0043
+  identifier:
+    _type: pubid:oiml:annex
+    language: E
+    parsed_format: long
+    base:
+      _type: pubid:oiml:recommendation
+      publisher: OIML
+      number: '60'
+    year: '2021'
+  representations:
+    human: OIML R 60 Annexes Edition 2021 (E)
+  style: v3
+- id: oiml.annex.0044
+  identifier:
+    _type: pubid:oiml:annex
+    language: E
+    base:
+      _type: pubid:oiml:recommendation
+      publisher: OIML
+      number: '60'
+    year: '2021'
+  representations:
+    human: OIML R 60 Annexes:2021 (E)
+  style: v3

@@ -1,0 +1,217 @@
+---
+- id: itu.annex_of_recommendation.2114
+  identifier:
+    _type: pubid:itu:annex-of-recommendation
+    number: A
+    year: '2014'
+    month: '06'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: A
+      number: '23'
+  representations:
+    human: ITU-T A.23 Annex A (06/2014)
+    urn: urn:itu:t:A.23:annex:a:06/2014
+  style: v3
+- id: itu.annex_of_recommendation.2288
+  identifier:
+    _type: pubid:itu:annex-of-recommendation
+    number: A
+    year: '1999'
+    month: '09'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: G
+      number: '711'
+  representations:
+    human: ITU-T G.711 Annex A (09/1999)
+    urn: urn:itu:t:G.711:annex:a:09/1999
+  style: v3
+- id: itu.annex_of_recommendation.2291
+  identifier:
+    _type: pubid:itu:annex-of-recommendation
+    number: A
+    year: '1993'
+    month: '03'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: G
+      number: '722'
+      year: '1988'
+  representations:
+    human: ITU-T G.722 (1988) Annex A (03/1993)
+    urn: urn:itu:t:G.722:1988:annex:a:03/1993
+  style: v3
+- id: itu.annex_of_recommendation.2297
+  identifier:
+    _type: pubid:itu:annex-of-recommendation
+    number: B
+    year: '2003'
+    month: '07'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: G
+      number: '722'
+      subseries: '2'
+  representations:
+    human: ITU-T G.722.2 Annex B (07/2003)
+    urn: urn:itu:t:G.722.2:annex:b:07/2003
+  style: v3
+- id: itu.annex_of_recommendation.2308
+  identifier:
+    _type: pubid:itu:annex-of-recommendation
+    number: C+
+    year: '2000'
+    month: '02'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: G
+      number: '729'
+  representations:
+    human: ITU-T G.729 Annex C+ (02/2000)
+    urn: urn:itu:t:G.729:annex:c+:02/2000
+  style: v3
+- id: itu.annex_of_recommendation.2331
+  identifier:
+    _type: pubid:itu:annex-of-recommendation
+    number: M2
+    year: '2004'
+    month: '03'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: H
+      number: '323'
+  representations:
+    human: ITU-T H.323 Annex M2 (03/2004)
+    urn: urn:itu:t:H.323:annex:m2:03/2004
+  style: v3
+- id: itu.annex_of_recommendation.2343
+  identifier:
+    _type: pubid:itu:annex-of-recommendation
+    number: B
+    year: '2004'
+    month: '03'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: J
+      number: '112'
+  representations:
+    human: ITU-T J.112 Annex B (03/2004)
+    urn: urn:itu:t:J.112:annex:b:03/2004
+  style: v3
+- id: itu.annex_of_recommendation.2416
+  identifier:
+    _type: pubid:itu:annex-of-recommendation
+    number: A
+    year: '2000'
+    month: '06'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: Q
+      number: '1238'
+      subseries: '1'
+  representations:
+    human: ITU-T Q.1238.1 Annex A (06/2000)
+    urn: urn:itu:t:Q.1238.1:annex:a:06/2000
+  style: v3
+- id: itu.annex_of_recommendation.2530
+  identifier:
+    _type: pubid:itu:annex-of-recommendation
+    number: A
+    year: '1996'
+    month: '08'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: V
+      number: '25'
+      series_suffix: ter
+      series_suffix_spaced: true
+  representations:
+    human: ITU-T V.25 ter Annex A (08/1996)
+    urn: urn:itu:t:V.25ter:annex:a:08/1996
+  style: v3
+- id: itu.annex_of_recommendation.2665
+  identifier:
+    _type: pubid:itu:annex-of-recommendation
+    number: E
+    year: '2002'
+    month: '03'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: X
+      number: '692'
+      year: '2002'
+  representations:
+    human: ITU-T X.692 (2002) Annex E (03/2002)
+    urn: urn:itu:t:X.692:2002:annex:e:03/2002
+  style: v3
+- id: itu.annex_of_recommendation.2728
+  identifier:
+    _type: pubid:itu:annex-of-recommendation
+    number: F1
+    year: '2000'
+    month: '11'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: Z
+      number: '100'
+  representations:
+    human: ITU-T Z.100 Annex F1 (11/2000)
+    urn: urn:itu:t:Z.100:annex:f1:11/2000
+  style: v3
+- id: itu.annex_of_recommendation.2729
+  identifier:
+    _type: pubid:itu:annex-of-recommendation
+    number: F2
+    year: '2000'
+    month: '11'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: Z
+      number: '100'
+  representations:
+    human: ITU-T Z.100 Annex F2 (11/2000)
+    urn: urn:itu:t:Z.100:annex:f2:11/2000
+  style: v3
+- id: itu.annex_of_recommendation.2730
+  identifier:
+    _type: pubid:itu:annex-of-recommendation
+    number: F3
+    year: '2019'
+    month: '10'
+    base:
+      _type: pubid:itu:recommendation
+      sector: T
+      series: Z
+      number: '100'
+  representations:
+    human: ITU-T Z.100 Annex F3 (10/2019)
+    urn: urn:itu:t:Z.100:annex:f3:10/2019
+  style: v3
+- id: itu.annex_of_recommendation.2736
+  identifier:
+    _type: pubid:itu:annex-of-recommendation
+    number: A
+    base:
+      _type: pubid:itu:report
+      sector: R
+      series: BT
+      number: '2020'
+      parts:
+      - '1'
+  representations:
+    human: Report ITU-R BT.2020-1 Annex A
+    urn: urn:itu:r:report:BT.2020-1:annex:a
+  style: v3

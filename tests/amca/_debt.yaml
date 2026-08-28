@@ -1,0 +1,9 @@
+---
+- id: amca.debt.110a477ce337
+  input: ANSI/AMCA Standard 210-25 / ASHRAE 51-25
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: RuntimeError: Failed to parse ACMA identifier
+    ''ANSI/AMCA Standard 210-25 / ASHRAE 51-25'': Expected one of [INTERPRETATION_IDENTIFIER,
+    PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line 1 char 1.'

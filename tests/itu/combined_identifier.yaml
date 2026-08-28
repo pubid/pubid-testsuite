@@ -1,0 +1,215 @@
+---
+- id: itu.combined_identifier.2200
+  identifier:
+    _type: pubid:itu:combined-identifier
+    sector: T
+    series: D
+    number: '81'
+    year: '1980'
+    month: '11'
+    combined:
+    - series: F
+      number: '80'
+      series_suffix: bis
+      series_suffix_spaced: true
+  representations:
+    human: ITU-T D.81/F.80 bis (11/1980)
+    urn: urn:itu:t:D.81:11/1980
+  style: v3
+- id: itu.combined_identifier.2248
+  identifier:
+    _type: pubid:itu:combined-identifier
+    sector: T
+    series: E
+    number: '163'
+    year: '1984'
+    month: '10'
+    combined:
+    - series: Q
+      number: '11'
+      series_suffix: bis
+      series_suffix_spaced: true
+  representations:
+    human: ITU-T E.163/Q.11 bis (10/1984)
+    urn: urn:itu:t:E.163:10/1984
+  style: v3
+- id: itu.combined_identifier.2249
+  identifier:
+    _type: pubid:itu:combined-identifier
+    sector: T
+    series: E
+    number: '163'
+    year: '1980'
+    month: '11'
+    combined:
+    - series: Q
+      number: '11'
+      series_suffix: bis
+      series_suffix_spaced: true
+  representations:
+    human: ITU-T E.163/Q.11 bis (11/1980)
+    urn: urn:itu:t:E.163:11/1980
+  style: v3
+- id: itu.combined_identifier.2250
+  identifier:
+    _type: pubid:itu:combined-identifier
+    sector: T
+    series: E
+    number: '164'
+    year: '1988'
+    month: '11'
+    combined:
+    - series: I
+      number: '331'
+    - series: Q
+      number: '11'
+      series_suffix: bis
+      series_suffix_spaced: true
+  representations:
+    human: ITU-T E.164/I.331/Q.11 bis (11/1988)
+    urn: urn:itu:t:E.164:11/1988
+  style: v3
+- id: itu.combined_identifier.2251
+  identifier:
+    _type: pubid:itu:combined-identifier
+    sector: T
+    series: E
+    number: '165'
+    year: '1988'
+    month: '11'
+    combined:
+    - series: Q
+      number: '11'
+      series_suffix: ter
+      series_suffix_spaced: true
+  representations:
+    human: ITU-T E.165/Q.11 ter (11/1988)
+    urn: urn:itu:t:E.165:11/1988
+  style: v3
+- id: itu.combined_identifier.2252
+  identifier:
+    _type: pubid:itu:combined-identifier
+    sector: T
+    series: E
+    number: '210'
+    year: '1979'
+    month: '09'
+    combined:
+    - series: F
+      number: '120'
+    - series: Q
+      number: '11'
+      series_suffix: ter
+      series_suffix_spaced: true
+  representations:
+    human: ITU-T E.210/F.120/Q.11 ter (09/1979)
+    urn: urn:itu:t:E.210:09/1979
+  style: v3
+- id: itu.combined_identifier.2253
+  identifier:
+    _type: pubid:itu:combined-identifier
+    sector: T
+    series: E
+    number: '210'
+    year: '1984'
+    month: '10'
+    combined:
+    - series: F
+      number: '120'
+    - series: Q
+      number: '11'
+      series_suffix: ter
+      series_suffix_spaced: true
+  representations:
+    human: ITU-T E.210/F.120/Q.11 ter (10/1984)
+    urn: urn:itu:t:E.210:10/1984
+  style: v3
+- id: itu.combined_identifier.2254
+  identifier:
+    _type: pubid:itu:combined-identifier
+    sector: T
+    series: E
+    number: '210'
+    year: '1980'
+    month: '11'
+    combined:
+    - series: F
+      number: '120'
+    - series: Q
+      number: '11'
+      series_suffix: ter
+      series_suffix_spaced: true
+  representations:
+    human: ITU-T E.210/F.120/Q.11 ter (11/1980)
+    urn: urn:itu:t:E.210:11/1980
+  style: v3
+- id: itu.combined_identifier.2255
+  identifier:
+    _type: pubid:itu:combined-identifier
+    sector: T
+    series: E
+    number: '211'
+    year: '1980'
+    month: '11'
+    combined:
+    - series: Q
+      number: '11'
+      series_suffix: quarter
+      series_suffix_spaced: true
+  representations:
+    human: ITU-T E.211/Q.11 quarter (11/1980)
+    urn: urn:itu:t:E.211:11/1980
+  style: v3
+- id: itu.combined_identifier.2256
+  identifier:
+    _type: pubid:itu:combined-identifier
+    sector: T
+    series: E
+    number: '211'
+    year: '1984'
+    month: '10'
+    combined:
+    - series: Q
+      number: '11'
+      series_suffix: quater
+      series_suffix_spaced: true
+  representations:
+    human: ITU-T E.211/Q.11 quater (10/1984)
+    urn: urn:itu:t:E.211:10/1984
+  style: v3
+- id: itu.combined_identifier.2264
+  identifier:
+    _type: pubid:itu:combined-identifier
+    sector: T
+    series: E
+    number: '421'
+    year: '1972'
+    month: '12'
+    combined:
+    - series: Q
+      number: '60'
+      series_suffix: bis
+      series_suffix_spaced: true
+  representations:
+    human: ITU-T E.421/Q.60 bis (12/1972)
+    urn: urn:itu:t:E.421:12/1972
+  style: v3
+- id: itu.combined_identifier.2265
+  identifier:
+    _type: pubid:itu:combined-identifier
+    sector: T
+    series: E
+    number: '54'
+    qualifier: l
+    qualifier_glued: true
+    year: '1972'
+    month: '12'
+    combined:
+    - series: Q
+      number: '95'
+      series_suffix: bis
+      series_suffix_spaced: true
+  representations:
+    human: ITU-T E.54l/Q.95 bis (12/1972)
+    urn: urn:itu:t:E.54l:12/1972
+  style: v3

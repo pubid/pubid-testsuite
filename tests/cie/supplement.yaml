@@ -1,0 +1,41 @@
+---
+- id: cie.supplement.0057
+  identifier:
+    _type: pubid:cie:supplement
+    number: '1'
+    base:
+      _type: pubid:cie:standard
+      number: '121'
+      year: '2009'
+  representations:
+    human: CIE 121-SP1:2009
+    urn: urn:cie:cie
+  style: v3
+- id: cie.supplement.0147
+  identifier:
+    _type: pubid:cie:supplement
+    number: '2'
+    base:
+      _type: pubid:cie:standard
+      number: '198'
+      year: '2018'
+  representations:
+    human: CIE 198-SP2:2018
+    urn: urn:cie:cie
+  style: v3
+- id: cie.supplement.0250
+  identifier:
+    _type: pubid:cie:supplement
+    number: '1'
+    base:
+      _type: pubid:cie:standard
+      number: '025'
+      stage: DIS
+      year: '2019'
+      language:
+        code: E
+        format: slash_colon
+  representations:
+    human: CIE DIS 025-SP1/E:2019
+    urn: urn:cie:cie
+  style: v3

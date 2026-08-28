@@ -1,0 +1,7 @@
+---
+clean: false
+known_mismatches: 1009
+known_schema_errors: 0
+# 30 DFDIS-corrupted cases additionally quarantined in the review quadrant
+# (contract C1); they are excluded from this count pending corrected
+# canonical expectations.

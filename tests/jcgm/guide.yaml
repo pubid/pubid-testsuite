@@ -1,0 +1,84 @@
+---
+- id: jcgm.guide.0001
+  identifier:
+    _type: pubid:jcgm:guide
+    number: '100'
+  representations:
+    human: JCGM 100
+    urn: urn:jcgm:100
+  style: v3
+- id: jcgm.guide.0002
+  identifier:
+    _type: pubid:jcgm:guide
+    number: '100'
+    year: '2008'
+  representations:
+    human: JCGM 100:2008
+    urn: urn:jcgm:100:2008
+  style: v3
+- id: jcgm.guide.0003
+  identifier:
+    _type: pubid:jcgm:guide
+    number: '100'
+    year: '2008'
+    languages:
+    - code: en
+      original_code: E
+  representations:
+    human: JCGM 100:2008(E)
+    urn: urn:jcgm:100:2008:en
+  style: v3
+- id: jcgm.guide.0014
+  identifier:
+    _type: pubid:jcgm:guide
+    number: '200'
+    year: '2007'
+    languages:
+    - code: fr
+      original_code: F
+  representations:
+    human: JCGM 200:2007(F)
+    urn: urn:jcgm:200:2007:fr
+  style: v3
+- id: jcgm.guide.0016
+  identifier:
+    _type: pubid:jcgm:guide
+    number: '200'
+    year: '2008'
+    languages:
+    - code: fr
+      original_code: F
+  representations:
+    human: JCGM 200:2008(F)
+    urn: urn:jcgm:200:2008:fr
+  style: v3
+- id: jcgm.guide.0017
+  identifier:
+    _type: pubid:jcgm:guide
+    number: '200'
+    year: '2012'
+    languages:
+    - code: en
+      original_code: E
+    - code: fr
+      original_code: F
+  representations:
+    human: JCGM 200:2012(E/F)
+    urn: urn:jcgm:200:2012:en,fr
+  style: v3
+- id: jcgm.guide.0026
+  identifier:
+    _type: pubid:jcgm:guide
+    number: GUM
+  representations:
+    human: JCGM GUM
+    urn: urn:jcgm:GUM
+  style: v3
+- id: jcgm.guide.0029
+  identifier:
+    _type: pubid:jcgm:guide
+    number: VIM-3
+  representations:
+    human: JCGM VIM-3
+    urn: urn:jcgm:VIM-3
+  style: v3

@@ -1,0 +1,25 @@
+---
+- id: cie.bundle.0145
+  identifier:
+    _type: pubid:cie:bundle
+    base:
+      _type: pubid:cie:standard
+      number: '198'
+      year: '2011'
+    ids:
+    - _type: pubid:cie:supplement
+      number: '1'
+      part: '1'
+    - _type: pubid:cie:supplement
+      number: '1'
+      part: '2'
+    - _type: pubid:cie:supplement
+      number: '1'
+      part: '3'
+    - _type: pubid:cie:supplement
+      number: '1'
+      part: '4'
+  representations:
+    human: CIE 198-SP1.1:2011,198-SP1.2:2011,198-SP1.3:2011,198-SP1.4:2011
+    urn: urn:cie:bundle:cie:bundle.CIE 198-SP1.1:2011,198-SP1.2:2011,198-SP1.3:2011,198-SP1.4:2011
+  style: v3

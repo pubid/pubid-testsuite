@@ -1,0 +1,89 @@
+---
+- id: oiml.document.0008
+  identifier:
+    _type: pubid:oiml:document
+    publisher: OIML
+    number: '11'
+    year: '2008'
+  representations:
+    human: OIML D 11:2008
+    urn: urn:oiml:d:11:2008
+  style: v3
+- id: oiml.document.0009
+  identifier:
+    _type: pubid:oiml:document
+    publisher: OIML
+    number: '11'
+    year: '2013'
+  representations:
+    human: OIML D 11:2013
+    urn: urn:oiml:d:11:2013
+  style: v3
+- id: oiml.document.0010
+  identifier:
+    _type: pubid:oiml:document
+    language: E
+    parsed_format: long
+    publisher: OIML
+    number: '12'
+    year: '1986'
+  representations:
+    human: OIML D 12 Edition 1986 (E)
+    urn: urn:oiml:d:12:1986:e
+  style: v3
+  non_normalized_aliases:
+  - spelling: OIML D 12, edition 1986 (E)
+    style: v3
+- id: oiml.document.0011
+  identifier:
+    _type: pubid:oiml:document
+    language: E
+    parsed_format: long
+    publisher: OIML
+    number: '2'
+    year: '1999'
+  representations:
+    human: OIML D 2 Edition 1999 (E)
+    urn: urn:oiml:d:2:1999:e
+  style: v3
+- id: oiml.document.0012
+  identifier:
+    _type: pubid:oiml:document
+    publisher: OIML
+    number: '31'
+    stage: CD
+    iteration: '1'
+  representations:
+    human: OIML D 31 1CD
+    urn: urn:oiml:d:31:cd:1
+  style: v3
+- id: oiml.document.0013
+  identifier:
+    _type: pubid:oiml:document
+    publisher: OIML
+    number: '31'
+    year: '2008'
+  representations:
+    human: OIML D 31:2008
+    urn: urn:oiml:d:31:2008
+  style: v3
+- id: oiml.document.0014
+  identifier:
+    _type: pubid:oiml:document
+    publisher: OIML
+    number: '35'
+    year: '2020'
+  representations:
+    human: OIML D 35:2020
+    urn: urn:oiml:d:35:2020
+  style: v3
+- id: oiml.document.0015
+  identifier:
+    _type: pubid:oiml:document
+    publisher: OIML
+    number: '9'
+    year: '2004'
+  representations:
+    human: OIML D 9:2004
+    urn: urn:oiml:d:9:2004
+  style: v3

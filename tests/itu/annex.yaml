@@ -1,0 +1,62 @@
+---
+- id: itu.annex.0001
+  identifier:
+    _type: pubid:itu:annex
+    base:
+      _type: pubid:itu:special-publication
+      series: OB
+      number: '1'
+  representations:
+    human: Annex to ITU OB No. 1
+    urn: urn:itu:itu:OB.1:annex
+  style: v3
+- id: itu.annex.0002
+  identifier:
+    _type: pubid:itu:annex
+    base:
+      _type: pubid:itu:special-publication
+      series: OB
+      number: '1000'
+      language: F
+    language: F
+  representations:
+    human: Annex to ITU OB No. 1000-F
+    urn: urn:itu:itu:OB.1000:f:annex
+  style: v3
+- id: itu.annex.0003
+  identifier:
+    _type: pubid:itu:annex
+    base:
+      _type: pubid:itu:special-publication
+      series: OB
+      number: '1000'
+      language: S
+    language: S
+  representations:
+    human: Annex to ITU OB No. 1000-S
+    urn: urn:itu:itu:OB.1000:s:annex
+  style: v3
+- id: itu.annex.0004
+  identifier:
+    _type: pubid:itu:annex
+    base:
+      _type: pubid:itu:special-publication
+      series: OB
+      number: '1283'
+  representations:
+    human: Annex to ITU OB No. 1283
+    urn: urn:itu:itu:OB.1283:annex
+  style: v3
+- id: itu.annex.0005
+  identifier:
+    _type: pubid:itu:annex
+    base:
+      _type: pubid:itu:special-publication
+      series: OB
+      number: '1283'
+      year: '2024'
+      month: '01'
+  representations:
+    human: Annex to ITU OB No. 1283 (01/2024)
+    urn: urn:itu:itu:OB.1283:01/2024:annex
+  style: v3

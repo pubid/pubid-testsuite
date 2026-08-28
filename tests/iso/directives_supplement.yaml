@@ -1,0 +1,128 @@
+---
+- id: iso.directives_supplement.6817
+  identifier:
+    _type: pubid:iso:directives-supplement
+    publisher: IEC
+    base:
+      _type: pubid:iso:directives
+      number: '1'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC DIR 1 IEC SUP
+    urn: urn:iso:doc:iso-iec:dir:1:sup:iec
+  style: v3
+- id: iso.directives_supplement.6818
+  identifier:
+    _type: pubid:iso:directives-supplement
+    publisher: ISO
+    base:
+      _type: pubid:iso:directives
+      number: '1'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC DIR 1 ISO SUP
+    urn: urn:iso:doc:iso-iec:dir:1:sup:iso
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC Directives, Part 1 -- Consolidated ISO Supplement
+    style: v3
+- id: iso.directives_supplement.6819
+  identifier:
+    _type: pubid:iso:directives-supplement
+    edition:
+      number: '13'
+      original_text: Edition 13
+    publisher: ISO
+    base:
+      _type: pubid:iso:directives
+      number: '1'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC DIR 1 ISO SUP Edition 13
+    urn: urn:iso:doc:iso-iec:dir:1:sup:iso:ed-13
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC DIR 1 ISO SUP Ed 13
+    style: v3
+- id: iso.directives_supplement.6820
+  identifier:
+    _type: pubid:iso:directives-supplement
+    year: '2022'
+    publisher: ISO
+    base:
+      _type: pubid:iso:directives
+      number: '1'
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC DIR 1 ISO SUP:2022
+    urn: urn:iso:doc:iso-iec:dir:1:sup:iso:2022
+  style: v3
+- id: iso.directives_supplement.6829
+  identifier:
+    _type: pubid:iso:directives-supplement
+    publisher: IEC
+    base:
+      _type: pubid:iso:directives
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC DIR IEC SUP
+    urn: urn:iso:doc:iso-iec:dir:sup:iec
+  style: v3
+- id: iso.directives_supplement.6830
+  identifier:
+    _type: pubid:iso:directives-supplement
+    year: '2022'
+    publisher: IEC
+    base:
+      _type: pubid:iso:directives
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC DIR IEC SUP:2022
+    urn: urn:iso:doc:iso-iec:dir:sup:iec:2022
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC Directives, IEC Supplement:2022
+    style: v3
+- id: iso.directives_supplement.6831
+  identifier:
+    _type: pubid:iso:directives-supplement
+    publisher: ISO
+    base:
+      _type: pubid:iso:directives
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC DIR ISO SUP
+    urn: urn:iso:doc:iso-iec:dir:sup:iso
+  style: v3
+- id: iso.directives_supplement.6832
+  identifier:
+    _type: pubid:iso:directives-supplement
+    publisher: JTC 1
+    base:
+      _type: pubid:iso:directives
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC DIR JTC 1 SUP
+    urn: urn:iso:doc:iso-iec:dir:jtc:1:sup
+  style: v3
+- id: iso.directives_supplement.6833
+  identifier:
+    _type: pubid:iso:directives-supplement
+    year: '2021'
+    publisher: JTC 1
+    base:
+      _type: pubid:iso:directives
+      copublishers:
+      - IEC
+  representations:
+    human: ISO/IEC DIR JTC 1 SUP:2021
+    urn: urn:iso:doc:iso-iec:dir:jtc:1:sup:2021
+  style: v3

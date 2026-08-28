@@ -1,0 +1,67 @@
+---
+- id: oiml.amendment.0001
+  identifier:
+    _type: pubid:oiml:amendment
+    language: E
+    base:
+      _type: pubid:oiml:document
+      publisher: OIML
+      number: '2'
+    year: '2004'
+  representations:
+    human: Amendment (2004) to OIML D 2 (E)
+  style: v3
+- id: oiml.amendment.0002
+  identifier:
+    _type: pubid:oiml:amendment
+    language: E
+    base:
+      _type: pubid:oiml:document
+      parsed_format: long
+      publisher: OIML
+      number: '2'
+      year: '1999'
+    year: '2004'
+  representations:
+    human: Amendment (2004) to OIML D 2 Edition 1999 (E)
+  style: v3
+- id: oiml.amendment.0003
+  identifier:
+    _type: pubid:oiml:amendment
+    language: E
+    base:
+      _type: pubid:oiml:document
+      publisher: OIML
+      number: '2'
+      year: '1999'
+    year: '2004'
+  representations:
+    human: Amendment (2004) to OIML D 2:1999 (E)
+  style: v3
+- id: oiml.amendment.0004
+  identifier:
+    _type: pubid:oiml:amendment
+    language: E
+    base:
+      _type: pubid:oiml:recommendation
+      parsed_format: long
+      publisher: OIML
+      number: '138'
+      year: '2007'
+    year: '2009'
+  representations:
+    human: Amendment (2009) to OIML R 138 Edition 2007 (E)
+  style: v3
+- id: oiml.amendment.0005
+  identifier:
+    _type: pubid:oiml:amendment
+    language: E
+    base:
+      _type: pubid:oiml:recommendation
+      publisher: OIML
+      number: '138'
+      year: '2007'
+    year: '2009'
+  representations:
+    human: Amendment (2009) to OIML R 138:2007 (E)
+  style: v3

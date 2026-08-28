@@ -1,0 +1,25 @@
+---
+- id: nist.dated_document.12117
+  identifier:
+    _type: pubid:nist:dated-document
+    publisher: NIST
+    date_year: '2022'
+    date_month: '04'
+    date_day: '15'
+    dated_seq: '001'
+  representations:
+    human: NIST 2022-04-15 001
+    urn: urn:nist:sp:supp
+  style: v3
+- id: nist.dated_document.12118
+  identifier:
+    _type: pubid:nist:dated-document
+    publisher: NIST
+    date_year: '2023'
+    date_month: '04'
+    date_day: '07'
+    dated_seq: '001'
+  representations:
+    human: NIST 2023-04-07 001
+    urn: urn:nist:sp:supp
+  style: v3
