@@ -1,4 +1,9 @@
 ---
-clean: true
-known_mismatches: 0
+clean: false
+known_mismatches: 22
 known_schema_errors: 0
+notes: >-
+  Reference defects on pubid main, surfaced by the corpus after the
+  superseded pre-retract parser diffs were reverted out of the
+  test-extract PR; they must re-land as standalone implementation PRs
+  (asme's include gaps main deliberately pins in root_number_spec).

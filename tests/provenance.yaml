@@ -8,59 +8,56 @@ generator:
   exporter_sha256: 17c6c0e180f1ca39d3867588aa83e2d6bb081c0b1948cd7ded2f12d1cebf7dc6
 oracle:
   gem: pubid
-  commit: 9bdf00286e06c97fdb64a0b40f43b8d790c45a42
+  commit: 977603873b3715514b95d1f5e3ae9ca661f14746
   clean: true
   dirty_paths: []
 repository:
-  commit: 7eb7ea638cfdd7c0c11a0ce2ad178a922bf29782
+  commit: bd426399f63334f064e2b40cd3e8d2cb53d36e38
   clean: false
   dirty_paths:
-  - README.md
-  - reference-docs/amca/SUMMARY.txt
-  - reference-docs/amca/identifiers/fail/unknown.txt
-  - reference-docs/api/SUMMARY.txt
-  - reference-docs/api/identifiers/pass/typeless_standard.txt
-  - reference-docs/ashrae/SUMMARY.txt
-  - reference-docs/ashrae/identifiers/fail/addendum.txt
-  - reference-docs/ashrae/identifiers/fail/errata.txt
-  - reference-docs/ashrae/identifiers/fail/standard.txt
-  - reference-docs/ashrae/identifiers/full/standard.txt
-  - reference-docs/ashrae/identifiers/pass/addenda_package.txt
-  - reference-docs/ashrae/identifiers/pass/addendum.txt
-  - reference-docs/ashrae/identifiers/pass/combined_addenda.txt
-  - reference-docs/ashrae/identifiers/pass/errata.txt
-  - reference-docs/ashrae/identifiers/pass/standard.txt
-  - reference-docs/bsi/SUMMARY.txt
-  - reference-docs/bsi/identifiers/fail/unknown.txt
-  - reference-docs/bsi/identifiers/pass/adopted_european_norm.txt
-  - reference-docs/bsi/identifiers/pass/british_standard.txt
-  - reference-docs/bsi/identifiers/pass/consolidated_identifier.txt
+  - tests/amca/_debt.yaml
+  - tests/amca/_negative.yaml
+  - tests/amca/_status.yaml
+  - tests/amca/interpretation.yaml
+  - tests/amca/publication.yaml
+  - tests/amca/standard.yaml
+  - tests/asme/_debt.yaml
+  - tests/asme/_status.yaml
+  - tests/asme/standard.yaml
+  - tests/astm/_status.yaml
+  - tests/bsi/_status.yaml
+  - tests/bsi/addendum_document.yaml
+  - tests/csa/_status.yaml
+  - tests/csa/standard.yaml
+  - tests/iso/_status.yaml
+  - tests/iso/bundled_identifier.yaml
+  - tests/astm/_debt.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 41
-  payloads: 323
-  cases: 98154
-  aliases: 11222
+  payloads: 324
+  cases: 98005
+  aliases: 11390
   negatives: 1237
 payloads:
 - path: amca/_debt.yaml
-  sha256: 152b94ed082fa41af6f0ba056d8c510c8b8ece1b7ad8808cf5dfbebe7b55aeaa
-  bytes: 313
+  sha256: 97d5e9084edeccee6344ee9af8e7f959045bf2b3ac83fb75c8cabb39956d59e7
+  bytes: 5235
 - path: amca/_negative.yaml
-  sha256: a7df7911a4a037ca69794ab0f0df1298da56746018d2b0ea37b3f658d13d9d1a
-  bytes: 449
+  sha256: cae75bcbd410a5bcb23dacb859c94c172a296a73c5ea4e07879dc1d36ddb3700
+  bytes: 422
 - path: amca/_normalization.yaml
   sha256: 1b4bbf083a15b150957256887c56aa684545bc293af13ad650a293627bb14555
   bytes: 1557
 - path: amca/interpretation.yaml
-  sha256: 9596087e66803daab0b0286e3cd5b1768d6b7a36b198b6c12c3ebd6e1a7ea6f7
-  bytes: 3028
+  sha256: a83f588393fb89e4f697aa1884f041c7eaf4767057e7684ec9b4c5dbe0cf5347
+  bytes: 1927
 - path: amca/publication.yaml
-  sha256: c5c2ba13518940d135c6961ac9a8f2ae12186b7c6dfd19e75ca8eff917c3b787
+  sha256: fe1ecb39b6e1d4f2c51177b5b739961398705cbf81356d934e5429863ae6b875
   bytes: 3124
 - path: amca/standard.yaml
-  sha256: d109372a8a736213dbac441ac78ec8972037c666fb70eea1f883a80923ce70af
+  sha256: d26d7df048ed7a6acb4f488fabe48810ea91b9e87812e3ff706af9d6239b63de
   bytes: 8678
 - path: ansi/standard.yaml
   sha256: 0f0ac3afbc09e16dafa39aae833fad25e9ecff76c1671474eba277f25aee4c38
@@ -123,14 +120,17 @@ payloads:
   sha256: 6999f4eea3935046b14935ee79b05e6c6f40d3bacadcda36616f2d5779975c7a
   bytes: 91998
 - path: asme/_debt.yaml
-  sha256: c49e9d17f072da0d6041555d861059a4daa5364722ce94fe71ca127360c454c0
-  bytes: 4969
+  sha256: cb264cd7171a4995c49b046ade40909781ee449025d5f0f4063eb9ae147e3fff
+  bytes: 7778
 - path: asme/_normalization.yaml
   sha256: f95283d03abfe4744d6603c8cf9341a27619bd6b2d915796b7e4cbef2f8139be
   bytes: 10593
 - path: asme/standard.yaml
-  sha256: bdfc1341fa83a62c999c80fc39de0b147b7db209eed6507d516b1b2dd1d8321c
-  bytes: 175779
+  sha256: 73e6a9c915a50c978dbaf5bea85dece69e0d523182e8cab9892cba4141d52bb9
+  bytes: 149767
+- path: astm/_debt.yaml
+  sha256: 1ff8ea8e21d9d4c45fecbcf3ffc74a052f9332b033b81502b353d2d24ed1ee57
+  bytes: 956
 - path: astm/_normalization.yaml
   sha256: e3b47f363ab118d472de683d900ff5d56d36471a4a538273a4e4074fe9b99b9b
   bytes: 565
@@ -192,8 +192,8 @@ payloads:
   sha256: eedfe8cdb8eab82e62039f2115b6bc706a82f50f7fed2898f4de904bac861484
   bytes: 6379
 - path: bsi/addendum_document.yaml
-  sha256: 06d5b1001c2c2150e4e7f136784c22b1c020c472eb3c062c8062c2df8fb2d588
-  bytes: 6845
+  sha256: ceac6d6c48e8d9acfc2ae1c3adcbb2148f8e92f5c808b1f6e3e342897fcb3dc4
+  bytes: 8697
 - path: bsi/adopted_european_norm.yaml
   sha256: 1716a9be7ba213f90b56bdf258ad5646f09aaca6a79e60676164860acd2b5f4d
   bytes: 7185
@@ -381,7 +381,7 @@ payloads:
   sha256: 82c4a6e5b3e0034b9cef0a269e046710a8e30a5e761230a6fa0d6b97a4cb4ef6
   bytes: 3004
 - path: csa/standard.yaml
-  sha256: 720cf0d091b51bb732ff5d508063e4dff42304c6d70b995c97a4a93f9d036144
+  sha256: 1601ae8184290c86e7342e59f9d0381fce264c3596066a8de9246b840ad5b605
   bytes: 52349
 - path: doi/_negative.yaml
   sha256: 0a14710dcc63dfc47200fdd7d7b10bfd2e039a8ec52e748cffc78820adeaa44c
@@ -624,8 +624,8 @@ payloads:
   sha256: 002a3f4f3fad72397d101c3a1132fb9d204c6d37c4b79501fd4d9b2d22c3d186
   bytes: 66694
 - path: iso/bundled_identifier.yaml
-  sha256: 84c3954f6077e5226a0b445f9fcb9d7d5d53744fb179f0ea3eaf25186444d9ab
-  bytes: 968
+  sha256: ee44652a3f78e01ef8946ee7488770d4779df2be30d7214800b0eedd17aa9775
+  bytes: 1076
 - path: iso/corrigendum.yaml
   sha256: 5020e7770b6133bccd79f0f7244b7b73684555ded92d6535f8c0fec00bb3759d
   bytes: 43304
@@ -892,8 +892,8 @@ payloads:
   bytes: 7860
 curated:
 - path: amca/_status.yaml
-  sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
-  bytes: 59
+  sha256: '059acf73af686e22e48054d11737ff18b7704d626d88138d6ed6881d1941b128'
+  bytes: 346
 - path: ansi/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
@@ -904,17 +904,17 @@ curated:
   sha256: 27a051d7d1c5c0fdc31a9f9713517619e163fcb9818e48ee15d5d247a7976dfe
   bytes: 61
 - path: asme/_status.yaml
-  sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
-  bytes: 59
+  sha256: 91ed168e6f12256fcd19e2de03390432c385be20d4764868e45cd3e06f8c831c
+  bytes: 346
 - path: astm/_status.yaml
-  sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
-  bytes: 59
+  sha256: 470e222322bbcd1957a0c1637fe597fb231f6ba4bad641bca6ae6d854d498be1
+  bytes: 345
 - path: bipm/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
 - path: bsi/_status.yaml
-  sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
-  bytes: 59
+  sha256: a4ec6786a6b82d660bbff83e9c59e34d97863474ad067519b9c317becfad4aae
+  bytes: 346
 - path: calconnect/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
@@ -928,8 +928,8 @@ curated:
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
 - path: csa/_status.yaml
-  sha256: f36abab99a9a4190f0240eaf219fa69b9813a963db0bde98c327fee2044c5349
-  bytes: 60
+  sha256: d00cb63a6ee1b5e8a84944b5adf02add67dd2907dc8c64071a849371c94986eb
+  bytes: 346
 - path: doi/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
@@ -943,8 +943,8 @@ curated:
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
 - path: evs/_status.yaml
-  sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
-  bytes: 59
+  sha256: 99a3be597d330bfda974acd7ab1576c356e7991ade8684d3cdd06a634befd547
+  bytes: 387
 - path: gb/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
@@ -973,8 +973,8 @@ curated:
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
 - path: iso/_status.yaml
-  sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
-  bytes: 59
+  sha256: 0ff770264feb29b86a19750d4de109f82b671849a96d4890d32fb1c201aed724
+  bytes: 345
 - path: itu/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
