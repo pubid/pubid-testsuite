@@ -1,0 +1,137 @@
+---
+- id: evs.national_adoption.0001
+  identifier:
+    _type: pubid:evs:national-adoption
+    adopted_identifier:
+      _type: pubid:cencenelec:european-norm
+      number: '18216'
+      year: '2026'
+  representations:
+    human: EVS-EN 18216:2026
+    urn: urn:evs:en:18216:2026
+  roundtrip: false
+  style: v3
+- id: evs.national_adoption.0002
+  identifier:
+    _type: pubid:evs:national-adoption
+    adopted_identifier:
+      _type: pubid:cencenelec:european-norm
+      number: '18219'
+      year: '2026'
+  representations:
+    human: EVS-EN 18219:2026
+    urn: urn:evs:en:18219:2026
+  roundtrip: false
+  style: v3
+- id: evs.national_adoption.0003
+  identifier:
+    _type: pubid:evs:national-adoption
+    adopted_identifier:
+      _type: pubid:cencenelec:european-norm
+      number: '18220'
+      year: '2026'
+  representations:
+    human: EVS-EN 18220:2026
+    urn: urn:evs:en:18220:2026
+  roundtrip: false
+  style: v3
+- id: evs.national_adoption.0004
+  identifier:
+    _type: pubid:evs:national-adoption
+    adopted_identifier:
+      _type: pubid:cencenelec:european-norm
+      number: '18221'
+      year: '2026'
+  representations:
+    human: EVS-EN 18221:2026
+    urn: urn:evs:en:18221:2026
+  roundtrip: false
+  style: v3
+- id: evs.national_adoption.0005
+  identifier:
+    _type: pubid:evs:national-adoption
+    adopted_identifier:
+      _type: pubid:cencenelec:european-norm
+      number: '18222'
+      year: '2026'
+  representations:
+    human: EVS-EN 18222:2026
+    urn: urn:evs:en:18222:2026
+  roundtrip: false
+  style: v3
+- id: evs.national_adoption.0006
+  identifier:
+    _type: pubid:evs:national-adoption
+    adopted_identifier:
+      _type: pubid:cencenelec:european-norm
+      number: '18223'
+      year: '2026'
+  representations:
+    human: EVS-EN 18223:2026
+    urn: urn:evs:en:18223:2026
+  roundtrip: false
+  style: v3
+- id: evs.national_adoption.0007
+  identifier:
+    _type: pubid:evs:national-adoption
+    adopted_identifier:
+      _type: pubid:cencenelec:adopted-european-norm
+      adopted:
+        _type: pubid:iso:international-standard
+        number: '14001'
+        year: '2026'
+  representations:
+    human: EVS-EN ISO 14001:2026
+    urn: urn:evs:en:iso:14001:2026
+  roundtrip: false
+  style: v3
+- id: evs.national_adoption.0008
+  identifier:
+    _type: pubid:evs:national-adoption
+    adopted_identifier:
+      _type: pubid:cencenelec:amendment
+      number: '1'
+      base:
+        _type: pubid:cencenelec:adopted-european-norm
+        adopted:
+          _type: pubid:iso:international-standard
+          number: '9001'
+          year: '2015'
+      year: '2024'
+  representations:
+    human: EVS-EN ISO 9001:2015/A1:2024
+    urn: urn:evs:en:iso:9001:2015:amd:1:2024
+  roundtrip: false
+  style: v3
+- id: evs.national_adoption.0009
+  identifier:
+    _type: pubid:evs:national-adoption
+    adopted_identifier:
+      _type: pubid:cencenelec:adopted-european-norm
+      adopted:
+        _type: pubid:iso:international-standard
+        number: '27017'
+        year: '2026'
+        copublishers:
+        - IEC
+  representations:
+    human: EVS-EN ISO/IEC 27017:2026
+    urn: urn:evs:en:iso-iec:27017:2026
+  roundtrip: false
+  style: v3
+- id: evs.national_adoption.0010
+  identifier:
+    _type: pubid:evs:national-adoption
+    adopted_identifier:
+      _type: pubid:cencenelec:adopted-european-norm
+      adopted:
+        _type: pubid:iso:international-standard
+        number: '27701'
+        year: '2025'
+        copublishers:
+        - IEC
+  representations:
+    human: EVS-EN ISO/IEC 27701:2025
+    urn: urn:evs:en:iso-iec:27701:2025
+  roundtrip: false
+  style: v3

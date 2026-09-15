@@ -1,60 +1,41 @@
 ---
-- id: cen_cenelec.technical_specification.0011
+- id: cen_cenelec.technical_specification.0015
   identifier:
     _type: pubid:cencenelec:technical-specification
-    number:
-      value: '17880'
-    date:
-      year: '2022'
-    publisher:
-      body: CEN
+    number: '17880'
+    year: '2022'
+    publisher: CEN
     copublishers:
-    - body: CLC
-    type:
-      abbr: TS
+    - CLC
   representations:
     human: CEN/CLC/TS 17880:2022
     urn: urn:cen:cen-clc:17880:2022
   style: v3
-- id: cen_cenelec.technical_specification.0015
+- id: cen_cenelec.technical_specification.0020
   identifier:
     _type: pubid:cencenelec:technical-specification
-    number:
-      value: '14972'
-    publisher:
-      body: CEN
-    type:
-      abbr: TS
+    number: '14972'
+    publisher: CEN
   representations:
     human: CEN/TS 14972
     urn: urn:cen:cen:14972
   style: v3
-- id: cen_cenelec.technical_specification.0016
+- id: cen_cenelec.technical_specification.0021
   identifier:
     _type: pubid:cencenelec:technical-specification
-    number:
-      value: '17638'
-    date:
-      year: '2021'
-    publisher:
-      body: CEN
-    type:
-      abbr: TS
+    number: '17638'
+    year: '2021'
+    publisher: CEN
   representations:
     human: CEN/TS 17638:2021
     urn: urn:cen:cen:17638:2021
   style: v3
-- id: cen_cenelec.technical_specification.0020
+- id: cen_cenelec.technical_specification.0025
   identifier:
     _type: pubid:cencenelec:technical-specification
-    number:
-      value: '50701'
-    date:
-      year: '2021'
-    publisher:
-      body: CLC
-    type:
-      abbr: TS
+    number: '50701'
+    year: '2021'
+    publisher: CLC
   representations:
     human: CLC/TS 50701:2021
     urn: urn:cen:clc:50701:2021

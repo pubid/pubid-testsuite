@@ -2,85 +2,66 @@
 - id: api.typeless_standard.0001
   identifier:
     _type: pubid:api:typeless-standard
-    number:
-      value: '579'
-    part: '2'
+    number: '1509'
   representations:
-    human: API
-    urn: urn:api:std:579:-2
-  style: v3
-  non_normalized_aliases:
-  - spelling: API 579-2
-    style: v3
-- id: api.typeless_standard.0032
-  identifier:
-    _type: pubid:api:typeless-standard
-    number:
-      value: '1509'
-  representations:
-    human: API
+    human: API 1509
     urn: urn:api:std:1509
   style: v3
-  non_normalized_aliases:
-  - spelling: API 1509
-    style: v3
-- id: api.typeless_standard.0033
+- id: api.typeless_standard.0002
   identifier:
     _type: pubid:api:typeless-standard
-    number:
-      value: OSRC
+    number: 17B
   representations:
-    human: API
-    urn: urn:api:std:OSRC
-  style: v3
-  non_normalized_aliases:
-  - spelling: API OSRC
-    style: v3
-- id: api.typeless_standard.0034
-  identifier:
-    _type: pubid:api:typeless-standard
-    number:
-      value: 17B
-  representations:
-    human: API
+    human: API 17B
     urn: urn:api:std:17B
   style: v3
-  non_normalized_aliases:
-  - spelling: API 17B
-    style: v3
-- id: api.typeless_standard.0035
+- id: api.typeless_standard.0003
   identifier:
     _type: pubid:api:typeless-standard
-    number:
-      value: 17J
+    number: 17J
   representations:
-    human: API
+    human: API 17J
     urn: urn:api:std:17J
   style: v3
-  non_normalized_aliases:
-  - spelling: API 17J
-    style: v3
-- id: api.typeless_standard.0036
+- id: api.typeless_standard.0004
   identifier:
     _type: pubid:api:typeless-standard
-    number:
-      value: 17U
+    number: 17U
   representations:
-    human: API
+    human: API 17U
     urn: urn:api:std:17U
   style: v3
-  non_normalized_aliases:
-  - spelling: API 17U
-    style: v3
-- id: api.typeless_standard.0037
+- id: api.typeless_standard.0005
   identifier:
     _type: pubid:api:typeless-standard
-    number:
-      value: '570'
+    number: '570'
   representations:
-    human: API
+    human: API 570
     urn: urn:api:std:570
   style: v3
-  non_normalized_aliases:
-  - spelling: API 570
-    style: v3
+- id: api.typeless_standard.0006
+  identifier:
+    _type: pubid:api:typeless-standard
+    number: '579'
+    part: '2'
+  representations:
+    human: API 579-2
+    urn: urn:api:std:579:-2
+  style: v3
+- id: api.typeless_standard.0007
+  identifier:
+    _type: pubid:api:typeless-standard
+    number: '75'
+    part: '07'
+  representations:
+    human: API 75-07
+    urn: urn:api:std:75:-07
+  style: v3
+- id: api.typeless_standard.0046
+  identifier:
+    _type: pubid:api:typeless-standard
+    number: OSRC
+  representations:
+    human: API OSRC
+    urn: urn:api:std:OSRC
+  style: v3

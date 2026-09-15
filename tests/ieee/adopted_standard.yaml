@@ -1,5 +1,5 @@
 ---
-- id: ieee.adopted_standard.0008
+- id: ieee.adopted_standard.0002
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -15,9 +15,9 @@
       stage: Std
   representations:
     human: 55 IRE 2.S1 (IEEE Std 147)
-    urn: urn:ieee:ire
+    urn: urn:ieee:ire:2.S1:1955
   style: v3
-- id: ieee.adopted_standard.0009
+- id: ieee.adopted_standard.0003
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -33,9 +33,9 @@
       stage: Std
   representations:
     human: 61 IRE 15.S1 (IEEE Std 182)
-    urn: urn:ieee:ire
+    urn: urn:ieee:ire:15.S1:1961
   style: v3
-- id: ieee.adopted_standard.0010
+- id: ieee.adopted_standard.0004
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -48,9 +48,9 @@
       stage: Std
   representations:
     human: 61 IRE 28 S1 (IEEE Std 216)
-    urn: urn:ieee:ire
+    urn: urn:ieee:ire:28 S1:1961
   style: v3
-- id: ieee.adopted_standard.0011
+- id: ieee.adopted_standard.0005
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -66,9 +66,9 @@
       stage: Std
   representations:
     human: 62 IRE 12.S1 (IEEE Std 174)
-    urn: urn:ieee:ire
+    urn: urn:ieee:ire:12.S1:1962
   style: v3
-- id: ieee.adopted_standard.0012
+- id: ieee.adopted_standard.0006
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -84,9 +84,9 @@
       stage: Std
   representations:
     human: 62 IRE 7.S2 (IEEE Std 161)
-    urn: urn:ieee:ire
+    urn: urn:ieee:ire:7.S2:1962
   style: v3
-- id: ieee.adopted_standard.0018
+- id: ieee.adopted_standard.0012
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -103,9 +103,54 @@
       stage: Std
   representations:
     human: AIEE 14-1925 (AESC C22-1925)
-    urn: urn:ieee:aiee
+    urn: urn:ieee:aiee:14:1925
   style: v3
-- id: ieee.adopted_standard.0111
+- id: ieee.adopted_standard.0014
+  identifier:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:aiee
+      number: '18'
+      year: '1934'
+      stage: Std
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: '55'
+      publisher: ASA
+      year: '1934'
+      prefix: C
+      stage: Std
+  representations:
+    human: AIEE 18-1934 (ASA C55-1934)
+    urn: urn:ieee:aiee:18:1934
+  style: v3
+  non_normalized_aliases:
+  - spelling: AIEE 18-1934 (ASA C55 1934)
+    style: v3
+- id: ieee.adopted_standard.0103
+  identifier:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:aiee
+      number: '12'
+      type: 'No'
+      year: '1934'
+      original_format: short
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: '57'
+      publisher: ASA
+      year: '1933'
+      prefix: C
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+  representations:
+    human: AIEE No 12-1934 (ASA C57.1-1933)
+    urn: urn:ieee:aiee:12:1934
+  style: v3
+- id: ieee.adopted_standard.0105
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -123,9 +168,161 @@
       stage: Std
   representations:
     human: AIEE No 14-1925 (AESC C22-1925)
-    urn: urn:ieee:aiee
+    urn: urn:ieee:aiee:14:1925
   style: v3
-- id: ieee.adopted_standard.0156
+- id: ieee.adopted_standard.0106
+  identifier:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:aiee
+      number: '15'
+      type: 'No'
+      year: '1944'
+      original_format: short
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: '19'
+      publisher: ASA
+      year: '1943'
+      prefix: C
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+  representations:
+    human: AIEE No 15-1944 (ASA C19.1-1943)
+    urn: urn:ieee:aiee:15:1944
+  style: v3
+- id: ieee.adopted_standard.0107
+  identifier:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:aiee
+      number: '15'
+      type: 'No'
+      year: '1959'
+      original_format: short
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: '19'
+      publisher: ASA
+      year: '1959'
+      prefix: C
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+  representations:
+    human: AIEE No 15-1959 (ASA C19.1-1959)
+    urn: urn:ieee:aiee:15:1959
+  style: v3
+- id: ieee.adopted_standard.0108
+  identifier:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:aiee
+      number: '18'
+      type: 'No'
+      year: '1934'
+      original_format: short
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: '55'
+      publisher: ASA
+      year: '1934'
+      prefix: C
+      stage: Std
+  representations:
+    human: AIEE No 18-1934 (ASA C55-1934)
+    urn: urn:ieee:aiee:18:1934
+  style: v3
+- id: ieee.adopted_standard.0130
+  identifier:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:aiee
+      number: '30'
+      type: 'No'
+      year: '1937'
+      original_format: short
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: '8'
+      publisher: ASA
+      year: '1932'
+      prefix: C
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+  representations:
+    human: AIEE No 30-1937 (ASA C8.1-1932)
+    urn: urn:ieee:aiee:30:1937
+  style: v3
+- id: ieee.adopted_standard.0136
+  identifier:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:aiee
+      number: '41'
+      type: 'No'
+      year: '1930'
+      original_format: short
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: 29A
+      publisher: ASA
+      year: '1930'
+      prefix: C
+      stage: Std
+  representations:
+    human: AIEE No 41-1930 (ASA C29A-1930)
+    urn: urn:ieee:aiee:41:1930
+  style: v3
+- id: ieee.adopted_standard.0137
+  identifier:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:aiee
+      number: '41'
+      type: 'No'
+      year: '1944'
+      original_format: short
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: '29'
+      publisher: ASA
+      year: '1944'
+      prefix: C
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+  representations:
+    human: AIEE No 41-1944 (ASA C29.1-1944)
+    urn: urn:ieee:aiee:41:1944
+  style: v3
+- id: ieee.adopted_standard.0138
+  identifier:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:aiee
+      number: '42'
+      type: 'No'
+      year: '1923'
+      original_format: short
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: '10'
+      publisher: ASA
+      year: '1924'
+      prefix: C
+      stage: Std
+  representations:
+    human: AIEE No 42-1923 (ASA C10-1924)
+    urn: urn:ieee:aiee:42:1923
+  style: v3
+- id: ieee.adopted_standard.0150
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -140,9 +337,9 @@
       stage: Std
   representations:
     human: AIEE No 511-1956 (IEEE Std 275)
-    urn: urn:ieee:aiee
+    urn: urn:ieee:aiee:511:1956
   style: v3
-- id: ieee.adopted_standard.0169
+- id: ieee.adopted_standard.0163
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -157,9 +354,32 @@
       stage: Std
   representations:
     human: AIEE No 750-1947 (IEEE Std 127)
-    urn: urn:ieee:aiee
+    urn: urn:ieee:aiee:750:1947
   style: v3
-- id: ieee.adopted_standard.0187
+- id: ieee.adopted_standard.0178
+  identifier:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:aiee
+      number: '91'
+      type: 'No'
+      year: '1962'
+      original_format: short
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: '32'
+      publisher: ASA
+      year: '1962'
+      prefix: "Y"
+      parts:
+      - '14'
+      separator: "."
+      stage: Std
+  representations:
+    human: AIEE No 91-1962 (ASA Y32.14-1962)
+    urn: urn:ieee:aiee:91:1962
+  style: v3
+- id: ieee.adopted_standard.0181
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -174,9 +394,187 @@
       stage: Std
   representations:
     human: AIEE No 950-1952 (IEEE Std 139)
-    urn: urn:ieee:aiee
+    urn: urn:ieee:aiee:950:1952
   style: v3
-- id: ieee.adopted_standard.0210
+- id: ieee.adopted_standard.0186
+  identifier:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:aiee
+      number: '12'
+      type: No.
+      year: '1934'
+      original_format: short
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: '57'
+      publisher: ASA
+      year: '1933'
+      prefix: C
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+  representations:
+    human: AIEE No. 12-1934 (ASA C57.1-1933)
+    urn: urn:ieee:aiee:12:1934
+  style: v3
+- id: ieee.adopted_standard.0197
+  identifier:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:aiee
+      number: '12'
+      type: Std
+      year: '1934'
+      original_format: short
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: '57'
+      publisher: ASA
+      year: '1933'
+      prefix: C
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+  representations:
+    human: AIEE Std 12-1934 (ASA C57.1-1933)
+    urn: urn:ieee:aiee:12:1934
+  style: v3
+- id: ieee.adopted_standard.0198
+  identifier:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:aiee
+      number: '15'
+      type: Std
+      year: '1944'
+      original_format: short
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: '19'
+      publisher: ASA
+      year: '1943'
+      prefix: C
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+  representations:
+    human: AIEE Std 15-1944 (ASA C19.1-1943)
+    urn: urn:ieee:aiee:15:1944
+  style: v3
+- id: ieee.adopted_standard.0199
+  identifier:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:aiee
+      number: '15'
+      type: Std
+      year: '1959'
+      original_format: short
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: '19'
+      publisher: ASA
+      year: '1959'
+      prefix: C
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+  representations:
+    human: AIEE Std 15-1959 (ASA C19.1-1959)
+    urn: urn:ieee:aiee:15:1959
+  style: v3
+- id: ieee.adopted_standard.0200
+  identifier:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:aiee
+      number: '30'
+      type: Std
+      year: '1937'
+      original_format: short
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: '8'
+      publisher: ASA
+      year: '1932'
+      prefix: C
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+  representations:
+    human: AIEE Std 30-1937 (ASA C8.1-1932)
+    urn: urn:ieee:aiee:30:1937
+  style: v3
+- id: ieee.adopted_standard.0201
+  identifier:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:aiee
+      number: '41'
+      type: Std
+      year: '1930'
+      original_format: short
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: 29A
+      publisher: ASA
+      year: '1930'
+      prefix: C
+      stage: Std
+  representations:
+    human: AIEE Std 41-1930 (ASA C29A-1930)
+    urn: urn:ieee:aiee:41:1930
+  style: v3
+- id: ieee.adopted_standard.0202
+  identifier:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:aiee
+      number: '41'
+      type: Std
+      year: '1944'
+      original_format: short
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: '29'
+      publisher: ASA
+      year: '1944'
+      prefix: C
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+  representations:
+    human: AIEE Std 41-1944 (ASA C29.1-1944)
+    urn: urn:ieee:aiee:41:1944
+  style: v3
+- id: ieee.adopted_standard.0203
+  identifier:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:aiee
+      number: '42'
+      type: Std
+      year: '1923'
+      original_format: short
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: '10'
+      publisher: ASA
+      year: '1924'
+      prefix: C
+      stage: Std
+  representations:
+    human: AIEE Std 42-1923 (ASA C10-1924)
+    urn: urn:ieee:aiee:42:1923
+  style: v3
+- id: ieee.adopted_standard.0204
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -191,12 +589,12 @@
       stage: Std
   representations:
     human: AIEE Std 511-1956 (IEEE Std 275)
-    urn: urn:ieee:aiee
+    urn: urn:ieee:aiee:511:1956
   style: v3
   non_normalized_aliases:
   - spelling: AIEE Std 511-1956 (IEEE 275)
     style: v3
-- id: ieee.adopted_standard.0211
+- id: ieee.adopted_standard.0205
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -211,12 +609,35 @@
       stage: Std
   representations:
     human: AIEE Std 750-1947 (IEEE Std 127)
-    urn: urn:ieee:aiee
+    urn: urn:ieee:aiee:750:1947
   style: v3
   non_normalized_aliases:
   - spelling: AIEE Std 750-1947 (IEEE 127)
     style: v3
-- id: ieee.adopted_standard.0217
+- id: ieee.adopted_standard.0210
+  identifier:
+    _type: pubid:ieee:adopted-standard
+    ieee_identifier:
+      _type: pubid:ieee:aiee
+      number: '91'
+      type: Std
+      year: '1962'
+      original_format: short
+    adopted_identifiers:
+    - _type: pubid:ieee:standard
+      number: '32'
+      publisher: ASA
+      year: '1962'
+      prefix: "Y"
+      parts:
+      - '14'
+      separator: "."
+      stage: Std
+  representations:
+    human: AIEE Std 91-1962 (ASA Y32.14-1962)
+    urn: urn:ieee:aiee:91:1962
+  style: v3
+- id: ieee.adopted_standard.0211
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -231,12 +652,12 @@
       stage: Std
   representations:
     human: AIEE Std 950-1952 (IEEE Std 139)
-    urn: urn:ieee:aiee
+    urn: urn:ieee:aiee:950:1952
   style: v3
   non_normalized_aliases:
   - spelling: AIEE Std 950-1952 (IEEE 139)
     style: v3
-- id: ieee.adopted_standard.0235
+- id: ieee.adopted_standard.0229
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -256,9 +677,9 @@
       stage: Std
   representations:
     human: ANSI C37.13-1973 (IEEE Std 20-1973)
-    urn: urn:ieee:ansi
+    urn: urn:ieee:ansi:C37.13:1973
   style: v3
-- id: ieee.adopted_standard.0240
+- id: ieee.adopted_standard.0234
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -278,9 +699,9 @@
       stage: Std
   representations:
     human: ANSI C37.27-1972 (IEEE Std 331-1972)
-    urn: urn:ieee:ansi
+    urn: urn:ieee:ansi:C37.27:1972
   style: v3
-- id: ieee.adopted_standard.0666
+- id: ieee.adopted_standard.0660
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -304,12 +725,12 @@
       stage: Std
   representations:
     human: ANSI/IEEE 802.5-1992 (ISO/IEC 8802-5)
-    urn: urn:ieee:ansi/ieee
+    urn: urn:ieee:ansi/ieee:802.5:1992
   style: v3
   non_normalized_aliases:
   - spelling: ANSI/IEEE Std 802.5-1992 (ISO/IEC 8802-5)
     style: v3
-- id: ieee.adopted_standard.0667
+- id: ieee.adopted_standard.0661
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -333,12 +754,12 @@
       stage: Std
   representations:
     human: ANSI/IEEE 802.5-1998 (ISO/IEC 8802-5)
-    urn: urn:ieee:ansi/ieee
+    urn: urn:ieee:ansi/ieee:802.5:1998
   style: v3
   non_normalized_aliases:
   - spelling: ANSI/IEEE Std 802.5-1998 (ISO/IEC 8802-5)
     style: v3
-- id: ieee.adopted_standard.0753
+- id: ieee.adopted_standard.0747
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -358,9 +779,9 @@
       stage: Std
   representations:
     human: ANSI/IEEE C37.92-1969 (IEEE Std 288-1969)
-    urn: urn:ieee:ansi/ieee
+    urn: urn:ieee:ansi/ieee:C37.92:1969
   style: v3
-- id: ieee.adopted_standard.0817
+- id: ieee.adopted_standard.0811
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -381,9 +802,9 @@
       stage: Std
   representations:
     human: IEC 61523-4 Edition 1.0 2015-03 (IEEE Std 1801-2013)
-    urn: urn:ieee:iec
+    urn: urn:ieee:iec:61523-4:2015
   style: v3
-- id: ieee.adopted_standard.0825
+- id: ieee.adopted_standard.0819
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -405,9 +826,9 @@
       stage: Std
   representations:
     human: IEC 62271-111 (IEEE Std C37.60-2018)
-    urn: urn:ieee:iec
+    urn: urn:ieee:iec:62271-111
   style: v3
-- id: ieee.adopted_standard.3932
+- id: ieee.adopted_standard.3925
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -421,18 +842,17 @@
       stage: D4
     adopted_identifiers:
     - _type: pubid:iec:international-standard
+      edition: '2'
       number: '60255'
       part: '24'
-      edition:
-        number: '2'
   representations:
     human: IEEE PC37.111/D4, January, 2012 (IEC 60255-24 ED2)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:PC37.111
   style: v3
   non_normalized_aliases:
   - spelling: IEEE PC37.111/D4, January 2012 (IEC 60255-24 ED2)
     style: v3
-- id: ieee.adopted_standard.4251
+- id: ieee.adopted_standard.4244
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -443,17 +863,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C55.1
-      part:
-        value: '1968'
+      number: C55.1
+      part: '1968'
       publisher:
         body: ANSI
   representations:
     human: IEEE Standard 18-1968 (ANSI C55.1-1968)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:18:1968
   style: v3
-- id: ieee.adopted_standard.4669
+- id: ieee.adopted_standard.4666
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -472,12 +890,12 @@
       stage: Std
   representations:
     human: IEEE Std 120-1955 (ASME 19.6-1955)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:120:1955
   style: v3
   non_normalized_aliases:
   - spelling: IEEE Std 120-1955 (ASME PTC 19.6-1955)
     style: v3
-- id: ieee.adopted_standard.4965
+- id: ieee.adopted_standard.4963
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -487,17 +905,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C37.24
-      part:
-        value: '1971'
+      number: C37.24
+      part: '1971'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 144-1971 (ANSI C37.24-1971)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:144:1971
   style: v3
-- id: ieee.adopted_standard.5061
+- id: ieee.adopted_standard.5059
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -507,17 +923,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C16.11
-      part:
-        value: '1971'
+      number: C16.11
+      part: '1971'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 149-1955 (ANSI C16.11-1971)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:149:1955
   style: v3
-- id: ieee.adopted_standard.5211
+- id: ieee.adopted_standard.5209
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -531,9 +945,9 @@
       year: '1952'
   representations:
     human: IEEE Std 159-1972 (52 IRE 7 S2)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:159:1972
   style: v3
-- id: ieee.adopted_standard.5398
+- id: ieee.adopted_standard.5396
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -543,20 +957,18 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C16.37
-      part:
-        value: '1971'
+      number: C16.37
+      part: '1971'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 167-1966 (ANSI C16.37-1971)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:167:1966
   style: v3
   non_normalized_aliases:
   - spelling: IEEE 167-1966 (ANSI C16.37-1971)
     style: v3
-- id: ieee.adopted_standard.5477
+- id: ieee.adopted_standard.5475
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -566,20 +978,18 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C16.26
-      part:
-        value: '1972'
+      number: C16.26
+      part: '1972'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 172-1971 (ANSI C16.26-1972)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:172:1971
   style: v3
   non_normalized_aliases:
   - spelling: IEEE No 172-1971 (ANSI C16.26-1972)
     style: v3
-- id: ieee.adopted_standard.5499
+- id: ieee.adopted_standard.5497
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -593,9 +1003,9 @@
       year: '1960'
   representations:
     human: IEEE Std 175-1960 (60 IRE 13 S1)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:175:1960
   style: v3
-- id: ieee.adopted_standard.5502
+- id: ieee.adopted_standard.5500
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -605,17 +1015,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C83.3
-      part:
-        value: '1951'
+      number: C83.3
+      part: '1951'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 176-1949 (ANSI C83.3-1951)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:176:1949
   style: v3
-- id: ieee.adopted_standard.5507
+- id: ieee.adopted_standard.5505
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -625,17 +1033,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C83.23
-      part:
-        value: '1960'
+      number: C83.23
+      part: '1960'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 178-1958 (ANSI C83.23-1960)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:178:1958
   style: v3
-- id: ieee.adopted_standard.5518
+- id: ieee.adopted_standard.5516
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -645,17 +1051,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C83.24
-      part:
-        value: '1962'
+      number: C83.24
+      part: '1962'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 179-1961 (ANSI C83.24-1962)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:179:1961
   style: v3
-- id: ieee.adopted_standard.5527
+- id: ieee.adopted_standard.5525
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -665,17 +1069,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C55.1
-      part:
-        value: '1968'
+      number: C55.1
+      part: '1968'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 18-1968 (ANSI C55.1-1968)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:18:1968
   style: v3
-- id: ieee.adopted_standard.5697
+- id: ieee.adopted_standard.5695
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -685,17 +1087,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C37.13
-      part:
-        value: '1973'
+      number: C37.13
+      part: '1973'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 20-1973 (ANSI C37.13-1973)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:20:1973
   style: v3
-- id: ieee.adopted_standard.5741
+- id: ieee.adopted_standard.5739
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -715,12 +1115,12 @@
       stage: Std
   representations:
     human: IEEE Std 21-1964 (ASA C76.1-1964)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:21:1964
   style: v3
   non_normalized_aliases:
   - spelling: IEEE No 21-1964 (ASA C76.1-1964)
     style: v3
-- id: ieee.adopted_standard.5742
+- id: ieee.adopted_standard.5740
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -730,20 +1130,18 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C16.40
-      part:
-        value: '1972'
+      number: C16.40
+      part: '1972'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 211-1969 (ANSI C16.40-1972)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:211:1969
   style: v3
   non_normalized_aliases:
   - spelling: IEEE No 211-1969 (ANSI C16.40-1972)
     style: v3
-- id: ieee.adopted_standard.5757
+- id: ieee.adopted_standard.5755
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -753,17 +1151,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: S1.5
-      part:
-        value: '1963'
+      number: S1.5
+      part: '1963'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 219-1961 (ANSI S1.5-1963)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:219:1961
   style: v3
-- id: ieee.adopted_standard.5764
+- id: ieee.adopted_standard.5762
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -773,17 +1169,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C76.2
-      part:
-        value: '1977'
+      number: C76.2
+      part: '1977'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 24-1977 (ANSI C76.2-1977)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:24:1977
   style: v3
-- id: ieee.adopted_standard.5854
+- id: ieee.adopted_standard.5852
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -793,17 +1187,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C36.91
-      part:
-        value: '1972'
+      number: C36.91
+      part: '1972'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 273-1967 (ANSI C36.91-1972)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:273:1967
   style: v3
-- id: ieee.adopted_standard.5899
+- id: ieee.adopted_standard.5897
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -813,20 +1205,18 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C16.42
-      part:
-        value: '1972'
+      number: C16.42
+      part: '1972'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 285-1968 (ANSI C16.42-1972)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:285:1968
   style: v3
   non_normalized_aliases:
   - spelling: IEEE No 285-1968 (ANSI C16.42-1972)
     style: v3
-- id: ieee.adopted_standard.5955
+- id: ieee.adopted_standard.5953
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -836,17 +1226,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: N42.2
-      part:
-        value: '1969'
+      number: N42.2
+      part: '1969'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 301-1969 (ANSI N42.2-1969)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:301:1969
   style: v3
-- id: ieee.adopted_standard.5980
+- id: ieee.adopted_standard.5978
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -856,20 +1244,18 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: Y32.2
-      part:
-        value: '1970'
+      number: Y32.2
+      part: '1970'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 315-1971 (ANSI Y32.2-1970)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:315:1971
   style: v3
   non_normalized_aliases:
   - spelling: IEEE 315-1971 (ANSI Y32.2-1970)
     style: v3
-- id: ieee.adopted_standard.5984
+- id: ieee.adopted_standard.5982
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -879,17 +1265,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: N45.3
-      part:
-        value: '1973'
+      number: N45.3
+      part: '1973'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 317-1972 (ANSI N45.3-1973)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:317:1972
   style: v3
-- id: ieee.adopted_standard.5992
+- id: ieee.adopted_standard.5990
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -899,17 +1283,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C37.010
-      part:
-        value: '1972'
+      number: C37.010
+      part: '1972'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 320-1972 (ANSI C37.010-1972)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:320:1972
   style: v3
-- id: ieee.adopted_standard.5993
+- id: ieee.adopted_standard.5991
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -919,17 +1301,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C37.61
-      part:
-        value: '1973'
+      number: C37.61
+      part: '1973'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 321-1973 (ANSI C37.61-1973)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:321:1973
   style: v3
-- id: ieee.adopted_standard.5994
+- id: ieee.adopted_standard.5992
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -939,17 +1319,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: Z210.2
-      part:
-        value: '1972'
+      number: Z210.2
+      part: '1972'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 322-1971 (ANSI Z210.2-1972)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:322:1971
   style: v3
-- id: ieee.adopted_standard.5999
+- id: ieee.adopted_standard.5997
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -959,17 +1337,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: N42.8
-      part:
-        value: '1972'
+      number: N42.8
+      part: '1972'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 325-1971 (ANSI N42.8-1972)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:325:1971
   style: v3
-- id: ieee.adopted_standard.6001
+- id: ieee.adopted_standard.5999
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -979,17 +1355,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C37.0721
-      part:
-        value: '1971'
+      number: C37.0721
+      part: '1971'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 328-1971 (ANSI C37.0721-1971)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:328:1971
   style: v3
-- id: ieee.adopted_standard.6002
+- id: ieee.adopted_standard.6000
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -999,17 +1373,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C37.27
-      part:
-        value: '1972'
+      number: C37.27
+      part: '1972'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 331-1972 (ANSI C37.27-1972)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:331:1972
   style: v3
-- id: ieee.adopted_standard.6016
+- id: ieee.adopted_standard.6014
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1019,18 +1391,17 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: N41.3
+      number: N41.3
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 338-1971 (ANSI N41.3)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:338:1971
   style: v3
   non_normalized_aliases:
   - spelling: IEEE Std 338-1971/ANSI N41.3
     style: v3
-- id: ieee.adopted_standard.6021
+- id: ieee.adopted_standard.6019
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1040,17 +1411,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C37.074
-      part:
-        value: '1972'
+      number: C37.074
+      part: '1972'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 339-1972 (ANSI C37.074-1972)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:339:1972
   style: v3
-- id: ieee.adopted_standard.6022
+- id: ieee.adopted_standard.6020
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1060,17 +1429,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C37.076
-      part:
-        value: '1972'
+      number: C37.076
+      part: '1972'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 340-1972 (ANSI C37.076-1972)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:340:1972
   style: v3
-- id: ieee.adopted_standard.6023
+- id: ieee.adopted_standard.6021
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1080,17 +1447,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C37.073
-      part:
-        value: '1972'
+      number: C37.073
+      part: '1972'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 341-1972 (ANSI C37.073-1972)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:341:1972
   style: v3
-- id: ieee.adopted_standard.6024
+- id: ieee.adopted_standard.6022
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1100,17 +1465,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C37.0731
-      part:
-        value: '1973'
+      number: C37.0731
+      part: '1973'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 342-1973 (ANSI C37.0731-1973)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:342:1973
   style: v3
-- id: ieee.adopted_standard.6025
+- id: ieee.adopted_standard.6023
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1120,17 +1483,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C37.078
-      part:
-        value: '1972'
+      number: C37.078
+      part: '1972'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 343-1972 (ANSI C37.078-1972)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:343:1972
   style: v3
-- id: ieee.adopted_standard.6026
+- id: ieee.adopted_standard.6024
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1140,15 +1501,14 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: N41.7
+      number: N41.7
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 344-1971 (ANSI N41.7)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:344:1971
   style: v3
-- id: ieee.adopted_standard.6030
+- id: ieee.adopted_standard.6028
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1158,17 +1518,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C57.100
-      part:
-        value: '1974'
+      number: C57.100
+      part: '1974'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 345-1972 (ANSI C57.100-1974)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:345:1972
   style: v3
-- id: ieee.adopted_standard.6032
+- id: ieee.adopted_standard.6030
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1178,17 +1536,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: S4.6
-      part:
-        value: '1973'
+      number: S4.6
+      part: '1973'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 347-1972 (ANSI S4.6-1973)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:347:1972
   style: v3
-- id: ieee.adopted_standard.6043
+- id: ieee.adopted_standard.6041
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1198,17 +1554,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C37.95
-      part:
-        value: '1974'
+      number: C37.95
+      part: '1974'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 357-1973 (ANSI C37.95-1974)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:357:1973
   style: v3
-- id: ieee.adopted_standard.6063
+- id: ieee.adopted_standard.6061
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1218,17 +1572,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: N41.2
-      part:
-        value: '1972'
+      number: N41.2
+      part: '1972'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 379-1972 (ANSI N41.2-1972)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:379:1972
   style: v3
-- id: ieee.adopted_standard.6083
+- id: ieee.adopted_standard.6081
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1238,17 +1590,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C119.2
-      part:
-        value: '1974'
+      number: C119.2
+      part: '1974'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 386-1974 (ANSI C119.2-1974)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:386:1974
   style: v3
-- id: ieee.adopted_standard.6130
+- id: ieee.adopted_standard.6128
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1258,15 +1608,14 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: N41.17
+      number: N41.17
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 420-1973 (ANSI N41.17)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:420:1973
   style: v3
-- id: ieee.adopted_standard.6163
+- id: ieee.adopted_standard.6161
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1276,15 +1625,14 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C63.11
+      number: C63.11
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 430-1972 (ANSI C63.11)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:430:1972
   style: v3
-- id: ieee.adopted_standard.6359
+- id: ieee.adopted_standard.6357
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1294,21 +1642,19 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: C37.86
-      part:
-        value: '1975'
+      number: C37.86
+      part: '1975'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 588-1976 (ANSI C37.86-1975)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:588:1976
   style: v3
   non_normalized_aliases:
   - spelling: IEEE Std 588-1976 (ANSI C37.86-1975) (Revision of IEEE Std 288-1969
       and IEEE Std 328-1971)
     style: v3
-- id: ieee.adopted_standard.7025
+- id: ieee.adopted_standard.7023
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1318,17 +1664,15 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:ansi:standard
-      number:
-        value: Y32.14
-      part:
-        value: '1973'
+      number: Y32.14
+      part: '1973'
       publisher:
         body: ANSI
   representations:
     human: IEEE Std 91-1973 (ANSI Y32.14-1973)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:91:1973
   style: v3
-- id: ieee.adopted_standard.7209
+- id: ieee.adopted_standard.7207
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1342,17 +1686,16 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:iec:international-standard
-      number: '60255'
-      part: '24'
       year: '2013'
       month: '04'
-      edition:
-        number: '2'
+      edition: '2'
+      number: '60255'
+      part: '24'
   representations:
     human: IEEE Std C37.111-2013 (IEC 60255-24:2013-04 ED2)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:C37.111:2013
   style: v3
-- id: ieee.adopted_standard.7210
+- id: ieee.adopted_standard.7208
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1366,22 +1709,21 @@
       stage: Std
     adopted_identifiers:
     - _type: pubid:iec:international-standard
-      number: '60255'
-      part: '24'
       year: '2013'
       month: '04'
-      edition:
-        number: '2.0'
+      edition: '2.0'
+      number: '60255'
+      part: '24'
   representations:
     human: IEEE Std C37.111-2013 (IEC 60255-24:2013-04 ED2.0)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:C37.111:2013
   style: v3
   non_normalized_aliases:
   - spelling: IEEE Std C37.111-2013 (IEC 60255-24 Edition 2.0 2013-04)
     style: v3
   - spelling: IEEE Std C37.111-2013 (IEC 60255-24 Edition 2.0 2013-04) - Redline
     style: v3
-- id: ieee.adopted_standard.8837
+- id: ieee.adopted_standard.8835
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1403,12 +1745,12 @@
       stage: P
   representations:
     human: IEEE Unapproved 802.3/D1.1, Jan 2009 (IEEE P802.3bb)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:802.3
   style: v3
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std P802.3-2008 (P802.3bb)/Cor 1/D1.1, Jan 2009
     style: v3
-- id: ieee.adopted_standard.8838
+- id: ieee.adopted_standard.8836
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1430,12 +1772,12 @@
       stage: P
   representations:
     human: IEEE Unapproved 802.3/D2.0, Jul 2009 (IEEE P802.3bb)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:802.3
   style: v3
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std P802.3-2008 (P802.3bb)/Cor 1/D2.0, Jul 2009
     style: v3
-- id: ieee.adopted_standard.9038
+- id: ieee.adopted_standard.9036
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1452,12 +1794,12 @@
       stage: Std
   representations:
     human: IEEE Unapproved P1635/D4 January, 2010 (ASHRAE 21)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:P1635
   style: v3
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std P1635/ASHRAE 21_D4, Jan 2010
     style: v3
-- id: ieee.adopted_standard.9166
+- id: ieee.adopted_standard.9164
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1476,12 +1818,12 @@
       part: '113'
   representations:
     human: IEEE Unapproved PC37.082/D2, Jan 2010 (IEC 62271-113)
-    urn: urn:ieee:ieee
+    urn: urn:ieee:ieee:PC37.082
   style: v3
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std PC37.082_IEC62271-113/D2, Jan 2010
     style: v3
-- id: ieee.adopted_standard.9386
+- id: ieee.adopted_standard.9384
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1498,12 +1840,12 @@
       stage: Std
   representations:
     human: NACE SP0215-2015 (IEEE Std 1839-2014)
-    urn: urn:ieee:nace
+    urn: urn:ieee:nace:SP0215:2015
   style: v3
   non_normalized_aliases:
   - spelling: NACE SP0215-2015/IEEE Std 1839-2014
     style: v3
-- id: ieee.adopted_standard.9387
+- id: ieee.adopted_standard.9385
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1520,12 +1862,12 @@
       stage: Std
   representations:
     human: NACE SP0315-2015 (IEEE Std 1835-2014)
-    urn: urn:ieee:nace
+    urn: urn:ieee:nace:SP0315:2015
   style: v3
   non_normalized_aliases:
   - spelling: NACE SP0315-2015/IEEE Std 1835-2014
     style: v3
-- id: ieee.adopted_standard.9388
+- id: ieee.adopted_standard.9386
   identifier:
     _type: pubid:ieee:adopted-standard
     ieee_identifier:
@@ -1542,7 +1884,7 @@
       stage: Std
   representations:
     human: NACE SP0415-2015 (IEEE Std 1895-2014)
-    urn: urn:ieee:nace
+    urn: urn:ieee:nace:SP0415:2015
   style: v3
   non_normalized_aliases:
   - spelling: NACE SP0415-2015/IEEE Std 1895-2014

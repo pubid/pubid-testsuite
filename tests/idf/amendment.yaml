@@ -2,10 +2,8 @@
 - id: idf.amendment.0005
   identifier:
     _type: pubid:idf:amendment
-    number:
-      value: '1'
-    date:
-      year: '2012'
+    number: '1'
+    year: '2012'
     type:
       name: Amendment
       abbr: AMD
@@ -25,12 +23,9 @@
       long_abbr: AMD
     base:
       _type: pubid:idf:international-standard
-      number:
-        value: '140'
-      part:
-        value: '1'
-      date:
-        year: '2007'
+      number: '140'
+      part: '1'
+      year: '2007'
       publisher:
         body: IDF
       type:
@@ -62,10 +57,8 @@
 - id: idf.amendment.0007
   identifier:
     _type: pubid:idf:amendment
-    number:
-      value: '1'
-    date:
-      year: '2023'
+    number: '1'
+    year: '2023'
     type:
       name: Amendment
       abbr: AMD
@@ -85,10 +78,8 @@
       long_abbr: AMD
     base:
       _type: pubid:idf:international-standard
-      number:
-        value: '146'
-      date:
-        year: '2003'
+      number: '146'
+      year: '2003'
       publisher:
         body: IDF
       type:

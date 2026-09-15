@@ -1,75 +1,5 @@
 ---
-- id: ieee.interpretation_identifier.0002
-  identifier:
-    _type: pubid:ieee:interpretation-identifier
-    year: '1992'
-    interpretation: true
-    stage: Std
-  representations:
-    human: " 1003.2-1992/INT"
-    urn: urn:ieee:ieee:interpretation:1003.2:1992
-  style: v3
-  non_normalized_aliases:
-  - spelling: IEEE Std 1003.2-1992/INT, Dec. 1994 Ed.
-    style: v3
-  - spelling: IEEE Std 1003.2-1992/INT, March 1994 Edition
-    style: v3
-- id: ieee.interpretation_identifier.0003
-  identifier:
-    _type: pubid:ieee:interpretation-identifier
-    year: '1994'
-    month: Dec.
-    interpretation: true
-    stage: Std
-  representations:
-    human: " 1003.2/INT, Dec. 1994"
-    urn: urn:ieee:ieee:interpretation:1003.2:1994:Dec.
-  style: v3
-  non_normalized_aliases:
-  - spelling: IEEE Std 1003.2/INT, Dec. 1994
-    style: v3
-- id: ieee.interpretation_identifier.0004
-  identifier:
-    _type: pubid:ieee:interpretation-identifier
-    year: '1994'
-    month: March
-    interpretation: true
-    stage: Std
-  representations:
-    human: " 1003.2/INT, March 1994"
-    urn: urn:ieee:ieee:interpretation:1003.2:1994:March
-  style: v3
-  non_normalized_aliases:
-  - spelling: IEEE Std 1003.2/INT, March 1994
-    style: v3
-- id: ieee.interpretation_identifier.0005
-  identifier:
-    _type: pubid:ieee:interpretation-identifier
-    year: '1992'
-    interpretation: true
-    stage: Std
-  representations:
-    human: " 1003.5-1992/INT"
-    urn: urn:ieee:ieee:interpretation:1003.5:1992
-  style: v3
-  non_normalized_aliases:
-  - spelling: IEEE Std 1003.5-1992/INT Mar 1994
-    style: v3
-- id: ieee.interpretation_identifier.0006
-  identifier:
-    _type: pubid:ieee:interpretation-identifier
-    year: '1994'
-    month: Mar
-    interpretation: true
-    stage: Std
-  representations:
-    human: " 1003.5/INT, Mar 1994"
-    urn: urn:ieee:ieee:interpretation:1003.5:1994:Mar
-  style: v3
-  non_normalized_aliases:
-  - spelling: IEEE Std 1003.5/INT, Mar 1994
-    style: v3
-- id: ieee.interpretation_identifier.4259
+- id: ieee.interpretation_identifier.4252
   identifier:
     _type: pubid:ieee:interpretation-identifier
     year: '1992'
@@ -83,12 +13,90 @@
       stage: Std
   representations:
     human: IEEE Std 1003.1-1988/INT-1992
-    urn: urn:ieee:ieee:interpretation:1992
+    urn: urn:ieee:ieee:interpretation:1003.1:1992
   style: v3
   non_normalized_aliases:
   - spelling: IEEE Std 1003.1-1988/INT, 1992 Edition
     style: v3
-- id: ieee.interpretation_identifier.4444
+- id: ieee.interpretation_identifier.4269
+  identifier:
+    _type: pubid:ieee:interpretation-identifier
+    year: '1994'
+    base:
+      _type: pubid:ieee:standard
+      number: '1003'
+      year: '1992'
+      parts:
+      - '2'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 1003.2-1992/INT-1994
+    urn: urn:ieee:ieee:interpretation:1003.2:1994
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1003.2-1992/INT, Dec. 1994 Ed.
+    style: v3
+  - spelling: IEEE Std 1003.2-1992/INT, March 1994 Edition
+    style: v3
+- id: ieee.interpretation_identifier.4270
+  identifier:
+    _type: pubid:ieee:interpretation-identifier
+    year: '1994'
+    base:
+      _type: pubid:ieee:standard
+      number: '1003'
+      parts:
+      - '2'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 1003.2/INT-1994
+    urn: urn:ieee:ieee:interpretation:1003.2:1994
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1003.2/INT, Dec. 1994
+    style: v3
+  - spelling: IEEE Std 1003.2/INT, March 1994
+    style: v3
+- id: ieee.interpretation_identifier.4276
+  identifier:
+    _type: pubid:ieee:interpretation-identifier
+    year: '1994'
+    base:
+      _type: pubid:ieee:standard
+      number: '1003'
+      year: '1992'
+      parts:
+      - '5'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 1003.5-1992/INT-1994
+    urn: urn:ieee:ieee:interpretation:1003.5:1994
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1003.5-1992/INT Mar 1994
+    style: v3
+- id: ieee.interpretation_identifier.4278
+  identifier:
+    _type: pubid:ieee:interpretation-identifier
+    year: '1994'
+    base:
+      _type: pubid:ieee:standard
+      number: '1003'
+      parts:
+      - '5'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 1003.5/INT-1994
+    urn: urn:ieee:ieee:interpretation:1003.5:1994
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1003.5/INT, Mar 1994
+    style: v3
+- id: ieee.interpretation_identifier.4441
   identifier:
     _type: pubid:ieee:interpretation-identifier
     year: '1991'
@@ -98,5 +106,5 @@
       stage: Std
   representations:
     human: IEEE Std 1076/INT-1991
-    urn: urn:ieee:ieee:interpretation:1991
+    urn: urn:ieee:ieee:interpretation:1076:1991
   style: v3

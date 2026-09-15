@@ -146,7 +146,11 @@ module Exporter
     roots = [File.join(REPO, "reference-docs", flavor, "identifiers"),
              File.join(REPO, "reference-docs", flavor)]
     pass_files = roots.flat_map do |root|
-      %w[pass full].flat_map { |cat| Dir[File.join(root, cat, "*.txt")] }
+      files = %w[pass full].flat_map { |cat| Dir[File.join(root, cat, "*.txt")] }
+      # Flat v1-style flavor dirs keep their lists at the top level
+      # (the gem's layout is authoritative; the mirror follows it).
+      files += Dir[File.join(root, "*.txt")].reject { |f| File.basename(f) =~ /\A(SUMMARY|README)/ } if root.end_with?("/#{flavor}")
+      files
     end.uniq
 
     debt = []

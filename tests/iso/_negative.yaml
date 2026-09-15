@@ -3,9 +3,9 @@
   input: EN 12643:2014
   expect:
     error:
-      code: parse_failed
+      code: unclassified
 - id: iso.neg.technical_specification.0001
   input: CEN/TS 15370-1:2006
   expect:
     error:
-      code: parse_failed
+      code: unclassified

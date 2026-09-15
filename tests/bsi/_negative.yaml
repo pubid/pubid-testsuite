@@ -195,206 +195,196 @@
     error:
       code: unclassified
 - id: bsi.neg.unknown.0040
-  input: DD ENV 206:1992
-  notes: fail fixture unexpectedly parsed - reclassify
-- id: bsi.neg.unknown.0041
-  input: DD ENV 41112:1991
-  notes: fail fixture unexpectedly parsed - reclassify
-- id: bsi.neg.unknown.0042
-  input: DD ENV 41511:1991
-  notes: fail fixture unexpectedly parsed - reclassify
-- id: bsi.neg.unknown.0043
   input: EP 200 Version 3.0
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0044
+- id: bsi.neg.unknown.0041
   input: BS EN ISO 3506-1/2:2020 ExComm
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0045
+- id: bsi.neg.unknown.0042
   input: BSI Flex 1903 v2.0 2024-06
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0046
+- id: bsi.neg.unknown.0043
   input: 'BSI Flex 2006: v1.0:2025-07'
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0047
+- id: bsi.neg.unknown.0044
   input: 'BSI Flex 2007: v1.0:2025-07'
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0048
+- id: bsi.neg.unknown.0045
   input: PD 6627:2001 Issue 3.1
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0049
+- id: bsi.neg.unknown.0046
   input: BS EN 100114-1/Issue 2:1994
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0050
+- id: bsi.neg.unknown.0047
   input: BS EN 100114-1/Issue 1:1994
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0051
+- id: bsi.neg.unknown.0048
   input: PD 854a:1951
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0052
+- id: bsi.neg.unknown.0049
   input: PD CR R210-010:2002
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0053
-  input: PD ES 59008-1:2000
-  notes: fail fixture unexpectedly parsed - reclassify
-- id: bsi.neg.unknown.0054
-  input: PD ES 59008-6-1:1999
-  notes: fail fixture unexpectedly parsed - reclassify
-- id: bsi.neg.unknown.0055
+- id: bsi.neg.unknown.0050
   input: PD IEC WT 01:2001
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0056
+- id: bsi.neg.unknown.0051
   input: PD ISO/IEC TS 18013-6:2025 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0057
+- id: bsi.neg.unknown.0052
   input: BS EN 13557:2024 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0058
+- id: bsi.neg.unknown.0053
   input: BS EN 14983:2024 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0059
+- id: bsi.neg.unknown.0054
   input: BS EN 1570-1:2024 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0060
+- id: bsi.neg.unknown.0055
   input: BS EN 16307-5:2023 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0061
+- id: bsi.neg.unknown.0056
   input: BS EN 50655-1:2023 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0062
+- id: bsi.neg.unknown.0057
   input: BS EN IEC 61300-2-1:2023 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0063
+- id: bsi.neg.unknown.0058
   input: BS EN IEC 61300-2-18:2023 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0064
+- id: bsi.neg.unknown.0059
   input: BS EN IEC 61753-021-02:2023 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0065
+- id: bsi.neg.unknown.0060
   input: BS EN IEC 61753-021-06:2023 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0066
+- id: bsi.neg.unknown.0061
   input: BS EN ISO 10592:2022 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0067
+- id: bsi.neg.unknown.0062
   input: BS EN ISO 13704:2022 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0068
+- id: bsi.neg.unknown.0063
   input: BS EN ISO 14723:2025 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0069
+- id: bsi.neg.unknown.0064
   input: BS EN ISO 15527:2018 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0070
+- id: bsi.neg.unknown.0065
   input: BS EN ISO 15527:2022 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0071
+- id: bsi.neg.unknown.0066
   input: BS EN ISO 25457:2023 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0072
+- id: bsi.neg.unknown.0067
   input: BS EN ISO/IEEE 11073-10103:2025 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0073
+- id: bsi.neg.unknown.0068
   input: BS HD 60364-8-1:2019 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0074
+- id: bsi.neg.unknown.0069
   input: BS HD 60364-8-2:2011+A11:2019 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0075
+- id: bsi.neg.unknown.0070
   input: BS IEC/IEEE 62582-1:2024 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0076
+- id: bsi.neg.unknown.0071
   input: BS ISO 15179 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0077
+- id: bsi.neg.unknown.0072
   input: BS SP 18 and 19:2025 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0078
+- id: bsi.neg.unknown.0073
+  input: PD CEN ISO/TS 19166:2025 - TC
+  expect:
+    error:
+      code: unclassified
+- id: bsi.neg.unknown.0074
   input: PD CLC/TS 50136-9:2017 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0079
+- id: bsi.neg.unknown.0075
   input: PD IEC GUIDE 115:2023 - TC
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0080
+- id: bsi.neg.unknown.0076
   input: PD ISO 22000:2018 Handbook
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0081
+- id: bsi.neg.unknown.0077
   input: PD ISO 45001:2018 Handbook
   expect:
     error:
       code: unclassified
-- id: bsi.neg.unknown.0082
+- id: bsi.neg.unknown.0078
   input: PP 7722:2006 CD & BOOK
   expect:
     error:

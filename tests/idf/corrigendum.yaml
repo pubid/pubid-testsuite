@@ -2,10 +2,8 @@
 - id: idf.corrigendum.0008
   identifier:
     _type: pubid:idf:corrigendum
-    number:
-      value: '1'
-    date:
-      year: '2009'
+    number: '1'
+    year: '2009'
     type:
       name: Corrigendum
       abbr: COR
@@ -25,12 +23,9 @@
       long_abbr: COR
     base:
       _type: pubid:idf:international-standard
-      number:
-        value: '148'
-      part:
-        value: '1'
-      date:
-        year: '2008'
+      number: '148'
+      part: '1'
+      year: '2008'
       publisher:
         body: IDF
       type:

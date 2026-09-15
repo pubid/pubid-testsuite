@@ -59,8 +59,13 @@ module Validator
   def fixture_paths(flavor, categories)
     roots = [File.join(REPO, "reference-docs", flavor, "identifiers"),
              File.join(REPO, "reference-docs", flavor)]
+    passish = (categories & %w[pass full]).any?
     roots.flat_map do |root|
-      categories.flat_map { |cat| Dir[File.join(root, cat, "*.txt")] }
+      files = categories.flat_map { |cat| Dir[File.join(root, cat, "*.txt")] }
+      # Flat v1-style flavor dirs keep their lists at the top level - they
+      # are PASS data only, never fail lines.
+      files += Dir[File.join(root, "*.txt")].reject { |f| File.basename(f) =~ /\A(SUMMARY|README)/ } if passish && root.end_with?("/#{flavor}")
+      files
     end.uniq
   end
 

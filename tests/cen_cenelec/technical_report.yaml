@@ -1,79 +1,64 @@
 ---
-- id: cen_cenelec.technical_report.0010
+- id: cen_cenelec.technical_report.0014
   identifier:
     _type: pubid:cencenelec:technical-report
-    number:
-      value: '17602'
-    part:
-      value: 80-12
-    date:
-      year: '2021'
-    publisher:
-      body: CEN
+    number: '17602'
+    part: 80-12
+    year: '2021'
+    publisher: CEN
     copublishers:
-    - body: CLC
-    type:
-      abbr: TR
+    - CLC
   representations:
     human: CEN/CLC/TR 17602-80-12:2021
     urn: urn:cen:cen-clc:17602-80-12:2021
   style: v3
-- id: cen_cenelec.technical_report.0012
+- id: cen_cenelec.technical_report.0016
   identifier:
     _type: pubid:cencenelec:technical-report
-    number:
-      value: '16411'
-    date:
-      year: '2022'
-    publisher:
-      body: CEN
-    type:
-      abbr: TR
+    number: '12101'
+    part: '5'
+    year: '2005'
+    publisher: CEN
+  representations:
+    human: CEN/TR 12101-5:2005
+    urn: urn:cen:cen:12101-5:2005
+  style: v3
+- id: cen_cenelec.technical_report.0017
+  identifier:
+    _type: pubid:cencenelec:technical-report
+    number: '16411'
+    year: '2022'
+    publisher: CEN
   representations:
     human: CEN/TR 16411:2022
     urn: urn:cen:cen:16411:2022
   style: v3
-- id: cen_cenelec.technical_report.0013
+- id: cen_cenelec.technical_report.0018
   identifier:
     _type: pubid:cencenelec:technical-report
-    number:
-      value: '17654'
-    date:
-      year: '2021'
-    publisher:
-      body: CEN
-    type:
-      abbr: TR
+    number: '17654'
+    year: '2021'
+    publisher: CEN
   representations:
     human: CEN/TR 17654:2021
     urn: urn:cen:cen:17654:2021
   style: v3
-- id: cen_cenelec.technical_report.0014
+- id: cen_cenelec.technical_report.0019
   identifier:
     _type: pubid:cencenelec:technical-report
-    number:
-      value: '17833'
-    date:
-      year: '2022'
-    publisher:
-      body: CEN
-    type:
-      abbr: TR
+    number: '17833'
+    year: '2022'
+    publisher: CEN
   representations:
     human: CEN/TR 17833:2022
     urn: urn:cen:cen:17833:2022
   style: v3
-- id: cen_cenelec.technical_report.0019
+- id: cen_cenelec.technical_report.0024
   identifier:
     _type: pubid:cencenelec:technical-report
-    number:
-      value: '62125'
-    date:
-      year: '2008'
-    publisher:
-      body: CLC
-    type:
-      abbr: TR
+    number: '62125'
+    year: '2008'
+    publisher: CLC
   representations:
     human: CLC/TR 62125:2008
     urn: urn:cen:clc:62125:2008

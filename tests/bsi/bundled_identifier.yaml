@@ -1,86 +1,70 @@
 ---
-- id: bsi.bundled_identifier.0063
+- id: bsi.bundled_identifier.0072
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '1580'
+      number: '1580'
     - _type: pubid:bsi:identifier
-      number:
-        value: '1580'
-      part:
-        value: '1'
+      number: '1580'
+      part: '1'
     - _type: pubid:bsi:identifier
-      number:
-        value: '1580'
-      part:
-        value: '2'
+      number: '1580'
+      part: '2'
     common_year:
       year: '1962'
     bundle_type: Parts
   representations:
     human: BS 1580:Parts 1 and 2:1962
-    urn: urn:bsi:bs
+    urn: urn:bsi:bs:1580
   style: v3
-- id: bsi.bundled_identifier.0121
+- id: bsi.bundled_identifier.0132
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '2316'
+      number: '2316'
     - _type: pubid:bsi:identifier
-      number:
-        value: '2316'
-      part:
-        value: '1'
+      number: '2316'
+      part: '1'
     - _type: pubid:bsi:identifier
-      number:
-        value: '2316'
-      part:
-        value: '2'
+      number: '2316'
+      part: '2'
     common_year:
       year: '1968'
     bundle_type: Parts
   representations:
     human: BS 2316:Parts 1 and 2:1968
-    urn: urn:bsi:bs
+    urn: urn:bsi:bs:2316
   style: v3
-- id: bsi.bundled_identifier.0125
+- id: bsi.bundled_identifier.0136
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '2521'
+      number: '2521'
     - _type: pubid:bsi:identifier
-      number:
-        value: '2523'
+      number: '2523'
     separators:
     - " and "
     common_year:
       year: '1966'
   representations:
     human: BS 2521 and 2523:1966
-    urn: urn:bsi:bs
+    urn: urn:bsi:bs:2521
   style: v3
-- id: bsi.bundled_identifier.0126
+- id: bsi.bundled_identifier.0137
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '2521'
+      number: '2521'
     - _type: pubid:bsi:identifier
-      number:
-        value: '2522'
+      number: '2522'
     - _type: pubid:bsi:identifier
-      number:
-        value: '2523'
+      number: '2523'
     - _type: pubid:bsi:identifier
-      number:
-        value: '2524'
+      number: '2524'
     separators:
     - ","
     - ","
@@ -89,37 +73,33 @@
       year: '1954'
   representations:
     human: BS 2521,2522,2523 and 2524:1954
-    urn: urn:bsi:bs
+    urn: urn:bsi:bs:2521
   style: v3
-- id: bsi.bundled_identifier.0128
+- id: bsi.bundled_identifier.0139
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '2637'
+      number: '2637'
     - _type: pubid:bsi:identifier
-      number:
-        value: '2638'
+      number: '2638'
     separators:
     - " and "
     common_year:
       year: '1956'
   representations:
     human: BS 2637 and 2638:1956
-    urn: urn:bsi:bs
+    urn: urn:bsi:bs:2637
   style: v3
-- id: bsi.bundled_identifier.0217
+- id: bsi.bundled_identifier.0229
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '68'
+      number: '68'
       prefix: 2SP
     - _type: pubid:bsi:identifier
-      number:
-        value: '71'
+      number: '71'
       prefix: 2SP
       explicit_prefix: true
       explicit_publisher: true
@@ -129,154 +109,126 @@
       year: '1973'
   representations:
     human: BS 2SP 68 to BS 2SP 71:1973
-    urn: urn:bsi:bs
-  roundtrip: false
+    urn: urn:bsi:bs:68
   style: v3
-- id: bsi.bundled_identifier.0246
+- id: bsi.bundled_identifier.0258
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '3382'
+      number: '3382'
     - _type: pubid:bsi:identifier
-      number:
-        value: '3382'
-      part:
-        value: '1'
+      number: '3382'
+      part: '1'
     - _type: pubid:bsi:identifier
-      number:
-        value: '3382'
-      part:
-        value: '2'
+      number: '3382'
+      part: '2'
     common_year:
       year: '1961'
     bundle_type: Parts
   representations:
     human: BS 3382:Parts 1 and 2:1961
-    urn: urn:bsi:bs
+    urn: urn:bsi:bs:3382
   style: v3
-- id: bsi.bundled_identifier.0362
+- id: bsi.bundled_identifier.0375
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '4048'
+      number: '4048'
     - _type: pubid:bsi:identifier
-      number:
-        value: '4048'
-      part:
-        value: '1'
+      number: '4048'
+      part: '1'
     - _type: pubid:bsi:identifier
-      number:
-        value: '4048'
-      part:
-        value: '2'
+      number: '4048'
+      part: '2'
     common_year:
       year: '1966'
     bundle_type: Parts
   representations:
     human: BS 4048:Parts 1 and 2:1966
-    urn: urn:bsi:bs
+    urn: urn:bsi:bs:4048
   style: v3
-- id: bsi.bundled_identifier.0514
+- id: bsi.bundled_identifier.0527
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '558'
+      number: '558'
     - _type: pubid:bsi:identifier
-      number:
-        value: '564'
+      number: '564'
     separators:
     - " and "
     common_year:
       year: '1970'
   representations:
     human: BS 558 and 564:1970
-    urn: urn:bsi:bs
+    urn: urn:bsi:bs:558
   style: v3
-- id: bsi.bundled_identifier.0569
+- id: bsi.bundled_identifier.0585
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '9070'
+      number: '9070'
     - _type: pubid:bsi:identifier
-      number:
-        value: '9070'
-      part:
-        value: '1'
+      number: '9070'
+      part: '1'
     - _type: pubid:bsi:identifier
-      number:
-        value: '9070'
-      part:
-        value: '2'
+      number: '9070'
+      part: '2'
     common_year:
       year: '1969'
     bundle_type: Sections
   representations:
     human: BS 9070:Sections 1 and 2:1969
-    urn: urn:bsi:bs
+    urn: urn:bsi:bs:9070
   style: v3
-- id: bsi.bundled_identifier.0572
+- id: bsi.bundled_identifier.0588
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '9113'
-      part:
-        value: N001
+      number: '9113'
+      part: N001
       space_separated_part: true
     - _type: pubid:bsi:identifier
-      number:
-        value: '004'
+      number: '004'
     separators:
     - " to "
     common_year:
       year: '1973'
   representations:
     human: BS 9113 N001 to 004:1973
-    urn: urn:bsi:bs
-  roundtrip: false
+    urn: urn:bsi:bs:9113
   style: v3
-- id: bsi.bundled_identifier.0574
+- id: bsi.bundled_identifier.0590
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '9131'
-      part:
-        value: N001
+      number: '9131'
+      part: N001
       space_separated_part: true
     - _type: pubid:bsi:identifier
-      number:
-        value: '016'
+      number: '016'
     separators:
     - " to "
     common_year:
       year: '1974'
   representations:
     human: BS 9131 N001 to 016:1974
-    urn: urn:bsi:bs
-  roundtrip: false
+    urn: urn:bsi:bs:9131
   style: v3
-- id: bsi.bundled_identifier.0777
+- id: bsi.bundled_identifier.0842
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '10'
+      number: '10'
       prefix: SP
     - _type: pubid:bsi:identifier
-      number:
-        value: '11'
+      number: '11'
       prefix: SP
     separators:
     - " & "
@@ -284,20 +236,17 @@
       year: '1949'
   representations:
     human: BS SP 10 & 11:1949
-    urn: urn:bsi:bs
-  roundtrip: false
+    urn: urn:bsi:bs:10
   style: v3
-- id: bsi.bundled_identifier.0781
+- id: bsi.bundled_identifier.0846
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '115'
+      number: '115'
       prefix: SP
     - _type: pubid:bsi:identifier
-      number:
-        value: '117'
+      number: '117'
       prefix: SP
     separators:
     - " to "
@@ -305,20 +254,17 @@
       year: '1956'
   representations:
     human: BS SP 115 to 117:1956
-    urn: urn:bsi:bs
-  roundtrip: false
+    urn: urn:bsi:bs:115
   style: v3
-- id: bsi.bundled_identifier.0784
+- id: bsi.bundled_identifier.0849
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '122'
+      number: '122'
       prefix: SP
     - _type: pubid:bsi:identifier
-      number:
-        value: '125'
+      number: '125'
       prefix: SP
     separators:
     - " TO "
@@ -326,20 +272,17 @@
       year: '2016'
   representations:
     human: BS SP 122 TO 125:2016
-    urn: urn:bsi:bs
-  roundtrip: false
+    urn: urn:bsi:bs:122
   style: v3
-- id: bsi.bundled_identifier.0785
+- id: bsi.bundled_identifier.0850
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '122'
+      number: '122'
       prefix: SP
     - _type: pubid:bsi:identifier
-      number:
-        value: '125'
+      number: '125'
       prefix: SP
     separators:
     - " to "
@@ -347,20 +290,17 @@
       year: '1958'
   representations:
     human: BS SP 122 to 125:1958
-    urn: urn:bsi:bs
-  roundtrip: false
+    urn: urn:bsi:bs:122
   style: v3
-- id: bsi.bundled_identifier.0786
+- id: bsi.bundled_identifier.0851
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '126'
+      number: '126'
       prefix: SP
     - _type: pubid:bsi:identifier
-      number:
-        value: '127'
+      number: '127'
       prefix: SP
     separators:
     - " & "
@@ -368,20 +308,17 @@
       year: '1959'
   representations:
     human: BS SP 126 & 127:1959
-    urn: urn:bsi:bs
-  roundtrip: false
+    urn: urn:bsi:bs:126
   style: v3
-- id: bsi.bundled_identifier.0787
+- id: bsi.bundled_identifier.0852
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '134'
+      number: '134'
       prefix: SP
     - _type: pubid:bsi:identifier
-      number:
-        value: '138'
+      number: '138'
       prefix: SP
       explicit_prefix: true
     separators:
@@ -390,20 +327,17 @@
       year: '1968'
   representations:
     human: BS SP 134 to SP 138:1968
-    urn: urn:bsi:bs
-  roundtrip: false
+    urn: urn:bsi:bs:134
   style: v3
-- id: bsi.bundled_identifier.0788
+- id: bsi.bundled_identifier.0853
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '139'
+      number: '139'
       prefix: SP
     - _type: pubid:bsi:identifier
-      number:
-        value: '140'
+      number: '140'
       prefix: SP
       explicit_prefix: true
     separators:
@@ -412,28 +346,23 @@
       year: '1969'
   representations:
     human: BS SP 139 and SP 140:1969
-    urn: urn:bsi:bs
-  roundtrip: false
+    urn: urn:bsi:bs:139
   style: v3
-- id: bsi.bundled_identifier.0789
+- id: bsi.bundled_identifier.0854
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '13'
+      number: '13'
       prefix: SP
     - _type: pubid:bsi:identifier
-      number:
-        value: '14'
+      number: '14'
       prefix: SP
     - _type: pubid:bsi:identifier
-      number:
-        value: '15'
+      number: '15'
       prefix: SP
     - _type: pubid:bsi:identifier
-      number:
-        value: '16'
+      number: '16'
       prefix: SP
     separators:
     - "; "
@@ -443,20 +372,17 @@
       year: '1949'
   representations:
     human: BS SP 13; 14; 15 and 16:1949
-    urn: urn:bsi:bs
-  roundtrip: false
+    urn: urn:bsi:bs:13
   style: v3
-- id: bsi.bundled_identifier.0794
+- id: bsi.bundled_identifier.0859
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '28'
+      number: '28'
       prefix: SP
     - _type: pubid:bsi:identifier
-      number:
-        value: '29'
+      number: '29'
       prefix: SP
     separators:
     - " and "
@@ -464,20 +390,17 @@
       year: '1951'
   representations:
     human: BS SP 28 and 29:1951
-    urn: urn:bsi:bs
-  roundtrip: false
+    urn: urn:bsi:bs:28
   style: v3
-- id: bsi.bundled_identifier.0797
+- id: bsi.bundled_identifier.0862
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '49'
+      number: '49'
       prefix: SP
     - _type: pubid:bsi:identifier
-      number:
-        value: '50'
+      number: '50'
       prefix: SP
       explicit_prefix: true
       explicit_publisher: true
@@ -487,20 +410,17 @@
       year: '1953'
   representations:
     human: BS SP 49 and BS SP 50:1953
-    urn: urn:bsi:bs
-  roundtrip: false
+    urn: urn:bsi:bs:49
   style: v3
-- id: bsi.bundled_identifier.0798
+- id: bsi.bundled_identifier.0863
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '51'
+      number: '51'
       prefix: SP
     - _type: pubid:bsi:identifier
-      number:
-        value: '52'
+      number: '52'
       prefix: SP
     separators:
     - " and "
@@ -508,20 +428,17 @@
       year: '1953'
   representations:
     human: BS SP 51 and 52:1953
-    urn: urn:bsi:bs
-  roundtrip: false
+    urn: urn:bsi:bs:51
   style: v3
-- id: bsi.bundled_identifier.0799
+- id: bsi.bundled_identifier.0864
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '55'
+      number: '55'
       prefix: SP
     - _type: pubid:bsi:identifier
-      number:
-        value: '56'
+      number: '56'
       prefix: SP
       explicit_prefix: true
     separators:
@@ -530,20 +447,17 @@
       year: '1953'
   representations:
     human: BS SP 55 and SP 56:1953
-    urn: urn:bsi:bs
-  roundtrip: false
+    urn: urn:bsi:bs:55
   style: v3
-- id: bsi.bundled_identifier.0800
+- id: bsi.bundled_identifier.0865
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '57'
+      number: '57'
       prefix: SP
     - _type: pubid:bsi:identifier
-      number:
-        value: '58'
+      number: '58'
       prefix: SP
     separators:
     - " and "
@@ -551,20 +465,17 @@
       year: '1955'
   representations:
     human: BS SP 57 and 58:1955
-    urn: urn:bsi:bs
-  roundtrip: false
+    urn: urn:bsi:bs:57
   style: v3
-- id: bsi.bundled_identifier.0801
+- id: bsi.bundled_identifier.0866
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '59'
+      number: '59'
       prefix: SP
     - _type: pubid:bsi:identifier
-      number:
-        value: '60'
+      number: '60'
       prefix: SP
       explicit_prefix: true
     separators:
@@ -573,20 +484,17 @@
       year: '1955'
   representations:
     human: BS SP 59 and SP 60:1955
-    urn: urn:bsi:bs
-  roundtrip: false
+    urn: urn:bsi:bs:59
   style: v3
-- id: bsi.bundled_identifier.0803
+- id: bsi.bundled_identifier.0868
   identifier:
     _type: pubid:bsi:bundled-identifier
     identifiers:
     - _type: pubid:bsi:identifier
-      number:
-        value: '66'
+      number: '66'
       prefix: SP
     - _type: pubid:bsi:identifier
-      number:
-        value: '67'
+      number: '67'
       prefix: SP
       explicit_prefix: true
     separators:
@@ -595,6 +503,5 @@
       year: '1955'
   representations:
     human: BS SP 66 and SP 67:1955
-    urn: urn:bsi:bs
-  roundtrip: false
+    urn: urn:bsi:bs:66
   style: v3

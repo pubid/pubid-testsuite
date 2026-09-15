@@ -1,0 +1,30 @@
+---
+- id: bsi.set.0783
+  identifier:
+    _type: pubid:bsi:set
+    identifiers:
+    - _type: pubid:bsi:adopted-international-standard
+      number: '20400'
+      adopted:
+        _type: pubid:iso:international-standard
+        number: '20400'
+    - _type: pubid:bsi:adopted-international-standard
+      number: '44001'
+      adopted:
+        _type: pubid:iso:international-standard
+        number: '44001'
+    - _type: pubid:bsi:adopted-international-standard
+      number: '44002'
+      adopted:
+        _type: pubid:iso:international-standard
+        number: '44002'
+    separators:
+    - " + "
+    - " + "
+  representations:
+    human: BS ISO 20400 + BS ISO 44001 + BS ISO 44002
+    urn: urn:bsi:bs:20400
+  style: v3
+  non_normalized_aliases:
+  - spelling: BS ISO 20400 + BS ISO 44001+BS ISO 44002
+    style: v3

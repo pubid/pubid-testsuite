@@ -10,10 +10,9 @@
       year: '2024'
     adopted_identifiers:
     - _type: pubid:astm:standard
-      code:
-        letter: D
-        number: '129'
+      number: '129'
       year: '2018'
+      letter: D
   representations:
     human: GOST 1437-2024 (ASTM D129-18)
     urn: urn:gost:std:1437:2024
@@ -68,9 +67,9 @@
       year: '2025'
     adopted_identifiers:
     - _type: pubid:iec:international-standard
+      year: '2024'
       number: '63242'
       part: '2'
-      year: '2024'
   representations:
     human: GOST 28246.2-2025 (IEC 63242-2:2024)
     urn: urn:gost:std:28246.2:2025
@@ -126,9 +125,9 @@
       year: '2025'
     adopted_identifiers:
     - _type: pubid:iec:international-standard
+      year: '2023'
       number: '60079'
       part: '11'
-      year: '2023'
   representations:
     human: GOST 31610.11-2025 (IEC 60079-11:2023)
     urn: urn:gost:std:31610.11:2025
@@ -165,10 +164,8 @@
       number: '32549'
     adopted_identifiers:
     - _type: pubid:cencenelec:european-norm
-      number:
-        value: '12239'
-      date:
-        year: '2001'
+      number: '12239'
+      year: '2001'
   representations:
     human: GOST 32549 (EN 12239:2001)
     urn: urn:gost:std:32549
@@ -423,10 +420,10 @@
       year: '2020'
     adopted_identifiers:
     - _type: pubid:iec:international-standard
+      year: '2017'
       number: '61851'
       part: '21'
       subpart: '1'
-      year: '2017'
   representations:
     human: GOST 34695.21-1-2020 (IEC 61851-21-1:2017)
     urn: urn:gost:std:34695.21-1:2020
@@ -548,12 +545,9 @@
       year: '2025'
     adopted_identifiers:
     - _type: pubid:cencenelec:european-norm
-      number:
-        value: '927'
-      part:
-        value: '1'
-      date:
-        year: '2013'
+      number: '927'
+      part: '1'
+      year: '2013'
   representations:
     human: GOST 35287.1-2025 (EN 927-1:2013)
     urn: urn:gost:std:35287.1:2025
@@ -572,31 +566,16 @@
       year: '2025'
     adopted_identifiers:
     - _type: pubid:cencenelec:consolidated-identifier
-      number: '14988'
-      publisher:
-      - EN
-      year: 2017
       identifiers:
       - _type: pubid:cencenelec:european-norm
-        number:
-          value: '14988'
-        date:
-          year: '2017'
+        number: '14988'
+        year: '2017'
       - _type: pubid:cencenelec:amendment
-        publisher:
-        - EN
-        base:
-          _type: pubid:cencenelec:european-norm
-          number:
-            value: '14988'
-          date:
-            year: '2017'
-        amendment_number: '1'
-        amendment_year: 2020
+        number: '1'
+        year: '2020'
   representations:
     human: GOST 35292-2025 (EN 14988:2017+A1:2020)
     urn: urn:gost:std:35292:2025
-  roundtrip: false
   style: v3
   non_normalized_aliases:
   - spelling: ГОСТ 35292-2025 (EN 14988:2017+A1:2020)
@@ -612,10 +591,8 @@
       year: '2025'
     adopted_identifiers:
     - _type: pubid:cencenelec:european-norm
-      number:
-        value: '12227'
-      date:
-        year: '2010'
+      number: '12227'
+      year: '2010'
   representations:
     human: GOST 35293-2025 (EN 12227:2010)
     urn: urn:gost:std:35293:2025
@@ -674,12 +651,9 @@
       year: '2025'
     adopted_identifiers:
     - _type: pubid:cencenelec:european-norm
-      number:
-        value: '14315'
-      part:
-        value: '1'
-      date:
-        year: '2013'
+      number: '14315'
+      part: '1'
+      year: '2013'
   representations:
     human: GOST 35302-2025 (EN 14315-1:2013)
     urn: urn:gost:std:35302:2025
@@ -698,12 +672,9 @@
       year: '2025'
     adopted_identifiers:
     - _type: pubid:cencenelec:european-norm
-      number:
-        value: '71'
-      part:
-        value: '10'
-      date:
-        year: '2005'
+      number: '71'
+      part: '10'
+      year: '2005'
   representations:
     human: GOST 35306.10-2025 (EN 71-10:2005)
     urn: urn:gost:std:35306.10:2025
@@ -722,12 +693,9 @@
       year: '2025'
     adopted_identifiers:
     - _type: pubid:cencenelec:european-norm
-      number:
-        value: '71'
-      part:
-        value: '11'
-      date:
-        year: '2005'
+      number: '71'
+      part: '11'
+      year: '2005'
   representations:
     human: GOST 35306.11-2025 (EN 71-11:2005)
     urn: urn:gost:std:35306.11:2025
@@ -746,12 +714,9 @@
       year: '2025'
     adopted_identifiers:
     - _type: pubid:cencenelec:european-norm
-      number:
-        value: '50332'
-      part:
-        value: '1'
-      date:
-        year: '2013'
+      number: '50332'
+      part: '1'
+      year: '2013'
   representations:
     human: GOST 35307.1-2025 (EN 50332-1:2013)
     urn: urn:gost:std:35307.1:2025
@@ -770,12 +735,9 @@
       year: '2025'
     adopted_identifiers:
     - _type: pubid:cencenelec:european-norm
-      number:
-        value: '1129'
-      part:
-        value: '1'
-      date:
-        year: '1995'
+      number: '1129'
+      part: '1'
+      year: '1995'
   representations:
     human: GOST 35311.1-2025 (EN 1129-1:1995)
     urn: urn:gost:std:35311.1:2025
@@ -794,12 +756,9 @@
       year: '2025'
     adopted_identifiers:
     - _type: pubid:cencenelec:european-norm
-      number:
-        value: '1129'
-      part:
-        value: '2'
-      date:
-        year: '1995'
+      number: '1129'
+      part: '2'
+      year: '1995'
   representations:
     human: GOST 35311.2-2025 (EN 1129-2:1995)
     urn: urn:gost:std:35311.2:2025

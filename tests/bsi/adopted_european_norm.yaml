@@ -1,33 +1,273 @@
 ---
-- id: bsi.adopted_european_norm.0861
+- id: bsi.adopted_european_norm.0740
+  identifier:
+    _type: pubid:bsi:adopted-european-norm
+    number: '61753'
+    part: 022-13
+    adopted:
+      _type: pubid:cencenelec:european-norm
+      number: '61753'
+      part: 022-13
+  representations:
+    human: BS EN 61753-022-13
+    urn: urn:bsi:bs:61753:-022-13
+  style: v3
+- id: bsi.adopted_european_norm.0744
+  identifier:
+    _type: pubid:bsi:adopted-european-norm
+    number: '60477'
+    adopted:
+      _type: pubid:cencenelec:adopted-european-norm
+      adopted:
+        _type: pubid:iec:international-standard
+        number: '60477'
+  representations:
+    human: BS EN IEC 60477
+    urn: urn:bsi:bs:60477
+  style: v3
+  non_normalized_aliases:
+  - spelling: BS EN 60477:1999
+    style: v3
+- id: bsi.adopted_european_norm.0745
+  identifier:
+    _type: pubid:bsi:adopted-european-norm
+    number: '60523'
+    adopted:
+      _type: pubid:cencenelec:adopted-european-norm
+      adopted:
+        _type: pubid:iec:international-standard
+        number: '60523'
+  representations:
+    human: BS EN IEC 60523
+    urn: urn:bsi:bs:60523
+  style: v3
+  non_normalized_aliases:
+  - spelling: BS EN 60523:1993
+    style: v3
+- id: bsi.adopted_european_norm.0746
+  identifier:
+    _type: pubid:bsi:adopted-european-norm
+    number: '60524'
+    adopted:
+      _type: pubid:cencenelec:adopted-european-norm
+      adopted:
+        _type: pubid:iec:international-standard
+        number: '60524'
+  representations:
+    human: BS EN IEC 60524
+    urn: urn:bsi:bs:60524
+  style: v3
+  non_normalized_aliases:
+  - spelling: BS EN 60524:1993
+    style: v3
+- id: bsi.adopted_european_norm.0747
+  identifier:
+    _type: pubid:bsi:adopted-european-norm
+    number: '60564'
+    adopted:
+      _type: pubid:cencenelec:adopted-european-norm
+      adopted:
+        _type: pubid:iec:international-standard
+        number: '60564'
+  representations:
+    human: BS EN IEC 60564
+    urn: urn:bsi:bs:60564
+  style: v3
+  non_normalized_aliases:
+  - spelling: BS EN 60564:1993
+    style: v3
+- id: bsi.adopted_european_norm.0748
+  identifier:
+    _type: pubid:bsi:adopted-european-norm
+    number: '60601'
+    adopted:
+      _type: pubid:cencenelec:adopted-european-norm
+      adopted:
+        _type: pubid:iec:fragment-identifier
+        base:
+          _type: pubid:iec:international-standard
+          number: '60601'
+          part: '1'
+        fragment_number: '1'
+  representations:
+    human: BS EN IEC 60601-1/FRAG1
+    urn: urn:bsi:bs:60601
+  style: v3
+- id: bsi.adopted_european_norm.0749
+  identifier:
+    _type: pubid:bsi:adopted-european-norm
+    number: '60601'
+    adopted:
+      _type: pubid:cencenelec:adopted-european-norm
+      adopted:
+        _type: pubid:iec:fragment-identifier
+        base:
+          _type: pubid:iec:international-standard
+          number: '60601'
+          part: '1'
+        fragment_number: '11'
+  representations:
+    human: BS EN IEC 60601-1/FRAG11
+    urn: urn:bsi:bs:60601
+  style: v3
+- id: bsi.adopted_european_norm.0750
+  identifier:
+    _type: pubid:bsi:adopted-european-norm
+    number: '60601'
+    adopted:
+      _type: pubid:cencenelec:adopted-european-norm
+      adopted:
+        _type: pubid:iec:fragment-identifier
+        base:
+          _type: pubid:iec:international-standard
+          number: '60601'
+          part: '1'
+        fragment_number: '2'
+  representations:
+    human: BS EN IEC 60601-1/FRAG2
+    urn: urn:bsi:bs:60601
+  style: v3
+- id: bsi.adopted_european_norm.0751
+  identifier:
+    _type: pubid:bsi:adopted-european-norm
+    number: '60618'
+    adopted:
+      _type: pubid:cencenelec:adopted-european-norm
+      adopted:
+        _type: pubid:iec:international-standard
+        number: '60618'
+  representations:
+    human: BS EN IEC 60618
+    urn: urn:bsi:bs:60618
+  style: v3
+  non_normalized_aliases:
+  - spelling: BS EN 60618:1999
+    style: v3
+- id: bsi.adopted_european_norm.0752
+  identifier:
+    _type: pubid:bsi:adopted-european-norm
+    number: '60644'
+    adopted:
+      _type: pubid:cencenelec:adopted-european-norm
+      adopted:
+        _type: pubid:iec:international-standard
+        number: '60644'
+  representations:
+    human: BS EN IEC 60644
+    urn: urn:bsi:bs:60644
+  style: v3
+  non_normalized_aliases:
+  - spelling: BS EN 60644:1993
+    style: v3
+- id: bsi.adopted_european_norm.0755
+  identifier:
+    _type: pubid:bsi:adopted-european-norm
+    number: '1'
+    adopted:
+      _type: pubid:cencenelec:adopted-european-norm
+      adopted:
+        _type: pubid:iec:fragment-identifier
+        base:
+          _type: pubid:iec:amendment
+          number: '1'
+          base:
+            _type: pubid:iec:international-standard
+            number: '61535'
+        fragment_number: '1'
+  representations:
+    human: BS EN IEC 61535/AMD1/FRAG1
+    urn: urn:bsi:bs:1
+  style: v3
+- id: bsi.adopted_european_norm.0756
+  identifier:
+    _type: pubid:bsi:adopted-european-norm
+    number: '1'
+    adopted:
+      _type: pubid:cencenelec:adopted-european-norm
+      adopted:
+        _type: pubid:iec:fragment-identifier
+        base:
+          _type: pubid:iec:amendment
+          number: '1'
+          base:
+            _type: pubid:iec:international-standard
+            number: '61535'
+        fragment_number: '2'
+  representations:
+    human: BS EN IEC 61535/AMD1/FRAG2
+    urn: urn:bsi:bs:1
+  style: v3
+- id: bsi.adopted_european_norm.0779
+  identifier:
+    _type: pubid:bsi:adopted-european-norm
+    number: '60269'
+    part: '3'
+    adopted:
+      _type: pubid:cencenelec:harmonization-document
+      number: '60269'
+      part: '3'
+  representations:
+    human: BS HD 60269-3
+    urn: urn:bsi:bs:60269:-3
+  style: v3
+- id: bsi.adopted_european_norm.0781
+  identifier:
+    _type: pubid:bsi:adopted-european-norm
+    number: '60364'
+    part: 7-725
+    adopted:
+      _type: pubid:cencenelec:harmonization-document
+      number: '60364'
+      part: 7-725
+  representations:
+    human: BS HD 60364-7-725
+    urn: urn:bsi:bs:60364:-7-725
+  style: v3
+- id: bsi.adopted_european_norm.0782
+  identifier:
+    _type: pubid:bsi:adopted-european-norm
+    number: '60364'
+    part: '8'
+    edition: '1'
+    adopted:
+      _type: pubid:cencenelec:adopted-european-norm
+      publisher: HD
+      adopted:
+        _type: pubid:iec:international-standard
+        number: '60364'
+        part: '8'
+        subpart: '81'
+  representations:
+    human: BS HD IEC 60364-8-81 ED1
+    urn: urn:bsi:bs:60364:-8:v1
+  style: v3
+- id: bsi.adopted_european_norm.0926
   identifier:
     _type: pubid:bsi:adopted-european-norm
     publisher:
       body: DD
-    adopted_identifier:
+    adopted:
       _type: pubid:cencenelec:european-prestandard
-      adopted_identifier:
+      adopted:
         _type: pubid:iso:international-standard
         number: '11079'
         year: '1999'
   representations:
     human: DD ENV ISO 11079:1999
-    urn: urn:bsi:dd
-  roundtrip: false
+    urn: urn:bsi:dd:11079
   style: v3
-- id: bsi.adopted_european_norm.0862
+- id: bsi.adopted_european_norm.0927
   identifier:
     _type: pubid:bsi:adopted-european-norm
     publisher:
       body: DD
-    adopted_identifier:
+    adopted:
       _type: pubid:cencenelec:european-prestandard
-      adopted_identifier:
+      adopted:
         _type: pubid:iso:technical-report
         number: '13843'
         year: '2001'
   representations:
     human: DD ENV ISO/TR 13843:2001
-    urn: urn:bsi:dd
-  roundtrip: false
+    urn: urn:bsi:dd:13843
   style: v3

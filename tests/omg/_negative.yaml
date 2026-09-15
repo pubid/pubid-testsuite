@@ -19,3 +19,8 @@
   expect:
     error:
       code: unclassified
+- id: omg.neg.malformed.0005
+  input: OMG Model Driven Architecture Guide rev. 2.0
+  expect:
+    error:
+      code: unclassified

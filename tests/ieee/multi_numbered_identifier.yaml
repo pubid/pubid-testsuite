@@ -1,10 +1,17 @@
 ---
-- id: ieee.multi_numbered_identifier.0001
+- id: ieee.multi_numbered_identifier.4817
   identifier:
     _type: pubid:ieee:multi-numbered-identifier
+    primary_identifier:
+      _type: pubid:ieee:standard
+      number: '1299'
+      stage: Std
+    secondary_identifier:
+      _type: pubid:ieee:standard
+      number: C62.22.1-1996
   representations:
-    human: ''
-    urn: urn:ieee:ieee
+    human: IEEE Std 1299/C62.22.1-1996
+    urn: urn:ieee:ieee:1299
   style: v3
   non_normalized_aliases:
   - spelling: IEEE Std 1299/C62.22.1-1 996

@@ -1,45 +1,36 @@
 ---
-- id: bsi.consolidated_identifier.0020
+- id: bsi.consolidated_identifier.0023
   identifier:
     _type: pubid:bsi:consolidated-identifier
-    number:
-      value: '10125'
-    date:
-      year: '2014'
+    number: '10125'
+    year: '2014'
     identifiers:
     - _type: pubid:bsi:british-standard
-      number:
-        value: '10125'
-      date:
-        year: '2014'
+      number: '10125'
+      year: '2014'
     - _type: pubid:bsi:amendment
       base:
         _type: pubid:bsi:british-standard
-        number:
-          value: '10125'
-        date:
-          year: '2014'
+        number: '10125'
+        year: '2014'
       amendment_number: '1'
       amendment_year: 2016
   representations:
     human: BS 10125:2014+A1:2016
     urn: urn:bsi:bs:10125:2014:amd:1:2016
   style: v3
-- id: bsi.consolidated_identifier.0346
+- id: bsi.consolidated_identifier.0359
   identifier:
     _type: pubid:bsi:consolidated-identifier
-    number:
-      value: '500'
+    number: '500'
     identifiers:
     - _type: pubid:bsi:aerospace-standard
-      number:
-        value: '500'
+      number: '500'
       prefix: 3L
     - _type: pubid:bsi:amendment
       base:
         _type: pubid:bsi:aerospace-standard
-        number:
-          value: '500'
+        number: '500'
         prefix: 3L
       amendment_number: '1'
       amd_suffix_form: true
@@ -47,72 +38,57 @@
     human: BS 3L 500 AMD1
     urn: urn:bsi:bs:3l:500:amd:1
   style: v3
-- id: bsi.consolidated_identifier.0533
+- id: bsi.consolidated_identifier.0546
   identifier:
     _type: pubid:bsi:consolidated-identifier
-    number:
-      value: '6305'
-    date:
-      year: '1992'
+    number: '6305'
+    year: '1992'
     identifiers:
     - _type: pubid:bsi:british-standard
-      number:
-        value: '6305'
-      date:
-        year: '1992'
+      number: '6305'
+      year: '1992'
     - _type: pubid:bsi:amendment
       base:
         _type: pubid:bsi:british-standard
-        number:
-          value: '6305'
-        date:
-          year: '1992'
+        number: '6305'
+        year: '1992'
       amendment_number: '1'
       amd_suffix_form: true
   representations:
     human: BS 6305:1992 AMD1
     urn: urn:bsi:bs:6305:1992:amd:1
   style: v3
-- id: bsi.consolidated_identifier.0536
+- id: bsi.consolidated_identifier.0549
   identifier:
     _type: pubid:bsi:consolidated-identifier
-    number:
-      value: '646'
-    date:
-      year: '1958'
+    number: '646'
+    year: '1958'
     identifiers:
     - _type: pubid:bsi:british-standard
-      number:
-        value: '646'
-      date:
-        year: '1958'
+      number: '646'
+      year: '1958'
     - _type: pubid:bsi:amendment
       base:
         _type: pubid:bsi:british-standard
-        number:
-          value: '646'
-        date:
-          year: '1958'
+        number: '646'
+        year: '1958'
       amendment_number: '2'
       amendment_year: 2013
   representations:
     human: BS 646:1958+A2:2013
     urn: urn:bsi:bs:646:1958:amd:2:2013
   style: v3
-- id: bsi.consolidated_identifier.0542
+- id: bsi.consolidated_identifier.0556
   identifier:
     _type: pubid:bsi:consolidated-identifier
-    number:
-      value: '7671'
+    number: '7671'
     identifiers:
     - _type: pubid:bsi:british-standard
-      number:
-        value: '7671'
+      number: '7671'
     - _type: pubid:bsi:amendment
       base:
         _type: pubid:bsi:british-standard
-        number:
-          value: '7671'
+        number: '7671'
       amendment_number: '2'
       amd_suffix_form: true
   representations:
@@ -122,111 +98,67 @@
   non_normalized_aliases:
   - spelling: BS 7671 Amendment 2:August 2013
     style: v3
-- id: bsi.consolidated_identifier.0543
+- id: bsi.consolidated_identifier.0557
   identifier:
     _type: pubid:bsi:consolidated-identifier
-    number:
-      value: '7671'
+    number: '7671'
+    year: '2018'
     identifiers:
     - _type: pubid:bsi:british-standard
-      number:
-        value: '7671'
-    - _type: pubid:bsi:amendment
-      base:
-        _type: pubid:bsi:british-standard
-        number:
-          value: '7671'
-      amendment_number: '2'
-      amendment_year: 2013
-  representations:
-    human: BS 7671+A2:2013
-    urn: urn:bsi:bs:7671:amd:2:2013
-  style: v3
-- id: bsi.consolidated_identifier.0544
-  identifier:
-    _type: pubid:bsi:consolidated-identifier
-    number:
-      value: '7671'
-    date:
+      number: '7671'
       year: '2018'
-    identifiers:
-    - _type: pubid:bsi:british-standard
-      number:
-        value: '7671'
-      date:
-        year: '2018'
     - _type: pubid:bsi:amendment
       base:
         _type: pubid:bsi:british-standard
-        number:
-          value: '7671'
-        date:
-          year: '2018'
+        number: '7671'
+        year: '2018'
       amendment_number: '2'
       amendment_year: 2022
   representations:
     human: BS 7671:2018+A2:2022
     urn: urn:bsi:bs:7671:2018:amd:2:2022
   style: v3
-- id: bsi.consolidated_identifier.0545
+- id: bsi.consolidated_identifier.0560
   identifier:
     _type: pubid:bsi:consolidated-identifier
-    number:
-      value: '7870'
-    part:
-      value: '1'
-    date:
-      year: '2011'
+    number: '7870'
+    part: '1'
+    year: '2011'
     identifiers:
     - _type: pubid:bsi:british-standard
-      number:
-        value: '7870'
-      part:
-        value: '1'
-      date:
-        year: '2011'
+      number: '7870'
+      part: '1'
+      year: '2011'
     - _type: pubid:bsi:amendment
       base:
         _type: pubid:bsi:british-standard
-        number:
-          value: '7870'
-        part:
-          value: '1'
-        date:
-          year: '2011'
+        number: '7870'
+        part: '1'
+        year: '2011'
       amendment_number: '1'
       amendment_year: 2022
   representations:
     human: BS 7870-1:2011+A1:2022
     urn: urn:bsi:bs:7870:-1:2011:amd:1:2022
   style: v3
-- id: bsi.consolidated_identifier.0608
+- id: bsi.consolidated_identifier.0624
   identifier:
     _type: pubid:bsi:consolidated-identifier
-    number:
-      value: '242'
-    part:
-      value: A 245
-    date:
-      year: '1974'
+    number: '242'
+    part: A 245
+    year: '1974'
     identifiers:
     - _type: pubid:bsi:aerospace-standard
-      number:
-        value: '242'
-      part:
-        value: A 245
-      date:
-        year: '1974'
+      number: '242'
+      part: A 245
+      year: '1974'
       prefix: A
     - _type: pubid:bsi:amendment
       base:
         _type: pubid:bsi:aerospace-standard
-        number:
-          value: '242'
-        part:
-          value: A 245
-        date:
-          year: '1974'
+        number: '242'
+        part: A 245
+        year: '1974'
         prefix: A
       amendment_number: '1'
       amendment_year: 2017
@@ -234,33 +166,24 @@
     human: BS A 242-A 245:1974+A1:2017
     urn: urn:bsi:bs:a:242:-A 245:1974:amd:1:2017
   style: v3
-- id: bsi.consolidated_identifier.0611
+- id: bsi.consolidated_identifier.0627
   identifier:
     _type: pubid:bsi:consolidated-identifier
-    number:
-      value: '246'
-    part:
-      value: A 249
-    date:
-      year: '1974'
+    number: '246'
+    part: A 249
+    year: '1974'
     identifiers:
     - _type: pubid:bsi:aerospace-standard
-      number:
-        value: '246'
-      part:
-        value: A 249
-      date:
-        year: '1974'
+      number: '246'
+      part: A 249
+      year: '1974'
       prefix: A
     - _type: pubid:bsi:amendment
       base:
         _type: pubid:bsi:aerospace-standard
-        number:
-          value: '246'
-        part:
-          value: A 249
-        date:
-          year: '1974'
+        number: '246'
+        part: A 249
+        year: '1974'
         prefix: A
       amendment_number: '1'
       amendment_year: 2017
@@ -268,33 +191,24 @@
     human: BS A 246-A 249:1974+A1:2017
     urn: urn:bsi:bs:a:246:-A 249:1974:amd:1:2017
   style: v3
-- id: bsi.consolidated_identifier.0614
+- id: bsi.consolidated_identifier.0630
   identifier:
     _type: pubid:bsi:consolidated-identifier
-    number:
-      value: '275'
-    part:
-      value: A 280
-    date:
-      year: '1981'
+    number: '275'
+    part: A 280
+    year: '1981'
     identifiers:
     - _type: pubid:bsi:aerospace-standard
-      number:
-        value: '275'
-      part:
-        value: A 280
-      date:
-        year: '1981'
+      number: '275'
+      part: A 280
+      year: '1981'
       prefix: A
     - _type: pubid:bsi:amendment
       base:
         _type: pubid:bsi:aerospace-standard
-        number:
-          value: '275'
-        part:
-          value: A 280
-        date:
-          year: '1981'
+        number: '275'
+        part: A 280
+        year: '1981'
         prefix: A
       amendment_number: '2'
       amendment_year: 2011
@@ -302,21 +216,18 @@
     human: BS A 275-A 280:1981+A2:2011
     urn: urn:bsi:bs:a:275:-A 280:1981:amd:2:2011
   style: v3
-- id: bsi.consolidated_identifier.0696
+- id: bsi.consolidated_identifier.0712
   identifier:
     _type: pubid:bsi:consolidated-identifier
-    number:
-      value: '11'
+    number: '11'
     identifiers:
     - _type: pubid:bsi:aerospace-standard
-      number:
-        value: '11'
+      number: '11'
       prefix: CISPR
     - _type: pubid:bsi:amendment
       base:
         _type: pubid:bsi:aerospace-standard
-        number:
-          value: '11'
+        number: '11'
         prefix: CISPR
       amendment_number: '2'
       amd_suffix_form: true
@@ -324,33 +235,932 @@
     human: BS CISPR 11 AMD2
     urn: urn:bsi:bs:cispr:11:amd:2
   style: v3
+- id: bsi.consolidated_identifier.0720
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '13445'
+    part: '3'
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '13445'
+      part: '3'
+      adopted:
+        _type: pubid:cencenelec:european-norm
+        number: '13445'
+        part: '3'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '13445'
+        part: '3'
+        adopted:
+          _type: pubid:cencenelec:european-norm
+          number: '13445'
+          part: '3'
+      amendment_number: '5'
+      amd_suffix_form: true
+  representations:
+    human: BS EN 13445-3 AMD5
+    urn: urn:bsi:bs:13445:-3:amd:5
+  style: v3
+- id: bsi.consolidated_identifier.0721
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '13480'
+    part: '4'
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '13480'
+      part: '4'
+      adopted:
+        _type: pubid:cencenelec:european-norm
+        number: '13480'
+        part: '4'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '13480'
+        part: '4'
+        adopted:
+          _type: pubid:cencenelec:european-norm
+          number: '13480'
+          part: '4'
+      amendment_number: '4'
+      amd_suffix_form: true
+  representations:
+    human: BS EN 13480-4 AMD4
+    urn: urn:bsi:bs:13480:-4:amd:4
+  style: v3
+- id: bsi.consolidated_identifier.0722
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '13480'
+    part: '5'
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '13480'
+      part: '5'
+      adopted:
+        _type: pubid:cencenelec:european-norm
+        number: '13480'
+        part: '5'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '13480'
+        part: '5'
+        adopted:
+          _type: pubid:cencenelec:european-norm
+          number: '13480'
+          part: '5'
+      amendment_number: '3'
+      amd_suffix_form: true
+  representations:
+    human: BS EN 13480-5 AMD3
+    urn: urn:bsi:bs:13480:-5:amd:3
+  style: v3
+- id: bsi.consolidated_identifier.0723
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '1366'
+    part: '10'
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '1366'
+      part: '10'
+      adopted:
+        _type: pubid:cencenelec:european-norm
+        number: '1366'
+        part: '10'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '1366'
+        part: '10'
+        adopted:
+          _type: pubid:cencenelec:european-norm
+          number: '1366'
+          part: '10'
+      amendment_number: '1'
+      amd_suffix_form: true
+  representations:
+    human: BS EN 1366-10 AMD1
+    urn: urn:bsi:bs:1366:-10:amd:1
+  style: v3
+- id: bsi.consolidated_identifier.0724
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '1863'
+    part: '1'
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '1863'
+      part: '1'
+      adopted:
+        _type: pubid:cencenelec:european-norm
+        number: '1863'
+        part: '1'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '1863'
+        part: '1'
+        adopted:
+          _type: pubid:cencenelec:european-norm
+          number: '1863'
+          part: '1'
+      amendment_number: '1'
+      amd_suffix_form: true
+  representations:
+    human: BS EN 1863-1 AMD1
+    urn: urn:bsi:bs:1863:-1:amd:1
+  style: v3
+- id: bsi.consolidated_identifier.0725
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '55016'
+    part: 1-4
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '55016'
+      part: 1-4
+      adopted:
+        _type: pubid:cencenelec:european-norm
+        number: '55016'
+        part: 1-4
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '55016'
+        part: 1-4
+        adopted:
+          _type: pubid:cencenelec:european-norm
+          number: '55016'
+          part: 1-4
+      amendment_number: '2'
+      amd_suffix_form: true
+  representations:
+    human: BS EN 55016-1-4 AMD2
+    urn: urn:bsi:bs:55016:-1-4:amd:2
+  style: v3
+- id: bsi.consolidated_identifier.0726
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '60320'
+    part: 2-1
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '60320'
+      part: 2-1
+      adopted:
+        _type: pubid:cencenelec:european-norm
+        number: '60320'
+        part: 2-1
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '60320'
+        part: 2-1
+        adopted:
+          _type: pubid:cencenelec:european-norm
+          number: '60320'
+          part: 2-1
+      amendment_number: '1'
+      amd_suffix_form: true
+  representations:
+    human: BS EN 60320-2-1 AMD1
+    urn: urn:bsi:bs:60320:-2-1:amd:1
+  style: v3
+- id: bsi.consolidated_identifier.0727
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '60335'
+    part: 2-24
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '60335'
+      part: 2-24
+      adopted:
+        _type: pubid:cencenelec:european-norm
+        number: '60335'
+        part: 2-24
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '60335'
+        part: 2-24
+        adopted:
+          _type: pubid:cencenelec:european-norm
+          number: '60335'
+          part: 2-24
+      amendment_number: AA
+      amd_suffix_form: true
+  representations:
+    human: BS EN 60335-2-24 AMD AA
+    urn: urn:bsi:bs:60335:-2-24:amd:AA
+  style: v3
+- id: bsi.consolidated_identifier.0728
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '60335'
+    part: 2-26
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '60335'
+      part: 2-26
+      adopted:
+        _type: pubid:cencenelec:european-norm
+        number: '60335'
+        part: 2-26
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '60335'
+        part: 2-26
+        adopted:
+          _type: pubid:cencenelec:european-norm
+          number: '60335'
+          part: 2-26
+      amendment_number: '11'
+      amd_suffix_form: true
+  representations:
+    human: BS EN 60335-2-26 AMD11
+    urn: urn:bsi:bs:60335:-2-26:amd:11
+  style: v3
+- id: bsi.consolidated_identifier.0729
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '60335'
+    part: 2-27
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '60335'
+      part: 2-27
+      adopted:
+        _type: pubid:cencenelec:european-norm
+        number: '60335'
+        part: 2-27
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '60335'
+        part: 2-27
+        adopted:
+          _type: pubid:cencenelec:european-norm
+          number: '60335'
+          part: 2-27
+      amendment_number: '1'
+      amd_suffix_form: true
+  representations:
+    human: BS EN 60335-2-27 AMD1
+    urn: urn:bsi:bs:60335:-2-27:amd:1
+  style: v3
+- id: bsi.consolidated_identifier.0730
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '60335'
+    part: 2-27
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '60335'
+      part: 2-27
+      adopted:
+        _type: pubid:cencenelec:european-norm
+        number: '60335'
+        part: 2-27
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '60335'
+        part: 2-27
+        adopted:
+          _type: pubid:cencenelec:european-norm
+          number: '60335'
+          part: 2-27
+      amendment_number: '2'
+      amd_suffix_form: true
+  representations:
+    human: BS EN 60335-2-27 AMD2
+    urn: urn:bsi:bs:60335:-2-27:amd:2
+  style: v3
+- id: bsi.consolidated_identifier.0731
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '60335'
+    part: 2-39
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '60335'
+      part: 2-39
+      adopted:
+        _type: pubid:cencenelec:european-norm
+        number: '60335'
+        part: 2-39
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '60335'
+        part: 2-39
+        adopted:
+          _type: pubid:cencenelec:european-norm
+          number: '60335'
+          part: 2-39
+      amendment_number: '1'
+      amd_suffix_form: true
+  representations:
+    human: BS EN 60335-2-39 AMD1
+    urn: urn:bsi:bs:60335:-2-39:amd:1
+  style: v3
+- id: bsi.consolidated_identifier.0732
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '60335'
+    part: 2-42
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '60335'
+      part: 2-42
+      adopted:
+        _type: pubid:cencenelec:european-norm
+        number: '60335'
+        part: 2-42
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '60335'
+        part: 2-42
+        adopted:
+          _type: pubid:cencenelec:european-norm
+          number: '60335'
+          part: 2-42
+      amendment_number: '2'
+      amd_suffix_form: true
+  representations:
+    human: BS EN 60335-2-42 AMD2
+    urn: urn:bsi:bs:60335:-2-42:amd:2
+  style: v3
+- id: bsi.consolidated_identifier.0733
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '60335'
+    part: 2-50
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '60335'
+      part: 2-50
+      adopted:
+        _type: pubid:cencenelec:european-norm
+        number: '60335'
+        part: 2-50
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '60335'
+        part: 2-50
+        adopted:
+          _type: pubid:cencenelec:european-norm
+          number: '60335'
+          part: 2-50
+      amendment_number: '2'
+      amd_suffix_form: true
+  representations:
+    human: BS EN 60335-2-50 AMD2
+    urn: urn:bsi:bs:60335:-2-50:amd:2
+  style: v3
+- id: bsi.consolidated_identifier.0734
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '60335'
+    part: 2-53
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '60335'
+      part: 2-53
+      adopted:
+        _type: pubid:cencenelec:european-norm
+        number: '60335'
+        part: 2-53
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '60335'
+        part: 2-53
+        adopted:
+          _type: pubid:cencenelec:european-norm
+          number: '60335'
+          part: 2-53
+      amendment_number: AA
+      amd_suffix_form: true
+  representations:
+    human: BS EN 60335-2-53 AMD AA
+    urn: urn:bsi:bs:60335:-2-53:amd:AA
+  style: v3
+- id: bsi.consolidated_identifier.0735
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '60335'
+    part: 2-65
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '60335'
+      part: 2-65
+      adopted:
+        _type: pubid:cencenelec:european-norm
+        number: '60335'
+        part: 2-65
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '60335'
+        part: 2-65
+        adopted:
+          _type: pubid:cencenelec:european-norm
+          number: '60335'
+          part: 2-65
+      amendment_number: AA
+      amd_suffix_form: true
+  representations:
+    human: BS EN 60335-2-65 AMD AA
+    urn: urn:bsi:bs:60335:-2-65:amd:AA
+  style: v3
+- id: bsi.consolidated_identifier.0736
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '60335'
+    part: 2-67
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '60335'
+      part: 2-67
+      adopted:
+        _type: pubid:cencenelec:european-norm
+        number: '60335'
+        part: 2-67
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '60335'
+        part: 2-67
+        adopted:
+          _type: pubid:cencenelec:european-norm
+          number: '60335'
+          part: 2-67
+      amendment_number: '1'
+      amd_suffix_form: true
+  representations:
+    human: BS EN 60335-2-67 AMD1
+    urn: urn:bsi:bs:60335:-2-67:amd:1
+  style: v3
+- id: bsi.consolidated_identifier.0737
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '60335'
+    part: 2-69
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '60335'
+      part: 2-69
+      adopted:
+        _type: pubid:cencenelec:european-norm
+        number: '60335'
+        part: 2-69
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '60335'
+        part: 2-69
+        adopted:
+          _type: pubid:cencenelec:european-norm
+          number: '60335'
+          part: 2-69
+      amendment_number: '1'
+      amd_suffix_form: true
+  representations:
+    human: BS EN 60335-2-69 AMD1
+    urn: urn:bsi:bs:60335:-2-69:amd:1
+  style: v3
+- id: bsi.consolidated_identifier.0738
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '60335'
+    part: 2-75
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '60335'
+      part: 2-75
+      adopted:
+        _type: pubid:cencenelec:european-norm
+        number: '60335'
+        part: 2-75
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '60335'
+        part: 2-75
+        adopted:
+          _type: pubid:cencenelec:european-norm
+          number: '60335'
+          part: 2-75
+      amendment_number: '1'
+      amd_suffix_form: true
+  representations:
+    human: BS EN 60335-2-75 AMD1
+    urn: urn:bsi:bs:60335:-2-75:amd:1
+  style: v3
+- id: bsi.consolidated_identifier.0739
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '60670'
+    part: '22'
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '60670'
+      part: '22'
+      adopted:
+        _type: pubid:cencenelec:european-norm
+        number: '60670'
+        part: '22'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '60670'
+        part: '22'
+        adopted:
+          _type: pubid:cencenelec:european-norm
+          number: '60670'
+          part: '22'
+      amendment_number: '1'
+      amd_suffix_form: true
+  representations:
+    human: BS EN 60670-22 AMD1
+    urn: urn:bsi:bs:60670:-22:amd:1
+  style: v3
+- id: bsi.consolidated_identifier.0741
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '62054'
+    part: '21'
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '62054'
+      part: '21'
+      adopted:
+        _type: pubid:cencenelec:european-norm
+        number: '62054'
+        part: '21'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '62054'
+        part: '21'
+        adopted:
+          _type: pubid:cencenelec:european-norm
+          number: '62054'
+          part: '21'
+      amendment_number: '1'
+      amd_suffix_form: true
+  representations:
+    human: BS EN 62054-21 AMD1
+    urn: urn:bsi:bs:62054:-21:amd:1
+  style: v3
+- id: bsi.consolidated_identifier.0742
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '80601'
+    part: 2-58
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '80601'
+      part: 2-58
+      adopted:
+        _type: pubid:cencenelec:european-norm
+        number: '80601'
+        part: 2-58
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '80601'
+        part: 2-58
+        adopted:
+          _type: pubid:cencenelec:european-norm
+          number: '80601'
+          part: 2-58
+      amendment_number: '1'
+      amd_suffix_form: true
+  representations:
+    human: BS EN 80601-2-58 AMD1
+    urn: urn:bsi:bs:80601:-2-58:amd:1
+  style: v3
+- id: bsi.consolidated_identifier.0743
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '60065'
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '60065'
+      adopted:
+        _type: pubid:cencenelec:adopted-european-norm
+        adopted:
+          _type: pubid:iec:international-standard
+          number: '60065'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '60065'
+        adopted:
+          _type: pubid:cencenelec:adopted-european-norm
+          adopted:
+            _type: pubid:iec:international-standard
+            number: '60065'
+      amendment_number: '11'
+      amendment_year: 2017
+  representations:
+    human: BS EN IEC 60065+A11:2017
+    urn: urn:bsi:bs:60065:amd:11:2017
+  style: v3
+  non_normalized_aliases:
+  - spelling: BS EN 60065:2014+A11:2017
+    style: v3
+- id: bsi.consolidated_identifier.0753
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '60731'
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '60731'
+      adopted:
+        _type: pubid:cencenelec:adopted-european-norm
+        adopted:
+          _type: pubid:iec:international-standard
+          number: '60731'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '60731'
+        adopted:
+          _type: pubid:cencenelec:adopted-european-norm
+          adopted:
+            _type: pubid:iec:international-standard
+            number: '60731'
+      amendment_number: '1'
+      amd_suffix_form: true
+  representations:
+    human: BS EN IEC 60731 AMD1
+    urn: urn:bsi:bs:60731:amd:1
+  style: v3
+  non_normalized_aliases:
+  - spelling: BS EN 60731 AMD1
+    style: v3
+- id: bsi.consolidated_identifier.0754
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '61184'
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '61184'
+      adopted:
+        _type: pubid:cencenelec:adopted-european-norm
+        adopted:
+          _type: pubid:iec:international-standard
+          number: '61184'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '61184'
+        adopted:
+          _type: pubid:cencenelec:adopted-european-norm
+          adopted:
+            _type: pubid:iec:international-standard
+            number: '61184'
+      amendment_number: '2'
+      amd_suffix_form: true
+  representations:
+    human: BS EN IEC 61184 AMD2
+    urn: urn:bsi:bs:61184:amd:2
+  style: v3
+  non_normalized_aliases:
+  - spelling: BS EN 61184 AMD2
+    style: v3
+- id: bsi.consolidated_identifier.0757
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '62019'
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '62019'
+      adopted:
+        _type: pubid:cencenelec:adopted-european-norm
+        adopted:
+          _type: pubid:iec:international-standard
+          number: '62019'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '62019'
+        adopted:
+          _type: pubid:cencenelec:adopted-european-norm
+          adopted:
+            _type: pubid:iec:international-standard
+            number: '62019'
+      amendment_number: '1'
+      amd_suffix_form: true
+  representations:
+    human: BS EN IEC 62019 AMD1
+    urn: urn:bsi:bs:62019:amd:1
+  style: v3
+  non_normalized_aliases:
+  - spelling: BS EN 62019 AMD1
+    style: v3
+- id: bsi.consolidated_identifier.0758
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '62532'
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '62532'
+      adopted:
+        _type: pubid:cencenelec:adopted-european-norm
+        adopted:
+          _type: pubid:iec:international-standard
+          number: '62532'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '62532'
+        adopted:
+          _type: pubid:cencenelec:adopted-european-norm
+          adopted:
+            _type: pubid:iec:international-standard
+            number: '62532'
+      amendment_number: '1'
+      amd_suffix_form: true
+  representations:
+    human: BS EN IEC 62532 AMD1
+    urn: urn:bsi:bs:62532:amd:1
+  style: v3
+  non_normalized_aliases:
+  - spelling: BS EN 62532 AMD1
+    style: v3
+- id: bsi.consolidated_identifier.0760
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '15798'
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '15798'
+      adopted:
+        _type: pubid:cencenelec:adopted-european-norm
+        adopted:
+          _type: pubid:iso:international-standard
+          number: '15798'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '15798'
+        adopted:
+          _type: pubid:cencenelec:adopted-european-norm
+          adopted:
+            _type: pubid:iso:international-standard
+            number: '15798'
+      amendment_number: '1'
+      amd_suffix_form: true
+  representations:
+    human: BS EN ISO 15798 AMD1
+    urn: urn:bsi:bs:15798:amd:1
+  style: v3
+- id: bsi.consolidated_identifier.0761
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '15848'
+    part: '1'
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '15848'
+      part: '1'
+      adopted:
+        _type: pubid:cencenelec:adopted-european-norm
+        adopted:
+          _type: pubid:iso:international-standard
+          number: '15848'
+          part: '1'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '15848'
+        part: '1'
+        adopted:
+          _type: pubid:cencenelec:adopted-european-norm
+          adopted:
+            _type: pubid:iso:international-standard
+            number: '15848'
+            part: '1'
+      amendment_number: '1'
+      amd_suffix_form: true
+  representations:
+    human: BS EN ISO 15848-1 AMD1
+    urn: urn:bsi:bs:15848:-1:amd:1
+  style: v3
+- id: bsi.consolidated_identifier.0762
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '4287'
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '4287'
+      adopted:
+        _type: pubid:cencenelec:adopted-european-norm
+        adopted:
+          _type: pubid:iso:international-standard
+          number: '4287'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '4287'
+        adopted:
+          _type: pubid:cencenelec:adopted-european-norm
+          adopted:
+            _type: pubid:iso:international-standard
+            number: '4287'
+      amendment_number: '2'
+      amd_suffix_form: true
+  representations:
+    human: BS EN ISO 4287 AMD2
+    urn: urn:bsi:bs:4287:amd:2
+  style: v3
 - id: bsi.consolidated_identifier.0778
   identifier:
     _type: pubid:bsi:consolidated-identifier
-    number:
-      value: '107'
-    part:
-      value: '112'
-    date:
-      year: '1954'
+    number: '60269'
+    part: '2'
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '60269'
+      part: '2'
+      adopted:
+        _type: pubid:cencenelec:harmonization-document
+        number: '60269'
+        part: '2'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '60269'
+        part: '2'
+        adopted:
+          _type: pubid:cencenelec:harmonization-document
+          number: '60269'
+          part: '2'
+      amendment_number: '2'
+      amd_suffix_form: true
+  representations:
+    human: BS HD 60269-2 AMD2
+    urn: urn:bsi:bs:60269:-2:amd:2
+  style: v3
+- id: bsi.consolidated_identifier.0780
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '60269'
+    part: '3'
+    identifiers:
+    - _type: pubid:bsi:adopted-european-norm
+      number: '60269'
+      part: '3'
+      adopted:
+        _type: pubid:cencenelec:harmonization-document
+        number: '60269'
+        part: '3'
+    - _type: pubid:bsi:amendment
+      base:
+        _type: pubid:bsi:adopted-european-norm
+        number: '60269'
+        part: '3'
+        adopted:
+          _type: pubid:cencenelec:harmonization-document
+          number: '60269'
+          part: '3'
+      amendment_number: '2'
+      amd_suffix_form: true
+  representations:
+    human: BS HD 60269-3 AMD2
+    urn: urn:bsi:bs:60269:-3:amd:2
+  style: v3
+- id: bsi.consolidated_identifier.0843
+  identifier:
+    _type: pubid:bsi:consolidated-identifier
+    number: '107'
+    part: '112'
+    year: '1954'
     identifiers:
     - _type: pubid:bsi:aerospace-standard
-      number:
-        value: '107'
-      part:
-        value: '112'
-      date:
-        year: '1954'
+      number: '107'
+      part: '112'
+      year: '1954'
       prefix: SP
     - _type: pubid:bsi:amendment
       base:
         _type: pubid:bsi:aerospace-standard
-        number:
-          value: '107'
-        part:
-          value: '112'
-        date:
-          year: '1954'
+        number: '107'
+        part: '112'
+        year: '1954'
         prefix: SP
       amendment_number: '5'
       amendment_year: 2012
@@ -358,27 +1168,21 @@
     human: BS SP 107-112:1954+A5:2012
     urn: urn:bsi:bs:sp:107:-112:1954:amd:5:2012
   style: v3
-- id: bsi.consolidated_identifier.0780
+- id: bsi.consolidated_identifier.0845
   identifier:
     _type: pubid:bsi:consolidated-identifier
-    number:
-      value: '114'
-    date:
-      year: '1955'
+    number: '114'
+    year: '1955'
     identifiers:
     - _type: pubid:bsi:aerospace-standard
-      number:
-        value: '114'
-      date:
-        year: '1955'
+      number: '114'
+      year: '1955'
       prefix: SP
     - _type: pubid:bsi:amendment
       base:
         _type: pubid:bsi:aerospace-standard
-        number:
-          value: '114'
-        date:
-          year: '1955'
+        number: '114'
+        year: '1955'
         prefix: SP
       amendment_number: '5'
       amendment_year: 2013
@@ -386,33 +1190,24 @@
     human: BS SP 114:1955+A5:2013
     urn: urn:bsi:bs:sp:114:1955:amd:5:2013
   style: v3
-- id: bsi.consolidated_identifier.0782
+- id: bsi.consolidated_identifier.0847
   identifier:
     _type: pubid:bsi:consolidated-identifier
-    number:
-      value: '119'
-    part:
-      value: '120'
-    date:
-      year: '1957'
+    number: '119'
+    part: '120'
+    year: '1957'
     identifiers:
     - _type: pubid:bsi:aerospace-standard
-      number:
-        value: '119'
-      part:
-        value: '120'
-      date:
-        year: '1957'
+      number: '119'
+      part: '120'
+      year: '1957'
       prefix: SP
     - _type: pubid:bsi:amendment
       base:
         _type: pubid:bsi:aerospace-standard
-        number:
-          value: '119'
-        part:
-          value: '120'
-        date:
-          year: '1957'
+        number: '119'
+        part: '120'
+        year: '1957'
         prefix: SP
       amendment_number: '2'
       amendment_year: 2012
@@ -420,33 +1215,24 @@
     human: BS SP 119-120:1957+A2:2012
     urn: urn:bsi:bs:sp:119:-120:1957:amd:2:2012
   style: v3
-- id: bsi.consolidated_identifier.0795
+- id: bsi.consolidated_identifier.0860
   identifier:
     _type: pubid:bsi:consolidated-identifier
-    number:
-      value: '33'
-    part:
-      value: '39'
-    date:
-      year: '1951'
+    number: '33'
+    part: '39'
+    year: '1951'
     identifiers:
     - _type: pubid:bsi:aerospace-standard
-      number:
-        value: '33'
-      part:
-        value: '39'
-      date:
-        year: '1951'
+      number: '33'
+      part: '39'
+      year: '1951'
       prefix: SP
     - _type: pubid:bsi:amendment
       base:
         _type: pubid:bsi:aerospace-standard
-        number:
-          value: '33'
-        part:
-          value: '39'
-        date:
-          year: '1951'
+        number: '33'
+        part: '39'
+        year: '1951'
         prefix: SP
       amendment_number: '5'
       amendment_year: 2015
@@ -454,33 +1240,24 @@
     human: BS SP 33-39:1951+A5:2015
     urn: urn:bsi:bs:sp:33:-39:1951:amd:5:2015
   style: v3
-- id: bsi.consolidated_identifier.0796
+- id: bsi.consolidated_identifier.0861
   identifier:
     _type: pubid:bsi:consolidated-identifier
-    number:
-      value: '41'
-    part:
-      value: '46'
-    date:
-      year: '1951'
+    number: '41'
+    part: '46'
+    year: '1951'
     identifiers:
     - _type: pubid:bsi:aerospace-standard
-      number:
-        value: '41'
-      part:
-        value: '46'
-      date:
-        year: '1951'
+      number: '41'
+      part: '46'
+      year: '1951'
       prefix: SP
     - _type: pubid:bsi:amendment
       base:
         _type: pubid:bsi:aerospace-standard
-        number:
-          value: '41'
-        part:
-          value: '46'
-        date:
-          year: '1951'
+        number: '41'
+        part: '46'
+        year: '1951'
         prefix: SP
       amendment_number: '5'
       amendment_year: 2012
@@ -488,21 +1265,18 @@
     human: BS SP 41-46:1951+A5:2012
     urn: urn:bsi:bs:sp:41:-46:1951:amd:5:2012
   style: v3
-- id: bsi.consolidated_identifier.0806
+- id: bsi.consolidated_identifier.0871
   identifier:
     _type: pubid:bsi:consolidated-identifier
-    number:
-      value: '94'
+    number: '94'
     identifiers:
     - _type: pubid:bsi:aerospace-standard
-      number:
-        value: '94'
+      number: '94'
       prefix: SP
     - _type: pubid:bsi:amendment
       base:
         _type: pubid:bsi:aerospace-standard
-        number:
-          value: '94'
+        number: '94'
         prefix: SP
       amendment_number: '2'
       amd_suffix_form: true
@@ -510,27 +1284,21 @@
     human: BS SP 94 AMD2
     urn: urn:bsi:bs:sp:94:amd:2
   style: v3
-- id: bsi.consolidated_identifier.0807
+- id: bsi.consolidated_identifier.0872
   identifier:
     _type: pubid:bsi:consolidated-identifier
-    number:
-      value: '94'
-    date:
-      year: '1964'
+    number: '94'
+    year: '1964'
     identifiers:
     - _type: pubid:bsi:aerospace-standard
-      number:
-        value: '94'
-      date:
-        year: '1964'
+      number: '94'
+      year: '1964'
       prefix: SP
     - _type: pubid:bsi:amendment
       base:
         _type: pubid:bsi:aerospace-standard
-        number:
-          value: '94'
-        date:
-          year: '1964'
+        number: '94'
+        year: '1964'
         prefix: SP
       amendment_number: '2'
       amendment_year: 2012

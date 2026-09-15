@@ -2,8 +2,7 @@
 - id: csa.series.0512
   identifier:
     _type: pubid:csa:series
-    code:
-      value: A165
+    number: A165
     year: '2014'
     year_format: colon
     reaffirmation: '2024'
@@ -17,8 +16,7 @@
 - id: csa.series.0518
   identifier:
     _type: pubid:csa:series
-    code:
-      value: A257
+    number: A257
     year: '2024'
     year_format: colon
     series: true
@@ -30,8 +28,7 @@
 - id: csa.series.0538
   identifier:
     _type: pubid:csa:series
-    code:
-      value: B126
+    number: B126
     year: '2013'
     year_format: colon
     reaffirmation: '2023'
@@ -45,8 +42,7 @@
 - id: csa.series.0547
   identifier:
     _type: pubid:csa:series
-    code:
-      value: B139
+    number: B139
     year: '2019'
     year_format: colon
     series: true
@@ -58,8 +54,7 @@
 - id: csa.series.0548
   identifier:
     _type: pubid:csa:series
-    code:
-      value: B139
+    number: B139
     year: '2024'
     year_format: colon
     series: true
@@ -71,8 +66,7 @@
 - id: csa.series.0550
   identifier:
     _type: pubid:csa:series
-    code:
-      value: B140.1
+    number: B140.1
     year: '2022'
     year_format: colon
     series: true
@@ -81,11 +75,10 @@
     human: CSA B140.1 SERIES:22
     urn: urn:csa:csa:B140.1:series.true:22
   style: v3
-- id: csa.series.0729
+- id: csa.series.0730
   identifier:
     _type: pubid:csa:series
-    code:
-      value: Z240
+    number: Z240
     year: '2016'
     year_format: colon
     reaffirmation: '2025'
@@ -97,11 +90,10 @@
     human: CSA Z240 MH SERIES:16 (R2025)
     urn: urn:csa:csa:Z240:series.true:series.MH:16:reaff.2025
   style: v3
-- id: csa.series.0730
+- id: csa.series.0731
   identifier:
     _type: pubid:csa:series
-    code:
-      value: Z240
+    number: Z240
     year: '2023'
     year_format: colon
     series_prefix: RV
@@ -111,11 +103,10 @@
     human: CSA Z240 RV SERIES:23
     urn: urn:csa:csa:Z240:series.true:series.RV:23
   style: v3
-- id: csa.series.0744
+- id: csa.series.0745
   identifier:
     _type: pubid:csa:series
-    code:
-      value: Z245.20
+    number: Z245.20
     year: '2022'
     year_format: colon
     series: true
@@ -124,11 +115,10 @@
     human: CSA Z245.20 SERIES:22
     urn: urn:csa:csa:Z245.20:series.true:22
   style: v3
-- id: csa.series.0789
+- id: csa.series.0790
   identifier:
     _type: pubid:csa:series
-    code:
-      value: Z341
+    number: Z341
     year: '2022'
     year_format: colon
     series: true

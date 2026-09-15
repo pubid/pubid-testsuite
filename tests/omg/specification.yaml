@@ -20,12 +20,41 @@
 - id: omg.specification.0003
   identifier:
     _type: pubid:omg:specification
+    acronym: BPMN
+    version: 2.0 beta 1
+  representations:
+    human: OMG BPMN 2.0 beta 1
+    urn: urn:omg
+  style: v3
+- id: omg.specification.0004
+  identifier:
+    _type: pubid:omg:specification
     acronym: CORBA
   representations:
     human: OMG CORBA
     urn: urn:omg
   style: v3
-- id: omg.specification.0004
+- id: omg.specification.0005
+  identifier:
+    _type: pubid:omg:specification
+    acronym: DDS
+    version: '1.4'
+    part: PDF
+  representations:
+    human: OMG DDS 1.4 PDF
+    urn: urn:omg:-PDF
+  style: v3
+- id: omg.specification.0006
+  identifier:
+    _type: pubid:omg:specification
+    acronym: DDS
+    version: '1.4'
+    part: beta2
+  representations:
+    human: OMG DDS 1.4 beta2
+    urn: urn:omg:-beta2
+  style: v3
+- id: omg.specification.0007
   identifier:
     _type: pubid:omg:specification
     acronym: DDS
@@ -34,7 +63,59 @@
     human: OMG DDS 5 beta 3
     urn: urn:omg
   style: v3
-- id: omg.specification.0005
+- id: omg.specification.0008
+  identifier:
+    _type: pubid:omg:specification
+    acronym: DDS-PSM-Cxx
+  representations:
+    human: OMG DDS-PSM-Cxx
+    urn: urn:omg
+  style: v3
+- id: omg.specification.0009
+  identifier:
+    _type: pubid:omg:specification
+    acronym: DDS-XTypes
+    version: '1.3'
+  representations:
+    human: OMG DDS-XTypes 1.3
+    urn: urn:omg
+  style: v3
+- id: omg.specification.0010
+  identifier:
+    _type: pubid:omg:specification
+    acronym: DDSI-RTPS
+    version: '2.5'
+  representations:
+    human: OMG DDSI-RTPS 2.5
+    urn: urn:omg
+  style: v3
+- id: omg.specification.0011
+  identifier:
+    _type: pubid:omg:specification
+    acronym: EDMC-FIBO/BE
+  representations:
+    human: OMG EDMC-FIBO/BE
+    urn: urn:omg
+  style: v3
+- id: omg.specification.0012
+  identifier:
+    _type: pubid:omg:specification
+    acronym: EDMC-FIBO/BE
+    version: '1.1'
+  representations:
+    human: OMG EDMC-FIBO/BE 1.1
+    urn: urn:omg
+  style: v3
+- id: omg.specification.0013
+  identifier:
+    _type: pubid:omg:specification
+    acronym: NOTEXIST
+    version: '1.1'
+  representations:
+    human: OMG NOTEXIST 1.1
+    urn: urn:omg
+  style: v3
+- id: omg.specification.0014
   identifier:
     _type: pubid:omg:specification
     acronym: SysML
@@ -43,12 +124,69 @@
     human: OMG SysML 1.6
     urn: urn:omg
   style: v3
-- id: omg.specification.0006
+- id: omg.specification.0015
+  identifier:
+    _type: pubid:omg:specification
+    acronym: UML
+    version: 2.1.1
+    part: Infrastructure
+  representations:
+    human: OMG UML 2.1.1 Infrastructure
+    urn: urn:omg:-Infrastructure
+  style: v3
+- id: omg.specification.0016
+  identifier:
+    _type: pubid:omg:specification
+    acronym: UML
+    version: 2.1.1
+    part: Superstructure
+  representations:
+    human: OMG UML 2.1.1 Superstructure
+    urn: urn:omg:-Superstructure
+  style: v3
+- id: omg.specification.0017
+  identifier:
+    _type: pubid:omg:specification
+    acronym: UML
+    version: 2.5 beta
+  representations:
+    human: OMG UML 2.5 beta
+    urn: urn:omg
+  style: v3
+- id: omg.specification.0018
+  identifier:
+    _type: pubid:omg:specification
+    acronym: UML
+    version: 2.5 beta
+    part: PDF
+  representations:
+    human: OMG UML 2.5 beta PDF
+    urn: urn:omg:-PDF
+  style: v3
+- id: omg.specification.0019
   identifier:
     _type: pubid:omg:specification
     acronym: UML
     version: 2.5.1
   representations:
     human: OMG UML 2.5.1
+    urn: urn:omg
+  style: v3
+- id: omg.specification.0020
+  identifier:
+    _type: pubid:omg:specification
+    acronym: VSIPL++
+    version: '1.3'
+  representations:
+    human: OMG VSIPL++ 1.3
+    urn: urn:omg
+  style: v3
+- id: omg.specification.0021
+  identifier:
+    _type: pubid:omg:specification
+    acronym: smartant
+    version: '1.0'
+  representations:
+    human: OMG smartant 1.0
     urn: urn:omg
   style: v3

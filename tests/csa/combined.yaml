@@ -1,0 +1,162 @@
+---
+- id: csa.combined.0045
+  identifier:
+    _type: pubid:csa:combined
+    identifiers:
+    - _type: pubid:csa:standard
+      number: B138.1
+      year: '2017'
+      year_format: dash
+      has_publisher: true
+      publisher_prefix: CAN/CSA-
+    - _type: pubid:csa:standard
+      number: B138.2
+      year: '2017'
+      year_format: dash
+      has_publisher: true
+      publisher_prefix: CAN/CSA-
+    reaffirmation: '2022'
+    original_reaffirmation_4digit: true
+  representations:
+    human: CAN/CSA-B138.1-17/CAN/CSA-B138.2-17 (R2022)
+  style: v3
+- id: csa.combined.0501
+  identifier:
+    _type: pubid:csa:combined
+    identifiers:
+    - _type: pubid:csa:standard
+      number: A123.1
+      year: '2005'
+      year_format: dash
+      has_publisher: true
+      publisher_prefix: CSA
+    - _type: pubid:csa:standard
+      number: A123.5
+      year: '2005'
+      year_format: dash
+      code_only: true
+    reaffirmation: '2015'
+    original_reaffirmation_4digit: true
+    year_format: dash
+  representations:
+    human: CSA A123.1-05/A123.5-05 (R2015)
+  style: v3
+- id: csa.combined.0513
+  identifier:
+    _type: pubid:csa:combined
+    identifiers:
+    - _type: pubid:csa:standard
+      number: A23.1
+      year: '2019'
+      year_format: colon
+      has_publisher: true
+      publisher_prefix: CSA
+    - _type: pubid:csa:standard
+      number: A23.2
+      year: '2019'
+      year_format: colon
+      has_publisher: true
+      publisher_prefix: CSA
+  representations:
+    human: CSA A23.1:19/CSA A23.2:19
+  style: v3
+- id: csa.combined.0514
+  identifier:
+    _type: pubid:csa:combined
+    identifiers:
+    - _type: pubid:csa:standard
+      number: A23.1
+      year: '2024'
+      year_format: colon
+      has_publisher: true
+      publisher_prefix: CSA
+    - _type: pubid:csa:standard
+      number: A23.2
+      year: '2024'
+      year_format: colon
+      has_publisher: true
+      publisher_prefix: CSA
+  representations:
+    human: CSA A23.1:24/CSA A23.2:24
+  style: v3
+- id: csa.combined.0517
+  identifier:
+    _type: pubid:csa:combined
+    identifiers:
+    - _type: pubid:csa:standard
+      number: A231.1
+      year: '2019'
+      year_format: colon
+      has_publisher: true
+      publisher_prefix: CSA
+    - _type: pubid:csa:standard
+      number: A231.2
+      year: '2019'
+      year_format: colon
+      has_publisher: true
+      publisher_prefix: CSA
+    reaffirmation: '2024'
+    original_reaffirmation_4digit: true
+  representations:
+    human: CSA A231.1:19/CSA A231.2:19 (R2024)
+  style: v3
+- id: csa.combined.0524
+  identifier:
+    _type: pubid:csa:combined
+    identifiers:
+    - _type: pubid:csa:standard
+      number: A440.2
+      year: '2022'
+      year_format: colon
+      has_publisher: true
+      publisher_prefix: CSA
+    - _type: pubid:csa:standard
+      number: A440.3
+      year: '2022'
+      year_format: colon
+      has_publisher: true
+      publisher_prefix: CSA
+  representations:
+    human: CSA A440.2:22/CSA A440.3:22
+  style: v3
+- id: csa.combined.0540
+  identifier:
+    _type: pubid:csa:combined
+    identifiers:
+    - _type: pubid:csa:standard
+      number: B128.1
+      year: '2006'
+      year_format: colon
+      has_publisher: true
+      publisher_prefix: CSA
+    - _type: pubid:csa:standard
+      number: B128.2
+      year: '2006'
+      year_format: colon
+      has_publisher: true
+      publisher_prefix: CSA
+    reaffirmation: '2021'
+    original_reaffirmation_4digit: true
+  representations:
+    human: CSA B128.1:06/CSA B128.2:06 (R2021)
+  style: v3
+- id: csa.combined.0728
+  identifier:
+    _type: pubid:csa:combined
+    identifiers:
+    - _type: pubid:csa:standard
+      number: N285.0
+      year: '2023'
+      year_format: colon
+      has_publisher: true
+      publisher_prefix: CSA
+    - _type: pubid:csa:series
+      number: N285.6
+      year: '2023'
+      year_format: colon
+      has_publisher: true
+      series: true
+      publisher_prefix: CSA
+  representations:
+    human: CSA N285.0:23/CSA N285.6 SERIES:23
+  style: v3

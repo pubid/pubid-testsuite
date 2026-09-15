@@ -2110,6 +2110,9 @@
     human: ISO 105-F
     urn: urn:iso:std:iso:105:-F
   style: v3
+  non_normalized_aliases:
+  - spelling: ISO 105/F
+    style: v3
 - id: iso.international_standard.0238
   identifier:
     _type: pubid:iso:international-standard
@@ -17927,6 +17930,9 @@
     human: ISO 15848-1:2015
     urn: urn:iso:std:iso:15848:-1
   style: v3
+  non_normalized_aliases:
+  - spelling: ISO 15848-1 :2015
+    style: v3
 - id: iso.international_standard.1949
   identifier:
     _type: pubid:iso:international-standard
@@ -18043,6 +18049,9 @@
     human: ISO 15859-4:2004
     urn: urn:iso:std:iso:15859:-4
   style: v3
+  non_normalized_aliases:
+  - spelling: ISO 15859-4 :2004
+    style: v3
 - id: iso.international_standard.1961
   identifier:
     _type: pubid:iso:international-standard
@@ -46502,6 +46511,9 @@
     human: ISO 5843-6
     urn: urn:iso:std:iso:5843:-6
   style: v3
+  non_normalized_aliases:
+  - spelling: ISO 5843/6
+    style: v3
 - id: iso.international_standard.5142
   identifier:
     _type: pubid:iso:international-standard
@@ -56616,7 +56628,7 @@
     human: ISO/CIE DIS 23539
     urn: urn:iso:std:iso-cie:23539:DIS
   style: v3
-- id: iso.international_standard.6251
+- id: iso.international_standard.6258
   identifier:
     _type: pubid:iso:international-standard
     number: '12625'
@@ -56631,7 +56643,7 @@
     human: ISO/DIS 12625-1(en,fr)
     urn: urn:iso:std:iso:12625:-1:DIS:en,fr
   style: v3
-- id: iso.international_standard.6252
+- id: iso.international_standard.6259
   identifier:
     _type: pubid:iso:international-standard
     number: '16228'
@@ -56644,7 +56656,7 @@
     human: ISO/DIS 16228:2015(F)
     urn: urn:iso:std:iso:16228:DIS:fr
   style: v3
-- id: iso.international_standard.6253
+- id: iso.international_standard.6260
   identifier:
     _type: pubid:iso:international-standard
     number: '18218'
@@ -56657,7 +56669,7 @@
     human: ISO/DIS 18218-2(fr)
     urn: urn:iso:std:iso:18218:-2:DIS:fr
   style: v3
-- id: iso.international_standard.6254
+- id: iso.international_standard.6261
   identifier:
     _type: pubid:iso:international-standard
     number: '1956'
@@ -56672,7 +56684,7 @@
     style: v3
   - spelling: 'ИСО/ПМС 1956/2 # ПМС is DIS'
     style: v3
-- id: iso.international_standard.6255
+- id: iso.international_standard.6262
   identifier:
     _type: pubid:iso:international-standard
     number: '22964'
@@ -56684,7 +56696,7 @@
     human: ISO/DIS 22964(fr)
     urn: urn:iso:std:iso:22964:DIS:fr
   style: v3
-- id: iso.international_standard.6256
+- id: iso.international_standard.6263
   identifier:
     _type: pubid:iso:international-standard
     number: '24478'
@@ -56696,7 +56708,7 @@
     human: ISO/DIS 24478(fr)
     urn: urn:iso:std:iso:24478:DIS:fr
   style: v3
-- id: iso.international_standard.6257
+- id: iso.international_standard.6264
   identifier:
     _type: pubid:iso:international-standard
     number: '30415'
@@ -56708,7 +56720,7 @@
     human: ISO/DIS 30415(fr)
     urn: urn:iso:std:iso:30415:DIS:fr
   style: v3
-- id: iso.international_standard.6258
+- id: iso.international_standard.6265
   identifier:
     _type: pubid:iso:international-standard
     number: '6789'
@@ -56722,7 +56734,7 @@
     human: ISO/DIS 6789-2.2(fr)
     urn: urn:iso:std:iso:6789:-2:DIS.2:fr
   style: v3
-- id: iso.international_standard.6259
+- id: iso.international_standard.6266
   identifier:
     _type: pubid:iso:international-standard
     number: '6789'
@@ -56736,7 +56748,7 @@
     human: ISO/DIS 6789-2:2014(F)
     urn: urn:iso:std:iso:6789:-2:DIS:fr
   style: v3
-- id: iso.international_standard.6260
+- id: iso.international_standard.6267
   identifier:
     _type: pubid:iso:international-standard
     number: '80000'
@@ -56749,7 +56761,7 @@
     human: ISO/DIS 80000-1(fr)
     urn: urn:iso:std:iso:80000:-1:DIS:fr
   style: v3
-- id: iso.international_standard.6261
+- id: iso.international_standard.6268
   identifier:
     _type: pubid:iso:international-standard
     number: '8566'
@@ -56763,7 +56775,7 @@
     human: ISO/DIS 8566-5:2016(F)
     urn: urn:iso:std:iso:8566:-5:DIS:fr
   style: v3
-- id: iso.international_standard.6275
+- id: iso.international_standard.6282
   identifier:
     _type: pubid:iso:international-standard
     number: '21420'
@@ -56773,7 +56785,7 @@
     human: ISO/FDIS 21420.2
     urn: urn:iso:std:iso:21420:FDIS.2
   style: v3
-- id: iso.international_standard.6276
+- id: iso.international_standard.6283
   identifier:
     _type: pubid:iso:international-standard
     number: '22291'
@@ -56782,7 +56794,7 @@
     human: ISO/FDIS 22291
     urn: urn:iso:std:iso:22291:FDIS
   style: v3
-- id: iso.international_standard.6277
+- id: iso.international_standard.6284
   identifier:
     _type: pubid:iso:international-standard
     number: '22868'
@@ -56791,7 +56803,7 @@
     human: ISO/FDIS 22868
     urn: urn:iso:std:iso:22868:FDIS
   style: v3
-- id: iso.international_standard.6278
+- id: iso.international_standard.6285
   identifier:
     _type: pubid:iso:international-standard
     number: '26000'
@@ -56809,7 +56821,7 @@
     style: v3
   - spelling: 'ИСО/ОПМС 26000:2010(R) # ОПМС is FDIS'
     style: v3
-- id: iso.international_standard.6279
+- id: iso.international_standard.6286
   identifier:
     _type: pubid:iso:international-standard
     number: '28139'
@@ -56818,7 +56830,7 @@
     human: ISO/FDIS 28139
     urn: urn:iso:std:iso:28139:FDIS
   style: v3
-- id: iso.international_standard.6280
+- id: iso.international_standard.6287
   identifier:
     _type: pubid:iso:international-standard
     number: '9000'
@@ -56831,7 +56843,7 @@
   non_normalized_aliases:
   - spelling: ИСО/ОПМС 9000:2000
     style: v3
-- id: iso.international_standard.6281
+- id: iso.international_standard.6288
   identifier:
     _type: pubid:iso:international-standard
     number: '27953'
@@ -56843,7 +56855,7 @@
     human: ISO/HL7 27953-2:2011
     urn: urn:iso:std:iso-hl7:27953:-2
   style: v3
-- id: iso.international_standard.6283
+- id: iso.international_standard.6290
   identifier:
     _type: pubid:iso:international-standard
     number: '10164'
@@ -56855,7 +56867,7 @@
     human: ISO/IEC 10164-22:2000
     urn: urn:iso:std:iso-iec:10164:-22
   style: v3
-- id: iso.international_standard.6284
+- id: iso.international_standard.6291
   identifier:
     _type: pubid:iso:international-standard
     number: '10373'
@@ -56866,7 +56878,7 @@
     human: ISO/IEC 10373-1
     urn: urn:iso:std:iso-iec:10373:-1
   style: v3
-- id: iso.international_standard.6285
+- id: iso.international_standard.6292
   identifier:
     _type: pubid:iso:international-standard
     number: '10373'
@@ -56878,7 +56890,7 @@
     human: ISO/IEC 10373-2:2006
     urn: urn:iso:std:iso-iec:10373:-2
   style: v3
-- id: iso.international_standard.6286
+- id: iso.international_standard.6293
   identifier:
     _type: pubid:iso:international-standard
     number: '10373'
@@ -56890,7 +56902,7 @@
     human: ISO/IEC 10373-2:2015
     urn: urn:iso:std:iso-iec:10373:-2
   style: v3
-- id: iso.international_standard.6287
+- id: iso.international_standard.6294
   identifier:
     _type: pubid:iso:international-standard
     number: '10373'
@@ -56902,7 +56914,7 @@
     human: ISO/IEC 10373-3:2001
     urn: urn:iso:std:iso-iec:10373:-3
   style: v3
-- id: iso.international_standard.6288
+- id: iso.international_standard.6295
   identifier:
     _type: pubid:iso:international-standard
     number: '10373'
@@ -56914,7 +56926,7 @@
     human: ISO/IEC 10373-3:2010
     urn: urn:iso:std:iso-iec:10373:-3
   style: v3
-- id: iso.international_standard.6289
+- id: iso.international_standard.6296
   identifier:
     _type: pubid:iso:international-standard
     number: '10373'
@@ -56926,7 +56938,7 @@
     human: ISO/IEC 10373-3:2018
     urn: urn:iso:std:iso-iec:10373:-3
   style: v3
-- id: iso.international_standard.6290
+- id: iso.international_standard.6297
   identifier:
     _type: pubid:iso:international-standard
     number: '10373'
@@ -56938,7 +56950,7 @@
     human: ISO/IEC 10373-5:2014
     urn: urn:iso:std:iso-iec:10373:-5
   style: v3
-- id: iso.international_standard.6291
+- id: iso.international_standard.6298
   identifier:
     _type: pubid:iso:international-standard
     number: '10373'
@@ -56950,7 +56962,7 @@
     human: ISO/IEC 10373-6:2001
     urn: urn:iso:std:iso-iec:10373:-6
   style: v3
-- id: iso.international_standard.6292
+- id: iso.international_standard.6299
   identifier:
     _type: pubid:iso:international-standard
     number: '10373'
@@ -56962,7 +56974,7 @@
     human: ISO/IEC 10373-6:2016
     urn: urn:iso:std:iso-iec:10373:-6
   style: v3
-- id: iso.international_standard.6294
+- id: iso.international_standard.6301
   identifier:
     _type: pubid:iso:international-standard
     number: '10373'
@@ -56974,7 +56986,7 @@
     human: ISO/IEC 10373-7:2001
     urn: urn:iso:std:iso-iec:10373:-7
   style: v3
-- id: iso.international_standard.6295
+- id: iso.international_standard.6302
   identifier:
     _type: pubid:iso:international-standard
     number: '10373'
@@ -56986,7 +56998,7 @@
     human: ISO/IEC 10373-7:2008
     urn: urn:iso:std:iso-iec:10373:-7
   style: v3
-- id: iso.international_standard.6296
+- id: iso.international_standard.6303
   identifier:
     _type: pubid:iso:international-standard
     number: '10373'
@@ -56998,7 +57010,7 @@
     human: ISO/IEC 10373-7:2019
     urn: urn:iso:std:iso-iec:10373:-7
   style: v3
-- id: iso.international_standard.6297
+- id: iso.international_standard.6304
   identifier:
     _type: pubid:iso:international-standard
     number: '10373'
@@ -57010,7 +57022,7 @@
     human: ISO/IEC 10373-8:2011
     urn: urn:iso:std:iso-iec:10373:-8
   style: v3
-- id: iso.international_standard.6298
+- id: iso.international_standard.6305
   identifier:
     _type: pubid:iso:international-standard
     number: '10373'
@@ -57022,7 +57034,7 @@
     human: ISO/IEC 10373-9:2011
     urn: urn:iso:std:iso-iec:10373:-9
   style: v3
-- id: iso.international_standard.6302
+- id: iso.international_standard.6309
   identifier:
     _type: pubid:iso:international-standard
     number: '10918'
@@ -57033,7 +57045,7 @@
     human: ISO/IEC 10918-7
     urn: urn:iso:std:iso-iec:10918:-7
   style: v3
-- id: iso.international_standard.6306
+- id: iso.international_standard.6313
   identifier:
     _type: pubid:iso:international-standard
     number: '11801'
@@ -57045,7 +57057,7 @@
     human: ISO/IEC 11801-1:2017
     urn: urn:iso:std:iso-iec:11801:-1
   style: v3
-- id: iso.international_standard.6307
+- id: iso.international_standard.6314
   identifier:
     _type: pubid:iso:international-standard
     number: '12139'
@@ -57057,7 +57069,7 @@
     human: ISO/IEC 12139-1:2009
     urn: urn:iso:std:iso-iec:12139:-1
   style: v3
-- id: iso.international_standard.6308
+- id: iso.international_standard.6315
   identifier:
     _type: pubid:iso:international-standard
     number: '12207'
@@ -57068,7 +57080,7 @@
     human: ISO/IEC 12207-2
     urn: urn:iso:std:iso-iec:12207:-2
   style: v3
-- id: iso.international_standard.6309
+- id: iso.international_standard.6316
   identifier:
     _type: pubid:iso:international-standard
     number: '12207'
@@ -57079,7 +57091,7 @@
     human: ISO/IEC 12207:2008
     urn: urn:iso:std:iso-iec:12207
   style: v3
-- id: iso.international_standard.6310
+- id: iso.international_standard.6317
   identifier:
     _type: pubid:iso:international-standard
     number: '13066'
@@ -57091,7 +57103,7 @@
     human: ISO/IEC 13066-1:2011
     urn: urn:iso:std:iso-iec:13066:-1
   style: v3
-- id: iso.international_standard.6311
+- id: iso.international_standard.6318
   identifier:
     _type: pubid:iso:international-standard
     number: '13210'
@@ -57102,7 +57114,7 @@
     human: ISO/IEC 13210:1999
     urn: urn:iso:std:iso-iec:13210
   style: v3
-- id: iso.international_standard.6312
+- id: iso.international_standard.6319
   identifier:
     _type: pubid:iso:international-standard
     number: '13522'
@@ -57114,7 +57126,7 @@
     human: ISO/IEC 13522-7:2001
     urn: urn:iso:std:iso-iec:13522:-7
   style: v3
-- id: iso.international_standard.6313
+- id: iso.international_standard.6320
   identifier:
     _type: pubid:iso:international-standard
     number: '13673'
@@ -57125,7 +57137,7 @@
     human: ISO/IEC 13673:2000
     urn: urn:iso:std:iso-iec:13673
   style: v3
-- id: iso.international_standard.6314
+- id: iso.international_standard.6321
   identifier:
     _type: pubid:iso:international-standard
     number: '13751'
@@ -57136,7 +57148,7 @@
     human: ISO/IEC 13751:2001
     urn: urn:iso:std:iso-iec:13751
   style: v3
-- id: iso.international_standard.6315
+- id: iso.international_standard.6322
   identifier:
     _type: pubid:iso:international-standard
     number: '13816'
@@ -57147,7 +57159,7 @@
     human: ISO/IEC 13816:2007
     urn: urn:iso:std:iso-iec:13816
   style: v3
-- id: iso.international_standard.6324
+- id: iso.international_standard.6331
   identifier:
     _type: pubid:iso:international-standard
     number: '13818'
@@ -57159,7 +57171,7 @@
     human: ISO/IEC 13818-4:2004
     urn: urn:iso:std:iso-iec:13818:-4
   style: v3
-- id: iso.international_standard.6326
+- id: iso.international_standard.6333
   identifier:
     _type: pubid:iso:international-standard
     number: '14143'
@@ -57171,7 +57183,7 @@
     human: ISO/IEC 14143-1:2007
     urn: urn:iso:std:iso-iec:14143:-1
   style: v3
-- id: iso.international_standard.6327
+- id: iso.international_standard.6334
   identifier:
     _type: pubid:iso:international-standard
     number: '14143'
@@ -57183,7 +57195,7 @@
     human: ISO/IEC 14143-2:2011
     urn: urn:iso:std:iso-iec:14143:-2
   style: v3
-- id: iso.international_standard.6328
+- id: iso.international_standard.6335
   identifier:
     _type: pubid:iso:international-standard
     number: '14143'
@@ -57195,7 +57207,7 @@
     human: ISO/IEC 14143-6:2006
     urn: urn:iso:std:iso-iec:14143:-6
   style: v3
-- id: iso.international_standard.6329
+- id: iso.international_standard.6336
   identifier:
     _type: pubid:iso:international-standard
     number: '14143'
@@ -57207,7 +57219,7 @@
     human: ISO/IEC 14143-6:2012
     urn: urn:iso:std:iso-iec:14143:-6
   style: v3
-- id: iso.international_standard.6331
+- id: iso.international_standard.6338
   identifier:
     _type: pubid:iso:international-standard
     number: '14165'
@@ -57218,7 +57230,7 @@
     human: ISO/IEC 14165-131
     urn: urn:iso:std:iso-iec:14165:-131
   style: v3
-- id: iso.international_standard.6332
+- id: iso.international_standard.6339
   identifier:
     _type: pubid:iso:international-standard
     number: '14165'
@@ -57230,7 +57242,7 @@
     human: ISO/IEC 14165-141:2001
     urn: urn:iso:std:iso-iec:14165:-141
   style: v3
-- id: iso.international_standard.6343
+- id: iso.international_standard.6350
   identifier:
     _type: pubid:iso:international-standard
     number: '14496'
@@ -57241,7 +57253,7 @@
     human: ISO/IEC 14496-32
     urn: urn:iso:std:iso-iec:14496:-32
   style: v3
-- id: iso.international_standard.6345
+- id: iso.international_standard.6352
   identifier:
     _type: pubid:iso:international-standard
     number: '14496'
@@ -57253,7 +57265,7 @@
     human: ISO/IEC 14496-4:2000
     urn: urn:iso:std:iso-iec:14496:-4
   style: v3
-- id: iso.international_standard.6346
+- id: iso.international_standard.6353
   identifier:
     _type: pubid:iso:international-standard
     number: '14496'
@@ -57265,7 +57277,7 @@
     human: ISO/IEC 14496-4:2004
     urn: urn:iso:std:iso-iec:14496:-4
   style: v3
-- id: iso.international_standard.6347
+- id: iso.international_standard.6354
   identifier:
     _type: pubid:iso:international-standard
     number: '14496'
@@ -57277,7 +57289,7 @@
     human: ISO/IEC 14496-5:2001
     urn: urn:iso:std:iso-iec:14496:-5
   style: v3
-- id: iso.international_standard.6348
+- id: iso.international_standard.6355
   identifier:
     _type: pubid:iso:international-standard
     number: '14543'
@@ -57290,7 +57302,7 @@
     human: ISO/IEC 14543-5-12:2019
     urn: urn:iso:std:iso-iec:14543:-5-12
   style: v3
-- id: iso.international_standard.6349
+- id: iso.international_standard.6356
   identifier:
     _type: pubid:iso:international-standard
     number: '14598'
@@ -57302,7 +57314,7 @@
     human: ISO/IEC 14598-1:1999
     urn: urn:iso:std:iso-iec:14598:-1
   style: v3
-- id: iso.international_standard.6350
+- id: iso.international_standard.6357
   identifier:
     _type: pubid:iso:international-standard
     number: '14598'
@@ -57314,7 +57326,7 @@
     human: ISO/IEC 14598-2:2000
     urn: urn:iso:std:iso-iec:14598:-2
   style: v3
-- id: iso.international_standard.6351
+- id: iso.international_standard.6358
   identifier:
     _type: pubid:iso:international-standard
     number: '14598'
@@ -57326,7 +57338,7 @@
     human: ISO/IEC 14598-3:2000
     urn: urn:iso:std:iso-iec:14598:-3
   style: v3
-- id: iso.international_standard.6352
+- id: iso.international_standard.6359
   identifier:
     _type: pubid:iso:international-standard
     number: '14598'
@@ -57338,7 +57350,7 @@
     human: ISO/IEC 14598-6:2001
     urn: urn:iso:std:iso-iec:14598:-6
   style: v3
-- id: iso.international_standard.6353
+- id: iso.international_standard.6360
   identifier:
     _type: pubid:iso:international-standard
     number: '14756'
@@ -57349,7 +57361,7 @@
     human: ISO/IEC 14756:1999
     urn: urn:iso:std:iso-iec:14756
   style: v3
-- id: iso.international_standard.6354
+- id: iso.international_standard.6361
   identifier:
     _type: pubid:iso:international-standard
     number: '14762'
@@ -57360,7 +57372,7 @@
     human: ISO/IEC 14762:2009
     urn: urn:iso:std:iso-iec:14762
   style: v3
-- id: iso.international_standard.6355
+- id: iso.international_standard.6362
   identifier:
     _type: pubid:iso:international-standard
     number: '14763'
@@ -57372,7 +57384,7 @@
     human: ISO/IEC 14763-3:2014
     urn: urn:iso:std:iso-iec:14763:-3
   style: v3
-- id: iso.international_standard.6356
+- id: iso.international_standard.6363
   identifier:
     _type: pubid:iso:international-standard
     number: '14764'
@@ -57383,7 +57395,7 @@
     human: ISO/IEC 14764:1999
     urn: urn:iso:std:iso-iec:14764
   style: v3
-- id: iso.international_standard.6357
+- id: iso.international_standard.6364
   identifier:
     _type: pubid:iso:international-standard
     number: '14764'
@@ -57394,7 +57406,7 @@
     human: ISO/IEC 14764:2006
     urn: urn:iso:std:iso-iec:14764
   style: v3
-- id: iso.international_standard.6358
+- id: iso.international_standard.6365
   identifier:
     _type: pubid:iso:international-standard
     number: '15026'
@@ -57404,7 +57416,7 @@
     human: ISO/IEC 15026
     urn: urn:iso:std:iso-iec:15026
   style: v3
-- id: iso.international_standard.6359
+- id: iso.international_standard.6366
   identifier:
     _type: pubid:iso:international-standard
     number: '15026'
@@ -57416,7 +57428,7 @@
     human: ISO/IEC 15026-1:2013
     urn: urn:iso:std:iso-iec:15026:-1
   style: v3
-- id: iso.international_standard.6360
+- id: iso.international_standard.6367
   identifier:
     _type: pubid:iso:international-standard
     number: '15026'
@@ -57428,7 +57440,7 @@
     human: ISO/IEC 15026-2:2011
     urn: urn:iso:std:iso-iec:15026:-2
   style: v3
-- id: iso.international_standard.6361
+- id: iso.international_standard.6368
   identifier:
     _type: pubid:iso:international-standard
     number: '15026'
@@ -57440,7 +57452,7 @@
     human: ISO/IEC 15026-3:2011
     urn: urn:iso:std:iso-iec:15026:-3
   style: v3
-- id: iso.international_standard.6362
+- id: iso.international_standard.6369
   identifier:
     _type: pubid:iso:international-standard
     number: '15026'
@@ -57452,7 +57464,7 @@
     human: ISO/IEC 15026-3:2015
     urn: urn:iso:std:iso-iec:15026:-3
   style: v3
-- id: iso.international_standard.6363
+- id: iso.international_standard.6370
   identifier:
     _type: pubid:iso:international-standard
     number: '15026'
@@ -57463,7 +57475,7 @@
     human: ISO/IEC 15026-4
     urn: urn:iso:std:iso-iec:15026:-4
   style: v3
-- id: iso.international_standard.6364
+- id: iso.international_standard.6371
   identifier:
     _type: pubid:iso:international-standard
     number: '15026'
@@ -57475,7 +57487,7 @@
     human: ISO/IEC 15026-4:2012
     urn: urn:iso:std:iso-iec:15026:-4
   style: v3
-- id: iso.international_standard.6365
+- id: iso.international_standard.6372
   identifier:
     _type: pubid:iso:international-standard
     number: '15288'
@@ -57486,7 +57498,7 @@
     human: ISO/IEC 15288:2008
     urn: urn:iso:std:iso-iec:15288
   style: v3
-- id: iso.international_standard.6366
+- id: iso.international_standard.6373
   identifier:
     _type: pubid:iso:international-standard
     number: '15289'
@@ -57497,7 +57509,7 @@
     human: ISO/IEC 15289:2006
     urn: urn:iso:std:iso-iec:15289
   style: v3
-- id: iso.international_standard.6368
+- id: iso.international_standard.6375
   identifier:
     _type: pubid:iso:international-standard
     number: '15408'
@@ -57509,7 +57521,7 @@
     human: ISO/IEC 15408-2:1999
     urn: urn:iso:std:iso-iec:15408:-2
   style: v3
-- id: iso.international_standard.6370
+- id: iso.international_standard.6377
   identifier:
     _type: pubid:iso:international-standard
     number: '15408'
@@ -57521,7 +57533,7 @@
     human: ISO/IEC 15408-2:2008
     urn: urn:iso:std:iso-iec:15408:-2
   style: v3
-- id: iso.international_standard.6371
+- id: iso.international_standard.6378
   identifier:
     _type: pubid:iso:international-standard
     number: '15408'
@@ -57533,7 +57545,7 @@
     human: ISO/IEC 15408-3:1999
     urn: urn:iso:std:iso-iec:15408:-3
   style: v3
-- id: iso.international_standard.6372
+- id: iso.international_standard.6379
   identifier:
     _type: pubid:iso:international-standard
     number: '15408'
@@ -57545,7 +57557,7 @@
     human: ISO/IEC 15408-3:2005
     urn: urn:iso:std:iso-iec:15408:-3
   style: v3
-- id: iso.international_standard.6373
+- id: iso.international_standard.6380
   identifier:
     _type: pubid:iso:international-standard
     number: '15408'
@@ -57557,7 +57569,7 @@
     human: ISO/IEC 15408-3:2008
     urn: urn:iso:std:iso-iec:15408:-3
   style: v3
-- id: iso.international_standard.6374
+- id: iso.international_standard.6381
   identifier:
     _type: pubid:iso:international-standard
     number: '15408'
@@ -57568,7 +57580,7 @@
     human: ISO/IEC 15408-5
     urn: urn:iso:std:iso-iec:15408:-5
   style: v3
-- id: iso.international_standard.6375
+- id: iso.international_standard.6382
   identifier:
     _type: pubid:iso:international-standard
     number: '15415'
@@ -57579,7 +57591,7 @@
     human: ISO/IEC 15415:2011
     urn: urn:iso:std:iso-iec:15415
   style: v3
-- id: iso.international_standard.6376
+- id: iso.international_standard.6383
   identifier:
     _type: pubid:iso:international-standard
     number: '15416'
@@ -57590,7 +57602,7 @@
     human: ISO/IEC 15416:2000
     urn: urn:iso:std:iso-iec:15416
   style: v3
-- id: iso.international_standard.6377
+- id: iso.international_standard.6384
   identifier:
     _type: pubid:iso:international-standard
     number: '15416'
@@ -57601,7 +57613,7 @@
     human: ISO/IEC 15416:2001
     urn: urn:iso:std:iso-iec:15416
   style: v3
-- id: iso.international_standard.6378
+- id: iso.international_standard.6385
   identifier:
     _type: pubid:iso:international-standard
     number: '15416'
@@ -57612,7 +57624,7 @@
     human: ISO/IEC 15416:2016
     urn: urn:iso:std:iso-iec:15416
   style: v3
-- id: iso.international_standard.6379
+- id: iso.international_standard.6386
   identifier:
     _type: pubid:iso:international-standard
     number: '15419'
@@ -57623,7 +57635,7 @@
     human: ISO/IEC 15419:2001
     urn: urn:iso:std:iso-iec:15419
   style: v3
-- id: iso.international_standard.6380
+- id: iso.international_standard.6387
   identifier:
     _type: pubid:iso:international-standard
     number: '15419'
@@ -57634,7 +57646,7 @@
     human: ISO/IEC 15419:2009
     urn: urn:iso:std:iso-iec:15419
   style: v3
-- id: iso.international_standard.6381
+- id: iso.international_standard.6388
   identifier:
     _type: pubid:iso:international-standard
     number: '15419'
@@ -57645,7 +57657,7 @@
     human: ISO/IEC 15419:2010
     urn: urn:iso:std:iso-iec:15419
   style: v3
-- id: iso.international_standard.6382
+- id: iso.international_standard.6389
   identifier:
     _type: pubid:iso:international-standard
     number: '15421'
@@ -57656,7 +57668,7 @@
     human: ISO/IEC 15421:2000
     urn: urn:iso:std:iso-iec:15421
   style: v3
-- id: iso.international_standard.6383
+- id: iso.international_standard.6390
   identifier:
     _type: pubid:iso:international-standard
     number: '15421'
@@ -57667,7 +57679,7 @@
     human: ISO/IEC 15421:2001
     urn: urn:iso:std:iso-iec:15421
   style: v3
-- id: iso.international_standard.6384
+- id: iso.international_standard.6391
   identifier:
     _type: pubid:iso:international-standard
     number: '15421'
@@ -57678,7 +57690,7 @@
     human: ISO/IEC 15421:2010
     urn: urn:iso:std:iso-iec:15421
   style: v3
-- id: iso.international_standard.6385
+- id: iso.international_standard.6392
   identifier:
     _type: pubid:iso:international-standard
     number: '15423'
@@ -57689,7 +57701,7 @@
     human: ISO/IEC 15423:2004
     urn: urn:iso:std:iso-iec:15423
   style: v3
-- id: iso.international_standard.6386
+- id: iso.international_standard.6393
   identifier:
     _type: pubid:iso:international-standard
     number: '15423'
@@ -57700,7 +57712,7 @@
     human: ISO/IEC 15423:2009
     urn: urn:iso:std:iso-iec:15423
   style: v3
-- id: iso.international_standard.6387
+- id: iso.international_standard.6394
   identifier:
     _type: pubid:iso:international-standard
     number: '15423'
@@ -57711,7 +57723,7 @@
     human: ISO/IEC 15423:2010
     urn: urn:iso:std:iso-iec:15423
   style: v3
-- id: iso.international_standard.6388
+- id: iso.international_standard.6395
   identifier:
     _type: pubid:iso:international-standard
     number: '15444'
@@ -57723,7 +57735,7 @@
     human: ISO/IEC 15444-4:2002
     urn: urn:iso:std:iso-iec:15444:-4
   style: v3
-- id: iso.international_standard.6389
+- id: iso.international_standard.6396
   identifier:
     _type: pubid:iso:international-standard
     number: '15444'
@@ -57735,7 +57747,7 @@
     human: ISO/IEC 15444-4:2004
     urn: urn:iso:std:iso-iec:15444:-4
   style: v3
-- id: iso.international_standard.6390
+- id: iso.international_standard.6397
   identifier:
     _type: pubid:iso:international-standard
     number: '15444'
@@ -57747,7 +57759,7 @@
     human: ISO/IEC 15444-5:2015
     urn: urn:iso:std:iso-iec:15444:-5
   style: v3
-- id: iso.international_standard.6391
+- id: iso.international_standard.6398
   identifier:
     _type: pubid:iso:international-standard
     number: '15457'
@@ -57759,7 +57771,7 @@
     human: ISO/IEC 15457-3:2002
     urn: urn:iso:std:iso-iec:15457:-3
   style: v3
-- id: iso.international_standard.6392
+- id: iso.international_standard.6399
   identifier:
     _type: pubid:iso:international-standard
     number: '15457'
@@ -57771,7 +57783,7 @@
     human: ISO/IEC 15457-3:2008
     urn: urn:iso:std:iso-iec:15457:-3
   style: v3
-- id: iso.international_standard.6393
+- id: iso.international_standard.6400
   identifier:
     _type: pubid:iso:international-standard
     number: '15457'
@@ -57782,7 +57794,7 @@
     human: ISO/IEC 15457:2008
     urn: urn:iso:std:iso-iec:15457
   style: v3
-- id: iso.international_standard.6394
+- id: iso.international_standard.6401
   identifier:
     _type: pubid:iso:international-standard
     number: '15504'
@@ -57794,7 +57806,7 @@
     human: ISO/IEC 15504-2:2003
     urn: urn:iso:std:iso-iec:15504:-2
   style: v3
-- id: iso.international_standard.6395
+- id: iso.international_standard.6402
   identifier:
     _type: pubid:iso:international-standard
     number: '15504'
@@ -57806,7 +57818,7 @@
     human: ISO/IEC 15504-5:2012
     urn: urn:iso:std:iso-iec:15504:-5
   style: v3
-- id: iso.international_standard.6396
+- id: iso.international_standard.6403
   identifier:
     _type: pubid:iso:international-standard
     number: '15775'
@@ -57817,7 +57829,7 @@
     human: ISO/IEC 15775:1999
     urn: urn:iso:std:iso-iec:15775
   style: v3
-- id: iso.international_standard.6397
+- id: iso.international_standard.6404
   identifier:
     _type: pubid:iso:international-standard
     number: '15816'
@@ -57828,7 +57840,7 @@
     human: ISO/IEC 15816:2002
     urn: urn:iso:std:iso-iec:15816
   style: v3
-- id: iso.international_standard.6398
+- id: iso.international_standard.6405
   identifier:
     _type: pubid:iso:international-standard
     number: '15909'
@@ -57840,7 +57852,7 @@
     human: ISO/IEC 15909-1:2004
     urn: urn:iso:std:iso-iec:15909:-1
   style: v3
-- id: iso.international_standard.6399
+- id: iso.international_standard.6406
   identifier:
     _type: pubid:iso:international-standard
     number: '15909'
@@ -57852,7 +57864,7 @@
     human: ISO/IEC 15909-1:2019
     urn: urn:iso:std:iso-iec:15909:-1
   style: v3
-- id: iso.international_standard.6400
+- id: iso.international_standard.6407
   identifier:
     _type: pubid:iso:international-standard
     number: '15909'
@@ -57864,7 +57876,7 @@
     human: ISO/IEC 15909-2:2011
     urn: urn:iso:std:iso-iec:15909:-2
   style: v3
-- id: iso.international_standard.6401
+- id: iso.international_standard.6408
   identifier:
     _type: pubid:iso:international-standard
     number: '15910'
@@ -57875,7 +57887,7 @@
     human: ISO/IEC 15910:1999
     urn: urn:iso:std:iso-iec:15910
   style: v3
-- id: iso.international_standard.6402
+- id: iso.international_standard.6409
   identifier:
     _type: pubid:iso:international-standard
     number: '15938'
@@ -57887,7 +57899,7 @@
     human: ISO/IEC 15938-14:2018
     urn: urn:iso:std:iso-iec:15938:-14
   style: v3
-- id: iso.international_standard.6403
+- id: iso.international_standard.6410
   identifier:
     _type: pubid:iso:international-standard
     number: '15938'
@@ -57898,7 +57910,7 @@
     human: ISO/IEC 15938-16
     urn: urn:iso:std:iso-iec:15938:-16
   style: v3
-- id: iso.international_standard.6404
+- id: iso.international_standard.6411
   identifier:
     _type: pubid:iso:international-standard
     number: '15938'
@@ -57910,7 +57922,7 @@
     human: ISO/IEC 15938-7:2003
     urn: urn:iso:std:iso-iec:15938:-7
   style: v3
-- id: iso.international_standard.6406
+- id: iso.international_standard.6413
   identifier:
     _type: pubid:iso:international-standard
     number: '15939'
@@ -57921,7 +57933,7 @@
     human: ISO/IEC 15939:2002
     urn: urn:iso:std:iso-iec:15939
   style: v3
-- id: iso.international_standard.6407
+- id: iso.international_standard.6414
   identifier:
     _type: pubid:iso:international-standard
     number: '15940'
@@ -57932,7 +57944,7 @@
     human: ISO/IEC 15940:2006
     urn: urn:iso:std:iso-iec:15940
   style: v3
-- id: iso.international_standard.6408
+- id: iso.international_standard.6415
   identifier:
     _type: pubid:iso:international-standard
     number: '15940'
@@ -57943,7 +57955,7 @@
     human: ISO/IEC 15940:2013
     urn: urn:iso:std:iso-iec:15940
   style: v3
-- id: iso.international_standard.6409
+- id: iso.international_standard.6416
   identifier:
     _type: pubid:iso:international-standard
     number: '15944'
@@ -57954,7 +57966,7 @@
     human: ISO/IEC 15944-12
     urn: urn:iso:std:iso-iec:15944:-12
   style: v3
-- id: iso.international_standard.6410
+- id: iso.international_standard.6417
   identifier:
     _type: pubid:iso:international-standard
     number: '15944'
@@ -57965,7 +57977,7 @@
     human: ISO/IEC 15944-17
     urn: urn:iso:std:iso-iec:15944:-17
   style: v3
-- id: iso.international_standard.6411
+- id: iso.international_standard.6418
   identifier:
     _type: pubid:iso:international-standard
     number: '15944'
@@ -57976,7 +57988,7 @@
     human: ISO/IEC 15944-21
     urn: urn:iso:std:iso-iec:15944:-21
   style: v3
-- id: iso.international_standard.6412
+- id: iso.international_standard.6419
   identifier:
     _type: pubid:iso:international-standard
     number: '15944'
@@ -57988,7 +58000,7 @@
     human: ISO/IEC 15944-4:2007
     urn: urn:iso:std:iso-iec:15944:-4
   style: v3
-- id: iso.international_standard.6413
+- id: iso.international_standard.6420
   identifier:
     _type: pubid:iso:international-standard
     number: '15944'
@@ -58000,7 +58012,7 @@
     human: ISO/IEC 15944-4:2015
     urn: urn:iso:std:iso-iec:15944:-4
   style: v3
-- id: iso.international_standard.6414
+- id: iso.international_standard.6421
   identifier:
     _type: pubid:iso:international-standard
     number: '15944'
@@ -58011,7 +58023,7 @@
     human: ISO/IEC 15944-5
     urn: urn:iso:std:iso-iec:15944:-5
   style: v3
-- id: iso.international_standard.6415
+- id: iso.international_standard.6422
   identifier:
     _type: pubid:iso:international-standard
     number: '15944'
@@ -58023,7 +58035,7 @@
     human: ISO/IEC 15944-5:2008
     urn: urn:iso:std:iso-iec:15944:-5
   style: v3
-- id: iso.international_standard.6416
+- id: iso.international_standard.6423
   identifier:
     _type: pubid:iso:international-standard
     number: '15944'
@@ -58034,7 +58046,7 @@
     human: ISO/IEC 15944-8
     urn: urn:iso:std:iso-iec:15944:-8
   style: v3
-- id: iso.international_standard.6417
+- id: iso.international_standard.6424
   identifier:
     _type: pubid:iso:international-standard
     number: '16085'
@@ -58044,7 +58056,7 @@
     human: ISO/IEC 16085
     urn: urn:iso:std:iso-iec:16085
   style: v3
-- id: iso.international_standard.6418
+- id: iso.international_standard.6425
   identifier:
     _type: pubid:iso:international-standard
     number: '16085'
@@ -58055,7 +58067,7 @@
     human: ISO/IEC 16085:2004
     urn: urn:iso:std:iso-iec:16085
   style: v3
-- id: iso.international_standard.6419
+- id: iso.international_standard.6426
   identifier:
     _type: pubid:iso:international-standard
     number: '16085'
@@ -58066,7 +58078,7 @@
     human: ISO/IEC 16085:2006
     urn: urn:iso:std:iso-iec:16085
   style: v3
-- id: iso.international_standard.6420
+- id: iso.international_standard.6427
   identifier:
     _type: pubid:iso:international-standard
     number: '16262'
@@ -58077,7 +58089,7 @@
     human: ISO/IEC 16262:2011
     urn: urn:iso:std:iso-iec:16262
   style: v3
-- id: iso.international_standard.6421
+- id: iso.international_standard.6428
   identifier:
     _type: pubid:iso:international-standard
     number: '16350'
@@ -58088,7 +58100,7 @@
     human: ISO/IEC 16350:2015
     urn: urn:iso:std:iso-iec:16350
   style: v3
-- id: iso.international_standard.6422
+- id: iso.international_standard.6429
   identifier:
     _type: pubid:iso:international-standard
     number: '16963'
@@ -58099,7 +58111,7 @@
     human: ISO/IEC 16963:2011
     urn: urn:iso:std:iso-iec:16963
   style: v3
-- id: iso.international_standard.6423
+- id: iso.international_standard.6430
   identifier:
     _type: pubid:iso:international-standard
     number: '16963'
@@ -58110,7 +58122,7 @@
     human: ISO/IEC 16963:2017
     urn: urn:iso:std:iso-iec:16963
   style: v3
-- id: iso.international_standard.6424
+- id: iso.international_standard.6431
   identifier:
     _type: pubid:iso:international-standard
     number: '17011'
@@ -58121,7 +58133,7 @@
     human: ISO/IEC 17011:2004
     urn: urn:iso:std:iso-iec:17011
   style: v3
-- id: iso.international_standard.6425
+- id: iso.international_standard.6432
   identifier:
     _type: pubid:iso:international-standard
     number: '17011'
@@ -58132,7 +58144,7 @@
     human: ISO/IEC 17011:2017
     urn: urn:iso:std:iso-iec:17011
   style: v3
-- id: iso.international_standard.6426
+- id: iso.international_standard.6433
   identifier:
     _type: pubid:iso:international-standard
     number: '17020'
@@ -58142,7 +58154,7 @@
     human: ISO/IEC 17020
     urn: urn:iso:std:iso-iec:17020
   style: v3
-- id: iso.international_standard.6427
+- id: iso.international_standard.6434
   identifier:
     _type: pubid:iso:international-standard
     number: '17020'
@@ -58153,7 +58165,7 @@
     human: ISO/IEC 17020:2012
     urn: urn:iso:std:iso-iec:17020
   style: v3
-- id: iso.international_standard.6428
+- id: iso.international_standard.6435
   identifier:
     _type: pubid:iso:international-standard
     number: '17021'
@@ -58165,7 +58177,7 @@
     human: ISO/IEC 17021-1:2015
     urn: urn:iso:std:iso-iec:17021:-1
   style: v3
-- id: iso.international_standard.6429
+- id: iso.international_standard.6436
   identifier:
     _type: pubid:iso:international-standard
     number: '17021'
@@ -58177,7 +58189,7 @@
     human: ISO/IEC 17021-2:2016
     urn: urn:iso:std:iso-iec:17021:-2
   style: v3
-- id: iso.international_standard.6430
+- id: iso.international_standard.6437
   identifier:
     _type: pubid:iso:international-standard
     number: '17021'
@@ -58189,7 +58201,7 @@
     human: ISO/IEC 17021-3:2018
     urn: urn:iso:std:iso-iec:17021:-3
   style: v3
-- id: iso.international_standard.6431
+- id: iso.international_standard.6438
   identifier:
     _type: pubid:iso:international-standard
     number: '17021'
@@ -58200,7 +58212,7 @@
     human: ISO/IEC 17021:2006
     urn: urn:iso:std:iso-iec:17021
   style: v3
-- id: iso.international_standard.6432
+- id: iso.international_standard.6439
   identifier:
     _type: pubid:iso:international-standard
     number: '17024'
@@ -58210,7 +58222,7 @@
     human: ISO/IEC 17024
     urn: urn:iso:std:iso-iec:17024
   style: v3
-- id: iso.international_standard.6433
+- id: iso.international_standard.6440
   identifier:
     _type: pubid:iso:international-standard
     number: '17024'
@@ -58221,7 +58233,7 @@
     human: ISO/IEC 17024:2003
     urn: urn:iso:std:iso-iec:17024
   style: v3
-- id: iso.international_standard.6434
+- id: iso.international_standard.6441
   identifier:
     _type: pubid:iso:international-standard
     number: '17024'
@@ -58232,7 +58244,7 @@
     human: ISO/IEC 17024:2012
     urn: urn:iso:std:iso-iec:17024
   style: v3
-- id: iso.international_standard.6435
+- id: iso.international_standard.6442
   identifier:
     _type: pubid:iso:international-standard
     number: '17025'
@@ -58243,7 +58255,7 @@
     human: ISO/IEC 17025:1999
     urn: urn:iso:std:iso-iec:17025
   style: v3
-- id: iso.international_standard.6436
+- id: iso.international_standard.6443
   identifier:
     _type: pubid:iso:international-standard
     number: '17025'
@@ -58254,7 +58266,7 @@
     human: ISO/IEC 17025:2005
     urn: urn:iso:std:iso-iec:17025
   style: v3
-- id: iso.international_standard.6439
+- id: iso.international_standard.6446
   identifier:
     _type: pubid:iso:international-standard
     number: '17025'
@@ -58265,7 +58277,7 @@
     human: ISO/IEC 17025:2017
     urn: urn:iso:std:iso-iec:17025
   style: v3
-- id: iso.international_standard.6440
+- id: iso.international_standard.6447
   identifier:
     _type: pubid:iso:international-standard
     number: '17029'
@@ -58275,7 +58287,7 @@
     human: ISO/IEC 17029
     urn: urn:iso:std:iso-iec:17029
   style: v3
-- id: iso.international_standard.6441
+- id: iso.international_standard.6448
   identifier:
     _type: pubid:iso:international-standard
     number: '17030'
@@ -58285,7 +58297,7 @@
     human: ISO/IEC 17030
     urn: urn:iso:std:iso-iec:17030
   style: v3
-- id: iso.international_standard.6442
+- id: iso.international_standard.6449
   identifier:
     _type: pubid:iso:international-standard
     number: '17030'
@@ -58296,7 +58308,10 @@
     human: ISO/IEC 17030:2003
     urn: urn:iso:std:iso-iec:17030
   style: v3
-- id: iso.international_standard.6443
+  non_normalized_aliases:
+  - spelling: ISO /IEC 17030:2003
+    style: v3
+- id: iso.international_standard.6450
   identifier:
     _type: pubid:iso:international-standard
     number: '17040'
@@ -58307,7 +58322,7 @@
     human: ISO/IEC 17040:2005
     urn: urn:iso:std:iso-iec:17040
   style: v3
-- id: iso.international_standard.6444
+- id: iso.international_standard.6451
   identifier:
     _type: pubid:iso:international-standard
     number: '17043'
@@ -58318,7 +58333,7 @@
     human: ISO/IEC 17043:2010
     urn: urn:iso:std:iso-iec:17043
   style: v3
-- id: iso.international_standard.6445
+- id: iso.international_standard.6452
   identifier:
     _type: pubid:iso:international-standard
     number: '17050'
@@ -58330,7 +58345,7 @@
     human: ISO/IEC 17050-1:2004
     urn: urn:iso:std:iso-iec:17050:-1
   style: v3
-- id: iso.international_standard.6446
+- id: iso.international_standard.6453
   identifier:
     _type: pubid:iso:international-standard
     number: '17050'
@@ -58345,7 +58360,7 @@
     human: ISO/IEC 17050-1:2004(ar)
     urn: urn:iso:std:iso-iec:17050:-1:ar
   style: v3
-- id: iso.international_standard.6447
+- id: iso.international_standard.6454
   identifier:
     _type: pubid:iso:international-standard
     number: '17050'
@@ -58360,7 +58375,7 @@
     human: ISO/IEC 17050-1:2004(es)
     urn: urn:iso:std:iso-iec:17050:-1:es
   style: v3
-- id: iso.international_standard.6448
+- id: iso.international_standard.6455
   identifier:
     _type: pubid:iso:international-standard
     number: '17065'
@@ -58370,7 +58385,7 @@
     human: ISO/IEC 17065
     urn: urn:iso:std:iso-iec:17065
   style: v3
-- id: iso.international_standard.6449
+- id: iso.international_standard.6456
   identifier:
     _type: pubid:iso:international-standard
     number: '17065'
@@ -58381,7 +58396,7 @@
     human: ISO/IEC 17065:2012
     urn: urn:iso:std:iso-iec:17065
   style: v3
-- id: iso.international_standard.6450
+- id: iso.international_standard.6457
   identifier:
     _type: pubid:iso:international-standard
     number: '17825'
@@ -58392,7 +58407,7 @@
     human: ISO/IEC 17825:2016
     urn: urn:iso:std:iso-iec:17825
   style: v3
-- id: iso.international_standard.6451
+- id: iso.international_standard.6458
   identifier:
     _type: pubid:iso:international-standard
     number: '17839'
@@ -58404,7 +58419,7 @@
     human: ISO/IEC 17839-1:2014
     urn: urn:iso:std:iso-iec:17839:-1
   style: v3
-- id: iso.international_standard.6453
+- id: iso.international_standard.6460
   identifier:
     _type: pubid:iso:international-standard
     number: '18012'
@@ -58416,7 +58431,7 @@
     human: ISO/IEC 18012-2:2012
     urn: urn:iso:std:iso-iec:18012:-2
   style: v3
-- id: iso.international_standard.6456
+- id: iso.international_standard.6463
   identifier:
     _type: pubid:iso:international-standard
     number: '18013'
@@ -58427,7 +58442,7 @@
     human: ISO/IEC 18013-4
     urn: urn:iso:std:iso-iec:18013:-4
   style: v3
-- id: iso.international_standard.6457
+- id: iso.international_standard.6464
   identifier:
     _type: pubid:iso:international-standard
     number: '18013'
@@ -58439,7 +58454,7 @@
     human: ISO/IEC 18013-4:2011
     urn: urn:iso:std:iso-iec:18013:-4
   style: v3
-- id: iso.international_standard.6458
+- id: iso.international_standard.6465
   identifier:
     _type: pubid:iso:international-standard
     number: '18019'
@@ -58450,7 +58465,7 @@
     human: ISO/IEC 18019:2004
     urn: urn:iso:std:iso-iec:18019
   style: v3
-- id: iso.international_standard.6459
+- id: iso.international_standard.6466
   identifier:
     _type: pubid:iso:international-standard
     number: '18046'
@@ -58461,7 +58476,7 @@
     human: ISO/IEC 18046-2
     urn: urn:iso:std:iso-iec:18046:-2
   style: v3
-- id: iso.international_standard.6460
+- id: iso.international_standard.6467
   identifier:
     _type: pubid:iso:international-standard
     number: '18046'
@@ -58473,7 +58488,7 @@
     human: ISO/IEC 18046-2:2011
     urn: urn:iso:std:iso-iec:18046:-2
   style: v3
-- id: iso.international_standard.6461
+- id: iso.international_standard.6468
   identifier:
     _type: pubid:iso:international-standard
     number: '18046'
@@ -58484,7 +58499,7 @@
     human: ISO/IEC 18046-3
     urn: urn:iso:std:iso-iec:18046:-3
   style: v3
-- id: iso.international_standard.6462
+- id: iso.international_standard.6469
   identifier:
     _type: pubid:iso:international-standard
     number: '18046'
@@ -58496,7 +58511,7 @@
     human: ISO/IEC 18046-3:2007
     urn: urn:iso:std:iso-iec:18046:-3
   style: v3
-- id: iso.international_standard.6463
+- id: iso.international_standard.6470
   identifier:
     _type: pubid:iso:international-standard
     number: '18046'
@@ -58508,7 +58523,7 @@
     human: ISO/IEC 18046-4:2015
     urn: urn:iso:std:iso-iec:18046:-4
   style: v3
-- id: iso.international_standard.6464
+- id: iso.international_standard.6471
   identifier:
     _type: pubid:iso:international-standard
     number: '18047'
@@ -58520,7 +58535,7 @@
     human: ISO/IEC 18047-6:2012
     urn: urn:iso:std:iso-iec:18047:-6
   style: v3
-- id: iso.international_standard.6465
+- id: iso.international_standard.6472
   identifier:
     _type: pubid:iso:international-standard
     number: '18047'
@@ -58532,7 +58547,7 @@
     human: ISO/IEC 18047-6:2017
     urn: urn:iso:std:iso-iec:18047:-6
   style: v3
-- id: iso.international_standard.6466
+- id: iso.international_standard.6473
   identifier:
     _type: pubid:iso:international-standard
     number: '18180'
@@ -58543,7 +58558,7 @@
     human: ISO/IEC 18180:2013
     urn: urn:iso:std:iso-iec:18180
   style: v3
-- id: iso.international_standard.6467
+- id: iso.international_standard.6474
   identifier:
     _type: pubid:iso:international-standard
     number: '18305'
@@ -58554,7 +58569,7 @@
     human: ISO/IEC 18305:2016
     urn: urn:iso:std:iso-iec:18305
   style: v3
-- id: iso.international_standard.6468
+- id: iso.international_standard.6475
   identifier:
     _type: pubid:iso:international-standard
     number: '18328'
@@ -58565,7 +58580,7 @@
     human: ISO/IEC 18328-2
     urn: urn:iso:std:iso-iec:18328:-2
   style: v3
-- id: iso.international_standard.6469
+- id: iso.international_standard.6476
   identifier:
     _type: pubid:iso:international-standard
     number: '18328'
@@ -58577,7 +58592,7 @@
     human: ISO/IEC 18328-2:2015
     urn: urn:iso:std:iso-iec:18328:-2
   style: v3
-- id: iso.international_standard.6470
+- id: iso.international_standard.6477
   identifier:
     _type: pubid:iso:international-standard
     number: '18328'
@@ -58589,7 +58604,7 @@
     human: ISO/IEC 18328-4:2018
     urn: urn:iso:std:iso-iec:18328:-4
   style: v3
-- id: iso.international_standard.6471
+- id: iso.international_standard.6478
   identifier:
     _type: pubid:iso:international-standard
     number: '18367'
@@ -58600,7 +58615,7 @@
     human: ISO/IEC 18367:2016
     urn: urn:iso:std:iso-iec:18367
   style: v3
-- id: iso.international_standard.6472
+- id: iso.international_standard.6479
   identifier:
     _type: pubid:iso:international-standard
     number: '18384'
@@ -58612,7 +58627,7 @@
     human: ISO/IEC 18384-3:2016
     urn: urn:iso:std:iso-iec:18384:-3
   style: v3
-- id: iso.international_standard.6473
+- id: iso.international_standard.6480
   identifier:
     _type: pubid:iso:international-standard
     number: '18477'
@@ -58624,7 +58639,7 @@
     human: ISO/IEC 18477-4:2017
     urn: urn:iso:std:iso-iec:18477:-4
   style: v3
-- id: iso.international_standard.6474
+- id: iso.international_standard.6481
   identifier:
     _type: pubid:iso:international-standard
     number: '18477'
@@ -58636,7 +58651,7 @@
     human: ISO/IEC 18477-5:2018
     urn: urn:iso:std:iso-iec:18477:-5
   style: v3
-- id: iso.international_standard.6475
+- id: iso.international_standard.6482
   identifier:
     _type: pubid:iso:international-standard
     number: '18584'
@@ -58647,7 +58662,7 @@
     human: ISO/IEC 18584:2015
     urn: urn:iso:std:iso-iec:18584
   style: v3
-- id: iso.international_standard.6476
+- id: iso.international_standard.6483
   identifier:
     _type: pubid:iso:international-standard
     number: '18598'
@@ -58658,7 +58673,7 @@
     human: ISO/IEC 18598:2016
     urn: urn:iso:std:iso-iec:18598
   style: v3
-- id: iso.international_standard.6477
+- id: iso.international_standard.6484
   identifier:
     _type: pubid:iso:international-standard
     number: '18745'
@@ -58670,7 +58685,7 @@
     human: ISO/IEC 18745-1:2014
     urn: urn:iso:std:iso-iec:18745:-1
   style: v3
-- id: iso.international_standard.6478
+- id: iso.international_standard.6485
   identifier:
     _type: pubid:iso:international-standard
     number: '18745'
@@ -58682,7 +58697,7 @@
     human: ISO/IEC 18745-1:2018
     urn: urn:iso:std:iso-iec:18745:-1
   style: v3
-- id: iso.international_standard.6479
+- id: iso.international_standard.6486
   identifier:
     _type: pubid:iso:international-standard
     number: '18745'
@@ -58694,7 +58709,7 @@
     human: ISO/IEC 18745-2:2016
     urn: urn:iso:std:iso-iec:18745:-2
   style: v3
-- id: iso.international_standard.6480
+- id: iso.international_standard.6487
   identifier:
     _type: pubid:iso:international-standard
     number: '18809'
@@ -58705,7 +58720,7 @@
     human: ISO/IEC 18809:2000
     urn: urn:iso:std:iso-iec:18809
   style: v3
-- id: iso.international_standard.6481
+- id: iso.international_standard.6488
   identifier:
     _type: pubid:iso:international-standard
     number: '19086'
@@ -58717,7 +58732,7 @@
     human: ISO/IEC 19086-3:2017
     urn: urn:iso:std:iso-iec:19086:-3
   style: v3
-- id: iso.international_standard.6482
+- id: iso.international_standard.6489
   identifier:
     _type: pubid:iso:international-standard
     number: '19369'
@@ -58728,7 +58743,7 @@
     human: ISO/IEC 19369:2014
     urn: urn:iso:std:iso-iec:19369
   style: v3
-- id: iso.international_standard.6486
+- id: iso.international_standard.6493
   identifier:
     _type: pubid:iso:international-standard
     number: '19761'
@@ -58739,7 +58754,7 @@
     human: ISO/IEC 19761:2011
     urn: urn:iso:std:iso-iec:19761
   style: v3
-- id: iso.international_standard.6487
+- id: iso.international_standard.6494
   identifier:
     _type: pubid:iso:international-standard
     number: '19763'
@@ -58751,7 +58766,7 @@
     human: ISO/IEC 19763-3:2007
     urn: urn:iso:std:iso-iec:19763:-3
   style: v3
-- id: iso.international_standard.6488
+- id: iso.international_standard.6495
   identifier:
     _type: pubid:iso:international-standard
     number: '19763'
@@ -58763,7 +58778,7 @@
     human: ISO/IEC 19763-3:2010
     urn: urn:iso:std:iso-iec:19763:-3
   style: v3
-- id: iso.international_standard.6489
+- id: iso.international_standard.6496
   identifier:
     _type: pubid:iso:international-standard
     number: '19770'
@@ -58774,7 +58789,7 @@
     human: ISO/IEC 19770-11
     urn: urn:iso:std:iso-iec:19770:-11
   style: v3
-- id: iso.international_standard.6490
+- id: iso.international_standard.6497
   identifier:
     _type: pubid:iso:international-standard
     number: '19770'
@@ -58786,7 +58801,7 @@
     human: ISO/IEC 19770-1:2006
     urn: urn:iso:std:iso-iec:19770:-1
   style: v3
-- id: iso.international_standard.6491
+- id: iso.international_standard.6498
   identifier:
     _type: pubid:iso:international-standard
     number: '19770'
@@ -58798,7 +58813,7 @@
     human: ISO/IEC 19770-1:2012
     urn: urn:iso:std:iso-iec:19770:-1
   style: v3
-- id: iso.international_standard.6492
+- id: iso.international_standard.6499
   identifier:
     _type: pubid:iso:international-standard
     number: '19770'
@@ -58810,7 +58825,7 @@
     human: ISO/IEC 19770-1:2017
     urn: urn:iso:std:iso-iec:19770:-1
   style: v3
-- id: iso.international_standard.6493
+- id: iso.international_standard.6500
   identifier:
     _type: pubid:iso:international-standard
     number: '19770'
@@ -58822,7 +58837,7 @@
     human: ISO/IEC 19770-2:2009
     urn: urn:iso:std:iso-iec:19770:-2
   style: v3
-- id: iso.international_standard.6494
+- id: iso.international_standard.6501
   identifier:
     _type: pubid:iso:international-standard
     number: '19770'
@@ -58834,7 +58849,7 @@
     human: ISO/IEC 19770-2:2015
     urn: urn:iso:std:iso-iec:19770:-2
   style: v3
-- id: iso.international_standard.6495
+- id: iso.international_standard.6502
   identifier:
     _type: pubid:iso:international-standard
     number: '19770'
@@ -58846,7 +58861,7 @@
     human: ISO/IEC 19770-5:2013
     urn: urn:iso:std:iso-iec:19770:-5
   style: v3
-- id: iso.international_standard.6496
+- id: iso.international_standard.6503
   identifier:
     _type: pubid:iso:international-standard
     number: '19788'
@@ -58856,7 +58871,7 @@
     human: ISO/IEC 19788
     urn: urn:iso:std:iso-iec:19788
   style: v3
-- id: iso.international_standard.6499
+- id: iso.international_standard.6506
   identifier:
     _type: pubid:iso:international-standard
     number: '19790'
@@ -58866,7 +58881,7 @@
     human: ISO/IEC 19790
     urn: urn:iso:std:iso-iec:19790
   style: v3
-- id: iso.international_standard.6500
+- id: iso.international_standard.6507
   identifier:
     _type: pubid:iso:international-standard
     number: '19790'
@@ -58877,7 +58892,7 @@
     human: ISO/IEC 19790:2012
     urn: urn:iso:std:iso-iec:19790
   style: v3
-- id: iso.international_standard.6501
+- id: iso.international_standard.6508
   identifier:
     _type: pubid:iso:international-standard
     number: '19794'
@@ -58887,7 +58902,7 @@
     human: ISO/IEC 19794
     urn: urn:iso:std:iso-iec:19794
   style: v3
-- id: iso.international_standard.6504
+- id: iso.international_standard.6511
   identifier:
     _type: pubid:iso:international-standard
     number: '19795'
@@ -58898,7 +58913,7 @@
     human: ISO/IEC 19795-1
     urn: urn:iso:std:iso-iec:19795:-1
   style: v3
-- id: iso.international_standard.6505
+- id: iso.international_standard.6512
   identifier:
     _type: pubid:iso:international-standard
     number: '19795'
@@ -58910,7 +58925,7 @@
     human: ISO/IEC 19795-1:2006
     urn: urn:iso:std:iso-iec:19795:-1
   style: v3
-- id: iso.international_standard.6506
+- id: iso.international_standard.6513
   identifier:
     _type: pubid:iso:international-standard
     number: '19795'
@@ -58922,7 +58937,7 @@
     human: ISO/IEC 19795-2:2007
     urn: urn:iso:std:iso-iec:19795:-2
   style: v3
-- id: iso.international_standard.6507
+- id: iso.international_standard.6514
   identifier:
     _type: pubid:iso:international-standard
     number: '19795'
@@ -58934,7 +58949,7 @@
     human: ISO/IEC 19795-4:2008
     urn: urn:iso:std:iso-iec:19795:-4
   style: v3
-- id: iso.international_standard.6508
+- id: iso.international_standard.6515
   identifier:
     _type: pubid:iso:international-standard
     number: '19795'
@@ -58946,7 +58961,7 @@
     human: ISO/IEC 19795-5:2011
     urn: urn:iso:std:iso-iec:19795:-5
   style: v3
-- id: iso.international_standard.6509
+- id: iso.international_standard.6516
   identifier:
     _type: pubid:iso:international-standard
     number: '19795'
@@ -58958,7 +58973,7 @@
     human: ISO/IEC 19795-6:2012
     urn: urn:iso:std:iso-iec:19795:-6
   style: v3
-- id: iso.international_standard.6510
+- id: iso.international_standard.6517
   identifier:
     _type: pubid:iso:international-standard
     number: '19795'
@@ -58970,7 +58985,7 @@
     human: ISO/IEC 19795-7:2011
     urn: urn:iso:std:iso-iec:19795:-7
   style: v3
-- id: iso.international_standard.6511
+- id: iso.international_standard.6518
   identifier:
     _type: pubid:iso:international-standard
     number: '19795'
@@ -58981,7 +58996,7 @@
     human: ISO/IEC 19795:2008
     urn: urn:iso:std:iso-iec:19795
   style: v3
-- id: iso.international_standard.6512
+- id: iso.international_standard.6519
   identifier:
     _type: pubid:iso:international-standard
     number: '19823'
@@ -58992,7 +59007,7 @@
     human: ISO/IEC 19823-10
     urn: urn:iso:std:iso-iec:19823:-10
   style: v3
-- id: iso.international_standard.6513
+- id: iso.international_standard.6520
   identifier:
     _type: pubid:iso:international-standard
     number: '19823'
@@ -59004,7 +59019,7 @@
     human: ISO/IEC 19823-10:2017
     urn: urn:iso:std:iso-iec:19823:-10
   style: v3
-- id: iso.international_standard.6514
+- id: iso.international_standard.6521
   identifier:
     _type: pubid:iso:international-standard
     number: '19823'
@@ -59016,7 +59031,7 @@
     human: ISO/IEC 19823-13:2018
     urn: urn:iso:std:iso-iec:19823:-13
   style: v3
-- id: iso.international_standard.6515
+- id: iso.international_standard.6522
   identifier:
     _type: pubid:iso:international-standard
     number: '19823'
@@ -59027,7 +59042,7 @@
     human: ISO/IEC 19823-16
     urn: urn:iso:std:iso-iec:19823:-16
   style: v3
-- id: iso.international_standard.6516
+- id: iso.international_standard.6523
   identifier:
     _type: pubid:iso:international-standard
     number: '19823'
@@ -59038,7 +59053,7 @@
     human: ISO/IEC 19823-19
     urn: urn:iso:std:iso-iec:19823:-19
   style: v3
-- id: iso.international_standard.6517
+- id: iso.international_standard.6524
   identifier:
     _type: pubid:iso:international-standard
     number: '19823'
@@ -59050,7 +59065,7 @@
     human: ISO/IEC 19823-21:2019
     urn: urn:iso:std:iso-iec:19823:-21
   style: v3
-- id: iso.international_standard.6518
+- id: iso.international_standard.6525
   identifier:
     _type: pubid:iso:international-standard
     number: '19823'
@@ -59062,7 +59077,7 @@
     human: ISO/IEC 19823-22:2019
     urn: urn:iso:std:iso-iec:19823:-22
   style: v3
-- id: iso.international_standard.6519
+- id: iso.international_standard.6526
   identifier:
     _type: pubid:iso:international-standard
     number: '1989'
@@ -59072,7 +59087,7 @@
     human: ISO/IEC 1989
     urn: urn:iso:std:iso-iec:1989
   style: v3
-- id: iso.international_standard.6520
+- id: iso.international_standard.6527
   identifier:
     _type: pubid:iso:international-standard
     number: '19896'
@@ -59084,7 +59099,7 @@
     human: ISO/IEC 19896-1:2018
     urn: urn:iso:std:iso-iec:19896:-1
   style: v3
-- id: iso.international_standard.6521
+- id: iso.international_standard.6528
   identifier:
     _type: pubid:iso:international-standard
     number: '19896'
@@ -59096,7 +59111,7 @@
     human: ISO/IEC 19896-2:2018
     urn: urn:iso:std:iso-iec:19896:-2
   style: v3
-- id: iso.international_standard.6522
+- id: iso.international_standard.6529
   identifier:
     _type: pubid:iso:international-standard
     number: '19896'
@@ -59108,7 +59123,7 @@
     human: ISO/IEC 19896-3:2018
     urn: urn:iso:std:iso-iec:19896:-3
   style: v3
-- id: iso.international_standard.6523
+- id: iso.international_standard.6530
   identifier:
     _type: pubid:iso:international-standard
     number: '1989'
@@ -59119,7 +59134,7 @@
     human: ISO/IEC 1989:2014
     urn: urn:iso:std:iso-iec:1989
   style: v3
-- id: iso.international_standard.6525
+- id: iso.international_standard.6532
   identifier:
     _type: pubid:iso:international-standard
     number: '20000'
@@ -59130,7 +59145,7 @@
     human: ISO/IEC 20000-1
     urn: urn:iso:std:iso-iec:20000:-1
   style: v3
-- id: iso.international_standard.6526
+- id: iso.international_standard.6533
   identifier:
     _type: pubid:iso:international-standard
     number: '20000'
@@ -59142,7 +59157,7 @@
     human: ISO/IEC 20000-1:2011
     urn: urn:iso:std:iso-iec:20000:-1
   style: v3
-- id: iso.international_standard.6528
+- id: iso.international_standard.6535
   identifier:
     _type: pubid:iso:international-standard
     number: '20000'
@@ -59154,7 +59169,7 @@
     human: ISO/IEC 20000-6:2017
     urn: urn:iso:std:iso-iec:20000:-6
   style: v3
-- id: iso.international_standard.6529
+- id: iso.international_standard.6536
   identifier:
     _type: pubid:iso:international-standard
     number: '20085'
@@ -59165,7 +59180,7 @@
     human: ISO/IEC 20085-1
     urn: urn:iso:std:iso-iec:20085:-1
   style: v3
-- id: iso.international_standard.6530
+- id: iso.international_standard.6537
   identifier:
     _type: pubid:iso:international-standard
     number: '20085'
@@ -59176,7 +59191,7 @@
     human: ISO/IEC 20085-2
     urn: urn:iso:std:iso-iec:20085:-2
   style: v3
-- id: iso.international_standard.6532
+- id: iso.international_standard.6539
   identifier:
     _type: pubid:iso:international-standard
     number: '20243'
@@ -59188,7 +59203,7 @@
     human: ISO/IEC 20243-1:2018
     urn: urn:iso:std:iso-iec:20243:-1
   style: v3
-- id: iso.international_standard.6533
+- id: iso.international_standard.6540
   identifier:
     _type: pubid:iso:international-standard
     number: '20435'
@@ -59199,7 +59214,7 @@
     human: ISO/IEC 20435-1
     urn: urn:iso:std:iso-iec:20435:-1
   style: v3
-- id: iso.international_standard.6534
+- id: iso.international_standard.6541
   identifier:
     _type: pubid:iso:international-standard
     number: '20543'
@@ -59210,7 +59225,7 @@
     human: ISO/IEC 20543:2019
     urn: urn:iso:std:iso-iec:20543
   style: v3
-- id: iso.international_standard.6535
+- id: iso.international_standard.6542
   identifier:
     _type: pubid:iso:international-standard
     number: '20897'
@@ -59221,7 +59236,7 @@
     human: ISO/IEC 20897-1
     urn: urn:iso:std:iso-iec:20897:-1
   style: v3
-- id: iso.international_standard.6536
+- id: iso.international_standard.6543
   identifier:
     _type: pubid:iso:international-standard
     number: '20897'
@@ -59232,7 +59247,7 @@
     human: ISO/IEC 20897-2
     urn: urn:iso:std:iso-iec:20897:-2
   style: v3
-- id: iso.international_standard.6537
+- id: iso.international_standard.6544
   identifier:
     _type: pubid:iso:international-standard
     number: '20970'
@@ -59243,7 +59258,7 @@
     human: ISO/IEC 20970:2002
     urn: urn:iso:std:iso-iec:20970
   style: v3
-- id: iso.international_standard.6538
+- id: iso.international_standard.6545
   identifier:
     _type: pubid:iso:international-standard
     number: '21000'
@@ -59255,7 +59270,7 @@
     human: ISO/IEC 21000-14:2007
     urn: urn:iso:std:iso-iec:21000:-14
   style: v3
-- id: iso.international_standard.6539
+- id: iso.international_standard.6546
   identifier:
     _type: pubid:iso:international-standard
     number: '21000'
@@ -59267,7 +59282,7 @@
     human: ISO/IEC 21000-21:2013
     urn: urn:iso:std:iso-iec:21000:-21
   style: v3
-- id: iso.international_standard.6540
+- id: iso.international_standard.6547
   identifier:
     _type: pubid:iso:international-standard
     number: '21000'
@@ -59279,7 +59294,7 @@
     human: ISO/IEC 21000-21:2017
     urn: urn:iso:std:iso-iec:21000:-21
   style: v3
-- id: iso.international_standard.6541
+- id: iso.international_standard.6548
   identifier:
     _type: pubid:iso:international-standard
     number: '21000'
@@ -59291,7 +59306,7 @@
     human: ISO/IEC 21000-8:2006
     urn: urn:iso:std:iso-iec:21000:-8
   style: v3
-- id: iso.international_standard.6542
+- id: iso.international_standard.6549
   identifier:
     _type: pubid:iso:international-standard
     number: '21000'
@@ -59303,7 +59318,7 @@
     human: ISO/IEC 21000-8:2008
     urn: urn:iso:std:iso-iec:21000:-8
   style: v3
-- id: iso.international_standard.6543
+- id: iso.international_standard.6550
   identifier:
     _type: pubid:iso:international-standard
     number: '21117'
@@ -59314,7 +59329,7 @@
     human: ISO/IEC 21117:2012
     urn: urn:iso:std:iso-iec:21117
   style: v3
-- id: iso.international_standard.6546
+- id: iso.international_standard.6553
   identifier:
     _type: pubid:iso:international-standard
     number: '21122'
@@ -59325,7 +59340,7 @@
     human: ISO/IEC 21122-4
     urn: urn:iso:std:iso-iec:21122:-4
   style: v3
-- id: iso.international_standard.6547
+- id: iso.international_standard.6554
   identifier:
     _type: pubid:iso:international-standard
     number: '21122'
@@ -59336,7 +59351,7 @@
     human: ISO/IEC 21122-5
     urn: urn:iso:std:iso-iec:21122:-5
   style: v3
-- id: iso.international_standard.6548
+- id: iso.international_standard.6555
   identifier:
     _type: pubid:iso:international-standard
     number: '21277'
@@ -59347,7 +59362,7 @@
     human: ISO/IEC 21277:2018
     urn: urn:iso:std:iso-iec:21277
   style: v3
-- id: iso.international_standard.6550
+- id: iso.international_standard.6557
   identifier:
     _type: pubid:iso:international-standard
     number: '21794'
@@ -59358,7 +59373,7 @@
     human: ISO/IEC 21794-3
     urn: urn:iso:std:iso-iec:21794:-3
   style: v3
-- id: iso.international_standard.6551
+- id: iso.international_standard.6558
   identifier:
     _type: pubid:iso:international-standard
     number: '21794'
@@ -59369,7 +59384,7 @@
     human: ISO/IEC 21794-4
     urn: urn:iso:std:iso-iec:21794:-4
   style: v3
-- id: iso.international_standard.6552
+- id: iso.international_standard.6559
   identifier:
     _type: pubid:iso:international-standard
     number: '21838'
@@ -59379,7 +59394,7 @@
     human: ISO/IEC 21838
     urn: urn:iso:std:iso-iec:21838
   style: v3
-- id: iso.international_standard.6553
+- id: iso.international_standard.6560
   identifier:
     _type: pubid:iso:international-standard
     number: '21838'
@@ -59390,7 +59405,7 @@
     human: ISO/IEC 21838-2
     urn: urn:iso:std:iso-iec:21838:-2
   style: v3
-- id: iso.international_standard.6554
+- id: iso.international_standard.6561
   identifier:
     _type: pubid:iso:international-standard
     number: '21964'
@@ -59402,7 +59417,7 @@
     human: ISO/IEC 21964-2:2018
     urn: urn:iso:std:iso-iec:21964:-2
   style: v3
-- id: iso.international_standard.6555
+- id: iso.international_standard.6562
   identifier:
     _type: pubid:iso:international-standard
     number: '21972'
@@ -59412,7 +59427,7 @@
     human: ISO/IEC 21972
     urn: urn:iso:std:iso-iec:21972
   style: v3
-- id: iso.international_standard.6556
+- id: iso.international_standard.6563
   identifier:
     _type: pubid:iso:international-standard
     number: '22275'
@@ -59423,7 +59438,7 @@
     human: ISO/IEC 22275:2018
     urn: urn:iso:std:iso-iec:22275
   style: v3
-- id: iso.international_standard.6557
+- id: iso.international_standard.6564
   identifier:
     _type: pubid:iso:international-standard
     number: '22425'
@@ -59434,7 +59449,7 @@
     human: ISO/IEC 22425:2017
     urn: urn:iso:std:iso-iec:22425
   style: v3
-- id: iso.international_standard.6558
+- id: iso.international_standard.6565
   identifier:
     _type: pubid:iso:international-standard
     number: '22536'
@@ -59445,7 +59460,7 @@
     human: ISO/IEC 22536:2005
     urn: urn:iso:std:iso-iec:22536
   style: v3
-- id: iso.international_standard.6559
+- id: iso.international_standard.6566
   identifier:
     _type: pubid:iso:international-standard
     number: '22536'
@@ -59456,7 +59471,7 @@
     human: ISO/IEC 22536:2013
     urn: urn:iso:std:iso-iec:22536
   style: v3
-- id: iso.international_standard.6560
+- id: iso.international_standard.6567
   identifier:
     _type: pubid:iso:international-standard
     number: '22603'
@@ -59466,7 +59481,7 @@
     human: ISO/IEC 22603
     urn: urn:iso:std:iso-iec:22603
   style: v3
-- id: iso.international_standard.6564
+- id: iso.international_standard.6571
   identifier:
     _type: pubid:iso:international-standard
     number: '23002'
@@ -59478,7 +59493,7 @@
     human: ISO/IEC 23002-1:2006
     urn: urn:iso:std:iso-iec:23002:-1
   style: v3
-- id: iso.international_standard.6565
+- id: iso.international_standard.6572
   identifier:
     _type: pubid:iso:international-standard
     number: '23002'
@@ -59490,7 +59505,7 @@
     human: ISO/IEC 23002-5:2013
     urn: urn:iso:std:iso-iec:23002:-5
   style: v3
-- id: iso.international_standard.6569
+- id: iso.international_standard.6576
   identifier:
     _type: pubid:iso:international-standard
     number: '23004'
@@ -59502,7 +59517,7 @@
     human: ISO/IEC 23004-8:2009
     urn: urn:iso:std:iso-iec:23004:-8
   style: v3
-- id: iso.international_standard.6570
+- id: iso.international_standard.6577
   identifier:
     _type: pubid:iso:international-standard
     number: '23005'
@@ -59513,7 +59528,7 @@
     human: ISO/IEC 23005-7
     urn: urn:iso:std:iso-iec:23005:-7
   style: v3
-- id: iso.international_standard.6571
+- id: iso.international_standard.6578
   identifier:
     _type: pubid:iso:international-standard
     number: '23005'
@@ -59525,7 +59540,7 @@
     human: ISO/IEC 23005-7:2011
     urn: urn:iso:std:iso-iec:23005:-7
   style: v3
-- id: iso.international_standard.6572
+- id: iso.international_standard.6579
   identifier:
     _type: pubid:iso:international-standard
     number: '23005'
@@ -59537,7 +59552,7 @@
     human: ISO/IEC 23005-7:2014
     urn: urn:iso:std:iso-iec:23005:-7
   style: v3
-- id: iso.international_standard.6573
+- id: iso.international_standard.6580
   identifier:
     _type: pubid:iso:international-standard
     number: '23005'
@@ -59549,7 +59564,7 @@
     human: ISO/IEC 23005-7:2017
     urn: urn:iso:std:iso-iec:23005:-7
   style: v3
-- id: iso.international_standard.6574
+- id: iso.international_standard.6581
   identifier:
     _type: pubid:iso:international-standard
     number: '23006'
@@ -59561,7 +59576,7 @@
     human: ISO/IEC 23006-3:2011
     urn: urn:iso:std:iso-iec:23006:-3
   style: v3
-- id: iso.international_standard.6575
+- id: iso.international_standard.6582
   identifier:
     _type: pubid:iso:international-standard
     number: '23006'
@@ -59573,7 +59588,7 @@
     human: ISO/IEC 23006-3:2016
     urn: urn:iso:std:iso-iec:23006:-3
   style: v3
-- id: iso.international_standard.6576
+- id: iso.international_standard.6583
   identifier:
     _type: pubid:iso:international-standard
     number: '23007'
@@ -59585,7 +59600,7 @@
     human: ISO/IEC 23007-3:2011
     urn: urn:iso:std:iso-iec:23007:-3
   style: v3
-- id: iso.international_standard.6583
+- id: iso.international_standard.6590
   identifier:
     _type: pubid:iso:international-standard
     number: '23008'
@@ -59596,7 +59611,7 @@
     human: ISO/IEC 23008-4
     urn: urn:iso:std:iso-iec:23008:-4
   style: v3
-- id: iso.international_standard.6584
+- id: iso.international_standard.6591
   identifier:
     _type: pubid:iso:international-standard
     number: '23008'
@@ -59608,7 +59623,7 @@
     human: ISO/IEC 23008-5:2017
     urn: urn:iso:std:iso-iec:23008:-5
   style: v3
-- id: iso.international_standard.6585
+- id: iso.international_standard.6592
   identifier:
     _type: pubid:iso:international-standard
     number: '23008'
@@ -59619,7 +59634,7 @@
     human: ISO/IEC 23008-6
     urn: urn:iso:std:iso-iec:23008:-6
   style: v3
-- id: iso.international_standard.6586
+- id: iso.international_standard.6593
   identifier:
     _type: pubid:iso:international-standard
     number: '23008'
@@ -59631,7 +59646,7 @@
     human: ISO/IEC 23008-6:2018
     urn: urn:iso:std:iso-iec:23008:-6
   style: v3
-- id: iso.international_standard.6588
+- id: iso.international_standard.6595
   identifier:
     _type: pubid:iso:international-standard
     number: '23008'
@@ -59643,7 +59658,7 @@
     human: ISO/IEC 23008-9:2019
     urn: urn:iso:std:iso-iec:23008:-9
   style: v3
-- id: iso.international_standard.6591
+- id: iso.international_standard.6598
   identifier:
     _type: pubid:iso:international-standard
     number: '23009'
@@ -59654,7 +59669,7 @@
     human: ISO/IEC 23009-2
     urn: urn:iso:std:iso-iec:23009:-2
   style: v3
-- id: iso.international_standard.6592
+- id: iso.international_standard.6599
   identifier:
     _type: pubid:iso:international-standard
     number: '23009'
@@ -59666,7 +59681,7 @@
     human: ISO/IEC 23009-2:2014
     urn: urn:iso:std:iso-iec:23009:-2
   style: v3
-- id: iso.international_standard.6593
+- id: iso.international_standard.6600
   identifier:
     _type: pubid:iso:international-standard
     number: '23009'
@@ -59678,7 +59693,7 @@
     human: ISO/IEC 23009-2:2017
     urn: urn:iso:std:iso-iec:23009:-2
   style: v3
-- id: iso.international_standard.6595
+- id: iso.international_standard.6602
   identifier:
     _type: pubid:iso:international-standard
     number: '23026'
@@ -59688,7 +59703,7 @@
     human: ISO/IEC 23026
     urn: urn:iso:std:iso-iec:23026
   style: v3
-- id: iso.international_standard.6596
+- id: iso.international_standard.6603
   identifier:
     _type: pubid:iso:international-standard
     number: '23026'
@@ -59699,7 +59714,7 @@
     human: ISO/IEC 23026:2006
     urn: urn:iso:std:iso-iec:23026
   style: v3
-- id: iso.international_standard.6599
+- id: iso.international_standard.6606
   identifier:
     _type: pubid:iso:international-standard
     number: '23092'
@@ -59710,7 +59725,7 @@
     human: ISO/IEC 23092-4
     urn: urn:iso:std:iso-iec:23092:-4
   style: v3
-- id: iso.international_standard.6601
+- id: iso.international_standard.6608
   identifier:
     _type: pubid:iso:international-standard
     number: '23396'
@@ -59720,7 +59735,7 @@
     human: ISO/IEC 23396
     urn: urn:iso:std:iso-iec:23396
   style: v3
-- id: iso.international_standard.6602
+- id: iso.international_standard.6609
   identifier:
     _type: pubid:iso:international-standard
     number: '23465'
@@ -59730,7 +59745,7 @@
     human: ISO/IEC 23465
     urn: urn:iso:std:iso-iec:23465
   style: v3
-- id: iso.international_standard.6603
+- id: iso.international_standard.6610
   identifier:
     _type: pubid:iso:international-standard
     number: '23531'
@@ -59740,7 +59755,7 @@
     human: ISO/IEC 23531
     urn: urn:iso:std:iso-iec:23531
   style: v3
-- id: iso.international_standard.6604
+- id: iso.international_standard.6611
   identifier:
     _type: pubid:iso:international-standard
     number: '23761'
@@ -59750,7 +59765,7 @@
     human: ISO/IEC 23761
     urn: urn:iso:std:iso-iec:23761
   style: v3
-- id: iso.international_standard.6605
+- id: iso.international_standard.6612
   identifier:
     _type: pubid:iso:international-standard
     number: '23773'
@@ -59761,7 +59776,7 @@
     human: ISO/IEC 23773-2
     urn: urn:iso:std:iso-iec:23773:-2
   style: v3
-- id: iso.international_standard.6606
+- id: iso.international_standard.6613
   identifier:
     _type: pubid:iso:international-standard
     number: '2382'
@@ -59778,7 +59793,7 @@
     human: ISO/IEC 2382-36:2019(E/F)
     urn: urn:iso:std:iso-iec:2382:-36:en,fr
   style: v3
-- id: iso.international_standard.6607
+- id: iso.international_standard.6614
   identifier:
     _type: pubid:iso:international-standard
     number: '2382'
@@ -59793,7 +59808,7 @@
     human: ISO/IEC 2382-37:2012(ru)
     urn: urn:iso:std:iso-iec:2382:-37:ru
   style: v3
-- id: iso.international_standard.6608
+- id: iso.international_standard.6615
   identifier:
     _type: pubid:iso:international-standard
     number: '23837'
@@ -59804,7 +59819,7 @@
     human: ISO/IEC 23837-1
     urn: urn:iso:std:iso-iec:23837:-1
   style: v3
-- id: iso.international_standard.6609
+- id: iso.international_standard.6616
   identifier:
     _type: pubid:iso:international-standard
     number: '23837'
@@ -59815,7 +59830,7 @@
     human: ISO/IEC 23837-2
     urn: urn:iso:std:iso-iec:23837:-2
   style: v3
-- id: iso.international_standard.6610
+- id: iso.international_standard.6617
   identifier:
     _type: pubid:iso:international-standard
     number: '23917'
@@ -59826,7 +59841,7 @@
     human: ISO/IEC 23917:2005
     urn: urn:iso:std:iso-iec:23917
   style: v3
-- id: iso.international_standard.6611
+- id: iso.international_standard.6618
   identifier:
     _type: pubid:iso:international-standard
     number: '24570'
@@ -59837,7 +59852,7 @@
     human: ISO/IEC 24570:2005
     urn: urn:iso:std:iso-iec:24570
   style: v3
-- id: iso.international_standard.6612
+- id: iso.international_standard.6619
   identifier:
     _type: pubid:iso:international-standard
     number: '24570'
@@ -59848,7 +59863,7 @@
     human: ISO/IEC 24570:2018
     urn: urn:iso:std:iso-iec:24570
   style: v3
-- id: iso.international_standard.6613
+- id: iso.international_standard.6620
   identifier:
     _type: pubid:iso:international-standard
     number: '24709'
@@ -59860,7 +59875,7 @@
     human: ISO/IEC 24709-1:2007
     urn: urn:iso:std:iso-iec:24709:-1
   style: v3
-- id: iso.international_standard.6614
+- id: iso.international_standard.6621
   identifier:
     _type: pubid:iso:international-standard
     number: '24709'
@@ -59872,7 +59887,7 @@
     human: ISO/IEC 24709-1:2017
     urn: urn:iso:std:iso-iec:24709:-1
   style: v3
-- id: iso.international_standard.6615
+- id: iso.international_standard.6622
   identifier:
     _type: pubid:iso:international-standard
     number: '24709'
@@ -59884,7 +59899,7 @@
     human: ISO/IEC 24709-2:2007
     urn: urn:iso:std:iso-iec:24709:-2
   style: v3
-- id: iso.international_standard.6616
+- id: iso.international_standard.6623
   identifier:
     _type: pubid:iso:international-standard
     number: '24709'
@@ -59896,7 +59911,7 @@
     human: ISO/IEC 24709-3:2011
     urn: urn:iso:std:iso-iec:24709:-3
   style: v3
-- id: iso.international_standard.6617
+- id: iso.international_standard.6624
   identifier:
     _type: pubid:iso:international-standard
     number: '24712'
@@ -59907,7 +59922,7 @@
     human: ISO/IEC 24712:2006
     urn: urn:iso:std:iso-iec:24712
   style: v3
-- id: iso.international_standard.6618
+- id: iso.international_standard.6625
   identifier:
     _type: pubid:iso:international-standard
     number: '24712'
@@ -59918,7 +59933,7 @@
     human: ISO/IEC 24712:2007
     urn: urn:iso:std:iso-iec:24712
   style: v3
-- id: iso.international_standard.6619
+- id: iso.international_standard.6626
   identifier:
     _type: pubid:iso:international-standard
     number: '24727'
@@ -59928,7 +59943,7 @@
     human: ISO/IEC 24727
     urn: urn:iso:std:iso-iec:24727
   style: v3
-- id: iso.international_standard.6620
+- id: iso.international_standard.6627
   identifier:
     _type: pubid:iso:international-standard
     number: '24727'
@@ -59940,7 +59955,7 @@
     human: ISO/IEC 24727-5:2011
     urn: urn:iso:std:iso-iec:24727:-5
   style: v3
-- id: iso.international_standard.6621
+- id: iso.international_standard.6628
   identifier:
     _type: pubid:iso:international-standard
     number: '24744'
@@ -59951,7 +59966,7 @@
     human: ISO/IEC 24744:2007
     urn: urn:iso:std:iso-iec:24744
   style: v3
-- id: iso.international_standard.6622
+- id: iso.international_standard.6629
   identifier:
     _type: pubid:iso:international-standard
     number: '24744'
@@ -59962,7 +59977,7 @@
     human: ISO/IEC 24744:2014
     urn: urn:iso:std:iso-iec:24744
   style: v3
-- id: iso.international_standard.6623
+- id: iso.international_standard.6630
   identifier:
     _type: pubid:iso:international-standard
     number: '24747'
@@ -59973,7 +59988,7 @@
     human: ISO/IEC 24747:2009
     urn: urn:iso:std:iso-iec:24747
   style: v3
-- id: iso.international_standard.6624
+- id: iso.international_standard.6631
   identifier:
     _type: pubid:iso:international-standard
     number: '24754'
@@ -59985,7 +60000,7 @@
     human: ISO/IEC 24754-1:2008
     urn: urn:iso:std:iso-iec:24754:-1
   style: v3
-- id: iso.international_standard.6625
+- id: iso.international_standard.6632
   identifier:
     _type: pubid:iso:international-standard
     number: '24759'
@@ -59996,7 +60011,7 @@
     human: ISO/IEC 24759:2014
     urn: urn:iso:std:iso-iec:24759
   style: v3
-- id: iso.international_standard.6626
+- id: iso.international_standard.6633
   identifier:
     _type: pubid:iso:international-standard
     number: '24759'
@@ -60007,7 +60022,7 @@
     human: ISO/IEC 24759:2017
     urn: urn:iso:std:iso-iec:24759
   style: v3
-- id: iso.international_standard.6628
+- id: iso.international_standard.6635
   identifier:
     _type: pubid:iso:international-standard
     number: '24760'
@@ -60019,7 +60034,7 @@
     human: ISO/IEC 24760-2:2015
     urn: urn:iso:std:iso-iec:24760:-2
   style: v3
-- id: iso.international_standard.6629
+- id: iso.international_standard.6636
   identifier:
     _type: pubid:iso:international-standard
     number: '24767'
@@ -60031,7 +60046,7 @@
     human: ISO/IEC 24767-1:2008
     urn: urn:iso:std:iso-iec:24767:-1
   style: v3
-- id: iso.international_standard.6630
+- id: iso.international_standard.6637
   identifier:
     _type: pubid:iso:international-standard
     number: '24769'
@@ -60043,7 +60058,7 @@
     human: ISO/IEC 24769-5:2012
     urn: urn:iso:std:iso-iec:24769:-5
   style: v3
-- id: iso.international_standard.6631
+- id: iso.international_standard.6638
   identifier:
     _type: pubid:iso:international-standard
     number: '24769'
@@ -60054,7 +60069,7 @@
     human: ISO/IEC 24769-61
     urn: urn:iso:std:iso-iec:24769:-61
   style: v3
-- id: iso.international_standard.6632
+- id: iso.international_standard.6639
   identifier:
     _type: pubid:iso:international-standard
     number: '24769'
@@ -60065,7 +60080,7 @@
     human: ISO/IEC 24769-62
     urn: urn:iso:std:iso-iec:24769:-62
   style: v3
-- id: iso.international_standard.6633
+- id: iso.international_standard.6640
   identifier:
     _type: pubid:iso:international-standard
     number: '24770'
@@ -60077,7 +60092,7 @@
     human: ISO/IEC 24770-5:2019
     urn: urn:iso:std:iso-iec:24770:-5
   style: v3
-- id: iso.international_standard.6634
+- id: iso.international_standard.6641
   identifier:
     _type: pubid:iso:international-standard
     number: '24770'
@@ -60089,7 +60104,7 @@
     human: ISO/IEC 24770-61:2015
     urn: urn:iso:std:iso-iec:24770:-61
   style: v3
-- id: iso.international_standard.6635
+- id: iso.international_standard.6642
   identifier:
     _type: pubid:iso:international-standard
     number: '24770'
@@ -60100,7 +60115,7 @@
     human: ISO/IEC 24770:2012
     urn: urn:iso:std:iso-iec:24770
   style: v3
-- id: iso.international_standard.6636
+- id: iso.international_standard.6643
   identifier:
     _type: pubid:iso:international-standard
     number: '24773'
@@ -60111,7 +60126,7 @@
     human: ISO/IEC 24773-4
     urn: urn:iso:std:iso-iec:24773:-4
   style: v3
-- id: iso.international_standard.6637
+- id: iso.international_standard.6644
   identifier:
     _type: pubid:iso:international-standard
     number: '24773'
@@ -60122,7 +60137,7 @@
     human: ISO/IEC 24773:2008
     urn: urn:iso:std:iso-iec:24773
   style: v3
-- id: iso.international_standard.6638
+- id: iso.international_standard.6645
   identifier:
     _type: pubid:iso:international-standard
     number: '24789'
@@ -60133,7 +60148,7 @@
     human: ISO/IEC 24789-1
     urn: urn:iso:std:iso-iec:24789:-1
   style: v3
-- id: iso.international_standard.6639
+- id: iso.international_standard.6646
   identifier:
     _type: pubid:iso:international-standard
     number: '24789'
@@ -60145,7 +60160,7 @@
     human: ISO/IEC 24789-1:2012
     urn: urn:iso:std:iso-iec:24789:-1
   style: v3
-- id: iso.international_standard.6640
+- id: iso.international_standard.6647
   identifier:
     _type: pubid:iso:international-standard
     number: '24791'
@@ -60157,7 +60172,7 @@
     human: ISO/IEC 24791-1:2010
     urn: urn:iso:std:iso-iec:24791:-1
   style: v3
-- id: iso.international_standard.6641
+- id: iso.international_standard.6648
   identifier:
     _type: pubid:iso:international-standard
     number: '24791'
@@ -60169,7 +60184,7 @@
     human: ISO/IEC 24791-2:2011
     urn: urn:iso:std:iso-iec:24791:-2
   style: v3
-- id: iso.international_standard.6642
+- id: iso.international_standard.6649
   identifier:
     _type: pubid:iso:international-standard
     number: '24791'
@@ -60181,7 +60196,7 @@
     human: ISO/IEC 24791-3:2014
     urn: urn:iso:std:iso-iec:24791:-3
   style: v3
-- id: iso.international_standard.6643
+- id: iso.international_standard.6650
   identifier:
     _type: pubid:iso:international-standard
     number: '24791'
@@ -60193,7 +60208,7 @@
     human: ISO/IEC 24791-5:2012
     urn: urn:iso:std:iso-iec:24791:-5
   style: v3
-- id: iso.international_standard.6644
+- id: iso.international_standard.6651
   identifier:
     _type: pubid:iso:international-standard
     number: '24800'
@@ -60204,7 +60219,7 @@
     human: ISO/IEC 24800-2
     urn: urn:iso:std:iso-iec:24800:-2
   style: v3
-- id: iso.international_standard.6645
+- id: iso.international_standard.6652
   identifier:
     _type: pubid:iso:international-standard
     number: '24800'
@@ -60216,7 +60231,7 @@
     human: ISO/IEC 24800-2:2011
     urn: urn:iso:std:iso-iec:24800:-2
   style: v3
-- id: iso.international_standard.6646
+- id: iso.international_standard.6653
   identifier:
     _type: pubid:iso:international-standard
     number: '24800'
@@ -60228,7 +60243,7 @@
     human: ISO/IEC 24800-6:2012
     urn: urn:iso:std:iso-iec:24800:-6
   style: v3
-- id: iso.international_standard.6648
+- id: iso.international_standard.6655
   identifier:
     _type: pubid:iso:international-standard
     number: '25000'
@@ -60239,7 +60254,7 @@
     human: ISO/IEC 25000:2005
     urn: urn:iso:std:iso-iec:25000
   style: v3
-- id: iso.international_standard.6649
+- id: iso.international_standard.6656
   identifier:
     _type: pubid:iso:international-standard
     number: '25000'
@@ -60250,7 +60265,7 @@
     human: ISO/IEC 25000:2014
     urn: urn:iso:std:iso-iec:25000
   style: v3
-- id: iso.international_standard.6650
+- id: iso.international_standard.6657
   identifier:
     _type: pubid:iso:international-standard
     number: '25001'
@@ -60261,7 +60276,7 @@
     human: ISO/IEC 25001:2007
     urn: urn:iso:std:iso-iec:25001
   style: v3
-- id: iso.international_standard.6651
+- id: iso.international_standard.6658
   identifier:
     _type: pubid:iso:international-standard
     number: '25001'
@@ -60272,7 +60287,7 @@
     human: ISO/IEC 25001:2014
     urn: urn:iso:std:iso-iec:25001
   style: v3
-- id: iso.international_standard.6652
+- id: iso.international_standard.6659
   identifier:
     _type: pubid:iso:international-standard
     number: '25010'
@@ -60283,7 +60298,7 @@
     human: ISO/IEC 25010:2011
     urn: urn:iso:std:iso-iec:25010
   style: v3
-- id: iso.international_standard.6653
+- id: iso.international_standard.6660
   identifier:
     _type: pubid:iso:international-standard
     number: '25012'
@@ -60294,7 +60309,7 @@
     human: ISO/IEC 25012:2008
     urn: urn:iso:std:iso-iec:25012
   style: v3
-- id: iso.international_standard.6654
+- id: iso.international_standard.6661
   identifier:
     _type: pubid:iso:international-standard
     number: '25020'
@@ -60305,7 +60320,7 @@
     human: ISO/IEC 25020:2007
     urn: urn:iso:std:iso-iec:25020
   style: v3
-- id: iso.international_standard.6655
+- id: iso.international_standard.6662
   identifier:
     _type: pubid:iso:international-standard
     number: '25020'
@@ -60316,7 +60331,7 @@
     human: ISO/IEC 25020:2019
     urn: urn:iso:std:iso-iec:25020
   style: v3
-- id: iso.international_standard.6656
+- id: iso.international_standard.6663
   identifier:
     _type: pubid:iso:international-standard
     number: '25021'
@@ -60327,7 +60342,7 @@
     human: ISO/IEC 25021:2012
     urn: urn:iso:std:iso-iec:25021
   style: v3
-- id: iso.international_standard.6657
+- id: iso.international_standard.6664
   identifier:
     _type: pubid:iso:international-standard
     number: '25022'
@@ -60338,7 +60353,7 @@
     human: ISO/IEC 25022:2016
     urn: urn:iso:std:iso-iec:25022
   style: v3
-- id: iso.international_standard.6658
+- id: iso.international_standard.6665
   identifier:
     _type: pubid:iso:international-standard
     number: '25023'
@@ -60349,7 +60364,7 @@
     human: ISO/IEC 25023:2016
     urn: urn:iso:std:iso-iec:25023
   style: v3
-- id: iso.international_standard.6659
+- id: iso.international_standard.6666
   identifier:
     _type: pubid:iso:international-standard
     number: '25024'
@@ -60360,7 +60375,7 @@
     human: ISO/IEC 25024:2015
     urn: urn:iso:std:iso-iec:25024
   style: v3
-- id: iso.international_standard.6660
+- id: iso.international_standard.6667
   identifier:
     _type: pubid:iso:international-standard
     number: '25030'
@@ -60371,7 +60386,7 @@
     human: ISO/IEC 25030:2007
     urn: urn:iso:std:iso-iec:25030
   style: v3
-- id: iso.international_standard.6661
+- id: iso.international_standard.6668
   identifier:
     _type: pubid:iso:international-standard
     number: '25040'
@@ -60382,7 +60397,7 @@
     human: ISO/IEC 25040:2011
     urn: urn:iso:std:iso-iec:25040
   style: v3
-- id: iso.international_standard.6662
+- id: iso.international_standard.6669
   identifier:
     _type: pubid:iso:international-standard
     number: '25041'
@@ -60393,7 +60408,7 @@
     human: ISO/IEC 25041:2012
     urn: urn:iso:std:iso-iec:25041
   style: v3
-- id: iso.international_standard.6663
+- id: iso.international_standard.6670
   identifier:
     _type: pubid:iso:international-standard
     number: '25045'
@@ -60404,7 +60419,7 @@
     human: ISO/IEC 25045:2010
     urn: urn:iso:std:iso-iec:25045
   style: v3
-- id: iso.international_standard.6664
+- id: iso.international_standard.6671
   identifier:
     _type: pubid:iso:international-standard
     number: '25051'
@@ -60415,7 +60430,7 @@
     human: ISO/IEC 25051:2006
     urn: urn:iso:std:iso-iec:25051
   style: v3
-- id: iso.international_standard.6665
+- id: iso.international_standard.6672
   identifier:
     _type: pubid:iso:international-standard
     number: '25062'
@@ -60426,7 +60441,7 @@
     human: ISO/IEC 25062:2006
     urn: urn:iso:std:iso-iec:25062
   style: v3
-- id: iso.international_standard.6666
+- id: iso.international_standard.6673
   identifier:
     _type: pubid:iso:international-standard
     number: '25063'
@@ -60437,7 +60452,7 @@
     human: ISO/IEC 25063:2014
     urn: urn:iso:std:iso-iec:25063
   style: v3
-- id: iso.international_standard.6667
+- id: iso.international_standard.6674
   identifier:
     _type: pubid:iso:international-standard
     number: '25064'
@@ -60448,7 +60463,7 @@
     human: ISO/IEC 25064:2013
     urn: urn:iso:std:iso-iec:25064
   style: v3
-- id: iso.international_standard.6668
+- id: iso.international_standard.6675
   identifier:
     _type: pubid:iso:international-standard
     number: '25066'
@@ -60459,7 +60474,7 @@
     human: ISO/IEC 25066:2016
     urn: urn:iso:std:iso-iec:25066
   style: v3
-- id: iso.international_standard.6671
+- id: iso.international_standard.6678
   identifier:
     _type: pubid:iso:international-standard
     number: '26513'
@@ -60470,7 +60485,7 @@
     human: ISO/IEC 26513:2009
     urn: urn:iso:std:iso-iec:26513
   style: v3
-- id: iso.international_standard.6672
+- id: iso.international_standard.6679
   identifier:
     _type: pubid:iso:international-standard
     number: '26514'
@@ -60480,7 +60495,7 @@
     human: ISO/IEC 26514
     urn: urn:iso:std:iso-iec:26514
   style: v3
-- id: iso.international_standard.6673
+- id: iso.international_standard.6680
   identifier:
     _type: pubid:iso:international-standard
     number: '26550'
@@ -60491,7 +60506,7 @@
     human: ISO/IEC 26550:2013
     urn: urn:iso:std:iso-iec:26550
   style: v3
-- id: iso.international_standard.6674
+- id: iso.international_standard.6681
   identifier:
     _type: pubid:iso:international-standard
     number: '26550'
@@ -60502,7 +60517,7 @@
     human: ISO/IEC 26550:2015
     urn: urn:iso:std:iso-iec:26550
   style: v3
-- id: iso.international_standard.6675
+- id: iso.international_standard.6682
   identifier:
     _type: pubid:iso:international-standard
     number: '26551'
@@ -60513,7 +60528,7 @@
     human: ISO/IEC 26551:2012
     urn: urn:iso:std:iso-iec:26551
   style: v3
-- id: iso.international_standard.6676
+- id: iso.international_standard.6683
   identifier:
     _type: pubid:iso:international-standard
     number: '26551'
@@ -60524,7 +60539,7 @@
     human: ISO/IEC 26551:2016
     urn: urn:iso:std:iso-iec:26551
   style: v3
-- id: iso.international_standard.6677
+- id: iso.international_standard.6684
   identifier:
     _type: pubid:iso:international-standard
     number: '26552'
@@ -60535,7 +60550,7 @@
     human: ISO/IEC 26552:2019
     urn: urn:iso:std:iso-iec:26552
   style: v3
-- id: iso.international_standard.6678
+- id: iso.international_standard.6685
   identifier:
     _type: pubid:iso:international-standard
     number: '26553'
@@ -60546,7 +60561,7 @@
     human: ISO/IEC 26553:2018
     urn: urn:iso:std:iso-iec:26553
   style: v3
-- id: iso.international_standard.6679
+- id: iso.international_standard.6686
   identifier:
     _type: pubid:iso:international-standard
     number: '26554'
@@ -60557,7 +60572,7 @@
     human: ISO/IEC 26554:2018
     urn: urn:iso:std:iso-iec:26554
   style: v3
-- id: iso.international_standard.6680
+- id: iso.international_standard.6687
   identifier:
     _type: pubid:iso:international-standard
     number: '26555'
@@ -60568,7 +60583,7 @@
     human: ISO/IEC 26555:2015
     urn: urn:iso:std:iso-iec:26555
   style: v3
-- id: iso.international_standard.6681
+- id: iso.international_standard.6688
   identifier:
     _type: pubid:iso:international-standard
     number: '26558'
@@ -60579,7 +60594,7 @@
     human: ISO/IEC 26558:2017
     urn: urn:iso:std:iso-iec:26558
   style: v3
-- id: iso.international_standard.6682
+- id: iso.international_standard.6689
   identifier:
     _type: pubid:iso:international-standard
     number: '26559'
@@ -60590,7 +60605,7 @@
     human: ISO/IEC 26559:2017
     urn: urn:iso:std:iso-iec:26559
   style: v3
-- id: iso.international_standard.6683
+- id: iso.international_standard.6690
   identifier:
     _type: pubid:iso:international-standard
     number: '26561'
@@ -60600,7 +60615,7 @@
     human: ISO/IEC 26561
     urn: urn:iso:std:iso-iec:26561
   style: v3
-- id: iso.international_standard.6684
+- id: iso.international_standard.6691
   identifier:
     _type: pubid:iso:international-standard
     number: '26580'
@@ -60610,7 +60625,7 @@
     human: ISO/IEC 26580
     urn: urn:iso:std:iso-iec:26580
   style: v3
-- id: iso.international_standard.6685
+- id: iso.international_standard.6692
   identifier:
     _type: pubid:iso:international-standard
     number: '27001'
@@ -60621,7 +60636,7 @@
     human: ISO/IEC 27001:2013
     urn: urn:iso:std:iso-iec:27001
   style: v3
-- id: iso.international_standard.6688
+- id: iso.international_standard.6695
   identifier:
     _type: pubid:iso:international-standard
     number: '27002'
@@ -60632,7 +60647,7 @@
     human: ISO/IEC 27002:2005
     urn: urn:iso:std:iso-iec:27002
   style: v3
-- id: iso.international_standard.6689
+- id: iso.international_standard.6696
   identifier:
     _type: pubid:iso:international-standard
     number: '27006'
@@ -60643,7 +60658,7 @@
     human: ISO/IEC 27006:2007
     urn: urn:iso:std:iso-iec:27006
   style: v3
-- id: iso.international_standard.6690
+- id: iso.international_standard.6697
   identifier:
     _type: pubid:iso:international-standard
     number: '27006'
@@ -60654,7 +60669,7 @@
     human: ISO/IEC 27006:2011
     urn: urn:iso:std:iso-iec:27006
   style: v3
-- id: iso.international_standard.6691
+- id: iso.international_standard.6698
   identifier:
     _type: pubid:iso:international-standard
     number: '27006'
@@ -60665,7 +60680,7 @@
     human: ISO/IEC 27006:2015
     urn: urn:iso:std:iso-iec:27006
   style: v3
-- id: iso.international_standard.6693
+- id: iso.international_standard.6700
   identifier:
     _type: pubid:iso:international-standard
     number: '27009'
@@ -60675,7 +60690,7 @@
     human: ISO/IEC 27009
     urn: urn:iso:std:iso-iec:27009
   style: v3
-- id: iso.international_standard.6694
+- id: iso.international_standard.6701
   identifier:
     _type: pubid:iso:international-standard
     number: '27009'
@@ -60686,7 +60701,7 @@
     human: ISO/IEC 27009:2016
     urn: urn:iso:std:iso-iec:27009
   style: v3
-- id: iso.international_standard.6696
+- id: iso.international_standard.6703
   identifier:
     _type: pubid:iso:international-standard
     number: '27021'
@@ -60697,7 +60712,7 @@
     human: ISO/IEC 27021:2017
     urn: urn:iso:std:iso-iec:27021
   style: v3
-- id: iso.international_standard.6697
+- id: iso.international_standard.6704
   identifier:
     _type: pubid:iso:international-standard
     number: '27036'
@@ -60709,7 +60724,7 @@
     human: ISO/IEC 27036-2:2014
     urn: urn:iso:std:iso-iec:27036:-2
   style: v3
-- id: iso.international_standard.6698
+- id: iso.international_standard.6705
   identifier:
     _type: pubid:iso:international-standard
     number: '27070'
@@ -60719,7 +60734,7 @@
     human: ISO/IEC 27070
     urn: urn:iso:std:iso-iec:27070
   style: v3
-- id: iso.international_standard.6699
+- id: iso.international_standard.6706
   identifier:
     _type: pubid:iso:international-standard
     number: '27553'
@@ -60729,7 +60744,7 @@
     human: ISO/IEC 27553
     urn: urn:iso:std:iso-iec:27553
   style: v3
-- id: iso.international_standard.6700
+- id: iso.international_standard.6707
   identifier:
     _type: pubid:iso:international-standard
     number: '27701'
@@ -60740,7 +60755,7 @@
     human: ISO/IEC 27701:2019
     urn: urn:iso:std:iso-iec:27701
   style: v3
-- id: iso.international_standard.6701
+- id: iso.international_standard.6708
   identifier:
     _type: pubid:iso:international-standard
     number: '29103'
@@ -60751,7 +60766,7 @@
     human: ISO/IEC 29103:2011
     urn: urn:iso:std:iso-iec:29103
   style: v3
-- id: iso.international_standard.6702
+- id: iso.international_standard.6709
   identifier:
     _type: pubid:iso:international-standard
     number: '29109'
@@ -60763,7 +60778,7 @@
     human: ISO/IEC 29109-10:2010
     urn: urn:iso:std:iso-iec:29109:-10
   style: v3
-- id: iso.international_standard.6703
+- id: iso.international_standard.6710
   identifier:
     _type: pubid:iso:international-standard
     number: '29109'
@@ -60775,7 +60790,7 @@
     human: ISO/IEC 29109-1:2009
     urn: urn:iso:std:iso-iec:29109:-1
   style: v3
-- id: iso.international_standard.6704
+- id: iso.international_standard.6711
   identifier:
     _type: pubid:iso:international-standard
     number: '29109'
@@ -60787,7 +60802,7 @@
     human: ISO/IEC 29109-2:2010
     urn: urn:iso:std:iso-iec:29109:-2
   style: v3
-- id: iso.international_standard.6705
+- id: iso.international_standard.6712
   identifier:
     _type: pubid:iso:international-standard
     number: '29109'
@@ -60799,7 +60814,7 @@
     human: ISO/IEC 29109-5:2011
     urn: urn:iso:std:iso-iec:29109:-5
   style: v3
-- id: iso.international_standard.6706
+- id: iso.international_standard.6713
   identifier:
     _type: pubid:iso:international-standard
     number: '29109'
@@ -60811,7 +60826,7 @@
     human: ISO/IEC 29109-5:2012
     urn: urn:iso:std:iso-iec:29109:-5
   style: v3
-- id: iso.international_standard.6707
+- id: iso.international_standard.6714
   identifier:
     _type: pubid:iso:international-standard
     number: '29109'
@@ -60823,7 +60838,7 @@
     human: ISO/IEC 29109-5:2014
     urn: urn:iso:std:iso-iec:29109:-5
   style: v3
-- id: iso.international_standard.6708
+- id: iso.international_standard.6715
   identifier:
     _type: pubid:iso:international-standard
     number: '29109'
@@ -60835,7 +60850,7 @@
     human: ISO/IEC 29109-5:2019
     urn: urn:iso:std:iso-iec:29109:-5
   style: v3
-- id: iso.international_standard.6709
+- id: iso.international_standard.6716
   identifier:
     _type: pubid:iso:international-standard
     number: '29109'
@@ -60847,7 +60862,7 @@
     human: ISO/IEC 29109-6:2011
     urn: urn:iso:std:iso-iec:29109:-6
   style: v3
-- id: iso.international_standard.6710
+- id: iso.international_standard.6717
   identifier:
     _type: pubid:iso:international-standard
     number: '29109'
@@ -60859,7 +60874,7 @@
     human: ISO/IEC 29109-8:2011
     urn: urn:iso:std:iso-iec:29109:-8
   style: v3
-- id: iso.international_standard.6711
+- id: iso.international_standard.6718
   identifier:
     _type: pubid:iso:international-standard
     number: '29109'
@@ -60871,7 +60886,7 @@
     human: ISO/IEC 29109-9:2011
     urn: urn:iso:std:iso-iec:29109:-9
   style: v3
-- id: iso.international_standard.6712
+- id: iso.international_standard.6719
   identifier:
     _type: pubid:iso:international-standard
     number: '29110'
@@ -60884,7 +60899,7 @@
     human: ISO/IEC 29110-2-1:2015
     urn: urn:iso:std:iso-iec:29110:-2-1
   style: v3
-- id: iso.international_standard.6713
+- id: iso.international_standard.6720
   identifier:
     _type: pubid:iso:international-standard
     number: '29110'
@@ -60896,7 +60911,7 @@
     human: ISO/IEC 29110-2:2011
     urn: urn:iso:std:iso-iec:29110:-2
   style: v3
-- id: iso.international_standard.6714
+- id: iso.international_standard.6721
   identifier:
     _type: pubid:iso:international-standard
     number: '29110'
@@ -60908,7 +60923,7 @@
     human: ISO/IEC 29110-3-2
     urn: urn:iso:std:iso-iec:29110:-3-2
   style: v3
-- id: iso.international_standard.6715
+- id: iso.international_standard.6722
   identifier:
     _type: pubid:iso:international-standard
     number: '29110'
@@ -60921,7 +60936,7 @@
     human: ISO/IEC 29110-3-3:2016
     urn: urn:iso:std:iso-iec:29110:-3-3
   style: v3
-- id: iso.international_standard.6716
+- id: iso.international_standard.6723
   identifier:
     _type: pubid:iso:international-standard
     number: '29110'
@@ -60933,7 +60948,7 @@
     human: ISO/IEC 29110-4-1
     urn: urn:iso:std:iso-iec:29110:-4-1
   style: v3
-- id: iso.international_standard.6717
+- id: iso.international_standard.6724
   identifier:
     _type: pubid:iso:international-standard
     number: '29110'
@@ -60946,7 +60961,7 @@
     human: ISO/IEC 29110-4-1:2018
     urn: urn:iso:std:iso-iec:29110:-4-1
   style: v3
-- id: iso.international_standard.6718
+- id: iso.international_standard.6725
   identifier:
     _type: pubid:iso:international-standard
     number: '29110'
@@ -60958,7 +60973,7 @@
     human: ISO/IEC 29110-4-2
     urn: urn:iso:std:iso-iec:29110:-4-2
   style: v3
-- id: iso.international_standard.6719
+- id: iso.international_standard.6726
   identifier:
     _type: pubid:iso:international-standard
     number: '29110'
@@ -60971,7 +60986,7 @@
     human: ISO/IEC 29110-4-3:2018
     urn: urn:iso:std:iso-iec:29110:-4-3
   style: v3
-- id: iso.international_standard.6720
+- id: iso.international_standard.6727
   identifier:
     _type: pubid:iso:international-standard
     number: '29110'
@@ -60983,7 +60998,7 @@
     human: ISO/IEC 29110-6-1
     urn: urn:iso:std:iso-iec:29110:-6-1
   style: v3
-- id: iso.international_standard.6721
+- id: iso.international_standard.6728
   identifier:
     _type: pubid:iso:international-standard
     number: '29112'
@@ -60994,7 +61009,7 @@
     human: ISO/IEC 29112:2018
     urn: urn:iso:std:iso-iec:29112
   style: v3
-- id: iso.international_standard.6722
+- id: iso.international_standard.6729
   identifier:
     _type: pubid:iso:international-standard
     number: '29120'
@@ -61005,7 +61020,7 @@
     human: ISO/IEC 29120-1
     urn: urn:iso:std:iso-iec:29120:-1
   style: v3
-- id: iso.international_standard.6723
+- id: iso.international_standard.6730
   identifier:
     _type: pubid:iso:international-standard
     number: '29120'
@@ -61017,7 +61032,7 @@
     human: ISO/IEC 29120-1:2015
     urn: urn:iso:std:iso-iec:29120:-1
   style: v3
-- id: iso.international_standard.6725
+- id: iso.international_standard.6732
   identifier:
     _type: pubid:iso:international-standard
     number: '29124'
@@ -61028,7 +61043,7 @@
     human: ISO/IEC 29124:2010
     urn: urn:iso:std:iso-iec:29124
   style: v3
-- id: iso.international_standard.6726
+- id: iso.international_standard.6733
   identifier:
     _type: pubid:iso:international-standard
     number: '29133'
@@ -61039,7 +61054,7 @@
     human: ISO/IEC 29133:2010
     urn: urn:iso:std:iso-iec:29133
   style: v3
-- id: iso.international_standard.6728
+- id: iso.international_standard.6735
   identifier:
     _type: pubid:iso:international-standard
     number: '29155'
@@ -61051,7 +61066,7 @@
     human: ISO/IEC 29155-1:2011
     urn: urn:iso:std:iso-iec:29155:-1
   style: v3
-- id: iso.international_standard.6729
+- id: iso.international_standard.6736
   identifier:
     _type: pubid:iso:international-standard
     number: '29155'
@@ -61063,7 +61078,7 @@
     human: ISO/IEC 29155-1:2017
     urn: urn:iso:std:iso-iec:29155:-1
   style: v3
-- id: iso.international_standard.6730
+- id: iso.international_standard.6737
   identifier:
     _type: pubid:iso:international-standard
     number: '29155'
@@ -61075,7 +61090,7 @@
     human: ISO/IEC 29155-2:2013
     urn: urn:iso:std:iso-iec:29155:-2
   style: v3
-- id: iso.international_standard.6732
+- id: iso.international_standard.6739
   identifier:
     _type: pubid:iso:international-standard
     number: '29182'
@@ -61087,7 +61102,7 @@
     human: ISO/IEC 29182-1:2013
     urn: urn:iso:std:iso-iec:29182:-1
   style: v3
-- id: iso.international_standard.6733
+- id: iso.international_standard.6740
   identifier:
     _type: pubid:iso:international-standard
     number: '29187'
@@ -61099,7 +61114,7 @@
     human: ISO/IEC 29187-1:2013
     urn: urn:iso:std:iso-iec:29187:-1
   style: v3
-- id: iso.international_standard.6734
+- id: iso.international_standard.6741
   identifier:
     _type: pubid:iso:international-standard
     number: '29191'
@@ -61110,7 +61125,7 @@
     human: ISO/IEC 29191:2012
     urn: urn:iso:std:iso-iec:29191
   style: v3
-- id: iso.international_standard.6735
+- id: iso.international_standard.6742
   identifier:
     _type: pubid:iso:international-standard
     number: '29199'
@@ -61122,7 +61137,7 @@
     human: ISO/IEC 29199-4:2010
     urn: urn:iso:std:iso-iec:29199:-4
   style: v3
-- id: iso.international_standard.6736
+- id: iso.international_standard.6743
   identifier:
     _type: pubid:iso:international-standard
     number: '29199'
@@ -61134,7 +61149,7 @@
     human: ISO/IEC 29199-5:2010
     urn: urn:iso:std:iso-iec:29199:-5
   style: v3
-- id: iso.international_standard.6737
+- id: iso.international_standard.6744
   identifier:
     _type: pubid:iso:international-standard
     number: '29199'
@@ -61146,7 +61161,7 @@
     human: ISO/IEC 29199-5:2012
     urn: urn:iso:std:iso-iec:29199:-5
   style: v3
-- id: iso.international_standard.6738
+- id: iso.international_standard.6745
   identifier:
     _type: pubid:iso:international-standard
     number: '29881'
@@ -61157,7 +61172,7 @@
     human: ISO/IEC 29881:2010
     urn: urn:iso:std:iso-iec:29881
   style: v3
-- id: iso.international_standard.6739
+- id: iso.international_standard.6746
   identifier:
     _type: pubid:iso:international-standard
     number: '30100'
@@ -61169,7 +61184,7 @@
     human: ISO/IEC 30100-1:2016
     urn: urn:iso:std:iso-iec:30100:-1
   style: v3
-- id: iso.international_standard.6740
+- id: iso.international_standard.6747
   identifier:
     _type: pubid:iso:international-standard
     number: '30105'
@@ -61180,7 +61195,7 @@
     human: ISO/IEC 30105-2
     urn: urn:iso:std:iso-iec:30105:-2
   style: v3
-- id: iso.international_standard.6741
+- id: iso.international_standard.6748
   identifier:
     _type: pubid:iso:international-standard
     number: '30105'
@@ -61191,7 +61206,7 @@
     human: ISO/IEC 30105-3
     urn: urn:iso:std:iso-iec:30105:-3
   style: v3
-- id: iso.international_standard.6742
+- id: iso.international_standard.6749
   identifier:
     _type: pubid:iso:international-standard
     number: '30107'
@@ -61202,7 +61217,7 @@
     human: ISO/IEC 30107-3
     urn: urn:iso:std:iso-iec:30107:-3
   style: v3
-- id: iso.international_standard.6743
+- id: iso.international_standard.6750
   identifier:
     _type: pubid:iso:international-standard
     number: '30107'
@@ -61214,7 +61229,7 @@
     human: ISO/IEC 30107-3:2017
     urn: urn:iso:std:iso-iec:30107:-3
   style: v3
-- id: iso.international_standard.6744
+- id: iso.international_standard.6751
   identifier:
     _type: pubid:iso:international-standard
     number: '30107'
@@ -61225,7 +61240,7 @@
     human: ISO/IEC 30107-4
     urn: urn:iso:std:iso-iec:30107:-4
   style: v3
-- id: iso.international_standard.6745
+- id: iso.international_standard.6752
   identifier:
     _type: pubid:iso:international-standard
     number: '30116'
@@ -61236,7 +61251,7 @@
     human: ISO/IEC 30116:2016
     urn: urn:iso:std:iso-iec:30116
   style: v3
-- id: iso.international_standard.6746
+- id: iso.international_standard.6753
   identifier:
     _type: pubid:iso:international-standard
     number: '30122'
@@ -61248,7 +61263,7 @@
     human: ISO/IEC 30122-2:2017
     urn: urn:iso:std:iso-iec:30122:-2
   style: v3
-- id: iso.international_standard.6747
+- id: iso.international_standard.6754
   identifier:
     _type: pubid:iso:international-standard
     number: '30130'
@@ -61259,7 +61274,7 @@
     human: ISO/IEC 30130:2016
     urn: urn:iso:std:iso-iec:30130
   style: v3
-- id: iso.international_standard.6748
+- id: iso.international_standard.6755
   identifier:
     _type: pubid:iso:international-standard
     number: '30134'
@@ -61271,7 +61286,7 @@
     human: ISO/IEC 30134-1:2016
     urn: urn:iso:std:iso-iec:30134:-1
   style: v3
-- id: iso.international_standard.6750
+- id: iso.international_standard.6757
   identifier:
     _type: pubid:iso:international-standard
     number: '30136'
@@ -61282,7 +61297,7 @@
     human: ISO/IEC 30136:2018
     urn: urn:iso:std:iso-iec:30136
   style: v3
-- id: iso.international_standard.6751
+- id: iso.international_standard.6758
   identifier:
     _type: pubid:iso:international-standard
     number: '30140'
@@ -61294,7 +61309,7 @@
     human: ISO/IEC 30140-1:2018
     urn: urn:iso:std:iso-iec:30140:-1
   style: v3
-- id: iso.international_standard.6752
+- id: iso.international_standard.6759
   identifier:
     _type: pubid:iso:international-standard
     number: '30142'
@@ -61307,7 +61322,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC 30142 ED1
     style: v3
-- id: iso.international_standard.6753
+- id: iso.international_standard.6760
   identifier:
     _type: pubid:iso:international-standard
     number: '30162'
@@ -61317,7 +61332,7 @@
     human: ISO/IEC 30162
     urn: urn:iso:std:iso-iec:30162
   style: v3
-- id: iso.international_standard.6754
+- id: iso.international_standard.6761
   identifier:
     _type: pubid:iso:international-standard
     number: '30163'
@@ -61327,7 +61342,7 @@
     human: ISO/IEC 30163
     urn: urn:iso:std:iso-iec:30163
   style: v3
-- id: iso.international_standard.6756
+- id: iso.international_standard.6763
   identifier:
     _type: pubid:iso:international-standard
     number: '33002'
@@ -61338,7 +61353,7 @@
     human: ISO/IEC 33002:2015
     urn: urn:iso:std:iso-iec:33002
   style: v3
-- id: iso.international_standard.6757
+- id: iso.international_standard.6764
   identifier:
     _type: pubid:iso:international-standard
     number: '33003'
@@ -61349,7 +61364,7 @@
     human: ISO/IEC 33003:2015
     urn: urn:iso:std:iso-iec:33003
   style: v3
-- id: iso.international_standard.6758
+- id: iso.international_standard.6765
   identifier:
     _type: pubid:iso:international-standard
     number: '33004'
@@ -61360,7 +61375,7 @@
     human: ISO/IEC 33004:2015
     urn: urn:iso:std:iso-iec:33004
   style: v3
-- id: iso.international_standard.6759
+- id: iso.international_standard.6766
   identifier:
     _type: pubid:iso:international-standard
     number: '33063'
@@ -61371,7 +61386,7 @@
     human: ISO/IEC 33063:2015
     urn: urn:iso:std:iso-iec:33063
   style: v3
-- id: iso.international_standard.6760
+- id: iso.international_standard.6767
   identifier:
     _type: pubid:iso:international-standard
     number: '39794'
@@ -61381,7 +61396,7 @@
     human: ISO/IEC 39794
     urn: urn:iso:std:iso-iec:39794
   style: v3
-- id: iso.international_standard.6762
+- id: iso.international_standard.6769
   identifier:
     _type: pubid:iso:international-standard
     number: '42030'
@@ -61391,7 +61406,7 @@
     human: ISO/IEC 42030
     urn: urn:iso:std:iso-iec:42030
   style: v3
-- id: iso.international_standard.6763
+- id: iso.international_standard.6770
   identifier:
     _type: pubid:iso:international-standard
     number: '55001'
@@ -61401,7 +61416,7 @@
     human: ISO/IEC 55001
     urn: urn:iso:std:iso-iec:55001
   style: v3
-- id: iso.international_standard.6764
+- id: iso.international_standard.6771
   identifier:
     _type: pubid:iso:international-standard
     number: '76'
@@ -61415,7 +61430,7 @@
   non_normalized_aliases:
   - spelling: ИСО/МЭК 76:2008
     style: v3
-- id: iso.international_standard.6765
+- id: iso.international_standard.6772
   identifier:
     _type: pubid:iso:international-standard
     number: '80079'
@@ -61427,7 +61442,7 @@
     human: ISO/IEC 80079-20-1
     urn: urn:iso:std:iso-iec:80079:-20-1
   style: v3
-- id: iso.international_standard.6766
+- id: iso.international_standard.6773
   identifier:
     _type: pubid:iso:international-standard
     number: '80079'
@@ -61439,7 +61454,7 @@
     human: ISO/IEC 80079-20-2
     urn: urn:iso:std:iso-iec:80079:-20-2
   style: v3
-- id: iso.international_standard.6767
+- id: iso.international_standard.6774
   identifier:
     _type: pubid:iso:international-standard
     number: '8802'
@@ -61451,7 +61466,7 @@
     human: ISO/IEC 8802-11:1999
     urn: urn:iso:std:iso-iec:8802:-11
   style: v3
-- id: iso.international_standard.6768
+- id: iso.international_standard.6775
   identifier:
     _type: pubid:iso:international-standard
     number: '8802'
@@ -61463,7 +61478,7 @@
     human: ISO/IEC 8802-11:2005
     urn: urn:iso:std:iso-iec:8802:-11
   style: v3
-- id: iso.international_standard.6769
+- id: iso.international_standard.6776
   identifier:
     _type: pubid:iso:international-standard
     number: '8802'
@@ -61475,7 +61490,7 @@
     human: ISO/IEC 8802-3:2000
     urn: urn:iso:std:iso-iec:8802:-3
   style: v3
-- id: iso.international_standard.6770
+- id: iso.international_standard.6777
   identifier:
     _type: pubid:iso:international-standard
     number: '8802'
@@ -61487,7 +61502,7 @@
     human: ISO/IEC 8802-9:1996
     urn: urn:iso:std:iso-iec:8802:-9
   style: v3
-- id: iso.international_standard.6773
+- id: iso.international_standard.6780
   identifier:
     _type: pubid:iso:international-standard
     number: '8882'
@@ -61499,7 +61514,7 @@
     human: ISO/IEC 8882-2:2000
     urn: urn:iso:std:iso-iec:8882:-2
   style: v3
-- id: iso.international_standard.6774
+- id: iso.international_standard.6781
   identifier:
     _type: pubid:iso:international-standard
     number: '8882'
@@ -61511,7 +61526,7 @@
     human: ISO/IEC 8882-3:2000
     urn: urn:iso:std:iso-iec:8882:-3
   style: v3
-- id: iso.international_standard.6786
+- id: iso.international_standard.6793
   identifier:
     _type: pubid:iso:international-standard
     number: '9126'
@@ -61523,7 +61538,7 @@
     human: ISO/IEC 9126-1:2001
     urn: urn:iso:std:iso-iec:9126:-1
   style: v3
-- id: iso.international_standard.6787
+- id: iso.international_standard.6794
   identifier:
     _type: pubid:iso:international-standard
     number: '9314'
@@ -61535,7 +61550,7 @@
     human: ISO/IEC 9314-13:1998
     urn: urn:iso:std:iso-iec:9314:-13
   style: v3
-- id: iso.international_standard.6788
+- id: iso.international_standard.6795
   identifier:
     _type: pubid:iso:international-standard
     number: '9314'
@@ -61547,7 +61562,7 @@
     human: ISO/IEC 9314-20:2001
     urn: urn:iso:std:iso-iec:9314:-20
   style: v3
-- id: iso.international_standard.6789
+- id: iso.international_standard.6796
   identifier:
     _type: pubid:iso:international-standard
     number: '9314'
@@ -61559,7 +61574,7 @@
     human: ISO/IEC 9314-21:2000
     urn: urn:iso:std:iso-iec:9314:-21
   style: v3
-- id: iso.international_standard.6790
+- id: iso.international_standard.6797
   identifier:
     _type: pubid:iso:international-standard
     number: '9314'
@@ -61571,7 +61586,7 @@
     human: ISO/IEC 9314-25:1998
     urn: urn:iso:std:iso-iec:9314:-25
   style: v3
-- id: iso.international_standard.6792
+- id: iso.international_standard.6799
   identifier:
     _type: pubid:iso:international-standard
     number: '5339'
@@ -61582,7 +61597,7 @@
     human: ISO/IEC AWI 5339
     urn: urn:iso:std:iso-iec:5339:stage-10.99
   style: v3
-- id: iso.international_standard.6794
+- id: iso.international_standard.6801
   identifier:
     _type: pubid:iso:international-standard
     number: '11404'
@@ -61593,7 +61608,7 @@
     human: ISO/IEC CD 11404
     urn: urn:iso:std:iso-iec:11404:CD
   style: v3
-- id: iso.international_standard.6795
+- id: iso.international_standard.6802
   identifier:
     _type: pubid:iso:international-standard
     number: '17021'
@@ -61605,7 +61620,7 @@
     human: ISO/IEC CD 17021-CD2
     urn: urn:iso:std:iso-iec:17021:-CD2:CD
   style: v3
-- id: iso.international_standard.6796
+- id: iso.international_standard.6803
   identifier:
     _type: pubid:iso:international-standard
     number: '17366'
@@ -61616,7 +61631,7 @@
     human: ISO/IEC CD 17366
     urn: urn:iso:std:iso-iec:17366:CD
   style: v3
-- id: iso.international_standard.6797
+- id: iso.international_standard.6804
   identifier:
     _type: pubid:iso:international-standard
     number: '18004'
@@ -61627,7 +61642,7 @@
     human: ISO/IEC CD 18004
     urn: urn:iso:std:iso-iec:18004:CD
   style: v3
-- id: iso.international_standard.6798
+- id: iso.international_standard.6805
   identifier:
     _type: pubid:iso:international-standard
     number: '19788'
@@ -61639,7 +61654,7 @@
     human: ISO/IEC CD 19788-1
     urn: urn:iso:std:iso-iec:19788:-1:CD
   style: v3
-- id: iso.international_standard.6799
+- id: iso.international_standard.6806
   identifier:
     _type: pubid:iso:international-standard
     number: '20009'
@@ -61651,7 +61666,7 @@
     human: ISO/IEC CD 20009-3
     urn: urn:iso:std:iso-iec:20009:-3:CD
   style: v3
-- id: iso.international_standard.6800
+- id: iso.international_standard.6807
   identifier:
     _type: pubid:iso:international-standard
     number: '23008'
@@ -61663,7 +61678,7 @@
     human: ISO/IEC CD 23008-7
     urn: urn:iso:std:iso-iec:23008:-7:CD
   style: v3
-- id: iso.international_standard.6801
+- id: iso.international_standard.6808
   identifier:
     _type: pubid:iso:international-standard
     number: '23264'
@@ -61676,7 +61691,7 @@
     human: ISO/IEC CD 23264-2.2
     urn: urn:iso:std:iso-iec:23264:-2:CD.2
   style: v3
-- id: iso.international_standard.6802
+- id: iso.international_standard.6809
   identifier:
     _type: pubid:iso:international-standard
     number: '23264'
@@ -61689,7 +61704,7 @@
     human: ISO/IEC CD 23264-2.4
     urn: urn:iso:std:iso-iec:23264:-2:CD.4
   style: v3
-- id: iso.international_standard.6803
+- id: iso.international_standard.6810
   identifier:
     _type: pubid:iso:international-standard
     number: '24741'
@@ -61700,7 +61715,7 @@
     human: ISO/IEC CD 24741
     urn: urn:iso:std:iso-iec:24741:CD
   style: v3
-- id: iso.international_standard.6804
+- id: iso.international_standard.6811
   identifier:
     _type: pubid:iso:international-standard
     number: '24789'
@@ -61713,7 +61728,7 @@
     human: ISO/IEC CD 24789-1.4
     urn: urn:iso:std:iso-iec:24789:-1:CD.4
   style: v3
-- id: iso.international_standard.6805
+- id: iso.international_standard.6812
   identifier:
     _type: pubid:iso:international-standard
     number: '27032'
@@ -61725,7 +61740,7 @@
     human: ISO/IEC CD 27032.3
     urn: urn:iso:std:iso-iec:27032:CD.3
   style: v3
-- id: iso.international_standard.6806
+- id: iso.international_standard.6813
   identifier:
     _type: pubid:iso:international-standard
     number: '27071'
@@ -61737,7 +61752,7 @@
     human: ISO/IEC CD 27071.2
     urn: urn:iso:std:iso-iec:27071:CD.2
   style: v3
-- id: iso.international_standard.6807
+- id: iso.international_standard.6814
   identifier:
     _type: pubid:iso:international-standard
     number: '30108'
@@ -61749,7 +61764,7 @@
     human: ISO/IEC CD 30108-2
     urn: urn:iso:std:iso-iec:30108:-2:CD
   style: v3
-- id: iso.international_standard.6808
+- id: iso.international_standard.6815
   identifier:
     _type: pubid:iso:international-standard
     number: '3532'
@@ -61761,7 +61776,7 @@
     human: ISO/IEC CD 3532-2
     urn: urn:iso:std:iso-iec:3532:-2:CD
   style: v3
-- id: iso.international_standard.6809
+- id: iso.international_standard.6816
   identifier:
     _type: pubid:iso:international-standard
     number: '42001'
@@ -61773,7 +61788,7 @@
     human: ISO/IEC CD 42001.2
     urn: urn:iso:std:iso-iec:42001:CD.2
   style: v3
-- id: iso.international_standard.6810
+- id: iso.international_standard.6817
   identifier:
     _type: pubid:iso:international-standard
     number: '4922'
@@ -61785,7 +61800,7 @@
     human: ISO/IEC CD 4922-2
     urn: urn:iso:std:iso-iec:4922:-2:CD
   style: v3
-- id: iso.international_standard.6811
+- id: iso.international_standard.6818
   identifier:
     _type: pubid:iso:international-standard
     number: '5392'
@@ -61796,7 +61811,7 @@
     human: ISO/IEC CD 5392
     urn: urn:iso:std:iso-iec:5392:CD
   style: v3
-- id: iso.international_standard.6812
+- id: iso.international_standard.6819
   identifier:
     _type: pubid:iso:international-standard
     number: '9075'
@@ -61808,7 +61823,7 @@
     human: ISO/IEC CD 9075-14
     urn: urn:iso:std:iso-iec:9075:-14:CD
   style: v3
-- id: iso.international_standard.6813
+- id: iso.international_standard.6820
   identifier:
     _type: pubid:iso:international-standard
     number: '9075'
@@ -61821,7 +61836,7 @@
     human: ISO/IEC CD 9075-16.2
     urn: urn:iso:std:iso-iec:9075:-16:CD.2
   style: v3
-- id: iso.international_standard.6814
+- id: iso.international_standard.6821
   identifier:
     _type: pubid:iso:international-standard
     number: '9075'
@@ -61833,7 +61848,7 @@
     human: ISO/IEC CD 9075-4
     urn: urn:iso:std:iso-iec:9075:-4:CD
   style: v3
-- id: iso.international_standard.6879
+- id: iso.international_standard.6886
   identifier:
     _type: pubid:iso:international-standard
     number: '17029'
@@ -61847,7 +61862,7 @@
   non_normalized_aliases:
   - spelling: FprISO/IEC 17029
     style: v3
-- id: iso.international_standard.6880
+- id: iso.international_standard.6887
   identifier:
     _type: pubid:iso:international-standard
     number: '19540'
@@ -61859,7 +61874,7 @@
     human: ISO/IEC PRF 19540-1
     urn: urn:iso:std:iso-iec:19540:-1:stage-60.00
   style: v3
-- id: iso.international_standard.6986
+- id: iso.international_standard.6993
   identifier:
     _type: pubid:iso:international-standard
     number: '17823'
@@ -61870,7 +61885,7 @@
     human: ISO/IEC WD 17823
     urn: urn:iso:std:iso-iec:17823:WD
   style: v3
-- id: iso.international_standard.6987
+- id: iso.international_standard.6994
   identifier:
     _type: pubid:iso:international-standard
     number: '18584'
@@ -61881,7 +61896,7 @@
     human: ISO/IEC WD 18584
     urn: urn:iso:std:iso-iec:18584:WD
   style: v3
-- id: iso.international_standard.6988
+- id: iso.international_standard.6995
   identifier:
     _type: pubid:iso:international-standard
     number: '23773'
@@ -61893,7 +61908,7 @@
     human: ISO/IEC WD 23773-1
     urn: urn:iso:std:iso-iec:23773:-1:WD
   style: v3
-- id: iso.international_standard.6989
+- id: iso.international_standard.6996
   identifier:
     _type: pubid:iso:international-standard
     number: '24759'
@@ -61905,7 +61920,7 @@
     human: ISO/IEC WD 24759.2
     urn: urn:iso:std:iso-iec:24759:WD.2
   style: v3
-- id: iso.international_standard.6990
+- id: iso.international_standard.6997
   identifier:
     _type: pubid:iso:international-standard
     number: '29187'
@@ -61917,7 +61932,7 @@
     human: ISO/IEC WD 29187-1
     urn: urn:iso:std:iso-iec:29187:-1:WD
   style: v3
-- id: iso.international_standard.6991
+- id: iso.international_standard.6998
   identifier:
     _type: pubid:iso:international-standard
     number: '4983'
@@ -61928,7 +61943,7 @@
     human: ISO/IEC WD 4983
     urn: urn:iso:std:iso-iec:4983:WD
   style: v3
-- id: iso.international_standard.6992
+- id: iso.international_standard.6999
   identifier:
     _type: pubid:iso:international-standard
     number: '9868'
@@ -61939,7 +61954,7 @@
     human: ISO/IEC WD 9868
     urn: urn:iso:std:iso-iec:9868:WD
   style: v3
-- id: iso.international_standard.6993
+- id: iso.international_standard.7000
   identifier:
     _type: pubid:iso:international-standard
     number: '9899'
@@ -61950,7 +61965,7 @@
     human: ISO/IEC WD 9899
     urn: urn:iso:std:iso-iec:9899:WD
   style: v3
-- id: iso.international_standard.6995
+- id: iso.international_standard.7002
   identifier:
     _type: pubid:iso:international-standard
     number: '12207'
@@ -61962,7 +61977,7 @@
     human: ISO/IEC/IEEE 12207:2017
     urn: urn:iso:std:iso-iec-ieee:12207
   style: v3
-- id: iso.international_standard.6996
+- id: iso.international_standard.7003
   identifier:
     _type: pubid:iso:international-standard
     number: '15026'
@@ -61974,7 +61989,7 @@
     human: ISO/IEC/IEEE 15026-1
     urn: urn:iso:std:iso-iec-ieee:15026:-1
   style: v3
-- id: iso.international_standard.6997
+- id: iso.international_standard.7004
   identifier:
     _type: pubid:iso:international-standard
     number: '15288'
@@ -61985,7 +62000,7 @@
     human: ISO/IEC/IEEE 15288
     urn: urn:iso:std:iso-iec-ieee:15288
   style: v3
-- id: iso.international_standard.6998
+- id: iso.international_standard.7005
   identifier:
     _type: pubid:iso:international-standard
     number: '15289'
@@ -61996,7 +62011,7 @@
     human: ISO/IEC/IEEE 15289
     urn: urn:iso:std:iso-iec-ieee:15289
   style: v3
-- id: iso.international_standard.6999
+- id: iso.international_standard.7006
   identifier:
     _type: pubid:iso:international-standard
     number: '15939'
@@ -62007,7 +62022,7 @@
     human: ISO/IEC/IEEE 15939
     urn: urn:iso:std:iso-iec-ieee:15939
   style: v3
-- id: iso.international_standard.7000
+- id: iso.international_standard.7007
   identifier:
     _type: pubid:iso:international-standard
     number: '16326'
@@ -62018,7 +62033,7 @@
     human: ISO/IEC/IEEE 16326
     urn: urn:iso:std:iso-iec-ieee:16326
   style: v3
-- id: iso.international_standard.7001
+- id: iso.international_standard.7008
   identifier:
     _type: pubid:iso:international-standard
     number: '21839'
@@ -62030,7 +62045,7 @@
     human: ISO/IEC/IEEE 21839:2019
     urn: urn:iso:std:iso-iec-ieee:21839
   style: v3
-- id: iso.international_standard.7002
+- id: iso.international_standard.7009
   identifier:
     _type: pubid:iso:international-standard
     number: '21840'
@@ -62041,7 +62056,7 @@
     human: ISO/IEC/IEEE 21840
     urn: urn:iso:std:iso-iec-ieee:21840
   style: v3
-- id: iso.international_standard.7003
+- id: iso.international_standard.7010
   identifier:
     _type: pubid:iso:international-standard
     number: '21841'
@@ -62052,7 +62067,7 @@
     human: ISO/IEC/IEEE 21841
     urn: urn:iso:std:iso-iec-ieee:21841
   style: v3
-- id: iso.international_standard.7004
+- id: iso.international_standard.7011
   identifier:
     _type: pubid:iso:international-standard
     number: '23026'
@@ -62064,7 +62079,7 @@
     human: ISO/IEC/IEEE 23026:2015
     urn: urn:iso:std:iso-iec-ieee:23026
   style: v3
-- id: iso.international_standard.7005
+- id: iso.international_standard.7012
   identifier:
     _type: pubid:iso:international-standard
     number: '24748'
@@ -62076,7 +62091,7 @@
     human: ISO/IEC/IEEE 24748-1
     urn: urn:iso:std:iso-iec-ieee:24748:-1
   style: v3
-- id: iso.international_standard.7006
+- id: iso.international_standard.7013
   identifier:
     _type: pubid:iso:international-standard
     number: '24748'
@@ -62088,7 +62103,7 @@
     human: ISO/IEC/IEEE 24748-2
     urn: urn:iso:std:iso-iec-ieee:24748:-2
   style: v3
-- id: iso.international_standard.7007
+- id: iso.international_standard.7014
   identifier:
     _type: pubid:iso:international-standard
     number: '24748'
@@ -62100,7 +62115,7 @@
     human: ISO/IEC/IEEE 24748-3
     urn: urn:iso:std:iso-iec-ieee:24748:-3
   style: v3
-- id: iso.international_standard.7008
+- id: iso.international_standard.7015
   identifier:
     _type: pubid:iso:international-standard
     number: '24748'
@@ -62112,7 +62127,7 @@
     human: ISO/IEC/IEEE 24748-4
     urn: urn:iso:std:iso-iec-ieee:24748:-4
   style: v3
-- id: iso.international_standard.7009
+- id: iso.international_standard.7016
   identifier:
     _type: pubid:iso:international-standard
     number: '24748'
@@ -62124,7 +62139,7 @@
     human: ISO/IEC/IEEE 24748-5
     urn: urn:iso:std:iso-iec-ieee:24748:-5
   style: v3
-- id: iso.international_standard.7010
+- id: iso.international_standard.7017
   identifier:
     _type: pubid:iso:international-standard
     number: '24748'
@@ -62136,7 +62151,7 @@
     human: ISO/IEC/IEEE 24748-7
     urn: urn:iso:std:iso-iec-ieee:24748:-7
   style: v3
-- id: iso.international_standard.7011
+- id: iso.international_standard.7018
   identifier:
     _type: pubid:iso:international-standard
     number: '24748'
@@ -62148,7 +62163,7 @@
     human: ISO/IEC/IEEE 24748-8
     urn: urn:iso:std:iso-iec-ieee:24748:-8
   style: v3
-- id: iso.international_standard.7012
+- id: iso.international_standard.7019
   identifier:
     _type: pubid:iso:international-standard
     number: '24765'
@@ -62159,7 +62174,7 @@
     human: ISO/IEC/IEEE 24765
     urn: urn:iso:std:iso-iec-ieee:24765
   style: v3
-- id: iso.international_standard.7013
+- id: iso.international_standard.7020
   identifier:
     _type: pubid:iso:international-standard
     number: '24765'
@@ -62174,7 +62189,7 @@
     human: ISO/IEC/IEEE 24765:2017(en)
     urn: urn:iso:std:iso-iec-ieee:24765:en
   style: v3
-- id: iso.international_standard.7014
+- id: iso.international_standard.7021
   identifier:
     _type: pubid:iso:international-standard
     number: '26511'
@@ -62185,7 +62200,7 @@
     human: ISO/IEC/IEEE 26511
     urn: urn:iso:std:iso-iec-ieee:26511
   style: v3
-- id: iso.international_standard.7015
+- id: iso.international_standard.7022
   identifier:
     _type: pubid:iso:international-standard
     number: '26511'
@@ -62197,7 +62212,7 @@
     human: ISO/IEC/IEEE 26511:2018
     urn: urn:iso:std:iso-iec-ieee:26511
   style: v3
-- id: iso.international_standard.7016
+- id: iso.international_standard.7023
   identifier:
     _type: pubid:iso:international-standard
     number: '26512'
@@ -62208,7 +62223,7 @@
     human: ISO/IEC/IEEE 26512
     urn: urn:iso:std:iso-iec-ieee:26512
   style: v3
-- id: iso.international_standard.7017
+- id: iso.international_standard.7024
   identifier:
     _type: pubid:iso:international-standard
     number: '26512'
@@ -62220,7 +62235,7 @@
     human: ISO/IEC/IEEE 26512:2018
     urn: urn:iso:std:iso-iec-ieee:26512
   style: v3
-- id: iso.international_standard.7018
+- id: iso.international_standard.7025
   identifier:
     _type: pubid:iso:international-standard
     number: '26513'
@@ -62231,7 +62246,7 @@
     human: ISO/IEC/IEEE 26513
     urn: urn:iso:std:iso-iec-ieee:26513
   style: v3
-- id: iso.international_standard.7019
+- id: iso.international_standard.7026
   identifier:
     _type: pubid:iso:international-standard
     number: '26515'
@@ -62242,7 +62257,7 @@
     human: ISO/IEC/IEEE 26515
     urn: urn:iso:std:iso-iec-ieee:26515
   style: v3
-- id: iso.international_standard.7020
+- id: iso.international_standard.7027
   identifier:
     _type: pubid:iso:international-standard
     number: '26531'
@@ -62254,7 +62269,7 @@
     human: ISO/IEC/IEEE 26531:2015
     urn: urn:iso:std:iso-iec-ieee:26531
   style: v3
-- id: iso.international_standard.7021
+- id: iso.international_standard.7028
   identifier:
     _type: pubid:iso:international-standard
     number: '29119'
@@ -62266,7 +62281,7 @@
     human: ISO/IEC/IEEE 29119-1
     urn: urn:iso:std:iso-iec-ieee:29119:-1
   style: v3
-- id: iso.international_standard.7022
+- id: iso.international_standard.7029
   identifier:
     _type: pubid:iso:international-standard
     number: '29119'
@@ -62278,7 +62293,7 @@
     human: ISO/IEC/IEEE 29119-2
     urn: urn:iso:std:iso-iec-ieee:29119:-2
   style: v3
-- id: iso.international_standard.7023
+- id: iso.international_standard.7030
   identifier:
     _type: pubid:iso:international-standard
     number: '29119'
@@ -62290,7 +62305,7 @@
     human: ISO/IEC/IEEE 29119-3
     urn: urn:iso:std:iso-iec-ieee:29119:-3
   style: v3
-- id: iso.international_standard.7024
+- id: iso.international_standard.7031
   identifier:
     _type: pubid:iso:international-standard
     number: '29119'
@@ -62302,7 +62317,7 @@
     human: ISO/IEC/IEEE 29119-4
     urn: urn:iso:std:iso-iec-ieee:29119:-4
   style: v3
-- id: iso.international_standard.7025
+- id: iso.international_standard.7032
   identifier:
     _type: pubid:iso:international-standard
     number: '29119'
@@ -62314,7 +62329,7 @@
     human: ISO/IEC/IEEE 29119-5
     urn: urn:iso:std:iso-iec-ieee:29119:-5
   style: v3
-- id: iso.international_standard.7026
+- id: iso.international_standard.7033
   identifier:
     _type: pubid:iso:international-standard
     number: '29148'
@@ -62325,7 +62340,7 @@
     human: ISO/IEC/IEEE 29148
     urn: urn:iso:std:iso-iec-ieee:29148
   style: v3
-- id: iso.international_standard.7027
+- id: iso.international_standard.7034
   identifier:
     _type: pubid:iso:international-standard
     number: '29148'
@@ -62337,7 +62352,7 @@
     human: ISO/IEC/IEEE 29148:2018
     urn: urn:iso:std:iso-iec-ieee:29148
   style: v3
-- id: iso.international_standard.7028
+- id: iso.international_standard.7035
   identifier:
     _type: pubid:iso:international-standard
     number: '41062'
@@ -62348,7 +62363,7 @@
     human: ISO/IEC/IEEE 41062
     urn: urn:iso:std:iso-iec-ieee:41062
   style: v3
-- id: iso.international_standard.7029
+- id: iso.international_standard.7036
   identifier:
     _type: pubid:iso:international-standard
     number: '42010'
@@ -62359,7 +62374,7 @@
     human: ISO/IEC/IEEE 42010
     urn: urn:iso:std:iso-iec-ieee:42010
   style: v3
-- id: iso.international_standard.7030
+- id: iso.international_standard.7037
   identifier:
     _type: pubid:iso:international-standard
     number: '42020'
@@ -62370,7 +62385,7 @@
     human: ISO/IEC/IEEE 42020
     urn: urn:iso:std:iso-iec-ieee:42020
   style: v3
-- id: iso.international_standard.7031
+- id: iso.international_standard.7038
   identifier:
     _type: pubid:iso:international-standard
     number: '42030'
@@ -62381,7 +62396,7 @@
     human: ISO/IEC/IEEE 42030
     urn: urn:iso:std:iso-iec-ieee:42030
   style: v3
-- id: iso.international_standard.7032
+- id: iso.international_standard.7039
   identifier:
     _type: pubid:iso:international-standard
     number: '80005'
@@ -62393,7 +62408,7 @@
     human: ISO/IEC/IEEE 80005-1
     urn: urn:iso:std:iso-iec-ieee:80005:-1
   style: v3
-- id: iso.international_standard.7033
+- id: iso.international_standard.7040
   identifier:
     _type: pubid:iso:international-standard
     number: '8802'
@@ -62405,7 +62420,7 @@
     human: ISO/IEC/IEEE 8802-11
     urn: urn:iso:std:iso-iec-ieee:8802:-11
   style: v3
-- id: iso.international_standard.7034
+- id: iso.international_standard.7041
   identifier:
     _type: pubid:iso:international-standard
     number: '8802'
@@ -62417,7 +62432,7 @@
     human: ISO/IEC/IEEE 8802-15
     urn: urn:iso:std:iso-iec-ieee:8802:-15
   style: v3
-- id: iso.international_standard.7035
+- id: iso.international_standard.7042
   identifier:
     _type: pubid:iso:international-standard
     number: '8802'
@@ -62430,7 +62445,7 @@
     human: ISO/IEC/IEEE 8802-15-4
     urn: urn:iso:std:iso-iec-ieee:8802:-15-4
   style: v3
-- id: iso.international_standard.7036
+- id: iso.international_standard.7043
   identifier:
     _type: pubid:iso:international-standard
     number: '8802'
@@ -62443,7 +62458,7 @@
     human: ISO/IEC/IEEE 8802-15-6
     urn: urn:iso:std:iso-iec-ieee:8802:-15-6
   style: v3
-- id: iso.international_standard.7037
+- id: iso.international_standard.7044
   identifier:
     _type: pubid:iso:international-standard
     number: '8802'
@@ -62455,7 +62470,7 @@
     human: ISO/IEC/IEEE 8802-16
     urn: urn:iso:std:iso-iec-ieee:8802:-16
   style: v3
-- id: iso.international_standard.7038
+- id: iso.international_standard.7045
   identifier:
     _type: pubid:iso:international-standard
     number: '8802'
@@ -62467,7 +62482,7 @@
     human: ISO/IEC/IEEE 8802-1AB
     urn: urn:iso:std:iso-iec-ieee:8802:-1AB
   style: v3
-- id: iso.international_standard.7039
+- id: iso.international_standard.7046
   identifier:
     _type: pubid:iso:international-standard
     number: '8802'
@@ -62479,7 +62494,7 @@
     human: ISO/IEC/IEEE 8802-1AR
     urn: urn:iso:std:iso-iec-ieee:8802:-1AR
   style: v3
-- id: iso.international_standard.7040
+- id: iso.international_standard.7047
   identifier:
     _type: pubid:iso:international-standard
     number: '8802'
@@ -62491,7 +62506,7 @@
     human: ISO/IEC/IEEE 8802-1AX
     urn: urn:iso:std:iso-iec-ieee:8802:-1AX
   style: v3
-- id: iso.international_standard.7041
+- id: iso.international_standard.7048
   identifier:
     _type: pubid:iso:international-standard
     number: '8802'
@@ -62503,7 +62518,7 @@
     human: ISO/IEC/IEEE 8802-1BA
     urn: urn:iso:std:iso-iec-ieee:8802:-1BA
   style: v3
-- id: iso.international_standard.7042
+- id: iso.international_standard.7049
   identifier:
     _type: pubid:iso:international-standard
     number: '8802'
@@ -62515,7 +62530,7 @@
     human: ISO/IEC/IEEE 8802-1BR
     urn: urn:iso:std:iso-iec-ieee:8802:-1BR
   style: v3
-- id: iso.international_standard.7043
+- id: iso.international_standard.7050
   identifier:
     _type: pubid:iso:international-standard
     number: '8802'
@@ -62527,7 +62542,7 @@
     human: ISO/IEC/IEEE 8802-1CB
     urn: urn:iso:std:iso-iec-ieee:8802:-1CB
   style: v3
-- id: iso.international_standard.7044
+- id: iso.international_standard.7051
   identifier:
     _type: pubid:iso:international-standard
     number: '8802'
@@ -62539,7 +62554,7 @@
     human: ISO/IEC/IEEE 8802-1Q
     urn: urn:iso:std:iso-iec-ieee:8802:-1Q
   style: v3
-- id: iso.international_standard.7045
+- id: iso.international_standard.7052
   identifier:
     _type: pubid:iso:international-standard
     number: '8802'
@@ -62551,7 +62566,7 @@
     human: ISO/IEC/IEEE 8802-21
     urn: urn:iso:std:iso-iec-ieee:8802:-21
   style: v3
-- id: iso.international_standard.7047
+- id: iso.international_standard.7054
   identifier:
     _type: pubid:iso:international-standard
     number: '8802'
@@ -62563,7 +62578,7 @@
     human: ISO/IEC/IEEE 8802-22
     urn: urn:iso:std:iso-iec-ieee:8802:-22
   style: v3
-- id: iso.international_standard.7048
+- id: iso.international_standard.7055
   identifier:
     _type: pubid:iso:international-standard
     number: '8802'
@@ -62575,7 +62590,7 @@
     human: ISO/IEC/IEEE 8802-3
     urn: urn:iso:std:iso-iec-ieee:8802:-3
   style: v3
-- id: iso.international_standard.7049
+- id: iso.international_standard.7056
   identifier:
     _type: pubid:iso:international-standard
     number: '8802'
@@ -62588,7 +62603,7 @@
     human: ISO/IEC/IEEE 8802-3:2017
     urn: urn:iso:std:iso-iec-ieee:8802:-3
   style: v3
-- id: iso.international_standard.7053
+- id: iso.international_standard.7060
   identifier:
     _type: pubid:iso:international-standard
     number: '11073'
@@ -62600,7 +62615,7 @@
     human: ISO/IEEE 11073-10101:2020
     urn: urn:iso:std:iso-ieee:11073:-10101
   style: v3
-- id: iso.international_standard.7054
+- id: iso.international_standard.7061
   identifier:
     _type: pubid:iso:international-standard
     number: '11073'
@@ -62612,7 +62627,7 @@
     human: ISO/IEEE 11073-10407:2010
     urn: urn:iso:std:iso-ieee:11073:-10407
   style: v3
-- id: iso.international_standard.7056
+- id: iso.international_standard.7063
   identifier:
     _type: pubid:iso:international-standard
     number: '11073'
@@ -62624,7 +62639,7 @@
     human: ISO/IEEE 11073-10441:2015
     urn: urn:iso:std:iso-ieee:11073:-10441
   style: v3
-- id: iso.international_standard.7057
+- id: iso.international_standard.7064
   identifier:
     _type: pubid:iso:international-standard
     number: '11073'
@@ -62636,7 +62651,7 @@
     human: ISO/IEEE 11073-10471:2010
     urn: urn:iso:std:iso-ieee:11073:-10471
   style: v3
-- id: iso.international_standard.7058
+- id: iso.international_standard.7065
   identifier:
     _type: pubid:iso:international-standard
     number: '11073'
@@ -62648,7 +62663,7 @@
     human: ISO/IEEE 11073-20601:2010
     urn: urn:iso:std:iso-ieee:11073:-20601
   style: v3
-- id: iso.international_standard.7059
+- id: iso.international_standard.7066
   identifier:
     _type: pubid:iso:international-standard
     number: '11073'
@@ -62660,7 +62675,7 @@
     human: ISO/IEEE 11073-20701:2020
     urn: urn:iso:std:iso-ieee:11073:-20701
   style: v3
-- id: iso.international_standard.7060
+- id: iso.international_standard.7067
   identifier:
     _type: pubid:iso:international-standard
     number: '11073'
@@ -62672,7 +62687,7 @@
     human: ISO/IEEE 11073-30200:2004
     urn: urn:iso:std:iso-ieee:11073:-30200
   style: v3
-- id: iso.international_standard.7061
+- id: iso.international_standard.7068
   identifier:
     _type: pubid:iso:international-standard
     number: '11073'
@@ -62687,7 +62702,7 @@
     human: ISO/IEEE 11073-30200:2004(F)
     urn: urn:iso:std:iso-ieee:11073:-30200:fr
   style: v3
-- id: iso.international_standard.7062
+- id: iso.international_standard.7069
   identifier:
     _type: pubid:iso:international-standard
     number: '11073'
@@ -62699,7 +62714,7 @@
     human: ISO/IEEE 11073-30400:2012
     urn: urn:iso:std:iso-ieee:11073:-30400
   style: v3
-- id: iso.international_standard.7063
+- id: iso.international_standard.7070
   identifier:
     _type: pubid:iso:international-standard
     number: '10791'
@@ -62709,7 +62724,7 @@
     human: ISO/NP 10791-10
     urn: urn:iso:std:iso:10791:-10:stage-10.00
   style: v3
-- id: iso.international_standard.7064
+- id: iso.international_standard.7071
   identifier:
     _type: pubid:iso:international-standard
     number: '14813'
@@ -62719,7 +62734,7 @@
     human: ISO/NP 14813-2
     urn: urn:iso:std:iso:14813:-2:stage-10.00
   style: v3
-- id: iso.international_standard.7065
+- id: iso.international_standard.7072
   identifier:
     _type: pubid:iso:international-standard
     number: '19144'
@@ -62732,7 +62747,7 @@
   non_normalized_aliases:
   - spelling: ISO/NWIP 19144-4
     style: v3
-- id: iso.international_standard.7066
+- id: iso.international_standard.7073
   identifier:
     _type: pubid:iso:international-standard
     number: '23219'
@@ -62741,7 +62756,7 @@
     human: ISO/NP 23219
     urn: urn:iso:std:iso:23219:stage-10.00
   style: v3
-- id: iso.international_standard.7070
+- id: iso.international_standard.7077
   identifier:
     _type: pubid:iso:international-standard
     number: '789'
@@ -62753,7 +62768,7 @@
     human: ISO/OECD 789-10:2006
     urn: urn:iso:std:iso-oecd:789:-10
   style: v3
-- id: iso.international_standard.7112
+- id: iso.international_standard.7119
   identifier:
     _type: pubid:iso:international-standard
     number: '10140'
@@ -62766,7 +62781,7 @@
   non_normalized_aliases:
   - spelling: FprISO 10140-4
     style: v3
-- id: iso.international_standard.7113
+- id: iso.international_standard.7120
   identifier:
     _type: pubid:iso:international-standard
     number: '105'
@@ -62779,7 +62794,7 @@
   non_normalized_aliases:
   - spelling: FprISO 105-A03
     style: v3
-- id: iso.international_standard.7114
+- id: iso.international_standard.7121
   identifier:
     _type: pubid:iso:international-standard
     number: '10993'
@@ -62792,7 +62807,7 @@
   non_normalized_aliases:
   - spelling: FprISO 10993-1
     style: v3
-- id: iso.international_standard.7115
+- id: iso.international_standard.7122
   identifier:
     _type: pubid:iso:international-standard
     number: '12402'
@@ -62805,7 +62820,7 @@
   non_normalized_aliases:
   - spelling: FprISO 12402-2
     style: v3
-- id: iso.international_standard.7116
+- id: iso.international_standard.7123
   identifier:
     _type: pubid:iso:international-standard
     number: '12402'
@@ -62818,7 +62833,7 @@
   non_normalized_aliases:
   - spelling: FprISO 12402-3
     style: v3
-- id: iso.international_standard.7117
+- id: iso.international_standard.7124
   identifier:
     _type: pubid:iso:international-standard
     number: '12402'
@@ -62831,7 +62846,7 @@
   non_normalized_aliases:
   - spelling: FprISO 12402-4
     style: v3
-- id: iso.international_standard.7118
+- id: iso.international_standard.7125
   identifier:
     _type: pubid:iso:international-standard
     number: '12402'
@@ -62844,7 +62859,7 @@
   non_normalized_aliases:
   - spelling: FprISO 12402-5
     style: v3
-- id: iso.international_standard.7119
+- id: iso.international_standard.7126
   identifier:
     _type: pubid:iso:international-standard
     number: '13679'
@@ -62856,7 +62871,7 @@
   non_normalized_aliases:
   - spelling: FprISO 13679
     style: v3
-- id: iso.international_standard.7120
+- id: iso.international_standard.7127
   identifier:
     _type: pubid:iso:international-standard
     number: '14160'
@@ -62865,7 +62880,7 @@
     human: ISO/PRF 14160
     urn: urn:iso:std:iso:14160:stage-60.00
   style: v3
-- id: iso.international_standard.7121
+- id: iso.international_standard.7128
   identifier:
     _type: pubid:iso:international-standard
     number: '16119'
@@ -62878,7 +62893,7 @@
   non_normalized_aliases:
   - spelling: FprISO 16119-5
     style: v3
-- id: iso.international_standard.7122
+- id: iso.international_standard.7129
   identifier:
     _type: pubid:iso:international-standard
     number: '18674'
@@ -62891,7 +62906,7 @@
   non_normalized_aliases:
   - spelling: FprISO 18674-5
     style: v3
-- id: iso.international_standard.7123
+- id: iso.international_standard.7130
   identifier:
     _type: pubid:iso:international-standard
     number: '19432'
@@ -62904,7 +62919,7 @@
   non_normalized_aliases:
   - spelling: FprISO 19432-1
     style: v3
-- id: iso.international_standard.7124
+- id: iso.international_standard.7131
   identifier:
     _type: pubid:iso:international-standard
     number: '20430'
@@ -62916,7 +62931,7 @@
   non_normalized_aliases:
   - spelling: FprISO 20430
     style: v3
-- id: iso.international_standard.7125
+- id: iso.international_standard.7132
   identifier:
     _type: pubid:iso:international-standard
     number: '21268'
@@ -62929,7 +62944,7 @@
   non_normalized_aliases:
   - spelling: FprISO 21268-4
     style: v3
-- id: iso.international_standard.7126
+- id: iso.international_standard.7133
   identifier:
     _type: pubid:iso:international-standard
     number: '21420'
@@ -62941,7 +62956,7 @@
   non_normalized_aliases:
   - spelling: FprISO 21420
     style: v3
-- id: iso.international_standard.7127
+- id: iso.international_standard.7134
   identifier:
     _type: pubid:iso:international-standard
     number: '21853'
@@ -62953,7 +62968,7 @@
   non_normalized_aliases:
   - spelling: FprISO 21853
     style: v3
-- id: iso.international_standard.7128
+- id: iso.international_standard.7135
   identifier:
     _type: pubid:iso:international-standard
     number: '22125'
@@ -62966,7 +62981,7 @@
   non_normalized_aliases:
   - spelling: FprISO 22125-1
     style: v3
-- id: iso.international_standard.7129
+- id: iso.international_standard.7136
   identifier:
     _type: pubid:iso:international-standard
     number: '22125'
@@ -62979,7 +62994,7 @@
   non_normalized_aliases:
   - spelling: FprISO 22125-2
     style: v3
-- id: iso.international_standard.7130
+- id: iso.international_standard.7137
   identifier:
     _type: pubid:iso:international-standard
     number: '22291'
@@ -62991,7 +63006,7 @@
   non_normalized_aliases:
   - spelling: FprISO 22291
     style: v3
-- id: iso.international_standard.7131
+- id: iso.international_standard.7138
   identifier:
     _type: pubid:iso:international-standard
     number: '22868'
@@ -63003,7 +63018,7 @@
   non_normalized_aliases:
   - spelling: FprISO 22868
     style: v3
-- id: iso.international_standard.7132
+- id: iso.international_standard.7139
   identifier:
     _type: pubid:iso:international-standard
     number: '8437'
@@ -63016,7 +63031,7 @@
   non_normalized_aliases:
   - spelling: FprISO 8437-1
     style: v3
-- id: iso.international_standard.7133
+- id: iso.international_standard.7140
   identifier:
     _type: pubid:iso:international-standard
     number: '8437'
@@ -63029,7 +63044,7 @@
   non_normalized_aliases:
   - spelling: FprISO 8437-2
     style: v3
-- id: iso.international_standard.7134
+- id: iso.international_standard.7141
   identifier:
     _type: pubid:iso:international-standard
     number: '8437'
@@ -63042,7 +63057,7 @@
   non_normalized_aliases:
   - spelling: FprISO 8437-3
     style: v3
-- id: iso.international_standard.7135
+- id: iso.international_standard.7142
   identifier:
     _type: pubid:iso:international-standard
     number: '8437'
@@ -63055,7 +63070,7 @@
   non_normalized_aliases:
   - spelling: FprISO 8437-4
     style: v3
-- id: iso.international_standard.7136
+- id: iso.international_standard.7143
   identifier:
     _type: pubid:iso:international-standard
     number: '9022'
@@ -63065,7 +63080,7 @@
     human: ISO/PRF 9022-3
     urn: urn:iso:std:iso:9022:-3:stage-60.00
   style: v3
-- id: iso.international_standard.7137
+- id: iso.international_standard.7144
   identifier:
     _type: pubid:iso:international-standard
     number: '9693'
@@ -63077,7 +63092,7 @@
   non_normalized_aliases:
   - spelling: FprISO 9693
     style: v3
-- id: iso.international_standard.7138
+- id: iso.international_standard.7145
   identifier:
     _type: pubid:iso:international-standard
     number: '9897'
@@ -63087,7 +63102,7 @@
     human: ISO/PRF 9897-6
     urn: urn:iso:std:iso:9897:-6:stage-60.00
   style: v3
-- id: iso.international_standard.7146
+- id: iso.international_standard.7153
   identifier:
     _type: pubid:iso:international-standard
     number: '18183'
@@ -63097,7 +63112,7 @@
     human: ISO/PWI 18183-3
     urn: urn:iso:std:iso:18183:-3:stage-00.00
   style: v3
-- id: iso.international_standard.7147
+- id: iso.international_standard.7154
   identifier:
     _type: pubid:iso:international-standard
     number: '19171'
@@ -63106,7 +63121,7 @@
     human: ISO/PWI 19171
     urn: urn:iso:std:iso:19171:stage-00.00
   style: v3
-- id: iso.international_standard.7597
+- id: iso.international_standard.7604
   identifier:
     _type: pubid:iso:international-standard
     number: '10360'
@@ -63119,7 +63134,7 @@
   non_normalized_aliases:
   - spelling: WD/ISO 10360-2
     style: v3
-- id: iso.international_standard.7598
+- id: iso.international_standard.7605
   identifier:
     _type: pubid:iso:international-standard
     number: '10360'
@@ -63133,7 +63148,7 @@
   non_normalized_aliases:
   - spelling: WD/ISO 10360-5:2000
     style: v3
-- id: iso.international_standard.7599
+- id: iso.international_standard.7606
   identifier:
     _type: pubid:iso:international-standard
     number: '11669'
@@ -63142,7 +63157,7 @@
     human: ISO/WD 11669
     urn: urn:iso:std:iso:11669:WD
   style: v3
-- id: iso.international_standard.7600
+- id: iso.international_standard.7607
   identifier:
     _type: pubid:iso:international-standard
     number: '24131'
@@ -63151,7 +63166,7 @@
     human: ISO/WD 24131
     urn: urn:iso:std:iso:24131:WD
   style: v3
-- id: iso.international_standard.7601
+- id: iso.international_standard.7608
   identifier:
     _type: pubid:iso:international-standard
     number: '24495'
@@ -63161,7 +63176,7 @@
     human: ISO/WD 24495-1
     urn: urn:iso:std:iso:24495:-1:WD
   style: v3
-- id: iso.international_standard.7602
+- id: iso.international_standard.7609
   identifier:
     _type: pubid:iso:international-standard
     number: '5102'
@@ -63170,7 +63185,7 @@
     human: ISO/WD 5102
     urn: urn:iso:std:iso:5102:WD
   style: v3
-- id: iso.international_standard.7603
+- id: iso.international_standard.7610
   identifier:
     _type: pubid:iso:international-standard
     number: '59004'
@@ -63179,7 +63194,7 @@
     human: ISO/WD 59004
     urn: urn:iso:std:iso:59004:WD
   style: v3
-- id: iso.international_standard.7604
+- id: iso.international_standard.7611
   identifier:
     _type: pubid:iso:international-standard
     number: '59010'
@@ -63189,7 +63204,7 @@
     human: ISO/WD 59010.2
     urn: urn:iso:std:iso:59010:WD.2
   style: v3
-- id: iso.international_standard.7605
+- id: iso.international_standard.7612
   identifier:
     _type: pubid:iso:international-standard
     number: '59020'
@@ -63199,7 +63214,7 @@
     human: ISO/WD 59020.2
     urn: urn:iso:std:iso:59020:WD.2
   style: v3
-- id: iso.international_standard.7606
+- id: iso.international_standard.7613
   identifier:
     _type: pubid:iso:international-standard
     number: '6253'
@@ -63208,7 +63223,7 @@
     human: ISO/WD 6253
     urn: urn:iso:std:iso:6253:WD
   style: v3
-- id: iso.international_standard.7619
+- id: iso.international_standard.7626
   identifier:
     _type: pubid:iso:international-standard
     number: '200'
@@ -63221,7 +63236,7 @@
     human: JCGM 200:2007(F)
     urn: urn:iso:std:jcgm:200:fr
   style: v3
-- id: iso.international_standard.7620
+- id: iso.international_standard.7627
   identifier:
     _type: pubid:iso:international-standard
     number: '200'
