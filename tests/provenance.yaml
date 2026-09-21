@@ -8,18 +8,20 @@ generator:
   exporter_sha256: 17c6c0e180f1ca39d3867588aa83e2d6bb081c0b1948cd7ded2f12d1cebf7dc6
 oracle:
   gem: pubid
-  commit: b9de18a1baac1fb52305eeaec8089080504ea8cc
+  commit: 1fcf6031d882d601c514f254c3b17461cbf49083
   clean: true
   dirty_paths: []
 repository:
-  commit: 9d70d6207acd8e92b493c1e499d49f6790730dce
-  clean: true
-  dirty_paths: []
+  commit: 07f8e77cf05367ed0eaa8b4604fb412ad5af49f4
+  clean: false
+  dirty_paths:
+  - tests/gb/standard.yaml
+  - tests/gb/all_parts.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 42
-  payloads: 338
+  payloads: 339
   cases: 100265
   aliases: 12215
   negatives: 1237
@@ -420,9 +422,12 @@ payloads:
 - path: gb/_negative.yaml
   sha256: 183e20b3fbf98cdcf8fabe91887ebd7dba300e0a982cc14d79ccb24b36c95d29
   bytes: 461
+- path: gb/all_parts.yaml
+  sha256: 95ea69aebd8d1962b48bfb2b22ccec31fd484913cb37ed1976550501a8fe1e66
+  bytes: 266
 - path: gb/standard.yaml
-  sha256: 2a8b46e057766fedeae0a0ccd5afa34ac07ac29d94ceb3b2d7d41e2ce4a0aedb
-  bytes: 2199
+  sha256: 26bec7ab6cd6eae89a304fe774f2c489d7bdcff372b4050696f1a000f3caeb0e
+  bytes: 1973
 - path: gost/harmonized.yaml
   sha256: d8e3f6f0e5f976edd683422cf9c17c0d0137292b2735a5ee995a4b87542248b6
   bytes: 23595
