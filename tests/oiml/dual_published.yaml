@@ -1,0 +1,37 @@
+---
+- id: oiml.dual_published.0006
+  identifier:
+    _type: pubid:oiml:dual-published
+    first:
+      _type: pubid:iso:international-standard
+      number: '4064'
+      part: '1'
+      year: '2024'
+    second:
+      _type: pubid:oiml:recommendation
+      publisher: OIML
+      year: '2024'
+      number: '49'
+      part: '1'
+  representations:
+    human: ISO 4064-1:2024|OIML R 49-1:2024
+    urn: urn:oiml:r:49-1:2024
+  style: v3
+- id: oiml.dual_published.0040
+  identifier:
+    _type: pubid:oiml:dual-published
+    first:
+      _type: pubid:oiml:recommendation
+      publisher: OIML
+      year: '2024'
+      number: '49'
+      part: '1'
+    second:
+      _type: pubid:iso:international-standard
+      number: '4064'
+      part: '1'
+      year: '2024'
+  representations:
+    human: OIML R 49-1:2024|ISO 4064-1:2024
+    urn: urn:oiml:r:49-1:2024
+  style: v3

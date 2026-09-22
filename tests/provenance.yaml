@@ -8,42 +8,31 @@ generator:
   exporter_sha256: 17c6c0e180f1ca39d3867588aa83e2d6bb081c0b1948cd7ded2f12d1cebf7dc6
 oracle:
   gem: pubid
-  commit: 5eda3766f14c7b59ff57d2be9b494b7745efb1bf
-  clean: false
-  dirty_paths:
-  - spec/fixtures/ieee/SUMMARY.txt
-  - spec/fixtures/ieee/identifiers/fail/base.txt
-  - spec/fixtures/ieee/identifiers/fail/standard.txt
-  - spec/fixtures/ieee/identifiers/pass/joint_development.txt
-  - spec/fixtures/ieee/identifiers/pass/standard.txt
+  commit: 96aa20155eabe2b76873b3fbde89a8f412b46802
+  clean: true
+  dirty_paths: []
 repository:
-  commit: 582741be1a63fd7cbb243e6cb38b0ac1f4a63db3
+  commit: 20e4c6d7a44dae12f79a5c6825ccb5fe23f56e4f
   clean: false
   dirty_paths:
-  - reference-docs/ieee/SUMMARY.txt
-  - reference-docs/ieee/identifiers/fail/base.txt
-  - reference-docs/ieee/identifiers/fail/nesc/handbook.txt
-  - reference-docs/ieee/identifiers/fail/standard.txt
-  - reference-docs/ieee/identifiers/pass/amendment.txt
-  - reference-docs/ieee/identifiers/pass/dual_published.txt
-  - reference-docs/ieee/identifiers/pass/joint_development.txt
-  - reference-docs/ieee/identifiers/pass/project_draft_identifier.txt
-  - reference-docs/ieee/identifiers/pass/standard.txt
-  - tests/ieee/_debt.yaml
-  - tests/ieee/_negative.yaml
-  - tests/ieee/_normalization.yaml
-  - tests/ieee/adopted_standard.yaml
-  - tests/ieee/amendment.yaml
-  - tests/ieee/dual_published.yaml
-  - tests/ieee/joint_development.yaml
-  - tests/ieee/project_draft_identifier.yaml
-  - tests/ieee/standard.yaml
+  - reference-docs/oiml/SUMMARY.txt
+  - reference-docs/oiml/identifiers/full/identifiers.txt
+  - tests/oiml/annex.yaml
+  - tests/oiml/basic_publication.yaml
+  - tests/oiml/document.yaml
+  - tests/oiml/expert_report.yaml
+  - tests/oiml/guide.yaml
+  - tests/oiml/recommendation.yaml
+  - tests/oiml/seminar_report.yaml
+  - tests/oiml/vocabulary.yaml
+  - reference-docs/oiml/identifiers/pass/dual_published.txt
+  - tests/oiml/dual_published.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 42
-  payloads: 339
-  cases: 99627
+  payloads: 340
+  cases: 99629
   aliases: 11161
   negatives: 828
 payloads:
@@ -855,28 +844,31 @@ payloads:
   sha256: dd3dbc002add5aba8b8a910cbb238e30201c9f689863a3b447a8254fc01fd804
   bytes: 1652
 - path: oiml/annex.yaml
-  sha256: d083ad05688c946e92ffa8101e6a030267ec7fd211538fe15f3673ea4586be87
+  sha256: b76445677fcd170f74d3e84b49df005a45ec30f7ee60a5f3cd48ad518cab73a9
   bytes: 916
 - path: oiml/basic_publication.yaml
-  sha256: 12ffdc5c0c0251962a4e65386912f047074d2a49d4beb6440f86e4b903d62d52
+  sha256: 5c99022887b554a9d91644a772e865482cd5b397ddca3a77d3eba87c0139ba45
   bytes: 512
 - path: oiml/document.yaml
-  sha256: 85446cae85cbb767d298d49cc310c1dff022565ac8e7d009a9611a6a44536d2a
+  sha256: bc44f0cedb81bc659b8fe968b63c4559a6ef65efb6fa21aaccd8f7a3fb7250ee
   bytes: 2293
+- path: oiml/dual_published.yaml
+  sha256: 46ef71181f9240f3ac5b8580e799e979c1dfa9725fe9426b1f1d0d8962c28066
+  bytes: 858
 - path: oiml/expert_report.yaml
-  sha256: a11616b48f46b9d9f3848f2194813ae2874bf2511ae7d2b4b5a3cc3da2b2f0a0
+  sha256: 63a7dfb5c919437eefe288a26904ab7fcf047388f99138521bdab4ed4ae9ab33
   bytes: 535
 - path: oiml/guide.yaml
-  sha256: 77642d580b048fd0f31d9be641ec328fc8d3c4ed8178d9438f06c4348a242c19
+  sha256: 44d516d3a2bcbe82ef806f55c08cb9916f0aca5424806e1746723abfb50efc83
   bytes: 634
 - path: oiml/recommendation.yaml
-  sha256: f5e5968a1193b56e063e380999a86723b9473af2628fa2fa8fcd5fb3ea518489
+  sha256: 5f24759dddbc8c5577fde2bd44a03201b0e138e7b7e6b4d1bca97c84fcec7a17
   bytes: 9278
 - path: oiml/seminar_report.yaml
-  sha256: 2952468cd50271f0aae1752fc1708b634b132dee296308fb0b0b7fc257440b43
+  sha256: 8ea05530b5707987d958ff92c2f3fa09a8b0625f50cc7c0de374f56b29875c90
   bytes: 246
 - path: oiml/vocabulary.yaml
-  sha256: d9b6a8b9ba11684d6e858c8192addbd57aaafe18d1e46483f9cad2911ccbb28d
+  sha256: 9cc7cfe005dc69ec8a840eb13522294a20ea44534f01864c06e40c8631571dcf
   bytes: 1315
 - path: omg/_negative.yaml
   sha256: d00c8f683b0ddb83f4eb8888fc8fb5af4cb733bb80afa52677e9ef97a832a53f
