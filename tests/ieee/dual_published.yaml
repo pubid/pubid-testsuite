@@ -678,7 +678,38 @@
   non_normalized_aliases:
   - spelling: IEEE Std 960-1993, IEEE Std 1177-1993
     style: v3
-- id: ieee.dual_published.9410
+- id: ieee.dual_published.9140
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:joint-development
+      number: '13210'
+      publisher: ISO
+      copublisher:
+      - IEC
+      year: '1994'
+      parenthetical_content: E
+      publishers:
+      - ISO
+      - IEC
+      lead_party: ISO
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '1003'
+      publisher: ANSI/IEEE
+      year: '1991'
+      parts:
+      - '3'
+      separator: "."
+      stage: Std
+  representations:
+    human: ISO/IEC 13210:1994 (E) and ANSI/IEEE 1003.3-1991
+    urn: urn:ieee:iso-ansi/ieee:13210:1994
+  style: v3
+  non_normalized_aliases:
+  - spelling: 'ISO/IEC13210: 1994 (E) ANSI/IEEE Std 1003.3-1991'
+    style: v3
+- id: ieee.dual_published.9417
   identifier:
     _type: pubid:ieee:dual-published
     first_identifier:

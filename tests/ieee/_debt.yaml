@@ -1,4 +1,31 @@
 ---
+- id: ieee.debt.3512470c2e59
+  input: ISO/IEC 15205:2000
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
+    [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
+    NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
+    S_DESIGNATION, C'
+- id: ieee.debt.8cca63c67b35
+  input: ISO/IEC 14575:2000
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
+    [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
+    NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
+    S_DESIGNATION, C'
+- id: ieee.debt.e2558a400ca8
+  input: ISO/IEC 16509:1999
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
+    [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
+    NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
+    S_DESIGNATION, C'
 - id: ieee.debt.f2a8642cbf22
   input: ISO/IEC/IEEE P29119.4.DISMay2013
   expect:
@@ -1959,15 +1986,6 @@
     [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
     NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
     S_DESIGNATION, C'
-- id: ieee.debt.89ecda17ad9b
-  input: ISO/IEC/IEEE 8802-11:2012(E) (Revison of ISO/IEC/IEEE 8802-11-2005 and Amendments)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
-    NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
-    S_DESIGNATION, C'
 - id: ieee.debt.cf295065a41c
   input: ISO/IEC/IEEE 8802-11:2012(E) (Revison of ISO/IEC/IEEE 8802-11-2005 and Amendments)
     - Redline
@@ -3266,15 +3284,6 @@
     [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
     NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
     S_DESIGNATION, C'
-- id: ieee.debt.ed58ccae0c4c
-  input: ISO/IEC/IEEE 21451-7:2011(E) (Revision of 1451.7-2010
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
-    NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
-    S_DESIGNATION, C'
 - id: ieee.debt.6b0a7c0c7c7d
   input: ISO/IEC/IEEE 26513:2017(E) - Redline
   expect:
@@ -3635,15 +3644,6 @@
     [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
     NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
     S_DESIGNATION, C'
-- id: ieee.debt.a573131ba4f3
-  input: ISO/IEEE 11073-10404:2010(E) (Supersedes IEEE Std 11073-10404-2008)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
-    NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
-    S_DESIGNATION, C'
 - id: ieee.debt.223790b4e282
   input: IEC 60076-21:2018(E) IEEE Std C57.15-2017
   expect:
@@ -3682,15 +3682,6 @@
     S_DESIGNATION, C'
 - id: ieee.debt.f8ce165b922f
   input: ISO/IEC 14515-1:2000 IEEE Std 2003.1-2000
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
-    NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
-    S_DESIGNATION, C'
-- id: ieee.debt.9b9f684b266e
-  input: ISO/IEC 15205:2000 IEEE Std 1496
   expect:
     error:
       code: unclassified
@@ -3874,24 +3865,6 @@
     [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
     NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
     S_DESIGNATION, C'
-- id: ieee.debt.52510f4f3c44
-  input: ISO/IEC 14575:2000 (IEEE Std 1355-1995)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
-    NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
-    S_DESIGNATION, C'
-- id: ieee.debt.149beef2c6bd
-  input: ISO/IEC 16509:1999 (IEEE Std 2000-1998)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
-    NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
-    S_DESIGNATION, C'
 - id: ieee.debt.b465023438ee
   input: ISO/IEC/IEEE 8802-3-1-2015(E) ED1, 2015-08-01
   expect:
@@ -3948,24 +3921,6 @@
     S_DESIGNATION, C'
 - id: ieee.debt.aae82f338ea7
   input: IEC 62526:2007(E) (IEEE 1450.1-2005)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
-    NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
-    S_DESIGNATION, C'
-- id: ieee.debt.f821ce73ce27
-  input: ISO/IEC/IEEE 42010:2011(E) (Revision of ISO/IEC 42010:2007 and IEEE Std 1471-2000)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
-    NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
-    S_DESIGNATION, C'
-- id: ieee.debt.f821ce73ce27
-  input: ISO/IEC/IEEE 42010:2011(E) (Revision of ISO/IEC 42010:2007 and IEEE Std 1471-2000)
   expect:
     error:
       code: unclassified
@@ -6040,15 +5995,6 @@
     [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
     NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
     S_DESIGNATION, C'
-- id: ieee.debt.ed58ccae0c4c
-  input: ISO/IEC/IEEE 21451-7:2011(E) (Revision of 1451.7-2010
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
-    NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
-    S_DESIGNATION, C'
 - id: ieee.debt.6b0a7c0c7c7d
   input: ISO/IEC/IEEE 26513:2017(E) - Redline
   expect:
@@ -6409,15 +6355,6 @@
     [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
     NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
     S_DESIGNATION, C'
-- id: ieee.debt.a573131ba4f3
-  input: ISO/IEEE 11073-10404:2010(E) (Supersedes IEEE Std 11073-10404-2008)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
-    NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
-    S_DESIGNATION, C'
 - id: ieee.debt.223790b4e282
   input: IEC 60076-21:2018(E) IEEE Std C57.15-2017
   expect:
@@ -6456,15 +6393,6 @@
     S_DESIGNATION, C'
 - id: ieee.debt.f8ce165b922f
   input: ISO/IEC 14515-1:2000 IEEE Std 2003.1-2000
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
-    NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
-    S_DESIGNATION, C'
-- id: ieee.debt.9b9f684b266e
-  input: ISO/IEC 15205:2000 IEEE Std 1496
   expect:
     error:
       code: unclassified
@@ -6648,24 +6576,6 @@
     [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
     NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
     S_DESIGNATION, C'
-- id: ieee.debt.52510f4f3c44
-  input: ISO/IEC 14575:2000 (IEEE Std 1355-1995)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
-    NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
-    S_DESIGNATION, C'
-- id: ieee.debt.149beef2c6bd
-  input: ISO/IEC 16509:1999 (IEEE Std 2000-1998)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
-    NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
-    S_DESIGNATION, C'
 - id: ieee.debt.b465023438ee
   input: ISO/IEC/IEEE 8802-3-1-2015(E) ED1, 2015-08-01
   expect:
@@ -6722,24 +6632,6 @@
     S_DESIGNATION, C'
 - id: ieee.debt.aae82f338ea7
   input: IEC 62526:2007(E) (IEEE 1450.1-2005)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
-    NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
-    S_DESIGNATION, C'
-- id: ieee.debt.f821ce73ce27
-  input: ISO/IEC/IEEE 42010:2011(E) (Revision of ISO/IEC 42010:2007 and IEEE Std 1471-2000)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
-    NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
-    S_DESIGNATION, C'
-- id: ieee.debt.f821ce73ce27
-  input: ISO/IEC/IEEE 42010:2011(E) (Revision of ISO/IEC 42010:2007 and IEEE Std 1471-2000)
   expect:
     error:
       code: unclassified
@@ -9222,15 +9114,6 @@
     S_DESIGNATION, C'
 - id: ieee.debt.f54275af3339
   input: ISO/IEC/IEEE 26515 First edition 2011-12-01; Corrected version 2012-03-15
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [COMBINED_AIEE_IDENTIFIER, AIEE_IDENTIFIER, COMBINED_AIEE_IDENTIFIER, IRE_IDENTIFIER,
-    NESC_IDENTIFIER, IEEE_ASTM_SI_PSI, MULTI_NUMBERED_IDENTIFIER, CSA_DUAL_PUBLISHED,
-    S_DESIGNATION, C'
-- id: ieee.debt.89ecda17ad9b
-  input: ISO/IEC/IEEE 8802-11:2012(E) (Revison of ISO/IEC/IEEE 8802-11-2005 and Amendments)
   expect:
     error:
       code: unclassified

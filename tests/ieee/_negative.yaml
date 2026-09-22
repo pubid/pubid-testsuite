@@ -550,1047 +550,1037 @@
       code: unclassified
 - id: ieee.neg.base.0109
   input: ISO/IEC/IEEE 8802-11:2012(E) (Revison of ISO/IEC/IEEE 8802-11-2005 and Amendments)
-  expect:
-    error:
-      code: unclassified
-- id: ieee.neg.base.0110
-  input: ISO/IEC/IEEE 8802-11:2012(E) (Revison of ISO/IEC/IEEE 8802-11-2005 and Amendments)
     - Redline
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0111
+- id: ieee.neg.base.0110
   input: ISO/IEC/IEEE 8802-1AE:2020/Cor.1:2021 (Adoption of IEEE Standard 802.1AE-2018/Cor
     1 -2020)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0112
+- id: ieee.neg.base.0111
   input: ISO/IEC/IEEE 8802-21-1:2018(E) (Adoption of IEEE 802.21.1-2017)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0113
+- id: ieee.neg.base.0112
   input: ISO/IEC/IEEE P15289:2016, 3rd Ed FDIS/D2
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0114
+- id: ieee.neg.base.0113
   input: ISO/IEC/IEEE P23026_D2, 2013 (Revision of 2006 edition (ISO/IEC 23026:2006)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0115
+- id: ieee.neg.base.0114
   input: ISO/IEC/IEEE P23026_D3, 2014 (Revision of 2006 edition (ISO/IEC 23026:2006)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0116
+- id: ieee.neg.base.0115
   input: ISO/IEC/IEEE P29119-2/CD Second edition, August 2019
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0117
+- id: ieee.neg.base.0116
   input: ISO/IEC/IEEE P29119-2/DIS Second edition, April 2020
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0118
+- id: ieee.neg.base.0117
   input: ISO/IEC/IEEE P29119-3/CD Second edition, August 2019
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0119
+- id: ieee.neg.base.0118
   input: ISO/IEC/IEEE P29119-3/DIS Second edition, April 2020
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0120
+- id: ieee.neg.base.0119
   input: ISO/IEC/IEEE P29148 First Edition, August 2011
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0121
+- id: ieee.neg.base.0120
   input: 'Preview: IEEE Technology Report on Wake-Up Radio'
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0122
+- id: ieee.neg.base.0121
   input: IEC 62243 First edition 2005-07 IEEE 1232
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0123
+- id: ieee.neg.base.0122
   input: IEEE 1076 IEC 61691-1-1 First edition 2004-10
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0124
+- id: ieee.neg.base.0123
   input: IEEE 1076.4 IEC 61691-5 First edition 2004-10
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0125
+- id: ieee.neg.base.0124
   input: IEEE 1364 IEC 61691-4 First edition 2004-10
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0126
+- id: ieee.neg.base.0125
   input: IEEE 1588 IEC 61588 First edition 2004-09
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0127
+- id: ieee.neg.base.0126
   input: IEEE 488.1 IEC 60488-1 First edition 2004-07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0128
+- id: ieee.neg.base.0127
   input: IEEE 488.2 IEC 60488-2 First edition 2004-05
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0129
+- id: ieee.neg.base.0128
   input: IEEE PSI-10/D1, May 2010
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0130
+- id: ieee.neg.base.0129
   input: ISO/IEC/ IEEE 23026 First edition 2015-05-15
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0131
+- id: ieee.neg.base.0130
   input: ISO/IEC/IEEE 15288 First edition 2015-05-15
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0132
+- id: ieee.neg.base.0131
   input: ISO/IEC/IEEE 24748-4 First edition 2016-05-15
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0133
+- id: ieee.neg.base.0132
   input: ISO/IEC/IEEE 29119-5 First edition 2016-11-15
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0134
+- id: ieee.neg.base.0133
   input: ISO/IEC/IEEE 8802-1AX First edition 2016-01-15
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0135
+- id: ieee.neg.base.0134
   input: ISO/IEC/IEEE 8802-1BA First edition 2016-10-15
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0136
+- id: ieee.neg.base.0135
   input: ISO/IEC/IEEE 8802-1BR First edition 2016-10-15
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0137
+- id: ieee.neg.base.0136
   input: ISO/IEC/IEEE 8802-1Q First edition 2016-03-15
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0138
+- id: ieee.neg.base.0137
   input: IEEE Unapproved Draft Std PC62.64/D14, feb 2009
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0139
+- id: ieee.neg.base.0138
   input: IEEE Approved Draft Std P1484.20.1/D7, May 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0140
+- id: ieee.neg.base.0139
   input: IEEE Approved Draft Std P1516.4/Dx.1, Jun 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0141
+- id: ieee.neg.base.0140
   input: IEEE Approved Draft Std P1542/D8, Aug 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0142
+- id: ieee.neg.base.0141
   input: IEEE Approved Draft Std P1617/D7.0, Jun 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0143
+- id: ieee.neg.base.0142
   input: IEEE Approved Draft Std P1636.1/D3, May 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0144
+- id: ieee.neg.base.0143
   input: IEEE Approved Draft Std P1661/D11, Jul 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0145
+- id: ieee.neg.base.0144
   input: IEEE Approved Draft Std P495/D13, Aug 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0146
+- id: ieee.neg.base.0145
   input: IEEE Approved Draft Std P532/D9.6, Apr 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0147
+- id: ieee.neg.base.0146
   input: IEEE Approved Draft Std P741/D2, Apr 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0148
+- id: ieee.neg.base.0147
   input: IEEE Approved Draft Std P99/D2.0, May 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0149
+- id: ieee.neg.base.0148
   input: IEEE Approved Draft Std PC37.20.7/D14, Dec 06
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0150
+- id: ieee.neg.base.0149
   input: IEEE Approved Draft Std PC37.230/D6.1, Jul 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0151
+- id: ieee.neg.base.0150
   input: IEEE Approved Draft Std PC37.235/D4, Mar 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0152
+- id: ieee.neg.base.0151
   input: IEEE Approved Draft Std PC57.12.36/D11, May 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0153
+- id: ieee.neg.base.0152
   input: IEEE Approved Draft Std PC57.129/D10, Jul 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0154
+- id: ieee.neg.base.0153
   input: IEEE P802.15.4q/D5.0, May, 20
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0155
+- id: ieee.neg.base.0154
   input: IEEE Unapproved Draft Std P1003.1_D3, Jun 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0156
+- id: ieee.neg.base.0155
   input: IEEE Unapproved Draft Std P1028/D5.1, Sep, 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0157
+- id: ieee.neg.base.0156
   input: IEEE Unapproved Draft Std P1189/D15, Jun 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0158
+- id: ieee.neg.base.0157
   input: IEEE Unapproved Draft Std P1407_D7, Mar 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0159
+- id: ieee.neg.base.0158
   input: IEEE Unapproved Draft Std P1561/D16, Jul 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0160
+- id: ieee.neg.base.0159
   input: IEEE Unapproved Draft Std P1610_D13, Aug 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0161
+- id: ieee.neg.base.0160
   input: IEEE Unapproved Draft Std P1619/D17, Jul 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0162
+- id: ieee.neg.base.0161
   input: IEEE Unapproved Draft Std P1631/D2, Sep 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0163
+- id: ieee.neg.base.0162
   input: IEEE Unapproved Draft Std P1636.1/D3, Jan 09
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0164
+- id: ieee.neg.base.0163
   input: IEEE Unapproved Draft Std P1686_D4, Jun 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0165
+- id: ieee.neg.base.0164
   input: IEEE Unapproved Draft Std P1900.2/D2.22, Jun 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0166
+- id: ieee.neg.base.0165
   input: IEEE Unapproved Draft Std P1900_D01, Jun 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0167
+- id: ieee.neg.base.0166
   input: IEEE Unapproved Draft Std P2600.1/D41b, Jan 09
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0168
+- id: ieee.neg.base.0167
   input: IEEE Unapproved Draft Std P2600.3/D41b, Jan 09
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0169
+- id: ieee.neg.base.0168
   input: IEEE Unapproved Draft Std P2600.4/D41b, Jan 09
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0170
+- id: ieee.neg.base.0169
   input: IEEE Unapproved Draft Std P532/D9.6, May 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0171
+- id: ieee.neg.base.0170
   input: IEEE Unapproved Draft Std P841/D5, Jan 09
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0172
+- id: ieee.neg.base.0171
   input: IEEE Unapproved Draft Std P841_D3, Jul 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0173
+- id: ieee.neg.base.0172
   input: IEEE Unapproved Draft Std PC37.1/D3, Jun 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0174
+- id: ieee.neg.base.0173
   input: IEEE Unapproved Draft Std PC37.1/D5, Sep 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0175
+- id: ieee.neg.base.0174
   input: IEEE Unapproved Draft Std PC37.12.1_D4.0, Sep 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0176
+- id: ieee.neg.base.0175
   input: IEEE Unapproved Draft Std PC37.16/D13, Apr 08
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0177
+- id: ieee.neg.base.0176
   input: IEEE Unapproved Draft Std PC37.43/D9, Oct 06
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0178
+- id: ieee.neg.base.0177
   input: IEEE Unapproved Draft Std PC57.12.38/D6.3, Aug 08
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0179
+- id: ieee.neg.base.0178
   input: IEEE Unapproved Draft Std PC57.13/D09, Aug 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0180
+- id: ieee.neg.base.0179
   input: IEEE Approved Draft Std P802.16g/D9, Apr 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0181
+- id: ieee.neg.base.0180
   input: IEEE Approved Draft Std P802.1ag/D8.1, Jun 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0182
+- id: ieee.neg.base.0181
   input: IEEE Unapproved Draft Std P802.11k/D9.0, Sep 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0183
+- id: ieee.neg.base.0182
   input: IEEE Unapproved Draft Std P802.11r/D78.0, Sep 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0184
+- id: ieee.neg.base.0183
   input: IEEE Unapproved Draft Std P802.16Rev2/D9 Jan 09
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0185
+- id: ieee.neg.base.0184
   input: IEEE Unapproved Draft Std P802.1ag/D8.1, Jun 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0186
+- id: ieee.neg.base.0185
   input: IEEE PC37.98/D5.1D July 2013
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0187
+- id: ieee.neg.base.0186
   input: IEEE No 29-1941 / ASA C77.1-1943 (Reaffirmed 1971)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0188
+- id: ieee.neg.base.0187
   input: ANSI/IEEE C37.30C-1984 ANSI/IEEE C37.30e-1984 (Supplements to ANSI/IEEE C37.30.1971)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0189
+- id: ieee.neg.base.0188
   input: IEC P62271-111/IEEE PC37.60_D5, February 2018
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0190
+- id: ieee.neg.base.0189
   input: IEC P62271-111/IEEE PC37.60_D5, May 2015
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0191
+- id: ieee.neg.base.0190
   input: IEC/IEEE P60079-30-1/D9.1, 2015
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0192
+- id: ieee.neg.base.0191
   input: IEC/IEEE P62704-3/D3, 2016
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0193
+- id: ieee.neg.base.0192
   input: IEC/IEEE P62704-3/D4, 2017
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0194
+- id: ieee.neg.base.0193
   input: IEEE Approved Draft Std C57.12.35/D7, 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0195
+- id: ieee.neg.base.0194
   input: IEEE Approved Draft Std PC37.101-2006/Cor 1/D2, 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0196
+- id: ieee.neg.base.0195
   input: IEEE P1138/D7, 2021
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0197
+- id: ieee.neg.base.0196
   input: IEEE P1924.1/D14, 2021
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0198
+- id: ieee.neg.base.0197
   input: IEEE P1936.1/D7.0, 2021
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0199
+- id: ieee.neg.base.0198
   input: IEEE P308/D2, 2019
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0200
+- id: ieee.neg.base.0199
   input: IEEE PC37.60/IEC 62271-111_D10, February 2012
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0201
+- id: ieee.neg.base.0200
   input: IEEE PC37.60/IEC 62271-111_D6, June 2009
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0202
+- id: ieee.neg.base.0201
   input: IEEE PC57.12.01/D8, 2014
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0203
+- id: ieee.neg.base.0202
   input: NACE SP0XXX-2011/IEEE P1835_D1a, 2011
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0204
+- id: ieee.neg.base.0203
   input: NACE SP0XXX-2011/IEEE P1839_D1a, 2011
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0205
+- id: ieee.neg.base.0204
   input: NACE SP0XXX-2011/IEEE P1839_D2, 2014
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0206
+- id: ieee.neg.base.0205
   input: NACE/IEEE P1835_D1a, 2011
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0207
+- id: ieee.neg.base.0206
   input: IEC/ISO/IEEE 80005-1:2012
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0208
+- id: ieee.neg.base.0207
   input: ISO/IEC/IEEE 15289:2015(E) - Redline
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0209
+- id: ieee.neg.base.0208
   input: ISO/IEC/IEEE 15939:2017(E) - Redline
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0210
+- id: ieee.neg.base.0209
   input: ISO/IEC/IEEE 16085:2021(E) - Redline
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0211
+- id: ieee.neg.base.0210
   input: ISO/IEC/IEEE 16326:2019(E) - Redline
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0212
-  input: ISO/IEC/IEEE 21451-7:2011(E) (Revision of 1451.7-2010
-  expect:
-    error:
-      code: unclassified
-- id: ieee.neg.base.0213
+- id: ieee.neg.base.0211
   input: ISO/IEC/IEEE 26513:2017(E) - Redline
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0214
+- id: ieee.neg.base.0212
   input: ISO/IEC/IEEE 29119-2:2021(E) - Redline
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0215
+- id: ieee.neg.base.0213
   input: ISO/IEC/IEEE 29119-3:2021(E) - Redline
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0216
+- id: ieee.neg.base.0214
   input: ISO/IEC/IEEE 29119-4:2021(E) - Redline
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0217
+- id: ieee.neg.base.0215
   input: ISO/IEC/IEEE 29148:2018(E) - Redline
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0218
+- id: ieee.neg.base.0216
   input: ISO/IEC/IEEE 8802-15-3:2017(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0219
+- id: ieee.neg.base.0217
   input: ISO/IEC/IEEE 8802-15-4:2018(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0220
+- id: ieee.neg.base.0218
   input: ISO/IEC/IEEE 8802-15-6:2017(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0221
+- id: ieee.neg.base.0219
   input: ISO/IEC/IEEE 8802-1AB:2014(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0222
+- id: ieee.neg.base.0220
   input: ISO/IEC/IEEE 8802-1AC-2018(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0223
+- id: ieee.neg.base.0221
   input: ISO/IEC/IEEE 8802-1AC:2018/Cor.1:2020(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0224
+- id: ieee.neg.base.0222
   input: ISO/IEC/IEEE 8802-1AE:2013(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0225
+- id: ieee.neg.base.0223
   input: ISO/IEC/IEEE 8802-1AE:2013/Amd.3:2018(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0226
+- id: ieee.neg.base.0224
   input: ISO/IEC/IEEE 8802-1AE:2020(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0227
+- id: ieee.neg.base.0225
   input: ISO/IEC/IEEE 8802-1AR:2014(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0228
+- id: ieee.neg.base.0226
   input: ISO/IEC/IEEE 8802-1AR:2020(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0229
+- id: ieee.neg.base.0227
   input: ISO/IEC/IEEE 8802-1AS:2014(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0230
+- id: ieee.neg.base.0228
   input: ISO/IEC/IEEE 8802-1AS:2021(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0231
+- id: ieee.neg.base.0229
   input: ISO/IEC/IEEE 8802-1AX:2016/Cor.1:2018(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0232
+- id: ieee.neg.base.0230
   input: ISO/IEC/IEEE 8802-1AX:2021
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0233
+- id: ieee.neg.base.0231
   input: ISO/IEC/IEEE 8802-1CB:2019(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0234
+- id: ieee.neg.base.0232
   input: ISO/IEC/IEEE 8802-1CM:2019(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0235
+- id: ieee.neg.base.0233
   input: ISO/IEC/IEEE 8802-1CM:2019/Amd.1:2021(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0236
+- id: ieee.neg.base.0234
   input: ISO/IEC/IEEE 8802-1Q:2016/Amd.1:2017(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0237
+- id: ieee.neg.base.0235
   input: ISO/IEC/IEEE 8802-1Q:2016/Amd.2:2018(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0238
+- id: ieee.neg.base.0236
   input: ISO/IEC/IEEE 8802-1Q:2016/Amd.3:2017(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0239
+- id: ieee.neg.base.0237
   input: ISO/IEC/IEEE 8802-1Q:2016/Amd.6:2019(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0240
+- id: ieee.neg.base.0238
   input: ISO/IEC/IEEE 8802-1Q:2016/Amd.7:2019(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0241
+- id: ieee.neg.base.0239
   input: ISO/IEC/IEEE 8802-1Q:2020(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0242
+- id: ieee.neg.base.0240
   input: ISO/IEC/IEEE 8802-1Q:2020/Amd.2:2021
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0243
+- id: ieee.neg.base.0241
   input: ISO/IEC/IEEE 8802-1Q:2020/Amd.3:2021(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0244
+- id: ieee.neg.base.0242
   input: ISO/IEC/IEEE 8802-1X:2013(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0245
+- id: ieee.neg.base.0243
   input: ISO/IEC/IEEE 8802-1X:2021(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0246
+- id: ieee.neg.base.0244
   input: ISO/IEC/IEEE 8802-21:2018/Cor.1:2018(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0247
+- id: ieee.neg.base.0245
   input: ISO/IEC/IEEE 8802-3-2:2021(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0248
+- id: ieee.neg.base.0246
   input: ISO/IEC/IEEE 8802-3:2017/Cor.1:2018(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0249
+- id: ieee.neg.base.0247
   input: ISO/IEC/IEEE 8802-A:2015(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0250
+- id: ieee.neg.base.0248
   input: ISO/IEC/IEEE 8802-A:2015/Amd.1:2018(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0251
+- id: ieee.neg.base.0249
   input: ISO/IEC/IEEE 8802-A:2015/Amd.2:2019(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0252
+- id: ieee.neg.base.0250
   input: ISO/IEC/IEEE 9945:2009/Cor.2:2017(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0253
+- id: ieee.neg.base.0251
   input: IEEE/ISO/IEC 8802-1Q-2020/Amd31-2021
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0254
+- id: ieee.neg.base.0252
   input: ISO/IEC/IEEE 8802-3-1-2015 (E) First edition 2015-08-01
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0255
+- id: ieee.neg.base.0253
   input: ISO/IEC/IEEE 12207:2017(E) First edition 2017-11
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0256
+- id: ieee.neg.base.0254
   input: ISO/IEC/IEEE 12207:2017(E) First edition 2017-11 - Redline
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0257
+- id: ieee.neg.base.0255
   input: IEC 62526:2007(E) IEEE 1450.1-2005(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0258
+- id: ieee.neg.base.0256
   input: IEC/IEEE P62209-1528 FDIS/D5, 2019
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0259
+- id: ieee.neg.base.0257
   input: IEC/IEEE P65700-19-03 CD
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0260
+- id: ieee.neg.base.0258
   input: IEEE P1547a D1.2, October 2019
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0261
+- id: ieee.neg.base.0259
   input: IEEE P1642 D8, November 2011
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0262
+- id: ieee.neg.base.0260
   input: IEEE P1680.4 D1, November 2017
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0263
+- id: ieee.neg.base.0261
   input: IEEE P1696 D10 June 2013
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0264
+- id: ieee.neg.base.0262
   input: IEEE P692 D4b, March 2013
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0265
+- id: ieee.neg.base.0263
   input: IEEE PC135.80 D7.0, July 2012
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0266
+- id: ieee.neg.base.0264
   input: IEEE PC135.90 D8.0, November 2013
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0267
+- id: ieee.neg.base.0265
   input: IEEE PC37.244 D6.0 January 23, 2013
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0268
+- id: ieee.neg.base.0266
   input: IEEE PC57.12.28 D10, November 2013
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0269
+- id: ieee.neg.base.0267
   input: ISO/IEC/IEEE FDIS P24765:2016(E), January 2017
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0270
+- id: ieee.neg.base.0268
   input: IEEE Unapproved Draft Std PC37.91/D8, 2007
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0271
+- id: ieee.neg.base.0269
   input: IEEE Unapproved Draft Std PC57.12.31 D4, Sept 2009
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0272
+- id: ieee.neg.base.0270
   input: ISO/IEC/IEEE 8802-1Q:2016/Cor1:2017(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0273
+- id: ieee.neg.base.0271
   input: ISO/IEC/IEEE 8802-3:2017/Amd. 2:2017(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0274
+- id: ieee.neg.base.0272
   input: IEEE P802.1AC-REV/D3.0, September 2015
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0275
+- id: ieee.neg.base.0273
   input: IEEE P802.1AR-Rev/D2.2, November 2017
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0276
+- id: ieee.neg.base.0274
   input: IEEE P802.1AR-Rev/D2.6, January 2018
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0277
+- id: ieee.neg.base.0275
   input: IEEE P802.1AS-Rev/D6.0 December 2017
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0278
+- id: ieee.neg.base.0276
   input: IEEE P802.1AS-Rev/D7.0, March 2018
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0279
+- id: ieee.neg.base.0277
   input: IEEE P802.1AS-Rev/D8.0 January, 2019
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0280
+- id: ieee.neg.base.0278
   input: IEEE P802.1AS-Rev/D8.1, August 2019
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0281
+- id: ieee.neg.base.0279
   input: IEEE P802.1AS-Rev/D8.3, October 2019
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0282
+- id: ieee.neg.base.0280
   input: IEEE P802.1AX-REV/D4.0 March 2014
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0283
+- id: ieee.neg.base.0281
   input: IEEE P802.1AX-REV/D4.3, July 2014
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0284
+- id: ieee.neg.base.0282
   input: IEEE P802.1AX-REV/D4.54, October 2014
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0285
+- id: ieee.neg.base.0283
   input: IEEE P802.1AX-Rev/D2.0, May 2019
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0286
+- id: ieee.neg.base.0284
   input: IEEE P802.1AX-Rev/D2.1, August 2019
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0287
+- id: ieee.neg.base.0285
   input: IEEE P802.1BA-Rev/D2.0, August 2021
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0288
+- id: ieee.neg.base.0286
   input: IEEE P802.1BA-Rev/D2.1, September 2021
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0289
+- id: ieee.neg.base.0287
   input: IEEE P802.1BA-Rev/D2.2, October 2021
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0290
+- id: ieee.neg.base.0288
   input: IEEE P802.1Q-REV/D1.3, October 2010
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0291
+- id: ieee.neg.base.0289
   input: IEEE P802.1Q-REV/D1.4, February 2011
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0292
+- id: ieee.neg.base.0290
   input: IEEE P802.1Q-REV/D1.5, March 2011
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0293
+- id: ieee.neg.base.0291
   input: IEEE Unapproved Draft Std P802.1AB-REV/D6.0, Jun 2009
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0294
+- id: ieee.neg.base.0292
   input: IEEE Unapproved Draft Std P802.1X-REV/D4.0, Jun, 2009
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0295
+- id: ieee.neg.base.0293
   input: IEC/IEEE P63195-2 ED2, February 2020
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0296
+- id: ieee.neg.base.0294
   input: IEC/IEEE P63195-2 ED3, February 2021
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0297
+- id: ieee.neg.base.0295
   input: IEC/IEEE P80005-1 ED2, October 2018
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0298
+- id: ieee.neg.base.0296
   input: IEEE Unapproved Draft Std 16326:2009
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0299
+- id: ieee.neg.base.0297
   input: IEEE Unapproved Draft Std P16326:2008/CD2, Sep 2008
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0300
+- id: ieee.neg.base.0298
   input: IEEE Unapproved Draft Std P2600.2/D41b, Jan09
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0301
+- id: ieee.neg.base.0299
   input: IEEE Unapproved Draft Std P802-1Qay/D5-0, Jan 09
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0302
+- id: ieee.neg.base.0300
   input: IEEE Unapproved Draft Std P802.1X_REV/D4.5, Oct 2009
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0303
+- id: ieee.neg.base.0301
   input: IEEE Unapproved Draft Std PC37.110/D911Oct 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0304
+- id: ieee.neg.base.0302
   input: IEEE Unapproved Draft Std PC62.21_D3, Sep07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0305
+- id: ieee.neg.base.0303
   input: IEEE Unapproved Std PC57.129_D9, Mar07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0306
+- id: ieee.neg.base.0304
   input: IEEE Unapproved Draft Std P1003.1_D3, Jun 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0307
+- id: ieee.neg.base.0305
   input: IEEE Unapproved Draft Std P1686_D4, Jun 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0308
+- id: ieee.neg.base.0306
   input: IEEE Unapproved Draft Std P1900_D01, Jun 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0309
+- id: ieee.neg.base.0307
   input: IEEE Unapproved Draft Std P1407_D7, Mar 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0310
+- id: ieee.neg.base.0308
   input: IEEE Unapproved Draft Std P1610_D13, Aug 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0311
+- id: ieee.neg.base.0309
   input: IEEE Unapproved Draft Std PC37.12.1_D4.0, Sep 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0312
+- id: ieee.neg.base.0310
   input: IEEE Unapproved Draft Std P841_D3, Jul 07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0313
+- id: ieee.neg.base.0311
   input: IEEE Unapproved Draft Std PC62.21_D3, Sep07
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0314
+- id: ieee.neg.base.0312
   input: Unapproved Draft Std ISO/IEC FDIS 15288:2007(E) IEEE P15288/D3
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0315
+- id: ieee.neg.base.0313
   input: IEEE Unapproved Draft Std P802-1Qay/D5-0, Jan 09
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0316
+- id: ieee.neg.base.0314
   input: IEEE Unapproved Draft Std P802.1X-REV/D4.0, Jun, 2009
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0317
+- id: ieee.neg.base.0315
   input: IEEE Unapproved Draft Std PC57.12.31 D4, Sept 2009
   expect:
     error:
@@ -2234,211 +2224,186 @@
     error:
       code: unclassified
 - id: ieee.neg.standard.0121
-  input: ISO/IEEE 11073-10404:2010(E) (Supersedes IEEE Std 11073-10404-2008)
-  expect:
-    error:
-      code: unclassified
-- id: ieee.neg.standard.0122
   input: IEC 60076-21:2018(E) IEEE Std C57.15-2017
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0123
+- id: ieee.neg.standard.0122
   input: IEC 61691-1-1:2011(E) IEEE Std 1076-2008
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0124
+- id: ieee.neg.standard.0123
   input: IEC 62843:2013(E) IEEE Std C37.94-2002
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0125
+- id: ieee.neg.standard.0124
   input: IEC 62860:2013(E) IEEE Std 1620-2008
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0126
+- id: ieee.neg.standard.0125
   input: ISO/IEC 14515-1:2000 IEEE Std 2003.1-2000
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0127
-  input: ISO/IEC 15205:2000 IEEE Std 1496
-  expect:
-    error:
-      code: unclassified
-- id: ieee.neg.standard.0128
+- id: ieee.neg.standard.0126
   input: ISO/IEC 15288:2008(E) IEEE Std 15288-2008 (Revision of IEEE Std 15288-2004)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0129
+- id: ieee.neg.standard.0127
   input: ISO/IEC 15288:2008(E) IEEE Std 15288-2008 (Revision of IEEE Std 15288-2004)
     - Redline
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0130
+- id: ieee.neg.standard.0128
   input: ISO/IEC 16085:2004(E) IEEE Std 1540-2001
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0131
+- id: ieee.neg.standard.0129
   input: ISO/IEC 60559:2020(E) IEEE Std 754-2019
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0132
+- id: ieee.neg.standard.0130
   input: ISO/IEC 8802-11:2005/Amd.4:2006(E) IEEE Std 802.11g-2003 (Amendment to IEEE
     Std 802.11-1999)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0133
+- id: ieee.neg.standard.0131
   input: ISO/IEC 8802-11:2005/Amd.5:2006(E) IEEE Std 802.11h-2003 (Amendment to IEEE
     Std 802.11-1999)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0134
+- id: ieee.neg.standard.0132
   input: ISO/IEC 8802-5:1992 IEEE Std 802.5-1992 First edition 1992-06-12
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0135
+- id: ieee.neg.standard.0133
   input: IEC 61671:2012(E) (IEEE Std 1671-2010)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0136
+- id: ieee.neg.standard.0134
   input: IEC 62032:2012(E) (IEEE Std C57.135-2011) (Revision of IEC 62032-2005 and
     IEEE Std C57.135-2001)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0137
+- id: ieee.neg.standard.0135
   input: IEC 62032:2012(E) (IEEE Std C57.135-2011) (Revision of IEC 62032-2005 and
     IEEE Std C57.135-2001) - Redline
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0138
+- id: ieee.neg.standard.0136
   input: IEC 62243:2012(E) (IEEE Std 1232-2010) - Redline
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0139
+- id: ieee.neg.standard.0137
   input: IEC 62527:2007 (E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0140
+- id: ieee.neg.standard.0138
   input: IEC 62528:2007 (E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0141
+- id: ieee.neg.standard.0139
   input: IEC 62529:2007 (E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0142
+- id: ieee.neg.standard.0140
   input: IEC 62530:2007 (E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0143
+- id: ieee.neg.standard.0141
   input: IEC 62531:2007 (E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0144
+- id: ieee.neg.standard.0142
   input: IEC 62531:2012(E) (IEEE Std 1850-2010)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0145
+- id: ieee.neg.standard.0143
   input: IEC 62531:2012(E) (IEEE Std 1850-2010) - Redline
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0146
-  input: ISO/IEC 14575:2000 (IEEE Std 1355-1995)
-  expect:
-    error:
-      code: unclassified
-- id: ieee.neg.standard.0147
-  input: ISO/IEC 16509:1999 (IEEE Std 2000-1998)
-  expect:
-    error:
-      code: unclassified
-- id: ieee.neg.standard.0148
+- id: ieee.neg.standard.0144
   input: IEC 62659 Ed.1, October 2011
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0149
+- id: ieee.neg.standard.0145
   input: IEC 62529:2012(E) (IEEE Std 1641-2010
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0150
+- id: ieee.neg.standard.0146
   input: IEC 62529:2012(E) (IEEE Std 1641-2010 - Redline
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0151
-  input: ISO/IEC/IEEE 42010:2011(E) (Revision of ISO/IEC 42010:2007 and IEEE Std 1471-2000)
-  expect:
-    error:
-      code: unclassified
-- id: ieee.neg.standard.0152
+- id: ieee.neg.standard.0147
   input: PC57-15 D2.0, September 2016
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0153
+- id: ieee.neg.standard.0148
   input: IEEE Std 24748-3:2012
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0154
+- id: ieee.neg.standard.0149
   input: AIEE Nos 72 and 73 - 1932
   expect:
     error:
       code: invalid_argument
-- id: ieee.neg.standard.0155
+- id: ieee.neg.standard.0150
   input: IEEE P802.1AB-REV/D1.0, August 2015 (Revision of IEEE Std 802.1AB-2009)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0156
+- id: ieee.neg.standard.0151
   input: IEEE P802.1AB-REV/D1.1, September 2015 (Revision of IEEE Std 802.1AB-2009)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0157
+- id: ieee.neg.standard.0152
   input: IEEE P802.1AB-REV/D1.2, November 2015 (Revision of IEEE Std 802.1AB-2009)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0158
+- id: ieee.neg.standard.0153
   input: IEEE Std P802.1X-REV/D11
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0159
+- id: ieee.neg.standard.0154
   input: ISO/IEC 14515-2_2003 IEEE Std 2003.2-1996
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0160
+- id: ieee.neg.standard.0155
   input: ISO/IEC/IEEE 8802-11:2012/Amd.4:2015(E) (Adoption of IEEE Std 802.11ac-2013)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0161
+- id: ieee.neg.standard.0156
   input: ISO/IEEE 11073-20601:2010/Amd 1:2015(E) (Adoption of IEEE Std 11073-20601a-2010)
   expect:
     error:
