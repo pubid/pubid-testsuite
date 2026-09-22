@@ -8,42 +8,53 @@ generator:
   exporter_sha256: 17c6c0e180f1ca39d3867588aa83e2d6bb081c0b1948cd7ded2f12d1cebf7dc6
 oracle:
   gem: pubid
-  commit: 1fcf6031d882d601c514f254c3b17461cbf49083
+  commit: de2f28ea4ff71dac1537765606bc1fffeb9c1be5
   clean: true
   dirty_paths: []
 repository:
-  commit: 07f8e77cf05367ed0eaa8b4604fb412ad5af49f4
+  commit: 548b2d11e45534bafb44b5564d11c05e8ef9b3f8
   clean: false
   dirty_paths:
-  - tests/gb/standard.yaml
-  - tests/gb/all_parts.yaml
+  - reference-docs/amca/SUMMARY.txt
+  - reference-docs/amca/identifiers/fail/unknown.txt
+  - reference-docs/amca/identifiers/pass/interpretation.txt
+  - reference-docs/amca/identifiers/pass/publication.txt
+  - reference-docs/amca/identifiers/pass/standard.txt
+  - reference-docs/asme/SUMMARY.txt
+  - reference-docs/asme/identifiers/pass/standard.txt
+  - tests/amca/_debt.yaml
+  - tests/amca/_normalization.yaml
+  - tests/amca/interpretation.yaml
+  - tests/amca/standard.yaml
+  - tests/asme/_normalization.yaml
+  - tests/asme/standard.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 42
   payloads: 339
-  cases: 100265
-  aliases: 12215
+  cases: 100217
+  aliases: 12208
   negatives: 1237
 payloads:
 - path: amca/_debt.yaml
-  sha256: 97d5e9084edeccee6344ee9af8e7f959045bf2b3ac83fb75c8cabb39956d59e7
-  bytes: 5235
+  sha256: f6ad26e3804f9efd121ad090c1f88cd423eead8f92228a45edcb18993f31f460
+  bytes: 1162
 - path: amca/_negative.yaml
   sha256: cae75bcbd410a5bcb23dacb859c94c172a296a73c5ea4e07879dc1d36ddb3700
   bytes: 422
 - path: amca/_normalization.yaml
-  sha256: 1b4bbf083a15b150957256887c56aa684545bc293af13ad650a293627bb14555
-  bytes: 1557
+  sha256: fc4ae3cc90b4c2a213a766420553d55cc40bd9049f1c1c9d232fa65a1fb51408
+  bytes: 596
 - path: amca/interpretation.yaml
-  sha256: 32c0ee5c4f6b84b19000a0b935e61aac1286b6c924f94e31553be7f1a3f214b1
+  sha256: cb0d983829daabd609d380e1358c31d0723665c5297295753ee808466acbd8ef
   bytes: 1811
 - path: amca/publication.yaml
   sha256: d82164ee15f6e70b77273103987732087ae5781352758881ba6f9fadaf266722
   bytes: 2137
 - path: amca/standard.yaml
-  sha256: bc79fd8e7e37ad47a13124423426f7f15b7142416820bf82f6d021c45cf14601
-  bytes: 7286
+  sha256: 4ff5c76fa4dab39223147b3ab54452d86dd9373976e44912ee82a37864af6de1
+  bytes: 6716
 - path: ansi/standard.yaml
   sha256: 0f0ac3afbc09e16dafa39aae833fad25e9ecff76c1671474eba277f25aee4c38
   bytes: 41600
@@ -108,11 +119,11 @@ payloads:
   sha256: e03c5fcc65deeacf570454ec96820c9524a87c824f4ec2ce18504c89fccbbc2e
   bytes: 87436
 - path: asme/_normalization.yaml
-  sha256: f95283d03abfe4744d6603c8cf9341a27619bd6b2d915796b7e4cbef2f8139be
-  bytes: 10593
+  sha256: 32c6a39d0625c74550004ea8d726527c85c4288d6078db6b1705a4f766389854
+  bytes: 2591
 - path: asme/standard.yaml
-  sha256: 3a61117101153481dd2edbc5efab719ccf88d3f7e7c5e8c16ef4732325678b18
-  bytes: 177339
+  sha256: 662fc8295b76181f6106e95bc95a0ffae2162a79b776de460c7a80500fe06715
+  bytes: 167345
 - path: astm/_normalization.yaml
   sha256: e3b47f363ab118d472de683d900ff5d56d36471a4a538273a4e4074fe9b99b9b
   bytes: 565
