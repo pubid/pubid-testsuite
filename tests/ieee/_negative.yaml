@@ -2066,344 +2066,324 @@
     error:
       code: unclassified
 - id: ieee.neg.standard.0091
-  input: 'ISO/IEC 15068-2 : 1999 (1387.2-1995)'
-  expect:
-    error:
-      code: unclassified
-- id: ieee.neg.standard.0092
-  input: ISO/IEC 15802-2:1995 (ANSI/IEEE Std 802.1b-1995 )
-  expect:
-    error:
-      code: unclassified
-- id: ieee.neg.standard.0093
   input: ISO/IEC 8802-11 IEEE Std 802.11 Second edition 2005-08-01 ISO/IEC 8802 11:2005(E)
     IEEE Std 802.11i-2003 Edition
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0094
+- id: ieee.neg.standard.0092
   input: 'ISO/IEC 8802-11, Second edition: 2005/Amendment 6 2006: IEEE STD 802.11i-2004
     (Amendment to IEEE Std 802.11-1999)'
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0095
+- id: ieee.neg.standard.0093
   input: 'ISO/IEC 8802-12: 1998 ANSI/IEEE Std 802.12, 1998 Edition (Incorporating
     ANSI/IEEE Std 802.12-1995 and ANSI/IEEE Std 802.12d-1997)'
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0096
+- id: ieee.neg.standard.0094
   input: ISO/IEC 8802-2:1998 ANSI/IEEE Std 802.2, 1998 edition (Incorporating ANSI/IEEE
     Stds 802.2c-1997, 802.2f-1997, and 802.2h-1997)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0097
+- id: ieee.neg.standard.0095
   input: ISO/IEC 9945-2:19939 ANSI/IEEE Std 1003.2-1993
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0098
+- id: ieee.neg.standard.0096
   input: P1635/D10/ASHARE 21/D10, December 2016
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0099
+- id: ieee.neg.standard.0097
   input: P802.3bd/D2.2 August 2010. (Draft Amendment to IEEE Std 802.3-2008)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0100
+- id: ieee.neg.standard.0098
   input: Preprint Proposal for the 2017 Edition of the National Electrical Safety
     Code
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0101
+- id: ieee.neg.standard.0099
   input: Preprint Proposals for the 2022 Edition of the National Electrical Safety
     Code (NESC(R))
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0102
+- id: ieee.neg.standard.0100
   input: Std ISO IEC 16085 - 2006
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0103
+- id: ieee.neg.standard.0101
   input: P82079-1_D4_FDIS
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0104
+- id: ieee.neg.standard.0102
   input: IEC 62525-Edition 1.0 - 2007
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0105
+- id: ieee.neg.standard.0103
   input: IEC 62142-2005 First edition 2005-06 IEEE Std 1364.1
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0106
+- id: ieee.neg.standard.0104
   input: IEC 62265-2005 First edition 2005-07 IEEE Std 1603
   expect:
     error:
       code: unclassified
+- id: ieee.neg.standard.0105
+  input: ISO/IEC 15288 First edition 2002-11-01
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.standard.0106
+  input: ISO/IEC 15288 First edition 2002-11-01
+  expect:
+    error:
+      code: unclassified
 - id: ieee.neg.standard.0107
-  input: ISO/IEC 15288 First edition 2002-11-01
-  expect:
-    error:
-      code: unclassified
-- id: ieee.neg.standard.0108
-  input: ISO/IEC 15288 First edition 2002-11-01
-  expect:
-    error:
-      code: unclassified
-- id: ieee.neg.standard.0109
   input: IEEE Std 1666 IEC61691-7 Edition 1.0 2009-12
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0110
+- id: ieee.neg.standard.0108
   input: IEEE Std P1500/D11, Jan 06
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0111
+- id: ieee.neg.standard.0109
   input: IEEE Std P802.16g/D6, Nov 06
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0112
+- id: ieee.neg.standard.0110
   input: IEEE Std P802.16g/D7, Nov 06
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0113
+- id: ieee.neg.standard.0111
   input: ANSI C50.32-1976 and IEEE Std 117-1974 (Reaffirmed 1984) (Revision of IEEE
     Std 117-1956)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0114
+- id: ieee.neg.standard.0112
   input: IEEE Std 802.15.3-2016 (Revision of IEEE Std 802.15.3-2003!!IEEE Std 802.15.3-2016
     (Revision of IEEE Std 802.15.3-2003)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0115
+- id: ieee.neg.standard.0113
   input: 62704-4/D4, 2020
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0116
+- id: ieee.neg.standard.0114
   input: IEC/IEC P62704-2/D5, 2016
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0117
+- id: ieee.neg.standard.0115
   input: IEEE P686/D2, 2017 (Revision of IEEE Std 686-2008)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0118
+- id: ieee.neg.standard.0116
   input: IEEE Std 262-1973 /ANSI C57.12.90-1973 (Supersedes ANSI C57.12.90-1968)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0119
+- id: ieee.neg.standard.0117
   input: IEEE Std P802.16-2004/Cor1/D5, 2005
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0120
+- id: ieee.neg.standard.0118
   input: IEC 61588:2009(E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0121
+- id: ieee.neg.standard.0119
   input: IEC 60076-21:2018(E) IEEE Std C57.15-2017
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0122
+- id: ieee.neg.standard.0120
   input: IEC 61691-1-1:2011(E) IEEE Std 1076-2008
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0123
+- id: ieee.neg.standard.0121
   input: IEC 62843:2013(E) IEEE Std C37.94-2002
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0124
+- id: ieee.neg.standard.0122
   input: IEC 62860:2013(E) IEEE Std 1620-2008
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0125
-  input: ISO/IEC 14515-1:2000 IEEE Std 2003.1-2000
-  expect:
-    error:
-      code: unclassified
-- id: ieee.neg.standard.0126
+- id: ieee.neg.standard.0123
   input: ISO/IEC 15288:2008(E) IEEE Std 15288-2008 (Revision of IEEE Std 15288-2004)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0127
+- id: ieee.neg.standard.0124
   input: ISO/IEC 15288:2008(E) IEEE Std 15288-2008 (Revision of IEEE Std 15288-2004)
     - Redline
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0128
+- id: ieee.neg.standard.0125
   input: ISO/IEC 16085:2004(E) IEEE Std 1540-2001
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0129
+- id: ieee.neg.standard.0126
   input: ISO/IEC 60559:2020(E) IEEE Std 754-2019
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0130
+- id: ieee.neg.standard.0127
   input: ISO/IEC 8802-11:2005/Amd.4:2006(E) IEEE Std 802.11g-2003 (Amendment to IEEE
     Std 802.11-1999)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0131
+- id: ieee.neg.standard.0128
   input: ISO/IEC 8802-11:2005/Amd.5:2006(E) IEEE Std 802.11h-2003 (Amendment to IEEE
     Std 802.11-1999)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0132
-  input: ISO/IEC 8802-5:1992 IEEE Std 802.5-1992 First edition 1992-06-12
-  expect:
-    error:
-      code: unclassified
-- id: ieee.neg.standard.0133
+- id: ieee.neg.standard.0129
   input: IEC 61671:2012(E) (IEEE Std 1671-2010)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0134
+- id: ieee.neg.standard.0130
   input: IEC 62032:2012(E) (IEEE Std C57.135-2011) (Revision of IEC 62032-2005 and
     IEEE Std C57.135-2001)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0135
+- id: ieee.neg.standard.0131
   input: IEC 62032:2012(E) (IEEE Std C57.135-2011) (Revision of IEC 62032-2005 and
     IEEE Std C57.135-2001) - Redline
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0136
+- id: ieee.neg.standard.0132
   input: IEC 62243:2012(E) (IEEE Std 1232-2010) - Redline
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0137
+- id: ieee.neg.standard.0133
   input: IEC 62527:2007 (E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0138
+- id: ieee.neg.standard.0134
   input: IEC 62528:2007 (E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0139
+- id: ieee.neg.standard.0135
   input: IEC 62529:2007 (E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0140
+- id: ieee.neg.standard.0136
   input: IEC 62530:2007 (E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0141
+- id: ieee.neg.standard.0137
   input: IEC 62531:2007 (E)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0142
+- id: ieee.neg.standard.0138
   input: IEC 62531:2012(E) (IEEE Std 1850-2010)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0143
+- id: ieee.neg.standard.0139
   input: IEC 62531:2012(E) (IEEE Std 1850-2010) - Redline
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0144
+- id: ieee.neg.standard.0140
   input: IEC 62659 Ed.1, October 2011
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0145
+- id: ieee.neg.standard.0141
   input: IEC 62529:2012(E) (IEEE Std 1641-2010
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0146
+- id: ieee.neg.standard.0142
   input: IEC 62529:2012(E) (IEEE Std 1641-2010 - Redline
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0147
+- id: ieee.neg.standard.0143
   input: PC57-15 D2.0, September 2016
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0148
+- id: ieee.neg.standard.0144
   input: IEEE Std 24748-3:2012
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0149
+- id: ieee.neg.standard.0145
   input: AIEE Nos 72 and 73 - 1932
   expect:
     error:
       code: invalid_argument
-- id: ieee.neg.standard.0150
+- id: ieee.neg.standard.0146
   input: IEEE P802.1AB-REV/D1.0, August 2015 (Revision of IEEE Std 802.1AB-2009)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0151
+- id: ieee.neg.standard.0147
   input: IEEE P802.1AB-REV/D1.1, September 2015 (Revision of IEEE Std 802.1AB-2009)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0152
+- id: ieee.neg.standard.0148
   input: IEEE P802.1AB-REV/D1.2, November 2015 (Revision of IEEE Std 802.1AB-2009)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0153
+- id: ieee.neg.standard.0149
   input: IEEE Std P802.1X-REV/D11
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0154
+- id: ieee.neg.standard.0150
   input: ISO/IEC 14515-2_2003 IEEE Std 2003.2-1996
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0155
+- id: ieee.neg.standard.0151
   input: ISO/IEC/IEEE 8802-11:2012/Amd.4:2015(E) (Adoption of IEEE Std 802.11ac-2013)
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0156
+- id: ieee.neg.standard.0152
   input: ISO/IEEE 11073-20601:2010/Amd 1:2015(E) (Adoption of IEEE Std 11073-20601a-2010)
   expect:
     error:
