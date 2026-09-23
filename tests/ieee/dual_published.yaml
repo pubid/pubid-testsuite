@@ -709,7 +709,42 @@
   non_normalized_aliases:
   - spelling: 'ISO/IEC13210: 1994 (E) ANSI/IEEE Std 1003.3-1991'
     style: v3
-- id: ieee.dual_published.9417
+- id: ieee.dual_published.9152
+  identifier:
+    _type: pubid:ieee:dual-published
+    first_identifier:
+      _type: pubid:ieee:joint-development
+      number: '8802'
+      publisher: ISO
+      copublisher:
+      - IEC
+      year: '1996'
+      parenthetical_content: E
+      parts:
+      - '9'
+      separator: "-"
+      publishers:
+      - ISO
+      - IEC
+      lead_party: ISO
+    second_identifier:
+      _type: pubid:ieee:standard
+      number: '802'
+      publisher: ANSI/IEEE
+      year: '1996'
+      parts:
+      - '9'
+      separator: "."
+      stage: Std
+  representations:
+    human: ISO/IEC 8802-9:1996 (E) and ANSI/IEEE 802.9-1996
+    urn: urn:ieee:iso-ansi/ieee:8802-9:1996
+  style: v3
+  non_normalized_aliases:
+  - spelling: 'International Standard ISO/IEC 8802-9: 1996(E) ANSI/IEEE Std 802.9,
+      1996 Edition'
+    style: v3
+- id: ieee.dual_published.9422
   identifier:
     _type: pubid:ieee:dual-published
     first_identifier:
