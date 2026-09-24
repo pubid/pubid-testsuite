@@ -70,3 +70,17 @@
     human: Amendment (2009) to OIML R 138:2007 (E)
     urn: urn:oiml:r:138:2009:e
   style: v3
+- id: oiml.amendment.0042
+  identifier:
+    _type: pubid:oiml:amendment
+    base:
+      _type: pubid:oiml:recommendation
+      publisher: OIML
+      year: '2009'
+      number: '138'
+    number: '1'
+    trailing: true
+  representations:
+    human: OIML R 138:2009 Amendment 1
+    urn: urn:oiml:r:138:2009:1
+  style: v3

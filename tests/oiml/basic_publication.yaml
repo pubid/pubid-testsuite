@@ -2,6 +2,43 @@
 - id: oiml.basic_publication.0007
   identifier:
     _type: pubid:oiml:basic-publication
+    language: F
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '2004'
+    number: '10'
+    part: '1'
+  representations:
+    human: OIML B 10-1:2004 (F)
+    urn: urn:oiml:b:10-1:2004:f
+  style: v3
+- id: oiml.basic_publication.0008
+  identifier:
+    _type: pubid:oiml:basic-publication
+    language: A
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '2004'
+    number: '12'
+  representations:
+    human: OIML B 12:2004 (A)
+    urn: urn:oiml:b:12:2004:a
+  style: v3
+- id: oiml.basic_publication.0009
+  identifier:
+    _type: pubid:oiml:basic-publication
+    language: Fra
+    parsed_format: short_with_space
+    publisher: OIML
+    year: '2006'
+    number: '14'
+  representations:
+    human: OIML B 14:2006 (Fra)
+    urn: urn:oiml:b:14:2006:fra
+  style: v3
+- id: oiml.basic_publication.0010
+  identifier:
+    _type: pubid:oiml:basic-publication
     publisher: OIML
     year: '2018'
     number: '18'
@@ -9,7 +46,18 @@
     human: OIML B 18:2018
     urn: urn:oiml:b:18:2018
   style: v3
-- id: oiml.basic_publication.0008
+- id: oiml.basic_publication.0011
+  identifier:
+    _type: pubid:oiml:basic-publication
+    language: E
+    publisher: OIML
+    year: '2025'
+    number: '18'
+  representations:
+    human: OIML B 18:2025(E)
+    urn: urn:oiml:b:18:2025:e
+  style: v3
+- id: oiml.basic_publication.0012
   identifier:
     _type: pubid:oiml:basic-publication
     language: E

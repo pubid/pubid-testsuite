@@ -1,0 +1,26 @@
+---
+- id: oiml.neg.estate_rejections.0001
+  input: Some Other Document
+  expect:
+    error:
+      code: unclassified
+- id: oiml.neg.estate_rejections.0002
+  input: OIML X 99
+  expect:
+    error:
+      code: unclassified
+- id: oiml.neg.estate_rejections.0003
+  input: OIML R 60 extra words here
+  expect:
+    error:
+      code: unclassified
+- id: oiml.neg.estate_rejections.0004
+  input: OIML-CS XX-01 Edition 1
+  expect:
+    error:
+      code: unclassified
+- id: oiml.neg.estate_rejections.0005
+  input: ISO 9001:2015
+  expect:
+    error:
+      code: unclassified

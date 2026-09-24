@@ -1,0 +1,69 @@
+---
+- id: oiml.certification_system.0085
+  identifier:
+    _type: pubid:oiml:certification-system
+    publisher: OIML
+    edition: '6'
+    number: '01'
+    family: CID
+  representations:
+    human: OIML-CS CID-01 Edition 6
+    urn: urn:oiml:cs:cid-01
+  style: v3
+- id: oiml.certification_system.0086
+  identifier:
+    _type: pubid:oiml:certification-system
+    publisher: OIML
+    edition: '4'
+    number: '01'
+    family: OD
+  representations:
+    human: OIML-CS OD-01 Edition 4
+    urn: urn:oiml:cs:od-01
+  style: v3
+- id: oiml.certification_system.0087
+  identifier:
+    _type: pubid:oiml:certification-system
+    publisher: OIML
+    edition: '3'
+    number: '02'
+    family: OD
+  representations:
+    human: OIML-CS OD-02 Edition 3
+    urn: urn:oiml:cs:od-02
+  style: v3
+- id: oiml.certification_system.0088
+  identifier:
+    _type: pubid:oiml:certification-system
+    publisher: OIML
+    edition: '6'
+    number: '05'
+    family: PD
+    space_separator: true
+  representations:
+    human: OIML-CS PD 05 Edition 6
+    urn: urn:oiml:cs:pd-05
+  style: v3
+- id: oiml.certification_system.0089
+  identifier:
+    _type: pubid:oiml:certification-system
+    publisher: OIML
+    edition: '3'
+    number: '01'
+    family: PD
+  representations:
+    human: OIML-CS PD-01 Edition 3
+    urn: urn:oiml:cs:pd-01
+  style: v3
+- id: oiml.certification_system.0090
+  identifier:
+    _type: pubid:oiml:certification-system
+    publisher: OIML
+    edition: '6'
+    number: '05'
+    family: PD
+    amendment: '1'
+  representations:
+    human: OIML-CS PD-05 Edition 6 (Amendment 1)
+    urn: urn:oiml:cs:pd-05
+  style: v3
