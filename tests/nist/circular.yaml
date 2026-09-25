@@ -9597,9 +9597,6 @@
     human: NBS.CIRC
     urn: urn:nist:circ:supp
   style: v3
-  non_normalized_aliases:
-  - spelling: NBS.CIRC.sup
-    style: v3
 - id: nist.circular.12112
   identifier:
     _type: pubid:nist:circular
@@ -9634,9 +9631,19 @@
     series: CIRC
     parsed_format: mr
   representations:
-    human: NBS.CIRCe2
+    human: NBS.CIRC.e2
     urn: urn:nist:circ:e2.supp
   style: v3
   non_normalized_aliases:
-  - spelling: NBS.CIRC.e2
+  - spelling: NBS.CIRCe2
     style: v3
+- id: nist.circular.12115
+  identifier:
+    _type: pubid:nist:circular
+    publisher: NBS
+    series: NBS.CIRC
+    parsed_format: mr
+  representations:
+    human: NBS.CIRC.sup
+    urn: urn:nist:nbs.circ
+  style: v3
