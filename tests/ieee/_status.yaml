@@ -1,12 +1,14 @@
 ---
 clean: false
-known_mismatches: 35
+known_mismatches: 34
 known_schema_errors: 0
 # Residual divergences after the C1 stage-draft wave (gem #458 restored
 # draft dates on IEC/IEEE-led D+stage drafts and this corpus was
-# regenerated against it): the reference still fails 35 rows - the alias
-# families (stage-first joint spellings, DP-monthcode rewrites, adopted
-# corrigenda), the pure ISO/IEC joint-development and dotted-Preprint
-# rows the ieee parser cannot re-parse, and scattered urn divergences.
-# Documented, not gated; every other row of the 9,446-case ieee ledger
-# round-trips.
+# regenerated against it) and the C3 copublished-tails ruling (gem
+# builder routes "(Revision of IEEE Std …)" narratives into
+# relationships and drops "(MM/DD)" print dates): the reference still
+# fails 34 rows - the alias families (stage-first joint spellings,
+# DP-monthcode rewrites, adopted corrigenda), the pure ISO/IEC
+# joint-development and dotted-Preprint rows the ieee parser cannot
+# re-parse, and scattered urn divergences. Documented, not gated; every
+# other row of the 9,446-case ieee ledger round-trips.
