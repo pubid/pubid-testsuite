@@ -9,35 +9,24 @@ generator:
 oracle:
   gem: pubid
   commit: 7eaa500786c17ae2008d7fb4ff8ee602e0ad7ee6
-  clean: true
-  dirty_paths: []
+  clean: false
+  dirty_paths:
+  - lib/pubid/ieee/builder.rb
+  - spec/pubid/ieee/trademark_position_spec.rb
+  - spec/pubid/ieee/identifiers/iec_ieee_copublished_spec.rb
 repository:
-  commit: ee359a2ecae54ec4a43835d52cb6757894a9d47c
+  commit: 4760e3cfaaf3c38f7b772a0ecf8f45e0653aeacd
   clean: false
   dirty_paths:
   - tests/ieee/_status.yaml
-  - tests/ieee/adopted_standard.yaml
-  - tests/ieee/amendment.yaml
-  - tests/ieee/conformance_identifier.yaml
-  - tests/ieee/corrigendum.yaml
-  - tests/ieee/csa_dual_published.yaml
-  - tests/ieee/dual_published.yaml
   - tests/ieee/iec_ieee_copublished.yaml
-  - tests/ieee/interpretation_identifier.yaml
-  - tests/ieee/joint_development.yaml
-  - tests/ieee/multi_numbered_identifier.yaml
-  - tests/ieee/nesc_edition.yaml
-  - tests/ieee/nesc_handbook.yaml
-  - tests/ieee/project_draft_identifier.yaml
-  - tests/ieee/si_standard.yaml
-  - tests/ieee/standard.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 42
   payloads: 342
   cases: 99676
-  aliases: 11157
+  aliases: 11158
   negatives: 829
 payloads:
 - path: amca/_debt.yaml
@@ -587,8 +576,8 @@ payloads:
   sha256: 57b005cc2cead03c9443200d4436d9768aca2f95094323244e480754ca5ce8b1
   bytes: 19188
 - path: ieee/iec_ieee_copublished.yaml
-  sha256: 100a0a9d1bafc8a00ce750e8d809fad6f450dce9d6f12d2b4ca2f880341c0ed3
-  bytes: 18021
+  sha256: 681cf15ddf6321794ae613df4ae6a8822c61f3745c02c936328dd7b369c54f96
+  bytes: 17981
 - path: ieee/interpretation_identifier.yaml
   sha256: 30238d9cf0abe4ccbc09c109e3f33a5a61203032809207615c873ba08b5e84bc
   bytes: 1834
@@ -1014,8 +1003,8 @@ curated:
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
 - path: ieee/_status.yaml
-  sha256: 5171bb96f7614e8dbc6f4e2d764758a408784b01e451c7e040b2557dbe64bab8
-  bytes: 570
+  sha256: c381c9a8f1ec4b92d179a7a0f74c34729ee52fbd7b022f845ab8262b606f9b74
+  bytes: 722
 - path: ietf/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
