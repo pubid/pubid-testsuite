@@ -1,15 +1,12 @@
 ---
 clean: false
-known_mismatches: 31
+known_mismatches: 35
 known_schema_errors: 0
-# Residual divergences after the stage-draft wave (pubid ieee branch:
-# the D= notation, the compound both-systems form, P-state identity and
-# the IEC/IEEE URN): the reference documents spell these rows
-# inconsistently with their own canonical forms - the alias families
-# (stage-first joint spellings, DP-monthcode rewrites, adopted
-# corrigenda) and two one-off spellings cannot be normalized
-# structurally. Documented, not gated; every other row of the
-# 10,007-case ledger round-trips.
-# 30 DFDIS-corrupted cases additionally quarantined in the review quadrant
-# (contract C1); they are excluded from this count pending corrected
-# canonical expectations.
+# Residual divergences after the C1 stage-draft wave (gem #458 restored
+# draft dates on IEC/IEEE-led D+stage drafts and this corpus was
+# regenerated against it): the reference still fails 35 rows - the alias
+# families (stage-first joint spellings, DP-monthcode rewrites, adopted
+# corrigenda), the pure ISO/IEC joint-development and dotted-Preprint
+# rows the ieee parser cannot re-parse, and scattered urn divergences.
+# Documented, not gated; every other row of the 9,446-case ieee ledger
+# round-trips.
