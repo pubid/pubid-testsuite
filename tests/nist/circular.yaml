@@ -9590,27 +9590,6 @@
 - id: nist.circular.12111
   identifier:
     _type: pubid:nist:circular
-    publisher: NBS
-    series: CIRC
-    parsed_format: mr
-  representations:
-    human: NBS.CIRC
-    urn: urn:nist:circ:supp
-  style: v3
-- id: nist.circular.12112
-  identifier:
-    _type: pubid:nist:circular
-    number: '154'
-    publisher: NBS
-    series: CIRC
-    parsed_format: mr
-  representations:
-    human: NBS.CIRC.154
-    urn: urn:nist:circ:154.supp
-  style: v3
-- id: nist.circular.12113
-  identifier:
-    _type: pubid:nist:circular
     number: '154'
     publisher: NBS
     series: CIRC
@@ -9621,7 +9600,7 @@
     human: NBS.CIRC.154suprev
     urn: urn:nist:circ:154.supprev
   style: v3
-- id: nist.circular.12114
+- id: nist.circular.12112
   identifier:
     _type: pubid:nist:circular
     edition:
@@ -9634,10 +9613,7 @@
     human: NBS.CIRC.e2
     urn: urn:nist:circ:e2.supp
   style: v3
-  non_normalized_aliases:
-  - spelling: NBS.CIRCe2
-    style: v3
-- id: nist.circular.12115
+- id: nist.circular.12113
   identifier:
     _type: pubid:nist:circular
     publisher: NBS
