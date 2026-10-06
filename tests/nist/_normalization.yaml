@@ -1,30 +1,4 @@
 ---
-- from: NBS BH 3Ua
-  to: NBS BH 3A
-- from: NBS BH 5Ua
-  to: NBS BH 5A
-- from: NBS BMS 144supp
-  to: NBS BMS 144sup
-- from: NBS BMS 17supp
-  to: NBS BMS 17sup
-- from: NBS BMS 17supp2
-  to: NBS BMS 17sup2
-- from: NIST AMS 300-8r1/upd
-  to: NIST AMS 300-8r1/Upd1-202102
-- from: NBS BH 3a
-  to: NBS BH 3A
-- from: NBS BH 5a
-  to: NBS BH 5A
-- from: NIST.AMS.300-8r1/upd
-  to: NIST.AMS.300-8r1-upd1
-- from: NIST.VTS.100-2sup1
-  to: NIST.VTS.100-2
-- from: NIST.VTS.100-3pt2sup1
-  to: NIST.VTS.100-3pt2
-- from: NIST AMS 100-48-upd1
-  to: NIST AMS 100-48/Upd1
-- from: NIST AI NIST AI 100-2e2023 ipd
-  to: NIST AI 100-2e2023 ipd
 - from: NBS CIRC 101e2supp
   to: NBS CIRC 101e2sup
 - from: NBS CIRC 11-1911
@@ -40,7 +14,7 @@
 - from: NBS CIRC 154supp
   to: NBS CIRC 154sup
 - from: NBS CIRC 154supprev
-  to: NBS CIRC 154suprev
+  to: NBS CIRC 154sup
 - from: NBS CIRC 19supp
   to: NBS CIRC 19sup
 - from: NBS CIRC 24e4supp
@@ -69,14 +43,6 @@
   to: NBS CIRC 25e1928sup
 - from: NBS CIRC 25suppe1929
   to: NBS CIRC 25e1929sup
-- from: NBS CIRC 25sup-1925
-  to: NBS CIRC 25sup1925
-- from: NBS CIRC 25sup-1927
-  to: NBS CIRC 25sup1927
-- from: NBS CIRC 25sup-1928
-  to: NBS CIRC 25sup1928
-- from: NBS CIRC 25sup-1929
-  to: NBS CIRC 25sup1929
 - from: NBS CIRC 38supp
   to: NBS CIRC 38sup
 - from: NBS CIRC 398supp1937
@@ -109,6 +75,8 @@
   to: NBS CIRC 510sup1
 - from: NBS CIRC 510supp2
   to: NBS CIRC 510sup2
+- from: NBS CIRC 54index
+  to: NBS CIRC 54indx
 - from: NBS CIRC 562supp1
   to: NBS CIRC 562sup1
 - from: NBS CIRC 583supp
@@ -132,9 +100,9 @@
 - from: NBS CIRC 25supp-1929
   to: NBS CIRC 25sup1929
 - from: NBS.CIRC.supJun1925-Jun1926
-  to: NBS CIRC supJun1925-Jun1926
+  to: NBS CIRC 24e7sup2
 - from: NBS.CIRC.supJun1925-Jun1927
-  to: NBS CIRC supJun1925-Jun1927
+  to: NBS CIRC 24e7sup3
 - from: NBS LC 118supp3/1926
   to: NBS LC 118sup/Upd1-192603
 - from: NBS LC 145r6/1925
@@ -177,6 +145,14 @@
   to: NBS CRPL 4-M-5
 - from: NBS CRPL 8-1_9-4
   to: NBS CRPL 8-1pt9-4
+- from: NBS CRPL-F-B 1960index
+  to: NBS CRPL-F-B 1960indx
+- from: NBS CRPL-F-B 1962index
+  to: NBS CRPL-F-B 1962indx
+- from: NBS CRPL-F-B 1963index
+  to: NBS CRPL-F-B 1963indx
+- from: NBS CRPL-F-B 1964index
+  to: NBS CRPL-F-B 1964indx
 - from: NBS CRPL c4-4
   to: NBS CRPL 4-4
 - from: NBS.CRPL.c4-4
@@ -407,8 +383,6 @@
   to: FIPS.54-1e1501
 - from: NIST.FIPS.54-1-Jan17
   to: FIPS.54-1e1701
-- from: NIST FIPS 197-upd1
-  to: NIST FIPS 197/Upd1
 - from: NIST GCR 15-1000
   to: NIST GCR 15e1000
 - from: NIST GCR 15-1001
@@ -480,11 +454,11 @@
 - from: NIST HB 105-1-1990
   to: NIST HB 105-1r1990
 - from: NIST HB 105-1-2019
-  to: NIST HB 105-1e2019
+  to: NIST HB 1e2019
 - from: NIST HB 105-4-2016
-  to: NIST HB 105-4e2016
+  to: NIST HB 4e2016
 - from: NIST HB 105-8-2019
-  to: NIST HB 105-8e2019
+  to: NIST HB 8e2019
 - from: NIST HB 130-1989
   to: NIST HB 130e1989
 - from: NIST HB 130-1990
@@ -586,9 +560,9 @@
 - from: NIST HB 150-10-2020
   to: NIST HB 10e2020
 - from: NIST HB 150-1-2017
-  to: NIST HB 150-1e2017
+  to: NIST HB 1e2017
 - from: NIST HB 150-1-2019
-  to: NIST HB 150-1e2019
+  to: NIST HB 1e2019
 - from: NIST HB 150-15-2020
   to: NIST HB 15e2020
 - from: NIST HB 150-17-2020
@@ -602,9 +576,9 @@
 - from: NIST HB 150-2020
   to: NIST HB 150e2020
 - from: NIST HB 150-2-2016
-  to: NIST HB 150-2e2016
+  to: NIST HB 2e2016
 - from: NIST HB 150-2-2019
-  to: NIST HB 150-2e2019
+  to: NIST HB 2e2019
 - from: NIST HB 150-22-2005
   to: NIST HB 22e2005
 - from: NIST HB 150-22-2008
@@ -616,11 +590,11 @@
 - from: NIST HB 150-31-2017
   to: NIST HB 31e2017
 - from: NIST HB 150-5-2020
-  to: NIST HB 150-5e2020
+  to: NIST HB 5e2020
 - from: NIST HB 150-6-2020
-  to: NIST HB 150-6e2020
+  to: NIST HB 6e2020
 - from: NIST HB 150-8-2018
-  to: NIST HB 150-8e2018
+  to: NIST HB 8e2018
 - from: NIST HB 153-2007
   to: NIST HB 153e2007
 - from: NIST HB 153-2009
@@ -688,7 +662,7 @@
 - from: NIST HB 44-2020
   to: NIST HB 44e2020
 - from: NIST HB 150-4-2019
-  to: NIST HB 150-4e2019
+  to: NIST HB 4e2019
 - from: NIST HB 150-18-2006
   to: NIST HB 18e2006
 - from: NIST HB 150-17-2021
@@ -727,6 +701,50 @@
   to: NIST.HB.105-1r2017
 - from: NIST.HB.44-2023-upd1
   to: NIST.HB.44e2023-upd1
+- from: NBS BH 3Ua
+  to: NBS BH 3A
+- from: NBS BH 5Ua
+  to: NBS BH 5A
+- from: NBS BMS 144supp
+  to: NBS BMS 144sup
+- from: NBS BMS 17supp
+  to: NBS BMS 17sup
+- from: NBS BMS 17supp2
+  to: NBS BMS 17sup2
+- from: NIST AMS 300-8r1/upd
+  to: NIST AMS 300-8r1/Upd1-202102
+- from: NIST CSWP 1 pol
+  to: NIST CSWP 1(pol)
+- from: NIST CSWP 10 ind
+  to: NIST CSWP 10(ind)
+- from: NIST CSWP 10 por
+  to: NIST CSWP 10(por)
+- from: NIST CSWP 10 spa
+  to: NIST CSWP 10(spa)
+- from: NIST CSWP 6 bul
+  to: NIST CSWP 6(bul)
+- from: NIST CSWP 6 fre
+  to: NIST CSWP 6(fre)
+- from: NIST CSWP 6 spa
+  to: NIST CSWP 6(spa)
+- from: NIST CSWP 6 por
+  to: NIST CSWP 6(por)
+- from: NIST CSWP 6 ukr
+  to: NIST CSWP 6(ukr)
+- from: NIST CSWP 10 ara
+  to: NIST CSWP 10(ara)
+- from: NIST CSWP 6 ind
+  to: NIST CSWP 6(ind)
+- from: NIST CSWP 6 ara
+  to: NIST CSWP 6(ara)
+- from: NIST CSWP 6 jpn
+  to: NIST CSWP 6(jpn)
+- from: NBS BH 3a
+  to: NBS BH 3A
+- from: NBS BH 5a
+  to: NBS BH 5A
+- from: NIST.AMS.300-8r1/upd
+  to: NIST.AMS.300-8r1-upd1
 - from: NBS IR 73-197Ur
   to: NBS IR 73-197r1
 - from: NBS IR 78-1143Ua
@@ -863,8 +881,6 @@
   to: NBS IR 84-2840sup
 - from: NIST IR 4743rJun1992
   to: NIST IR 4743/Upd1-199206
-- from: NIST IR 5058r04/98
-  to: NIST IR 5058/Upd1-199804
 - from: NIST IR 5672-2018
   to: NIST IR 5672e2018
 - from: NIST IR 5672-2019
@@ -874,7 +890,7 @@
 - from: NIST IR 6529-a
   to: NIST IR 6529-A
 - from: NIST IR 6867es
-  to: NIST IR 6867 spa
+  to: NIST IR 6867(spa)
 - from: NIST IR 6945Ur
   to: NIST IR 6945r1
 - from: NIST IR 6969-2018
@@ -912,17 +928,17 @@
 - from: NIST IR 8259Ua
   to: NIST IR 8259A
 - from: NIST IR 8228pt
-  to: NIST IR 8228 por
+  to: NIST IR 8228(por)
 - from: NIST IR 8228es
-  to: NIST IR 8228 spa
+  to: NIST IR 8228(spa)
 - from: NIST IR 8259Aes
-  to: NIST IR 8259A spa
+  to: NIST IR 8259A(spa)
 - from: NIST IR 8259pt
-  to: NIST IR 8259 por
+  to: NIST IR 8259(por)
 - from: NIST IR 8259Apt
-  to: NIST IR 8259A por
+  to: NIST IR 8259A(por)
 - from: NIST IR 8259es
-  to: NIST IR 8259 spa
+  to: NIST IR 8259(spa)
 - from: NIST IR 8170-upd
   to: NIST IR 8170/Upd1-202003
 - from: NIST IR 8211-upd
@@ -931,6 +947,10 @@
   to: NIST IR 8286C
 - from: NIST IR 8270-draft2
   to: NIST IR 8270 2pd
+- from: NIST IR 8374 por
+  to: NIST IR 8374(por)
+- from: NIST IR 8374 spa
+  to: NIST IR 8374(spa)
 - from: NIST IR 8290-upd1
   to: NIST IR 8290/Upd1-202205
 - from: NIST IR 85-3273-37-upd1
@@ -948,25 +968,25 @@
 - from: NIST IR 8352-draft
   to: NIST IR 8352
 - from: NIST IR 8115viet
-  to: NIST IR 8115 vie
+  to: NIST IR 8115(vie)
 - from: NIST IR 8118r1es
-  to: NIST IR 8118r1 spa
+  to: NIST IR 8118r1(spa)
 - from: NIST IR 8115es
-  to: NIST IR 8115 spa
+  to: NIST IR 8115(spa)
 - from: NIST IR 8119viet
-  to: NIST IR 8119 vie
+  to: NIST IR 8119(vie)
 - from: NIST IR 8115chi
-  to: NIST IR 8115 zho
+  to: NIST IR 8115(zho)
 - from: NIST IR 8119es
-  to: NIST IR 8119 spa
+  to: NIST IR 8119(spa)
 - from: NIST IR 8178port
-  to: NIST IR 8178 por
+  to: NIST IR 8178(por)
 - from: NIST IR 8115r1-upd
   to: NIST IR 8115r1/Upd1-202103
 - from: NIST IR 8119chi
-  to: NIST IR 8119 zho
+  to: NIST IR 8119(zho)
 - from: NIST IR 8117es
-  to: NIST IR 8117 spa
+  to: NIST IR 8117(spa)
 - from: NIST IR 8323-draft
   to: NIST IR 8323
 - from: NBS IR 73-197r
@@ -1381,8 +1401,6 @@
   to: NIST IR 85-3273pt13
 - from: NIST IR 85-3273-14
   to: NIST IR 85-3273pt14
-- from: NIST IR 85-3273-14r
-  to: NIST IR 85-3273pt14r1
 - from: NIST IR 85-3273-15
   to: NIST IR 85-3273pt15
 - from: NIST IR 85-3273-16
@@ -1528,17 +1546,17 @@
 - from: NIST IR 91-3957-9
   to: NIST IR 91-3957pt9
 - from: NIST.IR.8115r1-upd
-  to: NIST IR 8115r1-upd1
+  to: NIST IR 8115r1/Upd1
 - from: NIST.IR.8165-upd1
   to: NIST IR 8165/Upd1
 - from: NIST.IR.8170-upd
-  to: NIST IR 8170-upd1
+  to: NIST IR 8170/Upd1
 - from: NIST.IR.8211-upd
-  to: NIST IR 8211-upd1
+  to: NIST IR 8211/Upd1
 - from: NIST.IR.8259Aes
-  to: NIST IR 8259A spa
+  to: NIST IR 8259A(spa)
 - from: NIST.IR.8259Apt
-  to: NIST IR 8259 por
+  to: NIST IR 8259(por)
 - from: NIST.IR.8286C-upd1
   to: NIST IR 8286C/Upd1
 - from: NIST.IR.8290-upd1
@@ -1553,12 +1571,8 @@
   to: NIST IR 8455/Upd1
 - from: NIST.IR.85-3273-37-upd1
   to: NIST IR 85-3273pt37/Upd1
-- from: NIST IR 8165-upd1
-  to: NIST IR 8165/Upd1
-- from: NIST IR 8455-upd1
-  to: NIST IR 8455/Upd1
 - from: NBS LC 1088sp
-  to: NBS LC 1088 spa
+  to: NBS LC 1088(spa)
 - from: NBS LC 118supp1925
   to: NBS LC 118sup1925
 - from: NBS LC 118supp1928
@@ -1730,7 +1744,7 @@
 - from: NBS LCIRC 1088
   to: NBS LC 1088
 - from: NBS LCIRC 1088sp
-  to: NBS LC 1088 spa
+  to: NBS LC 1088(spa)
 - from: NBS LCIRC 1091
   to: NBS LC 1091
 - from: NBS LCIRC 1092
@@ -4017,8 +4031,6 @@
   to: NIST NCSTAR 1-7B
 - from: NBS NSRDS 43supp
   to: NBS NSRDS 43sup
-- from: NBS NSRDS 63indx
-  to: NBS NSRDS 63i ndx
 - from: NBS NSRDS 63supp1
   to: NBS NSRDS 63sup1
 - from: NBS NSRDS 63supp2
@@ -4210,7 +4222,7 @@
 - from: NBS SP 708supp1
   to: NBS SP 708sup1
 - from: NIST SP 1001es
-  to: NIST SP 1001 spa
+  to: NIST SP 1001(spa)
 - from: NIST SP 1011-I-2 0
   to: NIST SP 1011v1ver2.0
 - from: NIST SP 1011-II-1 0
@@ -4304,7 +4316,7 @@
 - from: NIST SP 800-38Ua
   to: NIST SP 800-38A
 - from: NIST SP 800-38a-add
-  to: NIST SP 800-38a Add.
+  to: NIST SP 800-38A Add.
 - from: NIST SP 800-38Ub
   to: NIST SP 800-38B
 - from: NIST SP 800-38b-2005
@@ -4388,9 +4400,9 @@
 - from: NIST SP 984 4
   to: NIST SP 984-4
 - from: NIST SP 1262es
-  to: NIST SP 1262 spa
+  to: NIST SP 1262(spa)
 - from: NIST SP 500-300-upd
-  to: NIST SP 500-300-upd1
+  to: NIST SP 500-300/Upd1
 - from: NIST SP 260-136-2021
   to: NIST SP 260-136e2021
 - from: NIST SP 800-140Cr1-draft2
@@ -4398,21 +4410,21 @@
 - from: NIST SP 800-140Dr1-draft2
   to: NIST SP 800-140Dr1 2pd
 - from: NIST SP 800-181es
-  to: NIST SP 800-181 spa
+  to: NIST SP 800-181(spa)
 - from: NIST SP 800-181pt
-  to: NIST SP 800-181 por
+  to: NIST SP 800-181(por)
 - from: NIST SP 800-181r1es
-  to: NIST SP 800-181r1 spa
+  to: NIST SP 800-181r1(spa)
 - from: NIST SP 800-181r1pt
-  to: NIST SP 800-181r1 por
+  to: NIST SP 800-181r1(por)
 - from: NIST SP 800-219-draft
   to: NIST SP 800-219
-- from: NIST SP 800-181 .ukr
-  to: NIST SP 800-181 ukr
-- from: NIST SP 800-181r1 .slo
-  to: NIST SP 800-181r1 slo
-- from: NIST SP 800-181r1 .ukr
-  to: NIST SP 800-181r1 ukr
+- from: NIST SP 800-181 ukr
+  to: NIST SP 800-181(ukr)
+- from: NIST SP 800-181r1 slo
+  to: NIST SP 800-181r1(slo)
+- from: NIST SP 800-181r1 ukr
+  to: NIST SP 800-181r1(ukr)
 - from: NIST SP 1900-206-upd1
   to: NIST SP 1900-206/Upd1-202202
 - from: NIST SP 1273-draft
@@ -4556,7 +4568,7 @@
 - from: NIST.SP.800-38e
   to: NIST.SP.800-38E
 - from: NIST.SP.955.Suppl
-  to: NIST.SP.955-S.uppl
+  to: NIST.SP.955-S..uppl
 - from: NIST.SP.984.4
   to: NIST.SP.984-4
 - from: NBS TN 467pt1adde1
@@ -4601,13 +4613,5 @@
   to: NIST TN 1355r1
 - from: NIST.TN.1648_2009
   to: NIST.TN.1648e2009
-- from: NIST TN 1648_2009
-  to: NIST TN 1648e2009
 - from: NIST.TN.2150-upd
   to: NIST.TN.2150-upd1-202102
-- from: NIST TN 2221-upd1
-  to: NIST TN 2221/Upd1
-- from: NIST TN 2228-upd1
-  to: NIST TN 2228/Upd1
-- from: NIST TN 2230-upd1
-  to: NIST TN 2230/Upd1
