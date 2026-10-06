@@ -809,19 +809,14 @@
 - id: nist.nsrds.7854
   identifier:
     _type: pubid:nist:nsrds
-    number: 63i
+    number: '63'
     publisher: NBS
     series: NSRDS
-    translation_component:
-      code: ndx
-    translation: " ndx"
+    index: indx
   representations:
-    human: NBS NSRDS 63i ndx
-    urn: urn:nist:nsrds:63i.supp:ndx
+    human: NBS NSRDS 63indx
+    urn: urn:nist:nsrds:63.supp.index
   style: v3
-  non_normalized_aliases:
-  - spelling: NBS NSRDS 63indx
-    style: v3
 - id: nist.nsrds.7855
   identifier:
     _type: pubid:nist:nsrds
