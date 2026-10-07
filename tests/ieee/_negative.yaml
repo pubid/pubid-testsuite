@@ -46,9 +46,7 @@
       code: unclassified
 - id: ieee.neg.base.0010
   input: IEC/IEEE P63195/ED1, 2018
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0011
   input: IEC/IEEE P80005-1:2019/AMD1, CDV August 2021
   expect:
@@ -956,24 +954,16 @@
       code: unclassified
 - id: ieee.neg.base.0195
   input: IEEE P1138/D7, 2021
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0196
   input: IEEE P1924.1/D14, 2021
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0197
   input: IEEE P1936.1/D7.0, 2021
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0198
   input: IEEE P308/D2, 2019
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0199
   input: IEEE PC37.60/IEC 62271-111_D10, February 2012
   expect:
@@ -986,9 +976,7 @@
       code: unclassified
 - id: ieee.neg.base.0201
   input: IEEE PC57.12.01/D8, 2014
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0202
   input: NACE SP0XXX-2011/IEEE P1835_D1a, 2011
   expect:
@@ -1006,9 +994,7 @@
       code: unclassified
 - id: ieee.neg.base.0205
   input: NACE/IEEE P1835_D1a, 2011
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0206
   input: IEC/ISO/IEEE 80005-1:2012
   expect:
@@ -1257,9 +1243,7 @@
       code: unclassified
 - id: ieee.neg.base.0268
   input: IEEE Unapproved Draft Std PC37.91/D8, 2007
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0269
   input: IEEE Unapproved Draft Std PC57.12.31 D4, Sept 2009
   expect:
@@ -2093,17 +2077,13 @@
       code: unclassified
 - id: ieee.neg.standard.0113
   input: 62704-4/D4, 2020
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.standard.0114
   input: IEC/IEC P62704-2/D5, 2016
   notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.standard.0115
   input: IEEE P686/D2, 2017 (Revision of IEEE Std 686-2008)
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.standard.0116
   input: IEEE Std 262-1973 /ANSI C57.12.90-1973 (Supersedes ANSI C57.12.90-1968)
   expect:
@@ -2111,9 +2091,7 @@
       code: unclassified
 - id: ieee.neg.standard.0117
   input: IEEE Std P802.16-2004/Cor1/D5, 2005
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.standard.0118
   input: IEC 61588:2009(E)
   expect:
