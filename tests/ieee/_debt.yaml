@@ -502,13 +502,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 26.'
-- id: ieee.debt.fa39c8d60462
-  input: IEC/IEEE P63195/ED1, 2018
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 26.'
 - id: ieee.debt.163ab60e6bf5
   input: IEC/IEEE P80005-1:2019/AMD1, CDV August 2021
   expect:
@@ -630,13 +623,6 @@
     expected one of [''C'', ''CSA'', ''Cor'', ''INT'', ''Conformance'', [\x30-\x39],
     ''FDIS'', ''CDV'', ''CD'', ''WD'', ''PWI'', ''NP'', ''Corrigendum'', ''REV'',
     ''Rev'', ''rev'', ''R'', ''D'', ''.'', ''-'', ''&#x2013;'', ''–'','
-- id: ieee.debt.ac122905fa7c
-  input: IEEE P15939_FDIS, 2016
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 23.'
 - id: ieee.debt.784f0b04ed33
   input: IEEE P1616/D4, 29 April 2021
   expect:
@@ -1948,18 +1934,14 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['', and'', '' and'', '', '', '' as amended by '', '' '', ''/'',
-    '';'', ''-'', ''&#x2013;'', ''–'', '' as amended by IEEE''s '', '' and its approved
-    amendments''] at line 1 char 75.'
+    expected one of ['' '', '':''] at line 1 char 76.'
 - id: ieee.debt.52e5a7ec70ad
   input: ISO/IEC/IEEE P23026/D3, 2014 (Revision of 2006 edition (ISO/IEC 23026:2006)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['', and'', '' and'', '', '', '' as amended by '', '' '', ''/'',
-    '';'', ''-'', ''&#x2013;'', ''–'', '' as amended by IEEE''s '', '' and its approved
-    amendments''] at line 1 char 75.'
+    expected one of ['' '', '':''] at line 1 char 76.'
 - id: ieee.debt.dcfe0454df04
   input: ISO/IEC/IEEE P29119-2/CD Second edition, August 2019
   expect:
@@ -2903,13 +2885,6 @@
     expected one of [''Cor'', ''INT'', ''Conformance'', ''Corrigendum'', ''Amendment'',
     ''Amd'', ''/'', ''REV'', ''Rev'', ''rev'', ''_'', ''-'', ''&#x2013;'', ''–'',
     '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Fe'
-- id: ieee.debt.c88931efcb27
-  input: IEEE Std 62704-4/D4, 2020
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 26.'
 - id: ieee.debt.bc023474c25f
   input: IEC P62271-111/IEEE PC37.60/D5, February 2018
   expect:
@@ -2928,55 +2903,6 @@
     expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
     ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
     ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.4685711e9a4c
-  input: IEEE Approved Draft Std C57.12.35/D7, 2007
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 43.'
-- id: ieee.debt.d835ceb61571
-  input: IEEE Approved Draft Std PC37.101-2006/Cor 1/D2, 2007
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 53.'
-- id: ieee.debt.69b4b825df82
-  input: IEEE P1138/D7, 2021
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 20.'
-- id: ieee.debt.b93873afeb34
-  input: IEEE P1924.1/D14, 2021
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 23.'
-- id: ieee.debt.0b7501a2cba5
-  input: IEEE P1936.1/D7.0, 2021
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 24.'
-- id: ieee.debt.0f6602eb173c
-  input: IEEE P308/D2, 2019
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 19.'
-- id: ieee.debt.de14a7845fd0
-  input: IEEE P686/D2, 2017 (Revision of IEEE Std 686-2008)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 19.'
 - id: ieee.debt.22829cc86e31
   input: IEEE PC37.60/IEC 62271-111/D10, February 2012
   expect:
@@ -2995,13 +2921,6 @@
     expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
     ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
     ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.78e4cfe13da5
-  input: IEEE PC57.12.01/D8, 2014
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 29.'
 - id: ieee.debt.e4711f86f928
   input: IEEE Std 262-1973 /ANSI C57.12.90-1973 (Supersedes ANSI C57.12.90-1968)
   expect:
@@ -3009,20 +2928,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of ['' '', '':''] at line 1 char 41.'
-- id: ieee.debt.2d73545668e0
-  input: IEEE P433/D11, 2006
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 20.'
-- id: ieee.debt.0dac21de9687
-  input: IEEE Draft Std P802.16-2004/Cor 1/D5, 2005
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 43.'
 - id: ieee.debt.6c6460faf27a
   input: NACE SP0XXX-2011/IEEE P1835/D1a, 2011
   expect:
@@ -3050,13 +2955,6 @@
     expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
     ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
     ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.571963a508a5
-  input: NACE/IEEE P1835/D1a, 2011
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 26.'
 - id: ieee.debt.5160dbf36965
   input: IEC 61588:2009(E)
   expect:
@@ -3564,13 +3462,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 27.'
-- id: ieee.debt.787be3c04f2b
-  input: IEEE Unapproved Draft Std PC37.91/D8, 2007
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 43.'
 - id: ieee.debt.b6959e92eb3d
   input: ISO/IEC/IEEE 8802-1Q:2016/Cor 1:2017(E)
   expect:
@@ -3864,13 +3755,6 @@
     expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
     ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
     ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.3519c0cb4a77
-  input: ISO/IEC/IEEE P26511.2/FDIS, 2018
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 33.'
 - id: ieee.debt.7f1c2bb3cdf3
   input: ISO/IEEE 11073-20601:2010/Amd 1:2015(E) (Adoption of IEEE Std 11073-20601a-2010)
   expect:
@@ -4069,13 +3953,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''19'', ''20'', '' ''] at line 1 char 44.'
-- id: ieee.debt.787be3c04f2b
-  input: IEEE Unapproved Draft Std PC37.91/D8, 2007
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 43.'
 - id: ieee.debt.ab00eadc021d
   input: Unapproved Draft Std ISO/IEC FDIS 15288:2007(E) IEEE P15288/D3
   expect:
@@ -5048,13 +4925,6 @@
     expected one of [''Cor'', ''INT'', ''Conformance'', ''Corrigendum'', ''Amendment'',
     ''Amd'', ''/'', ''REV'', ''Rev'', ''rev'', ''_'', ''-'', ''&#x2013;'', ''–'',
     '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Fe'
-- id: ieee.debt.c88931efcb27
-  input: IEEE Std 62704-4/D4, 2020
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 26.'
 - id: ieee.debt.bc023474c25f
   input: IEC P62271-111/IEEE PC37.60/D5, February 2018
   expect:
@@ -5073,55 +4943,6 @@
     expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
     ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
     ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.4685711e9a4c
-  input: IEEE Approved Draft Std C57.12.35/D7, 2007
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 43.'
-- id: ieee.debt.d835ceb61571
-  input: IEEE Approved Draft Std PC37.101-2006/Cor 1/D2, 2007
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 53.'
-- id: ieee.debt.69b4b825df82
-  input: IEEE P1138/D7, 2021
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 20.'
-- id: ieee.debt.b93873afeb34
-  input: IEEE P1924.1/D14, 2021
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 23.'
-- id: ieee.debt.0b7501a2cba5
-  input: IEEE P1936.1/D7.0, 2021
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 24.'
-- id: ieee.debt.0f6602eb173c
-  input: IEEE P308/D2, 2019
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 19.'
-- id: ieee.debt.de14a7845fd0
-  input: IEEE P686/D2, 2017 (Revision of IEEE Std 686-2008)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 19.'
 - id: ieee.debt.22829cc86e31
   input: IEEE PC37.60/IEC 62271-111/D10, February 2012
   expect:
@@ -5140,13 +4961,6 @@
     expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
     ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
     ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.78e4cfe13da5
-  input: IEEE PC57.12.01/D8, 2014
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 29.'
 - id: ieee.debt.e4711f86f928
   input: IEEE Std 262-1973 /ANSI C57.12.90-1973 (Supersedes ANSI C57.12.90-1968)
   expect:
@@ -5154,20 +4968,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of ['' '', '':''] at line 1 char 41.'
-- id: ieee.debt.2d73545668e0
-  input: IEEE P433/D11, 2006
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 20.'
-- id: ieee.debt.0dac21de9687
-  input: IEEE Draft Std P802.16-2004/Cor 1/D5, 2005
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 43.'
 - id: ieee.debt.6c6460faf27a
   input: NACE SP0XXX-2011/IEEE P1835/D1a, 2011
   expect:
@@ -5195,13 +4995,6 @@
     expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
     ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
     ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.571963a508a5
-  input: NACE/IEEE P1835/D1a, 2011
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 26.'
 - id: ieee.debt.5160dbf36965
   input: IEC 61588:2009(E)
   expect:
@@ -5709,13 +5502,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 27.'
-- id: ieee.debt.787be3c04f2b
-  input: IEEE Unapproved Draft Std PC37.91/D8, 2007
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 43.'
 - id: ieee.debt.b6959e92eb3d
   input: ISO/IEC/IEEE 8802-1Q:2016/Cor 1:2017(E)
   expect:
@@ -6009,13 +5795,6 @@
     expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
     ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
     ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.3519c0cb4a77
-  input: ISO/IEC/IEEE P26511.2/FDIS, 2018
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 33.'
 - id: ieee.debt.7f1c2bb3cdf3
   input: ISO/IEEE 11073-20601:2010/Amd 1:2015(E) (Adoption of IEEE Std 11073-20601a-2010)
   expect:
@@ -6311,13 +6090,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 26.'
-- id: ieee.debt.fa39c8d60462
-  input: IEC/IEEE P63195/ED1, 2018
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 26.'
 - id: ieee.debt.163ab60e6bf5
   input: IEC/IEEE P80005-1:2019/AMD1, CDV August 2021
   expect:
@@ -6439,13 +6211,6 @@
     expected one of [''C'', ''CSA'', ''Cor'', ''INT'', ''Conformance'', [\x30-\x39],
     ''FDIS'', ''CDV'', ''CD'', ''WD'', ''PWI'', ''NP'', ''Corrigendum'', ''REV'',
     ''Rev'', ''rev'', ''R'', ''D'', ''.'', ''-'', ''&#x2013;'', ''–'','
-- id: ieee.debt.ac122905fa7c
-  input: IEEE P15939_FDIS, 2016
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 23.'
 - id: ieee.debt.784f0b04ed33
   input: IEEE P1616/D4, 29 April 2021
   expect:
@@ -7757,18 +7522,14 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['', and'', '' and'', '', '', '' as amended by '', '' '', ''/'',
-    '';'', ''-'', ''&#x2013;'', ''–'', '' as amended by IEEE''s '', '' and its approved
-    amendments''] at line 1 char 75.'
+    expected one of ['' '', '':''] at line 1 char 76.'
 - id: ieee.debt.52e5a7ec70ad
   input: ISO/IEC/IEEE P23026/D3, 2014 (Revision of 2006 edition (ISO/IEC 23026:2006)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['', and'', '' and'', '', '', '' as amended by '', '' '', ''/'',
-    '';'', ''-'', ''&#x2013;'', ''–'', '' as amended by IEEE''s '', '' and its approved
-    amendments''] at line 1 char 75.'
+    expected one of ['' '', '':''] at line 1 char 76.'
 - id: ieee.debt.dcfe0454df04
   input: ISO/IEC/IEEE P29119-2/CD Second edition, August 2019
   expect:
@@ -8081,13 +7842,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''19'', ''20'', '' ''] at line 1 char 44.'
-- id: ieee.debt.787be3c04f2b
-  input: IEEE Unapproved Draft Std PC37.91/D8, 2007
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x61-\x7a], [\x30-\x39], '' Edition''] at line 1 char 43.'
 - id: ieee.debt.ab00eadc021d
   input: Unapproved Draft Std ISO/IEC FDIS 15288:2007(E) IEEE P15288/D3
   expect:
