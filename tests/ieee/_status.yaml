@@ -1,14 +1,16 @@
 ---
 clean: false
-known_mismatches: 34
+known_mismatches: 63
 known_schema_errors: 0
-# Residual divergences after the C1 stage-draft wave (gem #458 restored
-# draft dates on IEC/IEEE-led D+stage drafts and this corpus was
-# regenerated against it) and the C3 copublished-tails ruling (gem
-# builder routes "(Revision of IEEE Std …)" narratives into
-# relationships and drops "(MM/DD)" print dates): the reference still
-# fails 34 rows - the alias families (stage-first joint spellings,
-# DP-monthcode rewrites, adopted corrigenda), the pure ISO/IEC
-# joint-development and dotted-Preprint rows the ieee parser cannot
-# re-parse, and scattered urn divergences. Documented, not gated; every
-# other row of the 9,446-case ieee ledger round-trips.
+# Residual divergences after the C1 stage-draft wave (the D= designator
+# face), the C2 canonicals (Std/September short forms, the :long
+# format), and the draft-date round-trip wave (dates compose into the
+# draft component; joint D-drafts build as project drafts): the
+# reference still fails 63 checks - the pure ISO/IEC joint-development
+# rows and the rev-inline forms the parser cannot re-parse (pre-existing
+# on main), the double-D draft render ("D/D2.1.1"), the C2 "Draft Std"
+# alias rows awaiting the alias regroup, the joint dotted-separator
+# family ("P60079.30.1") with two hash/urn round-trip rows
+# ("ISO/IEC/IEEE P42010/D4", "IEEE P754/D1"), and five render diffs.
+# Documented, not gated; every other row of the 9,620-case ieee ledger
+# round-trips.
