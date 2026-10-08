@@ -1,15 +1,12 @@
 ---
 clean: false
-known_mismatches: 89
+known_mismatches: 46
 known_schema_errors: 0
-# Residual divergences after the C1 stage-draft wave (D= designator
-# face), the C2 canonicals + alias regroup (the draft type word never
-# reaches the wire; a status-less draft renders the word Draft alone),
-# and the draft-date round trip (dates compose into the draft; a base
-# year of a dated-draft family dash-attaches to the code): 89 checks -
-# the pre-existing families (bare ISO/IEC joint rows, rev-inline
-# spellings, the double-D draft render, the joint dotted-separator
-# rows), the year-only draft-date rows awaiting the generic compose
-# ("D9a 2015" vs ", 2015"), and the alias/regroup stragglers.
-# Documented, not gated; every other row of the 9,462-case ledger
-# round-trips.
+# Residual divergences after the draft-date round trip (dates compose
+# into the draft, comma-year canonicals), the C2 alias regroup (the
+# draft type word never reaches the wire), the base-year dash-attach,
+# the NESC name-first Redline fix and the year-only compose: 46 checks
+# - the pre-existing families (bare ISO/IEC joint rows, rev-inline
+# spellings, the "IEEE Std YYYY NESC *" re-parse gap) and scattered
+# hash/urn divergences. Documented, not gated; every other row of the
+# 9,482-case ledger round-trips.
