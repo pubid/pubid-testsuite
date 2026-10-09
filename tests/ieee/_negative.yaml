@@ -536,12 +536,6 @@
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0110
-  input: ISO/IEC/IEEE 8802-1AE:2020/Cor.1:2021 (Adoption of IEEE Standard 802.1AE-2018/Cor
-    1 -2020)
-  expect:
-    error:
-      code: unclassified
 - id: ieee.neg.base.0111
   input: ISO/IEC/IEEE 8802-21-1:2018(E) (Adoption of IEEE 802.21.1-2017)
   expect:
@@ -1000,51 +994,6 @@
   expect:
     error:
       code: unclassified
-- id: ieee.neg.base.0207
-  input: ISO/IEC/IEEE 15289:2015(E) - Redline
-  expect:
-    error:
-      code: unclassified
-- id: ieee.neg.base.0208
-  input: ISO/IEC/IEEE 15939:2017(E) - Redline
-  expect:
-    error:
-      code: unclassified
-- id: ieee.neg.base.0209
-  input: ISO/IEC/IEEE 16085:2021(E) - Redline
-  expect:
-    error:
-      code: unclassified
-- id: ieee.neg.base.0210
-  input: ISO/IEC/IEEE 16326:2019(E) - Redline
-  expect:
-    error:
-      code: unclassified
-- id: ieee.neg.base.0211
-  input: ISO/IEC/IEEE 26513:2017(E) - Redline
-  expect:
-    error:
-      code: unclassified
-- id: ieee.neg.base.0212
-  input: ISO/IEC/IEEE 29119-2:2021(E) - Redline
-  expect:
-    error:
-      code: unclassified
-- id: ieee.neg.base.0213
-  input: ISO/IEC/IEEE 29119-3:2021(E) - Redline
-  expect:
-    error:
-      code: unclassified
-- id: ieee.neg.base.0214
-  input: ISO/IEC/IEEE 29119-4:2021(E) - Redline
-  expect:
-    error:
-      code: unclassified
-- id: ieee.neg.base.0215
-  input: ISO/IEC/IEEE 29148:2018(E) - Redline
-  expect:
-    error:
-      code: unclassified
 - id: ieee.neg.base.0216
   input: ISO/IEC/IEEE 8802-15-3:2017(E)
   notes: fail fixture unexpectedly parsed - reclassify
@@ -1060,11 +1009,6 @@
 - id: ieee.neg.base.0220
   input: ISO/IEC/IEEE 8802-1AC-2018(E)
   notes: fail fixture unexpectedly parsed - reclassify
-- id: ieee.neg.base.0221
-  input: ISO/IEC/IEEE 8802-1AC:2018/Cor.1:2020(E)
-  expect:
-    error:
-      code: unclassified
 - id: ieee.neg.base.0222
   input: ISO/IEC/IEEE 8802-1AE:2013(E)
   notes: fail fixture unexpectedly parsed - reclassify
@@ -1086,11 +1030,6 @@
 - id: ieee.neg.base.0228
   input: ISO/IEC/IEEE 8802-1AS:2021(E)
   notes: fail fixture unexpectedly parsed - reclassify
-- id: ieee.neg.base.0229
-  input: ISO/IEC/IEEE 8802-1AX:2016/Cor.1:2018(E)
-  expect:
-    error:
-      code: unclassified
 - id: ieee.neg.base.0230
   input: ISO/IEC/IEEE 8802-1AX:2021
   notes: fail fixture unexpectedly parsed - reclassify
@@ -1133,19 +1072,9 @@
 - id: ieee.neg.base.0243
   input: ISO/IEC/IEEE 8802-1X:2021(E)
   notes: fail fixture unexpectedly parsed - reclassify
-- id: ieee.neg.base.0244
-  input: ISO/IEC/IEEE 8802-21:2018/Cor.1:2018(E)
-  expect:
-    error:
-      code: unclassified
 - id: ieee.neg.base.0245
   input: ISO/IEC/IEEE 8802-3-2:2021(E)
   notes: fail fixture unexpectedly parsed - reclassify
-- id: ieee.neg.base.0246
-  input: ISO/IEC/IEEE 8802-3:2017/Cor.1:2018(E)
-  expect:
-    error:
-      code: unclassified
 - id: ieee.neg.base.0247
   input: ISO/IEC/IEEE 8802-A:2015(E)
   notes: fail fixture unexpectedly parsed - reclassify
