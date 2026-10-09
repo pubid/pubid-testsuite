@@ -5488,3 +5488,29 @@
   - spelling: ISO/IEC/IEEE 8802-3:2017/Cor.1:2018(E)
     style: v3
   style: v3
+- id: ieee.corrigendum.8995
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '2'
+    year: '2017'
+    base:
+      _type: pubid:ieee:joint-development
+      number: '9945'
+      publisher: ISO
+      copublisher:
+      - IEC
+      - IEEE
+      year: '2009'
+      parenthetical_content: E
+      publishers:
+      - ISO
+      - IEC
+      - IEEE
+      lead_party: ISO
+  representations:
+    human: ISO/IEC/IEEE 9945:2009 (E)/Cor. 2-2017
+    urn: urn:ieee:iso:2017
+  non_normalized_aliases:
+  - spelling: ISO/IEC/IEEE 9945:2009/Cor.2:2017(E)
+    style: v3
+  style: v3
