@@ -32521,3 +32521,45 @@
   non_normalized_aliases:
   - spelling: NIST.SP.984.4
     style: v3
+- id: nist.special_publication.19802
+  identifier:
+    _type: pubid:nist:special-publication
+    number: 800-53
+    edition:
+      type: r
+      id: '4.1'
+    publisher: NIST
+    series: SP
+    subseries: '800'
+  representations:
+    human: NIST SP 800-53r4.1
+    urn: urn:nist:sp:800-53.r4.1.supp
+  style: v3
+- id: nist.special_publication.19803
+  identifier:
+    _type: pubid:nist:special-publication
+    number: 800-53
+    edition:
+      type: e
+      id: '2.1'
+    publisher: NIST
+    series: SP
+    subseries: '800'
+  representations:
+    human: NIST SP 800-53e2.1
+    urn: urn:nist:sp:800-53.e2.1.supp
+  style: v3
+- id: nist.special_publication.19804
+  identifier:
+    _type: pubid:nist:special-publication
+    number: 260-162
+    edition:
+      type: e
+      id: '2006.1'
+    publisher: NIST
+    series: SP
+    subseries: '260'
+  representations:
+    human: NIST SP 260-162e2006.1
+    urn: urn:nist:sp:260-162.e2006.1.supp
+  style: v3

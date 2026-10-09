@@ -4339,3 +4339,16 @@
     human: NIST FIPS 9-1
     urn: urn:nist:fips:9-1.supp
   style: v3
+- id: nist.federal_information_processing_standards.12425
+  identifier:
+    _type: pubid:nist:federal-information-processing-standards
+    number: '100'
+    edition:
+      type: r
+      id: '2.5'
+    publisher: NBS
+    series: FIPS
+  representations:
+    human: NBS FIPS 100r2.5
+    urn: urn:nist:fips:100.r2.5.supp
+  style: v3

@@ -12,33 +12,21 @@ oracle:
   clean: true
   dirty_paths: []
 repository:
-  commit: c4ce2d5d23cc3820ffb75fbf711a6ca03ddc2796
+  commit: 2a29722890d4122713821211af0b0739d7d48cff
   clean: false
   dirty_paths:
-  - tests/ieee/_status.yaml
-  - tests/ieee/adopted_standard.yaml
-  - tests/ieee/aiee.yaml
-  - tests/ieee/amendment.yaml
-  - tests/ieee/conformance_identifier.yaml
-  - tests/ieee/corrigendum.yaml
-  - tests/ieee/csa_dual_published.yaml
-  - tests/ieee/dual_published.yaml
-  - tests/ieee/iec_ieee_copublished.yaml
-  - tests/ieee/interpretation_identifier.yaml
-  - tests/ieee/ire.yaml
-  - tests/ieee/joint_development.yaml
-  - tests/ieee/multi_numbered_identifier.yaml
-  - tests/ieee/nesc_standard.yaml
-  - tests/ieee/project_draft_identifier.yaml
-  - tests/ieee/si_standard.yaml
-  - tests/ieee/standard.yaml
-  - tests/ieee/nesc_redline.yaml
+  - reference-docs/nist/identifiers/full/allrecords.txt
+  - reference-docs/nist/identifiers/pass/federal_information_processing_standards.txt
+  - reference-docs/nist/identifiers/pass/special_publication.txt
+  - tests/nist/_normalization.yaml
+  - tests/nist/federal_information_processing_standards.yaml
+  - tests/nist/special_publication.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 42
   payloads: 341
-  cases: 99686
+  cases: 99690
   aliases: 14769
   negatives: 829
 payloads:
@@ -772,8 +760,8 @@ payloads:
   sha256: 62d926adca128a9be3bac00f19cde6fec4020c705623611814d3a96fdd4eec43
   bytes: 2668160
 - path: nist/_normalization.yaml
-  sha256: 263039153c555a74432f5c1e2454f2db1dac5df49641f4639185634252c7af03
-  bytes: 103198
+  sha256: 3965b5a93227f8663734290ad163920e1ba0ea20992df9f0e9fc511919be000c
+  bytes: 103260
 - path: nist/circular.yaml
   sha256: e7d4ad35fcf4f9c98db4bb1649a3332678fbbf8f0a696dbdece36b8084b04510
   bytes: 198646
@@ -790,8 +778,8 @@ payloads:
   sha256: cc45d55c56c09c650f052da14b0cbe08a966ff21e7d4b40271f66b771fc14242
   bytes: 95244
 - path: nist/federal_information_processing_standards.yaml
-  sha256: 1a9a60fa53018bf2cbad64cfdf7544ec9aefffd64a9349495cdcf4d2872c17a3
-  bytes: 115835
+  sha256: 5f481fde4d8024da09418a1248b47ed463e2349a76916dae368ec5773660e15c
+  bytes: 116163
 - path: nist/grant_contractor_report.yaml
   sha256: 68dc2182c46b38e680c13bd72a5ace1c3e84e60c0179f3213a45ec536a82e2a4
   bytes: 29967
@@ -826,8 +814,8 @@ payloads:
   sha256: 6d61520f4635deb6c9e641e185bc946bf54799f7a797c2dc2c24b4d1ae60f5e7
   bytes: 376785
 - path: nist/special_publication.yaml
-  sha256: 86eed9e45c6baca464e1840a8d851bd30602b4a1f931246603d95af5bf506fbe
-  bytes: 748374
+  sha256: e6b0be0db10ec3180a31d7d8281c99b3bada5ed3839d36260272e9ced7aa1a9d
+  bytes: 749316
 - path: nist/technical_note.yaml
   sha256: 1b8600dd9a916034a8ed7e492aa7d435dec9884413f2fc2cf93167825c36ca15
   bytes: 470635
