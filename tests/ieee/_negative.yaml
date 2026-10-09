@@ -1084,11 +1084,6 @@
 - id: ieee.neg.base.0249
   input: ISO/IEC/IEEE 8802-A:2015/Amd.2:2019(E)
   notes: fail fixture unexpectedly parsed - reclassify
-- id: ieee.neg.base.0250
-  input: ISO/IEC/IEEE 9945:2009/Cor.2:2017(E)
-  expect:
-    error:
-      code: unclassified
 - id: ieee.neg.base.0251
   input: IEEE/ISO/IEC 8802-1Q-2020/Amd31-2021
   notes: fail fixture unexpectedly parsed - reclassify
