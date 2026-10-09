@@ -9,20 +9,12 @@ generator:
 oracle:
   gem: pubid
   commit: afd0bebd40ced0c80b842343bdebb2cd9b3ed21f
-  clean: false
-  dirty_paths:
-  - spec/fixtures/ieee/identifiers/pass/corrigendum.txt
-  - spec/fixtures/ieee/identifiers/pass/joint_development.txt
+  clean: true
+  dirty_paths: []
 repository:
-  commit: 65e9ba4815d16b481a9db62cf4cb54b5b20b7abe
-  clean: false
-  dirty_paths:
-  - README.md
-  - reference-docs/ieee/identifiers/pass/corrigendum.txt
-  - reference-docs/ieee/identifiers/pass/joint_development.txt
-  - tests/ieee/_negative.yaml
-  - tests/ieee/corrigendum.yaml
-  - tests/ieee/joint_development.yaml
+  commit: 49dcc6572727a512050ab170998051b226c269ed
+  clean: true
+  dirty_paths: []
 ruby:
   version: 3.4.8
 counts:
@@ -30,7 +22,7 @@ counts:
   payloads: 341
   cases: 99704
   aliases: 14783
-  negatives: 365
+  negatives: 815
 payloads:
 - path: amca/_debt.yaml
   sha256: f6ad26e3804f9efd121ad090c1f88cd423eead8f92228a45edcb18993f31f460
@@ -552,8 +544,8 @@ payloads:
   sha256: 2b7c44cdefc1d66ec2dc3c52261de2457dd4895c54b56d7729e8d853b591c828
   bytes: 351975
 - path: ieee/_negative.yaml
-  sha256: 73ba7cc537bad417961c3a7b5387c641e75c17a804f1463dd9bc336326a76f99
-  bytes: 58363
+  sha256: d3f4e1d2fee10e0090e5eff94d783378d02181f94f2edbe39b90231211b93ee0
+  bytes: 60971
 - path: ieee/_normalization.yaml
   sha256: 4dc088b96878e0578cef6eeb03f28749c170ffd12291d35536fca715f7bd49fa
   bytes: 757869
