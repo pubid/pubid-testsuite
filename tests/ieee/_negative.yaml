@@ -1922,18 +1922,6 @@
   expect:
     error:
       code: unclassified
-- id: ieee.neg.standard.0098
-  input: Preprint Proposal for the 2017 Edition of the National Electrical Safety
-    Code
-  expect:
-    error:
-      code: unclassified
-- id: ieee.neg.standard.0099
-  input: Preprint Proposals for the 2022 Edition of the National Electrical Safety
-    Code (NESC(R))
-  expect:
-    error:
-      code: unclassified
 - id: ieee.neg.standard.0100
   input: Std ISO IEC 16085 - 2006
   expect:

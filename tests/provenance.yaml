@@ -8,21 +8,33 @@ generator:
   exporter_sha256: 17c6c0e180f1ca39d3867588aa83e2d6bb081c0b1948cd7ded2f12d1cebf7dc6
 oracle:
   gem: pubid
-  commit: afd0bebd40ced0c80b842343bdebb2cd9b3ed21f
+  commit: 406e033ba6fd4ee6726be1f355927b6d4307dbd9
   clean: true
   dirty_paths: []
 repository:
-  commit: 73494f68b6ee6745ba9dc2dbeb293aab36a9032d
-  clean: true
-  dirty_paths: []
+  commit: eafa442600fc3caadc1a77899f5d0ae71041bc77
+  clean: false
+  dirty_paths:
+  - README.md
+  - reference-docs/ieee/SUMMARY.txt
+  - reference-docs/ieee/identifiers/fail/standard.txt
+  - reference-docs/ieee/identifiers/full/complete_dataset.txt
+  - reference-docs/ieee/identifiers/full/pubid-to-parse.txt
+  - reference-docs/ieee/identifiers/pass/standard.txt
+  - tests/ieee/_debt.yaml
+  - tests/ieee/_negative.yaml
+  - tests/ieee/_normalization.yaml
+  - tests/provenance.yaml
+  - reference-docs/ieee/identifiers/pass/preprint.txt
+  - tests/ieee/nesc_preprint.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 42
-  payloads: 341
-  cases: 99705
-  aliases: 14784
-  negatives: 814
+  payloads: 342
+  cases: 99710
+  aliases: 14789
+  negatives: 812
 payloads:
 - path: amca/_debt.yaml
   sha256: f6ad26e3804f9efd121ad090c1f88cd423eead8f92228a45edcb18993f31f460
@@ -541,14 +553,14 @@ payloads:
   sha256: 729458e1ed490242a8af8995ff5c201c5128740f1f4117fc8090616aff8eddd0
   bytes: 330054
 - path: ieee/_debt.yaml
-  sha256: 2b7c44cdefc1d66ec2dc3c52261de2457dd4895c54b56d7729e8d853b591c828
-  bytes: 351975
+  sha256: 764e2cdf487900c426f1805041326122ea2603bd0a9ea1840a2b8c57f48598ec
+  bytes: 350422
 - path: ieee/_negative.yaml
-  sha256: 65494ad1377f71e251bb735255d004a3ca473b75f3c436f8da0544ae64853659
-  bytes: 60854
+  sha256: 0e6a997188bf02ab9c80baa75e2fb609708aa69d186d63e3e854303d4153c9fb
+  bytes: 60511
 - path: ieee/_normalization.yaml
-  sha256: 4dc088b96878e0578cef6eeb03f28749c170ffd12291d35536fca715f7bd49fa
-  bytes: 757869
+  sha256: 963e5ded10f36b2373a49fa65461d2cde8c88c68981bcf203be385290c858895
+  bytes: 757887
 - path: ieee/adopted_standard.yaml
   sha256: b61ffba50f976fe1d5de7cb7ec8705977380b77a2928a8974c80e96af59a88dd
   bytes: 46223
@@ -585,6 +597,9 @@ payloads:
 - path: ieee/multi_numbered_identifier.yaml
   sha256: 33dbee213276dc120e72f45e36369c6590052caf63be427701e5308a8177dc33
   bytes: 471
+- path: ieee/nesc_preprint.yaml
+  sha256: 2dd7b02cd0b8ec81e71ade70d623a6975af5ff734efc264548e7e93996a0ccf5
+  bytes: 1697
 - path: ieee/nesc_redline.yaml
   sha256: 34da306bdc68ced053cc691d6b7fb01c451116100edcc71707331970944fa7a3
   bytes: 346
