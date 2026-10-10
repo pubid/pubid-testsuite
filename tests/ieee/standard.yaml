@@ -26738,6 +26738,9 @@
     human: IEEE PC57.12.01/D8, 2014
     urn: urn:ieee:ieee:PC57.12.01:draft./D8, 2014
   style: v3
+  non_normalized_aliases:
+  - spelling: IEEE PC57.12.01/D8, 2014
+    style: v3
 - id: ieee.standard.4629
   identifier:
     _type: pubid:ieee:standard
@@ -86801,3 +86804,51 @@
   non_normalized_aliases:
   - spelling: IEEE/ISO/IEC 8802-1Q-2020/Amd 31-2021
     style: v3
+- id: ieee.standard.9171
+  identifier:
+    _type: pubid:ieee:standard
+    number: '1609'
+    draft: D23.pdf, Feb 2007
+    parts:
+    - '3'
+    separator: "."
+    stage: Std
+  representations:
+    human: IEEE Draft 1609.3/D23.pdf, Feb, 2007
+    urn: urn:ieee:ieee:1609.3:draft./D23.pdf, Feb 2007
+  style: v3
+- id: ieee.standard.9173
+  identifier:
+    _type: pubid:ieee:standard
+    number: '8802'
+    publisher: ISO
+    copublisher:
+    - IEC
+    - IEEE
+    year: '2018'
+    parenthetical_content: E
+    parts:
+    - 1AC
+    separator: "-"
+    stage: Std
+  representations:
+    human: ISO/IEC/IEEE 8802-1AC-2018 (E)
+    urn: urn:ieee:iso-iec-ieee:8802-1AC:2018
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC/IEEE 8802-1AC-2018(E)
+    style: v3
+- id: ieee.standard.9172
+  identifier:
+    _type: pubid:ieee:standard
+    number: '62704'
+    draft: D4, 2020
+    prefix: P
+    parts:
+    - '4'
+    separator: "-"
+    stage: D4
+  representations:
+    human: IEEE P62704-4/D4, 2020
+    urn: urn:ieee:ieee:P62704-4:draft./D4, 2020
+  style: v3

@@ -8,22 +8,22 @@ generator:
   exporter_sha256: 17c6c0e180f1ca39d3867588aa83e2d6bb081c0b1948cd7ded2f12d1cebf7dc6
 oracle:
   gem: pubid
-  commit: ''
+  commit: '085801227b7cd7602bf363e9edb29ed00b50cf16'
   clean: true
   dirty_paths: []
 repository:
-  commit: 358665808c4249cf0d22fec57dedb54f8f6b6c84
+  commit: b4aed7e0102ac4e4b8e7620edf9cb05d7213b2d1
   clean: false
   dirty_paths:
-  - tests/ieee/standard.yaml
+  - reference-docs/ieee/identifiers/pass/redline.txt
 ruby:
   version: 3.4.8
 counts:
   flavors: 42
   payloads: 342
-  cases: 99710
-  aliases: 14787
-  negatives: 812
+  cases: 99722
+  aliases: 14799
+  negatives: 753
 payloads:
 - path: amca/_debt.yaml
   sha256: f6ad26e3804f9efd121ad090c1f88cd423eead8f92228a45edcb18993f31f460
@@ -545,8 +545,8 @@ payloads:
   sha256: 764e2cdf487900c426f1805041326122ea2603bd0a9ea1840a2b8c57f48598ec
   bytes: 350422
 - path: ieee/_negative.yaml
-  sha256: 0e6a997188bf02ab9c80baa75e2fb609708aa69d186d63e3e854303d4153c9fb
-  bytes: 60511
+  sha256: 5d0008811ecb830a2eeaa49315dfc0d9174b46511e0b2ea9d31cda05169cb1a2
+  bytes: 53299
 - path: ieee/_normalization.yaml
   sha256: 963e5ded10f36b2373a49fa65461d2cde8c88c68981bcf203be385290c858895
   bytes: 757887
@@ -563,8 +563,8 @@ payloads:
   sha256: de93be5537a759c114b51925bd235de4abcfe9fbbd0b0ab866d989ce1a98461e
   bytes: 2972
 - path: ieee/corrigendum.yaml
-  sha256: ee27336ed48d4801c7590db9b981609b4a3f3cb7922bfe5285a42bc214e240ba
-  bytes: 131481
+  sha256: 1076318aa608862e3b8abdf44eb8868fac4de6f0eff2302e248069a4046d31a7
+  bytes: 132395
 - path: ieee/csa_dual_published.yaml
   sha256: ce3e797f813ac753478d4b4c86c9e447dcbd67e0a5d80c2263220af69ff1fb06
   bytes: 1768
@@ -581,8 +581,8 @@ payloads:
   sha256: 5b214f2ca0fe688fa24e8199946dbd176bfb8556575bc08fbf40fd138a5ac287
   bytes: 222
 - path: ieee/joint_development.yaml
-  sha256: db877641c31b10d33e0d263ca503f4626689739f2d1977c79666ba7e501ad734
-  bytes: 173885
+  sha256: e20e2cf12290f883805be7da982148b238953f267b06dcfb02f5c397a21456d5
+  bytes: 174414
 - path: ieee/multi_numbered_identifier.yaml
   sha256: 33dbee213276dc120e72f45e36369c6590052caf63be427701e5308a8177dc33
   bytes: 471
@@ -596,14 +596,14 @@ payloads:
   sha256: f7ca3609627e8a9b5d882e9d4a161be1e2abcbca4fe68166841b54e1a0ee1812
   bytes: 678
 - path: ieee/project_draft_identifier.yaml
-  sha256: 9f128af6c73fc974ec986664d45a1a64a8ac41172d46aa6f33e236a2bfcc5f07
-  bytes: 1248011
+  sha256: e7bde7f2b89b5efcae6345bc5e2163220d979f73c90b9739102abc919d04603b
+  bytes: 1251211
 - path: ieee/si_standard.yaml
   sha256: 752b84964b335b17bb012ce34f9916baa98e115da9f663f67f7f3083e8a85a6a
   bytes: 3286
 - path: ieee/standard.yaml
-  sha256: 2777cbd700dac711d8f6c49755b9f02092abcbf0d627b9481bc4ef375a6343c9
-  bytes: 2007933
+  sha256: e4e6cba4dbb7a4fc0e183aadceffd4d2e0b3ed81ec9f49c612fddadf280c8d37
+  bytes: 2009059
 - path: ietf/bcp.yaml
   sha256: 5550f54365fa3abe45c266d956fc5c0bc239fb1e652ca3abc845ea1d8d5bf764
   bytes: 36048
