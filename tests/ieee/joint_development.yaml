@@ -3603,6 +3603,9 @@
     human: ISO/IEC/IEEE 8802-1AX:2021
     urn: urn:ieee:iso-iec-ieee:8802-1AX:2021
   style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC/IEEE 8802-1AX:2021
+    style: v3
 - id: ieee.joint_development.9167
   identifier:
     _type: pubid:ieee:joint-development
@@ -7716,7 +7719,6 @@
     human: ISO/IEEE DIS P11073.10418:2011
     urn: urn:ieee:iso-ieee:P11073.10418:2011
   style: v3
-
 - id: ieee.joint_development.9475
   identifier:
     _type: pubid:ieee:joint-development
@@ -7897,3 +7899,25 @@
   - spelling: ISO/IEC/IEEE 29148:2018(E) - Redline
     style: v3
   style: v3
+- id: ieee.joint_development.9484
+  identifier:
+    _type: pubid:ieee:joint-development
+    number: '65700'
+    prefix: P
+    parts:
+    - '19'
+    - '03'
+    separator: "-"
+    publishers:
+    - IEC
+    - IEEE
+    lead_party: ISO
+    iso_stage: CD
+    stage: CD
+  representations:
+    human: IEC/IEEE CD P65700.19.03
+    urn: urn:ieee:iec-ieee:P65700-19-03
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC/IEEE P65700-19-03 CD
+    style: v3

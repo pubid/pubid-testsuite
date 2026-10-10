@@ -5343,7 +5343,6 @@
     human: IEEE Unapproved PC62.21/D5, Mar 2008/Cor. 1
     urn: urn:ieee:ieee
   style: v3
-
 - id: ieee.corrigendum.8990
   identifier:
     _type: pubid:ieee:corrigendum
@@ -5369,7 +5368,8 @@
     human: ISO/IEC/IEEE 8802-1AE:2020/Cor. 1-2021
     urn: urn:ieee:iso:2021
   non_normalized_aliases:
-  - spelling: ISO/IEC/IEEE 8802-1AE:2020/Cor.1:2021 (Adoption of IEEE Standard 802.1AE-2018/Cor 1 -2020)
+  - spelling: ISO/IEC/IEEE 8802-1AE:2020/Cor.1:2021 (Adoption of IEEE Standard 802.1AE-2018/Cor
+      1 -2020)
     style: v3
   style: v3
 - id: ieee.corrigendum.8991
@@ -5513,4 +5513,48 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE 9945:2009/Cor.2:2017(E)
     style: v3
+  style: v3
+- id: ieee.corrigendum.8997
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    year: '2017'
+    base:
+      _type: pubid:ieee:joint-development
+      number: '8802'
+      publisher: ISO
+      copublisher:
+      - IEC
+      - IEEE
+      year: '2016'
+      parenthetical_content: E
+      parts:
+      - 1Q
+      separator: "-"
+      publishers:
+      - ISO
+      - IEC
+      - IEEE
+      lead_party: ISO
+  representations:
+    human: ISO/IEC/IEEE 8802-1Q:2016 (E)/Cor. 1-2017
+    urn: urn:ieee:iso:2017
+  style: v3
+- id: ieee.corrigendum.8996
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: '802'
+      year: '2004'
+      draft: D5, 2005
+      prefix: P
+      parts:
+      - '16'
+      separator: "."
+      stage: D4
+  representations:
+    human: IEEE P802.16-2004/D5, 2005/Cor. 1
+    urn: urn:ieee:ieee:2004
   style: v3

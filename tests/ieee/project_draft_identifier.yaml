@@ -524,6 +524,9 @@
     human: IEC/IEEE P60079-30-1/D9.1, 2015
     urn: urn:ieee:iec-ieee:60079-30-1:draft./D9.1, 2015
   style: v3
+  non_normalized_aliases:
+  - spelling: IEC/IEEE P60079-30-1/D9.1, 2015
+    style: v3
 - id: ieee.project_draft_identifier.0940
   identifier:
     _type: pubid:ieee:project-draft-identifier
@@ -781,6 +784,9 @@
     human: IEC/IEEE P62704-3/D3, 2016
     urn: urn:ieee:iec-ieee:62704-3:draft./D3, 2016
   style: v3
+  non_normalized_aliases:
+  - spelling: IEC/IEEE P62704-3/D3, 2016
+    style: v3
 - id: ieee.project_draft_identifier.0983
   identifier:
     _type: pubid:ieee:project-draft-identifier
@@ -797,6 +803,9 @@
     human: IEC/IEEE P62704-3/D4, 2017
     urn: urn:ieee:iec-ieee:62704-3:draft./D4, 2017
   style: v3
+  non_normalized_aliases:
+  - spelling: IEC/IEEE P62704-3/D4, 2017
+    style: v3
 - id: ieee.project_draft_identifier.0985
   identifier:
     _type: pubid:ieee:project-draft-identifier
@@ -5663,6 +5672,9 @@
     human: IEEE P1138/D7, 2021
     urn: urn:ieee:ieee:p:1138:draft./D7, 2021
   style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P1138/D7, 2021
+    style: v3
 - id: ieee.project_draft_identifier.2086
   identifier:
     _type: pubid:ieee:project-draft-identifier
@@ -22966,6 +22978,9 @@
     human: IEEE P1924.1/D14, 2021
     urn: urn:ieee:ieee:p:1924.1:draft./D14, 2021
   style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P1924.1/D14, 2021
+    style: v3
 - id: ieee.project_draft_identifier.3090
   identifier:
     _type: pubid:ieee:project-draft-identifier
@@ -23015,6 +23030,9 @@
     human: IEEE P1936.1/D7.0, 2021
     urn: urn:ieee:ieee:p:1936.1:draft./D7.0, 2021
   style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P1936.1/D7.0, 2021
+    style: v3
 - id: ieee.project_draft_identifier.3093
   identifier:
     _type: pubid:ieee:project-draft-identifier
@@ -29004,6 +29022,9 @@
     human: IEEE P308/D2, 2019
     urn: urn:ieee:ieee:p:308:draft./D2, 2019
   style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P308/D2, 2019
+    style: v3
 - id: ieee.project_draft_identifier.3430
   identifier:
     _type: pubid:ieee:project-draft-identifier
@@ -48302,4 +48323,112 @@
   style: v3
   non_normalized_aliases:
   - spelling: NACE/IEEE P1835/D2, July 2014
+    style: v3
+- id: ieee.project_draft_identifier.9484
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '37'
+    publisher: IEC
+    type: P
+    copublisher:
+    - IEEE
+    draft: DP62271-111_D6.1, Aug 2016
+    prefix: C
+    parts:
+    - '60'
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEC/IEEE PC37.60/DP62271-111_D6.1, Aug 2016
+    urn: urn:ieee:iec-ieee:p:C37.60:draft./DP62271-111_D6.1, Aug 2016
+  style: v3
+- id: ieee.project_draft_identifier.9485
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '37'
+    publisher: IEC
+    type: P
+    copublisher:
+    - IEEE
+    draft: DP62271-111_D9, Sept 2018
+    prefix: C
+    parts:
+    - '60'
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEC/IEEE PC37.60/DP62271-111_D9, Sept 2018
+    urn: urn:ieee:iec-ieee:p:C37.60:draft./DP62271-111_D9, Sept 2018
+  style: v3
+- id: ieee.project_draft_identifier.9486
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '1904'
+    type: P
+    draft: DConf3_D3.4, Aug 2014
+    parts:
+    - '1'
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P1904.1/DConf3_D3.4, Aug, 2014
+    urn: urn:ieee:ieee:p:1904.1:draft./DConf3_D3.4, Aug 2014
+  style: v3
+- id: ieee.project_draft_identifier.9482
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '37'
+    publisher: IEC
+    type: P
+    copublisher:
+    - IEEE
+    draft: D5, Feb 2018
+    prefix: C
+    parts:
+    - '60'
+    separator: "."
+    project_marker: true
+    stage: D4
+  representations:
+    human: IEC/IEEE PC37.60/D5, Feb 2018
+    urn: urn:ieee:iec-ieee:p:C37.60:draft./D5, Feb 2018
+  style: v3
+- id: ieee.project_draft_identifier.9483
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '37'
+    publisher: IEC
+    type: P
+    copublisher:
+    - IEEE
+    draft: D5, May 2015
+    prefix: C
+    parts:
+    - '60'
+    separator: "."
+    project_marker: true
+    stage: D4
+  representations:
+    human: IEC/IEEE PC37.60/D5, May 2015
+    urn: urn:ieee:iec-ieee:p:C37.60:draft./D5, May 2015
+  style: v3
+- id: ieee.project_draft_identifier.9487
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '686'
+    type: P
+    draft: D2, 2017
+    relationships:
+    - relationship_type: revision_of
+    project_marker: true
+    stage: D2
+  representations:
+    human: IEEE P686/D2, 2017
+    urn: urn:ieee:ieee:p:686:draft./D2, 2017:rel.Revision of IEEE Std 686-2008
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P686/D2, 2017 (Revision of IEEE Std 686-2008)
     style: v3
