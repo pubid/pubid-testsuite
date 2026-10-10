@@ -207,13 +207,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [[\x30-\x39], [\x41-\x5a], [\x61-\x7a], '':'', '' '', ''-'', ''&#x2013;'',
     ''–'', '',''] at line 1 char 27.'
-- id: ieee.debt.5b02cf62e24e
-  input: IEEE Std C2.2012.Preprint
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''REV'', ''Rev'', ''rev''] at line 1 char 18.'
 - id: ieee.debt.000cf310b72d
   input: IEEE Std 2012 NESC Handbook, Seventh Edition
   expect:
@@ -2033,22 +2026,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''REV'', ''Rev'', ''rev''] at line 1 char 27.'
-- id: ieee.debt.d54a270a0eac
-  input: Preprint Proposal for the 2017 Edition of the National Electrical Safety
-    Code
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 2.'
-- id: ieee.debt.6577a23e2f1c
-  input: Preprint Proposals for the 2022 Edition of the National Electrical Safety
-    Code (NESC(R))
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 2.'
 - id: ieee.debt.00b60f3de9b3
   input: 'Preview: IEEE Technology Report on Wake-Up Radio'
   expect:
@@ -7621,22 +7598,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''REV'', ''Rev'', ''rev''] at line 1 char 27.'
-- id: ieee.debt.d54a270a0eac
-  input: Preprint Proposal for the 2017 Edition of the National Electrical Safety
-    Code
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 2.'
-- id: ieee.debt.6577a23e2f1c
-  input: Preprint Proposals for the 2022 Edition of the National Electrical Safety
-    Code (NESC(R))
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 2.'
 - id: ieee.debt.00b60f3de9b3
   input: 'Preview: IEEE Technology Report on Wake-Up Radio'
   expect:
