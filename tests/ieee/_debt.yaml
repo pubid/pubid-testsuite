@@ -1,53 +1,4 @@
 ---
-- id: ieee.debt.5bdf4e0874ad
-  input: IEEE Std 1484.12.1-2002/Cor. 1-2011
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: TypeError: no implicit conversion of Symbol
-    into Integer'
-- id: ieee.debt.5f14e0437585
-  input: IEEE Std 802.15.4-2015/Cor. 1-2018
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: TypeError: no implicit conversion of Symbol
-    into Integer'
-- id: ieee.debt.448e2efca921
-  input: IEEE Std C37.20.7-2007/Cor. 1-2010
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: TypeError: no implicit conversion of Symbol
-    into Integer'
-- id: ieee.debt.2296d9b215ed
-  input: IEEE Std C37.20.7-2017/Cor. 1-2021
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: TypeError: no implicit conversion of Symbol
-    into Integer'
-- id: ieee.debt.783dd68f7443
-  input: IEEE Std C57.12.10-2010/Cor. 1-2012
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: TypeError: no implicit conversion of Symbol
-    into Integer'
-- id: ieee.debt.672797f84858
-  input: IEEE Std C57.12.60-2009/Cor. 1-2013
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: TypeError: no implicit conversion of Symbol
-    into Integer'
-- id: ieee.debt.cc4b0ac220ff
-  input: IEEE Std C57.12.90-2015/Cor. 1-2017
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: TypeError: no implicit conversion of Symbol
-    into Integer'
 - id: ieee.debt.d4ec4f2d1e4b
   input: IEEE Std C62.41.2-2002/Cor. 1-2012
   expect:
@@ -55,40 +6,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: TypeError: no implicit conversion of Symbol
     into Integer'
-- id: ieee.debt.bf38d207ef8c
-  input: IEEE Std C57.12.31-2010/Cor. 1-2014
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: TypeError: no implicit conversion of Symbol
-    into Integer'
-- id: ieee.debt.10a355f78c01
-  input: IEEE Std 2017 National Electrical Safety Code(R) (NESC(R))
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
-- id: ieee.debt.000cf310b72d
-  input: IEEE Std 2012 NESC Handbook, Seventh Edition
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
-- id: ieee.debt.ba8b90ec0ef5
-  input: IEEE Std 2017 NESC(R) Handbook, Premier Edition
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
 - id: ieee.debt.d4b9d2d8e7e9
   input: ISO/IEC 15068-2:1999
   expect:
@@ -145,104 +62,180 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [[\x61-\x7a], [\x30-\x39], '' '', ''('', ''P&V''] at line 1 char
     19.'
-- id: ieee.debt.59dac7cd202d
-  input: IEEE P1310Rev3/D2, February 2011
+- id: ieee.debt.a44324676c71
+  input: IEEE P24748-4/D=FDIS
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''-''] at line 1 char 21.'
+- id: ieee.debt.50c78306de0d
+  input: IEEE P1310Rev3/D2, Feb, 2011
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''.'', ''-'', ''&#x2013;'', ''–'', '' '', '', '', ''/'', ''_'',
     '','', ''REV'', ''Rev'', ''rev'', ''('', ''P&V'', '':''] at line 1 char 13.'
-- id: ieee.debt.92d58f78a852
-  input: IEEE P1722Rev1/D13, April 2015
+- id: ieee.debt.3ae974f12669
+  input: IEEE P1722Rev1/D13, Apr, 2015
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''.'', ''-'', ''&#x2013;'', ''–'', '' '', '', '', ''/'', ''_'',
     '','', ''REV'', ''Rev'', ''rev'', ''('', ''P&V'', '':''] at line 1 char 13.'
-- id: ieee.debt.9f3cd56fcd13
-  input: IEEE P802.1QREVD2.2, July 2014
+- id: ieee.debt.dc4406056c60
+  input: IEEE/CSA Draft P844.1/D2, Sept, 2016
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''REV'', ''Rev'', ''rev''] at line 1 char 19.'
-- id: ieee.debt.f2a8642cbf22
-  input: ISO/IEC/IEEE P29119.4.DISMay2013
+    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 11.'
+- id: ieee.debt.ef6082a1fca5
+  input: IEEE/CSA Draft P844.1/D3, Feb, 2017
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39]] at line 1 char 26.'
-- id: ieee.debt.b6ae0706ca25
-  input: IEEE P1722.2016.Cor1/D0, June, 2016
+    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 11.'
+- id: ieee.debt.d38c73107b98
+  input: IEEE/CSA Draft P844.1/D4, Jul, 2017
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''REV'', ''Rev'', ''rev''] at line 1 char 17.'
-- id: ieee.debt.cafb1df28f75
-  input: ISO/IEC/IEEE P29119.5.FDIS1, July 2016
+    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 11.'
+- id: ieee.debt.d6b815ac9724
+  input: IEEE/CSA Draft P844.2/D2, Sept, 2016
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''19'', ''20'', ''REV'', ''Rev'', ''rev'', [\x30-\x39], [\x61-\x7a],
-    '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'', ''Mar.'',
-    ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', '
-- id: ieee.debt.46e91086506c
-  input: ISO/IEC/IEEE P24748.4.DIS.1404, April 2014
+    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 11.'
+- id: ieee.debt.8418741d57be
+  input: IEEE/CSA Draft P844.2/D3, Feb, 2017
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], [\x41-\x5a], [\x61-\x7a], '':'', '' '', ''-'', ''&#x2013;'',
-    ''–'', '',''] at line 1 char 26.'
-- id: ieee.debt.716c763ddb40
-  input: ISO/IEC/IEEE P29119.5.DIS2.1504
+    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 11.'
+- id: ieee.debt.f1d92d5f57ce
+  input: IEEE//IEC/ISO Draft P80005-1/DFDIS_March, 2012
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], [\x41-\x5a], [\x61-\x7a], '':'', '' '', ''-'', ''&#x2013;'',
-    ''–'', '',''] at line 1 char 27.'
-- id: ieee.debt.000cf310b72d
-  input: IEEE Std 2012 NESC Handbook, Seventh Edition
+    expected one of ['' '', ''IEEE'', ''AIEE'', ''ANSI'', ''ASA'', ''ANS'', ''IEC'',
+    ''ISO'', ''ASTM'', ''CSA'', ''ASME'', ''NACE'', ''NSF'', ''ASHRAE'', ''NCTA'',
+    ''AESC'', ''EIA'', ''USEMCSC'', ''AMPP'', ''USAS'', ''EAB'', ''MPA'
+- id: ieee.debt.d5fcc0cdc687
+  input: IEEE/NACE Draft P2638/D2.4, Jan, 2020
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
-- id: ieee.debt.ba8b90ec0ef5
-  input: IEEE Std 2017 NESC(R) Handbook, Premier Edition
+    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 12.'
+- id: ieee.debt.ef539181dfb8
+  input: IEEE//ISO/IEC Draft P29119-2/D=DIS-201112
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
-- id: ieee.debt.10a355f78c01
-  input: IEEE Std 2017 National Electrical Safety Code(R) (NESC(R))
+    expected one of ['' '', ''IEEE'', ''AIEE'', ''ANSI'', ''ASA'', ''ANS'', ''IEC'',
+    ''ISO'', ''ASTM'', ''CSA'', ''ASME'', ''NACE'', ''NSF'', ''ASHRAE'', ''NCTA'',
+    ''AESC'', ''EIA'', ''USEMCSC'', ''AMPP'', ''USAS'', ''EAB'', ''MPA'
+- id: ieee.debt.a1b3162d1992
+  input: IEEE//ISO/IEC Draft P29119-3/D=DIS-201112
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
+    expected one of ['' '', ''IEEE'', ''AIEE'', ''ANSI'', ''ASA'', ''ANS'', ''IEC'',
+    ''ISO'', ''ASTM'', ''CSA'', ''ASME'', ''NACE'', ''NSF'', ''ASHRAE'', ''NCTA'',
+    ''AESC'', ''EIA'', ''USEMCSC'', ''AMPP'', ''USAS'', ''EAB'', ''MPA'
+- id: ieee.debt.dd7fa96c1732
+  input: IEEE//ISO/IEC Draft P29119-4/D=DIS-202004
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of ['' '', ''IEEE'', ''AIEE'', ''ANSI'', ''ASA'', ''ANS'', ''IEC'',
+    ''ISO'', ''ASTM'', ''CSA'', ''ASME'', ''NACE'', ''NSF'', ''ASHRAE'', ''NCTA'',
+    ''AESC'', ''EIA'', ''USEMCSC'', ''AMPP'', ''USAS'', ''EAB'', ''MPA'
+- id: ieee.debt.1fd866daf8a1
+  input: IEEE//ISO/IEC Draft P29119-4/D=FDIS-202106
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of ['' '', ''IEEE'', ''AIEE'', ''ANSI'', ''ASA'', ''ANS'', ''IEC'',
+    ''ISO'', ''ASTM'', ''CSA'', ''ASME'', ''NACE'', ''NSF'', ''ASHRAE'', ''NCTA'',
+    ''AESC'', ''EIA'', ''USEMCSC'', ''AMPP'', ''USAS'', ''EAB'', ''MPA'
+- id: ieee.debt.5ba7a6d300c2
+  input: IEEE//ISO/IEC Draft P15026-3/D=CD-202112
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of ['' '', ''IEEE'', ''AIEE'', ''ANSI'', ''ASA'', ''ANS'', ''IEC'',
+    ''ISO'', ''ASTM'', ''CSA'', ''ASME'', ''NACE'', ''NSF'', ''ASHRAE'', ''NCTA'',
+    ''AESC'', ''EIA'', ''USEMCSC'', ''AMPP'', ''USAS'', ''EAB'', ''MPA'
+- id: ieee.debt.b9e66bc37dd7
+  input: IEEE//ISO/IEC Draft P29119-3/DDIS2, Sept, 2012
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of ['' '', ''IEEE'', ''AIEE'', ''ANSI'', ''ASA'', ''ANS'', ''IEC'',
+    ''ISO'', ''ASTM'', ''CSA'', ''ASME'', ''NACE'', ''NSF'', ''ASHRAE'', ''NCTA'',
+    ''AESC'', ''EIA'', ''USEMCSC'', ''AMPP'', ''USAS'', ''EAB'', ''MPA'
+- id: ieee.debt.40cca6e24337
+  input: ISO/IEC/IEEE P15026-1/D, Dec 2018
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], ''-'', ''&#x2013;'', ''–'', ''.'', ''IS'', [\x41-\x5a],
+    [\x61-\x7a]] at line 1 char 24.'
+- id: ieee.debt.9f6830305688
+  input: IEEE//ISO/IEC Draft P29119-4/D=FDIS-202012
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of ['' '', ''IEEE'', ''AIEE'', ''ANSI'', ''ASA'', ''ANS'', ''IEC'',
+    ''ISO'', ''ASTM'', ''CSA'', ''ASME'', ''NACE'', ''NSF'', ''ASHRAE'', ''NCTA'',
+    ''AESC'', ''EIA'', ''USEMCSC'', ''AMPP'', ''USAS'', ''EAB'', ''MPA'
+- id: ieee.debt.89a9246d85af
+  input: IEEE/IEC Draft P60076-57-129/D=FDIS-201707
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 11.'
+- id: ieee.debt.b7ebd7b7dff6
+  input: IEEE Draft P1666/D/D2.1.1
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''IS'', [\x30-\x39], ''.'', ''-'', ''&#x2013;'', ''–'', [\x41-\x5a],
+    [\x61-\x7a]] at line 1 char 19.'
+- id: ieee.debt.4e1ed244acde
+  input: IEEE/IEC Draft P63195-2/DED4, Mar, 2021
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 11.'
 - id: ieee.debt.cdaf77bd6141
   input: IEEE Std 2017 National Electrical Safety Code(R) (NESC(R)) - Redline
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
+    expected one of [''Handbook'', ''Redline''] at line 1 char 60.'
 - id: ieee.debt.470ea824e493
   input: IEEE Std 3006HistoricalData-2012 Historical Reliability Data for IEEE 3006
     Standards
@@ -1889,7 +1882,8 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 28.'
+    expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
+    at line 1 char 30.'
 - id: ieee.debt.cf295065a41c
   input: ISO/IEC/IEEE 8802-11:2012(E) (Revison of ISO/IEC/IEEE 8802-11-2005 and Amendments)
     - Redline
@@ -1897,23 +1891,16 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 28.'
-- id: ieee.debt.b4dc9d066e0d
-  input: ISO/IEC/IEEE 8802-1AE:2020/Cor.1:2021 (Adoption of IEEE Standard 802.1AE-2018/Cor
-    1 -2020)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''D='', ''D'', ''E'', ''Amd'', ''R'', ''REV'', ''Rev'', ''rev'']
-    at line 1 char 28.'
+    expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
+    at line 1 char 30.'
 - id: ieee.debt.0f35728a6205
   input: ISO/IEC/IEEE 8802-21-1:2018(E) (Adoption of IEEE 802.21.1-2017)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 30.'
+    expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
+    at line 1 char 32.'
 - id: ieee.debt.bf2a49fa9829
   input: ISO/IEC/IEEE P15289:2016, 3rd Ed FDIS/D2
   expect:
@@ -2143,9 +2130,9 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
+    expected one of [''National Electrical Safety Code'', ''National Electric Safety
+    Code'', ''NESC'', ''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
+    ''Conformance'', ''Corrigendum'', ''Amendm'
 - id: ieee.debt.6b1ea6999b78
   input: IEEE 1076.4 IEC 61691-5 First edition 2004-10
   expect:
@@ -2161,18 +2148,18 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
+    expected one of [''National Electrical Safety Code'', ''National Electric Safety
+    Code'', ''NESC'', ''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
+    ''Conformance'', ''Corrigendum'', ''Amendm'
 - id: ieee.debt.d4a5531d7ae2
   input: IEEE 1588 IEC 61588 First edition 2004-09
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
+    expected one of [''National Electrical Safety Code'', ''National Electric Safety
+    Code'', ''NESC'', ''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
+    ''Conformance'', ''Corrigendum'', ''Amendm'
 - id: ieee.debt.727d972e81f1
   input: IEEE 488.1 IEC 60488-1 First edition 2004-07
   expect:
@@ -2293,18 +2280,18 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
+    expected one of [''National Electrical Safety Code'', ''National Electric Safety
+    Code'', ''NESC'', ''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
+    ''Conformance'', ''Corrigendum'', ''Amendm'
 - id: ieee.debt.d4a5531d7ae2
   input: IEEE 1588 IEC 61588 First edition 2004-09
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
+    expected one of [''National Electrical Safety Code'', ''National Electric Safety
+    Code'', ''NESC'', ''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
+    ''Conformance'', ''Corrigendum'', ''Amendm'
 - id: ieee.debt.4fe32630d69a
   input: IEEE Unapproved Draft Std PC62.64/D14, feb 2009
   expect:
@@ -2447,9 +2434,9 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
+    expected one of [''National Electrical Safety Code'', ''National Electric Safety
+    Code'', ''NESC'', ''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
+    ''Conformance'', ''Corrigendum'', ''Amendm'
 - id: ieee.debt.b0d2f8b99665
   input: IEEE Draft Std P1500/D11, Jan 06
   expect:
@@ -2946,123 +2933,22 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of ['' ''] at line 1 char 22.'
-- id: ieee.debt.f807fd5f4356
-  input: ISO/IEC/IEEE 15289:2015(E) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 26.'
-- id: ieee.debt.275480d60a79
-  input: ISO/IEC/IEEE 15939:2017(E) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 26.'
-- id: ieee.debt.84d16ae0792d
-  input: ISO/IEC/IEEE 16085:2021(E) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 26.'
-- id: ieee.debt.6039f8f007ea
-  input: ISO/IEC/IEEE 16326:2019(E) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 26.'
 - id: ieee.debt.ed58ccae0c4c
   input: ISO/IEC/IEEE 21451-7:2011(E) (Revision of 1451.7-2010
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 28.'
-- id: ieee.debt.6b0a7c0c7c7d
-  input: ISO/IEC/IEEE 26513:2017(E) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 26.'
-- id: ieee.debt.8adfbf028198
-  input: ISO/IEC/IEEE 29119-2:2021(E) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 28.'
-- id: ieee.debt.4c63349f12fc
-  input: ISO/IEC/IEEE 29119-3:2021(E) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 28.'
-- id: ieee.debt.62c063ae7363
-  input: ISO/IEC/IEEE 29119-4:2021(E) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 28.'
-- id: ieee.debt.255e850488e4
-  input: ISO/IEC/IEEE 29148:2018(E) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 26.'
-- id: ieee.debt.7c26cd335e4e
-  input: ISO/IEC/IEEE 8802-1AC:2018/Cor.1:2020(E)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''D='', ''D'', ''E'', ''Amd'', ''R'', ''REV'', ''Rev'', ''rev'']
-    at line 1 char 28.'
-- id: ieee.debt.8ce745d490f5
-  input: ISO/IEC/IEEE 8802-1AX:2016/Cor.1:2018(E)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''D='', ''D'', ''E'', ''Amd'', ''R'', ''REV'', ''Rev'', ''rev'']
-    at line 1 char 28.'
-- id: ieee.debt.166e313ef720
-  input: ISO/IEC/IEEE 8802-21:2018/Cor.1:2018(E)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''D='', ''D'', ''E'', ''Amd'', ''R'', ''REV'', ''Rev'', ''rev'']
-    at line 1 char 27.'
-- id: ieee.debt.c0ec1d1f758c
-  input: ISO/IEC/IEEE 8802-3:2017/Cor.1:2018(E)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''D='', ''D'', ''E'', ''Amd'', ''R'', ''REV'', ''Rev'', ''rev'']
-    at line 1 char 26.'
-- id: ieee.debt.f254b53a42f8
-  input: ISO/IEC/IEEE 9945:2009/Cor.2:2017(E)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''D='', ''D'', ''E'', ''Amd'', ''R'', ''REV'', ''Rev'', ''rev'']
-    at line 1 char 24.'
+    expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
+    at line 1 char 30.'
 - id: ieee.debt.a573131ba4f3
   input: ISO/IEEE 11073-10404:2010(E) (Supersedes IEEE Std 11073-10404-2008)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 28.'
+    expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
+    at line 1 char 30.'
 - id: ieee.debt.223790b4e282
   input: IEC 60076-21:2018(E) IEEE Std C57.15-2017
   expect:
@@ -3223,9 +3109,9 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Cor'', ''INT'', ''Conformance'', ''Corrigendum'', ''Amendment'',
-    ''Amd'', ''/'', ''REV'', ''Rev'', ''rev'', ''_'', ''-'', ''&#x2013;'', ''–'',
-    '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Fe'
+    expected one of [''Cor'', ''INT'', ''Conformance'', ''-'', ''&#x2013;'', ''–'',
+    ''Redline'', ''REDLINE'', ''redline'', ''Corrigendum'', ''Amendment'', ''Amd'',
+    ''/'', ''REV'', ''Rev'', ''rev'', ''_'', '' '', ''Sept.'', ''O'
 - id: ieee.debt.82fb49eeb614
   input: IEC 62659:2011 ED1, October 2011
   expect:
@@ -3239,14 +3125,16 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 26.'
+    expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
+    at line 1 char 28.'
 - id: ieee.debt.5539536c79c4
   input: ISO/IEC/IEEE 12207:2017(E) ED1, 2017-11 - Redline
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 26.'
+    expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
+    at line 1 char 28.'
 - id: ieee.debt.49311e64c0d1
   input: IEC 62529:2012(E) (IEEE Std 1641-2010)
   expect:
@@ -3274,14 +3162,16 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 26.'
+    expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
+    at line 1 char 28.'
 - id: ieee.debt.f821ce73ce27
   input: ISO/IEC/IEEE 42010:2011(E) (Revision of ISO/IEC 42010:2007 and IEEE Std 1471-2000)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 26.'
+    expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
+    at line 1 char 28.'
 - id: ieee.debt.fd5e92424350
   input: IEC/IEEE P62209-1528 FDIS/D5, 2019
   expect:
@@ -3406,7 +3296,7 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 32.'
+    expected one of ['' ''] at line 1 char 33.'
 - id: ieee.debt.2a892707d610
   input: ISO/IEC/IEEE P12207-2/D2 FDIS, December 2019
   expect:
@@ -3439,14 +3329,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 27.'
-- id: ieee.debt.b6959e92eb3d
-  input: ISO/IEC/IEEE 8802-1Q:2016/Cor 1:2017(E)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''D='', ''D'', ''E'', ''Amd'', ''R'', ''REV'', ''Rev'', ''rev'']
-    at line 1 char 27.'
 - id: ieee.debt.66508327624a
   input: IEC/IEEE P61886-1_FDIS/D3.1, November 2020
   expect:
@@ -3722,7 +3604,8 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 39.'
+    expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
+    at line 1 char 41.'
 - id: ieee.debt.f9614628fb1e
   input: ISO/IEC/IEEE P24641/D2 CD, June 2020
   expect:
@@ -3738,7 +3621,8 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 39.'
+    expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
+    at line 1 char 41.'
 - id: ieee.debt.d2a9f2e7626d
   input: IEEE Unapproved Std PC57.129_D9, Mar07
   expect:
@@ -4183,9 +4067,9 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
+    expected one of [''National Electrical Safety Code'', ''National Electric Safety
+    Code'', ''NESC'', ''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
+    ''Conformance'', ''Corrigendum'', ''Amendm'
 - id: ieee.debt.6b1ea6999b78
   input: IEEE 1076.4 IEC 61691-5 First edition 2004-10
   expect:
@@ -4201,18 +4085,18 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
+    expected one of [''National Electrical Safety Code'', ''National Electric Safety
+    Code'', ''NESC'', ''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
+    ''Conformance'', ''Corrigendum'', ''Amendm'
 - id: ieee.debt.d4a5531d7ae2
   input: IEEE 1588 IEC 61588 First edition 2004-09
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
+    expected one of [''National Electrical Safety Code'', ''National Electric Safety
+    Code'', ''NESC'', ''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
+    ''Conformance'', ''Corrigendum'', ''Amendm'
 - id: ieee.debt.727d972e81f1
   input: IEEE 488.1 IEC 60488-1 First edition 2004-07
   expect:
@@ -4333,18 +4217,18 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
+    expected one of [''National Electrical Safety Code'', ''National Electric Safety
+    Code'', ''NESC'', ''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
+    ''Conformance'', ''Corrigendum'', ''Amendm'
 - id: ieee.debt.d4a5531d7ae2
   input: IEEE 1588 IEC 61588 First edition 2004-09
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
+    expected one of [''National Electrical Safety Code'', ''National Electric Safety
+    Code'', ''NESC'', ''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
+    ''Conformance'', ''Corrigendum'', ''Amendm'
 - id: ieee.debt.4fe32630d69a
   input: IEEE Unapproved Draft Std PC62.64/D14, feb 2009
   expect:
@@ -4487,9 +4371,9 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
+    expected one of [''National Electrical Safety Code'', ''National Electric Safety
+    Code'', ''NESC'', ''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
+    ''Conformance'', ''Corrigendum'', ''Amendm'
 - id: ieee.debt.b0d2f8b99665
   input: IEEE Draft Std P1500/D11, Jan 06
   expect:
@@ -4986,123 +4870,22 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of ['' ''] at line 1 char 22.'
-- id: ieee.debt.f807fd5f4356
-  input: ISO/IEC/IEEE 15289:2015(E) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 26.'
-- id: ieee.debt.275480d60a79
-  input: ISO/IEC/IEEE 15939:2017(E) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 26.'
-- id: ieee.debt.84d16ae0792d
-  input: ISO/IEC/IEEE 16085:2021(E) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 26.'
-- id: ieee.debt.6039f8f007ea
-  input: ISO/IEC/IEEE 16326:2019(E) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 26.'
 - id: ieee.debt.ed58ccae0c4c
   input: ISO/IEC/IEEE 21451-7:2011(E) (Revision of 1451.7-2010
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 28.'
-- id: ieee.debt.6b0a7c0c7c7d
-  input: ISO/IEC/IEEE 26513:2017(E) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 26.'
-- id: ieee.debt.8adfbf028198
-  input: ISO/IEC/IEEE 29119-2:2021(E) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 28.'
-- id: ieee.debt.4c63349f12fc
-  input: ISO/IEC/IEEE 29119-3:2021(E) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 28.'
-- id: ieee.debt.62c063ae7363
-  input: ISO/IEC/IEEE 29119-4:2021(E) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 28.'
-- id: ieee.debt.255e850488e4
-  input: ISO/IEC/IEEE 29148:2018(E) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 26.'
-- id: ieee.debt.7c26cd335e4e
-  input: ISO/IEC/IEEE 8802-1AC:2018/Cor.1:2020(E)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''D='', ''D'', ''E'', ''Amd'', ''R'', ''REV'', ''Rev'', ''rev'']
-    at line 1 char 28.'
-- id: ieee.debt.8ce745d490f5
-  input: ISO/IEC/IEEE 8802-1AX:2016/Cor.1:2018(E)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''D='', ''D'', ''E'', ''Amd'', ''R'', ''REV'', ''Rev'', ''rev'']
-    at line 1 char 28.'
-- id: ieee.debt.166e313ef720
-  input: ISO/IEC/IEEE 8802-21:2018/Cor.1:2018(E)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''D='', ''D'', ''E'', ''Amd'', ''R'', ''REV'', ''Rev'', ''rev'']
-    at line 1 char 27.'
-- id: ieee.debt.c0ec1d1f758c
-  input: ISO/IEC/IEEE 8802-3:2017/Cor.1:2018(E)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''D='', ''D'', ''E'', ''Amd'', ''R'', ''REV'', ''Rev'', ''rev'']
-    at line 1 char 26.'
-- id: ieee.debt.f254b53a42f8
-  input: ISO/IEC/IEEE 9945:2009/Cor.2:2017(E)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''D='', ''D'', ''E'', ''Amd'', ''R'', ''REV'', ''Rev'', ''rev'']
-    at line 1 char 24.'
+    expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
+    at line 1 char 30.'
 - id: ieee.debt.a573131ba4f3
   input: ISO/IEEE 11073-10404:2010(E) (Supersedes IEEE Std 11073-10404-2008)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 28.'
+    expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
+    at line 1 char 30.'
 - id: ieee.debt.223790b4e282
   input: IEC 60076-21:2018(E) IEEE Std C57.15-2017
   expect:
@@ -5263,9 +5046,9 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Cor'', ''INT'', ''Conformance'', ''Corrigendum'', ''Amendment'',
-    ''Amd'', ''/'', ''REV'', ''Rev'', ''rev'', ''_'', ''-'', ''&#x2013;'', ''–'',
-    '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Fe'
+    expected one of [''Cor'', ''INT'', ''Conformance'', ''-'', ''&#x2013;'', ''–'',
+    ''Redline'', ''REDLINE'', ''redline'', ''Corrigendum'', ''Amendment'', ''Amd'',
+    ''/'', ''REV'', ''Rev'', ''rev'', ''_'', '' '', ''Sept.'', ''O'
 - id: ieee.debt.82fb49eeb614
   input: IEC 62659:2011 ED1, October 2011
   expect:
@@ -5279,14 +5062,16 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 26.'
+    expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
+    at line 1 char 28.'
 - id: ieee.debt.5539536c79c4
   input: ISO/IEC/IEEE 12207:2017(E) ED1, 2017-11 - Redline
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 26.'
+    expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
+    at line 1 char 28.'
 - id: ieee.debt.49311e64c0d1
   input: IEC 62529:2012(E) (IEEE Std 1641-2010)
   expect:
@@ -5314,14 +5099,16 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 26.'
+    expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
+    at line 1 char 28.'
 - id: ieee.debt.f821ce73ce27
   input: ISO/IEC/IEEE 42010:2011(E) (Revision of ISO/IEC 42010:2007 and IEEE Std 1471-2000)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 26.'
+    expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
+    at line 1 char 28.'
 - id: ieee.debt.fd5e92424350
   input: IEC/IEEE P62209-1528 FDIS/D5, 2019
   expect:
@@ -5446,7 +5233,7 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 32.'
+    expected one of ['' ''] at line 1 char 33.'
 - id: ieee.debt.2a892707d610
   input: ISO/IEC/IEEE P12207-2/D2 FDIS, December 2019
   expect:
@@ -5479,14 +5266,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 27.'
-- id: ieee.debt.b6959e92eb3d
-  input: ISO/IEC/IEEE 8802-1Q:2016/Cor 1:2017(E)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''D='', ''D'', ''E'', ''Amd'', ''R'', ''REV'', ''Rev'', ''rev'']
-    at line 1 char 27.'
 - id: ieee.debt.66508327624a
   input: IEC/IEEE P61886-1_FDIS/D3.1, November 2020
   expect:
@@ -5762,7 +5541,8 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 39.'
+    expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
+    at line 1 char 41.'
 - id: ieee.debt.f9614628fb1e
   input: ISO/IEC/IEEE P24641/D2 CD, June 2020
   expect:
@@ -5778,43 +5558,15 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 39.'
-- id: ieee.debt.000cf310b72d
-  input: IEEE Std 2012 NESC Handbook, Seventh Edition
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
-- id: ieee.debt.ba8b90ec0ef5
-  input: IEEE Std 2017 NESC(R) Handbook, Premier Edition
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
-- id: ieee.debt.10a355f78c01
-  input: IEEE Std 2017 National Electrical Safety Code(R) (NESC(R))
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
+    expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
+    at line 1 char 41.'
 - id: ieee.debt.cdaf77bd6141
   input: IEEE Std 2017 National Electrical Safety Code(R) (NESC(R)) - Redline
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
-    ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
+    expected one of [''Handbook'', ''Redline''] at line 1 char 60.'
 - id: ieee.debt.470ea824e493
   input: IEEE Std 3006HistoricalData-2012 Historical Reliability Data for IEEE 3006
     Standards
@@ -7461,7 +7213,8 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 28.'
+    expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
+    at line 1 char 30.'
 - id: ieee.debt.cf295065a41c
   input: ISO/IEC/IEEE 8802-11:2012(E) (Revison of ISO/IEC/IEEE 8802-11-2005 and Amendments)
     - Redline
@@ -7469,23 +7222,16 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 28.'
-- id: ieee.debt.b4dc9d066e0d
-  input: ISO/IEC/IEEE 8802-1AE:2020/Cor.1:2021 (Adoption of IEEE Standard 802.1AE-2018/Cor
-    1 -2020)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''D='', ''D'', ''E'', ''Amd'', ''R'', ''REV'', ''Rev'', ''rev'']
-    at line 1 char 28.'
+    expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
+    at line 1 char 30.'
 - id: ieee.debt.0f35728a6205
   input: ISO/IEC/IEEE 8802-21-1:2018(E) (Adoption of IEEE 802.21.1-2017)
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x01-\x27], [\x2a-\u{10ffff}]] at line 1 char 30.'
+    expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
+    at line 1 char 32.'
 - id: ieee.debt.bf2a49fa9829
   input: ISO/IEC/IEEE P15289:2016, 3rd Ed FDIS/D2
   expect:
