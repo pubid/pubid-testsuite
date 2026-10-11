@@ -2359,7 +2359,28 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1293-1998/Cor 1-2008 (Corrigendum to IEEE Std 1293-1998)
     style: v3
-- id: ieee.corrigendum.5570
+- id: ieee.corrigendum.5449
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    year: '2011'
+    base:
+      _type: pubid:ieee:standard
+      number: '1484'
+      year: '2002'
+      parts:
+      - '12'
+      - '1'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 1484.12.1-2002/Cor. 1-2011
+    urn: urn:ieee:ieee:2011
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 1484.12.1-2002/Cor 1-2011 (Corrigendum to IEEE Std 1484.12.1-2002)
+    style: v3
+- id: ieee.corrigendum.5571
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2376,7 +2397,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1549-2011/Cor 1-2017 (Corrigendum to IEEE Std 1549-2011)
     style: v3
-- id: ieee.corrigendum.5654
+- id: ieee.corrigendum.5655
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2396,7 +2417,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1609.3-2010/Cor 1-2012 (Corrigendum to IEEE Std 1609.3-2010)
     style: v3
-- id: ieee.corrigendum.5655
+- id: ieee.corrigendum.5656
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -2416,7 +2437,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1609.3-2010/Cor 2-2014 (Corrigendum to IEEE Std 1609.3-2010)
     style: v3
-- id: ieee.corrigendum.5662
+- id: ieee.corrigendum.5663
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2436,7 +2457,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1609.4-2010/Cor 1-2014 (Corrigendum to IEEE Std 1609.4-2010)
     style: v3
-- id: ieee.corrigendum.5665
+- id: ieee.corrigendum.5666
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2456,7 +2477,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1609.4-2016/Cor 1-2019 (Corrigendum to IEEE Std 1609.4-2016)
     style: v3
-- id: ieee.corrigendum.5671
+- id: ieee.corrigendum.5672
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2473,7 +2494,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1613-2003/Cor 1-2006 (Corrigendum to IEEE Std 1613-2003)
     style: v3
-- id: ieee.corrigendum.5811
+- id: ieee.corrigendum.5812
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2490,7 +2511,7 @@
   non_normalized_aliases:
   - spelling: IEEE 1672-2006/Cor 1-2008 (Corrigendum to IEEE Std 1672-2006)
     style: v3
-- id: ieee.corrigendum.5870
+- id: ieee.corrigendum.5871
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2510,7 +2531,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1722.1-2013/Cor 1-2018 (Corrigendum to IEEE Std 1722.1-2013)
     style: v3
-- id: ieee.corrigendum.5879
+- id: ieee.corrigendum.5880
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2527,7 +2548,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1727-2013/Cor 1-2015 (Corrigendum to IEEE Std 1727-2013)
     style: v3
-- id: ieee.corrigendum.6033
+- id: ieee.corrigendum.6034
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2547,7 +2568,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1900.6-2011/Cor 1-2015 (Corrigendum to IEEE Std 1900.6-2011)
     style: v3
-- id: ieee.corrigendum.6275
+- id: ieee.corrigendum.6276
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2564,7 +2585,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 293-1969/Cor 1-2014 (Corrigendum to IEEE Std 293-1969)
     style: v3
-- id: ieee.corrigendum.6593
+- id: ieee.corrigendum.6594
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2581,7 +2602,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 497-2002/Cor 1-2007(Corrigendum to IEEE Std 497-2002)
     style: v3
-- id: ieee.corrigendum.6654
+- id: ieee.corrigendum.6655
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2598,7 +2619,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 529-1980/Cor 1-2017
     style: v3
-- id: ieee.corrigendum.6666
+- id: ieee.corrigendum.6667
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2615,7 +2636,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 535-2013/Cor. 1-2017 (Corrigenda of IEEE Std 535-2013)
     style: v3
-- id: ieee.corrigendum.6761
+- id: ieee.corrigendum.6762
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2632,7 +2653,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 643-2004/Cor 1-2013 (Corrigendum to IEEE Std 643-2004)
     style: v3
-- id: ieee.corrigendum.6788
+- id: ieee.corrigendum.6789
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2652,7 +2673,7 @@
   - spelling: IEEE Std 671-1985/Cor 1-2010 [Corrigendum to IEEE Std 671-1985 (Reaff
       2008)]
     style: v3
-- id: ieee.corrigendum.6918
+- id: ieee.corrigendum.6919
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2672,7 +2693,30 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.11b-1999/Cor 1-2001
     style: v3
-- id: ieee.corrigendum.7016
+- id: ieee.corrigendum.6951
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    year: '2018'
+    base:
+      _type: pubid:ieee:standard
+      number: '802'
+      year: '2015'
+      parts:
+      - '15'
+      - '4'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std 802.15.4-2015/Cor. 1-2018
+    urn: urn:ieee:ieee:2018
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std 802.15.4-2015/Cor 1-2018 (Amendment to IEEE Std 802.15.4-2015
+      as amended by IEEE Std 802.15.4n-2016, IEEE Std 802.15.4q-2016, IEEE Std 802.15.4u-2016,
+      IEEE Std 802.15.4t-2017 and IEEE Std 802.15.4v-2017)
+    style: v3
+- id: ieee.corrigendum.7020
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2692,7 +2736,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.1AB-2009/Cor 1-2013 (Corrigendum to IEEE Std 802.1AB-2009)
     style: v3
-- id: ieee.corrigendum.7017
+- id: ieee.corrigendum.7021
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -2712,7 +2756,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.1AB-2009/Cor 2-2015 (Corrigendum to IEEE Std 802.1AB-2009)
     style: v3
-- id: ieee.corrigendum.7022
+- id: ieee.corrigendum.7026
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2732,7 +2776,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.1AC-2016/Cor 1-2018 (Corrigenda to IEEE Std 802.1AC-2016)
     style: v3
-- id: ieee.corrigendum.7026
+- id: ieee.corrigendum.7030
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2752,7 +2796,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.1AE-2018/Cor 1-2020 (Corrigendum to IEEE Std 802.1AE-2018)
     style: v3
-- id: ieee.corrigendum.7034
+- id: ieee.corrigendum.7038
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2772,7 +2816,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.1AS-2011/Cor 1-2013 (Corrigendum to IEEE Std 802.1AS-2011)
     style: v3
-- id: ieee.corrigendum.7035
+- id: ieee.corrigendum.7039
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -2792,7 +2836,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.1AS-2011/Cor 2-2015 (Corrigendum to IEEE Std 802.1AS-2011)
     style: v3
-- id: ieee.corrigendum.7039
+- id: ieee.corrigendum.7043
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2812,7 +2856,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.1AX-2014/Cor 1-2017 (Corrigendum to IEEE Std 802.1AX-2014)
     style: v3
-- id: ieee.corrigendum.7044
+- id: ieee.corrigendum.7048
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2832,7 +2876,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.1BA-2011/Cor 1-2016 (Corrigendum to IEEE Std 802.1BA-2011)
     style: v3
-- id: ieee.corrigendum.7062
+- id: ieee.corrigendum.7066
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2852,7 +2896,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.1Q-2005/Cor 1-2008 (Corrigendum to IEEE Std 802.1Q-2005)
     style: v3
-- id: ieee.corrigendum.7064
+- id: ieee.corrigendum.7068
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -2872,7 +2916,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.1Q-2011/Cor 2-2012 (Corrigendum to IEEE Std 802.1Q-2011)
     style: v3
-- id: ieee.corrigendum.7066
+- id: ieee.corrigendum.7070
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2892,7 +2936,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.1Q-2014/Cor 1-2015 (Corrigendum to IEEE Std 802.1Q-2014)
     style: v3
-- id: ieee.corrigendum.7121
+- id: ieee.corrigendum.7125
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2912,7 +2956,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.21-2017/Cor 1-2017 (Corrigendum to IEEE Std 802.21-2017)
     style: v3
-- id: ieee.corrigendum.7137
+- id: ieee.corrigendum.7141
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2932,7 +2976,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.3-2005/Cor 1-2006 (Corrigendum to IEEE Std 802.3-2005)
     style: v3
-- id: ieee.corrigendum.7138
+- id: ieee.corrigendum.7142
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -2952,7 +2996,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.3-2005/Cor 2-2007 (Corrigendum to IEEE Std 802.3-2005)
     style: v3
-- id: ieee.corrigendum.7140
+- id: ieee.corrigendum.7144
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2972,7 +3016,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.3-2008/Cor 1-2009 (Corrigendum to IEEE Std 802.3-2008)
     style: v3
-- id: ieee.corrigendum.7339
+- id: ieee.corrigendum.7343
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2989,7 +3033,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 952-1997/Cor 1-2016 (Corrigendum to IEEE Std 952-1997)
     style: v3
-- id: ieee.corrigendum.7392
+- id: ieee.corrigendum.7396
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3010,7 +3054,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C135.80-2012/Cor 1-2020 (Corrigendum to IEEE Std C135.80-2012)
     style: v3
-- id: ieee.corrigendum.7411
+- id: ieee.corrigendum.7415
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3031,7 +3075,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C37.012-2014/Cor 1-2016 (Corrigendum to IEEE Std C37.012-2014)
     style: v3
-- id: ieee.corrigendum.7424
+- id: ieee.corrigendum.7428
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3052,7 +3096,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C37.016-2018/Cor 1-2021 (Corrigendum to IEEE Std C37.016-2018)
     style: v3
-- id: ieee.corrigendum.7428
+- id: ieee.corrigendum.7432
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3073,7 +3117,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C37.04-1999/Cor 1-2009 (Corrigendum to IEEE Std C37.04-1999)
     style: v3
-- id: ieee.corrigendum.7431
+- id: ieee.corrigendum.7435
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3094,7 +3138,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C37.04-2018/Cor 1-2021 (Corrigendum to IEEE Std C37.04-2018)
     style: v3
-- id: ieee.corrigendum.7442
+- id: ieee.corrigendum.7446
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3115,7 +3159,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C37.09-1999/Cor 1-2007 (Corrigendum to IEEE Std C37.09-1999)
     style: v3
-- id: ieee.corrigendum.7445
+- id: ieee.corrigendum.7449
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3136,7 +3180,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C37.09-2018 Cor 1-2021
     style: v3
-- id: ieee.corrigendum.7493
+- id: ieee.corrigendum.7497
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3157,7 +3201,51 @@
   non_normalized_aliases:
   - spelling: IEEE Std C37.110-2007/Cor 1-2010 (Corrigendum to IEEE Std C37.110-2007)
     style: v3
-- id: ieee.corrigendum.7621
+- id: ieee.corrigendum.7600
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    year: '2010'
+    base:
+      _type: pubid:ieee:standard
+      number: '37'
+      year: '2007'
+      prefix: C
+      parts:
+      - '20'
+      - '7'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std C37.20.7-2007/Cor. 1-2010
+    urn: urn:ieee:ieee:2010
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C37.20.7-2007/Cor 1-2010 (Corrigendum to IEEE Std C37.20.7-2007)
+    style: v3
+- id: ieee.corrigendum.7602
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    year: '2021'
+    base:
+      _type: pubid:ieee:standard
+      number: '37'
+      year: '2017'
+      prefix: C
+      parts:
+      - '20'
+      - '7'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std C37.20.7-2017/Cor. 1-2021
+    urn: urn:ieee:ieee:2021
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C37.20.7-2017/Cor 1-2021 (Corrigendum to IEEE Std C37.20.7-2017)
+    style: v3
+- id: ieee.corrigendum.7627
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3178,7 +3266,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C37.24-2017/Cor 1-2019 (Corrigendum to IEEE Std C37.24-2017)
     style: v3
-- id: ieee.corrigendum.7668
+- id: ieee.corrigendum.7674
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3199,7 +3287,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C37.41-2016/Cor 1-2017 (Corrigenda to IEEE Std C37.41-2016)
     style: v3
-- id: ieee.corrigendum.7698
+- id: ieee.corrigendum.7704
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3220,7 +3308,95 @@
   non_normalized_aliases:
   - spelling: IEEE Std C37.60-2003/Cor 1-2004 (Corrigendum to IEEE Std C37.60-2003)
     style: v3
-- id: ieee.corrigendum.7967
+- id: ieee.corrigendum.7801
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    year: '2012'
+    base:
+      _type: pubid:ieee:standard
+      number: '57'
+      year: '2010'
+      prefix: C
+      parts:
+      - '12'
+      - '10'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std C57.12.10-2010/Cor. 1-2012
+    urn: urn:ieee:ieee:2012
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C57.12.10-2010/Cor 1-2012 (Corrigendum to IEEE Std C57.12.10-2010)
+    style: v3
+- id: ieee.corrigendum.7828
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    year: '2014'
+    base:
+      _type: pubid:ieee:standard
+      number: '57'
+      year: '2010'
+      prefix: C
+      parts:
+      - '12'
+      - '31'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std C57.12.31-2010/Cor. 1-2014
+    urn: urn:ieee:ieee:2014
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C57.12.31-2010-Cor 1-2014 (Corrigendum to IEEE Std C57.12.31-2010)
+    style: v3
+- id: ieee.corrigendum.7875
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    year: '2013'
+    base:
+      _type: pubid:ieee:standard
+      number: '57'
+      year: '2009'
+      prefix: C
+      parts:
+      - '12'
+      - '60'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std C57.12.60-2009/Cor. 1-2013
+    urn: urn:ieee:ieee:2013
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C57.12.60-2009/Cor 1-2013 (Corrigendum to IEEE Std C57.12.60-2009)
+    style: v3
+- id: ieee.corrigendum.7890
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    year: '2017'
+    base:
+      _type: pubid:ieee:standard
+      number: '57'
+      year: '2015'
+      prefix: C
+      parts:
+      - '12'
+      - '90'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Std C57.12.90-2015/Cor. 1-2017
+    urn: urn:ieee:ieee:2017
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Std C57.12.90-2015/Cor 1-2017 (Corrigendum to IEEE Std C57.12.90-2015)
+    style: v3
+- id: ieee.corrigendum.7977
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3241,7 +3417,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C57.163-2015/Cor 1-2016 (Corrigendum to IEEE Std C57.163-2015)
     style: v3
-- id: ieee.corrigendum.7993
+- id: ieee.corrigendum.8003
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3262,7 +3438,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C57.91-1995/Cor 1-2002
     style: v3
-- id: ieee.corrigendum.8017
+- id: ieee.corrigendum.8027
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3283,7 +3459,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std. C62.21-2003/Cor 1-2008 (Corrigendum to IEEE Std C62.21-2003)
     style: v3
-- id: ieee.corrigendum.8036
+- id: ieee.corrigendum.8046
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3304,7 +3480,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C62.35-2010/Cor 1-2018 (Corrigendum to IEEE Std C62.35-2010)
     style: v3
-- id: ieee.corrigendum.8052
+- id: ieee.corrigendum.8062
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3313,8 +3489,6 @@
       _type: pubid:ieee:standard
       number: '62'
       year: '2002'
-      relationships:
-      - relationship_type: corrigendum_to
       prefix: C
       parts:
       - '41'
@@ -3328,7 +3502,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C62.41.2-2002_Cor 1-2012 (Corrigendum to IEEE Std C62.41.2-2002)
     style: v3
-- id: ieee.corrigendum.8075
+- id: ieee.corrigendum.8085
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3349,7 +3523,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C62.55-2017/Cor 1-2018 (Corrigendum to IEEE Std C62.55-2017)
     style: v3
-- id: ieee.corrigendum.8121
+- id: ieee.corrigendum.8131
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -3370,7 +3544,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C95.1-2019/Cor 2-2020 (Corrigenda to IEEE Std C95.1-2019)
     style: v3
-- id: ieee.corrigendum.8168
+- id: ieee.corrigendum.8178
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3394,7 +3568,7 @@
     style: v3
   - spelling: IEEE Unapproved Draft Std C37.04-1999/Cor 1_DB2, Apr 2009
     style: v3
-- id: ieee.corrigendum.8237
+- id: ieee.corrigendum.8247
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3412,7 +3586,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std P1137_Cor 1/D2, Jun 2009
     style: v3
-- id: ieee.corrigendum.8263
+- id: ieee.corrigendum.8273
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3434,7 +3608,7 @@
     style: v3
   - spelling: IEEE Unapproved Draft Std P1293-1998/Cor 1-2008_D3, May 2008
     style: v3
-- id: ieee.corrigendum.8277
+- id: ieee.corrigendum.8287
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3455,7 +3629,7 @@
     style: v3
   - spelling: IEEE Unapproved Draft Std P1431-2004/Cor 1_D3, Apr 2008
     style: v3
-- id: ieee.corrigendum.8291
+- id: ieee.corrigendum.8301
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3480,7 +3654,7 @@
     style: v3
   - spelling: IEEE Unapproved Draft Std P1484.12.1-2002/Cor 1_D13, Jan 2010
     style: v3
-- id: ieee.corrigendum.8412
+- id: ieee.corrigendum.8422
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3499,7 +3673,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std P1672-2006_Cor 1/D3, Jun 2008
     style: v3
-- id: ieee.corrigendum.8493
+- id: ieee.corrigendum.8503
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3518,7 +3692,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std P497-2002/Cor 1/D3, January 2007
     style: v3
-- id: ieee.corrigendum.8498
+- id: ieee.corrigendum.8508
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3536,7 +3710,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std P525/Cor 1/D1, Sept 2007
     style: v3
-- id: ieee.corrigendum.8499
+- id: ieee.corrigendum.8509
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3554,7 +3728,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std P525_Cor 1/D2, Dec 2007
     style: v3
-- id: ieee.corrigendum.8511
+- id: ieee.corrigendum.8521
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3574,7 +3748,7 @@
     style: v3
   - spelling: IEEE Unapproved Draft Std P671/Cor 1_D2, Oct 2009
     style: v3
-- id: ieee.corrigendum.8578
+- id: ieee.corrigendum.8588
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -3595,7 +3769,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std P802.16-2004/Cor 2/D4
     style: v3
-- id: ieee.corrigendum.8639
+- id: ieee.corrigendum.8649
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3619,7 +3793,7 @@
     style: v3
   - spelling: IEEE Unapproved Draft Std P802.1ak-2007/Cor 1_D3.0,May 2008
     style: v3
-- id: ieee.corrigendum.8640
+- id: ieee.corrigendum.8650
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3640,7 +3814,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std P802.1ak_Cor 1/D1.0, Dec 2007
     style: v3
-- id: ieee.corrigendum.8641
+- id: ieee.corrigendum.8651
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3661,7 +3835,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std P802.1ak-2007/Cor 1/D2.0
     style: v3
-- id: ieee.corrigendum.8662
+- id: ieee.corrigendum.8672
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3683,7 +3857,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Std P802.3-2005/Cor 1/D2.0, Mar 2006
     style: v3
-- id: ieee.corrigendum.8663
+- id: ieee.corrigendum.8673
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -3705,7 +3879,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std P802.3-2005/Cor 2/D2.0, Mar 2007
     style: v3
-- id: ieee.corrigendum.8707
+- id: ieee.corrigendum.8717
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3727,7 +3901,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std PC37.04-1999/Cor 1/D3, May 2009
     style: v3
-- id: ieee.corrigendum.8736
+- id: ieee.corrigendum.8746
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3750,7 +3924,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std PC37.20.7-2001 Cor 1/D3, Aug 2009
     style: v3
-- id: ieee.corrigendum.8737
+- id: ieee.corrigendum.8747
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3772,7 +3946,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std PC37.20.7-2007 Cor 1/D4
     style: v3
-- id: ieee.corrigendum.8818
+- id: ieee.corrigendum.8828
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3794,7 +3968,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std PC62.21-2003-Cor_1/D5, Mar 2008
     style: v3
-- id: ieee.corrigendum.8820
+- id: ieee.corrigendum.8830
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3815,7 +3989,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std PC62.21/Cor 1/D4, Oct 2007
     style: v3
-- id: ieee.corrigendum.8972
+- id: ieee.corrigendum.8982
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3844,7 +4018,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE 8802-1AC:2018/Cor.1:2020(E)
     style: v2
-- id: ieee.corrigendum.8976
+- id: ieee.corrigendum.8986
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3873,7 +4047,7 @@
   - spelling: ISO/IEC/IEEE 8802-1AE:2020/Cor.1:2021 (Adoption of IEEE Standard 802.1AE-2018/Cor
       1 -2020)
     style: v2
-- id: ieee.corrigendum.8981
+- id: ieee.corrigendum.8991
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3902,7 +4076,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE 8802-1AX:2016/Cor.1:2018(E)
     style: v2
-- id: ieee.corrigendum.8992
+- id: ieee.corrigendum.9002
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3931,7 +4105,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE 8802-1Q:2016/Cor 1:2017(E)
     style: v3
-- id: ieee.corrigendum.8999
+- id: ieee.corrigendum.9009
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3960,7 +4134,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE 8802-21:2018/Cor.1:2018(E)
     style: v2
-- id: ieee.corrigendum.9016
+- id: ieee.corrigendum.9026
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3989,7 +4163,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE 8802-3:2017/Cor.1:2018(E)
     style: v2
-- id: ieee.corrigendum.9032
+- id: ieee.corrigendum.9042
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
