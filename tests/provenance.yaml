@@ -8,32 +8,13 @@ generator:
   exporter_sha256: 17c6c0e180f1ca39d3867588aa83e2d6bb081c0b1948cd7ded2f12d1cebf7dc6
 oracle:
   gem: pubid
-  commit: 4dae475fdf1ac9073b95792d189a4e4eb79b5a21
+  commit: 5ac64a81486ab8874b41ec22933c9088698bc78d
   clean: true
   dirty_paths: []
 repository:
-  commit: 40ac938dd250c0c790f7a4e75c575966947ce068
+  commit: 5601af9d9b706894f6d47020593c11e95efaa41a
   clean: false
   dirty_paths:
-  - reference-docs/ieee/SUMMARY.txt
-  - reference-docs/ieee/identifiers/fail/standard.txt
-  - reference-docs/ieee/identifiers/pass/corrigendum.txt
-  - reference-docs/ieee/identifiers/pass/standard.txt
-  - tests/ieee/_debt.yaml
-  - tests/ieee/_negative.yaml
-  - tests/ieee/_normalization.yaml
-  - tests/ieee/adopted_standard.yaml
-  - tests/ieee/amendment.yaml
-  - tests/ieee/conformance_identifier.yaml
-  - tests/ieee/corrigendum.yaml
-  - tests/ieee/csa_dual_published.yaml
-  - tests/ieee/dual_published.yaml
-  - tests/ieee/joint_development.yaml
-  - tests/ieee/nesc_edition.yaml
-  - tests/ieee/nesc_handbook.yaml
-  - tests/ieee/nesc_preprint.yaml
-  - tests/ieee/project_draft_identifier.yaml
-  - tests/ieee/si_standard.yaml
   - tests/ieee/standard.yaml
 ruby:
   version: 3.4.8
@@ -41,7 +22,7 @@ counts:
   flavors: 42
   payloads: 344
   cases: 99414
-  aliases: 11451
+  aliases: 11453
   negatives: 761
 payloads:
 - path: amca/_debt.yaml
@@ -627,8 +608,8 @@ payloads:
   sha256: 877444aa24a668c789ae2bb721e5a2c366ad32b7aec2da133b16c8a7cf35d5ea
   bytes: 3286
 - path: ieee/standard.yaml
-  sha256: 737ab813f3c709a9a4c771fbfb2346c2824bacc480bfa0662e6660bb7d555cf6
-  bytes: 1927016
+  sha256: 2b34c0a8b7b12daee00e1c80694b42ff158317fff1c3dd3a30877eb4b6d4ec0f
+  bytes: 1927158
 - path: ietf/bcp.yaml
   sha256: 5550f54365fa3abe45c266d956fc5c0bc239fb1e652ca3abc845ea1d8d5bf764
   bytes: 36048
