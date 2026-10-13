@@ -4,142 +4,116 @@
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''FprEN'', ''prEN'', ''CWA'', ''HD'', ''ES'', ''CR'', ''ENV'',
+    ''EN'', ''CEN'', ''CLC''] at line 1 char 1.'
 - id: cen_cenelec.debt.db5c9dda470a
   input: CECC 16100:1980
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''FprEN'', ''prEN'', ''CWA'', ''HD'', ''ES'', ''CR'', ''ENV'',
+    ''EN'', ''CEN'', ''CLC''] at line 1 char 1.'
 - id: cen_cenelec.debt.242d25cddad1
   input: HD 384.7.711 S1:2003
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], '' '', ''-'', '':'', ''+'', ''/''] at line 1 char
+    7.'
 - id: cen_cenelec.debt.fecdf5fd7842
   input: HD 629.3 S1:2024
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], '' '', ''-'', '':'', ''+'', ''/''] at line 1 char
+    7.'
 - id: cen_cenelec.debt.77b409ab64bb
   input: HD 629.2 S3:2024
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], '' '', ''-'', '':'', ''+'', ''/''] at line 1 char
+    7.'
 - id: cen_cenelec.debt.f67d561eb9a1
   input: HD 60364-8-82 (AS BS 7671)
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''AMD'', ''V'', ''ED''] at line 1 char 15.'
 - id: cen_cenelec.debt.78ffc73b8a18
   input: HD 629.1 S3:2019
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], '' '', ''-'', '':'', ''+'', ''/''] at line 1 char
+    7.'
 - id: cen_cenelec.debt.8da03366d8c5
   input: HD 60364-8-1:2019 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''ED''] at line 1 char 19.'
 - id: cen_cenelec.debt.8da03366d8c5
   input: HD 60364-8-1:2019 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''ED''] at line 1 char 19.'
 - id: cen_cenelec.debt.0c9218772e92
   input: HD 60364-8-2:2011+A11:2019 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''FRAG'', ''ED''] at line 1 char 28.'
 - id: cen_cenelec.debt.0c9218772e92
   input: HD 60364-8-2:2011+A11:2019 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''FRAG'', ''ED''] at line 1 char 28.'
 - id: cen_cenelec.debt.faa85d950bd9
   input: HD 60269-2 AMD2
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], '' ''] at line 1 char 16.'
 - id: cen_cenelec.debt.fbaf53b4c9dc
   input: HD 60269-3 AMD2
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], '' ''] at line 1 char 16.'
 - id: cen_cenelec.debt.43d910a473b3
   input: prEN 13306 rev
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], ''AMD'', ''V'', ''ED''] at line 1 char 12.'
 - id: cen_cenelec.debt.03270907bf82
   input: EN 285:2015/FprA1
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''A'', ''AC''] at line 1 char 13.'
 - id: cen_cenelec.debt.641a092acc0f
   input: prEN 285 rev
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], ''AMD'', ''V'', ''ED''] at line 1 char 10.'
