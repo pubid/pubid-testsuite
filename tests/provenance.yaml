@@ -8,20 +8,25 @@ generator:
   exporter_sha256: 17c6c0e180f1ca39d3867588aa83e2d6bb081c0b1948cd7ded2f12d1cebf7dc6
 oracle:
   gem: pubid
-  commit: 5ac64a81486ab8874b41ec22933c9088698bc78d
+  commit: 14c5628c9074ad68064082e61382f2cb3639ba83
   clean: true
   dirty_paths: []
 repository:
-  commit: 5601af9d9b706894f6d47020593c11e95efaa41a
+  commit: 117ca3cbc60410f0c2fed931eff7844685696fe4
   clean: false
   dirty_paths:
-  - tests/ieee/standard.yaml
+  - README.md
+  - reference-docs/evs/identifiers/pass/evs-en.txt
+  - tests/evs/national_adoption.yaml
+  - tests/provenance.yaml
+  - tests/evs/estonian_standard.yaml
+  - tests/evs/international_adoption.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 42
-  payloads: 344
-  cases: 99414
+  payloads: 346
+  cases: 99433
   aliases: 11453
   negatives: 761
 payloads:
@@ -415,9 +420,15 @@ payloads:
 - path: etsi/etsi_standard.yaml
   sha256: 257050dcd4455a9dbdcba6992bbce81210b3ab1e0b162c9f11a60e6b55f9cfe4
   bytes: 7030517
+- path: evs/estonian_standard.yaml
+  sha256: 22cdf620637a55ba62fc4b0e92717676c265db831c3c8f25ccd1d8c2b4a4a961
+  bytes: 916
+- path: evs/international_adoption.yaml
+  sha256: e64ddbf2574f1596a298ebae5548835e9725c171680f3a70143cf1950adb4d33
+  bytes: 507
 - path: evs/national_adoption.yaml
-  sha256: 4feb6ecdc8db325f91804e9e799d7184de7d185a643cbab122373aa7681f287b
-  bytes: 3259
+  sha256: e66b5a473a702f2b20979031827cedbb9b77e31f3c772e68e8c2eb0ae9abb64b
+  bytes: 7968
 - path: gb/_negative.yaml
   sha256: 183e20b3fbf98cdcf8fabe91887ebd7dba300e0a982cc14d79ccb24b36c95d29
   bytes: 461

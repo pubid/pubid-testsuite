@@ -63,5 +63,5 @@ CLEAN flavors hard-gate; DIRTY flavors report as the known defect ledger
 
 ## By the numbers
 
-<!-- counts:flavors=42 --> flavors · <!-- counts:cases=99414 --> cases.
+<!-- counts:flavors=42 --> flavors · <!-- counts:cases=99433 --> cases.
 The structure validator recomputes these and fails on drift.
