@@ -441,9 +441,7 @@
       code: unclassified
 - id: ieee.neg.base.0088
   input: IEEE Unapproved Std PC57.129_D9, Mar07.pdf
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0089
   input: IEEE/EAB 1100 Self Study Course - IEEE Emerald Book
   expect:
@@ -652,79 +650,49 @@
       code: unclassified
 - id: ieee.neg.base.0130
   input: IEEE Approved Draft Std P1484.20.1/D7, May 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0131
   input: IEEE Approved Draft Std P1516.4/Dx.1, Jun 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0132
   input: IEEE Approved Draft Std P1542/D8, Aug 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0133
   input: IEEE Approved Draft Std P1617/D7.0, Jun 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0134
   input: IEEE Approved Draft Std P1636.1/D3, May 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0135
   input: IEEE Approved Draft Std P1661/D11, Jul 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0136
   input: IEEE Approved Draft Std P495/D13, Aug 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0137
   input: IEEE Approved Draft Std P532/D9.6, Apr 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0138
   input: IEEE Approved Draft Std P741/D2, Apr 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0139
   input: IEEE Approved Draft Std P99/D2.0, May 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0140
   input: IEEE Approved Draft Std PC37.20.7/D14, Dec 06
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0141
   input: IEEE Approved Draft Std PC37.230/D6.1, Jul 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0142
   input: IEEE Approved Draft Std PC37.235/D4, Mar 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0143
   input: IEEE Approved Draft Std PC57.12.36/D11, May 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0144
   input: IEEE Approved Draft Std PC57.129/D10, Jul 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0145
   input: IEEE P802.15.4q/D5.0, May, 20
   expect:
@@ -732,9 +700,7 @@
       code: unclassified
 - id: ieee.neg.base.0146
   input: IEEE Unapproved Draft Std P1003.1_D3, Jun 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0147
   input: IEEE Unapproved Draft Std P1028/D5.1, Sep, 07
   expect:
@@ -742,149 +708,91 @@
       code: unclassified
 - id: ieee.neg.base.0148
   input: IEEE Unapproved Draft Std P1189/D15, Jun 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0149
   input: IEEE Unapproved Draft Std P1407_D7, Mar 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0150
   input: IEEE Unapproved Draft Std P1561/D16, Jul 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0151
   input: IEEE Unapproved Draft Std P1610_D13, Aug 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0152
   input: IEEE Unapproved Draft Std P1619/D17, Jul 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0153
   input: IEEE Unapproved Draft Std P1631/D2, Sep 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0154
   input: IEEE Unapproved Draft Std P1636.1/D3, Jan 09
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0155
   input: IEEE Unapproved Draft Std P1686_D4, Jun 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0156
   input: IEEE Unapproved Draft Std P1900.2/D2.22, Jun 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0157
   input: IEEE Unapproved Draft Std P1900_D01, Jun 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0158
   input: IEEE Unapproved Draft Std P2600.1/D41b, Jan 09
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0159
   input: IEEE Unapproved Draft Std P2600.3/D41b, Jan 09
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0160
   input: IEEE Unapproved Draft Std P2600.4/D41b, Jan 09
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0161
   input: IEEE Unapproved Draft Std P532/D9.6, May 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0162
   input: IEEE Unapproved Draft Std P841/D5, Jan 09
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0163
   input: IEEE Unapproved Draft Std P841_D3, Jul 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0164
   input: IEEE Unapproved Draft Std PC37.1/D3, Jun 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0165
   input: IEEE Unapproved Draft Std PC37.1/D5, Sep 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0166
   input: IEEE Unapproved Draft Std PC37.12.1_D4.0, Sep 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0167
   input: IEEE Unapproved Draft Std PC37.16/D13, Apr 08
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0168
   input: IEEE Unapproved Draft Std PC37.43/D9, Oct 06
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0169
   input: IEEE Unapproved Draft Std PC57.12.38/D6.3, Aug 08
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0170
   input: IEEE Unapproved Draft Std PC57.13/D09, Aug 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0171
   input: IEEE Approved Draft Std P802.16g/D9, Apr 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0172
   input: IEEE Approved Draft Std P802.1ag/D8.1, Jun 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0173
   input: IEEE Unapproved Draft Std P802.11k/D9.0, Sep 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0174
   input: IEEE Unapproved Draft Std P802.11r/D78.0, Sep 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0175
   input: IEEE Unapproved Draft Std P802.16Rev2/D9 Jan 09
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0176
   input: IEEE Unapproved Draft Std P802.1ag/D8.1, Jun 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0177
   input: IEEE PC37.98/D5.1D July 2013
   expect:
@@ -1130,72 +1038,46 @@
       code: unclassified
 - id: ieee.neg.base.0234
   input: IEEE Unapproved Draft Std P2600.2/D41b, Jan09
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0235
   input: IEEE Unapproved Draft Std P802-1Qay/D5-0, Jan 09
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0236
   input: IEEE Unapproved Draft Std P802.1X_REV/D4.5, Oct 2009
   notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0237
   input: IEEE Unapproved Draft Std PC37.110/D911Oct 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0238
   input: IEEE Unapproved Draft Std PC62.21_D3, Sep07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0239
   input: IEEE Unapproved Std PC57.129_D9, Mar07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0240
   input: IEEE Unapproved Draft Std P1003.1_D3, Jun 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0241
   input: IEEE Unapproved Draft Std P1686_D4, Jun 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0242
   input: IEEE Unapproved Draft Std P1900_D01, Jun 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0243
   input: IEEE Unapproved Draft Std P1407_D7, Mar 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0244
   input: IEEE Unapproved Draft Std P1610_D13, Aug 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0245
   input: IEEE Unapproved Draft Std PC37.12.1_D4.0, Sep 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0246
   input: IEEE Unapproved Draft Std P841_D3, Jul 07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0247
   input: IEEE Unapproved Draft Std PC62.21_D3, Sep07
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0248
   input: Unapproved Draft Std ISO/IEC FDIS 15288:2007(E) IEEE P15288/D3
   expect:
@@ -1203,9 +1085,7 @@
       code: unclassified
 - id: ieee.neg.base.0249
   input: IEEE Unapproved Draft Std P802-1Qay/D5-0, Jan 09
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0250
   input: IEEE Unapproved Draft Std P802.1X-REV/D4.0, Jun, 2009
   notes: fail fixture unexpectedly parsed - reclassify
@@ -1758,19 +1638,13 @@
       code: unclassified
 - id: ieee.neg.standard.0105
   input: IEEE Std P1500/D11, Jan 06
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.standard.0106
   input: IEEE Std P802.16g/D6, Nov 06
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.standard.0107
   input: IEEE Std P802.16g/D7, Nov 06
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.standard.0108
   input: ANSI C50.32-1976 and IEEE Std 117-1974 (Reaffirmed 1984) (Revision of IEEE
     Std 117-1956)

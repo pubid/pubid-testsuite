@@ -599,7 +599,7 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', '', '', ''19'', ''20''] at line 1 char 27.'
+    expected one of ['' '', '', '', ''19'', ''20'', ''0'', ''1''] at line 1 char 27.'
 - id: ieee.debt.473b14a9a51f
   input: IEEE P1584b/ D3, August 2010
   expect:
@@ -869,21 +869,21 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''19'', ''20'', [\x30-\x39]] at line 1 char 23.'
+    expected one of [''19'', ''20'', [\x30-\x39], ''0'', ''1''] at line 1 char 23.'
 - id: ieee.debt.7363f06583b1
   input: IEEE P802.16.1/D6 Apr_2012
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', '', '', ''19'', ''20''] at line 1 char 22.'
+    expected one of ['' '', '', '', ''19'', ''20'', ''0'', ''1''] at line 1 char 22.'
 - id: ieee.debt.d6b23d0311a0
   input: IEEE P802.16.1/D6 Apr_2012_Approved Draft
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', '', '', ''19'', ''20''] at line 1 char 22.'
+    expected one of ['' '', '', '', ''19'', ''20'', ''0'', ''1''] at line 1 char 22.'
 - id: ieee.debt.5c257a5c2bd4
   input: IEEE P802.16/D6 (Revision of IEEE Std 802.16-2009) - Approved Draft
   expect:
@@ -939,7 +939,7 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''19'', ''20'', [\x30-\x39]] at line 1 char 29.'
+    expected one of [''19'', ''20'', [\x30-\x39], ''0'', ''1''] at line 1 char 29.'
 - id: ieee.debt.a5eaaa0cde47
   input: IEEE P802.1Qcr/D2.3 (Draft amendment to IEEE Std 802.1Q-2018), May 2020
   expect:
@@ -1190,14 +1190,14 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''19'', ''20'', [\x30-\x39]] at line 1 char 27.'
+    expected one of [''19'', ''20'', [\x30-\x39], ''0'', ''1''] at line 1 char 27.'
 - id: ieee.debt.6763fae209fd
   input: IEEE PC57.16/D9, January - April 2011
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''19'', ''20'', [\x30-\x39]] at line 1 char 30.'
+    expected one of [''19'', ''20'', [\x30-\x39], ''0'', ''1''] at line 1 char 30.'
 - id: ieee.debt.9b57e7204a73
   input: IEEE PC62.11/D9.0 (Feb 4, 2020) (Revision of IEEE Std C62.11-2012)
   expect:
@@ -1580,14 +1580,14 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', '', '', ''19'', ''20''] at line 1 char 31.'
+    expected one of ['' '', '', '', ''19'', ''20'', ''0'', ''1''] at line 1 char 31.'
 - id: ieee.debt.4cce16d0d732
   input: IEEE Draft Std PC57.106/D6 Oct
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', '', '', ''19'', ''20''] at line 1 char 31.'
+    expected one of ['' '', '', '', ''19'', ''20'', ''0'', ''1''] at line 1 char 31.'
 - id: ieee.debt.298626fef4f5
   input: IEEE Draft Std PC57.19.03/cor1/D2.2
   expect:
@@ -1602,13 +1602,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 12.'
-- id: ieee.debt.fcce09ee88d7
-  input: IEEE Unapproved Std PC57.129/D9, Mar07.pdf
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', '', '', ''19'', ''20''] at line 1 char 37.'
 - id: ieee.debt.8f13f4e4e1da
   input: IEEE/EAB 1100 Self Study Course - IEEE Emerald Book
   expect:
@@ -2234,126 +2227,6 @@
     expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
     ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
     ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.0a5f472b4d7a
-  input: IEEE Approved Draft Std P1484.20.1/D7, May 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 46.'
-- id: ieee.debt.70119fd4f8a2
-  input: IEEE Approved Draft Std P1516.4/Dx.1, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 45.'
-- id: ieee.debt.66f0c776bec6
-  input: IEEE Approved Draft Std P1542/D8, Aug 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 41.'
-- id: ieee.debt.682ddc4f72e0
-  input: IEEE Approved Draft Std P1617/D7.0, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 43.'
-- id: ieee.debt.5d75f3f1a7a0
-  input: IEEE Approved Draft Std P1636.1/D3, May 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 43.'
-- id: ieee.debt.e3b2f5f9acd5
-  input: IEEE Approved Draft Std P1661/D11, Jul 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 42.'
-- id: ieee.debt.6319d548bb4d
-  input: IEEE Approved Draft Std P495/D13, Aug 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 41.'
-- id: ieee.debt.77dce17e82af
-  input: IEEE Approved Draft Std P532/D9.6, Apr 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 42.'
-- id: ieee.debt.bd325465f381
-  input: IEEE Approved Draft Std P741/D2, Apr 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 40.'
-- id: ieee.debt.836c78321543
-  input: IEEE Approved Draft Std P99/D2.0, May 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 41.'
-- id: ieee.debt.b3788ab5be4b
-  input: IEEE Approved Draft Std PC37.20.7/D14, Dec 06
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 46.'
-- id: ieee.debt.bd84fc079fc9
-  input: IEEE Approved Draft Std PC37.230/D6.1, Jul 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 46.'
-- id: ieee.debt.846301e0d94e
-  input: IEEE Approved Draft Std PC37.235/D4, Mar 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.269fd839d051
-  input: IEEE Approved Draft Std PC57.12.36/D11, May 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 47.'
-- id: ieee.debt.83b9e1d2713a
-  input: IEEE Approved Draft Std PC57.129/D10, Jul 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 45.'
 - id: ieee.debt.a646a5c3f0ea
   input: IEEE P802.15.4q/D5.0, May, 20
   expect:
@@ -2370,22 +2243,6 @@
     expected one of [''National Electrical Safety Code'', ''National Electric Safety
     Code'', ''NESC'', ''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
     ''Conformance'', ''Corrigendum'', ''Amendm'
-- id: ieee.debt.b0d2f8b99665
-  input: IEEE Draft Std P1500/D11, Jan 06
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 33.'
-- id: ieee.debt.799799288c1f
-  input: IEEE Unapproved Draft Std P1003.1/D3, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 45.'
 - id: ieee.debt.878229fa692a
   input: IEEE Unapproved Draft Std P1028/D5.1, Sep, 07
   expect:
@@ -2393,254 +2250,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''19'', ''20'', '' ''] at line 1 char 44.'
-- id: ieee.debt.149daf579973
-  input: IEEE Unapproved Draft Std P1189/D15, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.3f9a9f9ef2f1
-  input: IEEE Unapproved Draft Std P1407/D7, Mar 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 43.'
-- id: ieee.debt.276e592c4a8d
-  input: IEEE Unapproved Draft Std P1561/D16, Jul 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.62561bf873a7
-  input: IEEE Unapproved Draft Std P1610/D13, Aug 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.7008bdd12858
-  input: IEEE Unapproved Draft Std P1619/D17, Jul 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.6efcaaec78da
-  input: IEEE Unapproved Draft Std P1631/D2, Sep 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 43.'
-- id: ieee.debt.5b44151d70d2
-  input: IEEE Unapproved Draft Std P1636.1/D3, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 45.'
-- id: ieee.debt.48457f1794c4
-  input: IEEE Unapproved Draft Std P1686/D4, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 43.'
-- id: ieee.debt.4daae286672f
-  input: IEEE Unapproved Draft Std P1900.2/D2.22, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 48.'
-- id: ieee.debt.3ae131ea9119
-  input: IEEE Unapproved Draft Std P1900/D01, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.ad9f01fee96e
-  input: IEEE Unapproved Draft Std P2600.1/D41b, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 47.'
-- id: ieee.debt.a47e3f15052d
-  input: IEEE Unapproved Draft Std P2600.3/D41b, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 47.'
-- id: ieee.debt.b4552dd4f97e
-  input: IEEE Unapproved Draft Std P2600.4/D41b, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 47.'
-- id: ieee.debt.45d5777bef77
-  input: IEEE Unapproved Draft Std P532/D9.6, May 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.a483ba59d1e9
-  input: IEEE Unapproved Draft Std P841/D5, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 42.'
-- id: ieee.debt.c9b730d21648
-  input: IEEE Unapproved Draft Std P841/D3, Jul 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 42.'
-- id: ieee.debt.13996e38367e
-  input: IEEE Unapproved Draft Std PC37.1/D3, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.979eb91cf189
-  input: IEEE Unapproved Draft Std PC37.1/D5, Sep 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.3be2fda84e55
-  input: IEEE Unapproved Draft Std PC37.12.1/D4.0, Sep 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 49.'
-- id: ieee.debt.ecf0780765a4
-  input: IEEE Unapproved Draft Std PC37.16/D13, Apr 08
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 46.'
-- id: ieee.debt.aaafbe9d55c7
-  input: IEEE Unapproved Draft Std PC37.43/D9, Oct 06
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 45.'
-- id: ieee.debt.213d95d3d0a9
-  input: IEEE Unapproved Draft Std PC57.12.38/D6.3, Aug 08
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 50.'
-- id: ieee.debt.e1562296d651
-  input: IEEE Unapproved Draft Std PC57.13/D09, Aug 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 46.'
-- id: ieee.debt.2c369d1e8114
-  input: IEEE Approved Draft Std P802.16g/D9, Apr 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.ef56a6965b52
-  input: IEEE Approved Draft Std P802.1ag/D8.1, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 46.'
-- id: ieee.debt.04c95d190110
-  input: IEEE Draft Std P802.16g/D6, Nov 06
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 35.'
-- id: ieee.debt.5667752a6117
-  input: IEEE Draft Std P802.16g/D7, Nov 06
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 35.'
-- id: ieee.debt.81521ace08f9
-  input: IEEE Unapproved Draft Std P802.11k/D9.0, Sep 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 48.'
-- id: ieee.debt.6e83b5b69df4
-  input: IEEE Unapproved Draft Std P802.11r/D78.0, Sep 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 49.'
-- id: ieee.debt.c2bfe11448e7
-  input: IEEE Unapproved Draft Std P802.16Rev2/D9 Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 48.'
-- id: ieee.debt.1d6fc6a8c420
-  input: IEEE Unapproved Draft Std P802.1ag/D8.1, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 48.'
 - id: ieee.debt.5899e61a3634
   input: IEEE PC37.98/D5.1D July 2013
   expect:
@@ -3234,22 +2843,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of ['' ''] at line 1 char 13.'
-- id: ieee.debt.58018a0b91cf
-  input: IEEE Unapproved Draft Std P2600.2/D41b, Jan09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 47.'
-- id: ieee.debt.22b5b3acfe82
-  input: IEEE Unapproved Draft Std P802-1Qay/D5.0, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 49.'
 - id: ieee.debt.97b7f6b5272f
   input: IEEE Unapproved Draft Std P802.11k/D13.0_Mar 2008
   expect:
@@ -3258,14 +2851,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''REV'', ''Rev'', ''rev'', ''Corrigendum'', ''Cor''] at line
     1 char 42.'
-- id: ieee.debt.61de7f2dc2fa
-  input: IEEE Unapproved Draft Std PC37.110/D911Oct 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 48.'
 - id: ieee.debt.e71fdcded0c9
   input: IEEE Unapproved Draft Std PC37.27/D16/Dec 2007
   expect:
@@ -3298,190 +2883,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'', ''redline'']
     at line 1 char 41.'
-- id: ieee.debt.d2a9f2e7626d
-  input: IEEE Unapproved Std PC57.129_D9, Mar07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 40.'
-- id: ieee.debt.6638e6891000
-  input: IEEE Unapproved Draft Std P1003.1_D3, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 45.'
-- id: ieee.debt.13996e38367e
-  input: IEEE Unapproved Draft Std PC37.1/D3, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.aaafbe9d55c7
-  input: IEEE Unapproved Draft Std PC37.43/D9, Oct 06
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 45.'
-- id: ieee.debt.149daf579973
-  input: IEEE Unapproved Draft Std P1189/D15, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.74e3c626d1bb
-  input: IEEE Unapproved Draft Std P1686_D4, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 43.'
-- id: ieee.debt.1d6fc6a8c420
-  input: IEEE Unapproved Draft Std P802.1ag/D8.1, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 48.'
-- id: ieee.debt.4daae286672f
-  input: IEEE Unapproved Draft Std P1900.2/D2.22, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 48.'
-- id: ieee.debt.6d0837cf99d4
-  input: IEEE Unapproved Draft Std P1900_D01, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.f395e28666af
-  input: IEEE Unapproved Draft Std P1407_D7, Mar 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 43.'
-- id: ieee.debt.7008bdd12858
-  input: IEEE Unapproved Draft Std P1619/D17, Jul 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.276e592c4a8d
-  input: IEEE Unapproved Draft Std P1561/D16, Jul 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.45d5777bef77
-  input: IEEE Unapproved Draft Std P532/D9.6, May 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.507371bdc414
-  input: IEEE Unapproved Draft Std P1610_D13, Aug 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.d1b831bf9667
-  input: IEEE Unapproved Draft Std PC37.12.1_D4.0, Sep 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 49.'
-- id: ieee.debt.7f7470ddbaea
-  input: IEEE Unapproved Draft Std P841_D3, Jul 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 42.'
-- id: ieee.debt.8a3d6c63889c
-  input: IEEE Unapproved Draft Std PC62.21_D3, Sep07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 45.'
-- id: ieee.debt.61de7f2dc2fa
-  input: IEEE Unapproved Draft Std PC37.110/D911Oct 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 48.'
-- id: ieee.debt.e1562296d651
-  input: IEEE Unapproved Draft Std PC57.13/D09, Aug 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 46.'
-- id: ieee.debt.6e83b5b69df4
-  input: IEEE Unapproved Draft Std P802.11r/D78.0, Sep 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 49.'
-- id: ieee.debt.81521ace08f9
-  input: IEEE Unapproved Draft Std P802.11k/D9.0, Sep 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 48.'
-- id: ieee.debt.979eb91cf189
-  input: IEEE Unapproved Draft Std PC37.1/D5, Sep 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.6efcaaec78da
-  input: IEEE Unapproved Draft Std P1631/D2, Sep 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 43.'
 - id: ieee.debt.878229fa692a
   input: IEEE Unapproved Draft Std P1028/D5.1, Sep, 07
   expect:
@@ -3497,14 +2898,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [[\x01-\x27], [\x2a-\u{10ffff}], '')'', '' '', '':''] at line
     1 char 61.'
-- id: ieee.debt.ecf0780765a4
-  input: IEEE Unapproved Draft Std PC37.16/D13, Apr 08
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 46.'
 - id: ieee.debt.1afaa351aa2f
   input: IEEE Unapproved Draft Std P16326:2008/CD2, Sep 2008
   expect:
@@ -3512,78 +2905,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of ['' ''] at line 1 char 13.'
-- id: ieee.debt.a47e3f15052d
-  input: IEEE Unapproved Draft Std P2600.3/D41b, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 47.'
-- id: ieee.debt.58018a0b91cf
-  input: IEEE Unapproved Draft Std P2600.2/D41b, Jan09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 47.'
-- id: ieee.debt.ad9f01fee96e
-  input: IEEE Unapproved Draft Std P2600.1/D41b, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 47.'
-- id: ieee.debt.213d95d3d0a9
-  input: IEEE Unapproved Draft Std PC57.12.38/D6.3, Aug 08
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 50.'
-- id: ieee.debt.c2bfe11448e7
-  input: IEEE Unapproved Draft Std P802.16Rev2/D9 Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 48.'
-- id: ieee.debt.1ec545d7b620
-  input: IEEE Unapproved Draft Std P802-1Qay/D5-0, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 49.'
-- id: ieee.debt.a483ba59d1e9
-  input: IEEE Unapproved Draft Std P841/D5, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 42.'
-- id: ieee.debt.5b44151d70d2
-  input: IEEE Unapproved Draft Std P1636.1/D3, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 45.'
-- id: ieee.debt.b4552dd4f97e
-  input: IEEE Unapproved Draft Std P2600.4/D41b, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 47.'
 - id: ieee.debt.4fe32630d69a
   input: IEEE Unapproved Draft Std PC62.64/D14, feb 2009
   expect:
@@ -3899,126 +3220,6 @@
     expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
     ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
     ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.0a5f472b4d7a
-  input: IEEE Approved Draft Std P1484.20.1/D7, May 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 46.'
-- id: ieee.debt.70119fd4f8a2
-  input: IEEE Approved Draft Std P1516.4/Dx.1, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 45.'
-- id: ieee.debt.66f0c776bec6
-  input: IEEE Approved Draft Std P1542/D8, Aug 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 41.'
-- id: ieee.debt.682ddc4f72e0
-  input: IEEE Approved Draft Std P1617/D7.0, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 43.'
-- id: ieee.debt.5d75f3f1a7a0
-  input: IEEE Approved Draft Std P1636.1/D3, May 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 43.'
-- id: ieee.debt.e3b2f5f9acd5
-  input: IEEE Approved Draft Std P1661/D11, Jul 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 42.'
-- id: ieee.debt.6319d548bb4d
-  input: IEEE Approved Draft Std P495/D13, Aug 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 41.'
-- id: ieee.debt.77dce17e82af
-  input: IEEE Approved Draft Std P532/D9.6, Apr 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 42.'
-- id: ieee.debt.bd325465f381
-  input: IEEE Approved Draft Std P741/D2, Apr 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 40.'
-- id: ieee.debt.836c78321543
-  input: IEEE Approved Draft Std P99/D2.0, May 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 41.'
-- id: ieee.debt.b3788ab5be4b
-  input: IEEE Approved Draft Std PC37.20.7/D14, Dec 06
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 46.'
-- id: ieee.debt.bd84fc079fc9
-  input: IEEE Approved Draft Std PC37.230/D6.1, Jul 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 46.'
-- id: ieee.debt.846301e0d94e
-  input: IEEE Approved Draft Std PC37.235/D4, Mar 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.269fd839d051
-  input: IEEE Approved Draft Std PC57.12.36/D11, May 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 47.'
-- id: ieee.debt.83b9e1d2713a
-  input: IEEE Approved Draft Std PC57.129/D10, Jul 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 45.'
 - id: ieee.debt.a646a5c3f0ea
   input: IEEE P802.15.4q/D5.0, May, 20
   expect:
@@ -4035,22 +3236,6 @@
     expected one of [''National Electrical Safety Code'', ''National Electric Safety
     Code'', ''NESC'', ''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
     ''Conformance'', ''Corrigendum'', ''Amendm'
-- id: ieee.debt.b0d2f8b99665
-  input: IEEE Draft Std P1500/D11, Jan 06
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 33.'
-- id: ieee.debt.799799288c1f
-  input: IEEE Unapproved Draft Std P1003.1/D3, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 45.'
 - id: ieee.debt.878229fa692a
   input: IEEE Unapproved Draft Std P1028/D5.1, Sep, 07
   expect:
@@ -4058,254 +3243,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''19'', ''20'', '' ''] at line 1 char 44.'
-- id: ieee.debt.149daf579973
-  input: IEEE Unapproved Draft Std P1189/D15, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.3f9a9f9ef2f1
-  input: IEEE Unapproved Draft Std P1407/D7, Mar 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 43.'
-- id: ieee.debt.276e592c4a8d
-  input: IEEE Unapproved Draft Std P1561/D16, Jul 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.62561bf873a7
-  input: IEEE Unapproved Draft Std P1610/D13, Aug 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.7008bdd12858
-  input: IEEE Unapproved Draft Std P1619/D17, Jul 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.6efcaaec78da
-  input: IEEE Unapproved Draft Std P1631/D2, Sep 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 43.'
-- id: ieee.debt.5b44151d70d2
-  input: IEEE Unapproved Draft Std P1636.1/D3, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 45.'
-- id: ieee.debt.48457f1794c4
-  input: IEEE Unapproved Draft Std P1686/D4, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 43.'
-- id: ieee.debt.4daae286672f
-  input: IEEE Unapproved Draft Std P1900.2/D2.22, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 48.'
-- id: ieee.debt.3ae131ea9119
-  input: IEEE Unapproved Draft Std P1900/D01, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.ad9f01fee96e
-  input: IEEE Unapproved Draft Std P2600.1/D41b, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 47.'
-- id: ieee.debt.a47e3f15052d
-  input: IEEE Unapproved Draft Std P2600.3/D41b, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 47.'
-- id: ieee.debt.b4552dd4f97e
-  input: IEEE Unapproved Draft Std P2600.4/D41b, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 47.'
-- id: ieee.debt.45d5777bef77
-  input: IEEE Unapproved Draft Std P532/D9.6, May 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.a483ba59d1e9
-  input: IEEE Unapproved Draft Std P841/D5, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 42.'
-- id: ieee.debt.c9b730d21648
-  input: IEEE Unapproved Draft Std P841/D3, Jul 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 42.'
-- id: ieee.debt.13996e38367e
-  input: IEEE Unapproved Draft Std PC37.1/D3, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.979eb91cf189
-  input: IEEE Unapproved Draft Std PC37.1/D5, Sep 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.3be2fda84e55
-  input: IEEE Unapproved Draft Std PC37.12.1/D4.0, Sep 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 49.'
-- id: ieee.debt.ecf0780765a4
-  input: IEEE Unapproved Draft Std PC37.16/D13, Apr 08
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 46.'
-- id: ieee.debt.aaafbe9d55c7
-  input: IEEE Unapproved Draft Std PC37.43/D9, Oct 06
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 45.'
-- id: ieee.debt.213d95d3d0a9
-  input: IEEE Unapproved Draft Std PC57.12.38/D6.3, Aug 08
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 50.'
-- id: ieee.debt.e1562296d651
-  input: IEEE Unapproved Draft Std PC57.13/D09, Aug 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 46.'
-- id: ieee.debt.2c369d1e8114
-  input: IEEE Approved Draft Std P802.16g/D9, Apr 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.ef56a6965b52
-  input: IEEE Approved Draft Std P802.1ag/D8.1, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 46.'
-- id: ieee.debt.04c95d190110
-  input: IEEE Draft Std P802.16g/D6, Nov 06
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 35.'
-- id: ieee.debt.5667752a6117
-  input: IEEE Draft Std P802.16g/D7, Nov 06
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 35.'
-- id: ieee.debt.81521ace08f9
-  input: IEEE Unapproved Draft Std P802.11k/D9.0, Sep 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 48.'
-- id: ieee.debt.6e83b5b69df4
-  input: IEEE Unapproved Draft Std P802.11r/D78.0, Sep 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 49.'
-- id: ieee.debt.c2bfe11448e7
-  input: IEEE Unapproved Draft Std P802.16Rev2/D9 Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 48.'
-- id: ieee.debt.1d6fc6a8c420
-  input: IEEE Unapproved Draft Std P802.1ag/D8.1, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 48.'
 - id: ieee.debt.5899e61a3634
   input: IEEE PC37.98/D5.1D July 2013
   expect:
@@ -4899,22 +3836,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of ['' ''] at line 1 char 13.'
-- id: ieee.debt.58018a0b91cf
-  input: IEEE Unapproved Draft Std P2600.2/D41b, Jan09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 47.'
-- id: ieee.debt.22b5b3acfe82
-  input: IEEE Unapproved Draft Std P802-1Qay/D5.0, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 49.'
 - id: ieee.debt.97b7f6b5272f
   input: IEEE Unapproved Draft Std P802.11k/D13.0_Mar 2008
   expect:
@@ -4923,14 +3844,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''REV'', ''Rev'', ''rev'', ''Corrigendum'', ''Cor''] at line
     1 char 42.'
-- id: ieee.debt.61de7f2dc2fa
-  input: IEEE Unapproved Draft Std PC37.110/D911Oct 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 48.'
 - id: ieee.debt.e71fdcded0c9
   input: IEEE Unapproved Draft Std PC37.27/D16/Dec 2007
   expect:
@@ -5333,7 +4246,7 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', '', '', ''19'', ''20''] at line 1 char 27.'
+    expected one of ['' '', '', '', ''19'', ''20'', ''0'', ''1''] at line 1 char 27.'
 - id: ieee.debt.473b14a9a51f
   input: IEEE P1584b/ D3, August 2010
   expect:
@@ -5603,21 +4516,21 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''19'', ''20'', [\x30-\x39]] at line 1 char 23.'
+    expected one of [''19'', ''20'', [\x30-\x39], ''0'', ''1''] at line 1 char 23.'
 - id: ieee.debt.7363f06583b1
   input: IEEE P802.16.1/D6 Apr_2012
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', '', '', ''19'', ''20''] at line 1 char 22.'
+    expected one of ['' '', '', '', ''19'', ''20'', ''0'', ''1''] at line 1 char 22.'
 - id: ieee.debt.d6b23d0311a0
   input: IEEE P802.16.1/D6 Apr_2012_Approved Draft
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', '', '', ''19'', ''20''] at line 1 char 22.'
+    expected one of ['' '', '', '', ''19'', ''20'', ''0'', ''1''] at line 1 char 22.'
 - id: ieee.debt.5c257a5c2bd4
   input: IEEE P802.16/D6 (Revision of IEEE Std 802.16-2009) - Approved Draft
   expect:
@@ -5673,7 +4586,7 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''19'', ''20'', [\x30-\x39]] at line 1 char 29.'
+    expected one of [''19'', ''20'', [\x30-\x39], ''0'', ''1''] at line 1 char 29.'
 - id: ieee.debt.a5eaaa0cde47
   input: IEEE P802.1Qcr/D2.3 (Draft amendment to IEEE Std 802.1Q-2018), May 2020
   expect:
@@ -5924,14 +4837,14 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''19'', ''20'', [\x30-\x39]] at line 1 char 27.'
+    expected one of [''19'', ''20'', [\x30-\x39], ''0'', ''1''] at line 1 char 27.'
 - id: ieee.debt.6763fae209fd
   input: IEEE PC57.16/D9, January - April 2011
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''19'', ''20'', [\x30-\x39]] at line 1 char 30.'
+    expected one of [''19'', ''20'', [\x30-\x39], ''0'', ''1''] at line 1 char 30.'
 - id: ieee.debt.9b57e7204a73
   input: IEEE PC62.11/D9.0 (Feb 4, 2020) (Revision of IEEE Std C62.11-2012)
   expect:
@@ -6314,14 +5227,14 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', '', '', ''19'', ''20''] at line 1 char 31.'
+    expected one of ['' '', '', '', ''19'', ''20'', ''0'', ''1''] at line 1 char 31.'
 - id: ieee.debt.4cce16d0d732
   input: IEEE Draft Std PC57.106/D6 Oct
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', '', '', ''19'', ''20''] at line 1 char 31.'
+    expected one of ['' '', '', '', ''19'', ''20'', ''0'', ''1''] at line 1 char 31.'
 - id: ieee.debt.298626fef4f5
   input: IEEE Draft Std PC57.19.03/cor1/D2.2
   expect:
@@ -6336,13 +5249,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 12.'
-- id: ieee.debt.fcce09ee88d7
-  input: IEEE Unapproved Std PC57.129/D9, Mar07.pdf
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', '', '', ''19'', ''20''] at line 1 char 37.'
 - id: ieee.debt.8f13f4e4e1da
   input: IEEE/EAB 1100 Self Study Course - IEEE Emerald Book
   expect:
@@ -6687,190 +5593,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 8.'
-- id: ieee.debt.d2a9f2e7626d
-  input: IEEE Unapproved Std PC57.129_D9, Mar07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 40.'
-- id: ieee.debt.6638e6891000
-  input: IEEE Unapproved Draft Std P1003.1_D3, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 45.'
-- id: ieee.debt.13996e38367e
-  input: IEEE Unapproved Draft Std PC37.1/D3, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.aaafbe9d55c7
-  input: IEEE Unapproved Draft Std PC37.43/D9, Oct 06
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 45.'
-- id: ieee.debt.149daf579973
-  input: IEEE Unapproved Draft Std P1189/D15, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.74e3c626d1bb
-  input: IEEE Unapproved Draft Std P1686_D4, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 43.'
-- id: ieee.debt.1d6fc6a8c420
-  input: IEEE Unapproved Draft Std P802.1ag/D8.1, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 48.'
-- id: ieee.debt.4daae286672f
-  input: IEEE Unapproved Draft Std P1900.2/D2.22, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 48.'
-- id: ieee.debt.6d0837cf99d4
-  input: IEEE Unapproved Draft Std P1900_D01, Jun 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.f395e28666af
-  input: IEEE Unapproved Draft Std P1407_D7, Mar 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 43.'
-- id: ieee.debt.7008bdd12858
-  input: IEEE Unapproved Draft Std P1619/D17, Jul 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.276e592c4a8d
-  input: IEEE Unapproved Draft Std P1561/D16, Jul 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.45d5777bef77
-  input: IEEE Unapproved Draft Std P532/D9.6, May 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.507371bdc414
-  input: IEEE Unapproved Draft Std P1610_D13, Aug 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.d1b831bf9667
-  input: IEEE Unapproved Draft Std PC37.12.1_D4.0, Sep 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 49.'
-- id: ieee.debt.7f7470ddbaea
-  input: IEEE Unapproved Draft Std P841_D3, Jul 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 42.'
-- id: ieee.debt.8a3d6c63889c
-  input: IEEE Unapproved Draft Std PC62.21_D3, Sep07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 45.'
-- id: ieee.debt.61de7f2dc2fa
-  input: IEEE Unapproved Draft Std PC37.110/D911Oct 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 48.'
-- id: ieee.debt.e1562296d651
-  input: IEEE Unapproved Draft Std PC57.13/D09, Aug 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 46.'
-- id: ieee.debt.6e83b5b69df4
-  input: IEEE Unapproved Draft Std P802.11r/D78.0, Sep 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 49.'
-- id: ieee.debt.81521ace08f9
-  input: IEEE Unapproved Draft Std P802.11k/D9.0, Sep 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 48.'
-- id: ieee.debt.979eb91cf189
-  input: IEEE Unapproved Draft Std PC37.1/D5, Sep 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 44.'
-- id: ieee.debt.6efcaaec78da
-  input: IEEE Unapproved Draft Std P1631/D2, Sep 07
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 43.'
 - id: ieee.debt.878229fa692a
   input: IEEE Unapproved Draft Std P1028/D5.1, Sep, 07
   expect:
@@ -6886,14 +5608,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [[\x01-\x27], [\x2a-\u{10ffff}], '')'', '' '', '':''] at line
     1 char 61.'
-- id: ieee.debt.ecf0780765a4
-  input: IEEE Unapproved Draft Std PC37.16/D13, Apr 08
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 46.'
 - id: ieee.debt.1afaa351aa2f
   input: IEEE Unapproved Draft Std P16326:2008/CD2, Sep 2008
   expect:
@@ -6901,78 +5615,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of ['' ''] at line 1 char 13.'
-- id: ieee.debt.a47e3f15052d
-  input: IEEE Unapproved Draft Std P2600.3/D41b, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 47.'
-- id: ieee.debt.58018a0b91cf
-  input: IEEE Unapproved Draft Std P2600.2/D41b, Jan09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 47.'
-- id: ieee.debt.ad9f01fee96e
-  input: IEEE Unapproved Draft Std P2600.1/D41b, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 47.'
-- id: ieee.debt.213d95d3d0a9
-  input: IEEE Unapproved Draft Std PC57.12.38/D6.3, Aug 08
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 50.'
-- id: ieee.debt.c2bfe11448e7
-  input: IEEE Unapproved Draft Std P802.16Rev2/D9 Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 48.'
-- id: ieee.debt.1ec545d7b620
-  input: IEEE Unapproved Draft Std P802-1Qay/D5-0, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 49.'
-- id: ieee.debt.a483ba59d1e9
-  input: IEEE Unapproved Draft Std P841/D5, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 42.'
-- id: ieee.debt.5b44151d70d2
-  input: IEEE Unapproved Draft Std P1636.1/D3, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 45.'
-- id: ieee.debt.b4552dd4f97e
-  input: IEEE Unapproved Draft Std P2600.4/D41b, Jan 09
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '','', '' '', ''-'', ''&#x2013;'', ''–'', '', '']
-    at line 1 char 47.'
 - id: ieee.debt.4fe32630d69a
   input: IEEE Unapproved Draft Std PC62.64/D14, feb 2009
   expect:
