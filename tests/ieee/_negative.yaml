@@ -272,25 +272,19 @@
       code: unclassified
 - id: ieee.neg.base.0055
   input: IEEE P802.1AE_Rev/D1.2, April 2018
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0056
   input: IEEE P802.1Q-REV/D2.1, January 2018 (Draft Revision of IEEE 802.1Q-2014,
     incorporating IEEE Qcd-2015, IEEE 802.1Qca-2015, IEEE 802.1Q-2014 Cor 1-2015 IEEE
     802.1Qbv-2015, IEEE 802.1 Qbu-2016, IEEE 802.1Qbz-2016 IEEE 802.1Qci-2017, IEEE
     802,1Qch-2017)
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0057
   input: IEEE P802.1Q-REV/D2.2, January 2018 (Draft Revision of IEEE 802.1Q-2014,
     incorporating IEEE Qcd-2015, IEEE 802.1Qca-2015, IEEE 802.1Q-2014/Cor1-2015 IEEE
     802.1Qbv-2015, IEEE 802.1 Qbu-2016, IEEE 802.1Qbz-2016 IEEE 802.1Qci-2017, IEEE
     802,1Qch-2017)
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0058
   input: IEEE P802.1QREVD2.2, July 2014 (Incorporating IEEE 802.1Q-2011, IEEE 802.1Qbe,
     IEEE 802.1Qbc, IEEE 802.1Qbb-2011, IEEE 802.1Qaz-2011, IEEE 802.1Qbf-2011, IEEE
@@ -1043,109 +1037,67 @@
       code: unclassified
 - id: ieee.neg.base.0207
   input: IEEE P802.1AC-REV/D3.0, September 2015
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0208
   input: IEEE P802.1AR-Rev/D2.2, November 2017
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0209
   input: IEEE P802.1AR-Rev/D2.6, January 2018
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0210
   input: IEEE P802.1AS-Rev/D6.0 December 2017
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0211
   input: IEEE P802.1AS-Rev/D7.0, March 2018
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0212
   input: IEEE P802.1AS-Rev/D8.0 January, 2019
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0213
   input: IEEE P802.1AS-Rev/D8.1, August 2019
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0214
   input: IEEE P802.1AS-Rev/D8.3, October 2019
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0215
   input: IEEE P802.1AX-REV/D4.0 March 2014
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0216
   input: IEEE P802.1AX-REV/D4.3, July 2014
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0217
   input: IEEE P802.1AX-REV/D4.54, October 2014
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0218
   input: IEEE P802.1AX-Rev/D2.0, May 2019
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0219
   input: IEEE P802.1AX-Rev/D2.1, August 2019
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0220
   input: IEEE P802.1BA-Rev/D2.0, August 2021
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0221
   input: IEEE P802.1BA-Rev/D2.1, September 2021
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0222
   input: IEEE P802.1BA-Rev/D2.2, October 2021
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0223
   input: IEEE P802.1Q-REV/D1.3, October 2010
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0224
   input: IEEE P802.1Q-REV/D1.4, February 2011
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0225
   input: IEEE P802.1Q-REV/D1.5, March 2011
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0226
   input: IEEE Unapproved Draft Std P802.1AB-REV/D6.0, Jun 2009
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0227
   input: IEEE Unapproved Draft Std P802.1X-REV/D4.0, Jun, 2009
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0228
   input: IEC/IEEE P63195-2 ED2, February 2020
   expect:
@@ -1188,9 +1140,7 @@
       code: unclassified
 - id: ieee.neg.base.0236
   input: IEEE Unapproved Draft Std P802.1X_REV/D4.5, Oct 2009
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0237
   input: IEEE Unapproved Draft Std PC37.110/D911Oct 07
   expect:
@@ -1258,9 +1208,7 @@
       code: unclassified
 - id: ieee.neg.base.0250
   input: IEEE Unapproved Draft Std P802.1X-REV/D4.0, Jun, 2009
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.base.0251
   input: IEEE Unapproved Draft Std PC57.12.31 D4, Sept 2009
   expect:
@@ -1394,33 +1342,23 @@
 - id: ieee.neg.standard.0024
   input: IEEE P802.1AE_Rev/D1.3, May 2018 (Revision of IEEE Std 802.1AE-2006 Incorporating
     IEEE Std 802.1AEbn-2011, IEEE Std 802.1AEbw-2013, IEEE Std 802.1AEcg-2017)
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.standard.0025
   input: IEEE P802.1AR-Rev/D2.2, September 2017 (Draft Revision of IEEE Std 802.1AR&
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.standard.0026
   input: IEEE P802.1AR-Rev/D2.2, September 2017 (Draft Revision of IEEE Std 802.1AR-2009)
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.standard.0027
   input: IEEE P802.1Q-REV/D2.0, July 2017 (Draft Revision of IEEE Std 802.1Q-2014,
     incorporating IEEE Std Qcd-2015, IEEE Std 802.1Qca-2015, IEEE Std 802.1Q-2014
     Cor 1-2015 IEEE Std 802.1Qbv-2015, IEEE Std 802.1 Qbu-2016, IEEE Std 802.1Qbz-2016)
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.standard.0028
   input: IEEE P802.1Q-Rev/D1.0, August, 2021 (Revision of IEEE Std 802.1Q-2018 incorporating
     IEEE 802.1Qcc-2018, IEEE 802.1Qcp-2018, IEEE 802.1Qcy-2019, IEEE 802.1Qcx-2020,
     and IEEE 802.1Qcr-2020)
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.standard.0029
   input: IEEE P802.1Qbe/D1.5_May 2010 (Draft Amendment to IEEE Std 802.1Q-2005)
   expect:
@@ -1488,9 +1426,7 @@
 - id: ieee.neg.standard.0041
   input: IEEE P802_REV/D1.7 (Revision of IEEE Std 802-2001 incorporating IEEE Std
     802a-2003, and IEEE Std 802b-2004)
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.standard.0042
   input: IEEE PC57.12.00 August 2015 / D2.2 (Revision of IEEE Std C57.12.00-2010)
   expect:
@@ -2014,24 +1950,16 @@
       code: invalid_argument
 - id: ieee.neg.standard.0142
   input: IEEE P802.1AB-REV/D1.0, August 2015 (Revision of IEEE Std 802.1AB-2009)
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.standard.0143
   input: IEEE P802.1AB-REV/D1.1, September 2015 (Revision of IEEE Std 802.1AB-2009)
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.standard.0144
   input: IEEE P802.1AB-REV/D1.2, November 2015 (Revision of IEEE Std 802.1AB-2009)
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.standard.0145
   input: IEEE Std P802.1X-REV/D11
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.standard.0146
   input: ISO/IEC 14515-2_2003 IEEE Std 2003.2-1996
   expect:

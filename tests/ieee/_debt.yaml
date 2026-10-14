@@ -62,16 +62,16 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''-''] at line 1 char 21.'
-- id: ieee.debt.50c78306de0d
-  input: IEEE P1310Rev3/D2, Feb, 2011
+- id: ieee.debt.1ed2b1c3b536
+  input: IEEE P1310Rev3/D2-2011-02
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''.'', ''-'', ''&#x2013;'', ''–'', '' '', '', '', ''/'', ''_'',
     '','', ''REV'', ''Rev'', ''rev'', ''('', ''P&V'', '':''] at line 1 char 13.'
-- id: ieee.debt.3ae974f12669
-  input: IEEE P1722Rev1/D13, Apr, 2015
+- id: ieee.debt.e846d6c17cbe
+  input: IEEE P1722Rev1/D13-2015-04
   expect:
     error:
       code: unclassified
@@ -122,6 +122,13 @@
     expected one of ['' '', ''IEEE'', ''AIEE'', ''ANSI'', ''ASA'', ''ANS'', ''IEC'',
     ''ISO'', ''ASTM'', ''CSA'', ''ASME'', ''NACE'', ''NSF'', ''ASHRAE'', ''NCTA'',
     ''AESC'', ''EIA'', ''USEMCSC'', ''AMPP'', ''USAS'', ''EAB'', ''MPA'
+- id: ieee.debt.19b68704898a
+  input: IEEE Draft P802.11REV.ma/D4.0
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''REV'', ''Rev'', ''rev''] at line 1 char 23.'
 - id: ieee.debt.d5fcc0cdc687
   input: IEEE/NACE Draft P2638/D2.4, Jan, 2020
   expect:
@@ -890,75 +897,7 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], ''-'', ''&#x2013;'', ''–'', '':'', '' '', ''('',
-    ''P&V'', '', ''] at line 1 char 29.'
-- id: ieee.debt.d6fa0c946ede
-  input: IEEE P802.1AE_Rev/D1.2, April 2018
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.71f756e1e9e3
-  input: IEEE P802.1AE_Rev/D1.3, May 2018 (Revision of IEEE Std 802.1AE-2006 Incorporating
-    IEEE Std 802.1AEbn-2011, IEEE Std 802.1AEbw-2013, IEEE Std 802.1AEcg-2017)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.24b01e33a09a
-  input: IEEE P802.1AR-Rev/D2.2, September 2017 (Draft Revision of IEEE Std 802.1AR&#x2013;2009)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.1b01a1da061e
-  input: IEEE P802.1AR-Rev/D2.2, September 2017 (Draft Revision of IEEE Std 802.1AR-2009)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.906011ebd217
-  input: IEEE P802.1Q-REV/D2.0, July 2017 (Draft Revision of IEEE Std 802.1Q-2014,
-    incorporating IEEE Std Qcd-2015, IEEE Std 802.1Qca-2015, IEEE Std 802.1Q-2014
-    Cor 1-2015 IEEE Std 802.1Qbv-2015, IEEE Std 802.1 Qbu-2016, IEEE Std 802.1Qbz-2016)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 19.'
-- id: ieee.debt.44026328170c
-  input: IEEE P802.1Q-REV/D2.1, January 2018 (Draft Revision of IEEE 802.1Q-2014,
-    incorporating IEEE Qcd-2015, IEEE 802.1Qca-2015, IEEE 802.1Q-2014 Cor 1-2015 IEEE
-    802.1Qbv-2015, IEEE 802.1 Qbu-2016, IEEE 802.1Qbz-2016 IEEE 802.1Qci-2017, IEEE
-    802,1Qch-2017)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 19.'
-- id: ieee.debt.8feefa20b6f6
-  input: IEEE P802.1Q-REV/D2.2, January 2018 (Draft Revision of IEEE 802.1Q-2014,
-    incorporating IEEE Qcd-2015, IEEE 802.1Qca-2015, IEEE 802.1Q-2014/Cor 1-2015 IEEE
-    802.1Qbv-2015, IEEE 802.1 Qbu-2016, IEEE 802.1Qbz-2016 IEEE 802.1Qci-2017, IEEE
-    802,1Qch-2017)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 19.'
-- id: ieee.debt.1cfe1ad6035b
-  input: IEEE P802.1Q-Rev/D1.0, August, 2021 (Revision of IEEE Std 802.1Q-2018 incorporating
-    IEEE 802.1Qcc-2018, IEEE 802.1Qcp-2018, IEEE 802.1Qcy-2019, IEEE 802.1Qcx-2020,
-    and IEEE 802.1Qcr-2020)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 19.'
+    expected one of [[\x30-\x32]] at line 1 char 29.'
 - id: ieee.debt.7ec77aeccdff
   input: IEEE P802.1QREVD2.2, July 2014 (Incorporating IEEE 802.1Q-2011, IEEE 802.1Qbe,
     IEEE 802.1Qbc, IEEE 802.1Qbb-2011, IEEE 802.1Qaz-2011, IEEE 802.1Qbf-2011, IEEE
@@ -967,7 +906,9 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''REV'', ''Rev'', ''rev''] at line 1 char 19.'
+    expected one of ['' '', [\x30-\x39], ''/'', ''_'', ''-'', ''&#x2013;'', ''–'',
+    ''.'', ''REV'', ''Rev'', ''rev'', '','', ''('', ''P&V'', '', '', '':''] at line
+    1 char 16.'
 - id: ieee.debt.7bcbabaa1f7d
   input: IEEE P802.1Qbe/D1.5_May 2010 (Draft Amendment to IEEE Std 802.1Q-2005)
   expect:
@@ -1096,14 +1037,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 26.'
-- id: ieee.debt.725aba585b50
-  input: IEEE P802_REV/D1.7 (Revision of IEEE Std 802-2001 incorporating IEEE Std
-    802a-2003, and IEEE Std 802b-2004)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 16.'
 - id: ieee.debt.472306ef5c3e
   input: IEEE P844.3/C22.2 293.3/D0, August 2018
   expect:
@@ -2285,6 +2218,13 @@
     expected one of [''National Electrical Safety Code'', ''National Electric Safety
     Code'', ''NESC'', ''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
     ''Conformance'', ''Corrigendum'', ''Amendm'
+- id: ieee.debt.8de715181204
+  input: IEEE Draft Std P802.11REV-ma/D4.0
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 31.'
 - id: ieee.debt.4fe32630d69a
   input: IEEE Unapproved Draft Std PC62.64/D14, feb 2009
   expect:
@@ -3253,181 +3193,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 25.'
-- id: ieee.debt.3b8274904970
-  input: IEEE P802.1AB-REV/D1.0, August 2015 (Revision of IEEE Std 802.1AB-2009)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.6e6612610ddc
-  input: IEEE P802.1AB-REV/D1.1, September 2015 (Revision of IEEE Std 802.1AB-2009)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.2cc7274855d2
-  input: IEEE P802.1AB-REV/D1.2, November 2015 (Revision of IEEE Std 802.1AB-2009)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.71091e01b657
-  input: IEEE P802.1AC-REV/D3.0, September 2015
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.daae92534f1f
-  input: IEEE P802.1AR-Rev/D2.2, November 2017
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.d4e9bf577d90
-  input: IEEE P802.1AR-Rev/D2.6, January 2018
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.7c71df223431
-  input: IEEE P802.1AS-Rev/D6.0 December 2017
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.9c996c1b238c
-  input: IEEE P802.1AS-Rev/D7.0, March 2018
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.ed5d9c7435b8
-  input: IEEE P802.1AS-Rev/D8.0 January, 2019
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.35598951b3d7
-  input: IEEE P802.1AS-Rev/D8.1, August 2019
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.ea1a968474be
-  input: IEEE P802.1AS-Rev/D8.3, October 2019
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.956b3310b6cf
-  input: IEEE P802.1AX-REV/D4.0 March 2014
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.f983686873ac
-  input: IEEE P802.1AX-REV/D4.3, July 2014
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.d0e82e5f1b87
-  input: IEEE P802.1AX-REV/D4.54, October 2014
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.eb7ec668d05a
-  input: IEEE P802.1AX-Rev/D2.0, May 2019
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.90acd95c0ca6
-  input: IEEE P802.1AX-Rev/D2.1, August 2019
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.1c7a7167332a
-  input: IEEE P802.1BA-Rev/D2.0, August 2021
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.6c9b0ca0eede
-  input: IEEE P802.1BA-Rev/D2.1, September 2021
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.e1160d8d2714
-  input: IEEE P802.1BA-Rev/D2.2, October 2021
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.077d398c1d50
-  input: IEEE P802.1Q-REV/D1.3, October 2010
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 19.'
-- id: ieee.debt.d79bf1275b2e
-  input: IEEE P802.1Q-REV/D1.4, February 2011
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 19.'
-- id: ieee.debt.76ede807b6a1
-  input: IEEE P802.1Q-REV/D1.5, March 2011
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 19.'
-- id: ieee.debt.ec3955dc49b5
-  input: IEEE Draft Std P802.1X-REV/D11
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 29.'
-- id: ieee.debt.078574f70988
-  input: IEEE Unapproved Draft Std P802.1AB-REV/D6.0, Jun 2009
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 41.'
-- id: ieee.debt.93d1ee8926b4
-  input: IEEE Unapproved Draft Std P802.1X-REV/D4.0, Jun 2009
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 40.'
 - id: ieee.debt.9ab569f54c53
   input: IEC/IEEE P63195-2 ED2, February 2020
   expect:
@@ -3493,13 +3258,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''REV'', ''Rev'', ''rev'', ''Corrigendum'', ''Cor''] at line
     1 char 42.'
-- id: ieee.debt.b813a8a564eb
-  input: IEEE Unapproved Draft Std P802.1X_REV/D4.5, Oct 2009
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 40.'
 - id: ieee.debt.61de7f2dc2fa
   input: IEEE Unapproved Draft Std PC37.110/D911Oct 07
   expect:
@@ -3835,20 +3593,6 @@
     expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
     ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
     ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.078574f70988
-  input: IEEE Unapproved Draft Std P802.1AB-REV/D6.0, Jun 2009
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 41.'
-- id: ieee.debt.2cb971b20d02
-  input: IEEE Unapproved Draft Std P802.1X-REV/D4.0, Jun, 2009
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 40.'
 - id: ieee.debt.16c2b236b7a3
   input: IEEE Unapproved Draft Std 16326:2009
   expect:
@@ -3865,13 +3609,6 @@
     expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Corrigendum'', ''Cor'',
     ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'', ''rev'', ''_'', '' '', ''Sept.'',
     ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'', ''Mar.'', ''Apr'
-- id: ieee.debt.b813a8a564eb
-  input: IEEE Unapproved Draft Std P802.1X_REV/D4.5, Oct 2009
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 40.'
 - id: ieee.debt.fd191ec03c39
   input: IEEE Unapproved Draft Std PC57.12.31 D4, Sept 2009
   expect:
@@ -4146,6 +3883,13 @@
     expected one of [''National Electrical Safety Code'', ''National Electric Safety
     Code'', ''NESC'', ''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
     ''Conformance'', ''Corrigendum'', ''Amendm'
+- id: ieee.debt.8de715181204
+  input: IEEE Draft Std P802.11REV-ma/D4.0
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 31.'
 - id: ieee.debt.4fe32630d69a
   input: IEEE Unapproved Draft Std PC62.64/D14, feb 2009
   expect:
@@ -5114,181 +4858,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 25.'
-- id: ieee.debt.3b8274904970
-  input: IEEE P802.1AB-REV/D1.0, August 2015 (Revision of IEEE Std 802.1AB-2009)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.6e6612610ddc
-  input: IEEE P802.1AB-REV/D1.1, September 2015 (Revision of IEEE Std 802.1AB-2009)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.2cc7274855d2
-  input: IEEE P802.1AB-REV/D1.2, November 2015 (Revision of IEEE Std 802.1AB-2009)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.71091e01b657
-  input: IEEE P802.1AC-REV/D3.0, September 2015
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.daae92534f1f
-  input: IEEE P802.1AR-Rev/D2.2, November 2017
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.d4e9bf577d90
-  input: IEEE P802.1AR-Rev/D2.6, January 2018
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.7c71df223431
-  input: IEEE P802.1AS-Rev/D6.0 December 2017
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.9c996c1b238c
-  input: IEEE P802.1AS-Rev/D7.0, March 2018
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.ed5d9c7435b8
-  input: IEEE P802.1AS-Rev/D8.0 January, 2019
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.35598951b3d7
-  input: IEEE P802.1AS-Rev/D8.1, August 2019
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.ea1a968474be
-  input: IEEE P802.1AS-Rev/D8.3, October 2019
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.956b3310b6cf
-  input: IEEE P802.1AX-REV/D4.0 March 2014
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.f983686873ac
-  input: IEEE P802.1AX-REV/D4.3, July 2014
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.d0e82e5f1b87
-  input: IEEE P802.1AX-REV/D4.54, October 2014
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.eb7ec668d05a
-  input: IEEE P802.1AX-Rev/D2.0, May 2019
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.90acd95c0ca6
-  input: IEEE P802.1AX-Rev/D2.1, August 2019
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.1c7a7167332a
-  input: IEEE P802.1BA-Rev/D2.0, August 2021
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.6c9b0ca0eede
-  input: IEEE P802.1BA-Rev/D2.1, September 2021
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.e1160d8d2714
-  input: IEEE P802.1BA-Rev/D2.2, October 2021
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.077d398c1d50
-  input: IEEE P802.1Q-REV/D1.3, October 2010
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 19.'
-- id: ieee.debt.d79bf1275b2e
-  input: IEEE P802.1Q-REV/D1.4, February 2011
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 19.'
-- id: ieee.debt.76ede807b6a1
-  input: IEEE P802.1Q-REV/D1.5, March 2011
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 19.'
-- id: ieee.debt.ec3955dc49b5
-  input: IEEE Draft Std P802.1X-REV/D11
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 29.'
-- id: ieee.debt.078574f70988
-  input: IEEE Unapproved Draft Std P802.1AB-REV/D6.0, Jun 2009
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 41.'
-- id: ieee.debt.93d1ee8926b4
-  input: IEEE Unapproved Draft Std P802.1X-REV/D4.0, Jun 2009
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 40.'
 - id: ieee.debt.9ab569f54c53
   input: IEC/IEEE P63195-2 ED2, February 2020
   expect:
@@ -5354,13 +4923,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''REV'', ''Rev'', ''rev'', ''Corrigendum'', ''Cor''] at line
     1 char 42.'
-- id: ieee.debt.b813a8a564eb
-  input: IEEE Unapproved Draft Std P802.1X_REV/D4.5, Oct 2009
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 40.'
 - id: ieee.debt.61de7f2dc2fa
   input: IEEE Unapproved Draft Std PC37.110/D911Oct 07
   expect:
@@ -6069,75 +5631,7 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], ''-'', ''&#x2013;'', ''–'', '':'', '' '', ''('',
-    ''P&V'', '', ''] at line 1 char 29.'
-- id: ieee.debt.d6fa0c946ede
-  input: IEEE P802.1AE_Rev/D1.2, April 2018
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.71f756e1e9e3
-  input: IEEE P802.1AE_Rev/D1.3, May 2018 (Revision of IEEE Std 802.1AE-2006 Incorporating
-    IEEE Std 802.1AEbn-2011, IEEE Std 802.1AEbw-2013, IEEE Std 802.1AEcg-2017)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.24b01e33a09a
-  input: IEEE P802.1AR-Rev/D2.2, September 2017 (Draft Revision of IEEE Std 802.1AR&#x2013;2009)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.1b01a1da061e
-  input: IEEE P802.1AR-Rev/D2.2, September 2017 (Draft Revision of IEEE Std 802.1AR-2009)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 20.'
-- id: ieee.debt.906011ebd217
-  input: IEEE P802.1Q-REV/D2.0, July 2017 (Draft Revision of IEEE Std 802.1Q-2014,
-    incorporating IEEE Std Qcd-2015, IEEE Std 802.1Qca-2015, IEEE Std 802.1Q-2014
-    Cor 1-2015 IEEE Std 802.1Qbv-2015, IEEE Std 802.1 Qbu-2016, IEEE Std 802.1Qbz-2016)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 19.'
-- id: ieee.debt.44026328170c
-  input: IEEE P802.1Q-REV/D2.1, January 2018 (Draft Revision of IEEE 802.1Q-2014,
-    incorporating IEEE Qcd-2015, IEEE 802.1Qca-2015, IEEE 802.1Q-2014 Cor 1-2015 IEEE
-    802.1Qbv-2015, IEEE 802.1 Qbu-2016, IEEE 802.1Qbz-2016 IEEE 802.1Qci-2017, IEEE
-    802,1Qch-2017)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 19.'
-- id: ieee.debt.8feefa20b6f6
-  input: IEEE P802.1Q-REV/D2.2, January 2018 (Draft Revision of IEEE 802.1Q-2014,
-    incorporating IEEE Qcd-2015, IEEE 802.1Qca-2015, IEEE 802.1Q-2014/Cor 1-2015 IEEE
-    802.1Qbv-2015, IEEE 802.1 Qbu-2016, IEEE 802.1Qbz-2016 IEEE 802.1Qci-2017, IEEE
-    802,1Qch-2017)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 19.'
-- id: ieee.debt.1cfe1ad6035b
-  input: IEEE P802.1Q-Rev/D1.0, August, 2021 (Revision of IEEE Std 802.1Q-2018 incorporating
-    IEEE 802.1Qcc-2018, IEEE 802.1Qcp-2018, IEEE 802.1Qcy-2019, IEEE 802.1Qcx-2020,
-    and IEEE 802.1Qcr-2020)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 19.'
+    expected one of [[\x30-\x32]] at line 1 char 29.'
 - id: ieee.debt.7ec77aeccdff
   input: IEEE P802.1QREVD2.2, July 2014 (Incorporating IEEE 802.1Q-2011, IEEE 802.1Qbe,
     IEEE 802.1Qbc, IEEE 802.1Qbb-2011, IEEE 802.1Qaz-2011, IEEE 802.1Qbf-2011, IEEE
@@ -6146,7 +5640,9 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''REV'', ''Rev'', ''rev''] at line 1 char 19.'
+    expected one of ['' '', [\x30-\x39], ''/'', ''_'', ''-'', ''&#x2013;'', ''–'',
+    ''.'', ''REV'', ''Rev'', ''rev'', '','', ''('', ''P&V'', '', '', '':''] at line
+    1 char 16.'
 - id: ieee.debt.7bcbabaa1f7d
   input: IEEE P802.1Qbe/D1.5_May 2010 (Draft Amendment to IEEE Std 802.1Q-2005)
   expect:
@@ -6275,14 +5771,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 26.'
-- id: ieee.debt.725aba585b50
-  input: IEEE P802_REV/D1.7 (Revision of IEEE Std 802-2001 incorporating IEEE Std
-    802a-2003, and IEEE Std 802b-2004)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 16.'
 - id: ieee.debt.472306ef5c3e
   input: IEEE P844.3/C22.2 293.3/D0, August 2018
   expect:
@@ -7494,20 +6982,6 @@
     expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
     ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
     ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.078574f70988
-  input: IEEE Unapproved Draft Std P802.1AB-REV/D6.0, Jun 2009
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 41.'
-- id: ieee.debt.2cb971b20d02
-  input: IEEE Unapproved Draft Std P802.1X-REV/D4.0, Jun, 2009
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 40.'
 - id: ieee.debt.16c2b236b7a3
   input: IEEE Unapproved Draft Std 16326:2009
   expect:
@@ -7524,13 +6998,6 @@
     expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Corrigendum'', ''Cor'',
     ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'', ''rev'', ''_'', '' '', ''Sept.'',
     ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'', ''Mar.'', ''Apr'
-- id: ieee.debt.b813a8a564eb
-  input: IEEE Unapproved Draft Std P802.1X_REV/D4.5, Oct 2009
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 40.'
 - id: ieee.debt.fd191ec03c39
   input: IEEE Unapproved Draft Std PC57.12.31 D4, Sept 2009
   expect:

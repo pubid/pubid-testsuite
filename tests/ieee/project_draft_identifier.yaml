@@ -7131,13 +7131,13 @@
     _type: pubid:ieee:project-draft-identifier
     number: '1310'
     type: P
-    draft: D2, Feb 2011
+    draft: D2-2011-02
     revision: '3'
     project_marker: true
     stage: D2
   representations:
-    human: IEEE P1310Rev3/D2, Feb, 2011
-    urn: urn:ieee:ieee:p:1310:draft./D2, Feb 2011
+    human: IEEE P1310Rev3/D2-2011-02
+    urn: urn:ieee:ieee:p:1310:draft./D2-2011-02
   style: v3
   non_normalized_aliases:
   - spelling: IEEE P1310.Rev 3/D2, February 2011
@@ -16022,13 +16022,13 @@
     _type: pubid:ieee:project-draft-identifier
     number: '1722'
     type: P
-    draft: D13, Apr 2015
+    draft: D13-2015-04
     revision: '1'
     project_marker: true
     stage: P
   representations:
-    human: IEEE P1722Rev1/D13, Apr, 2015
-    urn: urn:ieee:ieee:p:1722:draft./D13, Apr 2015
+    human: IEEE P1722Rev1/D13-2015-04
+    urn: urn:ieee:ieee:p:1722:draft./D13-2015-04
   style: v3
   non_normalized_aliases:
   - spelling: IEEE P1722-rev1/D13, April2015
@@ -31600,62 +31600,70 @@
     number: '802'
     type: P
     draft: D1.7
-    parts:
-    - REV
-    separator: "-"
+    rev_sep: "-"
+    rev_bare: true
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802-REV/D1.7
-    urn: urn:ieee:ieee:p:802-REV:draft./D1.7
+    human: IEEE P802-Rev/D1.7
+    urn: urn:ieee:ieee:p:802:draft./D1.7
   style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802-REV/D1.7
+    style: v3
 - id: ieee.project_draft_identifier.3668
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
     draft: D1.9
-    parts:
-    - REV
-    separator: "-"
+    rev_sep: "-"
+    rev_bare: true
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802-REV/D1.9
-    urn: urn:ieee:ieee:p:802-REV:draft./D1.9
+    human: IEEE P802-Rev/D1.9
+    urn: urn:ieee:ieee:p:802:draft./D1.9
   style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802-REV/D1.9
+    style: v3
 - id: ieee.project_draft_identifier.3669
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D1.0, Feb 2018
+    draft: D89.0
+    revision: ma
+    rev_sep: "-"
     parts:
     - '11'
     separator: "."
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802.11/D1.0, Feb, 2018
-    urn: urn:ieee:ieee:p:802.11:draft./D1.0, Feb 2018
+    human: IEEE P802.11-Revma/D89.0
+    urn: urn:ieee:ieee:p:802.11:draft./D89.0
   style: v3
   non_normalized_aliases:
-  - spelling: IEEE P802.11-REVmd/D1.0, February 2018
+  - spelling: IEEE P802.11-REVma/D89.0
     style: v3
 - id: ieee.project_draft_identifier.3670
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D10.0, Aug 2011
+    draft: D10.0-2011-08
+    revision: mb
+    rev_sep: "-"
     parts:
     - '11'
     separator: "."
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802.11/D10.0, Aug, 2011
-    urn: urn:ieee:ieee:p:802.11:draft./D10.0, Aug 2011
+    human: IEEE P802.11-Revmb/D10.0-2011-08
+    urn: urn:ieee:ieee:p:802.11:draft./D10.0-2011-08
   style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.11-REVmb/D10.0, August 2011 (Revision of IEEE Std 802.11-2007,
@@ -31667,15 +31675,17 @@
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D11, Oct 2011
+    draft: D11-2011-10
+    revision: mb
+    rev_sep: "-"
     parts:
     - '11'
     separator: "."
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802.11/D11, Oct, 2011
-    urn: urn:ieee:ieee:p:802.11:draft./D11, Oct 2011
+    human: IEEE P802.11-Revmb/D11-2011-10
+    urn: urn:ieee:ieee:p:802.11:draft./D11-2011-10
   style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.11-REVmb/D11, October 2011 (Revision of IEEE Std 802.11-2007,
@@ -31687,15 +31697,17 @@
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D12, Nov 2011
+    draft: D12-2011-11
+    revision: mb
+    rev_sep: "-"
     parts:
     - '11'
     separator: "."
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802.11/D12, Nov, 2011
-    urn: urn:ieee:ieee:p:802.11:draft./D12, Nov 2011
+    human: IEEE P802.11-Revmb/D12-2011-11
+    urn: urn:ieee:ieee:p:802.11:draft./D12-2011-11
   style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.11-REVmb/D12, November 2011 (Revision of IEEE Std 802.11-2007,
@@ -31707,15 +31719,17 @@
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D2.0, Oct 2013
+    draft: D2.0-2013-10
+    revision: mc
+    rev_sep: "-"
     parts:
     - '11'
     separator: "."
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802.11/D2.0, Oct, 2013
-    urn: urn:ieee:ieee:p:802.11:draft./D2.0, Oct 2013
+    human: IEEE P802.11-Revmc/D2.0-2013-10
+    urn: urn:ieee:ieee:p:802.11:draft./D2.0-2013-10
   style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.11-REVmc/D2.0, October 2013
@@ -31725,15 +31739,17 @@
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D3.0, Jun 2014
+    draft: D3.0-2014-06
+    revision: mc
+    rev_sep: "-"
     parts:
     - '11'
     separator: "."
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802.11/D3.0, Jun, 2014
-    urn: urn:ieee:ieee:p:802.11:draft./D3.0, Jun 2014
+    human: IEEE P802.11-Revmc/D3.0-2014-06
+    urn: urn:ieee:ieee:p:802.11:draft./D3.0-2014-06
   style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.11-REVmc/D3.0, June 2014 (Revision of IEEE Std 802.11-2012
@@ -31745,166 +31761,184 @@
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D3.0, Oct 2019
+    draft: D4.0-2015-01
+    revision: mc
+    rev_sep: "-"
     parts:
     - '11'
     separator: "."
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802.11/D3.0, Oct, 2019
-    urn: urn:ieee:ieee:p:802.11:draft./D3.0, Oct 2019
-  style: v3
-  non_normalized_aliases:
-  - spelling: IEEE P802.11-REVmd/D3.0, October 2019
-    style: v3
-- id: ieee.project_draft_identifier.3676
-  identifier:
-    _type: pubid:ieee:project-draft-identifier
-    number: '802'
-    type: P
-    draft: D4.0, Aug 2020
-    parts:
-    - '11'
-    separator: "."
-    project_marker: true
-    stage: P
-  representations:
-    human: IEEE P802.11/D4.0, Aug, 2020
-    urn: urn:ieee:ieee:p:802.11:draft./D4.0, Aug 2020
-  style: v3
-  non_normalized_aliases:
-  - spelling: IEEE P802.11-REVmd/D4.0, August 2020
-    style: v3
-- id: ieee.project_draft_identifier.3677
-  identifier:
-    _type: pubid:ieee:project-draft-identifier
-    number: '802'
-    type: P
-    draft: D4.0, Jan 2015
-    parts:
-    - '11'
-    separator: "."
-    project_marker: true
-    stage: P
-  representations:
-    human: IEEE P802.11/D4.0, Jan, 2015
-    urn: urn:ieee:ieee:p:802.11:draft./D4.0, Jan 2015
+    human: IEEE P802.11-Revmc/D4.0-2015-01
+    urn: urn:ieee:ieee:p:802.11:draft./D4.0-2015-01
   style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.11-REVmc/D4.0, January 2015 (Revision of IEEE Std 802.11-2012
       as amended by IEEE Std 802.11ae-2012, IEEE Std 802.11aa-2012, IEEE Std 802.11ad-2012,
       IEEE Std 802.11ac-2013, and IEEE Std 802.11af-2013)
     style: v3
-- id: ieee.project_draft_identifier.3678
+- id: ieee.project_draft_identifier.3676
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D5.0, Jan 2016
+    draft: D5.0-2016-01
+    revision: mc
+    rev_sep: "-"
     parts:
     - '11'
     separator: "."
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802.11/D5.0, Jan, 2016
-    urn: urn:ieee:ieee:p:802.11:draft./D5.0, Jan 2016
+    human: IEEE P802.11-Revmc/D5.0-2016-01
+    urn: urn:ieee:ieee:p:802.11:draft./D5.0-2016-01
   style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.11-REVmc/D5.0, January 2016 (Revision of IEEE Std 802.11-2012
       as amended by IEEE Std 802.11ae-2012, IEEE Std 802.11aa-2012, IEEE Std 802.11ad-2012,
       IEEE Std 802.11ac-2013, and IEEE Std 802.11af-2013)
     style: v3
-- id: ieee.project_draft_identifier.3679
+- id: ieee.project_draft_identifier.3677
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D5.0, Sept 2020
+    draft: D6.0-2016-06
+    revision: mc
+    rev_sep: "-"
     parts:
     - '11'
     separator: "."
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802.11/D5.0, Sept, 2020
-    urn: urn:ieee:ieee:p:802.11:draft./D5.0, Sept 2020
+    human: IEEE P802.11-Revmc/D6.0-2016-06
+    urn: urn:ieee:ieee:p:802.11:draft./D6.0-2016-06
   style: v3
   non_normalized_aliases:
-  - spelling: IEEE P802.11-REVmd/D5.0, September 2020
+  - spelling: IEEE P802.11-REVmc/D6.0, June 2016
+    style: v3
+- id: ieee.project_draft_identifier.3678
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D7.0-2016-08
+    revision: mc
+    rev_sep: "-"
+    parts:
+    - '11'
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.11-Revmc/D7.0-2016-08
+    urn: urn:ieee:ieee:p:802.11:draft./D7.0-2016-08
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.11-REVmc/D7.0, Aug 2016
+    style: v3
+- id: ieee.project_draft_identifier.3679
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D8.0-2016-08
+    revision: mc
+    rev_sep: "-"
+    parts:
+    - '11'
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.11-Revmc/D8.0-2016-08
+    urn: urn:ieee:ieee:p:802.11:draft./D8.0-2016-08
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.11-REVmc/D8.0, August 2016
     style: v3
 - id: ieee.project_draft_identifier.3680
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D6.0, Jun 2016
+    draft: D1.0-2018-02
+    revision: md
+    rev_sep: "-"
     parts:
     - '11'
     separator: "."
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802.11/D6.0, Jun, 2016
-    urn: urn:ieee:ieee:p:802.11:draft./D6.0, Jun 2016
+    human: IEEE P802.11-Revmd/D1.0-2018-02
+    urn: urn:ieee:ieee:p:802.11:draft./D1.0-2018-02
   style: v3
   non_normalized_aliases:
-  - spelling: IEEE P802.11-REVmc/D6.0, June 2016
+  - spelling: IEEE P802.11-REVmd/D1.0, February 2018
     style: v3
 - id: ieee.project_draft_identifier.3681
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D7.0, Aug 2016
+    draft: D3.0-2019-10
+    revision: md
+    rev_sep: "-"
     parts:
     - '11'
     separator: "."
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802.11/D7.0, Aug, 2016
-    urn: urn:ieee:ieee:p:802.11:draft./D7.0, Aug 2016
+    human: IEEE P802.11-Revmd/D3.0-2019-10
+    urn: urn:ieee:ieee:p:802.11:draft./D3.0-2019-10
   style: v3
   non_normalized_aliases:
-  - spelling: IEEE P802.11-REVmc/D7.0, Aug 2016
+  - spelling: IEEE P802.11-REVmd/D3.0, October 2019
     style: v3
 - id: ieee.project_draft_identifier.3682
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D8.0, Aug 2016
+    draft: D4.0-2020-08
+    revision: md
+    rev_sep: "-"
     parts:
     - '11'
     separator: "."
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802.11/D8.0, Aug, 2016
-    urn: urn:ieee:ieee:p:802.11:draft./D8.0, Aug 2016
+    human: IEEE P802.11-Revmd/D4.0-2020-08
+    urn: urn:ieee:ieee:p:802.11:draft./D4.0-2020-08
   style: v3
   non_normalized_aliases:
-  - spelling: IEEE P802.11-REVmc/D8.0, August 2016
+  - spelling: IEEE P802.11-REVmd/D4.0, August 2020
     style: v3
 - id: ieee.project_draft_identifier.3683
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D89.0
+    draft: D5.0-2020-09
+    revision: md
+    rev_sep: "-"
     parts:
     - '11'
     separator: "."
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802.11/D89.0
-    urn: urn:ieee:ieee:p:802.11:draft./D89.0
+    human: IEEE P802.11-Revmd/D5.0-2020-09
+    urn: urn:ieee:ieee:p:802.11:draft./D5.0-2020-09
   style: v3
   non_normalized_aliases:
-  - spelling: IEEE P802.11-REVma/D89.0
+  - spelling: IEEE P802.11-REVmd/D5.0, September 2020
     style: v3
 - id: ieee.project_draft_identifier.3684
   identifier:
@@ -33641,25 +33675,6 @@
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D5
-    parts:
-    - '15'
-    - '1'
-    separator: "."
-    project_marker: true
-    stage: D4
-  representations:
-    human: IEEE P802.15.1/D5
-    urn: urn:ieee:ieee:p:802.15.1:draft./D5
-  style: v3
-  non_normalized_aliases:
-  - spelling: IEEE Draft Std P802.15.1REVa/D5
-    style: v3
-- id: ieee.project_draft_identifier.3780
-  identifier:
-    _type: pubid:ieee:project-draft-identifier
-    number: '802'
-    type: P
     draft: D6
     parts:
     - '15'
@@ -33674,7 +33689,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P802.15.1/D6
     style: v3
-- id: ieee.project_draft_identifier.3781
+- id: ieee.project_draft_identifier.3780
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -33693,7 +33708,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.15.10/D06, May 2016
     style: v3
-- id: ieee.project_draft_identifier.3782
+- id: ieee.project_draft_identifier.3781
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -33712,7 +33727,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.15.10/D07, September 2016
     style: v3
-- id: ieee.project_draft_identifier.3783
+- id: ieee.project_draft_identifier.3782
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -33728,7 +33743,7 @@
     human: IEEE P802.15.10/D08
     urn: urn:ieee:ieee:p:802.15.10:draft./D08
   style: v3
-- id: ieee.project_draft_identifier.3784
+- id: ieee.project_draft_identifier.3783
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -33747,7 +33762,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.15.10/D09, October 2016
     style: v3
-- id: ieee.project_draft_identifier.3785
+- id: ieee.project_draft_identifier.3784
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -33766,7 +33781,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.15.10/D10, October, 2016
     style: v3
-- id: ieee.project_draft_identifier.3786
+- id: ieee.project_draft_identifier.3785
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -33785,7 +33800,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.15.10a/D02, September 2018
     style: v3
-- id: ieee.project_draft_identifier.3787
+- id: ieee.project_draft_identifier.3786
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -33804,7 +33819,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.15.10a/D03, November 2018
     style: v3
-- id: ieee.project_draft_identifier.3788
+- id: ieee.project_draft_identifier.3787
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -33823,7 +33838,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.15.13/D5.0, September 2021
     style: v3
-- id: ieee.project_draft_identifier.3789
+- id: ieee.project_draft_identifier.3788
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -33841,6 +33856,26 @@
   style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.15.13/D6.0, January 2022
+    style: v3
+- id: ieee.project_draft_identifier.3789
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D5
+    revision: a
+    parts:
+    - '15'
+    - '1'
+    separator: "."
+    project_marker: true
+    stage: D4
+  representations:
+    human: IEEE P802.15.1Reva/D5
+    urn: urn:ieee:ieee:p:802.15.1:draft./D5
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Draft Std P802.15.1REVa/D5
     style: v3
 - id: ieee.project_draft_identifier.3790
   identifier:
@@ -33867,7 +33902,8 @@
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D00, Jan 2016
+    draft: D00-2016-01
+    revision: A
     parts:
     - '15'
     - '3'
@@ -33875,8 +33911,8 @@
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802.15.3/D00, Jan, 2016
-    urn: urn:ieee:ieee:p:802.15.3:draft./D00, Jan 2016
+    human: IEEE P802.15.3RevA/D00-2016-01
+    urn: urn:ieee:ieee:p:802.15.3:draft./D00-2016-01
   style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.15.3RevA-D00, January 2016
@@ -33886,7 +33922,8 @@
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D01, Feb 2016
+    draft: D01-2016-02
+    revision: A
     parts:
     - '15'
     - '3'
@@ -33894,8 +33931,8 @@
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802.15.3/D01, Feb, 2016
-    urn: urn:ieee:ieee:p:802.15.3:draft./D01, Feb 2016
+    human: IEEE P802.15.3RevA/D01-2016-02
+    urn: urn:ieee:ieee:p:802.15.3:draft./D01-2016-02
   style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.15.3RevA-D01, February 2016
@@ -33905,7 +33942,8 @@
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D02, Mar 2016
+    draft: D02-2016-03
+    revision: A
     parts:
     - '15'
     - '3'
@@ -33913,8 +33951,8 @@
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802.15.3/D02, Mar, 2016
-    urn: urn:ieee:ieee:p:802.15.3:draft./D02, Mar 2016
+    human: IEEE P802.15.3RevA/D02-2016-03
+    urn: urn:ieee:ieee:p:802.15.3:draft./D02-2016-03
   style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.15.3RevA-D02, March 2016
@@ -33924,7 +33962,8 @@
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: DF2, Oct 2015
+    draft: DF2-2015-10
+    revision: A
     parts:
     - '15'
     - '3'
@@ -33932,8 +33971,8 @@
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802.15.3/DF2, Oct, 2015
-    urn: urn:ieee:ieee:p:802.15.3:draft./DF2, Oct 2015
+    human: IEEE P802.15.3RevA/DF2-2015-10
+    urn: urn:ieee:ieee:p:802.15.3:draft./DF2-2015-10
   style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.15.3RevA-DF2, October 2015
@@ -34095,7 +34134,9 @@
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D00, Apr 2015
+    draft: D00-2015-04
+    revision: c
+    rev_sep: "-"
     parts:
     - '15'
     - '4'
@@ -34103,8 +34144,8 @@
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802.15.4/D00, Apr, 2015
-    urn: urn:ieee:ieee:p:802.15.4:draft./D00, Apr 2015
+    human: IEEE P802.15.4-Revc/D00-2015-04
+    urn: urn:ieee:ieee:p:802.15.4:draft./D00-2015-04
   style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.15.4-REVc/D00, April 2015 (Revision of IEEE Std 802.15.4-2011)
@@ -34114,7 +34155,9 @@
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D01, Oct 2015
+    draft: D01-2015-10
+    revision: c
+    rev_sep: "-"
     parts:
     - '15'
     - '4'
@@ -34122,8 +34165,8 @@
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802.15.4/D01, Oct, 2015
-    urn: urn:ieee:ieee:p:802.15.4:draft./D01, Oct 2015
+    human: IEEE P802.15.4-Revc/D01-2015-10
+    urn: urn:ieee:ieee:p:802.15.4:draft./D01-2015-10
   style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.15.4-REVc/D01, October 2015
@@ -34133,7 +34176,9 @@
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D04, Oct 2019
+    draft: D04-2019-10
+    revision: d
+    rev_sep: "-"
     parts:
     - '15'
     - '4'
@@ -34141,8 +34186,8 @@
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802.15.4/D04, Oct, 2019
-    urn: urn:ieee:ieee:p:802.15.4:draft./D04, Oct 2019
+    human: IEEE P802.15.4-Revd/D04-2019-10
+    urn: urn:ieee:ieee:p:802.15.4:draft./D04-2019-10
   style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.15.4-REVd/D04, October 2019
@@ -34152,7 +34197,9 @@
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D04, Sept 2010
+    draft: D05-2020-02
+    revision: d
+    rev_sep: "-"
     parts:
     - '15'
     - '4'
@@ -34160,18 +34207,20 @@
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802.15.4/D04, Sept, 2010
-    urn: urn:ieee:ieee:p:802.15.4:draft./D04, Sept 2010
+    human: IEEE P802.15.4-Revd/D05-2020-02
+    urn: urn:ieee:ieee:p:802.15.4:draft./D05-2020-02
   style: v3
   non_normalized_aliases:
-  - spelling: IEEE P802.15.4REVi/D04, September, 2010
+  - spelling: IEEE P802.15.4-REVd/D05, February 2020
     style: v3
 - id: ieee.project_draft_identifier.3807
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D05, Feb 2020
+    draft: D06-2020-03
+    revision: d
+    rev_sep: "-"
     parts:
     - '15'
     - '4'
@@ -34179,70 +34228,13 @@
     project_marker: true
     stage: P
   representations:
-    human: IEEE P802.15.4/D05, Feb, 2020
-    urn: urn:ieee:ieee:p:802.15.4:draft./D05, Feb 2020
-  style: v3
-  non_normalized_aliases:
-  - spelling: IEEE P802.15.4-REVd/D05, February 2020
-    style: v3
-- id: ieee.project_draft_identifier.3808
-  identifier:
-    _type: pubid:ieee:project-draft-identifier
-    number: '802'
-    type: P
-    draft: D06, Mar 2020
-    parts:
-    - '15'
-    - '4'
-    separator: "."
-    project_marker: true
-    stage: P
-  representations:
-    human: IEEE P802.15.4/D06, Mar, 2020
-    urn: urn:ieee:ieee:p:802.15.4:draft./D06, Mar 2020
+    human: IEEE P802.15.4-Revd/D06-2020-03
+    urn: urn:ieee:ieee:p:802.15.4:draft./D06-2020-03
   style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.15.4-REVd/D06, March 2020
     style: v3
-- id: ieee.project_draft_identifier.3809
-  identifier:
-    _type: pubid:ieee:project-draft-identifier
-    number: '802'
-    type: P
-    draft: D07, Apr 2011
-    parts:
-    - '15'
-    - '4'
-    separator: "."
-    project_marker: true
-    stage: P
-  representations:
-    human: IEEE P802.15.4/D07, Apr, 2011
-    urn: urn:ieee:ieee:p:802.15.4:draft./D07, Apr 2011
-  style: v3
-  non_normalized_aliases:
-  - spelling: IEEE P802.15.4REVi/D07, April 2011 (Revision of IEEE Std 802.15.4-2006)
-    style: v3
-- id: ieee.project_draft_identifier.3810
-  identifier:
-    _type: pubid:ieee:project-draft-identifier
-    number: '802'
-    type: P
-    draft: D09, Apr 2011
-    parts:
-    - '15'
-    - '4'
-    separator: "."
-    project_marker: true
-    stage: P
-  representations:
-    human: IEEE P802.15.4/D09, Apr, 2011
-    urn: urn:ieee:ieee:p:802.15.4:draft./D09, Apr 2011
-  style: v3
-  non_normalized_aliases:
-  - spelling: IEEE P802.15.4REVi/D09, April 2011 (Revision of IEEE Std 802.15.4-2006)
-    style: v3
-- id: ieee.project_draft_identifier.3811
+- id: ieee.project_draft_identifier.3808
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -34261,7 +34253,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P802.15.4/D3
     style: v3
-- id: ieee.project_draft_identifier.3813
+- id: ieee.project_draft_identifier.3810
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -34280,7 +34272,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P802.15.4/D4
     style: v3
-- id: ieee.project_draft_identifier.3814
+- id: ieee.project_draft_identifier.3811
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -34299,7 +34291,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P802.15.4/D5
     style: v3
-- id: ieee.project_draft_identifier.3815
+- id: ieee.project_draft_identifier.3812
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -34317,6 +34309,66 @@
   style: v3
   non_normalized_aliases:
   - spelling: IEEE Draft Std P802.15.4/D6
+    style: v3
+- id: ieee.project_draft_identifier.3813
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D04-2010-09
+    revision: i
+    parts:
+    - '15'
+    - '4'
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.15.4Revi/D04-2010-09
+    urn: urn:ieee:ieee:p:802.15.4:draft./D04-2010-09
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.15.4REVi/D04, September, 2010
+    style: v3
+- id: ieee.project_draft_identifier.3814
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D07-2011-04
+    revision: i
+    parts:
+    - '15'
+    - '4'
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.15.4Revi/D07-2011-04
+    urn: urn:ieee:ieee:p:802.15.4:draft./D07-2011-04
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.15.4REVi/D07, April 2011 (Revision of IEEE Std 802.15.4-2006)
+    style: v3
+- id: ieee.project_draft_identifier.3815
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D09-2011-04
+    revision: i
+    parts:
+    - '15'
+    - '4'
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.15.4Revi/D09-2011-04
+    urn: urn:ieee:ieee:p:802.15.4:draft./D09-2011-04
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.15.4REVi/D09, April 2011 (Revision of IEEE Std 802.15.4-2006)
     style: v3
 - id: ieee.project_draft_identifier.3816
   identifier:
@@ -35843,6 +35895,8 @@
     number: '802'
     type: P
     draft: D8
+    revision: a
+    rev_sep: "-"
     parts:
     - '16'
     - '2'
@@ -35850,7 +35904,7 @@
     project_marker: true
     stage: D7
   representations:
-    human: IEEE P802.16.2/D8
+    human: IEEE P802.16.2-Reva/D8
     urn: urn:ieee:ieee:p:802.16.2:draft./D8
   style: v3
   non_normalized_aliases:
@@ -35911,25 +35965,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.16/D4, September 2017 (Revision of IEEE Std 802.16-2012)
     style: v3
-- id: ieee.project_draft_identifier.3903
-  identifier:
-    _type: pubid:ieee:project-draft-identifier
-    number: '802'
-    type: P
-    draft: D5
-    parts:
-    - '16'
-    separator: "."
-    project_marker: true
-    stage: D4
-  representations:
-    human: IEEE P802.16/D5
-    urn: urn:ieee:ieee:p:802.16:draft./D5
-  style: v3
-  non_normalized_aliases:
-  - spelling: IEEE Draft Std P802.16/REVd/D5
-    style: v3
-- id: ieee.project_draft_identifier.3905
+- id: ieee.project_draft_identifier.3904
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -35947,12 +35983,32 @@
   non_normalized_aliases:
   - spelling: IEEE P802.16/D6 (Revision of IEEE Std 802.16-2009)
     style: v3
+- id: ieee.project_draft_identifier.3905
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D5
+    revision: d
+    rev_sep: "/"
+    parts:
+    - '16'
+    separator: "."
+    project_marker: true
+    stage: D4
+  representations:
+    human: IEEE P802.16/Revd/D5
+    urn: urn:ieee:ieee:p:802.16:draft./D5
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Draft Std P802.16/REVd/D5
+    style: v3
 - id: ieee.project_draft_identifier.3906
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D3, Nov 2011
+    draft: D3-2011-11
     revision: '3'
     parts:
     - '16'
@@ -35960,8 +36016,8 @@
     project_marker: true
     stage: D2
   representations:
-    human: IEEE P802.16Rev3/D3, Nov, 2011
-    urn: urn:ieee:ieee:p:802.16:draft./D3, Nov 2011
+    human: IEEE P802.16Rev3/D3-2011-11
+    urn: urn:ieee:ieee:p:802.16:draft./D3-2011-11
   style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.16Rev3/D3, November 2011
@@ -35971,7 +36027,7 @@
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D4, Feb 2012
+    draft: D4-2012-02
     revision: '3'
     parts:
     - '16'
@@ -35979,8 +36035,8 @@
     project_marker: true
     stage: D4
   representations:
-    human: IEEE P802.16Rev3/D4, Feb, 2012
-    urn: urn:ieee:ieee:p:802.16:draft./D4, Feb 2012
+    human: IEEE P802.16Rev3/D4-2012-02
+    urn: urn:ieee:ieee:p:802.16:draft./D4-2012-02
   style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.16Rev3/D4, February 2012
@@ -35990,7 +36046,7 @@
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
-    draft: D5, Mar 2012
+    draft: D5-2012-03
     revision: '3'
     parts:
     - '16'
@@ -35998,8 +36054,8 @@
     project_marker: true
     stage: D4
   representations:
-    human: IEEE P802.16Rev3/D5, Mar, 2012
-    urn: urn:ieee:ieee:p:802.16:draft./D5, Mar 2012
+    human: IEEE P802.16Rev3/D5-2012-03
+    urn: urn:ieee:ieee:p:802.16:draft./D5-2012-03
   style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.16Rev3/D5, March 2012
@@ -36767,7 +36823,67 @@
   non_normalized_aliases:
   - spelling: IEEE P802.19.3/D0.08, December 2020
     style: v3
-- id: ieee.project_draft_identifier.3955
+- id: ieee.project_draft_identifier.3951
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D1.0-2015-08
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1AB
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1AB-Rev/D1.0-2015-08
+    urn: urn:ieee:ieee:p:802.1AB:draft./D1.0-2015-08
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AB-REV/D1.0, August 2015 (Revision of IEEE Std 802.1AB-2009)
+    style: v3
+- id: ieee.project_draft_identifier.3952
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D1.1-2015-09
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1AB
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1AB-Rev/D1.1-2015-09
+    urn: urn:ieee:ieee:p:802.1AB:draft./D1.1-2015-09
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AB-REV/D1.1, September 2015 (Revision of IEEE Std 802.1AB-2009)
+    style: v3
+- id: ieee.project_draft_identifier.3953
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D1.2-2015-11
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1AB
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1AB-Rev/D1.2-2015-11
+    urn: urn:ieee:ieee:p:802.1AB:draft./D1.2-2015-11
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AB-REV/D1.2, November 2015 (Revision of IEEE Std 802.1AB-2009)
+    style: v3
+- id: ieee.project_draft_identifier.3958
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -36785,7 +36901,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1ABcu/D2.1, July 2021
     style: v3
-- id: ieee.project_draft_identifier.3956
+- id: ieee.project_draft_identifier.3959
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -36803,7 +36919,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1ABcu/D2.1, June 2021
     style: v3
-- id: ieee.project_draft_identifier.3957
+- id: ieee.project_draft_identifier.3960
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -36821,7 +36937,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1ABcu/D2.2 August 2021
     style: v3
-- id: ieee.project_draft_identifier.3958
+- id: ieee.project_draft_identifier.3961
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -36839,7 +36955,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1ABcu/D2.3 September 2021
     style: v3
-- id: ieee.project_draft_identifier.3959
+- id: ieee.project_draft_identifier.3962
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -36857,7 +36973,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1ABdh/D2.0, July 2021
     style: v3
-- id: ieee.project_draft_identifier.3960
+- id: ieee.project_draft_identifier.3963
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -36875,7 +36991,27 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1ABdh/D2.1, September 2021
     style: v3
-- id: ieee.project_draft_identifier.3962
+- id: ieee.project_draft_identifier.3965
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D3.0-2015-09
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1AC
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1AC-Rev/D3.0-2015-09
+    urn: urn:ieee:ieee:p:802.1AC:draft./D3.0-2015-09
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AC-REV/D3.0, September 2015
+    style: v3
+- id: ieee.project_draft_identifier.3966
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -36893,7 +37029,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AC/D2.0, March 2012
     style: v3
-- id: ieee.project_draft_identifier.3963
+- id: ieee.project_draft_identifier.3967
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -36911,7 +37047,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AC/D2.1, June 2012
     style: v3
-- id: ieee.project_draft_identifier.3964
+- id: ieee.project_draft_identifier.3968
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -36930,7 +37066,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AC/D2.1, June 2012 (Approved Draft)
     style: v3
-- id: ieee.project_draft_identifier.3965
+- id: ieee.project_draft_identifier.3969
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -36948,7 +37084,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AC/D3.1 April 2016
     style: v3
-- id: ieee.project_draft_identifier.3966
+- id: ieee.project_draft_identifier.3970
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -36966,7 +37102,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AC/D3.2, June 2016
     style: v3
-- id: ieee.project_draft_identifier.3967
+- id: ieee.project_draft_identifier.3971
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -36984,7 +37120,48 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AC/D4.0, August 2016
     style: v3
-- id: ieee.project_draft_identifier.3968
+- id: ieee.project_draft_identifier.3972
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D1.2-2018-04
+    rev_sep: _
+    rev_bare: true
+    parts:
+    - 1AE
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1AE_Rev/D1.2-2018-04
+    urn: urn:ieee:ieee:p:802.1AE:draft./D1.2-2018-04
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AE_Rev/D1.2, April 2018
+    style: v3
+- id: ieee.project_draft_identifier.3973
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D1.3-2018-05
+    rev_sep: _
+    rev_bare: true
+    parts:
+    - 1AE
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1AE_Rev/D1.3-2018-05
+    urn: urn:ieee:ieee:p:802.1AE:draft./D1.3-2018-05
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AE_Rev/D1.3, May 2018 (Revision of IEEE Std 802.1AE-2006
+      Incorporating IEEE Std 802.1AEbn-2011, IEEE Std 802.1AEbw-2013, IEEE Std 802.1AEcg-2017)
+    style: v3
+- id: ieee.project_draft_identifier.3974
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37002,7 +37179,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AEbn/D0.6 (DRAFT Amendment to IEEE Std 802.1AE-2006)
     style: v3
-- id: ieee.project_draft_identifier.3969
+- id: ieee.project_draft_identifier.3975
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37020,7 +37197,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AEbn/D0.8 (DRAFT Amendment to IEEE Std 802.1AE-2006)
     style: v3
-- id: ieee.project_draft_identifier.3970
+- id: ieee.project_draft_identifier.3976
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37038,7 +37215,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AEbw/D1.0, June 2012 (DRAFT Amendment to IEEE Std 802.1AE2006)
     style: v3
-- id: ieee.project_draft_identifier.3971
+- id: ieee.project_draft_identifier.3977
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37056,7 +37233,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AEbw/D1.1, October 2012 (DRAFT Amendment to IEEE Std 802.1AE2006)
     style: v3
-- id: ieee.project_draft_identifier.3972
+- id: ieee.project_draft_identifier.3978
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37074,7 +37251,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AEcg/D1.4, June 2016
     style: v3
-- id: ieee.project_draft_identifier.3973
+- id: ieee.project_draft_identifier.3979
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37098,6 +37275,168 @@
     _type: pubid:ieee:project-draft-identifier
     number: '802'
     type: P
+    draft: D2.2-2017-09
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1AR
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1AR-Rev/D2.2-2017-09
+    urn: urn:ieee:ieee:p:802.1AR:draft./D2.2-2017-09
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AR-Rev/D2.2, September 2017 (Draft Revision of IEEE Std 802.1AR&#x2013;2009)
+    style: v3
+  - spelling: IEEE P802.1AR-Rev/D2.2, September 2017 (Draft Revision of IEEE Std 802.1AR-2009)
+    style: v3
+- id: ieee.project_draft_identifier.3981
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D2.2-2017-11
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1AR
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1AR-Rev/D2.2-2017-11
+    urn: urn:ieee:ieee:p:802.1AR:draft./D2.2-2017-11
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AR-Rev/D2.2, November 2017
+    style: v3
+- id: ieee.project_draft_identifier.3982
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D2.6-2018-01
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1AR
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1AR-Rev/D2.6-2018-01
+    urn: urn:ieee:ieee:p:802.1AR:draft./D2.6-2018-01
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AR-Rev/D2.6, January 2018
+    style: v3
+- id: ieee.project_draft_identifier.3985
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D6.0-2017-12
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1AS
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1AS-Rev/D6.0-2017-12
+    urn: urn:ieee:ieee:p:802.1AS:draft./D6.0-2017-12
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AS-Rev/D6.0 December 2017
+    style: v3
+- id: ieee.project_draft_identifier.3986
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D7.0-2018-03
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1AS
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1AS-Rev/D7.0-2018-03
+    urn: urn:ieee:ieee:p:802.1AS:draft./D7.0-2018-03
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AS-Rev/D7.0, March 2018
+    style: v3
+- id: ieee.project_draft_identifier.3987
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D8.0-2019-01
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1AS
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1AS-Rev/D8.0-2019-01
+    urn: urn:ieee:ieee:p:802.1AS:draft./D8.0-2019-01
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AS-Rev/D8.0 January, 2019
+    style: v3
+- id: ieee.project_draft_identifier.3988
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D8.1-2019-08
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1AS
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1AS-Rev/D8.1-2019-08
+    urn: urn:ieee:ieee:p:802.1AS:draft./D8.1-2019-08
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AS-Rev/D8.1, August 2019
+    style: v3
+- id: ieee.project_draft_identifier.3989
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D8.3-2019-10
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1AS
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1AS-Rev/D8.3-2019-10
+    urn: urn:ieee:ieee:p:802.1AS:draft./D8.3-2019-10
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AS-Rev/D8.3, October 2019
+    style: v3
+- id: ieee.project_draft_identifier.3994
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
     draft: D7.2 Aug 2010
     parts:
     - 1AS
@@ -37111,7 +37450,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AS/D7.2 August, 2010
     style: v3
-- id: ieee.project_draft_identifier.3981
+- id: ieee.project_draft_identifier.3995
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37129,7 +37468,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AS/D7.5, October 2010
     style: v3
-- id: ieee.project_draft_identifier.3982
+- id: ieee.project_draft_identifier.3996
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37147,7 +37486,107 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AS/D7.7, November 2010
     style: v3
-- id: ieee.project_draft_identifier.3984
+- id: ieee.project_draft_identifier.3998
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D2.0-2019-05
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1AX
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1AX-Rev/D2.0-2019-05
+    urn: urn:ieee:ieee:p:802.1AX:draft./D2.0-2019-05
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AX-Rev/D2.0, May 2019
+    style: v3
+- id: ieee.project_draft_identifier.3999
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D2.1-2019-08
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1AX
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1AX-Rev/D2.1-2019-08
+    urn: urn:ieee:ieee:p:802.1AX:draft./D2.1-2019-08
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AX-Rev/D2.1, August 2019
+    style: v3
+- id: ieee.project_draft_identifier.4000
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D4.0-2014-03
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1AX
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1AX-Rev/D4.0-2014-03
+    urn: urn:ieee:ieee:p:802.1AX:draft./D4.0-2014-03
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AX-REV/D4.0 March 2014
+    style: v3
+- id: ieee.project_draft_identifier.4001
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D4.3-2014-07
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1AX
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1AX-Rev/D4.3-2014-07
+    urn: urn:ieee:ieee:p:802.1AX:draft./D4.3-2014-07
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AX-REV/D4.3, July 2014
+    style: v3
+- id: ieee.project_draft_identifier.4002
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D4.54-2014-10
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1AX
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1AX-Rev/D4.54-2014-10
+    urn: urn:ieee:ieee:p:802.1AX:draft./D4.54-2014-10
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AX-REV/D4.54, October 2014
+    style: v3
+- id: ieee.project_draft_identifier.4003
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37165,7 +37604,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AX/D4.1, June 2014
     style: v3
-- id: ieee.project_draft_identifier.3985
+- id: ieee.project_draft_identifier.4004
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37183,7 +37622,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AXbk/D2.0, November 2011
     style: v3
-- id: ieee.project_draft_identifier.3986
+- id: ieee.project_draft_identifier.4005
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37201,7 +37640,67 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AXbk/D2.1, January 2012
     style: v3
-- id: ieee.project_draft_identifier.3988
+- id: ieee.project_draft_identifier.4007
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D2.0-2021-08
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1BA
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1BA-Rev/D2.0-2021-08
+    urn: urn:ieee:ieee:p:802.1BA:draft./D2.0-2021-08
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1BA-Rev/D2.0, August 2021
+    style: v3
+- id: ieee.project_draft_identifier.4008
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D2.1-2021-09
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1BA
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1BA-Rev/D2.1-2021-09
+    urn: urn:ieee:ieee:p:802.1BA:draft./D2.1-2021-09
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1BA-Rev/D2.1, September 2021
+    style: v3
+- id: ieee.project_draft_identifier.4009
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D2.2-2021-10
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1BA
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1BA-Rev/D2.2-2021-10
+    urn: urn:ieee:ieee:p:802.1BA:draft./D2.2-2021-10
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1BA-Rev/D2.2, October 2021
+    style: v3
+- id: ieee.project_draft_identifier.4010
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37219,7 +37718,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1BA/D2.3, February 2011
     style: v3
-- id: ieee.project_draft_identifier.3989
+- id: ieee.project_draft_identifier.4011
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37237,7 +37736,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1BA/D2.4, June 2011
     style: v3
-- id: ieee.project_draft_identifier.3990
+- id: ieee.project_draft_identifier.4012
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37255,7 +37754,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1BA/D2.6, Jul 2011
     style: v3
-- id: ieee.project_draft_identifier.3991
+- id: ieee.project_draft_identifier.4013
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37273,7 +37772,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1BR/D3.1, December 2011
     style: v3
-- id: ieee.project_draft_identifier.3992
+- id: ieee.project_draft_identifier.4014
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37291,7 +37790,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1BR/D3.2, January 2012
     style: v3
-- id: ieee.project_draft_identifier.3993
+- id: ieee.project_draft_identifier.4015
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37311,7 +37810,7 @@
     style: v3
   - spelling: IEEE P802.1BR/D3.3, February 2012 - (Approved Draft)
     style: v3
-- id: ieee.project_draft_identifier.3994
+- id: ieee.project_draft_identifier.4016
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37329,7 +37828,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1CB/D2.6, August 2016
     style: v3
-- id: ieee.project_draft_identifier.3995
+- id: ieee.project_draft_identifier.4017
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37347,7 +37846,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1CB/D2.7, January 2017
     style: v3
-- id: ieee.project_draft_identifier.3996
+- id: ieee.project_draft_identifier.4018
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37365,7 +37864,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1CB/D2.8, March 2017
     style: v3
-- id: ieee.project_draft_identifier.3997
+- id: ieee.project_draft_identifier.4019
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37383,7 +37882,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1CB/D2.9, July 2017
     style: v3
-- id: ieee.project_draft_identifier.3998
+- id: ieee.project_draft_identifier.4020
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37401,7 +37900,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1CBcv/D2.0, July 21 2021
     style: v3
-- id: ieee.project_draft_identifier.3999
+- id: ieee.project_draft_identifier.4021
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37419,7 +37918,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1CBcv/D2.1, September 2021
     style: v3
-- id: ieee.project_draft_identifier.4000
+- id: ieee.project_draft_identifier.4022
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37437,7 +37936,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1CBdb/D2.0, July 2021
     style: v3
-- id: ieee.project_draft_identifier.4001
+- id: ieee.project_draft_identifier.4023
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37455,7 +37954,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1CBdb/D2.1, September 2021
     style: v3
-- id: ieee.project_draft_identifier.4002
+- id: ieee.project_draft_identifier.4024
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37473,7 +37972,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1CF/D3.0 October 2018
     style: v3
-- id: ieee.project_draft_identifier.4003
+- id: ieee.project_draft_identifier.4025
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37491,7 +37990,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1CF/D3.1 November 2018
     style: v3
-- id: ieee.project_draft_identifier.4004
+- id: ieee.project_draft_identifier.4026
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37509,7 +38008,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1CM/D2.0, January 2018
     style: v3
-- id: ieee.project_draft_identifier.4005
+- id: ieee.project_draft_identifier.4027
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37527,7 +38026,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1CM/D2.2, March 2018
     style: v3
-- id: ieee.project_draft_identifier.4006
+- id: ieee.project_draft_identifier.4028
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37545,7 +38044,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1CMde/D2.0, November 2019
     style: v3
-- id: ieee.project_draft_identifier.4007
+- id: ieee.project_draft_identifier.4029
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37563,7 +38062,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1CMde/D2.1, February 2020
     style: v3
-- id: ieee.project_draft_identifier.4008
+- id: ieee.project_draft_identifier.4030
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37581,7 +38080,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1CS/D1.5, June 2018
     style: v3
-- id: ieee.project_draft_identifier.4009
+- id: ieee.project_draft_identifier.4031
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37599,7 +38098,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1CS/D3.0, April 18, 2020
     style: v3
-- id: ieee.project_draft_identifier.4010
+- id: ieee.project_draft_identifier.4032
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37617,7 +38116,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1CS/D3.1, August 2020
     style: v3
-- id: ieee.project_draft_identifier.4011
+- id: ieee.project_draft_identifier.4033
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37635,7 +38134,157 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P802.1D/D4
     style: v3
-- id: ieee.project_draft_identifier.4016
+- id: ieee.project_draft_identifier.4035
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D1.0-2021-08
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1Q
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1Q-Rev/D1.0-2021-08
+    urn: urn:ieee:ieee:p:802.1Q:draft./D1.0-2021-08
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1Q-Rev/D1.0, August, 2021 (Revision of IEEE Std 802.1Q-2018
+      incorporating IEEE 802.1Qcc-2018, IEEE 802.1Qcp-2018, IEEE 802.1Qcy-2019, IEEE
+      802.1Qcx-2020, and IEEE 802.1Qcr-2020)
+    style: v3
+- id: ieee.project_draft_identifier.4036
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D1.3-2010-10
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1Q
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1Q-Rev/D1.3-2010-10
+    urn: urn:ieee:ieee:p:802.1Q:draft./D1.3-2010-10
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1Q-REV/D1.3, October 2010
+    style: v3
+- id: ieee.project_draft_identifier.4037
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D1.4-2011-02
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1Q
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1Q-Rev/D1.4-2011-02
+    urn: urn:ieee:ieee:p:802.1Q:draft./D1.4-2011-02
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1Q-REV/D1.4, February 2011
+    style: v3
+- id: ieee.project_draft_identifier.4038
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D1.5-2011-03
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1Q
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1Q-Rev/D1.5-2011-03
+    urn: urn:ieee:ieee:p:802.1Q:draft./D1.5-2011-03
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1Q-REV/D1.5, March 2011
+    style: v3
+- id: ieee.project_draft_identifier.4039
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D2.0-2017-07
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1Q
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1Q-Rev/D2.0-2017-07
+    urn: urn:ieee:ieee:p:802.1Q:draft./D2.0-2017-07
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1Q-REV/D2.0, July 2017 (Draft Revision of IEEE Std 802.1Q-2014,
+      incorporating IEEE Std Qcd-2015, IEEE Std 802.1Qca-2015, IEEE Std 802.1Q-2014
+      Cor 1-2015 IEEE Std 802.1Qbv-2015, IEEE Std 802.1 Qbu-2016, IEEE Std 802.1Qbz-2016)
+    style: v3
+- id: ieee.project_draft_identifier.4040
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D2.1-2018-01
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1Q
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1Q-Rev/D2.1-2018-01
+    urn: urn:ieee:ieee:p:802.1Q:draft./D2.1-2018-01
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1Q-REV/D2.1, January 2018 (Draft Revision of IEEE 802.1Q-2014,
+      incorporating IEEE Qcd-2015, IEEE 802.1Qca-2015, IEEE 802.1Q-2014 Cor 1-2015
+      IEEE 802.1Qbv-2015, IEEE 802.1 Qbu-2016, IEEE 802.1Qbz-2016 IEEE 802.1Qci-2017,
+      IEEE 802,1Qch-2017)
+    style: v3
+- id: ieee.project_draft_identifier.4041
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D2.2-2018-01
+    rev_sep: "-"
+    rev_bare: true
+    parts:
+    - 1Q
+    separator: "."
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802.1Q-Rev/D2.2-2018-01
+    urn: urn:ieee:ieee:p:802.1Q:draft./D2.2-2018-01
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1Q-REV/D2.2, January 2018 (Draft Revision of IEEE 802.1Q-2014,
+      incorporating IEEE Qcd-2015, IEEE 802.1Qca-2015, IEEE 802.1Q-2014/Cor 1-2015
+      IEEE 802.1Qbv-2015, IEEE 802.1 Qbu-2016, IEEE 802.1Qbz-2016 IEEE 802.1Qci-2017,
+      IEEE 802,1Qch-2017)
+    style: v3
+- id: ieee.project_draft_identifier.4045
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37653,7 +38302,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qaz/D2.0 September, 2010
     style: v3
-- id: ieee.project_draft_identifier.4017
+- id: ieee.project_draft_identifier.4046
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37671,7 +38320,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qaz/D2.1 November 2010
     style: v3
-- id: ieee.project_draft_identifier.4018
+- id: ieee.project_draft_identifier.4047
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37689,7 +38338,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qaz/D2.3, December 2010
     style: v3
-- id: ieee.project_draft_identifier.4019
+- id: ieee.project_draft_identifier.4048
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37707,7 +38356,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qaz/D2.5, March 2010
     style: v3
-- id: ieee.project_draft_identifier.4020
+- id: ieee.project_draft_identifier.4049
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37725,7 +38374,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qbb/D2.2 (DRAFT Amendment to IEEE Std 802.1Q -2005)
     style: v3
-- id: ieee.project_draft_identifier.4021
+- id: ieee.project_draft_identifier.4050
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37743,7 +38392,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qbb/D2.3, May 2010 (DRAFT Amendment to IEEE Std 802.1Q -2005)
     style: v3
-- id: ieee.project_draft_identifier.4022
+- id: ieee.project_draft_identifier.4051
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37761,7 +38410,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qbc/D1.5, April 2011
     style: v3
-- id: ieee.project_draft_identifier.4023
+- id: ieee.project_draft_identifier.4052
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37779,7 +38428,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qbf/D1.3, February 2011
     style: v3
-- id: ieee.project_draft_identifier.4024
+- id: ieee.project_draft_identifier.4053
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37797,7 +38446,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qbg/D1.6, June 2011
     style: v3
-- id: ieee.project_draft_identifier.4025
+- id: ieee.project_draft_identifier.4054
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37815,7 +38464,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qbg/D2.0, December 2011
     style: v3
-- id: ieee.project_draft_identifier.4026
+- id: ieee.project_draft_identifier.4055
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37833,7 +38482,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qbg/D2.1, January 2012
     style: v3
-- id: ieee.project_draft_identifier.4027
+- id: ieee.project_draft_identifier.4056
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37853,7 +38502,7 @@
     style: v3
   - spelling: IEEE P802.1Qbg/D2.2, February 2012 - (Approved Draft)
     style: v3
-- id: ieee.project_draft_identifier.4028
+- id: ieee.project_draft_identifier.4057
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37871,7 +38520,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qbp/D1.7, September 2013
     style: v3
-- id: ieee.project_draft_identifier.4029
+- id: ieee.project_draft_identifier.4058
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37889,7 +38538,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qbu/03.0, July 2015
     style: v3
-- id: ieee.project_draft_identifier.4030
+- id: ieee.project_draft_identifier.4059
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37907,7 +38556,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qbv/D3.0, August 2015
     style: v3
-- id: ieee.project_draft_identifier.4031
+- id: ieee.project_draft_identifier.4060
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37925,7 +38574,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qbv/D3.1, September 2015
     style: v3
-- id: ieee.project_draft_identifier.4032
+- id: ieee.project_draft_identifier.4061
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37943,7 +38592,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qbz/D2.3, October 2015
     style: v3
-- id: ieee.project_draft_identifier.4033
+- id: ieee.project_draft_identifier.4062
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37961,7 +38610,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qbz/D2.4, October 2015
     style: v3
-- id: ieee.project_draft_identifier.4034
+- id: ieee.project_draft_identifier.4063
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37979,7 +38628,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qca/D2.0 April 2015
     style: v3
-- id: ieee.project_draft_identifier.4035
+- id: ieee.project_draft_identifier.4064
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -37997,7 +38646,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qca/D2.1, June 2015
     style: v3
-- id: ieee.project_draft_identifier.4036
+- id: ieee.project_draft_identifier.4065
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38015,7 +38664,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qcc/D2.0, October 2017
     style: v3
-- id: ieee.project_draft_identifier.4037
+- id: ieee.project_draft_identifier.4066
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38033,7 +38682,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qcc/D2.1, February 2018
     style: v3
-- id: ieee.project_draft_identifier.4038
+- id: ieee.project_draft_identifier.4067
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38051,7 +38700,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qcc/D2.2, March 2018
     style: v3
-- id: ieee.project_draft_identifier.4039
+- id: ieee.project_draft_identifier.4068
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38069,7 +38718,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qcc/D2.3, May 2018
     style: v3
-- id: ieee.project_draft_identifier.4040
+- id: ieee.project_draft_identifier.4069
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38087,7 +38736,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qcd/D2.1, September 2014
     style: v3
-- id: ieee.project_draft_identifier.4041
+- id: ieee.project_draft_identifier.4070
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38105,7 +38754,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qch/D2.0, November 2016
     style: v3
-- id: ieee.project_draft_identifier.4042
+- id: ieee.project_draft_identifier.4071
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38123,7 +38772,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qch/D2.1, January 2017
     style: v3
-- id: ieee.project_draft_identifier.4043
+- id: ieee.project_draft_identifier.4072
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38141,7 +38790,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qch/D2.2, February 2017
     style: v3
-- id: ieee.project_draft_identifier.4044
+- id: ieee.project_draft_identifier.4073
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38159,7 +38808,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qci/D1.4, October 2016
     style: v3
-- id: ieee.project_draft_identifier.4045
+- id: ieee.project_draft_identifier.4074
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38177,7 +38826,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qci/D2.1, November 2016
     style: v3
-- id: ieee.project_draft_identifier.4046
+- id: ieee.project_draft_identifier.4075
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38195,7 +38844,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qcp/D2.0 November 2017
     style: v3
-- id: ieee.project_draft_identifier.4047
+- id: ieee.project_draft_identifier.4076
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38214,7 +38863,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qcp/D2.1, January 2018 (DRAFT amendment to IEEE Std 802.1Q-2017)
     style: v3
-- id: ieee.project_draft_identifier.4048
+- id: ieee.project_draft_identifier.4077
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38233,7 +38882,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qcp/D2.2, March 2018 (DRAFT amendment to IEEE Std 802.1Q-2018)
     style: v3
-- id: ieee.project_draft_identifier.4049
+- id: ieee.project_draft_identifier.4078
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38251,7 +38900,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qcr/D0.5, June 2018
     style: v3
-- id: ieee.project_draft_identifier.4050
+- id: ieee.project_draft_identifier.4079
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38269,7 +38918,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qcr/D2.0, December 2019
     style: v3
-- id: ieee.project_draft_identifier.4051
+- id: ieee.project_draft_identifier.4080
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38287,7 +38936,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qcr/D2.1, February 2020
     style: v3
-- id: ieee.project_draft_identifier.4052
+- id: ieee.project_draft_identifier.4081
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38305,7 +38954,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qcr/D2.2, March 2020
     style: v3
-- id: ieee.project_draft_identifier.4053
+- id: ieee.project_draft_identifier.4082
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38323,7 +38972,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qcx/D2.0, December 2019
     style: v3
-- id: ieee.project_draft_identifier.4054
+- id: ieee.project_draft_identifier.4083
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38341,7 +38990,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qcx/D2.1, February 2020
     style: v3
-- id: ieee.project_draft_identifier.4055
+- id: ieee.project_draft_identifier.4084
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38359,7 +39008,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qcy/D2.1, February 2018 (Draft Amendment to IEEE Std 802.1Q-2018)
     style: v3
-- id: ieee.project_draft_identifier.4056
+- id: ieee.project_draft_identifier.4085
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38377,7 +39026,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qcy/D2.3, June2018 (Draft Amendment to IEEE Std 802.1Q-2018)
     style: v3
-- id: ieee.project_draft_identifier.4057
+- id: ieee.project_draft_identifier.4086
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38395,7 +39044,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qcy/D2.5, July 2018 (Draft Amendment to IEEE Std 802.1Q-2018)
     style: v3
-- id: ieee.project_draft_identifier.4058
+- id: ieee.project_draft_identifier.4087
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38413,7 +39062,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qcz/D2.0, January 2021
     style: v3
-- id: ieee.project_draft_identifier.4059
+- id: ieee.project_draft_identifier.4088
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38431,7 +39080,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Qcz/D2.1, March 2021
     style: v3
-- id: ieee.project_draft_identifier.4060
+- id: ieee.project_draft_identifier.4089
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38449,7 +39098,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1X/D1.4 June 2019
     style: v3
-- id: ieee.project_draft_identifier.4061
+- id: ieee.project_draft_identifier.4090
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38467,7 +39116,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1X/D1.5, September 2019
     style: v3
-- id: ieee.project_draft_identifier.4062
+- id: ieee.project_draft_identifier.4091
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38485,7 +39134,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Xbx/D1.5, April 2014 (Amendment to IEEE Std 802.1X2010)
     style: v3
-- id: ieee.project_draft_identifier.4063
+- id: ieee.project_draft_identifier.4092
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38503,7 +39152,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Xbx/D1.6,May 2014 (Amendment to IEEE Std 802.1X2010)
     style: v3
-- id: ieee.project_draft_identifier.4064
+- id: ieee.project_draft_identifier.4093
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38521,7 +39170,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Xck/D2.0, January 2018
     style: v3
-- id: ieee.project_draft_identifier.4065
+- id: ieee.project_draft_identifier.4094
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38539,7 +39188,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Xck/D2.1, June 2018
     style: v3
-- id: ieee.project_draft_identifier.4066
+- id: ieee.project_draft_identifier.4095
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38557,7 +39206,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P802.1u/D9
     style: v3
-- id: ieee.project_draft_identifier.4067
+- id: ieee.project_draft_identifier.4096
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38575,7 +39224,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P802.1v/D6
     style: v3
-- id: ieee.project_draft_identifier.4068
+- id: ieee.project_draft_identifier.4097
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38593,7 +39242,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P802.1w/D9
     style: v3
-- id: ieee.project_draft_identifier.4069
+- id: ieee.project_draft_identifier.4098
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38608,7 +39257,7 @@
     human: IEEE P802.20a/D2.0
     urn: urn:ieee:ieee:p:802.20a:draft./D2.0
   style: v3
-- id: ieee.project_draft_identifier.4070
+- id: ieee.project_draft_identifier.4099
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38626,7 +39275,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.20b/D2.0, July 2010
     style: v3
-- id: ieee.project_draft_identifier.4072
+- id: ieee.project_draft_identifier.4101
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38646,7 +39295,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.21.1.1/D04, July 2016
     style: v3
-- id: ieee.project_draft_identifier.4073
+- id: ieee.project_draft_identifier.4102
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38666,7 +39315,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.21.1.1/D05, September 2016
     style: v3
-- id: ieee.project_draft_identifier.4074
+- id: ieee.project_draft_identifier.4103
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38684,7 +39333,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.21/D04 July 2016
     style: v3
-- id: ieee.project_draft_identifier.4075
+- id: ieee.project_draft_identifier.4104
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38702,7 +39351,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.21/D05, September 2016
     style: v3
-- id: ieee.project_draft_identifier.4076
+- id: ieee.project_draft_identifier.4105
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38720,7 +39369,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.21/D06, October 2016
     style: v3
-- id: ieee.project_draft_identifier.4077
+- id: ieee.project_draft_identifier.4106
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38738,7 +39387,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.21/D07, November 2016
     style: v3
-- id: ieee.project_draft_identifier.4078
+- id: ieee.project_draft_identifier.4107
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38756,7 +39405,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.21a/D04, June 2011
     style: v3
-- id: ieee.project_draft_identifier.4079
+- id: ieee.project_draft_identifier.4108
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38774,7 +39423,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.21a/D06, November 2011
     style: v3
-- id: ieee.project_draft_identifier.4080
+- id: ieee.project_draft_identifier.4109
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38792,7 +39441,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.21b/D04, June 2011
     style: v3
-- id: ieee.project_draft_identifier.4081
+- id: ieee.project_draft_identifier.4110
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38810,7 +39459,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.21b/D05, October 2011
     style: v3
-- id: ieee.project_draft_identifier.4082
+- id: ieee.project_draft_identifier.4111
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38828,7 +39477,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.21b/D06, November 2011
     style: v3
-- id: ieee.project_draft_identifier.4083
+- id: ieee.project_draft_identifier.4112
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38846,7 +39495,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.21c/D6, August 2013
     style: v3
-- id: ieee.project_draft_identifier.4084
+- id: ieee.project_draft_identifier.4113
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38864,7 +39513,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.21c/D7, December 2013
     style: v3
-- id: ieee.project_draft_identifier.4085
+- id: ieee.project_draft_identifier.4114
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38882,7 +39531,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.21d/D7, December 2014
     style: v3
-- id: ieee.project_draft_identifier.4086
+- id: ieee.project_draft_identifier.4115
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38900,7 +39549,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.21d/D8, February 2015
     style: v3
-- id: ieee.project_draft_identifier.4087
+- id: ieee.project_draft_identifier.4116
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38921,7 +39570,7 @@
     style: v3
   - spelling: IEEE P802.22/D8.0.0, July 2019
     style: v3
-- id: ieee.project_draft_identifier.4088
+- id: ieee.project_draft_identifier.4117
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38940,7 +39589,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.22.1/D7, May 2010
     style: v3
-- id: ieee.project_draft_identifier.4089
+- id: ieee.project_draft_identifier.4118
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38959,7 +39608,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.22.1/D8, July 2010
     style: v3
-- id: ieee.project_draft_identifier.4090
+- id: ieee.project_draft_identifier.4119
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38978,7 +39627,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.22.2/D1.0, February 2012
     style: v3
-- id: ieee.project_draft_identifier.4091
+- id: ieee.project_draft_identifier.4120
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -38997,7 +39646,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.22.2/D2.0, April 2012
     style: v3
-- id: ieee.project_draft_identifier.4092
+- id: ieee.project_draft_identifier.4121
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39016,7 +39665,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.22.2/D3.0, May 2012
     style: v3
-- id: ieee.project_draft_identifier.4093
+- id: ieee.project_draft_identifier.4122
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39036,7 +39685,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.22.2/D3.0, May 2012 (Approved Draft)
     style: v3
-- id: ieee.project_draft_identifier.4094
+- id: ieee.project_draft_identifier.4123
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39054,7 +39703,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.22/D1.0, December 2010
     style: v3
-- id: ieee.project_draft_identifier.4095
+- id: ieee.project_draft_identifier.4124
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39072,7 +39721,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.22/D2.0, February 2011
     style: v3
-- id: ieee.project_draft_identifier.4096
+- id: ieee.project_draft_identifier.4125
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39090,7 +39739,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.22/D3.0, March 2011
     style: v3
-- id: ieee.project_draft_identifier.4097
+- id: ieee.project_draft_identifier.4126
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39108,7 +39757,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.22/D5, February 2019
     style: v3
-- id: ieee.project_draft_identifier.4098
+- id: ieee.project_draft_identifier.4127
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39126,7 +39775,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.22a/D1, September, 2013
     style: v3
-- id: ieee.project_draft_identifier.4099
+- id: ieee.project_draft_identifier.4128
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39144,7 +39793,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.22a/D2, October 2013
     style: v3
-- id: ieee.project_draft_identifier.4100
+- id: ieee.project_draft_identifier.4129
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39162,7 +39811,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.22b/D4, February 2015
     style: v3
-- id: ieee.project_draft_identifier.4101
+- id: ieee.project_draft_identifier.4130
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39180,7 +39829,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.22b/D5, April 2015
     style: v3
-- id: ieee.project_draft_identifier.4102
+- id: ieee.project_draft_identifier.4131
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39198,7 +39847,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.22b/D6, May 2015
     style: v3
-- id: ieee.project_draft_identifier.4104
+- id: ieee.project_draft_identifier.4133
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39217,7 +39866,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3.1/D2.0 December, 2012 (Revision of IEEE Std 802.3.1-2011)
     style: v3
-- id: ieee.project_draft_identifier.4105
+- id: ieee.project_draft_identifier.4134
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39236,7 +39885,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3.1/D2.1, June, 2010
     style: v3
-- id: ieee.project_draft_identifier.4106
+- id: ieee.project_draft_identifier.4135
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39255,7 +39904,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3.1/D2.2 , April 2013 (Revision of IEEE Std 802.3.1-2011)
     style: v3
-- id: ieee.project_draft_identifier.4107
+- id: ieee.project_draft_identifier.4136
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39274,7 +39923,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3.1/D2.3, October, 2010
     style: v3
-- id: ieee.project_draft_identifier.4108
+- id: ieee.project_draft_identifier.4137
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39293,7 +39942,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3.1/D3.0, November 2010
     style: v3
-- id: ieee.project_draft_identifier.4109
+- id: ieee.project_draft_identifier.4138
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39312,7 +39961,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3.1/D3.1, February, 2011
     style: v3
-- id: ieee.project_draft_identifier.4110
+- id: ieee.project_draft_identifier.4139
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39331,7 +39980,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3.2/D3.0, September 2018
     style: v3
-- id: ieee.project_draft_identifier.4111
+- id: ieee.project_draft_identifier.4140
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39350,7 +39999,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3.2/D3.1, November 2018
     style: v3
-- id: ieee.project_draft_identifier.4112
+- id: ieee.project_draft_identifier.4141
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39369,7 +40018,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3.2/D3.2, January 2019
     style: v3
-- id: ieee.project_draft_identifier.4113
+- id: ieee.project_draft_identifier.4142
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39387,7 +40036,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3/D3.0, December 2011(Revision of IEEE Std 802.3-2008)
     style: v3
-- id: ieee.project_draft_identifier.4114
+- id: ieee.project_draft_identifier.4143
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39405,7 +40054,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3/D3.0, December 2021
     style: v3
-- id: ieee.project_draft_identifier.4115
+- id: ieee.project_draft_identifier.4144
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39423,7 +40072,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3/D3.0, March 2015 (Revision of IEEE Std 802.3-2012)
     style: v3
-- id: ieee.project_draft_identifier.4116
+- id: ieee.project_draft_identifier.4145
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39441,7 +40090,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3/D3.0, November 2017 (Revision of IEEE Std 802.3-2015)
     style: v3
-- id: ieee.project_draft_identifier.4117
+- id: ieee.project_draft_identifier.4146
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39459,7 +40108,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3/D3.1, April 2012 (Revision of IEEE Std 802.3-2008)
     style: v3
-- id: ieee.project_draft_identifier.4118
+- id: ieee.project_draft_identifier.4147
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39477,7 +40126,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3/D3.1, August 2017
     style: v3
-- id: ieee.project_draft_identifier.4119
+- id: ieee.project_draft_identifier.4148
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39495,7 +40144,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3/D3.1, February 2018 (Revision of IEEE Std 802.3-2015)
     style: v3
-- id: ieee.project_draft_identifier.4120
+- id: ieee.project_draft_identifier.4149
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39513,7 +40162,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3/D3.1, February 2022
     style: v3
-- id: ieee.project_draft_identifier.4121
+- id: ieee.project_draft_identifier.4150
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39531,7 +40180,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3/D3.1, June 2015 (Revision of IEEE Std 802.3-2012)
     style: v3
-- id: ieee.project_draft_identifier.4122
+- id: ieee.project_draft_identifier.4151
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39549,7 +40198,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3/D3.2, March 2018 (Revision of IEEE Std 802.3-2015)
     style: v3
-- id: ieee.project_draft_identifier.4123
+- id: ieee.project_draft_identifier.4152
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39567,7 +40216,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3/D3.2, November 2017
     style: v3
-- id: ieee.project_draft_identifier.4124
+- id: ieee.project_draft_identifier.4153
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39585,7 +40234,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3/D3.3, February 2018
     style: v3
-- id: ieee.project_draft_identifier.4125
+- id: ieee.project_draft_identifier.4154
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39603,7 +40252,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3/D3.4, March 2018
     style: v3
-- id: ieee.project_draft_identifier.4126
+- id: ieee.project_draft_identifier.4155
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39621,7 +40270,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P802.3ap/D2
     style: v3
-- id: ieee.project_draft_identifier.4127
+- id: ieee.project_draft_identifier.4156
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39640,7 +40289,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3az/D3.1, June 2010 (Draft Amendment of IEEE Std 802.3-2008)
     style: v3
-- id: ieee.project_draft_identifier.4128
+- id: ieee.project_draft_identifier.4157
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39659,7 +40308,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3az/D3.2, July 2010 (Draft Amendment of IEEE Std 802.3-2008)
     style: v3
-- id: ieee.project_draft_identifier.4129
+- id: ieee.project_draft_identifier.4158
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39678,7 +40327,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bf/D2.0, July 2010 (Amendment of IEEE Std 802.3-2008)
     style: v3
-- id: ieee.project_draft_identifier.4130
+- id: ieee.project_draft_identifier.4159
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39697,7 +40346,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bg/D2.0, July 2010 (Amendment of IEEE Std 802.3-2008)
     style: v3
-- id: ieee.project_draft_identifier.4131
+- id: ieee.project_draft_identifier.4160
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39716,7 +40365,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bg/D2.1, September 2010 (Amendment of IEEE Std 802.3-2008)
     style: v3
-- id: ieee.project_draft_identifier.4132
+- id: ieee.project_draft_identifier.4161
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39735,7 +40384,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bg/D3.0, November 2010 (Amendment of IEEE Std 802.3-2008)
     style: v3
-- id: ieee.project_draft_identifier.4133
+- id: ieee.project_draft_identifier.4162
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39754,7 +40403,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bg/D3.1, January 2011 (Amendment of IEEE Std 802.3-2008)
     style: v3
-- id: ieee.project_draft_identifier.4134
+- id: ieee.project_draft_identifier.4163
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39773,7 +40422,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bj/D3.0, November 2013 (Amendment of IEEE Std 802.3-2012)
     style: v3
-- id: ieee.project_draft_identifier.4135
+- id: ieee.project_draft_identifier.4164
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39792,7 +40441,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bj/D3.1, February 2014 (Amendment of IEEE Std 802.3-2012)
     style: v3
-- id: ieee.project_draft_identifier.4136
+- id: ieee.project_draft_identifier.4165
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39810,7 +40459,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bj/D3.2, April 2014
     style: v3
-- id: ieee.project_draft_identifier.4137
+- id: ieee.project_draft_identifier.4166
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39829,7 +40478,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bk/D3.0, March 2013 (Amendment of IEEE Std 802.3-2012)
     style: v3
-- id: ieee.project_draft_identifier.4138
+- id: ieee.project_draft_identifier.4167
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39848,7 +40497,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bk/D3.1, May 2013 (Amendment of IEEE Std 802.3-2012)
     style: v3
-- id: ieee.project_draft_identifier.4139
+- id: ieee.project_draft_identifier.4168
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39866,7 +40515,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bm/D3.23.3, November 2014 (Amendment of IEEE Std 802.3-2012)
     style: v3
-- id: ieee.project_draft_identifier.4140
+- id: ieee.project_draft_identifier.4169
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39885,7 +40534,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bm/D3.1, August 2014 (Amendment of IEEE Std 802.3-2012)
     style: v3
-- id: ieee.project_draft_identifier.4141
+- id: ieee.project_draft_identifier.4170
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39904,7 +40553,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bm/D3.2, September 2014 (Amendment of IEEE Std 802.3-2012)
     style: v3
-- id: ieee.project_draft_identifier.4142
+- id: ieee.project_draft_identifier.4171
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39923,7 +40572,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bn/D3.0, January 2016 (Amendment of IEEE Std 802.3-2015)
     style: v3
-- id: ieee.project_draft_identifier.4143
+- id: ieee.project_draft_identifier.4172
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39941,7 +40590,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bn/D3.1, April 2016
     style: v3
-- id: ieee.project_draft_identifier.4144
+- id: ieee.project_draft_identifier.4173
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39959,7 +40608,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bn/D3.2, May 2016
     style: v3
-- id: ieee.project_draft_identifier.4145
+- id: ieee.project_draft_identifier.4174
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -39978,7 +40627,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bp/D3.0, December 2015 (Amendment of IEEE Std 802.3-2015)
     style: v3
-- id: ieee.project_draft_identifier.4146
+- id: ieee.project_draft_identifier.4175
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40000,7 +40649,7 @@
   - spelling: IEEE P802.3bp/D3.1, January 2016 (Amendment of IEEE Std 802.3-2015 as
       amended by IEEE Std 802.3bw-2015, IEEE Std 802.3by-201X, and IEEE Std 802.3bq-201X)
     style: v3
-- id: ieee.project_draft_identifier.4147
+- id: ieee.project_draft_identifier.4176
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40022,7 +40671,7 @@
   - spelling: IEEE P802.3bp/D3.2CMP, February 2016 (Amendment of IEEE Std 802.3-2015
       as amended by IEEE Std 802.3bw-2015, IEEE Std 802.3by-201X, and IEEE Std 802.3bq-201X)
     style: v3
-- id: ieee.project_draft_identifier.4148
+- id: ieee.project_draft_identifier.4177
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40044,7 +40693,7 @@
   - spelling: IEEE P802.3bp/D3.3, March 2016 (Amendment of IEEE Std 802.3-2015 as
       amended by IEEE Std 802.3bw-2015, IEEE Std 802.3by-201X, and IEEE Std 802.3bq-201X)
     style: v3
-- id: ieee.project_draft_identifier.4149
+- id: ieee.project_draft_identifier.4178
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40066,7 +40715,7 @@
   - spelling: IEEE P802.3bp/D3.4, April 2016 (Amendment of IEEE Std 802.3-2015 as
       amended by IEEE Std 802.3bw-2015, IEEE Std 802.3by-201X, and IEEE Std 802.3bq-201X)
     style: v3
-- id: ieee.project_draft_identifier.4150
+- id: ieee.project_draft_identifier.4179
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40085,7 +40734,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bq/D3.0, December 2015 (Amendment of IEEE Std 802.3-2015)
     style: v3
-- id: ieee.project_draft_identifier.4151
+- id: ieee.project_draft_identifier.4180
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40107,7 +40756,7 @@
   - spelling: IEEE P802.3bq/D3.1, February 2016 (Amendment of IEEE Std 802.3-2015
       as amended by IEEE Std 802.3bw-2015 and IEEE Std 802.3by-201X)
     style: v3
-- id: ieee.project_draft_identifier.4152
+- id: ieee.project_draft_identifier.4181
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40125,7 +40774,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bq/3.2, March 2016
     style: v3
-- id: ieee.project_draft_identifier.4153
+- id: ieee.project_draft_identifier.4182
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40144,7 +40793,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3br/D3.0, January 2016 (Amendment of IEEE Std 802.3-2015)
     style: v3
-- id: ieee.project_draft_identifier.4154
+- id: ieee.project_draft_identifier.4183
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40161,7 +40810,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bs(TM)/D3.23.3, July 2017
     style: v3
-- id: ieee.project_draft_identifier.4155
+- id: ieee.project_draft_identifier.4184
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40179,7 +40828,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bs/D3.0, January 2017
     style: v3
-- id: ieee.project_draft_identifier.4156
+- id: ieee.project_draft_identifier.4185
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40197,7 +40846,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bs/D3.1, April 2017
     style: v3
-- id: ieee.project_draft_identifier.4157
+- id: ieee.project_draft_identifier.4186
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40215,7 +40864,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bs/D3.2, June 2017
     style: v3
-- id: ieee.project_draft_identifier.4158
+- id: ieee.project_draft_identifier.4187
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40233,7 +40882,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bs/D3.3, July 2017
     style: v3
-- id: ieee.project_draft_identifier.4159
+- id: ieee.project_draft_identifier.4188
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40251,7 +40900,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bs/D3.5, October 2017
     style: v3
-- id: ieee.project_draft_identifier.4160
+- id: ieee.project_draft_identifier.4189
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40269,7 +40918,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bt/D3.0, July 2017
     style: v3
-- id: ieee.project_draft_identifier.4161
+- id: ieee.project_draft_identifier.4190
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40287,7 +40936,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bt/D3.1 October 2017
     style: v3
-- id: ieee.project_draft_identifier.4162
+- id: ieee.project_draft_identifier.4191
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40305,7 +40954,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bt/D3.2, December 2017
     style: v3
-- id: ieee.project_draft_identifier.4163
+- id: ieee.project_draft_identifier.4192
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40323,7 +40972,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bt/D3.3, February 2018
     style: v3
-- id: ieee.project_draft_identifier.4164
+- id: ieee.project_draft_identifier.4193
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40341,7 +40990,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bt/D3.4, March 2018
     style: v3
-- id: ieee.project_draft_identifier.4165
+- id: ieee.project_draft_identifier.4194
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40359,7 +41008,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bt/D3.5, June 2018
     style: v3
-- id: ieee.project_draft_identifier.4166
+- id: ieee.project_draft_identifier.4195
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40377,7 +41026,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bt/D3.6, June 2018
     style: v3
-- id: ieee.project_draft_identifier.4167
+- id: ieee.project_draft_identifier.4196
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40395,7 +41044,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bt/D3.7, July 2018
     style: v3
-- id: ieee.project_draft_identifier.4168
+- id: ieee.project_draft_identifier.4197
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40414,7 +41063,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bu/D3.0, June 2016 (Amendment of IEEE Std 802.3-2015)
     style: v3
-- id: ieee.project_draft_identifier.4169
+- id: ieee.project_draft_identifier.4198
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40432,7 +41081,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bu/D3.2, September 2016
     style: v3
-- id: ieee.project_draft_identifier.4170
+- id: ieee.project_draft_identifier.4199
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40450,7 +41099,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bv/D3.0, July 2016
     style: v3
-- id: ieee.project_draft_identifier.4171
+- id: ieee.project_draft_identifier.4200
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40468,7 +41117,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bv/D3.1, September 2016
     style: v3
-- id: ieee.project_draft_identifier.4172
+- id: ieee.project_draft_identifier.4201
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40486,7 +41135,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bv/D3.2, November 2016
     style: v3
-- id: ieee.project_draft_identifier.4173
+- id: ieee.project_draft_identifier.4202
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40504,7 +41153,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bv/D3.3, December 2016
     style: v3
-- id: ieee.project_draft_identifier.4174
+- id: ieee.project_draft_identifier.4203
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40522,7 +41171,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bw/D3.2.1, July 2015 (Amendment of IEEE Std 802.3-201x)
     style: v3
-- id: ieee.project_draft_identifier.4175
+- id: ieee.project_draft_identifier.4204
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40541,7 +41190,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bw/D3.0, April 2015 (Amendment of IEEE Std 802.3-201x)
     style: v3
-- id: ieee.project_draft_identifier.4176
+- id: ieee.project_draft_identifier.4205
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40560,7 +41209,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bw/D3.1, June 2015 (Amendment of IEEE Std 802.3-201x)
     style: v3
-- id: ieee.project_draft_identifier.4177
+- id: ieee.project_draft_identifier.4206
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40579,7 +41228,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bw/D3.3, August 2015 (Amendment of IEEE Std 802.3-201x)
     style: v3
-- id: ieee.project_draft_identifier.4178
+- id: ieee.project_draft_identifier.4207
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40598,7 +41247,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3by/D3.0, November 2015 (Amendment of IEEE Std 802.3-2015)
     style: v3
-- id: ieee.project_draft_identifier.4179
+- id: ieee.project_draft_identifier.4208
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40616,7 +41265,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3by/D3.1, February 2016
     style: v3
-- id: ieee.project_draft_identifier.4180
+- id: ieee.project_draft_identifier.4209
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40638,7 +41287,7 @@
   - spelling: IEEE P802.3by/D3.2, March 2016 (Amendment of IEEE Std 802.3-2015 as
       amended by IEEE Std 802.3bw-2015)
     style: v3
-- id: ieee.project_draft_identifier.4181
+- id: ieee.project_draft_identifier.4210
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40656,7 +41305,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bz/D3.1, June 2016
     style: v3
-- id: ieee.project_draft_identifier.4182
+- id: ieee.project_draft_identifier.4211
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40674,7 +41323,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bz/D3.2, June 2016
     style: v3
-- id: ieee.project_draft_identifier.4183
+- id: ieee.project_draft_identifier.4212
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40692,7 +41341,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3bz/D3.3, July 2016
     style: v3
-- id: ieee.project_draft_identifier.4184
+- id: ieee.project_draft_identifier.4213
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40710,7 +41359,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3ca/D3.0, November 2019
     style: v3
-- id: ieee.project_draft_identifier.4185
+- id: ieee.project_draft_identifier.4214
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40728,7 +41377,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3ca/D3.1, January 2020
     style: v3
-- id: ieee.project_draft_identifier.4186
+- id: ieee.project_draft_identifier.4215
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40746,7 +41395,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cb/D3.5, June 2018
     style: v3
-- id: ieee.project_draft_identifier.4187
+- id: ieee.project_draft_identifier.4216
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40764,7 +41413,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cc/D3.0, April 2017
     style: v3
-- id: ieee.project_draft_identifier.4188
+- id: ieee.project_draft_identifier.4217
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40782,7 +41431,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cc/D3.1, June 2017
     style: v3
-- id: ieee.project_draft_identifier.4189
+- id: ieee.project_draft_identifier.4218
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40800,7 +41449,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cc/D3.2, July 2017
     style: v3
-- id: ieee.project_draft_identifier.4190
+- id: ieee.project_draft_identifier.4219
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40818,7 +41467,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cc/D3.3, September 2017
     style: v3
-- id: ieee.project_draft_identifier.4191
+- id: ieee.project_draft_identifier.4220
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40836,7 +41485,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cd/D3.0, November 2017
     style: v3
-- id: ieee.project_draft_identifier.4192
+- id: ieee.project_draft_identifier.4221
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40854,7 +41503,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cd/D3.1, February 2018
     style: v3
-- id: ieee.project_draft_identifier.4193
+- id: ieee.project_draft_identifier.4222
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40872,7 +41521,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cd/D3.2, March 2018
     style: v3
-- id: ieee.project_draft_identifier.4194
+- id: ieee.project_draft_identifier.4223
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40894,7 +41543,7 @@
   - spelling: IEEE P802.3cd/D3.3, June 2018 (Amendment of IEEE Std 802.3-201x as amended
       by IEEE Std 802.3cb-201x and IEEE Std 802.3bt-201x)
     style: v3
-- id: ieee.project_draft_identifier.4195
+- id: ieee.project_draft_identifier.4224
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40916,7 +41565,7 @@
   - spelling: IEEE P802.3cd/D3.4, July 2018 (Amendment of IEEE Std 802.3-201x as amended
       by IEEE Std 802.3cb-201x and IEEE Std 802.3bt-201x)
     style: v3
-- id: ieee.project_draft_identifier.4196
+- id: ieee.project_draft_identifier.4225
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40938,7 +41587,7 @@
   - spelling: IEEE P802.3cd/D3.5, September 2018 (Amendment of IEEE Std 802.3-2018
       as amended by IEEE Std 802.3cb-201x and IEEE Std 802.3bt-201x)
     style: v3
-- id: ieee.project_draft_identifier.4197
+- id: ieee.project_draft_identifier.4226
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40956,7 +41605,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cg/D3.0, March 2019
     style: v3
-- id: ieee.project_draft_identifier.4198
+- id: ieee.project_draft_identifier.4227
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40974,7 +41623,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cg/D3.1, June 2019
     style: v3
-- id: ieee.project_draft_identifier.4199
+- id: ieee.project_draft_identifier.4228
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -40992,7 +41641,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cg/D3.2, July 2019
     style: v3
-- id: ieee.project_draft_identifier.4200
+- id: ieee.project_draft_identifier.4229
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41010,7 +41659,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cg/D3.3, August 2019
     style: v3
-- id: ieee.project_draft_identifier.4201
+- id: ieee.project_draft_identifier.4230
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41028,7 +41677,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cg/D3.4, September 2019
     style: v3
-- id: ieee.project_draft_identifier.4202
+- id: ieee.project_draft_identifier.4231
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41046,7 +41695,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3ch/D3.0, November 2019
     style: v3
-- id: ieee.project_draft_identifier.4203
+- id: ieee.project_draft_identifier.4232
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41064,7 +41713,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3ch/D3.2, February 2020
     style: v3
-- id: ieee.project_draft_identifier.4204
+- id: ieee.project_draft_identifier.4233
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41082,7 +41731,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3ck/D3.0, December 2021
     style: v3
-- id: ieee.project_draft_identifier.4205
+- id: ieee.project_draft_identifier.4234
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41100,7 +41749,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cm/D3.0, July 2019
     style: v3
-- id: ieee.project_draft_identifier.4206
+- id: ieee.project_draft_identifier.4235
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41118,7 +41767,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cm/D3.1, September 2019
     style: v3
-- id: ieee.project_draft_identifier.4207
+- id: ieee.project_draft_identifier.4236
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41136,7 +41785,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cn/D3.0, July 2019
     style: v3
-- id: ieee.project_draft_identifier.4208
+- id: ieee.project_draft_identifier.4237
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41154,7 +41803,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cn/D3.1, August 2019
     style: v3
-- id: ieee.project_draft_identifier.4209
+- id: ieee.project_draft_identifier.4238
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41172,7 +41821,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cp/D3.0, January 2021
     style: v3
-- id: ieee.project_draft_identifier.4210
+- id: ieee.project_draft_identifier.4239
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41190,7 +41839,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cp/D3.1, April 2021
     style: v3
-- id: ieee.project_draft_identifier.4211
+- id: ieee.project_draft_identifier.4240
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41208,7 +41857,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cp/D3.2, May 2021
     style: v3
-- id: ieee.project_draft_identifier.4212
+- id: ieee.project_draft_identifier.4241
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41226,7 +41875,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cq/D3.0, July 2019
     style: v3
-- id: ieee.project_draft_identifier.4213
+- id: ieee.project_draft_identifier.4242
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41244,7 +41893,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cq/D3.1, September 2019
     style: v3
-- id: ieee.project_draft_identifier.4214
+- id: ieee.project_draft_identifier.4243
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41262,7 +41911,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cq/D3.2, November 2019
     style: v3
-- id: ieee.project_draft_identifier.4215
+- id: ieee.project_draft_identifier.4244
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41280,7 +41929,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cr/D3.0, June 2020
     style: v3
-- id: ieee.project_draft_identifier.4216
+- id: ieee.project_draft_identifier.4245
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41298,7 +41947,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cr/D3.1, September 2020
     style: v3
-- id: ieee.project_draft_identifier.4217
+- id: ieee.project_draft_identifier.4246
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41316,7 +41965,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cr/D3.2, October 2020
     style: v3
-- id: ieee.project_draft_identifier.4218
+- id: ieee.project_draft_identifier.4247
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41334,7 +41983,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cr/D3.3, October 2020
     style: v3
-- id: ieee.project_draft_identifier.4219
+- id: ieee.project_draft_identifier.4248
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41352,7 +42001,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cs/D3.0, November 2021
     style: v3
-- id: ieee.project_draft_identifier.4220
+- id: ieee.project_draft_identifier.4249
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41370,7 +42019,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cs/D3.1, January 2022
     style: v3
-- id: ieee.project_draft_identifier.4221
+- id: ieee.project_draft_identifier.4250
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41388,7 +42037,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3ct/D3.0, October 2020
     style: v3
-- id: ieee.project_draft_identifier.4222
+- id: ieee.project_draft_identifier.4251
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41406,7 +42055,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3ct/D3.1, January 2021
     style: v3
-- id: ieee.project_draft_identifier.4223
+- id: ieee.project_draft_identifier.4252
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41424,7 +42073,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3ct/D3.2, March 2021
     style: v3
-- id: ieee.project_draft_identifier.4224
+- id: ieee.project_draft_identifier.4253
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41442,7 +42091,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3ct/D3.3, April 2021
     style: v3
-- id: ieee.project_draft_identifier.4225
+- id: ieee.project_draft_identifier.4254
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41460,7 +42109,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3ct/D3.4, April 2021
     style: v3
-- id: ieee.project_draft_identifier.4226
+- id: ieee.project_draft_identifier.4255
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41478,7 +42127,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cu/D3.0, July 2020
     style: v3
-- id: ieee.project_draft_identifier.4227
+- id: ieee.project_draft_identifier.4256
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41496,7 +42145,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cu/D3.1, October 2020
     style: v3
-- id: ieee.project_draft_identifier.4228
+- id: ieee.project_draft_identifier.4257
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41514,7 +42163,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cu/D3.2, November 2020
     style: v3
-- id: ieee.project_draft_identifier.4229
+- id: ieee.project_draft_identifier.4258
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41533,7 +42182,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cv-2021/03.1, February 2021
     style: v3
-- id: ieee.project_draft_identifier.4230
+- id: ieee.project_draft_identifier.4259
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41551,7 +42200,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3cv/D3.0, October 2020
     style: v3
-- id: ieee.project_draft_identifier.4231
+- id: ieee.project_draft_identifier.4260
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41569,7 +42218,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3db/D3.0, March 2022
     style: v3
-- id: ieee.project_draft_identifier.4232
+- id: ieee.project_draft_identifier.4261
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '802'
@@ -41587,7 +42236,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3dd/D3.0, January 2022
     style: v3
-- id: ieee.project_draft_identifier.4233
+- id: ieee.project_draft_identifier.4262
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: 802E
@@ -41602,7 +42251,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802E/D1.6, August 2019
     style: v3
-- id: ieee.project_draft_identifier.4234
+- id: ieee.project_draft_identifier.4263
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: 802E
@@ -41617,7 +42266,25 @@
   non_normalized_aliases:
   - spelling: IEEE P802E/D2.0, April 2020
     style: v3
-- id: ieee.project_draft_identifier.4235
+- id: ieee.project_draft_identifier.4264
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '802'
+    type: P
+    draft: D1.7
+    rev_sep: _
+    rev_bare: true
+    project_marker: true
+    stage: P
+  representations:
+    human: IEEE P802_Rev/D1.7
+    urn: urn:ieee:ieee:p:802:draft./D1.7
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802_REV/D1.7 (Revision of IEEE Std 802-2001 incorporating IEEE
+      Std 802a-2003, and IEEE Std 802b-2004)
+    style: v3
+- id: ieee.project_draft_identifier.4265
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: 802a
@@ -41632,7 +42299,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P802a/D4
     style: v3
-- id: ieee.project_draft_identifier.4236
+- id: ieee.project_draft_identifier.4266
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: 802b
@@ -41647,7 +42314,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P802b/D3
     style: v3
-- id: ieee.project_draft_identifier.4237
+- id: ieee.project_draft_identifier.4267
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: 802c
@@ -41662,7 +42329,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802c/D2.0, January 2017 (Draft Amendment to IEEE Std 802-2014)
     style: v3
-- id: ieee.project_draft_identifier.4238
+- id: ieee.project_draft_identifier.4268
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: 802c
@@ -41677,7 +42344,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802c/D2.1, January 2017 (Draft Amendment to IEEE Std 802-2014)
     style: v3
-- id: ieee.project_draft_identifier.4239
+- id: ieee.project_draft_identifier.4269
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: 802c
@@ -41692,7 +42359,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802c/D2.2, April 2017
     style: v3
-- id: ieee.project_draft_identifier.4240
+- id: ieee.project_draft_identifier.4270
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: 802d
@@ -41707,7 +42374,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802d/D1.0 August, 2016
     style: v3
-- id: ieee.project_draft_identifier.4241
+- id: ieee.project_draft_identifier.4271
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: 802d
@@ -41722,7 +42389,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802d/D1.1 September 17, 2016
     style: v3
-- id: ieee.project_draft_identifier.4242
+- id: ieee.project_draft_identifier.4272
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: 802d
@@ -41737,7 +42404,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802d/D1.2, November 2016
     style: v3
-- id: ieee.project_draft_identifier.4243
+- id: ieee.project_draft_identifier.4273
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '807'
@@ -41752,7 +42419,7 @@
   non_normalized_aliases:
   - spelling: IEEE P807/D6.0, April 2010
     style: v3
-- id: ieee.project_draft_identifier.4244
+- id: ieee.project_draft_identifier.4274
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '81'
@@ -41767,7 +42434,7 @@
   non_normalized_aliases:
   - spelling: IEEE P81/D10, March, 2012
     style: v3
-- id: ieee.project_draft_identifier.4245
+- id: ieee.project_draft_identifier.4275
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '81'
@@ -41782,7 +42449,7 @@
   non_normalized_aliases:
   - spelling: IEEE P81/D11, August 2012
     style: v3
-- id: ieee.project_draft_identifier.4246
+- id: ieee.project_draft_identifier.4276
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '810'
@@ -41797,7 +42464,7 @@
   non_normalized_aliases:
   - spelling: IEEE P810/D10, February 2015
     style: v3
-- id: ieee.project_draft_identifier.4247
+- id: ieee.project_draft_identifier.4277
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '810'
@@ -41812,7 +42479,7 @@
   non_normalized_aliases:
   - spelling: IEEE P810/D11, August 2015
     style: v3
-- id: ieee.project_draft_identifier.4248
+- id: ieee.project_draft_identifier.4278
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '810'
@@ -41827,7 +42494,7 @@
   non_normalized_aliases:
   - spelling: IEEE P810/D9, November 2014
     style: v3
-- id: ieee.project_draft_identifier.4249
+- id: ieee.project_draft_identifier.4279
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '820'
@@ -41842,7 +42509,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P820/D5
     style: v3
-- id: ieee.project_draft_identifier.4250
+- id: ieee.project_draft_identifier.4280
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '820'
@@ -41857,7 +42524,7 @@
   non_normalized_aliases:
   - spelling: IEEE P820/D5, March 2021
     style: v3
-- id: ieee.project_draft_identifier.4251
+- id: ieee.project_draft_identifier.4281
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '824'
@@ -41872,7 +42539,7 @@
   non_normalized_aliases:
   - spelling: IEEE P824/D1, July 2019
     style: v3
-- id: ieee.project_draft_identifier.4252
+- id: ieee.project_draft_identifier.4282
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '828'
@@ -41887,7 +42554,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P828/D2
     style: v3
-- id: ieee.project_draft_identifier.4253
+- id: ieee.project_draft_identifier.4283
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '828'
@@ -41902,7 +42569,7 @@
   non_normalized_aliases:
   - spelling: IEEE P828/D6, March 2011
     style: v3
-- id: ieee.project_draft_identifier.4254
+- id: ieee.project_draft_identifier.4284
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '828'
@@ -41917,7 +42584,7 @@
   non_normalized_aliases:
   - spelling: IEEE P828/D9.2, October 2011
     style: v3
-- id: ieee.project_draft_identifier.4255
+- id: ieee.project_draft_identifier.4285
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '828'
@@ -41932,7 +42599,7 @@
   non_normalized_aliases:
   - spelling: IEEE P828/D9.3, November 2011
     style: v3
-- id: ieee.project_draft_identifier.4256
+- id: ieee.project_draft_identifier.4286
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '833'
@@ -41947,7 +42614,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P833/D3
     style: v3
-- id: ieee.project_draft_identifier.4257
+- id: ieee.project_draft_identifier.4287
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '833'
@@ -41962,7 +42629,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P833/D3, Oct 2004
     style: v3
-- id: ieee.project_draft_identifier.4258
+- id: ieee.project_draft_identifier.4288
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: 835a
@@ -41977,7 +42644,7 @@
   non_normalized_aliases:
   - spelling: IEEE P835a/D2, October 2012
     style: v3
-- id: ieee.project_draft_identifier.4259
+- id: ieee.project_draft_identifier.4289
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '837'
@@ -41992,7 +42659,7 @@
   non_normalized_aliases:
   - spelling: IEEE P837/D12, July 2013
     style: v3
-- id: ieee.project_draft_identifier.4260
+- id: ieee.project_draft_identifier.4290
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '837'
@@ -42007,7 +42674,7 @@
   non_normalized_aliases:
   - spelling: IEEE P837/D18, January 2014
     style: v3
-- id: ieee.project_draft_identifier.4261
+- id: ieee.project_draft_identifier.4291
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '837'
@@ -42022,7 +42689,7 @@
   non_normalized_aliases:
   - spelling: IEEE P837/D19, March 2014
     style: v3
-- id: ieee.project_draft_identifier.4262
+- id: ieee.project_draft_identifier.4292
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '837'
@@ -42037,7 +42704,7 @@
   non_normalized_aliases:
   - spelling: IEEE P837/D21, March 2014
     style: v3
-- id: ieee.project_draft_identifier.4263
+- id: ieee.project_draft_identifier.4293
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '837'
@@ -42052,7 +42719,7 @@
   non_normalized_aliases:
   - spelling: IEEE P837/D22, July 2014
     style: v3
-- id: ieee.project_draft_identifier.4264
+- id: ieee.project_draft_identifier.4294
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '841'
@@ -42070,7 +42737,7 @@
   non_normalized_aliases:
   - spelling: IEEE P841.1/D1, January 2022
     style: v3
-- id: ieee.project_draft_identifier.4265
+- id: ieee.project_draft_identifier.4295
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '841'
@@ -42088,7 +42755,7 @@
   non_normalized_aliases:
   - spelling: IEEE P841.1/D1, October 2019
     style: v3
-- id: ieee.project_draft_identifier.4266
+- id: ieee.project_draft_identifier.4296
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '841'
@@ -42103,7 +42770,7 @@
   non_normalized_aliases:
   - spelling: IEEE P841/D10, January 2021
     style: v3
-- id: ieee.project_draft_identifier.4267
+- id: ieee.project_draft_identifier.4297
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '841'
@@ -42118,7 +42785,7 @@
   non_normalized_aliases:
   - spelling: IEEE P841/D3, May 2018
     style: v3
-- id: ieee.project_draft_identifier.4268
+- id: ieee.project_draft_identifier.4298
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '841'
@@ -42133,7 +42800,7 @@
   non_normalized_aliases:
   - spelling: IEEE P841/D4, July 2019
     style: v3
-- id: ieee.project_draft_identifier.4269
+- id: ieee.project_draft_identifier.4299
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '841'
@@ -42148,7 +42815,7 @@
   non_normalized_aliases:
   - spelling: IEEE P841/D5, September 2019
     style: v3
-- id: ieee.project_draft_identifier.4270
+- id: ieee.project_draft_identifier.4300
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '841'
@@ -42163,7 +42830,7 @@
   non_normalized_aliases:
   - spelling: IEEE P841/D6, December 2019
     style: v3
-- id: ieee.project_draft_identifier.4271
+- id: ieee.project_draft_identifier.4301
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '841'
@@ -42178,7 +42845,7 @@
   non_normalized_aliases:
   - spelling: IEEE P841/D7, February 2020
     style: v3
-- id: ieee.project_draft_identifier.4272
+- id: ieee.project_draft_identifier.4302
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '841'
@@ -42193,7 +42860,7 @@
   non_normalized_aliases:
   - spelling: IEEE P841/D8, October 2020
     style: v3
-- id: ieee.project_draft_identifier.4273
+- id: ieee.project_draft_identifier.4303
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '841'
@@ -42208,7 +42875,7 @@
   non_normalized_aliases:
   - spelling: IEEE P841/D9, November 2020
     style: v3
-- id: ieee.project_draft_identifier.4274
+- id: ieee.project_draft_identifier.4304
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '848'
@@ -42223,7 +42890,7 @@
   non_normalized_aliases:
   - spelling: IEEE P848/D3, September 2014
     style: v3
-- id: ieee.project_draft_identifier.4275
+- id: ieee.project_draft_identifier.4305
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '848'
@@ -42238,7 +42905,7 @@
   non_normalized_aliases:
   - spelling: IEEE P848/D4, November 2014
     style: v3
-- id: ieee.project_draft_identifier.4276
+- id: ieee.project_draft_identifier.4306
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '859'
@@ -42253,7 +42920,7 @@
   non_normalized_aliases:
   - spelling: IEEE P859/D2, November 2017
     style: v3
-- id: ieee.project_draft_identifier.4277
+- id: ieee.project_draft_identifier.4307
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '90003'
@@ -42269,7 +42936,7 @@
   non_normalized_aliases:
   - spelling: IEEE P90003-2014, April 2015
     style: v3
-- id: ieee.project_draft_identifier.4278
+- id: ieee.project_draft_identifier.4308
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '90003'
@@ -42284,7 +42951,7 @@
   non_normalized_aliases:
   - spelling: IEEE P90003-2014, February 2015
     style: v3
-- id: ieee.project_draft_identifier.4279
+- id: ieee.project_draft_identifier.4309
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '933'
@@ -42299,7 +42966,7 @@
   non_normalized_aliases:
   - spelling: IEEE P933/D4, January 2011
     style: v3
-- id: ieee.project_draft_identifier.4280
+- id: ieee.project_draft_identifier.4310
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '933'
@@ -42314,7 +42981,7 @@
   non_normalized_aliases:
   - spelling: IEEE P933/D5, January 2013
     style: v3
-- id: ieee.project_draft_identifier.4281
+- id: ieee.project_draft_identifier.4311
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '933'
@@ -42329,7 +42996,7 @@
   non_normalized_aliases:
   - spelling: IEEE P933/D6, July 2013
     style: v3
-- id: ieee.project_draft_identifier.4282
+- id: ieee.project_draft_identifier.4312
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '937'
@@ -42344,7 +43011,7 @@
   non_normalized_aliases:
   - spelling: IEEE P937/D1.0, April 2018
     style: v3
-- id: ieee.project_draft_identifier.4283
+- id: ieee.project_draft_identifier.4313
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '937'
@@ -42359,7 +43026,7 @@
   non_normalized_aliases:
   - spelling: IEEE P937/D2, June 2019
     style: v3
-- id: ieee.project_draft_identifier.4284
+- id: ieee.project_draft_identifier.4314
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '937'
@@ -42374,7 +43041,7 @@
   non_normalized_aliases:
   - spelling: IEEE Approved Std P937/D7, Jan 2007
     style: v3
-- id: ieee.project_draft_identifier.4285
+- id: ieee.project_draft_identifier.4315
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '945'
@@ -42389,7 +43056,7 @@
   non_normalized_aliases:
   - spelling: IEEE P945/D9a, November 2018
     style: v3
-- id: ieee.project_draft_identifier.4286
+- id: ieee.project_draft_identifier.4316
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '946'
@@ -42404,7 +43071,7 @@
   non_normalized_aliases:
   - spelling: IEEE P946/D19, May 2017
     style: v3
-- id: ieee.project_draft_identifier.4287
+- id: ieee.project_draft_identifier.4317
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '946'
@@ -42419,7 +43086,7 @@
   non_normalized_aliases:
   - spelling: IEEE P946/D25, January 2019
     style: v3
-- id: ieee.project_draft_identifier.4288
+- id: ieee.project_draft_identifier.4318
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '946'
@@ -42434,7 +43101,7 @@
   non_normalized_aliases:
   - spelling: IEEE P946/D30.1, September 2019
     style: v3
-- id: ieee.project_draft_identifier.4289
+- id: ieee.project_draft_identifier.4319
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '946'
@@ -42449,7 +43116,7 @@
   non_normalized_aliases:
   - spelling: IEEE P946/D31, October 2019
     style: v3
-- id: ieee.project_draft_identifier.4290
+- id: ieee.project_draft_identifier.4320
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '946'
@@ -42464,7 +43131,7 @@
   non_normalized_aliases:
   - spelling: IEEE P946/D32, December 2019
     style: v3
-- id: ieee.project_draft_identifier.4291
+- id: ieee.project_draft_identifier.4321
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '946'
@@ -42479,7 +43146,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P946/D7
     style: v3
-- id: ieee.project_draft_identifier.4292
+- id: ieee.project_draft_identifier.4322
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '952'
@@ -42494,7 +43161,7 @@
   non_normalized_aliases:
   - spelling: IEEE P952/D06, February 2020
     style: v3
-- id: ieee.project_draft_identifier.4293
+- id: ieee.project_draft_identifier.4323
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '952'
@@ -42509,7 +43176,7 @@
   non_normalized_aliases:
   - spelling: IEEE P952/D07, June 2020
     style: v3
-- id: ieee.project_draft_identifier.4294
+- id: ieee.project_draft_identifier.4324
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '952'
@@ -42524,7 +43191,7 @@
   non_normalized_aliases:
   - spelling: IEEE P952/D08, June 2020
     style: v3
-- id: ieee.project_draft_identifier.4295
+- id: ieee.project_draft_identifier.4325
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '952'
@@ -42539,7 +43206,7 @@
   non_normalized_aliases:
   - spelling: IEEE P952/D09, June 2020
     style: v3
-- id: ieee.project_draft_identifier.4297
+- id: ieee.project_draft_identifier.4327
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '977'
@@ -42554,7 +43221,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P977/D2
     style: v3
-- id: ieee.project_draft_identifier.4298
+- id: ieee.project_draft_identifier.4328
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '979'
@@ -42569,7 +43236,7 @@
   non_normalized_aliases:
   - spelling: IEEE P979/D7, January 2011
     style: v3
-- id: ieee.project_draft_identifier.4299
+- id: ieee.project_draft_identifier.4329
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '979'
@@ -42584,7 +43251,7 @@
   non_normalized_aliases:
   - spelling: IEEE P979/D8R8, December 2011
     style: v3
-- id: ieee.project_draft_identifier.4300
+- id: ieee.project_draft_identifier.4330
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '98'
@@ -42599,7 +43266,7 @@
   non_normalized_aliases:
   - spelling: IEEE P98/D6.1, October 2015
     style: v3
-- id: ieee.project_draft_identifier.4301
+- id: ieee.project_draft_identifier.4331
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '980'
@@ -42614,7 +43281,7 @@
   non_normalized_aliases:
   - spelling: IEEE P980/D23, May 2013
     style: v3
-- id: ieee.project_draft_identifier.4302
+- id: ieee.project_draft_identifier.4332
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '980'
@@ -42629,7 +43296,7 @@
   non_normalized_aliases:
   - spelling: IEEE P980/D4, September 2020
     style: v3
-- id: ieee.project_draft_identifier.4303
+- id: ieee.project_draft_identifier.4333
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '980'
@@ -42644,7 +43311,7 @@
   non_normalized_aliases:
   - spelling: IEEE P980/D5, October 2021
     style: v3
-- id: ieee.project_draft_identifier.4304
+- id: ieee.project_draft_identifier.4334
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '982'
@@ -42662,7 +43329,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P982.1/D7
     style: v3
-- id: ieee.project_draft_identifier.4305
+- id: ieee.project_draft_identifier.4335
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '99'
@@ -42677,7 +43344,7 @@
   non_normalized_aliases:
   - spelling: IEEE P99/D3.0, July 2019
     style: v3
-- id: ieee.project_draft_identifier.4306
+- id: ieee.project_draft_identifier.4336
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '998'
@@ -42692,7 +43359,7 @@
   non_normalized_aliases:
   - spelling: IEEE P998/D10.1, July 2011
     style: v3
-- id: ieee.project_draft_identifier.4307
+- id: ieee.project_draft_identifier.4337
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '998'
@@ -42707,7 +43374,7 @@
   non_normalized_aliases:
   - spelling: IEEE P998/D12.2, April 2012
     style: v3
-- id: ieee.project_draft_identifier.4308
+- id: ieee.project_draft_identifier.4338
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '998'
@@ -42722,7 +43389,7 @@
   non_normalized_aliases:
   - spelling: IEEE P998/D14.1, October 2012
     style: v3
-- id: ieee.project_draft_identifier.4639
+- id: ieee.project_draft_identifier.4669
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '42'
@@ -42741,7 +43408,7 @@
   non_normalized_aliases:
   - spelling: IEEE PN42.43/D1, June 2021
     style: v3
-- id: ieee.project_draft_identifier.4640
+- id: ieee.project_draft_identifier.4670
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '42'
@@ -42760,7 +43427,7 @@
   non_normalized_aliases:
   - spelling: PN42.54/D4, August 2016
     style: v3
-- id: ieee.project_draft_identifier.8861
+- id: ieee.project_draft_identifier.8894
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '844'
@@ -42778,7 +43445,7 @@
   non_normalized_aliases:
   - spelling: IEEE/CSA P844.1/293.1/D2, September 2016
     style: v3
-- id: ieee.project_draft_identifier.8862
+- id: ieee.project_draft_identifier.8895
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '844'
@@ -42796,7 +43463,7 @@
   non_normalized_aliases:
   - spelling: IEEE/CSA P844.1/293.1/D3, February 2017
     style: v3
-- id: ieee.project_draft_identifier.8863
+- id: ieee.project_draft_identifier.8896
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '844'
@@ -42814,7 +43481,7 @@
   non_normalized_aliases:
   - spelling: IEEE/CSA P844.1/293.1/D4, July 2017
     style: v3
-- id: ieee.project_draft_identifier.8864
+- id: ieee.project_draft_identifier.8897
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '844'
@@ -42832,7 +43499,7 @@
   non_normalized_aliases:
   - spelling: IEEE/CSA P844.2/293.2/D2, September 2016
     style: v3
-- id: ieee.project_draft_identifier.8865
+- id: ieee.project_draft_identifier.8898
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '844'
@@ -42850,7 +43517,7 @@
   non_normalized_aliases:
   - spelling: IEEE/CSA P844.2/293.2/D3, February 2017
     style: v3
-- id: ieee.project_draft_identifier.9092
+- id: ieee.project_draft_identifier.9125
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '11073'
@@ -42870,7 +43537,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P11073-10417/D2 January 2015
     style: v3
-- id: ieee.project_draft_identifier.9093
+- id: ieee.project_draft_identifier.9126
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '12207'
@@ -42889,7 +43556,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P12207/CD2-1410, October 2014
     style: v3
-- id: ieee.project_draft_identifier.9094
+- id: ieee.project_draft_identifier.9127
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '12207'
@@ -42908,7 +43575,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P12207/CD3-1502
     style: v3
-- id: ieee.project_draft_identifier.9095
+- id: ieee.project_draft_identifier.9128
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '12207'
@@ -42927,7 +43594,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P12207/CD4-1602
     style: v3
-- id: ieee.project_draft_identifier.9098
+- id: ieee.project_draft_identifier.9131
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '14764'
@@ -42946,7 +43613,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P14764/CD2, June 2020
     style: v3
-- id: ieee.project_draft_identifier.9099
+- id: ieee.project_draft_identifier.9132
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '15026'
@@ -42966,7 +43633,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P15026-1/D2, December 2018
     style: v3
-- id: ieee.project_draft_identifier.9101
+- id: ieee.project_draft_identifier.9134
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '15026'
@@ -42988,7 +43655,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P15026-2/D1-CD, February 2020
     style: v3
-- id: ieee.project_draft_identifier.9104
+- id: ieee.project_draft_identifier.9137
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '15026'
@@ -43010,7 +43677,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P15026-4/DIS2, February 2021
     style: v3
-- id: ieee.project_draft_identifier.9105
+- id: ieee.project_draft_identifier.9138
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '15026'
@@ -43032,7 +43699,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P15026-4/DIS2, September 2020
     style: v3
-- id: ieee.project_draft_identifier.9106
+- id: ieee.project_draft_identifier.9139
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '15288'
@@ -43052,7 +43719,7 @@
   - spelling: ISO/IEC/IEEE P15288/CD2-1309, September 2013 (Revision of ISO/IEC/IEEE
       15288:2008)
     style: v3
-- id: ieee.project_draft_identifier.9107
+- id: ieee.project_draft_identifier.9140
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '15288'
@@ -43071,7 +43738,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P15288/FDIS-1412
     style: v3
-- id: ieee.project_draft_identifier.9110
+- id: ieee.project_draft_identifier.9143
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '16085'
@@ -43090,7 +43757,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P16085/CD2, February 2019
     style: v3
-- id: ieee.project_draft_identifier.9111
+- id: ieee.project_draft_identifier.9144
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '16085'
@@ -43109,7 +43776,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P16085/CD3, August 2019
     style: v3
-- id: ieee.project_draft_identifier.9120
+- id: ieee.project_draft_identifier.9153
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '21840'
@@ -43125,7 +43792,7 @@
     human: ISO/IEC/IEEE P21840/DFDIS_D4, Jul 2019
     urn: urn:ieee:iso-iec-ieee:p:21840:draft./DFDIS_D4, Jul 2019
   style: v3
-- id: ieee.project_draft_identifier.9124
+- id: ieee.project_draft_identifier.9157
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '24748'
@@ -43145,7 +43812,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P24748-2/D2, February 2018
     style: v3
-- id: ieee.project_draft_identifier.9127
+- id: ieee.project_draft_identifier.9160
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '24748'
@@ -43167,7 +43834,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P24748-4/DIS-1404, April 2014
     style: v3
-- id: ieee.project_draft_identifier.9128
+- id: ieee.project_draft_identifier.9161
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '24748'
@@ -43189,7 +43856,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P24748-4/DIS2-January 2015
     style: v3
-- id: ieee.project_draft_identifier.9130
+- id: ieee.project_draft_identifier.9163
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '24748'
@@ -43211,7 +43878,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P24748-5/CD3, February 2015
     style: v3
-- id: ieee.project_draft_identifier.9132
+- id: ieee.project_draft_identifier.9165
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '24748'
@@ -43233,7 +43900,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P24748-6/CD2, September 2021
     style: v3
-- id: ieee.project_draft_identifier.9134
+- id: ieee.project_draft_identifier.9167
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '24748'
@@ -43255,7 +43922,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P24748-9/WD.2, January 2021
     style: v3
-- id: ieee.project_draft_identifier.9136
+- id: ieee.project_draft_identifier.9169
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '24774'
@@ -43272,7 +43939,7 @@
   non_normalized_aliases:
   - spelling: ISO /IEC/IEEE P24774/D1, February 2020
     style: v3
-- id: ieee.project_draft_identifier.9137
+- id: ieee.project_draft_identifier.9170
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '24774'
@@ -43289,7 +43956,7 @@
   non_normalized_aliases:
   - spelling: ISO /IEC/IEEE P24774/D3, January 2021
     style: v3
-- id: ieee.project_draft_identifier.9140
+- id: ieee.project_draft_identifier.9173
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '26513'
@@ -43306,7 +43973,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE CD P26513/D1, August 2015
     style: v3
-- id: ieee.project_draft_identifier.9141
+- id: ieee.project_draft_identifier.9174
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '26513'
@@ -43323,7 +43990,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P26513/D2, January 2017
     style: v3
-- id: ieee.project_draft_identifier.9142
+- id: ieee.project_draft_identifier.9175
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '26514'
@@ -43340,7 +44007,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P26514/D1, March 2020
     style: v3
-- id: ieee.project_draft_identifier.9144
+- id: ieee.project_draft_identifier.9177
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '26514'
@@ -43359,7 +44026,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P26514/CD2, August 2020
     style: v3
-- id: ieee.project_draft_identifier.9155
+- id: ieee.project_draft_identifier.9188
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '29119'
@@ -43381,7 +44048,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P29119-3/D3_January 2021
     style: v3
-- id: ieee.project_draft_identifier.9160
+- id: ieee.project_draft_identifier.9193
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '29119'
@@ -43403,7 +44070,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P29119-4_CD2, February 2012
     style: v3
-- id: ieee.project_draft_identifier.9161
+- id: ieee.project_draft_identifier.9194
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '29119'
@@ -43425,7 +44092,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P29119-4/CD3, September 2012
     style: v3
-- id: ieee.project_draft_identifier.9162
+- id: ieee.project_draft_identifier.9195
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '29119'
@@ -43447,7 +44114,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P29119-4-DISMay2013
     style: v3
-- id: ieee.project_draft_identifier.9163
+- id: ieee.project_draft_identifier.9196
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '29119'
@@ -43469,7 +44136,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P29119-5-CD1 April 2014
     style: v3
-- id: ieee.project_draft_identifier.9164
+- id: ieee.project_draft_identifier.9197
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '29119'
@@ -43488,7 +44155,7 @@
     human: ISO/IEC/IEEE P29119-5/DDIS2-1504
     urn: urn:ieee:iso-iec-ieee:p:29119-5:draft./DDIS2-1504
   style: v3
-- id: ieee.project_draft_identifier.9165
+- id: ieee.project_draft_identifier.9198
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '29119'
@@ -43510,7 +44177,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P29119-5/DIS2-1504, April 2015
     style: v3
-- id: ieee.project_draft_identifier.9166
+- id: ieee.project_draft_identifier.9199
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '29119'
@@ -43532,7 +44199,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P29119-5/FDIS1, July 2016
     style: v3
-- id: ieee.project_draft_identifier.9168
+- id: ieee.project_draft_identifier.9201
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '29148'
@@ -43551,7 +44218,24 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P29148/FCD-June2010
     style: v3
-- id: ieee.project_draft_identifier.9169
+- id: ieee.project_draft_identifier.9202
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '42010'
+    publisher: ISO
+    copublisher:
+    - IEC
+    - IEEE
+    draft: D4, 2019
+    project_marker: true
+  representations:
+    human: ISO/IEC/IEEE P42010/D4, 2019
+    urn: urn:ieee:iso-iec-ieee:42010:draft./D4, 2019
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC/IEEE P42010.2019/D4
+    style: v3
+- id: ieee.project_draft_identifier.9203
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '42010'
@@ -43571,24 +44255,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P42010.WD4:2019(E)
     style: v3
-- id: ieee.project_draft_identifier.9170
-  identifier:
-    _type: pubid:ieee:project-draft-identifier
-    number: '42010'
-    publisher: ISO
-    copublisher:
-    - IEC
-    - IEEE
-    draft: D4, 2019
-    project_marker: true
-  representations:
-    human: ISO/IEC/IEEE P42010/D4, 2019
-    urn: urn:ieee:iso-iec-ieee:42010:draft./D4, 2019
-  style: v3
-  non_normalized_aliases:
-  - spelling: ISO/IEC/IEEE P42010.2019/D4
-    style: v3
-- id: ieee.project_draft_identifier.9171
+- id: ieee.project_draft_identifier.9204
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '42010'
@@ -43605,7 +44272,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P42010/D8, June 2010
     style: v3
-- id: ieee.project_draft_identifier.9172
+- id: ieee.project_draft_identifier.9205
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '42020'
@@ -43624,7 +44291,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P42020/V1.9, August 2018
     style: v3
-- id: ieee.project_draft_identifier.9173
+- id: ieee.project_draft_identifier.9206
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '63195'
@@ -43644,7 +44311,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P63195-1/D7, December 2021
     style: v3
-- id: ieee.project_draft_identifier.9199
+- id: ieee.project_draft_identifier.9232
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '11073'
@@ -43663,7 +44330,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEEE P11073-20601a/D29, July 2010
     style: v3
-- id: ieee.project_draft_identifier.9200
+- id: ieee.project_draft_identifier.9233
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '11073'
@@ -43682,7 +44349,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEEE P11073-20601a/D31, August 2010
     style: v3
-- id: ieee.project_draft_identifier.9204
+- id: ieee.project_draft_identifier.9237
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '1835'
@@ -43697,7 +44364,7 @@
     human: NACE/IEEE P1835/D1a, 2011
     urn: urn:ieee:nace-ieee:p:1835:draft./D1a, 2011
   style: v3
-- id: ieee.project_draft_identifier.9205
+- id: ieee.project_draft_identifier.9238
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '1835'
