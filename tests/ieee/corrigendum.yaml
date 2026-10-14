@@ -80,10 +80,29 @@
     human: IEEE Approved Std PC37.09-1999/D7.2, Nov 2006/Cor. 1
     urn: urn:ieee:ieee:1999
   style: v3
+- id: ieee.corrigendum.0967
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: C37
+      year: '1999'
+      draft_status: Approved
+      draft: D7.2-2006-11
+      prefix: P
+      parts:
+      - '09'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Approved Std PC37.09-1999/D7.2-2006-11/Cor. 1
+    urn: urn:ieee:ieee:1999
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE Approved Std PC37.09-1999/Cor 1/D7.2, Nov 2006
     style: v3
-- id: ieee.corrigendum.1132
+- id: ieee.corrigendum.1133
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -101,10 +120,28 @@
     human: IEEE Draft P1815.1-2015/D3.0, Jul, 2016/Cor. 1
     urn: urn:ieee:ieee:2015
   style: v3
+- id: ieee.corrigendum.1134
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: '1815'
+      year: '2015'
+      draft: D3.0-2016-07
+      prefix: P
+      parts:
+      - '1'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Draft P1815.1-2015/D3.0-2016-07/Cor. 1
+    urn: urn:ieee:ieee:2015
+  style: v3
   non_normalized_aliases:
   - spelling: P1815.1-2015/Cor 1/D3.0, July 2016
     style: v3
-- id: ieee.corrigendum.1256
+- id: ieee.corrigendum.1258
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -125,7 +162,7 @@
   non_normalized_aliases:
   - spelling: P802.1AX-2014_Cor 1/D0.5 April 27, 2016
     style: v3
-- id: ieee.corrigendum.1276
+- id: ieee.corrigendum.1278
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -146,7 +183,7 @@
   non_normalized_aliases:
   - spelling: P802.3-2015_Cor 1/D2.0, December 2016
     style: v3
-- id: ieee.corrigendum.1277
+- id: ieee.corrigendum.1279
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -166,7 +203,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P802.3/Cor 1/D2.0
     style: v3
-- id: ieee.corrigendum.1329
+- id: ieee.corrigendum.1331
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -186,7 +223,7 @@
   non_normalized_aliases:
   - spelling: IEEE PC37.04 Cor. 1/D1.1, February 2021
     style: v3
-- id: ieee.corrigendum.1330
+- id: ieee.corrigendum.1332
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -206,7 +243,7 @@
   non_normalized_aliases:
   - spelling: IEEE PC37.04 Cor. 1/D1.4, May 2021
     style: v3
-- id: ieee.corrigendum.1334
+- id: ieee.corrigendum.1336
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -224,10 +261,28 @@
     human: IEEE Draft PC37.09-1999/D7.2, Nov, 2006/Cor. 1
     urn: urn:ieee:ieee:1999
   style: v3
+- id: ieee.corrigendum.1337
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: C37
+      year: '1999'
+      draft: D7.2-2006-11
+      prefix: P
+      parts:
+      - '09'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Draft PC37.09-1999/D7.2-2006-11/Cor. 1
+    urn: urn:ieee:ieee:1999
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE Draft Std PC37.09-1999/Cor 1/D7.2, Nov 2006
     style: v3
-- id: ieee.corrigendum.1335
+- id: ieee.corrigendum.1338
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -247,7 +302,7 @@
   non_normalized_aliases:
   - spelling: IEEE PC37.09_Cor 1/D1.3, November 2020
     style: v3
-- id: ieee.corrigendum.1342
+- id: ieee.corrigendum.1345
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -267,7 +322,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std PC37.09-1999/Cor 1/D6.6
     style: v3
-- id: ieee.corrigendum.1472
+- id: ieee.corrigendum.1475
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -284,10 +339,27 @@
     human: IEEE Draft PC37.24/D1.2, Oct, 2018/Cor. 1
     urn: urn:ieee:ieee
   style: v3
+- id: ieee.corrigendum.1476
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: C37
+      draft: D1.2-2018-10
+      prefix: P
+      parts:
+      - '24'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Draft PC37.24/D1.2-2018-10/Cor. 1
+    urn: urn:ieee:ieee
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE PC37.24/Cor 1/D1.2, October 2018
     style: v3
-- id: ieee.corrigendum.1474
+- id: ieee.corrigendum.1478
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -304,10 +376,27 @@
     human: IEEE Draft PC37.24/D2.0, Dec, 2018/Cor. 1
     urn: urn:ieee:ieee
   style: v3
+- id: ieee.corrigendum.1479
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: C37
+      draft: D2.0-2018-12
+      prefix: P
+      parts:
+      - '24'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Draft PC37.24/D2.0-2018-12/Cor. 1
+    urn: urn:ieee:ieee
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE PC37.24/Cor 1/D2.0, December 2018
     style: v3
-- id: ieee.corrigendum.1589
+- id: ieee.corrigendum.1594
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -326,10 +415,29 @@
     human: IEEE Draft PC57.12.90-2015/D3.1, Sept, 2016/Cor. 1
     urn: urn:ieee:ieee:2015
   style: v3
+- id: ieee.corrigendum.1595
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: C57
+      year: '2015'
+      draft: D3.1-2016-09
+      prefix: P
+      parts:
+      - '12'
+      - '90'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Draft PC57.12.90-2015/D3.1-2016-09/Cor. 1
+    urn: urn:ieee:ieee:2015
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE PC57.12.90-2015/Cor 1/D3.1, September 2016
     style: v3
-- id: ieee.corrigendum.1654
+- id: ieee.corrigendum.1660
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -347,10 +455,28 @@
     human: IEEE Draft PC57.163-2015/D1.1, Jul, 2016/Cor. 1
     urn: urn:ieee:ieee:2015
   style: v3
+- id: ieee.corrigendum.1661
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: C57
+      year: '2015'
+      draft: D1.1-2016-07
+      prefix: P
+      parts:
+      - '163'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Draft PC57.163-2015/D1.1-2016-07/Cor. 1
+    urn: urn:ieee:ieee:2015
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE PC57.163-2015/Cor 1/D1.1, July 2016
     style: v3
-- id: ieee.corrigendum.1741
+- id: ieee.corrigendum.1748
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -369,10 +495,29 @@
     human: IEEE P1003.1-2008/D3, Jan, 2016/Cor. 2
     urn: urn:ieee:ieee:2008
   style: v3
+- id: ieee.corrigendum.1749
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '2'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '1003'
+      type: P
+      year: '2008'
+      draft: D3-2016-01
+      parts:
+      - '1'
+      separator: "."
+      project_marker: true
+      stage: D2
+  representations:
+    human: IEEE P1003.1-2008/D3-2016-01/Cor. 2
+    urn: urn:ieee:ieee:2008
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P1003.1-2008/Cor 2/D3, January 2016
     style: v3
-- id: ieee.corrigendum.1742
+- id: ieee.corrigendum.1750
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -391,10 +536,29 @@
     human: IEEE P1003.1-2008/D4, May, 2016/Cor. 2
     urn: urn:ieee:ieee:2008
   style: v3
+- id: ieee.corrigendum.1751
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '2'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '1003'
+      type: P
+      year: '2008'
+      draft: D4-2016-05
+      parts:
+      - '1'
+      separator: "."
+      project_marker: true
+      stage: D4
+  representations:
+    human: IEEE P1003.1-2008/D4-2016-05/Cor. 2
+    urn: urn:ieee:ieee:2008
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P1003.1-2008/Cor 2/D4, May 2016
     style: v3
-- id: ieee.corrigendum.1896
+- id: ieee.corrigendum.1905
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -413,10 +577,52 @@
     human: IEEE P11073-10418-2011/D2, Jan, 2015/Cor. 1
     urn: urn:ieee:ieee:2011
   style: v3
+- id: ieee.corrigendum.1906
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '11073'
+      type: P
+      year: '2011'
+      draft: D2-2015-01
+      parts:
+      - '10418'
+      separator: "-"
+      project_marker: true
+      stage: D2
+  representations:
+    human: IEEE P11073-10418-2011/D2-2015-01/Cor. 1
+    urn: urn:ieee:ieee:2011
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P11073-10418-2011/Cor 1/D2, January 2015
     style: v3
-- id: ieee.corrigendum.1897
+- id: ieee.corrigendum.1907
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '11073'
+      type: P
+      year: '2011'
+      draft: D4-2015-07
+      parts:
+      - '10418'
+      separator: "-"
+      project_marker: true
+      stage: D4
+  representations:
+    human: IEEE P11073-10418-2011/D4-2015-07/Cor. 1
+    urn: urn:ieee:ieee:2011
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P11073-10418-2011/Cor 1, D4, July 2015 (Corrigendum to IEEE Std
+      11073-10418-2011)
+    style: v3
+- id: ieee.corrigendum.1908
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -435,10 +641,29 @@
     human: IEEE P11073-10419-2015/D10, Jun, 2016/Cor. 1
     urn: urn:ieee:ieee:2015
   style: v3
+- id: ieee.corrigendum.1909
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '11073'
+      type: P
+      year: '2015'
+      draft: D10-2016-06
+      parts:
+      - '10419'
+      separator: "-"
+      project_marker: true
+      stage: P
+  representations:
+    human: IEEE P11073-10419-2015/D10-2016-06/Cor. 1
+    urn: urn:ieee:ieee:2015
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P11073-10419-2015/Cor 1/D10, June 2016
     style: v3
-- id: ieee.corrigendum.1898
+- id: ieee.corrigendum.1910
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -457,10 +682,29 @@
     human: IEEE P11073-10419-2015/D3, Jan, 2016/Cor. 1
     urn: urn:ieee:ieee:2015
   style: v3
+- id: ieee.corrigendum.1911
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '11073'
+      type: P
+      year: '2015'
+      draft: D3-2016-01
+      parts:
+      - '10419'
+      separator: "-"
+      project_marker: true
+      stage: D2
+  representations:
+    human: IEEE P11073-10419-2015/D3-2016-01/Cor. 1
+    urn: urn:ieee:ieee:2015
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P11073-10419-2015/Cor 1/D3, January 2016
     style: v3
-- id: ieee.corrigendum.1899
+- id: ieee.corrigendum.1912
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -479,10 +723,29 @@
     human: IEEE P11073-10419-2015/D4, Jan, 2016/Cor. 1
     urn: urn:ieee:ieee:2015
   style: v3
+- id: ieee.corrigendum.1913
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '11073'
+      type: P
+      year: '2015'
+      draft: D4-2016-01
+      parts:
+      - '10419'
+      separator: "-"
+      project_marker: true
+      stage: D4
+  representations:
+    human: IEEE P11073-10419-2015/D4-2016-01/Cor. 1
+    urn: urn:ieee:ieee:2015
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P11073-10419-2015/Cor 1/D4, January 2016
     style: v3
-- id: ieee.corrigendum.1900
+- id: ieee.corrigendum.1914
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -501,10 +764,29 @@
     human: IEEE P11073-10419-2015/D8, Apr, 2016/Cor. 1
     urn: urn:ieee:ieee:2015
   style: v3
+- id: ieee.corrigendum.1915
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '11073'
+      type: P
+      year: '2015'
+      draft: D8-2016-04
+      parts:
+      - '10419'
+      separator: "-"
+      project_marker: true
+      stage: D7
+  representations:
+    human: IEEE P11073-10419-2015/D8-2016-04/Cor. 1
+    urn: urn:ieee:ieee:2015
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P11073-10419-2015/Cor 1/D8, April 2016
     style: v3
-- id: ieee.corrigendum.1901
+- id: ieee.corrigendum.1916
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -523,10 +805,29 @@
     human: IEEE P11073-10419-2015/D9, May, 2016/Cor. 1
     urn: urn:ieee:ieee:2015
   style: v3
+- id: ieee.corrigendum.1917
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '11073'
+      type: P
+      year: '2015'
+      draft: D9-2016-05
+      parts:
+      - '10419'
+      separator: "-"
+      project_marker: true
+      stage: D7
+  representations:
+    human: IEEE P11073-10419-2015/D9-2016-05/Cor. 1
+    urn: urn:ieee:ieee:2015
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P11073-10419-2015/Cor 1/D9, May 2016
     style: v3
-- id: ieee.corrigendum.1924
+- id: ieee.corrigendum.1940
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -545,10 +846,29 @@
     human: IEEE P11073-10424-2014/D3, Feb, 2016/Cor. 1
     urn: urn:ieee:ieee:2014
   style: v3
+- id: ieee.corrigendum.1941
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '11073'
+      type: P
+      year: '2014'
+      draft: D3-2016-02
+      parts:
+      - '10424'
+      separator: "-"
+      project_marker: true
+      stage: D2
+  representations:
+    human: IEEE P11073-10424-2014/D3-2016-02/Cor. 1
+    urn: urn:ieee:ieee:2014
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P11073-10424-2014/Cor 1/D3, February 2016
     style: v3
-- id: ieee.corrigendum.1925
+- id: ieee.corrigendum.1942
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -567,10 +887,29 @@
     human: IEEE P11073-10424-2014/D4, Dec, 2016/Cor. 1
     urn: urn:ieee:ieee:2014
   style: v3
+- id: ieee.corrigendum.1943
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '11073'
+      type: P
+      year: '2014'
+      draft: D4-2016-12
+      parts:
+      - '10424'
+      separator: "-"
+      project_marker: true
+      stage: D4
+  representations:
+    human: IEEE P11073-10424-2014/D4-2016-12/Cor. 1
+    urn: urn:ieee:ieee:2014
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P11073-10424-2014/Cor 1/D4, December 2016
     style: v3
-- id: ieee.corrigendum.1929
+- id: ieee.corrigendum.1947
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -589,10 +928,29 @@
     human: IEEE P11073-10425-2014/D3, Jan, 2016/Cor. 1
     urn: urn:ieee:ieee:2014
   style: v3
+- id: ieee.corrigendum.1948
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '11073'
+      type: P
+      year: '2014'
+      draft: D3-2016-01
+      parts:
+      - '10425'
+      separator: "-"
+      project_marker: true
+      stage: D2
+  representations:
+    human: IEEE P11073-10425-2014/D3-2016-01/Cor. 1
+    urn: urn:ieee:ieee:2014
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P11073-10425-2014/Cor 1/D3, January 2016
     style: v3
-- id: ieee.corrigendum.1930
+- id: ieee.corrigendum.1949
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -611,10 +969,29 @@
     human: IEEE P11073-10425-2014/D4, Jan, 2016/Cor. 1
     urn: urn:ieee:ieee:2014
   style: v3
+- id: ieee.corrigendum.1950
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '11073'
+      type: P
+      year: '2014'
+      draft: D4-2016-01
+      parts:
+      - '10425'
+      separator: "-"
+      project_marker: true
+      stage: D4
+  representations:
+    human: IEEE P11073-10425-2014/D4-2016-01/Cor. 1
+    urn: urn:ieee:ieee:2014
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P11073-10425-2014/Cor 1/D4, January 2016
     style: v3
-- id: ieee.corrigendum.1931
+- id: ieee.corrigendum.1951
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -633,10 +1010,29 @@
     human: IEEE P11073-10425-2014/D7, Apr, 2016/Cor. 1
     urn: urn:ieee:ieee:2014
   style: v3
+- id: ieee.corrigendum.1952
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '11073'
+      type: P
+      year: '2014'
+      draft: D7-2016-04
+      parts:
+      - '10425'
+      separator: "-"
+      project_marker: true
+      stage: D7
+  representations:
+    human: IEEE P11073-10425-2014/D7-2016-04/Cor. 1
+    urn: urn:ieee:ieee:2014
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P11073-10425-2014/Cor 1/D7, April 2016
     style: v3
-- id: ieee.corrigendum.1932
+- id: ieee.corrigendum.1953
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -655,10 +1051,29 @@
     human: IEEE P11073-10425-2014/D8, May, 2016/Cor. 1
     urn: urn:ieee:ieee:2014
   style: v3
+- id: ieee.corrigendum.1954
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '11073'
+      type: P
+      year: '2014'
+      draft: D8-2016-05
+      parts:
+      - '10425'
+      separator: "-"
+      project_marker: true
+      stage: D7
+  representations:
+    human: IEEE P11073-10425-2014/D8-2016-05/Cor. 1
+    urn: urn:ieee:ieee:2014
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P11073-10425-2014/Cor 1/D8, May 2016
     style: v3
-- id: ieee.corrigendum.1933
+- id: ieee.corrigendum.1955
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -677,10 +1092,29 @@
     human: IEEE P11073-10425-2014/D9, Jun, 2016/Cor. 1
     urn: urn:ieee:ieee:2014
   style: v3
+- id: ieee.corrigendum.1956
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '11073'
+      type: P
+      year: '2014'
+      draft: D9-2016-06
+      parts:
+      - '10425'
+      separator: "-"
+      project_marker: true
+      stage: D7
+  representations:
+    human: IEEE P11073-10425-2014/D9-2016-06/Cor. 1
+    urn: urn:ieee:ieee:2014
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P11073-10425-2014/Cor 1/D9, June 2016
     style: v3
-- id: ieee.corrigendum.1960
+- id: ieee.corrigendum.1983
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -699,10 +1133,52 @@
     human: IEEE P11073-20601-2014/D4, Feb, 2015/Cor. 1
     urn: urn:ieee:ieee:2014
   style: v3
+- id: ieee.corrigendum.1984
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '11073'
+      type: P
+      year: '2014'
+      draft: D4-2015-02
+      parts:
+      - '20601'
+      separator: "-"
+      project_marker: true
+      stage: D4
+  representations:
+    human: IEEE P11073-20601-2014/D4-2015-02/Cor. 1
+    urn: urn:ieee:ieee:2014
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P11073-20601-2014/Cor 1/D4, February 2015
     style: v3
-- id: ieee.corrigendum.1971
+- id: ieee.corrigendum.1985
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '11073'
+      type: P
+      year: '2014'
+      draft: D6-2015-07
+      parts:
+      - '20601'
+      separator: "-"
+      project_marker: true
+      stage: D4
+  representations:
+    human: IEEE P11073-20601-2014/D6-2015-07/Cor. 1
+    urn: urn:ieee:ieee:2014
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P11073-20601-2014/Cor 1, D6, July 2015 (Corrigendum to IEEE Std
+      11073-20601-2014)
+    style: v3
+- id: ieee.corrigendum.1996
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -720,10 +1196,28 @@
     human: IEEE P11073-20601/D5, Mar, 2015/Cor. 1
     urn: urn:ieee:ieee
   style: v3
+- id: ieee.corrigendum.1997
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '11073'
+      type: P
+      draft: D5-2015-03
+      parts:
+      - '20601'
+      separator: "-"
+      project_marker: true
+      stage: D4
+  representations:
+    human: IEEE P11073-20601/D5-2015-03/Cor. 1
+    urn: urn:ieee:ieee
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P11073-20601/Cor 1/D5, March 2015
     style: v3
-- id: ieee.corrigendum.2006
+- id: ieee.corrigendum.2032
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -739,10 +1233,26 @@
     human: IEEE P1138-2009/D1, Mar, 2014/Cor. 1
     urn: urn:ieee:ieee:2009
   style: v3
+- id: ieee.corrigendum.2033
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '1138'
+      type: P
+      year: '2009'
+      draft: D1-2014-03
+      project_marker: true
+      stage: D1
+  representations:
+    human: IEEE P1138-2009/D1-2014-03/Cor. 1
+    urn: urn:ieee:ieee:2009
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P1138-2009/Cor 1/D1, March 2014
     style: v3
-- id: ieee.corrigendum.2054
+- id: ieee.corrigendum.2081
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -757,10 +1267,25 @@
     human: IEEE P1202/D2, Feb, 2012/Cor. 1
     urn: urn:ieee:ieee
   style: v3
+- id: ieee.corrigendum.2082
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '1202'
+      type: P
+      draft: D2-2012-02
+      project_marker: true
+      stage: D2
+  representations:
+    human: IEEE P1202/D2-2012-02/Cor. 1
+    urn: urn:ieee:ieee
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P1202/Cor 1/D2, February 2012
     style: v3
-- id: ieee.corrigendum.2059
+- id: ieee.corrigendum.2087
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -776,10 +1301,26 @@
     human: IEEE P1210-2004/D2, Aug, 2013/Cor. 1
     urn: urn:ieee:ieee:2004
   style: v3
+- id: ieee.corrigendum.2088
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '1210'
+      type: P
+      year: '2004'
+      draft: D2-2013-08
+      project_marker: true
+      stage: D2
+  representations:
+    human: IEEE P1210-2004/D2-2013-08/Cor. 1
+    urn: urn:ieee:ieee:2004
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P1210-2004/Cor 1/D2, August 2013
     style: v3
-- id: ieee.corrigendum.2323
+- id: ieee.corrigendum.2352
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -795,10 +1336,26 @@
     human: IEEE P1549-2015/D2, Dec, 2015/Cor. 1
     urn: urn:ieee:ieee:2015
   style: v3
+- id: ieee.corrigendum.2353
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '1549'
+      type: P
+      year: '2015'
+      draft: D2-2015-12
+      project_marker: true
+      stage: D2
+  representations:
+    human: IEEE P1549-2015/D2-2015-12/Cor. 1
+    urn: urn:ieee:ieee:2015
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P1549-2015/Cor 1/D2, December 2015
     style: v3
-- id: ieee.corrigendum.2324
+- id: ieee.corrigendum.2354
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -814,10 +1371,26 @@
     human: IEEE P1549-2015/D3, Sept, 2017/Cor. 1
     urn: urn:ieee:ieee:2015
   style: v3
+- id: ieee.corrigendum.2355
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '1549'
+      type: P
+      year: '2015'
+      draft: D3-2017-09
+      project_marker: true
+      stage: D2
+  representations:
+    human: IEEE P1549-2015/D3-2017-09/Cor. 1
+    urn: urn:ieee:ieee:2015
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P1549-2015/Cor 1/D3, September 2017
     style: v3
-- id: ieee.corrigendum.2434
+- id: ieee.corrigendum.2465
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -836,10 +1409,29 @@
     human: IEEE P1609.3-2010/D1, Oct, 2011/Cor. 1
     urn: urn:ieee:ieee:2010
   style: v3
+- id: ieee.corrigendum.2466
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '1609'
+      type: P
+      year: '2010'
+      draft: D1-2011-10
+      parts:
+      - '3'
+      separator: "."
+      project_marker: true
+      stage: D1
+  representations:
+    human: IEEE P1609.3-2010/D1-2011-10/Cor. 1
+    urn: urn:ieee:ieee:2010
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P1609.3-2010/Cor 1/D1, October 2011
     style: v3
-- id: ieee.corrigendum.2435
+- id: ieee.corrigendum.2467
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -858,10 +1450,29 @@
     human: IEEE P1609.3-2010/D4, May, 2014/Cor. 2
     urn: urn:ieee:ieee:2010
   style: v3
+- id: ieee.corrigendum.2468
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '2'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '1609'
+      type: P
+      year: '2010'
+      draft: D4-2014-05
+      parts:
+      - '3'
+      separator: "."
+      project_marker: true
+      stage: D4
+  representations:
+    human: IEEE P1609.3-2010/D4-2014-05/Cor. 2
+    urn: urn:ieee:ieee:2010
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P1609.3-2010/Cor 2/D4, May 2014
     style: v3
-- id: ieee.corrigendum.2447
+- id: ieee.corrigendum.2480
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -880,10 +1491,29 @@
     human: IEEE P1609.4-2010/D2, Jun, 2014/Cor. 1
     urn: urn:ieee:ieee:2010
   style: v3
+- id: ieee.corrigendum.2481
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '1609'
+      type: P
+      year: '2010'
+      draft: D2-2014-06
+      parts:
+      - '4'
+      separator: "."
+      project_marker: true
+      stage: D2
+  representations:
+    human: IEEE P1609.4-2010/D2-2014-06/Cor. 1
+    urn: urn:ieee:ieee:2010
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P1609.4-2010/Cor 1/D2, June 2014
     style: v3
-- id: ieee.corrigendum.2448
+- id: ieee.corrigendum.2482
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -902,10 +1532,29 @@
     human: IEEE P1609.4-2010/D4, Aug, 2014/Cor. 1
     urn: urn:ieee:ieee:2010
   style: v3
+- id: ieee.corrigendum.2483
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '1609'
+      type: P
+      year: '2010'
+      draft: D4-2014-08
+      parts:
+      - '4'
+      separator: "."
+      project_marker: true
+      stage: D4
+  representations:
+    human: IEEE P1609.4-2010/D4-2014-08/Cor. 1
+    urn: urn:ieee:ieee:2010
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P1609.4-2010/Cor 1/D4, August 2014
     style: v3
-- id: ieee.corrigendum.2449
+- id: ieee.corrigendum.2484
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -924,10 +1573,29 @@
     human: IEEE P1609.4-2016/D3, Apr, 2019/Cor. 1
     urn: urn:ieee:ieee:2016
   style: v3
+- id: ieee.corrigendum.2485
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '1609'
+      type: P
+      year: '2016'
+      draft: D3-2019-04
+      parts:
+      - '4'
+      separator: "."
+      project_marker: true
+      stage: D2
+  representations:
+    human: IEEE P1609.4-2016/D3-2019-04/Cor. 1
+    urn: urn:ieee:ieee:2016
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P1609.4-2016/Cor 1/D3, April 2019
     style: v3
-- id: ieee.corrigendum.2458
+- id: ieee.corrigendum.2494
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -945,7 +1613,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P1613/Cor 1/D1
     style: v3
-- id: ieee.corrigendum.2684
+- id: ieee.corrigendum.2720
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -964,7 +1632,7 @@
   non_normalized_aliases:
   - spelling: IEEE P1722-2016-Cor 1/D0, June 2016
     style: v3
-- id: ieee.corrigendum.2685
+- id: ieee.corrigendum.2721
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -983,7 +1651,7 @@
     human: IEEE P1722.1-2013/D7 Jan 2016/Cor. 1
     urn: urn:ieee:ieee:2013
   style: v3
-- id: ieee.corrigendum.2686
+- id: ieee.corrigendum.2722
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -992,20 +1660,20 @@
       number: '1722'
       type: P
       year: '2013'
-      draft: D7, Jan 2016
+      draft: D7-2016-01
       parts:
       - '1'
       separator: "."
       project_marker: true
       stage: D7
   representations:
-    human: IEEE P1722.1-2013/D7, Jan, 2016/Cor. 1
+    human: IEEE P1722.1-2013/D7-2016-01/Cor. 1
     urn: urn:ieee:ieee:2013
   style: v3
   non_normalized_aliases:
   - spelling: IEEE P1722.1-2013/Cor 1/D7, January 2016
     style: v3
-- id: ieee.corrigendum.2687
+- id: ieee.corrigendum.2723
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1024,10 +1692,7 @@
     human: IEEE P1722.1-2013/D8, Mar, 2016/Cor. 1
     urn: urn:ieee:ieee:2013
   style: v3
-  non_normalized_aliases:
-  - spelling: IEEE P1722.1-2013/Cor 1/D8, March 2016
-    style: v3
-- id: ieee.corrigendum.2694
+- id: ieee.corrigendum.2724
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1035,20 +1700,21 @@
       _type: pubid:ieee:project-draft-identifier
       number: '1722'
       type: P
-      draft: D9, 2013
+      year: '2013'
+      draft: D8-2016-03
       parts:
       - '1'
       separator: "."
       project_marker: true
       stage: D7
   representations:
-    human: IEEE P1722.1/D9, 2013/Cor. 1
-    urn: urn:ieee:ieee
+    human: IEEE P1722.1-2013/D8-2016-03/Cor. 1
+    urn: urn:ieee:ieee:2013
   style: v3
   non_normalized_aliases:
-  - spelling: IEEE P1722.1-2013/Cor 1/D9-2018
+  - spelling: IEEE P1722.1-2013/Cor 1/D8, March 2016
     style: v3
-- id: ieee.corrigendum.2695
+- id: ieee.corrigendum.2731
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1067,7 +1733,28 @@
     human: IEEE P1722.1/D9, 2013/Cor. 1-2018
     urn: urn:ieee:ieee:2018
   style: v3
-- id: ieee.corrigendum.2709
+- id: ieee.corrigendum.2732
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '1722'
+      type: P
+      draft: D9-2018, 2013
+      parts:
+      - '1'
+      separator: "."
+      project_marker: true
+      stage: D7
+  representations:
+    human: IEEE P1722.1/D9-2018, 2013/Cor. 1
+    urn: urn:ieee:ieee
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P1722.1-2013/Cor 1/D9-2018
+    style: v3
+- id: ieee.corrigendum.2746
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1083,10 +1770,26 @@
     human: IEEE P1727-2013/D1, Oct, 2014/Cor. 1
     urn: urn:ieee:ieee:2013
   style: v3
+- id: ieee.corrigendum.2747
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '1727'
+      type: P
+      year: '2013'
+      draft: D1-2014-10
+      project_marker: true
+      stage: D1
+  representations:
+    human: IEEE P1727-2013/D1-2014-10/Cor. 1
+    urn: urn:ieee:ieee:2013
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P1727-2013/Cor 1/D1, October 2014
     style: v3
-- id: ieee.corrigendum.2718
+- id: ieee.corrigendum.2756
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1104,7 +1807,7 @@
   non_normalized_aliases:
   - spelling: P1735_Cor 1/D2, April 2015
     style: v3
-- id: ieee.corrigendum.2858
+- id: ieee.corrigendum.2896
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1123,7 +1826,7 @@
   non_normalized_aliases:
   - spelling: P1858-2016_Cor 1/D2, December 2016
     style: v3
-- id: ieee.corrigendum.2931
+- id: ieee.corrigendum.2969
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1142,10 +1845,29 @@
     human: IEEE P1900.6-2011/D3, Aug, 2015/Cor. 1
     urn: urn:ieee:ieee:2011
   style: v3
+- id: ieee.corrigendum.2970
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '1900'
+      type: P
+      year: '2011'
+      draft: D3-2015-08
+      parts:
+      - '6'
+      separator: "."
+      project_marker: true
+      stage: D2
+  representations:
+    human: IEEE P1900.6-2011/D3-2015-08/Cor. 1
+    urn: urn:ieee:ieee:2011
+  style: v3
   non_normalized_aliases:
   - spelling: P1900.6-2011/Cor 1/D3, August 2015
     style: v3
-- id: ieee.corrigendum.2933
+- id: ieee.corrigendum.2972
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1163,10 +1885,28 @@
     human: IEEE P1900.6/D2, Jun, 2015/Cor. 1
     urn: urn:ieee:ieee
   style: v3
+- id: ieee.corrigendum.2973
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '1900'
+      type: P
+      draft: D2-2015-06
+      parts:
+      - '6'
+      separator: "."
+      project_marker: true
+      stage: D2
+  representations:
+    human: IEEE P1900.6/D2-2015-06/Cor. 1
+    urn: urn:ieee:ieee
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P1900.6/Cor 1/D2, June 2015
     style: v3
-- id: ieee.corrigendum.3367
+- id: ieee.corrigendum.3407
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1188,7 +1928,7 @@
   non_normalized_aliases:
   - spelling: PC37.012-2014_Cor 1/D1, June 2015
     style: v3
-- id: ieee.corrigendum.3525
+- id: ieee.corrigendum.3565
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1203,10 +1943,25 @@
     human: IEEE P529/D06, Feb, 2017/Cor. 1
     urn: urn:ieee:ieee
   style: v3
+- id: ieee.corrigendum.3566
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '529'
+      type: P
+      draft: D06-2017-02
+      project_marker: true
+      stage: P
+  representations:
+    human: IEEE P529/D06-2017-02/Cor. 1
+    urn: urn:ieee:ieee
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P529/Cor 1/D06, February 2017
     style: v3
-- id: ieee.corrigendum.3544
+- id: ieee.corrigendum.3585
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -1226,10 +1981,30 @@
     human: IEEE P57.12.10-2010/D1, Jun, 2013/Cor. 2
     urn: urn:ieee:ieee:2010
   style: v3
+- id: ieee.corrigendum.3586
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '2'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '57'
+      type: P
+      year: '2010'
+      draft: D1-2013-06
+      parts:
+      - '12'
+      - '10'
+      separator: "."
+      project_marker: true
+      stage: D1
+  representations:
+    human: IEEE P57.12.10-2010/D1-2013-06/Cor. 2
+    urn: urn:ieee:ieee:2010
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P57.12.10-2010/Cor 2/D1, June 2013 (Corrigendum to IEEE Std C57.12.10-2010)
     style: v3
-- id: ieee.corrigendum.3545
+- id: ieee.corrigendum.3587
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -1248,10 +2023,29 @@
     human: IEEE P57.12.10/D2, Aug, 2013/Cor. 2
     urn: urn:ieee:ieee
   style: v3
+- id: ieee.corrigendum.3588
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '2'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '57'
+      type: P
+      draft: D2-2013-08
+      parts:
+      - '12'
+      - '10'
+      separator: "."
+      project_marker: true
+      stage: D2
+  representations:
+    human: IEEE P57.12.10/D2-2013-08/Cor. 2
+    urn: urn:ieee:ieee
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P57.12.10/Cor 2/D2, August 2013
     style: v3
-- id: ieee.corrigendum.3547
+- id: ieee.corrigendum.3590
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1271,10 +2065,30 @@
     human: IEEE P57.12.60-2009/D1, Dec, 2012/Cor. 1
     urn: urn:ieee:ieee:2009
   style: v3
+- id: ieee.corrigendum.3591
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '57'
+      type: P
+      year: '2009'
+      draft: D1-2012-12
+      parts:
+      - '12'
+      - '60'
+      separator: "."
+      project_marker: true
+      stage: D1
+  representations:
+    human: IEEE P57.12.60-2009/D1-2012-12/Cor. 1
+    urn: urn:ieee:ieee:2009
+  style: v3
   non_normalized_aliases:
   - spelling: PC57.12.60-2009/Cor 1/D1, December 2012
     style: v3
-- id: ieee.corrigendum.3596
+- id: ieee.corrigendum.3640
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1294,10 +2108,30 @@
     human: IEEE P62271-37-013-2015/D2, Feb, 2017/Cor. 1
     urn: urn:ieee:ieee:2015
   style: v3
+- id: ieee.corrigendum.3641
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '62271'
+      type: P
+      year: '2015'
+      draft: D2-2017-02
+      parts:
+      - '37'
+      - '013'
+      separator: "-"
+      project_marker: true
+      stage: D2
+  representations:
+    human: IEEE P62271-37-013-2015/D2-2017-02/Cor. 1
+    urn: urn:ieee:ieee:2015
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P62271-37-013-2015/Cor 1/D2, February 2017
     style: v3
-- id: ieee.corrigendum.3608
+- id: ieee.corrigendum.3653
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1313,10 +2147,26 @@
     human: IEEE P643-2004/D3, Aug, 2013/Cor. 1
     urn: urn:ieee:ieee:2004
   style: v3
+- id: ieee.corrigendum.3654
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '643'
+      type: P
+      year: '2004'
+      draft: D3-2013-08
+      project_marker: true
+      stage: D2
+  representations:
+    human: IEEE P643-2004/D3-2013-08/Cor. 1
+    urn: urn:ieee:ieee:2004
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P643-2004/Cor 1/D3, August 2013
     style: v3
-- id: ieee.corrigendum.3655
+- id: ieee.corrigendum.3701
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1333,10 +2183,27 @@
     human: IEEE P738-2012/D2, Aug, 2013/Cor. 1-2013
     urn: urn:ieee:ieee:2013
   style: v3
+- id: ieee.corrigendum.3702
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    year: '2013'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '738'
+      type: P
+      year: '2012'
+      draft: D2-2013-08
+      project_marker: true
+      stage: D2
+  representations:
+    human: IEEE P738-2012/D2-2013-08/Cor. 1-2013
+    urn: urn:ieee:ieee:2013
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P738-2012/Cor 1-2013/D2, August 2013
     style: v3
-- id: ieee.corrigendum.3678
+- id: ieee.corrigendum.3725
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1352,10 +2219,26 @@
     human: IEEE P80-2013/D1, Aug, 2014/Cor. 1
     urn: urn:ieee:ieee:2013
   style: v3
+- id: ieee.corrigendum.3726
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '80'
+      type: P
+      year: '2013'
+      draft: D1-2014-08
+      project_marker: true
+      stage: D1
+  representations:
+    human: IEEE P80-2013/D1-2014-08/Cor. 1
+    urn: urn:ieee:ieee:2013
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P80-2013/Cor 1/D1, August 2014
     style: v3
-- id: ieee.corrigendum.3679
+- id: ieee.corrigendum.3727
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1371,10 +2254,26 @@
     human: IEEE P80-2013/D3, Dec, 2014/Cor. 1
     urn: urn:ieee:ieee:2013
   style: v3
+- id: ieee.corrigendum.3728
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '80'
+      type: P
+      year: '2013'
+      draft: D3-2014-12
+      project_marker: true
+      stage: D2
+  representations:
+    human: IEEE P80-2013/D3-2014-12/Cor. 1
+    urn: urn:ieee:ieee:2013
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P80-2013/Cor 1/D3, December 2014
     style: v3
-- id: ieee.corrigendum.3825
+- id: ieee.corrigendum.3874
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1393,10 +2292,29 @@
     human: IEEE P802.15.4/D3, Nov, 2017/Cor. 1
     urn: urn:ieee:ieee
   style: v3
+- id: ieee.corrigendum.3875
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '802'
+      type: P
+      draft: D3-2017-11
+      parts:
+      - '15'
+      - '4'
+      separator: "."
+      project_marker: true
+      stage: D2
+  representations:
+    human: IEEE P802.15.4/D3-2017-11/Cor. 1
+    urn: urn:ieee:ieee
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.15.4/Cor 1/D3, Nov 2017
     style: v3
-- id: ieee.corrigendum.3903
+- id: ieee.corrigendum.3953
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1418,7 +2336,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P802.16-2004/Cor 1/D5, 2005
     style: v3
-- id: ieee.corrigendum.3915
+- id: ieee.corrigendum.3965
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1439,7 +2357,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P802.16/Cor 1/D2
     style: v3
-- id: ieee.corrigendum.3917
+- id: ieee.corrigendum.3967
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1460,7 +2378,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P802.16/Cor 1/D3
     style: v3
-- id: ieee.corrigendum.3919
+- id: ieee.corrigendum.3969
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1481,7 +2399,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std P802.16/Cor 1/D5
     style: v3
-- id: ieee.corrigendum.3972
+- id: ieee.corrigendum.4022
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -1502,7 +2420,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AB_Cor-2/D1.0, August 2014
     style: v3
-- id: ieee.corrigendum.3973
+- id: ieee.corrigendum.4023
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -1523,7 +2441,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AB-Cor-2/D1.1, November 2014
     style: v3
-- id: ieee.corrigendum.3974
+- id: ieee.corrigendum.4024
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1544,7 +2462,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AB-Cor-1/D2.0, January 2013
     style: v3
-- id: ieee.corrigendum.3975
+- id: ieee.corrigendum.4025
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1565,7 +2483,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AB-Cor-1/D2.1, April 2013
     style: v3
-- id: ieee.corrigendum.3982
+- id: ieee.corrigendum.4032
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1584,10 +2502,54 @@
     human: IEEE P802.1AC-2016/D2.0, Feb, 2018/Cor. 1
     urn: urn:ieee:ieee:2016
   style: v3
+- id: ieee.corrigendum.4033
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '802'
+      type: P
+      year: '2016'
+      draft: D2.0-2018-02
+      parts:
+      - 1AC
+      separator: "."
+      project_marker: true
+      stage: P
+  representations:
+    human: IEEE P802.1AC-2016/D2.0-2018-02/Cor. 1
+    urn: urn:ieee:ieee:2016
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.1AC-2016/Cor 1/D2.0, February 2018
     style: v3
-- id: ieee.corrigendum.4001
+- id: ieee.corrigendum.4041
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '802'
+      type: P
+      year: '2018'
+      draft: D1.0-2019-08
+      rev_sep: "-"
+      rev_bare: true
+      parts:
+      - 1AE
+      separator: "."
+      project_marker: true
+      stage: P
+  representations:
+    human: IEEE P802.1AE-2018-Rev/D1.0-2019-08/Cor. 1
+    urn: urn:ieee:ieee:2018
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE P802.1AE-2018-Rev/Cor 1/D1.0, August 2019 (Corrigendum to IEEE
+      Std 802.1AE-2018)
+    style: v3
+- id: ieee.corrigendum.4053
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1606,11 +2568,30 @@
     human: IEEE P802.1AS-2020/D3.0, Jul, 2021/Cor. 1
     urn: urn:ieee:ieee:2020
   style: v3
+- id: ieee.corrigendum.4054
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '802'
+      type: P
+      year: '2020'
+      draft: D3.0-2021-07
+      parts:
+      - 1AS
+      separator: "."
+      project_marker: true
+      stage: P
+  representations:
+    human: IEEE P802.1AS-2020/D3.0-2021-07/Cor. 1
+    urn: urn:ieee:ieee:2020
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.1AS&#x2013;2020/Cor 1/D3.0, July 2021 (Corrigendum to IEEE
       Std 802.1AS-2020)
     style: v3
-- id: ieee.corrigendum.4002
+- id: ieee.corrigendum.4055
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1629,10 +2610,29 @@
     human: IEEE P802.1AS-2020/D4.0, Sept, 2021/Cor. 1
     urn: urn:ieee:ieee:2020
   style: v3
+- id: ieee.corrigendum.4056
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '802'
+      type: P
+      year: '2020'
+      draft: D4.0-2021-09
+      parts:
+      - 1AS
+      separator: "."
+      project_marker: true
+      stage: P
+  representations:
+    human: IEEE P802.1AS-2020/D4.0-2021-09/Cor. 1
+    urn: urn:ieee:ieee:2020
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.1AS-2020/Cor 1/D4.0, September 2021
     style: v3
-- id: ieee.corrigendum.4008
+- id: ieee.corrigendum.4062
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -1653,7 +2653,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AS-Cor-2/D2.0, March 2015
     style: v3
-- id: ieee.corrigendum.4009
+- id: ieee.corrigendum.4063
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -1674,7 +2674,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AS/Cor 2/D3.0 July 2015
     style: v3
-- id: ieee.corrigendum.4010
+- id: ieee.corrigendum.4064
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1695,7 +2695,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AS-Cor-1/D3.0, January 2013
     style: v3
-- id: ieee.corrigendum.4011
+- id: ieee.corrigendum.4065
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1716,7 +2716,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1AS-Cor-1/D3.1, April 2013
     style: v3
-- id: ieee.corrigendum.4015
+- id: ieee.corrigendum.4069
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1735,10 +2735,29 @@
     human: IEEE P802.1AX-2014/D0.6, Oct, 2016/Cor. 1
     urn: urn:ieee:ieee:2014
   style: v3
+- id: ieee.corrigendum.4070
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '802'
+      type: P
+      year: '2014'
+      draft: D0.6-2016-10
+      parts:
+      - 1AX
+      separator: "."
+      project_marker: true
+      stage: P
+  representations:
+    human: IEEE P802.1AX-2014/D0.6-2016-10/Cor. 1
+    urn: urn:ieee:ieee:2014
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.1AX-2014/Cor 1/D0.6, October 2016
     style: v3
-- id: ieee.corrigendum.4024
+- id: ieee.corrigendum.4079
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1757,10 +2776,29 @@
     human: IEEE P802.1BA-2011/D0.0, Nov, 2015/Cor. 1
     urn: urn:ieee:ieee:2011
   style: v3
+- id: ieee.corrigendum.4080
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '802'
+      type: P
+      year: '2011'
+      draft: D0.0-2015-11
+      parts:
+      - 1BA
+      separator: "."
+      project_marker: true
+      stage: P
+  representations:
+    human: IEEE P802.1BA-2011/D0.0-2015-11/Cor. 1
+    urn: urn:ieee:ieee:2011
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.1BA-2011/Cor 1/D0.0, November 2015
     style: v3
-- id: ieee.corrigendum.4052
+- id: ieee.corrigendum.4108
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1779,10 +2817,29 @@
     human: IEEE P802.1Q-2014/D1.1, Sept, 2015/Cor. 1
     urn: urn:ieee:ieee:2014
   style: v3
+- id: ieee.corrigendum.4109
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '802'
+      type: P
+      year: '2014'
+      draft: D1.1-2015-09
+      parts:
+      - 1Q
+      separator: "."
+      project_marker: true
+      stage: P
+  representations:
+    human: IEEE P802.1Q-2014/D1.1-2015-09/Cor. 1
+    urn: urn:ieee:ieee:2014
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.1Q-2014/Cor 1/D1.1, September 2015
     style: v3
-- id: ieee.corrigendum.4060
+- id: ieee.corrigendum.4117
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1803,7 +2860,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Q/Cor 1/D1.0 July 2015
     style: v3
-- id: ieee.corrigendum.4061
+- id: ieee.corrigendum.4118
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -1821,10 +2878,28 @@
     human: IEEE P802.1Q/D2.0, May, 2012/Cor. 2
     urn: urn:ieee:ieee
   style: v3
+- id: ieee.corrigendum.4119
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '2'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '802'
+      type: P
+      draft: D2.0-2012-05
+      parts:
+      - 1Q
+      separator: "."
+      project_marker: true
+      stage: P
+  representations:
+    human: IEEE P802.1Q/D2.0-2012-05/Cor. 2
+    urn: urn:ieee:ieee
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.1Q/Cor 2/D2.0, May 2012
     style: v3
-- id: ieee.corrigendum.4062
+- id: ieee.corrigendum.4120
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -1845,7 +2920,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.1Q_Cor-2/D2.1, August 2012
     style: v3
-- id: ieee.corrigendum.4118
+- id: ieee.corrigendum.4176
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1864,10 +2939,29 @@
     human: IEEE P802.21-2017/D02, Jul, 2017/Cor. 1
     urn: urn:ieee:ieee:2017
   style: v3
+- id: ieee.corrigendum.4177
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '802'
+      type: P
+      year: '2017'
+      draft: D02-2017-07
+      parts:
+      - '21'
+      separator: "."
+      project_marker: true
+      stage: P
+  representations:
+    human: IEEE P802.21-2017/D02-2017-07/Cor. 1
+    urn: urn:ieee:ieee:2017
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P802.21-2017/Cor 1/D02, July 2017
     style: v3
-- id: ieee.corrigendum.4150
+- id: ieee.corrigendum.4209
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1889,7 +2983,7 @@
   non_normalized_aliases:
   - spelling: IEEE P802.3-2015_Cor 1/D2.1, January 2017 (Corrigendum to IEEE Std 802.3-2015)
     style: v3
-- id: ieee.corrigendum.4344
+- id: ieee.corrigendum.4403
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1904,10 +2998,25 @@
     human: IEEE P952/D9, Jun, 2016/Cor. 1
     urn: urn:ieee:ieee
   style: v3
+- id: ieee.corrigendum.4404
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:project-draft-identifier
+      number: '952'
+      type: P
+      draft: D9-2016-06
+      project_marker: true
+      stage: D7
+  representations:
+    human: IEEE P952/D9-2016-06/Cor. 1
+    urn: urn:ieee:ieee
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE P952/Cor 1/D9, June 2016
     style: v3
-- id: ieee.corrigendum.4358
+- id: ieee.corrigendum.4418
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1925,10 +3034,28 @@
     human: IEEE PC135.80-2012/D1, Dec, 2018/Cor. 1
     urn: urn:ieee:ieee:2012
   style: v3
+- id: ieee.corrigendum.4419
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: C135
+      year: '2012'
+      draft: D1-2018-12
+      prefix: P
+      parts:
+      - '80'
+      separator: "."
+      stage: D1
+  representations:
+    human: IEEE PC135.80-2012/D1-2018-12/Cor. 1
+    urn: urn:ieee:ieee:2012
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE PC135.80-2012/Cor 1/D1, December 2018
     style: v3
-- id: ieee.corrigendum.4412
+- id: ieee.corrigendum.4473
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1946,10 +3073,28 @@
     human: IEEE PC37.110-2007/D1, Aug, 2010/Cor. 1
     urn: urn:ieee:ieee:2007
   style: v3
+- id: ieee.corrigendum.4474
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: C37
+      year: '2007'
+      draft: D1-2010-08
+      prefix: P
+      parts:
+      - '110'
+      separator: "."
+      stage: D1
+  representations:
+    human: IEEE PC37.110-2007/D1-2010-08/Cor. 1
+    urn: urn:ieee:ieee:2007
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE PC37.110-2007/Cor 1/D1, August 2010
     style: v3
-- id: ieee.corrigendum.4458
+- id: ieee.corrigendum.4520
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1967,10 +3112,28 @@
     human: IEEE PC37.20.7/D3, Jan, 2021/Cor. 1
     urn: urn:ieee:ieee
   style: v3
+- id: ieee.corrigendum.4521
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: C37
+      draft: D3-2021-01
+      prefix: P
+      parts:
+      - '20'
+      - '7'
+      separator: "."
+      stage: D2
+  representations:
+    human: IEEE PC37.20.7/D3-2021-01/Cor. 1
+    urn: urn:ieee:ieee
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE PC37.20.7/Cor 1/D3, January 2021
     style: v3
-- id: ieee.corrigendum.4492
+- id: ieee.corrigendum.4555
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -1990,7 +3153,7 @@
   non_normalized_aliases:
   - spelling: IEEE PC37.41_Cor 1/D3, August 2017
     style: v3
-- id: ieee.corrigendum.4505
+- id: ieee.corrigendum.4568
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2010,7 +3173,7 @@
   non_normalized_aliases:
   - spelling: IEEE Draft Std PC37.60/Cor 1/D2
     style: v3
-- id: ieee.corrigendum.4538
+- id: ieee.corrigendum.4601
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2029,10 +3192,29 @@
     human: IEEE PC57.12.10-2010/D1, Sept, 2012/Cor. 1
     urn: urn:ieee:ieee:2010
   style: v3
+- id: ieee.corrigendum.4602
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: C57
+      year: '2010'
+      draft: D1-2012-09
+      prefix: P
+      parts:
+      - '12'
+      - '10'
+      separator: "."
+      stage: D1
+  representations:
+    human: IEEE PC57.12.10-2010/D1-2012-09/Cor. 1
+    urn: urn:ieee:ieee:2010
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE PC57.12.10-2010/Cor 1/D1, September 2012
     style: v3
-- id: ieee.corrigendum.4548
+- id: ieee.corrigendum.4612
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2053,7 +3235,7 @@
   non_normalized_aliases:
   - spelling: IEEE PC57.12.31_Cor 1/D3
     style: v3
-- id: ieee.corrigendum.4641
+- id: ieee.corrigendum.4705
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2072,10 +3254,29 @@
     human: IEEE PC62.41.2-2002/D2, Jun, 2012/Cor. 1
     urn: urn:ieee:ieee:2002
   style: v3
+- id: ieee.corrigendum.4706
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: C62
+      year: '2002'
+      draft: D2-2012-06
+      prefix: P
+      parts:
+      - '41'
+      - '2'
+      separator: "."
+      stage: D2
+  representations:
+    human: IEEE PC62.41.2-2002/D2-2012-06/Cor. 1
+    urn: urn:ieee:ieee:2002
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE PC62.41.2-2002/Cor 1/D2, June 2012
     style: v3
-- id: ieee.corrigendum.4680
+- id: ieee.corrigendum.4745
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2093,10 +3294,28 @@
     human: IEEE PC95.1-2019/D1, Jun, 2019/Cor. 1
     urn: urn:ieee:ieee:2019
   style: v3
+- id: ieee.corrigendum.4746
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: C95
+      year: '2019'
+      draft: D1-2019-06
+      prefix: P
+      parts:
+      - '1'
+      separator: "."
+      stage: D1
+  representations:
+    human: IEEE PC95.1-2019/D1-2019-06/Cor. 1
+    urn: urn:ieee:ieee:2019
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE PC95.1-2019/Cor 1/D1, June 2019
     style: v3
-- id: ieee.corrigendum.4681
+- id: ieee.corrigendum.4747
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2115,10 +3334,7 @@
     human: IEEE PC95.1-2019/D2, Jul, 2019/Cor. 1-2019
     urn: urn:ieee:ieee:2019
   style: v3
-  non_normalized_aliases:
-  - spelling: IEEE PC95.1-2019/Cor 1-2019/D2, July 2019
-    style: v3
-- id: ieee.corrigendum.4682
+- id: ieee.corrigendum.4748
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -2136,10 +3352,50 @@
     human: IEEE PC95.1-2019/D2, Jul, 2020/Cor. 2
     urn: urn:ieee:ieee:2019
   style: v3
+- id: ieee.corrigendum.4749
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    year: '2019'
+    base:
+      _type: pubid:ieee:standard
+      number: C95
+      year: '2019'
+      draft: D2-2019-07
+      prefix: P
+      parts:
+      - '1'
+      separator: "."
+      stage: D2
+  representations:
+    human: IEEE PC95.1-2019/D2-2019-07/Cor. 1-2019
+    urn: urn:ieee:ieee:2019
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE PC95.1-2019/Cor 1-2019/D2, July 2019
+    style: v3
+- id: ieee.corrigendum.4750
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '2'
+    base:
+      _type: pubid:ieee:standard
+      number: C95
+      year: '2019'
+      draft: D2-2020-07
+      prefix: P
+      parts:
+      - '1'
+      separator: "."
+      stage: D2
+  representations:
+    human: IEEE PC95.1-2019/D2-2020-07/Cor. 2
+    urn: urn:ieee:ieee:2019
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE PC95.1-2019/Cor 2/D2, July 2020
     style: v3
-- id: ieee.corrigendum.4693
+- id: ieee.corrigendum.4761
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2157,7 +3413,7 @@
   non_normalized_aliases:
   - spelling: IEEE STD 1137-1991/Cor 1-2009
     style: v3
-- id: ieee.corrigendum.4723
+- id: ieee.corrigendum.4791
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -2177,7 +3433,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1003.1-2001/Cor 2-2004
     style: v3
-- id: ieee.corrigendum.4726
+- id: ieee.corrigendum.4794
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2197,7 +3453,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1003.1-2008/Cor 1-2013 (Corrigendum to IEEE Std 1003.1-2008)
     style: v3
-- id: ieee.corrigendum.4769
+- id: ieee.corrigendum.4837
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2214,7 +3470,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1015-2006/Cor 1-2007 (Corrigendum to IEEE Std 1015-2006)
     style: v3
-- id: ieee.corrigendum.4965
+- id: ieee.corrigendum.5033
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2234,7 +3490,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 11073-10418-2011/Cor 1-2015 (Corrigendum to IEEE Std 11073-10418-2011)
     style: v3
-- id: ieee.corrigendum.4975
+- id: ieee.corrigendum.5043
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2254,7 +3510,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 11073-10424-2014/Cor 1-2017 (Corrigendum to IEEE Std 11073-10424-2014)
     style: v3
-- id: ieee.corrigendum.4988
+- id: ieee.corrigendum.5056
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2274,7 +3530,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 11073-20601-2014/Cor 1-2015 (Corrigendum to IEEE Std 11073-20601-2014)
     style: v3
-- id: ieee.corrigendum.5034
+- id: ieee.corrigendum.5102
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2291,7 +3547,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1138-2009/Cor 1-2014 (Corrigendum to IEEE Std 1138-2009)
     style: v3
-- id: ieee.corrigendum.5133
+- id: ieee.corrigendum.5201
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2308,7 +3564,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1202-2006_Cor 1-2012 (Corrigendum to IEEE Std 1202-2006)
     style: v3
-- id: ieee.corrigendum.5137
+- id: ieee.corrigendum.5205
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2325,7 +3581,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1205-2000/Cor 1-2006 (Corrigendum to IEEE Std 1205-2000)
     style: v3
-- id: ieee.corrigendum.5145
+- id: ieee.corrigendum.5213
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2342,7 +3598,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1210-2004/Cor 1-2014 (Corrigendum to IEEE Std 1210-2004)
     style: v3
-- id: ieee.corrigendum.5274
+- id: ieee.corrigendum.5342
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2359,7 +3615,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1293-1998/Cor 1-2008 (Corrigendum to IEEE Std 1293-1998)
     style: v3
-- id: ieee.corrigendum.5498
+- id: ieee.corrigendum.5566
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2380,7 +3636,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1484.12.1-2002/Cor 1-2011 (Corrigendum to IEEE Std 1484.12.1-2002)
     style: v3
-- id: ieee.corrigendum.5620
+- id: ieee.corrigendum.5688
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2397,7 +3653,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1549-2011/Cor 1-2017 (Corrigendum to IEEE Std 1549-2011)
     style: v3
-- id: ieee.corrigendum.5704
+- id: ieee.corrigendum.5772
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2417,7 +3673,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1609.3-2010/Cor 1-2012 (Corrigendum to IEEE Std 1609.3-2010)
     style: v3
-- id: ieee.corrigendum.5705
+- id: ieee.corrigendum.5773
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -2437,7 +3693,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1609.3-2010/Cor 2-2014 (Corrigendum to IEEE Std 1609.3-2010)
     style: v3
-- id: ieee.corrigendum.5712
+- id: ieee.corrigendum.5780
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2457,7 +3713,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1609.4-2010/Cor 1-2014 (Corrigendum to IEEE Std 1609.4-2010)
     style: v3
-- id: ieee.corrigendum.5715
+- id: ieee.corrigendum.5783
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2477,7 +3733,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1609.4-2016/Cor 1-2019 (Corrigendum to IEEE Std 1609.4-2016)
     style: v3
-- id: ieee.corrigendum.5721
+- id: ieee.corrigendum.5789
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2494,7 +3750,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1613-2003/Cor 1-2006 (Corrigendum to IEEE Std 1613-2003)
     style: v3
-- id: ieee.corrigendum.5861
+- id: ieee.corrigendum.5929
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2511,7 +3767,7 @@
   non_normalized_aliases:
   - spelling: IEEE 1672-2006/Cor 1-2008 (Corrigendum to IEEE Std 1672-2006)
     style: v3
-- id: ieee.corrigendum.5920
+- id: ieee.corrigendum.5988
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2531,7 +3787,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1722.1-2013/Cor 1-2018 (Corrigendum to IEEE Std 1722.1-2013)
     style: v3
-- id: ieee.corrigendum.5929
+- id: ieee.corrigendum.5997
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2548,7 +3804,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1727-2013/Cor 1-2015 (Corrigendum to IEEE Std 1727-2013)
     style: v3
-- id: ieee.corrigendum.6083
+- id: ieee.corrigendum.6151
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2568,7 +3824,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 1900.6-2011/Cor 1-2015 (Corrigendum to IEEE Std 1900.6-2011)
     style: v3
-- id: ieee.corrigendum.6325
+- id: ieee.corrigendum.6393
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2585,7 +3841,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 293-1969/Cor 1-2014 (Corrigendum to IEEE Std 293-1969)
     style: v3
-- id: ieee.corrigendum.6643
+- id: ieee.corrigendum.6711
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2602,7 +3858,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 497-2002/Cor 1-2007(Corrigendum to IEEE Std 497-2002)
     style: v3
-- id: ieee.corrigendum.6704
+- id: ieee.corrigendum.6772
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2619,7 +3875,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 529-1980/Cor 1-2017
     style: v3
-- id: ieee.corrigendum.6716
+- id: ieee.corrigendum.6784
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2636,7 +3892,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 535-2013/Cor. 1-2017 (Corrigenda of IEEE Std 535-2013)
     style: v3
-- id: ieee.corrigendum.6811
+- id: ieee.corrigendum.6879
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2653,7 +3909,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 643-2004/Cor 1-2013 (Corrigendum to IEEE Std 643-2004)
     style: v3
-- id: ieee.corrigendum.6838
+- id: ieee.corrigendum.6906
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2673,7 +3929,7 @@
   - spelling: IEEE Std 671-1985/Cor 1-2010 [Corrigendum to IEEE Std 671-1985 (Reaff
       2008)]
     style: v3
-- id: ieee.corrigendum.6968
+- id: ieee.corrigendum.7036
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2693,7 +3949,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.11b-1999/Cor 1-2001
     style: v3
-- id: ieee.corrigendum.7000
+- id: ieee.corrigendum.7068
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2716,7 +3972,7 @@
       as amended by IEEE Std 802.15.4n-2016, IEEE Std 802.15.4q-2016, IEEE Std 802.15.4u-2016,
       IEEE Std 802.15.4t-2017 and IEEE Std 802.15.4v-2017)
     style: v3
-- id: ieee.corrigendum.7069
+- id: ieee.corrigendum.7137
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2736,7 +3992,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.1AB-2009/Cor 1-2013 (Corrigendum to IEEE Std 802.1AB-2009)
     style: v3
-- id: ieee.corrigendum.7070
+- id: ieee.corrigendum.7138
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -2756,7 +4012,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.1AB-2009/Cor 2-2015 (Corrigendum to IEEE Std 802.1AB-2009)
     style: v3
-- id: ieee.corrigendum.7075
+- id: ieee.corrigendum.7143
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2776,7 +4032,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.1AC-2016/Cor 1-2018 (Corrigenda to IEEE Std 802.1AC-2016)
     style: v3
-- id: ieee.corrigendum.7079
+- id: ieee.corrigendum.7147
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2796,7 +4052,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.1AE-2018/Cor 1-2020 (Corrigendum to IEEE Std 802.1AE-2018)
     style: v3
-- id: ieee.corrigendum.7087
+- id: ieee.corrigendum.7155
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2816,7 +4072,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.1AS-2011/Cor 1-2013 (Corrigendum to IEEE Std 802.1AS-2011)
     style: v3
-- id: ieee.corrigendum.7088
+- id: ieee.corrigendum.7156
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -2836,7 +4092,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.1AS-2011/Cor 2-2015 (Corrigendum to IEEE Std 802.1AS-2011)
     style: v3
-- id: ieee.corrigendum.7092
+- id: ieee.corrigendum.7160
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2856,7 +4112,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.1AX-2014/Cor 1-2017 (Corrigendum to IEEE Std 802.1AX-2014)
     style: v3
-- id: ieee.corrigendum.7097
+- id: ieee.corrigendum.7165
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2876,7 +4132,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.1BA-2011/Cor 1-2016 (Corrigendum to IEEE Std 802.1BA-2011)
     style: v3
-- id: ieee.corrigendum.7115
+- id: ieee.corrigendum.7183
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2896,7 +4152,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.1Q-2005/Cor 1-2008 (Corrigendum to IEEE Std 802.1Q-2005)
     style: v3
-- id: ieee.corrigendum.7117
+- id: ieee.corrigendum.7185
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -2916,7 +4172,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.1Q-2011/Cor 2-2012 (Corrigendum to IEEE Std 802.1Q-2011)
     style: v3
-- id: ieee.corrigendum.7119
+- id: ieee.corrigendum.7187
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2936,7 +4192,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.1Q-2014/Cor 1-2015 (Corrigendum to IEEE Std 802.1Q-2014)
     style: v3
-- id: ieee.corrigendum.7174
+- id: ieee.corrigendum.7242
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2956,7 +4212,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.21-2017/Cor 1-2017 (Corrigendum to IEEE Std 802.21-2017)
     style: v3
-- id: ieee.corrigendum.7190
+- id: ieee.corrigendum.7258
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -2976,7 +4232,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.3-2005/Cor 1-2006 (Corrigendum to IEEE Std 802.3-2005)
     style: v3
-- id: ieee.corrigendum.7191
+- id: ieee.corrigendum.7259
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -2996,7 +4252,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.3-2005/Cor 2-2007 (Corrigendum to IEEE Std 802.3-2005)
     style: v3
-- id: ieee.corrigendum.7193
+- id: ieee.corrigendum.7261
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3016,7 +4272,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 802.3-2008/Cor 1-2009 (Corrigendum to IEEE Std 802.3-2008)
     style: v3
-- id: ieee.corrigendum.7392
+- id: ieee.corrigendum.7460
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3033,7 +4289,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std 952-1997/Cor 1-2016 (Corrigendum to IEEE Std 952-1997)
     style: v3
-- id: ieee.corrigendum.7445
+- id: ieee.corrigendum.7513
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3054,7 +4310,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C135.80-2012/Cor 1-2020 (Corrigendum to IEEE Std C135.80-2012)
     style: v3
-- id: ieee.corrigendum.7464
+- id: ieee.corrigendum.7532
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3075,7 +4331,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C37.012-2014/Cor 1-2016 (Corrigendum to IEEE Std C37.012-2014)
     style: v3
-- id: ieee.corrigendum.7477
+- id: ieee.corrigendum.7545
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3096,7 +4352,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C37.016-2018/Cor 1-2021 (Corrigendum to IEEE Std C37.016-2018)
     style: v3
-- id: ieee.corrigendum.7481
+- id: ieee.corrigendum.7549
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3117,7 +4373,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C37.04-1999/Cor 1-2009 (Corrigendum to IEEE Std C37.04-1999)
     style: v3
-- id: ieee.corrigendum.7484
+- id: ieee.corrigendum.7552
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3138,7 +4394,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C37.04-2018/Cor 1-2021 (Corrigendum to IEEE Std C37.04-2018)
     style: v3
-- id: ieee.corrigendum.7495
+- id: ieee.corrigendum.7563
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3159,7 +4415,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C37.09-1999/Cor 1-2007 (Corrigendum to IEEE Std C37.09-1999)
     style: v3
-- id: ieee.corrigendum.7498
+- id: ieee.corrigendum.7566
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3180,7 +4436,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C37.09-2018 Cor 1-2021
     style: v3
-- id: ieee.corrigendum.7546
+- id: ieee.corrigendum.7614
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3201,7 +4457,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C37.110-2007/Cor 1-2010 (Corrigendum to IEEE Std C37.110-2007)
     style: v3
-- id: ieee.corrigendum.7649
+- id: ieee.corrigendum.7717
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3223,7 +4479,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C37.20.7-2007/Cor 1-2010 (Corrigendum to IEEE Std C37.20.7-2007)
     style: v3
-- id: ieee.corrigendum.7651
+- id: ieee.corrigendum.7719
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3245,7 +4501,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C37.20.7-2017/Cor 1-2021 (Corrigendum to IEEE Std C37.20.7-2017)
     style: v3
-- id: ieee.corrigendum.7676
+- id: ieee.corrigendum.7744
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3266,7 +4522,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C37.24-2017/Cor 1-2019 (Corrigendum to IEEE Std C37.24-2017)
     style: v3
-- id: ieee.corrigendum.7723
+- id: ieee.corrigendum.7791
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3287,7 +4543,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C37.41-2016/Cor 1-2017 (Corrigenda to IEEE Std C37.41-2016)
     style: v3
-- id: ieee.corrigendum.7753
+- id: ieee.corrigendum.7821
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3308,7 +4564,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C37.60-2003/Cor 1-2004 (Corrigendum to IEEE Std C37.60-2003)
     style: v3
-- id: ieee.corrigendum.7850
+- id: ieee.corrigendum.7918
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3330,7 +4586,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C57.12.10-2010/Cor 1-2012 (Corrigendum to IEEE Std C57.12.10-2010)
     style: v3
-- id: ieee.corrigendum.7877
+- id: ieee.corrigendum.7945
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3352,7 +4608,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C57.12.31-2010-Cor 1-2014 (Corrigendum to IEEE Std C57.12.31-2010)
     style: v3
-- id: ieee.corrigendum.7924
+- id: ieee.corrigendum.7992
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3374,7 +4630,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C57.12.60-2009/Cor 1-2013 (Corrigendum to IEEE Std C57.12.60-2009)
     style: v3
-- id: ieee.corrigendum.7939
+- id: ieee.corrigendum.8007
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3396,7 +4652,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C57.12.90-2015/Cor 1-2017 (Corrigendum to IEEE Std C57.12.90-2015)
     style: v3
-- id: ieee.corrigendum.8026
+- id: ieee.corrigendum.8094
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3417,7 +4673,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C57.163-2015/Cor 1-2016 (Corrigendum to IEEE Std C57.163-2015)
     style: v3
-- id: ieee.corrigendum.8052
+- id: ieee.corrigendum.8120
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3438,7 +4694,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C57.91-1995/Cor 1-2002
     style: v3
-- id: ieee.corrigendum.8076
+- id: ieee.corrigendum.8144
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3459,7 +4715,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std. C62.21-2003/Cor 1-2008 (Corrigendum to IEEE Std C62.21-2003)
     style: v3
-- id: ieee.corrigendum.8095
+- id: ieee.corrigendum.8163
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3480,7 +4736,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C62.35-2010/Cor 1-2018 (Corrigendum to IEEE Std C62.35-2010)
     style: v3
-- id: ieee.corrigendum.8111
+- id: ieee.corrigendum.8179
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3502,7 +4758,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C62.41.2-2002_Cor 1-2012 (Corrigendum to IEEE Std C62.41.2-2002)
     style: v3
-- id: ieee.corrigendum.8134
+- id: ieee.corrigendum.8202
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3523,7 +4779,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C62.55-2017/Cor 1-2018 (Corrigendum to IEEE Std C62.55-2017)
     style: v3
-- id: ieee.corrigendum.8180
+- id: ieee.corrigendum.8248
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -3544,7 +4800,7 @@
   non_normalized_aliases:
   - spelling: IEEE Std C95.1-2019/Cor 2-2020 (Corrigenda to IEEE Std C95.1-2019)
     style: v3
-- id: ieee.corrigendum.8227
+- id: ieee.corrigendum.8295
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3564,11 +4820,31 @@
     urn: urn:ieee:ieee:1999
   style: v3
   non_normalized_aliases:
-  - spelling: IEEE Unapproved Draft Std C37.04-1999/Cor 1/DB2, Apr 2009
-    style: v3
   - spelling: IEEE Unapproved Draft Std C37.04-1999/Cor 1_DB2, Apr 2009
     style: v3
-- id: ieee.corrigendum.8297
+- id: ieee.corrigendum.8296
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: '37'
+      year: '1999'
+      draft_status: Unapproved
+      draft: DB2-2009-04
+      prefix: C
+      parts:
+      - '04'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Unapproved C37.04-1999/DB2-2009-04/Cor. 1
+    urn: urn:ieee:ieee:1999
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Unapproved Draft Std C37.04-1999/Cor 1/DB2, Apr 2009
+    style: v3
+- id: ieee.corrigendum.8366
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3586,7 +4862,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std P1137_Cor 1/D2, Jun 2009
     style: v3
-- id: ieee.corrigendum.8324
+- id: ieee.corrigendum.8393
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3604,11 +4880,29 @@
     urn: urn:ieee:ieee:2008
   style: v3
   non_normalized_aliases:
-  - spelling: IEEE Unapproved Draft Std P1293-1998/Cor 1-2008/D3, May 2008
-    style: v3
   - spelling: IEEE Unapproved Draft Std P1293-1998/Cor 1-2008_D3, May 2008
     style: v3
-- id: ieee.corrigendum.8339
+- id: ieee.corrigendum.8394
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    year: '2008'
+    base:
+      _type: pubid:ieee:standard
+      number: '1293'
+      year: '1998'
+      draft_status: Unapproved
+      draft: D3-2008-05
+      prefix: P
+      stage: D2
+  representations:
+    human: IEEE Unapproved P1293-1998/D3-2008-05/Cor. 1-2008
+    urn: urn:ieee:ieee:2008
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Unapproved Draft Std P1293-1998/Cor 1-2008/D3, May 2008
+    style: v3
+- id: ieee.corrigendum.8409
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3625,11 +4919,28 @@
     urn: urn:ieee:ieee:2004
   style: v3
   non_normalized_aliases:
-  - spelling: IEEE Unapproved Draft Std P1431-2004/Cor 1/D3, Apr 2008
-    style: v3
   - spelling: IEEE Unapproved Draft Std P1431-2004/Cor 1_D3, Apr 2008
     style: v3
-- id: ieee.corrigendum.8353
+- id: ieee.corrigendum.8410
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: '1431'
+      year: '2004'
+      draft_status: Unapproved
+      draft: D3-2008-04
+      prefix: P
+      stage: D2
+  representations:
+    human: IEEE Unapproved P1431-2004/D3-2008-04/Cor. 1
+    urn: urn:ieee:ieee:2004
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Unapproved Draft Std P1431-2004/Cor 1/D3, Apr 2008
+    style: v3
+- id: ieee.corrigendum.8424
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3650,11 +4961,32 @@
     urn: urn:ieee:ieee:2002
   style: v3
   non_normalized_aliases:
-  - spelling: IEEE Unapproved Draft Std P1484.12.1-2002/Cor 1/D13, Jan 2010
-    style: v3
   - spelling: IEEE Unapproved Draft Std P1484.12.1-2002/Cor 1_D13, Jan 2010
     style: v3
-- id: ieee.corrigendum.8479
+- id: ieee.corrigendum.8425
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: '1484'
+      year: '2002'
+      draft_status: Unapproved
+      draft: D13-2010-01
+      prefix: P
+      parts:
+      - '12'
+      - '1'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Unapproved P1484.12.1-2002/D13-2010-01/Cor. 1
+    urn: urn:ieee:ieee:2002
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Unapproved Draft Std P1484.12.1-2002/Cor 1/D13, Jan 2010
+    style: v3
+- id: ieee.corrigendum.8551
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3673,7 +5005,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std P1672-2006_Cor 1/D3, Jun 2008
     style: v3
-- id: ieee.corrigendum.8567
+- id: ieee.corrigendum.8639
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3689,10 +5021,26 @@
     human: IEEE Unapproved P497-2002/D3, Jan 2007/Cor. 1
     urn: urn:ieee:ieee:2002
   style: v3
+- id: ieee.corrigendum.8640
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: '497'
+      year: '2002'
+      draft_status: Unapproved
+      draft: D3-2007-01
+      prefix: P
+      stage: D2
+  representations:
+    human: IEEE Unapproved P497-2002/D3-2007-01/Cor. 1
+    urn: urn:ieee:ieee:2002
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std P497-2002/Cor 1/D3, January 2007
     style: v3
-- id: ieee.corrigendum.8572
+- id: ieee.corrigendum.8645
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3707,10 +5055,25 @@
     human: IEEE Unapproved P525/D1, Sept 2007/Cor. 1
     urn: urn:ieee:ieee
   style: v3
+- id: ieee.corrigendum.8646
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: '525'
+      draft_status: Unapproved
+      draft: D1-2007-09
+      prefix: P
+      stage: D1
+  representations:
+    human: IEEE Unapproved P525/D1-2007-09/Cor. 1
+    urn: urn:ieee:ieee
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std P525/Cor 1/D1, Sept 2007
     style: v3
-- id: ieee.corrigendum.8573
+- id: ieee.corrigendum.8647
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3728,7 +5091,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std P525_Cor 1/D2, Dec 2007
     style: v3
-- id: ieee.corrigendum.8586
+- id: ieee.corrigendum.8660
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3744,11 +5107,27 @@
     urn: urn:ieee:ieee
   style: v3
   non_normalized_aliases:
-  - spelling: IEEE Unapproved Draft Std P671/Cor 1/D2, Oct 2009
-    style: v3
   - spelling: IEEE Unapproved Draft Std P671/Cor 1_D2, Oct 2009
     style: v3
-- id: ieee.corrigendum.8656
+- id: ieee.corrigendum.8661
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: '671'
+      draft_status: Unapproved
+      draft: D2-2009-10
+      prefix: P
+      stage: D2
+  representations:
+    human: IEEE Unapproved P671/D2-2009-10/Cor. 1
+    urn: urn:ieee:ieee
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Unapproved Draft Std P671/Cor 1/D2, Oct 2009
+    style: v3
+- id: ieee.corrigendum.8731
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -3769,7 +5148,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std P802.16-2004/Cor 2/D4
     style: v3
-- id: ieee.corrigendum.8722
+- id: ieee.corrigendum.8797
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3793,7 +5172,7 @@
     style: v3
   - spelling: IEEE Unapproved Draft Std P802.1ak-2007/Cor 1_D3.0,May 2008
     style: v3
-- id: ieee.corrigendum.8723
+- id: ieee.corrigendum.8798
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3814,7 +5193,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std P802.1ak_Cor 1/D1.0, Dec 2007
     style: v3
-- id: ieee.corrigendum.8724
+- id: ieee.corrigendum.8799
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3835,7 +5214,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std P802.1ak-2007/Cor 1/D2.0
     style: v3
-- id: ieee.corrigendum.8745
+- id: ieee.corrigendum.8820
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3854,10 +5233,7 @@
     human: IEEE Unapproved P802.3-2005/D2.0, Mar 2006/Cor. 1
     urn: urn:ieee:ieee:2005
   style: v3
-  non_normalized_aliases:
-  - spelling: IEEE Unapproved Std P802.3-2005/Cor 1/D2.0, Mar 2006
-    style: v3
-- id: ieee.corrigendum.8746
+- id: ieee.corrigendum.8821
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'
@@ -3876,10 +5252,51 @@
     human: IEEE Unapproved P802.3-2005/D2.0, Mar 2007/Cor. 2
     urn: urn:ieee:ieee:2005
   style: v3
+- id: ieee.corrigendum.8822
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: '802'
+      year: '2005'
+      draft_status: Unapproved
+      draft: D2.0-2006-03
+      prefix: P
+      parts:
+      - '3'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Unapproved P802.3-2005/D2.0-2006-03/Cor. 1
+    urn: urn:ieee:ieee:2005
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE Unapproved Std P802.3-2005/Cor 1/D2.0, Mar 2006
+    style: v3
+- id: ieee.corrigendum.8823
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '2'
+    base:
+      _type: pubid:ieee:standard
+      number: '802'
+      year: '2005'
+      draft_status: Unapproved
+      draft: D2.0-2007-03
+      prefix: P
+      parts:
+      - '3'
+      separator: "."
+      stage: Std
+  representations:
+    human: IEEE Unapproved P802.3-2005/D2.0-2007-03/Cor. 2
+    urn: urn:ieee:ieee:2005
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std P802.3-2005/Cor 2/D2.0, Mar 2007
     style: v3
-- id: ieee.corrigendum.8792
+- id: ieee.corrigendum.8871
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3898,10 +5315,29 @@
     human: IEEE Unapproved PC37.04-1999/D3, May 2009/Cor. 1
     urn: urn:ieee:ieee:1999
   style: v3
+- id: ieee.corrigendum.8872
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: C37
+      year: '1999'
+      draft_status: Unapproved
+      draft: D3-2009-05
+      prefix: P
+      parts:
+      - '04'
+      separator: "."
+      stage: D2
+  representations:
+    human: IEEE Unapproved PC37.04-1999/D3-2009-05/Cor. 1
+    urn: urn:ieee:ieee:1999
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std PC37.04-1999/Cor 1/D3, May 2009
     style: v3
-- id: ieee.corrigendum.8826
+- id: ieee.corrigendum.8906
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3921,10 +5357,30 @@
     human: IEEE Unapproved PC37.20.7-2001/D3, Aug 2009/Cor. 1
     urn: urn:ieee:ieee:2001
   style: v3
+- id: ieee.corrigendum.8907
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: C37
+      year: '2001'
+      draft_status: Unapproved
+      draft: D3-2009-08
+      prefix: P
+      parts:
+      - '20'
+      - '7'
+      separator: "."
+      stage: D2
+  representations:
+    human: IEEE Unapproved PC37.20.7-2001/D3-2009-08/Cor. 1
+    urn: urn:ieee:ieee:2001
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std PC37.20.7-2001 Cor 1/D3, Aug 2009
     style: v3
-- id: ieee.corrigendum.8827
+- id: ieee.corrigendum.8908
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3946,7 +5402,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std PC37.20.7-2007 Cor 1/D4
     style: v3
-- id: ieee.corrigendum.8912
+- id: ieee.corrigendum.8993
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3968,7 +5424,7 @@
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std PC62.21-2003-Cor_1/D5, Mar 2008
     style: v3
-- id: ieee.corrigendum.8914
+- id: ieee.corrigendum.8995
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -3986,10 +5442,28 @@
     human: IEEE Unapproved PC62.21/D4, Oct 2007/Cor. 1
     urn: urn:ieee:ieee
   style: v3
+- id: ieee.corrigendum.8996
+  identifier:
+    _type: pubid:ieee:corrigendum
+    number: '1'
+    base:
+      _type: pubid:ieee:standard
+      number: C62
+      draft_status: Unapproved
+      draft: D4-2007-10
+      prefix: P
+      parts:
+      - '21'
+      separator: "."
+      stage: D4
+  representations:
+    human: IEEE Unapproved PC62.21/D4-2007-10/Cor. 1
+    urn: urn:ieee:ieee
+  style: v3
   non_normalized_aliases:
   - spelling: IEEE Unapproved Draft Std PC62.21/Cor 1/D4, Oct 2007
     style: v3
-- id: ieee.corrigendum.9066
+- id: ieee.corrigendum.9148
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -4018,7 +5492,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE 8802-1AC:2018/Cor.1:2020(E)
     style: v2
-- id: ieee.corrigendum.9070
+- id: ieee.corrigendum.9152
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -4047,7 +5521,7 @@
   - spelling: ISO/IEC/IEEE 8802-1AE:2020/Cor.1:2021 (Adoption of IEEE Standard 802.1AE-2018/Cor
       1 -2020)
     style: v2
-- id: ieee.corrigendum.9075
+- id: ieee.corrigendum.9157
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -4076,7 +5550,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE 8802-1AX:2016/Cor.1:2018(E)
     style: v2
-- id: ieee.corrigendum.9086
+- id: ieee.corrigendum.9168
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -4105,7 +5579,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE 8802-1Q:2016/Cor 1:2017(E)
     style: v3
-- id: ieee.corrigendum.9093
+- id: ieee.corrigendum.9175
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -4134,7 +5608,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE 8802-21:2018/Cor.1:2018(E)
     style: v2
-- id: ieee.corrigendum.9110
+- id: ieee.corrigendum.9192
   identifier:
     _type: pubid:ieee:corrigendum
     number: '1'
@@ -4163,7 +5637,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE 8802-3:2017/Cor.1:2018(E)
     style: v2
-- id: ieee.corrigendum.9126
+- id: ieee.corrigendum.9208
   identifier:
     _type: pubid:ieee:corrigendum
     number: '2'

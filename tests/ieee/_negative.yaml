@@ -1184,14 +1184,10 @@
       code: unclassified
 - id: ieee.neg.standard.0017
   input: IEEE P11073-10418-2011/Cor 1, D4, July 2015 (Corrigendum to IEEE Std 11073-10418-2011)
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.standard.0018
   input: IEEE P11073-20601-2014/Cor 1, D6, July 2015 (Corrigendum to IEEE Std 11073-20601-2014)
-  expect:
-    error:
-      code: unclassified
+  notes: fail fixture unexpectedly parsed - reclassify
 - id: ieee.neg.standard.0019
   input: IEEE P802.11e/D6.0, November 2003 (Draft Amendment to IEEE Std 802.11, 1999
     Edition (Reaff 2003))

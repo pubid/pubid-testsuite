@@ -537,14 +537,14 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 31.'
+    expected one of [[\x30-\x39]] at line 1 char 40.'
 - id: ieee.debt.3738829d97f4
   input: IEEE P1003.1-2008/Cor 1-201x/D5, August 2012
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 31.'
+    expected one of [[\x30-\x39]] at line 1 char 40.'
 - id: ieee.debt.9ea718488e75
   input: IEEE P1012 Corrigendum/D1, January 2017
   expect:
@@ -567,24 +567,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''IS'', [\x30-\x39], ''.'', ''-'', ''&#x2013;'', ''–'', [\x41-\x5a],
     [\x61-\x7a]] at line 1 char 20.'
-- id: ieee.debt.5646c488b919
-  input: IEEE P11073-10418-2011/Cor 1, D4, July 2015 (Corrigendum to IEEE Std 11073-10418-2011)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
-    ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
-    ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.a8c8c70509f9
-  input: IEEE P11073-20601-2014/Cor 1, D6, July 2015 (Corrigendum to IEEE Std 11073-20601-2014)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
-    ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
-    ''December'', ''February'', ''August'', ''June'', ''January'','
 - id: ieee.debt.14b0be21d6fe
   input: IEEE P1215/D4/May 2012
   expect:
@@ -891,13 +873,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''Redline'', ''REDLINE'', ''redline''] at line 1 char 54.'
-- id: ieee.debt.bdfb89e02171
-  input: IEEE P802.1AE-2018-Rev/Cor 1/D1.0, August 2019 (Corrigendum to IEEE Std 802.1AE-2018)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x32]] at line 1 char 29.'
 - id: ieee.debt.7ec77aeccdff
   input: IEEE P802.1QREVD2.2, July 2014 (Incorporating IEEE 802.1Q-2011, IEEE 802.1Qbe,
     IEEE 802.1Qbc, IEEE 802.1Qbb-2011, IEEE 802.1Qaz-2011, IEEE 802.1Qbf-2011, IEEE
@@ -1408,13 +1383,6 @@
     expected one of [''Cor'', ''INT'', ''Conformance'', ''Corrigendum'', ''Amendment'',
     ''Amd'', ''/'', ''REV'', ''Rev'', ''rev'', ''_'', ''-'', ''&#x2013;'', ''–'',
     '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Fe'
-- id: ieee.debt.b49beeb4f00c
-  input: IEEE Std C57.12.60-2009 ( Revision of IEEE Std C57.12.60-1998)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
-    ''revision_of'' value is a ''String'' but should be a ''Pubid::Ieee::Identifier'''
 - id: ieee.debt.fd8b945e5a4e
   input: IEEE Std C57.13-1993(R2003) (Revision of IEEE Std C57.13-1978
   expect:
@@ -1946,34 +1914,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 8.'
-- id: ieee.debt.e5408b316ad2
-  input: IEEE Std 1207-2011 (Revision to IEEE Std 1207-2004)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
-    ''revision_of'' value is a ''String'' but should be a ''Pubid::Ieee::Identifier'''
-- id: ieee.debt.d3d66004ea35
-  input: IEEE Std 1207-2011 (Revision to IEEE Std 1207-2004) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
-    ''revision_of'' value is a ''String'' but should be a ''Pubid::Ieee::Identifier'''
-- id: ieee.debt.aa57103ce8d3
-  input: IEEE Std 1725-2011 (Revision to IEEE Std 1725-2006)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
-    ''revision_of'' value is a ''String'' but should be a ''Pubid::Ieee::Identifier'''
-- id: ieee.debt.4b42ffaa3242
-  input: IEEE Std 1725-2011 (Revision to IEEE Std 1725-2006) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
-    ''revision_of'' value is a ''String'' but should be a ''Pubid::Ieee::Identifier'''
 - id: ieee.debt.2f6fa361c232
   input: IEC 61523-4:2015-03, ED1 (IEEE Std 1801-2013)
   expect:
@@ -2258,27 +2198,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''IS'', [\x30-\x39], ''.'', ''-'', ''&#x2013;'', ''–'', [\x41-\x5a],
     [\x61-\x7a]] at line 1 char 23.'
-- id: ieee.debt.e8ab09e427c2
-  input: IEEE Std 802-2014 (Revision to IEEE Std 802-2001)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
-    ''revision_of'' value is a ''String'' but should be a ''Pubid::Ieee::Identifier'''
-- id: ieee.debt.313bfa459723
-  input: IEEE Std 802-2014 (Revision to IEEE Std 802-2001) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
-    ''revision_of'' value is a ''String'' but should be a ''Pubid::Ieee::Identifier'''
-- id: ieee.debt.592b254035f9
-  input: IEEE Std 802.3-2012 (Revision to IEEE Std 802.3-2008)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
-    ''revision_of'' value is a ''String'' but should be a ''Pubid::Ieee::Identifier'''
 - id: ieee.debt.8fb498dedc4f
   input: ANSI C50.32-1976 and IEEE Std 117-1974 (Reaffirmed 1984) (Revision of IEEE
     Std 117-1956)
@@ -2939,34 +2858,6 @@
     expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Corrigendum'', ''Cor'',
     ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'', ''rev'', ''_'', '' '', ''Sept.'',
     ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'', ''Mar.'', ''Apr'
-- id: ieee.debt.e5408b316ad2
-  input: IEEE Std 1207-2011 (Revision to IEEE Std 1207-2004)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
-    ''revision_of'' value is a ''String'' but should be a ''Pubid::Ieee::Identifier'''
-- id: ieee.debt.d3d66004ea35
-  input: IEEE Std 1207-2011 (Revision to IEEE Std 1207-2004) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
-    ''revision_of'' value is a ''String'' but should be a ''Pubid::Ieee::Identifier'''
-- id: ieee.debt.aa57103ce8d3
-  input: IEEE Std 1725-2011 (Revision to IEEE Std 1725-2006)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
-    ''revision_of'' value is a ''String'' but should be a ''Pubid::Ieee::Identifier'''
-- id: ieee.debt.4b42ffaa3242
-  input: IEEE Std 1725-2011 (Revision to IEEE Std 1725-2006) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
-    ''revision_of'' value is a ''String'' but should be a ''Pubid::Ieee::Identifier'''
 - id: ieee.debt.2f6fa361c232
   input: IEC 61523-4:2015-03, ED1 (IEEE Std 1801-2013)
   expect:
@@ -3251,27 +3142,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''IS'', [\x30-\x39], ''.'', ''-'', ''&#x2013;'', ''–'', [\x41-\x5a],
     [\x61-\x7a]] at line 1 char 23.'
-- id: ieee.debt.e8ab09e427c2
-  input: IEEE Std 802-2014 (Revision to IEEE Std 802-2001)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
-    ''revision_of'' value is a ''String'' but should be a ''Pubid::Ieee::Identifier'''
-- id: ieee.debt.313bfa459723
-  input: IEEE Std 802-2014 (Revision to IEEE Std 802-2001) - Redline
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
-    ''revision_of'' value is a ''String'' but should be a ''Pubid::Ieee::Identifier'''
-- id: ieee.debt.592b254035f9
-  input: IEEE Std 802.3-2012 (Revision to IEEE Std 802.3-2008)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
-    ''revision_of'' value is a ''String'' but should be a ''Pubid::Ieee::Identifier'''
 - id: ieee.debt.8fb498dedc4f
   input: ANSI C50.32-1976 and IEEE Std 117-1974 (Reaffirmed 1984) (Revision of IEEE
     Std 117-1956)
@@ -4184,14 +4054,14 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 31.'
+    expected one of [[\x30-\x39]] at line 1 char 40.'
 - id: ieee.debt.3738829d97f4
   input: IEEE P1003.1-2008/Cor 1-201x/D5, August 2012
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 31.'
+    expected one of [[\x30-\x39]] at line 1 char 40.'
 - id: ieee.debt.9ea718488e75
   input: IEEE P1012 Corrigendum/D1, January 2017
   expect:
@@ -4214,24 +4084,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''IS'', [\x30-\x39], ''.'', ''-'', ''&#x2013;'', ''–'', [\x41-\x5a],
     [\x61-\x7a]] at line 1 char 20.'
-- id: ieee.debt.5646c488b919
-  input: IEEE P11073-10418-2011/Cor 1, D4, July 2015 (Corrigendum to IEEE Std 11073-10418-2011)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
-    ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
-    ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.a8c8c70509f9
-  input: IEEE P11073-20601-2014/Cor 1, D6, July 2015 (Corrigendum to IEEE Std 11073-20601-2014)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
-    ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
-    ''December'', ''February'', ''August'', ''June'', ''January'','
 - id: ieee.debt.14b0be21d6fe
   input: IEEE P1215/D4/May 2012
   expect:
@@ -4538,13 +4390,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''Redline'', ''REDLINE'', ''redline''] at line 1 char 54.'
-- id: ieee.debt.bdfb89e02171
-  input: IEEE P802.1AE-2018-Rev/Cor 1/D1.0, August 2019 (Corrigendum to IEEE Std 802.1AE-2018)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x32]] at line 1 char 29.'
 - id: ieee.debt.7ec77aeccdff
   input: IEEE P802.1QREVD2.2, July 2014 (Incorporating IEEE 802.1Q-2011, IEEE 802.1Qbe,
     IEEE 802.1Qbc, IEEE 802.1Qbb-2011, IEEE 802.1Qaz-2011, IEEE 802.1Qbf-2011, IEEE
@@ -5055,13 +4900,6 @@
     expected one of [''Cor'', ''INT'', ''Conformance'', ''Corrigendum'', ''Amendment'',
     ''Amd'', ''/'', ''REV'', ''Rev'', ''rev'', ''_'', ''-'', ''&#x2013;'', ''–'',
     '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Fe'
-- id: ieee.debt.b49beeb4f00c
-  input: IEEE Std C57.12.60-2009 ( Revision of IEEE Std C57.12.60-1998)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
-    ''revision_of'' value is a ''String'' but should be a ''Pubid::Ieee::Identifier'''
 - id: ieee.debt.fd8b945e5a4e
   input: IEEE Std C57.13-1993(R2003) (Revision of IEEE Std C57.13-1978
   expect:
