@@ -13,27 +13,12 @@ oracle:
   dirty_paths:
   - lib/pubid/ieee/builder.rb
 repository:
-  commit: bb4b376abd1feb524b484f190cf55afd37e86b36
+  commit: ed874cebc0f8eb7a0501ed2457b841b7ddde2e75
   clean: false
   dirty_paths:
-  - README.md
-  - tests/ieee/_debt.yaml
+  - reference-docs/ieee/identifiers/fail/base.txt
+  - reference-docs/ieee/identifiers/fail/standard.txt
   - tests/ieee/_negative.yaml
-  - tests/ieee/adopted_standard.yaml
-  - tests/ieee/amendment.yaml
-  - tests/ieee/conformance_identifier.yaml
-  - tests/ieee/corrigendum.yaml
-  - tests/ieee/csa_dual_published.yaml
-  - tests/ieee/dual_published.yaml
-  - tests/ieee/interpretation_identifier.yaml
-  - tests/ieee/joint_development.yaml
-  - tests/ieee/multi_numbered_identifier.yaml
-  - tests/ieee/nesc_edition.yaml
-  - tests/ieee/nesc_handbook.yaml
-  - tests/ieee/nesc_preprint.yaml
-  - tests/ieee/project_draft_identifier.yaml
-  - tests/ieee/si_standard.yaml
-  - tests/ieee/standard.yaml
 ruby:
   version: 3.4.8
 counts:
@@ -41,7 +26,7 @@ counts:
   payloads: 346
   cases: 99607
   aliases: 11562
-  negatives: 761
+  negatives: 660
 payloads:
 - path: amca/_debt.yaml
   sha256: f6ad26e3804f9efd121ad090c1f88cd423eead8f92228a45edcb18993f31f460
@@ -569,8 +554,8 @@ payloads:
   sha256: bde33bbd1be30fa575476608e51b72546230be97b3685ffc80f464b246a3d14f
   bytes: 248423
 - path: ieee/_negative.yaml
-  sha256: 6f739bc6bfb1fd7246568cfdfc57a672d1ecb9b8d4b85de1afce233b50c7ccc0
-  bytes: 55505
+  sha256: a3cf7c140d7df0ad064d61bade42e4444855fbfc80b4b8b2141898cc0d8f76c5
+  bytes: 40933
 - path: ieee/_normalization.yaml
   sha256: 1089168414dae88d6aa11d40bada017717716fda06fb49b20f3cb2307eaaa4a9
   bytes: 770274
