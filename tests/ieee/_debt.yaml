@@ -531,20 +531,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''19'', ''20'', ''Redline'', ''REDLINE'', ''redline''] at line
     1 char 35.'
-- id: ieee.debt.af6b5380bbf2
-  input: IEEE P1003.1-2008/Cor 1-201x/D5, April 2012
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39]] at line 1 char 40.'
-- id: ieee.debt.3738829d97f4
-  input: IEEE P1003.1-2008/Cor 1-201x/D5, August 2012
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39]] at line 1 char 40.'
 - id: ieee.debt.9ea718488e75
   input: IEEE P1012 Corrigendum/D1, January 2017
   expect:
@@ -1230,8 +1216,8 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''('', ''P&V'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', ''-'', ''&#x2013;'', ''–'', '' '', ''Sept.'', ''Oct.'', ''Nov.'',
+    expected one of [''/'', ''_'', ''-'', ''&#x2013;'', ''–'', '' '', ''('', ''P&V'',
+    ''Amendment'', ''Amd'', ''REV'', ''Rev'', ''rev'', ''Sept.'', ''Oct.'', ''Nov.'',
     ''Dec.'', ''Jan.'', ''Feb.'', ''Mar.'', ''Apr.'', ''Jun.'', ''Ju'
 - id: ieee.debt.43a9e80f5988
   input: IEEE Std 1003.1-2008/Cor 2-2016 (Corrigendum to IEEE Std 1003.1-2008) The
@@ -4048,20 +4034,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''19'', ''20'', ''Redline'', ''REDLINE'', ''redline''] at line
     1 char 35.'
-- id: ieee.debt.af6b5380bbf2
-  input: IEEE P1003.1-2008/Cor 1-201x/D5, April 2012
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39]] at line 1 char 40.'
-- id: ieee.debt.3738829d97f4
-  input: IEEE P1003.1-2008/Cor 1-201x/D5, August 2012
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39]] at line 1 char 40.'
 - id: ieee.debt.9ea718488e75
   input: IEEE P1012 Corrigendum/D1, January 2017
   expect:
@@ -4747,8 +4719,8 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''('', ''P&V'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
-    ''rev'', ''_'', ''-'', ''&#x2013;'', ''–'', '' '', ''Sept.'', ''Oct.'', ''Nov.'',
+    expected one of [''/'', ''_'', ''-'', ''&#x2013;'', ''–'', '' '', ''('', ''P&V'',
+    ''Amendment'', ''Amd'', ''REV'', ''Rev'', ''rev'', ''Sept.'', ''Oct.'', ''Nov.'',
     ''Dec.'', ''Jan.'', ''Feb.'', ''Mar.'', ''Apr.'', ''Jun.'', ''Ju'
 - id: ieee.debt.43a9e80f5988
   input: IEEE Std 1003.1-2008/Cor 2-2016 (Corrigendum to IEEE Std 1003.1-2008) The
