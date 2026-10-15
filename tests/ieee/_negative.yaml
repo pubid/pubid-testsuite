@@ -820,6 +820,218 @@
   expect:
     error:
       code: unclassified
+- id: ieee.neg.base.0164
+  input: ISO 8802-2 IEEE 802.2, First Edition 1989-12-31 (Revision of IEEE Std 802.2-1985)
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0165
+  input: 'ISO/IEC 10861 : 1994 [ANSI/IEEE Std 1296, 1994 Edition]'
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0166
+  input: 'ISO/IEC 13213 : 1994 [ANSI/IEEE Std 1212, 1994 Edition]'
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0167
+  input: ISO/IEC 14515-1:2000
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0168
+  input: ISO/IEC 14515-1:2000/Amd.1:2003 ISO/IEC 14515-1:2000/Amd.1:2003(E)
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0169
+  input: 'ISO/IEC 14536 : 1995 [ANSI/IEEE Std 896.5, 1995 Edition]'
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0170
+  input: ISO/IEC 14575:2000
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0171
+  input: ISO/IEC 14764:2006 (E) IEEE Std 14764-2006 Revision of IEEE Std 1219-1998)
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0172
+  input: ISO/IEC 15068-2:1999
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0173
+  input: ISO/IEC 15205:2000
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0174
+  input: ISO/IEC 15288 First edition 2002-11-01
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0175
+  input: ISO/IEC 15288:2002-11-01, ED1
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0176
+  input: ISO/IEC 15288:2008(E) IEEE Std 15288-2008 (Revision of IEEE Std 15288-2004)
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0177
+  input: ISO/IEC 15288:2008(E) IEEE Std 15288-2008 (Revision of IEEE Std 15288-2004)
+    - Redline
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0178
+  input: ISO/IEC 15802-2:1995
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0179
+  input: ISO/IEC 16085:2004(E) IEEE Std 1540-2001
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0180
+  input: ISO/IEC 16509:1999
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0181
+  input: ISO/IEC 60559:2020(E) IEEE Std 754-2019
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0182
+  input: ISO/IEC 8802-11 IEEE Std 802.11 Second edition 2005-08-01 ISO/IEC 8802 11:2005(E)
+    IEEE Std 802.11i-2003 Edition
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0183
+  input: 'ISO/IEC 8802-11, Second edition: 2005/Amendment 6 2006: IEEE STD 802.11i-2004
+    (Amendment to IEEE Std 802.11-1999)'
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0184
+  input: ISO/IEC 8802-11:2005/Amd.4:2006(E) IEEE Std 802.11g-2003 (Amendment to IEEE
+    Std 802.11-1999)
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0185
+  input: ISO/IEC 8802-11:2005/Amd.5:2006(E) IEEE Std 802.11h-2003 (Amendment to IEEE
+    Std 802.11-1999)
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0186
+  input: 'ISO/IEC 8802-12: 1998 ANSI/IEEE Std 802.12, 1998 Edition (Incorporating
+    ANSI/IEEE Std 802.12-1995 and ANSI/IEEE Std 802.12d-1997)'
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0187
+  input: ISO/IEC 8802-2:1998 ANSI/IEEE Std 802.2, 1998 edition (Incorporating ANSI/IEEE
+    Stds 802.2c-1997, 802.2f-1997, and 802.2h-1997)
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0188
+  input: ISO/IEC 8802-5:1992
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0189
+  input: ISO/IEC 9945-2:19939 ANSI/IEEE Std 1003.2-1993
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0190
+  input: ISO/IEC/IEEE 12207:2017(E) ED1, 2017-11
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0191
+  input: ISO/IEC/IEEE 12207:2017(E) ED1, 2017-11 - Redline
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0192
+  input: ISO/IEC/IEEE 42010:2011(E) (Revision of ISO/IEC 42010:2007 and IEEE Std 1471-2000)
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0193
+  input: ISO/IEC/IEEE 8802-11:2012/Amd.4:2015(E) (Adoption of IEEE Std 802.11ac-2013)
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0194
+  input: ISO/IEC/IEEE 8802-3-1-2015(E) ED1, 2015-08-01
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0195
+  input: ISO/IEC/IEEE P12207-2/D2 FDIS, December 2019
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0196
+  input: ISO/IEC/IEEE P12207-2/D3 FDIS, July 2020
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0197
+  input: ISO/IEC/IEEE P15026-1/D, Dec 2018
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0198
+  input: ISO/IEC/IEEE P21840/FDIS/D4, July 2019
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0199
+  input: ISO/IEC/IEEE P23026/D2, 2013 (Revision of 2006 edition (ISO/IEC 23026:2006)
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0200
+  input: ISO/IEC/IEEE P23026/D3, 2014 (Revision of 2006 edition (ISO/IEC 23026:2006)
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0201
+  input: ISO/IEC/IEEE P24641/D2 CD, June 2020
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0202
+  input: ISO/IEC/IEEE/P16085/DIS, March 2020
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0203
+  input: ISO/IEEE 11073-10404:2010(E) (Supersedes IEEE Std 11073-10404-2008)
+  expect:
+    error:
+      code: unclassified
+- id: ieee.neg.base.0204
+  input: ISO/IEEE 11073-20601:2010/Amd 1:2015(E) (Adoption of IEEE Std 11073-20601a-2010)
+  expect:
+    error:
+      code: unclassified
 - id: ieee.neg.standard.0001
   input: 2017 National Electrical Safety Code(R) (NESC(R)) - Redline
   expect:

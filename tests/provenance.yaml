@@ -8,16 +8,22 @@ generator:
   exporter_sha256: 17c6c0e180f1ca39d3867588aa83e2d6bb081c0b1948cd7ded2f12d1cebf7dc6
 oracle:
   gem: pubid
-  commit: 29fe2a7485555e18c6a529d3bfd395532ce896f5
+  commit: 9453928dd7badda0e0ef1ee6974ffa2ed6c0a5b9
   clean: true
   dirty_paths: []
 repository:
-  commit: 2cdf04e2186c3bac020129b0814fd2be9080c7b0
+  commit: e573556de7564646219a57f40159e45f95604c6e
   clean: false
   dirty_paths:
+  - reference-docs/ieee/identifiers/fail/base.txt
+  - reference-docs/ieee/identifiers/full/complete_dataset.txt
+  - reference-docs/ieee/identifiers/full/pubid-parsed.txt
+  - reference-docs/ieee/identifiers/full/pubid-to-parse.txt
+  - reference-docs/ieee/identifiers/pass/joint_development.txt
+  - reference-docs/ieee/identifiers/pass/standard.txt
   - tests/ieee/_debt.yaml
-  - tests/ieee/joint_development.yaml
-  - tests/ieee/project_draft_identifier.yaml
+  - tests/ieee/_negative.yaml
+  - tests/ieee/_normalization.yaml
 ruby:
   version: 3.4.8
 counts:
@@ -25,7 +31,7 @@ counts:
   payloads: 346
   cases: 99621
   aliases: 11569
-  negatives: 658
+  negatives: 699
 payloads:
 - path: amca/_debt.yaml
   sha256: f6ad26e3804f9efd121ad090c1f88cd423eead8f92228a45edcb18993f31f460
@@ -550,14 +556,14 @@ payloads:
   sha256: 729458e1ed490242a8af8995ff5c201c5128740f1f4117fc8090616aff8eddd0
   bytes: 330054
 - path: ieee/_debt.yaml
-  sha256: 6c3d68b1812c5120096a7087800f935d363fa8d80987c5896cb8e1dfebb3c3b0
-  bytes: 245991
+  sha256: 11dd1a83dab6acf49c3e4f88a29552ddaf0196ba26c0fc7ddf693e589691c9c1
+  bytes: 196060
 - path: ieee/_negative.yaml
-  sha256: '08b9303c4cae97f0ec9e77df1dc74b4dfabb9ca9ab362fca81c3ca6ac3ba22cd'
-  bytes: 40684
+  sha256: fcae2512d3ec5938fa638faffb6d65148b37943e4cd1bf722fe5154d22c3d116
+  bytes: 46392
 - path: ieee/_normalization.yaml
-  sha256: 1089168414dae88d6aa11d40bada017717716fda06fb49b20f3cb2307eaaa4a9
-  bytes: 770274
+  sha256: ea16530fc748d5776e169add5ab450047b780f47df49686ba55df9542e17230c
+  bytes: 767205
 - path: ieee/adopted_standard.yaml
   sha256: caacdaa18f817b511dc3c08a6706baeed05d7985f5257f29c4dbdae5558b6919
   bytes: 46031
@@ -1013,8 +1019,8 @@ curated:
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
 - path: ieee/_status.yaml
-  sha256: 247fd5b0287b8a886ff8655f7fb85d2f0aaf29d8bcfcb24c77a5bf929accc369
-  bytes: 578
+  sha256: be68616f4f2166539ddc0e14ed8292cb2adf66b484cce34bcbbe2a91fad38416
+  bytes: 667
 - path: ietf/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
