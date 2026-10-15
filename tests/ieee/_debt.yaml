@@ -78,41 +78,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''.'', ''-'', ''&#x2013;'', ''–'', '' '', '', '', ''/'', ''_'',
     '','', ''REV'', ''Rev'', ''rev'', ''('', ''P&V'', '':''] at line 1 char 13.'
-- id: ieee.debt.dc4406056c60
-  input: IEEE/CSA Draft P844.1/D2, Sept, 2016
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 11.'
-- id: ieee.debt.ef6082a1fca5
-  input: IEEE/CSA Draft P844.1/D3, Feb, 2017
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 11.'
-- id: ieee.debt.d38c73107b98
-  input: IEEE/CSA Draft P844.1/D4, Jul, 2017
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 11.'
-- id: ieee.debt.d6b815ac9724
-  input: IEEE/CSA Draft P844.2/D2, Sept, 2016
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 11.'
-- id: ieee.debt.8418741d57be
-  input: IEEE/CSA Draft P844.2/D3, Feb, 2017
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 11.'
 - id: ieee.debt.f1d92d5f57ce
   input: IEEE//IEC/ISO Draft P80005-1/DFDIS_March, 2012
   expect:

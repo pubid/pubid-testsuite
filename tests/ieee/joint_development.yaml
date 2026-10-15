@@ -152,28 +152,6 @@
     parts:
     - '30'
     - '1'
-    separator: "."
-    publishers:
-    - IEC
-    - IEEE
-    lead_party: ISO
-    iso_stage: FDIS
-    stage: FDIS
-  representations:
-    human: IEC/IEEE FDIS P60079.30.1
-    urn: urn:ieee:iec-ieee:P60079.30.1
-  style: v3
-  non_normalized_aliases:
-  - spelling: IEC/IEEE FDIS P60079-30-1
-    style: v3
-- id: ieee.joint_development.0898
-  identifier:
-    _type: pubid:ieee:joint-development
-    number: '60079'
-    prefix: P
-    parts:
-    - '30'
-    - '1'
     separator: "-"
     publishers:
     - IEC
@@ -187,6 +165,28 @@
   style: v3
   non_normalized_aliases:
   - spelling: IEC/IEEE FDIS P60079-30-1, 2015
+    style: v3
+- id: ieee.joint_development.0898
+  identifier:
+    _type: pubid:ieee:joint-development
+    number: '60079'
+    prefix: P
+    parts:
+    - '30'
+    - '1'
+    separator: "."
+    publishers:
+    - IEC
+    - IEEE
+    lead_party: ISO
+    iso_stage: FDIS
+    stage: FDIS
+  representations:
+    human: IEC/IEEE FDIS P60079.30.1
+    urn: urn:ieee:iec-ieee:P60079.30.1
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEC/IEEE FDIS P60079-30-1
     style: v3
 - id: ieee.joint_development.0899
   identifier:
