@@ -218,15 +218,6 @@
     expected one of ['' '', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
     ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
     ''December'', ''February'', ''August'', ''June'', ''Janu'
-- id: ieee.debt.3ee8ced16bee
-  input: 'ANSI/IEEE Std 802.4-1990 (Revision of ANSI/IEEE 802.4-1985) (Adopted by
-    ISO/IEC and redesignated as ISO/IEC 8802-4: 1990)'
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''['', ''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'',
-    ''redline'', ''- (Approved Draft)'', ''(Approved Draft)''] at line 1 char 61.'
 - id: ieee.debt.6f2b414adb0e
   input: 'ANSI/IEEE Std: 8-Bit Backplane Interface - STEbus,'
   expect:
@@ -259,24 +250,6 @@
     expected one of [''Cor'', ''INT'', ''Conformance'', ''Corrigendum'', ''Amendment'',
     ''Amd'', ''/'', ''REV'', ''Rev'', ''rev'', ''_'', ''-'', ''&#x2013;'', ''–'',
     '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Fe'
-- id: ieee.debt.932399aeb812
-  input: Amendment to IEEE Std 802.11-2007 as amended by IEEE Std 802.11k-2008, IEEE
-    Std 802.11r-2008, IEEE Std 802.11y-2008, IEEE Std 802.11w-2009, IEEE Std 802.11n-2009,
-    IEEE Std 802.11p-2010, IEEE Std 802.11z-2010, and IEEE Std 802.11v-2011
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 2.'
-- id: ieee.debt.b88ce9ade959
-  input: 'American National Standard for Methods of Measurement of Radio- Noise Emissions
-    from Low-Voltage Electrical and Electronic Equipment in the Range of 9 kHz to
-    40 GHz--Amendment 1: Test Site Validation'
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 2.'
 - id: ieee.debt.3a5e5d53b571
   input: Corrigendum to IEEE Std 802.3-2015 as amended by IEEE Std 802.3bw-2015, IEEE
     Std 802.3by-2016, IEEE Std 802.3bq-2016, IEEE Std 802.3bp-2016, IEEE Std 802.3br-2016,
@@ -287,13 +260,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 2.'
-- id: ieee.debt.eb97a0de7b92
-  input: Draft IEEE P802.15.4REVi/D09, April 2011 (Revision of IEEE Std 802.15.4-2006)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 11.'
 - id: ieee.debt.09abc7112853
   input: Electrical Safety Manual for Power and Communications Industries [Adapted
     from the 2017 IEEE NESC(R) Handbook Premier Edition] - Chinese Edition
@@ -663,24 +629,6 @@
     expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
     ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
     ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.e221d52ceb23
-  input: IEEE P802.11ad/D5.0, September 2011, (Draft Amendment based on IEEE P802.11REVmb
-    D10.0) as amended by IEEE 802.11ae D5.0 and IEEE 802.11aa D6.0)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
-    ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
-    ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.0733a5cc4858
-  input: IEEE P802.11e/D6.0, November 2003 (Draft Amendment to IEEE Std 802.11, 1999
-    Edition (Reaff 2003))
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', '':''] at line 1 char 88.'
 - id: ieee.debt.3ca0fbfecc6c
   input: IEEE P802.11u/D12.0, September 2010.
   expect:
@@ -695,16 +643,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''REV'', ''Rev'', ''rev''] at line 1 char 34.'
-- id: ieee.debt.ead4b3c919ce
-  input: IEEE P802.15.4e/D6.0, July 2011 based on Draft IEEE P802.15.4 REVi/D09 (Revision
-    of IEEE Std 802.15.4-2006)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''REV'', ''Rev'', ''rev'', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'',
-    ''Jan.'', ''Feb.'', ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'',
-    ''November'', ''December'', ''February'', ''August'
 - id: ieee.debt.bdd11e2022ad
   input: IEEE P802.15.4e/D7.0, September 2011, based on IEEE P802.15.4-2011
   expect:
@@ -753,13 +691,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of ['' '', '', '', ''19'', ''20'', ''0'', ''1''] at line 1 char 22.'
-- id: ieee.debt.5c257a5c2bd4
-  input: IEEE P802.16/D6 (Revision of IEEE Std 802.16-2009) - Approved Draft
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Redline'', ''REDLINE'', ''redline''] at line 1 char 54.'
 - id: ieee.debt.7ec77aeccdff
   input: IEEE P802.1QREVD2.2, July 2014 (Incorporating IEEE 802.1Q-2011, IEEE 802.1Qbe,
     IEEE 802.1Qbc, IEEE 802.1Qbb-2011, IEEE 802.1Qaz-2011, IEEE 802.1Qbf-2011, IEEE
@@ -771,30 +702,6 @@
     expected one of ['' '', [\x30-\x39], ''/'', ''_'', ''-'', ''&#x2013;'', ''–'',
     ''.'', ''REV'', ''Rev'', ''rev'', '','', ''('', ''P&V'', '', '', '':''] at line
     1 char 16.'
-- id: ieee.debt.7bcbabaa1f7d
-  input: IEEE P802.1Qbe/D1.5_May 2010 (Draft Amendment to IEEE Std 802.1Q-2005)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''REV'', ''Rev'', ''rev'', ''Corrigendum'', ''Cor''] at line
-    1 char 21.'
-- id: ieee.debt.1f8c92f331f4
-  input: IEEE P802.1Qbe/D1.6_August 2010 (Draft Amendment to IEEE Std 802.1Q-2005)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''REV'', ''Rev'', ''rev'', ''Corrigendum'', ''Cor''] at line
-    1 char 21.'
-- id: ieee.debt.ea684b9aa3dd
-  input: IEEE P802.1Qbe/D1.7_April 2011 (Draft Amendment to IEEE Std 802.1Q-2005)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''REV'', ''Rev'', ''rev'', ''Corrigendum'', ''Cor''] at line
-    1 char 21.'
 - id: ieee.debt.61b0ca2e11da
   input: IEEE P802.1Qcd/D2.0, August , 2014
   expect:
@@ -809,51 +716,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of ['' '', '':''] at line 1 char 62.'
-- id: ieee.debt.8af3f37b1a39
-  input: IEEE P802.1Xbx/D1.2 ,DRAFT Amendment to IEEE Std 802.1X2010
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
-    ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
-    ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.aa9fae253b82
-  input: IEEE P802.1aq/D4.3, DRAFT Amendment to IEEE Std 802.1Q -2011, September 2011
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
-    ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
-    ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.8794e27a8b44
-  input: IEEE P802.1aq/D4.4, DRAFT Amendment to IEEE Std 802.1Q -2011, December 2011
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
-    ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
-    ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.b1fd05b9fa5d
-  input: IEEE P802.1aq/D4.5, DRAFT Amendment to IEEE Std 802.1Q -2011, February 2012
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
-    ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
-    ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.a399a7d575f5
-  input: IEEE P802.1aq/D4.6, DRAFT Amendment to IEEE Std 802.1Q -2011, February 2012
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
-    ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
-    ''December'', ''February'', ''August'', ''June'', ''January'','
 - id: ieee.debt.5125c099ba98
   input: IEEE P802.20a Draft 2.1, October 2010
   expect:
@@ -863,35 +725,6 @@
     expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Cor'', ''INT'', ''Conformance'',
     ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'', ''Mar.'', ''Apr.'',
     ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''Novembe'
-- id: ieee.debt.1f7f4c89f0d8
-  input: IEEE P802.3br/D3.1, 13 April 2016 (Amendment of IEEE Std 802.3-2015
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x32]] at line 1 char 22.'
-- id: ieee.debt.19306d848ee8
-  input: IEEE P802.3bu/D3.1, August 2016 Amendment of IEEE Std 802.3-2015 as amended
-    by IEEE Std 802.3bw-2015, IEEE Std 802.3by-2016, IEEE Std 802.3bq-2016, IEEE Std
-    802.3bp-2016, IEEE Std 802.3br-2016, IEEE Std 802.3bz-201X. and IEEE Std 802.3bn-201X)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''REV'', ''Rev'', ''rev'', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'',
-    ''Jan.'', ''Feb.'', ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'',
-    ''November'', ''December'', ''February'', ''August'
-- id: ieee.debt.52168c794df5
-  input: IEEE P802.3bu/D3.3, October 2016 Amendment of IEEE Std 802.3-2015 as amended
-    by IEEE Std 802.3bw-2015, IEEE Std 802.3by-2016, IEEE Std 802.3bq-2016, IEEE Std
-    802.3bp-2016, IEEE Std 802.3br-2016, IEEE Std 802.3bz-201X. and IEEE Std 802.3bn-201X)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''REV'', ''Rev'', ''rev'', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'',
-    ''Jan.'', ''Feb.'', ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'',
-    ''November'', ''December'', ''February'', ''August'
 - id: ieee.debt.334b8f63cc9b
   input: IEEE P802.3cc/DP802.3.2/D3.0, September 2018
   expect:
@@ -989,15 +822,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [[\x30-\x39], ''19'', ''20'', [\x41-\x5a], [\x61-\x7a], ''.'',
     ''REV'', ''Rev'', ''rev''] at line 1 char 24.'
-- id: ieee.debt.a86f7fd460ac
-  input: IEEE PC37.13 - Amendment 1/D4, July 2011
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
-    ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
-    ''December'', ''February'', ''August'', ''June'', ''January'','
 - id: ieee.debt.2725b1a2ef86
   input: IEEE PC37.20.9 / D7.2 201X
   expect:
@@ -1031,13 +855,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [[\x30-\x39]] at line 1 char 29.'
-- id: ieee.debt.f1a0f8c88c80
-  input: IEEE PC57.12.00 August 2015 / D2.2 (Revision of IEEE Std C57.12.00-2010)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''ASHRAE'', ''Corrigendum'', ''Cor''] at line 1 char 33.'
 - id: ieee.debt.2edc3896ba95
   input: IEEE PC57.130/D 4, March 2014
   expect:
@@ -1101,15 +918,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 8.'
-- id: ieee.debt.ab078ea406da
-  input: 'IEEE Standard for Ethernet Amendment 3: Physical Layer Specifications and
-    Management Parameters for 40 Gb/s and 100 Gb/s Operation over Fiber Optic Cables'
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''P'', [\x41-\x5a], [\x30-\x39], ''S'', ''No''] at line 1 char
-    15.'
 - id: ieee.debt.f8c69aadb3b5
   input: IEEE Std 1003.1-2001/Cor 1-2002. The Open Group Technical Standard Base Specifications,
     Issue 6
@@ -1145,14 +953,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''R'', ''D'', ''REV'', ''Rev'', ''rev'', ''ASHRAE'', ''Corrigendum'',
     ''Cor''] at line 1 char 24.'
-- id: ieee.debt.e3f9d6cbd4a7
-  input: IEEE Std 1057-2007 (Revision of IEEE 1057-1994) (Full-Use)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''['', ''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'',
-    ''redline'', ''- (Approved Draft)'', ''(Approved Draft)''] at line 1 char 49.'
 - id: ieee.debt.a597bae72c41
   input: IEEE Std 1215 - IEEE Guide for the Application of Separable Insulated Connectors
   expect:
@@ -1187,49 +987,6 @@
     expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
     ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
     ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
-- id: ieee.debt.34308cfbdb10
-  input: IEEE Std 7-4.3.2-2010 I (Revision of EEE Std 7-4.3.2-2003)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Cor'', ''INT'', ''Conformance'', ''Corrigendum'', ''Amendment'',
-    ''Amd'', ''/'', ''REV'', ''Rev'', ''rev'', ''_'', ''-'', ''&#x2013;'', ''–'',
-    '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Fe'
-- id: ieee.debt.283d5085e1d9
-  input: IEEE Std 738-2012 Draft 10 (Revision of IEEE Std 738-2006)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Cor'', ''INT'', ''Conformance'', ''Corrigendum'', ''Amendment'',
-    ''Amd'', ''/'', ''REV'', ''Rev'', ''rev'', ''_'', ''-'', ''&#x2013;'', ''–'',
-    '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Fe'
-- id: ieee.debt.0c1a82cef525
-  input: IEEE Std 802.11e-2005 (Amendment to IEEE Std 802.11, 1999 Edition (Reaff
-    2003)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', '':''] at line 1 char 70.'
-- id: ieee.debt.c991898ba650
-  input: IEEE Std 802.11g-2003 (Amendment to IEEE Std 802.11, 1999 Edn. (Reaff 2003)
-    as amended by IEEE Stds 802.11a-1999, 802.11b-1999, 802.11b-1999/Cor 1-2001, and
-    802.11d-2001)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''['', ''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'',
-    ''redline'', ''- (Approved Draft)'', ''(Approved Draft)''] at line 1 char 66.'
-- id: ieee.debt.72834c2cb8dd
-  input: IEEE Std 802.11h-2003 (Amendment to IEEE Std 802.11, 1999 Edn. (Reaff 2003))
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', '':''] at line 1 char 65.'
 - id: ieee.debt.8de14a05b2ea
   input: IEEE Std 802.16 / Conformance02-2003 (Conformance to IEEE Std 802.16-2001
     as ammended by IEEE Std 802.16a-2003 and IEEE Std 802.16c-2002)
@@ -1240,15 +997,6 @@
     expected one of [''C'', ''CSA'', ''Cor'', ''INT'', ''Conformance'', ''Corrigendum'',
     ''Amendment'', ''Amd'', ''ASHRAE'', ''REV'', ''Rev'', ''rev'', ''R'', ''D'', [\x30-\x39],
     ''.'', ''-'', ''&#x2013;'', ''–'', [\x41-\x5'
-- id: ieee.debt.ca2bec1a6d5d
-  input: IEEE Std 802.16g 2007 (Amendment to IEEE Std 802.16-2004)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Cor'', ''INT'', ''Conformance'',
-    ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'', ''rev'', ''_'',
-    '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'''
 - id: ieee.debt.e4ec48f3f47d
   input: IEEE Std 802.1Q, 2012 Edition, (Incorporating IEEE Std 802.1Q-2011, IEEE
     Std 802.1Qbe-2011, IEEE Std 802.1Qbc-2011,IEEE Std 802.1Qbb-2011, IEEE Std 802.1Qaz-2011,
@@ -1270,25 +1018,9 @@
     expected one of [''Cor'', ''INT'', ''Conformance'', ''Corrigendum'', ''Amendment'',
     ''Amd'', ''/'', ''REV'', ''Rev'', ''rev'', ''_'', ''-'', ''&#x2013;'', ''–'',
     '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Fe'
-- id: ieee.debt.fd8b945e5a4e
-  input: IEEE Std C57.13-1993(R2003) (Revision of IEEE Std C57.13-1978
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''['', ''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'',
-    ''redline'', ''- (Approved Draft)'', ''(Approved Draft)''] at line 1 char 29.'
 - id: ieee.debt.256ba95bb34c
   input: IEEE Std IEEE Std 1205&#x2122;-2014 (Revision of IEEE Std 1205-2000) (Revision
     of IEEE Std 1205-2000)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 14.'
-- id: ieee.debt.41fc19d9fbe5
-  input: IEEE Std IEEE Std 1205-2014 (Revision of IEEE Std 1205-2000) (Revision of
-    IEEE Std 1205-2000)
   expect:
     error:
       code: unclassified
@@ -1521,13 +1253,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''R'', ''D'', ''REV'', ''Rev'', ''rev'', ''Corrigendum'', ''Cor'']
     at line 1 char 11.'
-- id: ieee.debt.21172067c9f9
-  input: P802.3bd/D2.2 August 2010. (Draft Amendment to IEEE Std 802.3-2008)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''REV'', ''Rev'', ''rev''] at line 1 char 27.'
 - id: ieee.debt.00b60f3de9b3
   input: 'Preview: IEEE Technology Report on Wake-Up Radio'
   expect:
@@ -1737,16 +1462,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''IS'', [\x30-\x39], ''.'', ''-'', ''&#x2013;'', ''–'', [\x41-\x5a],
     [\x61-\x7a]] at line 1 char 23.'
-- id: ieee.debt.8fb498dedc4f
-  input: ANSI C50.32-1976 and IEEE Std 117-1974 (Reaffirmed 1984) (Revision of IEEE
-    Std 117-1956)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Cor'', ''INT'', ''Conformance'', ''Corrigendum'', ''Amendment'',
-    ''Amd'', ''/'', ''REV'', ''Rev'', ''rev'', ''_'', ''-'', ''&#x2013;'', ''–'',
-    '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Fe'
 - id: ieee.debt.15eddd50af05
   input: IEEE 29-1941 / ASA C77.1-1943 (Reaffirmed 1971)
   expect:
@@ -1756,14 +1471,6 @@
     expected one of [''C'', ''CSA'', ''Cor'', ''INT'', ''Conformance'', ''Corrigendum'',
     ''Amendment'', ''Amd'', ''ASHRAE'', ''REV'', ''Rev'', ''rev'', ''R'', ''D'', [\x30-\x39],
     ''.'', ''-'', ''&#x2013;'', ''–'', [\x41-\x5'
-- id: ieee.debt.be1614dd5a34
-  input: IEEE Std 802.15.3-2016 (Revision of IEEE Std 802.15.3-2003!!IEEE Std 802.15.3-2016
-    (Revision of IEEE Std 802.15.3-2003)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', '':''] at line 1 char 120.'
 - id: ieee.debt.f5e0febf10bb
   input: ANSI/IEEE C37.30C-1984 ANSI/IEEE C37.30e-1984 (Supplements to ANSI/IEEE C37.30.1971)
   expect:
@@ -1887,22 +1594,6 @@
     expected one of ['' ''] at line 1 char 11.'
 - id: ieee.debt.dc9a48671132
   input: IEC 61671:2012(E) (IEEE Std 1671-2010)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' ''] at line 1 char 11.'
-- id: ieee.debt.46de0c8d1664
-  input: IEC 62032:2012(E) (IEEE Std C57.135-2011) (Revision of IEC 62032-2005 and
-    IEEE Std C57.135-2001)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' ''] at line 1 char 11.'
-- id: ieee.debt.a4e3e6d36ed5
-  input: IEC 62032:2012(E) (IEEE Std C57.135-2011) (Revision of IEC 62032-2005 and
-    IEEE Std C57.135-2001) - Redline
   expect:
     error:
       code: unclassified
@@ -2431,16 +2122,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''IS'', [\x30-\x39], ''.'', ''-'', ''&#x2013;'', ''–'', [\x41-\x5a],
     [\x61-\x7a]] at line 1 char 23.'
-- id: ieee.debt.8fb498dedc4f
-  input: ANSI C50.32-1976 and IEEE Std 117-1974 (Reaffirmed 1984) (Revision of IEEE
-    Std 117-1956)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Cor'', ''INT'', ''Conformance'', ''Corrigendum'', ''Amendment'',
-    ''Amd'', ''/'', ''REV'', ''Rev'', ''rev'', ''_'', ''-'', ''&#x2013;'', ''–'',
-    '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Fe'
 - id: ieee.debt.15eddd50af05
   input: IEEE 29-1941 / ASA C77.1-1943 (Reaffirmed 1971)
   expect:
@@ -2450,14 +2131,6 @@
     expected one of [''C'', ''CSA'', ''Cor'', ''INT'', ''Conformance'', ''Corrigendum'',
     ''Amendment'', ''Amd'', ''ASHRAE'', ''REV'', ''Rev'', ''rev'', ''R'', ''D'', [\x30-\x39],
     ''.'', ''-'', ''&#x2013;'', ''–'', [\x41-\x5'
-- id: ieee.debt.be1614dd5a34
-  input: IEEE Std 802.15.3-2016 (Revision of IEEE Std 802.15.3-2003!!IEEE Std 802.15.3-2016
-    (Revision of IEEE Std 802.15.3-2003)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', '':''] at line 1 char 120.'
 - id: ieee.debt.f5e0febf10bb
   input: ANSI/IEEE C37.30C-1984 ANSI/IEEE C37.30e-1984 (Supplements to ANSI/IEEE C37.30.1971)
   expect:
@@ -2581,22 +2254,6 @@
     expected one of ['' ''] at line 1 char 11.'
 - id: ieee.debt.dc9a48671132
   input: IEC 61671:2012(E) (IEEE Std 1671-2010)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' ''] at line 1 char 11.'
-- id: ieee.debt.46de0c8d1664
-  input: IEC 62032:2012(E) (IEEE Std C57.135-2011) (Revision of IEC 62032-2005 and
-    IEEE Std C57.135-2001)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' ''] at line 1 char 11.'
-- id: ieee.debt.a4e3e6d36ed5
-  input: IEC 62032:2012(E) (IEEE Std C57.135-2011) (Revision of IEC 62032-2005 and
-    IEEE Std C57.135-2001) - Redline
   expect:
     error:
       code: unclassified
@@ -2962,15 +2619,6 @@
     expected one of ['' '', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
     ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
     ''December'', ''February'', ''August'', ''June'', ''Janu'
-- id: ieee.debt.3ee8ced16bee
-  input: 'ANSI/IEEE Std 802.4-1990 (Revision of ANSI/IEEE 802.4-1985) (Adopted by
-    ISO/IEC and redesignated as ISO/IEC 8802-4: 1990)'
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''['', ''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'',
-    ''redline'', ''- (Approved Draft)'', ''(Approved Draft)''] at line 1 char 61.'
 - id: ieee.debt.6f2b414adb0e
   input: 'ANSI/IEEE Std: 8-Bit Backplane Interface - STEbus,'
   expect:
@@ -3003,24 +2651,6 @@
     expected one of [''Cor'', ''INT'', ''Conformance'', ''Corrigendum'', ''Amendment'',
     ''Amd'', ''/'', ''REV'', ''Rev'', ''rev'', ''_'', ''-'', ''&#x2013;'', ''–'',
     '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Fe'
-- id: ieee.debt.932399aeb812
-  input: Amendment to IEEE Std 802.11-2007 as amended by IEEE Std 802.11k-2008, IEEE
-    Std 802.11r-2008, IEEE Std 802.11y-2008, IEEE Std 802.11w-2009, IEEE Std 802.11n-2009,
-    IEEE Std 802.11p-2010, IEEE Std 802.11z-2010, and IEEE Std 802.11v-2011
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 2.'
-- id: ieee.debt.b88ce9ade959
-  input: 'American National Standard for Methods of Measurement of Radio- Noise Emissions
-    from Low-Voltage Electrical and Electronic Equipment in the Range of 9 kHz to
-    40 GHz--Amendment 1: Test Site Validation'
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 2.'
 - id: ieee.debt.3a5e5d53b571
   input: Corrigendum to IEEE Std 802.3-2015 as amended by IEEE Std 802.3bw-2015, IEEE
     Std 802.3by-2016, IEEE Std 802.3bq-2016, IEEE Std 802.3bp-2016, IEEE Std 802.3br-2016,
@@ -3031,13 +2661,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 2.'
-- id: ieee.debt.eb97a0de7b92
-  input: Draft IEEE P802.15.4REVi/D09, April 2011 (Revision of IEEE Std 802.15.4-2006)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 11.'
 - id: ieee.debt.09abc7112853
   input: Electrical Safety Manual for Power and Communications Industries [Adapted
     from the 2017 IEEE NESC(R) Handbook Premier Edition] - Chinese Edition
@@ -3407,24 +3030,6 @@
     expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
     ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
     ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.e221d52ceb23
-  input: IEEE P802.11ad/D5.0, September 2011, (Draft Amendment based on IEEE P802.11REVmb
-    D10.0) as amended by IEEE 802.11ae D5.0 and IEEE 802.11aa D6.0)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
-    ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
-    ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.0733a5cc4858
-  input: IEEE P802.11e/D6.0, November 2003 (Draft Amendment to IEEE Std 802.11, 1999
-    Edition (Reaff 2003))
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', '':''] at line 1 char 88.'
 - id: ieee.debt.3ca0fbfecc6c
   input: IEEE P802.11u/D12.0, September 2010.
   expect:
@@ -3439,16 +3044,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''REV'', ''Rev'', ''rev''] at line 1 char 34.'
-- id: ieee.debt.ead4b3c919ce
-  input: IEEE P802.15.4e/D6.0, July 2011 based on Draft IEEE P802.15.4 REVi/D09 (Revision
-    of IEEE Std 802.15.4-2006)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''REV'', ''Rev'', ''rev'', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'',
-    ''Jan.'', ''Feb.'', ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'',
-    ''November'', ''December'', ''February'', ''August'
 - id: ieee.debt.bdd11e2022ad
   input: IEEE P802.15.4e/D7.0, September 2011, based on IEEE P802.15.4-2011
   expect:
@@ -3497,13 +3092,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of ['' '', '', '', ''19'', ''20'', ''0'', ''1''] at line 1 char 22.'
-- id: ieee.debt.5c257a5c2bd4
-  input: IEEE P802.16/D6 (Revision of IEEE Std 802.16-2009) - Approved Draft
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Redline'', ''REDLINE'', ''redline''] at line 1 char 54.'
 - id: ieee.debt.7ec77aeccdff
   input: IEEE P802.1QREVD2.2, July 2014 (Incorporating IEEE 802.1Q-2011, IEEE 802.1Qbe,
     IEEE 802.1Qbc, IEEE 802.1Qbb-2011, IEEE 802.1Qaz-2011, IEEE 802.1Qbf-2011, IEEE
@@ -3515,30 +3103,6 @@
     expected one of ['' '', [\x30-\x39], ''/'', ''_'', ''-'', ''&#x2013;'', ''–'',
     ''.'', ''REV'', ''Rev'', ''rev'', '','', ''('', ''P&V'', '', '', '':''] at line
     1 char 16.'
-- id: ieee.debt.7bcbabaa1f7d
-  input: IEEE P802.1Qbe/D1.5_May 2010 (Draft Amendment to IEEE Std 802.1Q-2005)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''REV'', ''Rev'', ''rev'', ''Corrigendum'', ''Cor''] at line
-    1 char 21.'
-- id: ieee.debt.1f8c92f331f4
-  input: IEEE P802.1Qbe/D1.6_August 2010 (Draft Amendment to IEEE Std 802.1Q-2005)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''REV'', ''Rev'', ''rev'', ''Corrigendum'', ''Cor''] at line
-    1 char 21.'
-- id: ieee.debt.ea684b9aa3dd
-  input: IEEE P802.1Qbe/D1.7_April 2011 (Draft Amendment to IEEE Std 802.1Q-2005)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''REV'', ''Rev'', ''rev'', ''Corrigendum'', ''Cor''] at line
-    1 char 21.'
 - id: ieee.debt.61b0ca2e11da
   input: IEEE P802.1Qcd/D2.0, August , 2014
   expect:
@@ -3553,51 +3117,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of ['' '', '':''] at line 1 char 62.'
-- id: ieee.debt.8af3f37b1a39
-  input: IEEE P802.1Xbx/D1.2 ,DRAFT Amendment to IEEE Std 802.1X2010
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
-    ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
-    ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.aa9fae253b82
-  input: IEEE P802.1aq/D4.3, DRAFT Amendment to IEEE Std 802.1Q -2011, September 2011
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
-    ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
-    ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.8794e27a8b44
-  input: IEEE P802.1aq/D4.4, DRAFT Amendment to IEEE Std 802.1Q -2011, December 2011
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
-    ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
-    ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.b1fd05b9fa5d
-  input: IEEE P802.1aq/D4.5, DRAFT Amendment to IEEE Std 802.1Q -2011, February 2012
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
-    ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
-    ''December'', ''February'', ''August'', ''June'', ''January'','
-- id: ieee.debt.a399a7d575f5
-  input: IEEE P802.1aq/D4.6, DRAFT Amendment to IEEE Std 802.1Q -2011, February 2012
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
-    ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
-    ''December'', ''February'', ''August'', ''June'', ''January'','
 - id: ieee.debt.5125c099ba98
   input: IEEE P802.20a Draft 2.1, October 2010
   expect:
@@ -3607,35 +3126,6 @@
     expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Cor'', ''INT'', ''Conformance'',
     ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'', ''Mar.'', ''Apr.'',
     ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''Novembe'
-- id: ieee.debt.1f7f4c89f0d8
-  input: IEEE P802.3br/D3.1, 13 April 2016 (Amendment of IEEE Std 802.3-2015
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x32]] at line 1 char 22.'
-- id: ieee.debt.19306d848ee8
-  input: IEEE P802.3bu/D3.1, August 2016 Amendment of IEEE Std 802.3-2015 as amended
-    by IEEE Std 802.3bw-2015, IEEE Std 802.3by-2016, IEEE Std 802.3bq-2016, IEEE Std
-    802.3bp-2016, IEEE Std 802.3br-2016, IEEE Std 802.3bz-201X. and IEEE Std 802.3bn-201X)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''REV'', ''Rev'', ''rev'', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'',
-    ''Jan.'', ''Feb.'', ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'',
-    ''November'', ''December'', ''February'', ''August'
-- id: ieee.debt.52168c794df5
-  input: IEEE P802.3bu/D3.3, October 2016 Amendment of IEEE Std 802.3-2015 as amended
-    by IEEE Std 802.3bw-2015, IEEE Std 802.3by-2016, IEEE Std 802.3bq-2016, IEEE Std
-    802.3bp-2016, IEEE Std 802.3br-2016, IEEE Std 802.3bz-201X. and IEEE Std 802.3bn-201X)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''REV'', ''Rev'', ''rev'', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'',
-    ''Jan.'', ''Feb.'', ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'',
-    ''November'', ''December'', ''February'', ''August'
 - id: ieee.debt.334b8f63cc9b
   input: IEEE P802.3cc/DP802.3.2/D3.0, September 2018
   expect:
@@ -3733,15 +3223,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [[\x30-\x39], ''19'', ''20'', [\x41-\x5a], [\x61-\x7a], ''.'',
     ''REV'', ''Rev'', ''rev''] at line 1 char 24.'
-- id: ieee.debt.a86f7fd460ac
-  input: IEEE PC37.13 - Amendment 1/D4, July 2011
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Feb.'',
-    ''Mar.'', ''Apr.'', ''Jun.'', ''Jul.'', ''Aug.'', ''September'', ''November'',
-    ''December'', ''February'', ''August'', ''June'', ''January'','
 - id: ieee.debt.2725b1a2ef86
   input: IEEE PC37.20.9 / D7.2 201X
   expect:
@@ -3775,13 +3256,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [[\x30-\x39]] at line 1 char 29.'
-- id: ieee.debt.f1a0f8c88c80
-  input: IEEE PC57.12.00 August 2015 / D2.2 (Revision of IEEE Std C57.12.00-2010)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''ASHRAE'', ''Corrigendum'', ''Cor''] at line 1 char 33.'
 - id: ieee.debt.2edc3896ba95
   input: IEEE PC57.130/D 4, March 2014
   expect:
@@ -3845,15 +3319,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 8.'
-- id: ieee.debt.ab078ea406da
-  input: 'IEEE Standard for Ethernet Amendment 3: Physical Layer Specifications and
-    Management Parameters for 40 Gb/s and 100 Gb/s Operation over Fiber Optic Cables'
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''P'', [\x41-\x5a], [\x30-\x39], ''S'', ''No''] at line 1 char
-    15.'
 - id: ieee.debt.f8c69aadb3b5
   input: IEEE Std 1003.1-2001/Cor 1-2002. The Open Group Technical Standard Base Specifications,
     Issue 6
@@ -3889,14 +3354,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''R'', ''D'', ''REV'', ''Rev'', ''rev'', ''ASHRAE'', ''Corrigendum'',
     ''Cor''] at line 1 char 24.'
-- id: ieee.debt.e3f9d6cbd4a7
-  input: IEEE Std 1057-2007 (Revision of IEEE 1057-1994) (Full-Use)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''['', ''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'',
-    ''redline'', ''- (Approved Draft)'', ''(Approved Draft)''] at line 1 char 49.'
 - id: ieee.debt.a597bae72c41
   input: IEEE Std 1215 - IEEE Guide for the Application of Separable Insulated Connectors
   expect:
@@ -3931,49 +3388,6 @@
     expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Edition '', ''Cor'', ''INT'',
     ''Conformance'', ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'',
     ''rev'', ''_'', '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''D'
-- id: ieee.debt.34308cfbdb10
-  input: IEEE Std 7-4.3.2-2010 I (Revision of EEE Std 7-4.3.2-2003)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Cor'', ''INT'', ''Conformance'', ''Corrigendum'', ''Amendment'',
-    ''Amd'', ''/'', ''REV'', ''Rev'', ''rev'', ''_'', ''-'', ''&#x2013;'', ''–'',
-    '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Fe'
-- id: ieee.debt.283d5085e1d9
-  input: IEEE Std 738-2012 Draft 10 (Revision of IEEE Std 738-2006)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Cor'', ''INT'', ''Conformance'', ''Corrigendum'', ''Amendment'',
-    ''Amd'', ''/'', ''REV'', ''Rev'', ''rev'', ''_'', ''-'', ''&#x2013;'', ''–'',
-    '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Fe'
-- id: ieee.debt.0c1a82cef525
-  input: IEEE Std 802.11e-2005 (Amendment to IEEE Std 802.11, 1999 Edition (Reaff
-    2003)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', '':''] at line 1 char 70.'
-- id: ieee.debt.c991898ba650
-  input: IEEE Std 802.11g-2003 (Amendment to IEEE Std 802.11, 1999 Edn. (Reaff 2003)
-    as amended by IEEE Stds 802.11a-1999, 802.11b-1999, 802.11b-1999/Cor 1-2001, and
-    802.11d-2001)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''['', ''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'',
-    ''redline'', ''- (Approved Draft)'', ''(Approved Draft)''] at line 1 char 66.'
-- id: ieee.debt.72834c2cb8dd
-  input: IEEE Std 802.11h-2003 (Amendment to IEEE Std 802.11, 1999 Edn. (Reaff 2003))
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', '':''] at line 1 char 65.'
 - id: ieee.debt.8de14a05b2ea
   input: IEEE Std 802.16 / Conformance02-2003 (Conformance to IEEE Std 802.16-2001
     as ammended by IEEE Std 802.16a-2003 and IEEE Std 802.16c-2002)
@@ -3984,15 +3398,6 @@
     expected one of [''C'', ''CSA'', ''Cor'', ''INT'', ''Conformance'', ''Corrigendum'',
     ''Amendment'', ''Amd'', ''ASHRAE'', ''REV'', ''Rev'', ''rev'', ''R'', ''D'', [\x30-\x39],
     ''.'', ''-'', ''&#x2013;'', ''–'', [\x41-\x5'
-- id: ieee.debt.ca2bec1a6d5d
-  input: IEEE Std 802.16g 2007 (Amendment to IEEE Std 802.16-2004)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', ''Cor'', ''INT'', ''Conformance'',
-    ''Corrigendum'', ''Amendment'', ''Amd'', ''/'', ''REV'', ''Rev'', ''rev'', ''_'',
-    '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'''
 - id: ieee.debt.e4ec48f3f47d
   input: IEEE Std 802.1Q, 2012 Edition, (Incorporating IEEE Std 802.1Q-2011, IEEE
     Std 802.1Qbe-2011, IEEE Std 802.1Qbc-2011,IEEE Std 802.1Qbb-2011, IEEE Std 802.1Qaz-2011,
@@ -4014,25 +3419,9 @@
     expected one of [''Cor'', ''INT'', ''Conformance'', ''Corrigendum'', ''Amendment'',
     ''Amd'', ''/'', ''REV'', ''Rev'', ''rev'', ''_'', ''-'', ''&#x2013;'', ''–'',
     '' '', ''Sept.'', ''Oct.'', ''Nov.'', ''Dec.'', ''Jan.'', ''Fe'
-- id: ieee.debt.fd8b945e5a4e
-  input: IEEE Std C57.13-1993(R2003) (Revision of IEEE Std C57.13-1978
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''['', ''-'', ''&#x2013;'', ''–'', ''Redline'', ''REDLINE'',
-    ''redline'', ''- (Approved Draft)'', ''(Approved Draft)''] at line 1 char 29.'
 - id: ieee.debt.256ba95bb34c
   input: IEEE Std IEEE Std 1205&#x2122;-2014 (Revision of IEEE Std 1205-2000) (Revision
     of IEEE Std 1205-2000)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 14.'
-- id: ieee.debt.41fc19d9fbe5
-  input: IEEE Std IEEE Std 1205-2014 (Revision of IEEE Std 1205-2000) (Revision of
-    IEEE Std 1205-2000)
   expect:
     error:
       code: unclassified
@@ -4265,13 +3654,6 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''R'', ''D'', ''REV'', ''Rev'', ''rev'', ''Corrigendum'', ''Cor'']
     at line 1 char 11.'
-- id: ieee.debt.21172067c9f9
-  input: P802.3bd/D2.2 August 2010. (Draft Amendment to IEEE Std 802.3-2008)
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''REV'', ''Rev'', ''rev''] at line 1 char 27.'
 - id: ieee.debt.00b60f3de9b3
   input: 'Preview: IEEE Technology Report on Wake-Up Radio'
   expect:
