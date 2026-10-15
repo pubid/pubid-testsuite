@@ -8,20 +8,23 @@ generator:
   exporter_sha256: 17c6c0e180f1ca39d3867588aa83e2d6bb081c0b1948cd7ded2f12d1cebf7dc6
 oracle:
   gem: pubid
-  commit: 4f99c221b22e4b7069be5a04d773efe0444c6594
+  commit: e2fc711ed2887e32f7193fbd80f8b23dc02f9eae
   clean: false
   dirty_paths:
   - spec/fixtures/ieee/identifiers/full/complete_dataset.txt
   - spec/fixtures/ieee/identifiers/full/pubid-parsed.txt
   - spec/fixtures/ieee/identifiers/full/pubid-to-parse.txt
+  - spec/fixtures/ieee/identifiers/full/unapproved.txt
 repository:
-  commit: 74c60a67c69aac8757df288a917e13dac191ec41
+  commit: 5667037f8d3ee497ee7fd15c9be980af8abc7d4b
   clean: false
   dirty_paths:
   - reference-docs/ieee/identifiers/full/complete_dataset.txt
   - reference-docs/ieee/identifiers/full/pubid-parsed.txt
   - reference-docs/ieee/identifiers/full/pubid-to-parse.txt
+  - reference-docs/ieee/identifiers/full/unapproved.txt
   - tests/ieee/_debt.yaml
+  - tests/provenance.yaml
 ruby:
   version: 3.4.8
 counts:
@@ -554,8 +557,8 @@ payloads:
   sha256: 729458e1ed490242a8af8995ff5c201c5128740f1f4117fc8090616aff8eddd0
   bytes: 330054
 - path: ieee/_debt.yaml
-  sha256: 73811eb654b536b678f39d4ccb8caafb2675cdf77c47475d3d167b4fd046acb4
-  bytes: 165962
+  sha256: 3517a4277fd9adb6fbf193d051e6bd339162a6021615e498b766bfb0a239a176
+  bytes: 53828
 - path: ieee/_negative.yaml
   sha256: fcae2512d3ec5938fa638faffb6d65148b37943e4cd1bf722fe5154d22c3d116
   bytes: 46392
