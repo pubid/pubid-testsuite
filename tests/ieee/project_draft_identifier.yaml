@@ -43532,7 +43532,7 @@
   non_normalized_aliases:
   - spelling: PN42.54/D4, August 2016
     style: v3
-- id: ieee.project_draft_identifier.9041
+- id: ieee.project_draft_identifier.9035
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '844'
@@ -43552,7 +43552,7 @@
     style: v3
   - spelling: IEEE/CSA P844.1/293.1/D2, September 2016
     style: v3
-- id: ieee.project_draft_identifier.9042
+- id: ieee.project_draft_identifier.9036
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '844'
@@ -43572,7 +43572,7 @@
     style: v3
   - spelling: IEEE/CSA P844.1/293.1/D3, February 2017
     style: v3
-- id: ieee.project_draft_identifier.9043
+- id: ieee.project_draft_identifier.9037
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '844'
@@ -43592,7 +43592,7 @@
     style: v3
   - spelling: IEEE/CSA P844.1/293.1/D4, July 2017
     style: v3
-- id: ieee.project_draft_identifier.9044
+- id: ieee.project_draft_identifier.9038
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '844'
@@ -43612,7 +43612,7 @@
     style: v3
   - spelling: IEEE/CSA P844.2/293.2/D2, September 2016
     style: v3
-- id: ieee.project_draft_identifier.9045
+- id: ieee.project_draft_identifier.9039
   identifier:
     _type: pubid:ieee:project-draft-identifier
     number: '844'
@@ -44338,6 +44338,23 @@
     _type: pubid:ieee:project-draft-identifier
     number: '42010'
     publisher: ISO
+    copublisher:
+    - IEC
+    - IEEE
+    draft: D4, 2019
+    project_marker: true
+  representations:
+    human: ISO/IEC/IEEE P42010/D4, 2019
+    urn: urn:ieee:iso-iec-ieee:42010:draft./D4, 2019
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC/IEEE P42010.2019/D4
+    style: v3
+- id: ieee.project_draft_identifier.9350
+  identifier:
+    _type: pubid:ieee:project-draft-identifier
+    number: '42010'
+    publisher: ISO
     type: P
     copublisher:
     - IEC
@@ -44352,23 +44369,6 @@
   style: v3
   non_normalized_aliases:
   - spelling: ISO/IEC/IEEE P42010.WD4:2019(E)
-    style: v3
-- id: ieee.project_draft_identifier.9350
-  identifier:
-    _type: pubid:ieee:project-draft-identifier
-    number: '42010'
-    publisher: ISO
-    copublisher:
-    - IEC
-    - IEEE
-    draft: D4, 2019
-    project_marker: true
-  representations:
-    human: ISO/IEC/IEEE P42010/D4, 2019
-    urn: urn:ieee:iso-iec-ieee:42010:draft./D4, 2019
-  style: v3
-  non_normalized_aliases:
-  - spelling: ISO/IEC/IEEE P42010.2019/D4
     style: v3
 - id: ieee.project_draft_identifier.9351
   identifier:

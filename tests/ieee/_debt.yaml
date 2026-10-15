@@ -28,9 +28,7 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', ''IEEE'', ''AIEE'', ''ANSI'', ''ASA'', ''ANS'', ''IEC'',
-    ''ISO'', ''ASTM'', ''CSA'', ''ASME'', ''NACE'', ''NSF'', ''ASHRAE'', ''NCTA'',
-    ''AESC'', ''EIA'', ''USEMCSC'', ''AMPP'', ''USAS'', ''EAB'', ''MPA'
+    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 15.'
 - id: ieee.debt.19b68704898a
   input: IEEE Draft P802.11REV.ma/D4.0
   expect:
@@ -45,76 +43,21 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 12.'
-- id: ieee.debt.ef539181dfb8
-  input: IEEE//ISO/IEC Draft P29119-2/D=DIS-201112
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', ''IEEE'', ''AIEE'', ''ANSI'', ''ASA'', ''ANS'', ''IEC'',
-    ''ISO'', ''ASTM'', ''CSA'', ''ASME'', ''NACE'', ''NSF'', ''ASHRAE'', ''NCTA'',
-    ''AESC'', ''EIA'', ''USEMCSC'', ''AMPP'', ''USAS'', ''EAB'', ''MPA'
-- id: ieee.debt.a1b3162d1992
-  input: IEEE//ISO/IEC Draft P29119-3/D=DIS-201112
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', ''IEEE'', ''AIEE'', ''ANSI'', ''ASA'', ''ANS'', ''IEC'',
-    ''ISO'', ''ASTM'', ''CSA'', ''ASME'', ''NACE'', ''NSF'', ''ASHRAE'', ''NCTA'',
-    ''AESC'', ''EIA'', ''USEMCSC'', ''AMPP'', ''USAS'', ''EAB'', ''MPA'
-- id: ieee.debt.dd7fa96c1732
-  input: IEEE//ISO/IEC Draft P29119-4/D=DIS-202004
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', ''IEEE'', ''AIEE'', ''ANSI'', ''ASA'', ''ANS'', ''IEC'',
-    ''ISO'', ''ASTM'', ''CSA'', ''ASME'', ''NACE'', ''NSF'', ''ASHRAE'', ''NCTA'',
-    ''AESC'', ''EIA'', ''USEMCSC'', ''AMPP'', ''USAS'', ''EAB'', ''MPA'
-- id: ieee.debt.1fd866daf8a1
-  input: IEEE//ISO/IEC Draft P29119-4/D=FDIS-202106
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', ''IEEE'', ''AIEE'', ''ANSI'', ''ASA'', ''ANS'', ''IEC'',
-    ''ISO'', ''ASTM'', ''CSA'', ''ASME'', ''NACE'', ''NSF'', ''ASHRAE'', ''NCTA'',
-    ''AESC'', ''EIA'', ''USEMCSC'', ''AMPP'', ''USAS'', ''EAB'', ''MPA'
-- id: ieee.debt.5ba7a6d300c2
-  input: IEEE//ISO/IEC Draft P15026-3/D=CD-202112
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', ''IEEE'', ''AIEE'', ''ANSI'', ''ASA'', ''ANS'', ''IEC'',
-    ''ISO'', ''ASTM'', ''CSA'', ''ASME'', ''NACE'', ''NSF'', ''ASHRAE'', ''NCTA'',
-    ''AESC'', ''EIA'', ''USEMCSC'', ''AMPP'', ''USAS'', ''EAB'', ''MPA'
 - id: ieee.debt.b9e66bc37dd7
   input: IEEE//ISO/IEC Draft P29119-3/DDIS2, Sept, 2012
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', ''IEEE'', ''AIEE'', ''ANSI'', ''ASA'', ''ANS'', ''IEC'',
-    ''ISO'', ''ASTM'', ''CSA'', ''ASME'', ''NACE'', ''NSF'', ''ASHRAE'', ''NCTA'',
-    ''AESC'', ''EIA'', ''USEMCSC'', ''AMPP'', ''USAS'', ''EAB'', ''MPA'
-- id: ieee.debt.9f6830305688
-  input: IEEE//ISO/IEC Draft P29119-4/D=FDIS-202012
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of ['' '', ''IEEE'', ''AIEE'', ''ANSI'', ''ASA'', ''ANS'', ''IEC'',
-    ''ISO'', ''ASTM'', ''CSA'', ''ASME'', ''NACE'', ''NSF'', ''ASHRAE'', ''NCTA'',
-    ''AESC'', ''EIA'', ''USEMCSC'', ''AMPP'', ''USAS'', ''EAB'', ''MPA'
+    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 15.'
 - id: ieee.debt.89a9246d85af
   input: IEEE/IEC Draft P60076-57-129/D=FDIS-201707
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 11.'
+    expected one of [''IS'', [\x30-\x39], ''.'', ''-'', ''&#x2013;'', ''–'', [\x41-\x5a],
+    [\x61-\x7a]] at line 1 char 25.'
 - id: ieee.debt.b7ebd7b7dff6
   input: IEEE Draft P1666/D/D2.1.1
   expect:

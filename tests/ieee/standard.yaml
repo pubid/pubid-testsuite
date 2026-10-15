@@ -84147,66 +84147,6 @@
 - id: ieee.standard.9024
   identifier:
     _type: pubid:ieee:standard
-    number: '15026'
-    copublisher:
-    - "/ISO/IEC"
-    draft: D=CD-202112
-    prefix: P
-    parts:
-    - '3'
-    separator: "-"
-    stage: Std
-  representations:
-    human: IEEE//ISO/IEC Draft P15026-3/D=CD-202112
-    urn: urn:ieee:ieee-/iso/iec:P15026-3:draft./D=CD-202112
-  roundtrip: false
-  style: v3
-  non_normalized_aliases:
-  - spelling: IEEE/ISO/IEC P15026-3/CD, December 2021
-    style: v3
-- id: ieee.standard.9025
-  identifier:
-    _type: pubid:ieee:standard
-    number: '29119'
-    copublisher:
-    - "/ISO/IEC"
-    draft: D=DIS-201112
-    prefix: P
-    parts:
-    - '2'
-    separator: "-"
-    stage: Std
-  representations:
-    human: IEEE//ISO/IEC Draft P29119-2/D=DIS-201112
-    urn: urn:ieee:ieee-/iso/iec:P29119-2:draft./D=DIS-201112
-  roundtrip: false
-  style: v3
-  non_normalized_aliases:
-  - spelling: IEEE/ISO/IEC P29119-2-DIS, December 2011
-    style: v3
-- id: ieee.standard.9026
-  identifier:
-    _type: pubid:ieee:standard
-    number: '29119'
-    copublisher:
-    - "/ISO/IEC"
-    draft: D=DIS-201112
-    prefix: P
-    parts:
-    - '3'
-    separator: "-"
-    stage: Std
-  representations:
-    human: IEEE//ISO/IEC Draft P29119-3/D=DIS-201112
-    urn: urn:ieee:ieee-/iso/iec:P29119-3:draft./D=DIS-201112
-  roundtrip: false
-  style: v3
-  non_normalized_aliases:
-  - spelling: IEEE/ISO/IEC P29119-3/DIS, December 2011
-    style: v3
-- id: ieee.standard.9027
-  identifier:
-    _type: pubid:ieee:standard
     number: '29119'
     copublisher:
     - "/ISO/IEC"
@@ -84223,67 +84163,7 @@
   non_normalized_aliases:
   - spelling: IEEE/ISO/IEC P29119-3/DIS2, September 2012
     style: v3
-- id: ieee.standard.9028
-  identifier:
-    _type: pubid:ieee:standard
-    number: '29119'
-    copublisher:
-    - "/ISO/IEC"
-    draft: D=DIS-202004
-    prefix: P
-    parts:
-    - '4'
-    separator: "-"
-    stage: Std
-  representations:
-    human: IEEE//ISO/IEC Draft P29119-4/D=DIS-202004
-    urn: urn:ieee:ieee-/iso/iec:P29119-4:draft./D=DIS-202004
-  roundtrip: false
-  style: v3
-  non_normalized_aliases:
-  - spelling: IEEE/ISO/IEC P29119-4/DIS, April 2020
-    style: v3
-- id: ieee.standard.9029
-  identifier:
-    _type: pubid:ieee:standard
-    number: '29119'
-    copublisher:
-    - "/ISO/IEC"
-    draft: D=FDIS-202012
-    prefix: P
-    parts:
-    - '4'
-    separator: "-"
-    stage: Std
-  representations:
-    human: IEEE//ISO/IEC Draft P29119-4/D=FDIS-202012
-    urn: urn:ieee:ieee-/iso/iec:P29119-4:draft./D=FDIS-202012
-  roundtrip: false
-  style: v3
-  non_normalized_aliases:
-  - spelling: IEEE/ISO/IEC P29119-4_FDIS, December 2020
-    style: v3
-- id: ieee.standard.9030
-  identifier:
-    _type: pubid:ieee:standard
-    number: '29119'
-    copublisher:
-    - "/ISO/IEC"
-    draft: D=FDIS-202106
-    prefix: P
-    parts:
-    - '4'
-    separator: "-"
-    stage: Std
-  representations:
-    human: IEEE//ISO/IEC Draft P29119-4/D=FDIS-202106
-    urn: urn:ieee:ieee-/iso/iec:P29119-4:draft./D=FDIS-202106
-  roundtrip: false
-  style: v3
-  non_normalized_aliases:
-  - spelling: IEEE/ISO/IEC P29119-4/FDIS, June 2021
-    style: v3
-- id: ieee.standard.9031
+- id: ieee.standard.9025
   identifier:
     _type: pubid:ieee:standard
     number: '24'
@@ -84298,7 +84178,7 @@
   non_normalized_aliases:
   - spelling: IEEE/ANSI Std 24-1984 (Revision of 24-1977)
     style: v3
-- id: ieee.standard.9032
+- id: ieee.standard.9026
   identifier:
     _type: pubid:ieee:standard
     number: '484'
@@ -84310,7 +84190,7 @@
     human: IEEE/ANSI Std 484-1987
     urn: urn:ieee:ieee-ansi:484:1987
   style: v3
-- id: ieee.standard.9046
+- id: ieee.standard.9040
   identifier:
     _type: pubid:ieee:standard
     number: '12207'
@@ -84328,7 +84208,7 @@
   non_normalized_aliases:
   - spelling: IEEE/EIA 12207.0-1996
     style: v3
-- id: ieee.standard.9047
+- id: ieee.standard.9041
   identifier:
     _type: pubid:ieee:standard
     number: '12207'
@@ -84346,7 +84226,7 @@
   non_normalized_aliases:
   - spelling: IEEE/EIA 12207.1-1997
     style: v3
-- id: ieee.standard.9048
+- id: ieee.standard.9042
   identifier:
     _type: pubid:ieee:standard
     number: '12207'
@@ -84364,7 +84244,7 @@
   non_normalized_aliases:
   - spelling: IEEE/EIA 12207.2-1997
     style: v3
-- id: ieee.standard.9050
+- id: ieee.standard.9044
   identifier:
     _type: pubid:ieee:standard
     number: '60076'
@@ -84385,7 +84265,7 @@
   non_normalized_aliases:
   - spelling: IEEE/IEC P60076-57-129/FDIS, July 2017
     style: v3
-- id: ieee.standard.9051
+- id: ieee.standard.9045
   identifier:
     _type: pubid:ieee:standard
     number: '63195'
@@ -84404,7 +84284,7 @@
   non_normalized_aliases:
   - spelling: IEEE/IEC P63195-2 ED4, March 2021
     style: v3
-- id: ieee.standard.9052
+- id: ieee.standard.9046
   identifier:
     _type: pubid:ieee:standard
     number: '60079'
@@ -84424,7 +84304,7 @@
   non_normalized_aliases:
   - spelling: IEEE/IEC P60079-30-1 D5, January 2022
     style: v3
-- id: ieee.standard.9053
+- id: ieee.standard.9047
   identifier:
     _type: pubid:ieee:standard
     number: '60079'
@@ -84444,7 +84324,7 @@
   non_normalized_aliases:
   - spelling: IEEE/IEC P60079-30-2 D4, January 2022
     style: v3
-- id: ieee.standard.9054
+- id: ieee.standard.9048
   identifier:
     _type: pubid:ieee:standard
     number: '60214'
@@ -84463,7 +84343,7 @@
   non_normalized_aliases:
   - spelling: IEEE/IEC P60214-2/D1, August 2017
     style: v3
-- id: ieee.standard.9055
+- id: ieee.standard.9049
   identifier:
     _type: pubid:ieee:standard
     number: '60255'
@@ -84483,7 +84363,7 @@
   non_normalized_aliases:
   - spelling: IEEE/IEC P60255-118-1/D6, October 2016
     style: v3
-- id: ieee.standard.9056
+- id: ieee.standard.9050
   identifier:
     _type: pubid:ieee:standard
     number: '60255'
@@ -84503,7 +84383,7 @@
   non_normalized_aliases:
   - spelling: IEEE/IEC P60255-118-1/D7, June 2017
     style: v3
-- id: ieee.standard.9057
+- id: ieee.standard.9051
   identifier:
     _type: pubid:ieee:standard
     number: '60255'
@@ -84523,7 +84403,7 @@
   non_normalized_aliases:
   - spelling: IEEE/IEC P60255-118-1/D8, January 2018
     style: v3
-- id: ieee.standard.9058
+- id: ieee.standard.9052
   identifier:
     _type: pubid:ieee:standard
     number: '62271'
@@ -84543,7 +84423,7 @@
   non_normalized_aliases:
   - spelling: IEEE/IEC P62271-37-013/D1, Jul 2018
     style: v3
-- id: ieee.standard.9059
+- id: ieee.standard.9053
   identifier:
     _type: pubid:ieee:standard
     number: '62271'
@@ -84563,7 +84443,7 @@
   non_normalized_aliases:
   - spelling: IEEE/IEC P62271-37-013/D2, April 2019
     style: v3
-- id: ieee.standard.9060
+- id: ieee.standard.9054
   identifier:
     _type: pubid:ieee:standard
     number: '62582'
@@ -84582,7 +84462,7 @@
   non_normalized_aliases:
   - spelling: IEEE/IEC P62582-3/D1, April 2011
     style: v3
-- id: ieee.standard.9061
+- id: ieee.standard.9055
   identifier:
     _type: pubid:ieee:standard
     number: '62659'
@@ -84595,7 +84475,7 @@
     human: IEEE/IEC P62659/D2
     urn: urn:ieee:ieee-iec:P62659:draft./D2
   style: v3
-- id: ieee.standard.9062
+- id: ieee.standard.9056
   identifier:
     _type: pubid:ieee:standard
     number: '63195'
@@ -84614,7 +84494,7 @@
   non_normalized_aliases:
   - spelling: IEEE/IEC P63195-2/D9, December 2021
     style: v3
-- id: ieee.standard.9063
+- id: ieee.standard.9057
   identifier:
     _type: pubid:ieee:standard
     number: '82079'
@@ -84630,7 +84510,7 @@
   non_normalized_aliases:
   - spelling: IEEE/IEC P82079/D2, March 2017
     style: v3
-- id: ieee.standard.9064
+- id: ieee.standard.9058
   identifier:
     _type: pubid:ieee:standard
     number: '60076'
