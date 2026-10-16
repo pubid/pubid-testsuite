@@ -6,22 +6,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''-''] at line 1 char 21.'
-- id: ieee.debt.1ed2b1c3b536
-  input: IEEE P1310Rev3/D2-2011-02
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', '' '', '', '', ''/'', ''_'',
-    '','', ''REV'', ''Rev'', ''rev'', ''('', ''P&V'', '':''] at line 1 char 13.'
-- id: ieee.debt.e846d6c17cbe
-  input: IEEE P1722Rev1/D13-2015-04
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''.'', ''-'', ''&#x2013;'', ''–'', '' '', '', '', ''/'', ''_'',
-    '','', ''REV'', ''Rev'', ''rev'', ''('', ''P&V'', '':''] at line 1 char 13.'
 - id: ieee.debt.f1d92d5f57ce
   input: IEEE//IEC/ISO Draft P80005-1/DFDIS_March, 2012
   expect:
@@ -29,13 +13,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 15.'
-- id: ieee.debt.19b68704898a
-  input: IEEE Draft P802.11REV.ma/D4.0
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''REV'', ''Rev'', ''rev''] at line 1 char 23.'
 - id: ieee.debt.d5fcc0cdc687
   input: IEEE/NACE Draft P2638/D2.4, Jan, 2020
   expect:
@@ -434,13 +411,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of ['' ''] at line 1 char 11.'
-- id: ieee.debt.8de715181204
-  input: IEEE Draft Std P802.11REV-ma/D4.0
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 31.'
 - id: ieee.debt.15eddd50af05
   input: IEEE 29-1941 / ASA C77.1-1943 (Reaffirmed 1971)
   expect:
@@ -663,13 +633,6 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of ['' ''] at line 1 char 11.'
-- id: ieee.debt.8de715181204
-  input: IEEE Draft Std P802.11REV-ma/D4.0
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-'', ''&#x2013;'', ''–''] at line 1 char 31.'
 - id: ieee.debt.15eddd50af05
   input: IEEE 29-1941 / ASA C77.1-1943 (Reaffirmed 1971)
   expect:
