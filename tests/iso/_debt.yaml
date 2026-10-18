@@ -4,46 +4,52 @@
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [NSB_ISO_IDENTIFIER, TC_DOCUMENT, DIRECTIVES_IDENTIFIERS, JCGM_IDENTIFIER, ISO_R_SUPPLEMENT_IDENTIFIER,
-    ISO_R_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_SUPPLEMENT_IDENTIFIER, SUPPLEMENT_SUPPLE'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Fpr'', ''WD'', ''ISO'', ''IEC'', ''JCGM'', ''ISO/R'', ''Guide'',
+    ''GUIDE'', '' '', ''/'', ''Directives, Part'', ''Directives Part'', ''Directives,'',
+    ''Directives'', ''Supplement'', ''AWI GUIDE'','
 - id: iso.debt.911f99df93e8
   input: EN 12643:2014
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [NSB_ISO_IDENTIFIER, TC_DOCUMENT, DIRECTIVES_IDENTIFIERS, JCGM_IDENTIFIER, ISO_R_SUPPLEMENT_IDENTIFIER,
-    ISO_R_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_SUPPLEMENT_IDENTIFIER, SUPPLEMENT_SUPPLE'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Fpr'', ''WD'', ''ISO'', ''IEC'', ''JCGM'', ''ISO/R'', ''Guide'',
+    ''GUIDE'', '' '', ''/'', ''Directives, Part'', ''Directives Part'', ''Directives,'',
+    ''Directives'', ''Supplement'', ''AWI GUIDE'','
 - id: iso.debt.8ddf5d8c92ac
   input: ISO/IEC Directives, JTC 1 Supplement:2021
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [NSB_ISO_IDENTIFIER, TC_DOCUMENT, DIRECTIVES_IDENTIFIERS, JCGM_IDENTIFIER, ISO_R_SUPPLEMENT_IDENTIFIER,
-    ISO_R_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_SUPPLEMENT_IDENTIFIER, SUPPLEMENT_SUPPLE'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''SUP'', [\x30-\x39], ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''('',
+    '' '', ''(all parts)'', '':'', ''-'', ''‑'', ''‐'', ''+ '', ''--'', ''ISO/IEC'',
+    ''ISO'', ''IEC'', ''JTC 1''] at line 1 char 27.'
 - id: iso.debt.8ddf5d8c92ac
   input: ISO/IEC Directives, JTC 1 Supplement:2021
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [NSB_ISO_IDENTIFIER, TC_DOCUMENT, DIRECTIVES_IDENTIFIERS, JCGM_IDENTIFIER, ISO_R_SUPPLEMENT_IDENTIFIER,
-    ISO_R_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_SUPPLEMENT_IDENTIFIER, SUPPLEMENT_SUPPLE'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''SUP'', [\x30-\x39], ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''('',
+    '' '', ''(all parts)'', '':'', ''-'', ''‑'', ''‐'', ''+ '', ''--'', ''ISO/IEC'',
+    ''ISO'', ''IEC'', ''JTC 1''] at line 1 char 27.'
 - id: iso.debt.d7ab879a730a
   input: CEN/TS 15370-1:2006
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [NSB_ISO_IDENTIFIER, TC_DOCUMENT, DIRECTIVES_IDENTIFIERS, JCGM_IDENTIFIER, ISO_R_SUPPLEMENT_IDENTIFIER,
-    ISO_R_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_SUPPLEMENT_IDENTIFIER, SUPPLEMENT_SUPPLE'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Fpr'', ''WD'', ''ISO'', ''IEC'', ''JCGM'', ''ISO/R'', ''Guide'',
+    ''GUIDE'', '' '', ''/'', ''Directives, Part'', ''Directives Part'', ''Directives,'',
+    ''Directives'', ''Supplement'', ''AWI GUIDE'','
 - id: iso.debt.911f99df93e8
   input: EN 12643:2014
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [NSB_ISO_IDENTIFIER, TC_DOCUMENT, DIRECTIVES_IDENTIFIERS, JCGM_IDENTIFIER, ISO_R_SUPPLEMENT_IDENTIFIER,
-    ISO_R_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_SUPPLEMENT_IDENTIFIER, SUPPLEMENT_SUPPLE'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Fpr'', ''WD'', ''ISO'', ''IEC'', ''JCGM'', ''ISO/R'', ''Guide'',
+    ''GUIDE'', '' '', ''/'', ''Directives, Part'', ''Directives Part'', ''Directives,'',
+    ''Directives'', ''Supplement'', ''AWI GUIDE'','

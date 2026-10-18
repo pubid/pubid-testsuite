@@ -1,0 +1,31 @@
+name: corpus-check
+
+# The corpus contracts gate: regenerate every flavor from the reference
+# gem (the sibling pubid checkout, exactly like validate.yml resolves it)
+# and fail on any drift. The regen path never half-writes tests/ — the
+# exporter builds into a staging dir and swaps (the same gate pattern the
+# pubid-grammar repo runs for its schemas/corpora).
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    # Weekly: the corpus can never silently drift from the reference.
+    - cron: "23 4 * * 1"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7
+        with:
+          repository: pubid/pubid
+          path: pubid
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4"
+      - name: Corpus contracts gate (regen + diff, never writes tests/)
+        run: |
+          cd pubid
+          bundle install --path vendor/bundle
+          bundle exec ruby ../tools/export.rb --check

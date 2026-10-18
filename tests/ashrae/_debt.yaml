@@ -4,6 +4,5 @@
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [ERRATA_IDENTIFIER, INTERPRETATION_IDENTIFIER, COMBINED_ADDENDA_IDENTIFIER, YEAR_FIRST_ADDENDA_PACKAGE_IDENTIFIER,
-    ADDENDA_PACKAGE_IDENTIFIER, ADDENDUM_IDENTIFIER, copublisher:((''ANSI'''
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of ['','', '' ''] at line 1 char 22.'

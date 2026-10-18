@@ -4,30 +4,26 @@
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39]] at line 1 char 13.'
 - id: amca.debt.56da3bbf24fd
   input: AMCA 204 – 2
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39]] at line 1 char 13.'
 - id: amca.debt.be8c5ac3531c
   input: AMCA 204 – 3
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39]] at line 1 char 13.'
 - id: amca.debt.110a477ce337
   input: ANSI/AMCA Standard 210-25 / ASHRAE 51-25
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [INTERPRETATION_IDENTIFIER, PUBLICATION_IDENTIFIER, STANDARD_IDENTIFIER] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x41-\x5a], [\x61-\x7a]] at line 1 char 28.'

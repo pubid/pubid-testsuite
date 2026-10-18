@@ -8,11 +8,11 @@
       year: '2014'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2016'
       base:
         _type: pubid:bsi:british-standard
         number: '10125'
         year: '2014'
-      year: '2016'
   representations:
     human: BS 10125:2014+A1:2016
     urn: urn:bsi:bs:10125:2014:amd:1:2016
@@ -62,11 +62,11 @@
       year: '1958'
     - _type: pubid:bsi:amendment
       number: '2'
+      year: '2013'
       base:
         _type: pubid:bsi:british-standard
         number: '646'
         year: '1958'
-      year: '2013'
   representations:
     human: BS 646:1958+A2:2013
     urn: urn:bsi:bs:646:1958:amd:2:2013
@@ -99,11 +99,11 @@
       year: '2018'
     - _type: pubid:bsi:amendment
       number: '2'
+      year: '2022'
       base:
         _type: pubid:bsi:british-standard
         number: '7671'
         year: '2018'
-      year: '2022'
   representations:
     human: BS 7671:2018+A2:2022
     urn: urn:bsi:bs:7671:2018:amd:2:2022
@@ -118,12 +118,12 @@
       year: '2011'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2022'
       base:
         _type: pubid:bsi:british-standard
         number: '7870'
         part: '1'
         year: '2011'
-      year: '2022'
   representations:
     human: BS 7870-1:2011+A1:2022
     urn: urn:bsi:bs:7870:-1:2011:amd:1:2022
@@ -139,13 +139,13 @@
       prefix: A
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2017'
       base:
         _type: pubid:bsi:aerospace-standard
         number: '242'
         part: A 245
         year: '1974'
         prefix: A
-      year: '2017'
   representations:
     human: BS A 242-A 245:1974+A1:2017
     urn: urn:bsi:bs:a:242:-A 245:1974:amd:1:2017
@@ -161,13 +161,13 @@
       prefix: A
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2017'
       base:
         _type: pubid:bsi:aerospace-standard
         number: '246'
         part: A 249
         year: '1974'
         prefix: A
-      year: '2017'
   representations:
     human: BS A 246-A 249:1974+A1:2017
     urn: urn:bsi:bs:a:246:-A 249:1974:amd:1:2017
@@ -183,13 +183,13 @@
       prefix: A
     - _type: pubid:bsi:amendment
       number: '2'
+      year: '2011'
       base:
         _type: pubid:bsi:aerospace-standard
         number: '275'
         part: A 280
         year: '1981'
         prefix: A
-      year: '2011'
   representations:
     human: BS A 275-A 280:1981+A2:2011
     urn: urn:bsi:bs:a:275:-A 280:1981:amd:2:2011
@@ -224,6 +224,7 @@
         year: '2001'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2008'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -231,7 +232,6 @@
           number: '1005'
           part: '1'
           year: '2001'
-      year: '2008'
   representations:
     human: BS EN 1005-1:2001+A1:2008
     urn: urn:bsi:bs:1005:-1:2001:amd:1:2008
@@ -248,6 +248,7 @@
         year: '2002'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2008'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -255,7 +256,6 @@
           number: '1005'
           part: '3'
           year: '2002'
-      year: '2008'
   representations:
     human: BS EN 1005-3:2002+A1:2008
     urn: urn:bsi:bs:1005:-3:2002:amd:1:2008
@@ -271,13 +271,13 @@
         year: '2002'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2008'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
           _type: pubid:cencenelec:european-norm
           number: '12620'
           year: '2002'
-      year: '2008'
   representations:
     human: BS EN 12620:2002+A1:2008
     urn: urn:bsi:bs:12620:2002:amd:1:2008
@@ -293,13 +293,13 @@
         year: '2008'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2011'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
           _type: pubid:cencenelec:european-norm
           number: '12649'
           year: '2008'
-      year: '2011'
   representations:
     human: BS EN 12649:2008+A1:2011
     urn: urn:bsi:bs:12649:2008:amd:1:2011
@@ -315,13 +315,13 @@
         year: '2002'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2008'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
           _type: pubid:cencenelec:european-norm
           number: '13059'
           year: '2002'
-      year: '2008'
   representations:
     human: BS EN 13059:2002+A1:2008
     urn: urn:bsi:bs:13059:2002:amd:1:2008
@@ -338,6 +338,7 @@
         year: '2007'
     - _type: pubid:bsi:amendment
       number: '2'
+      year: '2012'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -345,7 +346,6 @@
           number: '1317'
           part: '5'
           year: '2007'
-      year: '2012'
   representations:
     human: BS EN 1317-5:2007+A2:2012
     urn: urn:bsi:bs:1317:-5:2007:amd:2:2012
@@ -362,6 +362,7 @@
         year: '2001'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2007'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -369,7 +370,6 @@
           number: '13277'
           part: '4'
           year: '2001'
-      year: '2007'
   representations:
     human: BS EN 13277-4:2001+A1:2007
     urn: urn:bsi:bs:13277:-4:2001:amd:1:2007
@@ -385,13 +385,13 @@
         year: '2002'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2009'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
           _type: pubid:cencenelec:european-norm
           number: '13390'
           year: '2002'
-      year: '2009'
   representations:
     human: BS EN 13390:2002+A1:2009
     urn: urn:bsi:bs:13390:2002:amd:1:2009
@@ -495,13 +495,13 @@
         year: '2003'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2008'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
           _type: pubid:cencenelec:european-norm
           number: '13889'
           year: '2003'
-      year: '2008'
   representations:
     human: BS EN 13889:2003+A1:2008
     urn: urn:bsi:bs:13889:2003:amd:1:2008
@@ -517,13 +517,13 @@
         year: '2023'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2024'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
           _type: pubid:cencenelec:european-norm
           number: '16005'
           year: '2023'
-      year: '2024'
   representations:
     human: BS EN 16005:2023+A1:2024
     urn: urn:bsi:bs:16005:2023:amd:1:2024
@@ -540,6 +540,7 @@
         year: '2014'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2021'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -547,7 +548,6 @@
           number: '16228'
           part: '3'
           year: '2014'
-      year: '2021'
   representations:
     human: BS EN 16228-3:2014+A1:2021
     urn: urn:bsi:bs:16228:-3:2014:amd:1:2021
@@ -586,6 +586,7 @@
         year: '2002'
     - _type: pubid:bsi:amendment
       number: '2'
+      year: '2012'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -593,7 +594,6 @@
           number: '1870'
           part: '5'
           year: '2002'
-      year: '2012'
   representations:
     human: BS EN 1870-5:2002+A2:2012
     urn: urn:bsi:bs:1870:-5:2002:amd:2:2012
@@ -610,6 +610,7 @@
         year: '2007'
     - _type: pubid:bsi:amendment
       number: '2'
+      year: '2013'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -617,7 +618,6 @@
           number: '1999'
           part: 1-1
           year: '2007'
-      year: '2013'
   representations:
     human: BS EN 1999-1-1:2007+A2:2013
     urn: urn:bsi:bs:1999:-1-1:2007:amd:2:2013
@@ -634,6 +634,7 @@
         year: '2002'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2007'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -641,7 +642,6 @@
           number: '50290'
           part: 2-21
           year: '2002'
-      year: '2007'
   representations:
     human: BS EN 50290-2-21:2002+A1:2007
     urn: urn:bsi:bs:50290:-2-21:2002:amd:1:2007
@@ -657,13 +657,13 @@
         year: '2001'
     - _type: pubid:bsi:amendment
       number: '2'
+      year: '2006'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
           _type: pubid:cencenelec:european-norm
           number: '55013'
           year: '2001'
-      year: '2006'
   representations:
     human: BS EN 55013:2001+A2:2006
     urn: urn:bsi:bs:55013:2001:amd:2:2006
@@ -680,6 +680,7 @@
         year: '1997'
     - _type: pubid:bsi:amendment
       number: '2'
+      year: '2008'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -687,7 +688,6 @@
           number: '55014'
           part: '2'
           year: '1997'
-      year: '2008'
   representations:
     human: BS EN 55014-2:1997+A2:2008
     urn: urn:bsi:bs:55014:-2:1997:amd:2:2008
@@ -704,6 +704,7 @@
         year: '2004'
     - _type: pubid:bsi:amendment
       number: '2'
+      year: '2006'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -711,7 +712,6 @@
           number: '55016'
           part: 1-2
           year: '2004'
-      year: '2006'
   representations:
     human: BS EN 55016-1-2:2004+A2:2006
     urn: urn:bsi:bs:55016:-1-2:2004:amd:2:2006
@@ -750,6 +750,7 @@
         year: '2004'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2012'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -757,7 +758,6 @@
           number: '55016'
           part: 1-5
           year: '2004'
-      year: '2012'
   representations:
     human: BS EN 55016-1-5:2004+A1:2012
     urn: urn:bsi:bs:55016:-1-5:2004:amd:1:2012
@@ -1060,6 +1060,7 @@
         year: '2007'
     - _type: pubid:bsi:amendment
       number: '11'
+      year: '2023'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -1067,7 +1068,6 @@
           number: '60670'
           part: '21'
           year: '2007'
-      year: '2023'
   representations:
     human: BS EN 60670-21:2007+A11:2023
     urn: urn:bsi:bs:60670:-21:2007:amd:11:2023
@@ -1106,6 +1106,7 @@
         year: '2002'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2015'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -1113,7 +1114,6 @@
           number: '60702'
           part: '1'
           year: '2002'
-      year: '2015'
   representations:
     human: BS EN 60702-1:2002+A1:2015
     urn: urn:bsi:bs:60702:-1:2002:amd:1:2015
@@ -1130,6 +1130,7 @@
         year: '2002'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2015'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -1137,7 +1138,6 @@
           number: '60702'
           part: '2'
           year: '2002'
-      year: '2015'
   representations:
     human: BS EN 60702-2:2002+A1:2015
     urn: urn:bsi:bs:60702:-2:2002:amd:1:2015
@@ -1154,6 +1154,7 @@
         year: '2002'
     - _type: pubid:bsi:amendment
       number: '2'
+      year: '2008'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -1161,7 +1162,6 @@
           number: '60730'
           part: 2-19
           year: '2002'
-      year: '2008'
   representations:
     human: BS EN 60730-2-19:2002+A2:2008
     urn: urn:bsi:bs:60730:-2-19:2002:amd:2:2008
@@ -1178,6 +1178,7 @@
         year: '2019'
     - _type: pubid:bsi:amendment
       number: '11'
+      year: '2024'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -1185,7 +1186,6 @@
           number: '60898'
           part: '1'
           year: '2019'
-      year: '2024'
   representations:
     human: BS EN 60898-1:2019+A11:2024
     urn: urn:bsi:bs:60898:-1:2019:amd:11:2024
@@ -1201,13 +1201,13 @@
         year: '2002'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2010'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
           _type: pubid:cencenelec:european-norm
           number: '618'
           year: '2002'
-      year: '2010'
   representations:
     human: BS EN 618:2002+A1:2010
     urn: urn:bsi:bs:618:2002:amd:1:2010
@@ -1224,6 +1224,7 @@
         year: '2006'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2014'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -1231,7 +1232,6 @@
           number: '61937'
           part: '6'
           year: '2006'
-      year: '2014'
   representations:
     human: BS EN 61937-6:2006+A1:2014
     urn: urn:bsi:bs:61937:-6:2006:amd:1:2014
@@ -1292,6 +1292,7 @@
         year: '2021'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2022'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -1299,7 +1300,6 @@
           number: '81'
           part: '70'
           year: '2021'
-      year: '2022'
   representations:
     human: BS EN 81-70:2021+A1:2022
     urn: urn:bsi:bs:81:-70:2021:amd:1:2022
@@ -1315,13 +1315,13 @@
         year: '1997'
     - _type: pubid:bsi:amendment
       number: '4'
+      year: '2011'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
           _type: pubid:cencenelec:european-norm
           number: '836'
           year: '1997'
-      year: '2011'
   representations:
     human: BS EN 836:1997+A4:2011
     urn: urn:bsi:bs:836:1997:amd:4:2011
@@ -1338,6 +1338,7 @@
           number: '60065'
     - _type: pubid:bsi:amendment
       number: '11'
+      year: '2017'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -1345,7 +1346,6 @@
           adopted:
             _type: pubid:iec:international-standard
             number: '60065'
-      year: '2017'
   representations:
     human: BS EN IEC 60065+A11:2017
     urn: urn:bsi:bs:60065:amd:11:2017
@@ -1476,6 +1476,7 @@
           subpart: '5'
     - _type: pubid:bsi:amendment
       number: '11'
+      year: '2021'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -1486,7 +1487,6 @@
             number: '62841'
             part: '4'
             subpart: '5'
-      year: '2021'
   representations:
     human: BS EN IEC 62841-4-5:2021+A11:2021
     urn: urn:bsi:bs:62841:-4:-5:2021:amd:11:2021
@@ -1506,6 +1506,7 @@
           subpart: '7'
     - _type: pubid:bsi:amendment
       number: '11'
+      year: '2022'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -1516,7 +1517,6 @@
             number: '62841'
             part: '4'
             subpart: '7'
-      year: '2022'
   representations:
     human: BS EN IEC 62841-4-7:2022+A11:2022
     urn: urn:bsi:bs:62841:-4:-7:2022:amd:11:2022
@@ -1538,6 +1538,7 @@
           subpart: '1202'
     - _type: pubid:bsi:amendment
       number: '11'
+      year: '2025'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -1550,7 +1551,6 @@
             number: '60076'
             part: '57'
             subpart: '1202'
-      year: '2025'
   representations:
     human: BS EN IEC/IEEE 60076-57-1202:2025+A11:2025
     urn: urn:bsi:bs:60076:-57:-1202:2025:amd:11:2025
@@ -1568,6 +1568,7 @@
           year: '2021'
     - _type: pubid:bsi:amendment
       number: '11'
+      year: '2023'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -1576,7 +1577,6 @@
             _type: pubid:iso:international-standard
             number: '13297'
             year: '2021'
-      year: '2023'
   representations:
     human: BS EN ISO 13297:2021+A11:2023
     urn: urn:bsi:bs:13297:2021:amd:11:2023
@@ -1644,6 +1644,7 @@
           year: '2007'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2008'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -1652,7 +1653,6 @@
             _type: pubid:iso:international-standard
             number: '23251'
             year: '2007'
-      year: '2008'
   representations:
     human: BS EN ISO 23251:2007+A1:2008
     urn: urn:bsi:bs:23251:2007:amd:1:2008
@@ -1695,6 +1695,7 @@
           year: '2013'
     - _type: pubid:bsi:amendment
       number: '2'
+      year: '2018'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -1704,7 +1705,6 @@
             number: '5395'
             part: '3'
             year: '2013'
-      year: '2018'
   representations:
     human: BS EN ISO 5395-3:2013+A2:2018
     urn: urn:bsi:bs:5395:-3:2013:amd:2:2018
@@ -1743,6 +1743,7 @@
         year: '2013'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2022'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -1750,7 +1751,6 @@
           number: '60269'
           part: '2'
           year: '2013'
-      year: '2022'
   representations:
     human: BS HD 60269-2:2013+A1:2022
     urn: urn:bsi:bs:60269:-2:2013:amd:1:2022
@@ -1767,6 +1767,7 @@
         year: '2013'
     - _type: pubid:bsi:amendment
       number: '2'
+      year: '2024'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -1774,7 +1775,6 @@
           number: '60269'
           part: '2'
           year: '2013'
-      year: '2024'
   representations:
     human: BS HD 60269-2:2013+A2:2024
     urn: urn:bsi:bs:60269:-2:2013:amd:2:2024
@@ -1813,6 +1813,7 @@
         year: '2010'
     - _type: pubid:bsi:amendment
       number: '2'
+      year: '2022'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -1820,7 +1821,6 @@
           number: '60269'
           part: '3'
           year: '2010'
-      year: '2022'
   representations:
     human: BS HD 60269-3:2010+A2:2022
     urn: urn:bsi:bs:60269:-3:2010:amd:2:2022
@@ -1837,6 +1837,7 @@
         year: '2011'
     - _type: pubid:bsi:amendment
       number: '11'
+      year: '2019'
       base:
         _type: pubid:bsi:adopted-european-norm
         base:
@@ -1844,7 +1845,6 @@
           number: '60364'
           part: 8-2
           year: '2011'
-      year: '2019'
   representations:
     human: BS HD 60364-8-2:2011+A11:2019
     urn: urn:bsi:bs:60364:-8-2:2011:amd:11:2019
@@ -1860,13 +1860,13 @@
         year: '1997'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2015'
       base:
         _type: pubid:bsi:adopted-international-standard
         base:
           _type: pubid:iso:international-standard
           number: '8727'
           year: '1997'
-      year: '2015'
   representations:
     human: BS ISO 8727:1997+A1:2015
     urn: urn:bsi:bs:8727:1997:amd:1:2015
@@ -1885,6 +1885,7 @@
         - IEC
     - _type: pubid:bsi:amendment
       number: '2'
+      year: '2015'
       base:
         _type: pubid:bsi:adopted-international-standard
         base:
@@ -1894,7 +1895,6 @@
           year: '2011'
           copublishers:
           - IEC
-      year: '2015'
   representations:
     human: BS ISO/IEC 19794-2:2011+A2:2015
     urn: urn:bsi:bs:19794:-2:2011:amd:2:2015
@@ -1913,6 +1913,7 @@
         - IEC
     - _type: pubid:bsi:amendment
       number: '2'
+      year: '2015'
       base:
         _type: pubid:bsi:adopted-international-standard
         base:
@@ -1922,7 +1923,6 @@
           year: '2011'
           copublishers:
           - IEC
-      year: '2015'
   representations:
     human: BS ISO/IEC 19794-4:2011+A2:2015
     urn: urn:bsi:bs:19794:-4:2011:amd:2:2015
@@ -1941,6 +1941,7 @@
         - IEC
     - _type: pubid:bsi:amendment
       number: '2'
+      year: '2015'
       base:
         _type: pubid:bsi:adopted-international-standard
         base:
@@ -1950,7 +1951,6 @@
           year: '2011'
           copublishers:
           - IEC
-      year: '2015'
   representations:
     human: BS ISO/IEC 19794-9:2011+A2:2015
     urn: urn:bsi:bs:19794:-9:2011:amd:2:2015
@@ -1966,13 +1966,13 @@
       prefix: SP
     - _type: pubid:bsi:amendment
       number: '5'
+      year: '2012'
       base:
         _type: pubid:bsi:aerospace-standard
         number: '107'
         part: '112'
         year: '1954'
         prefix: SP
-      year: '2012'
   representations:
     human: BS SP 107-112:1954+A5:2012
     urn: urn:bsi:bs:sp:107:-112:1954:amd:5:2012
@@ -1987,12 +1987,12 @@
       prefix: SP
     - _type: pubid:bsi:amendment
       number: '5'
+      year: '2013'
       base:
         _type: pubid:bsi:aerospace-standard
         number: '114'
         year: '1955'
         prefix: SP
-      year: '2013'
   representations:
     human: BS SP 114:1955+A5:2013
     urn: urn:bsi:bs:sp:114:1955:amd:5:2013
@@ -2008,13 +2008,13 @@
       prefix: SP
     - _type: pubid:bsi:amendment
       number: '2'
+      year: '2012'
       base:
         _type: pubid:bsi:aerospace-standard
         number: '119'
         part: '120'
         year: '1957'
         prefix: SP
-      year: '2012'
   representations:
     human: BS SP 119-120:1957+A2:2012
     urn: urn:bsi:bs:sp:119:-120:1957:amd:2:2012
@@ -2030,13 +2030,13 @@
       prefix: SP
     - _type: pubid:bsi:amendment
       number: '5'
+      year: '2015'
       base:
         _type: pubid:bsi:aerospace-standard
         number: '33'
         part: '39'
         year: '1951'
         prefix: SP
-      year: '2015'
   representations:
     human: BS SP 33-39:1951+A5:2015
     urn: urn:bsi:bs:sp:33:-39:1951:amd:5:2015
@@ -2052,13 +2052,13 @@
       prefix: SP
     - _type: pubid:bsi:amendment
       number: '5'
+      year: '2012'
       base:
         _type: pubid:bsi:aerospace-standard
         number: '41'
         part: '46'
         year: '1951'
         prefix: SP
-      year: '2012'
   representations:
     human: BS SP 41-46:1951+A5:2012
     urn: urn:bsi:bs:sp:41:-46:1951:amd:5:2012
@@ -2091,12 +2091,12 @@
       prefix: SP
     - _type: pubid:bsi:amendment
       number: '2'
+      year: '2012'
       base:
         _type: pubid:bsi:aerospace-standard
         number: '94'
         year: '1964'
         prefix: SP
-      year: '2012'
   representations:
     human: BS SP 94:1964+A2:2012
     urn: urn:bsi:bs:sp:94:1964:amd:2:2012
@@ -2118,6 +2118,7 @@
           year: '2003'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2011'
       base:
         _type: pubid:bsi:adopted-european-norm
         publisher:
@@ -2130,11 +2131,9 @@
             number: '11133'
             part: '2'
             year: '2003'
-      year: '2011'
   representations:
     human: DD CEN ISO/TS 11133-2:2003+A1:2011
     urn: urn:bsi:dd:11133:-2:2003:amd:1:2011
-  roundtrip: false
   style: v3
 - id: bsi.consolidated_identifier.1304
   identifier:
@@ -2170,6 +2169,7 @@
         - '60.60'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2024'
       base:
         _type: pubid:bsi:publicly-available-specification
         number: '24'
@@ -2195,7 +2195,6 @@
           harmonized_stages:
           - '60.00'
           - '60.60'
-      year: '2024'
   representations:
     human: PAS 24:2022+A1:2024
     urn: urn:bsi:bs:24:2022:pas:stage.published:amd:1:2024
@@ -2299,6 +2298,7 @@
         - '60.60'
     - _type: pubid:bsi:amendment
       number: '3'
+      year: '2008'
       base:
         _type: pubid:bsi:published-document
         number: '5500'
@@ -2324,7 +2324,6 @@
           harmonized_stages:
           - '60.00'
           - '60.60'
-      year: '2008'
   representations:
     human: PD 5500:2006+A3:2008
     urn: urn:bsi:bs:5500:2006:pd:stage.published:amd:3:2008
@@ -2364,6 +2363,7 @@
         - '60.60'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2016'
       base:
         _type: pubid:bsi:published-document
         number: '8010'
@@ -2390,7 +2390,6 @@
           harmonized_stages:
           - '60.00'
           - '60.60'
-      year: '2016'
   representations:
     human: PD 8010-1:2015+A1:2016
     urn: urn:bsi:bs:8010:-1:2015:pd:stage.published:amd:1:2016
@@ -2430,6 +2429,7 @@
         - '60.60'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2016'
       base:
         _type: pubid:bsi:published-document
         number: '8010'
@@ -2456,7 +2456,6 @@
           harmonized_stages:
           - '60.00'
           - '60.60'
-      year: '2016'
   representations:
     human: PD 8010-2:2015+A1:2016
     urn: urn:bsi:bs:8010:-2:2015:pd:stage.published:amd:1:2016
@@ -2474,6 +2473,7 @@
         year: '1993'
     - _type: pubid:bsi:amendment
       number: '1'
+      year: '2008'
       base:
         _type: pubid:bsi:adopted-international-standard
         publisher:
@@ -2482,9 +2482,7 @@
           _type: pubid:iso:guide
           number: '30'
           year: '1993'
-      year: '2008'
   representations:
     human: PD ISO Guide 30:1993+A1:2008
     urn: urn:bsi:pd:30:1993:amd:1:2008
-  roundtrip: false
   style: v3

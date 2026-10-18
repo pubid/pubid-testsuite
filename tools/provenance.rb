@@ -57,6 +57,39 @@ counts["negatives"] = Dir[File.join(tests, "*", "_negative.yaml")].sum do |path|
   YAML.safe_load_file(path).to_a.size
 end
 
+# Engine provenance, read textually so the tool stays gem-free: the
+# parsanol pin the oracle bundle resolves, and the grammar artifact
+# checksums a sibling pubid-grammar checkout carries (the wasm consumers
+# run these exact bytes).
+def parsanol_version(gem_dir)
+  lock = File.join(gem_dir, "Gemfile.lock")
+  return nil unless File.exist?(lock)
+
+  File.readlines(lock).find { |l| l.include?("parsanol (") }&.match(/\(([^)]+)\)/)&.[](1)
+rescue StandardError
+  nil
+end
+
+def grammar_provenance
+  dir = ENV.fetch("PARG_DIR", File.expand_path("../pubid-grammar", REPO))
+  commit, status = Open3.capture2("git", "-C", dir, "rev-parse", "HEAD")
+  commit = commit.strip
+  return nil unless status.success? && !commit.empty?
+
+  artifacts = Dir[File.join(dir, "artifacts", "*.json")].sort.to_h do |path|
+    [File.basename(path, ".json"), Digest::SHA256.file(path).hexdigest]
+  end
+  { "commit" => commit, "artifact_sha256" => artifacts }
+rescue StandardError
+  nil
+end
+
+oracle = { "gem" => "pubid" }.merge(git_info(GEM_DIR))
+pv = parsanol_version(GEM_DIR)
+oracle["parsanol_version"] = pv if pv
+gp = grammar_provenance
+oracle["grammar"] = gp if gp
+
 manifest = {
   "schema" => "pubid-testsuite/provenance/1",
   "generated_by" => "tools/provenance.rb - do not edit",
@@ -64,7 +97,7 @@ manifest = {
     "exporter" => "tools/export.rb",
     "exporter_sha256" => Digest::SHA256.file(File.join(REPO, "tools", "export.rb")).hexdigest,
   },
-  "oracle" => { "gem" => "pubid" }.merge(git_info(GEM_DIR)),
+  "oracle" => oracle,
   "repository" => git_info(REPO),
   "ruby" => { "version" => RUBY_VERSION },
   "counts" => counts,

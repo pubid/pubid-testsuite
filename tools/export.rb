@@ -16,8 +16,18 @@
 # - reconciliation is set-based: every distinct fixture line must be
 #   consumed as a canonical input, an alias spelling, or debt.
 
-LIB = File.expand_path("../../../../pubid/lib", __dir__)
-$LOAD_PATH.unshift(LIB) unless Dir.exist?(File.join(LIB, "pubid"))
+REPO = File.expand_path("..", __dir__)
+
+# The reference gem's lib: the sibling checkout first (the CI layout and
+# provenance.rb's GEM_DIR convention), then the legacy relative path.
+# Only a candidate that actually carries the gem is unshifted — a wrong
+# guess must not shadow the bundler env (the silent-stale-gem trap).
+LIB_CANDIDATES = [
+  File.expand_path("../pubid/lib", REPO),
+  File.expand_path("../../../../pubid/lib", __dir__),
+].freeze
+lib = LIB_CANDIDATES.find { |d| Dir.exist?(File.join(d, "pubid")) }
+$LOAD_PATH.unshift(lib) if lib && !$LOAD_PATH.include?(lib)
 
 require "pubid"
 require "yaml"
@@ -31,8 +41,6 @@ begin
 rescue LoadError
   abort "json_schemer required (bundle install in the pubid repo)"
 end
-
-REPO = File.expand_path("..", __dir__)
 ERROR_CODES = {
   "Parslet::ParseFailed" => "parse_failed",
   "ArgumentError" => "invalid_argument",
@@ -118,7 +126,7 @@ module Exporter
     Pubid::Registry.get(REGISTRY_KEYS.fetch(flavor, flavor))
   end
 
-  def export(flavor)
+  def export(flavor, staging: nil)
     mod = flavor_module(flavor)
     if mod.nil?
       warn "FLAVOR SKIP #{flavor} unregistered-in-reference"
@@ -126,19 +134,16 @@ module Exporter
     end
 
     out = File.join(REPO, "tests", flavor)
-    FileUtils.mkdir_p(out)
+    # Payloads are written into the staging dir first (default: the real
+    # dir). With staging, nothing in tests/ is touched until commit! —
+    # the delete-rewrite window that once recorded mass deletions and
+    # that --check replays harmlessly.
+    write_dir = staging || out
+    FileUtils.mkdir_p(write_dir)
     # Curated review flags are contract-linked and hand-applied; harvest
     # them (keyed by canonical human form, stable where sequence ids are
     # not) before the full-regeneration cleanup deletes the old payloads.
     review_map = preserved_reviews(out)
-    # Full-regeneration semantics: stale files from earlier formats must
-    # not survive beside fresh ones.
-    # _status.yaml is curated ledger state, not generated output - never delete it
-    Dir[File.join(out, "*.yaml")].each do |old_file|
-      File.delete(old_file) unless File.basename(old_file) == "_status.yaml"
-    end
-    dotfile = File.join(out, ".yaml")
-    File.delete(dotfile) if File.exist?(dotfile)
     stats = { cases: 0, aliases: 0, duplicates: 0, phantom: 0, debt: 0,
               negatives: 0, quarantined: 0, divergent: 0,
               fixture_lines: Set.new, covered: Set.new, debt_inputs: Set.new }
@@ -177,12 +182,12 @@ module Exporter
     by_type = Hash.new { |h, k| h[k] = [] }
     cases.each { |c| by_type[type_of(c)] << c }
     by_type.each do |type, type_cases|
-      File.write(File.join(out, "#{type}.yaml"), YAML.dump(type_cases))
+      File.write(File.join(write_dir, "#{type}.yaml"), YAML.dump(type_cases))
     end
-    File.write(File.join(out, "_debt.yaml"), YAML.dump(debt)) if debt.any?
+    File.write(File.join(write_dir, "_debt.yaml"), YAML.dump(debt)) if debt.any?
     pairs = normalization_pairs(pass_files)
     if pairs.any?
-      File.write(File.join(out, "_normalization.yaml"), YAML.dump(pairs))
+      File.write(File.join(write_dir, "_normalization.yaml"), YAML.dump(pairs))
     end
 
     negatives = []
@@ -195,7 +200,7 @@ module Exporter
                                                flavor, type, i + 1), input)
       end
     end
-    File.write(File.join(out, "_negative.yaml"), YAML.dump(negatives)) if negatives.any?
+    File.write(File.join(write_dir, "_negative.yaml"), YAML.dump(negatives)) if negatives.any?
     stats
   end
 
@@ -343,7 +348,64 @@ module Exporter
     { cases: cases, aliases: aliases_checked, mismatches: mismatches,
       schema_errors: schema_errors }
   end
+  # The delete-rewrite swap: the staging dir is complete (and verified)
+  # before the live payloads are replaced in one fast pass — the write
+  # window that once recorded mass deletions shrinks to file moves.
+  # _status.yaml is curated ledger state, never deleted.
+  def commit!(flavor, staging)
+    out = File.join(REPO, "tests", flavor)
+    Dir[File.join(out, "*.yaml")].each do |old_file|
+      File.delete(old_file) unless File.basename(old_file) == "_status.yaml"
+    end
+    dotfile = File.join(out, ".yaml")
+    File.delete(dotfile) if File.exist?(dotfile)
+    Dir[File.join(staging, "*.yaml")].each { |f| FileUtils.mv(f, out) }
+    FileUtils.rmdir(staging)
+  end
+
+  # --check: regenerate into a throwaway staging dir and compare with the
+  # live payloads. Never touches tests/. Returns [nil, []] when the
+  # flavor is not exportable, else [identical, drift_descriptions].
+  def check(flavor)
+    mod = flavor_module(flavor)
+    return nil, [] if mod.nil?
+
+    out = File.join(REPO, "tests", flavor)
+    staging = File.join(REPO, "tests", ".check-#{flavor}")
+    FileUtils.rm_rf(staging)
+    export(flavor, staging: staging)
+    live = Dir[File.join(out, "*.yaml")]
+      .map { |f| File.basename(f) }
+      .reject { |n| n == "_status.yaml" }
+    fresh = Dir[File.join(staging, "*.yaml")].map { |f| File.basename(f) }.sort
+    # notes are diagnostic prose (the engine's exception message) — they
+    # churn per engine and carry no contract; the comparison strips them.
+    comparable = lambda do |path|
+      doc = YAML.safe_load_file(path)
+      case doc
+      when Array then doc.each { |e| e.delete("notes") if e.is_a?(Hash) }
+      when Hash then doc.delete("notes")
+      end
+      YAML.dump(doc)
+    end
+    drift = []
+    (live | fresh).sort.each do |name|
+      live_path = File.join(out, name)
+      fresh_path = File.join(staging, name)
+      if !File.exist?(fresh_path)
+        drift << "stale-only live payload: #{name}"
+      elsif !File.exist?(live_path)
+        drift << "missing live payload: #{name}"
+      elsif comparable.call(live_path) != comparable.call(fresh_path)
+        drift << "content drift: #{name}"
+      end
+    end
+    FileUtils.rm_rf(staging)
+    [drift.empty?, drift]
+  end
 end
+
+check_mode = ARGV.delete("--check")
 
 flavors = if ARGV.empty?
             Dir[File.join(REPO, "reference-docs", "*")]
@@ -352,10 +414,36 @@ flavors = if ARGV.empty?
             ARGV
           end
 
+if check_mode
+  drifted = []
+  flavors.each do |flavor|
+    exportable, drift = Exporter.check(flavor)
+    next if exportable.nil?
+
+    puts format("%-12s %s", flavor, drift.empty? ? "IDENTICAL" : "DRIFT")
+    drift.first(10).each { |d| puts "    #{d}" }
+    puts "    (+#{drift.size - 10} more)" if drift.size > 10
+    drifted << flavor unless drift.empty?
+  end
+  if drifted.empty?
+    puts "CORPUS CURRENT: #{flavors.size} flavor(s) reproduce byte-identically"
+  else
+    warn "CORPUS DRIFT: #{drifted.join(", ")}"
+    exit 1
+  end
+  exit 0
+end
+
 total_clean = 0
 flavors.each do |flavor|
-  stats = Exporter.export(flavor)
+  # The atomic path: payloads land in staging and swap in after a clean
+  # build — tests/ is never half-written.
+  staging = File.join(REPO, "tests", ".export-#{flavor}")
+  FileUtils.rm_rf(staging)
+  stats = Exporter.export(flavor, staging: staging)
   next if stats.nil?
+
+  Exporter.commit!(flavor, staging)
 
   v = Exporter.verify(flavor)
   stats[:covered].merge(stats[:debt_inputs] || [])

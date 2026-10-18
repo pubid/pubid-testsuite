@@ -4,741 +4,661 @@
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Guide'', ''GUIDE'', ''TR'', ''TS'', ''A'', ''AC''] at line
+    1 char 5.'
 - id: bsi.debt.e5af44141130
   input: DD ENV/ENV 41112:1991
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Guide'', ''GUIDE'', ''TR'', ''TS'', ''A'', ''AC''] at line
+    1 char 5.'
 - id: bsi.debt.d3195055d013
   input: DD ENV/ENV 41511:1991
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Guide'', ''GUIDE'', ''TR'', ''TS'', ''A'', ''AC''] at line
+    1 char 5.'
 - id: bsi.debt.54352cfb7318
   input: PD ES/ES 59008-1:2000
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Guide'', ''GUIDE'', ''TR'', ''TS'', ''A'', ''AC''] at line
+    1 char 4.'
 - id: bsi.debt.8f529eff1115
   input: PD ES/ES 59008-6-1:1999
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Guide'', ''GUIDE'', ''TR'', ''TS'', ''A'', ''AC''] at line
+    1 char 4.'
 - id: bsi.debt.477576dbf9d6
   input: BS 2F 52:1959 January 2021
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''AMD'', ''Amd'', ''Amendment'', ''v'', ''ED'', (?i:Expert\ Commentary),
+    (?i:ExComm), ''('', ''SPANISH'', ''FRENCH'', ''GERMAN'', ''ITALIAN'', ''PDF'',
+    ''BOOK'', ''-''] at line 1 char 15.'
 - id: bsi.debt.429b8e240428
   input: BS 2X 26:2001
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Index'', ''Supplementary Index'', ''Section'', ''C'', ''N'',
+    ''Supplement'', ''Addendum'', ''+'', [\x41-\x5a], ''and'', ''TO'', ''to'', ''&'',
+    ''v'', ''AMD'', ''Amd'', ''Amendment'', ''ED'', (?i:Exp'
 - id: bsi.debt.49b11332b615
   input: BS 2X 34:1998
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Index'', ''Supplementary Index'', ''Section'', ''C'', ''N'',
+    ''Supplement'', ''Addendum'', ''+'', [\x41-\x5a], ''and'', ''TO'', ''to'', ''&'',
+    ''v'', ''AMD'', ''Amd'', ''Amendment'', ''ED'', (?i:Exp'
 - id: bsi.debt.404e28ee5cff
   input: BS 2011-2.1Z/AMD:1977
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39]] at line 1 char 15.'
 - id: bsi.debt.03f1bfec73f4
   input: BS 1428:B2:1953
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], [\x41-\x5a], '':''] at line 1 char 16.'
 - id: bsi.debt.9a3d82e880f2
   input: BS 1428:D1:1952
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], [\x41-\x5a], '':''] at line 1 char 16.'
 - id: bsi.debt.25f65e889d34
   input: BS 696.1:1936
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], [\x41-\x5a], '' '', '':'', ''-'', ''['', ''+'',
+    '';'', '','', ''/''] at line 1 char 7.'
 - id: bsi.debt.8c36d2bbf222
   input: BS HD 629.1 S3:2019
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], '' '', ''-'', '':'', ''+'', ''/''] at line 1 char
+    7.'
 - id: bsi.debt.1f3db48ef42f
   input: BS HD 629.2 S3:2024
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], '' '', ''-'', '':'', ''+'', ''/''] at line 1 char
+    7.'
 - id: bsi.debt.006441a747bc
   input: BS HD 629.3 S1:2024
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], '' '', ''-'', '':'', ''+'', ''/''] at line 1 char
+    7.'
 - id: bsi.debt.68f9b3664351
   input: BS EN 2591-B2:1994
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], ''-''] at line 1 char 9.'
 - id: bsi.debt.354700ee7dfd
   input: BS EN 2591-D1:1992
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], ''-''] at line 1 char 9.'
 - id: bsi.debt.a1220ea91a01
   input: BS EN 55011 Fragments 2-7
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], ''AMD'', ''V'', ''ED''] at line 1 char 10.'
 - id: bsi.debt.1add2740c74d
   input: BS EN 55011 Fragments 2, 6-7
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], ''AMD'', ''V'', ''ED''] at line 1 char 10.'
 - id: bsi.debt.2fbcc3111ff9
   input: BS EN 55011 Fragments 4-5
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], ''AMD'', ''V'', ''ED''] at line 1 char 10.'
 - id: bsi.debt.ed8b5289fcb1
   input: BS EN 60601-1/FRAG10 ED4
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''A'', ''AC''] at line 1 char 12.'
 - id: bsi.debt.31a40ac6f860
   input: BS EN IEC 55011 Fragment 4
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
-    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUPPLEMENT, SUPPLEMENT_IDENTIFIER,
-    JO'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of ['':'', ''-'', ''‑'', ''‐'', ''CSV'', ''CMV'', ''RLV'', ''SER'',
+    ''EXV'', ''PAC'', ''PRV'', ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'',
+    '' '', ''('', ''(all parts)''] at line 1 char 11.'
 - id: bsi.debt.0f29eaef57a3
   input: BS EN IEC 55011. Fragment 6
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
-    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUPPLEMENT, SUPPLEMENT_IDENTIFIER,
-    JO'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39]] at line 1 char 11.'
 - id: bsi.debt.5b19bcc7562e
   input: BS EN IEC 60335-1/AMD1 FRAG2-6
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
-    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUPPLEMENT, SUPPLEMENT_IDENTIFIER,
-    JO'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of ['':'', ''-'', ''‑'', ''‐'', ''CSV'', ''CMV'', ''RLV'', ''SER'',
+    ''EXV'', ''PAC'', ''PRV'', ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''('',
+    ''/'', ''(all parts)''] at line 1 char 18.'
 - id: bsi.debt.7875ad739c1e
   input: BS 4584-103.2:1990 (IEC 60249-3A:1976)
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Translation'', ''version''] at line 1 char 25.'
 - id: bsi.debt.803143999a04
   input: BS 6221-1:1990 (IEC 60326-1:1984)
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Translation'', ''version''] at line 1 char 21.'
 - id: bsi.debt.f6125d105a67
   input: BS 5499-11:2002 (AMD 16783)
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Translation'', ''version''] at line 1 char 22.'
 - id: bsi.debt.e80cd0537ba8
   input: BS HD 60364-8-82 (AS BS 7671)
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''AMD'', ''V'', ''ED''] at line 1 char 15.'
 - id: bsi.debt.f54a483948b4
   input: BS 2SP 68 to BS 2SP 71:1973+A3:2015
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], [\x41-\x5a], ''-'', '' '', '';'', '',''] at line
+    1 char 23.'
 - id: bsi.debt.c64114362365
   input: BS 3A 117:1962+A2:2016
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Index'', ''Supplementary Index'', ''Section'', ''C'', ''N'',
+    ''Supplement'', ''Addendum'', ''+'', [\x41-\x5a], ''and'', ''TO'', ''to'', ''&'',
+    ''v'', ''AMD'', ''Amd'', ''Amendment'', ''ED'', (?i:Exp'
 - id: bsi.debt.057a10abee51
   input: BS SP 10 & 11:1949+A3:2011
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], [\x41-\x5a], '' '', ''-'', '';'', '',''] at line
+    1 char 14.'
 - id: bsi.debt.9fc72c761743
   input: BS SP 122 to 125:1958+A2:2011
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], [\x41-\x5a], '' '', ''-'', '';'', '',''] at line
+    1 char 17.'
 - id: bsi.debt.bf89250c3567
   input: BS SP 126 & 127:1959+A3:2011
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], [\x41-\x5a], '' '', ''-'', '';'', '',''] at line
+    1 char 16.'
 - id: bsi.debt.08c54e8d7481
   input: BS SP 13; 14; 15 and 16:1949+A4:2011
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], [\x41-\x5a], '' '', ''-'', '';'', '',''] at line
+    1 char 24.'
 - id: bsi.debt.1b34ff9e4c19
   input: BS SP 134 to SP 138:1968+A1:2012
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], [\x41-\x5a], ''-'', '' '', '';'', '',''] at line
+    1 char 20.'
 - id: bsi.debt.c41a29c76b95
   input: BS SP 139 and SP 140:1969+A2:2012
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], [\x41-\x5a], ''-'', '' '', '';'', '',''] at line
+    1 char 21.'
 - id: bsi.debt.8155833a87fa
   input: BS SP 49 and BS SP 50:1953+A1:2012
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], [\x41-\x5a], ''-'', '' '', '';'', '',''] at line
+    1 char 22.'
 - id: bsi.debt.c52d24b9644e
   input: BS SP 51 and 52:1953+A3:2012
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], [\x41-\x5a], '' '', ''-'', '';'', '',''] at line
+    1 char 16.'
 - id: bsi.debt.f86cb5906bd2
   input: BS SP 55 and SP 56:1953+A3:2016
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], [\x41-\x5a], ''-'', '' '', '';'', '',''] at line
+    1 char 19.'
 - id: bsi.debt.8e4cfea08ed6
   input: BS SP 57 and 58:1955+A3:2011
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], [\x41-\x5a], '' '', ''-'', '';'', '',''] at line
+    1 char 16.'
 - id: bsi.debt.af7fff7e93e6
   input: BS SP 59 and SP 60:1955+A1:2012
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], [\x41-\x5a], ''-'', '' '', '';'', '',''] at line
+    1 char 19.'
 - id: bsi.debt.2e3d0e4bdfa9
   input: BS SP 66 and SP 67:1955+A2:2012
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], [\x41-\x5a], ''-'', '' '', '';'', '',''] at line
+    1 char 19.'
 - id: bsi.debt.a0c6d71b2a1d
   input: NA+A1:2014 to BS EN 1993-1-1:2005+A1:14
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39]] at line 1 char 23.'
 - id: bsi.debt.79d83e364c11
   input: PD 7974-4:2003 PD 8010-1:2015+A1:2016
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''v'', ''AMD'', ''Amd'', ''Amendment'', ''ED'', (?i:Expert\ Commentary),
+    (?i:ExComm), ''('', ''SPANISH'', ''FRENCH'', ''GERMAN'', ''ITALIAN'', ''PDF'',
+    ''BOOK'', ''-''] at line 1 char 16.'
 - id: bsi.debt.bcbb0cb8e404
   input: EP 200 Version 3.0
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x41-\x5a], [\x30-\x39]] at line 1 char 9.'
 - id: bsi.debt.42020a56b214
   input: BS EN ISO 3506-1/2:2020 ExComm
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [NSB_ISO_IDENTIFIER, TC_DOCUMENT, DIRECTIVES_IDENTIFIERS, JCGM_IDENTIFIER, ISO_R_SUPPLEMENT_IDENTIFIER,
-    ISO_R_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_SUPPLEMENT_IDENTIFIER, SUPPLEMENT_SUPPLE'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''FDIS Suppl'', ''AWI Suppl'', ''DIS Suppl'', ''PRF Suppl'',
+    ''PWI Suppl'', ''Addendum'', ''CD Suppl'', ''FDIS Add'', ''FDIS Cor'', ''NP Suppl'',
+    ''WD Suppl'', ''AWI Add'', ''AWI Amd'', ''AWI C'
 - id: bsi.debt.ca2670f52cb5
   input: BSI Flex 1903 v2.0 2024-06
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''AMD'', ''Amd'', ''Amendment'', ''ED'', (?i:Expert\ Commentary),
+    (?i:ExComm), ''('', ''SPANISH'', ''FRENCH'', ''GERMAN'', ''ITALIAN'', ''PDF'',
+    ''BOOK'', ''-''] at line 1 char 20.'
 - id: bsi.debt.f35c45c68b00
   input: 'BSI Flex 2006: v1.0:2025-07'
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Section'', ''Parts'', ''Sections'', [\x30-\x39]] at line 1
+    char 15.'
 - id: bsi.debt.7ff98d21b8ba
   input: 'BSI Flex 2007: v1.0:2025-07'
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Section'', ''Parts'', ''Sections'', [\x30-\x39]] at line 1
+    char 15.'
 - id: bsi.debt.b6fa897d4308
   input: PD 6627:2001 Issue 3.1
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''v'', ''AMD'', ''Amd'', ''Amendment'', ''ED'', (?i:Expert\ Commentary),
+    (?i:ExComm), ''('', ''SPANISH'', ''FRENCH'', ''GERMAN'', ''ITALIAN'', ''PDF'',
+    ''BOOK'', ''-''] at line 1 char 14.'
 - id: bsi.debt.f468ab074850
   input: BS EN 100114-1/Issue 2:1994
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''A'', ''AC''] at line 1 char 13.'
 - id: bsi.debt.cf2bb9ab81e4
   input: BS EN 100114-1/Issue 1:1994
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''A'', ''AC''] at line 1 char 13.'
 - id: bsi.debt.a0c6d71b2a1d
   input: NA+A1:2014 to BS EN 1993-1-1:2005+A1:14
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39]] at line 1 char 23.'
 - id: bsi.debt.12f348fe56a3
   input: PD 854a:1951
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], [\x41-\x5a], '':'', '' '', ''-'', '';'', '','',
+    ''/'', ''+''] at line 1 char 7.'
 - id: bsi.debt.cdb6892ebcb2
   input: PD CR R210-010:2002
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], ''ISO'', ''IEC'', ''CISPR'', ''Guide'', ''GUIDE'',
+    ''TR'', ''TS'', ''ED''] at line 1 char 4.'
 - id: bsi.debt.5999a9093303
   input: PD IEC WT 01:2001
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
-    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUPPLEMENT, SUPPLEMENT_IDENTIFIER,
-    JO'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of ['':'', ''-'', ''‑'', ''‐'', ''CSV'', ''CMV'', ''RLV'', ''SER'',
+    ''EXV'', ''PAC'', ''PRV'', ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'',
+    '' '', ''('', ''(all parts)''] at line 1 char 8.'
 - id: bsi.debt.934c0396270e
   input: PD ISO/IEC TS 18013-6:2025 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [NSB_ISO_IDENTIFIER, TC_DOCUMENT, DIRECTIVES_IDENTIFIERS, JCGM_IDENTIFIER, ISO_R_SUPPLEMENT_IDENTIFIER,
-    ISO_R_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_SUPPLEMENT_IDENTIFIER, SUPPLEMENT_SUPPLE'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
+    ''(all parts)''] at line 1 char 25.'
 - id: bsi.debt.5e4baca88443
   input: BS EN 13557:2024 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''ED''] at line 1 char 15.'
 - id: bsi.debt.3612ad58c4cf
   input: BS EN 14983:2024 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''ED''] at line 1 char 15.'
 - id: bsi.debt.3f2187d323c5
   input: BS EN 1570-1:2024 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''ED''] at line 1 char 16.'
 - id: bsi.debt.63dc82801e8c
   input: BS EN 16307-5:2023 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''ED''] at line 1 char 17.'
 - id: bsi.debt.60347a66a776
   input: BS EN 50655-1:2023 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''ED''] at line 1 char 17.'
 - id: bsi.debt.fdaf972d7011
   input: BS EN IEC 61300-2-1:2023 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
-    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUPPLEMENT, SUPPLEMENT_IDENTIFIER,
-    JO'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''CSV'', ''CMV'', ''RLV'', ''SER'', ''EXV'', ''PAC'', ''PRV'',
+    ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''('', ''(all parts)'']
+    at line 1 char 20.'
 - id: bsi.debt.78fd001ddc2a
   input: BS EN IEC 61300-2-18:2023 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
-    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUPPLEMENT, SUPPLEMENT_IDENTIFIER,
-    JO'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''CSV'', ''CMV'', ''RLV'', ''SER'', ''EXV'', ''PAC'', ''PRV'',
+    ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''('', ''(all parts)'']
+    at line 1 char 21.'
 - id: bsi.debt.3e13167b1eb6
   input: BS EN IEC 61753-021-02:2023 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
-    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUPPLEMENT, SUPPLEMENT_IDENTIFIER,
-    JO'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''CSV'', ''CMV'', ''RLV'', ''SER'', ''EXV'', ''PAC'', ''PRV'',
+    ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''('', ''(all parts)'']
+    at line 1 char 23.'
 - id: bsi.debt.a9abea94f754
   input: BS EN IEC 61753-021-06:2023 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
-    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUPPLEMENT, SUPPLEMENT_IDENTIFIER,
-    JO'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''CSV'', ''CMV'', ''RLV'', ''SER'', ''EXV'', ''PAC'', ''PRV'',
+    ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''('', ''(all parts)'']
+    at line 1 char 23.'
 - id: bsi.debt.31b852e5766e
   input: BS EN ISO 10592:2022 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [NSB_ISO_IDENTIFIER, TC_DOCUMENT, DIRECTIVES_IDENTIFIERS, JCGM_IDENTIFIER, ISO_R_SUPPLEMENT_IDENTIFIER,
-    ISO_R_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_SUPPLEMENT_IDENTIFIER, SUPPLEMENT_SUPPLE'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
+    ''(all parts)''] at line 1 char 16.'
 - id: bsi.debt.338ce1c9cd03
   input: BS EN ISO 13704:2022 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [NSB_ISO_IDENTIFIER, TC_DOCUMENT, DIRECTIVES_IDENTIFIERS, JCGM_IDENTIFIER, ISO_R_SUPPLEMENT_IDENTIFIER,
-    ISO_R_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_SUPPLEMENT_IDENTIFIER, SUPPLEMENT_SUPPLE'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
+    ''(all parts)''] at line 1 char 16.'
 - id: bsi.debt.e431b148925e
   input: BS EN ISO 14723:2025 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [NSB_ISO_IDENTIFIER, TC_DOCUMENT, DIRECTIVES_IDENTIFIERS, JCGM_IDENTIFIER, ISO_R_SUPPLEMENT_IDENTIFIER,
-    ISO_R_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_SUPPLEMENT_IDENTIFIER, SUPPLEMENT_SUPPLE'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
+    ''(all parts)''] at line 1 char 16.'
 - id: bsi.debt.d93523371539
   input: BS EN ISO 15527:2018 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [NSB_ISO_IDENTIFIER, TC_DOCUMENT, DIRECTIVES_IDENTIFIERS, JCGM_IDENTIFIER, ISO_R_SUPPLEMENT_IDENTIFIER,
-    ISO_R_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_SUPPLEMENT_IDENTIFIER, SUPPLEMENT_SUPPLE'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
+    ''(all parts)''] at line 1 char 16.'
 - id: bsi.debt.2efd035a58b3
   input: BS EN ISO 15527:2022 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [NSB_ISO_IDENTIFIER, TC_DOCUMENT, DIRECTIVES_IDENTIFIERS, JCGM_IDENTIFIER, ISO_R_SUPPLEMENT_IDENTIFIER,
-    ISO_R_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_SUPPLEMENT_IDENTIFIER, SUPPLEMENT_SUPPLE'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
+    ''(all parts)''] at line 1 char 16.'
 - id: bsi.debt.58fd8383c266
   input: BS EN ISO 25457:2023 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [NSB_ISO_IDENTIFIER, TC_DOCUMENT, DIRECTIVES_IDENTIFIERS, JCGM_IDENTIFIER, ISO_R_SUPPLEMENT_IDENTIFIER,
-    ISO_R_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_SUPPLEMENT_IDENTIFIER, SUPPLEMENT_SUPPLE'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
+    ''(all parts)''] at line 1 char 16.'
 - id: bsi.debt.3e987a01d8ea
   input: BS EN ISO/IEEE 11073-10103:2025 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [NSB_ISO_IDENTIFIER, TC_DOCUMENT, DIRECTIVES_IDENTIFIERS, JCGM_IDENTIFIER, ISO_R_SUPPLEMENT_IDENTIFIER,
-    ISO_R_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_SUPPLEMENT_IDENTIFIER, SUPPLEMENT_SUPPLE'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
+    ''(all parts)''] at line 1 char 27.'
 - id: bsi.debt.dd91be3e3604
   input: BS HD 60364-8-1:2019 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''ED''] at line 1 char 19.'
 - id: bsi.debt.aebe2bb90628
   input: BS HD 60364-8-2:2011+A11:2019 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''+'', ''/'', '' ''] at line 1 char 18.'
 - id: bsi.debt.331adbb3fd7c
   input: BS IEC/IEEE 62582-1:2024 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
-    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUPPLEMENT, SUPPLEMENT_IDENTIFIER,
-    JO'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''CSV'', ''CMV'', ''RLV'', ''SER'', ''EXV'', ''PAC'', ''PRV'',
+    ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''('', ''(all parts)'']
+    at line 1 char 23.'
 - id: bsi.debt.6d5b7712d0a6
   input: BS ISO 15179 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [NSB_ISO_IDENTIFIER, TC_DOCUMENT, DIRECTIVES_IDENTIFIERS, JCGM_IDENTIFIER, ISO_R_SUPPLEMENT_IDENTIFIER,
-    ISO_R_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_SUPPLEMENT_IDENTIFIER, SUPPLEMENT_SUPPLE'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
+    ''(all parts)''] at line 1 char 13.'
 - id: bsi.debt.7fda1e158159
   input: BS SP 18 and 19:2025 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], [\x41-\x5a], '' '', ''-'', '';'', '',''] at line
+    1 char 16.'
 - id: bsi.debt.a16b6d991dfd
   input: PD CEN ISO/TS 19166:2025 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [NSB_ISO_IDENTIFIER, TC_DOCUMENT, DIRECTIVES_IDENTIFIERS, JCGM_IDENTIFIER, ISO_R_SUPPLEMENT_IDENTIFIER,
-    ISO_R_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_SUPPLEMENT_IDENTIFIER, SUPPLEMENT_SUPPLE'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
+    ''(all parts)''] at line 1 char 19.'
 - id: bsi.debt.ba59e3b77f7b
   input: PD CLC/TS 50136-9:2017 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [FRAGMENT_IDENTIFIER, (STAGE_PREFIX / PUBLISHER) (SPACE ADOPTED_STRING)? (SPACE
-    TYPE / SLASH TYPE)? (SPACE NUMBER PARTS YEAR?)? SUPPLEMENTS EDITION?] at line
-    1 char 1.'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''ED''] at line 1 char 21.'
 - id: bsi.debt.ba2ccdd3df04
   input: PD IEC GUIDE 115:2023 - TC
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [WORKING_PROGRAMME, TECHNICAL_GROUP, WORKING_DOCUMENT, SHEET_SUPPLEMENT_IDENTIFIER,
-    SHEET_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_IDENTIFIER, STANDALONE_SUPPLEMENT, SUPPLEMENT_IDENTIFIER,
-    JO'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''CSV'', ''CMV'', ''RLV'', ''SER'', ''EXV'', ''PAC'', ''PRV'',
+    ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''('', ''(all parts)'']
+    at line 1 char 20.'
 - id: bsi.debt.ac9c01354114
   input: PD ISO 22000:2018 Handbook
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [NSB_ISO_IDENTIFIER, TC_DOCUMENT, DIRECTIVES_IDENTIFIERS, JCGM_IDENTIFIER, ISO_R_SUPPLEMENT_IDENTIFIER,
-    ISO_R_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_SUPPLEMENT_IDENTIFIER, SUPPLEMENT_SUPPLE'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
+    ''(all parts)''] at line 1 char 16.'
 - id: bsi.debt.d00c12029554
   input: PD ISO 45001:2018 Handbook
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [NSB_ISO_IDENTIFIER, TC_DOCUMENT, DIRECTIVES_IDENTIFIERS, JCGM_IDENTIFIER, ISO_R_SUPPLEMENT_IDENTIFIER,
-    ISO_R_IDENTIFIER, SUPPLEMENT_SUPPLEMENT_SUPPLEMENT_IDENTIFIER, SUPPLEMENT_SUPPLE'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
+    ''(all parts)''] at line 1 char 16.'
 - id: bsi.debt.28209af71d4d
   input: PP 7722:2006 CD & BOOK
   expect:
     error:
       code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Expected one of
-    [STANDALONE_AMENDMENT, COMMITTEE_DOCUMENT, index_identifier:(publisher:BS SPACE
-    NUMBER index_suffix:INDEX_SUFFIX YEAR), supplementary_index_identifier:(publisher:BS
-    SPACE NUMBER supple'
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''v'', ''AMD'', ''Amd'', ''Amendment'', ''ED'', (?i:Expert\ Commentary),
+    (?i:ExComm), ''('', ''SPANISH'', ''FRENCH'', ''GERMAN'', ''ITALIAN'', ''PDF'',
+    ''BOOK'', ''-''] at line 1 char 14.'
