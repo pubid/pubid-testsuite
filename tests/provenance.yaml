@@ -8,12 +8,12 @@ generator:
   exporter_sha256: b462bc6cb616e99eeeee1d2c3daa667c0b3c72b8759a6dbe7a725fca23c7d188
 oracle:
   gem: pubid
-  commit: e3f9e6b4ae33c68399ca0e4a5902ad642f7dc5f6
+  commit: 75aa7d1eab5f400a3a9b81afc7773857e4b9d784
   clean: true
   dirty_paths: []
   parsanol_version: 1.3.93
   grammar:
-    commit: 836ae8aba5c39a47fca3adf9eebc139b5644dbe1
+    commit: 8fb0f09c0ff3334ab12483cf13b07c4754a05864
     artifact_sha256:
       adobe: f92c61a8fadcf3be366301b695278c40a283f4e75cde63370ba7eb783fbbfd0b
       aiee: 7cb2067644d2604ca5185d80905686683533b6c80622fb1506070b698aac2c30
@@ -54,7 +54,7 @@ oracle:
       oasis: b67f1dfa0e5e8ffa6b96375c5312bc2663a9a360aecf12531295143ad4407854
       ogc: 361a42fe2125306532900698de2dbc3105edc238a83d5f0c1f8e3f13f0df0b39
       oiml: 51ddfda98b85dfb60bb257e06f9697c28d30872ba0132a31ef261c061367d0e3
-      omg: 3a1a5a0f0fb57788ca56dd4d442f34f70523f64a3cee7373c6612c13e2b956d5
+      omg: 0db1d578c8d986b2f826f3e6a790825e6b34fe866f3f112bc1e124b9e37c61c2
       parg: fd589c9c3bae862cf312881d628fcdee3e1926112382b246258001cf0b5ef4bf
       plateau: 2c8a45ba3cbd852542c4967832415c98f548a74b73938bf39287c3bd952fdc5d
       sae: 440d541c093e25919c3c499ab120e7228e0c897a3b24158652159b77022deba9
@@ -63,18 +63,11 @@ oracle:
       w3c: f42f1dc46d0a6be2d168e165ecc786571cba4791f12fcc9d0f00135373afa25b
       xsf: e5aaeb54f6951131d02413125f8d441ea4dfad14401cdf6e1fe2cf6bce00bf54
 repository:
-  commit: be9adc78b5246293ce02cb158487f0ebc8f4ed58
+  commit: e31cf3b003dbcb111cc75ce1bd4a028487ff0cdf
   clean: false
   dirty_paths:
-  - README.md
-  - tests/ieee/_status.yaml
-  - tests/ieee/adopted_standard.yaml
-  - tests/ieee/amendment.yaml
-  - tests/ieee/corrigendum.yaml
-  - tests/ieee/dual_published.yaml
   - tests/ieee/joint_development.yaml
   - tests/ieee/project_draft_identifier.yaml
-  - tests/ieee/standard.yaml
   - tests/provenance.yaml
 ruby:
   version: 3.4.8
@@ -82,7 +75,7 @@ counts:
   flavors: 42
   payloads: 346
   cases: 99630
-  aliases: 11575
+  aliases: 11576
   negatives: 699
 payloads:
 - path: amca/_debt.yaml
@@ -647,8 +640,8 @@ payloads:
   sha256: 5b214f2ca0fe688fa24e8199946dbd176bfb8556575bc08fbf40fd138a5ac287
   bytes: 222
 - path: ieee/joint_development.yaml
-  sha256: 7e71a6e4e0297dfcde85a4fc00aeac3ddc11353474a9fc4a06261da400b5852e
-  bytes: 127470
+  sha256: 6bc7a527933fde423664a4bab5e690c605596a736c86f38df987baaa16f1f864
+  bytes: 127997
 - path: ieee/multi_numbered_identifier.yaml
   sha256: b7409236400150fd9d9da99453a92670d218df49b908b95301c36165f59577d1
   bytes: 471
@@ -668,8 +661,8 @@ payloads:
   sha256: f23997e5eb0ffd6a1d26d1450ed43775306c007af149c912989b5a5f92d2b10d
   bytes: 678
 - path: ieee/project_draft_identifier.yaml
-  sha256: e72b25128460d75032124612a0c984abc3cbf0378a748b6b714ab9373d37ec2f
-  bytes: 1132332
+  sha256: '095558714382716137b6f74d85ca62d89f468cce1997d2994724457264dca0b6'
+  bytes: 1131855
 - path: ieee/si_standard.yaml
   sha256: 406b70f6e53c601b8616a3cd1f86cef33b9fb91dd9550e8c07d6e703433d0c90
   bytes: 3286

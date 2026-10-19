@@ -5181,6 +5181,28 @@
     - IEC
     - IEEE
     lead_party: IEEE
+    ieee_draft: D=FCD-201006
+    stage: Std
+  representations:
+    human: ISO/IEC/IEEE P29148/D=FCD-201006
+    urn: urn:ieee:iso-iec-ieee:P29148:draft.D=FCD-201006
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/IEC/IEEE P29148/DFCD-June2010
+    style: v3
+  - spelling: ISO/IEC/IEEE P29148/FCD-June2010
+    style: v3
+- id: ieee.joint_development.9357
+  identifier:
+    _type: pubid:ieee:joint-development
+    number: '29148'
+    type: P
+    prefix: P
+    publishers:
+    - ISO
+    - IEC
+    - IEEE
+    lead_party: IEEE
     ieee_draft: D=FDIS-201809
     stage: Std
   representations:
