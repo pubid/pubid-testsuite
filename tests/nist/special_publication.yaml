@@ -32535,6 +32535,20 @@
 - id: nist.special_publication.19804
   identifier:
     _type: pubid:nist:special-publication
+    number: '955'
+    publisher: NIST
+    series: SP
+    parsed_format: mr
+  representations:
+    human: NIST.SP.955
+    urn: urn:nist:sp:955.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: NIST.SP.955.Suppl
+    style: v3
+- id: nist.special_publication.19805
+  identifier:
+    _type: pubid:nist:special-publication
     number: 955-S
     publisher: NIST
     series: SP
@@ -32546,10 +32560,7 @@
     human: NIST.SP.955-S..uppl
     urn: urn:nist:sp:955-S.supp:.uppl
   style: v3
-  non_normalized_aliases:
-  - spelling: NIST.SP.955.Suppl
-    style: v3
-- id: nist.special_publication.19805
+- id: nist.special_publication.19806
   identifier:
     _type: pubid:nist:special-publication
     number: 984-4

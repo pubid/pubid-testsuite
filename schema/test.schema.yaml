@@ -46,6 +46,8 @@ properties:
           enum: [v1, v2, v3]
   roundtrip:
     const: false
+  render_unreparseable:
+    const: true
   expect:
     type: object
     required: [error]

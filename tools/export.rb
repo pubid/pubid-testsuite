@@ -233,6 +233,13 @@ module Exporter
     if divergent
       record["input_parse_diverges"] = true
     end
+    # The rendered human does not re-parse in the reference (canonical
+    # is nil): the recorded identity comes from the raw parse and NO
+    # implementation can satisfy parse(human) == identity. Mark the row
+    # so the unsatisfiable class is machine-auditable.
+    if canonical.nil?
+      record["render_unreparseable"] = true
+    end
     record["roundtrip"] = false unless round_trips?(mod, identifier_mapping)
     if bundled_month_bug?(input_hash)
       record = quarantine(record)
