@@ -30,6 +30,10 @@ module JsonSchemaSubset
         if instance.is_a?(String) && instance.length > value
           errors << "#{path}: longer than maxLength #{value}"
         end
+      when "minimum"
+        if instance.is_a?(Numeric) && instance < value
+          errors << "#{path}: below minimum #{value}"
+        end
       when "required"
         value.each do |key|
           errors << "#{path}: missing required '#{key}'" if instance.is_a?(Hash) && !instance.key?(key)

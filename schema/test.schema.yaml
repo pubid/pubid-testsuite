@@ -44,6 +44,12 @@ properties:
           type: string
         style:
           enum: [v1, v2, v3]
+        # The render/parse rounds the spelling needs to reach the
+        # canonical human; present only when above 1 (a documented
+        # multi-round normalization chain).
+        rounds:
+          type: integer
+          minimum: 2
   roundtrip:
     const: false
   render_unreparseable:

@@ -283,7 +283,25 @@ module Exporter
     "misc"
   end
 
+  # The render/parse rounds a spelling needs to reach the canonical
+  # human, or nil when it never does within the cap. A count above 1 is
+  # a documented multi-round normalization chain (the reference reaches
+  # the identity in more than one round); the checks walk that many
+  # rounds instead of calling the alias lossy.
+  MAX_ALIAS_ROUNDS = 3
+  def alias_rounds(mod, spelling, canonical)
+    text = spelling
+    (1..MAX_ALIAS_ROUNDS).each do |round|
+      text = mod.parse(text).to_s
+      return round if text == canonical
+    end
+    nil
+  rescue StandardError
+    nil
+  end
+
   def finalize(groups, flavor, _type, stats, review_map = {})
+    mod = flavor_module(flavor)
     groups.values.sort_by { |g| g["record"]["representations"]["human"] }
           .each_with_index.map do |group, index|
       record = group["record"]
@@ -303,7 +321,10 @@ module Exporter
         stats[:divergent] += 1 if record["input_parse_diverges"]
         unless aliases.empty?
           record["non_normalized_aliases"] = aliases.map do |a|
-            { "spelling" => a, "style" => style_for(a) }
+            entry = { "spelling" => a, "style" => style_for(a) }
+            rounds = mod && alias_rounds(mod, a, canonical)
+            entry["rounds"] = rounds if rounds && rounds > 1
+            entry
           end
         end
       end
@@ -345,7 +366,9 @@ module Exporter
         Array(t["non_normalized_aliases"]).each do |a|
           aliases_checked += 1
           begin
-            mismatches += 1 unless mod.parse(a["spelling"]).to_s == human
+            text = a["spelling"]
+            (a["rounds"] || 1).times { text = mod.parse(text).to_s }
+            mismatches += 1 unless text == human
           rescue StandardError
             mismatches += 1
           end
