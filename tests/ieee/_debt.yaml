@@ -1,11 +1,4 @@
 ---
-- id: ieee.debt.a44324676c71
-  input: IEEE P24748-4/D=FDIS
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''-''] at line 1 char 21.'
 - id: ieee.debt.f1d92d5f57ce
   input: IEEE//IEC/ISO Draft P80005-1/DFDIS_March, 2012
   expect:
