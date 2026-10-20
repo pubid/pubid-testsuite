@@ -8,7 +8,7 @@ generator:
   exporter_sha256: 73263657567c4ba194e0cea47d0e45b8c0420d5751fb9e588c7c87c699c3b484
 oracle:
   gem: pubid
-  commit: 4eda5cc81ee0bd483bf8d62ae1ee1ac4bd915a17
+  commit: cbcc851cac899feaffe68a877aae5af78d7179d8
   clean: true
   dirty_paths: []
   parsanol_version: 1.3.93
@@ -63,27 +63,9 @@ oracle:
       w3c: f42f1dc46d0a6be2d168e165ecc786571cba4791f12fcc9d0f00135373afa25b
       xsf: e5aaeb54f6951131d02413125f8d441ea4dfad14401cdf6e1fe2cf6bce00bf54
 repository:
-  commit: c6a3f261f0f688bd0c6660aebcd3a2f085429185
-  clean: false
-  dirty_paths:
-  - tests/ieee/_debt.yaml
-  - tests/ieee/adopted_standard.yaml
-  - tests/ieee/amendment.yaml
-  - tests/ieee/conformance_identifier.yaml
-  - tests/ieee/corrigendum.yaml
-  - tests/ieee/csa_dual_published.yaml
-  - tests/ieee/dual_published.yaml
-  - tests/ieee/iec_ieee_copublished.yaml
-  - tests/ieee/interpretation_identifier.yaml
-  - tests/ieee/joint_development.yaml
-  - tests/ieee/multi_numbered_identifier.yaml
-  - tests/ieee/nesc_edition.yaml
-  - tests/ieee/nesc_handbook.yaml
-  - tests/ieee/nesc_preprint.yaml
-  - tests/ieee/project_draft_identifier.yaml
-  - tests/ieee/si_standard.yaml
-  - tests/ieee/standard.yaml
-  - tests/provenance.yaml
+  commit: a4c9c3df84a6969dee5258cb9fbe88c7d5fb7137
+  clean: true
+  dirty_paths: []
 ruby:
   version: 3.4.8
 counts:
