@@ -63,16 +63,28 @@ oracle:
       w3c: f42f1dc46d0a6be2d168e165ecc786571cba4791f12fcc9d0f00135373afa25b
       xsf: e5aaeb54f6951131d02413125f8d441ea4dfad14401cdf6e1fe2cf6bce00bf54
 repository:
-  commit: c6bccc4e5345f3ea075318d2c58324e31a32b5db
-  clean: true
-  dirty_paths: []
+  commit: 71dcc469c15c6cde85821c1a63dc1c39554f9aed
+  clean: false
+  dirty_paths:
+  - reference-docs/jcgm/SUMMARY.txt
+  - reference-docs/jcgm/identifiers/full/corrigendum.txt
+  - reference-docs/jcgm/identifiers/full/guide.txt
+  - reference-docs/jcgm/identifiers/pass/amendment.txt
+  - reference-docs/jcgm/identifiers/pass/corrigendum.txt
+  - tests/jcgm/amendment.yaml
+  - tests/jcgm/corrigendum.yaml
+  - tests/jcgm/guide.yaml
+  - tests/jcgm/gum_guide.yaml
+  - tests/jcgm/meeting.yaml
+  - tests/provenance.yaml
+  - tests/jcgm/_normalization.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 42
-  payloads: 346
-  cases: 99625
-  aliases: 11597
+  payloads: 347
+  cases: 99627
+  aliases: 11599
   negatives: 699
 payloads:
 - path: amca/_debt.yaml
@@ -801,20 +813,23 @@ payloads:
 - path: itu/supplement.yaml
   sha256: 96d1ec0cdd10862445c7115bf4ac6d61a60a2e4c5751f85fe40ad954480215ad
   bytes: 30213
+- path: jcgm/_normalization.yaml
+  sha256: 10d8816c6612a4c29da7735fc9f4b1cec6134ccd66b8ff6dd3abb5ca21efeaa5
+  bytes: 132
 - path: jcgm/amendment.yaml
-  sha256: 5e4f3138a7b3f310eec6a2425f41017f1f63d3a960971eec4e1831872ad8032b
-  bytes: 603
+  sha256: 9df5c7bc61425cac44dfcc2960879815eae9a8dcb98bc5c5f8bedad73102bb27
+  bytes: 977
 - path: jcgm/corrigendum.yaml
-  sha256: cd8fd9c5ddf54d4579331e21be7d9e5d36d1e8b032dab3f38eead7c5166c287a
-  bytes: 266
+  sha256: 6a6fb916d8325e9dd0dd5a8e76f9ce89e25d4d0b84bb3338f7c59a27824ac548
+  bytes: 646
 - path: jcgm/guide.yaml
-  sha256: 3ad5ee9422a998decefcc2e7e488b163915bc4a2e53d059421cf7a5589847fe2
+  sha256: 3e1d5a6d108f6e7ae2dcd0adc061fcd91c3224975b7ef4930ce83f5bfb800b03
   bytes: 1660
 - path: jcgm/gum_guide.yaml
-  sha256: 76054246a2e1edb2b38ee930d5f4c7d4b5b292dfaecc3389a50f210f58265af6
+  sha256: b6a69daf3c7bcd878b55597aa3d043217bf72c04d17085e384773174d2b3f389
   bytes: 424
 - path: jcgm/meeting.yaml
-  sha256: f2854028989c432331e54de79ff8cde6dba37e8ec281cf10dfa16ea1156ca8ec
+  sha256: c6e20922bd81fe49dfcbd6ccef9760164cf6b7f4260086aaed1865c245912a8d
   bytes: 3252
 - path: jis/japanese_industrial_standard.yaml
   sha256: 62d926adca128a9be3bac00f19cde6fec4020c705623611814d3a96fdd4eec43

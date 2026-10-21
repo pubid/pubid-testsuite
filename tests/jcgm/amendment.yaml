@@ -26,3 +26,19 @@
     human: JCGM 100:2008/Amd 1:2025-07-25
     urn: urn:jcgm:100:2008:amendment:1:2025
   style: v3
+- id: jcgm.amendment.0006
+  identifier:
+    _type: pubid:jcgm:amendment
+    number: '1'
+    year: '2026'
+    base:
+      _type: pubid:jcgm:guide
+      number: '100'
+      year: '2008'
+  representations:
+    human: JCGM 100:2008/Amd 1:2026
+    urn: urn:jcgm:100:2008:amendment:1:2026
+  style: v3
+  non_normalized_aliases:
+  - spelling: JCGM 100:2008/Amd.1:2026
+    style: v2

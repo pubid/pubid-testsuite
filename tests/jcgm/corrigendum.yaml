@@ -1,5 +1,21 @@
 ---
-- id: jcgm.corrigendum.0015
+- id: jcgm.corrigendum.0007
+  identifier:
+    _type: pubid:jcgm:corrigendum
+    number: '1'
+    year: '2009'
+    base:
+      _type: pubid:jcgm:guide
+      number: '101'
+      year: '2008'
+  representations:
+    human: JCGM 101:2008/Cor 1:2009
+    urn: urn:jcgm:101:2008:corrigendum:1:2009
+  style: v3
+  non_normalized_aliases:
+  - spelling: JCGM 101:2008/Cor.1:2009
+    style: v2
+- id: jcgm.corrigendum.0017
   identifier:
     _type: pubid:jcgm:corrigendum
     base:
