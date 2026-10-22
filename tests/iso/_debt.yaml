@@ -5,18 +5,18 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Fpr'', ''WD'', ''ISO'', ''IEC'', ''JCGM'', ''ISO/R'', ''Guide'',
-    ''GUIDE'', '' '', ''/'', ''Directives, Part'', ''Directives Part'', ''Directives,'',
-    ''Directives'', ''Supplement'', ''AWI GUIDE'','
+    expected one of [[\x30-\x39], ''Fpr'', ''WD'', ''ISO'', ''IEC'', ''JCGM'', ''ISO/R'',
+    ''Guide'', ''GUIDE'', '' '', ''/'', ''Directives, Part'', ''Directives Part'',
+    ''Directives,'', ''Directives'', ''Supplement'','
 - id: iso.debt.911f99df93e8
   input: EN 12643:2014
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Fpr'', ''WD'', ''ISO'', ''IEC'', ''JCGM'', ''ISO/R'', ''Guide'',
-    ''GUIDE'', '' '', ''/'', ''Directives, Part'', ''Directives Part'', ''Directives,'',
-    ''Directives'', ''Supplement'', ''AWI GUIDE'','
+    expected one of [[\x30-\x39], ''Fpr'', ''WD'', ''ISO'', ''IEC'', ''JCGM'', ''ISO/R'',
+    ''Guide'', ''GUIDE'', '' '', ''/'', ''Directives, Part'', ''Directives Part'',
+    ''Directives,'', ''Directives'', ''Supplement'','
 - id: iso.debt.8ddf5d8c92ac
   input: ISO/IEC Directives, JTC 1 Supplement:2021
   expect:
@@ -41,15 +41,15 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Fpr'', ''WD'', ''ISO'', ''IEC'', ''JCGM'', ''ISO/R'', ''Guide'',
-    ''GUIDE'', '' '', ''/'', ''Directives, Part'', ''Directives Part'', ''Directives,'',
-    ''Directives'', ''Supplement'', ''AWI GUIDE'','
+    expected one of [[\x30-\x39], ''Fpr'', ''WD'', ''ISO'', ''IEC'', ''JCGM'', ''ISO/R'',
+    ''Guide'', ''GUIDE'', '' '', ''/'', ''Directives, Part'', ''Directives Part'',
+    ''Directives,'', ''Directives'', ''Supplement'','
 - id: iso.debt.911f99df93e8
   input: EN 12643:2014
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''Fpr'', ''WD'', ''ISO'', ''IEC'', ''JCGM'', ''ISO/R'', ''Guide'',
-    ''GUIDE'', '' '', ''/'', ''Directives, Part'', ''Directives Part'', ''Directives,'',
-    ''Directives'', ''Supplement'', ''AWI GUIDE'','
+    expected one of [[\x30-\x39], ''Fpr'', ''WD'', ''ISO'', ''IEC'', ''JCGM'', ''ISO/R'',
+    ''Guide'', ''GUIDE'', '' '', ''/'', ''Directives, Part'', ''Directives Part'',
+    ''Directives,'', ''Directives'', ''Supplement'','
