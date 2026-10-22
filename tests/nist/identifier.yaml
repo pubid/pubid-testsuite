@@ -5837,14 +5837,15 @@
 - id: nist.identifier.2647
   identifier:
     _type: pubid:nist:identifier
-    number: 10n
+    number: '10'
     part:
+      type: "n"
       value: A
     publisher: NBS
     series: HR
   representations:
     human: NBS HR 10nA
-    urn: urn:nist:hr:10n.A.supp
+    urn: urn:nist:hr:10.nA.supp
   style: v3
 - id: nist.identifier.2648
   identifier:
