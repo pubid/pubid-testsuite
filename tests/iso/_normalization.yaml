@@ -1,14 +1,48 @@
 ---
+- from: ISO 10993-18:2020/DAmd 1
+  to: ISO 10993-18:2020/DAM 1
 - from: ISO 10993-4:2002/Amd.1:2006(E)
   to: ISO 10993-4:2002/Amd 1:2006(E)
+- from: ISO 11137-2:2013/FDAmd 1
+  to: ISO 11137-2:2013/FDAM 1
 - from: ISO 1247:1974/Amd.1:1982(fr)
   to: ISO 1247:1974/Amd 1:1982(fr)
 - from: ISO 13017:2012/Amd.1:2015(fr)
   to: ISO 13017:2012/Amd 1:2015(fr)
+- from: ISO 15002:2008/DAmd 2(fr)
+  to: ISO 15002:2008/DAM 2(fr)
+- from: ISO 15614-1:2017/FDAmd 2
+  to: ISO 15614-1:2017/FDAM 2
+- from: ISO 15874-2:2013/FDAmd 2
+  to: ISO 15874-2:2013/FDAM 2
 - from: ISO 17301-1:2016/Amd.1:2017(F)
   to: ISO 17301-1:2016/Amd 1:2017(F)
+- from: ISO 17301-1:2016/DAmd 1.3
+  to: ISO 17301-1:2016/DAM 1.3
+- from: ISO 17301-1:2016/DAmd 1.3:2002
+  to: ISO 17301-1:2016/DAM 1.3:2002
+- from: ISO 17301-1:2016/DAmd 2.3
+  to: ISO 17301-1:2016/DAM 2.3
+- from: ISO 17301-1:2016/DAmd 2.3:2002
+  to: ISO 17301-1:2016/DAM 2.3:2002
+- from: ISO 17301-1:2016/FDAmd 1.3
+  to: ISO 17301-1:2016/FDAM 1.3
+- from: ISO 17301-1:2016/FDAmd 1.3:2022
+  to: ISO 17301-1:2016/FDAM 1.3:2022
+- from: ISO 17301-1:2016/FDAmd 2.3
+  to: ISO 17301-1:2016/FDAM 2.3
+- from: ISO 17301-1:2016/FDAmd 2.3:2022
+  to: ISO 17301-1:2016/FDAM 2.3:2022
 - from: ISO 178:2010/Amd.1:2013(fr)
   to: ISO 178:2010/Amd 1:2013(fr)
+- from: ISO 3164:2013/FDAmd 1
+  to: ISO 3164:2013/FDAM 1
+- from: ISO 3183:2012/DAmd 1(fr)
+  to: ISO 3183:2012/DAM 1(fr)
+- from: ISO 3245:2015/FDAmd 1
+  to: ISO 3245:2015/FDAM 1
+- from: ISO 5149-1:2014/DAmd 2(fr)
+  to: ISO 5149-1:2014/DAM 2(fr)
 - from: ISO 5492:2008/Amd.1:2016(de)
   to: ISO 5492:2008/Amd 1:2016(de)
 - from: ISO 5492:2008/Amd.1:2016(es)
@@ -17,12 +51,42 @@
   to: ISO 5492:2008/Amd 1:2016(fr)
 - from: ISO 5492:2008/Amd.1:2016(ru)
   to: ISO 5492:2008/Amd 1:2016(ru)
+- from: ISO 668:2020/FDAmd 1
+  to: ISO 668:2020/FDAM 1
+- from: ISO 7010:2019/DAmd 114
+  to: ISO 7010:2019/DAM 114
+- from: ISO 7010:2019/DAmd 118
+  to: ISO 7010:2019/DAM 118
+- from: ISO 7010:2019/DAmd 124
+  to: ISO 7010:2019/DAM 124
+- from: ISO 7010:2019/DAmd 125
+  to: ISO 7010:2019/DAM 125
+- from: ISO 7010:2019/DAmd 129
+  to: ISO 7010:2019/DAM 129
 - from: ISO 8624:2011/Amd.1:2015(fr)
   to: ISO 8624:2011/Amd 1:2015(fr)
 - from: ISO 8637:2010/Amd.1:2013(ru)
   to: ISO 8637:2010/Amd 1:2013(ru)
+- from: ISO/IEC 13818-1/DAmd 1
+  to: ISO/IEC 13818-1/DAM 1
+- from: ISO/IEC 14496-30:2018/FDAmd 1
+  to: ISO/IEC 14496-30:2018/FDAM 1
+- from: ISO/IEC 23000-19:2020/DAmd 2
+  to: ISO/IEC 23000-19:2020/DAM 2
 - from: ISO/IEC 26300:2006/Amd.1:2012
   to: ISO/IEC 26300:2006/Amd 1:2012
+- from: ISO/IEC 27001:2013/DAmd 1
+  to: ISO/IEC 27001:2013/DAM 1
+- from: ISO/IEC 30193:2020/DAmd 1
+  to: ISO/IEC 30193:2020/DAM 1
+- from: ISO/IEC DIS 23008-1/DAmd 2(en)
+  to: ISO/IEC DIS 23008-1/DAM 2(en)
+- from: ISO/IEC/IEEE 8802-3:2021/FDAmd 1
+  to: ISO/IEC/IEEE 8802-3:2021/FDAM 1
+- from: ISO/IEC/IEEE 8802-3:2021/FDAmd 10
+  to: ISO/IEC/IEEE 8802-3:2021/FDAM 10
+- from: ISO/IEC/IEEE 8802-3:2021/FDAmd 11
+  to: ISO/IEC/IEEE 8802-3:2021/FDAM 11
 - from: ISO/IEC Directives, Part 1:2022 + IEC Supplement:2022
   to: ISO/IEC DIR 1:2022 + IEC SUP:2022
 - from: ISO 11783-2:2012/Cor.1:2012(fr)
@@ -69,10 +133,26 @@
   to: ISO/IEC DIR 1 ISO SUP Edition 13
 - from: ISO/IEC Directives, IEC Supplement:2022
   to: ISO/IEC DIR IEC SUP:2022
-- from: ISO/IEC Directives, JTC 1 Supplement:2021
-  to: ISO/IEC DIR JTC 1 SUP:2021
 - from: ISO/IEC Directives, Part 1 -- Consolidated ISO Supplement
   to: ISO/IEC DIR 1 ISO SUP
+- from: Руководства ИСО 2
+  to: ISO Guide 2
+- from: Руководства ИСО 82
+  to: ISO Guide 82
+- from: Руководство ИСО/МЭК 76
+  to: ISO/IEC Guide 76
+- from: Guide ISO 34:2009
+  to: ISO Guide 34:2009
+- from: Guide ISO/CEI 37:1995
+  to: ISO/CEI Guide 37:1995
+- from: Guide ISO/CEI 50
+  to: ISO/CEI Guide 50
+- from: Guide ISO/CEI 51:1999
+  to: ISO/CEI Guide 51:1999
+- from: GUIDE ISO/CEI 71:2001(F)
+  to: ISO/CEI Guide 71:2001(F)
+- from: Guide ISO/IEC 59:1994
+  to: ISO/IEC Guide 59:1994
 - from: ISO/GUIDE 1:1972
   to: ISO Guide 1:1972
 - from: ISO/GUIDE 2:1976
@@ -85,18 +165,132 @@
   to: ISO/IEC Guide 38:1983
 - from: ISO/IEC GUIDE 39:1988
   to: ISO/IEC Guide 39:1988
-- from: Guide ISO 34:2009
-  to: ISO/Guide 34:2009
-- from: Guide ISO/CEI 37:1995
-  to: ISO/CEI Guide 37:1995
-- from: Guide ISO/CEI 50
-  to: ISO/CEI Guide 50
-- from: Guide ISO/CEI 51:1999
-  to: ISO/CEI Guide 51:1999
-- from: GUIDE ISO/CEI 71:2001(F)
-  to: ISO/CEI Guide 71:2001(F)
-- from: Guide ISO/IEC 59:1994
-  to: ISO/IEC Guide 59:1994
+- from: ИСО 10335
+  to: ISO 10335
+- from: ИСО 1126
+  to: ISO 1126
+- from: ИСО 124
+  to: ISO 124
+- from: ИСО 127
+  to: ISO 127
+- from: ИСО 1304
+  to: ISO 1304
+- from: ИСО 1431-1
+  to: ISO 1431-1
+- from: ИСО 1435
+  to: ISO 1435
+- from: ИСО 15105
+  to: ISO 15105
+- from: ИСО 18064
+  to: ISO 18064
+- from: ИСО 2321
+  to: ISO 2321
+- from: ИСО 289-1
+  to: ISO 289-1
+- from: ИСО 289-2
+  to: ISO 289-2
+- from: ИСО 289-3
+  to: ISO 289-3
+- from: ИСО 2930
+  to: ISO 2930
+- from: ИСО 35
+  to: ISO 35
+- from: ИСО 37001
+  to: ISO 37001
+- from: ИСО 3858
+  to: ISO 3858
+- from: ИСО 4223-1
+  to: ISO 4223-1
+- from: ИСО 4223-2
+  to: ISO 4223-2
+- from: ИСО 45000
+  to: ISO 45000
+- from: ИСО 4649
+  to: ISO 4649
+- from: ИСО 4660
+  to: ISO 4660
+- from: ИСО 472
+  to: ISO 472
+- from: ИСО 48
+  to: ISO 48
+- from: ИСО 506
+  to: ISO 506
+- from: ИСО 5435
+  to: ISO 5435
+- from: ИСО 6107-6
+  to: ISO 6107-6
+- from: ИСО 6107-6:1996
+  to: ISO 6107-6:1996
+- from: ИСО 6194-2
+  to: ISO 6194-2
+- from: ИСО 8330
+  to: ISO 8330
+- from: ИСО 8511
+  to: ISO 8511
+- from: ИСО 8942
+  to: ISO 8942
+- from: ИСО 9001:2015
+  to: ISO 9001:2015
+- from: ИСО 9026
+  to: ISO 9026
+- from: 'ИСО/ПМС 1956/2 # ПМС is DIS'
+  to: ISO/DIS 1956-2
+- from: 'ИСО/ОПМС 26000:2010(R) # ОПМС is FDIS'
+  to: ISO/FDIS 26000:2010(R)
+- from: ИСО/МЭК 76:2008
+  to: ISO/IEC 76:2008
+- from: ИСО/ОПМС 9000:2000
+  to: ISO/FDIS 9000:2000
+- from: FprISO 10140-4
+  to: ISO/PRF 10140-4
+- from: FprISO 105-A03
+  to: ISO/PRF 105-A03
+- from: FprISO 10993-1
+  to: ISO/PRF 10993-1
+- from: FprISO 12402-2
+  to: ISO/PRF 12402-2
+- from: FprISO 12402-3
+  to: ISO/PRF 12402-3
+- from: FprISO 12402-4
+  to: ISO/PRF 12402-4
+- from: FprISO 12402-5
+  to: ISO/PRF 12402-5
+- from: FprISO 13679
+  to: ISO/PRF 13679
+- from: FprISO 16119-5
+  to: ISO/PRF 16119-5
+- from: FprISO 18674-5
+  to: ISO/PRF 18674-5
+- from: FprISO 19432-1
+  to: ISO/PRF 19432-1
+- from: FprISO 20430
+  to: ISO/PRF 20430
+- from: FprISO 21268-4
+  to: ISO/PRF 21268-4
+- from: FprISO 21420
+  to: ISO/PRF 21420
+- from: FprISO 21853
+  to: ISO/PRF 21853
+- from: FprISO 22125-1
+  to: ISO/PRF 22125-1
+- from: FprISO 22125-2
+  to: ISO/PRF 22125-2
+- from: FprISO 22291
+  to: ISO/PRF 22291
+- from: FprISO 22868
+  to: ISO/PRF 22868
+- from: FprISO 8437-1
+  to: ISO/PRF 8437-1
+- from: FprISO 8437-2
+  to: ISO/PRF 8437-2
+- from: FprISO 8437-3
+  to: ISO/PRF 8437-3
+- from: FprISO 8437-4
+  to: ISO/PRF 8437-4
+- from: FprISO 9693
+  to: ISO/PRF 9693
+- from: FprISO/IEC 17029
+  to: ISO/IEC PRF 17029
 - from: ISO 11553-1 Ed.2
   to: ISO 11553-1
 - from: ISO 14442:2006 Ed 2
@@ -119,7 +313,19 @@
   to: ISO/IEC 30142
 - from: ISO/NWIP 19144-4
   to: ISO/NP 19144-4
+- from: WD/ISO 10360-2
+  to: ISO/WD 10360-2
+- from: WD/ISO 10360-5:2000
+  to: ISO/WD 10360-5:2000
+- from: ISO 16634:—
+  to: ISO 16634:--
 - from: ISO/WD IWA 19
   to: WD IWA 19
 - from: ISO/R 170-1960
   to: ISO/R 170:1960
+- from: 'ИСО/МЭК ТО 19791:2008 # This is ISO/IEC'
+  to: ISO/IEC TR 19791:2008
+- from: 'ИСО/ТО 8517 # This means ISO/TR 8517'
+  to: ISO/TR 8517
+- from: 'ИСО/ТС 18625 # This means ISO/TS 18625'
+  to: ISO/TS 18625

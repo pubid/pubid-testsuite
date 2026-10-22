@@ -63,21 +63,37 @@ oracle:
       w3c: f42f1dc46d0a6be2d168e165ecc786571cba4791f12fcc9d0f00135373afa25b
       xsf: e5aaeb54f6951131d02413125f8d441ea4dfad14401cdf6e1fe2cf6bce00bf54
 repository:
-  commit: e5675ffba53723665795c71e1cec2b3a6a2e28c7
+  commit: 72b06d02a42c8cc9c0a5ad108c1b586188eea32b
   clean: false
   dirty_paths:
-  - tests/iso/_debt.yaml
+  - tests/iso/_negative.yaml
+  - tests/iso/_normalization.yaml
+  - tests/iso/guide.yaml
+  - tests/iso/international_standard.yaml
+  - tests/iso/technical_report.yaml
+  - tests/iso/technical_specification.yaml
+  - tests/nist/_normalization.yaml
   - tests/nist/circular.yaml
-  - tests/nist/crpl_report.yaml
+  - tests/nist/federal_information_processing_standards.yaml
+  - tests/nist/grant_contractor_report.yaml
+  - tests/nist/handbook.yaml
+  - tests/nist/identifier.yaml
+  - tests/nist/interagency_report.yaml
+  - tests/nist/letter_circular.yaml
+  - tests/nist/miscellaneous_publication.yaml
+  - tests/nist/monograph.yaml
+  - tests/nist/ncstar.yaml
   - tests/nist/nsrds.yaml
+  - tests/nist/owmwp.yaml
+  - tests/nist/report.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 42
   payloads: 347
-  cases: 99627
-  aliases: 11599
-  negatives: 699
+  cases: 99625
+  aliases: 11593
+  negatives: 700
 payloads:
 - path: amca/_debt.yaml
   sha256: f24ce4711159eb846d55aa6887217e3caeb3501747e2218abb5d2c4832d5567c
@@ -710,11 +726,11 @@ payloads:
   sha256: 2d0d74f8ef7e66a4362ef04056479234ef9cc0959ce3925fa054c921bece3474
   bytes: 2532
 - path: iso/_negative.yaml
-  sha256: 183db60219e78ed036adb2dc771aec21dc2fa3a9220df731babf902e4ec0d6de
-  bytes: 233
+  sha256: dc6c35d0837383783077cc50039465730b14d0682e7cd4df9d337e99669b7c72
+  bytes: 372
 - path: iso/_normalization.yaml
-  sha256: b7b301d487514d4022dd766698d008a701e363586ac26cf8ce881ae76320559d
-  bytes: 4060
+  sha256: cd9d9b193c2d364dc42e8c6ffbbcd539099c9ae0132e954bc1ea65c62c16043a
+  bytes: 9254
 - path: iso/amendment.yaml
   sha256: 002a3f4f3fad72397d101c3a1132fb9d204c6d37c4b79501fd4d9b2d22c3d186
   bytes: 66694
@@ -734,11 +750,11 @@ payloads:
   sha256: 010b108056fb4ba7c28a24a72b0b771213a651125da4842fcb755929b04abf95
   bytes: 3182
 - path: iso/guide.yaml
-  sha256: b87d8ac0b3d4589ac19b6eb8b147ef95313918682704d8d7ecbf81a082047a52
-  bytes: 6518
+  sha256: 4aec149b9dff57dccb1d22508d440aaecf97fd49880fab66f5905d84437f2529
+  bytes: 6472
 - path: iso/international_standard.yaml
-  sha256: 02b4922f5bb04e8f0e6288b8f9266d3afac7f2da73e8ed1c231280a9af5b0b19
-  bytes: 1524910
+  sha256: c7df719c268d40205f0103acf57fe0a18bcf16013b4858cd529ac2e015df8d4b
+  bytes: 1524803
 - path: iso/international_standardized_profile.yaml
   sha256: b27a0251c821cd98ba1bfa5506a5e5e70e3bfbd1436a9d0a1678a4377a559e4f
   bytes: 3942
@@ -752,11 +768,11 @@ payloads:
   sha256: 3bf979e955d90aaee4e75f821a73bfd1f6605f630b3b8733465d26ff15722f89
   bytes: 8935
 - path: iso/technical_report.yaml
-  sha256: 9812de33f3b8bbca1d357b77d6a58fc27f2383d903ce745e6d79a6aed6b2a73f
-  bytes: 62512
+  sha256: 8bf88962fa4eaddf00c129eac4d83d8a7f6101567642c6b50756f8dbf87e0f08
+  bytes: 62409
 - path: iso/technical_specification.yaml
-  sha256: 342432815ce5f239f1db1614f30682419aa8f234e0f363e45f0c77b48ca6e163
-  bytes: 66113
+  sha256: 64d66556aa189dd1a35c3754834f9021e725b739ecf8aca080242a778140dd0c
+  bytes: 66067
 - path: iso/technology_trends_assessments.yaml
   sha256: bd749310470eee7a30165a87c2ce77eaeda42ff99d13e6cd544f25c07910a6a1
   bytes: 2244
@@ -827,10 +843,10 @@ payloads:
   sha256: 62d926adca128a9be3bac00f19cde6fec4020c705623611814d3a96fdd4eec43
   bytes: 2668160
 - path: nist/_normalization.yaml
-  sha256: '0868ac3e67c1c81c3ac9ed30a577a27926a3db59c5d4d4f42914a8293fb11d2d'
-  bytes: 103165
+  sha256: e5a2619eacdb5e8439025b15c6e2b4ed2bc08facb0a938f71acc9b9eb9ef3ae0
+  bytes: 103157
 - path: nist/circular.yaml
-  sha256: c4cfa60959a2ef370de3f9b4e85f3647657c361ec7994e95c7bbb69884993aba
+  sha256: a87d5486c497264901b0a4c963f5192a7b7e3c5ebcc6c7b23c8d8562b288073c
   bytes: 198647
 - path: nist/commercial_standard.yaml
   sha256: d12b4ec9823de40daa18f43fffbc259c13e886c858ab89c575fc419d911b3a02
@@ -845,46 +861,46 @@ payloads:
   sha256: 633718d60656553ae229ad974c277eb2de0f5bf4a43f25e71b3d6cd9148288b4
   bytes: 95248
 - path: nist/federal_information_processing_standards.yaml
-  sha256: 36d44a6673e7e868abfde492fddcf713860df08ab227795e22c96b6bf8156c53
-  bytes: 116063
+  sha256: 7e1c96540cd005a87fc71b0159412ed7d379336160b8dbdd58b04039c5e9b6e8
+  bytes: 115736
 - path: nist/grant_contractor_report.yaml
-  sha256: 86474dcff1f94d47ea4e4de72a94329bd2e97b65a843c6d377849537eac9a209
+  sha256: 155037992d86e546f0c6a78cdc6d97c17fe7370b6143be889d0b88ba98a012a2
   bytes: 29967
 - path: nist/handbook.yaml
-  sha256: 52a889b35b7aafc1e81fd63de11e0ae48198f38ca352db4a0a7d0ce02064c444
+  sha256: 1b40130ea5370deed8cf0c10293f0397ffaa86e21d6df8ee54b725ad6c2ccd02
   bytes: 94309
 - path: nist/identifier.yaml
-  sha256: 9c360faf1a2fe4e7c5dc1d0d7f60b4bdc549abe837170404d9ad3af3fc376cda
-  bytes: 201309
+  sha256: d802bb1e153173c9637fbda9f4d6dca3c22df6ca3e2300afc8277363a268043f
+  bytes: 201797
 - path: nist/interagency_report.yaml
-  sha256: 6d8e4528136e40ad9c012e1eb4e028e8a507af1840f62ffab85c9f3a18255ca5
+  sha256: f778e32e57b9b867d0cf5edd667cffd873a89a1e9c66bd65c0338bc280e45afc
   bytes: 1876595
 - path: nist/letter_circular.yaml
-  sha256: 100eaa1f1d890c17bb89c482a93cb5932ced005d1fa46431fcb03ea2863ceb7e
+  sha256: ded9f2c9beb33ea5ae6fb051aec0b8f76aa7a706d2cdbf89fc23e7206620f51c
   bytes: 343270
 - path: nist/miscellaneous_publication.yaml
-  sha256: d73b21dfc61fef6ab14ae204e07e0a5816ab073fc7d489130440d22ba06603c9
+  sha256: 67178477b03c8886174c005932ab58b3f7697d004a0f885c6f89f89cd25064c8
   bytes: 71439
 - path: nist/monograph.yaml
-  sha256: 492664b5551cf0cc4268ea74252d445248ab77bcd318e97bad9820ae86898c13
+  sha256: 72f97cd14e8dba3748f754c61eb621a2193012392023c5ba1214ac8d70a13759
   bytes: 56713
 - path: nist/ncstar.yaml
-  sha256: 00763f96b356f6c8d9db22d00c8221534db9c30353d50bafccc11c04425b2054
-  bytes: 17096
+  sha256: 1b4a72832d7502a09f0a3f54008910faeb4acdbefe1611a9a9f1e1dcf0a5a9ee
+  bytes: 17335
 - path: nist/nsrds.yaml
-  sha256: 82a56f0c6f1326ea5ba25c5ea6fec134aae6ef3ca78b71f50f6dbb94ae97e49b
+  sha256: ec192f7c01cac5e30e33f34f28286a606e0fafd6826b5d288db2ec733df4765f
   bytes: 25269
 - path: nist/owmwp.yaml
-  sha256: 6293d4ce6d4fa8cf3a106557517cf8e7900f686ab9fb8f820bd3a5c8d15c1014
+  sha256: 29e66dfc6fc37150adb27827dfa1c39c3131977026a6e205bf296ce5f13826e8
   bytes: 350
 - path: nist/report.yaml
-  sha256: dec49af00b880a8e914d42eff20af028bcb19e4e81b85cef35f9bbca137e2138
+  sha256: 874cf6031ddbf69cef743430cbffda986fe27367598f89761e0b2aaae10fdcaa
   bytes: 376785
 - path: nist/special_publication.yaml
-  sha256: 6bc36b5a7c9ebfbd851024dc199f694c6635e15633a484f7b652b8ae3e1ea7ab
-  bytes: 749565
+  sha256: 780e375d43468ca83badbd1a9e7edaafbfffbcc7ac6aa1cec87786a90ceab827
+  bytes: 748282
 - path: nist/technical_note.yaml
-  sha256: 2c42a541a4d2c26686caefa0007ea011285e5ff48e94f1973ddf528c3e189c80
+  sha256: 63ccb3fc72927831185e8921f3fb97526f99b4d7ffb68d9fc33736a29e589201
   bytes: 470635
 - path: oasis/standard.yaml
   sha256: 703f0030c651c16f698c19771e8871903a71292518c2c516ea4d63c769729920

@@ -4,6 +4,11 @@
   expect:
     error:
       code: unclassified
+- id: iso.neg.international_standard.0002
+  input: ISO/IEC Directives, JTC 1 Supplement:2021
+  expect:
+    error:
+      code: unclassified
 - id: iso.neg.technical_specification.0001
   input: CEN/TS 15370-1:2006
   expect:
