@@ -8,13 +8,12 @@ generator:
   exporter_sha256: 6eeb0a1a3d2270e31b9a07f9424ce8d76d6f3aac96cf7fe6384f93d2e0397b5f
 oracle:
   gem: pubid
-  commit: 4a63699294e5b7b842802922e8f19261d6994af2
-  clean: false
-  dirty_paths:
-  - lib/tasks/api_reference.rake
+  commit: 40078cfb1ec67fde55398785103bad93829a62a2
+  clean: true
+  dirty_paths: []
   parsanol_version: 1.3.98
   grammar:
-    commit: 16c2717e43de19fb754356c9e70a0f072e5ec0d9
+    commit: f63d097fc1a30432300a4e90e6a669bae626b803
     artifact_sha256:
       adobe: f92c61a8fadcf3be366301b695278c40a283f4e75cde63370ba7eb783fbbfd0b
       aiee: 7cb2067644d2604ca5185d80905686683533b6c80622fb1506070b698aac2c30
@@ -46,12 +45,12 @@ oracle:
       ietf: 0bb5ef5597945d8f1de52a760b09781b11f70b87a0b7834f7cffa8d4fa10a624
       ire: 513ccf7c8585f8811bc79c0cc3632ebf941e26cc001ec7325d38e3adc894af09
       isbn: 4c72aaf93c1352d7b9b9350067bb7ad87efcbf18c11392f77162e87c3d39613c
-      iso: 43533da6826857d740d238d61d31b1d9c41a351ee9d83a302f61e2a1537a95f0
+      iso: 037012556d70b23475d594adc7d27b1b4d55b48c6ce95c32776a13d4c71f4f88
       itu: b254efe135cf3c2f34753dffb34ce3855a2347db56595a29383669e8eae6fb24
       jcgm: f07b26edd014f79cc4d2ef5a30e6f98c50491fbabb716c13c917fa056c41a943
       jis: 8d608a03f916aa693e7ae4e675cb76ee266e4162afa17db2e9f22a9578c5fb2c
       nesc: 927ee2dda150173ec2fddd0f6d7145a2b20c61652807b1ecf0fd9bec40193d4e
-      nist: 6f8c0abcd5e619f6fb4f4540f7b3788fde9a924a1ece79da1122027b5c1d4016
+      nist: 5fc71b6ddb42de31f4044880e168979c46049d5a2d5c7cd69ef9816dca2b30c8
       oasis: b67f1dfa0e5e8ffa6b96375c5312bc2663a9a360aecf12531295143ad4407854
       ogc: 361a42fe2125306532900698de2dbc3105edc238a83d5f0c1f8e3f13f0df0b39
       oiml: 51ddfda98b85dfb60bb257e06f9697c28d30872ba0132a31ef261c061367d0e3
@@ -64,9 +63,13 @@ oracle:
       w3c: f42f1dc46d0a6be2d168e165ecc786571cba4791f12fcc9d0f00135373afa25b
       xsf: e5aaeb54f6951131d02413125f8d441ea4dfad14401cdf6e1fe2cf6bce00bf54
 repository:
-  commit: 6088ea9039f41a9c051f6e33c52405dd015131bd
-  clean: true
-  dirty_paths: []
+  commit: e5675ffba53723665795c71e1cec2b3a6a2e28c7
+  clean: false
+  dirty_paths:
+  - tests/iso/_debt.yaml
+  - tests/nist/circular.yaml
+  - tests/nist/crpl_report.yaml
+  - tests/nist/nsrds.yaml
 ruby:
   version: 3.4.8
 counts:
@@ -704,8 +707,8 @@ payloads:
   sha256: 6fad7222912f582f7a099382d969debf6e9f368946d27663a61be502422e5e84
   bytes: 713
 - path: iso/_debt.yaml
-  sha256: cab215e30170a5d6a939a1a2099977349f8eb094185da06de0c522ec7e13a95f
-  bytes: 2540
+  sha256: 2d0d74f8ef7e66a4362ef04056479234ef9cc0959ce3925fa054c921bece3474
+  bytes: 2532
 - path: iso/_negative.yaml
   sha256: 183db60219e78ed036adb2dc771aec21dc2fa3a9220df731babf902e4ec0d6de
   bytes: 233
@@ -827,8 +830,8 @@ payloads:
   sha256: '0868ac3e67c1c81c3ac9ed30a577a27926a3db59c5d4d4f42914a8293fb11d2d'
   bytes: 103165
 - path: nist/circular.yaml
-  sha256: f2acff01e65833343d483ae7f15f236f15837c7c29c2f444c9cdbe787c55dab1
-  bytes: 198646
+  sha256: c4cfa60959a2ef370de3f9b4e85f3647657c361ec7994e95c7bbb69884993aba
+  bytes: 198647
 - path: nist/commercial_standard.yaml
   sha256: d12b4ec9823de40daa18f43fffbc259c13e886c858ab89c575fc419d911b3a02
   bytes: 64306
@@ -839,8 +842,8 @@ payloads:
   sha256: 13bf0f0535bdfbf64c5490858ba768f4d06d9f07130b6a4f9bd650810fe3714b
   bytes: 26524
 - path: nist/crpl_report.yaml
-  sha256: 696a903b8e6df61e135fd6b6572d709b1777b57fc5bb33cec039b99a0b66718d
-  bytes: 95244
+  sha256: 633718d60656553ae229ad974c277eb2de0f5bf4a43f25e71b3d6cd9148288b4
+  bytes: 95248
 - path: nist/federal_information_processing_standards.yaml
   sha256: 36d44a6673e7e868abfde492fddcf713860df08ab227795e22c96b6bf8156c53
   bytes: 116063
@@ -869,8 +872,8 @@ payloads:
   sha256: 00763f96b356f6c8d9db22d00c8221534db9c30353d50bafccc11c04425b2054
   bytes: 17096
 - path: nist/nsrds.yaml
-  sha256: 1bdd68011feadac92dab4f4fa3571674f6df27a82963e36d36e1d8111d5d6b23
-  bytes: 25268
+  sha256: 82a56f0c6f1326ea5ba25c5ea6fec134aae6ef3ca78b71f50f6dbb94ae97e49b
+  bytes: 25269
 - path: nist/owmwp.yaml
   sha256: 6293d4ce6d4fa8cf3a106557517cf8e7900f686ab9fb8f820bd3a5c8d15c1014
   bytes: 350
