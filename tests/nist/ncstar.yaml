@@ -752,14 +752,15 @@
 - id: nist.ncstar.17210
   identifier:
     _type: pubid:nist:ncstar
-    number: 1n
+    number: '1'
     part:
+      type: "n"
       value: A
     publisher: NIST
     series: NCSTAR
   representations:
     human: NIST NCSTAR 1nA
-    urn: urn:nist:ncstar:1n.A.supp
+    urn: urn:nist:ncstar:1.nA.supp
   style: v3
 - id: nist.ncstar.17211
   identifier:
