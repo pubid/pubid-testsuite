@@ -8,10 +8,30 @@ generator:
   exporter_sha256: 6eeb0a1a3d2270e31b9a07f9424ce8d76d6f3aac96cf7fe6384f93d2e0397b5f
 oracle:
   gem: pubid
-  commit: c75568c476e34af41e8dc8e51ad8ff8056c10d64
-  clean: true
-  dirty_paths: []
-  parsanol_version: 1.3.98
+  commit: 7c8032f4f439e1bed3b8aeb043d18d59a35c40d1
+  clean: false
+  dirty_paths:
+  - docs/RFC-5141-BIS-COMPLIANCE-REPORT.md
+  - docs/URN-GENERATION-GUIDE.adoc
+  - lib/pubid.rb
+  - lib/pubid/format_registry.rb
+  - lib/pubid/iso/builder.rb
+  - lib/pubid/iso/supplement_identifier.rb
+  - lib/pubid/iso/urn_generator.rb
+  - lib/pubid/iso/urn_parser.rb
+  - references/iso-urn-specification.adoc
+  - spec/pubid/iso/identifiers/addendum_spec.rb
+  - spec/pubid/iso/identifiers/amendment_spec.rb
+  - spec/pubid/iso/identifiers/corrigendum_spec.rb
+  - spec/pubid/iso/identifiers/extract_spec.rb
+  - spec/pubid/iso/identifiers/guide_spec.rb
+  - spec/pubid/iso/identifiers/international_standard_spec.rb
+  - spec/pubid/iso/identifiers/international_standardized_profile_spec.rb
+  - spec/pubid/iso/identifiers/international_workshop_agreement_spec.rb
+  - spec/pubid/iso/identifiers/pas_spec.rb
+  - spec/pubid/iso/identifiers/supplement_spec.rb
+  - spec/pubid/iso/identifiers/technical_report_spec.rb
+  parsanol_version: 1.3.107
   grammar:
     commit: 3fec5d4a3c419643847709158ae57c34925b9c87
     artifact_sha256:
@@ -63,11 +83,16 @@ oracle:
       w3c: f42f1dc46d0a6be2d168e165ecc786571cba4791f12fcc9d0f00135373afa25b
       xsf: e5aaeb54f6951131d02413125f8d441ea4dfad14401cdf6e1fe2cf6bce00bf54
 repository:
-  commit: 524a12134b3e2a9408727f6a48f7876c6f618378
+  commit: f1197eba7a0e61e284588c61549a1b42716a22ad
   clean: false
   dirty_paths:
-  - tests/nist/identifier.yaml
-  - tests/nist/ncstar.yaml
+  - tests/iso/amendment.yaml
+  - tests/iso/corrigendum.yaml
+  - tests/iso/international_standard.yaml
+  - tests/iso/international_workshop_agreement.yaml
+  - tests/iso/pas.yaml
+  - tests/iso/technical_report.yaml
+  - tests/iso/technical_specification.yaml
 ruby:
   version: 3.4.8
 counts:
@@ -714,14 +739,14 @@ payloads:
   sha256: cd9d9b193c2d364dc42e8c6ffbbcd539099c9ae0132e954bc1ea65c62c16043a
   bytes: 9254
 - path: iso/amendment.yaml
-  sha256: 002a3f4f3fad72397d101c3a1132fb9d204c6d37c4b79501fd4d9b2d22c3d186
-  bytes: 66694
+  sha256: a2f383c423ee7886f0ac5596ce35bcf814617e3dc42113308642d935bb2a2861
+  bytes: 67153
 - path: iso/bundled_identifier.yaml
   sha256: 84c3954f6077e5226a0b445f9fcb9d7d5d53744fb179f0ea3eaf25186444d9ab
   bytes: 968
 - path: iso/corrigendum.yaml
-  sha256: 5020e7770b6133bccd79f0f7244b7b73684555ded92d6535f8c0fec00bb3759d
-  bytes: 43304
+  sha256: '094821fef2646462776022f1b3b834afc6dbecc8f311872ab57b624edd84e464'
+  bytes: 43749
 - path: iso/data.yaml
   sha256: dbbcc1379318b32f8a9e53cccdabedaa54e05f8babe22446907ada0ee81f31eb
   bytes: 1285
@@ -735,26 +760,26 @@ payloads:
   sha256: 4aec149b9dff57dccb1d22508d440aaecf97fd49880fab66f5905d84437f2529
   bytes: 6472
 - path: iso/international_standard.yaml
-  sha256: c7df719c268d40205f0103acf57fe0a18bcf16013b4858cd529ac2e015df8d4b
-  bytes: 1524803
+  sha256: 37948bab04e4a18aaaebc144d4b6b221bd9682f2faa03ba77fbde80b814e1ed1
+  bytes: 1525581
 - path: iso/international_standardized_profile.yaml
   sha256: b27a0251c821cd98ba1bfa5506a5e5e70e3bfbd1436a9d0a1678a4377a559e4f
   bytes: 3942
 - path: iso/international_workshop_agreement.yaml
-  sha256: 47803a52973eec24ac7ed7dd4b1ae50bc3105282fb1df1049a9833b14b427ac8
-  bytes: 4921
+  sha256: 48506a05625152939fa1c4858a054feabc290b669c9f0acfe26d32b570ed0c3b
+  bytes: 4966
 - path: iso/pas.yaml
-  sha256: 0dfe54b3c8030c3432c22a49e155872100365f98f5e0f604f0ff90888b392eb2
-  bytes: 10096
+  sha256: 06f8163b257ea018df62cfa2b9fcc262cdc0d21c7ce74685e458ed7929dcf98f
+  bytes: 10114
 - path: iso/recommendation.yaml
   sha256: 3bf979e955d90aaee4e75f821a73bfd1f6605f630b3b8733465d26ff15722f89
   bytes: 8935
 - path: iso/technical_report.yaml
-  sha256: 8bf88962fa4eaddf00c129eac4d83d8a7f6101567642c6b50756f8dbf87e0f08
-  bytes: 62409
+  sha256: 1b52212267caa163baad85428d856a4edc9dd27909dd98963299bd1c17cf892d
+  bytes: 62454
 - path: iso/technical_specification.yaml
-  sha256: 64d66556aa189dd1a35c3754834f9021e725b739ecf8aca080242a778140dd0c
-  bytes: 66067
+  sha256: 90ce3b4b35264b92a1dafde58ffd2a26a6b65c5428887074a5445c4c41396cb7
+  bytes: 66183
 - path: iso/technology_trends_assessments.yaml
   sha256: bd749310470eee7a30165a87c2ce77eaeda42ff99d13e6cd544f25c07910a6a1
   bytes: 2244
