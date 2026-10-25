@@ -1213,6 +1213,27 @@
   non_normalized_aliases:
   - spelling: IEEE/IEC P62659/D2
     style: v3
+- id: ieee.joint_development.9058
+  identifier:
+    _type: pubid:ieee:joint-development
+    number: '80005'
+    prefix: P
+    parts:
+    - '1'
+    separator: "-"
+    publishers:
+    - IEEE
+    - IEC
+    - ISO
+    lead_party: ISO
+    ieee_draft: D=FDIS-201203
+  representations:
+    human: IEEE/IEC/ISO P80005-1/D=FDIS-201203
+    urn: urn:ieee:ieee-iec-iso:P80005-1:draft.D=FDIS-201203
+  style: v3
+  non_normalized_aliases:
+  - spelling: IEEE/IEC/ISO P80005-1/FDIS_March 2012
+    style: v3
 - id: ieee.joint_development.9059
   identifier:
     _type: pubid:ieee:joint-development
