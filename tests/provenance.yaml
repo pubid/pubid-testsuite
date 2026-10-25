@@ -8,12 +8,12 @@ generator:
   exporter_sha256: 6eeb0a1a3d2270e31b9a07f9424ce8d76d6f3aac96cf7fe6384f93d2e0397b5f
 oracle:
   gem: pubid
-  commit: 0442315d3ea66b3c1132aa0ad56fa19f2eedff0a
+  commit: '09816908850f69cb81394afe027cb76b3ab20be9'
   clean: true
   dirty_paths: []
   parsanol_version: 1.3.108
   grammar:
-    commit: 797e6cc8be060700a6cce079b4e34b982fa6c045
+    commit: c4b73dc1386ba4f506a764c6979799333e910366
     artifact_sha256:
       adobe: f92c61a8fadcf3be366301b695278c40a283f4e75cde63370ba7eb783fbbfd0b
       aiee: 7cb2067644d2604ca5185d80905686683533b6c80622fb1506070b698aac2c30
@@ -41,7 +41,7 @@ oracle:
       iana: a81204655e4240b8f92919e4ca192daca8126aa95f1e71b34d4940b1400a563a
       idf: adc731cd6c4fbb4355b15b63840faed145a4960d1fa6e01eaa8aabb22fa71069
       iec: c3007f8ef773acc486268d783fe57137ecd76c2adba16f5f2fa7bdc16f44fa6c
-      ieee: 9a919475b2ef8f38d4b5c6c7fa3c6eb98d9e1a92905792b78b4e7a70dc4f61fc
+      ieee: 92126513b83c830f5daa2ea34cc95482e0c9fb85f7505711e32787547cbc232d
       ietf: 0bb5ef5597945d8f1de52a760b09781b11f70b87a0b7834f7cffa8d4fa10a624
       ire: 513ccf7c8585f8811bc79c0cc3632ebf941e26cc001ec7325d38e3adc894af09
       isbn: 4c72aaf93c1352d7b9b9350067bb7ad87efcbf18c11392f77162e87c3d39613c
@@ -55,7 +55,7 @@ oracle:
       ogc: 361a42fe2125306532900698de2dbc3105edc238a83d5f0c1f8e3f13f0df0b39
       oiml: 51ddfda98b85dfb60bb257e06f9697c28d30872ba0132a31ef261c061367d0e3
       omg: 0db1d578c8d986b2f826f3e6a790825e6b34fe866f3f112bc1e124b9e37c61c2
-      parg: fd589c9c3bae862cf312881d628fcdee3e1926112382b246258001cf0b5ef4bf
+      parg: 605dd485b99b04e023b46c8159e9d766810a68f9729aaf69777694f6f7e08f9b
       plateau: 2c8a45ba3cbd852542c4967832415c98f548a74b73938bf39287c3bd952fdc5d
       sae: 440d541c093e25919c3c499ab120e7228e0c897a3b24158652159b77022deba9
       tgpp: dc67421e97b128898acfbf1b0d7039486558ffa4971f28cd690b558c3994c283
@@ -63,19 +63,21 @@ oracle:
       w3c: f42f1dc46d0a6be2d168e165ecc786571cba4791f12fcc9d0f00135373afa25b
       xsf: e5aaeb54f6951131d02413125f8d441ea4dfad14401cdf6e1fe2cf6bce00bf54
 repository:
-  commit: fd5705c79eda5278525296f74d60fa939e855a6b
+  commit: 07122e4a464bb8c843e62a1c891ac9b847db95c5
   clean: false
   dirty_paths:
-  - tests/ieee/iec_ieee_copublished.yaml
+  - reference-docs/ieee/identifiers/pass/joint_development.txt
+  - reference-docs/ieee/identifiers/pass/standard.txt
+  - tests/ieee/_normalization.yaml
   - tests/ieee/joint_development.yaml
-  - tests/ieee/project_draft_identifier.yaml
+  - tests/ieee/standard.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 42
   payloads: 347
   cases: 99625
-  aliases: 11641
+  aliases: 11640
   negatives: 700
 payloads:
 - path: amca/_debt.yaml
@@ -607,8 +609,8 @@ payloads:
   sha256: fcae2512d3ec5938fa638faffb6d65148b37943e4cd1bf722fe5154d22c3d116
   bytes: 46392
 - path: ieee/_normalization.yaml
-  sha256: 315f2f00159ddc2fc99be5cb287c6bcb5a07f8508308ab9027e27a8ea1a2d001
-  bytes: 767269
+  sha256: 3a70ae9223bd4955693fdf76522862dfb711cd2c0ab69f03ef5ce7a0f549a036
+  bytes: 767258
 - path: ieee/adopted_standard.yaml
   sha256: 7225fdd7ca9316b666d00f5d19033d00ec77dff24b9cb8c21d3e29024744dd1b
   bytes: 46059
@@ -640,8 +642,8 @@ payloads:
   sha256: 5b214f2ca0fe688fa24e8199946dbd176bfb8556575bc08fbf40fd138a5ac287
   bytes: 222
 - path: ieee/joint_development.yaml
-  sha256: ee6d3f5d8379d5fdd782e04555430f5cd461be48d9e48d045b83ac84805d79ea
-  bytes: 136548
+  sha256: 1b42bfbc24bd54811985358371a35ba3610b96ff7f4a22f660849b26c5b658e2
+  bytes: 137037
 - path: ieee/multi_numbered_identifier.yaml
   sha256: b7409236400150fd9d9da99453a92670d218df49b908b95301c36165f59577d1
   bytes: 471
@@ -667,8 +669,8 @@ payloads:
   sha256: 49900acf25c75ebf7358138112e7f6909085c2690b812c7ca799298eb93649b3
   bytes: 3286
 - path: ieee/standard.yaml
-  sha256: 6d2f42f621c5165a7664d9e6b049107c6301e33dd44bb5b42b558d419360a371
-  bytes: 1939394
+  sha256: fc6ce8980dbee79ce35cb062731c7802a91ab1169a5e1592829d0d2f58abaa0a
+  bytes: 1938852
 - path: ietf/bcp.yaml
   sha256: 5550f54365fa3abe45c266d956fc5c0bc239fb1e652ca3abc845ea1d8d5bf764
   bytes: 36048
