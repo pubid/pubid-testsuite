@@ -1,0 +1,8 @@
+---
+- id: iho.debt.fd4b539889ff
+  input: IHO B-12 3.0
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], ''.''] at line 1 char 13.'
