@@ -8,76 +8,91 @@ generator:
   exporter_sha256: 6eeb0a1a3d2270e31b9a07f9424ce8d76d6f3aac96cf7fe6384f93d2e0397b5f
 oracle:
   gem: pubid
-  commit: '09816908850f69cb81394afe027cb76b3ab20be9'
-  clean: true
-  dirty_paths: []
-  parsanol_version: 1.3.108
-  grammar:
-    commit: c4b73dc1386ba4f506a764c6979799333e910366
-    artifact_sha256:
-      adobe: f92c61a8fadcf3be366301b695278c40a283f4e75cde63370ba7eb783fbbfd0b
-      aiee: 7cb2067644d2604ca5185d80905686683533b6c80622fb1506070b698aac2c30
-      amca: 3a35e99db64d36455880e3fb0856eff55e7e0a895449f854a62deb1bd1adc1e1
-      ansi: 4a8a04f904ea55bdb61fccc176cc7b06e721a73a78dbea8daadf6f39761b0a77
-      api: bb509fe391801f9bb8ceb98afbe149b40d348cb35fea4e9ead93a8b28de76f45
-      ashrae: db1d9a38db18a3de4722f58bbf83e1841868cb0f46e7433700f706b93dd8f0ce
-      asme: 9185e4a8a7e4a2c685b0d7eff6c116e8c9caf32786927881a347c5e55381c80d
-      astm: d01f910b140c7938618bad94cafae691bf0bd9f39b5f70174cc8bb7923593c90
-      bipm: 39933616b17b4182f217a882ac1c3b97ff71b672e83d33c356992de80ad237f5
-      bsi: 48e075692c98a31ec122e3dcadec1a27b914e54b251bf13fe995dffc38ea6f88
-      calconnect: 1f59c2b6a4ca80e60fa34a6367bd8f07f6a1984de15186e60a916c8167049d0b
-      ccsds: bdb73dcbb27a5e8e789c250014f449af28cee6b92ba3afcdfcf3ef81f809a6f8
-      cen_cenelec: 8ff2c16b9fb2189949461d7ef41f31fe7119c44f2aa81eec722f98626e252e52
-      cie: ae311457c2a80d7a252d12b9aebd953e20ce4924346a4ea540f970903e8f17e0
-      csa: f10a16074debb7a69c144b4309f968179d4a62e6a271f9b986c0ab057a5e8bd1
-      doi: 1bea95877f1228357e9d23936b7bb686ba3e1d7ecc65b1d20ab2507eba464571
-      easc: 741bb2e33fa9a57460312c12298341a4745422a8b2dc1c98ede8f771ed5f7880
-      ecma: 2e5c2b83c56445c967dcc9b95b8a4811dd4d5afa79c6242699a30ef360160963
-      etsi: 6b8e99627facf1e3869c6c99f36b9714b2b8a2ae92bdfb744cbc4753cfc388c0
-      evs: bdb79aad3fae3a0a806c85c6be8c4b77d03c06adba23824b2cbde848078e7375
-      gb: 5f20daa6350850091a60fb8602e1f089b5b61f51c61be85391dd401a0544bef1
-      gost: a9136858f58baaff4d18f96f6ee4bca0507b19c4d6b02675c3b97e50b00844df
-      iala: bf250a6a5def8a19519bd3a23807b4b8d1b3d8999e2f318f13ecb19a91422a51
-      iana: a81204655e4240b8f92919e4ca192daca8126aa95f1e71b34d4940b1400a563a
-      idf: adc731cd6c4fbb4355b15b63840faed145a4960d1fa6e01eaa8aabb22fa71069
-      iec: c3007f8ef773acc486268d783fe57137ecd76c2adba16f5f2fa7bdc16f44fa6c
-      ieee: 92126513b83c830f5daa2ea34cc95482e0c9fb85f7505711e32787547cbc232d
-      ietf: 0bb5ef5597945d8f1de52a760b09781b11f70b87a0b7834f7cffa8d4fa10a624
-      ire: 513ccf7c8585f8811bc79c0cc3632ebf941e26cc001ec7325d38e3adc894af09
-      isbn: 4c72aaf93c1352d7b9b9350067bb7ad87efcbf18c11392f77162e87c3d39613c
-      iso: 037012556d70b23475d594adc7d27b1b4d55b48c6ce95c32776a13d4c71f4f88
-      itu: b254efe135cf3c2f34753dffb34ce3855a2347db56595a29383669e8eae6fb24
-      jcgm: f07b26edd014f79cc4d2ef5a30e6f98c50491fbabb716c13c917fa056c41a943
-      jis: 8d608a03f916aa693e7ae4e675cb76ee266e4162afa17db2e9f22a9578c5fb2c
-      nesc: 927ee2dda150173ec2fddd0f6d7145a2b20c61652807b1ecf0fd9bec40193d4e
-      nist: 5fc71b6ddb42de31f4044880e168979c46049d5a2d5c7cd69ef9816dca2b30c8
-      oasis: b67f1dfa0e5e8ffa6b96375c5312bc2663a9a360aecf12531295143ad4407854
-      ogc: 361a42fe2125306532900698de2dbc3105edc238a83d5f0c1f8e3f13f0df0b39
-      oiml: 51ddfda98b85dfb60bb257e06f9697c28d30872ba0132a31ef261c061367d0e3
-      omg: 0db1d578c8d986b2f826f3e6a790825e6b34fe866f3f112bc1e124b9e37c61c2
-      parg: 605dd485b99b04e023b46c8159e9d766810a68f9729aaf69777694f6f7e08f9b
-      plateau: 2c8a45ba3cbd852542c4967832415c98f548a74b73938bf39287c3bd952fdc5d
-      sae: 440d541c093e25919c3c499ab120e7228e0c897a3b24158652159b77022deba9
-      tgpp: dc67421e97b128898acfbf1b0d7039486558ffa4971f28cd690b558c3994c283
-      un: 53a0977486602a21fffd8c265956cc66d0eba88f9cbbcaa80f512350c3b837bb
-      w3c: f42f1dc46d0a6be2d168e165ecc786571cba4791f12fcc9d0f00135373afa25b
-      xsf: e5aaeb54f6951131d02413125f8d441ea4dfad14401cdf6e1fe2cf6bce00bf54
-repository:
-  commit: 07122e4a464bb8c843e62a1c891ac9b847db95c5
+  commit: c765d6dba158107731e392b05e06069aa345b515
   clean: false
   dirty_paths:
-  - reference-docs/ieee/identifiers/pass/joint_development.txt
-  - reference-docs/ieee/identifiers/pass/standard.txt
-  - tests/ieee/_normalization.yaml
+  - lib/pubid/ieee/project_renderer.rb
+  - lib/pubid/ieee/renderer.rb
+  parsanol_version: ">= 1.3.114, < 1.4"
+  grammar:
+    commit: ae31cfdee6408db50a66cf67ea558c15e6fc22ad
+    artifact_sha256:
+      adobe: e50caef432bf0ccbf30f3393bdd7c64e6681a7559c936f1f78440588e732dbad
+      aiee: 8a3997f9becbbf320e9daa5a2b19bb5fa61896b6e02a8977fd881ffa175b5b26
+      amca: c1ccfbdb133c789ca070de343b63f9753f4b91785c88227775fa1ae78fccf80f
+      ansi: b95dad205acb99e4d69a05e11a178a18ff08b51e1fd8c053d90dab8109333b12
+      api: 9a9db79ff5261aa3c9bbc7e16385695f20aec746fd82ccf503745f60261358a3
+      ashrae: fbfa339f94daf340609ddb1c64e23398bb2731064179701294e9ad727fb0dfe1
+      asme: b92f68ba2dbcda658ef1639f755dc9adaf9e3ae886b08f1112b25478ebede3a0
+      astm: dfb339f3aeede6fb013b1da6ff82444b4cc7ae9af754bc1b1813277488d6a401
+      bipm: 54d32014d30548be2ccef82284a1fab59768743a1012a604355879cadcf28aa0
+      bsi: 9bd5ae8f6b8aff60be79aa75b74294a5334d42131661d923089f13ba3f93a4b6
+      calconnect: 9b3d50654f6563507f13504d5e69246d7d44951db9e401e56bce98cba8dc85b5
+      ccsds: 62c26ba78652a290442a5592e7bcedcfec20706b7b706f44e627a18907080b71
+      cen_cenelec: 50f21d3592cd48777edb38316f41dd716f41654737a81d2623775cad775287ee
+      cie: e393b219e9f8cdfb3a859a890ed0789f347a583da488786d99c528212613b149
+      csa: e5729ac5dc91c03f6860f64ae9de318a77f9e61e3ff90ac2dbf97a790bbfe7b7
+      doi: b31bdaeb13a0baf1952f34298d51c76065dd0829a59e8fbed781072ae612bd67
+      easc: 77fcfe6b6561f9d86e610afcfc9e9821816505efd89bf5fe818278133f659f11
+      ecma: 5a2857bb33b7fd626d6eedba4e3a6b3dafba4cf0dc836371408786eb1f480230
+      etsi: b2d7a0cec4bc585ed4400cf320f297a6f09349af5689c02e22f28a95eb0e7b6d
+      evs: d69db1cc094acd86c86e70cbd826a234ca60c1a354d677c6e6121afbc72d162f
+      gb: b536bc93a9ba3ef05fabc073ca34acfc62b792eb9a0de30544f4051eff5bde90
+      gost: a4879f751cf28b69f8d26f84a46d661ffe7f130b9f11236f3fb5a400ce795215
+      iala: 5452d4d04cbaff03aba35f84082d8b32dd1cbb1463b593181f48fa91d111dc58
+      iana: 470d9a3c1b932c8ad921c465d0e1f8d6a356e86e0a300ad521a01ec87035548a
+      idf: 0a12b9e96e2264d49b5b1c1641c23cf535ab0ba0b00322b3ece7d43e704d73e5
+      iec: 181c9199f11b37e3c0ecc0d77c874eb305450802a36b10f11e7e3d16ba3b24aa
+      ieee: 5ad586be364023f3e3a6ecf7dff1869b7cd0032adb335a8f0bb6a1d4a43f91c1
+      ietf: '0901d9a3dbe5d7763909fd5060cb9c08926aca2d3e05d29a99a8860968c9ba76'
+      iho: f32db9d2d591589aa77382b45689b1e050f68d24f5034cbad3f14c07640d5d79
+      ire: d3f0a6b424b1e811f08882afe89c34a8aff4e8f558d9d5fdec9f4690e124055a
+      isbn: 14ea830442c74a5fd1f4262a9d7a2cb31fe15ad84ae580b5c9d3d397e96018e2
+      iso: 3c03d9de7bf3edc258fda97adbbd74243a60adf4fe0c8314eb55da02a09cd4b3
+      itu: f8ab193dfd9ba363dbf260017170f933072cf66f6a38978b42eeccb5d02f82e9
+      jcgm: d96cb31818559c0f5036aca4a55ecb27f085a3140be3423fe91d4ad5648191fa
+      jis: c4e1863697e0d91deb982b3a2c0f0bdf08227736295e9ddb0cd20e9cd0035d43
+      nesc: ab1af352f4f6b191a9fb852414f4ca46d1e2b8eb35cbab3a0f8446e3d366bdab
+      nist: edec1c1c660bada3e80b8faa831803a32cf8079e4f589e72393267d38a966e54
+      oasis: 1c52371eaade88949d11f878e41a79d927c11ca3ace428724d1226e9a4cad51f
+      ogc: 3d46546397f6b480f5dbf17a9c7294d34d943082f279da26882f5454fd84e1a4
+      oiml: 5aa8592036f97d96c40e061f55425de8a6d76a5f063065efd9f14bda72681b0f
+      omg: 2eb7da70c841cf32bd5353f5d6de1da2b6dd87cc0080d44825e6f33d965fa486
+      parg: 34a653e0889a5e2f493fb6630ed3bb193f3355ddaf199ecc35f8c25930fe1fcf
+      plateau: 9f2b602c6fd1b1c5087ddeeda7f44f3a93b37e68799b521a718deef923a90e76
+      sae: ee4b439174a9d5792fad4a1652ce824af92fb4483d41ec34fc4346176bbebff8
+      tgpp: cb6e3d70b05ad35762e9edb482721ae48cffd2f942441609d464763027d3fbd4
+      un: 7583ba6070d1198bf9bfec8a1d9942d2015f92c0ec007fadad19a94407ce9519
+      w3c: 5d4cccec180fff3dfe4fa5fc29ccd29cbe0df8d26311a585e368ecea0b5b90e4
+      xsf: 6d61b03d6cd4344b47b2ae80e3f5349677f8daf14b72b6db175474ed3834a7bb
+repository:
+  commit: 5eac6abf1475b8cd5f307ad15ada6120c5d6aaa8
+  clean: false
+  dirty_paths:
+  - README.md
+  - tests/ieee/adopted_standard.yaml
+  - tests/ieee/amendment.yaml
+  - tests/ieee/conformance_identifier.yaml
+  - tests/ieee/corrigendum.yaml
+  - tests/ieee/csa_dual_published.yaml
+  - tests/ieee/dual_published.yaml
+  - tests/ieee/interpretation_identifier.yaml
   - tests/ieee/joint_development.yaml
+  - tests/ieee/multi_numbered_identifier.yaml
+  - tests/ieee/nesc_edition.yaml
+  - tests/ieee/nesc_handbook.yaml
+  - tests/ieee/nesc_preprint.yaml
+  - tests/ieee/project_draft_identifier.yaml
+  - tests/ieee/si_standard.yaml
   - tests/ieee/standard.yaml
+  - tests/provenance.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 42
   payloads: 347
-  cases: 99625
-  aliases: 11640
+  cases: 99639
+  aliases: 11637
   negatives: 700
 payloads:
 - path: amca/_debt.yaml
@@ -612,49 +627,49 @@ payloads:
   sha256: 3a70ae9223bd4955693fdf76522862dfb711cd2c0ab69f03ef5ce7a0f549a036
   bytes: 767258
 - path: ieee/adopted_standard.yaml
-  sha256: 7225fdd7ca9316b666d00f5d19033d00ec77dff24b9cb8c21d3e29024744dd1b
+  sha256: 677bb488f1c4453f22ee61abb7c27dd86a37adfa3cefbd430717f5c1cb98d806
   bytes: 46059
 - path: ieee/aiee.yaml
   sha256: a1ccaa0ba995bf1bd841e013de69c127ebbd4d63349853ff2b9244bec3d74a03
   bytes: 45812
 - path: ieee/amendment.yaml
-  sha256: 4407f73f13f7a19697aa324f6f01ee48da4fe7eb850b16ddab0fafc93194677c
+  sha256: 24d5593f2c2c1482b38256d33480fcdc6f163bb45e3e9a293bc10652689b9d99
   bytes: 26768
 - path: ieee/conformance_identifier.yaml
-  sha256: e1b07bc8b7d1356b92de6563a0a82a9b1e97575841cee14ddfb295edc83fa798
+  sha256: e7b85a550204d65d9c18269112883ba10eb020ca5c61dfd8c2f823a5432f6576
   bytes: 2972
 - path: ieee/corrigendum.yaml
-  sha256: c79489921d1f746cf48f78acce09701ca66fb42cbba5b9494d50ddc1d52399f9
+  sha256: 726677d3d359bc7714d0fa43589d0480fdb86e7ab58454e855864da0d7a59b6d
   bytes: 138638
 - path: ieee/csa_dual_published.yaml
-  sha256: c91590daf225dfcac42d90dcd2b86341f2520f7b535244e1a9a74002564dae72
+  sha256: c9e5490f48e9beab35ebd88d3989665840ee0d48905e0b2f8026f7d538da5912
   bytes: 1768
 - path: ieee/dual_published.yaml
-  sha256: aaad0b23021d5ef2afaf2d8a387067a5557a0ec336ef88c68c8a7e7cd651b009
+  sha256: c4b0deb40c64f75fad2093d01bd19cc32e6410a4a81ba0f23308850fe5cf54a3
   bytes: 19225
 - path: ieee/iec_ieee_copublished.yaml
   sha256: 896e23371ddbb8202f77e37d31653580f18d1de56c78c9b063f446c226d3a171
   bytes: 17059
 - path: ieee/interpretation_identifier.yaml
-  sha256: e9d05e149b104fa94361a164fc22ba2462734bcba9bc5956f922ffbfa2f3081b
+  sha256: a7e13ef265e9059209ad0ed2515420c3631d24758843ecdfe4ecfac11818ce85
   bytes: 1834
 - path: ieee/ire.yaml
   sha256: 5b214f2ca0fe688fa24e8199946dbd176bfb8556575bc08fbf40fd138a5ac287
   bytes: 222
 - path: ieee/joint_development.yaml
-  sha256: 1b42bfbc24bd54811985358371a35ba3610b96ff7f4a22f660849b26c5b658e2
+  sha256: 3483c6d49062fcdd090c51e1022d0b485d079b88d901faac1e6f5a860900b722
   bytes: 137037
 - path: ieee/multi_numbered_identifier.yaml
-  sha256: b7409236400150fd9d9da99453a92670d218df49b908b95301c36165f59577d1
+  sha256: 803d529adf1c09a05049b144ddd126e7eaf75074265fa473ec0b4df151431bcd
   bytes: 471
 - path: ieee/nesc_edition.yaml
-  sha256: 8ae6d844e28b5de05bdfa175b2784dd93abe7380fed3dab0a4305b86a84d25f3
+  sha256: 878aac8ad4ed8c66e31431bbf09ce276b2aaf038adec459427e621ebc4bf0cf3
   bytes: 337
 - path: ieee/nesc_handbook.yaml
-  sha256: d0ffabbd5a58357c6bd6ac2be51ac07d0be10910f030519b4e3b093a57952d53
+  sha256: f10e30f291c7cb055fc5608ad2bf160424bc653d431e4a0c124188a4248d7daf
   bytes: 658
 - path: ieee/nesc_preprint.yaml
-  sha256: a2708529b9a6ae0bc8cb8e4323b78cb1d30282ad2aa999f09c088d50185b8725
+  sha256: 1f7099e51ae0c249d17d6373b7886298bb3c7d4d3efa970d3666b5e7e765b300
   bytes: 1697
 - path: ieee/nesc_redline.yaml
   sha256: 34da306bdc68ced053cc691d6b7fb01c451116100edcc71707331970944fa7a3
@@ -663,14 +678,14 @@ payloads:
   sha256: f23997e5eb0ffd6a1d26d1450ed43775306c007af149c912989b5a5f92d2b10d
   bytes: 678
 - path: ieee/project_draft_identifier.yaml
-  sha256: dadf8792d7d7546395675bc0c39ab03259e562feb58de6738ed61ec0f94cc192
-  bytes: 1133227
+  sha256: 7edb33a2362c41baa7081d34aee74ffc24d2e0adbac7bea6e82791bf9e0194ed
+  bytes: 1133982
 - path: ieee/si_standard.yaml
-  sha256: 49900acf25c75ebf7358138112e7f6909085c2690b812c7ca799298eb93649b3
+  sha256: 74e1ba71a2cbfa6035d6388f03148a830e0be870dc9bab87e6e96dede80e6e6a
   bytes: 3286
 - path: ieee/standard.yaml
-  sha256: fc6ce8980dbee79ce35cb062731c7802a91ab1169a5e1592829d0d2f58abaa0a
-  bytes: 1938852
+  sha256: 61e4601e56abc7678f0999839c5dc1bfbe299089c4fffca39ddf835c620d5c0e
+  bytes: 1942420
 - path: ietf/bcp.yaml
   sha256: 5550f54365fa3abe45c266d956fc5c0bc239fb1e652ca3abc845ea1d8d5bf764
   bytes: 36048
