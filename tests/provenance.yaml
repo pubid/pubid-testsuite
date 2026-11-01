@@ -64,32 +64,37 @@ oracle:
       w3c: 5d4cccec180fff3dfe4fa5fc29ccd29cbe0df8d26311a585e368ecea0b5b90e4
       xsf: 6d61b03d6cd4344b47b2ae80e3f5349677f8daf14b72b6db175474ed3834a7bb
 repository:
-  commit: f8870adfb9c4517016c300891017f9f3d13d1605
+  commit: 472e79b8614829c50584e752d7a7add0a1be01f9
   clean: false
   dirty_paths:
-  - tests/ieee/adopted_standard.yaml
-  - tests/ieee/amendment.yaml
-  - tests/ieee/conformance_identifier.yaml
-  - tests/ieee/corrigendum.yaml
-  - tests/ieee/csa_dual_published.yaml
-  - tests/ieee/dual_published.yaml
-  - tests/ieee/interpretation_identifier.yaml
-  - tests/ieee/joint_development.yaml
-  - tests/ieee/multi_numbered_identifier.yaml
-  - tests/ieee/nesc_edition.yaml
-  - tests/ieee/nesc_handbook.yaml
-  - tests/ieee/nesc_preprint.yaml
-  - tests/ieee/project_draft_identifier.yaml
-  - tests/ieee/si_standard.yaml
-  - tests/ieee/standard.yaml
+  - reference-docs/csa/SUMMARY.txt
+  - reference-docs/csa/identifiers/fail/bundled.txt
+  - reference-docs/csa/identifiers/fail/combined.txt
+  - reference-docs/csa/identifiers/fail/series.txt
+  - reference-docs/csa/identifiers/fail/standard.txt
+  - reference-docs/csa/identifiers/pass/cec.txt
+  - reference-docs/csa/identifiers/pass/reclassified.txt
+  - reference-docs/etsi/SUMMARY.txt
+  - reference-docs/etsi/identifiers/pass/corrigendum.txt
+  - reference-docs/etsi/identifiers/pass/partial.txt
+  - reference-docs/iec/identifiers/pass/reclassified.txt
+  - reference-docs/ieee/debug_and_pattern.rb
+  - reference-docs/ieee/debug_conformance.rb
+  - reference-docs/iho/identifiers/pass/bibliographic.txt
+  - reference-docs/iho/identifiers/pass/circular_letter.txt
+  - reference-docs/iho/identifiers/pass/miscellaneous.txt
+  - reference-docs/iho/identifiers/pass/publication.txt
+  - reference-docs/iho/identifiers/pass/standard.txt
+  - tests/csa/_debt.yaml
+  - tests/csa/_normalization.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 42
-  payloads: 347
+  payloads: 350
   cases: 99638
-  aliases: 11637
-  negatives: 700
+  aliases: 11624
+  negatives: 701
 payloads:
 - path: amca/_debt.yaml
   sha256: f24ce4711159eb846d55aa6887217e3caeb3501747e2218abb5d2c4832d5567c
@@ -416,14 +421,14 @@ payloads:
   sha256: 5fb168b94f0295e740a39e26cbeacfe5961110ae3eed42d475311dfbd2344ea7
   bytes: 208
 - path: csa/_debt.yaml
-  sha256: d204cecdf0b18e2c1911f869c1b10240f39800e85c5cddb60313d136e6b3e572
-  bytes: 22352
+  sha256: d7a0c0d64ba6414ad21974d7a5e49595102224aec39558c7a5a91058d0c8617d
+  bytes: 22398
 - path: csa/_negative.yaml
   sha256: 6a9c33056bab085e9c30bcdc2c84d80bbb1af25c1b34d451e6697069c0b13e6e
   bytes: 9393
 - path: csa/_normalization.yaml
-  sha256: 4f1f91b4ec244535cba10b0db76de12188032c27caf18fe8bd95736b17a08501
-  bytes: 6219
+  sha256: 49c58ea629f5eb85f33e6a9445bf2af1b3efbfc61704acc8681995776ec031b8
+  bytes: 6232
 - path: csa/bundled.yaml
   sha256: 3c303ed3269ebd496c95ffc807a25a6e471cdbfea7ed34b6b16842b5401b2e51
   bytes: 3596
@@ -431,8 +436,8 @@ payloads:
   sha256: af69d4fcb548772de1d3f0c72fbbb2c9d4824a094a86d939e04986493e2bd5ef
   bytes: 219589
 - path: csa/cec.yaml
-  sha256: 5a8608b327bed69da454a27071a19de2c7ff7fee6891b6dc4bbd3337a41f1dc1
-  bytes: 18356
+  sha256: 977c1926c5869e19ea79221d6926b10a6b2a8327cf4bcb68d931ecff53fc43f4
+  bytes: 17623
 - path: csa/combined.yaml
   sha256: 014da98baae62f328ff17b72a3ab4521c1335f06aafc62be0a061a0dcb89e19d
   bytes: 3972
@@ -697,6 +702,15 @@ payloads:
 - path: ietf/std.yaml
   sha256: 3a320f9cb2fdacb6bdc169971c2bb4300db7c0a986592886e5f2ceda0125ba01
   bytes: 14041
+- path: iho/_debt.yaml
+  sha256: b0f47ac6a19874431966e2b3c4c3272d2d8a2f49128d02ed65a433f1888b43a1
+  bytes: 3978
+- path: iho/_negative.yaml
+  sha256: d899b418f9951341fb131d8b81c64eb5800a07e3440bb0e5ddcb07e3064fc650
+  bytes: 105
+- path: iho/_normalization.yaml
+  sha256: 5c922cd386fe9ec0f53a449869e96d10f9c00d482b2030becf7f45e358125b61
+  bytes: 62
 - path: iho/bibliographic.yaml
   sha256: d469074a9c67c69b0191b24d16264189d594298412c965e8a333c69790004464
   bytes: 2181
