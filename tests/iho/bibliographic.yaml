@@ -75,12 +75,23 @@
   identifier:
     _type: pubid:iho:bibliographic
     number: '7'
+  representations:
+    human: IHO B-7
+    urn: urn:iho:b:7
+  style: v3
+  non_normalized_aliases:
+  - spelling: IHO B-7 2023
+    style: v3
+- id: iho.bibliographic.0010
+  identifier:
+    _type: pubid:iho:bibliographic
+    number: '7'
     version: 1.0.0
   representations:
     human: IHO B-7 1.0.0
     urn: urn:iho:b:7:1.0.0
   style: v3
-- id: iho.bibliographic.0010
+- id: iho.bibliographic.0011
   identifier:
     _type: pubid:iho:bibliographic
     number: '8'
@@ -89,7 +100,7 @@
     human: IHO B-8 1.1.1
     urn: urn:iho:b:8:1.1.1
   style: v3
-- id: iho.bibliographic.0011
+- id: iho.bibliographic.0012
   identifier:
     _type: pubid:iho:bibliographic
     number: '9'
