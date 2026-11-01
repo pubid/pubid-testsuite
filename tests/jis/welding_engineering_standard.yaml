@@ -1,0 +1,50 @@
+---
+- id: jis.welding_engineering_standard.10556
+  identifier:
+    _type: pubid:jis:welding-engineering-standard
+    number: '3004'
+    year: 2024
+  representations:
+    human: WES 3004:2024
+    urn: urn:jis:WES 3004:2024
+  style: v3
+- id: jis.welding_engineering_standard.10557
+  identifier:
+    _type: pubid:jis:welding-engineering-standard
+    number: '7301'
+  representations:
+    human: WES 7301
+    urn: urn:jis:WES 7301
+  style: v3
+- id: jis.welding_engineering_standard.10558
+  identifier:
+    _type: pubid:jis:welding-engineering-standard
+    number: '7301'
+    year: 2020
+    reaffirmed: true
+  representations:
+    human: WES 7301:2020R
+    urn: urn:jis:WES 7301:2020
+  style: v3
+- id: jis.welding_engineering_standard.10559
+  identifier:
+    _type: pubid:jis:welding-engineering-standard
+    number: '7700'
+    parts:
+    - '1'
+    year: 2019
+  representations:
+    human: WES 7700-1:2019
+    urn: urn:jis:WES 7700-1:2019
+  style: v3
+- id: jis.welding_engineering_standard.10560
+  identifier:
+    _type: pubid:jis:welding-engineering-standard
+    number: '7700'
+    parts:
+    - '2'
+    year: 2019
+  representations:
+    human: WES 7700-2:2019
+    urn: urn:jis:WES 7700-2:2019
+  style: v3

@@ -64,17 +64,20 @@ oracle:
       w3c: 3e03a9cfc981cc620fc0a8611567d97bbcb05615c439d81c6af453b4afe98aa4
       xsf: bc38648695a4aef4f2bb33c8867c1b4072c1954d8714abe9abf19fa7ab288091
 repository:
-  commit: 508b7425d85c926460486f65e824fcc77e9b990d
+  commit: fae42df741d0c931ec01305691a769492cfe114e
   clean: false
   dirty_paths:
-  - tests/iho/bibliographic.yaml
-  - tests/iho/publication.yaml
+  - reference-docs/jis/SUMMARY.txt
+  - reference-docs/jis/identifiers/full/international_standard.txt
+  - tests/provenance.yaml
+  - reference-docs/jis/identifiers/pass/welding_engineering_standard.txt
+  - tests/jis/welding_engineering_standard.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 42
-  payloads: 350
-  cases: 99644
+  payloads: 351
+  cases: 99649
   aliases: 11625
   negatives: 701
 payloads:
@@ -834,6 +837,9 @@ payloads:
 - path: jis/japanese_industrial_standard.yaml
   sha256: 62d926adca128a9be3bac00f19cde6fec4020c705623611814d3a96fdd4eec43
   bytes: 2668160
+- path: jis/welding_engineering_standard.yaml
+  sha256: 06d5cfa3216d74abb6527e5c8e5c4f8ea91294d4690514efbe8064eb3c0bf634
+  bytes: 1201
 - path: nist/_normalization.yaml
   sha256: e5a2619eacdb5e8439025b15c6e2b4ed2bc08facb0a938f71acc9b9eb9ef3ae0
   bytes: 103157
