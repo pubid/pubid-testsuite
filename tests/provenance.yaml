@@ -64,25 +64,19 @@ oracle:
       w3c: 5d4cccec180fff3dfe4fa5fc29ccd29cbe0df8d26311a585e368ecea0b5b90e4
       xsf: 6d61b03d6cd4344b47b2ae80e3f5349677f8daf14b72b6db175474ed3834a7bb
 repository:
-  commit: 87ad8c67079d6b27020bd7c756fbfa6485f5d653
+  commit: 927536ecd1245c37498456db67eb503e173fe277
   clean: false
   dirty_paths:
   - tests/iho/bibliographic.yaml
-  - tests/iho/circular_letter.yaml
-  - tests/iho/miscellaneous.yaml
   - tests/iho/publication.yaml
   - tests/iho/standard.yaml
-  - tests/provenance.yaml
-  - tests/iho/_debt.yaml
-  - tests/iho/_negative.yaml
-  - tests/iho/_normalization.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 42
   payloads: 350
-  cases: 99643
-  aliases: 11631
+  cases: 99644
+  aliases: 11625
   negatives: 701
 payloads:
 - path: amca/_debt.yaml
@@ -701,8 +695,8 @@ payloads:
   sha256: 5c922cd386fe9ec0f53a449869e96d10f9c00d482b2030becf7f45e358125b61
   bytes: 62
 - path: iho/bibliographic.yaml
-  sha256: d41fadff0eef9f59bcfe68a89d7db3e3bbd1817e8d3e8a495b1533a846882e40
-  bytes: 2413
+  sha256: 8ef036f459932e32fb162dfa15e315dc0940848b8f34ae4d447b2510585169e9
+  bytes: 2373
 - path: iho/circular_letter.yaml
   sha256: e122543cdbbaff2a1eea7f5a68933c4706416733e572366a35b05175d82fc9b6
   bytes: 1628
@@ -710,10 +704,10 @@ payloads:
   sha256: 756b02a05b1e8e1d8b0e441d8e5c02af6be5d05505d00d214b1853264ca5ef07
   bytes: 1967
 - path: iho/publication.yaml
-  sha256: 848f902bb5ce4c689a6d60926e43c572db7ab900198ddcc789abd43ea050f91d
-  bytes: 3156
+  sha256: 972292d2dab597b00fc7f02d83ae43a66ce06e9dce5f3d08edfe479ecebc30d5
+  bytes: 3196
 - path: iho/standard.yaml
-  sha256: 4686a7092e5c5695740b0ead7cf607c61afea6892a4705b1487ad32c2e15bec2
+  sha256: 2b6a31fe1f68c2c2b526769431ee43b3722bcd7c05230a485b2b4c3d406bd760
   bytes: 17510
 - path: isbn/_negative.yaml
   sha256: 9373315c983fd1b9b9dac2a39112c79bc98192086d7c0bb6f4e4d1c706f4fe89
