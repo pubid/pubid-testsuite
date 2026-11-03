@@ -8,12 +8,12 @@ generator:
   exporter_sha256: 6eeb0a1a3d2270e31b9a07f9424ce8d76d6f3aac96cf7fe6384f93d2e0397b5f
 oracle:
   gem: pubid
-  commit: ''
+  commit: d9e34d621568b6f31068bc12882df64a713420e2
   clean: true
   dirty_paths: []
-  parsanol_version: ">= 1.3.114, < 1.4"
+  parsanol_version: "~> 1.3.122"
   grammar:
-    commit: 1c9a008cf75c45f0cde546cdc8657240afd740fa
+    commit: 1cd58ab24f4625511eac6a6ab2214ab7d790ae98
     artifact_sha256:
       adobe: a667f0f15864ff7a1195007fa172bc4954fce20d62048d0ebaad3c7a4735a702
       aiee: bf4cb5f254c4e94de824ac80c5295a07b5daa096780ca89d0d44e14a6f75a0b1
@@ -43,13 +43,13 @@ oracle:
       iec: 648b1330e0735c47bc6153e631cfd6dd32c561f140aa400133af47fc52b3de9c
       ieee: 8bffc505c52e871552d78dfc051db7c8107f9f06caef439e223540d2360721d1
       ietf: f438683d51a9415a6374757f19db37bc1b2952082a3426946b8983cc5f97de3d
-      iho: 1a1f0063b8c1d5b0a50c01be5b82cf90282fc677936c9269f0c02ab041d140e0
+      iho: e9846db728001679c67bb1fdadbbd9693e8ab9c3d3b0695bfb8f5bb548a99914
       ire: 3595b89a130283a5074c7354f2091f7ce3cfe9894e8b4d2ddc989bd24e31714e
       isbn: 44637498e528d6a2fe9e940504e21732b08b6fbc0bbc2a707044a18c8dcd5376
-      iso: 42ce5c99650f9682c902dfa2aee20a8cf2b3d9c9e07fdde024b3097be31e0cf6
+      iso: 2e0aef8f2048d3db0247e08968786b5899cc40b7f15af1c93a7f32cf9a11b0e3
       itu: 9bd6ea1f54a71ed352c81154bf87528614252d5126981aa07ca92d2468644a66
       jcgm: 47df9dac3c55cfcc5070f014d314853aee0ee44db7736df04dda8c98b216db07
-      jis: be1b0a74f810f8b18507570a70b8ed8c4b024ffdf9227197379f4e46d8b59291
+      jis: a5ee5d30fe49effd446bc22037601470a72260cbe1cd198af6195f7a8f613b43
       nesc: 6b1473f24465cfc50e00f136f941fa3eb979ba7bb3e6044153252c91423f0784
       nist: dd74279529023905592b5d33b8948b9ed2ab891bd0f0c2693620b8d6b317579e
       oasis: 2726dc5dbccf479cb43b2c0f55cb15be9928296e23314aa1454a17537c6951b5
@@ -64,21 +64,29 @@ oracle:
       w3c: 3e03a9cfc981cc620fc0a8611567d97bbcb05615c439d81c6af453b4afe98aa4
       xsf: bc38648695a4aef4f2bb33c8867c1b4072c1954d8714abe9abf19fa7ab288091
 repository:
-  commit: fae42df741d0c931ec01305691a769492cfe114e
+  commit: 6d0547c4b63253ffbc12c1feaddd5285a84d51b7
   clean: false
   dirty_paths:
-  - reference-docs/jis/SUMMARY.txt
-  - reference-docs/jis/identifiers/full/international_standard.txt
+  - reference-docs/iho/SUMMARY.txt
+  - reference-docs/iho/identifiers/full/identifiers.txt
+  - reference-docs/iho/identifiers/pass/bibliographic.txt
+  - reference-docs/iho/identifiers/pass/miscellaneous.txt
+  - reference-docs/iho/identifiers/pass/publication.txt
+  - reference-docs/iho/identifiers/pass/standard.txt
+  - tests/iho/_normalization.yaml
+  - tests/iho/bibliographic.yaml
+  - tests/iho/circular_letter.yaml
+  - tests/iho/miscellaneous.yaml
+  - tests/iho/publication.yaml
+  - tests/iho/standard.yaml
   - tests/provenance.yaml
-  - reference-docs/jis/identifiers/pass/welding_engineering_standard.txt
-  - tests/jis/welding_engineering_standard.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 42
   payloads: 351
-  cases: 99649
-  aliases: 11625
+  cases: 99685
+  aliases: 11653
   negatives: 701
 payloads:
 - path: amca/_debt.yaml
@@ -694,23 +702,23 @@ payloads:
   sha256: d899b418f9951341fb131d8b81c64eb5800a07e3440bb0e5ddcb07e3064fc650
   bytes: 105
 - path: iho/_normalization.yaml
-  sha256: 5c922cd386fe9ec0f53a449869e96d10f9c00d482b2030becf7f45e358125b61
-  bytes: 62
+  sha256: 057ceedee8edbaffdd1608a84f507061819843b50ac51b10d3ca3cda665ff29c
+  bytes: 1513
 - path: iho/bibliographic.yaml
-  sha256: c3f8bc34c9684a495c8e46e577d799080aea5702814fd62dd0206b5d15417ff2
-  bytes: 2375
+  sha256: 98d09bad61068d862a1084927f485854eb3da62179513c3b88b33e2b77faf0d5
+  bytes: 2484
 - path: iho/circular_letter.yaml
-  sha256: e122543cdbbaff2a1eea7f5a68933c4706416733e572366a35b05175d82fc9b6
-  bytes: 1628
+  sha256: d7e6a669b7766c7d7eeef66d77fd560c00c44d09ba1895e03f380a37abfd1a19
+  bytes: 1652
 - path: iho/miscellaneous.yaml
-  sha256: 756b02a05b1e8e1d8b0e441d8e5c02af6be5d05505d00d214b1853264ca5ef07
-  bytes: 1967
+  sha256: 63e75da1de133803721809c576c68095114ef482c4bf097394ea2d7ee3d8c3f0
+  bytes: 2658
 - path: iho/publication.yaml
-  sha256: 8ec2217008c5d8c7865f1d02abc5d66f03f72f5697e0f852e8bb0300ee9b1ccc
-  bytes: 3202
+  sha256: 2f2e50b3d1f0a6fde245f8bcacffc5abf65eaa55605cdac1bc5236d3a272c35b
+  bytes: 4427
 - path: iho/standard.yaml
-  sha256: 2b6a31fe1f68c2c2b526769431ee43b3722bcd7c05230a485b2b4c3d406bd760
-  bytes: 17510
+  sha256: 8812792c3d86b62d2c5c7f4fb69fc5f1e7c2aa01b4bac81e6f1a78f1dce353a6
+  bytes: 26276
 - path: isbn/_negative.yaml
   sha256: 9373315c983fd1b9b9dac2a39112c79bc98192086d7c0bb6f4e4d1c706f4fe89
   bytes: 437
