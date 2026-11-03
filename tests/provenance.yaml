@@ -8,12 +8,11 @@ generator:
   exporter_sha256: 6eeb0a1a3d2270e31b9a07f9424ce8d76d6f3aac96cf7fe6384f93d2e0397b5f
 oracle:
   gem: pubid
-  commit: d9e34d621568b6f31068bc12882df64a713420e2
+  commit: a20460364328a15ae7ed191dbc57f6cfe5a5fee4
   clean: true
   dirty_paths: []
-  parsanol_version: "~> 1.3.122"
   grammar:
-    commit: 1cd58ab24f4625511eac6a6ab2214ab7d790ae98
+    commit: 7c89464e7086a42f1199003ffe3b86dc2b4c2bd9
     artifact_sha256:
       adobe: a667f0f15864ff7a1195007fa172bc4954fce20d62048d0ebaad3c7a4735a702
       aiee: bf4cb5f254c4e94de824ac80c5295a07b5daa096780ca89d0d44e14a6f75a0b1
@@ -56,7 +55,7 @@ oracle:
       ogc: d885bb1b723a671a2157d0e8d9e18c60670561e6e16e2c47351946c4df9de8dd
       oiml: ddbd1647cadd09d0d6b2de53ccdb4ef959d3106228492a541ec34d12a99794a6
       omg: 67af598c167ac9b7e9b091dc84d14692e5551f1ca316afa4ccddd92c825d54d6
-      parg: 3dbeb24385490256d255605360afa1c48a7601f7e55711444c5de70fa65f59f8
+      parg: 323d747e1d141aca83d30283fa48fd4f93a9bd871050c7eb6fe8fbf7a092ee66
       plateau: 955614caa0a448916b673b8c3977ec62c19864fd851ebc637fdc07c1ed7f5b9b
       sae: e45799b8706e2394716874d61fdb403f26d25af12a56aed577499f0acb7f762d
       tgpp: ed999104eeb83a199f7389875555b364015fceac7a521ed891e2be4612199131
@@ -64,21 +63,9 @@ oracle:
       w3c: 3e03a9cfc981cc620fc0a8611567d97bbcb05615c439d81c6af453b4afe98aa4
       xsf: bc38648695a4aef4f2bb33c8867c1b4072c1954d8714abe9abf19fa7ab288091
 repository:
-  commit: 6d0547c4b63253ffbc12c1feaddd5285a84d51b7
+  commit: 25ff5302ee5ca47fbded6814613b302a62b4a717
   clean: false
   dirty_paths:
-  - reference-docs/iho/SUMMARY.txt
-  - reference-docs/iho/identifiers/full/identifiers.txt
-  - reference-docs/iho/identifiers/pass/bibliographic.txt
-  - reference-docs/iho/identifiers/pass/miscellaneous.txt
-  - reference-docs/iho/identifiers/pass/publication.txt
-  - reference-docs/iho/identifiers/pass/standard.txt
-  - tests/iho/_normalization.yaml
-  - tests/iho/bibliographic.yaml
-  - tests/iho/circular_letter.yaml
-  - tests/iho/miscellaneous.yaml
-  - tests/iho/publication.yaml
-  - tests/iho/standard.yaml
   - tests/provenance.yaml
 ruby:
   version: 3.4.8
