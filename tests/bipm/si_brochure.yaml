@@ -3,6 +3,41 @@
   identifier:
     _type: pubid:bipm:si-brochure
     number: 9e
+    edition: 9e
+    years: '2019'
+  representations:
+    human: BIPM SI Brochure 9e (2019)
+    urn: urn:bipm:si-brochure::9e::2019
+  style: v3
+  non_normalized_aliases:
+  - spelling: SI Brochure 9th edition (2019)
+    style: v3
+- id: bipm.si_brochure.0010
+  identifier:
+    _type: pubid:bipm:si-brochure
+    number: 9e
+    language: E
+    edition: 9e
+    years: '2019'
+  representations:
+    human: BIPM SI Brochure 9e (2019, E)
+    urn: urn:bipm:si-brochure:e:9e::2019
+  style: v3
+- id: bipm.si_brochure.0011
+  identifier:
+    _type: pubid:bipm:si-brochure
+    number: 9e
+    edition: 9e
+    version: v3.01
+    years: 2019/2024
+  representations:
+    human: BIPM SI Brochure 9e v3.01 (2019/2024)
+    urn: urn:bipm:si-brochure::9e:v3.01:2019/2024
+  style: v3
+- id: bipm.si_brochure.0012
+  identifier:
+    _type: pubid:bipm:si-brochure
+    number: 9e
     language: E
     edition: 9e
     version: v3.01
@@ -11,7 +46,7 @@
     human: BIPM SI Brochure 9e v3.01 (2019/2024, E)
     urn: urn:bipm:si-brochure:e:9e:v3.01:2019/2024
   style: v3
-- id: bipm.si_brochure.0010
+- id: bipm.si_brochure.0013
   identifier:
     _type: pubid:bipm:si-brochure
     number: Appendix 3
@@ -20,7 +55,7 @@
     human: BIPM SI Brochure Appendix 3
     urn: 'urn:bipm:si-brochure::::'
   style: v3
-- id: bipm.si_brochure.0011
+- id: bipm.si_brochure.0014
   identifier:
     _type: pubid:bipm:si-brochure
     number: Concise
@@ -29,7 +64,7 @@
     human: BIPM SI Brochure Concise
     urn: 'urn:bipm:si-brochure::::'
   style: v3
-- id: bipm.si_brochure.0012
+- id: bipm.si_brochure.0015
   identifier:
     _type: pubid:bipm:si-brochure
     number: FAQ
@@ -38,7 +73,7 @@
     human: BIPM SI Brochure FAQ
     urn: 'urn:bipm:si-brochure::::'
   style: v3
-- id: bipm.si_brochure.0013
+- id: bipm.si_brochure.0016
   identifier:
     _type: pubid:bipm:si-brochure
     number: 9e
@@ -50,3 +85,6 @@
     human: BIPM SI Brochure sur le SI 9e v3.01 (2019/2024, F)
     urn: urn:bipm:si-brochure:f:9e:v3.01:2019/2024
   style: v3
+  non_normalized_aliases:
+  - spelling: Brochure sur le SI 9e v3.01 (2019/2024, F)
+    style: v3

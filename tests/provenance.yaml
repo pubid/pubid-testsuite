@@ -8,12 +8,12 @@ generator:
   exporter_sha256: 6eeb0a1a3d2270e31b9a07f9424ce8d76d6f3aac96cf7fe6384f93d2e0397b5f
 oracle:
   gem: pubid
-  commit: a20460364328a15ae7ed191dbc57f6cfe5a5fee4
+  commit: bb9c3abe1d77990c4f3367ac9e5360d0cfce138e
   clean: true
   dirty_paths: []
   parsanol_version: "~> 1.3.122"
   grammar:
-    commit: 7c89464e7086a42f1199003ffe3b86dc2b4c2bd9
+    commit: 8e752db9443e66287685aea18a95aff7c904a717
     artifact_sha256:
       adobe: a667f0f15864ff7a1195007fa172bc4954fce20d62048d0ebaad3c7a4735a702
       aiee: bf4cb5f254c4e94de824ac80c5295a07b5daa096780ca89d0d44e14a6f75a0b1
@@ -23,7 +23,7 @@ oracle:
       ashrae: a18f524005631b18a58049ad5829aa1f564c49f030c624b7a3757e0ca5b94a00
       asme: 30f093b6fcca00f9c187852814fea0508ed1c5da16e917485e37d61e126b32d0
       astm: 4bdf5d118cee4b6ec63778fac15af39d5ebfce357082034bd795994aacf1f597
-      bipm: 18a10c31996e281bd4c1ca83b7e822a88e7f82f8b23c1a52325ba29f42d00834
+      bipm: f990a1246fba84d728eeba8dc9abc8c608bc7b6982052c906cda8326d86ba57f
       bsi: cb9701177a89cb994c4be2c0fa29398563a6d3173046f8f4afb79d63a39b7ff7
       calconnect: b890f4591ace9354fce15658560810c71e69b10aab9c3b023383c68bfefcb36e
       ccsds: 8ee7278d88d36bcee4ee3c6a4dfa16f84269e2a8f635164cbd518a8b7235e594
@@ -64,21 +64,26 @@ oracle:
       w3c: 3e03a9cfc981cc620fc0a8611567d97bbcb05615c439d81c6af453b4afe98aa4
       xsf: bc38648695a4aef4f2bb33c8867c1b4072c1954d8714abe9abf19fa7ab288091
 repository:
-  commit: f361f6e14f22fd0a30b1429566ff4d55f3d585c0
+  commit: a64da1c0f152d822bd9733d8de008b0cb77173d7
   clean: false
   dirty_paths:
   - README.md
-  - reference-docs/jis/SUMMARY.txt
-  - reference-docs/jis/identifiers/pass/japanese_industrial_standard.txt
-  - tests/jis/japanese_industrial_standard.yaml
-  - tests/provenance.yaml
+  - reference-docs/bipm/identifiers/pass/committee_document.txt
+  - reference-docs/bipm/identifiers/pass/meeting.txt
+  - reference-docs/bipm/identifiers/pass/si_brochure.txt
+  - tests/bipm/committee_document.yaml
+  - tests/bipm/guide.yaml
+  - tests/bipm/meeting.yaml
+  - tests/bipm/mep.yaml
+  - tests/bipm/metrologia_article.yaml
+  - tests/bipm/si_brochure.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 42
   payloads: 351
-  cases: 99686
-  aliases: 11653
+  cases: 99700
+  aliases: 11660
   negatives: 701
 payloads:
 - path: amca/_debt.yaml
@@ -202,23 +207,23 @@ payloads:
   sha256: 37cf5ab258130666be94ca74830e68309c8139d3d907320443c94c187babb063
   bytes: 524
 - path: bipm/committee_document.yaml
-  sha256: '0735979d10702596b6bae7954fcea5dec185621f6a92713816be327882377d00'
-  bytes: 6773
+  sha256: 623120cbf7214ac5f53385b09618b8f7a10a50280263ba63af4868711eaf515e
+  bytes: 10021
 - path: bipm/guide.yaml
-  sha256: 87a2be680c23e8469a32521c73b1b60652f980604f35cbf942e28188e84353ed
+  sha256: ae201da703204ddd6e1b0e75538a7d029232619ec8fa76420bd5db78027e8ac8
   bytes: 2402
 - path: bipm/meeting.yaml
-  sha256: aa21d977f21a7a1bf6c2363f502f863db1206002a8d08bb4bdc2eb5bb3f3dd22
-  bytes: 3174
+  sha256: 9954de7e39b2dba351fb69f6b90725dc6d3b1bced24feea74c1851c0407f5685
+  bytes: 3472
 - path: bipm/mep.yaml
-  sha256: 990bb2d09b5c25c6b69ddb5c55735baf3a7a31e89dcfb2f161da07c0e3a54609
+  sha256: e6bc688aa8c2a2173df7651fd08a1d4237cf9d5daac65109c443e73528c536ea
   bytes: 4410
 - path: bipm/metrologia_article.yaml
-  sha256: de94310e09126248db92a6733f22ae065968babb83e8db6ff3e77026f73bcb8c
+  sha256: 8abd1e927f6893a0805ca3e440eb5121356e252bed00935a96be1373c39f0cf7
   bytes: 2017
 - path: bipm/si_brochure.yaml
-  sha256: 36d1086fd936b273e26c6353b1801e6d3d2396d9c1e73f93552c96916a28bd88
-  bytes: 1265
+  sha256: eac601304b3ab8ab3399ab7e8b54a6ac3c0b722c082fe81f020e07aaf6d84568
+  bytes: 2212
 - path: bsi/_debt.yaml
   sha256: b74f274bd70cf754cbb0a65e4657959f2cda7da705abbf41b8d7846dd59b045e
   bytes: 26096
