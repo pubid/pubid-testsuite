@@ -11,6 +11,7 @@ oracle:
   commit: a20460364328a15ae7ed191dbc57f6cfe5a5fee4
   clean: true
   dirty_paths: []
+  parsanol_version: "~> 1.3.122"
   grammar:
     commit: 7c89464e7086a42f1199003ffe3b86dc2b4c2bd9
     artifact_sha256:
@@ -63,16 +64,20 @@ oracle:
       w3c: 3e03a9cfc981cc620fc0a8611567d97bbcb05615c439d81c6af453b4afe98aa4
       xsf: bc38648695a4aef4f2bb33c8867c1b4072c1954d8714abe9abf19fa7ab288091
 repository:
-  commit: 25ff5302ee5ca47fbded6814613b302a62b4a717
+  commit: f361f6e14f22fd0a30b1429566ff4d55f3d585c0
   clean: false
   dirty_paths:
+  - README.md
+  - reference-docs/jis/SUMMARY.txt
+  - reference-docs/jis/identifiers/pass/japanese_industrial_standard.txt
+  - tests/jis/japanese_industrial_standard.yaml
   - tests/provenance.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 42
   payloads: 351
-  cases: 99685
+  cases: 99686
   aliases: 11653
   negatives: 701
 payloads:
@@ -830,8 +835,8 @@ payloads:
   sha256: c6e20922bd81fe49dfcbd6ccef9760164cf6b7f4260086aaed1865c245912a8d
   bytes: 3252
 - path: jis/japanese_industrial_standard.yaml
-  sha256: 62d926adca128a9be3bac00f19cde6fec4020c705623611814d3a96fdd4eec43
-  bytes: 2668160
+  sha256: ba910726fdf322bc17e24e6858b518eb16d505672be78f84df97948cd231853e
+  bytes: 2668426
 - path: jis/welding_engineering_standard.yaml
   sha256: 06d5cfa3216d74abb6527e5c8e5c4f8ea91294d4690514efbe8064eb3c0bf634
   bytes: 1201
