@@ -8,12 +8,13 @@ generator:
   exporter_sha256: 6eeb0a1a3d2270e31b9a07f9424ce8d76d6f3aac96cf7fe6384f93d2e0397b5f
 oracle:
   gem: pubid
-  commit: bb9c3abe1d77990c4f3367ac9e5360d0cfce138e
-  clean: true
-  dirty_paths: []
+  commit: 0fb3acedfb333c4e797902c69544aae009f81c97
+  clean: false
+  dirty_paths:
+  - Gemfile
   parsanol_version: "~> 1.3.122"
   grammar:
-    commit: 8e752db9443e66287685aea18a95aff7c904a717
+    commit: 7c89464e7086a42f1199003ffe3b86dc2b4c2bd9
     artifact_sha256:
       adobe: a667f0f15864ff7a1195007fa172bc4954fce20d62048d0ebaad3c7a4735a702
       aiee: bf4cb5f254c4e94de824ac80c5295a07b5daa096780ca89d0d44e14a6f75a0b1
@@ -23,7 +24,7 @@ oracle:
       ashrae: a18f524005631b18a58049ad5829aa1f564c49f030c624b7a3757e0ca5b94a00
       asme: 30f093b6fcca00f9c187852814fea0508ed1c5da16e917485e37d61e126b32d0
       astm: 4bdf5d118cee4b6ec63778fac15af39d5ebfce357082034bd795994aacf1f597
-      bipm: f990a1246fba84d728eeba8dc9abc8c608bc7b6982052c906cda8326d86ba57f
+      bipm: 18a10c31996e281bd4c1ca83b7e822a88e7f82f8b23c1a52325ba29f42d00834
       bsi: cb9701177a89cb994c4be2c0fa29398563a6d3173046f8f4afb79d63a39b7ff7
       calconnect: b890f4591ace9354fce15658560810c71e69b10aab9c3b023383c68bfefcb36e
       ccsds: 8ee7278d88d36bcee4ee3c6a4dfa16f84269e2a8f635164cbd518a8b7235e594
@@ -64,26 +65,25 @@ oracle:
       w3c: 3e03a9cfc981cc620fc0a8611567d97bbcb05615c439d81c6af453b4afe98aa4
       xsf: bc38648695a4aef4f2bb33c8867c1b4072c1954d8714abe9abf19fa7ab288091
 repository:
-  commit: a64da1c0f152d822bd9733d8de008b0cb77173d7
+  commit: f3fbf6af3f4805359fbd55df2e88ce40d03fd43b
   clean: false
   dirty_paths:
-  - README.md
-  - reference-docs/bipm/identifiers/pass/committee_document.txt
-  - reference-docs/bipm/identifiers/pass/meeting.txt
-  - reference-docs/bipm/identifiers/pass/si_brochure.txt
-  - tests/bipm/committee_document.yaml
-  - tests/bipm/guide.yaml
-  - tests/bipm/meeting.yaml
-  - tests/bipm/mep.yaml
-  - tests/bipm/metrologia_article.yaml
-  - tests/bipm/si_brochure.yaml
+  - tests/api/_debt.yaml
+  - tests/api/typeless_standard.yaml
+  - tests/etsi/_normalization.yaml
+  - tests/etsi/amendment.yaml
+  - tests/etsi/corrigendum.yaml
+  - tests/etsi/etsi_standard.yaml
+  - tests/jis/japanese_industrial_standard.yaml
+  - tests/jis/welding_engineering_standard.yaml
+  - tests/provenance.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 42
-  payloads: 351
-  cases: 99700
-  aliases: 11660
+  payloads: 349
+  cases: 99694
+  aliases: 11661
   negatives: 701
 payloads:
 - path: amca/_debt.yaml
@@ -107,9 +107,6 @@ payloads:
 - path: ansi/standard.yaml
   sha256: 0f0ac3afbc09e16dafa39aae833fad25e9ecff76c1671474eba277f25aee4c38
   bytes: 41600
-- path: api/_debt.yaml
-  sha256: 90755c7042bee5f30652e4fbf01be83a6de7d3bec2a352b2cb84b28ba06f7b12
-  bytes: 286
 - path: api/_normalization.yaml
   sha256: e39ff747a7dfc04d5352343142217bf87915371f66f0d0b476a4bd92bfd74186
   bytes: 154
@@ -138,8 +135,8 @@ payloads:
   sha256: 3a41f3f79eeeef3f6b66c1f5549198fcba608fbcc8b80a1e98d52c0d7d432d8a
   bytes: 3482
 - path: api/typeless_standard.yaml
-  sha256: b6961f679b1df0de66846cd3bc1c67d832313ef722ca6d99fb6927bafca64c6a
-  bytes: 1472
+  sha256: e720128debf32ca84e5bd3a27fe0d7f0de72a921b785692406e6704c90780ede
+  bytes: 1558
 - path: ashrae/_debt.yaml
   sha256: 3d06514d0dce726c69e591878e3b0af3c28c631daa464ecd77724a0169a12ece
   bytes: 283
@@ -464,18 +461,15 @@ payloads:
 - path: ecma/technical_report.yaml
   sha256: 23952bcbe3b972f70ac2a11fd04881388ad75d5f6ac606477e12226535f02827
   bytes: 14224
-- path: etsi/_normalization.yaml
-  sha256: 104f8330a0c38e94d42c480e302cb27e640d22fd754228bc7cce49dab594b15d
-  bytes: 95
 - path: etsi/amendment.yaml
-  sha256: b90e1ab411eb7421a4b5f0b245418d8b79979fb08e1ef926447550f24b12a9f4
+  sha256: f6345d930f69f46e79c884e2e4db5a2ac82d4727192e7e398f089bb62d4b3c3c
   bytes: 44783
 - path: etsi/corrigendum.yaml
-  sha256: 38e719239d32ad7aaa93aedf2ed6da837ee343133e659dc331c5880c6d71b019
+  sha256: e4cb1d205183237c23e1dd557ed2429cbbb5d6071304dc9b49065d4e82f2c486
   bytes: 18998
 - path: etsi/etsi_standard.yaml
-  sha256: 257050dcd4455a9dbdcba6992bbce81210b3ab1e0b162c9f11a60e6b55f9cfe4
-  bytes: 7030517
+  sha256: 9a9a738934a96b66bdc699a659b20a09585ba246abc7d70127da3296225213f9
+  bytes: 7029227
 - path: evs/estonian_standard.yaml
   sha256: a203f4300ff9d22f4678b8ed1c9b8018f0d74ac268d67d086c4dfee02fa2be70
   bytes: 1358
@@ -840,10 +834,10 @@ payloads:
   sha256: c6e20922bd81fe49dfcbd6ccef9760164cf6b7f4260086aaed1865c245912a8d
   bytes: 3252
 - path: jis/japanese_industrial_standard.yaml
-  sha256: ba910726fdf322bc17e24e6858b518eb16d505672be78f84df97948cd231853e
+  sha256: fe34dc03ed5d63e820710a8b54d86c99d80add1bc06466a95fe035000cc22354
   bytes: 2668426
 - path: jis/welding_engineering_standard.yaml
-  sha256: 06d5cfa3216d74abb6527e5c8e5c4f8ea91294d4690514efbe8064eb3c0bf634
+  sha256: 609a854a70f35584c8ccd76d5cd1da9c3153ce4443abf68d301d619a74b3c981
   bytes: 1201
 - path: nist/_normalization.yaml
   sha256: e5a2619eacdb5e8439025b15c6e2b4ed2bc08facb0a938f71acc9b9eb9ef3ae0

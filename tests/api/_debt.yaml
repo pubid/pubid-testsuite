@@ -1,8 +1,0 @@
----
-- id: api.debt.ceb2937c760b
-  input: API COS 1-07/RP 75, 4th edition
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Lutaml::Model::IncorrectModelError: attribute
-    ''type'' value is a ''String'' but should be a ''Pubid::Components::Type'''
