@@ -1,0 +1,168 @@
+---
+- id: sae.identifier.0001
+  identifier:
+    _type: pubid:sae:identifier
+    number: '250'
+    part: '4'
+    type:
+      abbr: AMS-QQ-A
+    revision: B
+  representations:
+    human: SAE AMS-QQ-A-250/4B
+    urn: urn:sae:ams-qq-a:250/4B
+  style: v3
+- id: sae.identifier.0002
+  identifier:
+    _type: pubid:sae:identifier
+    number: '595'
+    type:
+      abbr: AMS-STD
+  representations:
+    human: SAE AMS-STD-595
+    urn: urn:sae:ams-std:595
+  style: v3
+- id: sae.identifier.0003
+  identifier:
+    _type: pubid:sae:identifier
+    number: '2430'
+    type:
+      abbr: AMS
+  representations:
+    human: SAE AMS2430
+    urn: urn:sae:ams:2430
+  style: v3
+- id: sae.identifier.0004
+  identifier:
+    _type: pubid:sae:identifier
+    number: '4121'
+    type:
+      abbr: AMS
+    revision: J
+  representations:
+    human: SAE AMS4121J
+    urn: urn:sae:ams:4121J
+  style: v3
+- id: sae.identifier.0005
+  identifier:
+    _type: pubid:sae:identifier
+    number: '5622'
+    part: H1025
+    type:
+      abbr: AMS
+  representations:
+    human: SAE AMS5622/H1025
+    urn: urn:sae:ams:5622/H1025
+  style: v3
+- id: sae.identifier.0006
+  identifier:
+    _type: pubid:sae:identifier
+    number: '4754'
+    year: '2010'
+    type:
+      abbr: ARP
+    revision: A
+  representations:
+    human: SAE ARP4754A:2010
+    urn: urn:sae:arp:4754A:2010
+  style: v3
+- id: sae.identifier.0007
+  identifier:
+    _type: pubid:sae:identifier
+    number: '22520'
+    part: '45'
+    type:
+      abbr: AS
+    revision: A
+  representations:
+    human: SAE AS22520/45A
+    urn: urn:sae:as:22520/45A
+  style: v3
+- id: sae.identifier.0008
+  identifier:
+    _type: pubid:sae:identifier
+    number: '5259'
+    part: '7'
+    type:
+      abbr: AS
+    revision: A
+    amendment: '1'
+  representations:
+    human: SAE AS5259/7A_A1
+    urn: urn:sae:as:5259/7A_A1
+  style: v3
+- id: sae.identifier.0009
+  identifier:
+    _type: pubid:sae:identifier
+    number: 649-1
+    type:
+      abbr: EIA
+    revision: A
+  representations:
+    human: SAE EIA-649-1A
+    urn: urn:sae:eia:649-1A
+  style: v3
+- id: sae.identifier.0010
+  identifier:
+    _type: pubid:sae:identifier
+    number: '0001'
+    type:
+      abbr: GEIA-STD
+  representations:
+    human: SAE GEIA-STD-0001
+    urn: urn:sae:geia-std:0001
+  style: v3
+- id: sae.identifier.0011
+  identifier:
+    _type: pubid:sae:identifier
+    number: '1939'
+    type:
+      abbr: J
+  representations:
+    human: SAE J1939
+    urn: urn:sae:j:1939
+  style: v3
+- id: sae.identifier.0012
+  identifier:
+    _type: pubid:sae:identifier
+    number: 1939-71
+    year: '2020'
+    type:
+      abbr: J
+  representations:
+    human: SAE J1939-71:2020
+    urn: urn:sae:j:1939-71:2020
+  style: v3
+- id: sae.identifier.0013
+  identifier:
+    _type: pubid:sae:identifier
+    number: '2945'
+    part: AS
+    type:
+      abbr: J
+  representations:
+    human: SAE J2945/AS
+    urn: urn:sae:j:2945/AS
+  style: v3
+- id: sae.identifier.0014
+  identifier:
+    _type: pubid:sae:identifier
+    number: '3016'
+    type:
+      abbr: J
+  representations:
+    human: SAE J3016
+    urn: urn:sae:j:3016
+  style: v3
+- id: sae.identifier.0015
+  identifier:
+    _type: pubid:sae:identifier
+    number: '3016'
+    date:
+      year: 2021
+      month: 4
+    type:
+      abbr: J
+  representations:
+    human: SAE J3016_202104
+    urn: urn:sae:j:3016:202104
+  style: v3
