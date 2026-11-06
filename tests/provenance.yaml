@@ -5,16 +5,15 @@ schema: pubid-testsuite/provenance/1
 generated_by: tools/provenance.rb - do not edit
 generator:
   exporter: tools/export.rb
-  exporter_sha256: 6eeb0a1a3d2270e31b9a07f9424ce8d76d6f3aac96cf7fe6384f93d2e0397b5f
+  exporter_sha256: 17f749bef3ac7039ad8a9b4e1240b36a449d21940a8ee23ae7b84a7c94c8156d
 oracle:
   gem: pubid
-  commit: 0fb3acedfb333c4e797902c69544aae009f81c97
-  clean: false
-  dirty_paths:
-  - Gemfile
+  commit: 31c217cff20b5c5b4c118506d7b9da37772db18e
+  clean: true
+  dirty_paths: []
   parsanol_version: "~> 1.3.122"
   grammar:
-    commit: 7c89464e7086a42f1199003ffe3b86dc2b4c2bd9
+    commit: 8f1c4627a5816be26223069b76e12a7c9a7924e8
     artifact_sha256:
       adobe: a667f0f15864ff7a1195007fa172bc4954fce20d62048d0ebaad3c7a4735a702
       aiee: bf4cb5f254c4e94de824ac80c5295a07b5daa096780ca89d0d44e14a6f75a0b1
@@ -24,7 +23,7 @@ oracle:
       ashrae: a18f524005631b18a58049ad5829aa1f564c49f030c624b7a3757e0ca5b94a00
       asme: 30f093b6fcca00f9c187852814fea0508ed1c5da16e917485e37d61e126b32d0
       astm: 4bdf5d118cee4b6ec63778fac15af39d5ebfce357082034bd795994aacf1f597
-      bipm: 18a10c31996e281bd4c1ca83b7e822a88e7f82f8b23c1a52325ba29f42d00834
+      bipm: f990a1246fba84d728eeba8dc9abc8c608bc7b6982052c906cda8326d86ba57f
       bsi: cb9701177a89cb994c4be2c0fa29398563a6d3173046f8f4afb79d63a39b7ff7
       calconnect: b890f4591ace9354fce15658560810c71e69b10aab9c3b023383c68bfefcb36e
       ccsds: 8ee7278d88d36bcee4ee3c6a4dfa16f84269e2a8f635164cbd518a8b7235e594
@@ -59,32 +58,26 @@ oracle:
       omg: 67af598c167ac9b7e9b091dc84d14692e5551f1ca316afa4ccddd92c825d54d6
       parg: 323d747e1d141aca83d30283fa48fd4f93a9bd871050c7eb6fe8fbf7a092ee66
       plateau: 955614caa0a448916b673b8c3977ec62c19864fd851ebc637fdc07c1ed7f5b9b
-      sae: e45799b8706e2394716874d61fdb403f26d25af12a56aed577499f0acb7f762d
+      sae: 29c5f7529f601b9da955458fac0468f92ae1669fb636c0f4fc007004b86c3460
       tgpp: ed999104eeb83a199f7389875555b364015fceac7a521ed891e2be4612199131
       un: e4b5fa7e165bd663b597fe79a674be4860c0321b3b68765d6091fa1fb20e4eb8
       w3c: 3e03a9cfc981cc620fc0a8611567d97bbcb05615c439d81c6af453b4afe98aa4
       xsf: bc38648695a4aef4f2bb33c8867c1b4072c1954d8714abe9abf19fa7ab288091
 repository:
-  commit: f3fbf6af3f4805359fbd55df2e88ce40d03fd43b
+  commit: 8cab253d495c4adbf1d2016546c0c2a6c74ace3d
   clean: false
   dirty_paths:
-  - tests/api/_debt.yaml
-  - tests/api/typeless_standard.yaml
-  - tests/etsi/_normalization.yaml
-  - tests/etsi/amendment.yaml
-  - tests/etsi/corrigendum.yaml
-  - tests/etsi/etsi_standard.yaml
-  - tests/jis/japanese_industrial_standard.yaml
-  - tests/jis/welding_engineering_standard.yaml
-  - tests/provenance.yaml
+  - tools/export.rb
+  - reference-docs/sae/
+  - tests/sae/
 ruby:
   version: 3.4.8
 counts:
-  flavors: 42
-  payloads: 349
-  cases: 99694
+  flavors: 43
+  payloads: 352
+  cases: 99709
   aliases: 11661
-  negatives: 701
+  negatives: 704
 payloads:
 - path: amca/_debt.yaml
   sha256: f24ce4711159eb846d55aa6887217e3caeb3501747e2218abb5d2c4832d5567c
@@ -959,6 +952,15 @@ payloads:
 - path: plateau/technical_report.yaml
   sha256: 0b38c1691d4eff7d24ce287667d6f14cd58d12de7f40deffd3cfe6e9f958947c
   bytes: 17217
+- path: sae/_negative.yaml
+  sha256: 749860e3def590242e3fa7a0599dbabc2ebb02ac0d68d096cd471feba4175851
+  bytes: 271
+- path: sae/_normalization.yaml
+  sha256: 262eed9d53518da13a76535ec7111730f1b86badf718e827e428116280559c9a
+  bytes: 177
+- path: sae/identifier.yaml
+  sha256: 74597d149a6aeddd685aab4fc7edca2597d40e16a9d83886d2bc14893bf7b33e
+  bytes: 3321
 - path: tgpp/technical_report.yaml
   sha256: f72e6ef29d06cdec8ec8e99483ad88ffdfd6554fbf8cdd85cd54f2537e56da39
   bytes: 3150

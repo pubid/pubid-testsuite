@@ -1,0 +1,16 @@
+---
+- id: sae.neg.sae.0001
+  input: nonsense
+  expect:
+    error:
+      code: unclassified
+- id: sae.neg.sae.0002
+  input: SAE J3016_2021
+  expect:
+    error:
+      code: unclassified
+- id: sae.neg.sae.0003
+  input: SAE XYZ1
+  expect:
+    error:
+      code: unclassified

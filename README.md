@@ -52,7 +52,7 @@ The corpus validates itself without the pubid gem:
     rake all               # both
 
 CI (`.github/workflows/validate.yml`) runs both on every push/PR.
-Status: VALIDATION PASS 42/42 flavors; SCHEMA VALIDATION PASS (98,707 documents).
+Status: VALIDATION PASS 43/43 flavors; SCHEMA VALIDATION PASS (99,709 documents).
 
 ## Consumers
 
@@ -63,5 +63,5 @@ CLEAN flavors hard-gate; DIRTY flavors report as the known defect ledger
 
 ## By the numbers
 
-<!-- counts:flavors=42 --> flavors · <!-- counts:cases=99694 --> cases.
+<!-- counts:flavors=43 --> flavors · <!-- counts:cases=99709 --> cases.
 The structure validator recomputes these and fails on drift.

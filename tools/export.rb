@@ -384,6 +384,7 @@ module Exporter
   # _status.yaml is curated ledger state, never deleted.
   def commit!(flavor, staging)
     out = File.join(REPO, "tests", flavor)
+    FileUtils.mkdir_p(out)
     Dir[File.join(out, "*.yaml")].each do |old_file|
       File.delete(old_file) unless File.basename(old_file) == "_status.yaml"
     end
