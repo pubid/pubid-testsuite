@@ -9314,3 +9314,30 @@
     human: NIST.VTS.400-5
     urn: urn:nist:vts:400-5.supp
   style: v3
+- id: nist.identifier.19819
+  identifier:
+    _type: pubid:nist:identifier
+    publisher: NBS
+    series: CIS
+  representations:
+    human: NBS CIS
+    urn: urn:nist:cis:supp
+  style: v3
+- id: nist.identifier.19820
+  identifier:
+    _type: pubid:nist:identifier
+    publisher: NIST
+    series: DCI
+  representations:
+    human: NIST DCI
+    urn: urn:nist:dci:supp
+  style: v3
+- id: nist.identifier.19821
+  identifier:
+    _type: pubid:nist:identifier
+    publisher: NIST
+    series: PS
+  representations:
+    human: NIST PS
+    urn: urn:nist:ps:supp
+  style: v3
