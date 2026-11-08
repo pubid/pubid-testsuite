@@ -8,7 +8,7 @@ generator:
   exporter_sha256: 17f749bef3ac7039ad8a9b4e1240b36a449d21940a8ee23ae7b84a7c94c8156d
 oracle:
   gem: pubid
-  commit: 31c217cff20b5c5b4c118506d7b9da37772db18e
+  commit: 330bcab0079f5607f87b5704cdb9b16e7de222c3
   clean: true
   dirty_paths: []
   parsanol_version: "~> 1.3.122"
@@ -64,17 +64,14 @@ oracle:
       w3c: 3e03a9cfc981cc620fc0a8611567d97bbcb05615c439d81c6af453b4afe98aa4
       xsf: bc38648695a4aef4f2bb33c8867c1b4072c1954d8714abe9abf19fa7ab288091
 repository:
-  commit: 8cab253d495c4adbf1d2016546c0c2a6c74ace3d
-  clean: false
-  dirty_paths:
-  - tools/export.rb
-  - reference-docs/sae/
-  - tests/sae/
+  commit: 475c37ed5c61dfdc78d99058e3fe524cae10b426
+  clean: true
+  dirty_paths: []
 ruby:
   version: 3.4.8
 counts:
   flavors: 43
-  payloads: 352
+  payloads: 353
   cases: 99709
   aliases: 11661
   negatives: 704
@@ -1122,6 +1119,9 @@ curated:
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
 - path: plateau/_status.yaml
+  sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
+  bytes: 59
+- path: sae/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
 - path: tgpp/_status.yaml
