@@ -8,7 +8,7 @@ generator:
   exporter_sha256: 17f749bef3ac7039ad8a9b4e1240b36a449d21940a8ee23ae7b84a7c94c8156d
 oracle:
   gem: pubid
-  commit: 5aa653fa0583d79cfbf9088423789dc4a8519c03
+  commit: 20506d5cda94395cda373e5ccdf1a4e970bde474
   clean: true
   dirty_paths: []
   parsanol_version: "~> 1.3.122"
@@ -64,29 +64,9 @@ oracle:
       w3c: 3e03a9cfc981cc620fc0a8611567d97bbcb05615c439d81c6af453b4afe98aa4
       xsf: bc38648695a4aef4f2bb33c8867c1b4072c1954d8714abe9abf19fa7ab288091
 repository:
-  commit: 475c37ed5c61dfdc78d99058e3fe524cae10b426
-  clean: false
-  dirty_paths:
-  - reference-docs/nist/identifiers/pass/commercial_standard.txt
-  - reference-docs/nist/identifiers/pass/commercial_standard_emergency.txt
-  - reference-docs/nist/identifiers/pass/commercial_standards_monthly.txt
-  - reference-docs/nist/identifiers/pass/identifier.txt
-  - tests/nist/circular.yaml
-  - tests/nist/commercial_standard.yaml
-  - tests/nist/commercial_standard_emergency.yaml
-  - tests/nist/commercial_standards_monthly.yaml
-  - tests/nist/crpl_report.yaml
-  - tests/nist/federal_information_processing_standards.yaml
-  - tests/nist/grant_contractor_report.yaml
-  - tests/nist/handbook.yaml
-  - tests/nist/identifier.yaml
-  - tests/nist/interagency_report.yaml
-  - tests/nist/letter_circular.yaml
-  - tests/nist/miscellaneous_publication.yaml
-  - tests/nist/monograph.yaml
-  - tests/nist/ncstar.yaml
-  - tests/nist/nsrds.yaml
-  - tests/nist/owmwp.yaml
+  commit: 35e41711ae4be73a4721b954419c79d4d2062692
+  clean: true
+  dirty_paths: []
 ruby:
   version: 3.4.8
 counts:
