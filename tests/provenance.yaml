@@ -64,15 +64,20 @@ oracle:
       w3c: 3e03a9cfc981cc620fc0a8611567d97bbcb05615c439d81c6af453b4afe98aa4
       xsf: bc38648695a4aef4f2bb33c8867c1b4072c1954d8714abe9abf19fa7ab288091
 repository:
-  commit: 475c37ed5c61dfdc78d99058e3fe524cae10b426
-  clean: true
-  dirty_paths: []
+  commit: f54b4d3d57c367117e622459cf96074fcd1a1888
+  clean: false
+  dirty_paths:
+  - README.md
+  - tests/nist/commercial_standard.yaml
+  - tests/nist/commercial_standard_emergency.yaml
+  - tests/nist/commercial_standards_monthly.yaml
+  - tests/nist/identifier.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 43
   payloads: 353
-  cases: 99709
+  cases: 99715
   aliases: 11661
   negatives: 704
 payloads:
@@ -836,14 +841,14 @@ payloads:
   sha256: a87d5486c497264901b0a4c963f5192a7b7e3c5ebcc6c7b23c8d8562b288073c
   bytes: 198647
 - path: nist/commercial_standard.yaml
-  sha256: d12b4ec9823de40daa18f43fffbc259c13e886c858ab89c575fc419d911b3a02
-  bytes: 64306
+  sha256: f408499dc70a2e8113ab9676740901207febb99b6357af19db1946114348c224
+  bytes: 64507
 - path: nist/commercial_standard_emergency.yaml
-  sha256: 2a25a708d6183c1a99c3a1f6e73739446d5619ed27c40772e9cbb612a955e168
-  bytes: 2194
+  sha256: b2af81b7d805a76a141e547be37e4984d1a1716f63134c58fe93392c311f76c0
+  bytes: 2421
 - path: nist/commercial_standards_monthly.yaml
-  sha256: 13bf0f0535bdfbf64c5490858ba768f4d06d9f07130b6a4f9bd650810fe3714b
-  bytes: 26524
+  sha256: 8502423252f61abd60aa3e967216d9a39942f7f61cf97adcfee4fb1e244f9ef6
+  bytes: 26746
 - path: nist/crpl_report.yaml
   sha256: 633718d60656553ae229ad974c277eb2de0f5bf4a43f25e71b3d6cd9148288b4
   bytes: 95248
@@ -857,8 +862,8 @@ payloads:
   sha256: 1b40130ea5370deed8cf0c10293f0397ffaa86e21d6df8ee54b725ad6c2ccd02
   bytes: 94309
 - path: nist/identifier.yaml
-  sha256: 39eb372eb22400ce0679a0923cb63339329973fbf6280c3cd884c2f712a8f06e
-  bytes: 201814
+  sha256: 6cb34d9657f9df3060a4dc53fa63f754ae07e4aa47e0463360ab5f42295105af
+  bytes: 202376
 - path: nist/interagency_report.yaml
   sha256: f778e32e57b9b867d0cf5edd667cffd873a89a1e9c66bd65c0338bc280e45afc
   bytes: 1876595
