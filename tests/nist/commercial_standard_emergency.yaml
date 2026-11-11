@@ -1,5 +1,14 @@
 ---
-- id: nist.commercial_standard_emergency.2135
+- id: nist.commercial_standard_emergency.2137
+  identifier:
+    _type: pubid:nist:commercial-standard-emergency
+    publisher: NBS
+    series: CS-E
+  representations:
+    human: NBS CS-E
+    urn: urn:nist:cs-e:supp
+  style: v3
+- id: nist.commercial_standard_emergency.2138
   identifier:
     _type: pubid:nist:commercial-standard-emergency
     number: '104'
@@ -15,7 +24,7 @@
   non_normalized_aliases:
   - spelling: NBS CS e104-43
     style: v3
-- id: nist.commercial_standard_emergency.2136
+- id: nist.commercial_standard_emergency.2139
   identifier:
     _type: pubid:nist:commercial-standard-emergency
     number: '106'
@@ -31,7 +40,7 @@
   non_normalized_aliases:
   - spelling: NBS CS e106-43
     style: v3
-- id: nist.commercial_standard_emergency.2137
+- id: nist.commercial_standard_emergency.2140
   identifier:
     _type: pubid:nist:commercial-standard-emergency
     number: '107'
@@ -47,7 +56,7 @@
   non_normalized_aliases:
   - spelling: NBS CS e107-43
     style: v3
-- id: nist.commercial_standard_emergency.2138
+- id: nist.commercial_standard_emergency.2141
   identifier:
     _type: pubid:nist:commercial-standard-emergency
     number: '119'
@@ -63,7 +72,7 @@
   non_normalized_aliases:
   - spelling: NBS CS e119-45
     style: v3
-- id: nist.commercial_standard_emergency.2139
+- id: nist.commercial_standard_emergency.2142
   identifier:
     _type: pubid:nist:commercial-standard-emergency
     number: '124'
@@ -79,7 +88,7 @@
   non_normalized_aliases:
   - spelling: NBS CS e124-45
     style: v3
-- id: nist.commercial_standard_emergency.2140
+- id: nist.commercial_standard_emergency.2143
   identifier:
     _type: pubid:nist:commercial-standard-emergency
     number: '15'
@@ -91,13 +100,4 @@
   representations:
     human: NBS CS-E 15e1943
     urn: urn:nist:cs-e:15.e1943.supp
-  style: v3
-- id: nist.commercial_standard_emergency.2141
-  identifier:
-    _type: pubid:nist:commercial-standard-emergency
-    publisher: NBS
-    series: CS-E
-  representations:
-    human: NBS CS-E
-    urn: urn:nist:cs-e:supp
   style: v3
