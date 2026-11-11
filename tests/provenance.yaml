@@ -8,18 +8,9 @@ generator:
   exporter_sha256: 17f749bef3ac7039ad8a9b4e1240b36a449d21940a8ee23ae7b84a7c94c8156d
 oracle:
   gem: pubid
-  commit: c387ae3831665041e330236ba74a1b46bf193e94
-  clean: false
-  dirty_paths:
-  - lib/pubid/ecma/identifier.rb
-  - lib/pubid/ecma/parser.rb
-  - lib/pubid/nist/preprocessor.rb
-  - spec/fixtures/ecma/identifiers/pass/standard.txt
-  - spec/fixtures/nist/identifiers/full/allrecords.txt
-  - spec/fixtures/nist/identifiers/full/complete.txt
-  - spec/fixtures/nist/identifiers/pass/federal_information_processing_standards.txt
-  - spec/pubid/ecma/edition_alias_spec.rb
-  - spec/pubid/nist/fips_pub_alias_spec.rb
+  commit: 91aae9f5b773b7f4f1729d9da6639a133f7a5163
+  clean: true
+  dirty_paths: []
   parsanol_version: "~> 1.3.122"
   grammar:
     commit: 5babb721c32b0128feb7e7fe3a6f5d4bd1a067b1
@@ -73,34 +64,26 @@ oracle:
       w3c: 3e03a9cfc981cc620fc0a8611567d97bbcb05615c439d81c6af453b4afe98aa4
       xsf: bc38648695a4aef4f2bb33c8867c1b4072c1954d8714abe9abf19fa7ab288091
 repository:
-  commit: 8e441a97555b42c0f786790b42e81ff78e2eaaa6
+  commit: 56990e6d18045fab9a4bb390c3fec9318a7d5bc2
   clean: false
   dirty_paths:
-  - reference-docs/ecma/identifiers/pass/standard.txt
-  - reference-docs/nist/identifiers/full/allrecords.txt
-  - reference-docs/nist/identifiers/full/complete.txt
-  - reference-docs/nist/identifiers/pass/federal_information_processing_standards.txt
-  - tests/ecma/standard.yaml
-  - tests/nist/_normalization.yaml
-  - tests/nist/federal_information_processing_standards.yaml
-  - tests/nist/grant_contractor_report.yaml
-  - tests/nist/handbook.yaml
-  - tests/nist/identifier.yaml
-  - tests/nist/interagency_report.yaml
-  - tests/nist/monograph.yaml
-  - tests/nist/ncstar.yaml
-  - tests/nist/nsrds.yaml
-  - tests/nist/owmwp.yaml
-  - tests/nist/special_publication.yaml
-  - tests/nist/technical_note.yaml
+  - README.md
+  - reference-docs/bipm/identifiers/pass/committee_document.txt
+  - reference-docs/bipm/identifiers/pass/si_brochure.txt
+  - tests/bipm/committee_document.yaml
+  - tests/bipm/guide.yaml
+  - tests/bipm/meeting.yaml
+  - tests/bipm/mep.yaml
+  - tests/bipm/metrologia_article.yaml
+  - tests/bipm/si_brochure.yaml
   - tests/provenance.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 43
   payloads: 353
-  cases: 99728
-  aliases: 11659
+  cases: 99731
+  aliases: 11657
   negatives: 704
 payloads:
 - path: amca/_debt.yaml
@@ -221,23 +204,23 @@ payloads:
   sha256: 37cf5ab258130666be94ca74830e68309c8139d3d907320443c94c187babb063
   bytes: 524
 - path: bipm/committee_document.yaml
-  sha256: 623120cbf7214ac5f53385b09618b8f7a10a50280263ba63af4868711eaf515e
-  bytes: 10021
+  sha256: fc91ca27b2ddb0fb23be035c21ee88c22206c8d3fd94fda29ae407eca3273bd9
+  bytes: 10170
 - path: bipm/guide.yaml
-  sha256: ae201da703204ddd6e1b0e75538a7d029232619ec8fa76420bd5db78027e8ac8
+  sha256: 021b4bfdf5de3d2976a647be0cb38d5cda1333e0f3d56d93e25a32d158d3f533
   bytes: 2402
 - path: bipm/meeting.yaml
-  sha256: 9954de7e39b2dba351fb69f6b90725dc6d3b1bced24feea74c1851c0407f5685
-  bytes: 3472
+  sha256: 75f4427f109924cf23857b48729f429f60c7f698548ead23fa4fa44a7d043f36
+  bytes: 3517
 - path: bipm/mep.yaml
-  sha256: e6bc688aa8c2a2173df7651fd08a1d4237cf9d5daac65109c443e73528c536ea
+  sha256: 3e9ed2f35468fdb2c19c8aeb343e8d6e2474fbd9e724a98f8ae209fa215d72b7
   bytes: 4410
 - path: bipm/metrologia_article.yaml
-  sha256: 8abd1e927f6893a0805ca3e440eb5121356e252bed00935a96be1373c39f0cf7
-  bytes: 2017
+  sha256: 97db3329d6e22c07a85bd2b4b784b9887f2af2679f29cbfdc2c12981db83d8d9
+  bytes: 2044
 - path: bipm/si_brochure.yaml
-  sha256: eac601304b3ab8ab3399ab7e8b54a6ac3c0b722c082fe81f020e07aaf6d84568
-  bytes: 2212
+  sha256: cda52c647a94af19d0e741f8d58af0a24542d9ebf0fe2f10c5168a1a2ffc0a1f
+  bytes: 2957
 - path: bsi/_debt.yaml
   sha256: b74f274bd70cf754cbb0a65e4657959f2cda7da705abbf41b8d7846dd59b045e
   bytes: 26096

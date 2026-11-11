@@ -9,10 +9,10 @@
     language: F
     form: long
   representations:
-    human: Action 10-1 du JCRB (2003)
-    urn: urn:bipm:jcrb:act:10-1:2003
+    human: Action JCRB/10-1 (2003)
+    urn: urn:bipm:v1:jcrb:action:10-1:2003
   style: v3
-- id: bipm.committee_document.0039
+- id: bipm.committee_document.0042
   identifier:
     _type: pubid:bipm:committee-document
     group: CCEM
@@ -21,9 +21,9 @@
     year: 2005
   representations:
     human: CCEM REC 1 (2005)
-    urn: urn:bipm:ccem:rec:1:2005
+    urn: urn:bipm:v1:ccem:recommendation:1:2005
   style: v3
-- id: bipm.committee_document.0040
+- id: bipm.committee_document.0043
   identifier:
     _type: pubid:bipm:committee-document
     group: CCEM
@@ -33,9 +33,9 @@
     language: F
   representations:
     human: CCEM REC 1 (2005, F)
-    urn: urn:bipm:ccem:rec:1:2005
+    urn: urn:bipm:v1:ccem:recommendation:1:2005
   style: v3
-- id: bipm.committee_document.0042
+- id: bipm.committee_document.0045
   identifier:
     _type: pubid:bipm:committee-document
     group: CCL
@@ -45,9 +45,9 @@
     form: long
   representations:
     human: CCL Recommendation 1
-    urn: urn:bipm:ccl:rec:1
+    urn: urn:bipm:v1:ccl:recommendation:1
   style: v3
-- id: bipm.committee_document.0043
+- id: bipm.committee_document.0046
   identifier:
     _type: pubid:bipm:committee-document
     group: CCL
@@ -58,9 +58,9 @@
     form: long
   representations:
     human: CCL Recommendation 1 (2001)
-    urn: urn:bipm:ccl:rec:1:2001
+    urn: urn:bipm:v1:ccl:recommendation:1:2001
   style: v3
-- id: bipm.committee_document.0049
+- id: bipm.committee_document.0052
   identifier:
     _type: pubid:bipm:committee-document
     group: CCTF
@@ -68,9 +68,9 @@
     number: '2'
   representations:
     human: CCTF REC 2
-    urn: urn:bipm:cctf:rec:2
+    urn: urn:bipm:v1:cctf:recommendation:2
   style: v3
-- id: bipm.committee_document.0050
+- id: bipm.committee_document.0053
   identifier:
     _type: pubid:bipm:committee-document
     group: CCTF
@@ -79,9 +79,9 @@
     year: 2012
   representations:
     human: CCTF REC 2 (2012)
-    urn: urn:bipm:cctf:rec:2:2012
+    urn: urn:bipm:v1:cctf:recommendation:2:2012
   style: v3
-- id: bipm.committee_document.0051
+- id: bipm.committee_document.0054
   identifier:
     _type: pubid:bipm:committee-document
     group: CCTF
@@ -91,9 +91,9 @@
     language: E
   representations:
     human: CCTF REC 2 (2012, E)
-    urn: urn:bipm:cctf:rec:2:2012
+    urn: urn:bipm:v1:cctf:recommendation:2:2012
   style: v3
-- id: bipm.committee_document.0052
+- id: bipm.committee_document.0055
   identifier:
     _type: pubid:bipm:committee-document
     group: CCTF
@@ -103,18 +103,18 @@
     language: F
   representations:
     human: CCTF REC 2 (2012, F)
-    urn: urn:bipm:cctf:rec:2:2012
+    urn: urn:bipm:v1:cctf:recommendation:2:2012
   style: v3
-- id: bipm.committee_document.0055
+- id: bipm.committee_document.0058
   identifier:
     _type: pubid:bipm:committee-document
     group: CGPM
     type_code: DECL
   representations:
     human: CGPM DECL
-    urn: 'urn:bipm:cgpm:decl:'
+    urn: 'urn:bipm:v1:cgpm:statement:'
   style: v3
-- id: bipm.committee_document.0056
+- id: bipm.committee_document.0059
   identifier:
     _type: pubid:bipm:committee-document
     group: CGPM
@@ -122,9 +122,9 @@
     year: 1889
   representations:
     human: CGPM DECL (1889)
-    urn: urn:bipm:cgpm:decl::1889
+    urn: urn:bipm:v1:cgpm:statement::1889
   style: v3
-- id: bipm.committee_document.0057
+- id: bipm.committee_document.0060
   identifier:
     _type: pubid:bipm:committee-document
     group: CGPM
@@ -133,9 +133,9 @@
     language: E
   representations:
     human: CGPM DECL (1889, E)
-    urn: urn:bipm:cgpm:decl::1889
+    urn: urn:bipm:v1:cgpm:statement::1889
   style: v3
-- id: bipm.committee_document.0058
+- id: bipm.committee_document.0061
   identifier:
     _type: pubid:bipm:committee-document
     group: CGPM
@@ -144,9 +144,9 @@
     year: 1927
   representations:
     human: CGPM RES 1 (1927)
-    urn: urn:bipm:cgpm:res:1:1927
+    urn: urn:bipm:v1:cgpm:resolution:1:1927
   style: v3
-- id: bipm.committee_document.0059
+- id: bipm.committee_document.0062
   identifier:
     _type: pubid:bipm:committee-document
     group: CGPM
@@ -155,9 +155,9 @@
     year: 1948
   representations:
     human: CGPM RES 1 (1948)
-    urn: urn:bipm:cgpm:res:1:1948
+    urn: urn:bipm:v1:cgpm:resolution:1:1948
   style: v3
-- id: bipm.committee_document.0060
+- id: bipm.committee_document.0063
   identifier:
     _type: pubid:bipm:committee-document
     group: CGPM
@@ -168,9 +168,9 @@
     form: long
   representations:
     human: CGPM Resolution 1 (1927)
-    urn: urn:bipm:cgpm:res:1:1927
+    urn: urn:bipm:v1:cgpm:resolution:1:1927
   style: v3
-- id: bipm.committee_document.0061
+- id: bipm.committee_document.0064
   identifier:
     _type: pubid:bipm:committee-document
     group: CGPM
@@ -180,9 +180,9 @@
     form: long
   representations:
     human: CGPM Statement (1889)
-    urn: urn:bipm:cgpm:decl::1889
+    urn: urn:bipm:v1:cgpm:statement::1889
   style: v3
-- id: bipm.committee_document.0062
+- id: bipm.committee_document.0065
   identifier:
     _type: pubid:bipm:committee-document
     group: CGPM
@@ -193,18 +193,18 @@
     form: long
   representations:
     human: CGPM Statement 1 (1901)
-    urn: urn:bipm:cgpm:decl:1:1901
+    urn: urn:bipm:v1:cgpm:statement:1:1901
   style: v3
-- id: bipm.committee_document.0065
+- id: bipm.committee_document.0068
   identifier:
     _type: pubid:bipm:committee-document
     group: CIPM
     number: 2005-06
   representations:
     human: CIPM 2005-06
-    urn: urn:bipm:cipm::2005-06
+    urn: urn:bipm:v1:cipm::2005-06
   style: v3
-- id: bipm.committee_document.0066
+- id: bipm.committee_document.0069
   identifier:
     _type: pubid:bipm:committee-document
     group: CIPM
@@ -212,9 +212,9 @@
     year: 2005
   representations:
     human: CIPM 2005-06 (2005)
-    urn: urn:bipm:cipm::2005-06:2005
+    urn: urn:bipm:v1:cipm::2005-06:2005
   style: v3
-- id: bipm.committee_document.0067
+- id: bipm.committee_document.0070
   identifier:
     _type: pubid:bipm:committee-document
     group: CIPM
@@ -223,9 +223,9 @@
     language: F
   representations:
     human: CIPM DECL (1964, F)
-    urn: urn:bipm:cipm:decl::1964
+    urn: urn:bipm:v1:cipm:statement::1964
   style: v3
-- id: bipm.committee_document.0068
+- id: bipm.committee_document.0071
   identifier:
     _type: pubid:bipm:committee-document
     group: CIPM
@@ -234,9 +234,9 @@
     year: 2012
   representations:
     human: CIPM DECN 101-1 (2012)
-    urn: urn:bipm:cipm:decn:101-1:2012
+    urn: urn:bipm:v1:cipm:decision:101-1:2012
   style: v3
-- id: bipm.committee_document.0069
+- id: bipm.committee_document.0072
   identifier:
     _type: pubid:bipm:committee-document
     group: CIPM
@@ -246,12 +246,12 @@
     language: E
   representations:
     human: CIPM DECN 101-1 (2012, E)
-    urn: urn:bipm:cipm:decn:101-1:2012
+    urn: urn:bipm:v1:cipm:decision:101-1:2012
   style: v3
   non_normalized_aliases:
   - spelling: BIPM DECN CIPM/101-1 (2012, EN)
     style: v3
-- id: bipm.committee_document.0070
+- id: bipm.committee_document.0073
   identifier:
     _type: pubid:bipm:committee-document
     group: CIPM
@@ -261,12 +261,12 @@
     language: F
   representations:
     human: CIPM DECN 101-1 (2012, F)
-    urn: urn:bipm:cipm:decn:101-1:2012
+    urn: urn:bipm:v1:cipm:decision:101-1:2012
   style: v3
   non_normalized_aliases:
   - spelling: BIPM DECN CIPM/101-1 (2012, FR)
     style: v3
-- id: bipm.committee_document.0071
+- id: bipm.committee_document.0074
   identifier:
     _type: pubid:bipm:committee-document
     group: CIPM
@@ -276,9 +276,9 @@
     language: F
   representations:
     human: CIPM DECN 111 (2022, F)
-    urn: urn:bipm:cipm:decn:111:2022
+    urn: urn:bipm:v1:cipm:decision:111:2022
   style: v3
-- id: bipm.committee_document.0072
+- id: bipm.committee_document.0075
   identifier:
     _type: pubid:bipm:committee-document
     group: CIPM
@@ -288,9 +288,9 @@
     language: F
   representations:
     human: CIPM DECN 111-10 (2022, F)
-    urn: urn:bipm:cipm:decn:111-10:2022
+    urn: urn:bipm:v1:cipm:decision:111-10:2022
   style: v3
-- id: bipm.committee_document.0073
+- id: bipm.committee_document.0076
   identifier:
     _type: pubid:bipm:committee-document
     group: CIPM
@@ -300,9 +300,9 @@
     language: F
   representations:
     human: CIPM DECN 111-10-2 (2022, F)
-    urn: urn:bipm:cipm:decn:111-10-2:2022
+    urn: urn:bipm:v1:cipm:decision:111-10-2:2022
   style: v3
-- id: bipm.committee_document.0074
+- id: bipm.committee_document.0077
   identifier:
     _type: pubid:bipm:committee-document
     group: CIPM
@@ -313,9 +313,9 @@
     appendix: '3'
   representations:
     human: CIPM DECN 112 A3 (2022, F)
-    urn: urn:bipm:cipm:decn:112-a3:2022
+    urn: urn:bipm:v1:cipm:decision:112-a3:2022
   style: v3
-- id: bipm.committee_document.0075
+- id: bipm.committee_document.0078
   identifier:
     _type: pubid:bipm:committee-document
     group: CIPM
@@ -327,25 +327,22 @@
     annex: '5'
   representations:
     human: CIPM DECN 112 A3.5 (2022, F)
-    urn: urn:bipm:cipm:decn:112-a3.5:2022
+    urn: urn:bipm:v1:cipm:decision:112-a3.5:2022
   style: v3
-- id: bipm.committee_document.0076
+- id: bipm.committee_document.0079
   identifier:
     _type: pubid:bipm:committee-document
     group: CIPM
     type_code: DECN
-    number: 101-1
-    year: 2012
+    number: 111-10
+    year: 2022
     language: F
     form: long
   representations:
-    human: Décision 101-1 du CIPM (2012)
-    urn: urn:bipm:cipm:decn:101-1:2012
+    human: Décision CIPM/111-10 (2022)
+    urn: urn:bipm:v1:cipm:decision:111-10:2022
   style: v3
-  non_normalized_aliases:
-  - spelling: Décision CIPM/101-1 (2012)
-    style: v3
-- id: bipm.committee_document.0077
+- id: bipm.committee_document.0080
   identifier:
     _type: pubid:bipm:committee-document
     group: JCRB
@@ -354,9 +351,9 @@
     year: 2003
   representations:
     human: JCRB ACT 10-1 (2003)
-    urn: urn:bipm:jcrb:act:10-1:2003
+    urn: urn:bipm:v1:jcrb:action:10-1:2003
   style: v3
-- id: bipm.committee_document.0078
+- id: bipm.committee_document.0081
   identifier:
     _type: pubid:bipm:committee-document
     group: JCRB
@@ -366,9 +363,9 @@
     language: E
   representations:
     human: JCRB ACT 10-1 (2003, E)
-    urn: urn:bipm:jcrb:act:10-1:2003
+    urn: urn:bipm:v1:jcrb:action:10-1:2003
   style: v3
-- id: bipm.committee_document.0079
+- id: bipm.committee_document.0082
   identifier:
     _type: pubid:bipm:committee-document
     group: JCRB
@@ -377,9 +374,9 @@
     year: 2003
   representations:
     human: JCRB ACT 10-10 (2003)
-    urn: urn:bipm:jcrb:act:10-10:2003
+    urn: urn:bipm:v1:jcrb:action:10-10:2003
   style: v3
-- id: bipm.committee_document.0090
+- id: bipm.committee_document.0093
   identifier:
     _type: pubid:bipm:committee-document
     group: CCL
@@ -388,10 +385,10 @@
     language: F
     form: long
   representations:
-    human: Recommandation 1 du CCL
-    urn: urn:bipm:ccl:rec:1
+    human: Recommandation CCL/1
+    urn: urn:bipm:v1:ccl:recommendation:1
   style: v3
-- id: bipm.committee_document.0091
+- id: bipm.committee_document.0094
   identifier:
     _type: pubid:bipm:committee-document
     group: CCL
@@ -401,10 +398,10 @@
     language: F
     form: long
   representations:
-    human: Recommandation 1 du CCL (2001)
-    urn: urn:bipm:ccl:rec:1:2001
+    human: Recommandation CCL/1 (2001)
+    urn: urn:bipm:v1:ccl:recommendation:1:2001
   style: v3
-- id: bipm.committee_document.0092
+- id: bipm.committee_document.0095
   identifier:
     _type: pubid:bipm:committee-document
     group: JCRB
@@ -414,13 +411,10 @@
     language: F
     form: long
   representations:
-    human: Recommandation 43-1 du JCRB (2021)
-    urn: urn:bipm:jcrb:rec:43-1:2021
+    human: Recommandation JCRB/43-1 (2021)
+    urn: urn:bipm:v1:jcrb:recommendation:43-1:2021
   style: v3
-  non_normalized_aliases:
-  - spelling: Recommandation JCRB/43-1 (2021)
-    style: v3
-- id: bipm.committee_document.0093
+- id: bipm.committee_document.0096
   identifier:
     _type: pubid:bipm:committee-document
     group: CGPM
@@ -430,6 +424,6 @@
     language: F
     form: long
   representations:
-    human: Résolution 1 de la CGPM (1927)
-    urn: urn:bipm:cgpm:res:1:1927
+    human: Résolution CGPM/1 (1927)
+    urn: urn:bipm:v1:cgpm:resolution:1:1927
   style: v3
