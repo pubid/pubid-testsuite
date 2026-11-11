@@ -1,13 +1,9 @@
 ---
 clean: false
-known_mismatches: 25
+known_mismatches: 6
 known_schema_errors: 0
-# Residual divergences after the joint IEEE/CSA draft-date glue round
-# (the CSA comma faces and their glued re-parse both close; the count
-# dropped 46 -> 40 with those round trips), the earlier draft-date
-# compose, the C2 alias regroup (the draft type word never reaches the
-# wire), the base-year dash-attach, the NESC name-first Redline fix
-# and the year-only compose: 40 checks - the pre-existing families
-# (bare ISO/IEC joint rows, rev-inline spellings, the "IEEE Std YYYY
-# NESC *" re-parse gap, the IEC/IEEE dashed/dotted part cross) and
-# scattered hash/urn divergences. Documented, not gated.
+# Residual divergences after the render-fidelity heal round: the
+# joint-development month face closes the bare ISO/IEC joint rows and
+# the two-round alias chains, and the count drops 25 -> 6. Remaining:
+# the two adopted Cor-1 draft-date aliases, the DED designator pair
+# and the two P42010 dot/WD spellings. Documented, not gated.
