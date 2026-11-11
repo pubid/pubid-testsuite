@@ -3560,6 +3560,9 @@
     human: NIST FIPS 180-4
     urn: urn:nist:fips:180-4.supp
   style: v3
+  non_normalized_aliases:
+  - spelling: FIPS PUB 180-4
+    style: v3
 - id: nist.federal_information_processing_standards.12361
   identifier:
     _type: pubid:nist:federal-information-processing-standards
@@ -3823,6 +3826,23 @@
 - id: nist.federal_information_processing_standards.12387
   identifier:
     _type: pubid:nist:federal-information-processing-standards
+    number: '199'
+    edition:
+      type: r
+      id: '1'
+      original_prefix: " Rev. "
+    publisher: NIST
+    series: FIPS
+  representations:
+    human: NIST FIPS 199 Rev. 1
+    urn: urn:nist:fips:199. Rev. 1.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: FIPS PUB 199 Rev. 1
+    style: v3
+- id: nist.federal_information_processing_standards.12388
+  identifier:
+    _type: pubid:nist:federal-information-processing-standards
     number: '200'
     publisher: NIST
     series: FIPS
@@ -3830,7 +3850,7 @@
     human: NIST FIPS 200
     urn: urn:nist:fips:200.supp
   style: v3
-- id: nist.federal_information_processing_standards.12388
+- id: nist.federal_information_processing_standards.12389
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: '201'
@@ -3840,7 +3860,7 @@
     human: NIST FIPS 201
     urn: urn:nist:fips:201.supp
   style: v3
-- id: nist.federal_information_processing_standards.12389
+- id: nist.federal_information_processing_standards.12390
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: 201-1
@@ -3850,7 +3870,7 @@
     human: NIST FIPS 201-1
     urn: urn:nist:fips:201-1.supp
   style: v3
-- id: nist.federal_information_processing_standards.12390
+- id: nist.federal_information_processing_standards.12391
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: 201-2
@@ -3860,7 +3880,7 @@
     human: NIST FIPS 201-2
     urn: urn:nist:fips:201-2.supp
   style: v3
-- id: nist.federal_information_processing_standards.12391
+- id: nist.federal_information_processing_standards.12392
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: 201-3
@@ -3870,7 +3890,7 @@
     human: NIST FIPS 201-3
     urn: urn:nist:fips:201-3.supp
   style: v3
-- id: nist.federal_information_processing_standards.12392
+- id: nist.federal_information_processing_standards.12393
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: '202'
@@ -3880,7 +3900,7 @@
     human: NIST FIPS 202
     urn: urn:nist:fips:202.supp
   style: v3
-- id: nist.federal_information_processing_standards.12393
+- id: nist.federal_information_processing_standards.12394
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: '203'
@@ -3890,7 +3910,7 @@
     human: NIST FIPS 203
     urn: urn:nist:fips:203.supp
   style: v3
-- id: nist.federal_information_processing_standards.12394
+- id: nist.federal_information_processing_standards.12395
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: '204'
@@ -3900,7 +3920,7 @@
     human: NIST FIPS 204
     urn: urn:nist:fips:204.supp
   style: v3
-- id: nist.federal_information_processing_standards.12395
+- id: nist.federal_information_processing_standards.12396
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: '205'
@@ -3910,7 +3930,10 @@
     human: NIST FIPS 205
     urn: urn:nist:fips:205.supp
   style: v3
-- id: nist.federal_information_processing_standards.12396
+  non_normalized_aliases:
+  - spelling: FIPS PUB 205
+    style: v3
+- id: nist.federal_information_processing_standards.12397
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: 21-3
@@ -3920,7 +3943,7 @@
     human: NIST FIPS 21-3
     urn: urn:nist:fips:21-3.supp
   style: v3
-- id: nist.federal_information_processing_standards.12397
+- id: nist.federal_information_processing_standards.12398
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: 21-3
@@ -3936,7 +3959,7 @@
   non_normalized_aliases:
   - spelling: NIST FIPS 21-3-1990
     style: v3
-- id: nist.federal_information_processing_standards.12398
+- id: nist.federal_information_processing_standards.12399
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: 21-4
@@ -3946,7 +3969,7 @@
     human: NIST FIPS 21-4
     urn: urn:nist:fips:21-4.supp
   style: v3
-- id: nist.federal_information_processing_standards.12399
+- id: nist.federal_information_processing_standards.12400
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: 21-4
@@ -3961,7 +3984,7 @@
   non_normalized_aliases:
   - spelling: NIST FIPS 21-4B
     style: v3
-- id: nist.federal_information_processing_standards.12400
+- id: nist.federal_information_processing_standards.12401
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: 29-3
@@ -3971,7 +3994,7 @@
     human: NIST FIPS 29-3
     urn: urn:nist:fips:29-3.supp
   style: v3
-- id: nist.federal_information_processing_standards.12401
+- id: nist.federal_information_processing_standards.12402
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: '31'
@@ -3981,7 +4004,7 @@
     human: NIST FIPS 31
     urn: urn:nist:fips:31.supp
   style: v3
-- id: nist.federal_information_processing_standards.12402
+- id: nist.federal_information_processing_standards.12403
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: '39'
@@ -3991,7 +4014,7 @@
     human: NIST FIPS 39
     urn: urn:nist:fips:39.supp
   style: v3
-- id: nist.federal_information_processing_standards.12403
+- id: nist.federal_information_processing_standards.12404
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: 4-1
@@ -4007,7 +4030,7 @@
   non_normalized_aliases:
   - spelling: NIST FIPS 4-1-1991
     style: v3
-- id: nist.federal_information_processing_standards.12404
+- id: nist.federal_information_processing_standards.12405
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: '41'
@@ -4017,7 +4040,7 @@
     human: NIST FIPS 41
     urn: urn:nist:fips:41.supp
   style: v3
-- id: nist.federal_information_processing_standards.12405
+- id: nist.federal_information_processing_standards.12406
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: '46'
@@ -4027,7 +4050,7 @@
     human: NIST FIPS 46
     urn: urn:nist:fips:46.supp
   style: v3
-- id: nist.federal_information_processing_standards.12406
+- id: nist.federal_information_processing_standards.12407
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: 46-1
@@ -4037,7 +4060,7 @@
     human: NIST FIPS 46-1
     urn: urn:nist:fips:46-1.supp
   style: v3
-- id: nist.federal_information_processing_standards.12407
+- id: nist.federal_information_processing_standards.12408
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: 46-2
@@ -4047,7 +4070,7 @@
     human: NIST FIPS 46-2
     urn: urn:nist:fips:46-2.supp
   style: v3
-- id: nist.federal_information_processing_standards.12408
+- id: nist.federal_information_processing_standards.12409
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: 46-3
@@ -4057,7 +4080,7 @@
     human: NIST FIPS 46-3
     urn: urn:nist:fips:46-3.supp
   style: v3
-- id: nist.federal_information_processing_standards.12409
+- id: nist.federal_information_processing_standards.12410
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: '48'
@@ -4067,7 +4090,7 @@
     human: NIST FIPS 48
     urn: urn:nist:fips:48.supp
   style: v3
-- id: nist.federal_information_processing_standards.12410
+- id: nist.federal_information_processing_standards.12411
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: 54-1
@@ -4077,7 +4100,7 @@
     human: NIST FIPS 54-1
     urn: urn:nist:fips:54-1.supp
   style: v3
-- id: nist.federal_information_processing_standards.12411
+- id: nist.federal_information_processing_standards.12412
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: 54-1
@@ -4093,7 +4116,7 @@
   non_normalized_aliases:
   - spelling: NIST FIPS 54-1-Jan15/1991
     style: v3
-- id: nist.federal_information_processing_standards.12412
+- id: nist.federal_information_processing_standards.12413
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: 54-1
@@ -4109,7 +4132,7 @@
   non_normalized_aliases:
   - spelling: NIST FIPS 54-1-Jan17/1991
     style: v3
-- id: nist.federal_information_processing_standards.12413
+- id: nist.federal_information_processing_standards.12414
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: 55-3
@@ -4119,7 +4142,7 @@
     human: NIST FIPS 55-3
     urn: urn:nist:fips:55-3.supp
   style: v3
-- id: nist.federal_information_processing_standards.12414
+- id: nist.federal_information_processing_standards.12415
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: '55'
@@ -4130,7 +4153,7 @@
     human: NIST FIPS 55v1
     urn: urn:nist:fips:55.v1.supp
   style: v3
-- id: nist.federal_information_processing_standards.12415
+- id: nist.federal_information_processing_standards.12416
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: '55'
@@ -4141,7 +4164,7 @@
     human: NIST FIPS 55v2
     urn: urn:nist:fips:55.v2.supp
   style: v3
-- id: nist.federal_information_processing_standards.12416
+- id: nist.federal_information_processing_standards.12417
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: '55'
@@ -4152,7 +4175,7 @@
     human: NIST FIPS 55v3
     urn: urn:nist:fips:55.v3.supp
   style: v3
-- id: nist.federal_information_processing_standards.12417
+- id: nist.federal_information_processing_standards.12418
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: '55'
@@ -4163,7 +4186,7 @@
     human: NIST FIPS 55v4
     urn: urn:nist:fips:55.v4.supp
   style: v3
-- id: nist.federal_information_processing_standards.12418
+- id: nist.federal_information_processing_standards.12419
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: 58-1
@@ -4179,7 +4202,7 @@
   non_normalized_aliases:
   - spelling: NIST FIPS 58-1-1988
     style: v3
-- id: nist.federal_information_processing_standards.12419
+- id: nist.federal_information_processing_standards.12420
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: '58'
@@ -4195,7 +4218,7 @@
   non_normalized_aliases:
   - spelling: NIST FIPS 58-1997
     style: v3
-- id: nist.federal_information_processing_standards.12420
+- id: nist.federal_information_processing_standards.12421
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: 6-4
@@ -4205,7 +4228,7 @@
     human: NIST FIPS 6-4
     urn: urn:nist:fips:6-4.supp
   style: v3
-- id: nist.federal_information_processing_standards.12421
+- id: nist.federal_information_processing_standards.12422
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: '65'
@@ -4215,7 +4238,7 @@
     human: NIST FIPS 65
     urn: urn:nist:fips:65.supp
   style: v3
-- id: nist.federal_information_processing_standards.12422
+- id: nist.federal_information_processing_standards.12423
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: '73'
@@ -4225,7 +4248,7 @@
     human: NIST FIPS 73
     urn: urn:nist:fips:73.supp
   style: v3
-- id: nist.federal_information_processing_standards.12423
+- id: nist.federal_information_processing_standards.12424
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: '74'
@@ -4235,7 +4258,7 @@
     human: NIST FIPS 74
     urn: urn:nist:fips:74.supp
   style: v3
-- id: nist.federal_information_processing_standards.12424
+- id: nist.federal_information_processing_standards.12425
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: 8-6
@@ -4245,7 +4268,7 @@
     human: NIST FIPS 8-6
     urn: urn:nist:fips:8-6.supp
   style: v3
-- id: nist.federal_information_processing_standards.12425
+- id: nist.federal_information_processing_standards.12426
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: '81'
@@ -4255,7 +4278,7 @@
     human: NIST FIPS 81
     urn: urn:nist:fips:81.supp
   style: v3
-- id: nist.federal_information_processing_standards.12426
+- id: nist.federal_information_processing_standards.12427
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: '83'
@@ -4265,7 +4288,7 @@
     human: NIST FIPS 83
     urn: urn:nist:fips:83.supp
   style: v3
-- id: nist.federal_information_processing_standards.12427
+- id: nist.federal_information_processing_standards.12428
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: '87'
@@ -4275,7 +4298,7 @@
     human: NIST FIPS 87
     urn: urn:nist:fips:87.supp
   style: v3
-- id: nist.federal_information_processing_standards.12428
+- id: nist.federal_information_processing_standards.12429
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: 9-1
@@ -4285,7 +4308,7 @@
     human: NIST FIPS 9-1
     urn: urn:nist:fips:9-1.supp
   style: v3
-- id: nist.federal_information_processing_standards.19792
+- id: nist.federal_information_processing_standards.19793
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: '197'
@@ -4302,7 +4325,7 @@
     human: NIST.FIPS.197-upd1
     urn: urn:nist:fips:197./Upd1.supp
   style: v3
-- id: nist.federal_information_processing_standards.19793
+- id: nist.federal_information_processing_standards.19794
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: 54-1
@@ -4319,7 +4342,7 @@
   non_normalized_aliases:
   - spelling: NIST.FIPS.54-1-Jan15
     style: v3
-- id: nist.federal_information_processing_standards.19794
+- id: nist.federal_information_processing_standards.19795
   identifier:
     _type: pubid:nist:federal-information-processing-standards
     number: 54-1
