@@ -671,12 +671,23 @@
   identifier:
     _type: pubid:iho:standard
     number: '4'
+    edition: 4.10.0
+    part: B
+    spec: '401'
+  representations:
+    human: IHO S-4 4.10.0 B-401
+    urn: urn:iho:s:4:ed-4.10.0:part-B:spec-401
+  style: v3
+- id: iho.standard.0123
+  identifier:
+    _type: pubid:iho:standard
+    number: '4'
     edition: 4.8.0
   representations:
     human: IHO S-4 4.8.0
     urn: urn:iho:s:4:ed-4.8.0
   style: v3
-- id: iho.standard.0123
+- id: iho.standard.0124
   identifier:
     _type: pubid:iho:standard
     number: '4'
@@ -685,7 +696,71 @@
     human: IHO S-4 4.9.0
     urn: urn:iho:s:4:ed-4.9.0
   style: v3
-- id: iho.standard.0124
+- id: iho.standard.0125
+  identifier:
+    _type: pubid:iho:standard
+    number: '4'
+    part: B
+    spec: '122'
+    spec_sub: '1'
+  representations:
+    human: IHO S-4 B-122.1
+    urn: urn:iho:s:4:part-B:spec-122:specsub-1
+  style: v3
+- id: iho.standard.0126
+  identifier:
+    _type: pubid:iho:standard
+    number: '4'
+    part: B
+    spec: '170'
+  representations:
+    human: IHO S-4 B-170
+    urn: urn:iho:s:4:part-B:spec-170
+  style: v3
+- id: iho.standard.0127
+  identifier:
+    _type: pubid:iho:standard
+    number: '4'
+    part: B
+    spec: '351'
+    spec_sub: '1'
+    spec_variant: I
+  representations:
+    human: IHO S-4 B-351.1(I)
+    urn: urn:iho:s:4:part-B:spec-351:specsub-1:specvar-I
+  style: v3
+- id: iho.standard.0128
+  identifier:
+    _type: pubid:iho:standard
+    number: '4'
+    part: B
+    spec: '400'
+  representations:
+    human: IHO S-4 B-400
+    urn: urn:iho:s:4:part-B:spec-400
+  style: v3
+- id: iho.standard.0129
+  identifier:
+    _type: pubid:iho:standard
+    number: '4'
+    part: B
+    spec: '401'
+  representations:
+    human: IHO S-4 B-401
+    urn: urn:iho:s:4:part-B:spec-401
+  style: v3
+- id: iho.standard.0130
+  identifier:
+    _type: pubid:iho:standard
+    number: '4'
+    part: B
+    spec: '521'
+    spec_variant: I
+  representations:
+    human: IHO S-4 B-521(I)
+    urn: urn:iho:s:4:part-B:spec-521:specvar-I
+  style: v3
+- id: iho.standard.0131
   identifier:
     _type: pubid:iho:standard
     number: '401'
@@ -694,7 +769,7 @@
     human: IHO S-401 1.0.0
     urn: urn:iho:s:401:ed-1.0.0
   style: v3
-- id: iho.standard.0125
+- id: iho.standard.0132
   identifier:
     _type: pubid:iho:standard
     number: '421'
@@ -703,7 +778,7 @@
     human: IHO S-421 1.0.0
     urn: urn:iho:s:421:ed-1.0.0
   style: v3
-- id: iho.standard.0126
+- id: iho.standard.0133
   identifier:
     _type: pubid:iho:standard
     number: '44'
@@ -712,7 +787,7 @@
     human: IHO S-44 5.0.0
     urn: urn:iho:s:44:ed-5.0.0
   style: v3
-- id: iho.standard.0127
+- id: iho.standard.0134
   identifier:
     _type: pubid:iho:standard
     number: '44'
@@ -721,7 +796,7 @@
     human: IHO S-44 6.1.0
     urn: urn:iho:s:44:ed-6.1.0
   style: v3
-- id: iho.standard.0128
+- id: iho.standard.0135
   identifier:
     _type: pubid:iho:standard
     number: '44'
@@ -730,7 +805,7 @@
     human: IHO S-44 6.2.0
     urn: urn:iho:s:44:ed-6.2.0
   style: v3
-- id: iho.standard.0129
+- id: iho.standard.0136
   identifier:
     _type: pubid:iho:standard
     number: '49'
@@ -739,7 +814,7 @@
     human: IHO S-49 2.0.0
     urn: urn:iho:s:49:ed-2.0.0
   style: v3
-- id: iho.standard.0130
+- id: iho.standard.0137
   identifier:
     _type: pubid:iho:standard
     number: '49'
@@ -748,7 +823,7 @@
     human: IHO S-49 2.1.0
     urn: urn:iho:s:49:ed-2.1.0
   style: v3
-- id: iho.standard.0131
+- id: iho.standard.0138
   identifier:
     _type: pubid:iho:standard
     number: '5'
@@ -761,7 +836,7 @@
   non_normalized_aliases:
   - spelling: IHO S-5B 1.0.1
     style: v3
-- id: iho.standard.0132
+- id: iho.standard.0139
   identifier:
     _type: pubid:iho:standard
     number: '5'
@@ -774,7 +849,7 @@
   non_normalized_aliases:
   - spelling: IHO S-5A 1.0.2
     style: v3
-- id: iho.standard.0133
+- id: iho.standard.0140
   identifier:
     _type: pubid:iho:standard
     number: '5'
@@ -786,7 +861,7 @@
   non_normalized_aliases:
   - spelling: IHO S-5-B
     style: v3
-- id: iho.standard.0134
+- id: iho.standard.0141
   identifier:
     _type: pubid:iho:standard
     number: '52'
@@ -796,7 +871,7 @@
     human: IHO S-52 4.0.0 Appendix 1
     urn: urn:iho:s:52:ed-4.0.0:appendix-1
   style: v3
-- id: iho.standard.0135
+- id: iho.standard.0142
   identifier:
     _type: pubid:iho:standard
     number: '52'
@@ -805,7 +880,7 @@
     human: IHO S-52 6.1.1
     urn: urn:iho:s:52:ed-6.1.1
   style: v3
-- id: iho.standard.0136
+- id: iho.standard.0143
   identifier:
     _type: pubid:iho:standard
     number: '52'
@@ -818,7 +893,7 @@
   non_normalized_aliases:
   - spelling: IHO S-52 App 1 4.0.0
     style: v3
-- id: iho.standard.0137
+- id: iho.standard.0144
   identifier:
     _type: pubid:iho:standard
     number: '53'
@@ -827,7 +902,7 @@
     human: IHO S-53 1.0.0
     urn: urn:iho:s:53:ed-1.0.0
   style: v3
-- id: iho.standard.0138
+- id: iho.standard.0145
   identifier:
     _type: pubid:iho:standard
     number: '53'
@@ -836,7 +911,7 @@
     human: IHO S-53 2.0.0
     urn: urn:iho:s:53:ed-2.0.0
   style: v3
-- id: iho.standard.0139
+- id: iho.standard.0146
   identifier:
     _type: pubid:iho:standard
     number: '53'
@@ -845,7 +920,7 @@
     human: IHO S-53 3.0.0
     urn: urn:iho:s:53:ed-3.0.0
   style: v3
-- id: iho.standard.0140
+- id: iho.standard.0147
   identifier:
     _type: pubid:iho:standard
     number: '53'
@@ -858,7 +933,7 @@
   non_normalized_aliases:
   - spelling: IHO S-53 Ap. 1 1.0.0
     style: v3
-- id: iho.standard.0141
+- id: iho.standard.0148
   identifier:
     _type: pubid:iho:standard
     number: '57'
@@ -867,7 +942,7 @@
     human: IHO S-57 3.1.0
     urn: urn:iho:s:57:ed-3.1.0
   style: v3
-- id: iho.standard.0142
+- id: iho.standard.0149
   identifier:
     _type: pubid:iho:standard
     number: '58'
@@ -876,7 +951,7 @@
     human: IHO S-58 6.1.0
     urn: urn:iho:s:58:ed-6.1.0
   style: v3
-- id: iho.standard.0143
+- id: iho.standard.0150
   identifier:
     _type: pubid:iho:standard
     number: '58'
@@ -885,7 +960,7 @@
     human: IHO S-58 7.0.0
     urn: urn:iho:s:58:ed-7.0.0
   style: v3
-- id: iho.standard.0144
+- id: iho.standard.0151
   identifier:
     _type: pubid:iho:standard
     number: '60'
@@ -894,7 +969,7 @@
     human: IHO S-60 3.0.0
     urn: urn:iho:s:60:ed-3.0.0
   style: v3
-- id: iho.standard.0145
+- id: iho.standard.0152
   identifier:
     _type: pubid:iho:standard
     number: '61'
@@ -903,7 +978,7 @@
     human: IHO S-61 1.0.0
     urn: urn:iho:s:61:ed-1.0.0
   style: v3
-- id: iho.standard.0146
+- id: iho.standard.0153
   identifier:
     _type: pubid:iho:standard
     number: '62'
@@ -912,7 +987,7 @@
     human: IHO S-62 1.1.0
     urn: urn:iho:s:62:ed-1.1.0
   style: v3
-- id: iho.standard.0147
+- id: iho.standard.0154
   identifier:
     _type: pubid:iho:standard
     number: '63'
@@ -921,7 +996,7 @@
     human: IHO S-63 1.2.1
     urn: urn:iho:s:63:ed-1.2.1
   style: v3
-- id: iho.standard.0148
+- id: iho.standard.0155
   identifier:
     _type: pubid:iho:standard
     number: '64'
@@ -930,7 +1005,7 @@
     human: IHO S-64 3.0.2
     urn: urn:iho:s:64:ed-3.0.2
   style: v3
-- id: iho.standard.0149
+- id: iho.standard.0156
   identifier:
     _type: pubid:iho:standard
     number: '64'
@@ -939,7 +1014,7 @@
     human: IHO S-64 3.0.3
     urn: urn:iho:s:64:ed-3.0.3
   style: v3
-- id: iho.standard.0150
+- id: iho.standard.0157
   identifier:
     _type: pubid:iho:standard
     number: '65'
@@ -948,7 +1023,7 @@
     human: IHO S-65 2.1.0
     urn: urn:iho:s:65:ed-2.1.0
   style: v3
-- id: iho.standard.0151
+- id: iho.standard.0158
   identifier:
     _type: pubid:iho:standard
     number: '65'
@@ -961,7 +1036,7 @@
   non_normalized_aliases:
   - spelling: IHO S-65 Ap. A 1.0.0
     style: v3
-- id: iho.standard.0152
+- id: iho.standard.0159
   identifier:
     _type: pubid:iho:standard
     number: '65'
@@ -974,7 +1049,7 @@
   non_normalized_aliases:
   - spelling: IHO S-65 Ap. B 1.0.0
     style: v3
-- id: iho.standard.0153
+- id: iho.standard.0160
   identifier:
     _type: pubid:iho:standard
     number: '65'
@@ -987,7 +1062,7 @@
   non_normalized_aliases:
   - spelling: IHO S-65 Ap. B 1.1.0
     style: v3
-- id: iho.standard.0154
+- id: iho.standard.0161
   identifier:
     _type: pubid:iho:standard
     number: '65'
@@ -1000,7 +1075,7 @@
   non_normalized_aliases:
   - spelling: IHO S-65 Ap. B 1.2.0
     style: v3
-- id: iho.standard.0155
+- id: iho.standard.0162
   identifier:
     _type: pubid:iho:standard
     number: '66'
@@ -1009,7 +1084,7 @@
     human: IHO S-66 1.1.0
     urn: urn:iho:s:66:ed-1.1.0
   style: v3
-- id: iho.standard.0156
+- id: iho.standard.0163
   identifier:
     _type: pubid:iho:standard
     number: '66'
@@ -1018,7 +1093,7 @@
     human: IHO S-66 2.0.0
     urn: urn:iho:s:66:ed-2.0.0
   style: v3
-- id: iho.standard.0157
+- id: iho.standard.0164
   identifier:
     _type: pubid:iho:standard
     number: '66'
@@ -1028,7 +1103,7 @@
     human: IHO S-66 2.0.0 Sup 4
     urn: urn:iho:s:66:ed-2.0.0:sup-4
   style: v3
-- id: iho.standard.0158
+- id: iho.standard.0165
   identifier:
     _type: pubid:iho:standard
     number: '66'
@@ -1037,7 +1112,7 @@
     human: IHO S-66 Sup 1
     urn: urn:iho:s:66:sup-1
   style: v3
-- id: iho.standard.0159
+- id: iho.standard.0166
   identifier:
     _type: pubid:iho:standard
     number: '66'
@@ -1049,7 +1124,7 @@
   non_normalized_aliases:
   - spelling: IHO S-66 Suppl 4
     style: v3
-- id: iho.standard.0160
+- id: iho.standard.0167
   identifier:
     _type: pubid:iho:standard
     number: '67'
@@ -1058,7 +1133,7 @@
     human: IHO S-67 1.0.0
     urn: urn:iho:s:67:ed-1.0.0
   style: v3
-- id: iho.standard.0161
+- id: iho.standard.0168
   identifier:
     _type: pubid:iho:standard
     number: '68'
@@ -1067,7 +1142,7 @@
     human: IHO S-68 1.1.0
     urn: urn:iho:s:68:ed-1.1.0
   style: v3
-- id: iho.standard.0162
+- id: iho.standard.0169
   identifier:
     _type: pubid:iho:standard
     number: '8'
@@ -1080,7 +1155,7 @@
   non_normalized_aliases:
   - spelling: IHO S-8B 1.0.0
     style: v3
-- id: iho.standard.0163
+- id: iho.standard.0170
   identifier:
     _type: pubid:iho:standard
     number: '8'
@@ -1093,7 +1168,7 @@
   non_normalized_aliases:
   - spelling: IHO S-8A 1.0.1
     style: v3
-- id: iho.standard.0164
+- id: iho.standard.0171
   identifier:
     _type: pubid:iho:standard
     number: '97'
@@ -1102,7 +1177,7 @@
     human: IHO S-97 1.1.0
     urn: urn:iho:s:97:ed-1.1.0
   style: v3
-- id: iho.standard.0165
+- id: iho.standard.0172
   identifier:
     _type: pubid:iho:standard
     number: '98'
@@ -1111,7 +1186,7 @@
     human: IHO S-98 1.0.0
     urn: urn:iho:s:98:ed-1.0.0
   style: v3
-- id: iho.standard.0166
+- id: iho.standard.0173
   identifier:
     _type: pubid:iho:standard
     number: '98'
@@ -1121,7 +1196,7 @@
     human: IHO S-98 1.0.0 Annex A
     urn: urn:iho:s:98:ed-1.0.0:annex-A
   style: v3
-- id: iho.standard.0167
+- id: iho.standard.0174
   identifier:
     _type: pubid:iho:standard
     number: '98'
@@ -1131,7 +1206,7 @@
     human: IHO S-98 1.0.0 Annex C
     urn: urn:iho:s:98:ed-1.0.0:annex-C
   style: v3
-- id: iho.standard.0168
+- id: iho.standard.0175
   identifier:
     _type: pubid:iho:standard
     number: '98'
@@ -1141,7 +1216,7 @@
     human: IHO S-98 1.0.0 Part A
     urn: urn:iho:s:98:ed-1.0.0:part-A
   style: v3
-- id: iho.standard.0169
+- id: iho.standard.0176
   identifier:
     _type: pubid:iho:standard
     number: '98'
@@ -1151,7 +1226,7 @@
     human: IHO S-98 1.0.0 Part B
     urn: urn:iho:s:98:ed-1.0.0:part-B
   style: v3
-- id: iho.standard.0170
+- id: iho.standard.0177
   identifier:
     _type: pubid:iho:standard
     number: '98'
@@ -1162,7 +1237,7 @@
     human: IHO S-98 Part A 1.0.0 (2024)
     urn: urn:iho:s:98:part-A:ed-1.0.0:year-2024
   style: v3
-- id: iho.standard.0171
+- id: iho.standard.0178
   identifier:
     _type: pubid:iho:standard
     number: '98'
@@ -1171,7 +1246,7 @@
     human: IHO S-98 Part D
     urn: urn:iho:s:98:part-D
   style: v3
-- id: iho.standard.0172
+- id: iho.standard.0179
   identifier:
     _type: pubid:iho:standard
     number: '99'
@@ -1180,7 +1255,7 @@
     human: IHO S-99 1.1.0
     urn: urn:iho:s:99:ed-1.1.0
   style: v3
-- id: iho.standard.0173
+- id: iho.standard.0180
   identifier:
     _type: pubid:iho:standard
     number: '99'
