@@ -1,11 +1,4 @@
 ---
-- id: iec.debt.d48d40f1e4ff
-  input: ISO/IEC 19772:2009(en)/DAM1:2019
-  expect:
-    error:
-      code: unclassified
-  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''FRAGC'', ''FRAG''] at line 1 char 24.'
 - id: iec.debt.89c853428c42
   input: IEC 60050-802/COR1/FRAGC1 ED1
   expect:
@@ -878,7 +871,7 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of ['':'', ''-'', ''‑'', ''‐'', ''CSV'', ''CMV'', ''RLV'', ''SER'',
     ''EXV'', ''PAC'', ''PRV'', ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'',
-    '' '', ''('', ''(all parts)''] at line 1 char 10.'
+    ''('', '' '', ''(all parts)''] at line 1 char 10.'
 - id: iec.debt.d9aea3566bc2
   input: IEC CAB-P01:2023-04, Ed. 2.0
   expect:

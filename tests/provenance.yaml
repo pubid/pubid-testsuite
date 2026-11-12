@@ -8,12 +8,12 @@ generator:
   exporter_sha256: c796669236b762f52bb8e2e8463a4f825f84e84d2231c3734637f1cbaabe6400
 oracle:
   gem: pubid
-  commit: dbf611b737a2f2249c57925e052b061cfbe02a31
+  commit: b8db61aef343b70bfdffe9d19a836ca01fe1c141
   clean: true
   dirty_paths: []
   parsanol_version: "~> 1.3.122"
   grammar:
-    commit: c711eb612df90db8221fa08d6ff83fa4cdb60de6
+    commit: 5fcaf25df155b9a0cedcdd5078f0b1db60b8e611
     artifact_sha256:
       adobe: a667f0f15864ff7a1195007fa172bc4954fce20d62048d0ebaad3c7a4735a702
       aiee: bf4cb5f254c4e94de824ac80c5295a07b5daa096780ca89d0d44e14a6f75a0b1
@@ -40,7 +40,7 @@ oracle:
       iala: f20d99d5073e5d119a19105b3f61bff3e190b17a9d73d5005818b08f7f9203a9
       iana: e0450df515940b67e29a6c3bd74da8021c60bc87962899cf1be219670d947535
       idf: 7f60bee1f7f1bd5743eb5534b7189a8bac31b24d1f0b7812c4c89f52dc875e78
-      iec: 568475b3305a5118803250b969445cbcf0467ba6fc7559c5e90711a45135967a
+      iec: a39cdaf099aa300f106a448127fa1d540f212b804f1cff7d46622305ea1f8d8e
       ieee: 8bffc505c52e871552d78dfc051db7c8107f9f06caef439e223540d2360721d1
       ietf: f438683d51a9415a6374757f19db37bc1b2952082a3426946b8983cc5f97de3d
       iho: e9846db728001679c67bb1fdadbbd9693e8ab9c3d3b0695bfb8f5bb548a99914
@@ -64,36 +64,23 @@ oracle:
       w3c: 3e03a9cfc981cc620fc0a8611567d97bbcb05615c439d81c6af453b4afe98aa4
       xsf: bc38648695a4aef4f2bb33c8867c1b4072c1954d8714abe9abf19fa7ab288091
 repository:
-  commit: 54e088a2bd7f9d37bf9deacd26d83e4fcaff611f
+  commit: b33a02eea96f1e52aace6f675b57328d421691bb
   clean: false
   dirty_paths:
   - reference-docs/iec/SUMMARY.txt
-  - reference-docs/iec/identifiers/full/iec-pubid.txt
   - reference-docs/iec/identifiers/full/iso-iec-pubid.txt
   - reference-docs/iec/identifiers/pass/amendment.txt
-  - reference-docs/iec/identifiers/pass/corrigendum.txt
-  - reference-docs/iec/identifiers/pass/interpretation_sheet.txt
   - tests/iec/_debt.yaml
   - tests/iec/_normalization.yaml
   - tests/iec/amendment.yaml
-  - tests/iec/corrigendum.yaml
-  - tests/iec/fragment_identifier.yaml
-  - tests/iec/guide.yaml
-  - tests/iec/international_standard.yaml
-  - tests/iec/interpretation_sheet.yaml
-  - tests/iec/operational_document.yaml
-  - tests/iec/publicly_available_specification.yaml
-  - tests/iec/sheet_identifier.yaml
-  - tests/iec/systems_reference_document.yaml
-  - tests/iec/technical_report.yaml
-  - tests/iec/technical_specification.yaml
+  - tests/provenance.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 43
   payloads: 354
   cases: 99775
-  aliases: 11815
+  aliases: 11816
   negatives: 704
 payloads:
 - path: amca/_debt.yaml
@@ -559,17 +546,17 @@ payloads:
   sha256: 8f4dd60f47282f8eacd79593ae15535d83c7e3a3f927a9f30641d1af3b74ae02
   bytes: 20073
 - path: iec/_debt.yaml
-  sha256: 5c597e9df54d3163ba2d681162aa6d048e8198f501dec8c86139c4bd7fea1f9c
-  bytes: 41954
+  sha256: fdb645a594dac5757006eef5d37df1a10044e611588385a4cc70d3f8374d534d
+  bytes: 41691
 - path: iec/_negative.yaml
   sha256: 408bdde963e2527a294542344c094dbc2b5ec8f6a1588240d9ecd4d36a1c784a
   bytes: 16025
 - path: iec/_normalization.yaml
-  sha256: 66fe2378bcc277e773d9c0540519ba4938c976140b56cbe146d6ffea8900f351
-  bytes: 3310
+  sha256: 6570e09fcbcb483490e98f551c91a5609deac1546bfeb60b8f838d3bd4076e6a
+  bytes: 3391
 - path: iec/amendment.yaml
-  sha256: 23b13f973ffd66f417f37e2c63d1961a032ffc239cabaa3d30849bd8ee1e3a89
-  bytes: 265257
+  sha256: a66dcab89895079918fb16feb5d23e06c59236702d7ecbe46b07b070c7d75f1a
+  bytes: 265291
 - path: iec/corrigendum.yaml
   sha256: bec792a773e835b7fcf5aa3d68af6bc41018481e0aae1c6ada8f91c7c087bf0a
   bytes: 96925

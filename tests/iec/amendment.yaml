@@ -9685,7 +9685,7 @@
       _type: pubid:iec:international-standard
       languages:
       - code: en
-        original_code: E
+        original_code: en
       publisher: ISO
       copublishers:
       - IEC
@@ -9694,9 +9694,10 @@
   representations:
     human: ISO/IEC 19772:2009(en)/DAM1:2019
     urn: urn:iec:std:iso-iec:19772:2009:::::amd:1:2019
-  render_unreparseable: true
   style: v3
   non_normalized_aliases:
+  - spelling: ISO/IEC 19772:2009(en)/DAM 1:2019
+    style: v3
   - spelling: ISO/IEC 19772:2009/DAM 1:2019(E)
     style: v3
 - id: iec.amendment.10232
