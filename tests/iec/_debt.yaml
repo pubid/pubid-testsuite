@@ -1,4 +1,11 @@
 ---
+- id: iec.debt.d48d40f1e4ff
+  input: ISO/IEC 19772:2009(en)/DAM1:2019
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''FRAGC'', ''FRAG''] at line 1 char 24.'
 - id: iec.debt.89c853428c42
   input: IEC 60050-802/COR1/FRAGC1 ED1
   expect:
@@ -19,18 +26,18 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''/'', '' '', ''Technology Report'', ''Trend Report'', ''White
-    Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI Guide'', ''ANW Frag'', ''CD Guide'',
-    ''NP Guide'', ''PRF Frag'', ''PWI Frag'', ''WD G'
+    expected one of [''/'', '' '', ''FPDAM'', ''PDAM'', ''FDAM'', ''DAM'', ''Technology
+    Report'', ''Trend Report'', ''White Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI
+    Guide'', ''ANW Frag'', ''CD Guide'', ''NP Guide'
 - id: iec.debt.bbb6c87c557a
   input: IEC CAB-P02
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''/'', '' '', ''Technology Report'', ''Trend Report'', ''White
-    Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI Guide'', ''ANW Frag'', ''CD Guide'',
-    ''NP Guide'', ''PRF Frag'', ''PWI Frag'', ''WD G'
+    expected one of [''/'', '' '', ''FPDAM'', ''PDAM'', ''FDAM'', ''DAM'', ''Technology
+    Report'', ''Trend Report'', ''White Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI
+    Guide'', ''ANW Frag'', ''CD Guide'', ''NP Guide'
 - id: iec.debt.3810a1cd52b4
   input: "IECEE OD-1000\t4.4"
   expect:
@@ -878,72 +885,72 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''/'', '' '', ''Technology Report'', ''Trend Report'', ''White
-    Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI Guide'', ''ANW Frag'', ''CD Guide'',
-    ''NP Guide'', ''PRF Frag'', ''PWI Frag'', ''WD G'
+    expected one of [''/'', '' '', ''FPDAM'', ''PDAM'', ''FDAM'', ''DAM'', ''Technology
+    Report'', ''Trend Report'', ''White Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI
+    Guide'', ''ANW Frag'', ''CD Guide'', ''NP Guide'
 - id: iec.debt.96e11b131d19
   input: IEC CAB-P01:2023-04, Ed. 2.0 Redline version
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''/'', '' '', ''Technology Report'', ''Trend Report'', ''White
-    Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI Guide'', ''ANW Frag'', ''CD Guide'',
-    ''NP Guide'', ''PRF Frag'', ''PWI Frag'', ''WD G'
+    expected one of [''/'', '' '', ''FPDAM'', ''PDAM'', ''FDAM'', ''DAM'', ''Technology
+    Report'', ''Trend Report'', ''White Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI
+    Guide'', ''ANW Frag'', ''CD Guide'', ''NP Guide'
 - id: iec.debt.fe58a261261b
   input: IEC CAB-P02:2021-07, Ed. 1.1
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''/'', '' '', ''Technology Report'', ''Trend Report'', ''White
-    Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI Guide'', ''ANW Frag'', ''CD Guide'',
-    ''NP Guide'', ''PRF Frag'', ''PWI Frag'', ''WD G'
+    expected one of [''/'', '' '', ''FPDAM'', ''PDAM'', ''FDAM'', ''DAM'', ''Technology
+    Report'', ''Trend Report'', ''White Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI
+    Guide'', ''ANW Frag'', ''CD Guide'', ''NP Guide'
 - id: iec.debt.732f6a6c5947
   input: IEC CAB-P02:2021-07, Ed. 1.1 Redline version
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''/'', '' '', ''Technology Report'', ''Trend Report'', ''White
-    Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI Guide'', ''ANW Frag'', ''CD Guide'',
-    ''NP Guide'', ''PRF Frag'', ''PWI Frag'', ''WD G'
+    expected one of [''/'', '' '', ''FPDAM'', ''PDAM'', ''FDAM'', ''DAM'', ''Technology
+    Report'', ''Trend Report'', ''White Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI
+    Guide'', ''ANW Frag'', ''CD Guide'', ''NP Guide'
 - id: iec.debt.38abb80fce57
   input: IEC CAB-G01:2025-02, Ed. 2.1
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''/'', '' '', ''Technology Report'', ''Trend Report'', ''White
-    Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI Guide'', ''ANW Frag'', ''CD Guide'',
-    ''NP Guide'', ''PRF Frag'', ''PWI Frag'', ''WD G'
+    expected one of [''/'', '' '', ''FPDAM'', ''PDAM'', ''FDAM'', ''DAM'', ''Technology
+    Report'', ''Trend Report'', ''White Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI
+    Guide'', ''ANW Frag'', ''CD Guide'', ''NP Guide'
 - id: iec.debt.e4d592e2c361
   input: IEC CAB-G01:2025-02, Ed. 2.1 Redline version
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''/'', '' '', ''Technology Report'', ''Trend Report'', ''White
-    Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI Guide'', ''ANW Frag'', ''CD Guide'',
-    ''NP Guide'', ''PRF Frag'', ''PWI Frag'', ''WD G'
+    expected one of [''/'', '' '', ''FPDAM'', ''PDAM'', ''FDAM'', ''DAM'', ''Technology
+    Report'', ''Trend Report'', ''White Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI
+    Guide'', ''ANW Frag'', ''CD Guide'', ''NP Guide'
 - id: iec.debt.3d05be40a717
   input: IEC CAB-G02:2022-09, Ed. 1.1
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''/'', '' '', ''Technology Report'', ''Trend Report'', ''White
-    Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI Guide'', ''ANW Frag'', ''CD Guide'',
-    ''NP Guide'', ''PRF Frag'', ''PWI Frag'', ''WD G'
+    expected one of [''/'', '' '', ''FPDAM'', ''PDAM'', ''FDAM'', ''DAM'', ''Technology
+    Report'', ''Trend Report'', ''White Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI
+    Guide'', ''ANW Frag'', ''CD Guide'', ''NP Guide'
 - id: iec.debt.21ab6afa3f2a
   input: IEC CAB-G02:2022-09, Ed. 1.1 Redline version
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''/'', '' '', ''Technology Report'', ''Trend Report'', ''White
-    Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI Guide'', ''ANW Frag'', ''CD Guide'',
-    ''NP Guide'', ''PRF Frag'', ''PWI Frag'', ''WD G'
+    expected one of [''/'', '' '', ''FPDAM'', ''PDAM'', ''FDAM'', ''DAM'', ''Technology
+    Report'', ''Trend Report'', ''White Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI
+    Guide'', ''ANW Frag'', ''CD Guide'', ''NP Guide'
 - id: iec.debt.ddc08ca600a8
   input: IEC CABPUB01:2022-09, Ed. 1.1 Redline version
   expect:
@@ -958,18 +965,18 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''/'', '' '', ''Technology Report'', ''Trend Report'', ''White
-    Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI Guide'', ''ANW Frag'', ''CD Guide'',
-    ''NP Guide'', ''PRF Frag'', ''PWI Frag'', ''WD G'
+    expected one of [''/'', '' '', ''FPDAM'', ''PDAM'', ''FDAM'', ''DAM'', ''Technology
+    Report'', ''Trend Report'', ''White Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI
+    Guide'', ''ANW Frag'', ''CD Guide'', ''NP Guide'
 - id: iec.debt.99e59943d5e3
   input: IEC CAB-PM01:2022-09, Ed. 2.1 Redline version
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''/'', '' '', ''Technology Report'', ''Trend Report'', ''White
-    Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI Guide'', ''ANW Frag'', ''CD Guide'',
-    ''NP Guide'', ''PRF Frag'', ''PWI Frag'', ''WD G'
+    expected one of [''/'', '' '', ''FPDAM'', ''PDAM'', ''FDAM'', ''DAM'', ''Technology
+    Report'', ''Trend Report'', ''White Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI
+    Guide'', ''ANW Frag'', ''CD Guide'', ''NP Guide'
 - id: iec.debt.03f6dd304324
   input: IEC CAB Vademecum:2022-09, Ed. 2.1
   expect:
@@ -990,18 +997,18 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''/'', '' '', ''Technology Report'', ''Trend Report'', ''White
-    Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI Guide'', ''ANW Frag'', ''CD Guide'',
-    ''NP Guide'', ''PRF Frag'', ''PWI Frag'', ''WD G'
+    expected one of [''/'', '' '', ''FPDAM'', ''PDAM'', ''FDAM'', ''DAM'', ''Technology
+    Report'', ''Trend Report'', ''White Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI
+    Guide'', ''ANW Frag'', ''CD Guide'', ''NP Guide'
 - id: iec.debt.d995f7e0a9d5
   input: IEC CAB-RMG01:2022-09, Ed. 1.1 Redline version
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''/'', '' '', ''Technology Report'', ''Trend Report'', ''White
-    Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI Guide'', ''ANW Frag'', ''CD Guide'',
-    ''NP Guide'', ''PRF Frag'', ''PWI Frag'', ''WD G'
+    expected one of [''/'', '' '', ''FPDAM'', ''PDAM'', ''FDAM'', ''DAM'', ''Technology
+    Report'', ''Trend Report'', ''White Paper'', ''ANW Guide'', ''PRF Guide'', ''PWI
+    Guide'', ''ANW Frag'', ''CD Guide'', ''NP Guide'
 - id: iec.debt.8ad5fc5c64d2
   input: IEC CA 01:2025-10, Ed. 5.0 Redline version
   expect:

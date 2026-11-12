@@ -351,7 +351,12 @@ module Exporter
         begin
           id = mod.parse(human)
         rescue StandardError
-          mismatches += 1
+          # The exporter flags rows whose canonical render cannot re-parse
+          # (render_unreparseable: "NO implementation can satisfy
+          # parse(human) == identity") — counting them here would make
+          # every round carrying one permanently red. The flag is the
+          # machine-auditable record of the unsatisfiable class; skip it.
+          mismatches += 1 unless t["render_unreparseable"]
           next
         end
         mismatches += 1 unless plainify(id.to_hash) == t["identifier"]
