@@ -9,8 +9,9 @@ generator:
 oracle:
   gem: pubid
   commit: d9fc148a2eb695851d1a4738abdfcffd012d9802
-  clean: true
-  dirty_paths: []
+  clean: false
+  dirty_paths:
+  - spec/fixtures/nist/identifiers/pass/federal_information_processing_standards.txt
   parsanol_version: "~> 1.3.122"
   grammar:
     commit: 3d408f1fa6c1267ec345731a6baa0f306e16c2f4
@@ -64,28 +65,12 @@ oracle:
       w3c: 3e03a9cfc981cc620fc0a8611567d97bbcb05615c439d81c6af453b4afe98aa4
       xsf: bc38648695a4aef4f2bb33c8867c1b4072c1954d8714abe9abf19fa7ab288091
 repository:
-  commit: f9493dfa8fd8b05ce4c5ea99c1fd5f136e72143d
+  commit: 5a1885c6d271630f07ad2e2497238ec3c35feeb0
   clean: false
   dirty_paths:
   - reference-docs/nist/identifiers/pass/federal_information_processing_standards.txt
   - tests/nist/_normalization.yaml
-  - tests/nist/circular.yaml
-  - tests/nist/commercial_standard.yaml
-  - tests/nist/commercial_standard_emergency.yaml
-  - tests/nist/commercial_standards_monthly.yaml
-  - tests/nist/crpl_report.yaml
   - tests/nist/federal_information_processing_standards.yaml
-  - tests/nist/grant_contractor_report.yaml
-  - tests/nist/handbook.yaml
-  - tests/nist/identifier.yaml
-  - tests/nist/interagency_report.yaml
-  - tests/nist/letter_circular.yaml
-  - tests/nist/miscellaneous_publication.yaml
-  - tests/nist/monograph.yaml
-  - tests/nist/nsrds.yaml
-  - tests/nist/report.yaml
-  - tests/nist/special_publication.yaml
-  - tests/nist/technical_note.yaml
   - tests/provenance.yaml
 ruby:
   version: 3.4.8
@@ -93,7 +78,7 @@ counts:
   flavors: 43
   payloads: 354
   cases: 99745
-  aliases: 11805
+  aliases: 11773
   negatives: 704
 payloads:
 - path: amca/_debt.yaml
@@ -850,8 +835,8 @@ payloads:
   sha256: 609a854a70f35584c8ccd76d5cd1da9c3153ce4443abf68d301d619a74b3c981
   bytes: 1201
 - path: nist/_normalization.yaml
-  sha256: e1fe6de324dc9abba8768bee205f7ab33a7ed2f1195026d8a6f6bacacb3290cb
-  bytes: 108149
+  sha256: 8cc1093858965a58a4d9e58bbe3d8da836d8c2728e0b86d3c5b701508711c1be
+  bytes: 108116
 - path: nist/circular.yaml
   sha256: 83e81139cf10a1726dfd48f85a99015bae2d3148b274c3874402647cb4c1b337
   bytes: 198647
@@ -868,8 +853,8 @@ payloads:
   sha256: 1efb513903ebba3cfb9f0d828654c2b941f2685c7a20c27c57a24e17f6db0eb5
   bytes: 95248
 - path: nist/federal_information_processing_standards.yaml
-  sha256: 2fa98bb9cb92af270977f027a27fd4840753c3959d4783434fe01790696d7517
-  bytes: 125247
+  sha256: d52ddeffd4be25c020ef458abb9e9af57d177bf0542624deee0b010dc0d1c8e4
+  bytes: 123696
 - path: nist/grant_contractor_report.yaml
   sha256: 553fbb7d0b1061c717190215d54ad35df8849244425d5ea38acc4deb42a5edc3
   bytes: 29967
