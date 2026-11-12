@@ -25902,6 +25902,9 @@
     human: NIST SP 800-53
     urn: urn:nist:sp:800-53.supp
   style: v3
+  non_normalized_aliases:
+  - spelling: NIST 800-53
+    style: v3
 - id: nist.special_publication.18458
   identifier:
     _type: pubid:nist:special-publication
@@ -28726,6 +28729,9 @@
     human: NIST SP 800-90B
     urn: urn:nist:sp:800-90.B.supp
   style: v3
+  non_normalized_aliases:
+  - spelling: NIST 800-90B
+    style: v3
 - id: nist.special_publication.18653
   identifier:
     _type: pubid:nist:special-publication
@@ -32517,4 +32523,36 @@
   style: v3
   non_normalized_aliases:
   - spelling: NIST.SP.984.4
+    style: v3
+- id: nist.special_publication.19826
+  identifier:
+    _type: pubid:nist:special-publication
+    number: 800-53
+    publisher: NIST
+    series: SP
+    subseries: '800'
+    publisher_was_parsed: false
+  representations:
+    human: SP 800-53
+    urn: urn:nist:sp:800-53.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: 800-53
+    style: v3
+- id: nist.special_publication.19827
+  identifier:
+    _type: pubid:nist:special-publication
+    number: 800-90
+    part:
+      value: B
+    publisher: NIST
+    series: SP
+    subseries: '800'
+    publisher_was_parsed: false
+  representations:
+    human: SP 800-90B
+    urn: urn:nist:sp:800-90.B.supp
+  style: v3
+  non_normalized_aliases:
+  - spelling: 800-90B
     style: v3

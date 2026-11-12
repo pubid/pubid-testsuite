@@ -8,12 +8,12 @@ generator:
   exporter_sha256: c796669236b762f52bb8e2e8463a4f825f84e84d2231c3734637f1cbaabe6400
 oracle:
   gem: pubid
-  commit: b8db61aef343b70bfdffe9d19a836ca01fe1c141
+  commit: b067b8ad7d7688bf5b053426584722804db4f338
   clean: true
   dirty_paths: []
   parsanol_version: "~> 1.3.122"
   grammar:
-    commit: 5fcaf25df155b9a0cedcdd5078f0b1db60b8e611
+    commit: 2dc332d72c8806f617e0ddbf6d7ca7b798e4b644
     artifact_sha256:
       adobe: a667f0f15864ff7a1195007fa172bc4954fce20d62048d0ebaad3c7a4735a702
       aiee: bf4cb5f254c4e94de824ac80c5295a07b5daa096780ca89d0d44e14a6f75a0b1
@@ -31,6 +31,7 @@ oracle:
       cie: bbcfaab9c2cbc55bdb23bfd7d7b5bcc1b8ad027ecdf0696aed6d7c4a4a7ee6ab
       csa: 40a4283112bbec8ca089e0c6ebbab49196200307779c0ef0a9cb10af20fdc8fd
       doi: fab7d55711531e2af2e131d561a03b2d1d244ef498eddf44ae386cb9ecd4bc15
+      doi_pfs: 93f7626fabca9eb94e939ecc1eaa1fda6ba4876d835fcdceaaaab839ffec1b7a
       easc: 165dd59a1bd937aa27def25b4e2d25dc61625afe779527b2d3bf4c90bc59a85a
       ecma: 1472af93940dd3f7947463d998e06a3c3e0f8cce8b928bb15f31f99a77631d59
       etsi: a1fbdf18afe22f4c33083865ad7cc787be3bdf84fb05af51afed5e967e883f6c
@@ -51,7 +52,7 @@ oracle:
       jcgm: 47df9dac3c55cfcc5070f014d314853aee0ee44db7736df04dda8c98b216db07
       jis: a5ee5d30fe49effd446bc22037601470a72260cbe1cd198af6195f7a8f613b43
       nesc: 6b1473f24465cfc50e00f136f941fa3eb979ba7bb3e6044153252c91423f0784
-      nist: '01484fb1e10a2ffd484df36f5bc0462351a089cd17c0135cc9b681224d009a80'
+      nist: eb746510a36a443c43b42eb9698e560f886e70a43f3d8611530abaa8e2bb3c03
       oasis: 2726dc5dbccf479cb43b2c0f55cb15be9928296e23314aa1454a17537c6951b5
       ogc: d885bb1b723a671a2157d0e8d9e18c60670561e6e16e2c47351946c4df9de8dd
       oiml: ddbd1647cadd09d0d6b2de53ccdb4ef959d3106228492a541ec34d12a99794a6
@@ -64,23 +65,22 @@ oracle:
       w3c: 3e03a9cfc981cc620fc0a8611567d97bbcb05615c439d81c6af453b4afe98aa4
       xsf: bc38648695a4aef4f2bb33c8867c1b4072c1954d8714abe9abf19fa7ab288091
 repository:
-  commit: b33a02eea96f1e52aace6f675b57328d421691bb
+  commit: ec171b521b78a17506a94306f09a0a5f90308ee7
   clean: false
   dirty_paths:
-  - reference-docs/iec/SUMMARY.txt
-  - reference-docs/iec/identifiers/full/iso-iec-pubid.txt
-  - reference-docs/iec/identifiers/pass/amendment.txt
-  - tests/iec/_debt.yaml
-  - tests/iec/_normalization.yaml
-  - tests/iec/amendment.yaml
+  - reference-docs/nist/identifiers/full/allrecords.txt
+  - reference-docs/nist/identifiers/full/complete.txt
+  - reference-docs/nist/identifiers/pass/special_publication.txt
+  - tests/nist/_normalization.yaml
+  - tests/nist/special_publication.yaml
   - tests/provenance.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 43
   payloads: 354
-  cases: 99775
-  aliases: 11816
+  cases: 99777
+  aliases: 11820
   negatives: 704
 payloads:
 - path: amca/_debt.yaml
@@ -837,8 +837,8 @@ payloads:
   sha256: 609a854a70f35584c8ccd76d5cd1da9c3153ce4443abf68d301d619a74b3c981
   bytes: 1201
 - path: nist/_normalization.yaml
-  sha256: 8cc1093858965a58a4d9e58bbe3d8da836d8c2728e0b86d3c5b701508711c1be
-  bytes: 108116
+  sha256: 9da760e5a71fb1cd5560e9b9b2e59a97eec03ba20f39ab486d96f89ed1f4f4b7
+  bytes: 108264
 - path: nist/circular.yaml
   sha256: 83e81139cf10a1726dfd48f85a99015bae2d3148b274c3874402647cb4c1b337
   bytes: 198647
@@ -891,8 +891,8 @@ payloads:
   sha256: 55594a8d1ad6edfb6de7ee1dd012e44d35084c435748e35fe6732cf7143d2657
   bytes: 376785
 - path: nist/special_publication.yaml
-  sha256: e971f07cce23e7cff15e6bc6b0ddb449134c4ac61788d786c9be9b5e11729f71
-  bytes: 748433
+  sha256: 68e2f30bf600921ed24fb1705106f3d3fbfe0640dc54fc3f2eaf0b4fb85f6243
+  bytes: 749287
 - path: nist/technical_note.yaml
   sha256: cf633be7e944dc4ed9adf2a28dbcd6179b621230bc2a26e9992d2512bae53a9d
   bytes: 470635
