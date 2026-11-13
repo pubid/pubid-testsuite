@@ -8,12 +8,11 @@ generator:
   exporter_sha256: c796669236b762f52bb8e2e8463a4f825f84e84d2231c3734637f1cbaabe6400
 oracle:
   gem: pubid
-  commit: b067b8ad7d7688bf5b053426584722804db4f338
+  commit: 112e0c442249f4b347b82d1fd83a3c0cec4c128c
   clean: true
   dirty_paths: []
-  parsanol_version: "~> 1.3.122"
   grammar:
-    commit: 2dc332d72c8806f617e0ddbf6d7ca7b798e4b644
+    commit: b5f139972f833eb2f11812a4cd7b8df8ac0f1475
     artifact_sha256:
       adobe: a667f0f15864ff7a1195007fa172bc4954fce20d62048d0ebaad3c7a4735a702
       aiee: bf4cb5f254c4e94de824ac80c5295a07b5daa096780ca89d0d44e14a6f75a0b1
@@ -26,8 +25,10 @@ oracle:
       bipm: 5665b6ce24ccbd5b241758d83d412a60b10201fc1c02ecb9b4b27bcc7f045f22
       bsi: cb9701177a89cb994c4be2c0fa29398563a6d3173046f8f4afb79d63a39b7ff7
       calconnect: b890f4591ace9354fce15658560810c71e69b10aab9c3b023383c68bfefcb36e
+      calconnect_pfs: 1af8bffc54cf896287b37ef591fb67eae905a4840b0994af5c8d6a0edd87534d
       ccsds: 8ee7278d88d36bcee4ee3c6a4dfa16f84269e2a8f635164cbd518a8b7235e594
       cen_cenelec: 3db98de5f94e1c977eb81ab0eed081a019fd7eb080609e3625920d10c5dc7a5b
+      cen_pfs: 4d05dabc1ee65dff66b7bcbcf95ffddacb62ab2187b2722d55c84691497bd27b
       cie: bbcfaab9c2cbc55bdb23bfd7d7b5bcc1b8ad027ecdf0696aed6d7c4a4a7ee6ab
       csa: 40a4283112bbec8ca089e0c6ebbab49196200307779c0ef0a9cb10af20fdc8fd
       doi: fab7d55711531e2af2e131d561a03b2d1d244ef498eddf44ae386cb9ecd4bc15
@@ -35,6 +36,7 @@ oracle:
       easc: 165dd59a1bd937aa27def25b4e2d25dc61625afe779527b2d3bf4c90bc59a85a
       ecma: 1472af93940dd3f7947463d998e06a3c3e0f8cce8b928bb15f31f99a77631d59
       etsi: a1fbdf18afe22f4c33083865ad7cc787be3bdf84fb05af51afed5e967e883f6c
+      etsi_pfs: a858b236a0982fbe971a39743484fc73b20ec5e1b839495960ac365f8eab5dff
       evs: ca95e554fe7eb8999ec7fc401c3f69f2fc3323c9039fadaf85b22452d8495d8e
       gb: 39ab9a3fa3b9e45ce1a6d5656aa090befb00e02853c48759505ad98677767b06
       gost: f6b71f0d410f4de8f48e290c400b290743bc0ec257098c40cebbe65062f0627d
@@ -65,21 +67,31 @@ oracle:
       w3c: 3e03a9cfc981cc620fc0a8611567d97bbcb05615c439d81c6af453b4afe98aa4
       xsf: bc38648695a4aef4f2bb33c8867c1b4072c1954d8714abe9abf19fa7ab288091
 repository:
-  commit: ec171b521b78a17506a94306f09a0a5f90308ee7
+  commit: ece339a3f7f34db17fe20b69b25dcc3616ae910d
   clean: false
   dirty_paths:
-  - reference-docs/nist/identifiers/full/allrecords.txt
-  - reference-docs/nist/identifiers/full/complete.txt
-  - reference-docs/nist/identifiers/pass/special_publication.txt
-  - tests/nist/_normalization.yaml
-  - tests/nist/special_publication.yaml
-  - tests/provenance.yaml
+  - reference-docs/itu/identifiers/pass/special_publication.txt
+  - tests/itu/addendum.yaml
+  - tests/itu/amendment.yaml
+  - tests/itu/annex_of_recommendation.yaml
+  - tests/itu/appendix_of_recommendation.yaml
+  - tests/itu/combined_identifier.yaml
+  - tests/itu/corrigendum.yaml
+  - tests/itu/errata.yaml
+  - tests/itu/handbook.yaml
+  - tests/itu/question.yaml
+  - tests/itu/radio_regulations.yaml
+  - tests/itu/recommendation.yaml
+  - tests/itu/report.yaml
+  - tests/itu/special_publication.yaml
+  - tests/itu/supplement.yaml
+  - tests/itu/_normalization.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 43
-  payloads: 354
-  cases: 99777
+  payloads: 355
+  cases: 99775
   aliases: 11820
   negatives: 704
 payloads:
@@ -767,50 +779,53 @@ payloads:
 - path: iso/technology_trends_assessments.yaml
   sha256: a672d60051d3ef9fc8f36bb306ccf28fe18d96b96e7d0443aafbb4a6a0fec51b
   bytes: 2244
+- path: itu/_normalization.yaml
+  sha256: 144c78d636cb4406ba9d0f0bfcf5f7b4052ee4a3fbebc42ee37fb4b18a0cba23
+  bytes: 242
 - path: itu/addendum.yaml
-  sha256: 168f20b3335ace17d73fcb152140d25a4569afa7f8c89b8f23cd98772a798ab2
+  sha256: 1fcd151f88405bb607469bcc71d715919eb174d43e83cc937af88c9995f41c88
   bytes: 7798
 - path: itu/amendment.yaml
-  sha256: 3caaae46813a35e8826567de70806887cdabbfbd2cdc1f660c34911eda658410
+  sha256: d66b975a5ceb413031693cc088b67688ebff1bc3bb6c077dec60b0214afd09d0
   bytes: 7475
 - path: itu/annex.yaml
   sha256: 6dad1840df07854fda43c325cabf7540db761890022a62c676b375df32dd94c7
   bytes: 1401
 - path: itu/annex_of_recommendation.yaml
-  sha256: 4a9118cb4c41aa48427f386a155216cbcbcf832864dde282f9df2423e27d9308
+  sha256: 818a298a304d07fb723bb4de0ebb11d5975feb9ce7a77f14fb785e4deeb0a314
   bytes: 5195
 - path: itu/appendix_of_recommendation.yaml
-  sha256: ad3dfb4fc5f19a40ceb8fea41ccef500f9f4fa726bef574fa750c9d2a28432e8
+  sha256: 4b46771afb6e7b28d6b8998e5eaa8f9d9d2ab6b9a1fabc86bf28bd9cd3ba1836
   bytes: 14368
 - path: itu/combined_identifier.yaml
-  sha256: 34947ff19f9e281033147775c6851c2fc6861a45bea0a2cc155949b750d3b659
+  sha256: 0c14fc398d337eec51cbf35b5a0906e499940e923e62d6dca4e92a443e50c91d
   bytes: 4809
 - path: itu/corrigendum.yaml
-  sha256: a7dc7b4a926bf8eefabfc1c7ad37b4dec036b1b5f63a9490838c7e004a8b1ff0
+  sha256: da4f4d4e901d1be8983d1f07d04afe7e4c36436b09203216f28443ee6d3819c7
   bytes: 64728
 - path: itu/errata.yaml
-  sha256: d680fe25037f8c707e5dcdfa074fb1de5ba36aa04bd814544c43f54bcf830b5d
+  sha256: a28fede61f90df834491c37040c028e3c8a770f5ffda311ccdf7fcd271e23adb
   bytes: 1231
 - path: itu/handbook.yaml
-  sha256: 9b391bec172df16a99a23b4d5bd2073fa0549aaa6454a67c0c0f514c89d9912f
+  sha256: 4ef6a7f27902ccc901a11239974e5ae6de427eb81e8127055a394ba3ec7dbddd
   bytes: 3524
 - path: itu/question.yaml
-  sha256: 84b2e7489930452da0ea757e54852838d3594a69f9c824b3cbd5a50a7b81a821
+  sha256: 5184c3defa5278fad8010be32feb2cb1cb35a101d9dbe875b4006c671ae8ef9e
   bytes: 8197
 - path: itu/radio_regulations.yaml
-  sha256: 5371ecc215356961300f16c81495c9a59561fb6acfac0debe73e455f8d2985d5
+  sha256: 9c5e2d66ebdbccc9265f920513ca8b0853c17f1c5af50a1ff4e44bafcd40234c
   bytes: 626
 - path: itu/recommendation.yaml
-  sha256: 6ffa727ff23929357eb700a2c23bb8222d0da903d61283026a5b8f8cebf500dd
+  sha256: ab3a999ad7a27d776a87d373df8ae0cc620b91eb9713b3c56f8c154692251c32
   bytes: 550942
 - path: itu/report.yaml
-  sha256: e1a8c36ddb7b85004dc522ba3414ce69493f8c30c6930eb87563c869519cb46a
+  sha256: 030c558c66d73c6b2f88cfcb285f80ca7ded377e7120dd55394d0661f1c8bbf4
   bytes: 2420
 - path: itu/special_publication.yaml
-  sha256: a054b056483845795940c2b7ffeef3d9db3f3a325fceda0509e6c39f48b61eaf
-  bytes: 3790
+  sha256: 2061d1e8a9cb8b83af59db7d9bd9750fe51b4354c9c3a5321f10503551fbcc3e
+  bytes: 3269
 - path: itu/supplement.yaml
-  sha256: 96d1ec0cdd10862445c7115bf4ac6d61a60a2e4c5751f85fe40ad954480215ad
+  sha256: 0313a37012d9e0b7036eac1148cb733faeb35a6ac4d828b7901d4c39a37cd045
   bytes: 30213
 - path: jcgm/_normalization.yaml
   sha256: 10d8816c6612a4c29da7735fc9f4b1cec6134ccd66b8ff6dd3abb5ca21efeaa5
