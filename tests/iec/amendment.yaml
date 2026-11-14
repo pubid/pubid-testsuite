@@ -367,7 +367,36 @@
   non_normalized_aliases:
   - spelling: IEC/FDAM 60038-1:2019
     style: v3
-- id: iec.amendment.1734
+- id: iec.amendment.1735
+  identifier:
+    _type: pubid:iec:amendment
+    stage: fdamd
+    number: '1'
+    base:
+      _type: pubid:iec:international-standard
+      stage_iteration: '3'
+      number: '60038'
+      part: '2'
+  representations:
+    human: IEC 60038-2.3/FDAM 1
+    urn: 'urn:iec:std:iec:60038-2::::::amd:1:'
+  style: v3
+- id: iec.amendment.1736
+  identifier:
+    _type: pubid:iec:amendment
+    stage_iteration: '3'
+    stage: damd
+    number: '2'
+    year: '2022'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60038'
+      part: '2'
+  representations:
+    human: IEC 60038-2/DAM 2.3:2022
+    urn: urn:iec:std:iec:60038-2::::::amd:2.3:2022
+  style: v3
+- id: iec.amendment.1738
   identifier:
     _type: pubid:iec:amendment
     stage: fdamd
@@ -382,7 +411,7 @@
   non_normalized_aliases:
   - spelling: IEC FDAM 60038
     style: v3
-- id: iec.amendment.1750
+- id: iec.amendment.1754
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -396,7 +425,7 @@
     human: IEC 60050-102:2007/AMD1:2017
     urn: urn:iec:std:iec:60050-102:2007:::::amd:1:2017
   style: v3
-- id: iec.amendment.1751
+- id: iec.amendment.1755
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -411,7 +440,7 @@
     human: IEC 60050-102:2007/AMD1:2017 ED1
     urn: urn:iec:std:iec:60050-102:2007::ed-1:::amd:1:2017
   style: v3
-- id: iec.amendment.1752
+- id: iec.amendment.1756
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -425,7 +454,7 @@
     human: IEC 60050-102:2007/AMD2:2020
     urn: urn:iec:std:iec:60050-102:2007:::::amd:2:2020
   style: v3
-- id: iec.amendment.1753
+- id: iec.amendment.1757
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -440,7 +469,7 @@
     human: IEC 60050-102:2007/AMD2:2020 ED1
     urn: urn:iec:std:iec:60050-102:2007::ed-1:::amd:2:2020
   style: v3
-- id: iec.amendment.1754
+- id: iec.amendment.1758
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -454,7 +483,7 @@
     human: IEC 60050-102:2007/AMD3:2021
     urn: urn:iec:std:iec:60050-102:2007:::::amd:3:2021
   style: v3
-- id: iec.amendment.1755
+- id: iec.amendment.1759
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -469,7 +498,7 @@
     human: IEC 60050-102:2007/AMD3:2021 ED1
     urn: urn:iec:std:iec:60050-102:2007::ed-1:::amd:3:2021
   style: v3
-- id: iec.amendment.1758
+- id: iec.amendment.1762
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -483,7 +512,7 @@
     human: IEC 60050-103:2009/AMD1:2017
     urn: urn:iec:std:iec:60050-103:2009:::::amd:1:2017
   style: v3
-- id: iec.amendment.1759
+- id: iec.amendment.1763
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -498,7 +527,7 @@
     human: IEC 60050-103:2009/AMD1:2017 ED1
     urn: urn:iec:std:iec:60050-103:2009::ed-1:::amd:1:2017
   style: v3
-- id: iec.amendment.1760
+- id: iec.amendment.1764
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -512,7 +541,7 @@
     human: IEC 60050-103:2009/AMD2:2019
     urn: urn:iec:std:iec:60050-103:2009:::::amd:2:2019
   style: v3
-- id: iec.amendment.1761
+- id: iec.amendment.1765
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -527,7 +556,7 @@
     human: IEC 60050-103:2009/AMD2:2019 ED1
     urn: urn:iec:std:iec:60050-103:2009::ed-1:::amd:2:2019
   style: v3
-- id: iec.amendment.1762
+- id: iec.amendment.1766
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -541,7 +570,7 @@
     human: IEC 60050-103:2009/AMD3:2020
     urn: urn:iec:std:iec:60050-103:2009:::::amd:3:2020
   style: v3
-- id: iec.amendment.1763
+- id: iec.amendment.1767
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -556,7 +585,7 @@
     human: IEC 60050-103:2009/AMD3:2020 ED1
     urn: urn:iec:std:iec:60050-103:2009::ed-1:::amd:3:2020
   style: v3
-- id: iec.amendment.1764
+- id: iec.amendment.1768
   identifier:
     _type: pubid:iec:amendment
     number: '4'
@@ -570,7 +599,7 @@
     human: IEC 60050-103:2009/AMD4:2021
     urn: urn:iec:std:iec:60050-103:2009:::::amd:4:2021
   style: v3
-- id: iec.amendment.1765
+- id: iec.amendment.1769
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -585,7 +614,7 @@
     human: IEC 60050-103:2009/AMD4:2021 ED1
     urn: urn:iec:std:iec:60050-103:2009::ed-1:::amd:4:2021
   style: v3
-- id: iec.amendment.1776
+- id: iec.amendment.1780
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -599,7 +628,7 @@
     human: IEC 60050-111:1996/AMD1:2005
     urn: urn:iec:std:iec:60050-111:1996:::::amd:1:2005
   style: v3
-- id: iec.amendment.1777
+- id: iec.amendment.1781
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -614,7 +643,7 @@
     human: IEC 60050-111:1996/AMD1:2005 ED2
     urn: urn:iec:std:iec:60050-111:1996::ed-2:::amd:1:2005
   style: v3
-- id: iec.amendment.1780
+- id: iec.amendment.1784
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -628,7 +657,7 @@
     human: IEC 60050-112:2010/AMD1:2019
     urn: urn:iec:std:iec:60050-112:2010:::::amd:1:2019
   style: v3
-- id: iec.amendment.1781
+- id: iec.amendment.1785
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -643,7 +672,7 @@
     human: IEC 60050-112:2010/AMD1:2019 ED1
     urn: urn:iec:std:iec:60050-112:2010::ed-1:::amd:1:2019
   style: v3
-- id: iec.amendment.1782
+- id: iec.amendment.1786
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -657,7 +686,7 @@
     human: IEC 60050-112:2010/AMD2:2020
     urn: urn:iec:std:iec:60050-112:2010:::::amd:2:2020
   style: v3
-- id: iec.amendment.1783
+- id: iec.amendment.1787
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -672,7 +701,7 @@
     human: IEC 60050-112:2010/AMD2:2020 ED1
     urn: urn:iec:std:iec:60050-112:2010::ed-1:::amd:2:2020
   style: v3
-- id: iec.amendment.1784
+- id: iec.amendment.1788
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -685,7 +714,7 @@
     human: IEC 60050-113/AMD5 ED1
     urn: 'urn:iec:std:iec:60050-113:::ed-1:::amd:5:'
   style: v3
-- id: iec.amendment.1787
+- id: iec.amendment.1791
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -699,7 +728,7 @@
     human: IEC 60050-113:2011/AMD1:2014
     urn: urn:iec:std:iec:60050-113:2011:::::amd:1:2014
   style: v3
-- id: iec.amendment.1788
+- id: iec.amendment.1792
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -714,7 +743,7 @@
     human: IEC 60050-113:2011/AMD1:2014 ED1
     urn: urn:iec:std:iec:60050-113:2011::ed-1:::amd:1:2014
   style: v3
-- id: iec.amendment.1789
+- id: iec.amendment.1793
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -728,7 +757,7 @@
     human: IEC 60050-113:2011/AMD2:2019
     urn: urn:iec:std:iec:60050-113:2011:::::amd:2:2019
   style: v3
-- id: iec.amendment.1790
+- id: iec.amendment.1794
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -743,7 +772,7 @@
     human: IEC 60050-113:2011/AMD2:2019 ED1
     urn: urn:iec:std:iec:60050-113:2011::ed-1:::amd:2:2019
   style: v3
-- id: iec.amendment.1791
+- id: iec.amendment.1795
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -757,7 +786,7 @@
     human: IEC 60050-113:2011/AMD3:2020
     urn: urn:iec:std:iec:60050-113:2011:::::amd:3:2020
   style: v3
-- id: iec.amendment.1792
+- id: iec.amendment.1796
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -772,7 +801,7 @@
     human: IEC 60050-113:2011/AMD3:2020 ED1
     urn: urn:iec:std:iec:60050-113:2011::ed-1:::amd:3:2020
   style: v3
-- id: iec.amendment.1793
+- id: iec.amendment.1797
   identifier:
     _type: pubid:iec:amendment
     number: '4'
@@ -786,7 +815,7 @@
     human: IEC 60050-113:2011/AMD4:2020
     urn: urn:iec:std:iec:60050-113:2011:::::amd:4:2020
   style: v3
-- id: iec.amendment.1794
+- id: iec.amendment.1798
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -801,7 +830,7 @@
     human: IEC 60050-113:2011/AMD4:2020 ED1
     urn: urn:iec:std:iec:60050-113:2011::ed-1:::amd:4:2020
   style: v3
-- id: iec.amendment.1799
+- id: iec.amendment.1803
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -815,7 +844,7 @@
     human: IEC 60050-114:2014/AMD1:2017
     urn: urn:iec:std:iec:60050-114:2014:::::amd:1:2017
   style: v3
-- id: iec.amendment.1800
+- id: iec.amendment.1804
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -830,7 +859,7 @@
     human: IEC 60050-114:2014/AMD1:2017 ED1
     urn: urn:iec:std:iec:60050-114:2014::ed-1:::amd:1:2017
   style: v3
-- id: iec.amendment.1806
+- id: iec.amendment.1810
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -844,7 +873,7 @@
     human: IEC 60050-121:1998/AMD1:2002
     urn: urn:iec:std:iec:60050-121:1998:::::amd:1:2002
   style: v3
-- id: iec.amendment.1807
+- id: iec.amendment.1811
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -859,7 +888,7 @@
     human: IEC 60050-121:1998/AMD1:2002 ED2
     urn: urn:iec:std:iec:60050-121:1998::ed-2:::amd:1:2002
   style: v3
-- id: iec.amendment.1808
+- id: iec.amendment.1812
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -873,7 +902,7 @@
     human: IEC 60050-121:1998/AMD2:2008
     urn: urn:iec:std:iec:60050-121:1998:::::amd:2:2008
   style: v3
-- id: iec.amendment.1809
+- id: iec.amendment.1813
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -888,7 +917,7 @@
     human: IEC 60050-121:1998/AMD2:2008 ED2
     urn: urn:iec:std:iec:60050-121:1998::ed-2:::amd:2:2008
   style: v3
-- id: iec.amendment.1810
+- id: iec.amendment.1814
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -902,7 +931,7 @@
     human: IEC 60050-121:1998/AMD3:2019
     urn: urn:iec:std:iec:60050-121:1998:::::amd:3:2019
   style: v3
-- id: iec.amendment.1811
+- id: iec.amendment.1815
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -917,7 +946,7 @@
     human: IEC 60050-121:1998/AMD3:2019 ED2
     urn: urn:iec:std:iec:60050-121:1998::ed-2:::amd:3:2019
   style: v3
-- id: iec.amendment.1812
+- id: iec.amendment.1816
   identifier:
     _type: pubid:iec:amendment
     number: '4'
@@ -931,7 +960,7 @@
     human: IEC 60050-121:1998/AMD4:2021
     urn: urn:iec:std:iec:60050-121:1998:::::amd:4:2021
   style: v3
-- id: iec.amendment.1813
+- id: iec.amendment.1817
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -946,7 +975,7 @@
     human: IEC 60050-121:1998/AMD4:2021 ED2
     urn: urn:iec:std:iec:60050-121:1998::ed-2:::amd:4:2021
   style: v3
-- id: iec.amendment.1814
+- id: iec.amendment.1818
   identifier:
     _type: pubid:iec:amendment
     number: '5'
@@ -960,7 +989,7 @@
     human: IEC 60050-121:1998/AMD5:2021
     urn: urn:iec:std:iec:60050-121:1998:::::amd:5:2021
   style: v3
-- id: iec.amendment.1815
+- id: iec.amendment.1819
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -975,7 +1004,7 @@
     human: IEC 60050-121:1998/AMD5:2021 ED2
     urn: urn:iec:std:iec:60050-121:1998::ed-2:::amd:5:2021
   style: v3
-- id: iec.amendment.1820
+- id: iec.amendment.1824
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -989,7 +1018,7 @@
     human: IEC 60050-131:1978/AMD1:1984
     urn: urn:iec:std:iec:60050-131:1978:::::amd:1:1984
   style: v3
-- id: iec.amendment.1821
+- id: iec.amendment.1825
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -1004,7 +1033,7 @@
     human: IEC 60050-131:1978/AMD1:1984 ED1
     urn: urn:iec:std:iec:60050-131:1978::ed-1:::amd:1:1984
   style: v3
-- id: iec.amendment.1824
+- id: iec.amendment.1828
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -1018,7 +1047,7 @@
     human: IEC 60050-131:2002/AMD1:2008
     urn: urn:iec:std:iec:60050-131:2002:::::amd:1:2008
   style: v3
-- id: iec.amendment.1825
+- id: iec.amendment.1829
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -1033,7 +1062,7 @@
     human: IEC 60050-131:2002/AMD1:2008 ED2
     urn: urn:iec:std:iec:60050-131:2002::ed-2:::amd:1:2008
   style: v3
-- id: iec.amendment.1826
+- id: iec.amendment.1830
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -1047,7 +1076,7 @@
     human: IEC 60050-131:2002/AMD2:2013
     urn: urn:iec:std:iec:60050-131:2002:::::amd:2:2013
   style: v3
-- id: iec.amendment.1827
+- id: iec.amendment.1831
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -1062,7 +1091,7 @@
     human: IEC 60050-131:2002/AMD2:2013 ED2
     urn: urn:iec:std:iec:60050-131:2002::ed-2:::amd:2:2013
   style: v3
-- id: iec.amendment.1828
+- id: iec.amendment.1832
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -1076,7 +1105,7 @@
     human: IEC 60050-131:2002/AMD3:2019
     urn: urn:iec:std:iec:60050-131:2002:::::amd:3:2019
   style: v3
-- id: iec.amendment.1829
+- id: iec.amendment.1833
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -1091,7 +1120,7 @@
     human: IEC 60050-131:2002/AMD3:2019 ED2
     urn: urn:iec:std:iec:60050-131:2002::ed-2:::amd:3:2019
   style: v3
-- id: iec.amendment.1830
+- id: iec.amendment.1834
   identifier:
     _type: pubid:iec:amendment
     number: '4'
@@ -1105,7 +1134,7 @@
     human: IEC 60050-131:2002/AMD4:2021
     urn: urn:iec:std:iec:60050-131:2002:::::amd:4:2021
   style: v3
-- id: iec.amendment.1831
+- id: iec.amendment.1835
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -1120,7 +1149,7 @@
     human: IEC 60050-131:2002/AMD4:2021 ED2
     urn: urn:iec:std:iec:60050-131:2002::ed-2:::amd:4:2021
   style: v3
-- id: iec.amendment.1832
+- id: iec.amendment.1836
   identifier:
     _type: pubid:iec:amendment
     number: '5'
@@ -1134,7 +1163,7 @@
     human: IEC 60050-131:2002/AMD5:2021
     urn: urn:iec:std:iec:60050-131:2002:::::amd:5:2021
   style: v3
-- id: iec.amendment.1833
+- id: iec.amendment.1837
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -1149,7 +1178,7 @@
     human: IEC 60050-131:2002/AMD5:2021 ED2
     urn: urn:iec:std:iec:60050-131:2002::ed-2:::amd:5:2021
   style: v3
-- id: iec.amendment.1840
+- id: iec.amendment.1844
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -1163,7 +1192,7 @@
     human: IEC 60050-151:1978/AMD1:1987
     urn: urn:iec:std:iec:60050-151:1978:::::amd:1:1987
   style: v3
-- id: iec.amendment.1841
+- id: iec.amendment.1845
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -1178,7 +1207,7 @@
     human: IEC 60050-151:1978/AMD1:1987 ED1
     urn: urn:iec:std:iec:60050-151:1978::ed-1:::amd:1:1987
   style: v3
-- id: iec.amendment.1844
+- id: iec.amendment.1848
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -1192,7 +1221,7 @@
     human: IEC 60050-151:2001/AMD1:2013
     urn: urn:iec:std:iec:60050-151:2001:::::amd:1:2013
   style: v3
-- id: iec.amendment.1845
+- id: iec.amendment.1849
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -1207,7 +1236,7 @@
     human: IEC 60050-151:2001/AMD1:2013 ED2
     urn: urn:iec:std:iec:60050-151:2001::ed-2:::amd:1:2013
   style: v3
-- id: iec.amendment.1846
+- id: iec.amendment.1850
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -1221,7 +1250,7 @@
     human: IEC 60050-151:2001/AMD2:2014
     urn: urn:iec:std:iec:60050-151:2001:::::amd:2:2014
   style: v3
-- id: iec.amendment.1847
+- id: iec.amendment.1851
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -1236,7 +1265,7 @@
     human: IEC 60050-151:2001/AMD2:2014 ED2
     urn: urn:iec:std:iec:60050-151:2001::ed-2:::amd:2:2014
   style: v3
-- id: iec.amendment.1848
+- id: iec.amendment.1852
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -1250,7 +1279,7 @@
     human: IEC 60050-151:2001/AMD3:2019
     urn: urn:iec:std:iec:60050-151:2001:::::amd:3:2019
   style: v3
-- id: iec.amendment.1849
+- id: iec.amendment.1853
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -1265,7 +1294,7 @@
     human: IEC 60050-151:2001/AMD3:2019 ED2
     urn: urn:iec:std:iec:60050-151:2001::ed-2:::amd:3:2019
   style: v3
-- id: iec.amendment.1850
+- id: iec.amendment.1854
   identifier:
     _type: pubid:iec:amendment
     number: '4'
@@ -1279,7 +1308,7 @@
     human: IEC 60050-151:2001/AMD4:2020
     urn: urn:iec:std:iec:60050-151:2001:::::amd:4:2020
   style: v3
-- id: iec.amendment.1851
+- id: iec.amendment.1855
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -1294,7 +1323,7 @@
     human: IEC 60050-151:2001/AMD4:2020 ED2
     urn: urn:iec:std:iec:60050-151:2001::ed-2:::amd:4:2020
   style: v3
-- id: iec.amendment.1852
+- id: iec.amendment.1856
   identifier:
     _type: pubid:iec:amendment
     number: '5'
@@ -1308,7 +1337,7 @@
     human: IEC 60050-151:2001/AMD5:2021
     urn: urn:iec:std:iec:60050-151:2001:::::amd:5:2021
   style: v3
-- id: iec.amendment.1853
+- id: iec.amendment.1857
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -1323,7 +1352,7 @@
     human: IEC 60050-151:2001/AMD5:2021 ED2
     urn: urn:iec:std:iec:60050-151:2001::ed-2:::amd:5:2021
   style: v3
-- id: iec.amendment.1858
+- id: iec.amendment.1862
   identifier:
     _type: pubid:iec:amendment
     number: '10'
@@ -1337,7 +1366,7 @@
     human: IEC 60050-161:1990/AMD10:2021
     urn: urn:iec:std:iec:60050-161:1990:::::amd:10:2021
   style: v3
-- id: iec.amendment.1859
+- id: iec.amendment.1863
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -1352,7 +1381,7 @@
     human: IEC 60050-161:1990/AMD10:2021 ED1
     urn: urn:iec:std:iec:60050-161:1990::ed-1:::amd:10:2021
   style: v3
-- id: iec.amendment.1860
+- id: iec.amendment.1864
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -1366,7 +1395,7 @@
     human: IEC 60050-161:1990/AMD1:1997
     urn: urn:iec:std:iec:60050-161:1990:::::amd:1:1997
   style: v3
-- id: iec.amendment.1861
+- id: iec.amendment.1865
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -1381,7 +1410,7 @@
     human: IEC 60050-161:1990/AMD1:1997 ED1
     urn: urn:iec:std:iec:60050-161:1990::ed-1:::amd:1:1997
   style: v3
-- id: iec.amendment.1862
+- id: iec.amendment.1866
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -1395,7 +1424,7 @@
     human: IEC 60050-161:1990/AMD2:1998
     urn: urn:iec:std:iec:60050-161:1990:::::amd:2:1998
   style: v3
-- id: iec.amendment.1863
+- id: iec.amendment.1867
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -1410,7 +1439,7 @@
     human: IEC 60050-161:1990/AMD2:1998 ED1
     urn: urn:iec:std:iec:60050-161:1990::ed-1:::amd:2:1998
   style: v3
-- id: iec.amendment.1864
+- id: iec.amendment.1868
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -1424,7 +1453,7 @@
     human: IEC 60050-161:1990/AMD3:2014
     urn: urn:iec:std:iec:60050-161:1990:::::amd:3:2014
   style: v3
-- id: iec.amendment.1865
+- id: iec.amendment.1869
   identifier:
     _type: pubid:iec:amendment
     number: '4'
@@ -1438,7 +1467,7 @@
     human: IEC 60050-161:1990/AMD4:2014
     urn: urn:iec:std:iec:60050-161:1990:::::amd:4:2014
   style: v3
-- id: iec.amendment.1866
+- id: iec.amendment.1870
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -1453,7 +1482,7 @@
     human: IEC 60050-161:1990/AMD4:2014 ED1
     urn: urn:iec:std:iec:60050-161:1990::ed-1:::amd:4:2014
   style: v3
-- id: iec.amendment.1867
+- id: iec.amendment.1871
   identifier:
     _type: pubid:iec:amendment
     number: '5'
@@ -1467,7 +1496,7 @@
     human: IEC 60050-161:1990/AMD5:2015
     urn: urn:iec:std:iec:60050-161:1990:::::amd:5:2015
   style: v3
-- id: iec.amendment.1868
+- id: iec.amendment.1872
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -1482,7 +1511,7 @@
     human: IEC 60050-161:1990/AMD5:2015 ED1
     urn: urn:iec:std:iec:60050-161:1990::ed-1:::amd:5:2015
   style: v3
-- id: iec.amendment.1869
+- id: iec.amendment.1873
   identifier:
     _type: pubid:iec:amendment
     number: '6'
@@ -1496,7 +1525,7 @@
     human: IEC 60050-161:1990/AMD6:2016
     urn: urn:iec:std:iec:60050-161:1990:::::amd:6:2016
   style: v3
-- id: iec.amendment.1870
+- id: iec.amendment.1874
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -1511,7 +1540,7 @@
     human: IEC 60050-161:1990/AMD6:2016 ED1
     urn: urn:iec:std:iec:60050-161:1990::ed-1:::amd:6:2016
   style: v3
-- id: iec.amendment.1871
+- id: iec.amendment.1875
   identifier:
     _type: pubid:iec:amendment
     number: '7'
@@ -1525,7 +1554,7 @@
     human: IEC 60050-161:1990/AMD7:2017
     urn: urn:iec:std:iec:60050-161:1990:::::amd:7:2017
   style: v3
-- id: iec.amendment.1872
+- id: iec.amendment.1876
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -1540,7 +1569,7 @@
     human: IEC 60050-161:1990/AMD7:2017 ED1
     urn: urn:iec:std:iec:60050-161:1990::ed-1:::amd:7:2017
   style: v3
-- id: iec.amendment.1873
+- id: iec.amendment.1877
   identifier:
     _type: pubid:iec:amendment
     number: '8'
@@ -1554,7 +1583,7 @@
     human: IEC 60050-161:1990/AMD8:2018
     urn: urn:iec:std:iec:60050-161:1990:::::amd:8:2018
   style: v3
-- id: iec.amendment.1874
+- id: iec.amendment.1878
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -1569,7 +1598,7 @@
     human: IEC 60050-161:1990/AMD8:2018 ED1
     urn: urn:iec:std:iec:60050-161:1990::ed-1:::amd:8:2018
   style: v3
-- id: iec.amendment.1875
+- id: iec.amendment.1879
   identifier:
     _type: pubid:iec:amendment
     number: '9'
@@ -1583,7 +1612,7 @@
     human: IEC 60050-161:1990/AMD9:2019
     urn: urn:iec:std:iec:60050-161:1990:::::amd:9:2019
   style: v3
-- id: iec.amendment.1876
+- id: iec.amendment.1880
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -1598,7 +1627,7 @@
     human: IEC 60050-161:1990/AMD9:2019 ED1
     urn: urn:iec:std:iec:60050-161:1990::ed-1:::amd:9:2019
   style: v3
-- id: iec.amendment.1887
+- id: iec.amendment.1891
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -1612,7 +1641,7 @@
     human: IEC 60050-191:1990/AMD1:1999
     urn: urn:iec:std:iec:60050-191:1990:::::amd:1:1999
   style: v3
-- id: iec.amendment.1888
+- id: iec.amendment.1892
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -1627,7 +1656,7 @@
     human: IEC 60050-191:1990/AMD1:1999 ED1
     urn: urn:iec:std:iec:60050-191:1990::ed-1:::amd:1:1999
   style: v3
-- id: iec.amendment.1889
+- id: iec.amendment.1893
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -1641,7 +1670,7 @@
     human: IEC 60050-191:1990/AMD2:2002
     urn: urn:iec:std:iec:60050-191:1990:::::amd:2:2002
   style: v3
-- id: iec.amendment.1890
+- id: iec.amendment.1894
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -1656,7 +1685,7 @@
     human: IEC 60050-191:1990/AMD2:2002 ED1
     urn: urn:iec:std:iec:60050-191:1990::ed-1:::amd:2:2002
   style: v3
-- id: iec.amendment.1894
+- id: iec.amendment.1898
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -1670,7 +1699,7 @@
     human: IEC 60050-192:2015/AMD1:2016
     urn: urn:iec:std:iec:60050-192:2015:::::amd:1:2016
   style: v3
-- id: iec.amendment.1895
+- id: iec.amendment.1899
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -1685,7 +1714,7 @@
     human: IEC 60050-192:2015/AMD1:2016 ED1
     urn: urn:iec:std:iec:60050-192:2015::ed-1:::amd:1:2016
   style: v3
-- id: iec.amendment.1898
+- id: iec.amendment.1902
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -1699,7 +1728,7 @@
     human: IEC 60050-195:1998/AMD1:2001
     urn: urn:iec:std:iec:60050-195:1998:::::amd:1:2001
   style: v3
-- id: iec.amendment.1899
+- id: iec.amendment.1903
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -1714,7 +1743,7 @@
     human: IEC 60050-195:1998/AMD1:2001 ED1
     urn: urn:iec:std:iec:60050-195:1998::ed-1:::amd:1:2001
   style: v3
-- id: iec.amendment.1907
+- id: iec.amendment.1911
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -1728,7 +1757,7 @@
     human: IEC 60050-212:2010/AMD1:2015
     urn: urn:iec:std:iec:60050-212:2010:::::amd:1:2015
   style: v3
-- id: iec.amendment.1908
+- id: iec.amendment.1912
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -1743,7 +1772,7 @@
     human: IEC 60050-212:2010/AMD1:2015 ED2
     urn: urn:iec:std:iec:60050-212:2010::ed-2:::amd:1:2015
   style: v3
-- id: iec.amendment.1909
+- id: iec.amendment.1913
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -1757,7 +1786,7 @@
     human: IEC 60050-212:2010/AMD2:2015
     urn: urn:iec:std:iec:60050-212:2010:::::amd:2:2015
   style: v3
-- id: iec.amendment.1910
+- id: iec.amendment.1914
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -1772,7 +1801,7 @@
     human: IEC 60050-212:2010/AMD2:2015 ED2
     urn: urn:iec:std:iec:60050-212:2010::ed-2:::amd:2:2015
   style: v3
-- id: iec.amendment.1911
+- id: iec.amendment.1915
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -1786,7 +1815,7 @@
     human: IEC 60050-212:2010/AMD3:2020
     urn: urn:iec:std:iec:60050-212:2010:::::amd:3:2020
   style: v3
-- id: iec.amendment.1912
+- id: iec.amendment.1916
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -1801,7 +1830,7 @@
     human: IEC 60050-212:2010/AMD3:2020 ED2
     urn: urn:iec:std:iec:60050-212:2010::ed-2:::amd:3:2020
   style: v3
-- id: iec.amendment.1915
+- id: iec.amendment.1919
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -1815,7 +1844,7 @@
     human: IEC 60050-221:1990/AMD1:1993
     urn: urn:iec:std:iec:60050-221:1990:::::amd:1:1993
   style: v3
-- id: iec.amendment.1916
+- id: iec.amendment.1920
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -1830,7 +1859,7 @@
     human: IEC 60050-221:1990/AMD1:1993 ED1
     urn: urn:iec:std:iec:60050-221:1990::ed-1:::amd:1:1993
   style: v3
-- id: iec.amendment.1917
+- id: iec.amendment.1921
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -1844,7 +1873,7 @@
     human: IEC 60050-221:1990/AMD2:1999
     urn: urn:iec:std:iec:60050-221:1990:::::amd:2:1999
   style: v3
-- id: iec.amendment.1918
+- id: iec.amendment.1922
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -1859,7 +1888,7 @@
     human: IEC 60050-221:1990/AMD2:1999 ED1
     urn: urn:iec:std:iec:60050-221:1990::ed-1:::amd:2:1999
   style: v3
-- id: iec.amendment.1919
+- id: iec.amendment.1923
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -1873,7 +1902,7 @@
     human: IEC 60050-221:1990/AMD3:2007
     urn: urn:iec:std:iec:60050-221:1990:::::amd:3:2007
   style: v3
-- id: iec.amendment.1920
+- id: iec.amendment.1924
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -1888,7 +1917,7 @@
     human: IEC 60050-221:1990/AMD3:2007 ED1
     urn: urn:iec:std:iec:60050-221:1990::ed-1:::amd:3:2007
   style: v3
-- id: iec.amendment.1921
+- id: iec.amendment.1925
   identifier:
     _type: pubid:iec:amendment
     number: '4'
@@ -1902,7 +1931,7 @@
     human: IEC 60050-221:1990/AMD4:2020
     urn: urn:iec:std:iec:60050-221:1990:::::amd:4:2020
   style: v3
-- id: iec.amendment.1922
+- id: iec.amendment.1926
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -1917,7 +1946,7 @@
     human: IEC 60050-221:1990/AMD4:2020 ED1
     urn: urn:iec:std:iec:60050-221:1990::ed-1:::amd:4:2020
   style: v3
-- id: iec.amendment.1929
+- id: iec.amendment.1933
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -1931,7 +1960,7 @@
     human: IEC 60050-300:2001/AMD1:2015
     urn: urn:iec:std:iec:60050-300:2001:::::amd:1:2015
   style: v3
-- id: iec.amendment.1930
+- id: iec.amendment.1934
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -1946,7 +1975,7 @@
     human: IEC 60050-300:2001/AMD1:2015 ED1
     urn: urn:iec:std:iec:60050-300:2001::ed-1:::amd:1:2015
   style: v3
-- id: iec.amendment.1931
+- id: iec.amendment.1935
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -1960,7 +1989,7 @@
     human: IEC 60050-300:2001/AMD2:2016
     urn: urn:iec:std:iec:60050-300:2001:::::amd:2:2016
   style: v3
-- id: iec.amendment.1932
+- id: iec.amendment.1936
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -1975,7 +2004,7 @@
     human: IEC 60050-300:2001/AMD2:2016 ED1
     urn: urn:iec:std:iec:60050-300:2001::ed-1:::amd:2:2016
   style: v3
-- id: iec.amendment.1933
+- id: iec.amendment.1937
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -1989,7 +2018,7 @@
     human: IEC 60050-300:2001/AMD3:2017
     urn: urn:iec:std:iec:60050-300:2001:::::amd:3:2017
   style: v3
-- id: iec.amendment.1934
+- id: iec.amendment.1938
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2004,7 +2033,7 @@
     human: IEC 60050-300:2001/AMD3:2017 ED1
     urn: urn:iec:std:iec:60050-300:2001::ed-1:::amd:3:2017
   style: v3
-- id: iec.amendment.1935
+- id: iec.amendment.1939
   identifier:
     _type: pubid:iec:amendment
     number: '4'
@@ -2018,7 +2047,7 @@
     human: IEC 60050-300:2001/AMD4:2020
     urn: urn:iec:std:iec:60050-300:2001:::::amd:4:2020
   style: v3
-- id: iec.amendment.1936
+- id: iec.amendment.1940
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2033,7 +2062,7 @@
     human: IEC 60050-300:2001/AMD4:2020 ED1
     urn: urn:iec:std:iec:60050-300:2001::ed-1:::amd:4:2020
   style: v3
-- id: iec.amendment.1953
+- id: iec.amendment.1957
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -2047,7 +2076,7 @@
     human: IEC 60050-351:1975/AMD1:1978
     urn: urn:iec:std:iec:60050-351:1975:::::amd:1:1978
   style: v3
-- id: iec.amendment.1954
+- id: iec.amendment.1958
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2062,7 +2091,7 @@
     human: IEC 60050-351:1975/AMD1:1978 ED1
     urn: urn:iec:std:iec:60050-351:1975::ed-1:::amd:1:1978
   style: v3
-- id: iec.amendment.1961
+- id: iec.amendment.1965
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -2076,7 +2105,7 @@
     human: IEC 60050-351:2013/AMD1:2016
     urn: urn:iec:std:iec:60050-351:2013:::::amd:1:2016
   style: v3
-- id: iec.amendment.1962
+- id: iec.amendment.1966
   identifier:
     _type: pubid:iec:amendment
     edition: '4'
@@ -2091,7 +2120,7 @@
     human: IEC 60050-351:2013/AMD1:2016 ED4
     urn: urn:iec:std:iec:60050-351:2013::ed-4:::amd:1:2016
   style: v3
-- id: iec.amendment.1966
+- id: iec.amendment.1970
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -2105,7 +2134,7 @@
     human: IEC 60050-371:1984/AMD1:1997
     urn: urn:iec:std:iec:60050-371:1984:::::amd:1:1997
   style: v3
-- id: iec.amendment.1967
+- id: iec.amendment.1971
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2120,7 +2149,7 @@
     human: IEC 60050-371:1984/AMD1:1997 ED1
     urn: urn:iec:std:iec:60050-371:1984::ed-1:::amd:1:1997
   style: v3
-- id: iec.amendment.1975
+- id: iec.amendment.1979
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2135,7 +2164,7 @@
     human: IEC 60050-393:1996/AMD1:2000 ED1
     urn: urn:iec:std:iec:60050-393:1996::ed-1:::amd:1:2000
   style: v3
-- id: iec.amendment.1980
+- id: iec.amendment.1984
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2150,7 +2179,7 @@
     human: IEC 60050-394:1995/AMD1:1996 ED1
     urn: urn:iec:std:iec:60050-394:1995::ed-1:::amd:1:1996
   style: v3
-- id: iec.amendment.1981
+- id: iec.amendment.1985
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2165,7 +2194,7 @@
     human: IEC 60050-394:1995/AMD2:2000 ED1
     urn: urn:iec:std:iec:60050-394:1995::ed-1:::amd:2:2000
   style: v3
-- id: iec.amendment.1986
+- id: iec.amendment.1990
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -2179,7 +2208,7 @@
     human: IEC 60050-395:2014/AMD1:2016
     urn: urn:iec:std:iec:60050-395:2014:::::amd:1:2016
   style: v3
-- id: iec.amendment.1987
+- id: iec.amendment.1991
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2194,7 +2223,7 @@
     human: IEC 60050-395:2014/AMD1:2016 ED1
     urn: urn:iec:std:iec:60050-395:2014::ed-1:::amd:1:2016
   style: v3
-- id: iec.amendment.1988
+- id: iec.amendment.1992
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -2208,7 +2237,7 @@
     human: IEC 60050-395:2014/AMD2:2020
     urn: urn:iec:std:iec:60050-395:2014:::::amd:2:2020
   style: v3
-- id: iec.amendment.1989
+- id: iec.amendment.1993
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2223,7 +2252,7 @@
     human: IEC 60050-395:2014/AMD2:2020 ED1
     urn: urn:iec:std:iec:60050-395:2014::ed-1:::amd:2:2020
   style: v3
-- id: iec.amendment.1995
+- id: iec.amendment.1999
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -2237,7 +2266,7 @@
     human: IEC 60050-411:1996/AMD1:2007
     urn: urn:iec:std:iec:60050-411:1996:::::amd:1:2007
   style: v3
-- id: iec.amendment.1996
+- id: iec.amendment.2000
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -2252,7 +2281,7 @@
     human: IEC 60050-411:1996/AMD1:2007 ED2
     urn: urn:iec:std:iec:60050-411:1996::ed-2:::amd:1:2007
   style: v3
-- id: iec.amendment.1997
+- id: iec.amendment.2001
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -2266,7 +2295,7 @@
     human: IEC 60050-411:1996/AMD2:2021
     urn: urn:iec:std:iec:60050-411:1996:::::amd:2:2021
   style: v3
-- id: iec.amendment.1998
+- id: iec.amendment.2002
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -2281,7 +2310,7 @@
     human: IEC 60050-411:1996/AMD2:2021 ED2
     urn: urn:iec:std:iec:60050-411:1996::ed-2:::amd:2:2021
   style: v3
-- id: iec.amendment.2010
+- id: iec.amendment.2014
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -2296,7 +2325,7 @@
     human: IEC 60050-426:2008/AMD1:2015 ED2
     urn: urn:iec:std:iec:60050-426:2008::ed-2:::amd:1:2015
   style: v3
-- id: iec.amendment.2016
+- id: iec.amendment.2020
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -2310,7 +2339,7 @@
     human: IEC 60050-431:1980/AMD1:2021
     urn: urn:iec:std:iec:60050-431:1980:::::amd:1:2021
   style: v3
-- id: iec.amendment.2017
+- id: iec.amendment.2021
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2325,7 +2354,7 @@
     human: IEC 60050-431:1980/AMD1:2021 ED1
     urn: urn:iec:std:iec:60050-431:1980::ed-1:::amd:1:2021
   style: v3
-- id: iec.amendment.2024
+- id: iec.amendment.2028
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -2339,7 +2368,7 @@
     human: IEC 60050-441:1984/AMD1:2000
     urn: urn:iec:std:iec:60050-441:1984:::::amd:1:2000
   style: v3
-- id: iec.amendment.2025
+- id: iec.amendment.2029
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -2354,7 +2383,7 @@
     human: IEC 60050-441:1984/AMD1:2000 ED2
     urn: urn:iec:std:iec:60050-441:1984::ed-2:::amd:1:2000
   style: v3
-- id: iec.amendment.2028
+- id: iec.amendment.2032
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -2368,7 +2397,7 @@
     human: IEC 60050-442:1998/AMD1:2015
     urn: urn:iec:std:iec:60050-442:1998:::::amd:1:2015
   style: v3
-- id: iec.amendment.2029
+- id: iec.amendment.2033
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2383,7 +2412,7 @@
     human: IEC 60050-442:1998/AMD1:2015 ED1
     urn: urn:iec:std:iec:60050-442:1998::ed-1:::amd:1:2015
   style: v3
-- id: iec.amendment.2030
+- id: iec.amendment.2034
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -2397,7 +2426,7 @@
     human: IEC 60050-442:1998/AMD2:2015
     urn: urn:iec:std:iec:60050-442:1998:::::amd:2:2015
   style: v3
-- id: iec.amendment.2031
+- id: iec.amendment.2035
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2412,7 +2441,7 @@
     human: IEC 60050-442:1998/AMD2:2015 ED1
     urn: urn:iec:std:iec:60050-442:1998::ed-1:::amd:2:2015
   style: v3
-- id: iec.amendment.2032
+- id: iec.amendment.2036
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -2426,7 +2455,7 @@
     human: IEC 60050-442:1998/AMD3:2019
     urn: urn:iec:std:iec:60050-442:1998:::::amd:3:2019
   style: v3
-- id: iec.amendment.2033
+- id: iec.amendment.2037
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2441,7 +2470,7 @@
     human: IEC 60050-442:1998/AMD3:2019 ED1
     urn: urn:iec:std:iec:60050-442:1998::ed-1:::amd:3:2019
   style: v3
-- id: iec.amendment.2054
+- id: iec.amendment.2058
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -2455,7 +2484,7 @@
     human: IEC 60050-461:1984/AMD1:1993
     urn: urn:iec:std:iec:60050-461:1984:::::amd:1:1993
   style: v3
-- id: iec.amendment.2055
+- id: iec.amendment.2059
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2470,7 +2499,7 @@
     human: IEC 60050-461:1984/AMD1:1993 ED1
     urn: urn:iec:std:iec:60050-461:1984::ed-1:::amd:1:1993
   style: v3
-- id: iec.amendment.2056
+- id: iec.amendment.2060
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -2484,7 +2513,7 @@
     human: IEC 60050-461:1984/AMD2:1999
     urn: urn:iec:std:iec:60050-461:1984:::::amd:2:1999
   style: v3
-- id: iec.amendment.2057
+- id: iec.amendment.2061
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2499,7 +2528,7 @@
     human: IEC 60050-461:1984/AMD2:1999 ED1
     urn: urn:iec:std:iec:60050-461:1984::ed-1:::amd:2:1999
   style: v3
-- id: iec.amendment.2063
+- id: iec.amendment.2067
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -2513,7 +2542,7 @@
     human: IEC 60050-466:1990/AMD1:2020
     urn: urn:iec:std:iec:60050-466:1990:::::amd:1:2020
   style: v3
-- id: iec.amendment.2064
+- id: iec.amendment.2068
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2528,7 +2557,7 @@
     human: IEC 60050-466:1990/AMD1:2020 ED1
     urn: urn:iec:std:iec:60050-466:1990::ed-1:::amd:1:2020
   style: v3
-- id: iec.amendment.2065
+- id: iec.amendment.2069
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -2542,7 +2571,7 @@
     human: IEC 60050-466:1990/AMD2:2021
     urn: urn:iec:std:iec:60050-466:1990:::::amd:2:2021
   style: v3
-- id: iec.amendment.2066
+- id: iec.amendment.2070
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2557,7 +2586,7 @@
     human: IEC 60050-466:1990/AMD2:2021 ED1
     urn: urn:iec:std:iec:60050-466:1990::ed-1:::amd:2:2021
   style: v3
-- id: iec.amendment.2067
+- id: iec.amendment.2071
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -2571,7 +2600,7 @@
     human: IEC 60050-466:1990/AMD3:2021
     urn: urn:iec:std:iec:60050-466:1990:::::amd:3:2021
   style: v3
-- id: iec.amendment.2068
+- id: iec.amendment.2072
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2586,7 +2615,7 @@
     human: IEC 60050-466:1990/AMD3:2021 ED1
     urn: urn:iec:std:iec:60050-466:1990::ed-1:::amd:3:2021
   style: v3
-- id: iec.amendment.2073
+- id: iec.amendment.2077
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -2600,7 +2629,7 @@
     human: IEC 60050-471:2007/AMD1:2015
     urn: urn:iec:std:iec:60050-471:2007:::::amd:1:2015
   style: v3
-- id: iec.amendment.2074
+- id: iec.amendment.2078
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -2615,7 +2644,7 @@
     human: IEC 60050-471:2007/AMD1:2015 ED2
     urn: urn:iec:std:iec:60050-471:2007::ed-2:::amd:1:2015
   style: v3
-- id: iec.amendment.2079
+- id: iec.amendment.2083
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -2629,7 +2658,7 @@
     human: IEC 60050-482:2004/AMD1:2016
     urn: urn:iec:std:iec:60050-482:2004:::::amd:1:2016
   style: v3
-- id: iec.amendment.2080
+- id: iec.amendment.2084
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2644,7 +2673,7 @@
     human: IEC 60050-482:2004/AMD1:2016 ED1
     urn: urn:iec:std:iec:60050-482:2004::ed-1:::amd:1:2016
   style: v3
-- id: iec.amendment.2081
+- id: iec.amendment.2085
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -2658,7 +2687,7 @@
     human: IEC 60050-482:2004/AMD2:2020
     urn: urn:iec:std:iec:60050-482:2004:::::amd:2:2020
   style: v3
-- id: iec.amendment.2082
+- id: iec.amendment.2086
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2673,7 +2702,7 @@
     human: IEC 60050-482:2004/AMD2:2020 ED1
     urn: urn:iec:std:iec:60050-482:2004::ed-1:::amd:2:2020
   style: v3
-- id: iec.amendment.2085
+- id: iec.amendment.2089
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2686,7 +2715,7 @@
     human: IEC 60050-486/AMD1 ED1
     urn: 'urn:iec:std:iec:60050-486:::ed-1:::amd:1:'
   style: v3
-- id: iec.amendment.2099
+- id: iec.amendment.2103
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -2700,7 +2729,7 @@
     human: IEC 60050-521:2002/AMD1:2017
     urn: urn:iec:std:iec:60050-521:2002:::::amd:1:2017
   style: v3
-- id: iec.amendment.2100
+- id: iec.amendment.2104
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -2715,7 +2744,7 @@
     human: IEC 60050-521:2002/AMD1:2017 ED2
     urn: urn:iec:std:iec:60050-521:2002::ed-2:::amd:1:2017
   style: v3
-- id: iec.amendment.2101
+- id: iec.amendment.2105
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -2729,7 +2758,7 @@
     human: IEC 60050-521:2002/AMD2:2018
     urn: urn:iec:std:iec:60050-521:2002:::::amd:2:2018
   style: v3
-- id: iec.amendment.2102
+- id: iec.amendment.2106
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -2744,7 +2773,7 @@
     human: IEC 60050-521:2002/AMD2:2018 ED2
     urn: urn:iec:std:iec:60050-521:2002::ed-2:::amd:2:2018
   style: v3
-- id: iec.amendment.2105
+- id: iec.amendment.2109
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -2758,7 +2787,7 @@
     human: IEC 60050-523:2018/AMD1:2019
     urn: urn:iec:std:iec:60050-523:2018:::::amd:1:2019
   style: v3
-- id: iec.amendment.2106
+- id: iec.amendment.2110
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2773,7 +2802,7 @@
     human: IEC 60050-523:2018/AMD1:2019 ED1
     urn: urn:iec:std:iec:60050-523:2018::ed-1:::amd:1:2019
   style: v3
-- id: iec.amendment.2110
+- id: iec.amendment.2114
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -2787,7 +2816,7 @@
     human: IEC 60050-531:1974/AMD1:2017
     urn: urn:iec:std:iec:60050-531:1974:::::amd:1:2017
   style: v3
-- id: iec.amendment.2111
+- id: iec.amendment.2115
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2802,7 +2831,7 @@
     human: IEC 60050-531:1974/AMD1:2017 ED1
     urn: urn:iec:std:iec:60050-531:1974::ed-1:::amd:1:2017
   style: v3
-- id: iec.amendment.2112
+- id: iec.amendment.2116
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -2816,7 +2845,7 @@
     human: IEC 60050-531:1974/AMD2:2020
     urn: urn:iec:std:iec:60050-531:1974:::::amd:2:2020
   style: v3
-- id: iec.amendment.2113
+- id: iec.amendment.2117
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2831,7 +2860,7 @@
     human: IEC 60050-531:1974/AMD2:2020 ED1
     urn: urn:iec:std:iec:60050-531:1974::ed-1:::amd:2:2020
   style: v3
-- id: iec.amendment.2117
+- id: iec.amendment.2121
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -2845,7 +2874,7 @@
     human: IEC 60050-541:1990/AMD1:2015
     urn: urn:iec:std:iec:60050-541:1990:::::amd:1:2015
   style: v3
-- id: iec.amendment.2118
+- id: iec.amendment.2122
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2860,7 +2889,7 @@
     human: IEC 60050-541:1990/AMD1:2015 ED1
     urn: urn:iec:std:iec:60050-541:1990::ed-1:::amd:1:2015
   style: v3
-- id: iec.amendment.2121
+- id: iec.amendment.2125
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -2875,7 +2904,7 @@
     human: IEC 60050-551-20:2001/AMD1:2017
     urn: urn:iec:std:iec:60050-551-20:2001:::::amd:1:2017
   style: v3
-- id: iec.amendment.2122
+- id: iec.amendment.2126
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2891,7 +2920,7 @@
     human: IEC 60050-551-20:2001/AMD1:2017 ED1
     urn: urn:iec:std:iec:60050-551-20:2001::ed-1:::amd:1:2017
   style: v3
-- id: iec.amendment.2130
+- id: iec.amendment.2134
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2906,7 +2935,7 @@
     human: IEC 60050-561:1991/AMD1:1995 ED1
     urn: urn:iec:std:iec:60050-561:1991::ed-1:::amd:1:1995
   style: v3
-- id: iec.amendment.2131
+- id: iec.amendment.2135
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -2921,7 +2950,7 @@
     human: IEC 60050-561:1991/AMD2:1997 ED1
     urn: urn:iec:std:iec:60050-561:1991::ed-1:::amd:2:1997
   style: v3
-- id: iec.amendment.2134
+- id: iec.amendment.2138
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -2935,7 +2964,7 @@
     human: IEC 60050-561:2014/AMD1:2016
     urn: urn:iec:std:iec:60050-561:2014:::::amd:1:2016
   style: v3
-- id: iec.amendment.2135
+- id: iec.amendment.2139
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -2950,7 +2979,7 @@
     human: IEC 60050-561:2014/AMD1:2016 ED2
     urn: urn:iec:std:iec:60050-561:2014::ed-2:::amd:1:2016
   style: v3
-- id: iec.amendment.2136
+- id: iec.amendment.2140
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -2964,7 +2993,7 @@
     human: IEC 60050-561:2014/AMD2:2020
     urn: urn:iec:std:iec:60050-561:2014:::::amd:2:2020
   style: v3
-- id: iec.amendment.2137
+- id: iec.amendment.2141
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -2979,7 +3008,7 @@
     human: IEC 60050-561:2014/AMD2:2020 ED2
     urn: urn:iec:std:iec:60050-561:2014::ed-2:::amd:2:2020
   style: v3
-- id: iec.amendment.2138
+- id: iec.amendment.2142
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -2993,7 +3022,7 @@
     human: IEC 60050-561:2014/AMD3:2021
     urn: urn:iec:std:iec:60050-561:2014:::::amd:3:2021
   style: v3
-- id: iec.amendment.2139
+- id: iec.amendment.2143
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -3008,7 +3037,7 @@
     human: IEC 60050-561:2014/AMD3:2021 ED2
     urn: urn:iec:std:iec:60050-561:2014::ed-2:::amd:3:2021
   style: v3
-- id: iec.amendment.2140
+- id: iec.amendment.2144
   identifier:
     _type: pubid:iec:amendment
     number: '4'
@@ -3022,7 +3051,7 @@
     human: IEC 60050-561:2014/AMD4:2021
     urn: urn:iec:std:iec:60050-561:2014:::::amd:4:2021
   style: v3
-- id: iec.amendment.2141
+- id: iec.amendment.2145
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -3037,7 +3066,7 @@
     human: IEC 60050-561:2014/AMD4:2021 ED2
     urn: urn:iec:std:iec:60050-561:2014::ed-2:::amd:4:2021
   style: v3
-- id: iec.amendment.2144
+- id: iec.amendment.2148
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3052,7 +3081,7 @@
     human: IEC 60050-581:1978/AMD1:1998 ED1
     urn: urn:iec:std:iec:60050-581:1978::ed-1:::amd:1:1998
   style: v3
-- id: iec.amendment.2150
+- id: iec.amendment.2154
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -3066,7 +3095,7 @@
     human: IEC 60050-601:1985/AMD1:1998
     urn: urn:iec:std:iec:60050-601:1985:::::amd:1:1998
   style: v3
-- id: iec.amendment.2151
+- id: iec.amendment.2155
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3081,7 +3110,7 @@
     human: IEC 60050-601:1985/AMD1:1998 ED1
     urn: urn:iec:std:iec:60050-601:1985::ed-1:::amd:1:1998
   style: v3
-- id: iec.amendment.2152
+- id: iec.amendment.2156
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -3095,7 +3124,7 @@
     human: IEC 60050-601:1985/AMD2:2020
     urn: urn:iec:std:iec:60050-601:1985:::::amd:2:2020
   style: v3
-- id: iec.amendment.2153
+- id: iec.amendment.2157
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3110,7 +3139,7 @@
     human: IEC 60050-601:1985/AMD2:2020 ED1
     urn: urn:iec:std:iec:60050-601:1985::ed-1:::amd:2:2020
   style: v3
-- id: iec.amendment.2160
+- id: iec.amendment.2164
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -3124,7 +3153,7 @@
     human: IEC 60050-603:1986/AMD1:1998
     urn: urn:iec:std:iec:60050-603:1986:::::amd:1:1998
   style: v3
-- id: iec.amendment.2161
+- id: iec.amendment.2165
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3139,7 +3168,7 @@
     human: IEC 60050-603:1986/AMD1:1998 ED1
     urn: urn:iec:std:iec:60050-603:1986::ed-1:::amd:1:1998
   style: v3
-- id: iec.amendment.2166
+- id: iec.amendment.2170
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3154,7 +3183,7 @@
     human: IEC 60050-604:1987/AMD1:1998 ED1
     urn: urn:iec:std:iec:60050-604:1987::ed-1:::amd:1:1998
   style: v3
-- id: iec.amendment.2167
+- id: iec.amendment.2171
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3169,7 +3198,7 @@
     human: IEC 60050-604:1987/AMD2:2015 ED1
     urn: urn:iec:std:iec:60050-604:1987::ed-1:::amd:2:2015
   style: v3
-- id: iec.amendment.2179
+- id: iec.amendment.2183
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -3183,7 +3212,7 @@
     human: IEC 60050-617:2009/AMD1:2011
     urn: urn:iec:std:iec:60050-617:2009:::::amd:1:2011
   style: v3
-- id: iec.amendment.2180
+- id: iec.amendment.2184
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3198,7 +3227,7 @@
     human: IEC 60050-617:2009/AMD1:2011 ED1
     urn: urn:iec:std:iec:60050-617:2009::ed-1:::amd:1:2011
   style: v3
-- id: iec.amendment.2181
+- id: iec.amendment.2185
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -3212,7 +3241,7 @@
     human: IEC 60050-617:2009/AMD2:2017
     urn: urn:iec:std:iec:60050-617:2009:::::amd:2:2017
   style: v3
-- id: iec.amendment.2182
+- id: iec.amendment.2186
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3227,7 +3256,7 @@
     human: IEC 60050-617:2009/AMD2:2017 ED1
     urn: urn:iec:std:iec:60050-617:2009::ed-1:::amd:2:2017
   style: v3
-- id: iec.amendment.2183
+- id: iec.amendment.2187
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -3241,7 +3270,7 @@
     human: IEC 60050-617:2009/AMD3:2018
     urn: urn:iec:std:iec:60050-617:2009:::::amd:3:2018
   style: v3
-- id: iec.amendment.2184
+- id: iec.amendment.2188
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3256,7 +3285,7 @@
     human: IEC 60050-617:2009/AMD3:2018 ED1
     urn: urn:iec:std:iec:60050-617:2009::ed-1:::amd:3:2018
   style: v3
-- id: iec.amendment.2187
+- id: iec.amendment.2191
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -3269,7 +3298,7 @@
     human: IEC 60050-651/AMD1 ED2
     urn: 'urn:iec:std:iec:60050-651:::ed-2:::amd:1:'
   style: v3
-- id: iec.amendment.2197
+- id: iec.amendment.2201
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -3283,7 +3312,7 @@
     human: IEC 60050-691:1973/AMD1:2019
     urn: urn:iec:std:iec:60050-691:1973:::::amd:1:2019
   style: v3
-- id: iec.amendment.2198
+- id: iec.amendment.2202
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3298,7 +3327,7 @@
     human: IEC 60050-691:1973/AMD1:2019 ED1
     urn: urn:iec:std:iec:60050-691:1973::ed-1:::amd:1:2019
   style: v3
-- id: iec.amendment.2205
+- id: iec.amendment.2209
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -3312,7 +3341,7 @@
     human: IEC 60050-701:1988/AMD1:2016
     urn: urn:iec:std:iec:60050-701:1988:::::amd:1:2016
   style: v3
-- id: iec.amendment.2206
+- id: iec.amendment.2210
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3327,7 +3356,7 @@
     human: IEC 60050-701:1988/AMD1:2016 ED1
     urn: urn:iec:std:iec:60050-701:1988::ed-1:::amd:1:2016
   style: v3
-- id: iec.amendment.2207
+- id: iec.amendment.2211
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -3341,7 +3370,7 @@
     human: IEC 60050-701:1988/AMD2:2019
     urn: urn:iec:std:iec:60050-701:1988:::::amd:2:2019
   style: v3
-- id: iec.amendment.2208
+- id: iec.amendment.2212
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3356,7 +3385,7 @@
     human: IEC 60050-701:1988/AMD2:2019 ED1
     urn: urn:iec:std:iec:60050-701:1988::ed-1:::amd:2:2019
   style: v3
-- id: iec.amendment.2212
+- id: iec.amendment.2216
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -3370,7 +3399,7 @@
     human: IEC 60050-702:1992/AMD1:2016
     urn: urn:iec:std:iec:60050-702:1992:::::amd:1:2016
   style: v3
-- id: iec.amendment.2213
+- id: iec.amendment.2217
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3385,7 +3414,7 @@
     human: IEC 60050-702:1992/AMD1:2016 ED1
     urn: urn:iec:std:iec:60050-702:1992::ed-1:::amd:1:2016
   style: v3
-- id: iec.amendment.2214
+- id: iec.amendment.2218
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -3399,7 +3428,7 @@
     human: IEC 60050-702:1992/AMD2:2016
     urn: urn:iec:std:iec:60050-702:1992:::::amd:2:2016
   style: v3
-- id: iec.amendment.2215
+- id: iec.amendment.2219
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3414,7 +3443,7 @@
     human: IEC 60050-702:1992/AMD2:2016 ED1
     urn: urn:iec:std:iec:60050-702:1992::ed-1:::amd:2:2016
   style: v3
-- id: iec.amendment.2216
+- id: iec.amendment.2220
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -3428,7 +3457,7 @@
     human: IEC 60050-702:1992/AMD3:2017
     urn: urn:iec:std:iec:60050-702:1992:::::amd:3:2017
   style: v3
-- id: iec.amendment.2217
+- id: iec.amendment.2221
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3443,7 +3472,7 @@
     human: IEC 60050-702:1992/AMD3:2017 ED1
     urn: urn:iec:std:iec:60050-702:1992::ed-1:::amd:3:2017
   style: v3
-- id: iec.amendment.2218
+- id: iec.amendment.2222
   identifier:
     _type: pubid:iec:amendment
     number: '4'
@@ -3457,7 +3486,7 @@
     human: IEC 60050-702:1992/AMD4:2018
     urn: urn:iec:std:iec:60050-702:1992:::::amd:4:2018
   style: v3
-- id: iec.amendment.2219
+- id: iec.amendment.2223
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3472,7 +3501,7 @@
     human: IEC 60050-702:1992/AMD4:2018 ED1
     urn: urn:iec:std:iec:60050-702:1992::ed-1:::amd:4:2018
   style: v3
-- id: iec.amendment.2220
+- id: iec.amendment.2224
   identifier:
     _type: pubid:iec:amendment
     number: '5'
@@ -3486,7 +3515,7 @@
     human: IEC 60050-702:1992/AMD5:2019
     urn: urn:iec:std:iec:60050-702:1992:::::amd:5:2019
   style: v3
-- id: iec.amendment.2221
+- id: iec.amendment.2225
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3501,7 +3530,7 @@
     human: IEC 60050-702:1992/AMD5:2019 ED1
     urn: urn:iec:std:iec:60050-702:1992::ed-1:::amd:5:2019
   style: v3
-- id: iec.amendment.2222
+- id: iec.amendment.2226
   identifier:
     _type: pubid:iec:amendment
     number: '6'
@@ -3515,7 +3544,7 @@
     human: IEC 60050-702:1992/AMD6:2021
     urn: urn:iec:std:iec:60050-702:1992:::::amd:6:2021
   style: v3
-- id: iec.amendment.2223
+- id: iec.amendment.2227
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3530,7 +3559,7 @@
     human: IEC 60050-702:1992/AMD6:2021 ED1
     urn: urn:iec:std:iec:60050-702:1992::ed-1:::amd:6:2021
   style: v3
-- id: iec.amendment.2226
+- id: iec.amendment.2230
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3543,7 +3572,7 @@
     human: IEC 60050-704/AMD2 ED1
     urn: 'urn:iec:std:iec:60050-704:::ed-1:::amd:2:'
   style: v3
-- id: iec.amendment.2229
+- id: iec.amendment.2233
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -3557,7 +3586,7 @@
     human: IEC 60050-704:1993/AMD1:2016
     urn: urn:iec:std:iec:60050-704:1993:::::amd:1:2016
   style: v3
-- id: iec.amendment.2230
+- id: iec.amendment.2234
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3572,7 +3601,7 @@
     human: IEC 60050-704:1993/AMD1:2016 ED1
     urn: urn:iec:std:iec:60050-704:1993::ed-1:::amd:1:2016
   style: v3
-- id: iec.amendment.2231
+- id: iec.amendment.2235
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -3586,7 +3615,7 @@
     human: IEC 60050-704:1993/AMD2:2017
     urn: urn:iec:std:iec:60050-704:1993:::::amd:2:2017
   style: v3
-- id: iec.amendment.2232
+- id: iec.amendment.2236
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3601,7 +3630,7 @@
     human: IEC 60050-704:1993/AMD2:2017 ED1
     urn: urn:iec:std:iec:60050-704:1993::ed-1:::amd:2:2017
   style: v3
-- id: iec.amendment.2233
+- id: iec.amendment.2237
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -3615,7 +3644,7 @@
     human: IEC 60050-704:1993/AMD3:2018
     urn: urn:iec:std:iec:60050-704:1993:::::amd:3:2018
   style: v3
-- id: iec.amendment.2234
+- id: iec.amendment.2238
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3630,7 +3659,7 @@
     human: IEC 60050-704:1993/AMD3:2018 ED1
     urn: urn:iec:std:iec:60050-704:1993::ed-1:::amd:3:2018
   style: v3
-- id: iec.amendment.2235
+- id: iec.amendment.2239
   identifier:
     _type: pubid:iec:amendment
     number: '4'
@@ -3644,7 +3673,7 @@
     human: IEC 60050-704:1993/AMD4:2019
     urn: urn:iec:std:iec:60050-704:1993:::::amd:4:2019
   style: v3
-- id: iec.amendment.2236
+- id: iec.amendment.2240
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3659,7 +3688,7 @@
     human: IEC 60050-704:1993/AMD4:2019 ED1
     urn: urn:iec:std:iec:60050-704:1993::ed-1:::amd:4:2019
   style: v3
-- id: iec.amendment.2239
+- id: iec.amendment.2243
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -3673,7 +3702,7 @@
     human: IEC 60050-705:1995/AMD1:2015
     urn: urn:iec:std:iec:60050-705:1995:::::amd:1:2015
   style: v3
-- id: iec.amendment.2240
+- id: iec.amendment.2244
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3688,7 +3717,7 @@
     human: IEC 60050-705:1995/AMD1:2015 ED1
     urn: urn:iec:std:iec:60050-705:1995::ed-1:::amd:1:2015
   style: v3
-- id: iec.amendment.2241
+- id: iec.amendment.2245
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -3702,7 +3731,7 @@
     human: IEC 60050-705:1995/AMD2:2016
     urn: urn:iec:std:iec:60050-705:1995:::::amd:2:2016
   style: v3
-- id: iec.amendment.2242
+- id: iec.amendment.2246
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3717,7 +3746,7 @@
     human: IEC 60050-705:1995/AMD2:2016 ED1
     urn: urn:iec:std:iec:60050-705:1995::ed-1:::amd:2:2016
   style: v3
-- id: iec.amendment.2243
+- id: iec.amendment.2247
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -3731,7 +3760,7 @@
     human: IEC 60050-705:1995/AMD3:2017
     urn: urn:iec:std:iec:60050-705:1995:::::amd:3:2017
   style: v3
-- id: iec.amendment.2244
+- id: iec.amendment.2248
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3746,7 +3775,7 @@
     human: IEC 60050-705:1995/AMD3:2017 ED1
     urn: urn:iec:std:iec:60050-705:1995::ed-1:::amd:3:2017
   style: v3
-- id: iec.amendment.2245
+- id: iec.amendment.2249
   identifier:
     _type: pubid:iec:amendment
     number: '4'
@@ -3760,7 +3789,7 @@
     human: IEC 60050-705:1995/AMD4:2019
     urn: urn:iec:std:iec:60050-705:1995:::::amd:4:2019
   style: v3
-- id: iec.amendment.2246
+- id: iec.amendment.2250
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3775,7 +3804,7 @@
     human: IEC 60050-705:1995/AMD4:2019 ED1
     urn: urn:iec:std:iec:60050-705:1995::ed-1:::amd:4:2019
   style: v3
-- id: iec.amendment.2247
+- id: iec.amendment.2251
   identifier:
     _type: pubid:iec:amendment
     number: '5'
@@ -3789,7 +3818,7 @@
     human: IEC 60050-705:1995/AMD5:2020
     urn: urn:iec:std:iec:60050-705:1995:::::amd:5:2020
   style: v3
-- id: iec.amendment.2248
+- id: iec.amendment.2252
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3804,7 +3833,7 @@
     human: IEC 60050-705:1995/AMD5:2020 ED1
     urn: urn:iec:std:iec:60050-705:1995::ed-1:::amd:5:2020
   style: v3
-- id: iec.amendment.2249
+- id: iec.amendment.2253
   identifier:
     _type: pubid:iec:amendment
     number: '6'
@@ -3818,7 +3847,7 @@
     human: IEC 60050-705:1995/AMD6:2021
     urn: urn:iec:std:iec:60050-705:1995:::::amd:6:2021
   style: v3
-- id: iec.amendment.2250
+- id: iec.amendment.2254
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3833,7 +3862,7 @@
     human: IEC 60050-705:1995/AMD6:2021 ED1
     urn: urn:iec:std:iec:60050-705:1995::ed-1:::amd:6:2021
   style: v3
-- id: iec.amendment.2251
+- id: iec.amendment.2255
   identifier:
     _type: pubid:iec:amendment
     number: '7'
@@ -3847,7 +3876,7 @@
     human: IEC 60050-705:1995/AMD7:2021
     urn: urn:iec:std:iec:60050-705:1995:::::amd:7:2021
   style: v3
-- id: iec.amendment.2252
+- id: iec.amendment.2256
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3862,7 +3891,7 @@
     human: IEC 60050-705:1995/AMD7:2021 ED1
     urn: urn:iec:std:iec:60050-705:1995::ed-1:::amd:7:2021
   style: v3
-- id: iec.amendment.2257
+- id: iec.amendment.2261
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -3876,7 +3905,7 @@
     human: IEC 60050-712:1992/AMD1:2021
     urn: urn:iec:std:iec:60050-712:1992:::::amd:1:2021
   style: v3
-- id: iec.amendment.2258
+- id: iec.amendment.2262
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3891,7 +3920,7 @@
     human: IEC 60050-712:1992/AMD1:2021 ED1
     urn: urn:iec:std:iec:60050-712:1992::ed-1:::amd:1:2021
   style: v3
-- id: iec.amendment.2261
+- id: iec.amendment.2265
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -3905,7 +3934,7 @@
     human: IEC 60050-713:1998/AMD1:2016
     urn: urn:iec:std:iec:60050-713:1998:::::amd:1:2016
   style: v3
-- id: iec.amendment.2262
+- id: iec.amendment.2266
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3920,7 +3949,7 @@
     human: IEC 60050-713:1998/AMD1:2016 ED1
     urn: urn:iec:std:iec:60050-713:1998::ed-1:::amd:1:2016
   style: v3
-- id: iec.amendment.2263
+- id: iec.amendment.2267
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -3934,7 +3963,7 @@
     human: IEC 60050-713:1998/AMD2:2017
     urn: urn:iec:std:iec:60050-713:1998:::::amd:2:2017
   style: v3
-- id: iec.amendment.2264
+- id: iec.amendment.2268
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3949,7 +3978,7 @@
     human: IEC 60050-713:1998/AMD2:2017 ED1
     urn: urn:iec:std:iec:60050-713:1998::ed-1:::amd:2:2017
   style: v3
-- id: iec.amendment.2265
+- id: iec.amendment.2269
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -3963,7 +3992,7 @@
     human: IEC 60050-713:1998/AMD3:2018
     urn: urn:iec:std:iec:60050-713:1998:::::amd:3:2018
   style: v3
-- id: iec.amendment.2266
+- id: iec.amendment.2270
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -3978,7 +4007,7 @@
     human: IEC 60050-713:1998/AMD3:2018 ED1
     urn: urn:iec:std:iec:60050-713:1998::ed-1:::amd:3:2018
   style: v3
-- id: iec.amendment.2267
+- id: iec.amendment.2271
   identifier:
     _type: pubid:iec:amendment
     number: '4'
@@ -3992,7 +4021,7 @@
     human: IEC 60050-713:1998/AMD4:2019
     urn: urn:iec:std:iec:60050-713:1998:::::amd:4:2019
   style: v3
-- id: iec.amendment.2268
+- id: iec.amendment.2272
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4007,7 +4036,7 @@
     human: IEC 60050-713:1998/AMD4:2019 ED1
     urn: urn:iec:std:iec:60050-713:1998::ed-1:::amd:4:2019
   style: v3
-- id: iec.amendment.2269
+- id: iec.amendment.2273
   identifier:
     _type: pubid:iec:amendment
     number: '5'
@@ -4021,7 +4050,7 @@
     human: IEC 60050-713:1998/AMD5:2021
     urn: urn:iec:std:iec:60050-713:1998:::::amd:5:2021
   style: v3
-- id: iec.amendment.2270
+- id: iec.amendment.2274
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4036,7 +4065,7 @@
     human: IEC 60050-713:1998/AMD5:2021 ED1
     urn: urn:iec:std:iec:60050-713:1998::ed-1:::amd:5:2021
   style: v3
-- id: iec.amendment.2274
+- id: iec.amendment.2278
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -4050,7 +4079,7 @@
     human: IEC 60050-714:1992/AMD1:2016
     urn: urn:iec:std:iec:60050-714:1992:::::amd:1:2016
   style: v3
-- id: iec.amendment.2275
+- id: iec.amendment.2279
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4065,7 +4094,7 @@
     human: IEC 60050-714:1992/AMD1:2016 ED1
     urn: urn:iec:std:iec:60050-714:1992::ed-1:::amd:1:2016
   style: v3
-- id: iec.amendment.2276
+- id: iec.amendment.2280
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -4079,7 +4108,7 @@
     human: IEC 60050-714:1992/AMD2:2017
     urn: urn:iec:std:iec:60050-714:1992:::::amd:2:2017
   style: v3
-- id: iec.amendment.2277
+- id: iec.amendment.2281
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4094,7 +4123,7 @@
     human: IEC 60050-714:1992/AMD2:2017 ED1
     urn: urn:iec:std:iec:60050-714:1992::ed-1:::amd:2:2017
   style: v3
-- id: iec.amendment.2278
+- id: iec.amendment.2282
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -4108,7 +4137,7 @@
     human: IEC 60050-714:1992/AMD3:2018
     urn: urn:iec:std:iec:60050-714:1992:::::amd:3:2018
   style: v3
-- id: iec.amendment.2279
+- id: iec.amendment.2283
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4123,7 +4152,7 @@
     human: IEC 60050-714:1992/AMD3:2018 ED1
     urn: urn:iec:std:iec:60050-714:1992::ed-1:::amd:3:2018
   style: v3
-- id: iec.amendment.2280
+- id: iec.amendment.2284
   identifier:
     _type: pubid:iec:amendment
     number: '4'
@@ -4137,7 +4166,7 @@
     human: IEC 60050-714:1992/AMD4:2019
     urn: urn:iec:std:iec:60050-714:1992:::::amd:4:2019
   style: v3
-- id: iec.amendment.2281
+- id: iec.amendment.2285
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4152,7 +4181,7 @@
     human: IEC 60050-714:1992/AMD4:2019 ED1
     urn: urn:iec:std:iec:60050-714:1992::ed-1:::amd:4:2019
   style: v3
-- id: iec.amendment.2284
+- id: iec.amendment.2288
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -4166,7 +4195,7 @@
     human: IEC 60050-715:1996/AMD1:2016
     urn: urn:iec:std:iec:60050-715:1996:::::amd:1:2016
   style: v3
-- id: iec.amendment.2285
+- id: iec.amendment.2289
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4181,7 +4210,7 @@
     human: IEC 60050-715:1996/AMD1:2016 ED1
     urn: urn:iec:std:iec:60050-715:1996::ed-1:::amd:1:2016
   style: v3
-- id: iec.amendment.2286
+- id: iec.amendment.2290
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -4195,7 +4224,7 @@
     human: IEC 60050-715:1996/AMD2:2019
     urn: urn:iec:std:iec:60050-715:1996:::::amd:2:2019
   style: v3
-- id: iec.amendment.2287
+- id: iec.amendment.2291
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4210,7 +4239,7 @@
     human: IEC 60050-715:1996/AMD2:2019 ED1
     urn: urn:iec:std:iec:60050-715:1996::ed-1:::amd:2:2019
   style: v3
-- id: iec.amendment.2288
+- id: iec.amendment.2292
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -4224,7 +4253,7 @@
     human: IEC 60050-715:1996/AMD3:2021
     urn: urn:iec:std:iec:60050-715:1996:::::amd:3:2021
   style: v3
-- id: iec.amendment.2289
+- id: iec.amendment.2293
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4239,7 +4268,7 @@
     human: IEC 60050-715:1996/AMD3:2021 ED1
     urn: urn:iec:std:iec:60050-715:1996::ed-1:::amd:3:2021
   style: v3
-- id: iec.amendment.2295
+- id: iec.amendment.2299
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -4253,7 +4282,7 @@
     human: IEC 60050-721:1991/AMD1:2016
     urn: urn:iec:std:iec:60050-721:1991:::::amd:1:2016
   style: v3
-- id: iec.amendment.2296
+- id: iec.amendment.2300
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4268,7 +4297,7 @@
     human: IEC 60050-721:1991/AMD1:2016 ED1
     urn: urn:iec:std:iec:60050-721:1991::ed-1:::amd:1:2016
   style: v3
-- id: iec.amendment.2297
+- id: iec.amendment.2301
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -4282,7 +4311,7 @@
     human: IEC 60050-721:1991/AMD2:2017
     urn: urn:iec:std:iec:60050-721:1991:::::amd:2:2017
   style: v3
-- id: iec.amendment.2298
+- id: iec.amendment.2302
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4297,7 +4326,7 @@
     human: IEC 60050-721:1991/AMD2:2017 ED1
     urn: urn:iec:std:iec:60050-721:1991::ed-1:::amd:2:2017
   style: v3
-- id: iec.amendment.2299
+- id: iec.amendment.2303
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -4311,7 +4340,7 @@
     human: IEC 60050-721:1991/AMD3:2018
     urn: urn:iec:std:iec:60050-721:1991:::::amd:3:2018
   style: v3
-- id: iec.amendment.2300
+- id: iec.amendment.2304
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4326,7 +4355,7 @@
     human: IEC 60050-721:1991/AMD3:2018 ED1
     urn: urn:iec:std:iec:60050-721:1991::ed-1:::amd:3:2018
   style: v3
-- id: iec.amendment.2301
+- id: iec.amendment.2305
   identifier:
     _type: pubid:iec:amendment
     number: '4'
@@ -4340,7 +4369,7 @@
     human: IEC 60050-721:1991/AMD4:2019
     urn: urn:iec:std:iec:60050-721:1991:::::amd:4:2019
   style: v3
-- id: iec.amendment.2302
+- id: iec.amendment.2306
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4355,7 +4384,7 @@
     human: IEC 60050-721:1991/AMD4:2019 ED1
     urn: urn:iec:std:iec:60050-721:1991::ed-1:::amd:4:2019
   style: v3
-- id: iec.amendment.2303
+- id: iec.amendment.2307
   identifier:
     _type: pubid:iec:amendment
     number: '5'
@@ -4369,7 +4398,7 @@
     human: IEC 60050-721:1991/AMD5:2021
     urn: urn:iec:std:iec:60050-721:1991:::::amd:5:2021
   style: v3
-- id: iec.amendment.2304
+- id: iec.amendment.2308
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4384,7 +4413,7 @@
     human: IEC 60050-721:1991/AMD5:2021 ED1
     urn: urn:iec:std:iec:60050-721:1991::ed-1:::amd:5:2021
   style: v3
-- id: iec.amendment.2308
+- id: iec.amendment.2312
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -4398,7 +4427,7 @@
     human: IEC 60050-722:1992/AMD1:2017
     urn: urn:iec:std:iec:60050-722:1992:::::amd:1:2017
   style: v3
-- id: iec.amendment.2309
+- id: iec.amendment.2313
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4413,7 +4442,7 @@
     human: IEC 60050-722:1992/AMD1:2017 ED1
     urn: urn:iec:std:iec:60050-722:1992::ed-1:::amd:1:2017
   style: v3
-- id: iec.amendment.2313
+- id: iec.amendment.2317
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -4427,7 +4456,7 @@
     human: IEC 60050-723:1997/AMD1:1999
     urn: urn:iec:std:iec:60050-723:1997:::::amd:1:1999
   style: v3
-- id: iec.amendment.2314
+- id: iec.amendment.2318
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4442,7 +4471,7 @@
     human: IEC 60050-723:1997/AMD1:1999 ED1
     urn: urn:iec:std:iec:60050-723:1997::ed-1:::amd:1:1999
   style: v3
-- id: iec.amendment.2315
+- id: iec.amendment.2319
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -4456,7 +4485,7 @@
     human: IEC 60050-723:1997/AMD2:2016
     urn: urn:iec:std:iec:60050-723:1997:::::amd:2:2016
   style: v3
-- id: iec.amendment.2316
+- id: iec.amendment.2320
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4471,7 +4500,7 @@
     human: IEC 60050-723:1997/AMD2:2016 ED1
     urn: urn:iec:std:iec:60050-723:1997::ed-1:::amd:2:2016
   style: v3
-- id: iec.amendment.2317
+- id: iec.amendment.2321
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -4485,7 +4514,7 @@
     human: IEC 60050-723:1997/AMD3:2017
     urn: urn:iec:std:iec:60050-723:1997:::::amd:3:2017
   style: v3
-- id: iec.amendment.2318
+- id: iec.amendment.2322
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4500,7 +4529,7 @@
     human: IEC 60050-723:1997/AMD3:2017 ED1
     urn: urn:iec:std:iec:60050-723:1997::ed-1:::amd:3:2017
   style: v3
-- id: iec.amendment.2319
+- id: iec.amendment.2323
   identifier:
     _type: pubid:iec:amendment
     number: '4'
@@ -4514,7 +4543,7 @@
     human: IEC 60050-723:1997/AMD4:2018
     urn: urn:iec:std:iec:60050-723:1997:::::amd:4:2018
   style: v3
-- id: iec.amendment.2320
+- id: iec.amendment.2324
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4529,7 +4558,7 @@
     human: IEC 60050-723:1997/AMD4:2018 ED1
     urn: urn:iec:std:iec:60050-723:1997::ed-1:::amd:4:2018
   style: v3
-- id: iec.amendment.2321
+- id: iec.amendment.2325
   identifier:
     _type: pubid:iec:amendment
     number: '5'
@@ -4543,7 +4572,7 @@
     human: IEC 60050-723:1997/AMD5:2019
     urn: urn:iec:std:iec:60050-723:1997:::::amd:5:2019
   style: v3
-- id: iec.amendment.2322
+- id: iec.amendment.2326
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4558,7 +4587,7 @@
     human: IEC 60050-723:1997/AMD5:2019 ED1
     urn: urn:iec:std:iec:60050-723:1997::ed-1:::amd:5:2019
   style: v3
-- id: iec.amendment.2323
+- id: iec.amendment.2327
   identifier:
     _type: pubid:iec:amendment
     number: '6'
@@ -4572,7 +4601,7 @@
     human: IEC 60050-723:1997/AMD6:2020
     urn: urn:iec:std:iec:60050-723:1997:::::amd:6:2020
   style: v3
-- id: iec.amendment.2324
+- id: iec.amendment.2328
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4587,7 +4616,7 @@
     human: IEC 60050-723:1997/AMD6:2020 ED1
     urn: urn:iec:std:iec:60050-723:1997::ed-1:::amd:6:2020
   style: v3
-- id: iec.amendment.2325
+- id: iec.amendment.2329
   identifier:
     _type: pubid:iec:amendment
     number: '7'
@@ -4601,7 +4630,7 @@
     human: IEC 60050-723:1997/AMD7:2021
     urn: urn:iec:std:iec:60050-723:1997:::::amd:7:2021
   style: v3
-- id: iec.amendment.2326
+- id: iec.amendment.2330
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4616,7 +4645,7 @@
     human: IEC 60050-723:1997/AMD7:2021 ED1
     urn: urn:iec:std:iec:60050-723:1997::ed-1:::amd:7:2021
   style: v3
-- id: iec.amendment.2330
+- id: iec.amendment.2334
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -4630,7 +4659,7 @@
     human: IEC 60050-725:1994/AMD1:2016
     urn: urn:iec:std:iec:60050-725:1994:::::amd:1:2016
   style: v3
-- id: iec.amendment.2331
+- id: iec.amendment.2335
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -4645,7 +4674,7 @@
     human: IEC 60050-725:1994/AMD1:2016 ED2
     urn: urn:iec:std:iec:60050-725:1994::ed-2:::amd:1:2016
   style: v3
-- id: iec.amendment.2332
+- id: iec.amendment.2336
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -4659,7 +4688,7 @@
     human: IEC 60050-725:1994/AMD2:2019
     urn: urn:iec:std:iec:60050-725:1994:::::amd:2:2019
   style: v3
-- id: iec.amendment.2333
+- id: iec.amendment.2337
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -4674,7 +4703,7 @@
     human: IEC 60050-725:1994/AMD2:2019 ED2
     urn: urn:iec:std:iec:60050-725:1994::ed-2:::amd:2:2019
   style: v3
-- id: iec.amendment.2334
+- id: iec.amendment.2338
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -4688,7 +4717,7 @@
     human: IEC 60050-725:1994/AMD3:2021
     urn: urn:iec:std:iec:60050-725:1994:::::amd:3:2021
   style: v3
-- id: iec.amendment.2335
+- id: iec.amendment.2339
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -4703,7 +4732,7 @@
     human: IEC 60050-725:1994/AMD3:2021 ED2
     urn: urn:iec:std:iec:60050-725:1994::ed-2:::amd:3:2021
   style: v3
-- id: iec.amendment.2339
+- id: iec.amendment.2343
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -4717,7 +4746,7 @@
     human: IEC 60050-726:1982/AMD1:2016
     urn: urn:iec:std:iec:60050-726:1982:::::amd:1:2016
   style: v3
-- id: iec.amendment.2340
+- id: iec.amendment.2344
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4732,7 +4761,7 @@
     human: IEC 60050-726:1982/AMD1:2016 ED1
     urn: urn:iec:std:iec:60050-726:1982::ed-1:::amd:1:2016
   style: v3
-- id: iec.amendment.2341
+- id: iec.amendment.2345
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -4746,7 +4775,7 @@
     human: IEC 60050-726:1982/AMD2:2017
     urn: urn:iec:std:iec:60050-726:1982:::::amd:2:2017
   style: v3
-- id: iec.amendment.2342
+- id: iec.amendment.2346
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4761,7 +4790,7 @@
     human: IEC 60050-726:1982/AMD2:2017 ED1
     urn: urn:iec:std:iec:60050-726:1982::ed-1:::amd:2:2017
   style: v3
-- id: iec.amendment.2343
+- id: iec.amendment.2347
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -4775,7 +4804,7 @@
     human: IEC 60050-726:1982/AMD3:2018
     urn: urn:iec:std:iec:60050-726:1982:::::amd:3:2018
   style: v3
-- id: iec.amendment.2344
+- id: iec.amendment.2348
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4790,7 +4819,7 @@
     human: IEC 60050-726:1982/AMD3:2018 ED1
     urn: urn:iec:std:iec:60050-726:1982::ed-1:::amd:3:2018
   style: v3
-- id: iec.amendment.2345
+- id: iec.amendment.2349
   identifier:
     _type: pubid:iec:amendment
     number: '4'
@@ -4804,7 +4833,7 @@
     human: IEC 60050-726:1982/AMD4:2019
     urn: urn:iec:std:iec:60050-726:1982:::::amd:4:2019
   style: v3
-- id: iec.amendment.2346
+- id: iec.amendment.2350
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4819,7 +4848,7 @@
     human: IEC 60050-726:1982/AMD4:2019 ED1
     urn: urn:iec:std:iec:60050-726:1982::ed-1:::amd:4:2019
   style: v3
-- id: iec.amendment.2347
+- id: iec.amendment.2351
   identifier:
     _type: pubid:iec:amendment
     number: '5'
@@ -4833,7 +4862,7 @@
     human: IEC 60050-726:1982/AMD5:2020
     urn: urn:iec:std:iec:60050-726:1982:::::amd:5:2020
   style: v3
-- id: iec.amendment.2348
+- id: iec.amendment.2352
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4848,7 +4877,7 @@
     human: IEC 60050-726:1982/AMD5:2020 ED1
     urn: urn:iec:std:iec:60050-726:1982::ed-1:::amd:5:2020
   style: v3
-- id: iec.amendment.2349
+- id: iec.amendment.2353
   identifier:
     _type: pubid:iec:amendment
     number: '6'
@@ -4862,7 +4891,7 @@
     human: IEC 60050-726:1982/AMD6:2021
     urn: urn:iec:std:iec:60050-726:1982:::::amd:6:2021
   style: v3
-- id: iec.amendment.2350
+- id: iec.amendment.2354
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4877,7 +4906,7 @@
     human: IEC 60050-726:1982/AMD6:2021 ED1
     urn: urn:iec:std:iec:60050-726:1982::ed-1:::amd:6:2021
   style: v3
-- id: iec.amendment.2351
+- id: iec.amendment.2355
   identifier:
     _type: pubid:iec:amendment
     number: '7'
@@ -4891,7 +4920,7 @@
     human: IEC 60050-726:1982/AMD7:2021
     urn: urn:iec:std:iec:60050-726:1982:::::amd:7:2021
   style: v3
-- id: iec.amendment.2352
+- id: iec.amendment.2356
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4906,7 +4935,7 @@
     human: IEC 60050-726:1982/AMD7:2021 ED1
     urn: urn:iec:std:iec:60050-726:1982::ed-1:::amd:7:2021
   style: v3
-- id: iec.amendment.2357
+- id: iec.amendment.2361
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -4920,7 +4949,7 @@
     human: IEC 60050-731:1991/AMD1:2016
     urn: urn:iec:std:iec:60050-731:1991:::::amd:1:2016
   style: v3
-- id: iec.amendment.2358
+- id: iec.amendment.2362
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4935,7 +4964,7 @@
     human: IEC 60050-731:1991/AMD1:2016 ED1
     urn: urn:iec:std:iec:60050-731:1991::ed-1:::amd:1:2016
   style: v3
-- id: iec.amendment.2359
+- id: iec.amendment.2363
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -4949,7 +4978,7 @@
     human: IEC 60050-731:1991/AMD2:2017
     urn: urn:iec:std:iec:60050-731:1991:::::amd:2:2017
   style: v3
-- id: iec.amendment.2360
+- id: iec.amendment.2364
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4964,7 +4993,7 @@
     human: IEC 60050-731:1991/AMD2:2017 ED1
     urn: urn:iec:std:iec:60050-731:1991::ed-1:::amd:2:2017
   style: v3
-- id: iec.amendment.2361
+- id: iec.amendment.2365
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -4978,7 +5007,7 @@
     human: IEC 60050-731:1991/AMD3:2018
     urn: urn:iec:std:iec:60050-731:1991:::::amd:3:2018
   style: v3
-- id: iec.amendment.2362
+- id: iec.amendment.2366
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -4993,7 +5022,7 @@
     human: IEC 60050-731:1991/AMD3:2018 ED1
     urn: urn:iec:std:iec:60050-731:1991::ed-1:::amd:3:2018
   style: v3
-- id: iec.amendment.2363
+- id: iec.amendment.2367
   identifier:
     _type: pubid:iec:amendment
     number: '4'
@@ -5007,7 +5036,7 @@
     human: IEC 60050-731:1991/AMD4:2019
     urn: urn:iec:std:iec:60050-731:1991:::::amd:4:2019
   style: v3
-- id: iec.amendment.2364
+- id: iec.amendment.2368
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5022,7 +5051,7 @@
     human: IEC 60050-731:1991/AMD4:2019 ED1
     urn: urn:iec:std:iec:60050-731:1991::ed-1:::amd:4:2019
   style: v3
-- id: iec.amendment.2365
+- id: iec.amendment.2369
   identifier:
     _type: pubid:iec:amendment
     number: '5'
@@ -5036,7 +5065,7 @@
     human: IEC 60050-731:1991/AMD5:2020
     urn: urn:iec:std:iec:60050-731:1991:::::amd:5:2020
   style: v3
-- id: iec.amendment.2366
+- id: iec.amendment.2370
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5051,7 +5080,7 @@
     human: IEC 60050-731:1991/AMD5:2020 ED1
     urn: urn:iec:std:iec:60050-731:1991::ed-1:::amd:5:2020
   style: v3
-- id: iec.amendment.2367
+- id: iec.amendment.2371
   identifier:
     _type: pubid:iec:amendment
     number: '6'
@@ -5065,7 +5094,7 @@
     human: IEC 60050-731:1991/AMD6:2021
     urn: urn:iec:std:iec:60050-731:1991:::::amd:6:2021
   style: v3
-- id: iec.amendment.2368
+- id: iec.amendment.2372
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5080,7 +5109,7 @@
     human: IEC 60050-731:1991/AMD6:2021 ED1
     urn: urn:iec:std:iec:60050-731:1991::ed-1:::amd:6:2021
   style: v3
-- id: iec.amendment.2372
+- id: iec.amendment.2376
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -5094,7 +5123,7 @@
     human: IEC 60050-732:2010/AMD1:2014
     urn: urn:iec:std:iec:60050-732:2010:::::amd:1:2014
   style: v3
-- id: iec.amendment.2373
+- id: iec.amendment.2377
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -5108,7 +5137,7 @@
     human: IEC 60050-732:2010/AMD2:2016
     urn: urn:iec:std:iec:60050-732:2010:::::amd:2:2016
   style: v3
-- id: iec.amendment.2374
+- id: iec.amendment.2378
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5123,7 +5152,7 @@
     human: IEC 60050-732:2010/AMD2:2016 ED1
     urn: urn:iec:std:iec:60050-732:2010::ed-1:::amd:2:2016
   style: v3
-- id: iec.amendment.2375
+- id: iec.amendment.2379
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -5137,7 +5166,7 @@
     human: IEC 60050-732:2010/AMD3:2021
     urn: urn:iec:std:iec:60050-732:2010:::::amd:3:2021
   style: v3
-- id: iec.amendment.2376
+- id: iec.amendment.2380
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5152,7 +5181,7 @@
     human: IEC 60050-732:2010/AMD3:2021 ED1
     urn: urn:iec:std:iec:60050-732:2010::ed-1:::amd:3:2021
   style: v3
-- id: iec.amendment.2382
+- id: iec.amendment.2386
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -5166,7 +5195,7 @@
     human: IEC 60050-801:1994/AMD1:2018
     urn: urn:iec:std:iec:60050-801:1994:::::amd:1:2018
   style: v3
-- id: iec.amendment.2383
+- id: iec.amendment.2387
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -5181,7 +5210,7 @@
     human: IEC 60050-801:1994/AMD1:2018 ED2
     urn: urn:iec:std:iec:60050-801:1994::ed-2:::amd:1:2018
   style: v3
-- id: iec.amendment.2384
+- id: iec.amendment.2388
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -5195,7 +5224,7 @@
     human: IEC 60050-801:1994/AMD2:2021
     urn: urn:iec:std:iec:60050-801:1994:::::amd:2:2021
   style: v3
-- id: iec.amendment.2385
+- id: iec.amendment.2389
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -5210,7 +5239,7 @@
     human: IEC 60050-801:1994/AMD2:2021 ED2
     urn: urn:iec:std:iec:60050-801:1994::ed-2:::amd:2:2021
   style: v3
-- id: iec.amendment.2386
+- id: iec.amendment.2390
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -5224,7 +5253,7 @@
     human: IEC 60050-801:1994/AMD3:2021
     urn: urn:iec:std:iec:60050-801:1994:::::amd:3:2021
   style: v3
-- id: iec.amendment.2387
+- id: iec.amendment.2391
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -5239,7 +5268,7 @@
     human: IEC 60050-801:1994/AMD3:2021 ED2
     urn: urn:iec:std:iec:60050-801:1994::ed-2:::amd:3:2021
   style: v3
-- id: iec.amendment.2388
+- id: iec.amendment.2392
   identifier:
     _type: pubid:iec:amendment
     number: '4'
@@ -5253,7 +5282,7 @@
     human: IEC 60050-801:1994/AMD4:2021
     urn: urn:iec:std:iec:60050-801:1994:::::amd:4:2021
   style: v3
-- id: iec.amendment.2389
+- id: iec.amendment.2393
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -5268,7 +5297,7 @@
     human: IEC 60050-801:1994/AMD4:2021 ED2
     urn: urn:iec:std:iec:60050-801:1994::ed-2:::amd:4:2021
   style: v3
-- id: iec.amendment.2392
+- id: iec.amendment.2396
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -5282,7 +5311,7 @@
     human: IEC 60050-802:2011/AMD1:2021
     urn: urn:iec:std:iec:60050-802:2011:::::amd:1:2021
   style: v3
-- id: iec.amendment.2393
+- id: iec.amendment.2397
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5297,7 +5326,7 @@
     human: IEC 60050-802:2011/AMD1:2021 ED1
     urn: urn:iec:std:iec:60050-802:2011::ed-1:::amd:1:2021
   style: v3
-- id: iec.amendment.2398
+- id: iec.amendment.2402
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -5311,7 +5340,7 @@
     human: IEC 60050-806:1996/AMD1:2001
     urn: urn:iec:std:iec:60050-806:1996:::::amd:1:2001
   style: v3
-- id: iec.amendment.2399
+- id: iec.amendment.2403
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -5326,7 +5355,7 @@
     human: IEC 60050-806:1996/AMD1:2001 ED2
     urn: urn:iec:std:iec:60050-806:1996::ed-2:::amd:1:2001
   style: v3
-- id: iec.amendment.2400
+- id: iec.amendment.2404
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -5340,7 +5369,7 @@
     human: IEC 60050-806:1996/AMD2:2018
     urn: urn:iec:std:iec:60050-806:1996:::::amd:2:2018
   style: v3
-- id: iec.amendment.2401
+- id: iec.amendment.2405
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -5355,7 +5384,7 @@
     human: IEC 60050-806:1996/AMD2:2018 ED2
     urn: urn:iec:std:iec:60050-806:1996::ed-2:::amd:2:2018
   style: v3
-- id: iec.amendment.2409
+- id: iec.amendment.2413
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -5369,7 +5398,7 @@
     human: IEC 60050-808:2002/AMD1:2018
     urn: urn:iec:std:iec:60050-808:2002:::::amd:1:2018
   style: v3
-- id: iec.amendment.2410
+- id: iec.amendment.2414
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5384,7 +5413,7 @@
     human: IEC 60050-808:2002/AMD1:2018 ED1
     urn: urn:iec:std:iec:60050-808:2002::ed-1:::amd:1:2018
   style: v3
-- id: iec.amendment.2416
+- id: iec.amendment.2420
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -5398,7 +5427,7 @@
     human: IEC 60050-811:2017/AMD1:2021
     urn: urn:iec:std:iec:60050-811:2017:::::amd:1:2021
   style: v3
-- id: iec.amendment.2417
+- id: iec.amendment.2421
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -5413,7 +5442,7 @@
     human: IEC 60050-811:2017/AMD1:2021 ED2
     urn: urn:iec:std:iec:60050-811:2017::ed-2:::amd:1:2021
   style: v3
-- id: iec.amendment.2423
+- id: iec.amendment.2427
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -5427,7 +5456,7 @@
     human: IEC 60050-815:2015/AMD1:2016
     urn: urn:iec:std:iec:60050-815:2015:::::amd:1:2016
   style: v3
-- id: iec.amendment.2424
+- id: iec.amendment.2428
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -5442,7 +5471,7 @@
     human: IEC 60050-815:2015/AMD1:2016 ED2
     urn: urn:iec:std:iec:60050-815:2015::ed-2:::amd:1:2016
   style: v3
-- id: iec.amendment.2425
+- id: iec.amendment.2429
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -5456,7 +5485,7 @@
     human: IEC 60050-815:2015/AMD2:2020
     urn: urn:iec:std:iec:60050-815:2015:::::amd:2:2020
   style: v3
-- id: iec.amendment.2426
+- id: iec.amendment.2430
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -5471,7 +5500,7 @@
     human: IEC 60050-815:2015/AMD2:2020 ED2
     urn: urn:iec:std:iec:60050-815:2015::ed-2:::amd:2:2020
   style: v3
-- id: iec.amendment.2427
+- id: iec.amendment.2431
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -5485,7 +5514,7 @@
     human: IEC 60050-815:2015/AMD3:2021
     urn: urn:iec:std:iec:60050-815:2015:::::amd:3:2021
   style: v3
-- id: iec.amendment.2428
+- id: iec.amendment.2432
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -5500,7 +5529,7 @@
     human: IEC 60050-815:2015/AMD3:2021 ED2
     urn: urn:iec:std:iec:60050-815:2015::ed-2:::amd:3:2021
   style: v3
-- id: iec.amendment.2436
+- id: iec.amendment.2440
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5515,7 +5544,7 @@
     human: IEC 60050-826:1982/AMD1:1990 ED1
     urn: urn:iec:std:iec:60050-826:1982::ed-1:::amd:1:1990
   style: v3
-- id: iec.amendment.2437
+- id: iec.amendment.2441
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5530,7 +5559,7 @@
     human: IEC 60050-826:1982/AMD2:1995 ED1
     urn: urn:iec:std:iec:60050-826:1982::ed-1:::amd:2:1995
   style: v3
-- id: iec.amendment.2438
+- id: iec.amendment.2442
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5545,7 +5574,7 @@
     human: IEC 60050-826:1982/AMD3:1999 ED1
     urn: urn:iec:std:iec:60050-826:1982::ed-1:::amd:3:1999
   style: v3
-- id: iec.amendment.2446
+- id: iec.amendment.2450
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -5559,7 +5588,7 @@
     human: IEC 60050-841:2004/AMD1:2021
     urn: urn:iec:std:iec:60050-841:2004:::::amd:1:2021
   style: v3
-- id: iec.amendment.2447
+- id: iec.amendment.2451
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -5574,7 +5603,7 @@
     human: IEC 60050-841:2004/AMD1:2021 ED2
     urn: urn:iec:std:iec:60050-841:2004::ed-2:::amd:1:2021
   style: v3
-- id: iec.amendment.2450
+- id: iec.amendment.2454
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5589,7 +5618,7 @@
     human: IEC 60050-845:1987/AMD1:2016 ED1
     urn: urn:iec:std:iec:60050-845:1987::ed-1:::amd:1:2016
   style: v3
-- id: iec.amendment.2451
+- id: iec.amendment.2455
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5604,7 +5633,7 @@
     human: IEC 60050-845:1987/AMD2:2019 ED1
     urn: urn:iec:std:iec:60050-845:1987::ed-1:::amd:2:2019
   style: v3
-- id: iec.amendment.2452
+- id: iec.amendment.2456
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5619,7 +5648,7 @@
     human: IEC 60050-845:1987/AMD3:2020 ED1
     urn: urn:iec:std:iec:60050-845:1987::ed-1:::amd:3:2020
   style: v3
-- id: iec.amendment.2459
+- id: iec.amendment.2463
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -5633,7 +5662,7 @@
     human: IEC 60050-851:2008/AMD1:2014
     urn: urn:iec:std:iec:60050-851:2008:::::amd:1:2014
   style: v3
-- id: iec.amendment.2460
+- id: iec.amendment.2464
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5646,7 +5675,7 @@
     human: IEC 60050-871/AMD1 ED1
     urn: 'urn:iec:std:iec:60050-871:::ed-1:::amd:1:'
   style: v3
-- id: iec.amendment.2466
+- id: iec.amendment.2470
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -5660,7 +5689,7 @@
     human: IEC 60050-881:1983/AMD1:2014
     urn: urn:iec:std:iec:60050-881:1983:::::amd:1:2014
   style: v3
-- id: iec.amendment.2467
+- id: iec.amendment.2471
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5675,7 +5704,7 @@
     human: IEC 60050-881:1983/AMD1:2014 ED1
     urn: urn:iec:std:iec:60050-881:1983::ed-1:::amd:1:2014
   style: v3
-- id: iec.amendment.2468
+- id: iec.amendment.2472
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -5689,7 +5718,7 @@
     human: IEC 60050-881:1983/AMD2:2019
     urn: urn:iec:std:iec:60050-881:1983:::::amd:2:2019
   style: v3
-- id: iec.amendment.2469
+- id: iec.amendment.2473
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5704,7 +5733,7 @@
     human: IEC 60050-881:1983/AMD2:2019 ED1
     urn: urn:iec:std:iec:60050-881:1983::ed-1:::amd:2:2019
   style: v3
-- id: iec.amendment.2470
+- id: iec.amendment.2474
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -5718,7 +5747,7 @@
     human: IEC 60050-881:1983/AMD3:2020
     urn: urn:iec:std:iec:60050-881:1983:::::amd:3:2020
   style: v3
-- id: iec.amendment.2471
+- id: iec.amendment.2475
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5733,7 +5762,7 @@
     human: IEC 60050-881:1983/AMD3:2020 ED1
     urn: urn:iec:std:iec:60050-881:1983::ed-1:::amd:3:2020
   style: v3
-- id: iec.amendment.2475
+- id: iec.amendment.2479
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -5747,7 +5776,7 @@
     human: IEC 60050-891:1998/AMD1:2018
     urn: urn:iec:std:iec:60050-891:1998:::::amd:1:2018
   style: v3
-- id: iec.amendment.2476
+- id: iec.amendment.2480
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5762,7 +5791,7 @@
     human: IEC 60050-891:1998/AMD1:2018 ED1
     urn: urn:iec:std:iec:60050-891:1998::ed-1:::amd:1:2018
   style: v3
-- id: iec.amendment.2484
+- id: iec.amendment.2488
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -5776,7 +5805,7 @@
     human: IEC 60050-903:2013/AMD1:2014
     urn: urn:iec:std:iec:60050-903:2013:::::amd:1:2014
   style: v3
-- id: iec.amendment.2485
+- id: iec.amendment.2489
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5791,7 +5820,7 @@
     human: IEC 60050-903:2013/AMD1:2014 ED1
     urn: urn:iec:std:iec:60050-903:2013::ed-1:::amd:1:2014
   style: v3
-- id: iec.amendment.2486
+- id: iec.amendment.2490
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -5805,7 +5834,7 @@
     human: IEC 60050-903:2013/AMD2:2015
     urn: urn:iec:std:iec:60050-903:2013:::::amd:2:2015
   style: v3
-- id: iec.amendment.2487
+- id: iec.amendment.2491
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5820,7 +5849,7 @@
     human: IEC 60050-903:2013/AMD2:2015 ED1
     urn: urn:iec:std:iec:60050-903:2013::ed-1:::amd:2:2015
   style: v3
-- id: iec.amendment.2490
+- id: iec.amendment.2494
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -5834,7 +5863,7 @@
     human: IEC 60050-904:2014/AMD1:2015
     urn: urn:iec:std:iec:60050-904:2014:::::amd:1:2015
   style: v3
-- id: iec.amendment.2491
+- id: iec.amendment.2495
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5849,7 +5878,7 @@
     human: IEC 60050-904:2014/AMD1:2015 ED1
     urn: urn:iec:std:iec:60050-904:2014::ed-1:::amd:1:2015
   style: v3
-- id: iec.amendment.2492
+- id: iec.amendment.2496
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -5863,7 +5892,7 @@
     human: IEC 60050-904:2014/AMD2:2016
     urn: urn:iec:std:iec:60050-904:2014:::::amd:2:2016
   style: v3
-- id: iec.amendment.2493
+- id: iec.amendment.2497
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5878,7 +5907,7 @@
     human: IEC 60050-904:2014/AMD2:2016 ED1
     urn: urn:iec:std:iec:60050-904:2014::ed-1:::amd:2:2016
   style: v3
-- id: iec.amendment.2494
+- id: iec.amendment.2498
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -5892,7 +5921,7 @@
     human: IEC 60050-904:2014/AMD3:2019
     urn: urn:iec:std:iec:60050-904:2014:::::amd:3:2019
   style: v3
-- id: iec.amendment.2495
+- id: iec.amendment.2499
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -5907,7 +5936,7 @@
     human: IEC 60050-904:2014/AMD3:2019 ED1
     urn: urn:iec:std:iec:60050-904:2014::ed-1:::amd:3:2019
   style: v3
-- id: iec.amendment.2651
+- id: iec.amendment.2655
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -5921,7 +5950,7 @@
     human: IEC 60094-1:1981/AMD1:1994
     urn: urn:iec:std:iec:60094-1:1981:::::amd:1:1994
   style: v3
-- id: iec.amendment.2656
+- id: iec.amendment.2660
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -5935,7 +5964,7 @@
     human: IEC 60094-3:1979/AMD2:1988
     urn: urn:iec:std:iec:60094-3:1979:::::amd:2:1988
   style: v3
-- id: iec.amendment.2657
+- id: iec.amendment.2661
   identifier:
     _type: pubid:iec:amendment
     number: '3'
@@ -5949,7 +5978,7 @@
     human: IEC 60094-3:1979/AMD3:1996
     urn: urn:iec:std:iec:60094-3:1979:::::amd:3:1996
   style: v3
-- id: iec.amendment.2659
+- id: iec.amendment.2663
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -5963,7 +5992,7 @@
     human: IEC 60094-4:1986/AMD1:1994
     urn: urn:iec:std:iec:60094-4:1986:::::amd:1:1994
   style: v3
-- id: iec.amendment.2661
+- id: iec.amendment.2665
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -5977,7 +6006,7 @@
     human: IEC 60094-5:1988/AMD1:1996
     urn: urn:iec:std:iec:60094-5:1988:::::amd:1:1996
   style: v3
-- id: iec.amendment.2664
+- id: iec.amendment.2668
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -5991,7 +6020,7 @@
     human: IEC 60094-7:1986/AMD1:1996
     urn: urn:iec:std:iec:60094-7:1986:::::amd:1:1996
   style: v3
-- id: iec.amendment.2680
+- id: iec.amendment.2684
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6005,7 +6034,7 @@
     human: IEC 60107-3:1988/AMD1:1999
     urn: urn:iec:std:iec:60107-3:1988:::::amd:1:1999
   style: v3
-- id: iec.amendment.2683
+- id: iec.amendment.2687
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6019,7 +6048,7 @@
     human: IEC 60107-4:1988/AMD1:1999
     urn: urn:iec:std:iec:60107-4:1988:::::amd:1:1999
   style: v3
-- id: iec.amendment.2686
+- id: iec.amendment.2690
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6033,7 +6062,7 @@
     human: IEC 60107-5:1992/AMD1:1999
     urn: urn:iec:std:iec:60107-5:1992:::::amd:1:1999
   style: v3
-- id: iec.amendment.2762
+- id: iec.amendment.2766
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6047,7 +6076,7 @@
     human: IEC 60268-11:1987/AMD1:1989
     urn: urn:iec:std:iec:60268-11:1987:::::amd:1:1989
   style: v3
-- id: iec.amendment.2763
+- id: iec.amendment.2767
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -6061,7 +6090,7 @@
     human: IEC 60268-11:1987/AMD2:1991
     urn: urn:iec:std:iec:60268-11:1987:::::amd:2:1991
   style: v3
-- id: iec.amendment.2766
+- id: iec.amendment.2770
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6075,7 +6104,7 @@
     human: IEC 60268-12:1987/AMD1:1991
     urn: urn:iec:std:iec:60268-12:1987:::::amd:1:1991
   style: v3
-- id: iec.amendment.2767
+- id: iec.amendment.2771
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -6089,7 +6118,7 @@
     human: IEC 60268-12:1987/AMD2:1994
     urn: urn:iec:std:iec:60268-12:1987:::::amd:2:1994
   style: v3
-- id: iec.amendment.2772
+- id: iec.amendment.2776
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6103,7 +6132,7 @@
     human: IEC 60268-1:1985/AMD1:1988
     urn: urn:iec:std:iec:60268-1:1985:::::amd:1:1988
   style: v3
-- id: iec.amendment.2773
+- id: iec.amendment.2777
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -6117,7 +6146,7 @@
     human: IEC 60268-1:1985/AMD2:1988
     urn: urn:iec:std:iec:60268-1:1985:::::amd:2:1988
   style: v3
-- id: iec.amendment.2777
+- id: iec.amendment.2781
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6131,7 +6160,7 @@
     human: IEC 60268-2:1987/AMD1:1991
     urn: urn:iec:std:iec:60268-2:1987:::::amd:1:1991
   style: v3
-- id: iec.amendment.2785
+- id: iec.amendment.2789
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6145,7 +6174,7 @@
     human: IEC 60268-5:2003/AMD1:2007
     urn: urn:iec:std:iec:60268-5:2003:::::amd:1:2007
   style: v3
-- id: iec.amendment.2789
+- id: iec.amendment.2793
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6159,7 +6188,7 @@
     human: IEC 60268-7:2010/AMD1:2020
     urn: urn:iec:std:iec:60268-7:2010:::::amd:1:2020
   style: v3
-- id: iec.amendment.2836
+- id: iec.amendment.2840
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6173,7 +6202,7 @@
     human: IEC 60315-3:1989/AMD1:1999
     urn: urn:iec:std:iec:60315-3:1989:::::amd:1:1999
   style: v3
-- id: iec.amendment.3200
+- id: iec.amendment.3204
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6186,7 +6215,7 @@
     human: IEC 60386:1972/AMD1:1988
     urn: urn:iec:std:iec:60386:1972:::::amd:1:1988
   style: v3
-- id: iec.amendment.3282
+- id: iec.amendment.3286
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6199,7 +6228,7 @@
     human: IEC 60558:1982/AMD1:1987
     urn: urn:iec:std:iec:60558:1982:::::amd:1:1987
   style: v3
-- id: iec.amendment.3283
+- id: iec.amendment.3287
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -6212,7 +6241,7 @@
     human: IEC 60558:1982/AMD2:1993
     urn: urn:iec:std:iec:60558:1982:::::amd:2:1993
   style: v3
-- id: iec.amendment.3388
+- id: iec.amendment.3392
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6225,7 +6254,7 @@
     human: IEC 60602:1980/AMD1:1987
     urn: urn:iec:std:iec:60602:1980:::::amd:1:1987
   style: v3
-- id: iec.amendment.3494
+- id: iec.amendment.3498
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6238,7 +6267,7 @@
     human: IEC 60712:1993/AMD1:1993
     urn: urn:iec:std:iec:60712:1993:::::amd:1:1993
   style: v3
-- id: iec.amendment.3531
+- id: iec.amendment.3535
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6253,7 +6282,7 @@
     human: IEC 60728-7-1:2003/AMD1:2015
     urn: urn:iec:std:iec:60728-7-1:2003:::::amd:1:2015
   style: v3
-- id: iec.amendment.3535
+- id: iec.amendment.3539
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6267,7 +6296,7 @@
     human: IEC 60728-9:2000/AMD1:2005
     urn: urn:iec:std:iec:60728-9:2000:::::amd:1:2005
   style: v3
-- id: iec.amendment.3715
+- id: iec.amendment.3719
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6280,7 +6309,7 @@
     human: IEC 60856:1986/AMD1:1991
     urn: urn:iec:std:iec:60856:1986:::::amd:1:1991
   style: v3
-- id: iec.amendment.3716
+- id: iec.amendment.3720
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -6293,7 +6322,7 @@
     human: IEC 60856:1986/AMD2:1997
     urn: urn:iec:std:iec:60856:1986:::::amd:2:1997
   style: v3
-- id: iec.amendment.3718
+- id: iec.amendment.3722
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6306,7 +6335,7 @@
     human: IEC 60857:1986/AMD1:1991
     urn: urn:iec:std:iec:60857:1986:::::amd:1:1991
   style: v3
-- id: iec.amendment.3719
+- id: iec.amendment.3723
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -6319,7 +6348,7 @@
     human: IEC 60857:1986/AMD2:1997
     urn: urn:iec:std:iec:60857:1986:::::amd:2:1997
   style: v3
-- id: iec.amendment.3960
+- id: iec.amendment.3964
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6332,7 +6361,7 @@
     human: IEC 61016:1989/AMD1:1999
     urn: urn:iec:std:iec:61016:1989:::::amd:1:1999
   style: v3
-- id: iec.amendment.4000
+- id: iec.amendment.4004
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6345,7 +6374,7 @@
     human: IEC 61096:1992/AMD1:1996
     urn: urn:iec:std:iec:61096:1992:::::amd:1:1996
   style: v3
-- id: iec.amendment.4072
+- id: iec.amendment.4076
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6360,7 +6389,7 @@
     human: IEC 61158-3-2:2014/AMD1:2019
     urn: urn:iec:std:iec:61158-3-2:2014:::::amd:1:2019
   style: v3
-- id: iec.amendment.4281
+- id: iec.amendment.4285
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6375,7 +6404,7 @@
     human: IEC 61300-2-4:2019/AMD1:2020
     urn: urn:iec:std:iec:61300-2-4:2019:::::amd:1:2020
   style: v3
-- id: iec.amendment.4474
+- id: iec.amendment.4478
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6389,7 +6418,7 @@
     human: IEC 61603-2:1997/AMD1:2004
     urn: urn:iec:std:iec:61603-2:1997:::::amd:1:2004
   style: v3
-- id: iec.amendment.4492
+- id: iec.amendment.4496
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6402,7 +6431,7 @@
     human: IEC 61666:2010/AMD1:2021
     urn: urn:iec:std:iec:61666:2010:::::amd:1:2021
   style: v3
-- id: iec.amendment.4565
+- id: iec.amendment.4569
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6416,7 +6445,7 @@
     human: IEC 61753-1:2018/AMD1:2020
     urn: urn:iec:std:iec:61753-1:2018:::::amd:1:2020
   style: v3
-- id: iec.amendment.4580
+- id: iec.amendment.4584
   identifier:
     _type: pubid:iec:amendment
     edition: '2'
@@ -6429,7 +6458,7 @@
     human: IEC 61754-20/AMD1 ED2
     urn: 'urn:iec:std:iec:61754-20:::ed-2:::amd:1:'
   style: v3
-- id: iec.amendment.4642
+- id: iec.amendment.4646
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6444,7 +6473,7 @@
     human: IEC 61755-3-6:2006/AMD1:2012
     urn: urn:iec:std:iec:61755-3-6:2006:::::amd:1:2012
   style: v3
-- id: iec.amendment.4664
+- id: iec.amendment.4668
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6459,7 +6488,7 @@
     human: IEC 61784-3-12:2010/AMD1:2019
     urn: urn:iec:std:iec:61784-3-12:2010:::::amd:1:2019
   style: v3
-- id: iec.amendment.4671
+- id: iec.amendment.4675
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6474,7 +6503,7 @@
     human: IEC 61784-3-18:2011/AMD1:2016
     urn: urn:iec:std:iec:61784-3-18:2011:::::amd:1:2016
   style: v3
-- id: iec.amendment.4672
+- id: iec.amendment.4676
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -6489,7 +6518,7 @@
     human: IEC 61784-3-18:2011/AMD2:2021
     urn: urn:iec:std:iec:61784-3-18:2011:::::amd:2:2021
   style: v3
-- id: iec.amendment.4683
+- id: iec.amendment.4687
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6504,7 +6533,7 @@
     human: IEC 61784-5-10:2010/AMD1:2015
     urn: urn:iec:std:iec:61784-5-10:2010:::::amd:1:2015
   style: v3
-- id: iec.amendment.4691
+- id: iec.amendment.4695
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6519,7 +6548,7 @@
     human: IEC 61784-5-15:2010/AMD1:2015
     urn: urn:iec:std:iec:61784-5-15:2010:::::amd:1:2015
   style: v3
-- id: iec.amendment.4705
+- id: iec.amendment.4709
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6534,7 +6563,7 @@
     human: IEC 61784-5-4:2010/AMD1:2015
     urn: urn:iec:std:iec:61784-5-4:2010:::::amd:1:2015
   style: v3
-- id: iec.amendment.4733
+- id: iec.amendment.4737
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6548,7 +6577,7 @@
     human: IEC 61834-1:1998/AMD1:2001
     urn: urn:iec:std:iec:61834-1:1998:::::amd:1:2001
   style: v3
-- id: iec.amendment.4737
+- id: iec.amendment.4741
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6562,7 +6591,7 @@
     human: IEC 61834-4:1998/AMD1:2010
     urn: urn:iec:std:iec:61834-4:1998:::::amd:1:2010
   style: v3
-- id: iec.amendment.4776
+- id: iec.amendment.4780
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6576,7 +6605,7 @@
     human: IEC 61883-8:2008/AMD1:2014
     urn: urn:iec:std:iec:61883-8:2008:::::amd:1:2014
   style: v3
-- id: iec.amendment.4785
+- id: iec.amendment.4789
   identifier:
     _type: pubid:iec:amendment
     edition: '4'
@@ -6588,7 +6617,7 @@
     human: IEC 61918/AMD2 ED4
     urn: 'urn:iec:std:iec:61918:::ed-4:::amd:2:'
   style: v3
-- id: iec.amendment.4788
+- id: iec.amendment.4792
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6601,7 +6630,7 @@
     human: IEC 61918:2018/AMD1:2022
     urn: urn:iec:std:iec:61918:2018:::::amd:1:2022
   style: v3
-- id: iec.amendment.4814
+- id: iec.amendment.4818
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6615,7 +6644,7 @@
     human: IEC 61937-3:2017/AMD1:2020
     urn: urn:iec:std:iec:61937-3:2017:::::amd:1:2020
   style: v3
-- id: iec.amendment.4819
+- id: iec.amendment.4823
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6629,7 +6658,7 @@
     human: IEC 61937-5:2006/AMD1:2019
     urn: urn:iec:std:iec:61937-5:2006:::::amd:1:2019
   style: v3
-- id: iec.amendment.4822
+- id: iec.amendment.4826
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6643,7 +6672,7 @@
     human: IEC 61937-6:2006/AMD1:2014
     urn: urn:iec:std:iec:61937-6:2006:::::amd:1:2014
   style: v3
-- id: iec.amendment.4825
+- id: iec.amendment.4829
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6657,7 +6686,7 @@
     human: IEC 61937-7:2004/AMD1:2016
     urn: urn:iec:std:iec:61937-7:2004:::::amd:1:2016
   style: v3
-- id: iec.amendment.4842
+- id: iec.amendment.4846
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6672,7 +6701,7 @@
     human: IEC 61966-2-1:1999/AMD1:2003
     urn: urn:iec:std:iec:61966-2-1:1999:::::amd:1:2003
   style: v3
-- id: iec.amendment.4849
+- id: iec.amendment.4853
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6687,7 +6716,7 @@
     human: IEC 61966-2-4:2006/AMD1:2016
     urn: urn:iec:std:iec:61966-2-4:2006:::::amd:1:2016
   style: v3
-- id: iec.amendment.4850
+- id: iec.amendment.4854
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -6702,7 +6731,7 @@
     human: IEC 61966-2-4:2006/AMD2:2021
     urn: urn:iec:std:iec:61966-2-4:2006:::::amd:2:2021
   style: v3
-- id: iec.amendment.5009
+- id: iec.amendment.5013
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6715,7 +6744,7 @@
     human: IEC 62227:2008/AMD1:2012
     urn: urn:iec:std:iec:62227:2008:::::amd:1:2012
   style: v3
-- id: iec.amendment.5119
+- id: iec.amendment.5123
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6729,7 +6758,7 @@
     human: IEC 62439-1:2010/AMD1:2012
     urn: urn:iec:std:iec:62439-1:2010:::::amd:1:2012
   style: v3
-- id: iec.amendment.5120
+- id: iec.amendment.5124
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -6743,7 +6772,7 @@
     human: IEC 62439-1:2010/AMD2:2016
     urn: urn:iec:std:iec:62439-1:2010:::::amd:2:2016
   style: v3
-- id: iec.amendment.5124
+- id: iec.amendment.5128
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6757,7 +6786,7 @@
     human: IEC 62439-4:2010/AMD1:2012
     urn: urn:iec:std:iec:62439-4:2010:::::amd:1:2012
   style: v3
-- id: iec.amendment.5139
+- id: iec.amendment.5143
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6772,7 +6801,7 @@
     human: IEC 62443-2-4:2015/AMD1:2017
     urn: urn:iec:std:iec:62443-2-4:2015:::::amd:1:2017
   style: v3
-- id: iec.amendment.5238
+- id: iec.amendment.5242
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6785,7 +6814,7 @@
     human: IEC 62648:2012/AMD1:2015
     urn: urn:iec:std:iec:62648:2012:::::amd:1:2015
   style: v3
-- id: iec.amendment.5247
+- id: iec.amendment.5251
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6799,7 +6828,7 @@
     human: IEC 62657-2:2017/AMD1:2019
     urn: urn:iec:std:iec:62657-2:2017:::::amd:1:2019
   style: v3
-- id: iec.amendment.5287
+- id: iec.amendment.5291
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6812,7 +6841,7 @@
     human: IEC 62734:2014/AMD1:2019
     urn: urn:iec:std:iec:62734:2014:::::amd:1:2019
   style: v3
-- id: iec.amendment.5297
+- id: iec.amendment.5301
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6825,7 +6854,7 @@
     human: IEC 62760:2016/AMD1:2019
     urn: urn:iec:std:iec:62760:2016:::::amd:1:2019
   style: v3
-- id: iec.amendment.5424
+- id: iec.amendment.5428
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6839,7 +6868,7 @@
     human: IEC 80416-3:2002/AMD1:2011
     urn: urn:iec:std:iec:80416-3:2002:::::amd:1:2011
   style: v3
-- id: iec.amendment.6507
+- id: iec.amendment.6511
   identifier:
     _type: pubid:iec:amendment
     number: '2'
@@ -6853,7 +6882,7 @@
     human: IEC TS 60695-2-4/AMD2:1994
     urn: urn:iec:std:iec:60695-2-4::ts::::amd:2:1994
   style: v3
-- id: iec.amendment.6868
+- id: iec.amendment.6872
   identifier:
     _type: pubid:iec:amendment
     number: '1'
@@ -6866,7 +6895,7 @@
     human: IEC TS 62436:2008/AMD1:2016
     urn: urn:iec:std:iec:62436:2008:ts::::amd:1:2016
   style: v3
-- id: iec.amendment.7097
+- id: iec.amendment.7101
   identifier:
     _type: pubid:iec:amendment
     edition: '1'
@@ -6878,7 +6907,7 @@
     human: IEC TS 63134/AMD1 ED1
     urn: 'urn:iec:std:iec:63134::ts:ed-1:::amd:1:'
   style: v3
-- id: iec.amendment.9495
+- id: iec.amendment.9499
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -6900,7 +6929,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC PDAM 2 10646:2012
     style: v3
-- id: iec.amendment.9506
+- id: iec.amendment.9510
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -6920,7 +6949,7 @@
     human: ISO/IEC 10918-3:1997/AMD1:1999
     urn: urn:iec:std:iso-iec:10918-3:1997:::::amd:1:1999
   style: v3
-- id: iec.amendment.9508
+- id: iec.amendment.9512
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -6940,7 +6969,7 @@
     human: ISO/IEC 10918-4:1999/AMD1:2013
     urn: urn:iec:std:iso-iec:10918-4:1999:::::amd:1:2013
   style: v3
-- id: iec.amendment.9568
+- id: iec.amendment.9572
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -6961,7 +6990,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC PDAM 12207
     style: v3
-- id: iec.amendment.9603
+- id: iec.amendment.9607
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -6981,7 +7010,7 @@
     human: ISO/IEC 13818-1:2019/AMD1:2020
     urn: urn:iec:std:iso-iec:13818-1:2019:::::amd:1:2020
   style: v3
-- id: iec.amendment.9609
+- id: iec.amendment.9613
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7001,7 +7030,7 @@
     human: ISO/IEC 13818-4:2004/AMD1:2005
     urn: urn:iec:std:iso-iec:13818-4:2004:::::amd:1:2005
   style: v3
-- id: iec.amendment.9610
+- id: iec.amendment.9614
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7021,7 +7050,7 @@
     human: ISO/IEC 13818-4:2004/AMD2:2005
     urn: urn:iec:std:iso-iec:13818-4:2004:::::amd:2:2005
   style: v3
-- id: iec.amendment.9613
+- id: iec.amendment.9617
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7041,7 +7070,7 @@
     human: ISO/IEC 13818-4:2004/AMD3:2009
     urn: urn:iec:std:iso-iec:13818-4:2004:::::amd:3:2009
   style: v3
-- id: iec.amendment.9618
+- id: iec.amendment.9622
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7061,7 +7090,7 @@
     human: ISO/IEC 13818-6:1998/AMD1:2000
     urn: urn:iec:std:iso-iec:13818-6:1998:::::amd:1:2000
   style: v3
-- id: iec.amendment.9620
+- id: iec.amendment.9624
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7081,7 +7110,7 @@
     human: ISO/IEC 13818-6:1998/AMD2:2000
     urn: urn:iec:std:iso-iec:13818-6:1998:::::amd:2:2000
   style: v3
-- id: iec.amendment.9621
+- id: iec.amendment.9625
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7101,7 +7130,7 @@
     human: ISO/IEC 13818-6:1998/AMD3:2001
     urn: urn:iec:std:iso-iec:13818-6:1998:::::amd:3:2001
   style: v3
-- id: iec.amendment.9625
+- id: iec.amendment.9629
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7121,7 +7150,7 @@
     human: ISO/IEC 13818-7:2006/AMD1:2007
     urn: urn:iec:std:iso-iec:13818-7:2006:::::amd:1:2007
   style: v3
-- id: iec.amendment.9665
+- id: iec.amendment.9669
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7144,7 +7173,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC FDAM 1 14496-12:2004
     style: v3
-- id: iec.amendment.9681
+- id: iec.amendment.9685
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7164,7 +7193,7 @@
     human: ISO/IEC 14496-15:2019/AMD1:2020
     urn: urn:iec:std:iso-iec:14496-15:2019:::::amd:1:2020
   style: v3
-- id: iec.amendment.9685
+- id: iec.amendment.9689
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7184,7 +7213,7 @@
     human: ISO/IEC 14496-16:2011/AMD1:2011
     urn: urn:iec:std:iso-iec:14496-16:2011:::::amd:1:2011
   style: v3
-- id: iec.amendment.9686
+- id: iec.amendment.9690
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7204,7 +7233,7 @@
     human: ISO/IEC 14496-16:2011/AMD2:2014
     urn: urn:iec:std:iso-iec:14496-16:2011:::::amd:2:2014
   style: v3
-- id: iec.amendment.9687
+- id: iec.amendment.9691
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7224,7 +7253,7 @@
     human: ISO/IEC 14496-16:2011/AMD3:2016
     urn: urn:iec:std:iso-iec:14496-16:2011:::::amd:3:2016
   style: v3
-- id: iec.amendment.9688
+- id: iec.amendment.9692
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7244,7 +7273,7 @@
     human: ISO/IEC 14496-16:2011/AMD4:2017
     urn: urn:iec:std:iso-iec:14496-16:2011:::::amd:4:2017
   style: v3
-- id: iec.amendment.9692
+- id: iec.amendment.9696
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7264,7 +7293,7 @@
     human: ISO/IEC 14496-18:2004/AMD1:2014
     urn: urn:iec:std:iso-iec:14496-18:2004:::::amd:1:2014
   style: v3
-- id: iec.amendment.9697
+- id: iec.amendment.9701
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7284,7 +7313,7 @@
     human: ISO/IEC 14496-1:2010/AMD1:2010
     urn: urn:iec:std:iso-iec:14496-1:2010:::::amd:1:2010
   style: v3
-- id: iec.amendment.9698
+- id: iec.amendment.9702
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7304,7 +7333,7 @@
     human: ISO/IEC 14496-1:2010/AMD2:2014
     urn: urn:iec:std:iso-iec:14496-1:2010:::::amd:2:2014
   style: v3
-- id: iec.amendment.9701
+- id: iec.amendment.9705
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7324,7 +7353,7 @@
     human: ISO/IEC 14496-20:2008/AMD1:2009
     urn: urn:iec:std:iso-iec:14496-20:2008:::::amd:1:2009
   style: v3
-- id: iec.amendment.9702
+- id: iec.amendment.9706
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7344,7 +7373,7 @@
     human: ISO/IEC 14496-20:2008/AMD2:2010
     urn: urn:iec:std:iso-iec:14496-20:2008:::::amd:2:2010
   style: v3
-- id: iec.amendment.9703
+- id: iec.amendment.9707
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7364,7 +7393,7 @@
     human: ISO/IEC 14496-20:2008/AMD3:2010
     urn: urn:iec:std:iso-iec:14496-20:2008:::::amd:3:2010
   style: v3
-- id: iec.amendment.9711
+- id: iec.amendment.9715
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7384,7 +7413,7 @@
     human: ISO/IEC 14496-22:2019/AMD1:2020
     urn: urn:iec:std:iso-iec:14496-22:2019:::::amd:1:2020
   style: v3
-- id: iec.amendment.9716
+- id: iec.amendment.9720
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7404,7 +7433,7 @@
     human: ISO/IEC 14496-26:2010/AMD2:2010
     urn: urn:iec:std:iso-iec:14496-26:2010:::::amd:2:2010
   style: v3
-- id: iec.amendment.9717
+- id: iec.amendment.9721
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7424,7 +7453,7 @@
     human: ISO/IEC 14496-26:2010/AMD3:2014
     urn: urn:iec:std:iso-iec:14496-26:2010:::::amd:3:2014
   style: v3
-- id: iec.amendment.9718
+- id: iec.amendment.9722
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7444,7 +7473,7 @@
     human: ISO/IEC 14496-26:2010/AMD4:2016
     urn: urn:iec:std:iso-iec:14496-26:2010:::::amd:4:2016
   style: v3
-- id: iec.amendment.9719
+- id: iec.amendment.9723
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7464,7 +7493,7 @@
     human: ISO/IEC 14496-26:2010/AMD5:2018
     urn: urn:iec:std:iso-iec:14496-26:2010:::::amd:5:2018
   style: v3
-- id: iec.amendment.9728
+- id: iec.amendment.9732
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7484,7 +7513,7 @@
     human: ISO/IEC 14496-27:2009/AMD2:2011
     urn: urn:iec:std:iso-iec:14496-27:2009:::::amd:2:2011
   style: v3
-- id: iec.amendment.9730
+- id: iec.amendment.9734
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7504,7 +7533,7 @@
     human: ISO/IEC 14496-27:2009/AMD3:2011
     urn: urn:iec:std:iso-iec:14496-27:2009:::::amd:3:2011
   style: v3
-- id: iec.amendment.9731
+- id: iec.amendment.9735
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7524,7 +7553,7 @@
     human: ISO/IEC 14496-27:2009/AMD4:2012
     urn: urn:iec:std:iso-iec:14496-27:2009:::::amd:4:2012
   style: v3
-- id: iec.amendment.9732
+- id: iec.amendment.9736
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7544,7 +7573,7 @@
     human: ISO/IEC 14496-27:2009/AMD5:2015
     urn: urn:iec:std:iso-iec:14496-27:2009:::::amd:5:2015
   style: v3
-- id: iec.amendment.9733
+- id: iec.amendment.9737
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7564,7 +7593,7 @@
     human: ISO/IEC 14496-27:2009/AMD6:2015
     urn: urn:iec:std:iso-iec:14496-27:2009:::::amd:6:2015
   style: v3
-- id: iec.amendment.9740
+- id: iec.amendment.9744
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7584,7 +7613,7 @@
     human: ISO/IEC 14496-2:2004/AMD1:2004
     urn: urn:iec:std:iso-iec:14496-2:2004:::::amd:1:2004
   style: v3
-- id: iec.amendment.9741
+- id: iec.amendment.9745
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7604,7 +7633,7 @@
     human: ISO/IEC 14496-2:2004/AMD2:2005
     urn: urn:iec:std:iso-iec:14496-2:2004:::::amd:2:2005
   style: v3
-- id: iec.amendment.9742
+- id: iec.amendment.9746
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7624,7 +7653,7 @@
     human: ISO/IEC 14496-2:2004/AMD3:2007
     urn: urn:iec:std:iso-iec:14496-2:2004:::::amd:3:2007
   style: v3
-- id: iec.amendment.9744
+- id: iec.amendment.9748
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7644,7 +7673,7 @@
     human: ISO/IEC 14496-2:2004/AMD4:2008
     urn: urn:iec:std:iso-iec:14496-2:2004:::::amd:4:2008
   style: v3
-- id: iec.amendment.9745
+- id: iec.amendment.9749
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7664,7 +7693,7 @@
     human: ISO/IEC 14496-2:2004/AMD5:2009
     urn: urn:iec:std:iso-iec:14496-2:2004:::::amd:5:2009
   style: v3
-- id: iec.amendment.9761
+- id: iec.amendment.9765
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7684,7 +7713,7 @@
     human: ISO/IEC 14496-4:2004/AMD10:2005
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:10:2005
   style: v3
-- id: iec.amendment.9762
+- id: iec.amendment.9766
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7704,7 +7733,7 @@
     human: ISO/IEC 14496-4:2004/AMD17:2007
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:17:2007
   style: v3
-- id: iec.amendment.9763
+- id: iec.amendment.9767
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7724,7 +7753,7 @@
     human: ISO/IEC 14496-4:2004/AMD1:2005
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:1:2005
   style: v3
-- id: iec.amendment.9766
+- id: iec.amendment.9770
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7744,7 +7773,7 @@
     human: ISO/IEC 14496-4:2004/AMD23:2008
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:23:2008
   style: v3
-- id: iec.amendment.9767
+- id: iec.amendment.9771
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7764,7 +7793,7 @@
     human: ISO/IEC 14496-4:2004/AMD24:2008
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:24:2008
   style: v3
-- id: iec.amendment.9768
+- id: iec.amendment.9772
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7784,7 +7813,7 @@
     human: ISO/IEC 14496-4:2004/AMD25:2008
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:25:2008
   style: v3
-- id: iec.amendment.9769
+- id: iec.amendment.9773
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7804,7 +7833,7 @@
     human: ISO/IEC 14496-4:2004/AMD26:2008
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:26:2008
   style: v3
-- id: iec.amendment.9770
+- id: iec.amendment.9774
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7824,7 +7853,7 @@
     human: ISO/IEC 14496-4:2004/AMD27:2008
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:27:2008
   style: v3
-- id: iec.amendment.9771
+- id: iec.amendment.9775
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7844,7 +7873,7 @@
     human: ISO/IEC 14496-4:2004/AMD28:2008
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:28:2008
   style: v3
-- id: iec.amendment.9772
+- id: iec.amendment.9776
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7864,7 +7893,7 @@
     human: ISO/IEC 14496-4:2004/AMD29:2008
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:29:2008
   style: v3
-- id: iec.amendment.9773
+- id: iec.amendment.9777
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7884,7 +7913,7 @@
     human: ISO/IEC 14496-4:2004/AMD2:2005
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:2:2005
   style: v3
-- id: iec.amendment.9774
+- id: iec.amendment.9778
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7904,7 +7933,7 @@
     human: ISO/IEC 14496-4:2004/AMD30:2009
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:30:2009
   style: v3
-- id: iec.amendment.9775
+- id: iec.amendment.9779
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7924,7 +7953,7 @@
     human: ISO/IEC 14496-4:2004/AMD31:2009
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:31:2009
   style: v3
-- id: iec.amendment.9776
+- id: iec.amendment.9780
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7944,7 +7973,7 @@
     human: ISO/IEC 14496-4:2004/AMD35:2009
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:35:2009
   style: v3
-- id: iec.amendment.9777
+- id: iec.amendment.9781
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7964,7 +7993,7 @@
     human: ISO/IEC 14496-4:2004/AMD37:2009
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:37:2009
   style: v3
-- id: iec.amendment.9778
+- id: iec.amendment.9782
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -7984,7 +8013,7 @@
     human: ISO/IEC 14496-4:2004/AMD38:2010
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:38:2010
   style: v3
-- id: iec.amendment.9780
+- id: iec.amendment.9784
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8004,7 +8033,7 @@
     human: ISO/IEC 14496-4:2004/AMD3:2005
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:3:2005
   style: v3
-- id: iec.amendment.9781
+- id: iec.amendment.9785
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8024,7 +8053,7 @@
     human: ISO/IEC 14496-4:2004/AMD40:2011
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:40:2011
   style: v3
-- id: iec.amendment.9782
+- id: iec.amendment.9786
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8044,7 +8073,7 @@
     human: ISO/IEC 14496-4:2004/AMD41:2014
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:41:2014
   style: v3
-- id: iec.amendment.9783
+- id: iec.amendment.9787
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8064,7 +8093,7 @@
     human: ISO/IEC 14496-4:2004/AMD42:2014
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:42:2014
   style: v3
-- id: iec.amendment.9784
+- id: iec.amendment.9788
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8084,7 +8113,7 @@
     human: ISO/IEC 14496-4:2004/AMD43:2015
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:43:2015
   style: v3
-- id: iec.amendment.9785
+- id: iec.amendment.9789
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8104,7 +8133,7 @@
     human: ISO/IEC 14496-4:2004/AMD45:2016
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:45:2016
   style: v3
-- id: iec.amendment.9786
+- id: iec.amendment.9790
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8124,7 +8153,7 @@
     human: ISO/IEC 14496-4:2004/AMD46:2019
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:46:2019
   style: v3
-- id: iec.amendment.9787
+- id: iec.amendment.9791
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8144,7 +8173,7 @@
     human: ISO/IEC 14496-4:2004/AMD4:2005
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:4:2005
   style: v3
-- id: iec.amendment.9788
+- id: iec.amendment.9792
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8164,7 +8193,7 @@
     human: ISO/IEC 14496-4:2004/AMD5:2005
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:5:2005
   style: v3
-- id: iec.amendment.9789
+- id: iec.amendment.9793
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8184,7 +8213,7 @@
     human: ISO/IEC 14496-4:2004/AMD6:2005
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:6:2005
   style: v3
-- id: iec.amendment.9791
+- id: iec.amendment.9795
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8204,7 +8233,7 @@
     human: ISO/IEC 14496-4:2004/AMD7:2005
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:7:2005
   style: v3
-- id: iec.amendment.9792
+- id: iec.amendment.9796
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8224,7 +8253,7 @@
     human: ISO/IEC 14496-4:2004/AMD9:2006
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:9:2006
   style: v3
-- id: iec.amendment.9800
+- id: iec.amendment.9804
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8244,7 +8273,7 @@
     human: ISO/IEC 14496-5:2001/AMD10:2007
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:10:2007
   style: v3
-- id: iec.amendment.9807
+- id: iec.amendment.9811
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8264,7 +8293,7 @@
     human: ISO/IEC 14496-5:2001/AMD11:2007
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:11:2007
   style: v3
-- id: iec.amendment.9808
+- id: iec.amendment.9812
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8284,7 +8313,7 @@
     human: ISO/IEC 14496-5:2001/AMD12:2007
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:12:2007
   style: v3
-- id: iec.amendment.9809
+- id: iec.amendment.9813
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8304,7 +8333,7 @@
     human: ISO/IEC 14496-5:2001/AMD13:2008
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:13:2008
   style: v3
-- id: iec.amendment.9810
+- id: iec.amendment.9814
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8324,7 +8353,7 @@
     human: ISO/IEC 14496-5:2001/AMD14:2009
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:14:2009
   style: v3
-- id: iec.amendment.9812
+- id: iec.amendment.9816
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8344,7 +8373,7 @@
     human: ISO/IEC 14496-5:2001/AMD15:2010
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:15:2010
   style: v3
-- id: iec.amendment.9813
+- id: iec.amendment.9817
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8364,7 +8393,7 @@
     human: ISO/IEC 14496-5:2001/AMD16:2008
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:16:2008
   style: v3
-- id: iec.amendment.9814
+- id: iec.amendment.9818
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8384,7 +8413,7 @@
     human: ISO/IEC 14496-5:2001/AMD17:2008
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:17:2008
   style: v3
-- id: iec.amendment.9815
+- id: iec.amendment.9819
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8404,7 +8433,7 @@
     human: ISO/IEC 14496-5:2001/AMD18:2008
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:18:2008
   style: v3
-- id: iec.amendment.9816
+- id: iec.amendment.9820
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8424,7 +8453,7 @@
     human: ISO/IEC 14496-5:2001/AMD19:2009
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:19:2009
   style: v3
-- id: iec.amendment.9817
+- id: iec.amendment.9821
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8444,7 +8473,7 @@
     human: ISO/IEC 14496-5:2001/AMD1:2002
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:1:2002
   style: v3
-- id: iec.amendment.9819
+- id: iec.amendment.9823
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8464,7 +8493,7 @@
     human: ISO/IEC 14496-5:2001/AMD20:2009
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:20:2009
   style: v3
-- id: iec.amendment.9820
+- id: iec.amendment.9824
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8484,7 +8513,7 @@
     human: ISO/IEC 14496-5:2001/AMD21:2009
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:21:2009
   style: v3
-- id: iec.amendment.9821
+- id: iec.amendment.9825
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8504,7 +8533,7 @@
     human: ISO/IEC 14496-5:2001/AMD22:2009
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:22:2009
   style: v3
-- id: iec.amendment.9822
+- id: iec.amendment.9826
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8524,7 +8553,7 @@
     human: ISO/IEC 14496-5:2001/AMD23:2010
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:23:2010
   style: v3
-- id: iec.amendment.9823
+- id: iec.amendment.9827
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8544,7 +8573,7 @@
     human: ISO/IEC 14496-5:2001/AMD24:2009
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:24:2009
   style: v3
-- id: iec.amendment.9827
+- id: iec.amendment.9831
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8564,7 +8593,7 @@
     human: ISO/IEC 14496-5:2001/AMD25:2009
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:25:2009
   style: v3
-- id: iec.amendment.9828
+- id: iec.amendment.9832
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8584,7 +8613,7 @@
     human: ISO/IEC 14496-5:2001/AMD26:2011
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:26:2011
   style: v3
-- id: iec.amendment.9829
+- id: iec.amendment.9833
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8604,7 +8633,7 @@
     human: ISO/IEC 14496-5:2001/AMD27:2011
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:27:2011
   style: v3
-- id: iec.amendment.9831
+- id: iec.amendment.9835
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8624,7 +8653,7 @@
     human: ISO/IEC 14496-5:2001/AMD28:2011
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:28:2011
   style: v3
-- id: iec.amendment.9832
+- id: iec.amendment.9836
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8644,7 +8673,7 @@
     human: ISO/IEC 14496-5:2001/AMD29:2011
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:29:2011
   style: v3
-- id: iec.amendment.9833
+- id: iec.amendment.9837
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8664,7 +8693,7 @@
     human: ISO/IEC 14496-5:2001/AMD2:2003
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:2:2003
   style: v3
-- id: iec.amendment.9834
+- id: iec.amendment.9838
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8684,7 +8713,7 @@
     human: ISO/IEC 14496-5:2001/AMD30:2011
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:30:2011
   style: v3
-- id: iec.amendment.9835
+- id: iec.amendment.9839
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8704,7 +8733,7 @@
     human: ISO/IEC 14496-5:2001/AMD31:2012
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:31:2012
   style: v3
-- id: iec.amendment.9836
+- id: iec.amendment.9840
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8724,7 +8753,7 @@
     human: ISO/IEC 14496-5:2001/AMD32:2015
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:32:2015
   style: v3
-- id: iec.amendment.9837
+- id: iec.amendment.9841
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8744,7 +8773,7 @@
     human: ISO/IEC 14496-5:2001/AMD33:2015
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:33:2015
   style: v3
-- id: iec.amendment.9838
+- id: iec.amendment.9842
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8764,7 +8793,7 @@
     human: ISO/IEC 14496-5:2001/AMD34:2014
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:34:2014
   style: v3
-- id: iec.amendment.9839
+- id: iec.amendment.9843
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8784,7 +8813,7 @@
     human: ISO/IEC 14496-5:2001/AMD35:2015
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:35:2015
   style: v3
-- id: iec.amendment.9840
+- id: iec.amendment.9844
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8804,7 +8833,7 @@
     human: ISO/IEC 14496-5:2001/AMD36:2015
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:36:2015
   style: v3
-- id: iec.amendment.9841
+- id: iec.amendment.9845
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8824,7 +8853,7 @@
     human: ISO/IEC 14496-5:2001/AMD37:2015
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:37:2015
   style: v3
-- id: iec.amendment.9842
+- id: iec.amendment.9846
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8844,7 +8873,7 @@
     human: ISO/IEC 14496-5:2001/AMD39:2016
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:39:2016
   style: v3
-- id: iec.amendment.9843
+- id: iec.amendment.9847
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8864,7 +8893,7 @@
     human: ISO/IEC 14496-5:2001/AMD3:2003
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:3:2003
   style: v3
-- id: iec.amendment.9844
+- id: iec.amendment.9848
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8884,7 +8913,7 @@
     human: ISO/IEC 14496-5:2001/AMD40:2019
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:40:2019
   style: v3
-- id: iec.amendment.9845
+- id: iec.amendment.9849
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8904,7 +8933,7 @@
     human: ISO/IEC 14496-5:2001/AMD41:2019
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:41:2019
   style: v3
-- id: iec.amendment.9846
+- id: iec.amendment.9850
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8924,7 +8953,7 @@
     human: ISO/IEC 14496-5:2001/AMD42:2017
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:42:2017
   style: v3
-- id: iec.amendment.9847
+- id: iec.amendment.9851
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8944,7 +8973,7 @@
     human: ISO/IEC 14496-5:2001/AMD43:2018
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:43:2018
   style: v3
-- id: iec.amendment.9848
+- id: iec.amendment.9852
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8964,7 +8993,7 @@
     human: ISO/IEC 14496-5:2001/AMD4:2004
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:4:2004
   style: v3
-- id: iec.amendment.9849
+- id: iec.amendment.9853
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -8984,7 +9013,7 @@
     human: ISO/IEC 14496-5:2001/AMD5:2004
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:5:2004
   style: v3
-- id: iec.amendment.9851
+- id: iec.amendment.9855
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9004,7 +9033,7 @@
     human: ISO/IEC 14496-5:2001/AMD6:2005
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:6:2005
   style: v3
-- id: iec.amendment.9853
+- id: iec.amendment.9857
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9024,7 +9053,7 @@
     human: ISO/IEC 14496-5:2001/AMD7:2005
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:7:2005
   style: v3
-- id: iec.amendment.9854
+- id: iec.amendment.9858
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9044,7 +9073,7 @@
     human: ISO/IEC 14496-5:2001/AMD8:2006
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:8:2006
   style: v3
-- id: iec.amendment.9855
+- id: iec.amendment.9859
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9064,7 +9093,7 @@
     human: ISO/IEC 14496-5:2001/AMD9:2007
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:9:2007
   style: v3
-- id: iec.amendment.9921
+- id: iec.amendment.9925
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9084,7 +9113,7 @@
     human: ISO/IEC 15444-11:2007/AMD1:2013
     urn: urn:iec:std:iso-iec:15444-11:2007:::::amd:1:2013
   style: v3
-- id: iec.amendment.9937
+- id: iec.amendment.9941
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9104,7 +9133,7 @@
     human: ISO/IEC 15444-3:2007/AMD1:2010
     urn: urn:iec:std:iso-iec:15444-3:2007:::::amd:1:2010
   style: v3
-- id: iec.amendment.9946
+- id: iec.amendment.9950
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9124,7 +9153,7 @@
     human: ISO/IEC 15444-8:2007/AMD1:2008
     urn: urn:iec:std:iso-iec:15444-8:2007:::::amd:1:2008
   style: v3
-- id: iec.amendment.9948
+- id: iec.amendment.9952
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9144,7 +9173,7 @@
     human: ISO/IEC 15444-9:2005/AMD1:2006
     urn: urn:iec:std:iso-iec:15444-9:2005:::::amd:1:2006
   style: v3
-- id: iec.amendment.9949
+- id: iec.amendment.9953
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9164,7 +9193,7 @@
     human: ISO/IEC 15444-9:2005/AMD2:2008
     urn: urn:iec:std:iso-iec:15444-9:2005:::::amd:2:2008
   style: v3
-- id: iec.amendment.9950
+- id: iec.amendment.9954
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9184,7 +9213,7 @@
     human: ISO/IEC 15444-9:2005/AMD3:2008
     urn: urn:iec:std:iso-iec:15444-9:2005:::::amd:3:2008
   style: v3
-- id: iec.amendment.9951
+- id: iec.amendment.9955
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9204,7 +9233,7 @@
     human: ISO/IEC 15444-9:2005/AMD4:2010
     urn: urn:iec:std:iso-iec:15444-9:2005:::::amd:4:2010
   style: v3
-- id: iec.amendment.9952
+- id: iec.amendment.9956
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9224,7 +9253,7 @@
     human: ISO/IEC 15444-9:2005/AMD5:2014
     urn: urn:iec:std:iso-iec:15444-9:2005:::::amd:5:2014
   style: v3
-- id: iec.amendment.9996
+- id: iec.amendment.10000
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9244,7 +9273,7 @@
     human: ISO/IEC 15938-1:2002/AMD1:2005
     urn: urn:iec:std:iso-iec:15938-1:2002:::::amd:1:2005
   style: v3
-- id: iec.amendment.9998
+- id: iec.amendment.10002
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9264,7 +9293,7 @@
     human: ISO/IEC 15938-1:2002/AMD2:2006
     urn: urn:iec:std:iso-iec:15938-1:2002:::::amd:2:2006
   style: v3
-- id: iec.amendment.10003
+- id: iec.amendment.10007
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9284,7 +9313,7 @@
     human: ISO/IEC 15938-3:2002/AMD1:2004
     urn: urn:iec:std:iso-iec:15938-3:2002:::::amd:1:2004
   style: v3
-- id: iec.amendment.10006
+- id: iec.amendment.10010
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9304,7 +9333,7 @@
     human: ISO/IEC 15938-3:2002/AMD2:2006
     urn: urn:iec:std:iso-iec:15938-3:2002:::::amd:2:2006
   style: v3
-- id: iec.amendment.10008
+- id: iec.amendment.10012
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9324,7 +9353,7 @@
     human: ISO/IEC 15938-3:2002/AMD3:2009
     urn: urn:iec:std:iso-iec:15938-3:2002:::::amd:3:2009
   style: v3
-- id: iec.amendment.10009
+- id: iec.amendment.10013
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9344,7 +9373,7 @@
     human: ISO/IEC 15938-3:2002/AMD4:2010
     urn: urn:iec:std:iso-iec:15938-3:2002:::::amd:4:2010
   style: v3
-- id: iec.amendment.10012
+- id: iec.amendment.10016
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9364,7 +9393,7 @@
     human: ISO/IEC 15938-4:2002/AMD1:2004
     urn: urn:iec:std:iso-iec:15938-4:2002:::::amd:1:2004
   style: v3
-- id: iec.amendment.10013
+- id: iec.amendment.10017
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9384,7 +9413,7 @@
     human: ISO/IEC 15938-4:2002/AMD2:2006
     urn: urn:iec:std:iso-iec:15938-4:2002:::::amd:2:2006
   style: v3
-- id: iec.amendment.10015
+- id: iec.amendment.10019
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9404,7 +9433,7 @@
     human: ISO/IEC 15938-5:2003/AMD1:2004
     urn: urn:iec:std:iso-iec:15938-5:2003:::::amd:1:2004
   style: v3
-- id: iec.amendment.10016
+- id: iec.amendment.10020
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9424,7 +9453,7 @@
     human: ISO/IEC 15938-5:2003/AMD2:2005
     urn: urn:iec:std:iso-iec:15938-5:2003:::::amd:2:2005
   style: v3
-- id: iec.amendment.10017
+- id: iec.amendment.10021
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9444,7 +9473,7 @@
     human: ISO/IEC 15938-5:2003/AMD3:2008
     urn: urn:iec:std:iso-iec:15938-5:2003:::::amd:3:2008
   style: v3
-- id: iec.amendment.10018
+- id: iec.amendment.10022
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9464,7 +9493,7 @@
     human: ISO/IEC 15938-5:2003/AMD4:2012
     urn: urn:iec:std:iso-iec:15938-5:2003:::::amd:4:2012
   style: v3
-- id: iec.amendment.10019
+- id: iec.amendment.10023
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9484,7 +9513,7 @@
     human: ISO/IEC 15938-5:2003/AMD5:2015
     urn: urn:iec:std:iso-iec:15938-5:2003:::::amd:5:2015
   style: v3
-- id: iec.amendment.10024
+- id: iec.amendment.10028
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9504,7 +9533,7 @@
     human: ISO/IEC 15938-7:2003/AMD1:2005
     urn: urn:iec:std:iso-iec:15938-7:2003:::::amd:1:2005
   style: v3
-- id: iec.amendment.10025
+- id: iec.amendment.10029
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9524,7 +9553,7 @@
     human: ISO/IEC 15938-7:2003/AMD2:2007
     urn: urn:iec:std:iso-iec:15938-7:2003:::::amd:2:2007
   style: v3
-- id: iec.amendment.10026
+- id: iec.amendment.10030
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9544,7 +9573,7 @@
     human: ISO/IEC 15938-7:2003/AMD3:2007
     urn: urn:iec:std:iso-iec:15938-7:2003:::::amd:3:2007
   style: v3
-- id: iec.amendment.10027
+- id: iec.amendment.10031
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9564,7 +9593,7 @@
     human: ISO/IEC 15938-7:2003/AMD4:2008
     urn: urn:iec:std:iso-iec:15938-7:2003:::::amd:4:2008
   style: v3
-- id: iec.amendment.10028
+- id: iec.amendment.10032
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9584,7 +9613,7 @@
     human: ISO/IEC 15938-7:2003/AMD5:2010
     urn: urn:iec:std:iso-iec:15938-7:2003:::::amd:5:2010
   style: v3
-- id: iec.amendment.10029
+- id: iec.amendment.10033
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9604,7 +9633,7 @@
     human: ISO/IEC 15938-7:2003/AMD6:2011
     urn: urn:iec:std:iso-iec:15938-7:2003:::::amd:6:2011
   style: v3
-- id: iec.amendment.10031
+- id: iec.amendment.10035
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9624,7 +9653,7 @@
     human: ISO/IEC 15938-9:2005/AMD1:2012
     urn: urn:iec:std:iso-iec:15938-9:2005:::::amd:1:2012
   style: v3
-- id: iec.amendment.10158
+- id: iec.amendment.10162
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9644,7 +9673,7 @@
     human: ISO/IEC 19566-5:2019/AMD1:2021
     urn: urn:iec:std:iso-iec:19566-5:2019:::::amd:1:2021
   style: v3
-- id: iec.amendment.10160
+- id: iec.amendment.10164
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9664,7 +9693,7 @@
     human: ISO/IEC 19566-6:2019/AMD1:2021
     urn: urn:iec:std:iso-iec:19566-6:2019:::::amd:1:2021
   style: v3
-- id: iec.amendment.10184
+- id: iec.amendment.10188
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9690,7 +9719,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC 19772:2009/DAM 1:2019(E)
     style: v3
-- id: iec.amendment.10232
+- id: iec.amendment.10236
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9710,7 +9739,7 @@
     human: ISO/IEC 21000-10:2006/AMD1:2006
     urn: urn:iec:std:iso-iec:21000-10:2006:::::amd:1:2006
   style: v3
-- id: iec.amendment.10235
+- id: iec.amendment.10239
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9730,7 +9759,7 @@
     human: ISO/IEC 21000-15:2006/AMD1:2008
     urn: urn:iec:std:iso-iec:21000-15:2006:::::amd:1:2008
   style: v3
-- id: iec.amendment.10240
+- id: iec.amendment.10244
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9750,7 +9779,7 @@
     human: ISO/IEC 21000-18:2007/AMD1:2008
     urn: urn:iec:std:iso-iec:21000-18:2007:::::amd:1:2008
   style: v3
-- id: iec.amendment.10242
+- id: iec.amendment.10246
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9770,7 +9799,7 @@
     human: ISO/IEC 21000-19:2010/AMD1:2018
     urn: urn:iec:std:iso-iec:21000-19:2010:::::amd:1:2018
   style: v3
-- id: iec.amendment.10250
+- id: iec.amendment.10254
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9790,7 +9819,7 @@
     human: ISO/IEC 21000-2:2005/AMD1:2012
     urn: urn:iec:std:iso-iec:21000-2:2005:::::amd:1:2012
   style: v3
-- id: iec.amendment.10252
+- id: iec.amendment.10256
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9810,7 +9839,7 @@
     human: ISO/IEC 21000-3:2003/AMD1:2007
     urn: urn:iec:std:iso-iec:21000-3:2003:::::amd:1:2007
   style: v3
-- id: iec.amendment.10253
+- id: iec.amendment.10257
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9830,7 +9859,7 @@
     human: ISO/IEC 21000-3:2003/AMD2:2013
     urn: urn:iec:std:iso-iec:21000-3:2003:::::amd:2:2013
   style: v3
-- id: iec.amendment.10255
+- id: iec.amendment.10259
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9850,7 +9879,7 @@
     human: ISO/IEC 21000-4:2006/AMD1:2007
     urn: urn:iec:std:iso-iec:21000-4:2006:::::amd:1:2007
   style: v3
-- id: iec.amendment.10256
+- id: iec.amendment.10260
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9870,7 +9899,7 @@
     human: ISO/IEC 21000-4:2006/AMD2:2012
     urn: urn:iec:std:iso-iec:21000-4:2006:::::amd:2:2012
   style: v3
-- id: iec.amendment.10259
+- id: iec.amendment.10263
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9890,7 +9919,7 @@
     human: ISO/IEC 21000-5:2004/AMD1:2007
     urn: urn:iec:std:iso-iec:21000-5:2004:::::amd:1:2007
   style: v3
-- id: iec.amendment.10260
+- id: iec.amendment.10264
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9910,7 +9939,7 @@
     human: ISO/IEC 21000-5:2004/AMD2:2007
     urn: urn:iec:std:iso-iec:21000-5:2004:::::amd:2:2007
   style: v3
-- id: iec.amendment.10261
+- id: iec.amendment.10265
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9930,7 +9959,7 @@
     human: ISO/IEC 21000-5:2004/AMD3:2008
     urn: urn:iec:std:iso-iec:21000-5:2004:::::amd:3:2008
   style: v3
-- id: iec.amendment.10263
+- id: iec.amendment.10267
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9950,7 +9979,7 @@
     human: ISO/IEC 21000-6:2004/AMD1:2006
     urn: urn:iec:std:iso-iec:21000-6:2004:::::amd:1:2006
   style: v3
-- id: iec.amendment.10267
+- id: iec.amendment.10271
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9970,7 +9999,7 @@
     human: ISO/IEC 21000-7:2007/AMD1:2008
     urn: urn:iec:std:iso-iec:21000-7:2007:::::amd:1:2008
   style: v3
-- id: iec.amendment.10270
+- id: iec.amendment.10274
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -9990,7 +10019,7 @@
     human: ISO/IEC 21000-8:2008/AMD1:2009
     urn: urn:iec:std:iso-iec:21000-8:2008:::::amd:1:2009
   style: v3
-- id: iec.amendment.10271
+- id: iec.amendment.10275
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10010,7 +10039,7 @@
     human: ISO/IEC 21000-8:2008/AMD2:2011
     urn: urn:iec:std:iso-iec:21000-8:2008:::::amd:2:2011
   style: v3
-- id: iec.amendment.10272
+- id: iec.amendment.10276
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10030,7 +10059,7 @@
     human: ISO/IEC 21000-8:2008/AMD3:2015
     urn: urn:iec:std:iso-iec:21000-8:2008:::::amd:3:2015
   style: v3
-- id: iec.amendment.10273
+- id: iec.amendment.10277
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10050,7 +10079,7 @@
     human: ISO/IEC 21000-8:2008/AMD4:2018
     urn: urn:iec:std:iso-iec:21000-8:2008:::::amd:4:2018
   style: v3
-- id: iec.amendment.10275
+- id: iec.amendment.10279
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10070,7 +10099,7 @@
     human: ISO/IEC 21000-9:2005/AMD1:2008
     urn: urn:iec:std:iso-iec:21000-9:2005:::::amd:1:2008
   style: v3
-- id: iec.amendment.10291
+- id: iec.amendment.10295
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10090,7 +10119,7 @@
     human: ISO/IEC 21794-2:2021/AMD1:2021
     urn: urn:iec:std:iso-iec:21794-2:2021:::::amd:1:2021
   style: v3
-- id: iec.amendment.10299
+- id: iec.amendment.10303
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10110,7 +10139,7 @@
     human: ISO/IEC 23000-10:2012/AMD1:2014
     urn: urn:iec:std:iso-iec:23000-10:2012:::::amd:1:2014
   style: v3
-- id: iec.amendment.10302
+- id: iec.amendment.10306
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10130,7 +10159,7 @@
     human: ISO/IEC 23000-11:2009/AMD1:2011
     urn: urn:iec:std:iso-iec:23000-11:2009:::::amd:1:2011
   style: v3
-- id: iec.amendment.10303
+- id: iec.amendment.10307
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10150,7 +10179,7 @@
     human: ISO/IEC 23000-11:2009/AMD2:2011
     urn: urn:iec:std:iso-iec:23000-11:2009:::::amd:2:2011
   style: v3
-- id: iec.amendment.10304
+- id: iec.amendment.10308
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10170,7 +10199,7 @@
     human: ISO/IEC 23000-11:2009/AMD3:2014
     urn: urn:iec:std:iso-iec:23000-11:2009:::::amd:3:2014
   style: v3
-- id: iec.amendment.10306
+- id: iec.amendment.10310
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10190,7 +10219,7 @@
     human: ISO/IEC 23000-12:2010/AMD1:2011
     urn: urn:iec:std:iso-iec:23000-12:2010:::::amd:1:2011
   style: v3
-- id: iec.amendment.10307
+- id: iec.amendment.10311
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10210,7 +10239,7 @@
     human: ISO/IEC 23000-12:2010/AMD2:2012
     urn: urn:iec:std:iso-iec:23000-12:2010:::::amd:2:2012
   style: v3
-- id: iec.amendment.10308
+- id: iec.amendment.10312
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10230,7 +10259,7 @@
     human: ISO/IEC 23000-12:2010/AMD3:2013
     urn: urn:iec:std:iso-iec:23000-12:2010:::::amd:3:2013
   style: v3
-- id: iec.amendment.10312
+- id: iec.amendment.10316
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10250,7 +10279,7 @@
     human: ISO/IEC 23000-15:2016/AMD1:2017
     urn: urn:iec:std:iso-iec:23000-15:2016:::::amd:1:2017
   style: v3
-- id: iec.amendment.10318
+- id: iec.amendment.10322
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10270,7 +10299,7 @@
     human: ISO/IEC 23000-19:2020/AMD1:2021
     urn: urn:iec:std:iso-iec:23000-19:2020:::::amd:1:2021
   style: v3
-- id: iec.amendment.10320
+- id: iec.amendment.10324
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10290,7 +10319,7 @@
     human: ISO/IEC 23000-21:2019/AMD1:2021
     urn: urn:iec:std:iso-iec:23000-21:2019:::::amd:1:2021
   style: v3
-- id: iec.amendment.10322
+- id: iec.amendment.10326
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10310,7 +10339,7 @@
     human: ISO/IEC 23000-22:2019/AMD1:2021
     urn: urn:iec:std:iso-iec:23000-22:2019:::::amd:1:2021
   style: v3
-- id: iec.amendment.10323
+- id: iec.amendment.10327
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10330,7 +10359,7 @@
     human: ISO/IEC 23000-22:2019/AMD2:2021
     urn: urn:iec:std:iso-iec:23000-22:2019:::::amd:2:2021
   style: v3
-- id: iec.amendment.10326
+- id: iec.amendment.10330
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10350,7 +10379,7 @@
     human: ISO/IEC 23000-3:2007/AMD1:2009
     urn: urn:iec:std:iso-iec:23000-3:2007:::::amd:1:2009
   style: v3
-- id: iec.amendment.10327
+- id: iec.amendment.10331
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10370,7 +10399,7 @@
     human: ISO/IEC 23000-3:2007/AMD2:2010
     urn: urn:iec:std:iso-iec:23000-3:2007:::::amd:2:2010
   style: v3
-- id: iec.amendment.10329
+- id: iec.amendment.10333
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10390,7 +10419,7 @@
     human: ISO/IEC 23000-4:2009/AMD1:2009
     urn: urn:iec:std:iso-iec:23000-4:2009:::::amd:1:2009
   style: v3
-- id: iec.amendment.10330
+- id: iec.amendment.10334
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10410,7 +10439,7 @@
     human: ISO/IEC 23000-4:2009/AMD2:2009
     urn: urn:iec:std:iso-iec:23000-4:2009:::::amd:2:2009
   style: v3
-- id: iec.amendment.10336
+- id: iec.amendment.10340
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10430,7 +10459,7 @@
     human: ISO/IEC 23000-7:2008/AMD1:2009
     urn: urn:iec:std:iso-iec:23000-7:2008:::::amd:1:2009
   style: v3
-- id: iec.amendment.10339
+- id: iec.amendment.10343
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10450,7 +10479,7 @@
     human: ISO/IEC 23000-9:2008/AMD1:2010
     urn: urn:iec:std:iso-iec:23000-9:2008:::::amd:1:2010
   style: v3
-- id: iec.amendment.10342
+- id: iec.amendment.10346
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10470,7 +10499,7 @@
     human: ISO/IEC 23000-9:2008/AMD2:2010
     urn: urn:iec:std:iso-iec:23000-9:2008:::::amd:2:2010
   style: v3
-- id: iec.amendment.10346
+- id: iec.amendment.10350
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10490,7 +10519,7 @@
     human: ISO/IEC 23001-10:2020/AMD1:2021
     urn: urn:iec:std:iso-iec:23001-10:2020:::::amd:1:2021
   style: v3
-- id: iec.amendment.10353
+- id: iec.amendment.10357
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10510,7 +10539,7 @@
     human: ISO/IEC 23001-14:2019/AMD1:2021
     urn: urn:iec:std:iso-iec:23001-14:2019:::::amd:1:2021
   style: v3
-- id: iec.amendment.10357
+- id: iec.amendment.10361
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10530,7 +10559,7 @@
     human: ISO/IEC 23001-1:2006/AMD1:2007
     urn: urn:iec:std:iso-iec:23001-1:2006:::::amd:1:2007
   style: v3
-- id: iec.amendment.10358
+- id: iec.amendment.10362
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10550,7 +10579,7 @@
     human: ISO/IEC 23001-1:2006/AMD2:2008
     urn: urn:iec:std:iso-iec:23001-1:2006:::::amd:2:2008
   style: v3
-- id: iec.amendment.10371
+- id: iec.amendment.10375
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10570,7 +10599,7 @@
     human: ISO/IEC 23001-7:2016/AMD1:2019
     urn: urn:iec:std:iso-iec:23001-7:2016:::::amd:1:2019
   style: v3
-- id: iec.amendment.10377
+- id: iec.amendment.10381
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10590,7 +10619,7 @@
     human: ISO/IEC 23002-1:2006/AMD1:2008
     urn: urn:iec:std:iso-iec:23002-1:2006:::::amd:1:2008
   style: v3
-- id: iec.amendment.10388
+- id: iec.amendment.10392
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10610,7 +10639,7 @@
     human: ISO/IEC 23003-1:2007/AMD1:2008
     urn: urn:iec:std:iso-iec:23003-1:2007:::::amd:1:2008
   style: v3
-- id: iec.amendment.10392
+- id: iec.amendment.10396
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10630,7 +10659,7 @@
     human: ISO/IEC 23003-1:2007/AMD2:2008
     urn: urn:iec:std:iso-iec:23003-1:2007:::::amd:2:2008
   style: v3
-- id: iec.amendment.10397
+- id: iec.amendment.10401
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10650,7 +10679,7 @@
     human: ISO/IEC 23003-1:2007/AMD3:2016
     urn: urn:iec:std:iso-iec:23003-1:2007:::::amd:3:2016
   style: v3
-- id: iec.amendment.10398
+- id: iec.amendment.10402
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10670,7 +10699,7 @@
     human: ISO/IEC 23003-1:2007/AMD4:2017
     urn: urn:iec:std:iso-iec:23003-1:2007:::::amd:4:2017
   style: v3
-- id: iec.amendment.10407
+- id: iec.amendment.10411
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10690,7 +10719,7 @@
     human: ISO/IEC 23003-3:2020/AMD1:2021
     urn: urn:iec:std:iso-iec:23003-3:2020:::::amd:1:2021
   style: v3
-- id: iec.amendment.10461
+- id: iec.amendment.10465
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10710,7 +10739,7 @@
     human: ISO/IEC 23007-1:2010/AMD1:2012
     urn: urn:iec:std:iso-iec:23007-1:2010:::::amd:1:2012
   style: v3
-- id: iec.amendment.10466
+- id: iec.amendment.10470
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10730,7 +10759,7 @@
     human: ISO/IEC 23007-3:2011/AMD1:2015
     urn: urn:iec:std:iso-iec:23007-3:2011:::::amd:1:2015
   style: v3
-- id: iec.amendment.10468
+- id: iec.amendment.10472
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10750,7 +10779,7 @@
     human: ISO/IEC 23008-10:2015/AMD1:2021
     urn: urn:iec:std:iso-iec:23008-10:2015:::::amd:1:2021
   style: v3
-- id: iec.amendment.10472
+- id: iec.amendment.10476
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10770,7 +10799,7 @@
     human: ISO/IEC 23008-12:2017/AMD1:2020
     urn: urn:iec:std:iso-iec:23008-12:2017:::::amd:1:2020
   style: v3
-- id: iec.amendment.10476
+- id: iec.amendment.10480
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10790,7 +10819,7 @@
     human: ISO/IEC 23008-1:2017/AMD1:2017
     urn: urn:iec:std:iso-iec:23008-1:2017:::::amd:1:2017
   style: v3
-- id: iec.amendment.10481
+- id: iec.amendment.10485
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10810,7 +10839,7 @@
     human: ISO/IEC 23008-2:2020/AMD1:2021
     urn: urn:iec:std:iso-iec:23008-2:2020:::::amd:1:2021
   style: v3
-- id: iec.amendment.10484
+- id: iec.amendment.10488
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10830,7 +10859,7 @@
     human: ISO/IEC 23008-3:2019/AMD1:2019
     urn: urn:iec:std:iso-iec:23008-3:2019:::::amd:1:2019
   style: v3
-- id: iec.amendment.10485
+- id: iec.amendment.10489
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10850,7 +10879,7 @@
     human: ISO/IEC 23008-3:2019/AMD2:2020
     urn: urn:iec:std:iso-iec:23008-3:2019:::::amd:2:2020
   style: v3
-- id: iec.amendment.10489
+- id: iec.amendment.10493
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10870,7 +10899,7 @@
     human: ISO/IEC 23008-5:2017/AMD1:2017
     urn: urn:iec:std:iso-iec:23008-5:2017:::::amd:1:2017
   style: v3
-- id: iec.amendment.10495
+- id: iec.amendment.10499
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10890,7 +10919,7 @@
     human: ISO/IEC 23008-8:2018/AMD1:2019
     urn: urn:iec:std:iso-iec:23008-8:2018:::::amd:1:2019
   style: v3
-- id: iec.amendment.10507
+- id: iec.amendment.10511
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10910,7 +10939,7 @@
     human: ISO/IEC 23009-5:2017/AMD1:2020
     urn: urn:iec:std:iso-iec:23009-5:2017:::::amd:1:2020
   style: v3
-- id: iec.amendment.10523
+- id: iec.amendment.10527
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10930,7 +10959,7 @@
     human: ISO/IEC 23091-3:2018/AMD1:2022
     urn: urn:iec:std:iso-iec:23091-3:2018:::::amd:1:2022
   style: v3
-- id: iec.amendment.10627
+- id: iec.amendment.10631
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10950,7 +10979,7 @@
     human: ISO/IEC 24800-3:2010/AMD1:2015
     urn: urn:iec:std:iso-iec:24800-3:2010:::::amd:1:2015
   style: v3
-- id: iec.amendment.10703
+- id: iec.amendment.10707
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10970,7 +10999,7 @@
     human: ISO/IEC 29170-2:2015/AMD1:2020
     urn: urn:iec:std:iso-iec:29170-2:2015:::::amd:1:2020
   style: v3
-- id: iec.amendment.10718
+- id: iec.amendment.10722
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -10990,7 +11019,7 @@
     human: ISO/IEC 29199-4:2010/AMD1:2014
     urn: urn:iec:std:iso-iec:29199-4:2010:::::amd:1:2014
   style: v3
-- id: iec.amendment.10721
+- id: iec.amendment.10725
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -11010,7 +11039,7 @@
     human: ISO/IEC 29199-5:2012/AMD1:2015
     urn: urn:iec:std:iso-iec:29199-5:2012:::::amd:1:2015
   style: v3
-- id: iec.amendment.10736
+- id: iec.amendment.10740
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -11029,7 +11058,7 @@
     human: ISO/IEC 29500-1/AMD1:2010
     urn: urn:iec:std:iso-iec:29500-1::::::amd:1:2010
   style: v3
-- id: iec.amendment.10855
+- id: iec.amendment.10859
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -11051,7 +11080,7 @@
   non_normalized_aliases:
   - spelling: ISO/IEC FPDAM 9075/1
     style: v3
-- id: iec.amendment.11151
+- id: iec.amendment.11155
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -11071,7 +11100,7 @@
     human: ISO/IEC TR 15938-11:2005/AMD1:2012
     urn: urn:iec:std:iso-iec:15938-11:2005:tr::::amd:1:2012
   style: v3
-- id: iec.amendment.11153
+- id: iec.amendment.11157
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -11091,7 +11120,7 @@
     human: ISO/IEC TR 15938-8:2002/AMD1:2004
     urn: urn:iec:std:iso-iec:15938-8:2002:tr::::amd:1:2004
   style: v3
-- id: iec.amendment.11154
+- id: iec.amendment.11158
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -11111,7 +11140,7 @@
     human: ISO/IEC TR 15938-8:2002/AMD2:2006
     urn: urn:iec:std:iso-iec:15938-8:2002:tr::::amd:2:2006
   style: v3
-- id: iec.amendment.11155
+- id: iec.amendment.11159
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -11131,7 +11160,7 @@
     human: ISO/IEC TR 15938-8:2002/AMD3:2007
     urn: urn:iec:std:iso-iec:15938-8:2002:tr::::amd:3:2007
   style: v3
-- id: iec.amendment.11156
+- id: iec.amendment.11160
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -11151,7 +11180,7 @@
     human: ISO/IEC TR 15938-8:2002/AMD4:2009
     urn: urn:iec:std:iso-iec:15938-8:2002:tr::::amd:4:2009
   style: v3
-- id: iec.amendment.11157
+- id: iec.amendment.11161
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO
@@ -11171,7 +11200,7 @@
     human: ISO/IEC TR 15938-8:2002/AMD5:2010
     urn: urn:iec:std:iso-iec:15938-8:2002:tr::::amd:5:2010
   style: v3
-- id: iec.amendment.11158
+- id: iec.amendment.11162
   identifier:
     _type: pubid:iec:amendment
     publisher: ISO

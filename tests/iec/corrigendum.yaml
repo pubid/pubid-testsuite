@@ -154,7 +154,21 @@
   non_normalized_aliases:
   - spelling: IEC DCOR 60038-1:2019
     style: v3
-- id: iec.corrigendum.1795
+- id: iec.corrigendum.1737
+  identifier:
+    _type: pubid:iec:corrigendum
+    stage_iteration: '3'
+    stage: dcor
+    number: '1'
+    base:
+      _type: pubid:iec:international-standard
+      number: '60038'
+      part: '2'
+  representations:
+    human: IEC 60038-2/DCOR 1.3
+    urn: 'urn:iec:std:iec:60038-2::::::cor:1.3:'
+  style: v3
+- id: iec.corrigendum.1799
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -168,7 +182,7 @@
     human: IEC 60050-113:2011/COR1:2011
     urn: urn:iec:std:iec:60050-113:2011:::::cor:1:2011
   style: v3
-- id: iec.corrigendum.1796
+- id: iec.corrigendum.1800
   identifier:
     _type: pubid:iec:corrigendum
     edition: '1'
@@ -183,7 +197,7 @@
     human: IEC 60050-113:2011/COR1:2011 ED1
     urn: urn:iec:std:iec:60050-113:2011::ed-1:::cor:1:2011
   style: v3
-- id: iec.corrigendum.1957
+- id: iec.corrigendum.1961
   identifier:
     _type: pubid:iec:corrigendum
     edition: '2'
@@ -198,7 +212,7 @@
     human: IEC 60050-351:1998/COR1:1999 ED2
     urn: urn:iec:std:iec:60050-351:1998::ed-2:::cor:1:1999
   style: v3
-- id: iec.corrigendum.2224
+- id: iec.corrigendum.2228
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -212,7 +226,7 @@
     human: IEC 60050-702:1992/COR1:1992
     urn: urn:iec:std:iec:60050-702:1992:::::cor:1:1992
   style: v3
-- id: iec.corrigendum.2225
+- id: iec.corrigendum.2229
   identifier:
     _type: pubid:iec:corrigendum
     number: '2'
@@ -226,7 +240,7 @@
     human: IEC 60050-702:1992/COR2:1994
     urn: urn:iec:std:iec:60050-702:1992:::::cor:2:1994
   style: v3
-- id: iec.corrigendum.2369
+- id: iec.corrigendum.2373
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -240,7 +254,7 @@
     human: IEC 60050-731:1991/COR1:1992
     urn: urn:iec:std:iec:60050-731:1991:::::cor:1:1992
   style: v3
-- id: iec.corrigendum.2653
+- id: iec.corrigendum.2657
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -254,7 +268,7 @@
     human: IEC 60094-2:1994/COR1:1995
     urn: urn:iec:std:iec:60094-2:1994:::::cor:1:1995
   style: v3
-- id: iec.corrigendum.2770
+- id: iec.corrigendum.2774
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -268,7 +282,7 @@
     human: IEC 60268-17:1990/COR1:1991
     urn: urn:iec:std:iec:60268-17:1990:::::cor:1:1991
   style: v3
-- id: iec.corrigendum.2790
+- id: iec.corrigendum.2794
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -282,7 +296,7 @@
     human: IEC 60268-7:2010/COR1:2012
     urn: urn:iec:std:iec:60268-7:2010:::::cor:1:2012
   style: v3
-- id: iec.corrigendum.2814
+- id: iec.corrigendum.2818
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -309,7 +323,7 @@
     human: IEC 60287-1-1:1994+AMD1:1995+AMD2:2001 CSV/COR1:2006
     urn: urn:iec:std:iec:60287-1-1:1994::csv::plus:amd:1:1995:plus:amd:2:2001::cor:1:2006
   style: v3
-- id: iec.corrigendum.2833
+- id: iec.corrigendum.2837
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -323,7 +337,7 @@
     human: IEC 60315-1:1988/COR1:1997
     urn: urn:iec:std:iec:60315-1:1988:::::cor:1:1997
   style: v3
-- id: iec.corrigendum.2837
+- id: iec.corrigendum.2841
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -337,7 +351,7 @@
     human: IEC 60315-3:1989/COR1:1994
     urn: urn:iec:std:iec:60315-3:1989:::::cor:1:1994
   style: v3
-- id: iec.corrigendum.2840
+- id: iec.corrigendum.2844
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -351,7 +365,7 @@
     human: IEC 60315-6:1991/COR1:1997
     urn: urn:iec:std:iec:60315-6:1991:::::cor:1:1997
   style: v3
-- id: iec.corrigendum.2927
+- id: iec.corrigendum.2931
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -374,7 +388,7 @@
     human: IEC 60335-1:2001+AMD1:2004 CSV/COR1:2005
     urn: urn:iec:std:iec:60335-1:2001::csv::plus:amd:1:2004::cor:1:2005
   style: v3
-- id: iec.corrigendum.2930
+- id: iec.corrigendum.2934
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -397,7 +411,7 @@
     human: IEC 60335-1:2010+AMD1:2013 CSV/COR1:2014
     urn: urn:iec:std:iec:60335-1:2010::csv::plus:amd:1:2013::cor:1:2014
   style: v3
-- id: iec.corrigendum.2956
+- id: iec.corrigendum.2960
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -421,7 +435,7 @@
     human: IEC 60335-2-13:2002+AMD1:2004 CSV/COR1:2006
     urn: urn:iec:std:iec:60335-2-13:2002::csv::plus:amd:1:2004::cor:1:2006
   style: v3
-- id: iec.corrigendum.2986
+- id: iec.corrigendum.2990
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -448,7 +462,7 @@
     human: IEC 60335-2-27:2009+AMD1:2012+AMD2:2015 CSV/COR1:2015
     urn: urn:iec:std:iec:60335-2-27:2009::csv::plus:amd:1:2012:plus:amd:2:2015::cor:1:2015
   style: v3
-- id: iec.corrigendum.3009
+- id: iec.corrigendum.3013
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -472,7 +486,7 @@
     human: IEC 60335-2-35:2002+AMD1:2006 CSV/COR1:2007
     urn: urn:iec:std:iec:60335-2-35:2002::csv::plus:amd:1:2006::cor:1:2007
   style: v3
-- id: iec.corrigendum.3106
+- id: iec.corrigendum.3110
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -496,7 +510,7 @@
     human: IEC 60335-2-7:2008+AMD1:2011 CSV/COR1:2012
     urn: urn:iec:std:iec:60335-2-7:2008::csv::plus:amd:1:2011::cor:1:2012
   style: v3
-- id: iec.corrigendum.3143
+- id: iec.corrigendum.3147
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -520,7 +534,7 @@
     human: IEC 60335-2-9:2008+AMD1:2012 CSV/COR1:2013
     urn: urn:iec:std:iec:60335-2-9:2008::csv::plus:amd:1:2012::cor:1:2013
   style: v3
-- id: iec.corrigendum.3159
+- id: iec.corrigendum.3163
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -544,7 +558,7 @@
     human: IEC 60364-4-41:2005+AMD1:2017 CSV/COR1:2018
     urn: urn:iec:std:iec:60364-4-41:2005::csv::plus:amd:1:2017::cor:1:2018
   style: v3
-- id: iec.corrigendum.3270
+- id: iec.corrigendum.3274
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -566,7 +580,7 @@
     human: IEC 60529:1989+AMD1:1999 CSV/COR1:2003
     urn: urn:iec:std:iec:60529:1989::csv::plus:amd:1:1999::cor:1:2003
   style: v3
-- id: iec.corrigendum.3271
+- id: iec.corrigendum.3275
   identifier:
     _type: pubid:iec:corrigendum
     number: '2'
@@ -588,7 +602,7 @@
     human: IEC 60529:1989+AMD1:1999 CSV/COR2:2007
     urn: urn:iec:std:iec:60529:1989::csv::plus:amd:1:1999::cor:2:2007
   style: v3
-- id: iec.corrigendum.3272
+- id: iec.corrigendum.3276
   identifier:
     _type: pubid:iec:corrigendum
     number: '3'
@@ -610,7 +624,7 @@
     human: IEC 60529:1989+AMD1:1999 CSV/COR3:2009
     urn: urn:iec:std:iec:60529:1989::csv::plus:amd:1:1999::cor:3:2009
   style: v3
-- id: iec.corrigendum.3274
+- id: iec.corrigendum.3278
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -635,7 +649,7 @@
     human: IEC 60529:1989+AMD1:1999+AMD2:2013 CSV/COR1:2013
     urn: urn:iec:std:iec:60529:1989::csv::plus:amd:1:1999:plus:amd:2:2013::cor:1:2013
   style: v3
-- id: iec.corrigendum.3275
+- id: iec.corrigendum.3279
   identifier:
     _type: pubid:iec:corrigendum
     number: '2'
@@ -660,7 +674,7 @@
     human: IEC 60529:1989+AMD1:1999+AMD2:2013 CSV/COR2:2015
     urn: urn:iec:std:iec:60529:1989::csv::plus:amd:1:1999:plus:amd:2:2013::cor:2:2015
   style: v3
-- id: iec.corrigendum.3339
+- id: iec.corrigendum.3343
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -683,7 +697,7 @@
     human: IEC 60601-1:2005+AMD1:2012 CSV/COR1:2012
     urn: urn:iec:std:iec:60601-1:2005::csv::plus:amd:1:2012::cor:1:2012
   style: v3
-- id: iec.corrigendum.3413
+- id: iec.corrigendum.3417
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -709,7 +723,7 @@
     human: IEC 60664-1:1992+AMD1:2000+AMD2:2002 CSV/COR1:2002
     urn: urn:iec:std:iec:60664-1:1992::csv::plus:amd:1:2000:plus:amd:2:2002::cor:1:2002
   style: v3
-- id: iec.corrigendum.3460
+- id: iec.corrigendum.3464
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -727,7 +741,7 @@
     human: IEC 60695-2-1/1:1994/COR1:1995
     urn: urn:iec:std:iec:60695-2-1::::::cor:1:1995
   style: v3
-- id: iec.corrigendum.3503
+- id: iec.corrigendum.3507
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -754,7 +768,7 @@
     human: IEC 60721-3-3:1994+AMD1:1995+AMD2:1996 CSV/COR1:2008
     urn: urn:iec:std:iec:60721-3-3:1994::csv::plus:amd:1:1995:plus:amd:2:1996::cor:1:2008
   style: v3
-- id: iec.corrigendum.3512
+- id: iec.corrigendum.3516
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -768,7 +782,7 @@
     human: IEC 60728-113:2018/COR1:2018
     urn: urn:iec:std:iec:60728-113:2018:::::cor:1:2018
   style: v3
-- id: iec.corrigendum.3515
+- id: iec.corrigendum.3519
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -782,7 +796,7 @@
     human: IEC 60728-11:2016/COR1:2016
     urn: urn:iec:std:iec:60728-11:2016:::::cor:1:2016
   style: v3
-- id: iec.corrigendum.3518
+- id: iec.corrigendum.3522
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -797,7 +811,7 @@
     human: IEC 60728-13-1:2017/COR1:2017
     urn: urn:iec:std:iec:60728-13-1:2017:::::cor:1:2017
   style: v3
-- id: iec.corrigendum.3520
+- id: iec.corrigendum.3524
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -811,7 +825,7 @@
     human: IEC 60728-13:2010/COR1:2010
     urn: urn:iec:std:iec:60728-13:2010:::::cor:1:2010
   style: v3
-- id: iec.corrigendum.3555
+- id: iec.corrigendum.3559
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -835,7 +849,7 @@
     human: IEC 60730-2-8:2018+AMD1:2021 CSV/COR1:2022
     urn: urn:iec:std:iec:60730-2-8:2018::csv::plus:amd:1:2021::cor:1:2022
   style: v3
-- id: iec.corrigendum.3789
+- id: iec.corrigendum.3793
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -861,7 +875,7 @@
     human: IEC 60947-1:1999+AMD1:2000+AMD2:2001 CSV/COR1:2002
     urn: urn:iec:std:iec:60947-1:1999::csv::plus:amd:1:2000:plus:amd:2:2001::cor:1:2002
   style: v3
-- id: iec.corrigendum.3794
+- id: iec.corrigendum.3798
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -884,7 +898,7 @@
     human: IEC 60947-2:2016+AMD1:2019 CSV/COR1:2019
     urn: urn:iec:std:iec:60947-2:2016::csv::plus:amd:1:2019::cor:1:2019
   style: v3
-- id: iec.corrigendum.3797
+- id: iec.corrigendum.3801
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -907,7 +921,7 @@
     human: IEC 60947-3:2008+AMD1:2012 CSV/COR1:2012
     urn: urn:iec:std:iec:60947-3:2008::csv::plus:amd:1:2012::cor:1:2012
   style: v3
-- id: iec.corrigendum.3872
+- id: iec.corrigendum.3876
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -934,7 +948,7 @@
     human: IEC 61000-3-2:2005+AMD1:2008+AMD2:2009 CSV/COR1:2009
     urn: urn:iec:std:iec:61000-3-2:2005::csv::plus:amd:1:2008:plus:amd:2:2009::cor:1:2009
   style: v3
-- id: iec.corrigendum.3931
+- id: iec.corrigendum.3935
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -957,7 +971,7 @@
     human: IEC 61009-1:2010+AMD1:2012 CSV/COR1:2012
     urn: urn:iec:std:iec:61009-1:2010::csv::plus:amd:1:2012::cor:1:2012
   style: v3
-- id: iec.corrigendum.3935
+- id: iec.corrigendum.3939
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -980,7 +994,7 @@
     human: IEC 61010-031:2015+AMD1:2018 CSV/COR1:2018
     urn: urn:iec:std:iec:61010-031:2015::csv::plus:amd:1:2018::cor:1:2018
   style: v3
-- id: iec.corrigendum.4097
+- id: iec.corrigendum.4101
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -995,7 +1009,7 @@
     human: IEC 61158-4-7:2007/COR1:2014
     urn: urn:iec:std:iec:61158-4-7:2007:::::cor:1:2014
   style: v3
-- id: iec.corrigendum.4209
+- id: iec.corrigendum.4213
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1009,7 +1023,7 @@
     human: IEC 61237-3:1995/COR1:1995
     urn: urn:iec:std:iec:61237-3:1995:::::cor:1:1995
   style: v3
-- id: iec.corrigendum.4231
+- id: iec.corrigendum.4235
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1024,7 +1038,7 @@
     human: IEC 61300-2-12:2009/COR1:2011
     urn: urn:iec:std:iec:61300-2-12:2009:::::cor:1:2011
   style: v3
-- id: iec.corrigendum.4239
+- id: iec.corrigendum.4243
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1039,7 +1053,7 @@
     human: IEC 61300-2-19:2012/COR1:2020
     urn: urn:iec:std:iec:61300-2-19:2012:::::cor:1:2020
   style: v3
-- id: iec.corrigendum.4241
+- id: iec.corrigendum.4245
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1054,7 +1068,7 @@
     human: IEC 61300-2-1:2009/COR1:2010
     urn: urn:iec:std:iec:61300-2-1:2009:::::cor:1:2010
   style: v3
-- id: iec.corrigendum.4253
+- id: iec.corrigendum.4257
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1069,7 +1083,7 @@
     human: IEC 61300-2-28:2013/COR1:2013
     urn: urn:iec:std:iec:61300-2-28:2013:::::cor:1:2013
   style: v3
-- id: iec.corrigendum.4274
+- id: iec.corrigendum.4278
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1084,7 +1098,7 @@
     human: IEC 61300-2-46:2019/COR1:2022
     urn: urn:iec:std:iec:61300-2-46:2019:::::cor:1:2022
   style: v3
-- id: iec.corrigendum.4284
+- id: iec.corrigendum.4288
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1099,7 +1113,7 @@
     human: IEC 61300-2-50:2007/COR1:2015
     urn: urn:iec:std:iec:61300-2-50:2007:::::cor:1:2015
   style: v3
-- id: iec.corrigendum.4286
+- id: iec.corrigendum.4290
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1114,7 +1128,7 @@
     human: IEC 61300-2-51:2007/COR1:2015
     urn: urn:iec:std:iec:61300-2-51:2007:::::cor:1:2015
   style: v3
-- id: iec.corrigendum.4336
+- id: iec.corrigendum.4340
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1129,7 +1143,7 @@
     human: IEC 61300-3-50:2013/COR1:2015
     urn: urn:iec:std:iec:61300-3-50:2013:::::cor:1:2015
   style: v3
-- id: iec.corrigendum.4337
+- id: iec.corrigendum.4341
   identifier:
     _type: pubid:iec:corrigendum
     number: '2'
@@ -1144,7 +1158,7 @@
     human: IEC 61300-3-50:2013/COR2:2015
     urn: urn:iec:std:iec:61300-3-50:2013:::::cor:2:2015
   style: v3
-- id: iec.corrigendum.4413
+- id: iec.corrigendum.4417
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1167,7 +1181,7 @@
     human: IEC 61400-1:2005+AMD1:2010 CSV/COR1:2016
     urn: urn:iec:std:iec:61400-1:2005::csv::plus:amd:1:2010::cor:1:2016
   style: v3
-- id: iec.corrigendum.4424
+- id: iec.corrigendum.4428
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1189,7 +1203,7 @@
     human: IEC 61481:2001+AMD1:2002 CSV/COR1:2002
     urn: urn:iec:std:iec:61481:2001::csv::plus:amd:1:2002::cor:1:2002
   style: v3
-- id: iec.corrigendum.4471
+- id: iec.corrigendum.4475
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1203,7 +1217,7 @@
     human: IEC 61603-1:1997/COR1:1997
     urn: urn:iec:std:iec:61603-1:1997:::::cor:1:1997
   style: v3
-- id: iec.corrigendum.4487
+- id: iec.corrigendum.4491
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1226,7 +1240,7 @@
     human: IEC 61643-1:1998+AMD1:2001 CSV/COR1:2003
     urn: urn:iec:std:iec:61643-1:1998::csv::plus:amd:1:2001::cor:1:2003
   style: v3
-- id: iec.corrigendum.4541
+- id: iec.corrigendum.4545
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1241,7 +1255,7 @@
     human: IEC 61753-084-2:2007/COR1:2008
     urn: urn:iec:std:iec:61753-084-2:2007:::::cor:1:2008
   style: v3
-- id: iec.corrigendum.4566
+- id: iec.corrigendum.4570
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1255,7 +1269,7 @@
     human: IEC 61753-1:2018/COR1:2019
     urn: urn:iec:std:iec:61753-1:2018:::::cor:1:2019
   style: v3
-- id: iec.corrigendum.4574
+- id: iec.corrigendum.4578
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1269,7 +1283,7 @@
     human: IEC 61754-15:2009/COR1:2014
     urn: urn:iec:std:iec:61754-15:2009:::::cor:1:2014
   style: v3
-- id: iec.corrigendum.4632
+- id: iec.corrigendum.4636
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1284,7 +1298,7 @@
     human: IEC 61755-3-1:2006/COR1:2009
     urn: urn:iec:std:iec:61755-3-1:2006:::::cor:1:2009
   style: v3
-- id: iec.corrigendum.4635
+- id: iec.corrigendum.4639
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1299,7 +1313,7 @@
     human: IEC 61755-3-2:2006/COR1:2009
     urn: urn:iec:std:iec:61755-3-2:2006:::::cor:1:2009
   style: v3
-- id: iec.corrigendum.4729
+- id: iec.corrigendum.4733
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1313,7 +1327,7 @@
     human: IEC 61834-10:2001/COR1:2001
     urn: urn:iec:std:iec:61834-10:2001:::::cor:1:2001
   style: v3
-- id: iec.corrigendum.4816
+- id: iec.corrigendum.4820
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1327,7 +1341,7 @@
     human: IEC 61937-4:2003/COR1:2004
     urn: urn:iec:std:iec:61937-4:2003:::::cor:1:2004
   style: v3
-- id: iec.corrigendum.4843
+- id: iec.corrigendum.4847
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1342,7 +1356,7 @@
     human: IEC 61966-2-1:1999/COR1:2014
     urn: urn:iec:std:iec:61966-2-1:1999:::::cor:1:2014
   style: v3
-- id: iec.corrigendum.4845
+- id: iec.corrigendum.4849
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1357,7 +1371,7 @@
     human: IEC 61966-2-2:2003/COR1:2003
     urn: urn:iec:std:iec:61966-2-2:2003:::::cor:1:2003
   style: v3
-- id: iec.corrigendum.4851
+- id: iec.corrigendum.4855
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1372,7 +1386,7 @@
     human: IEC 61966-2-4:2006/COR1:2006
     urn: urn:iec:std:iec:61966-2-4:2006:::::cor:1:2006
   style: v3
-- id: iec.corrigendum.4889
+- id: iec.corrigendum.4893
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1386,7 +1400,7 @@
     human: IEC 62002-1:2008/COR1:2008
     urn: urn:iec:std:iec:62002-1:2008:::::cor:1:2008
   style: v3
-- id: iec.corrigendum.4905
+- id: iec.corrigendum.4909
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1399,7 +1413,7 @@
     human: IEC 62023:2011/COR1:2012
     urn: urn:iec:std:iec:62023:2011:::::cor:1:2012
   style: v3
-- id: iec.corrigendum.4941
+- id: iec.corrigendum.4945
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1424,7 +1438,7 @@
     human: IEC 62061:2005+AMD1:2012+AMD2:2015 CSV/COR1:2015
     urn: urn:iec:std:iec:62061:2005::csv::plus:amd:1:2012:plus:amd:2:2015::cor:1:2015
   style: v3
-- id: iec.corrigendum.5127
+- id: iec.corrigendum.5131
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1438,7 +1452,7 @@
     human: IEC 62439-7:2011/COR1:2015
     urn: urn:iec:std:iec:62439-7:2011:::::cor:1:2015
   style: v3
-- id: iec.corrigendum.5140
+- id: iec.corrigendum.5144
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1453,7 +1467,7 @@
     human: IEC 62443-2-4:2015/COR1:2015
     urn: urn:iec:std:iec:62443-2-4:2015:::::cor:1:2015
   style: v3
-- id: iec.corrigendum.5143
+- id: iec.corrigendum.5147
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1468,7 +1482,7 @@
     human: IEC 62443-3-3:2013/COR1:2014
     urn: urn:iec:std:iec:62443-3-3:2013:::::cor:1:2014
   style: v3
-- id: iec.corrigendum.5161
+- id: iec.corrigendum.5165
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1481,7 +1495,7 @@
     human: IEC 62459:2010/COR1:2015
     urn: urn:iec:std:iec:62459:2010:::::cor:1:2015
   style: v3
-- id: iec.corrigendum.5220
+- id: iec.corrigendum.5224
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1494,7 +1508,7 @@
     human: IEC 62591:2016/COR1:2021
     urn: urn:iec:std:iec:62591:2016:::::cor:1:2021
   style: v3
-- id: iec.corrigendum.5222
+- id: iec.corrigendum.5226
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1507,7 +1521,7 @@
     human: IEC 62601:2015/COR1:2021
     urn: urn:iec:std:iec:62601:2015:::::cor:1:2021
   style: v3
-- id: iec.corrigendum.5276
+- id: iec.corrigendum.5280
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1522,7 +1536,7 @@
     human: IEC 62702-1-1:2016/COR1:2018
     urn: urn:iec:std:iec:62702-1-1:2016:::::cor:1:2018
   style: v3
-- id: iec.corrigendum.5357
+- id: iec.corrigendum.5361
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1535,7 +1549,7 @@
     human: IEC 62881:2018/COR1:2019
     urn: urn:iec:std:iec:62881:2018:::::cor:1:2019
   style: v3
-- id: iec.corrigendum.5370
+- id: iec.corrigendum.5374
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1548,7 +1562,7 @@
     human: IEC 62948:2017/COR1:2021
     urn: urn:iec:std:iec:62948:2017:::::cor:1:2021
   style: v3
-- id: iec.corrigendum.5381
+- id: iec.corrigendum.5385
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1561,7 +1575,7 @@
     human: IEC 63029:2017/COR1:2018
     urn: urn:iec:std:iec:63029:2017:::::cor:1:2018
   style: v3
-- id: iec.corrigendum.5438
+- id: iec.corrigendum.5442
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1575,7 +1589,7 @@
     human: IEC 82045-2:2004/COR1:2014
     urn: urn:iec:std:iec:82045-2:2004:::::cor:1:2014
   style: v3
-- id: iec.corrigendum.5880
+- id: iec.corrigendum.5884
   identifier:
     _type: pubid:iec:corrigendum
     number: '1'
@@ -1588,7 +1602,7 @@
     human: IEC TR 61602:1996/COR1:2008
     urn: urn:iec:std:iec:61602:1996:tr::::cor:1:2008
   style: v3
-- id: iec.corrigendum.9503
+- id: iec.corrigendum.9507
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -1608,7 +1622,7 @@
     human: ISO/IEC 10918-1:1994/COR1:2005
     urn: urn:iec:std:iso-iec:10918-1:1994:::::cor:1:2005
   style: v3
-- id: iec.corrigendum.9520
+- id: iec.corrigendum.9524
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -1628,7 +1642,7 @@
     human: ISO/IEC 11172-1:1993/COR1:1996
     urn: urn:iec:std:iso-iec:11172-1:1993:::::cor:1:1996
   style: v3
-- id: iec.corrigendum.9521
+- id: iec.corrigendum.9525
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -1648,7 +1662,7 @@
     human: ISO/IEC 11172-1:1993/COR2:1999
     urn: urn:iec:std:iso-iec:11172-1:1993:::::cor:2:1999
   style: v3
-- id: iec.corrigendum.9523
+- id: iec.corrigendum.9527
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -1668,7 +1682,7 @@
     human: ISO/IEC 11172-2:1993/COR1:1996
     urn: urn:iec:std:iso-iec:11172-2:1993:::::cor:1:1996
   style: v3
-- id: iec.corrigendum.9524
+- id: iec.corrigendum.9528
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -1688,7 +1702,7 @@
     human: ISO/IEC 11172-2:1993/COR2:1999
     urn: urn:iec:std:iso-iec:11172-2:1993:::::cor:2:1999
   style: v3
-- id: iec.corrigendum.9525
+- id: iec.corrigendum.9529
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -1708,7 +1722,7 @@
     human: ISO/IEC 11172-2:1993/COR3:2003
     urn: urn:iec:std:iso-iec:11172-2:1993:::::cor:3:2003
   style: v3
-- id: iec.corrigendum.9526
+- id: iec.corrigendum.9530
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -1728,7 +1742,7 @@
     human: ISO/IEC 11172-2:1993/COR4:2006
     urn: urn:iec:std:iso-iec:11172-2:1993:::::cor:4:2006
   style: v3
-- id: iec.corrigendum.9528
+- id: iec.corrigendum.9532
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -1748,7 +1762,7 @@
     human: ISO/IEC 11172-3:1993/COR1:1996
     urn: urn:iec:std:iso-iec:11172-3:1993:::::cor:1:1996
   style: v3
-- id: iec.corrigendum.9530
+- id: iec.corrigendum.9534
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -1768,7 +1782,7 @@
     human: ISO/IEC 11172-4:1995/COR1:2007
     urn: urn:iec:std:iso-iec:11172-4:1995:::::cor:1:2007
   style: v3
-- id: iec.corrigendum.9540
+- id: iec.corrigendum.9544
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -1787,7 +1801,7 @@
     human: ISO/IEC 11544:1993/COR1:1995
     urn: urn:iec:std:iso-iec:11544:1993:::::cor:1:1995
   style: v3
-- id: iec.corrigendum.9541
+- id: iec.corrigendum.9545
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -1806,7 +1820,7 @@
     human: ISO/IEC 11544:1993/COR2:2001
     urn: urn:iec:std:iso-iec:11544:1993:::::cor:2:2001
   style: v3
-- id: iec.corrigendum.9589
+- id: iec.corrigendum.9593
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -1826,7 +1840,7 @@
     human: ISO/IEC 13522-5:1997/COR1:1999
     urn: urn:iec:std:iso-iec:13522-5:1997:::::cor:1:1999
   style: v3
-- id: iec.corrigendum.9604
+- id: iec.corrigendum.9608
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -1846,7 +1860,7 @@
     human: ISO/IEC 13818-1:2019/COR1:2020
     urn: urn:iec:std:iso-iec:13818-1:2019:::::cor:1:2020
   style: v3
-- id: iec.corrigendum.9611
+- id: iec.corrigendum.9615
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -1873,7 +1887,7 @@
     human: ISO/IEC 13818-4:2004/AMD2:2005/COR1:2007
     urn: urn:iec:std:iso-iec:13818-4:2004:::::amd:2:2005::cor:1:2007
   style: v3
-- id: iec.corrigendum.9612
+- id: iec.corrigendum.9616
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -1900,7 +1914,7 @@
     human: ISO/IEC 13818-4:2004/AMD2:2005/COR2:2009
     urn: urn:iec:std:iso-iec:13818-4:2004:::::amd:2:2005::cor:2:2009
   style: v3
-- id: iec.corrigendum.9614
+- id: iec.corrigendum.9618
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -1920,7 +1934,7 @@
     human: ISO/IEC 13818-4:2004/COR1:2007
     urn: urn:iec:std:iso-iec:13818-4:2004:::::cor:1:2007
   style: v3
-- id: iec.corrigendum.9615
+- id: iec.corrigendum.9619
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -1940,7 +1954,7 @@
     human: ISO/IEC 13818-4:2004/COR2:2011
     urn: urn:iec:std:iso-iec:13818-4:2004:::::cor:2:2011
   style: v3
-- id: iec.corrigendum.9616
+- id: iec.corrigendum.9620
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -1960,7 +1974,7 @@
     human: ISO/IEC 13818-4:2004/COR3:2012
     urn: urn:iec:std:iso-iec:13818-4:2004:::::cor:3:2012
   style: v3
-- id: iec.corrigendum.9619
+- id: iec.corrigendum.9623
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -1987,7 +2001,7 @@
     human: ISO/IEC 13818-6:1998/AMD1:2000/COR1:2002
     urn: urn:iec:std:iso-iec:13818-6:1998:::::amd:1:2000::cor:1:2002
   style: v3
-- id: iec.corrigendum.9622
+- id: iec.corrigendum.9626
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2007,7 +2021,7 @@
     human: ISO/IEC 13818-6:1998/COR1:1999
     urn: urn:iec:std:iso-iec:13818-6:1998:::::cor:1:1999
   style: v3
-- id: iec.corrigendum.9623
+- id: iec.corrigendum.9627
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2027,7 +2041,7 @@
     human: ISO/IEC 13818-6:1998/COR2:2002
     urn: urn:iec:std:iso-iec:13818-6:1998:::::cor:2:2002
   style: v3
-- id: iec.corrigendum.9626
+- id: iec.corrigendum.9630
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2047,7 +2061,7 @@
     human: ISO/IEC 13818-7:2006/COR1:2009
     urn: urn:iec:std:iso-iec:13818-7:2006:::::cor:1:2009
   style: v3
-- id: iec.corrigendum.9627
+- id: iec.corrigendum.9631
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2067,7 +2081,7 @@
     human: ISO/IEC 13818-7:2006/COR2:2010
     urn: urn:iec:std:iso-iec:13818-7:2006:::::cor:2:2010
   style: v3
-- id: iec.corrigendum.9689
+- id: iec.corrigendum.9693
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2087,7 +2101,7 @@
     human: ISO/IEC 14496-16:2011/COR1:2015
     urn: urn:iec:std:iso-iec:14496-16:2011:::::cor:1:2015
   style: v3
-- id: iec.corrigendum.9693
+- id: iec.corrigendum.9697
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2107,7 +2121,7 @@
     human: ISO/IEC 14496-18:2004/COR1:2007
     urn: urn:iec:std:iso-iec:14496-18:2004:::::cor:1:2007
   style: v3
-- id: iec.corrigendum.9704
+- id: iec.corrigendum.9708
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2127,7 +2141,7 @@
     human: ISO/IEC 14496-20:2008/COR1:2010
     urn: urn:iec:std:iso-iec:14496-20:2008:::::cor:1:2010
   style: v3
-- id: iec.corrigendum.9706
+- id: iec.corrigendum.9710
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2147,7 +2161,7 @@
     human: ISO/IEC 14496-21:2006/COR1:2007
     urn: urn:iec:std:iso-iec:14496-21:2006:::::cor:1:2007
   style: v3
-- id: iec.corrigendum.9720
+- id: iec.corrigendum.9724
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2167,7 +2181,7 @@
     human: ISO/IEC 14496-26:2010/COR2:2011
     urn: urn:iec:std:iso-iec:14496-26:2010:::::cor:2:2011
   style: v3
-- id: iec.corrigendum.9721
+- id: iec.corrigendum.9725
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2187,7 +2201,7 @@
     human: ISO/IEC 14496-26:2010/COR3:2011
     urn: urn:iec:std:iso-iec:14496-26:2010:::::cor:3:2011
   style: v3
-- id: iec.corrigendum.9722
+- id: iec.corrigendum.9726
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2207,7 +2221,7 @@
     human: ISO/IEC 14496-26:2010/COR4:2011
     urn: urn:iec:std:iso-iec:14496-26:2010:::::cor:4:2011
   style: v3
-- id: iec.corrigendum.9723
+- id: iec.corrigendum.9727
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2227,7 +2241,7 @@
     human: ISO/IEC 14496-26:2010/COR5:2012
     urn: urn:iec:std:iso-iec:14496-26:2010:::::cor:5:2012
   style: v3
-- id: iec.corrigendum.9724
+- id: iec.corrigendum.9728
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2247,7 +2261,7 @@
     human: ISO/IEC 14496-26:2010/COR6:2013
     urn: urn:iec:std:iso-iec:14496-26:2010:::::cor:6:2013
   style: v3
-- id: iec.corrigendum.9725
+- id: iec.corrigendum.9729
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2267,7 +2281,7 @@
     human: ISO/IEC 14496-26:2010/COR7:2013
     urn: urn:iec:std:iso-iec:14496-26:2010:::::cor:7:2013
   style: v3
-- id: iec.corrigendum.9726
+- id: iec.corrigendum.9730
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2287,7 +2301,7 @@
     human: ISO/IEC 14496-26:2010/COR8:2015
     urn: urn:iec:std:iso-iec:14496-26:2010:::::cor:8:2015
   style: v3
-- id: iec.corrigendum.9729
+- id: iec.corrigendum.9733
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2314,7 +2328,7 @@
     human: ISO/IEC 14496-27:2009/AMD2:2011/COR1:2015
     urn: urn:iec:std:iso-iec:14496-27:2009:::::amd:2:2011::cor:1:2015
   style: v3
-- id: iec.corrigendum.9735
+- id: iec.corrigendum.9739
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2334,7 +2348,7 @@
     human: ISO/IEC 14496-28:2012/COR1:2013
     urn: urn:iec:std:iso-iec:14496-28:2012:::::cor:1:2013
   style: v3
-- id: iec.corrigendum.9736
+- id: iec.corrigendum.9740
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2354,7 +2368,7 @@
     human: ISO/IEC 14496-28:2012/COR2:2014
     urn: urn:iec:std:iso-iec:14496-28:2012:::::cor:2:2014
   style: v3
-- id: iec.corrigendum.9743
+- id: iec.corrigendum.9747
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2381,7 +2395,7 @@
     human: ISO/IEC 14496-2:2004/AMD3:2007/COR1:2008
     urn: urn:iec:std:iso-iec:14496-2:2004:::::amd:3:2007::cor:1:2008
   style: v3
-- id: iec.corrigendum.9746
+- id: iec.corrigendum.9750
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2401,7 +2415,7 @@
     human: ISO/IEC 14496-2:2004/COR1:2004
     urn: urn:iec:std:iso-iec:14496-2:2004:::::cor:1:2004
   style: v3
-- id: iec.corrigendum.9747
+- id: iec.corrigendum.9751
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2421,7 +2435,7 @@
     human: ISO/IEC 14496-2:2004/COR2:2007
     urn: urn:iec:std:iso-iec:14496-2:2004:::::cor:2:2007
   style: v3
-- id: iec.corrigendum.9748
+- id: iec.corrigendum.9752
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2441,7 +2455,7 @@
     human: ISO/IEC 14496-2:2004/COR3:2008
     urn: urn:iec:std:iso-iec:14496-2:2004:::::cor:3:2008
   style: v3
-- id: iec.corrigendum.9749
+- id: iec.corrigendum.9753
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2461,7 +2475,7 @@
     human: ISO/IEC 14496-2:2004/COR4:2010
     urn: urn:iec:std:iso-iec:14496-2:2004:::::cor:4:2010
   style: v3
-- id: iec.corrigendum.9750
+- id: iec.corrigendum.9754
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2481,7 +2495,7 @@
     human: ISO/IEC 14496-2:2004/COR5:2013
     urn: urn:iec:std:iso-iec:14496-2:2004:::::cor:5:2013
   style: v3
-- id: iec.corrigendum.9764
+- id: iec.corrigendum.9768
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2508,7 +2522,7 @@
     human: ISO/IEC 14496-4:2004/AMD1:2005/COR1:2005
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:1:2005::cor:1:2005
   style: v3
-- id: iec.corrigendum.9765
+- id: iec.corrigendum.9769
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2535,7 +2549,7 @@
     human: ISO/IEC 14496-4:2004/AMD1:2005/COR2:2008
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:1:2005::cor:2:2008
   style: v3
-- id: iec.corrigendum.9779
+- id: iec.corrigendum.9783
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2562,7 +2576,7 @@
     human: ISO/IEC 14496-4:2004/AMD38:2010/COR1:2012
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:38:2010::cor:1:2012
   style: v3
-- id: iec.corrigendum.9790
+- id: iec.corrigendum.9794
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2589,7 +2603,7 @@
     human: ISO/IEC 14496-4:2004/AMD6:2005/COR1:2007
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:6:2005::cor:1:2007
   style: v3
-- id: iec.corrigendum.9793
+- id: iec.corrigendum.9797
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2616,7 +2630,7 @@
     human: ISO/IEC 14496-4:2004/AMD9:2006/COR1:2007
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:9:2006::cor:1:2007
   style: v3
-- id: iec.corrigendum.9794
+- id: iec.corrigendum.9798
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2643,7 +2657,7 @@
     human: ISO/IEC 14496-4:2004/AMD9:2006/COR2:2012
     urn: urn:iec:std:iso-iec:14496-4:2004:::::amd:9:2006::cor:2:2012
   style: v3
-- id: iec.corrigendum.9795
+- id: iec.corrigendum.9799
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2663,7 +2677,7 @@
     human: ISO/IEC 14496-4:2004/COR1:2005
     urn: urn:iec:std:iso-iec:14496-4:2004:::::cor:1:2005
   style: v3
-- id: iec.corrigendum.9796
+- id: iec.corrigendum.9800
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2683,7 +2697,7 @@
     human: ISO/IEC 14496-4:2004/COR2:2007
     urn: urn:iec:std:iso-iec:14496-4:2004:::::cor:2:2007
   style: v3
-- id: iec.corrigendum.9797
+- id: iec.corrigendum.9801
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2703,7 +2717,7 @@
     human: ISO/IEC 14496-4:2004/COR4:2008
     urn: urn:iec:std:iso-iec:14496-4:2004:::::cor:4:2008
   style: v3
-- id: iec.corrigendum.9798
+- id: iec.corrigendum.9802
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2723,7 +2737,7 @@
     human: ISO/IEC 14496-4:2004/COR7:2010
     urn: urn:iec:std:iso-iec:14496-4:2004:::::cor:7:2010
   style: v3
-- id: iec.corrigendum.9801
+- id: iec.corrigendum.9805
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2750,7 +2764,7 @@
     human: ISO/IEC 14496-5:2001/AMD10:2007/COR1:2008
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:10:2007::cor:1:2008
   style: v3
-- id: iec.corrigendum.9802
+- id: iec.corrigendum.9806
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2777,7 +2791,7 @@
     human: ISO/IEC 14496-5:2001/AMD10:2007/COR2:2008
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:10:2007::cor:2:2008
   style: v3
-- id: iec.corrigendum.9803
+- id: iec.corrigendum.9807
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2804,7 +2818,7 @@
     human: ISO/IEC 14496-5:2001/AMD10:2007/COR3:2009
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:10:2007::cor:3:2009
   style: v3
-- id: iec.corrigendum.9804
+- id: iec.corrigendum.9808
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2831,7 +2845,7 @@
     human: ISO/IEC 14496-5:2001/AMD10:2007/COR4:2010
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:10:2007::cor:4:2010
   style: v3
-- id: iec.corrigendum.9805
+- id: iec.corrigendum.9809
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2858,7 +2872,7 @@
     human: ISO/IEC 14496-5:2001/AMD10:2007/COR5:2011
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:10:2007::cor:5:2011
   style: v3
-- id: iec.corrigendum.9806
+- id: iec.corrigendum.9810
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2885,7 +2899,7 @@
     human: ISO/IEC 14496-5:2001/AMD10:2007/COR6:2012
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:10:2007::cor:6:2012
   style: v3
-- id: iec.corrigendum.9811
+- id: iec.corrigendum.9815
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2912,7 +2926,7 @@
     human: ISO/IEC 14496-5:2001/AMD14:2009/COR1:2010
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:14:2009::cor:1:2010
   style: v3
-- id: iec.corrigendum.9818
+- id: iec.corrigendum.9822
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2939,7 +2953,7 @@
     human: ISO/IEC 14496-5:2001/AMD1:2002/COR1:2008
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:1:2002::cor:1:2008
   style: v3
-- id: iec.corrigendum.9824
+- id: iec.corrigendum.9828
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2966,7 +2980,7 @@
     human: ISO/IEC 14496-5:2001/AMD24:2009/COR1:2012
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:24:2009::cor:1:2012
   style: v3
-- id: iec.corrigendum.9825
+- id: iec.corrigendum.9829
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -2993,7 +3007,7 @@
     human: ISO/IEC 14496-5:2001/AMD24:2009/COR2:2013
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:24:2009::cor:2:2013
   style: v3
-- id: iec.corrigendum.9826
+- id: iec.corrigendum.9830
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3020,7 +3034,7 @@
     human: ISO/IEC 14496-5:2001/AMD24:2009/COR3:2017
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:24:2009::cor:3:2017
   style: v3
-- id: iec.corrigendum.9830
+- id: iec.corrigendum.9834
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3047,7 +3061,7 @@
     human: ISO/IEC 14496-5:2001/AMD27:2011/COR1:2015
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:27:2011::cor:1:2015
   style: v3
-- id: iec.corrigendum.9850
+- id: iec.corrigendum.9854
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3074,7 +3088,7 @@
     human: ISO/IEC 14496-5:2001/AMD5:2004/COR1:2011
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:5:2004::cor:1:2011
   style: v3
-- id: iec.corrigendum.9852
+- id: iec.corrigendum.9856
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3101,7 +3115,7 @@
     human: ISO/IEC 14496-5:2001/AMD6:2005/COR1:2006
     urn: urn:iec:std:iso-iec:14496-5:2001:::::amd:6:2005::cor:1:2006
   style: v3
-- id: iec.corrigendum.9953
+- id: iec.corrigendum.9957
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3121,7 +3135,7 @@
     human: ISO/IEC 15444-9:2005/COR1:2007
     urn: urn:iec:std:iso-iec:15444-9:2005:::::cor:1:2007
   style: v3
-- id: iec.corrigendum.9954
+- id: iec.corrigendum.9958
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3141,7 +3155,7 @@
     human: ISO/IEC 15444-9:2005/COR2:2008
     urn: urn:iec:std:iso-iec:15444-9:2005:::::cor:2:2008
   style: v3
-- id: iec.corrigendum.9955
+- id: iec.corrigendum.9959
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3161,7 +3175,7 @@
     human: ISO/IEC 15444-9:2005/COR3:2011
     urn: urn:iec:std:iso-iec:15444-9:2005:::::cor:3:2011
   style: v3
-- id: iec.corrigendum.9988
+- id: iec.corrigendum.9992
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3181,7 +3195,7 @@
     human: ISO/IEC 15938-10:2005/COR1:2007
     urn: urn:iec:std:iso-iec:15938-10:2005:::::cor:1:2007
   style: v3
-- id: iec.corrigendum.9997
+- id: iec.corrigendum.10001
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3208,7 +3222,7 @@
     human: ISO/IEC 15938-1:2002/AMD1:2005/COR1:2005
     urn: urn:iec:std:iso-iec:15938-1:2002:::::amd:1:2005::cor:1:2005
   style: v3
-- id: iec.corrigendum.9999
+- id: iec.corrigendum.10003
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3228,7 +3242,7 @@
     human: ISO/IEC 15938-1:2002/COR1:2004
     urn: urn:iec:std:iso-iec:15938-1:2002:::::cor:1:2004
   style: v3
-- id: iec.corrigendum.10000
+- id: iec.corrigendum.10004
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3248,7 +3262,7 @@
     human: ISO/IEC 15938-1:2002/COR2:2005
     urn: urn:iec:std:iso-iec:15938-1:2002:::::cor:2:2005
   style: v3
-- id: iec.corrigendum.10004
+- id: iec.corrigendum.10008
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3275,7 +3289,7 @@
     human: ISO/IEC 15938-3:2002/AMD1:2004/COR1:2005
     urn: urn:iec:std:iso-iec:15938-3:2002:::::amd:1:2004::cor:1:2005
   style: v3
-- id: iec.corrigendum.10005
+- id: iec.corrigendum.10009
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3302,7 +3316,7 @@
     human: ISO/IEC 15938-3:2002/AMD1:2004/COR2:2007
     urn: urn:iec:std:iso-iec:15938-3:2002:::::amd:1:2004::cor:2:2007
   style: v3
-- id: iec.corrigendum.10007
+- id: iec.corrigendum.10011
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3329,7 +3343,7 @@
     human: ISO/IEC 15938-3:2002/AMD2:2006/COR1:2007
     urn: urn:iec:std:iso-iec:15938-3:2002:::::amd:2:2006::cor:1:2007
   style: v3
-- id: iec.corrigendum.10010
+- id: iec.corrigendum.10014
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3349,7 +3363,7 @@
     human: ISO/IEC 15938-3:2002/COR1:2004
     urn: urn:iec:std:iso-iec:15938-3:2002:::::cor:1:2004
   style: v3
-- id: iec.corrigendum.10020
+- id: iec.corrigendum.10024
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3369,7 +3383,7 @@
     human: ISO/IEC 15938-5:2003/COR1:2004
     urn: urn:iec:std:iso-iec:15938-5:2003:::::cor:1:2004
   style: v3
-- id: iec.corrigendum.10236
+- id: iec.corrigendum.10240
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3389,7 +3403,7 @@
     human: ISO/IEC 21000-15:2006/COR1:2008
     urn: urn:iec:std:iso-iec:21000-15:2006:::::cor:1:2008
   style: v3
-- id: iec.corrigendum.10257
+- id: iec.corrigendum.10261
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3409,7 +3423,7 @@
     human: ISO/IEC 21000-4:2006/COR1:2012
     urn: urn:iec:std:iso-iec:21000-4:2006:::::cor:1:2012
   style: v3
-- id: iec.corrigendum.10264
+- id: iec.corrigendum.10268
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3429,7 +3443,7 @@
     human: ISO/IEC 21000-6:2004/COR1:2005
     urn: urn:iec:std:iso-iec:21000-6:2004:::::cor:1:2005
   style: v3
-- id: iec.corrigendum.10265
+- id: iec.corrigendum.10269
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3449,7 +3463,7 @@
     human: ISO/IEC 21000-6:2004/COR2:2007
     urn: urn:iec:std:iso-iec:21000-6:2004:::::cor:2:2007
   style: v3
-- id: iec.corrigendum.10268
+- id: iec.corrigendum.10272
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3469,7 +3483,7 @@
     human: ISO/IEC 21000-7:2007/COR1:2008
     urn: urn:iec:std:iso-iec:21000-7:2007:::::cor:1:2008
   style: v3
-- id: iec.corrigendum.10300
+- id: iec.corrigendum.10304
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3489,7 +3503,7 @@
     human: ISO/IEC 23000-10:2012/COR2:2014
     urn: urn:iec:std:iso-iec:23000-10:2012:::::cor:2:2014
   style: v3
-- id: iec.corrigendum.10340
+- id: iec.corrigendum.10344
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3516,7 +3530,7 @@
     human: ISO/IEC 23000-9:2008/AMD1:2010/COR1:2011
     urn: urn:iec:std:iso-iec:23000-9:2008:::::amd:1:2010::cor:1:2011
   style: v3
-- id: iec.corrigendum.10341
+- id: iec.corrigendum.10345
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3543,7 +3557,7 @@
     human: ISO/IEC 23000-9:2008/AMD1:2010/COR2:2012
     urn: urn:iec:std:iso-iec:23000-9:2008:::::amd:1:2010::cor:2:2012
   style: v3
-- id: iec.corrigendum.10343
+- id: iec.corrigendum.10347
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3563,7 +3577,7 @@
     human: ISO/IEC 23000-9:2008/COR1:2008
     urn: urn:iec:std:iso-iec:23000-9:2008:::::cor:1:2008
   style: v3
-- id: iec.corrigendum.10359
+- id: iec.corrigendum.10363
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3583,7 +3597,7 @@
     human: ISO/IEC 23001-1:2006/COR1:2007
     urn: urn:iec:std:iso-iec:23001-1:2006:::::cor:1:2007
   style: v3
-- id: iec.corrigendum.10360
+- id: iec.corrigendum.10364
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3603,7 +3617,7 @@
     human: ISO/IEC 23001-1:2006/COR2:2007
     urn: urn:iec:std:iso-iec:23001-1:2006:::::cor:2:2007
   style: v3
-- id: iec.corrigendum.10378
+- id: iec.corrigendum.10382
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3630,7 +3644,7 @@
     human: ISO/IEC 23002-1:2006/AMD1:2008/COR1:2013
     urn: urn:iec:std:iso-iec:23002-1:2006:::::amd:1:2008::cor:1:2013
   style: v3
-- id: iec.corrigendum.10389
+- id: iec.corrigendum.10393
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3657,7 +3671,7 @@
     human: ISO/IEC 23003-1:2007/AMD1:2008/COR1:2011
     urn: urn:iec:std:iso-iec:23003-1:2007:::::amd:1:2008::cor:1:2011
   style: v3
-- id: iec.corrigendum.10390
+- id: iec.corrigendum.10394
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3684,7 +3698,7 @@
     human: ISO/IEC 23003-1:2007/AMD1:2008/COR2:2012
     urn: urn:iec:std:iso-iec:23003-1:2007:::::amd:1:2008::cor:2:2012
   style: v3
-- id: iec.corrigendum.10391
+- id: iec.corrigendum.10395
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3711,7 +3725,7 @@
     human: ISO/IEC 23003-1:2007/AMD1:2008/COR3:2015
     urn: urn:iec:std:iso-iec:23003-1:2007:::::amd:1:2008::cor:3:2015
   style: v3
-- id: iec.corrigendum.10393
+- id: iec.corrigendum.10397
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3738,7 +3752,7 @@
     human: ISO/IEC 23003-1:2007/AMD2:2008/COR1:2009
     urn: urn:iec:std:iso-iec:23003-1:2007:::::amd:2:2008::cor:1:2009
   style: v3
-- id: iec.corrigendum.10394
+- id: iec.corrigendum.10398
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3765,7 +3779,7 @@
     human: ISO/IEC 23003-1:2007/AMD2:2008/COR2:2011
     urn: urn:iec:std:iso-iec:23003-1:2007:::::amd:2:2008::cor:2:2011
   style: v3
-- id: iec.corrigendum.10395
+- id: iec.corrigendum.10399
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3792,7 +3806,7 @@
     human: ISO/IEC 23003-1:2007/AMD2:2008/COR3:2012
     urn: urn:iec:std:iso-iec:23003-1:2007:::::amd:2:2008::cor:3:2012
   style: v3
-- id: iec.corrigendum.10396
+- id: iec.corrigendum.10400
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3819,7 +3833,7 @@
     human: ISO/IEC 23003-1:2007/AMD2:2008/COR4:2013
     urn: urn:iec:std:iso-iec:23003-1:2007:::::amd:2:2008::cor:4:2013
   style: v3
-- id: iec.corrigendum.10399
+- id: iec.corrigendum.10403
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3839,7 +3853,7 @@
     human: ISO/IEC 23003-1:2007/COR1:2008
     urn: urn:iec:std:iso-iec:23003-1:2007:::::cor:1:2008
   style: v3
-- id: iec.corrigendum.10400
+- id: iec.corrigendum.10404
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3859,7 +3873,7 @@
     human: ISO/IEC 23003-1:2007/COR2:2009
     urn: urn:iec:std:iso-iec:23003-1:2007:::::cor:2:2009
   style: v3
-- id: iec.corrigendum.10401
+- id: iec.corrigendum.10405
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3879,7 +3893,7 @@
     human: ISO/IEC 23003-1:2007/COR3:2010
     urn: urn:iec:std:iso-iec:23003-1:2007:::::cor:3:2010
   style: v3
-- id: iec.corrigendum.10402
+- id: iec.corrigendum.10406
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3899,7 +3913,7 @@
     human: ISO/IEC 23003-1:2007/COR4:2012
     urn: urn:iec:std:iso-iec:23003-1:2007:::::cor:4:2012
   style: v3
-- id: iec.corrigendum.10462
+- id: iec.corrigendum.10466
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3926,7 +3940,7 @@
     human: ISO/IEC 23007-1:2010/AMD1:2012/COR1:2012
     urn: urn:iec:std:iso-iec:23007-1:2010:::::amd:1:2012::cor:1:2012
   style: v3
-- id: iec.corrigendum.10463
+- id: iec.corrigendum.10467
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3953,7 +3967,7 @@
     human: ISO/IEC 23007-1:2010/AMD1:2012/COR2:2014
     urn: urn:iec:std:iso-iec:23007-1:2010:::::amd:1:2012::cor:2:2014
   style: v3
-- id: iec.corrigendum.10470
+- id: iec.corrigendum.10474
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3973,7 +3987,7 @@
     human: ISO/IEC 23008-11:2015/COR1:2017
     urn: urn:iec:std:iso-iec:23008-11:2015:::::cor:1:2017
   style: v3
-- id: iec.corrigendum.10473
+- id: iec.corrigendum.10477
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -3993,7 +4007,7 @@
     human: ISO/IEC 23008-12:2017/COR1:2020
     urn: urn:iec:std:iso-iec:23008-12:2017:::::cor:1:2020
   style: v3
-- id: iec.corrigendum.10628
+- id: iec.corrigendum.10632
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -4013,7 +4027,7 @@
     human: ISO/IEC 24800-3:2010/COR1:2012
     urn: urn:iec:std:iso-iec:24800-3:2010:::::cor:1:2012
   style: v3
-- id: iec.corrigendum.11058
+- id: iec.corrigendum.11062
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
@@ -4033,7 +4047,7 @@
     human: ISO/IEC TR 11172-5:1998/COR1:2007
     urn: urn:iec:std:iso-iec:11172-5:1998:tr::::cor:1:2007
   style: v3
-- id: iec.corrigendum.11159
+- id: iec.corrigendum.11163
   identifier:
     _type: pubid:iec:corrigendum
     publisher: ISO
