@@ -8,11 +8,12 @@ generator:
   exporter_sha256: c796669236b762f52bb8e2e8463a4f825f84e84d2231c3734637f1cbaabe6400
 oracle:
   gem: pubid
-  commit: 112e0c442249f4b347b82d1fd83a3c0cec4c128c
+  commit: 64ee6626cb0f0474b81abef06bea8f08517166a6
   clean: true
   dirty_paths: []
+  parsanol_version: "~> 1.3.122"
   grammar:
-    commit: b5f139972f833eb2f11812a4cd7b8df8ac0f1475
+    commit: c4b15212077f245cf4c23d9eb107e67a70473046
     artifact_sha256:
       adobe: a667f0f15864ff7a1195007fa172bc4954fce20d62048d0ebaad3c7a4735a702
       aiee: bf4cb5f254c4e94de824ac80c5295a07b5daa096780ca89d0d44e14a6f75a0b1
@@ -28,7 +29,7 @@ oracle:
       calconnect_pfs: 1af8bffc54cf896287b37ef591fb67eae905a4840b0994af5c8d6a0edd87534d
       ccsds: 8ee7278d88d36bcee4ee3c6a4dfa16f84269e2a8f635164cbd518a8b7235e594
       cen_cenelec: 3db98de5f94e1c977eb81ab0eed081a019fd7eb080609e3625920d10c5dc7a5b
-      cen_pfs: 4d05dabc1ee65dff66b7bcbcf95ffddacb62ab2187b2722d55c84691497bd27b
+      cen_pfs: 21c808c44488f50f4a9edc7c1bdd3d06913bdd597c4df3be0c9d5c4f8347de83
       cie: bbcfaab9c2cbc55bdb23bfd7d7b5bcc1b8ad027ecdf0696aed6d7c4a4a7ee6ab
       csa: 40a4283112bbec8ca089e0c6ebbab49196200307779c0ef0a9cb10af20fdc8fd
       doi: fab7d55711531e2af2e131d561a03b2d1d244ef498eddf44ae386cb9ecd4bc15
@@ -36,7 +37,7 @@ oracle:
       easc: 165dd59a1bd937aa27def25b4e2d25dc61625afe779527b2d3bf4c90bc59a85a
       ecma: 1472af93940dd3f7947463d998e06a3c3e0f8cce8b928bb15f31f99a77631d59
       etsi: a1fbdf18afe22f4c33083865ad7cc787be3bdf84fb05af51afed5e967e883f6c
-      etsi_pfs: a858b236a0982fbe971a39743484fc73b20ec5e1b839495960ac365f8eab5dff
+      etsi_pfs: 367f34e7c4f71bac7609c79aa08197f836b1428aaac6d4dc0013c51948c047b1
       evs: ca95e554fe7eb8999ec7fc401c3f69f2fc3323c9039fadaf85b22452d8495d8e
       gb: 39ab9a3fa3b9e45ce1a6d5656aa090befb00e02853c48759505ad98677767b06
       gost: f6b71f0d410f4de8f48e290c400b290743bc0ec257098c40cebbe65062f0627d
@@ -46,13 +47,13 @@ oracle:
       iec: a39cdaf099aa300f106a448127fa1d540f212b804f1cff7d46622305ea1f8d8e
       ieee: 8bffc505c52e871552d78dfc051db7c8107f9f06caef439e223540d2360721d1
       ietf: f438683d51a9415a6374757f19db37bc1b2952082a3426946b8983cc5f97de3d
-      iho: e9846db728001679c67bb1fdadbbd9693e8ab9c3d3b0695bfb8f5bb548a99914
+      iho: f1a1dab305922999ffef94cff2d735c6bcb9c9cc385e37c64d53949ac345dc09
       ire: 3595b89a130283a5074c7354f2091f7ce3cfe9894e8b4d2ddc989bd24e31714e
       isbn: 44637498e528d6a2fe9e940504e21732b08b6fbc0bbc2a707044a18c8dcd5376
-      iso: fc2c6912346707b85229f8365a34ef0544a04df95e636278bf012d51d229295b
+      iso: 001005cfcf458bace5ff1b3d56c97ecc5d9e6c476ca6e11ecf7ba9e7302d6e7d
       itu: 9bd6ea1f54a71ed352c81154bf87528614252d5126981aa07ca92d2468644a66
       jcgm: 47df9dac3c55cfcc5070f014d314853aee0ee44db7736df04dda8c98b216db07
-      jis: a5ee5d30fe49effd446bc22037601470a72260cbe1cd198af6195f7a8f613b43
+      jis: 7d4c8c613ba1b05739673f2aa18d335e132c44fbb24c9c1afc105c867b5088a0
       nesc: 6b1473f24465cfc50e00f136f941fa3eb979ba7bb3e6044153252c91423f0784
       nist: eb746510a36a443c43b42eb9698e560f886e70a43f3d8611530abaa8e2bb3c03
       oasis: 2726dc5dbccf479cb43b2c0f55cb15be9928296e23314aa1454a17537c6951b5
@@ -67,32 +68,24 @@ oracle:
       w3c: 3e03a9cfc981cc620fc0a8611567d97bbcb05615c439d81c6af453b4afe98aa4
       xsf: bc38648695a4aef4f2bb33c8867c1b4072c1954d8714abe9abf19fa7ab288091
 repository:
-  commit: ece339a3f7f34db17fe20b69b25dcc3616ae910d
+  commit: 5dedf7b4a6c3f434956de5b910ed088f34383280
   clean: false
   dirty_paths:
-  - reference-docs/itu/identifiers/pass/special_publication.txt
-  - tests/itu/addendum.yaml
-  - tests/itu/amendment.yaml
-  - tests/itu/annex_of_recommendation.yaml
-  - tests/itu/appendix_of_recommendation.yaml
-  - tests/itu/combined_identifier.yaml
-  - tests/itu/corrigendum.yaml
-  - tests/itu/errata.yaml
-  - tests/itu/handbook.yaml
-  - tests/itu/question.yaml
-  - tests/itu/radio_regulations.yaml
-  - tests/itu/recommendation.yaml
-  - tests/itu/report.yaml
-  - tests/itu/special_publication.yaml
-  - tests/itu/supplement.yaml
-  - tests/itu/_normalization.yaml
+  - reference-docs/iec/SUMMARY.txt
+  - reference-docs/iec/identifiers/pass/amendment.txt
+  - reference-docs/iec/identifiers/pass/corrigendum.txt
+  - reference-docs/iec/identifiers/pass/interpretation_sheet.txt
+  - tests/iec/_normalization.yaml
+  - tests/iec/amendment.yaml
+  - tests/iec/corrigendum.yaml
+  - tests/iec/interpretation_sheet.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 43
   payloads: 355
   cases: 99775
-  aliases: 11820
+  aliases: 11812
   negatives: 704
 payloads:
 - path: amca/_debt.yaml
@@ -564,14 +557,14 @@ payloads:
   sha256: 408bdde963e2527a294542344c094dbc2b5ec8f6a1588240d9ecd4d36a1c784a
   bytes: 16025
 - path: iec/_normalization.yaml
-  sha256: 6570e09fcbcb483490e98f551c91a5609deac1546bfeb60b8f838d3bd4076e6a
-  bytes: 3391
+  sha256: 5f6605cb798ea9ced421250403386d4563703a2501355d514bc0d87f6f603c68
+  bytes: 2928
 - path: iec/amendment.yaml
-  sha256: a66dcab89895079918fb16feb5d23e06c59236702d7ecbe46b07b070c7d75f1a
-  bytes: 265291
+  sha256: 7082fe79537b7acc6bb14fc6bfa568387aa20907fe4f53a1965d4a0cb7076281
+  bytes: 264981
 - path: iec/corrigendum.yaml
-  sha256: bec792a773e835b7fcf5aa3d68af6bc41018481e0aae1c6ada8f91c7c087bf0a
-  bytes: 96925
+  sha256: facbcb87bd271dbbab1bf9adde138c0c47dd1dba0cd4293d4303ab7ce319b841
+  bytes: 96882
 - path: iec/fragment_identifier.yaml
   sha256: 0af8f2a2671ea90799df8e77b48095d28b0ca814b8a26cf8289e36e04facc71b
   bytes: 6002
@@ -582,8 +575,8 @@ payloads:
   sha256: a30b59266542f03f1205a85025b11e21d2a4995d1224daf49f5b9574a7e3ff69
   bytes: 719225
 - path: iec/interpretation_sheet.yaml
-  sha256: 52644cd58826aacdb653ca60a519b730ea5185d765c1afd1ab3922dbbc263ecb
-  bytes: 47492
+  sha256: d6f7b9fb06d3f4d847e69cf04683923bfe68b75391b9c6e4f802b3bedf1459e5
+  bytes: 47450
 - path: iec/operational_document.yaml
   sha256: 998f57bcf5e9f93487cc87cf421397d34fb047834d41fd42a070fcec40af6c40
   bytes: 1165
