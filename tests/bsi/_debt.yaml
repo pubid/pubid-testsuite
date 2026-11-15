@@ -101,24 +101,24 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '' '', ''-'', '':'', ''+'', ''/''] at line 1 char
-    7.'
+    expected one of [[\x30-\x39], '' '', ''-'', '' AMD'', '':'', ''+'', ''/'', ''
+    V'', '' ED''] at line 1 char 7.'
 - id: bsi.debt.1f3db48ef42f
   input: BS HD 629.2 S3:2024
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '' '', ''-'', '':'', ''+'', ''/''] at line 1 char
-    7.'
+    expected one of [[\x30-\x39], '' '', ''-'', '' AMD'', '':'', ''+'', ''/'', ''
+    V'', '' ED''] at line 1 char 7.'
 - id: bsi.debt.006441a747bc
   input: BS HD 629.3 S1:2024
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], '' '', ''-'', '':'', ''+'', ''/''] at line 1 char
-    7.'
+    expected one of [[\x30-\x39], '' '', ''-'', '' AMD'', '':'', ''+'', ''/'', ''
+    V'', '' ED''] at line 1 char 7.'
 - id: bsi.debt.68f9b3664351
   input: BS EN 2591-B2:1994
   expect:
@@ -139,21 +139,21 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], ''AMD'', ''V'', ''ED''] at line 1 char 10.'
+    expected one of [[\x30-\x39]] at line 1 char 10.'
 - id: bsi.debt.1add2740c74d
   input: BS EN 55011 Fragments 2, 6-7
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], ''AMD'', ''V'', ''ED''] at line 1 char 10.'
+    expected one of [[\x30-\x39]] at line 1 char 10.'
 - id: bsi.debt.2fbcc3111ff9
   input: BS EN 55011 Fragments 4-5
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [[\x30-\x39], ''AMD'', ''V'', ''ED''] at line 1 char 10.'
+    expected one of [[\x30-\x39]] at line 1 char 10.'
 - id: bsi.debt.ed8b5289fcb1
   input: BS EN 60601-1/FRAG10 ED4
   expect:
@@ -169,7 +169,7 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of ['':'', ''-'', ''‑'', ''‐'', ''CSV'', ''CMV'', ''RLV'', ''SER'',
     ''EXV'', ''PAC'', ''PRV'', ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'',
-    '' '', ''('', ''(all parts)''] at line 1 char 11.'
+    ''('', '' '', ''(all parts)''] at line 1 char 11.'
 - id: bsi.debt.0f29eaef57a3
   input: BS EN IEC 55011. Fragment 6
   expect:
@@ -213,7 +213,8 @@
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''AMD'', ''V'', ''ED''] at line 1 char 15.'
+    expected one of [[\x30-\x39], ''-'', '' AMD'', '':'', ''+'', ''/'', '' V'', ''
+    ED''] at line 1 char 14.'
 - id: bsi.debt.f54a483948b4
   input: BS 2SP 68 to BS 2SP 71:1973+A3:2015
   expect:
@@ -429,7 +430,7 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [[\x30-\x39], ''ISO'', ''IEC'', ''CISPR'', ''Guide'', ''GUIDE'',
-    ''TR'', ''TS'', ''ED''] at line 1 char 4.'
+    ''TR'', ''TS''] at line 1 char 4.'
 - id: bsi.debt.5999a9093303
   input: PD IEC WT 01:2001
   expect:
@@ -438,7 +439,7 @@
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of ['':'', ''-'', ''‑'', ''‐'', ''CSV'', ''CMV'', ''RLV'', ''SER'',
     ''EXV'', ''PAC'', ''PRV'', ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'',
-    '' '', ''('', ''(all parts)''] at line 1 char 8.'
+    ''('', '' '', ''(all parts)''] at line 1 char 8.'
 - id: bsi.debt.934c0396270e
   input: PD ISO/IEC TS 18013-6:2025 - TC
   expect:
@@ -446,42 +447,43 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
-    ''(all parts)''] at line 1 char 25.'
+    ''(all parts)'', ''FDAmd'', ''FPDAM'', ''DAmd'', ''FDAM'', ''PDAM'', ''DAM'']
+    at line 1 char 25.'
 - id: bsi.debt.5e4baca88443
   input: BS EN 13557:2024 - TC
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''ED''] at line 1 char 15.'
+    expected one of [''+'', ''/'', '' ED''] at line 1 char 14.'
 - id: bsi.debt.3612ad58c4cf
   input: BS EN 14983:2024 - TC
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''ED''] at line 1 char 15.'
+    expected one of [''+'', ''/'', '' ED''] at line 1 char 14.'
 - id: bsi.debt.3f2187d323c5
   input: BS EN 1570-1:2024 - TC
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''ED''] at line 1 char 16.'
+    expected one of [''+'', ''/'', '' ED''] at line 1 char 15.'
 - id: bsi.debt.63dc82801e8c
   input: BS EN 16307-5:2023 - TC
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''ED''] at line 1 char 17.'
+    expected one of [''+'', ''/'', '' ED''] at line 1 char 16.'
 - id: bsi.debt.60347a66a776
   input: BS EN 50655-1:2023 - TC
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''ED''] at line 1 char 17.'
+    expected one of [''+'', ''/'', '' ED''] at line 1 char 16.'
 - id: bsi.debt.fdaf972d7011
   input: BS EN IEC 61300-2-1:2023 - TC
   expect:
@@ -489,7 +491,7 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''CSV'', ''CMV'', ''RLV'', ''SER'', ''EXV'', ''PAC'', ''PRV'',
-    ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''('', ''(all parts)'']
+    ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', ''('', '' '', ''(all parts)'']
     at line 1 char 20.'
 - id: bsi.debt.78fd001ddc2a
   input: BS EN IEC 61300-2-18:2023 - TC
@@ -498,7 +500,7 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''CSV'', ''CMV'', ''RLV'', ''SER'', ''EXV'', ''PAC'', ''PRV'',
-    ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''('', ''(all parts)'']
+    ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', ''('', '' '', ''(all parts)'']
     at line 1 char 21.'
 - id: bsi.debt.3e13167b1eb6
   input: BS EN IEC 61753-021-02:2023 - TC
@@ -507,7 +509,7 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''CSV'', ''CMV'', ''RLV'', ''SER'', ''EXV'', ''PAC'', ''PRV'',
-    ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''('', ''(all parts)'']
+    ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', ''('', '' '', ''(all parts)'']
     at line 1 char 23.'
 - id: bsi.debt.a9abea94f754
   input: BS EN IEC 61753-021-06:2023 - TC
@@ -516,7 +518,7 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''CSV'', ''CMV'', ''RLV'', ''SER'', ''EXV'', ''PAC'', ''PRV'',
-    ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''('', ''(all parts)'']
+    ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', ''('', '' '', ''(all parts)'']
     at line 1 char 23.'
 - id: bsi.debt.31b852e5766e
   input: BS EN ISO 10592:2022 - TC
@@ -525,7 +527,8 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
-    ''(all parts)''] at line 1 char 16.'
+    ''(all parts)'', ''FDAmd'', ''FPDAM'', ''DAmd'', ''FDAM'', ''PDAM'', ''DAM'']
+    at line 1 char 16.'
 - id: bsi.debt.338ce1c9cd03
   input: BS EN ISO 13704:2022 - TC
   expect:
@@ -533,7 +536,8 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
-    ''(all parts)''] at line 1 char 16.'
+    ''(all parts)'', ''FDAmd'', ''FPDAM'', ''DAmd'', ''FDAM'', ''PDAM'', ''DAM'']
+    at line 1 char 16.'
 - id: bsi.debt.e431b148925e
   input: BS EN ISO 14723:2025 - TC
   expect:
@@ -541,7 +545,8 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
-    ''(all parts)''] at line 1 char 16.'
+    ''(all parts)'', ''FDAmd'', ''FPDAM'', ''DAmd'', ''FDAM'', ''PDAM'', ''DAM'']
+    at line 1 char 16.'
 - id: bsi.debt.d93523371539
   input: BS EN ISO 15527:2018 - TC
   expect:
@@ -549,7 +554,8 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
-    ''(all parts)''] at line 1 char 16.'
+    ''(all parts)'', ''FDAmd'', ''FPDAM'', ''DAmd'', ''FDAM'', ''PDAM'', ''DAM'']
+    at line 1 char 16.'
 - id: bsi.debt.2efd035a58b3
   input: BS EN ISO 15527:2022 - TC
   expect:
@@ -557,7 +563,8 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
-    ''(all parts)''] at line 1 char 16.'
+    ''(all parts)'', ''FDAmd'', ''FPDAM'', ''DAmd'', ''FDAM'', ''PDAM'', ''DAM'']
+    at line 1 char 16.'
 - id: bsi.debt.58fd8383c266
   input: BS EN ISO 25457:2023 - TC
   expect:
@@ -565,7 +572,8 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
-    ''(all parts)''] at line 1 char 16.'
+    ''(all parts)'', ''FDAmd'', ''FPDAM'', ''DAmd'', ''FDAM'', ''PDAM'', ''DAM'']
+    at line 1 char 16.'
 - id: bsi.debt.3e987a01d8ea
   input: BS EN ISO/IEEE 11073-10103:2025 - TC
   expect:
@@ -573,21 +581,22 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
-    ''(all parts)''] at line 1 char 27.'
+    ''(all parts)'', ''FDAmd'', ''FPDAM'', ''DAmd'', ''FDAM'', ''PDAM'', ''DAM'']
+    at line 1 char 27.'
 - id: bsi.debt.dd91be3e3604
   input: BS HD 60364-8-1:2019 - TC
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''ED''] at line 1 char 19.'
+    expected one of [''+'', ''/'', '' ED''] at line 1 char 18.'
 - id: bsi.debt.aebe2bb90628
   input: BS HD 60364-8-2:2011+A11:2019 - TC
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''+'', ''/'', '' ''] at line 1 char 18.'
+    expected one of [''+'', ''/'', '' ED''] at line 1 char 18.'
 - id: bsi.debt.331adbb3fd7c
   input: BS IEC/IEEE 62582-1:2024 - TC
   expect:
@@ -595,7 +604,7 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''CSV'', ''CMV'', ''RLV'', ''SER'', ''EXV'', ''PAC'', ''PRV'',
-    ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''('', ''(all parts)'']
+    ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', ''('', '' '', ''(all parts)'']
     at line 1 char 23.'
 - id: bsi.debt.6d5b7712d0a6
   input: BS ISO 15179 - TC
@@ -604,7 +613,8 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
-    ''(all parts)''] at line 1 char 13.'
+    ''(all parts)'', ''FDAmd'', ''FPDAM'', ''DAmd'', ''FDAM'', ''PDAM'', ''DAM'']
+    at line 1 char 13.'
 - id: bsi.debt.7fda1e158159
   input: BS SP 18 and 19:2025 - TC
   expect:
@@ -620,14 +630,15 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
-    ''(all parts)''] at line 1 char 19.'
+    ''(all parts)'', ''FDAmd'', ''FPDAM'', ''DAmd'', ''FDAM'', ''PDAM'', ''DAM'']
+    at line 1 char 19.'
 - id: bsi.debt.ba59e3b77f7b
   input: PD CLC/TS 50136-9:2017 - TC
   expect:
     error:
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
-    expected one of [''ED''] at line 1 char 21.'
+    expected one of [''+'', ''/'', '' ED''] at line 1 char 20.'
 - id: bsi.debt.ba2ccdd3df04
   input: PD IEC GUIDE 115:2023 - TC
   expect:
@@ -635,7 +646,7 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''CSV'', ''CMV'', ''RLV'', ''SER'', ''EXV'', ''PAC'', ''PRV'',
-    ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''('', ''(all parts)'']
+    ''DB'', ''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', ''('', '' '', ''(all parts)'']
     at line 1 char 20.'
 - id: bsi.debt.ac9c01354114
   input: PD ISO 22000:2018 Handbook
@@ -644,7 +655,8 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
-    ''(all parts)''] at line 1 char 16.'
+    ''(all parts)'', ''FDAmd'', ''FPDAM'', ''DAmd'', ''FDAM'', ''PDAM'', ''DAM'']
+    at line 1 char 16.'
 - id: bsi.debt.d00c12029554
   input: PD ISO 45001:2018 Handbook
   expect:
@@ -652,7 +664,8 @@
       code: unclassified
   notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
     expected one of [''Edition'', ''Ed.'', ''ED'', ''Ed'', ''/'', '' '', ''|'', ''('',
-    ''(all parts)''] at line 1 char 16.'
+    ''(all parts)'', ''FDAmd'', ''FPDAM'', ''DAmd'', ''FDAM'', ''PDAM'', ''DAM'']
+    at line 1 char 16.'
 - id: bsi.debt.28209af71d4d
   input: PP 7722:2006 CD & BOOK
   expect:
