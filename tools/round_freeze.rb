@@ -177,6 +177,45 @@ module RoundFreeze
           "(fetch it, or pass a full sha)"
   end
 
+  SHA_RE = /\A[0-9a-f]{40,64}\z/i
+
+  # Resolves `ref` against the SOURCE repo's upstream knowledge, not
+  # against whatever branch a checkout has parked on: a work checkout's
+  # local main lags upstream, and `ls-remote` against a local PATH reads
+  # exactly those parked branches - the stale-sibling trap again. The
+  # precedence:
+  #   1. origin/<b> on a local source -> its refs/remotes/origin/<b>
+  #      (after a refresh fetch, which moves remote-tracking refs only -
+  #      never branches or the working tree),
+  #   2. the source's own refs/heads/<b> / refs/tags/<ref> (authoritative
+  #      when the source IS the remote: a bare repo or a URL),
+  #   3. nil - the caller falls back to the clone's own refs (which
+  #     resolves shas and already-local tags).
+  def resolve_in_source(source, ref)
+    return nil if source.nil? || source.empty?
+    branch = ref.delete_prefix("origin/")
+
+    if File.directory?(source)
+      if ref.start_with?("origin/")
+        git(source, "fetch", "--quiet", "--prune", "origin")
+        sha, ok = git(source, "rev-parse", "--verify", "--quiet",
+                      "refs/remotes/#{ref}^{commit}")
+        return sha if ok && !sha.empty?
+      end
+      sha, ok = git(source, "rev-parse", "--verify", "--quiet",
+                    "#{ref}^{commit}")
+      return sha if ok && !sha.empty?
+    end
+
+    out, _ = Open3.capture2e("git", "ls-remote", source,
+                             "refs/heads/#{branch}", "refs/tags/#{ref}")
+    entries = out.lines.filter_map do |l|
+      sha, name = l.strip.split("\t")
+      [name, sha] if sha && name
+    end.to_h
+    entries["refs/heads/#{branch}"] || entries["refs/tags/#{ref}"]
+  end
+
   # Assembles (or re-pins) a dedicated clone at `dest`. An existing
   # directory without the marker is a real checkout - refused, never
   # touched. With lenient: true (the grammar pin), any assembly failure
@@ -192,8 +231,6 @@ module RoundFreeze
               "checkout. Run the round from a dedicated clone, or pass " \
               "ROUND_#{kind.upcase}_DIR=<clean tree at the ref>."
       end
-      # Refresh origin refs; a dead origin is survivable if the wanted
-      # ref is already local.
       git(dest, "fetch", "--prune", "origin")
     else
       if source.nil? || source.empty?
@@ -210,7 +247,17 @@ module RoundFreeze
       end
     end
     begin
-      sha = resolve_ref!(dest, ref)
+      # Prefer the SOURCE's refs (see resolve_in_source) - the clone's
+      # own origin/* mirrors the source's parked local branches. With no
+      # explicit source, the clone's origin URL is the source.
+      src = source && !source.empty? ? source : nil
+      if src.nil? && Dir.exist?(dest)
+        url, ok = git(dest, "remote", "get-url", "origin")
+        src = url if ok && !url.empty?
+      end
+      sha = src && ref !~ SHA_RE ? resolve_in_source(src, ref) : nil
+      sha ||= ref =~ SHA_RE ? ref : nil
+      sha ||= resolve_ref!(dest, ref)
       git!(dest, "checkout", "--quiet", "--detach", sha)
     rescue SystemExit
       return lenient_failure(kind, dest, "#{ref.inspect} unresolvable there") if lenient
@@ -233,7 +280,13 @@ module RoundFreeze
     abort "ROUND ABORT: #{env_name}=#{dir} is not a directory" unless Dir.exist?(dir)
     abort "ROUND ABORT: #{env_name}=#{dir} is not a git tree" unless Dir.exist?(File.join(dir, ".git"))
     refuse_dirty_tree!("#{env_name}=#{dir}", dir)
-    sha = resolve_ref!(dir, ref)
+    origin, ok = git(dir, "remote", "get-url", "origin")
+    sha = if ref =~ SHA_RE
+            ref
+          else
+            (ok && !origin.empty? ? resolve_in_source(origin, ref) : nil) ||
+              resolve_ref!(dir, ref)
+          end
     head = git!(dir, "rev-parse", "HEAD")
     return sha if head == sha
 
@@ -261,7 +314,9 @@ module RoundFreeze
   # exporter does (unshift the assembled sibling lib first) and prove
   # WHICH lib and version answered.
   def probe_gem!(gem_dir)
-    script = <<~RUBY
+    # Single-quoted heredoc: the #{...} forms are evaluated by the CHILD
+    # ruby, not here.
+    script = <<~'RUBY'
       $LOAD_PATH.unshift(File.expand_path("lib", Dir.pwd))
       require "pubid"
       loaded = $LOADED_FEATURES.grep(%r{/pubid\.rb\z}).first
