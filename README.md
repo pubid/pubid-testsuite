@@ -54,6 +54,26 @@ The corpus validates itself without the pubid gem:
 CI (`.github/workflows/validate.yml`) runs both on every push/PR.
 Status: VALIDATION PASS 43/43 flavors; SCHEMA VALIDATION PASS (99,709 documents).
 
+### One-command corpus round
+
+`tools/round_freeze.rb` runs the whole round choreography for one flavor
+against a pinned gem ref (default origin/main) - the lockstep sequence
+(pair assembly, corpus:regen, rawCopy mirror, single-document negative
+ledger, README marker bump, gates, provenance LAST) that was previously
+hand-run per wave:
+
+    rake 'round:freeze[iec,origin/main]'   # full round (write mode)
+    rake 'round:freeze[iec,--check]'       # gates only; writes nothing
+    rake 'round:check[iec]'                # same as --check
+
+The gem is assembled into a dedicated `.round-freeze` clone at
+`../pubid` (never the real sibling checkout) and probe-verified
+in-process for which lib + `Pubid::VERSION` loads; dirty trees are
+refused on both sides. The summary block the round PR body can quote
+prints at the end; `ROUND_COMMIT=1` commits the round's explicit paths
+(`tests/<flavor>`, `reference-docs/<flavor>`, `README.md`,
+`tests/provenance.yaml` - never a sweep).
+
 ## Consumers
 
 The pubid gem consumes this corpus as its conformance suite:
