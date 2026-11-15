@@ -484,7 +484,9 @@ module RoundFreeze
     opts
   end
 
-  def run(argv)
+  # Entry point (named main - `run` is the shell helper above; a same-
+  # named later definition would shadow it inside every module method).
+  def main(argv)
     flavor = argv.shift
     if flavor.nil? || flavor.start_with?("-") || flavor !~ /\A[a-z0-9_]+\z/
       abort "ROUND ABORT: flavor must look like a flavor id " \
@@ -640,4 +642,4 @@ module RoundFreeze
   end
 end
 
-RoundFreeze.run(ARGV) if $PROGRAM_NAME == __FILE__
+RoundFreeze.main(ARGV) if $PROGRAM_NAME == __FILE__
