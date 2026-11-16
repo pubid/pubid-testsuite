@@ -1,0 +1,86 @@
+---
+- id: iso.tc_document.7085
+  identifier:
+    _type: pubid:iso:tc-document
+    number: '456'
+    tc_type: JTC
+    tc_number: '1'
+  representations:
+    human: ISO/JTC 1 N 456
+    urn: urn:iso:doc:iso:tc:1:456
+  style: v3
+- id: iso.tc_document.7215
+  identifier:
+    _type: pubid:iso:tc-document
+    number: '100'
+    tc_type: TC
+    tc_number: '184'
+  representations:
+    human: ISO/TC 184 N 100
+    urn: urn:iso:doc:iso:tc:184:100
+  style: v3
+- id: iso.tc_document.7216
+  identifier:
+    _type: pubid:iso:tc-document
+    number: '100'
+    year: '2024'
+    tc_type: TC
+    tc_number: '184'
+  representations:
+    human: ISO/TC 184 N 100:2024
+    urn: urn:iso:doc:iso:tc:184:100
+  style: v3
+- id: iso.tc_document.7217
+  identifier:
+    _type: pubid:iso:tc-document
+    number: '789'
+    tc_type: TC
+    tc_number: '184'
+    sc_type: SC
+    sc_number: '4'
+  representations:
+    human: ISO/TC 184/SC 4 N 789
+    urn: urn:iso:doc:iso:tc:184:sc-4:789
+  style: v3
+- id: iso.tc_document.7218
+  identifier:
+    _type: pubid:iso:tc-document
+    number: '123'
+    tc_type: TC
+    tc_number: '184'
+    sc_type: SC
+    sc_number: '4'
+    wg_type: WG
+    wg_number: '3'
+  representations:
+    human: ISO/TC 184/SC 4/WG 3 N 123
+    urn: urn:iso:doc:iso:tc:184:sc-4:wg-3:123
+  style: v3
+- id: iso.tc_document.7219
+  identifier:
+    _type: pubid:iso:tc-document
+    number: '246'
+    tc_type: TC
+    tc_number: '184'
+    sc_type: SC/QC
+    sc_number: '4'
+  representations:
+    human: ISO/TC 184/SC/QC 4 N 246
+    urn: urn:iso:doc:iso:tc:184:sc-4:246
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO/TC 184/SC/QC 4 N246
+    style: v3
+- id: iso.tc_document.7220
+  identifier:
+    _type: pubid:iso:tc-document
+    number: '3064'
+    tc_type: TC
+    tc_number: '46'
+  representations:
+    human: ISO/TC 46 N 3064
+    urn: urn:iso:doc:iso:tc:46:3064
+  style: v3
+  non_normalized_aliases:
+  - spelling: ISO TC 46 N 3064
+    style: v3
