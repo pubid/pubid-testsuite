@@ -37,28 +37,37 @@
 #      trees), a protected branch (or a detached HEAD), and a dirty gem
 #      tree; assemble + pin the gem clone at the ref (default
 #      origin/main); probe IN-PROCESS which lib + Pubid::VERSION loads.
+#      A BRAND-NEW flavor (no tests/<flavor> nor reference-docs/<flavor>
+#      yet) is accepted when the pinned gem ships spec/fixtures/<flavor>
+#      - the round is what creates the testsuite twins.
 #   2. corpus:check FLAVOR - pre-round drift, informational (the round
-#      is what resolves drift; a red pre-check is reported, not fatal).
-#   3. corpus:regen FLAVOR=<flavor> - the exporter stages and swaps; the
+#      is what resolves drift; a red pre-check is reported, not fatal;
+#      vacuous-IDENTICAL for a brand-new flavor, whose twin lands next).
+#   3. Mirror the gem's spec/fixtures/<flavor> into reference-docs/<flavor>
+#      byte-identical (diff -r verified; the rawCopy twin). The twin is
+#      the exporter's INPUT, so it precedes the regen.
+#   4. corpus:regen FLAVOR=<flavor> - the exporter stages and swaps; the
 #      interim provenance run inside this task is superseded by the LAST
 #      run below.
-#   4. Mirror the gem's spec/fixtures/<flavor> into reference-docs/<flavor>
-#      byte-identical (diff -r verified; the rawCopy twin).
-#   5. Rewrite tests/<flavor>/_negative.yaml as ONE yaml document (a
+#   5. Bootstrap tests/<flavor>/_status.yaml for a brand-new flavor (the
+#      clean ledger; the gates prove the claim). An existing ledger is
+#      curated state and is never touched.
+#   6. Rewrite tests/<flavor>/_negative.yaml as ONE yaml document (a
 #      list): per-entry documents read back as empty and leave
 #      missF>0 - ledger + fail fixtures + gem twin stay in lockstep.
-#   6. rake provenance - after the last payload rewrite (the
+#   7. rake provenance - after the last payload rewrite (the
 #      TAMPERED-PAYLOAD hazard: any file rewrite invalidates hashes).
-#   7. Bump the README counts markers from the fresh manifest (the
+#   8. Bump the README counts markers from the fresh manifest (the
 #      schema gate errors name exact numbers when wrong; this computes
 #      them from the actual row delta instead).
-#   8. rake provenance LAST - after any file rewrite; the repository
+#   9. rake provenance LAST - after any file rewrite; the repository
 #      block records the round's dirty_paths by convention (commit it
 #      with the rows).
-#   9. Gates: rake validate, rake schema, conformance:run (run from the
+#  10. Gates: rake validate, rake schema, conformance:run (run from the
 #      pinned gem against this tree). A red gate fails the round AFTER
-#      the summary prints, so the log always ends quotable.
-#  10. Print a summary block the round PR body can quote. With
+#      the summary prints, so the log always ends quotable - and BEFORE
+#      the commit, so a red round is never committed.
+#  11. Print a summary block the round PR body can quote. With
 #      ROUND_COMMIT=1, stage the round's explicit paths and commit
 #      (a zero-delta round stages nothing and says so).
 #
@@ -154,10 +163,15 @@ module RoundFreeze
 
   # --- preflight ---
 
-  def check_flavor!(flavor)
+  # A flavor is known when the testsuite carries it OR the pinned gem
+  # ships fixtures for it (a BRAND-NEW flavor: the round is what creates
+  # the testsuite's tests/<flavor> + reference-docs/<flavor> twins).
+  def check_flavor!(flavor, gem_dir = nil)
     return if %w[tests reference-docs].any? do |root|
       Dir.exist?(File.join(REPO, root, flavor))
     end
+    return if gem_dir &&
+              Dir.exist?(File.join(gem_dir, "spec", "fixtures", flavor))
 
     known = Dir[File.join(REPO, "reference-docs", "*")]
             .select { |p| File.directory?(p) }.map { |p| File.basename(p) }
@@ -409,6 +423,22 @@ module RoundFreeze
           "#{out.lines.first(10).join}"
   end
 
+  # A brand-new flavor has no curated ledger yet: write the clean one.
+  # The gates that follow prove the zero-mismatch claim. An existing
+  # ledger is curated state - listed, never rewritten.
+  def bootstrap_status!(flavor)
+    path = File.join(REPO, "tests", flavor, "_status.yaml")
+    return "present (curated, untouched)" if File.exist?(path)
+
+    File.write(path, <<~YAML)
+      ---
+      clean: true
+      known_mismatches: 0
+      known_schema_errors: 0
+    YAML
+    "created (clean ledger, brand-new flavor)"
+  end
+
   # The negative ledger must be ONE yaml document (a list). Rewritten
   # per-entry it reads back as its FIRST document only - safe_load_file
   # raises nothing on a multi-document stream, so the remaining entries
@@ -469,17 +499,25 @@ module RoundFreeze
 
   # --- commit (opt-in; explicit paths, staged set verified) ---
 
+  # A dirty/staged path belongs to the round when it IS a round path or
+  # lives under one (a brand-new flavor's dir arrives as `?? tests/eu/`
+  # pre-staging and as per-file `A` entries after).
+  def under_round_path?(path, wanted)
+    wanted.any? { |w| path == w || path.start_with?("#{w}/") }
+  end
+
   def commit_round!(flavor, sha, bumps)
     wanted = round_paths(flavor)
+    dirty = porcelain.map { |l| path_of(l).sub(%r{/+\z}, "") }
     paths = wanted.select do |p|
       File.exist?(File.join(REPO, p)) &&
-        porcelain.any? { |l| path_of(l) == p }
+        dirty.any? { |d| under_round_path?(d, [p]) }
     end
     return "zero-diff: nothing to commit" if paths.empty?
 
     git!(REPO, "add", "--", *paths)
-    staged = porcelain.map { |l| path_of(l) }
-    unexpected = staged - wanted
+    staged = porcelain.map { |l| path_of(l).sub(%r{/+\z}, "") }
+    unexpected = staged.reject { |s| under_round_path?(s, wanted) }
     abort "ROUND ABORT: staged set has entries outside the round's " \
           "paths (#{wanted.join(' ')}): #{unexpected.join(' ')}" if unexpected.any?
     msg = commit_message_file(flavor, sha, bumps)
@@ -557,8 +595,6 @@ module RoundFreeze
     grammar_dir = File.expand_path(ENV["ROUND_GRAMMAR_DIR"] ||
                                    File.expand_path("../pubid-grammar", REPO))
 
-    check_flavor!(flavor)
-
     mode = opts[:check] ? "--check, gates only" : "write mode"
     puts "== round:freeze #{flavor} (#{mode})"
     puts "gem ref:   #{opts[:ref]}   source: " \
@@ -590,6 +626,11 @@ module RoundFreeze
          "parsanol #{parsanol_version(gem_dir)})"
     puts "gem lib:   #{lib} (probe-verified in-process)"
 
+    # The flavor gate runs against the VERIFIED gem tree: a brand-new
+    # flavor has no testsuite dirs yet - the pinned gem's fixtures are
+    # the proof it exists.
+    check_flavor!(flavor, gem_dir)
+
     grammar_sha = nil
     unless opts[:check]
       grammar_sha = assemble_tree!("grammar", opts[:grammar_source],
@@ -613,13 +654,21 @@ module RoundFreeze
       puts "   pre-round corpus:check: " \
            "#{pre_check_ok ? 'IDENTICAL' : 'DRIFT (this round resolves it)'}"
 
+      puts "-- mirror rawCopy twin " \
+           "(gem spec/fixtures/#{flavor} -> reference-docs/#{flavor})"
+      # The twin is the exporter's INPUT (reference-docs/<flavor> is what
+      # corpus:regen consumes), so it lands BEFORE the regen - a
+      # brand-new flavor has no twin yet and would otherwise export an
+      # empty corpus.
+      mirror!(flavor, gem_dir)
+
       puts "-- corpus:regen FLAVOR=#{flavor} (gem #{gem_sha[0, 12]})"
       run!("corpus:regen FLAVOR=#{flavor}", %w[rake corpus:regen],
            env: { "FLAVOR" => flavor, "CORPUS_GEM_DIR" => gem_dir })
 
-      puts "-- mirror rawCopy twin " \
-           "(gem spec/fixtures/#{flavor} -> reference-docs/#{flavor})"
-      mirror!(flavor, gem_dir)
+      puts "-- bootstrap _status.yaml (curated ledger for brand-new flavors)"
+      status_note = bootstrap_status!(flavor)
+      puts "   _status.yaml: #{status_note}"
 
       puts "-- normalize _negative.yaml (single-document ledger)"
       neg_note = normalize_negative!(flavor)
@@ -649,18 +698,25 @@ module RoundFreeze
     post_flavor = flavor_counts(flavor)
 
     # --- commit / write assertion ---
+    # The gate verdict precedes the commit: a red gate fails the round
+    # WITHOUT committing it (the docstring's order - gates are step 9,
+    # the commit step 10).
+    failed = verdicts.reject { |_, ok| ok }
     commit_note =
       if opts[:check]
         after = porcelain
         abort "ROUND ABORT: check mode wrote to the tree:\n  " \
               "#{after.first(10).join("\n  ")}" if after.any?
         "nothing written (tree clean)"
+      elsif failed.any?
+        "NOT committed (red gates: #{failed.keys.join(', ')})"
       elsif ENV["ROUND_COMMIT"] == "1"
         commit_round!(flavor, gem_sha, bumps)
       else
+        dirty = porcelain.map { |l| path_of(l).sub(%r{/+\z}, "") }
         ready = round_paths(flavor).select do |p|
           File.exist?(File.join(REPO, p)) &&
-            porcelain.any? { |l| path_of(l) == p }
+            dirty.any? { |d| under_round_path?(d, [p]) }
         end
         if ready.empty?
           "zero-diff: nothing to commit (ROUND_COMMIT=1 to commit)"
@@ -691,7 +747,6 @@ module RoundFreeze
 
     # A red gate fails the round AFTER the summary, so the log always
     # ends with the quotable block.
-    failed = verdicts.reject { |_, ok| ok }
     warn "ROUND FAILED GATES: #{failed.keys.join(', ')}" unless failed.empty?
     exit(failed.empty? ? 0 : 1)
   end
