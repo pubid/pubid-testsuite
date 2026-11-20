@@ -1,0 +1,50 @@
+---
+- id: eu.debt.a4b1e64a0353
+  input: Regulation (Euratom) No 1493/93
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: EU legal act:
+    93 is not a year'
+- id: eu.debt.59e9796bd587
+  input: EU Regulation 1227
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], ''/''] at line 1 char 19.'
+- id: eu.debt.95160dad4b1f
+  input: EU Regulation 12/34
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: EU legal act:
+    no year in 12/34'
+- id: eu.debt.b888002a4c4f
+  input: Directive 95/46/EC
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: EU legal act:
+    no year in 95/46'
+- id: eu.debt.8c667b698af1
+  input: Regulation (EU) No 1227/2011/EC
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: EU legal act:
+    two families, EU and EC'
+- id: eu.debt.d329d2dc2335
+  input: 30000R0000
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: EU legal act:
+    0000 is not a year'
+- id: eu.debt.8b44168a11be
+  input: http://data.europa.eu/eli/reg_foo/2016/1356/oj
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''/''] at line 1 char 30.'

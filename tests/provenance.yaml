@@ -8,24 +8,25 @@ generator:
   exporter_sha256: c796669236b762f52bb8e2e8463a4f825f84e84d2231c3734637f1cbaabe6400
 oracle:
   gem: pubid
-  commit: 310f528a464c5422db1e82ed73fd9b415227d4a6
+  commit: 5d5fc470862f73f9a8e1780f36a2cc80ebf1f03e
   clean: true
   dirty_paths: []
   parsanol_version: "~> 1.5.0"
   grammar:
-    commit: dcd67cb97d6cdb512ed444584091e4786bb707a5
+    commit: a7e2363f29dfcb6867b92c3736138ed95e6c9aa8
     artifact_sha256:
       adobe: 5ab76c704865b21e88abaadf90139a71c5a6c342e2532262a309c349f6dbd275
       aiee: 22d5a9715050bcb7e0ab270d8c9a12063ef727b62470f22f645f269f857baa14
       amca: 51ec2c39eae0e18e03bafbb4e34084053cfb64edab0a48fc959734b3e0200364
       ansi: e1a6bdd21e45b92976e6737ce3d5bdc6f3115b093e3afa2a13972fae473690b9
       api: 870fb6cfd0d3b567dda4f453864cb57f5fb9ab4a8db85992e80c8ac2720a3acb
+      arxiv: 4141a4489eff22ed82e64c46ab3d7b444fa694c75e53b622c6ee7b428ca20c31
       ashrae: ffda04cd27bba412948c03017335fd88a8484fbce73ab91a051e7756372c2aa8
       asme: 1e81dea03755c1090093fd4a57a8d965aaacd5c44d0f9615151aa0735ccc3fcd
       astm: cfd60fea03d606f98df6be40847a09ca4c5f7d193d2421cec27c563442545311
       bipm: 1d05fe3efc55d796ccb929a0cadafa77679469a3152ab4cd0074d42b99e82f0c
       bsi: 6fb241aab56084de832b7ca97a220811dd5359cdedda58fbd0b1f49d7e8b0048
-      bsi_pfs: 0cbe61d83f4be395794e63b69a9baedcac28820ea1aa95125e5d022b6fc913d7
+      bsi_pfs: f2067fbc82ee8bf704f373eceb564e3d2ba1dc4a8f3f013cf932b55682e360d1
       calconnect: 39dc5ab533aa941e6dd11885c0f6ad2f8eec71ec8312a99ff62bb8315615992e
       calconnect_pfs: 87e7d595d07b8ad2e1e9cee0f7f896b9f6f26d3624d0cf86e72e5fb8887d1965
       ccsds: b378059148e23ec1404e7143245f2cc775b8c6e5173c02b5fa367596a039b55a
@@ -40,6 +41,7 @@ oracle:
       ecma: c00b04261a47f398fcd8596a1610587b39d57b00bc06b49e718e8131c75472ad
       etsi: b0b4d7409cfbfd2112504ddd694272627cb554b32341c5c3bbfa151485e6d8fe
       etsi_pfs: 1c378f123a2078524a08acf001b3c6e80df5522993f1aa3e2ae2d542c2048d23
+      eu: 451aebe27c5f41859237adc45681cc98ab9e570cb63b989dadfb8053b7ec870d
       evs: d3d278c9ec3ece8e864633a2fa39664ba270deea181c83e6a12deb47f79ae887
       gb: 7724e6e1454eb7a680780e286a085049e85c1ef021ff5a35af16266c613d9b5f
       gost: 830f339aa340cb2bf02687bc3d50a07a9f2946012f4f26aa7231080993b4ae50
@@ -74,29 +76,21 @@ oracle:
       w3c: 38fe8a4edcfa43b2f4d64f04187abaf40666439d7e1ad437ca3d1e3cdd8b6264
       xsf: b97d3fae6aebef1996c0e98c30d696ad7d6dabc5be9a8f6c9036bd8289e7aaf3
 repository:
-  commit: 61d2ea48e4d75b2689d07c556e1043a6ad7afb43
+  commit: 5f3a9fe581cd3028361b18d2637a3f47c415ccc6
   clean: false
   dirty_paths:
   - README.md
-  - tests/iso/_normalization.yaml
-  - tests/iso/corrigendum.yaml
-  - tests/iso/international_standard.yaml
-  - tests/iso/international_workshop_agreement.yaml
-  - tests/iso/pas.yaml
-  - tests/iso/recommendation.yaml
-  - tests/iso/technical_report.yaml
-  - tests/iso/technical_specification.yaml
-  - tests/iso/technology_trends_assessments.yaml
   - tests/provenance.yaml
-  - tests/iso/tc_document.yaml
+  - reference-docs/eu/
+  - tests/eu/
 ruby:
   version: 3.4.8
 counts:
-  flavors: 43
-  payloads: 359
-  cases: 99800
-  aliases: 11815
-  negatives: 704
+  flavors: 44
+  payloads: 366
+  cases: 99815
+  aliases: 11835
+  negatives: 711
 payloads:
 - path: amca/_debt.yaml
   sha256: f24ce4711159eb846d55aa6887217e3caeb3501747e2218abb5d2c4832d5567c
@@ -482,6 +476,24 @@ payloads:
 - path: etsi/etsi_standard.yaml
   sha256: 9a9a738934a96b66bdc699a659b20a09585ba246abc7d70127da3296225213f9
   bytes: 7029227
+- path: eu/_debt.yaml
+  sha256: 4817ff519475c66bc79b1db114a228e9d4fcd6b5e08c5bea31e1b8569c39fed2
+  bytes: 1566
+- path: eu/_negative.yaml
+  sha256: c206bebcd161ddcc3b3b12045e2898e2e03ebf9317b78a1b61be92540f667d96
+  bytes: 751
+- path: eu/_normalization.yaml
+  sha256: 5319253ec9c716f0245f8f118fff1ae00ab43808d3c9808f9fd94807f74ef1d5
+  bytes: 1314
+- path: eu/decision.yaml
+  sha256: 4713bb30136d5d8826b39f51afd9123d908f1fe9ba12e38e74321871a90fdd77
+  bytes: 878
+- path: eu/directive.yaml
+  sha256: 23fee66e88cc0e6026edd1cb1a86528ed211ff3e208905468da9430e8be441af
+  bytes: 1141
+- path: eu/regulation.yaml
+  sha256: 27a0d08420ff7685b54d5d251d4c784f97ddaadb2b80f207558bb08f98a2a7f9
+  bytes: 2452
 - path: evs/estonian_standard.yaml
   sha256: a203f4300ff9d22f4678b8ed1c9b8018f0d74ac268d67d086c4dfee02fa2be70
   bytes: 1358
@@ -1096,6 +1108,9 @@ curated:
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
 - path: etsi/_status.yaml
+  sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
+  bytes: 59
+- path: eu/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
 - path: evs/_status.yaml
