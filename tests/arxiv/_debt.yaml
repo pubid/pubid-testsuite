@@ -1,0 +1,106 @@
+---
+- id: arxiv.debt.f1f7bb500bfd
+  input: '1412.00001'
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: invalid arXiv
+    identifier ''1412.00001'': a 5-digit number does not fit YYMM 1412'
+- id: arxiv.debt.3825d6fb8bd5
+  input: '1501.0001'
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: invalid arXiv
+    identifier ''1501.0001'': a 4-digit number does not fit YYMM 1501'
+- id: arxiv.debt.884cb02b00ae
+  input: '0703.0001'
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: invalid arXiv
+    identifier ''0703.0001'': a 4-digit number does not fit YYMM 0703'
+- id: arxiv.debt.031a746e9814
+  input: '2313.00001'
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: invalid arXiv
+    identifier ''2313.00001'': month out of range in YYMM 2313'
+- id: arxiv.debt.28a1bbd748bc
+  input: '2300.00001'
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: invalid arXiv
+    identifier ''2300.00001'': month out of range in YYMM 2300'
+- id: arxiv.debt.c29620d1a77d
+  input: 2301.00001v0
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: invalid arXiv
+    identifier ''2301.00001v0'': version v0 is not 1 or more without a leading zero'
+- id: arxiv.debt.bee493825fcd
+  input: 2301.00001v01
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: invalid arXiv
+    identifier ''2301.00001v01'': version v01 is not 1 or more without a leading zero'
+- id: arxiv.debt.0eb841d6c300
+  input: hep-th/0801001
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: invalid arXiv
+    identifier ''hep-th/0801001'': an old-form id dates from 9108 to 0703'
+- id: arxiv.debt.1c8ad17b4c30
+  input: hep-th/9013001
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: invalid arXiv
+    identifier ''hep-th/9013001'': month out of range in YYMM 9013'
+- id: arxiv.debt.5a327c9cb7b5
+  input: hep-th/9107001
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: invalid arXiv
+    identifier ''hep-th/9107001'': an old-form id dates from 9108 to 0703'
+- id: arxiv.debt.0f5e3fc21358
+  input: 'arXiv:'
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], [\x61-\x7a]] at line 1 char 7.'
+- id: arxiv.debt.7a934c6da068
+  input: arXiv:2301
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''.''] at line 1 char 11.'
+- id: arxiv.debt.cff087fdd939
+  input: '2301.001'
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39]] at line 1 char 9.'
+- id: arxiv.debt.c780d9f2fdba
+  input: arXiv:2301.00001.v1
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''v''] at line 1 char 17.'
+- id: arxiv.debt.71fe5b87b3fa
+  input: arXiv:Hep-th/9901001
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], [\x61-\x7a]] at line 1 char 7.'
