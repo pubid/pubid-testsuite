@@ -1,0 +1,66 @@
+---
+- id: itu.resolution.2751
+  identifier:
+    _type: pubid:itu:resolution
+    sector: R
+    number: '1'
+  representations:
+    human: Resolution ITU-R 1
+    urn: urn:itu:r:resolution:1
+  style: v3
+- id: itu.resolution.2752
+  identifier:
+    _type: pubid:itu:resolution
+    sector: R
+    number: '1'
+    parts:
+    - '9'
+  representations:
+    human: Resolution ITU-R 1-9
+    urn: urn:itu:r:resolution:1-9
+  style: v3
+- id: itu.resolution.2753
+  identifier:
+    _type: pubid:itu:resolution
+    sector: R
+    number: '1'
+    parts:
+    - '9'
+    year: '2023'
+  representations:
+    human: Resolution ITU-R 1-9 (2023)
+    urn: urn:itu:r:resolution:1-9:2023
+  style: v3
+- id: itu.resolution.2754
+  identifier:
+    _type: pubid:itu:resolution
+    sector: R
+    number: '10'
+    parts:
+    - '1'
+  representations:
+    human: Resolution ITU-R 10-1
+    urn: urn:itu:r:resolution:10-1
+  style: v3
+- id: itu.resolution.2755
+  identifier:
+    _type: pubid:itu:resolution
+    sector: R
+    number: '2'
+    parts:
+    - '8'
+    year: '2019'
+  representations:
+    human: Resolution ITU-R 2-8 (2019)
+    urn: urn:itu:r:resolution:2-8:2019
+  style: v3
+- id: itu.resolution.2756
+  identifier:
+    _type: pubid:itu:resolution
+    sector: R
+    number: '75'
+    year: '2023'
+  representations:
+    human: Resolution ITU-R 75 (2023)
+    urn: urn:itu:r:resolution:75:2023
+  style: v3

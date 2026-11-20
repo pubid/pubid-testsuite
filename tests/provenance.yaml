@@ -76,19 +76,19 @@ oracle:
       w3c: 38fe8a4edcfa43b2f4d64f04187abaf40666439d7e1ad437ca3d1e3cdd8b6264
       xsf: b97d3fae6aebef1996c0e98c30d696ad7d6dabc5be9a8f6c9036bd8289e7aaf3
 repository:
-  commit: 5f3a9fe581cd3028361b18d2637a3f47c415ccc6
+  commit: 8ed6fabd85c22c97f14ce5d22659195a1ee75496
   clean: false
   dirty_paths:
   - README.md
   - tests/provenance.yaml
-  - reference-docs/eu/
-  - tests/eu/
+  - reference-docs/itu/identifiers/pass/resolution.txt
+  - tests/itu/resolution.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 44
-  payloads: 366
-  cases: 99815
+  payloads: 367
+  cases: 99821
   aliases: 11835
   negatives: 711
 payloads:
@@ -836,6 +836,9 @@ payloads:
 - path: itu/report.yaml
   sha256: 030c558c66d73c6b2f88cfcb285f80ca7ded377e7120dd55394d0661f1c8bbf4
   bytes: 2420
+- path: itu/resolution.yaml
+  sha256: e467aaee64bba5c13a6eba62fbcf742d5756fae25e8e2f3cef43fa3f85b676d5
+  bytes: 1367
 - path: itu/special_publication.yaml
   sha256: 2061d1e8a9cb8b83af59db7d9bd9750fe51b4354c9c3a5321f10503551fbcc3e
   bytes: 3269
