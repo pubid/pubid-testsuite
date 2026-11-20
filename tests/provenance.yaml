@@ -76,21 +76,21 @@ oracle:
       w3c: 38fe8a4edcfa43b2f4d64f04187abaf40666439d7e1ad437ca3d1e3cdd8b6264
       xsf: b97d3fae6aebef1996c0e98c30d696ad7d6dabc5be9a8f6c9036bd8289e7aaf3
 repository:
-  commit: 101f54e4530c91acdb4cc4ea3be369fb6973f34e
+  commit: 40ff21b1eb973762f8f8f7d6e5e864c2c67e7bec
   clean: false
   dirty_paths:
   - README.md
   - tests/provenance.yaml
-  - reference-docs/eu/
-  - tests/eu/
+  - reference-docs/arxiv/
+  - tests/arxiv/
 ruby:
   version: 3.4.8
 counts:
-  flavors: 44
-  payloads: 366
-  cases: 99811
-  aliases: 11831
-  negatives: 710
+  flavors: 45
+  payloads: 371
+  cases: 99825
+  aliases: 11838
+  negatives: 725
 payloads:
 - path: amca/_debt.yaml
   sha256: f24ce4711159eb846d55aa6887217e3caeb3501747e2218abb5d2c4832d5567c
@@ -143,6 +143,18 @@ payloads:
 - path: api/typeless_standard.yaml
   sha256: e720128debf32ca84e5bd3a27fe0d7f0de72a921b785692406e6704c90780ede
   bytes: 1558
+- path: arxiv/_debt.yaml
+  sha256: fb17618a67ec27d50b1f70be73b12cbeb89f62273777177ebb4f184359f528d1
+  bytes: 3744
+- path: arxiv/_negative.yaml
+  sha256: 33259bc818f41ea3650bdf26565ae8694a34c096ec30c7fadc32f44042b209fd
+  bytes: 1471
+- path: arxiv/_normalization.yaml
+  sha256: 1c9c89698a982066410a34b9df239a91c8b4f0c0f47cd6fa7ec38274bc25281f
+  bytes: 358
+- path: arxiv/eprint.yaml
+  sha256: 65041d54df527948f3d9b1853ecefaffb96893de2a13113c830ebb37cb5609b1
+  bytes: 3963
 - path: ashrae/_debt.yaml
   sha256: 3d06514d0dce726c69e591878e3b0af3c28c631daa464ecd77724a0169a12ece
   bytes: 283
@@ -1068,6 +1080,9 @@ curated:
 - path: api/_status.yaml
   sha256: 79e2d1600ebd9999276ed01f583af310fcc47b403c76fd0a89e9b3185dff92dd
   bytes: 62
+- path: arxiv/_status.yaml
+  sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
+  bytes: 59
 - path: ashrae/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
