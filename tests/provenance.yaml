@@ -8,17 +8,17 @@ generator:
   exporter_sha256: c796669236b762f52bb8e2e8463a4f825f84e84d2231c3734637f1cbaabe6400
 oracle:
   gem: pubid
-  commit: 0f7ba38b165891c8debc874d6855f23e4163e8b2
+  commit: 7ac315d2c8cbced3804bdc54759af002f10289d1
   clean: true
   dirty_paths: []
   parsanol_version: "~> 1.5.0"
   grammar:
-    commit: 26ecbaae7c4d5d9670f9fa94b609746e73fa90b0
+    commit: 588687ec7de76ed1e9e679b81b200d5c5ca72baf
     artifact_sha256:
       adobe: 5ab76c704865b21e88abaadf90139a71c5a6c342e2532262a309c349f6dbd275
       aiee: 22d5a9715050bcb7e0ab270d8c9a12063ef727b62470f22f645f269f857baa14
       amca: 51ec2c39eae0e18e03bafbb4e34084053cfb64edab0a48fc959734b3e0200364
-      ansi: 2f8eedf0a41668b59e68759a7d616160ed561e06a29eb0c570ec274f5d5e5148
+      ansi: e06aae330d683c900072050a398c6b5c777889c009e7f71515f0913d4d4cea30
       api: 870fb6cfd0d3b567dda4f453864cb57f5fb9ab4a8db85992e80c8ac2720a3acb
       arxiv: 4141a4489eff22ed82e64c46ab3d7b444fa694c75e53b622c6ee7b428ca20c31
       ashrae: ffda04cd27bba412948c03017335fd88a8484fbce73ab91a051e7756372c2aa8
@@ -74,24 +74,33 @@ oracle:
       toml: 51c1b2aad670137668c3f1392341dcebc67992fc3009dfbd92203f7017bd23db
       un: d201ee6387c0d45f84f18cb995a669d6d0f2d32a0b63f1627173623b0344c88a
       w3c: 38fe8a4edcfa43b2f4d64f04187abaf40666439d7e1ad437ca3d1e3cdd8b6264
-      wmo: 1109f80eeddc7748cc16aa2d17e4011bef9e182613cfd21b6ca94f4d1d65d8af
+      wmo: b8c08b293b8f33d68a044c1672c5930f7015d02e29f4b5b2a1d7148971b79f2c
       xsf: b97d3fae6aebef1996c0e98c30d696ad7d6dabc5be9a8f6c9036bd8289e7aaf3
 repository:
-  commit: b93f8158e89b1a0d462591e3a8690dc119da3d95
+  commit: 0c9ddd7fab0dc1386f77ca121150998a3ca28320
   clean: false
   dirty_paths:
   - README.md
+  - reference-docs/wmo/SUMMARY.txt
+  - reference-docs/wmo/identifiers/fail/unknown.txt
+  - reference-docs/wmo/identifiers/full/identifiers.txt
+  - reference-docs/wmo/identifiers/pass/publication.txt
+  - reference-docs/wmo/identifiers/pass/standard.txt
   - tests/provenance.yaml
-  - reference-docs/wmo/
-  - tests/wmo/
+  - tests/wmo/_debt.yaml
+  - tests/wmo/_negative.yaml
+  - tests/wmo/_normalization.yaml
+  - tests/wmo/annex.yaml
+  - tests/wmo/publication.yaml
+  - tests/wmo/standard.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 46
   payloads: 379
-  cases: 99867
-  aliases: 11851
-  negatives: 733
+  cases: 99896
+  aliases: 11860
+  negatives: 738
 payloads:
 - path: amca/_debt.yaml
   sha256: f24ce4711159eb846d55aa6887217e3caeb3501747e2218abb5d2c4832d5567c
@@ -1072,23 +1081,23 @@ payloads:
   sha256: 3ca41c77bf58b69916c62c3e54bc6bc2175e5081faf5fe376f96ec508f531dca
   bytes: 1066
 - path: wmo/_debt.yaml
-  sha256: d9960e509c247086581888966de8a0278f14981ccba41854da0c97872f5ba994
-  bytes: 1667
+  sha256: 7b14fc1b157d275a6227547eb4cf20bccf9c11c3e0e30185507d8a48e6b4ce1d
+  bytes: 3424
 - path: wmo/_negative.yaml
-  sha256: 1a53d8985b965b3eb01c83ac693a0d8a70d1ad8d87a82e3d1d8cfef83b793de1
-  bytes: 668
+  sha256: 36f7e8c75c60fee09c32c1abd2295aaed3af5014d6d1366cb480d89a772ed673
+  bytes: 1157
 - path: wmo/_normalization.yaml
-  sha256: c1e8c9ff92c88533fee9e389a4472b367a0bbb8aa6debcd07488a5f00069ca04
-  bytes: 509
+  sha256: 805d48bc32fefbc8e31db351005dcc2b037b406497a70ad4b9f5736b06e6f22f
+  bytes: 1161
 - path: wmo/annex.yaml
-  sha256: b6a7fa4e7953e636dd9ff788831ca460bf911e8ab8ab465b42b36ec65d3dde18
+  sha256: e591599cfc83d8ae5cc52f51bd3818dc45bb7e7261645012b511cb88f70c0839
   bytes: 343
 - path: wmo/publication.yaml
-  sha256: 9582c2c8a2311398114dcb8ee1e123f8a83e5edfb5801f3144cdd4ae96d82e1e
-  bytes: 1025
+  sha256: dbdc03c1007ce93e0ed95089b640e07f818928459c9d0b6456c8d2e6f1925124
+  bytes: 7824
 - path: wmo/standard.yaml
-  sha256: e7b7d313dd7d4d22991a40481901e4bd892d4b74f7f0f763d276ab5fa763faac
-  bytes: 1408
+  sha256: 95d2a85f1b27a06926d8fcd95b49407bac4bb0be4af0c8f964a3d711e10b3362
+  bytes: 1606
 - path: xsf/xep.yaml
   sha256: 98714413184a63862f42e1640302654f7af65be9df4a43519e60fb9d37b11ca8
   bytes: 7860
