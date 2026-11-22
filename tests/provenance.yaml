@@ -8,17 +8,17 @@ generator:
   exporter_sha256: c796669236b762f52bb8e2e8463a4f825f84e84d2231c3734637f1cbaabe6400
 oracle:
   gem: pubid
-  commit: 5d5fc470862f73f9a8e1780f36a2cc80ebf1f03e
+  commit: 0f7ba38b165891c8debc874d6855f23e4163e8b2
   clean: true
   dirty_paths: []
   parsanol_version: "~> 1.5.0"
   grammar:
-    commit: a7e2363f29dfcb6867b92c3736138ed95e6c9aa8
+    commit: 26ecbaae7c4d5d9670f9fa94b609746e73fa90b0
     artifact_sha256:
       adobe: 5ab76c704865b21e88abaadf90139a71c5a6c342e2532262a309c349f6dbd275
       aiee: 22d5a9715050bcb7e0ab270d8c9a12063ef727b62470f22f645f269f857baa14
       amca: 51ec2c39eae0e18e03bafbb4e34084053cfb64edab0a48fc959734b3e0200364
-      ansi: e1a6bdd21e45b92976e6737ce3d5bdc6f3115b093e3afa2a13972fae473690b9
+      ansi: 2f8eedf0a41668b59e68759a7d616160ed561e06a29eb0c570ec274f5d5e5148
       api: 870fb6cfd0d3b567dda4f453864cb57f5fb9ab4a8db85992e80c8ac2720a3acb
       arxiv: 4141a4489eff22ed82e64c46ab3d7b444fa694c75e53b622c6ee7b428ca20c31
       ashrae: ffda04cd27bba412948c03017335fd88a8484fbce73ab91a051e7756372c2aa8
@@ -56,7 +56,7 @@ oracle:
       ire: c5ce8862b73036a3bbee88c07dfbb7155e8e9a91e43a96907bd850456fa9f05f
       isbn: 689da0c5fef122b99f1b5d6c02339e46c9443590b9ec9b6ce81ff1b9300e73a0
       iso: 4268e92dbb27e9ebd9caf28c2d52fdab2a9c1ed8287b011161bc14f62fb45d20
-      itu: c85cc9144b897d03ff72d4cc627bbc6219dd76ba721635ea16508ca70e223c2d
+      itu: f5203726e1d42212ebcf67dee31e0b46ee354b85ad1576d9ffebb4831f5b0f41
       jcgm: 81e20a59a6f9245ba39b8b27e0a6d6f02ceb5e0e864c8f7c099862bb806d62ff
       jis: e06886e29d8b73b9492bc6d6146d8160485604568059c288c6fdfe9339c2a591
       json: 0e2de279ef9fea178a99636255313bb864ebd81280a1e6d10641d9621c5bff66
@@ -74,21 +74,24 @@ oracle:
       toml: 51c1b2aad670137668c3f1392341dcebc67992fc3009dfbd92203f7017bd23db
       un: d201ee6387c0d45f84f18cb995a669d6d0f2d32a0b63f1627173623b0344c88a
       w3c: 38fe8a4edcfa43b2f4d64f04187abaf40666439d7e1ad437ca3d1e3cdd8b6264
+      wmo: 1109f80eeddc7748cc16aa2d17e4011bef9e182613cfd21b6ca94f4d1d65d8af
       xsf: b97d3fae6aebef1996c0e98c30d696ad7d6dabc5be9a8f6c9036bd8289e7aaf3
 repository:
-  commit: cbcbb6957626b5f8ba3662f173cd2ad051fd4ae9
+  commit: 92c26b362f23370d25a2f887c07575cb51b5ce81
   clean: false
   dirty_paths:
   - README.md
+  - reference-docs/ansi/SUMMARY.txt
+  - reference-docs/ansi/identifiers/full/international_standard.txt
+  - reference-docs/ansi/identifiers/pass/standard.txt
+  - tests/ansi/standard.yaml
   - tests/provenance.yaml
-  - reference-docs/arxiv/
-  - tests/arxiv/
 ruby:
   version: 3.4.8
 counts:
   flavors: 45
   payloads: 372
-  cases: 99835
+  cases: 99856
   aliases: 11842
   negatives: 726
 payloads:
@@ -111,8 +114,8 @@ payloads:
   sha256: 4ff5c76fa4dab39223147b3ab54452d86dd9373976e44912ee82a37864af6de1
   bytes: 6716
 - path: ansi/standard.yaml
-  sha256: 0f0ac3afbc09e16dafa39aae833fad25e9ecff76c1671474eba277f25aee4c38
-  bytes: 41600
+  sha256: eb3ab698238014348a2e86a139a820b195ef711780e89b6c9ea2fbbdc3159ebd
+  bytes: 51561
 - path: api/_normalization.yaml
   sha256: e39ff747a7dfc04d5352343142217bf87915371f66f0d0b476a4bd92bfd74186
   bytes: 154
