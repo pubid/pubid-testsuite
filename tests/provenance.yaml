@@ -8,14 +8,14 @@ generator:
   exporter_sha256: c796669236b762f52bb8e2e8463a4f825f84e84d2231c3734637f1cbaabe6400
 oracle:
   gem: pubid
-  commit: 7ac315d2c8cbced3804bdc54759af002f10289d1
+  commit: e4ce1fa57daaed42a5b953b367368a037d906640
   clean: true
   dirty_paths: []
   parsanol_version: "~> 1.5.0"
   grammar:
-    commit: 588687ec7de76ed1e9e679b81b200d5c5ca72baf
+    commit: 25a80b9d16013c8720a69a060c6c69b80fbeb25c
     artifact_sha256:
-      adobe: 5ab76c704865b21e88abaadf90139a71c5a6c342e2532262a309c349f6dbd275
+      adobe: bbe16cb1ac23cc17c743c7fe6c2b84e85e663cd5f84a33355b7cd3126784d142
       aiee: 22d5a9715050bcb7e0ab270d8c9a12063ef727b62470f22f645f269f857baa14
       amca: 51ec2c39eae0e18e03bafbb4e34084053cfb64edab0a48fc959734b3e0200364
       ansi: e06aae330d683c900072050a398c6b5c777889c009e7f71515f0913d4d4cea30
@@ -77,24 +77,13 @@ oracle:
       wmo: b8c08b293b8f33d68a044c1672c5930f7015d02e29f4b5b2a1d7148971b79f2c
       xsf: b97d3fae6aebef1996c0e98c30d696ad7d6dabc5be9a8f6c9036bd8289e7aaf3
 repository:
-  commit: 0c9ddd7fab0dc1386f77ca121150998a3ca28320
+  commit: af9068bccb5a740240c6e56289949a0604576833
   clean: false
   dirty_paths:
-  - README.md
-  - reference-docs/wmo/SUMMARY.txt
-  - reference-docs/wmo/identifiers/fail/unknown.txt
-  - reference-docs/wmo/identifiers/full/identifiers.txt
-  - reference-docs/wmo/identifiers/pass/publication.txt
-  - reference-docs/wmo/identifiers/pass/standard.txt
+  - tests/ieee/adopted_standard.yaml
   - tests/provenance.yaml
-  - tests/wmo/_debt.yaml
-  - tests/wmo/_negative.yaml
-  - tests/wmo/_normalization.yaml
-  - tests/wmo/annex.yaml
-  - tests/wmo/publication.yaml
-  - tests/wmo/standard.yaml
 ruby:
-  version: 3.4.8
+  version: 3.4.10
 counts:
   flavors: 46
   payloads: 379
@@ -655,8 +644,8 @@ payloads:
   sha256: 3a70ae9223bd4955693fdf76522862dfb711cd2c0ab69f03ef5ce7a0f549a036
   bytes: 767258
 - path: ieee/adopted_standard.yaml
-  sha256: e0794451d17650d73c639069d00f76d46815970b624d5e5d87b76ad17120f8e2
-  bytes: 46059
+  sha256: e8da8031227b32c6bc0fae3e4bf55d2468b57deaaf54cc9d7c91834687575f61
+  bytes: 46969
 - path: ieee/aiee.yaml
   sha256: a1ccaa0ba995bf1bd841e013de69c127ebbd4d63349853ff2b9244bec3d74a03
   bytes: 45812
