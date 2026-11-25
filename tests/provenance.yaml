@@ -8,12 +8,12 @@ generator:
   exporter_sha256: c796669236b762f52bb8e2e8463a4f825f84e84d2231c3734637f1cbaabe6400
 oracle:
   gem: pubid
-  commit: afa60cfff5beafbe32997c849e4ea4ab8d2f83ce
+  commit: 561ae27693bb24a259a6319f5ebb912e561633de
   clean: true
   dirty_paths: []
   parsanol_version: "~> 1.5.0"
   grammar:
-    commit: 25a80b9d16013c8720a69a060c6c69b80fbeb25c
+    commit: c1a11bf1e54f854218bd66eef8b877f1ad11c50f
     artifact_sha256:
       adobe: bbe16cb1ac23cc17c743c7fe6c2b84e85e663cd5f84a33355b7cd3126784d142
       aiee: 22d5a9715050bcb7e0ab270d8c9a12063ef727b62470f22f645f269f857baa14
@@ -45,13 +45,13 @@ oracle:
       evs: d3d278c9ec3ece8e864633a2fa39664ba270deea181c83e6a12deb47f79ae887
       gb: 7724e6e1454eb7a680780e286a085049e85c1ef021ff5a35af16266c613d9b5f
       gost: 830f339aa340cb2bf02687bc3d50a07a9f2946012f4f26aa7231080993b4ae50
-      iala: 5718a4592c9112e4468a2cae75f6c58dc8c6ba3a71e89905f5c110eeae668ab9
+      iala: 6631e5e2e6cb9059c18778a1b8063e4b091591104e3f08e3daa602d8aadfe123
       iana: 4eed6e4bc7585958653ac12df6395099a30126e259b54a1c70f88e1ca5f4aed0
       idf: a3f0031363464d01b264bd6c1262cf33b35b7b6f63754003845d34b3d63b1be1
       iec: 8e799e34f223e20c7c98c38aa227c68c01d588f3895b678ddac5f8e0dcf9eb38
       ieee: 46a82e030c9b24d9dc9d2aba536bbe254404a7910dc1b26e0790123dafd866b2
       ietf: ed459ebebc336daf1af9e1b9ae0f27f19c873ad00fe994165f9920d7de957825
-      iho: 604a9d027565eeb7284815b85a15e839d3dd084c2e8a6cdf495b8014a9405df4
+      iho: ebe28be0ece78b8fe6cbf987e66f17eaa8e64d2ed295baf877b4644cba5345f7
       ini: be9c8f02c78c5eadfce1bcb2aeb1baee2cbd6aed940d49b8de226b48c79fb000
       ire: c5ce8862b73036a3bbee88c07dfbb7155e8e9a91e43a96907bd850456fa9f05f
       isbn: 689da0c5fef122b99f1b5d6c02339e46c9443590b9ec9b6ce81ff1b9300e73a0
@@ -77,21 +77,33 @@ oracle:
       wmo: b8c08b293b8f33d68a044c1672c5930f7015d02e29f4b5b2a1d7148971b79f2c
       xsf: b97d3fae6aebef1996c0e98c30d696ad7d6dabc5be9a8f6c9036bd8289e7aaf3
 repository:
-  commit: 7537dfed4565193fb32fd78e46f9d128c9dc8bbe
+  commit: 223d3f1369303705bc2ea71f2b7c5177321ccca5
   clean: false
   dirty_paths:
   - README.md
+  - reference-docs/iho/SUMMARY.txt
+  - reference-docs/iho/identifiers/full/identifiers.txt
+  - reference-docs/iho/identifiers/pass/bibliographic.txt
+  - reference-docs/iho/identifiers/pass/circular_letter.txt
+  - reference-docs/iho/identifiers/pass/miscellaneous.txt
+  - reference-docs/iho/identifiers/pass/publication.txt
+  - reference-docs/iho/identifiers/pass/standard.txt
+  - tests/iho/_debt.yaml
+  - tests/iho/_negative.yaml
+  - tests/iho/_normalization.yaml
+  - tests/iho/miscellaneous.yaml
+  - tests/iho/publication.yaml
+  - tests/iho/standard.yaml
   - tests/provenance.yaml
-  - reference-docs/adobe/
-  - tests/adobe/
+  - reference-docs/iho/identifiers/fail/standard.txt
 ruby:
   version: 3.4.8
 counts:
   flavors: 47
   payloads: 383
-  cases: 100061
-  aliases: 11862
-  negatives: 738
+  cases: 100065
+  aliases: 11863
+  negatives: 741
 payloads:
 - path: adobe/_normalization.yaml
   sha256: 6c781ba0c6ca52f23abb96b01ecdcee22924b3940d311a7463860c4a14149b95
@@ -730,14 +742,14 @@ payloads:
   sha256: 3a320f9cb2fdacb6bdc169971c2bb4300db7c0a986592886e5f2ceda0125ba01
   bytes: 14041
 - path: iho/_debt.yaml
-  sha256: 63bb787c64ffc545291aef993a8703fed9c1a27a3019cdafd0c7fe4dbcab6848
-  bytes: 246
+  sha256: 2cabda84488a821b0126983a6070825a72913d84f546172bbe14219bbfa4ef22
+  bytes: 57715
 - path: iho/_negative.yaml
-  sha256: d899b418f9951341fb131d8b81c64eb5800a07e3440bb0e5ddcb07e3064fc650
-  bytes: 105
+  sha256: 2289bc64e062a2c9ae7fc697359c5cdafb7980118a314edb4971d5b72b281d25
+  bytes: 396
 - path: iho/_normalization.yaml
-  sha256: f48cb5a80d189c00624f6ac785e32ecfa50da11261c381caea4d2d06f23da712
-  bytes: 2147
+  sha256: b34fddb82455dfd343e55036ff96c2317ef0d6d4195847fee354cb4031256a51
+  bytes: 321
 - path: iho/bibliographic.yaml
   sha256: 98d09bad61068d862a1084927f485854eb3da62179513c3b88b33e2b77faf0d5
   bytes: 2484
@@ -745,14 +757,14 @@ payloads:
   sha256: d7e6a669b7766c7d7eeef66d77fd560c00c44d09ba1895e03f380a37abfd1a19
   bytes: 1652
 - path: iho/miscellaneous.yaml
-  sha256: 63e75da1de133803721809c576c68095114ef482c4bf097394ea2d7ee3d8c3f0
-  bytes: 2658
+  sha256: 70083ab4527a143a2576c66dba18455b4058b6fcc962f561479b41f660067f14
+  bytes: 2771
 - path: iho/publication.yaml
-  sha256: 2f2e50b3d1f0a6fde245f8bcacffc5abf65eaa55605cdac1bc5236d3a272c35b
-  bytes: 4427
+  sha256: e2bf0f978e20c68e8a1d3d881b969c0f34b58864c303bc59475808ccd101d5b5
+  bytes: 4598
 - path: iho/standard.yaml
-  sha256: 4f24d0b501e56b1a98874b1123375792556f756663c8e175648f5727035ad079
-  bytes: 27874
+  sha256: 21b591192e316b5afb0a1a573a0487793e06192f2d6c73467ba523591e9031a2
+  bytes: 29910
 - path: isbn/_negative.yaml
   sha256: 9373315c983fd1b9b9dac2a39112c79bc98192086d7c0bb6f4e4d1c706f4fe89
   bytes: 437
