@@ -77,31 +77,28 @@ oracle:
       wmo: b8c08b293b8f33d68a044c1672c5930f7015d02e29f4b5b2a1d7148971b79f2c
       xsf: b97d3fae6aebef1996c0e98c30d696ad7d6dabc5be9a8f6c9036bd8289e7aaf3
 repository:
-  commit: 0a5232866090b7cda36c8df969d00b30d35748d3
+  commit: 7537dfed4565193fb32fd78e46f9d128c9dc8bbe
   clean: false
   dirty_paths:
   - README.md
-  - reference-docs/iala/identifiers/pass/iala.txt
-  - tests/iala/annex.yaml
-  - tests/iala/general_assembly.yaml
-  - tests/iala/guideline.yaml
-  - tests/iala/letter.yaml
-  - tests/iala/manual.yaml
-  - tests/iala/model_course.yaml
-  - tests/iala/recommendation.yaml
-  - tests/iala/standard.yaml
   - tests/provenance.yaml
-  - reference-docs/iala/identifiers/pass/iala-publications.txt
-  - tests/iala/publication.yaml
+  - reference-docs/adobe/
+  - tests/adobe/
 ruby:
   version: 3.4.8
 counts:
-  flavors: 46
-  payloads: 380
-  cases: 100058
-  aliases: 11860
+  flavors: 47
+  payloads: 383
+  cases: 100061
+  aliases: 11862
   negatives: 738
 payloads:
+- path: adobe/_normalization.yaml
+  sha256: 6c781ba0c6ca52f23abb96b01ecdcee22924b3940d311a7463860c4a14149b95
+  bytes: 138
+- path: adobe/tech_note.yaml
+  sha256: 80659809090d146de6b3032ec17197fad9674265b4ebc1e2cff0806ae94e6574
+  bytes: 677
 - path: amca/_debt.yaml
   sha256: f24ce4711159eb846d55aa6887217e3caeb3501747e2218abb5d2c4832d5567c
   bytes: 995
@@ -1105,6 +1102,9 @@ payloads:
   sha256: 98714413184a63862f42e1640302654f7af65be9df4a43519e60fb9d37b11ca8
   bytes: 7860
 curated:
+- path: adobe/_status.yaml
+  sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
+  bytes: 59
 - path: amca/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
