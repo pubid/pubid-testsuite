@@ -132,3 +132,15 @@
     human: IALA G1128 ANNEX D Ed 1.6 (E)
     urn: urn:mrn:iala:pub:g1128:annex-d:ed1.6:e
   style: v3
+- id: iala.annex.0869
+  identifier:
+    _type: pubid:iala:annex
+    base:
+      _type: pubid:iala:product-specification
+      number: '201'
+    annex_form: ANNEX
+    letter: B2
+  representations:
+    human: S-201 ANNEX B2
+    urn: urn:mrn:iala:pub:s-201:annex-b2
+  style: v3

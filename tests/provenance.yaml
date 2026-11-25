@@ -8,7 +8,7 @@ generator:
   exporter_sha256: c796669236b762f52bb8e2e8463a4f825f84e84d2231c3734637f1cbaabe6400
 oracle:
   gem: pubid
-  commit: 561ae27693bb24a259a6319f5ebb912e561633de
+  commit: acae7a620e956bd60daf753156facb4b181ba960
   clean: true
   dirty_paths: []
   parsanol_version: "~> 1.5.0"
@@ -77,33 +77,37 @@ oracle:
       wmo: b8c08b293b8f33d68a044c1672c5930f7015d02e29f4b5b2a1d7148971b79f2c
       xsf: b97d3fae6aebef1996c0e98c30d696ad7d6dabc5be9a8f6c9036bd8289e7aaf3
 repository:
-  commit: 223d3f1369303705bc2ea71f2b7c5177321ccca5
+  commit: 9dcf0eb34b3600d9b0667f7b211045a3f78103cf
   clean: false
   dirty_paths:
   - README.md
-  - reference-docs/iho/SUMMARY.txt
-  - reference-docs/iho/identifiers/full/identifiers.txt
-  - reference-docs/iho/identifiers/pass/bibliographic.txt
-  - reference-docs/iho/identifiers/pass/circular_letter.txt
-  - reference-docs/iho/identifiers/pass/miscellaneous.txt
-  - reference-docs/iho/identifiers/pass/publication.txt
-  - reference-docs/iho/identifiers/pass/standard.txt
-  - tests/iho/_debt.yaml
-  - tests/iho/_negative.yaml
-  - tests/iho/_normalization.yaml
-  - tests/iho/miscellaneous.yaml
-  - tests/iho/publication.yaml
-  - tests/iho/standard.yaml
+  - reference-docs/iala/identifiers/pass/iala-publications.txt
+  - reference-docs/iala/identifiers/pass/iala-urns.txt
+  - reference-docs/iala/identifiers/pass/iala.txt
+  - tests/iala/annex.yaml
   - tests/provenance.yaml
-  - reference-docs/iho/identifiers/fail/standard.txt
+  - reference-docs/iala/SUMMARY.txt
+  - reference-docs/iala/identifiers/fail/
+  - reference-docs/iala/identifiers/full/
+  - reference-docs/iala/identifiers/pass/annex.txt
+  - reference-docs/iala/identifiers/pass/general_assembly.txt
+  - reference-docs/iala/identifiers/pass/guideline.txt
+  - reference-docs/iala/identifiers/pass/letter.txt
+  - reference-docs/iala/identifiers/pass/manual.txt
+  - reference-docs/iala/identifiers/pass/model_course.txt
+  - reference-docs/iala/identifiers/pass/product_specification.txt
+  - reference-docs/iala/identifiers/pass/publication.txt
+  - reference-docs/iala/identifiers/pass/recommendation.txt
+  - reference-docs/iala/identifiers/pass/standard.txt
+  - tests/iala/_debt.yaml
 ruby:
   version: 3.4.8
 counts:
   flavors: 47
-  payloads: 383
-  cases: 100065
-  aliases: 11863
-  negatives: 741
+  payloads: 387
+  cases: 100081
+  aliases: 11869
+  negatives: 747
 payloads:
 - path: adobe/_normalization.yaml
   sha256: 6c781ba0c6ca52f23abb96b01ecdcee22924b3940d311a7463860c4a14149b95
@@ -555,9 +559,18 @@ payloads:
 - path: gost/national_standard.yaml
   sha256: 66c68be7d8b0fe9c152e02a3cd64859ccfd596541d0defc28041b00b07e449f4
   bytes: 14632
+- path: iala/_debt.yaml
+  sha256: 34cfbe192eabf01c6dbd1cfbf04a5ab894ce2d4d5650d6688740fc60631d1d97
+  bytes: 1414
+- path: iala/_negative.yaml
+  sha256: 302c7eb6554da7df24d0e019026778ec66e452840e0b1a784380597778022806
+  bytes: 569
+- path: iala/_normalization.yaml
+  sha256: e79963a7a8cc0187817b3c45d164e288dfe42d65d5aebc86876a715db8dca28b
+  bytes: 1160
 - path: iala/annex.yaml
-  sha256: 8077f53078a655f228987cae3dce4fc783c93bc2df6283b74a4337f0eea77fbc
-  bytes: 3046
+  sha256: e33e6bf9fc5959d3e2f76b3f24898203bb58ef0a723b9b562f6c80d5b733590f
+  bytes: 3321
 - path: iala/general_assembly.yaml
   sha256: 693474f75fca00a874777ba11d624c647bf1435c89573daf7204138940844fa9
   bytes: 7599
@@ -573,6 +586,9 @@ payloads:
 - path: iala/model_course.yaml
   sha256: 995bb436f4359a67dbafc49ca10aa18e924e570d48a464f13bcb9ef52c478714
   bytes: 19235
+- path: iala/product_specification.yaml
+  sha256: 3996196fd10ee53c0cbb221ebb81ac9a70ae0ba8263ec7eb5f9b02f04740b002
+  bytes: 3513
 - path: iala/publication.yaml
   sha256: 125cffb404acc8dd2cd297e52990f2ae88df9d7b320149561a5f57a74356b4f6
   bytes: 39570

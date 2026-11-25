@@ -1,0 +1,43 @@
+---
+- id: iala.debt.7bc2edfdd13a
+  input: S-200 1.0.0
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39]] at line 1 char 2.'
+- id: iala.debt.7c466a04c04b
+  input: S-411 1.2.1
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''200'', ''2''] at line 1 char 3.'
+- id: iala.debt.ef3f983b03ae
+  input: S-101 1.0.0
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''200'', ''2''] at line 1 char 3.'
+- id: iala.debt.f8e7d47b1a07
+  input: S-30 2.0
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''200'', ''2''] at line 1 char 3.'
+- id: iala.debt.1026f9aa4e0b
+  input: S-2011 2.0.0
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of ['' '', '':'', ''(''] at line 1 char 6.'
+- id: iala.debt.a5665e7ba1be
+  input: S-201 Ed
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of ['' ''] at line 1 char 9.'
