@@ -1,0 +1,14 @@
+---
+clean: true
+known_mismatches: 0
+known_schema_errors: 0
+attestation: pfs-identity
+source_flavor: cen_cenelec
+unabsorbed_debt: 23
+source_note: >-
+  Rows derive from the coded parent's fixtures (gem
+  spec/fixtures/cen_cenelec, mirrored byte-identical at
+  reference-docs/cen_pfs); every recorded identity surface is the
+  compiled flavor's own parse, and its URNs are byte-identical with
+  the coded parent's (pubid#790). Unabsorbed rows sit in _debt.yaml
+  as the fail-closed rejection ledger.

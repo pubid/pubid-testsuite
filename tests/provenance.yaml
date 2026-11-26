@@ -78,21 +78,21 @@ oracle:
       wmo: b8c08b293b8f33d68a044c1672c5930f7015d02e29f4b5b2a1d7148971b79f2c
       xsf: b97d3fae6aebef1996c0e98c30d696ad7d6dabc5be9a8f6c9036bd8289e7aaf3
 repository:
-  commit: 0cdb79db622b9131aab1fe8b2acc59792ce3e4d1
+  commit: 28c4e7d5393481a0b584fc7b113acc41ae162fd4
   clean: false
   dirty_paths:
   - README.md
   - tests/provenance.yaml
-  - reference-docs/calconnect_pfs/
-  - tests/calconnect_pfs/
+  - reference-docs/cen_pfs/
+  - tests/cen_pfs/
 ruby:
   version: 3.4.8
 counts:
-  flavors: 49
-  payloads: 402
-  cases: 101113
+  flavors: 50
+  payloads: 420
+  cases: 101303
   aliases: 11893
-  negatives: 833
+  negatives: 847
 payloads:
 - path: adobe/_normalization.yaml
   sha256: 6c781ba0c6ca52f23abb96b01ecdcee22924b3940d311a7463860c4a14149b95
@@ -439,6 +439,57 @@ payloads:
 - path: cen_cenelec/technical_specification.yaml
   sha256: 7e14414db57836767e9a8ee657d3d89cbd885e41a3c4178a8d5b9b9b9445a094
   bytes: 1057
+- path: cen_pfs/_debt.yaml
+  sha256: cb17e5e688959c32d5dec6423d39fe1ef6e0ef9e4363d8638cf8ffd31359ef59
+  bytes: 6987
+- path: cen_pfs/_negative.yaml
+  sha256: 3750029fb34ec6cb07e9243b6097b1aa86511ce315fdbf21c4b76385395d74d4
+  bytes: 1472
+- path: cen_pfs/_normalization.yaml
+  sha256: 6b09d53ba84c17a906c9053f0dd48b3823127be1d7172d37d94c08f919a6a755
+  bytes: 625
+- path: cen_pfs/adopted_european_norm.yaml
+  sha256: a67c705e51cd4f103a70073966cb817d95f26ea4e41c35b1845621d00d76e8f6
+  bytes: 5806
+- path: cen_pfs/amendment.yaml
+  sha256: 958ab46a08e56bdda31ec6258b441307f52fc0eee059e8e7e69b6bcc4a9bf507
+  bytes: 4903
+- path: cen_pfs/cen_report.yaml
+  sha256: 1ea36734e677c2c836e670ff5e2366da9dcd258aaefbbcc64874c999c33111ea
+  bytes: 4645
+- path: cen_pfs/cen_workshop_agreement.yaml
+  sha256: 5b746679af2242147706f6a3ba52a338244d299d3841daf891d759727df5371d
+  bytes: 258
+- path: cen_pfs/consolidated_identifier.yaml
+  sha256: 61e756917ad771df2977222dfe32e99a0658c459b62ee438c1b49bf7c5df7e44
+  bytes: 7573
+- path: cen_pfs/corrigendum.yaml
+  sha256: 9f90839a6765593927138a34f7a9d13c6898ddc864ff9ecead3ba461e60fac15
+  bytes: 4673
+- path: cen_pfs/european_norm.yaml
+  sha256: 7afaf6123a969bfec8428f75631c58ea9d85f042773c0d837d6273f88fdca99a
+  bytes: 14698
+- path: cen_pfs/european_prestandard.yaml
+  sha256: 49153afa1074fe57174874d04c31508d2b913269a21ab616340b7b4f9b44b6dd
+  bytes: 1713
+- path: cen_pfs/european_specification.yaml
+  sha256: 2416222b45b5f610dd749665566e285e1371be9a429dc209558d95be15e153f7
+  bytes: 506
+- path: cen_pfs/fragment.yaml
+  sha256: 5771ba8bbdb434d9f3239293c36c4a20a3df2a353fe19945c1cae912f1e0e1d8
+  bytes: 348
+- path: cen_pfs/guide.yaml
+  sha256: 5daad3361eb8cbb82744aadef6c119e5c0d85ffdef22701586c8fa99b8b47354
+  bytes: 2429
+- path: cen_pfs/harmonization_document.yaml
+  sha256: 1cb665e35fbd5bab5516c0fee78fd1bb66c827db5d0b9c88e55ddfa0e0133a57
+  bytes: 704
+- path: cen_pfs/technical_report.yaml
+  sha256: 36693be5b69c7d53615725ace82fc56c4ef48aa5601ee09fb19e3b95cffc0a81
+  bytes: 1847
+- path: cen_pfs/technical_specification.yaml
+  sha256: f5557db1f5bae0e1fa6dc469171c82173006a634cf4a7f52955b25dcbc93d028
+  bytes: 1041
 - path: cie/_normalization.yaml
   sha256: eec38d68a860e2c50b56d9f6725a53a37c5d74ba08aeb72e6c7d7e070bfff5b5
   bytes: 106
@@ -1199,6 +1250,9 @@ curated:
 - path: cen_cenelec/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
+- path: cen_pfs/_status.yaml
+  sha256: b985e141489f3eeff8192e417c6a980a0bca5db17bb8b06c3b0d1e1da01ca1c3
+  bytes: 497
 - path: cie/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
