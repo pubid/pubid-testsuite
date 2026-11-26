@@ -66,7 +66,7 @@ The corpus validates itself without the pubid gem:
     rake all               # both
 
 CI (`.github/workflows/validate.yml`) runs both on every push/PR.
-Status: VALIDATION PASS 43/43 flavors; SCHEMA VALIDATION PASS (99,709 documents).
+Status: VALIDATION PASS 52/52 flavors; SCHEMA VALIDATION PASS (126,024 documents).
 
 ### One-command corpus round
 
