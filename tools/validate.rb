@@ -8,7 +8,9 @@
 # Identity contract (duplicates are deliberately collapsed to one case,
 # so identity is set identity plus full accounting):
 #   A. reference-docs/{flavor} is byte-identical to the original
-#      spec/fixtures/{flavor} (diff -r, original source of truth).
+#      spec/fixtures/{flavor} (diff -r, original source of truth); a
+#      PFS-compiled flavor has no gem fixtures of its own, so its source
+#      is the coded parent's tree (tools/fixture_source.rb, #129).
 #   B. every distinct original pass/full line is recoverable in the
 #      corpus as: canonical representations.human, alias spelling,
 #      or debt input.
@@ -24,6 +26,7 @@
 
 require "yaml"
 require_relative "fixture_line"
+require_relative "fixture_source"
 require "set"
 require "open3"
 
@@ -101,7 +104,8 @@ module Validator
   end
 
   def raw_identical?(flavor)
-    original = File.join(GEM_FIXTURES, flavor)
+    original = File.join(GEM_FIXTURES,
+                         PubidTests::FixtureSource.source_flavor(flavor))
     copy = File.join(REPO, "reference-docs", flavor)
     return [false, "missing tree"] unless Dir.exist?(original) && Dir.exist?(copy)
 

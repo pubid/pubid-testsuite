@@ -20,6 +20,20 @@ plus the raw ground-truth text it derives from.
     visible, never dropped, never treated as expected failure.
   - `_negative.yaml` - inputs that must fail.
 
+## PFS attestation
+
+The five PFS-compiled flavors (`bsi_pfs`, `calconnect_pfs`, `cen_pfs`,
+`doi_pfs`, `etsi_pfs` - pubid#790) attest first-class like every other
+flavor. They ship no gem fixtures of their own: the row source is the
+coded parent's fixture tree (`tools/fixture_source.rb` maps each `_pfs`
+flavor to its parent), mirrored byte-identical at
+`reference-docs/<flavor>`. Every recorded identity surface is the
+compiled flavor's own parse, and its URNs are byte-identical with the
+coded parent's; rows outside the composition surface sit in `_debt.yaml`
+as the fail-closed rejection ledger. The per-flavor attestation ledger is
+`tests/{flavor}/_status.yaml` (`attestation: pfs-identity`,
+`source_flavor`, `unabsorbed_debt`).
+
 ## Contract rules
 
 1. `identifier` is the reference serializer's own mapping (framework

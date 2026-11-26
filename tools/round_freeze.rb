@@ -77,6 +77,7 @@
 require "yaml"
 require "fileutils"
 require "open3"
+require_relative "fixture_source"
 
 module RoundFreeze
   module_function
@@ -164,14 +165,18 @@ module RoundFreeze
   # --- preflight ---
 
   # A flavor is known when the testsuite carries it OR the pinned gem
-  # ships fixtures for it (a BRAND-NEW flavor: the round is what creates
-  # the testsuite's tests/<flavor> + reference-docs/<flavor> twins).
+  # ships fixtures for its row source (a BRAND-NEW flavor: the round is
+  # what creates the testsuite's tests/<flavor> + reference-docs/<flavor>
+  # twins; a _pfs flavor's row source is the coded parent's fixtures,
+  # tools/fixture_source.rb).
   def check_flavor!(flavor, gem_dir = nil)
     return if %w[tests reference-docs].any? do |root|
       Dir.exist?(File.join(REPO, root, flavor))
     end
-    return if gem_dir &&
-              Dir.exist?(File.join(gem_dir, "spec", "fixtures", flavor))
+    return if gem_dir && Dir.exist?(File.join(
+      gem_dir, "spec", "fixtures",
+      PubidTests::FixtureSource.source_flavor(flavor)
+    ))
 
     known = Dir[File.join(REPO, "reference-docs", "*")]
             .select { |p| File.directory?(p) }.map { |p| File.basename(p) }
@@ -409,11 +414,15 @@ module RoundFreeze
 
   # The rawCopy twin: the gem's layout is authoritative; the mirror
   # follows it wholesale (git restores anything). Verified byte-identical.
+  # A _pfs flavor mirrors its coded parent's fixture tree (the row
+  # source, tools/fixture_source.rb) - the compiled flavor has no gem
+  # fixtures of its own.
   def mirror!(flavor, gem_dir)
-    src = File.join(gem_dir, "spec", "fixtures", flavor)
+    source = PubidTests::FixtureSource.source_flavor(flavor)
+    src = File.join(gem_dir, "spec", "fixtures", source)
     dst = File.join(REPO, "reference-docs", flavor)
     abort "ROUND ABORT: #{src} missing - the gem at this ref carries no " \
-          "fixtures for #{flavor}" unless Dir.exist?(src)
+          "fixtures for #{source}, #{flavor}'s row source" unless Dir.exist?(src)
     FileUtils.rm_r(dst) if Dir.exist?(dst)
     FileUtils.cp_r(src, dst)
     out, status = Open3.capture2e("diff", "-r", src, dst)
@@ -423,12 +432,45 @@ module RoundFreeze
           "#{out.lines.first(10).join}"
   end
 
+  # The pfs-identity attestation ledger (tools/fixture_source.rb): the
+  # rows attest that the compiled flavor's every identity surface - its
+  # own parse, byte-identical URNs included - equals the coded parent's.
+  # Recorded once, flavor-level (MECE: the identity is not a per-row
+  # fact); _status.yaml is the curated ledger, so this is the column.
+  def pfs_status_yaml(flavor)
+    source = PubidTests::FixtureSource.source_flavor(flavor)
+    debt = File.join(REPO, "tests", flavor, "_debt.yaml")
+    unabsorbed = File.exist?(debt) ? Array(YAML.safe_load_file(debt)).size : 0
+    <<~YAML
+      ---
+      clean: true
+      known_mismatches: 0
+      known_schema_errors: 0
+      attestation: pfs-identity
+      source_flavor: #{source}
+      unabsorbed_debt: #{unabsorbed}
+      source_note: >-
+        Rows derive from the coded parent's fixtures (gem
+        spec/fixtures/#{source}, mirrored byte-identical at
+        reference-docs/#{flavor}); every recorded identity surface is the
+        compiled flavor's own parse, and its URNs are byte-identical with
+        the coded parent's (pubid#790). Unabsorbed rows sit in _debt.yaml
+        as the fail-closed rejection ledger.
+    YAML
+  end
+
   # A brand-new flavor has no curated ledger yet: write the clean one.
   # The gates that follow prove the zero-mismatch claim. An existing
   # ledger is curated state - listed, never rewritten.
   def bootstrap_status!(flavor)
     path = File.join(REPO, "tests", flavor, "_status.yaml")
     return "present (curated, untouched)" if File.exist?(path)
+
+    if PubidTests::FixtureSource.pfs_flavor?(flavor)
+      File.write(path, pfs_status_yaml(flavor))
+      return "created (clean ledger + the pfs-identity attestation, " \
+             "source #{PubidTests::FixtureSource.source_flavor(flavor)})"
+    end
 
     File.write(path, <<~YAML)
       ---
