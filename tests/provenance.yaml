@@ -78,19 +78,19 @@ oracle:
       wmo: b8c08b293b8f33d68a044c1672c5930f7015d02e29f4b5b2a1d7148971b79f2c
       xsf: b97d3fae6aebef1996c0e98c30d696ad7d6dabc5be9a8f6c9036bd8289e7aaf3
 repository:
-  commit: 31ccb26b23e35473f77ea4e3d7dfc91bee7ac365
+  commit: c1b38bc1a9c44d535d0abca14a635e5e18552301
   clean: false
   dirty_paths:
   - README.md
   - tests/provenance.yaml
-  - reference-docs/doi_pfs/
-  - tests/doi_pfs/
+  - reference-docs/etsi_pfs/
+  - tests/etsi_pfs/
 ruby:
   version: 3.4.8
 counts:
-  flavors: 51
-  payloads: 423
-  cases: 101306
+  flavors: 52
+  payloads: 427
+  cases: 126024
   aliases: 11896
   negatives: 851
 payloads:
@@ -592,6 +592,15 @@ payloads:
 - path: etsi/etsi_standard.yaml
   sha256: 9a9a738934a96b66bdc699a659b20a09585ba246abc7d70127da3296225213f9
   bytes: 7029227
+- path: etsi_pfs/amendment.yaml
+  sha256: de60359f0a42c19209cfb21493caa4b5c3844f801c1c34162a4e8fe4462ba5c3
+  bytes: 45732
+- path: etsi_pfs/corrigendum.yaml
+  sha256: 5841b6b2c603f36071519beca24bb263a10176dac845f14c6629b891f6beb76d
+  bytes: 19460
+- path: etsi_pfs/etsi_standard.yaml
+  sha256: e04707394301a7b8abc741c7892056414be25a9923ee18b7bb0c94a7c76c4670
+  bytes: 7274102
 - path: eu/_debt.yaml
   sha256: 4817ff519475c66bc79b1db114a228e9d4fcd6b5e08c5bea31e1b8569c39fed2
   bytes: 1566
@@ -1280,6 +1289,9 @@ curated:
 - path: etsi/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
+- path: etsi_pfs/_status.yaml
+  sha256: e404f68d9f6b5927f77dda0347fb71d3caa689b33f88e8f9478a11642fb2a271
+  bytes: 483
 - path: eu/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
