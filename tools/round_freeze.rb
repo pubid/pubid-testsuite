@@ -714,8 +714,9 @@ module RoundFreeze
       puts "   pre-round corpus:check: " \
            "#{pre_check_ok ? 'IDENTICAL' : 'DRIFT (this round resolves it)'}"
 
-      puts "-- mirror rawCopy twin " \
-           "(gem spec/fixtures/#{flavor} -> reference-docs/#{flavor})"
+      puts "-- mirror rawCopy twin (gem " \
+           "spec/fixtures/#{PubidTests::FixtureSource.source_flavor(flavor)} " \
+           "-> reference-docs/#{flavor})"
       # The twin is the exporter's INPUT (reference-docs/<flavor> is what
       # corpus:regen consumes), so it lands BEFORE the regen - a
       # brand-new flavor has no twin yet and would otherwise export an
