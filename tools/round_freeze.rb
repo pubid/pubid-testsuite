@@ -440,7 +440,12 @@ module RoundFreeze
   def pfs_status_yaml(flavor)
     source = PubidTests::FixtureSource.source_flavor(flavor)
     debt = File.join(REPO, "tests", flavor, "_debt.yaml")
-    unabsorbed = File.exist?(debt) ? Array(YAML.safe_load_file(debt)).size : 0
+    # DISTINCT inputs - the same accounting validate.rb applies (the
+    # payload carries one entry per fixture-line occurrence; the ledger
+    # records the rejection surface's row count, comparable with the gem
+    # parity ledger's unabsorbed rows).
+    unabsorbed = File.exist?(debt) ? Array(YAML.safe_load_file(debt))
+      .map { |e| e["input"] }.uniq.size : 0
     <<~YAML
       ---
       clean: true
