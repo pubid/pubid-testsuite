@@ -134,4 +134,20 @@ RSpec.describe RoundFreeze do
       expect(described_class.resolve_in_source(@repo, "v99.99.99")).to be_nil
     end
   end
+
+  describe ".mark_round_clone!" do
+    it "marks an assembled clone and is idempotent" do
+      dir = Dir.mktmpdir("round-clone-")
+      marker = File.join(dir, described_class::MARKER)
+
+      described_class.mark_round_clone!(dir)
+      expect(File).to exist(marker)
+
+      stamped = File.read(marker)
+      described_class.mark_round_clone!(dir)
+      expect(File.read(marker)).to eq(stamped)
+    ensure
+      FileUtils.remove_entry(dir) if dir
+    end
+  end
 end
