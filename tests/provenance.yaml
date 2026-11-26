@@ -5,21 +5,21 @@ schema: pubid-testsuite/provenance/1
 generated_by: tools/provenance.rb - do not edit
 generator:
   exporter: tools/export.rb
-  exporter_sha256: c796669236b762f52bb8e2e8463a4f825f84e84d2231c3734637f1cbaabe6400
+  exporter_sha256: d69f15521f0131fb8422460159d079f3c0d7c7c6e5ab5afabe5167fdc5de7b21
 oracle:
   gem: pubid
-  commit: 81b78688883342da5214676e529f10ef8fd85b4e
-  clean: true
-  dirty_paths: []
-  parsanol_version: "~> 1.5.0"
-repository:
-  commit: 6179c23b117dd33d24e82b5ec6832618bce157f1
+  commit: edcb63e3b89af8d6429f664c5d61420a16e4ab63
   clean: false
   dirty_paths:
-  - reference-docs/iho/SUMMARY.txt
-  - reference-docs/iho/identifiers/fail/standard.txt
+  - ".round-freeze"
+  parsanol_version: "~> 1.5.0"
+repository:
+  commit: b88fd1052e2fab6b7cc475477d7a813e26c7a7c9
+  clean: false
+  dirty_paths:
   - tests/iho/_debt.yaml
-  - tests/iho/standard.yaml
+  - tests/iho/_normalization.yaml
+  - tests/provenance.yaml
 ruby:
   version: 3.4.8
 counts:
@@ -678,14 +678,14 @@ payloads:
   sha256: 3a320f9cb2fdacb6bdc169971c2bb4300db7c0a986592886e5f2ceda0125ba01
   bytes: 14041
 - path: iho/_debt.yaml
-  sha256: 741497c83ace15542f8e2a1b01be3a417ab8ec6e79ea2e6b0a59cd13b5a72557
-  bytes: 57712
+  sha256: a0fb971203d158a5788fbc826cc227352b95bfac37065952a38886e2ae29ded3
+  bytes: 957
 - path: iho/_negative.yaml
   sha256: 2289bc64e062a2c9ae7fc697359c5cdafb7980118a314edb4971d5b72b281d25
   bytes: 396
 - path: iho/_normalization.yaml
-  sha256: b34fddb82455dfd343e55036ff96c2317ef0d6d4195847fee354cb4031256a51
-  bytes: 321
+  sha256: 727b8d59905e648d2cd4f11810176fd5cc4b1c931176cbecf185ec8ec02dbbd7
+  bytes: 2215
 - path: iho/bibliographic.yaml
   sha256: 98d09bad61068d862a1084927f485854eb3da62179513c3b88b33e2b77faf0d5
   bytes: 2484
