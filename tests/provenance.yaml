@@ -8,15 +8,27 @@ generator:
   exporter_sha256: d69f15521f0131fb8422460159d079f3c0d7c7c6e5ab5afabe5167fdc5de7b21
 oracle:
   gem: pubid
-  commit: edcb63e3b89af8d6429f664c5d61420a16e4ab63
+  commit: 9c69f8d5c06e2f3bd4037443b50ebaef380bce36
   clean: true
   dirty_paths: []
   parsanol_version: "~> 1.5.0"
 repository:
-  commit: 21f51036f48f9a6ad8cc02ecd42a87c29fe504e7
+  commit: 49bd78a9b68acd6a5323a110efd07940d8815118
   clean: false
   dirty_paths:
+  - reference-docs/iho/SUMMARY.txt
+  - reference-docs/iho/identifiers/fail/bibliographic.txt
+  - reference-docs/iho/identifiers/pass/bibliographic.txt
+  - reference-docs/iho/identifiers/pass/circular_letter.txt
+  - tests/iho/_negative.yaml
+  - tests/iho/bibliographic.yaml
+  - tests/iho/circular_letter.yaml
   - tests/provenance.yaml
+  - reference-docs/iho/identifiers/fail/bathymetric.txt
+  - reference-docs/iho/identifiers/pass/bathymetric.txt
+  - reference-docs/iho/identifiers/pass/capacity_building.txt
+  - tests/iho/bathymetric.yaml
+  - tests/iho/capacity_building.yaml
 ruby:
   version: 3.4.8
 counts:
@@ -678,17 +690,17 @@ payloads:
   sha256: a0fb971203d158a5788fbc826cc227352b95bfac37065952a38886e2ae29ded3
   bytes: 957
 - path: iho/_negative.yaml
-  sha256: 2289bc64e062a2c9ae7fc697359c5cdafb7980118a314edb4971d5b72b281d25
-  bytes: 396
+  sha256: 581a225fc48f7f2058252894908c7221d3c0cf5eaea8ce1850002e5bf249bd61
+  bytes: 394
 - path: iho/_normalization.yaml
   sha256: 727b8d59905e648d2cd4f11810176fd5cc4b1c931176cbecf185ec8ec02dbbd7
   bytes: 2215
-- path: iho/bibliographic.yaml
-  sha256: 98d09bad61068d862a1084927f485854eb3da62179513c3b88b33e2b77faf0d5
-  bytes: 2484
-- path: iho/circular_letter.yaml
-  sha256: d7e6a669b7766c7d7eeef66d77fd560c00c44d09ba1895e03f380a37abfd1a19
-  bytes: 1652
+- path: iho/bathymetric.yaml
+  sha256: 731ef7b1d93899b611dd16c7d5cc6d604c402f82ffa6c9a8a76a2731e2887051
+  bytes: 2559
+- path: iho/capacity_building.yaml
+  sha256: f62d222ed6c81318939be761eae23f016d698af52e4fed7db827b9bfe9d2cfee
+  bytes: 1740
 - path: iho/miscellaneous.yaml
   sha256: 70083ab4527a143a2576c66dba18455b4058b6fcc962f561479b41f660067f14
   bytes: 2771
