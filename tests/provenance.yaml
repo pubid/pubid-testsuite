@@ -9,16 +9,13 @@ generator:
 oracle:
   gem: pubid
   commit: edcb63e3b89af8d6429f664c5d61420a16e4ab63
-  clean: false
-  dirty_paths:
-  - ".round-freeze"
+  clean: true
+  dirty_paths: []
   parsanol_version: "~> 1.5.0"
 repository:
-  commit: b88fd1052e2fab6b7cc475477d7a813e26c7a7c9
+  commit: 21f51036f48f9a6ad8cc02ecd42a87c29fe504e7
   clean: false
   dirty_paths:
-  - tests/iho/_debt.yaml
-  - tests/iho/_normalization.yaml
   - tests/provenance.yaml
 ruby:
   version: 3.4.8
