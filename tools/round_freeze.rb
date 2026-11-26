@@ -284,7 +284,20 @@ module RoundFreeze
     end
     refuse_dirty_tree!("#{kind} tree at #{dest} (after pinning)", dest,
                        ignore: MARKER)
+    mark_round_clone!(dest)
     sha
+  end
+
+  # Marks an assembled clone so the NEXT round re-pins it instead of
+  # refusing it as a real checkout (the marker is untracked; the tree
+  # checks ignore it). Without it a second round in the same workspace
+  # aborts on the gem pin - and silently drops the grammar provenance
+  # block on the lenient path.
+  def mark_round_clone!(dest)
+    marker = File.join(dest, MARKER)
+    return if File.exist?(marker)
+
+    File.write(marker, "assembled by tools/round_freeze.rb\n")
   end
 
   def lenient_failure(kind, dest, why)
