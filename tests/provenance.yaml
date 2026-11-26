@@ -78,21 +78,21 @@ oracle:
       wmo: b8c08b293b8f33d68a044c1672c5930f7015d02e29f4b5b2a1d7148971b79f2c
       xsf: b97d3fae6aebef1996c0e98c30d696ad7d6dabc5be9a8f6c9036bd8289e7aaf3
 repository:
-  commit: 28c4e7d5393481a0b584fc7b113acc41ae162fd4
+  commit: 31ccb26b23e35473f77ea4e3d7dfc91bee7ac365
   clean: false
   dirty_paths:
   - README.md
   - tests/provenance.yaml
-  - reference-docs/cen_pfs/
-  - tests/cen_pfs/
+  - reference-docs/doi_pfs/
+  - tests/doi_pfs/
 ruby:
   version: 3.4.8
 counts:
-  flavors: 50
-  payloads: 420
-  cases: 101303
-  aliases: 11893
-  negatives: 847
+  flavors: 51
+  payloads: 423
+  cases: 101306
+  aliases: 11896
+  negatives: 851
 payloads:
 - path: adobe/_normalization.yaml
   sha256: 6c781ba0c6ca52f23abb96b01ecdcee22924b3940d311a7463860c4a14149b95
@@ -562,6 +562,12 @@ payloads:
 - path: doi/resource.yaml
   sha256: 31d7941c4e1465fde00e1ab92469a9a222bce84a214bf35f59fb9ad766e97878
   bytes: 848
+- path: doi_pfs/_negative.yaml
+  sha256: f98f16b6e263c3fe7bc0fc5d1ab0b6ab9c57c55ddc80262e2e0e35d895316750
+  bytes: 396
+- path: doi_pfs/resource.yaml
+  sha256: 78eb6633c2d3ef510e5247bf745f222e50eeb416439ea21a7c38b35ed9d1b80a
+  bytes: 860
 - path: easc/pmg.yaml
   sha256: 47cb7a8ca643373f23f783974a2f7dcfe618a84bb58358961b8f6c2f33d2d2da
   bytes: 10990
@@ -1262,6 +1268,9 @@ curated:
 - path: doi/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
+- path: doi_pfs/_status.yaml
+  sha256: ee2181a50b0fb3634c7c7e4eb690c73c2b142d81b49bc124ce508fbddac97ac2
+  bytes: 480
 - path: easc/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
