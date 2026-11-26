@@ -1,0 +1,189 @@
+---
+- id: cen_pfs.debt.b6d2d72e2a87
+  input: CLC GUIDE 1
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Guide'', ''ISO'', ''IEC'', ''CISPR'', [\x30-\x39], ''TR'',
+    ''TS''] at line 1 char 5.'
+- id: cen_pfs.debt.a53e522ec58f
+  input: CLC GUIDE 1:2022
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''Guide'', ''ISO'', ''IEC'', ''CISPR'', [\x30-\x39], ''TR'',
+    ''TS''] at line 1 char 5.'
+- id: cen_pfs.debt.1cb63de73326
+  input: CEN-CLC Guide 32:2016
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''/'', '' ''] at line 1 char 4.'
+- id: cen_pfs.debt.1c4cb93bfc4f
+  input: FprEN 50600‑2‑4
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], '' '', ''-'', '' V'', '':'', ''/'', ''+''] at line
+    1 char 12.'
+- id: cen_pfs.debt.5c642a0151dc
+  input: EN ISO 13485:2016/AC:2016# (first corrigendum)
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''-'', ''/'', ''+'', '' FRAG''] at line 1 char 26.'
+- id: cen_pfs.debt.624fa675eeac
+  input: EN ISO 13485:2016/AC:2017# (second corrigendum)
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''-'', ''/'', ''+'', '' FRAG''] at line 1 char 26.'
+- id: cen_pfs.debt.14a5a13cb159
+  input: EN ISO 13485:2016/AC:2018# (third corrigendum)
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''-'', ''/'', ''+'', '' FRAG''] at line 1 char 26.'
+- id: cen_pfs.debt.51dd44032b1b
+  input: EN 527­2:2016+A1:2019
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], '' '', ''-'', '' V'', '':'', ''/'', ''+''] at line
+    1 char 7.'
+- id: cen_pfs.debt.128a287f39c9
+  input: EN 60038 AMD1 FRAG2
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39]] at line 1 char 10.'
+- id: cen_pfs.debt.7912269d0f5c
+  input: CECC 16000:1979
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''FprEN'', ''prEN'', ''CWA'', ''HD'', ''ES'', ''CR'', ''ENV'',
+    ''EN'', ''CEN'', ''CLC''] at line 1 char 1.'
+- id: cen_pfs.debt.db5c9dda470a
+  input: CECC 16100:1980
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''FprEN'', ''prEN'', ''CWA'', ''HD'', ''ES'', ''CR'', ''ENV'',
+    ''EN'', ''CEN'', ''CLC''] at line 1 char 1.'
+- id: cen_pfs.debt.242d25cddad1
+  input: HD 384.7.711 S1:2003
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], '' '', ''-'', '' V'', '':'', ''/'', ''+''] at line
+    1 char 7.'
+- id: cen_pfs.debt.fecdf5fd7842
+  input: HD 629.3 S1:2024
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], '' '', ''-'', '' V'', '':'', ''/'', ''+''] at line
+    1 char 7.'
+- id: cen_pfs.debt.77b409ab64bb
+  input: HD 629.2 S3:2024
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], '' '', ''-'', '' V'', '':'', ''/'', ''+''] at line
+    1 char 7.'
+- id: cen_pfs.debt.f67d561eb9a1
+  input: HD 60364-8-82 (AS BS 7671)
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], ''-'', '' V'', '':'', ''/'', ''+''] at line 1 char
+    14.'
+- id: cen_pfs.debt.78ffc73b8a18
+  input: HD 629.1 S3:2019
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], '' '', ''-'', '' V'', '':'', ''/'', ''+''] at line
+    1 char 7.'
+- id: cen_pfs.debt.8da03366d8c5
+  input: HD 60364-8-1:2019 - TC
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''/'', ''+''] at line 1 char 18.'
+- id: cen_pfs.debt.8da03366d8c5
+  input: HD 60364-8-1:2019 - TC
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''/'', ''+''] at line 1 char 18.'
+- id: cen_pfs.debt.0c9218772e92
+  input: HD 60364-8-2:2011+A11:2019 - TC
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''/'', ''+'', '' FRAG''] at line 1 char 27.'
+- id: cen_pfs.debt.0c9218772e92
+  input: HD 60364-8-2:2011+A11:2019 - TC
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''/'', ''+'', '' FRAG''] at line 1 char 27.'
+- id: cen_pfs.debt.faa85d950bd9
+  input: HD 60269-2 AMD2
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], ''-'', '' V'', '':'', ''/'', ''+''] at line 1 char
+    11.'
+- id: cen_pfs.debt.fbaf53b4c9dc
+  input: HD 60269-3 AMD2
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39], ''-'', '' V'', '':'', ''/'', ''+''] at line 1 char
+    11.'
+- id: cen_pfs.debt.43d910a473b3
+  input: prEN 13306 rev
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39]] at line 1 char 12.'
+- id: cen_pfs.debt.03270907bf82
+  input: EN 285:2015/FprA1
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [''AC'', ''A''] at line 1 char 13.'
+- id: cen_pfs.debt.641a092acc0f
+  input: prEN 285 rev
+  expect:
+    error:
+      code: unclassified
+  notes: 'unparsed ground-truth fixture: Pubid::Errors::ParseError: Failed to match:
+    expected one of [[\x30-\x39]] at line 1 char 10.'
