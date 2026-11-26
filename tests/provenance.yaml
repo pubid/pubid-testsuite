@@ -9,11 +9,12 @@ generator:
 oracle:
   gem: pubid
   commit: a76c7616edb62632e303fcc4370737d2529f854e
-  clean: true
-  dirty_paths: []
+  clean: false
+  dirty_paths:
+  - ".round-freeze"
   parsanol_version: "~> 1.5.0"
   grammar:
-    commit: 4ceffc7637d0a88d8e8a74d3ec4f4ad6ec0e4111
+    commit: cf64b0366591dbe86aaf28ef0d1fc97b2ce12ee6
     artifact_sha256:
       adobe: bbe16cb1ac23cc17c743c7fe6c2b84e85e663cd5f84a33355b7cd3126784d142
       aiee: 22d5a9715050bcb7e0ab270d8c9a12063ef727b62470f22f645f269f857baa14
@@ -77,21 +78,21 @@ oracle:
       wmo: b8c08b293b8f33d68a044c1672c5930f7015d02e29f4b5b2a1d7148971b79f2c
       xsf: b97d3fae6aebef1996c0e98c30d696ad7d6dabc5be9a8f6c9036bd8289e7aaf3
 repository:
-  commit: d17e36c10754f06b5211422da7b8ec4cb0fcbc7b
+  commit: 0cdb79db622b9131aab1fe8b2acc59792ce3e4d1
   clean: false
   dirty_paths:
   - README.md
   - tests/provenance.yaml
-  - reference-docs/bsi_pfs/
-  - tests/bsi_pfs/
+  - reference-docs/calconnect_pfs/
+  - tests/calconnect_pfs/
 ruby:
   version: 3.4.8
 counts:
-  flavors: 48
-  payloads: 399
-  cases: 100924
+  flavors: 49
+  payloads: 402
+  cases: 101113
   aliases: 11893
-  negatives: 825
+  negatives: 833
 payloads:
 - path: adobe/_normalization.yaml
   sha256: 6c781ba0c6ca52f23abb96b01ecdcee22924b3940d311a7463860c4a14149b95
@@ -375,6 +376,12 @@ payloads:
 - path: calconnect/standard.yaml
   sha256: 8663bd90f031e1ff4f352f28172b6446cd869ee0a625b3b83b2298b7dd130f6f
   bytes: 42772
+- path: calconnect_pfs/_negative.yaml
+  sha256: 330c3026827de133eeefc5e48dbac8aab8a6f43ff78656998027049f12f59917
+  bytes: 857
+- path: calconnect_pfs/standard.yaml
+  sha256: 9874a8bcd746cd9479de19028e6931076face8657e20830494f4319725c857ae
+  bytes: 43528
 - path: ccsds/base.yaml
   sha256: e2aa9a974c844b4f5e6fe6af3c44a80471b2098d684251f7f4b1a65a800bb722
   bytes: 99685
@@ -1178,11 +1185,14 @@ curated:
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
 - path: bsi_pfs/_status.yaml
-  sha256: ee04ca8842df2a81f89e919e52d636e8ab4a735c6df6a6615e103eea98253114
-  bytes: 483
+  sha256: c435aa5cb4ad7c69d9498bcd97ff3ac10a286e118da524672365dbe668c9df57
+  bytes: 482
 - path: calconnect/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
+- path: calconnect_pfs/_status.yaml
+  sha256: 42e3ca0e9b8bbea57c9f2688c8afa375949f958eec83f45930bf033dc59aed6e
+  bytes: 501
 - path: ccsds/_status.yaml
   sha256: da8b5c732041f6936d83e8f046b33824cea9c87e149da4d107ae8efd143a050f
   bytes: 59
