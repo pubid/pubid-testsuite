@@ -12,7 +12,9 @@
 #   RENDERED identity string (the reference renders a bounded identity by
 #   design, e.g. ieee relationship narratives are dropped); the original
 #   spelling becomes an alias that must render to the same human form.
-# - errors use neutral codes; urn recorded only when emitted.
+# - errors use neutral codes; urn recorded only when emitted or
+#   attested by a fixture triple (the attestation is gated: verify
+#   compares the recorded urn with the reference's to_urn).
 # - reconciliation is set-based: every distinct fixture line must be
 #   consumed as a canonical input, an alias spelling, or debt.
 
@@ -81,20 +83,28 @@ module Exporter
   # Fixture line semantics (identical in tools/validate.rb):
   # - '#' lines: comments in pass/full; in fail files they wrap
   #   identifiers as '#ID# Error...' (data only when a second '#' exists).
-  # - '!' lines: the classifier's failure annotation
-  #   '!ORIGINAL!NORMALIZED' - each non-empty half is a candidate
-  #   identifier (parsed halves become cases/aliases; unparsed halves
-  #   debt with the decoded input - never the glued blob).
+  # - '!' lines: directives, decoded by PubidTests::FixtureLine - the
+  #   2-half '!RAW!FIXED' annotation (each half a candidate identifier;
+  #   parsed halves become cases/aliases; unparsed halves debt with the
+  #   decoded input - never the glued blob) and the gem #776 iho triple
+  #   '!CITATION!EXPECTED!URN' (EXPECTED is the input; the URN is an
+  #   attested representation, never an input - the #124 incident).
   # Fixture line semantics live in PubidTests::FixtureLine (shared with
-  # tools/validate.rb): '#' lines are comments in pass/full files; only
-  # fail files wrap data as '#ID# Error...'. '!' lines are fix/normalize
-  # directives '!RAW!FIXED'.
-  def lines_from(path)
+  # tools/validate.rb).
+  def fixture_entries(path)
     category = File.basename(File.dirname(path)).to_sym
     File.readlines(path).filter_map do |raw|
-      PubidTests::FixtureLine.new(raw, flavor: :unknown,
-                                  category: category).identifier
+      line = PubidTests::FixtureLine.new(raw, flavor: :unknown,
+                                         category: category)
+      id = line.identifier
+      next unless id
+
+      [id, line.attested_urn]
     end
+  end
+
+  def lines_from(path)
+    fixture_entries(path).map(&:first)
   end
 
   # Pending normalization rules '!RAW!FIXED' from the raw fixtures.
@@ -161,7 +171,7 @@ module Exporter
     debt = []
     groups = {}
     pass_files.each do |path|
-      lines_from(path).each do |input|
+      fixture_entries(path).each do |input, attested_urn|
         stats[:fixture_lines].add(input)
         record, error = build_case(mod, input)
         if error
@@ -175,7 +185,11 @@ module Exporter
         end
         key = JSON.generate(record["identifier"]) +
               record["representations"]["human"]
-        (groups[key] ||= { "record" => record, "inputs" => [] })["inputs"] << input
+        group = (groups[key] ||= { "record" => record, "inputs" => [] })
+        group["inputs"] << input
+        # The triple's URN expectation rides with the group; finalize
+        # attests it onto the surviving record's representations.
+        group["urn"] = attested_urn if attested_urn
       end
     end
     cases = finalize(groups, flavor, nil, stats, review_map)
@@ -305,6 +319,10 @@ module Exporter
     groups.values.sort_by { |g| g["record"]["representations"]["human"] }
           .each_with_index.map do |group, index|
       record = group["record"]
+      # Attestation: the fixture's URN expectation is the recorded urn
+      # representation (verify re-parses the human form and compares
+      # to_urn against it), overriding any computed value.
+      record["representations"]["urn"] = group["urn"] if group["urn"]
       canonical = record["representations"]["human"]
       record["id"] = format("%s.%s.%04d", flavor, type_of(record), index + 1)
       record["style"] = style_for(canonical) if record["identifier"]
